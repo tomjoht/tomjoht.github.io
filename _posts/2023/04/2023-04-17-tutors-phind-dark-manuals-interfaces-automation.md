@@ -11,6 +11,9 @@ rebrandly: https://idbwrtng.com/tutors-phind-dark-manuals-interfaces-automation
 description: "Here are links for my April 17, 2023 newsletter."
 ---
 
+* TOC
+{:toc}
+
 ## Sal Khan explains why GPT-4 is ready to be a tutor
 
 For all the anxiety educators feel about AI tools upending educational curriculums and allowing students to cheat, Sal Khan from Khan Academy says AI chatbots can provide a tutoring assistant that help students understand their classes and homework. Khan Academy developed an “AI-assisted tutor” called [Khanmigo](https://www.khanacademy.org/khan-labs) with a special training in math. “In a math problem, for example, Khanmigo can detect not just whether a student got an answer right or wrong, but also where they may have gone astray in their reasoning.” 

@@ -7,6 +7,9 @@ keywords: engineering workflows
 description: "I hosted a technical writing booth at my 8th-grade daughter's career fair day, but almost no one stopped by. Deflated, I tried to analyze why. I realized that in becoming an adult and family provider, my world-view shifted to a focus on survival and profit, which is far from the world-view of students."
 ---
 
+* TOC
+{:toc}
+
 ## Technical writing booth at Career Fair day
 
 The other week I volunteered at a career fair at my daughter's school. My oldest daughter is in 8th grade, and there were about 300 students who visited the various career booths in a gymnasium.

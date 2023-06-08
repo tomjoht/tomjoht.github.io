@@ -7,6 +7,9 @@ keywords:
 description: "In this Write the Docs Podcast episode, we're joined by Beth Aitman to talk about what happened with the Stack Overflow Documentation Beta. What did Stack Overflow try to do with documentation, and why did they abandon the effort? Why did their effort to crowdsource docs fail but succeed so well with forums and niche content? Additionally, we discuss the difficulties of creating good documentation with open source projects. A recent survey found that incomplete or outdated documentation is the number one issue with open source projects. Why? What makes it so difficult to create documentation on an open source project?"
 ---
 
+* TOC
+{:toc}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BieQXHmdK0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can see the original post here: [WTD Episode 8: Stack Overflow's Documentation Failure and Open Source Challenges](https://podcast.writethedocs.org/2017/08/22/stack-overflow-failure-open-source-challenges/).

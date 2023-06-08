@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "A <i>New York Times</i> article about Luddite teens who rejected their smartphones made me reflect on my own journey away from smartphones and the complexities of discerning how to adopt transformative technology in my life. In this conclusion to the series, I highlight key learnings and realizations throughout the year, including how the project changed me for the better."
 ---
 
+* TOC
+{:toc}
+
 ## Luddite teens {#luddite-teens}
 
 The _New York Times_ recently published an article titled [Luddite Teens Don't Want Your Likes](https://www.nytimes.com/2022/12/15/style/teens-social-media.html) (Vadukul), which brought back nostalgic memories for me of the six weeks I spent without a smartphone. 

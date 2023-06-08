@@ -7,6 +7,9 @@ description: "I added a new section to my API documentation course called The Jo
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jobreqstechwritersapi.png
 ---
 
+* TOC
+{:toc}
+
 In postings for API documentation jobs, you'll often see requirements like this:
 
 >"Ability to read code in one or more programming languages, such as Java, C++, or Python."

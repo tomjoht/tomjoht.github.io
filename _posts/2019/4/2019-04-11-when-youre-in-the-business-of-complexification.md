@@ -10,6 +10,9 @@ redirect_from:
 - /2019/04/10/before-you-celebrate-turbo-tax
 ---
 
+* TOC
+{:toc}
+
 As I was doing my taxes this year with TurboTax, I couldn't help but be impressed by the way TurboTax incorporates online help directly into its UI. For an extremely confusing topic, TurboTax seems to add just the right amount of help in a convenient, easily accessible way. It's easy to celebrate their online app as a great way to do help.
 
 But after I championed TurboTax a bit with my wife, she brought up the counter-argument, explaining that they want you to think that you can't possibly do taxes on your own. You become entirely dependent on them to help you through the confusing tax landscape.

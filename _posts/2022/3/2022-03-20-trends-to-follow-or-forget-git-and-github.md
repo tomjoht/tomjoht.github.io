@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on Git and GitHub."
 ---
 
+* TOC
+{:toc}
+
 ## What is Git and GitHub?
 
 [Git](https://git-scm.com/) is version control for managing content, mostly code. However, you can also use Git to manage documentation content when that content is stored as plain text files, such as Markdown, HTML, or XML files. Git allows distributed teams to work on the same central source by checking content out, working in branches, and merging those branches back into the source. Before version control systems like Git, tech writers often used checkin/checkout systems built into SharePoint, or CMSs that would lock files that were in use, or had to resort to other more manual systems for collaborating on content.

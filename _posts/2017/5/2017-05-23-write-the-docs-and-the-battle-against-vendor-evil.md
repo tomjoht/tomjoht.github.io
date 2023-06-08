@@ -9,6 +9,9 @@ bitlink: "http://bit.ly/wtdconfwriteup"
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdportlandstorm.png
 ---
 
+* TOC
+{:toc}
+
 ## Origins of WTD
 
 First, to understand [Write the Docs](http://www.writethedocs.org/conf/na/2017/), you must read the [origin story behind the WTD conference](http://www.writethedocs.org/origin-story/). In short, a group of developers who write documentation felt a need to get together as a community to discuss best practices and techniques, to share tips and practical guidelines. They weren't aware of other documentation-focused groups or communities, so they decided to start the conference as a way to help "coalesce" others like them who were also writing documentation. You can read the [original manifesto](http://www.writethedocs.org/guide/about/vision/) to get a sense of the group's purpose. Here's the opening paragraph:

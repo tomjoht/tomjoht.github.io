@@ -14,6 +14,9 @@ bitlink: https://idratherbewriting.site/usersasproducers
 description: "How can users shape and influence the documentation you're producing? In this podcast, I chat with Nupoor Ranade, PhD candidate at North Carolina State University, about how the roles of technical writers are changing. Instead of writers authoring content for passive users, users are actively directing and shaping the knowledge that writers produce. In this podcast, we look at ways docs-as-code workflows are facilitating that shift in roles. This podcast is more of a conversation, where I first ask Nupoor a series of questions, and then she asks me questions. There's also a transcript of the podcast."
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 

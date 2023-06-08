@@ -15,6 +15,9 @@ date: 2018-10-03T03:13:37+00:00
 bitlink: http://bit.ly/genandspecialisttrendspart5
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagGeneralistSpecialists.html %}
 
 ## Information usability

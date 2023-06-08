@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.com/prodoverviewsbalance
 description: "In my experience writing documentation, at least two topics seem to be frequently neglected: <a href='/learnapidoc/docapis_doc_overview.html'>product overviews</a> and <a href='/learnapidoc/docapis_doc_getting_started_section.html'>getting started tutorials</a>. Not all the time &mdash; many companies also have great product overviews and excellent getting started tutorials. But I often have the misfortune of arriving at documentation portals and feeling lost, and I don't find much help in the product overview. If there's a getting started tutorial (not usually), my success rate for getting through it is low."
 ---
 
+* TOC
+{:toc}
+
 {{site.include.alerts.note}}10/29/2021 note:** For a more recent version of this presentation, see <a href='https://idratherbewriting.com/blog/presentation-on-product-overviews-and-get-started-tutorials'>Recorded presentation -- Best practices in API docs: Product overviews and getting started tutorials</a>.(/).{{site.include.alerts.end}}
 
 Both a confusing product overview and no getting started tutorial can demotivate a user's progress through docs, prompting them to seek help elsewhere, such as third-party sources, for more straightforward information.

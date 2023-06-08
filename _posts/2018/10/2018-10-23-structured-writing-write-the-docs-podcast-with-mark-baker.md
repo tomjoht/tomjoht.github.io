@@ -8,6 +8,9 @@ description: "In this Write the Docs Podcast episode, we chat with Mark Baker ab
 bitlink: http://bit.ly/wtd17structuredwriting
 ---
 
+* TOC
+{:toc}
+
 <iframe width="640" height="385" src="https://www.youtube.com/embed/dpg5wZtfMgk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 You can view the podcast episode on the [Write the Docs Podcast site here](https://podcast.writethedocs.org/2018/10/22/structured-authoring-mark-baker/).

@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/10xtechwriterdebunk
 description: "A recent episode of Command Line Heroes explores the negatives of toxic 10X coders. I think a change in mindset to acknowledge how each of us climbed to our levels can help avoid some of the toxicity inherent in 10X."
 ---
 
+* TOC
+{:toc}
+
 ## Recent Command Line Heroes podcast on 10X
 
 One of my favorite podcasts is [Command Line Heroes](https://www.redhat.com/en/command-line-heroes/) by Red Hat. In season 5, episode 3, [What Kind of Coder Will You Become?](https://www.redhat.com/en/command-line-heroes/season-5/what-kind-of-coder-will-you-become) the hosts pick apart the myth of the 10X technical writer.

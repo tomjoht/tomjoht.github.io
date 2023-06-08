@@ -9,6 +9,9 @@ bitlink: https://idratherbewriting.site/
 description: "I added another topic to the Documenting Code section in my API documentation course. This new topic is called <a href='/learnapidoc/docapiscode_research_on_documenting_code.html'>Research on documenting code</a> and summarizes/discusses two academic articles on documenting code."
 ---
 
+* TOC
+{:toc}
+
 Here's a summary of the content:
 
 > Before diving in to how to document code, let’s first explore some research that has been done on best practices for documenting code, as this can inform our direction and approach. A couple of academic articles stand out as noteworthy for this effort:

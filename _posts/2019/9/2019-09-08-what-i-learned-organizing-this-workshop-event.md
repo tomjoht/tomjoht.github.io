@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/organizingworkshops
 description: "This past week I held my first API documentation workshop in which I organized it from start to finish myself (handling registration, venue, dates, catering, marketing, setup, and other details), and now I'd like to reflect a bit on it."
 ---
 
+* TOC
+{:toc}
+
 ## What was different this time
 
 Like I mentioned in my [earlier announcement](/2019/07/08/upcoming-api-documention-workshop-mountainview), although I've given more than a dozen API documentation workshops in the past, they were always organized through some other group, such as an STC conference or chapter, or were private workshops through companies, or other groups in which I was brought in to provide the instruction only. Just show up, teach the workshop, and leave. Nothing more.

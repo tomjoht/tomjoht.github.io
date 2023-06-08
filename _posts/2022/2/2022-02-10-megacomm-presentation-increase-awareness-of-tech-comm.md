@@ -13,6 +13,9 @@ podcast_duration: "52:55"
 podcast_length: 41440077
 ---
 
+* TOC
+{:toc}
+
 ## Presentation description
 
 > **How to increase awareness of tech comm inside corporate walls**

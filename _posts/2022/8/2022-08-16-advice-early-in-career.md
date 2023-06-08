@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/career-advice-new
 description: "I recently spoke to some technical writing interns at my work on the topic of career advice. The topic was as follows: What advice would you give to those just starting out their technical writing career? Imagine turning back the clock 20 years. What advice would be most helpful? This post expands on some of these ideas. It also gave me an opportunity to play around with Midjourney, an art AI tool that automatically creates images based on text prompts. (For fun, I included the text prompts as captions.) Unlike my other posts, this post is more visual, as it was originally intended more as a slide deck than a blog post."
 ---
 
+* TOC
+{:toc}
+
 ## Just starting out your career
 
 If you're just starting your career as a tech writer, this post is for you. You could be a student just graduating college, or someone who is transitioning from another career. There are many options and challenges at this point in your path.

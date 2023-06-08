@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.com/tclinksapril4
 description: "The following are a few interesting links related to tech comm I've been reading this week."
 ---
 
+* TOC
+{:toc}
+
 ## Why Engineers Need To Write, by Ryan Peterman
 
 Ryan Peterman says that as he moved up to a mid-level engineer role, he started writing more. He found that writing helped him scale his influence&mdash;guiding other writers, providing reviews of code, authoring design docs, and more. He notes: "At the end of the day, you can only ship so much code by yourself. You can have much more impact by influencing others to ship what matters most. Writing is the most scalable way to influence others." The article is short and sweet but perfectly underscores the influence that writing, aka documentation, can have on engineering. Writing provides a powerful influence on the engineering coding activities all around us. 

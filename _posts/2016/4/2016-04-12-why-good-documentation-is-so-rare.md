@@ -7,6 +7,9 @@ description: "Good documentation is hard to write for a number of reasons -- ope
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/iterativedocfeedbackthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Background
 Lately I've been trying to learn Android, and I've been following various tutorials. Finding a good Android tutorial that walks me through the basics in a friendly, easy-to-follow way is difficult, especially since I'm not the target audience (i.e., a developer) of most Android documentation.
 

@@ -10,6 +10,9 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 ---
 
+* TOC
+{:toc}
+
 ## Recognizing a problem
 
 Last week at work, a colleague asked if anyone might be interested in participating in the corporate-wide "Read a book a week" challenge, which is an effort to encourage employees to read more. I thought, I should do this. And it got me thinking about something that's been troubling me for some time now &mdash; my attention span seems to be fragmented.

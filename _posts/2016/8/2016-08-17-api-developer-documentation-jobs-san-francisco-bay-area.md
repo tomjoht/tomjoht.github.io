@@ -20,6 +20,9 @@ podcast_length: 53927298
 bitlink: http://bit.ly/huntingdevdocjobsbay
 ---
 
+* TOC
+{:toc}
+
 ## Presentation description
 
 Andrew gave a presentation titled "Hunting for Dev Doc Work Around the Bay" on August 15, 2016 at the [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/07/21/august-15-hunting-for-dev-doc-work-around-the-bay/

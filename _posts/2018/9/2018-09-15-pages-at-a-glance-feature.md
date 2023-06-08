@@ -8,6 +8,9 @@ description: "Showing users the 'Pages at a glance' when they click a folder tit
 bitlink: http://bit.ly/firsttwosentencestc
 ---
 
+* TOC
+{:toc}
+
 At my work, an info architect in another group has been encouraging me to create overviews when users click the folder title in a sidebar. As an example, with the docs from Digital Ocean, when you click the folder title, you see an overview topic that provides a brief intro to the folder's content along with a list of pages and summaries:
 
 <figure><a target="\_blank" class="noExtIcon" href="https://www.digitalocean.com/docs/networking/dns/"><img class="docimage 6 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/digitaloceansummaries.png" alt="Showing sections at a glance" /></a><figcaption>Showing sections at a glance</figcaption></figure>

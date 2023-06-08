@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "In my previous post, <a href='/trends/reading-long-documents.html'>Pulling readers through long documents</a>, I explained that almost no one will read long documents, in my experience. It seems only task-based information demands enough payoff to make reading worth it to users. In this post, I'll explore a couple of examples where high-level information is essential and used, but in another light. The two examples are Macbeth and Elon Musk."
 ---
 
+* TOC
+{:toc}
+
 ## Macbeth {#macbeth}
 
 Last month my second-oldest child Callie, a senior in high school, came home stressed out about an enormous reading assignment for *Macbeth*. The reading assignment included dozens of questions about the author, context, plot, key quotations, interpretation, and more. Yet as Callie tried to read *Macbeth*, the text seemed incomprehensible.

@@ -8,6 +8,9 @@ description: "The problem with adopting bleeding-edge tools is that they usually
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/complexityoptions.png
 ---
 
+* TOC
+{:toc}
+
 ## What are the bleeding-edge tools?
 
 In a recent discussion on the [Techw-l listserv](http://www.techwr-l.com/archives/), an academic was looking to find advice about the "bleeding-edge" trends in help authoring tools. Academics want to prepare students to succeed in the job market once they graduate, and since academics usually aren't focused on tools, this person was looking for guidance.

@@ -13,6 +13,9 @@ podcast_length: "6580995"
 transcript: "transcripts/2020-07-12-writing-productivity-tip-focus-sessions.html"
 ---
 
+* TOC
+{:toc}
+
 I recorded a short videocast for this post:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PYqAPtAKc5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

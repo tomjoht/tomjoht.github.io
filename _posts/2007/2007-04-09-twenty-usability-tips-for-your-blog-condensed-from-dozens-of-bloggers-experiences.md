@@ -14,6 +14,9 @@ redirect_from:
   - /2007/04/09/twenty-usability-tips-for-your-blog-%E2%80%94-condensed-from-dozens-of-bloggers-experiences/
 ---
 
+* TOC
+{:toc}
+
 ## 1. Pick a topic for your blog
 
 Pick a general topic you are passionate about, and stick with that focus as you post. Near the title of your blog, identify your blog's focus so new visitors can know immediately whether your blog aligns with their interests. In the following image, the blog identifies its theme in the tagline and provides an explanation of the topic on the home page. Paradoxically, having a specific focus actually gives you more to write about. Like a novel, your blog takes on direction and purpose.

@@ -7,6 +7,9 @@ description: "I usually start the beginning of the year by reviewing metrics for
 bitlink: http://bit.ly/comprehensivemetrics2017
 ---
 
+* TOC
+{:toc}
+
 If you want to skip over the data details, jump down to the [Conclusions](#conclusions).
 
 ## Number of page views and sessions

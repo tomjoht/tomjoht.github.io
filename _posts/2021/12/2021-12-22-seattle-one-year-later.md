@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/oneyearlater
 description: "A few people have asked me how I like Seattle and how things are going after the move. Given that it's been a year since we moved to Seattle, I thought this would be a good topic to write about. Overall, the move was a good decision, and we've all adjusted well. As I head into the next year, one thing that concerns me is that I've been writing less, so in 2022 I plan to rekindle that energy."
 ---
 
+* TOC
+{:toc}
+
 ## When we moved
 
 We moved from Santa Clara, California, to Renton, Washington (South Seattle) last winter, on December 19, and I transitioned jobs from Amazon to Google at the same time. I brought my entire family (wife + 4 children) in tow to the new adventure. We'd been in California for 8 years before that. Before California, we lived for 5 years in Utah, and before that, for about 5 years in Florida. (For more on my career trajectory, see [My life story](/blog/life-story-what-shapes-your-lifes-trajectory/).)

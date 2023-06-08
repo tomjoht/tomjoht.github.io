@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/smartbear2020apireport
 description: "SmartBear recently published its 2020 The State of API report, which collected responses to 52 questions from 3,500+ respondents. Reading this report will make any technical writer feel like he or she has an important role with API docs. However, the report also notes that 'API documentation represents big opportunity for improvement,' which I think suggests that many existing processes for documentation in the software are kind of broken."
 ---
 
+* TOC
+{:toc}
+
 ## Report overview
 
 You can download the SmartBear report here: [2020 The State of API report](https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/) (some information fields are required before you can download the PDF). The report is short, but if you're pressed for time, just read "API Strategies" (pgs 10-18) and "API Documentation" (pgs 42-47).

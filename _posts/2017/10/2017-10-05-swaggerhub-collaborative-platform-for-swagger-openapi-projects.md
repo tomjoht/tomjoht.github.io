@@ -14,6 +14,9 @@ podcast_duration: "16:47"
 podcast_length: 13739596
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## A world standard for describing REST APIs

@@ -14,6 +14,9 @@ transcript: "transcripts/2020-06-23-developer-portal-strategies-for-complex-land
 description: "Recently I chatted with Kristof van Tomme, CEO and co-founder of Pronovix, about a topic that's become increasingly relevant in the past several months: how to deal with complex, rapidly evolving landscapes. Specifically, we focus on developer portal strategies that involve finding a balance between constraints and flexibility. Too many constraints reduces your ability to adapt to uncertain changes that might require innovative, unknown solutions. Too much flexibility might not lead to any coherent, overarching story about how to use your APIs in an integrated way toward a business goal."
 ---
 
+* TOC
+{:toc}
+
 ## Audio
 
 {% include audio.html %}

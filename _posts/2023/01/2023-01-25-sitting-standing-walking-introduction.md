@@ -10,6 +10,9 @@ sidebar: sidebar_sitting
 description: "I'm starting a new series called <i>Sitting, standing, and walking.</i> Near the end of my last series on Journey away from smartphones, I described the growing discontent I felt by sitting in front of a screen all day. I longed to be outside, walking, engrossed in a panoramic view of the surrounding sky. Instead, it seemed most of my life, especially working in tech, was spent sitting. This series is all about ways to reduce sitting and avoid a sedentary life in front of the screen."
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 In _Get Up! Why your chair is killing you and what you can do about it_, James Levine, MD, says that 86% of people spend 13 hours a day sitting, and 68% of them hate it. He says sitting is the culprit behind many physical ailments, contributing to diabetes, hypertension, obesity, and more. Levine pioneered the treadmill desk and says that the solution is simply to stand up and move around more frequently. I'll get more into the details in later sections, but for now, I wanted to simply introduce the new series. 

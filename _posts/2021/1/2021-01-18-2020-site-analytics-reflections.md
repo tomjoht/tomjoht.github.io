@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/2020siteanalytics
 description: "At the beginning of each year, I update my <a href='/analytics/'>site analytics information</a> (pulled from Google Analytics) and analyze traffic trends, user data, and any other information for my site. These analytics sometimes influence what I focus on for the upcoming year. This year, not much changed in terms of site analytics (which is a good thing). I also have a few simple thoughts on the year ahead."
 ---
 
+* TOC
+{:toc}
+
 ## What's different this year in terms of site analytics?
 
 Not much changed in 2020 in terms of [my site analytics](/analytics/). Even with the pandemic, polarizing political scene, climate upheaval, and other changes going on in the world, my metrics more or less stayed the same. This is pretty amazing and shows the stability of the tech industry even in turbulent times.

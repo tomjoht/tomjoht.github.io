@@ -7,6 +7,9 @@ description: "As with any help system, there are some pros and cons with using J
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/thumbsupdown_hands.png
 ---
 
+* TOC
+{:toc}
+
 <img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/thumbsupdown_hands.png" | prepend: site.baseurl }}" alt="Pros and cons of Jekyll" />
 We had a lively turnout at the [last STC meeting](http://www.stc-siliconvalley.org/2015/11/15/version-control-workflows-for-help-content/). By lively, I think we had about 30+ people in attendance, and good all-around discussion.
 

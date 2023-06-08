@@ -8,6 +8,9 @@ description: Techwriter.pl is an online hub of information for technical writers
 bitlink: http://bit.ly/techwriterplstory
 ---
 
+* TOC
+{:toc}
+
 <i><small>by <a href="#authors_byline">Michal Skowron and Jakub Wisniewski</a></small></i>
 
 A long time ago, in a distant country that most people still relate to Walesa, John Paul II, and vodka alone, the words "technical writing" evoked not much more than fear and connotations with black magic. Today, the awareness of technical communication as a field of knowledge is growing, and here, in Poland, it's growing faster than ever. So does the sense of community and technical writers' web presence. [Techwriter.pl](http://techwriter.pl/), a Polish-language portal for tech comm enthusiasts, can be a proof of that.

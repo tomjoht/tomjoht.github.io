@@ -10,6 +10,9 @@ series: "Mobility posts"
 sidebar: sidebar_mobility
 ---
 
+* TOC
+{:toc}
+
 ## What is urban sprawl?
 
 _[Urban sprawl](https://en.wikipedia.org/wiki/Urban_sprawl)_ refers to the ever-growing expansion of single-family homes in residential neighborhoods farther and farther from cities. In these suburban areas, the primary means of travel is by private car. As a result, cars proliferate as the dominant mode of transportation, not just within the suburban areas, but into cities as well. The same people driving around in suburbs often drive their same cars into downtown cities. As a result, cars seem to dominate everywhere as the only mode of transportation. The car becomes the default way you get around.

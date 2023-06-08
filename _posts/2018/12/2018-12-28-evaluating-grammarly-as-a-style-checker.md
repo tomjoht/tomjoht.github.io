@@ -7,6 +7,9 @@ description: "I recently ran every page of my API doc site through <a href='http
 bitlink: http://bit.ly/evaluatinggrammarly
 ---
 
+* TOC
+{:toc}
+
 <style>
 .sampleGramarlySentences {
   padding: 20px;

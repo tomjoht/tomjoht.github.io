@@ -21,6 +21,9 @@ podcast_length: 7312169
 bitlink: http://bit.ly/xmlccmspaligo
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Beginnings

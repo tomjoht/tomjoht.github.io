@@ -10,6 +10,9 @@ series: "Mobility posts"
 sidebar: sidebar_mobility
 ---
 
+* TOC
+{:toc}
+
 ## Bike commuting from Renton to Seattle
 
 What's the best way to get from Renton to downtown Seattle by bike? Renton is huge in terms of the square miles it covers; I live in Cascade-Fairwood, which is about a 30 minute drive to Seattle if there's no traffic. If there is traffic, the drive is about 60 minutes on average. The distance is only 22 miles, which would be manageable along a dedicated bike path riding an ebike, but no such path exists.

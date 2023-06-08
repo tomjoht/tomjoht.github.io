@@ -9,6 +9,9 @@ description: "In the deliberation about authoring formats -- whether to use Mark
 bitlink: http://bit.ly/techdocformats
 ---
 
+* TOC
+{:toc}
+
 ## The Debate About Markdown
 
 There's a lively comment thread in the Linkedin "DITA Awareness" Group about the place of Markdown. The thread begins:

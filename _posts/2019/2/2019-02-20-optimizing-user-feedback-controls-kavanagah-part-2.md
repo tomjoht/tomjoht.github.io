@@ -9,6 +9,9 @@ description: ""
 published: false
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}
 This is part II of the essay. See ["Optimizing documentation feedback forms -- Part I](/optimizing-user-feedback-controls-kavanagah-part-1/) first.
 {{site.data.alerts.end}}

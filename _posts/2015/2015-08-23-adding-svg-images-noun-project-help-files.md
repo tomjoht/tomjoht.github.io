@@ -7,6 +7,9 @@ description: "This past week I was creating some diagrams for a project, and I f
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/vectordiagrams.png
 ---
 
+* TOC
+{:toc}
+
 {% include notes.html %}
 
 ## Create the file in Adobe Illustrator

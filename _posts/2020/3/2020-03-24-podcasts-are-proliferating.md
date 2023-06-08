@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/podcastsgrowing
 description: "Podcasts seem to be growing now more than ever. Here's a list of more than ten technical writing podcasts that you can listen to."
 ---
 
+* TOC
+{:toc}
+
 TWi has a nice write-up of their favorite tech comm podcasts in an article called [TWi’s Favourite Technical Writing Podcasts](https://www.technicallywriteit.com/technical-writing-podcasts/). The techcomm podcasts they list include the following:
 
 * [Writers of Silicon Valley](https://www.writersofsiliconvalley.com/)

@@ -13,6 +13,9 @@ description: "<a href='https://www.doctave.com'>Doctave</a> is a new docs-as-cod
 * TOC
 {:toc}
 
+* TOC
+{:toc}
+
 *Note: This is a sponsored post.*
 
 <h3> [Tom] Most products have an origin story. What’s the story behind Doctave? </h3>

@@ -7,6 +7,9 @@ description: "A brief account of biking in Alviso County park's pathways."
 sidebar: sidebar_biking
 ---
 
+* TOC
+{:toc}
+
 I usually just write about topics related to technical writing on this blog, but for fun I'm going to start including some additional topics, mostly related to biking in the Santa Clara county area. If this topic doesn't interest you, just tune out the category.
 
 For years I have played basketball as my primary form of exercise, but as I'm getting older (now 43) and injuries have started increasing, I'm considering doing more low-impact sports, such as biking. I've been biking to work for the past 8 years or more, and my current round-trip commute is about 16 miles. Switching between biking and basketball has usually been the extent of my cross-training, but I think I developed some tendonitis in my foot (due to overuse), and something is messed up with nerves in my shoulder (not sure why), so I am taking a break for a few months to heal. During this time, I'm trying to bike a bit more.

@@ -9,6 +9,9 @@ bitlink: http://bit.ly/limitstodocsascode
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/docsascodelimits.png
 ---
 
+* TOC
+{:toc}
+
 ## First, what we mean by docs like code
 
 Before I draw limits around docs like code, let me briefly describe what "docs as code" means. To treat docs like code generally means doing some of the following:

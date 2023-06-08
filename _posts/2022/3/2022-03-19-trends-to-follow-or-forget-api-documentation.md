@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on API documentation."
 ---
 
+* TOC
+{:toc}
+
 ## What is API documentation?
 
 [Application programming interfaces](/learnapidoc/docapis_what_is_a_rest_api.html#what-is-an-api) (APIs) have been around even before the Internet, but most APIs were library-based APIs, such as [Java or C++ APIs](/learnapidoc/nativelibraryapis_overview.html). Around 2010 or so, web APIs (most commonly, [REST APIs](/learnapidoc/docapis_what_is_a_rest_api.html)) started to emerge in a popular way, and APIs began to proliferate among companies.

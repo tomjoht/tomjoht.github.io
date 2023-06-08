@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.com/wtdpodcastepisode32-self-publishing
 description: "Many tech writers are familiar with using AsciiDoc for documentation, but did you know that you can also create fiction and non-fiction books with AsciiDoc, publishing to popular digital formats such as EPUB or PDF, along with HTML? In this episode of the Write the Docs podcast, we chat with Mehmed Pasic from Manning Publications about self-publishing, AsciiDoc, collaborative workflows between authors and editors, trends in book publishing, the most popular devices for consuming content, book versus video formats for technical content, and more."
 ---
 
+* TOC
+{:toc}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i1N6OEPhVwQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Topics discussed

@@ -17,6 +17,9 @@ podcast_duration: "6:00"
 podcast_length: 4690110
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Documentation Avoidance presentation

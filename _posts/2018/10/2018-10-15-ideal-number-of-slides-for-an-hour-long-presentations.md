@@ -7,6 +7,9 @@ description: "When giving an hour long presentation, about 15 slides is ideal. A
 bitlink: http://bit.ly/
 ---
 
+* TOC
+{:toc}
+
 ## Comparing two recent presentations
 
 These past two weeks, I gave two presentations &mdash; a keynote at an internal writers conference at SAP, and a keynote at an internal writers conference at Amazon. (Sorry that I can't post the recordings.) Both presentations filled an hour time slot. Because I've been in presentation mode this past month, especially preparing slides, I'd like to share some thoughts I have about how to create slides for presentations.

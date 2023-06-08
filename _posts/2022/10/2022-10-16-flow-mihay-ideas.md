@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "Mihaly Csikszentmihalyi's psychology of flow, which describes ways to be so engrossed in an activity that you lose track of time, can be applied to writing technical documentation. Some of the traits of flow I cover here include balance, effortlessness, goals, feedback, and concentration."
 ---
 
+* TOC
+{:toc}
+
 ## Recap 
 
 In my previous post, [How to move from focus sessions to flow sessions](/blog/from-focus-sessions-to-flow/), I explained that while 90-minute focus sessions led to a significant productivity boost with my writing projects, focusing my attention for that amount of time on a single task was a bit exhausting and demotivating. I then turned to the theory of flow by Csikszentmihalyi as a way to make these focus sessions more enjoyable. (Csikszentmihalyi is pronounced "Chick-sent-me-high.")

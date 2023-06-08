@@ -9,6 +9,9 @@ rebrandly: https://idratherbewriting.site/themanuscriptpodcast
 description: "<a href='https://brenobarreto.co/the-manuscript-podcast/'>The Manuscript</a> is a new tech comm podcast produced by Breno Barreto, a technical writer working for VTEX in Brazil. Breno interviewed me for episode 2, titled <i>How technical should a tech writer be?</i> In this podcast, we talked about changes in the tech comm field, how I got started, comparisons with copywriting, API docs, processes for tech writing at Amazon, explanatory writing versus exploratory writing, trends I'm seeing, and more."
 ---
 
+* TOC
+{:toc}
+
 Here's a description of [The Manuscript](https://open.spotify.com/show/3fxF61LYR4BBDAv6YhZV5r):
 
 > In The Manuscript, we delve into the intersection of writing and the development of technology products. Every couple of weeks we talk to people making a difference in Technical Writing, Instructional Design, UX Writing, Content Strategy and anywhere else there’s someone thinking about content in digital products and the tech industry.

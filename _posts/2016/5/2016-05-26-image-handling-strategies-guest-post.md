@@ -9,6 +9,9 @@ bio: false
 sidebar: sidebar_visualcommunication
 ---
 
+* TOC
+{:toc}
+
 Images can be a great supplement to technical documentation text. As the fiction writers say: <i>Show, don't tell</i>. However, including images can be a headache for the technical writer. This post explores some of the challenges inherent in handling images in technical documentation. A future post will focus on translating image text.
 
 ## 1. Is your system designed for images?

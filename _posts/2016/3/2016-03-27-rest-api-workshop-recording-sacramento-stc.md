@@ -7,6 +7,9 @@ description: "I recently gave a workshop on REST API documentation to the STC Sa
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/restapiworkshopsacramentothumb.png
 ---
 
+* TOC
+{:toc}
+
 ## REST API documentation workshop recording
 
 The REST API workshop that I gave in Sacramento the other week is available on Youtube here:

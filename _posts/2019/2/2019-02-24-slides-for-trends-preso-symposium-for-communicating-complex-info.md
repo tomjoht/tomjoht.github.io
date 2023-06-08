@@ -13,6 +13,9 @@ podcast_duration: "42:01"
 podcast_length: 32827015
 ---
 
+* TOC
+{:toc}
+
 ## About the Symposium for Communicating Complex Information
 
 You can view the conference program and schedule for the Symposium for Communicating Complex Information <a href="https://scci2019.weebly.com/program-and-schedule.html">here</a>.

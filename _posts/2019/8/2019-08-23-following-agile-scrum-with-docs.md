@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/
 description: "I added a new article in my API doc course that expands the notion of docs as code to include not only tools but processes as well. I included an excerpt below and a link to the full article."
 ---
 
+* TOC
+{:toc}
+
 > **Following agile scrum with documentation projects**
 >
 > Just as doc-as-code tools mirror tools used by software implementation teams, work processes that tech writers follow can also mirror processes used by software implementation teams. The most common software development methodology today is probably agile scrum.

@@ -14,6 +14,9 @@ podcast_duration: "33:35"
 podcast_length: 31926066
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Site analytics for Jan 1 to Dec 31, 2018

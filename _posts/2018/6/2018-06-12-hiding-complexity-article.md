@@ -7,6 +7,9 @@ description: "I added another article in my Simplifying Complexity series. This 
 bitlink: http://bit.ly/hidingcomplexitynewarticle
 ---
 
+* TOC
+{:toc}
+
 Here's how the article begins:
 
 > While troubleshooting a recent support case, I looked over documentation I’d written nearly a year ago, trying to identify where the user got stuck. I was shocked at how confusing the docs now seemed. The documentation tried to explain query syntax for targeting elements in a media feed that could be either JSON or XML. If the feed was JSON, developers would use one type of query syntax; if the feed was XML, they would use another. The documentation discussed the two approaches in sections one right after another.

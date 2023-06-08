@@ -14,6 +14,9 @@ podcast_duration: "12:09"
 podcast_length: 9684748
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 For an introduction and tour of Stack Overflow's documentation, see [Welcome to Stack Overflow Documentation](https://stackoverflow.com/tour/documentation). For their sunset announcement, see [Sunsetting Documentation](https://meta.stackoverflow.com/questions/354217/sunsetting-documentation).

@@ -19,6 +19,9 @@ podcast_length: 10168131
 bitlink: http://bit.ly/videogamereflection
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 Although most days are the same, they are a little different. My kids have returned to school, and so my summer routine of waking up "when I wake up" and riding my 8 miles to work along the scenic San Tomas Aquinas trail (which follows a half-dry canal) has changed a bit. I now ride my kids to school and then ride on to work. My two youngest (6 and 9) often glide along on roller skates while holding onto the back of a bike child carrier that I pull. My older two kids get themselves to school by bike and foot.

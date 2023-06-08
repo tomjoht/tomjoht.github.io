@@ -9,6 +9,9 @@ description: "Lately I've been trying trying something that I call <i>life exper
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlefitthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Experiment: Two hours of exercise a day
 
 My first life experiment has been to exercise for two hours a day. Why this goal? Two reasons. First, I needed to rehabilitate a recurring calf strain and prepare to play basketball again. Second, ever since I'd read an [article in the New York Times](https://www.nytimes.com/2021/04/19/well/mind/covid-mental-health-languishing.html) that identified the "blah" feeling of the pandemic as *languishing*, I wanted to try something to dispel the blah.

@@ -10,6 +10,9 @@ author: John Baker
 bio: false
 ---
 
+* TOC
+{:toc}
+
 *Note that easyDITA is a site sponsor.*
 
 ## Introduction

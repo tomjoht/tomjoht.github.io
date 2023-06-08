@@ -8,6 +8,9 @@ description: ""
 published: false
 ---
 
+* TOC
+{:toc}
+
 Writing exercise for tech writing candidates
 
 Describe a technical task or concept within 400-800 words. You can choose any topic, but consider selecting a topic related to the list of technical skills on your resume. For example, if you listed JavaScript, you might provide a tutorial on how to do a particular task in JavaScript (e.g., make a web request), or articulate a concept (e.g., asynchronous callbacks). You could also focus more on tools or hardware, such as how to perform a task in an application (e.g., reflection in Illustrator), or connecting a computer to a device (adb with tablets) for testing.

@@ -10,6 +10,9 @@ redirect_from:
 bitlink: http://bit.ly/tccamp2018post
 ---
 
+* TOC
+{:toc}
+
 *Note: Although I originally wrote this post in 2016, it's still just as relevant today. I removed a few details that were specific to 2016, but the bulk of the content applies to each TC Camp experience, year after year.*
 
 ## About the TC Camp Unconference

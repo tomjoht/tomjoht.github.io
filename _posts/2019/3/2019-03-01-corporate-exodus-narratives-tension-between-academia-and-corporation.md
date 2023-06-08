@@ -12,6 +12,9 @@ podcast_length: 30596201
 description: "Corporations often expect tech comm academics to fashion their curriculums to suit corporate needs; in contrast, academic departments want to give students a safe space free of corporate agendas for critical inquiry. Tech comm academics are often caught between these two groups and must satisfy both."
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Going to an academic conference

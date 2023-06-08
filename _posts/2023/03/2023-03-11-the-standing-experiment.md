@@ -10,6 +10,9 @@ sidebar: sidebar_sitting
 description: "In the introduction to this series, <a href='/blog/sitting-standing-walking-introduction/'>Sitting, standing, and walking</a>, I explained a few experiments I've been trying, including treadmill desks, balance boards, and yoga balls. I'm trying to switch between sitting and standing more frequently while working at the computer. In this post, I'll provide some updates on how the experiment is going and what I've learned so far."
 ---
 
+* TOC
+{:toc}
+
 ## What's working well
 
 Although I initially liked the treadmill desk, I've become more fond of the double-roller balance board. I explained how I built this in [Building your own balance board for a standing desk](/blog/build-your-own-standing-desk-standing-office/). By double-roller, I mean I'm using two 4" PVC pipes instead of one under the balance board. Admittedly, it makes it less of a balance board and more of a back-and-forth slider. However, the additional stability makes working on it more practical. There's less pressure on my feet, and I can remain standing for a longer period of time.

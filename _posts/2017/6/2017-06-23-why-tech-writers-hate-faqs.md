@@ -10,6 +10,9 @@ bitlink: http://bit.ly/faqversusgoals
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/problemwithfaqs.png
 ---
 
+* TOC
+{:toc}
+
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/faqsversusgoals.png"/>
 
 ## How the FAQ begins

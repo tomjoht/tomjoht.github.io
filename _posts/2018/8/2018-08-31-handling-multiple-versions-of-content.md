@@ -8,6 +8,9 @@ bitlink: http://bit.ly/devicespecsjekyll
 date: 2018-08-31T16:04:33+00:00
 ---
 
+* TOC
+{:toc}
+
 One of the most popular doc pages I work on is the [Fire TV device specifications page](https://developer.amazon.com/docs/fire-tv/device-specifications.html). This page has the specs for about 10 different Fire TV devices (including sticks, smart TVs, cubes, etc.). The page gets the most traffic of all our docs, so this information tends to be a high priority. Handling this information wasn't easy -- at first.
 
 The page started out listing the specs in a table with various columns for each device. After about 5 devices, the table format no longer worked because the columns became too narrow. At that point, I switched to a drop-down list format. When you select a device, all the information on the page switches to that device. The URL stays the same except that a query string gets appended to the URL. You can load a specific option from the drop-down menu by using a query string such as `?v=firetveditiontoshiba4k`. This query string gets automatically appended when you select an option from the drop-down menu.

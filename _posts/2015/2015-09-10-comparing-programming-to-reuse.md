@@ -7,6 +7,9 @@ description: "In a presentation to the STC Suncoast chapter, Mark Lewis compares
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/oodesignthumb.png
 ---
 
+* TOC
+{:toc}
+
 Mark Lewis, author of [DITA Metrics 101](http://www.rockley.com/DITAMetrics101/AboutTheAuthor.html) and a long-time friend from the Suncoast STC chapter, sent me a link to a recording of a presentation he gave comparing object-oriented design to content re-use. You can listen to it [here](https://www.linkedin.com/pulse/alignment-understanding-objects-mark-lewis).
 
 <a href="https://www.linkedin.com/pulse/alignment-understanding-objects-mark-lewis"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/lewisood.png" | prepend: site.baseurl }}" alt="Mark Lewis on object-oriented design" /></a>

@@ -9,6 +9,9 @@ bitlink: http://bit.ly/calm-meditation-app
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/calmmeditationappthumb.png
 ---
 
+* TOC
+{:toc}
+
 You can view my Calm Meditation app in the Amazon Appstore [here](https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1).
 
 <a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/calm-meditation-app.png"></a>

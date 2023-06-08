@@ -10,6 +10,9 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 ---
 
+* TOC
+{:toc}
+
 ## What intentionality means
 
 In Cal Newport's *[Digital Minimalism](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515)*, one of Newport's primary goals is to get smartphone users to switch to a more "intentional" use of technology. What does _intentional_ use mean? Intentionality means that you make technology support *your* goals, not the other way around. When you use tech to achieve what you want, not what it wants, that's intentional &mdash; your intent. In contrast, when we let technology define our path on the internet, such that we end up getting pulled into distracting paths that we don't want to take, we're not following our intent but rather someone else's. In that case, we become _used by_ technology (usually for commercial purposes) rather than using technology for our intents and purposes.

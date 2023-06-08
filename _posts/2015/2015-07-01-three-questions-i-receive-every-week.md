@@ -7,6 +7,9 @@ keywords:
 description: "About once a week I get the following three questions. It would be nice to see some more variety. "
 ---
 
+* TOC
+{:toc}
+
 ## Question 1
 
 The first question goes something like this:

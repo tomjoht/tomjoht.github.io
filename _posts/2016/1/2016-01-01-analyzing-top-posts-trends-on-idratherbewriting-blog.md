@@ -8,6 +8,9 @@ description: "The main traffic on my site comes from new technical writers looki
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/2016stats.png
 ---
 
+* TOC
+{:toc}
+
 ## Analysis overview
 
 Every year I try to analyze the top posts on my site so that I better understand what information people are looking for. This analysis helps direct my blog efforts and lets me know what's working and not working. This analysis is just as much for me as any reader.

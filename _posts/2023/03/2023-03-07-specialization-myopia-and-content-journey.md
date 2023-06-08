@@ -15,6 +15,9 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 description: "This is a recording of a presentation called <i>Specialization myopia syndrome and the content journey</i>, which I gave to a company's private tech comm event. With their permission, I'm posting it here. You can watch the recording via YouTube or listen the audio file as a podcast."
 ---
 
+* TOC
+{:toc}
+
 ## Video recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-59SEsm07o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

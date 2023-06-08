@@ -26,6 +26,9 @@ keywords:
 description: ""
 ---
 
+* TOC
+{:toc}
+
 video notes
 
 i = interlaced

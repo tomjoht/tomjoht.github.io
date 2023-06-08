@@ -7,6 +7,9 @@ description: "As I move into my new job, one goal I have is to learn from the ex
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/retrospectivethumb.png
 ---
 
+* TOC
+{:toc}
+
 Although I'll likely implement this learning naturally and unconsciously, a good blog post that lists out the things I did well versus the things I wasn't so pleased with seems like a good idea.
 
 Of course I can't go into too many details here, and I want to acknowledge that each tech and company environment (with different products, users, markets, requirements, and so on) is unique. What worked or didn’t work in one environment may not work so well in another.

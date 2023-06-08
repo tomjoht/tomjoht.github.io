@@ -7,6 +7,9 @@ description: "From a cognitive perspective, what do we know about the effects of
 bitlink: http://bit.ly/termconsistencytw
 ---
 
+* TOC
+{:toc}
+
 We know that terminology/vocabulary consistency is a requirement for a good technical documentation, but what do we have to back it up? Specifically, is there solid research demonstrating that terminology consistency has a positive effect, or that inconsistency has a negative effect, on reader’s comprehension of, and reader’s attitude towards a technical documentation?
 
 I did some digging. I could find many things on the word or sentence level in cognitive research about reading, but I failed to find cognitive experimentation on

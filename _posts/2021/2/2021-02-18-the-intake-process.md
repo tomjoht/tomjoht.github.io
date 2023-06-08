@@ -8,6 +8,9 @@ description: "In my API course, I defined intake processes for <a href='https://
 rebrandly: https://idbwrtng.com/docrequests
 ---
 
+* TOC
+{:toc}
+
 ## The scenario
 
 Consider this scenario. Your DevRel group is working with a partner and notices that the lack of a tutorial for some feature Product X is causing friction. So the DevRel engineer goes to your doc intake form and files a request for a Product X tutorial for the feature. Sounds good because DevRel teams are closely focused on partner needs, right? And this would allow you to create more user-focused docs.

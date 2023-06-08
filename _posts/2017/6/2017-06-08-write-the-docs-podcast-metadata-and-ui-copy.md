@@ -10,6 +10,9 @@ bitlink: http://bit.ly/wtdpodcast6idbw
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/evapodcast.png
 ---
 
+* TOC
+{:toc}
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/uGnDzVoJ2Lw" frameborder="0" allowfullscreen></iframe>
 
 **Links mentioned during the podcast:**

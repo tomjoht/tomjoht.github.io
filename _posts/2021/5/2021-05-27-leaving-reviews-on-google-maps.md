@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/leaving-reviews-maps
 description: "A few months ago, I decided to start leaving reviews on Google Maps of nearly every place I visited. The result has made me feel more empowered."
 ---
 
+* TOC
+{:toc}
+
 The other week I was at Duthie bike park for the first time with a friend who had visited the place more times than he can count. I asked if he'd ever left a review of the place on Google Maps. He paused a minute and said no. Meanwhile, I was thinking about just what I'd say in my review, even as a first-time visitor.
 
 Ever since I started working for Google (in a maps-related group), I wanted to use Google Maps more and so started interacting more in the reviews section. This reviews section is a little hidden, but just scroll down a bit after reading the details for a place, and you'll see a "Write a Review" button.

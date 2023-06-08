@@ -10,6 +10,9 @@ description: "I recently re-wrote the article about product overviews in my API 
 bitlink:
 ---
 
+* TOC
+{:toc}
+
 Here's the intro:
 
 > The product overview (usually the homepage of your product’s documentation) explains what you can do with the product, including the high-level business goals, the market needs or pain points it solves, who the product or other features are for, and other introductory information.

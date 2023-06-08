@@ -7,6 +7,9 @@ keywords: engineering workflows
 description: "If you want to encourage engineers to write documentation, integrate your writing tools and process into their toolchain and workflow."
 ---
 
+* TOC
+{:toc}
+
 ## Write the Docs video
 
 If you work with developer documentation, definitely check out Riona Macnamara's Write the Docs 2015 presentation: [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/watch?v=EnB8GtPuauw).

@@ -8,6 +8,9 @@ description: "During my transition time between Amazon and Google, I decided to 
 rebrandly: https://idbwrtng.com/good-decisions-mistakes
 ---
 
+* TOC
+{:toc}
+
 ## Good decisions
 
 - **Getting embedded with product/engineering teams.** Whenever I embed with engineering teams, life goes well as a tech writer. When I'm distanced from engineering teams, things take a turn for the worse. Basically, I get too disconnected from the source and flow of essential information.

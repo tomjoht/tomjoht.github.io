@@ -14,6 +14,9 @@ podcast_duration: "08:08"
 podcast_length: "7140112"
 ---
 
+* TOC
+{:toc}
+
 ## How to have a bad doc review
 
 If you want to have a *bad doc review experience*, try doing any of the following:

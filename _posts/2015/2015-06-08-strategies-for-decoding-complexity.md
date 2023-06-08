@@ -7,6 +7,9 @@ keywords: complexity, simplification, natural speech, reducing jargon, plain spe
 description: "As technical writers, we know our task is to explain how complex products work through simple, easy-to-understand language. But before you can explain something, you first have to decode that complexity for yourself. You can decode complexity by approaching it piece by piece, asking engineers for details, drawing pictures, experimenting, and more."
 ---
 
+* TOC
+{:toc}
+
 ## A typical tech comm scenario
 
 The other day I was asked to update documentation for the latest release. The team pointed me to some internal wiki pages that described the new features and work of the sprint. As I looked through the pages, they were full of engineering speak as thick as it gets, with Java methods, acronyms, almost no explanation of the context or "why" behind the feature, and other technical blah blah blah.

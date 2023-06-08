@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "In this post, I summarize the ideas from Cal Newport's popular book, <i>Deep Work</i>. Structuring your time into several periods of deep focus during the day can help you become wildly productive."
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 In the last post in this series, [From smartphones to Netflix: moving past plateaus in growth](/blog/limits-of-growth-shifting-burdens/), I explored how systems enforce constant rebalancing, so that if you make a change in one area that leads to a temporary gain, you might find that the system compensates in some other area, eliminating your gains. Specifically, my abandonment of smartphones led to a temporary win with long-form concentration and reading, but it didn't take long to find another form of distraction through television. 

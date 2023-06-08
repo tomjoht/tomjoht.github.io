@@ -8,6 +8,9 @@ description: "My 2016 technical writing trends/predictions turned out to be pret
 bitlink: http://bit.ly/2017techwritingtrends
 ---
 
+* TOC
+{:toc}
+
 ## Reviewing 2016 technical writing trends
 
 Before jumping into trends for 2017, let me briefly review how my 2016 trends predictions turned out.

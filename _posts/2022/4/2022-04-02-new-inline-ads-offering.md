@@ -9,6 +9,9 @@ sidebar: sidebar_fizzled_trends
 description: "I updated my advertising options a bit and am now offering inline ads."
 ---
 
+* TOC
+{:toc}
+
 Inline appear directly within the post body. They also include an article link below the graphic. Here's an example:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/inlineadexample.png" alt="Inline ads" /><figcaption>Inline ads example. These ads blend in with the same style and branding as the content. They appear on nearly every page on my site, directly within the reader's view.</figcaption></figure>

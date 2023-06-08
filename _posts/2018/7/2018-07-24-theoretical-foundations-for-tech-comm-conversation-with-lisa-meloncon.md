@@ -8,6 +8,9 @@ bitlink: http://bit.ly/techcommfoundationslisa
 practitioner_survey: https://docs.google.com/forms/d/1zwdqrNcaI3eAqTPkZk2wIUqUxTNXTEmLM8iqSj0GEVc/edit
 ---
 
+* TOC
+{:toc}
+
 ## Article for discussion
 
 [Getting an Invitation to the English Table—and Whether or Not to Accept It](http://tek-ritr.com/pubs/english-and-pw/). Rentz, Kathy, Debs, Mary Beth, and Meloncon, Lisa.

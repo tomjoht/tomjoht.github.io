@@ -14,6 +14,9 @@ podcast_duration: "8:48"
 podcast_length: 7268866
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 If you listen to [Flash Briefings](https://www.amazon.com/gp/help/customer/display.html?nodeId=201601880) on your Alexa-enabled device, such as Echo, you can now add [I'd Rather Be Writing](https://www.amazon.com/gp/product/B07K5THQ3L?ie=UTF8&ref-suffix=ss_rw) to your list of news sources. I'd Rather Be Writing is now an Alexa Flash Briefing skill.
@@ -53,6 +56,9 @@ In case you're using Jekyll and are interested in how I created my skill's feed,
 layout: null
 search: false
 ---
+
+* TOC
+{:toc}
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">

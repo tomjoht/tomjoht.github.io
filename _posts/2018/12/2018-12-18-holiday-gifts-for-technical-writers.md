@@ -11,6 +11,9 @@ redirect_from:
 - /2018/12/18/christmas-gifts-for-technical-writers/
 ---
 
+* TOC
+{:toc}
+
 I posted my question about holiday gifts for tech writers on Twitter, and a host of people responded. You can read the thread below:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I’m putting together a post about the best Christmas gifts to get technical writers. Any ideas for me? Stuff uniquely suited for tech writer people? <a href="https://twitter.com/hashtag/techcomm?src=hash&amp;ref_src=twsrc%5Etfw">#techcomm</a></p>&mdash; Tom Johnson (@tomjohnson) <a href="https://twitter.com/tomjohnson/status/1074049610702704640?ref_src=twsrc%5Etfw">December 15, 2018</a></blockquote>

@@ -18,6 +18,9 @@ podcast_length: 76933334
 bitlink: http://bit.ly/interactiveapidocsmikestowe
 ---
 
+* TOC
+{:toc}
+
 {{note}} If you're in the Bay area, come listen to Michael Stowe speak tonight (Monday, Oct 12) at the STC Silicon Valley chapter in Santa Clara. See the <a href="http://www.stc-siliconvalley.org/2014/10/09/october-12-2015-spec-driven-development-raml-api-documentation/">meeting details here</a>.{{end}}
 
 <a href="http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1"><img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/undisturbed_rest_mike_stowe.png" | prepend: site.baseurl }}" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe" /></a>

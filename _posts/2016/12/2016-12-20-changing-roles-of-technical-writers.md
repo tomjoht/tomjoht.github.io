@@ -7,6 +7,9 @@ description: "I've been thinking about how I should focus my time with knowledge
 bitlink: http://bit.ly/generalistvsspecialist
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 In small companies, or even in large companies when I'm allocated to a small number of engineers (like 10-20), my role has involved writing most of the documentation for a project. But at my current company, there are many more engineers, with more specializations and diverse product needs.

@@ -7,6 +7,9 @@ description: "In this episode, we chat with Eric Holscher (WTD cofounder) and Mi
 bitlink: http://bit.ly/wtdpodcast12foundingideas
 ---
 
+* TOC
+{:toc}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hH6lYBq7_VU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 You can view more podcast details, including MP3 download links, [here](http://podcast.writethedocs.org/2017/12/13/founding-principles-of-write-the-docs/).  

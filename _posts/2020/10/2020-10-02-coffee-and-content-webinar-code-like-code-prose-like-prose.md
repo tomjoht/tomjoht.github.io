@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/coffeeandcontentwebinarcode
 description: "I recently participated in an upcoming Coffee and Content webinar called <a href='https://www.brighttalk.com/webcast/9273/425657'>Treat Code Like Code; Treat Prose Like Prose</a> on September 24, 2020, with Scott Abel and Casey Jordan. A recording of the video is now available."
 ---
 
+* TOC
+{:toc}
+
 ## Video recording now available
 
 {{site.data.alerts.tip}} <i>October 2, 2020 update:</i> The video recording is now available on <a href='https://www.brighttalk.com/webcast/9273/425657'>BrightTALK</a>. The recording is about 40 minutes long and features Scott Abel (left), Casey Jordan (right), and me (bottom). {{site.data.alerts.end}}

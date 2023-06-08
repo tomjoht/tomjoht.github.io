@@ -22,6 +22,9 @@ podcast_length: 56518010
 bitlink: http://bit.ly/videodocavrachwtd
 ---
 
+* TOC
+{:toc}
+
 ## Presentation description
 
 Here's a description of the presentation:

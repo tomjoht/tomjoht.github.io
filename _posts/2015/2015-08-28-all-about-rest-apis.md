@@ -7,6 +7,9 @@ description: "REST APIs use HTTP protocol (or rather, the web) to transport the 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/restapithumb.png
 ---
 
+* TOC
+{:toc}
+
 {% include notes.html %}
 
 ## About web services

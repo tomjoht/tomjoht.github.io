@@ -7,6 +7,9 @@ description: "I recently moved my API doc course into a separate repo. Previousl
 bitlink: http://bit.ly/separatereposforcontent
 ---
 
+* TOC
+{:toc}
+
 If you click the **API Doc** button on my primary navigation bar, it takes you here: [idratherbewriting.com/learnapidoc/](https://idratherbewriting.com/learnapidoc/). Previously, there wasn't a separating path called "learnapidoc."
 
 This doesn't seem like much of a change, but behind the scenes there is quite a bit that's different. First, I moved all the API doc content into its own repo here: [learnapidoc](https://github.com/tomjoht/learnapidoc). (My blog's repo is [here](https://github.com/tomjoht/tomjoht.github.io).)

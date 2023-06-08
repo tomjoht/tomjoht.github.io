@@ -6,6 +6,9 @@ description: "Apple's recent dongle fiasco raises an interesting tech comm quest
 bitlink: http://bit.ly/apologiesindocs
 ---
 
+* TOC
+{:toc}
+
 ## Background on the Dongle/Port Fiasco
 
 In case you haven't heard about the new ports in the new Macbook Pro laptops, the laptops removed all (standard) USB, SD Card, and Thunderbolt ports -- essentially replacing them with USB-C ports, which is an emerging standard but is by no means common. Further, despite dismissing the headphone jack on the iPhones as old tech, they do include a headphone jack on the Macbook Pro. Finally, you can't plug your new iPhone into your Macbook Pro.

@@ -7,6 +7,9 @@ rebrandly: https://idbwrtng.com/aivocablookup
 description: "I've been using AI to look up vocabulary terms. Not just to provide definitions, but to provide sample sentences, etymology, and a mini poem to help remember the meaning. It's fun and a lot faster than looking up words one by one. The most fun part is the poem, which is often delightful."
 ---
 
+* TOC
+{:toc}
+
 ## Tip for constructing the prompt 
 
 When you construct the prompt, consider formatting the request like a function. Define the pattern you want the AI to populate, then provide a list of terms that should take that pattern. Here's an example:

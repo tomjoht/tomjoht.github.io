@@ -8,6 +8,9 @@ date: 2016-10-23 09:49:08.000000000 -08:00
 bitlink: http://bit.ly/respondingtodisasters
 ---
 
+* TOC
+{:toc}
+
 Dominating most technology podcasts is talk of Samsung's Galaxy Note 7, which overheats to the point that it either melts, catches fire, or explodes. Samsung initially recalled the product and sent replacements to users, but the replacements had the same problem, prompting Samsung to issue a double recall. What does Samsung's communication strategy look like in the midst of the disaster around the exploding Note 7 phones?
 
 If you look at their recall statements, their announcements are brief, plain, and without much detail. You don't get a sense of what exactly is happening, why, or what Samsung has done to investigate the problem.

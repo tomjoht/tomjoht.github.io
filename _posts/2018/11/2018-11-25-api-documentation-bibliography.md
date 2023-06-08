@@ -7,6 +7,9 @@ description: "If you're doing research on API documentation, Bob Watson's <a hre
 bitlink: http://bit.ly/apidocbibliography
 ---
 
+* TOC
+{:toc}
+
 A while ago I mentioned that there didn't seem to be many academic articles focusing on API documentation. This was probably because I was limiting my searches to *Technical Communication Journal* archives. Following up this challenge to see what academic articles have been written on API documentation, Bob Watson put together an extensive [API Documentation Bibliography](https://docsbydesign.com/useful-stuff/api-documentation-bibliography/). The bibliography lists more than 100 articles, most with relatively recent publication dates. If an online source is available, he links directly to it. If not, you can search for the source.
 
 Thanks Bob for putting this together. This is a great resource! I've been looking for articles on how people approach code in documentation, and this list has been a helpful resource.

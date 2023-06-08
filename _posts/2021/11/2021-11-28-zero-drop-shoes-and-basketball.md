@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/zerodropbasketball
 description: "This post is mostly about shoes (and the way the shoe industry has gone awry), but it's not entirely unrelated to technical writing (which is the usual focus of this blog). Technical writing is a sedentary career that involves sitting all day. In this sedentary mode, it's easy to develop bad posture and other physical problems. At any rate, almost all of us have physical ailments of some kind, especially related to our feet, knees, and back. In this post, I argue that shoes with elevated/wedged heels might be partly to blame. Elevated/wedged heel shoes shorten and atrophy our calf muscles and imbalance our posture, leading to back pain, strained calves, and other issues. I share my story of why I got into wearing barefoot shoes and how I've reconciled natural movement with basketball playing."
 ---
 
+* TOC
+{:toc}
+
 ## How I started getting into the shoespiracy topic
 
 A few months ago, I wrote a post called [Trying to back back to normal](/blog/trying-to-get-back-to-normal) where I described my attempts to resume playing basketball after a year-long hiatus with the pandemic. Although I've been playing basketball since I was a kid, for the past 5 years I've suffered recurring calf strains that have required a lot of time off court to rest and heal. Every couple of months, I tended to strain my calf and had to sit out for 3-4 weeks to allow it to heal. I'd been to numerous physical therapists and hadn't been able to figure out what the underlying problem was.

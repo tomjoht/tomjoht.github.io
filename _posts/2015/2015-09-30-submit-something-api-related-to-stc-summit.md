@@ -6,6 +6,9 @@ keywords:
 description: "Although API documentation seems to be a rising trend, not many sessions at tech comm conferences focus on API documentation. This puzzles me and makes me wonder whether API doc is a sub-specialization of tech comm only popular in the Bay area."
 ---
 
+* TOC
+{:toc}
+
 Either I'm becoming more distanced from mainstream tech comm topics, or else tech comm conferences are veering away from trending topics. I can't decide who is moving off course.
 
 I'm interested in API documentation. It seems like API documentation is one of the hottest trends in the San Francisco Bay area and other IT hubs as well.

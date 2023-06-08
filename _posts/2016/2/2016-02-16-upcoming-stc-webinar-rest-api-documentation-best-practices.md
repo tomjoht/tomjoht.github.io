@@ -7,6 +7,9 @@ description: "There are a couple of events on API documentation happening this T
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcwebinarbestpractrestapisthumb.png
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.tip}}
 Feb 20 update: If you would like to view the slides from my API doc presentation, you can view them here: <a href="https://idratherbewriting.com/apidocinonehour/">idratherbewriting.com/apidoconehour</a>.{{site.data.alerts.end}}
 

@@ -13,6 +13,9 @@ sidebar: sidebar_workplace_influence
 date: 2022-01-26 03:00:000000000 -07:00
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}This post continues the series "A hypothesis about influence on the web and the workplace." See the lists of posts in the sidebar for more context. {{site.data.alerts.end}}
 
 ## Create engaging content

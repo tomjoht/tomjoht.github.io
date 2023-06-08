@@ -8,6 +8,9 @@ description: "I recently chatted with Ellis Pratt on his Cherryleaf podcast. The
 bitlink: http://bit.ly/cherryleafpodcasttomjohnson
 ---
 
+* TOC
+{:toc}
+
 You can listen to the podcast here:
 
 <iframe src="https://www.podbean.com/media/player/audio/postId/10484772?url=https%3A%2F%2Fwww.podbean.com%2Fmedia%2Fshare%2Fpb-y4464-9ffc24&version=1" width="100%" height="122" frameborder="0" scrolling="no" data-name="pd-iframe-player"></iframe>

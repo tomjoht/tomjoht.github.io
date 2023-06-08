@@ -7,6 +7,9 @@ bitlink: http://bit.ly/risktakingvscynicism
 description: "When we see risk-taking and idealism in younger people, it's hard to avoid adopting a more cynical attitude born from our own learned experience. And yet, encouraging youth to avoid risk-taking and follow a safer route also diminishes the chances of their success."
 ---
 
+* TOC
+{:toc}
+
 ## Survey responses indicate engagement with growing older topic
 
 The most popular post I've written recently is [Confronting the fear of growing older when you're surrounded by young programmers](https://idratherbewriting.com/2019/03/07/confronting-fears-of-aging-in-technology-environments/). One way I assess popularity of a topic isn't just by the number of clicks from clicks on Twitter or Linkedin, or even from Google Analytics. It's the responses to the survey at the bottom. I don't know if you've noticed, but recently I have become a total survey convert. Surveys, I've found, are a much better way to gather feedback from readers, in part because you narrow down exactly the kind of responses you want readers to provide. The growing older post already has about [85 responses](https://www.questionpro.com/t/PFd5IZd2F8).

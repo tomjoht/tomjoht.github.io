@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/madcap2020release
 description: "MadCap Software's 2020 release for MadCap Flare and MadCap Central include significant enhancements to micro content, code syntax highlighting, privatized output, and more. Through search analytics in MadCap Central, if you identify search phrases, and search phrases that return no results, micro content can be created to address these gaps, making your content much more discoverable for your users."
 ---
 
+* TOC
+{:toc}
+
 *Note that MadCap Software is one of my site sponsors.*
 
 ## Code Syntax Highlighting

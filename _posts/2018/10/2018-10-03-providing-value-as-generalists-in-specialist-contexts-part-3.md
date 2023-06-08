@@ -15,6 +15,9 @@ date: 2018-10-03T03:13:39+00:00
 bitlink: http://bit.ly/genandspecialisttrendspart3
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagGeneralistSpecialists.html %}
 
 ## Opportunities related to doc tools and processes

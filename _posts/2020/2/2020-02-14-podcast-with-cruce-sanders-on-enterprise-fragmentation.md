@@ -9,6 +9,9 @@ rebrandly: https://idratherbewriting.site/enterprisevsagilepodcast
 description: "Cruce Sanders at <a href='simplea.com'>[A]</a> recently interviewed me for his podcast series <i>Towards a Smarter World</i>. The episode is called <a href='https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem'>Unifying Technical Content Sets into a Broader Ecosystem</a>, and we chat about some issues I wrote in an earlier article about agile teams and enterprise content strategy."
 ---
 
+* TOC
+{:toc}
+
 You can listen to the podcast on [A] here:
 
 <a href="https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/crucepodcast-enterprise-and-agile.png" alt="Podcast with Simple A and Cruce Sanders on agile versus the enterprise" style="max-width: 500px"/></a>

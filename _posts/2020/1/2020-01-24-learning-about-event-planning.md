@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/eventplanningjacklifeprotips
 description: "If you've been following my blog, you know that I've started a series of API documentation workshops that I'm organizing on my own. Yesterday I finished teaching a workshop in Los Angeles, California, to a group of 15 people. Before this workshop, I had the privilege of eating dinner with <a href='https://www.linkedin.com/in/jackmolisani/'>Jack Molisani</a>, conference organizer extraordinaire for <a href='https://lavacon.org/'>The LavaCon Conference on Content Strategy and TechComm Management</a>, and I got to peer inside the mind of someone who has mastered the art of event planning. In this post, I'll share a few tips that I learned from Jack."
 ---
 
+* TOC
+{:toc}
+
 ##  Targeting an audience
 
 With LavaCon, Jack focuses on a specific market segment: content strategy and tech comm management (you can see [Jack's video explaining his focus here](https://www.youtube.com/watch?v=AR1ht2qh_P4&)). LavaCon's attendees are senior writers/managers solving strategic content problems across the enterprise, and they often interact with upper-level execs. This is the first lesson in event planning: define a specific audience for your event. Not just "technical writers," but "senior content strategists" or something.

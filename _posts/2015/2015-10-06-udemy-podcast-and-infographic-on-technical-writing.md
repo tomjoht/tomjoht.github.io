@@ -21,6 +21,9 @@ podcast_length: 93046336
 bitlink: http://bit.ly/udemypodcasttechwriting
 ---
 
+* TOC
+{:toc}
+
 Recently Alex Bankoff from Udemy interviewed me for a podcast on technical writing. He and his team also created an infographic based on the podcast as well. You can check out both the [podcast and infographic here](https://www.udemy.com/technical-writing-and-editing/#interview):
 
 <a href="https://www.udemy.com/technical-writing-and-editing/#interview"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/udemypodcast.png" | prepend: site.baseurl }}" alt="Udemy podcast and infographic on technical writing" /></a>

@@ -17,6 +17,9 @@ podcast_length: "29943785"
 description: "One comment I often hear from API workshop participants and other readers is that they want a more advanced API course. I've been thinking about what that more advanced course would involve, in addition to what might be involved in leveling up at my work, and I've come to a realization that I need to transition more from API documentation to developer portal strategies. Developer portal strategies includes API documentation but also encompasses broader concerns as well, not too different from content strategy. "
 ---
 
+* TOC
+{:toc}
+
 I also recorded this post as a conversational podcast (rather than a narrated one).
 
 {% include audio.html %}

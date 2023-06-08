@@ -7,6 +7,9 @@ description: "Here are my slides for the Documenting REST APIs workshop I'm givi
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/anaheimstcslidesapithumb.png
 ---
 
+* TOC
+{:toc}
+
 Here are the slides:
 
 <a href="https://idratherbewriting.com/files/apiworkshopslidesstc/" target="\_blank"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docrestapisstcanaheim.png" | prepend: site.baseurl }}"/></a>

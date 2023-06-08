@@ -10,6 +10,9 @@ redirect-from:
 - /blog/moving-to-seattle-buying-home-virtually/
 ---
 
+* TOC
+{:toc}
+
 ## A little backstory
 
 I've lived in various places in the world. I grew up in Burlington and Tacoma Washington. Then moved to Utah for college, then Japan for a summer, then New York City for graduate school. After New York City, we moved to Cairo, Egypt, for a couple of years before returning to Florida, where my sister and family were living. In Florida, thinking we would stay a long time, we bought a house and lived there for several years before moving due to safety issues. (A stray bullet ended up in the bedroom our six-month old was napping in, and the house next door was a drug-drop.) We sold the Florida house at a loss and ended up paying back the difference over the next couple of years.

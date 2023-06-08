@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/userma
 sidebar: sidebar_visualcommunication
 ---
 
+* TOC
+{:toc}
+
 ## Map background
 
 I've been thinking more about user maps lately. My [first user map](https://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/) looked like this:

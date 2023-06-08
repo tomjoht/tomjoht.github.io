@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/techcommmonsters
 description: "Some tech comm projects are like monsters we battle. Is there any truth to the idea that it takes a monster to kill a monster?"
 ---
 
+* TOC
+{:toc}
+
 I've been thinking of a quote I once heard about writing being a monster that you battle and slay. I couldn't initially find the quote, but I liked the idea that writing projects were *monsters* that you go up against. This couldn't be more perfect a description for a recent project of mine.
 
 I feel like I'm a pretty good technical writer, but recently I found myself in full battle with a project monster. I was picking up the pieces of some documentation sketched out (I wouldn't say written) by another person (not a tech writer), who had since left the company (somewhat abruptly).

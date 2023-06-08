@@ -11,6 +11,9 @@ series: "Value arguments for docs and tech comm"
 sidebar: sidebar_value_tech_comm
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagValueOfTechComm.html %}
 
 {{site.data.alerts.note}}This is part III in a three-part essay. Read the previous section, <a href="/2017/12/28/value-of-tech-comm-in-company-part2">Part II: Past research on tech writer value</a> before diving in here. {{site.data.alerts.end}}

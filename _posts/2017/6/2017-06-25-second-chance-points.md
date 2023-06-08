@@ -9,6 +9,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/second
 sidebar: sidebar_basketball
 ---
 
+* TOC
+{:toc}
+
 In my experience, what wins basketball games more than anything else is **rebounds**. Why? When you dominate the boards with rebounds, you end up getting second-chance points. When you snatch a rebound, particularly an offensive rebound, you get another shot attempt.
 
 Typically teams shoot with around 33% accuracy (meaning they make 1 of 3 shot attempts &mdash; this is my rough estimate). If you get twice as many offensive rebounds, you get twice as many shot attempts. The end result of getting one extra rebound per possession is that you're essentially shooting 66% instead of 33%.

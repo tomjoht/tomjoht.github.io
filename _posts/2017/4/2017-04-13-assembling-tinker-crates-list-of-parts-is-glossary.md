@@ -8,6 +8,9 @@ bitlink: http://bit.ly/tinkercrateprojects
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/tinkercratethumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Tinker Crate projects
 
 This past weekend, as most people do in their free time, I put together some stuff by following someone's instructions. My wife ordered [Tinker Crate kits](http://www.kiwicrate.com/tinker) for our kids. Tinker Crates are little science kits in a box that require you to follow instructions to make some cool little model, contraption, or other gizmo. In this case, I helped my 6-year-old build an [infinity mirror](http://www.kiwicrate.com/infinity-mirror.html).

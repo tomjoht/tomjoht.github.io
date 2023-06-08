@@ -13,6 +13,9 @@ podcast_duration: "29.51"
 podcast_length: 20486083
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 Bobby Kennedy started offering [technical writing courses](https://becometechnicalwriter.com/) after acting as a mentor to a student trying to find a career path in tech comm. Through this experience, he realized  he has a lot of valuable information about technical writing profession, which he gained through 20+ years in the field. He can help guide students to learn both basic and advanced technical writing skills, build up a portfolio, prepare for technical writing interviews, and ultimately land a technical writing job in the field. He's even working on more specialized courses like UX writing as well.

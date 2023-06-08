@@ -9,6 +9,9 @@ description: "This episode focuses mainly on testing tools. Last month, some roc
 bitlink: http://bit.ly/wtd16pointer
 ---
 
+* TOC
+{:toc}
+
 Host Chris Ward and our podcast guest Anett Pozsar from Szeged (pron. Seg-jed) Hungary also participated in the Test-the-Docs hackathon. Anett recently started in her role as a technical writer, so in this episode we also chat about what it's like starting out as a new technical writer. Finally, we transition from testing tools and linters to templates. Structure and templates can be especially helpful for guiding engineers in writing docs.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B0ZdoAW2aY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

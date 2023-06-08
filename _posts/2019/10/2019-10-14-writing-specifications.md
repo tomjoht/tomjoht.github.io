@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/specsdocsstrategies
 description: "Although specification documentation (which covers technical information about product details), doesn't involve much actual writing, it does require you to make many judgments about what information to include, how to gather and retrieve these details, and how to structure and present the information. These tasks are at the heart of technical communication."
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 This past week I've been creating specifications documentation for a lot of new Fire TV products. Specifications documentation isn't something I've written much about, but it's a topic worthy of discussion since specification pages can be a highly visited resource in documentation. (Our [Fire TV specifications](https://developer.amazon.com/docs/fire-tv/device-specifications.html) pages top the charts on visitor traffic in our developer portal week over week for the past four years.)

@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "The origins of scientific thinking probably developed with the first animal trackers, not just the Greeks. As we wayfind, we piece together inferences by reading the signs in the environment around us."
 ---
 
+* TOC
+{:toc}
+
 *If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/blog/wayfinding-intro/).*
 
 ## Origins of scientific reasoning

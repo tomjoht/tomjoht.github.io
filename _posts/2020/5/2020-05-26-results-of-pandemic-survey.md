@@ -9,6 +9,9 @@ description: "The results of the Pandemic survey are <a href='https://www.questi
 sidebar: sidebar_pandemic
 ---
 
+* TOC
+{:toc}
+
 ## Survey highlights
 
 As of May 25, 2020, here are the highlights from the survey:

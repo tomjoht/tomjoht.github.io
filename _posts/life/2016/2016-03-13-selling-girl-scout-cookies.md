@@ -4,6 +4,9 @@ categories:
 - family
 ---
 
+* TOC
+{:toc}
+
 These past three weekends, Callie and Lucy and Molly have been selling Girl Scout cookies. I've been one of the adults at the their cookie booth each time.
 <p>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/86824645@N00/25666745111/in/dateposted-public/" title="It&#x27;s that time of year. Support..."><img src="https://farm2.staticflickr.com/1686/25666745111_7dd5b7bbaf.jpg" width="500" height="500" alt="It&#x27;s that time of year. Support..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

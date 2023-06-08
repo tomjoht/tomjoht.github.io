@@ -23,6 +23,9 @@ podcast_length: 6530090
 bitlink: http://bit.ly/bobwatsonpodcast
 ---
 
+* TOC
+{:toc}
+
 ## Listen to the podcast
 
 {% include audio.html %}

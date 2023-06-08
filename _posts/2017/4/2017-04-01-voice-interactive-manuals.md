@@ -9,6 +9,9 @@ bitlink: http://bit.ly/voice-interactive-manuals
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/aprilfoolsalexapostthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Example scenarios for voice interactions
 
 As an example of how voice-interactive manuals work, if a user is unclear about how to follow step 3 on page 6, the user can ask:

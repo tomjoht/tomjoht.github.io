@@ -8,6 +8,9 @@ categories:
 bitlink: http://bit.ly/adobeframemaker2017idbw
 ---
 
+* TOC
+{:toc}
+
 ## Doc tools and time
 
 A couple of weeks ago, a reader (Carl) asked if he could buy me lunch to pick my brain about static site generators. Carl and I met at my workplace cafeteria to chat.

@@ -7,6 +7,9 @@ description: "I've been quite happy with our current docs-as-code implementation
 bitlink: http://bit.ly/docsascodecheckin
 ---
 
+* TOC
+{:toc}
+
 ## Checking in after using docs-as-code for several years
 
 I've both written and presented about [docs-as-code](https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/#first-what-we-mean-by-docs-like-code) off and on for a number of years. I started using [Jekyll](https://idratherbewriting.com/about-jekyll/) at my previous job at 41st Parameter / Experian, and then helped lead the effort to [implement docs-as-code](https://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html) with my role on the Amazon Appstore doc team (we publish at [developer.amazon.com](https://developer.amazon.com/documentation/)). I'd just like to check in and say, docs-as-code works. Docs-as-code is the way to go.

@@ -8,6 +8,9 @@ bitlink: http://bit.ly/2017swagger
 date: 2017-01-17 20:00:00
 ---
 
+* TOC
+{:toc}
+
 ## Page views and session metrics
 
 Here are a couple of screenshots from Google Analytics:

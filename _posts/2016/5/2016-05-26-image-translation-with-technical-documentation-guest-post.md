@@ -9,6 +9,9 @@ bio: false
 sidebar: sidebar_visualcommunication
 ---
 
+* TOC
+{:toc}
+
 Including images can be a headache for the technical writer. Thanks to the challenges of translation, your headache can morph into a long-term migrane when the images include text.
 
 ## 1. Just eliminate the text!

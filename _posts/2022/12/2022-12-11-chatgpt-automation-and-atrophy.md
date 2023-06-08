@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/automationandatrophy
 description: "Whatever skill you outsource, atrophies. When we outsource tasks to machines to perform, our ability to perform the task ourselves weakens. From driving to writing, automation threatens to reduce key elements of the human experience. In this post, I'll use Matthew Crawford's <i>Why We Drive</i> as a lens through which to interpret ChatGPT. Although Crawford's book is about driving, so many of the arguments could equally apply to writing."
 ---
 
+* TOC
+{:toc}
+
 ## Crawford's *Why We Drive* and automation
 
 In [_Why We Drive: Toward a Philosophy of the Open Road_](https://www.amazon.com/Why-We-Drive-Toward-Philosophy/dp/0062741969), published in 2020, Matthew Crawford blends philosophy and personal experience in compelling ways to explore what happens when we outsource our agency to machines, choosing automation instead of individual action. Cars are becoming increasingly more computerized, with more driver assistance features (from lane centering to adaptive cruise control, self-parking, ABS, autopilot, and more). Crawford believes that automation removes many of the human elements from driving, converting the experience once perceived as the epitome of freedom and mobility to one in which our decisions and actions take a backseat to the will of the machine. We have replaced real experiences with manufactured experiences, Crawford says, cocooning people from the satisfaction of pushing back against the world with some form of mastery.

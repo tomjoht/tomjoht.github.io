@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.com/multimodal-commuting
 description: "My multimodal commuting strategy involves taking a car + train + bike to get from my suburban location to downtown Seattle. In this post, I share some tips and strategies for each of these segments."
 ---
 
+* TOC
+{:toc}
+
 ## Spotlight filming of my commute
 
 Why am I posting about this now? A while ago I saw a request from a non-profit group in my area ([Commute Seattle](https://www.commuteseattle.com/)) looking for Seattle commuters that they could spotlight. Given that I'd written a few posts about my multimodal commuting strategies (e.g., [Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems](/blog/bike-commuting-from-renton-to-seattle/), or [Urban sprawl and car dependence -- some thoughts on solutions](/blog/urban-sprawl-solutions/)), I thought I'd be a good person to profile. Sure enough, they reached out to me, and this past week I had a film crew follow me during my commute to work.

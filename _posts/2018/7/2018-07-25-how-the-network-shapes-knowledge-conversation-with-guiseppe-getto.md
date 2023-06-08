@@ -8,6 +8,9 @@ bitlink: http://bit.ly/networkinfluenceguiseppe
 practitioner_survey: https://docs.google.com/forms/d/1z9rGRIlWOJNyos86h8dwc0uqLypxlly3WKjafjs_r8o/edit
 ---
 
+* TOC
+{:toc}
+
 ## Article for discussion
 
 "Networked Rhetoric: iFixit and the Social Impact of Knowledge Work,” by Guiseppe Getto, Nathan Franklin, and Sheryl Ruszkiewicz. Published in <i>Technical Communication</i> (Volume 61, Number 3, August 2014). You can read the full text on <a href="https://www.academia.edu/8285360/Networked_Rhetoric_iFixit_and_the_Social_Impact_of_Knowledge_Work">academia.edu</a> (or if you have access, on [STC](https://www.stc.org/techcomm/2014/09/11/networked-rhetoric-ifixit-and-the-social-impact-of-knowledge-work/) or [Ingenta](http://www.ingentaconnect.com/search/article?option1=tka&value1=networked+rhetoric&operator3=AND&option3=journalbooktitle&value3=technical+communication&freetype=unlimited&sortDescending=true&sortField=default&pageSize=10&index=1)).

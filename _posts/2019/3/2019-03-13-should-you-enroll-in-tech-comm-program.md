@@ -8,6 +8,9 @@ bitlink: http://bit.ly/shouldyougetatcdegree
 description: "If you're considering entering a tech comm program to transition into technical writing, keep in mind two considerations &mdash; the emphasis on technical skills, and the potential drift from corporate relevance."
 ---
 
+* TOC
+{:toc}
+
 ## Tech comm programs are a popular topic
 
 Recently I was chatting with a student from a [Technical and Professional Writing](http://www.sfsu.edu/~bulletin/previous_bulletins/1314/programs/technic.htm) undergraduate program at [San Francisco State University](http://www.sfsu.edu/). She wanted to know more about [API documentation](/learnapidoc/) (since this wasn't necessarily emphasized in her program) and was doing some research about its importance in the field. So she scheduled some time to come down to my workplace and interview me about it.

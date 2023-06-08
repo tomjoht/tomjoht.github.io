@@ -9,6 +9,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stowes
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/stowestcsv.mp3
 ---
 
+* TOC
+{:toc}
+
 ## Slides
 
 Here are Michael's slides:

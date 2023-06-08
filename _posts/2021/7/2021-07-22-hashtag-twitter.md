@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/hashtagtwitter
 description: "In <a href='https://www.stc.org/techcomm/2021/04/29/hashtag-techcomm-an-overview-of-members-networks-and-themes-from-2016-2019/'>Hashtag #TechComm: An Overview of Members, Networks, and Themes from 2016-2019</a>, published in <i>Technical Communication Journal</i> (68.2 May 2021), Chris Lam identifies trends and themes in the tech comm field by looking 75,000+ tweets that used the hashtag <a href='https://twitter.com/hashtag/techcomm'>#techcomm</a> from 2016 to 2019. Previously, academics <a href='/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/#looking-at-job-advertisements-to-extrapolate-the-evolution-of-tech-comm'>looked at job advertisements to identify trends</a>, so this Twitter analysis for data provides a new approach to identifying trends."
 ---
 
+* TOC
+{:toc}
+
 ## Article summary
 
 Lam's research questions are a bit broader than just identifying trends and themes. He also wants to identify prominent voices and networks. He writes,

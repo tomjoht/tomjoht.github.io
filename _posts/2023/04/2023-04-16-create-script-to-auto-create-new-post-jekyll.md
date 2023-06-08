@@ -1,5 +1,4 @@
 ---
-
 title: "A script that creates a new Jekyll post and populates it with YAML frontmatter, and also makes a curl call to add a Rebrandly shortlink"
 permalink: /blog/create-script-to-auto-create-new-post-jekyll
 date: 2023-04-16
@@ -10,6 +9,9 @@ keywords:
 rebrandly: https://idbwrtng.com/create-script-to-auto-create-new-post-jekyll
 description: "I wanted to make it easier to create new blog post files in Jekyll, so I made a script that automates some of this functionality. (This is also an example of how AI tools can help you write code.)"
 ---
+
+* TOC
+{:toc}
 
 ## What the script does 
 
@@ -54,6 +56,9 @@ mkdir -p _posts/$YEAR/$MONTH
 cat > _posts/$YEAR/$MONTH/$DATE-$SLUG.md <<EOL
 ---
 
+* TOC
+{:toc}
+
 title: "$TITLE"
 permalink: /blog/$SLUG
 date: $DATE
@@ -64,6 +69,9 @@ keywords:
 rebrandly: https://idbwrtng.com/$SLUG
 description: ""
 ---
+
+* TOC
+{:toc}
 
 EOL
 

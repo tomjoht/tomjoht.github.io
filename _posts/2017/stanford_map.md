@@ -9,6 +9,9 @@ sidebar: sidebar_visualcommunication
 published: false
 ---
 
+* TOC
+{:toc}
+
 Last weekend I toured Stanford's Cantor museum. Since I had user maps on my mind, I was intrigued by the museum map:
 
 <figure><a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stanfordmap.jpg"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/standfordmapsmall.jpg" | prepend: site.baseurl }}"/></a><figcaption>This museum map presents me with a lot of different choices.</figcaption></figure>

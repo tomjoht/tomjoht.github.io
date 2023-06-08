@@ -15,6 +15,9 @@ podcast_duration: "01:01:44"
 podcast_length: 53,288,566
 ---
 
+* TOC
+{:toc}
+
 ## Video
 
 You can watch two versions of the video. If you want the STC San Diego version that includes my talking head and the STC / WTD intro remarks, see this video:

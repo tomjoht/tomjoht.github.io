@@ -8,6 +8,9 @@ description: "I'll be giving an upcoming presentation and workshop at the STC Su
 bitlink: http://bit.ly/myupcomingstcsummitpresworkshop
 ---
 
+* TOC
+{:toc}
+
 Here's the presentation I'm giving at the STC Summit:
 
 > **Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists**

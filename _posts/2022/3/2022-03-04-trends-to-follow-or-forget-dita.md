@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on DITA."
 ---
 
+* TOC
+{:toc}
+
 ## What is DITA?
 
 [Darwin Information Typing Architecture](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) (DITA) is an XML schema designed for documentation. A schema is a specific set of elements and includes rules about which elements can be used on which topics and which order. When you structure content with DITA elements, tools built to process DITA can generate the content into various outputs, such as web, print, mobile, or other formats. DITA offers both specialized schemas for tasks, concepts, reference, glossaries, troubleshooting, and more, as well as schemas for non-specialized, general topics. The non-specialized types are more similar to HTML.

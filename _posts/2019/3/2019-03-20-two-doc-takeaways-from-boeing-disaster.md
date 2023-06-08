@@ -8,6 +8,9 @@ bitlink: http://bit.ly/boeingdoctakeaways
 description: "Although I'm not familiar with FAA-regulated flight manuals, when I read about the Boeing disaster and the lack of information around the controversial MCAS feature, my two takeaways from a documentation perspective are to ask these questions: <i>How does this product differ from other products?</i> and <i>What does the customer need to know?</i> These are challenging questions in any documentation project."
 ---
 
+* TOC
+{:toc}
+
 ## The Boeing disaster's relevance to tech comm
 
 I've been following the recent Boeing airline disaster in part because of its relevance to the world of tech comm. A recent article noted that "one captain call[ed] the flight manual 'inadequate and almost criminally insufficient'" presumably for not "fully disclosing information about how its systems were different from other planes" ([Several Boeing 737 Max 8 pilots in U.S. complained about suspected safety flaw](https://www.dallasnews.com/business/airlines/2019/03/12/boeing-737-max-8-pilots-complained-feds-months-suspected-safety-flaw)).

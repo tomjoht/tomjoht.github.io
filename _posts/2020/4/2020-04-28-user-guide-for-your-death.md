@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/usermanualfordeath
 description: "This is a gloomy topic but one that until recently I'd never even considered. When you die, what \"user manual\" will your family members follow to carry out tasks that need to be done? About two years ago my father passed away, and while it was emotionally difficult, I realized that figuring out the logistics of one's passing was also challenging. In preparing for the worst with the Coronavirus, I started to think about what needs to be done in case I die. (Of course, I hope this doesn't happen, and I'm not sick or anything. I'm just thinking ahead to worst-case scenarios.)"
 ---
 
+* TOC
+{:toc}
+
 ## Closing out accounts
 
 One of the main logistical challenges after my father passed was to figure out which accounts he had, what bills were unpaid, what money remained in different accounts, and how to log in to everything.

@@ -6,6 +6,9 @@ keywords:
 description: "Using Jekyll for documentation will probably require more time and effort than a commercial out-of-the-box authoring tool. On the other hand, Jekyll may be more suitable to you if you're customizing a doc website, want a developer's workflow, or simply want the freedom of using open source tools and working in code."
 ---
 
+* TOC
+{:toc}
+
 A reader asks:
 
 > I'm interested in using Jekyll for a documentation project, but I'm not sure how much time and effort it would require to learn Jekyll and create/maintain/update content in this framework. For example, creating the search, setting up the table of contents, etc. &mdash; how much time will all this take in proportion to the amount of time spent creating actual content? I'm worried that I may not be that comfortable in the methods and technologies used in this approach.

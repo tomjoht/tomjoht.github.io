@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/developerhubfaq
 description: "DeveloperHub is a new publishing platform for API documentation that lets you combine your API reference information with tutorials and other documentation, complete with search, branding, navigation, and other features in a developer portal. In this post, I asked Zaid Daba'een, CEO & Founder of DeveloperHub, to share a bit of info about DeveloperHub."
 ---
 
+* TOC
+{:toc}
+
 *Note that DeveloperHub is a site sponsor.*
 
 ### What is DeveloperHub?

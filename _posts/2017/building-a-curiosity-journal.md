@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/
 published: false
 ---
 
+* TOC
+{:toc}
+
 My daughter and her school are at a pivotal moment: she has the opportunity to potentially gain admission to a STEM program next year, one that would put her into the high-achieving track with other future-bound students looking to enter science/technology/engineering/math careers.
 
 While she's eager to get into the program, only about 50% of the kids who apply get accepted. As I've been thinking about ways to help her persuade the admissions group that she's a good fit, I asked another parent for tips. She said the applicants need to be "authentic," she said. The kids have to want to earnestly enter the program on their own accord, not just because their parents push them into it.

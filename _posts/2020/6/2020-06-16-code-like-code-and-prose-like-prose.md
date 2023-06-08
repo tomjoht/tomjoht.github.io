@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/proselikeprose
 description: "Some recent experiences have prompted me to rethink the value of treating docs like code in some respects. I want to return to focusing more on content rather than technical workflows, especially when creating new content. Some of the docs-like-code processes exclude too many people in non-engineer roles who would otherwise contribute to the review and development of the content."
 ---
 
+* TOC
+{:toc}
+
 ## "Prose like prose"
 
 I recently participated in a podcast sponsored by Readme, where Andrew Baker of Twilio and I were interviewed about best practices with API documentation &mdash; see ["Building Great Documentation" -- WAPI FM radio hour](/blog/wapi-radio-building-great-documentation-recording/). When the Readme host asked us doc trends, I mentioned that more tech writers are treating documentation like code. When Andrew, who is the Director of Developer Education at Twilio, gave his response, he pushed back a bit on the idea of treating docs like code. He said their philosophy at Twilio is to "treat code like code and prose like prose." (This topic surfaces ~15m into the podcast if you want to listen to it.)

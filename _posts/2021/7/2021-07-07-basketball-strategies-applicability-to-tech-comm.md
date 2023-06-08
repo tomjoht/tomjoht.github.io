@@ -10,6 +10,9 @@ description: "Because it's NBA championship finals time, I thought it might be f
 sidebar: sidebar_basketball
 ---
 
+* TOC
+{:toc}
+
 
 ## 1. The shooting bigs
 

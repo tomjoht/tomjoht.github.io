@@ -20,6 +20,9 @@ podcast_length: 68378174
 description: "I recently gave a presentation on technical communication trends to the STC Puget Sound Chapter in Seattle, Washington, on May 21, 2019. This is one of the better presentations on trends I've given and culminates a lot of research and other iterations on this topic during the past year. You can view a recording of the presentation, check out the slides, grab the audio file, and see other details here."
 ---
 
+* TOC
+{:toc}
+
 ## Video
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1bzf6Iytza4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

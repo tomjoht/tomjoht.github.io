@@ -17,6 +17,9 @@ podcast_duration: "09:56"
 podcast_length: 8053544
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 You can watch the [Transforming Your Documentation Process](https://www.youtube.com/watch?v=Y2TGwUPb8R4) presentation here:

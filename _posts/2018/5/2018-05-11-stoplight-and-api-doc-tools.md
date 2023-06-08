@@ -7,6 +7,9 @@ description: "<a href='https://stoplight.io?utm_source=idratherbewriting'>Stopli
 bitlink: http://bit.ly/stoplightopenapitools
 ---
 
+* TOC
+{:toc}
+
 *Note that Stoplight is one of the sponsors of my site.*
 
 ## Limits to line-by-line spec coding

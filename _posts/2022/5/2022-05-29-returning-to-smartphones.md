@@ -10,6 +10,9 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 ---
 
+* TOC
+{:toc}
+
 ## The pivotal moment
 
 Last Saturday was the pivotal moment in my smartphone experiment. I was coordinating a small detail with my wife, namely what type of potting soil to get at a local nursery (before driving there), and she sent me a link to the brand via email. I checked my gmail (on my computer) for her message but didn't see the email, so I walked upstairs to verbally ask/confirm the brand, but my wife looked at me annoyed and frustrated that she had sent me a message that did not reach me due to my phone. She wouldn't just tell me the potting soil name, so I snapped back and said well fine I'll just go back to my desk and hit refresh again on my email and see if it comes up, or she could simply tell me the brand name now while I'm up here.

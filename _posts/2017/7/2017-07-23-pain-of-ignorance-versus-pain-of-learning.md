@@ -14,6 +14,9 @@ podcast_duration: "17:52"
 podcast_length: 14326715
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Background story

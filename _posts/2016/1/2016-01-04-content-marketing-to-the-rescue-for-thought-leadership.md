@@ -7,6 +7,9 @@ description: "Technical writers should repurpose their information-rich content 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/contentmarketingconceptthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Hearing a lot lately about "unified customer experience"
 This past year I've been hearing a lot about addressing the whole customer journey, or developing a [unified customer experience strategy](https://www.linkedin.com/pulse/why-you-need-unified-customer-experience-strategy-scott-abel). Companies need to have consistent content for every touchpoint with the customer, from the time the users are prospects to the time those users become customers and beyond.
 

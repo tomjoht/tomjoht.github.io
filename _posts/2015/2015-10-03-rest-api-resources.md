@@ -6,6 +6,9 @@ keywords:
 description: "The following is a collection of 5 worthwhile REST API resources (blogs, newsletters, or other tutorials) to add to your API reading list."
 ---
 
+* TOC
+{:toc}
+
 Here are a few good REST API resources to add to your reading list:
 
 * [An API a Day](http://anapiaday.tumblr.com/). This is a Tumblr blog by Lois Patterson. She's provides brief updates on different API resources she finds.

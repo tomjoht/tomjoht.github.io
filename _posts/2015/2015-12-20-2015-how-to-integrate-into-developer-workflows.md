@@ -6,6 +6,9 @@ keywords:
 description: "You can stay updated with what developers are working on by analyzing the items assigned to the current sprint and asking the assigned developer for details."
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 > Our documentation team often gets blindsided by changes that developers make. We don't feel like we're kept in the loop with the updates and changes that developers are making to the application. How can we plug into the developer's worfklow?

@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/tcjobsinterviews
 description: "If you're preparing for a technical writing interview, or looking to get experience to better qualify yourself for the tech comm job market, check out this helpful advice from my former colleague, Aaron Redshaw."
 ---
 
+* TOC
+{:toc}
+
 I worked with Aaron while at Amazon. One thing he mentioned to me was that, in my [API course](/learnapidoc/), my advice to [get experience through an open-source project](/learnapidoc/docapis_find_open_source_project.html) didn't work so well. Many people tried volunteering their writing time and talents for these projects, only to be met with silence. Others had trouble even finding a suitable project. Transitioning into tech comm was also a challenge, with many unknowns and open questions.
 
 So I'm glad to see that Aaron has started a series on how to prepare for technical writing jobs and interviews. So far, he has two in-depth articles on how to prepare for technical writing interviews:

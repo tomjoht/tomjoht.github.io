@@ -27,6 +27,9 @@ description: ""
 published: false
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 > I'm a J2EE developer hoping to transition into a career in API documentation. Can you recommend the best path to switching into this field? Should I take a course, attend a program of some kind, get a mentor, or do something else?

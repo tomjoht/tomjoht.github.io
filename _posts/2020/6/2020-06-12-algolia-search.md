@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/sitesearchusefulness
 description: "Lately, I've been researching different options for doc search. I've lived for years with poor search in my docs, and I haven't paid a lot of attention to it. Search is one of those elements that's easy to ignore. Despite how easy it is to ignore search, search is one of the most common user behaviors, and one that most tech writers would consider to be important. So let's examine that paradox a bit more &mdash; how can search be so important and unimportant at the same?"
 ---
 
+* TOC
+{:toc}
+
 ## Looking at my own search experience
 
 I'd like to start by taking a look at the searches I made over the previous day or so. According to [Google History](https://myactivity.google.com/myactivity), here's what I searched for:

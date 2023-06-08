@@ -9,6 +9,9 @@ description: "Recently I received feedback from someone saying that they couldn'
 rebrandly: https://idbwrtng.com/lastmodifiedtimestamps
 ---
 
+* TOC
+{:toc}
+
 ## Programmatic ways of adding timestamps
 
 You can programmatically add a timestamp to your pages if they're managed with Git. And in fact, Jekyll (what I use for my sites) has a [last-modified-at plugin](https://github.com/gjtorikian/jekyll-last-modified-at) that can do this automatically. This plugin looks at the git log and finds the last commit date for the page. Seems easy, right? In fact, if you don't want to use a plugin (because GitHub Pages doesn't allow it), you could use a [pre-commit Git hook](https://toroid.org/git-last-modified) that will update a metadata value for the page you're modifying prior to commit.

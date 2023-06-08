@@ -4,6 +4,9 @@ categories:
 - family
 ---
 
+* TOC
+{:toc}
+
 Shannon applied to a master of liberal arts program at Stanford and was accepted. She starts her program in the fall. Only 21 applicants were accepted this year, so it was pretty selective. (They didn't say how many total applicants applied.) She's really excited about it. The program is designed for working adults, so the classes will be in the evenings and extended out over a 4-5 year period instead of 2.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/86824645@N00/25735615016/in/dateposted-public/" title="Shannon starts her new job at..."><img src="https://farm2.staticflickr.com/1709/25735615016_9600bfd927.jpg" width="500" height="500" alt="Shannon starts her new job at..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

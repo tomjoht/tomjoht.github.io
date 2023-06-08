@@ -7,6 +7,9 @@ description: "Some common forms of authentication and authorization with APIs in
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/apiauth.png
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}
 For a more up-to-date version of this content, see <a href="https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html">Documenting authentication and authorization requirements</a> in my API course.
 {{site.data.alerts.end}}

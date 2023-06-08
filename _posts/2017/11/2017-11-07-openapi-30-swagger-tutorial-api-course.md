@@ -7,6 +7,9 @@ description: "I added a new tutorial on creating an OpenAPI 3.0 specification do
 bitlink: http://bit.ly/openapi30tutorial
 ---
 
+* TOC
+{:toc}
+
 You can view my OpenAPI 3.0 tutorial here: [OpenAPI 3.0 tutorial overview](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html). Here are the 8 steps in the tutorial:
 
 <a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/open-api-tutorial-workflow.png"/></a>

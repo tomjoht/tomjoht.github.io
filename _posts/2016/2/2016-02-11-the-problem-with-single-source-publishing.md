@@ -6,6 +6,9 @@ description: "When publishing different versions of content for different audien
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/threemodels.png
 ---
 
+* TOC
+{:toc}
+
 As I try to wrap my mind around the requirements of one of my current projects, I find myself struggling with the fundamental paradigm of single source publishing.
 
 Consider Project Godzilla, as I'll call it. Project Godzilla involves an API that plugs in requests from a lot of different product lines, thus serving as a kind of master API for dozens of products. The total possible JSON submitted in the request is quite large, since it accommodates so many potential products. But each customer will only use a slice of the JSON. As a result, the delivery engineers want to give customers only that slice of the JSON that they will actually need to make requests.

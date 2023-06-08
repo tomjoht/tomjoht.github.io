@@ -10,6 +10,9 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 ---
 
+* TOC
+{:toc}
+
 If you're just coming into this series, see these two posts first:
 
 * [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)

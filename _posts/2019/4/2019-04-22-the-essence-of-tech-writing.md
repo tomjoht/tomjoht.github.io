@@ -8,6 +8,9 @@ bitlink: https://rebrand.ly/essenceandstagesofreview
 description: "The essence of technical writing is in making a complex product work from beginning to end. In my doc process, I push content through five stages of review, but this first one, which includes my own review, is the most important."
 ---
 
+* TOC
+{:toc}
+
 ## The essence of technical writing
 
 As I was working through a lengthy set of docs today, testing out the steps (again), expanding places that were confusing, correcting details, making sure everything worked, I felt a sense of accomplishment and realized that the essence of technical writing, at least in my experience, really boils down to a couple of key activities:

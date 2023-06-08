@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/ambiguous-content
 description: "As a senior technical writer, part of my job description is to focus on tackling \"ambiguous\" content, as opposed to more straightforward content that is more commonly assigned to non-senior technical writers. At first, I wasn't entirely sure what \"ambiguous content\" meant (that fuzziness is part of its definition), but this has come into focus more over the past few months. Here I'd like to describe what ambiguous content means, as it helps identify content that has characteristics I've encountered for years."
 ---
 
+* TOC
+{:toc}
+
 Ambiguous content has one or more of the following characteristics:
 
 * The content lacks a clear owner.

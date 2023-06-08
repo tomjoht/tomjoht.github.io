@@ -15,6 +15,9 @@ podcast_duration: "57:12"
 podcast_length: 45459515
 ---
 
+* TOC
+{:toc}
+
 ## Video recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VHXES-nnUGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

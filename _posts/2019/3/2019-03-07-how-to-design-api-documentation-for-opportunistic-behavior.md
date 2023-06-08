@@ -8,6 +8,9 @@ bitlink: http://bit.ly/designforopportunisticbehavior
 description: "A recent study looked at how developers interact with API documentation. It found a mix of systematic and opportunistic learning styles. While we often write with the former in mind, focusing on the latter styles (opportunistic) might be more beneficial, and will cause us to focus on improving search, navigation, interactive components, troubleshooting, error messages, and other action-oriented features."
 ---
 
+* TOC
+{:toc}
+
 ## Study on how developers use API docs
 
 The latest issue of [Communication Design Quarterly](https://sigdoc.acm.org/publication/), a publication of SIGDOC (the Special Interest Group for Design of Communication), features a highly relevant article called [How Developers Use API Documentation: An Observation Study](https://sigdoc.acm.org/cdq/how-developers-use-api-documentation-an-observation-study/). Several researchers from Merseburg University in Germany &mdash; Michael Meng, Stephanie Steinhardt, and Andreas Shubert &mdash; set out to "understand how developers use documentation when starting to work with a new API."

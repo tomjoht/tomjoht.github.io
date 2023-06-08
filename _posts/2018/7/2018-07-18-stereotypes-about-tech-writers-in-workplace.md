@@ -10,6 +10,9 @@ author: <a href='#emily'>Emily January Petersen</a>
 bio: false
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.tip}}You can read the academic version of this article that was published in the <i>Technical Communication Journal</i> here: <a href="https://www.academia.edu/35267996/Articulating_Value_Amid_Persistent_Misconceptions_about_Technical_and_Professional_Communication_in_the_Workplace">Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace</a>.{{site.data.alerts.end}}
 
 ## Introduction

@@ -10,6 +10,9 @@ redirect_from:
 - /blog/review-krinnock-hoff-may-i-ask-a-technical-question/
 ---
 
+* TOC
+{:toc}
+
 The authors ground their discussion in research and terminology, and offer a useful appendix with nearly 40 key terms in the context of larger technological issues. While the book is self-published and seemingly unreviewed elsewhere, it is worth reading, as it encourages a more mindful, cautious approach when it comes to embracing new digital technologies.
 
 In the book, Krinock and Hoff say they 

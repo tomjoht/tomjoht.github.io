@@ -8,6 +8,9 @@ bitlink: https://rebrand.ly/myrecordingprocessvids
 description: "In case you're curious about my process for recording workshops and producing the videos, such as in <a href='https://idratherbewriting.com/learnapidoc/docapis_course_videos.html'>Video recordings of API doc workshops</a>, I've detailed the process here. In short, I capture the screen video and audio separately and then combine them in post-production. There's room for improvement in my approach &mdash; mainly to capture audience voices and picture in picture, but this tends to require more work than it's worth."
 ---
 
+* TOC
+{:toc}
+
 ## Recording audio
 
 I use a [Zoom H4n Pro Handy Recorder](https://www.amazon.com/Zoom-H4N-Digital-Multitrack-Recorder/dp/B01DPOXS8I) ($220) with a [Shure SM93 Lavalier Microphone](https://www.amazon.com/gp/product/B0002JETWE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) ($160) to capture my voice. The Shure lavalier is a phantom-powered omnidirectional mic with an XLR input that plugs into the Zoom recorder. (Previously, I used a cardioid mic but found that it was too sensitive in reacting to changes in head positions.)

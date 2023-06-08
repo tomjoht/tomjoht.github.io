@@ -9,6 +9,9 @@ description: "Now that most of us are working from home, I thought I might write
 sidebar: sidebar_pandemic
 ---
 
+* TOC
+{:toc}
+
 <style>
 .juxtaposeImage img.thumbnailreview {
   float: left;

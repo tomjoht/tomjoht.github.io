@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on wikis and crowdsourcing."
 ---
 
+* TOC
+{:toc}
+
 ## What are wikis and crowdsourcing?
 
 Wikis allow for larger numbers of people to contribute and edit content. Open-source wikis like [MediaWiki](/2009/12/06/ramping-up-on-mediawiki/) (the same platform powering Wikipedia) scale in an impressive way to allow practically anyone to edit and contribute content from a browser. Any reader can usually toggle the webpage into an editor mode, make and update, and click Save.

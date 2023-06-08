@@ -29,6 +29,9 @@ thumb:
 published: false
 ---
 
+* TOC
+{:toc}
+
 carving out time to think
 
 https://www.linkedin.com/pulse/why-you-should-have-least-1-hour-thinking-time-every-von-der-heydt?trk=mp-reader-card&trk=hp-feed-article-title-share

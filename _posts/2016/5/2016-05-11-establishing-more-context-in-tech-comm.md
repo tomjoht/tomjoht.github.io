@@ -9,6 +9,9 @@ sidebar: sidebar_visualcommunication
 category: visual-communication
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 Recently I attended an STC Silicon Valley presentation by two tech writers from Palo Alto Networks who spoke about how they constructed their [documentation portal](https://www.paloaltonetworks.com/documentation/). The portal is a great example of doc portals, and one that you can learn a lot by studying. You can see their slides [here](http://www.stc-siliconvalley.org/2016/03/06/march-21-2016-building-a-documentation-portal/).

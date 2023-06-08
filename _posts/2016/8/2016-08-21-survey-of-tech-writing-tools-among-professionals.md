@@ -8,6 +8,9 @@ description: "Ferry Vermeulen asked more than 70 tech comm pros -- from both the
 bitlink: http://bit.ly/toolsof70tcpros
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 Ferry Vermeulen [from INSTRKTIV](http://instrktiv.com/en/) asked more than 70 technical writing professionals (from conferences such as Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom, and Information Energy) the following question:

@@ -1,6 +1,4 @@
 ---
-#layout: newsletter
-
 title: "Newsletter: Docusaurus, Lens, Docs-as-Code, 2022 site analytics, and HTML Table formatting"
 permalink: /blog/docusaurus-lens-docs-as-code-tables
 date: 2023-04-27
@@ -11,6 +9,9 @@ keywords:
 rebrandly: https://idbwrtng.com/docusaurus-lens-docs-as-code-tables
 description: "Here are tech comm news and links for April 28, 2023."
 ---
+
+* TOC
+{:toc}
 
 ## Docusaurus
 

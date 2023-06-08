@@ -10,6 +10,9 @@ description: "Version 3.0 of my Documentation theme for Jekyll is now available.
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekylltheme.png
 ---
 
+* TOC
+{:toc}
+
 ## Version 3.0 released
 
 Version 3.0 of my Documentation theme for Jekyll is now available. You can download the source code from the [theme's Github repo](https://github.com/tomjoht/documentation-theme-jekyll).

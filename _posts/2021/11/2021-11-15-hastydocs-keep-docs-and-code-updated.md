@@ -10,6 +10,9 @@ author: <a href='#jarek'>Jarek Piotrowski</a>
 bio: false
 ---
 
+* TOC
+{:toc}
+
 ## The challenge of keeping docs up-to-date
 
 A frequent challenge in writing and maintaining API documentation is keeping the documentation up-to-date when the code changes. Although API reference docs are often generated from code, the conceptual/tutorial docs written in Markdown (or similar) aren’t auto-generated. As such, it’s easy for engineers to make updates to the codebase but then never update the Markdown documentation.

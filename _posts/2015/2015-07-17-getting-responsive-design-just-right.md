@@ -6,6 +6,9 @@ keywords: careers
 description: "Not having a mobile friendly display for your site not only strains readers on mobile devices, it can hurt your SEO. Making your site mobile friendly also poses some unique challenges with advertising slots, because the slots shift around when you switch from desktop to mobile."
 ---
 
+* TOC
+{:toc}
+
 ## Mobile friendly displays now a requirement, not an extra
 
 It used to be that having a responsive display for your mobile site was a nice-to-have feature. However, now Google will actually penalize you in the search results if your site isn't mobile friendly. According to TNW News,

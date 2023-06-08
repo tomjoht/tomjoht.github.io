@@ -6,6 +6,9 @@ keywords: user-centered documentation, content strategy, challenges, siloes
 description: "ContentHug is a content curation service focused on tech comm. Currently the site has a theme of conversations with various tech comm pros, mostly about content strategy."
 ---
 
+* TOC
+{:toc}
+
 Vinish Garg has a series of "[conversations](http://contenthug.com/conversations)" going on his site, [Contenthug](http://contenthug.com/). Today he posted a conversation he had <a href="http://contenthug.com/conversations/our-guest-today-tom-johnson">with me</a>.
 
 <a href="http://contenthug.com/conversations/our-guest-today-tom-johnson"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/contenthugconversation.png" | prepend: site.baseurl }}" alt="Conversation on Contenthug.com with Tom Johnson" /></a>

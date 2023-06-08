@@ -14,6 +14,9 @@ podcast_duration: "25:35"
 podcast_length: 21801999
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Site metrics gives insight about the skills people want

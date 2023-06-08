@@ -7,6 +7,9 @@ keywords: content management, access control, identity access management
 description: "Authenticating documentation poses significant challenges with identity access control. Ideally, customers should only see documentation for products they purchased. Rather than creating separate sites for each audience, a content management system can map viewing rights to user groups."
 ---
 
+* TOC
+{:toc}
+
 ## Why authenticate documentation?
 
 As a blogger, I'm not in favor of authenticating anything. But most companies I've worked for have required users to authenticate with a username and password in order to access the documentation I write. I'm currently trying to find a good solution for authenticating my documentation, and I could use a few tips if you have information to share.

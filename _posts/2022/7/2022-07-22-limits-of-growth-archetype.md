@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "In this post, I note that I've slowed reading a bit and started watching Netflix more. I turn to two system archetype theories to explain these dynamics. The archetypes 'Limits to Growth' and 'Shifting the Burden' from Peter Senge's <i>The Fifth Discipline</i>, a classic about learning organizations, provide insight into how to move past plateaus."
 ---
 
+* TOC
+{:toc}
+
 ## Background summary
 
 If you're just coming into this series, there are quite a few previous posts (see the left sidebar). But to establish a quick context, I [gave up my smartphone](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) to recapture my sense of focus. I tried to make do with a basic phone, only to realize that it was causing communication stress with my family. So I [returned to my smartphone](/blog/returning-to-smartphones/) but still avoided the social media apps and continued to follow many of the [digital detox rules](/blog/returning-to-smartphones/#my-adjusted-rules) I'd adopted.

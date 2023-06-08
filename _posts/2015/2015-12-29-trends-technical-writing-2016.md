@@ -7,6 +7,9 @@ description: "In 2016, the continued growth of APIs will create a ripple effect 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/rippleapi.png
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}} This article also appeared in the <a href="http://intercom.stc.org/2016/03/2016-technical-writing-trends-and-predictions-or-the-ripple-effects-of-api-growth-on-technical-writers/">Feb 2016 issue of Intercom.</a> {{site.data.alerts.end}}
 
 ## About trends posts

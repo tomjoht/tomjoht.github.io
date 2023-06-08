@@ -9,6 +9,9 @@ description: "The other week I was trying to get a better grip on work-life bala
 sidebar: sidebar_pandemic
 ---
 
+* TOC
+{:toc}
+
 Before my planned work-from-the-park day, I knew connectivity would be an issue, so I mapped out some [relevant Xfinity wifi hotspots near parks](https://www.google.com/maps/d/u/0/edit?mid=1ND1nCRD7pOpwYBHbADlNShqRJpHSOJ0u&ll=37.35132322392484%2C-121.92461189887695&z=11) ahead of time that might also have benches and power outlets.
 
 With a folding lawn chair strapped to my back (with backpack straps) and a long extension cord under a cargo net on my bike rack, I biked out about 5 miles out to the Alviso Education Center, which has nice cement picnic tables, shade, and hotspots nearby.

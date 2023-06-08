@@ -6,6 +6,9 @@ keywords: api documentation, api workshop. rest api
 description: "I'm giving both a workshop and presentation at the STC Summit in Columbus, Ohio. I'm also receiving an award for oustanding guest-edited issue of the Intercom."
 ---
 
+* TOC
+{:toc}
+
 ## Upcoming API documentation workshop
 
 I'm giving a 3.5 hour workshop on API documentation at the STC Summit in Columbus this year. Although I gave some workshops and presentations on APIs earlier this year, for this Summit workshop, I've completely reworked the material and focused almost entirely on REST APIs. I'm really excited about the content I've got in this workshop and hope to repurpose it later with an online learning platform.

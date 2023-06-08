@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/findingafocus
 description: "I've been trying to think of a good focus for upcoming presentations and my blog lately, but I'm unsure about topics. I've focused on many topics in the past: trends, API documentation, docs-as-code tools, and before this, other areas such as blogging, podcasting, quick reference guides, value arguments, visuals, user-centered docs, and more. Ideally, I'd like to turn over a new leaf with some engaging topic that I've never explored before, but I'm not sure what that would be."
 ---
 
+* TOC
+{:toc}
+
 I know the tech comm field is vast, with many possible topics. I fear that lately I've slumped into a bit of writer's block on this blog, and my motivation to write has fallen. A recent NY Times article suggests that this feeling of *blah* is really "languishing" &mdash; see [There’s a Name for the Blah You’re Feeling: It’s Called Languishing](https://www.nytimes.com/2021/04/19/well/mind/covid-mental-health-languishing.html). The author explains,
 
 > It wasn’t burnout — we still had energy. It wasn’t depression — we didn’t feel hopeless. We just felt somewhat joyless and aimless. It turns out there’s a name for that: languishing.

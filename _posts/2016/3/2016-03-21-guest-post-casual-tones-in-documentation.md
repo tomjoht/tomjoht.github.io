@@ -7,6 +7,9 @@ description: "In this guest post, Lavanya Krishnamurthy explores the use of a ca
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/lavanya.png
 ---
 
+* TOC
+{:toc}
+
 We use the latest technology and modern software products in our daily lives. Have you observed the tone in which these products communicate with us? It’s no longer the boring, formal tone. It’s the casual, conversational tone that invites you when you go to their websites, interact with their UI, and so forth. So, is the casual style something that we should adapt for technical documentation as well? Read on…
 
 Content with a causal tone makes you feel like you are having a conversation with the author. It creates empathy and makes you feel secure, comfortable, and encourages you to read more.

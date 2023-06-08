@@ -7,6 +7,9 @@ description: "In contrast to other non-IT professions, the rapidly evolving pace
 bitlink: http://bit.ly/avoidextincttccareer
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 I ran across a couple of must-read articles in Tech Crunch this week. The first is titled [Your experience is probably worth a lot less than you think](https://techcrunch.com/2016/10/22/your-experience-is-probably-worth-a-lot-less-than-you-think/amp/) by Jon Evans.

@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/updatedmetricsandmeasurement
 description: "I recently updated the <a href='/learnapidoc/docapis_metrics_and_measurement.html'>Metrics and measurement</a> section of my API course to remove the section on scoring the various API documentation criteria. I also consolidated the first- and second-level checklists into a <a href='/learnapidoc/docapis_quality_checklist.html'>single checklist</a>."
 ---
 
+* TOC
+{:toc}
+
 ## Why remove the scoring aspect of criteria?
 
 I initially thought that I could give each criteria a score, weight each score, and then give an overall grade or score for developer docs. But as I did that recently at work, revisiting each criteria and its score that I'd assigned one year earlier with a new annual assessment and score, the scores felt silly. I don't think they worked well and seemed meaningless. So in the spirit of getting rid of things that don't work, I removed that scoring section from my API doc course. It seems that achieving that elusive metric about how to quantify tech comm work is still something I haven't figured out.

@@ -7,6 +7,9 @@ description: "We're looking to add a couple of technical writers to our Appstore
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/amazonjobs.png
 ---
 
+* TOC
+{:toc}
+
 To read more about the technical writer positions at Amazon, see the following:
 
 * <a href="https://www.amazon.jobs/en/jobs/405036">Senior Technical Writer (Amazon)</a>

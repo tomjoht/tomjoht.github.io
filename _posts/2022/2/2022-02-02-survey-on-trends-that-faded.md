@@ -12,6 +12,9 @@ series: "Trends to follow or forget"
 sidebar: sidebar_fizzled_trends
 ---
 
+* TOC
+{:toc}
+
 You can view the <a href='https://www.questionpro.com/t/7BnU7DZq7kM'>survey results dashboard here</a>. (See the next post in the series for my analysis of the survey results.)
 
 I left this survey in this series because it provides context and rationale for the direction I took. Rather than making assertions about trends across the industry, in this series I look at trends that I embraced or rejected within my own career.

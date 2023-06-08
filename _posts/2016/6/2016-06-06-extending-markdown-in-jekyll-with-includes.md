@@ -7,6 +7,9 @@ description: "Although the basic Markdown syntax can be pretty limiting, you can
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekyllthumbimage.png
 ---
 
+* TOC
+{:toc}
+
 ## Conversation about Markdown and limitations
 
 There's somewhat of an interesting conversation going on about Markdown, constraints, extensibility, and limits. Eric Holscher started the conversation with [Why You Shouldn’t Use “Markdown” for Documentation][2]. Mark Baker followed it up with [Why we need constrainable lightweight markup languages][1].

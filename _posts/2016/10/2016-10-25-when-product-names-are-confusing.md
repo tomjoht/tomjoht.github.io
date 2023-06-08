@@ -7,6 +7,9 @@ description: "In the latest episode of This Week in Tech (TWIT episode 585), the
 bitlink: http://bit.ly/confusingmarketingterms
 ---
 
+* TOC
+{:toc}
+
 If you want to read a good explanation of the difference between two-step verification and two-factor authentication, see Oleg's [Apple Two-Factor Authentication vs. Two-Step Verification](http://blog.elcomsoft.com/2016/04/apple-two-factor-authentication-vs-two-step-verification/). But to get a real sense of the Apple tech writer's pain, you must read these two documentation topics:
 
 * [Frequently asked questions about two-step verification for Apple ID](https://support.apple.com/en-us/HT204152)

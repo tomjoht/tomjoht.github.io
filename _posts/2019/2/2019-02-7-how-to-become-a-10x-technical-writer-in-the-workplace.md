@@ -16,6 +16,9 @@ redirect_from:
 - /2019/02/06/tips-for-being-a-rock-star-technical-writer-in-the-workplace/
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Background

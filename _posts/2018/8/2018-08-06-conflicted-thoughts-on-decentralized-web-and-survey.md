@@ -14,6 +14,9 @@ podcast_duration: "24:44"
 podcast_length: 19533658
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## About the Census Survey

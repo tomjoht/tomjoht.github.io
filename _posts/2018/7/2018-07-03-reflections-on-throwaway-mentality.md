@@ -7,6 +7,9 @@ description: "When should you fix a broken process and when should you simply th
 bitlink: http://bit.ly/fixversusthrowaway
 ---
 
+* TOC
+{:toc}
+
 ## Our throwaway culture is due to planned obsolescence
 
 Lately I've been thinking about our throwaway culture, and when to choose buying or getting a new version of something instead of repairing the broken one. I'm not really thinking about physical goods, but let's start there.

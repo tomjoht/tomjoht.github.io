@@ -13,6 +13,9 @@ podcast_duration: "49:06"
 podcast_length: "38828715"
 ---
 
+* TOC
+{:toc}
+
 {: .note}
 If you remember, a few months ago I was brainstorming for this topic in a post titled [Balancing action with narration: Creating product overviews and getting started tutorials to satisfy both try-first and read-first learning modes](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/). This is the recording of that presentation.
 

@@ -17,6 +17,9 @@ podcast_duration: "07:09"
 podcast_length: 5718142
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 You can read the article by Mattias Sander here: [Become more productive and motivated](http://techwritingengineer.com/keep-it-lean-become-more-productive-and-motivated/

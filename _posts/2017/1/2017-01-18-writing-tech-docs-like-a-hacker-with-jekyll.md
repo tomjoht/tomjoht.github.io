@@ -14,6 +14,9 @@ podcast_duration: "59:18"
 podcast_length: 51863807
 ---
 
+* TOC
+{:toc}
+
 ## Slides
 
 You can view the [slides here](https://idratherbewriting.com/files/jekyllwritetechdocslikehackerstc/#/).

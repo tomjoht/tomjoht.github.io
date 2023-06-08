@@ -14,6 +14,9 @@ podcast_duration: "01:01:35"
 podcast_length: "53488009"
 ---
 
+* TOC
+{:toc}
+
 ## Video recording
 
 Here's the video recording:

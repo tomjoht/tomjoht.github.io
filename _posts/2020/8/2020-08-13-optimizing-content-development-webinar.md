@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/growcontentfastnoresources
 description: "I recently participated in webinar called <a href='https://www.zoominsoftware.com/webinars/optimize-content-development/'>Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team</a>, with Paul Gustafson and Megan Gilhooly on August 5, 2020. A link to the recording is now available."
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}} <b>August 13, 2020 update</b>: I updated this post with a link to the recording.{{site.data.alerts.end}}
 
 ## Webinar recording

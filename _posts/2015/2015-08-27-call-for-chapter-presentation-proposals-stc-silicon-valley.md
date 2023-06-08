@@ -7,6 +7,9 @@ description: "If you would like to present to the Silicon Valley STC Chapter (lo
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsv.png
 ---
 
+* TOC
+{:toc}
+
 ## Now accepting proposals
 
 Are you interested in presenting to the Silicon Valley STC Chapter this year? We're now accepting proposals for 2016 speakers.

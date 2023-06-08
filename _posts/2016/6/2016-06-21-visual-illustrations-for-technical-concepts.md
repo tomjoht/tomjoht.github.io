@@ -7,6 +7,9 @@ description: "I often hear tech writers in developer doc say they don't use a lo
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/setterthumb.png
 ---
 
+* TOC
+{:toc}
+
 You can view the [Android Vocabulary Glossary here](https://developers.google.com/android/for-all/vocab-words/).
 
 For example, check out the [Setter Method](https://google-developers.appspot.com/android/for-all/vocab-words/index_0172fb7b3e434aea701aa821ef43d5df.frame?card=setter-method#).

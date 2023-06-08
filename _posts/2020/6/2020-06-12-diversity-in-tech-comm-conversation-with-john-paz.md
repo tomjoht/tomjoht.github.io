@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/diversityintechcomm
 description: "In this conversational Q&A post, I chat with <a href='#johnpaz'>John Paz</a>, a senior content designer for Atlassian, about diversity in tech comm. It's well known that the tech industry, particularly in Silicon Valley, struggles to live up to its ideals about diversity. The employee demographics at most tech companies don't reflect the same demographics of their surrounding communities. Even when minorities are hired, promotions and leadership positions within the company are another roadblock. John gives us his unique insight into the diversity issue, specifically focusing on tech comm and his experiences both in the Bay area and elsewhere."
 ---
 
+* TOC
+{:toc}
+
 ## Discussion articles and summary
 
 As with other conversational posts, we start with some articles for discussion:

@@ -3,6 +3,9 @@ title: Sphinx versus Jekyll
 published: false
 ---
 
+* TOC
+{:toc}
+
 ## Origins
 
 *  Sphinx was designed from the start as a documentation platform (for Python). 8yrs old.

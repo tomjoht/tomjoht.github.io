@@ -9,6 +9,9 @@ description: "MadCap Flare’s first major new release of 2021 includes, among o
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/markdownmadcapflarethumb.png
 ---
 
+* TOC
+{:toc}
+
 _Note: This is a sponsored post._
 
 ## Markdown Import Feature in Flare 2021 Release

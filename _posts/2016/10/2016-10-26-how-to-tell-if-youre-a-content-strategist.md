@@ -7,6 +7,9 @@ description: "Recently MindTouch published a list of the top 25 Content Strategi
 bitlink: http://bit.ly/ruacontentstrategist
 ---
 
+* TOC
+{:toc}
+
 First, check out MindTouch's post: [Announcing the Top 25 Content Strategist Influencers for 2016](https://mindtouch.com/resources/announcing-top-25-content-strategist-influencers-2016).
 
 As you can see, there are some people on the list who don't have a strong online presence but who present at conferences and publish material in other ways. In previous years ([2014](http://www.mindtouch.com/blog/2014/04/25/top-50-most-influential-techcomm-experts-lets-connect-at-the-stc-summit-2014-techwhirl-or-writethedocs), [2013](http://www.mindtouch.com/blog/2013/04/04/2013-influencers-in-techcomm/), [2012](http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/), [2010](http://www.mindtouch.com/blog/2010/07/29/the-most-influential-technical-communicator-bloggers/)), MindTouch used online analytics tools such as [Little Bird](http://www.getlittlebird.com/) to calculate influence algorithmically. This favored people like me who live and breathe online but didn't do justice to the leaders who are shaping and motivating people at conferences and other venues. Since this kind of online/offline measure is difficult to do, MindTouch used a panel (consisting of Scott Abel, Al Martine, and Jack Molisani) to determine the influencers.

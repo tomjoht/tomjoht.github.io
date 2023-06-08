@@ -6,6 +6,9 @@ description: "To write documentation that users find helpful, you have to unders
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/goodspacesthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 Although I've been writing tech docs for more than a decade, and have been constantly learning the products I need to document, I don't think I've always been a careful observer of the learning process. However, as I've been trying to ramp up on Android these past weeks, I've started to shift into learning mode a lot more. The shift has been somewhat fascinating and has made me realize a lot of things.

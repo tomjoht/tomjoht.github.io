@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/markprompt-questions-and-answers
 description: "Last week I played around with <a href='https://markprompt.com'>Markprompt</a>, integrating it in a basic way on my <a href='/learnapidoc'>API doc site</a> (click the Chat button). During the process, I had a few questions, mostly around how to optimize content for embedding. I asked the co-founder, Michael Fester, if he’d be up for a Q&A post, and he agreed. Our Q&A exchange covers everything covers everything from the history of Markprompt to strategies for links, analytics workflows, optimal page sizes, preventing hallucination, structure and semantics, branding, privacy, and more. If you’re looking to move toward integrating GPT-style chat into your docs, especially with Markprompt, this post might help clarify some details."
 ---
 
+* TOC
+{:toc}
+
 ## Background and overview
 
 Before jumping into the Q&A details, let me provide some background on Markprompt. As I mentioned in a previous post, Markprompt builds a GPT-4 prompt based on a specific set of docs. For example, after providing a GitHub repo URL or a folder of Markdown or HTML documents, Markprompt trains its AI on the content and then builds an interactive GPT-chat based on it. Unlike other AI chats, Markprompt sticks with the sources you trained it on. You can publish the prompt either as a React component or as a web component (the latter just involves using some JS, CSS, and HTML).
@@ -194,6 +197,9 @@ Here are some relevant sections from our docs:
 The gizmo can be installed in the dashboard.
 ---
 
+* TOC
+{:toc}
+
 Based on this content, answer the following question: "Where can I install the widget?"
 ```
 
@@ -217,6 +223,9 @@ Here are some relevant sections from our docs:
 ---
 The ograms can be installed in the dashboard, and the speedot can be activated in the system settings.
 ---
+
+* TOC
+{:toc}
 
 Based on this content, answer the following two questions: "Where can I install the specons? how about the repi?"
 ```
@@ -265,6 +274,9 @@ Here are some relevant sections from our docs:
 ---
 The widget can be installed in the dashboard.
 ---
+
+* TOC
+{:toc}
 
 Based on this content, answer the following question: "I'm desperate, where do I install the widget???"
 

@@ -22,6 +22,9 @@ podcast_length: 8362762
 bitlink: http://bit.ly/moderntechnicalwritingetter
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Background

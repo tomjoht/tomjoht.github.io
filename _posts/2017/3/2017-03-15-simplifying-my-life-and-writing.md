@@ -7,6 +7,9 @@ description: "For a while now I've wanted to simplify my life. When I tell this 
 bitlink: http://bit.ly/lifesimplificationtom
 ---
 
+* TOC
+{:toc}
+
 In [Zen Habits][zen], the short list on how to simplify your life involves just two steps:
 
 <blockquote>

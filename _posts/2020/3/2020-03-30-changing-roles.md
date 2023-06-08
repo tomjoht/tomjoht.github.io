@@ -15,6 +15,9 @@ podcast_length: "23917146"
 description: "How is the role of the technical writer evolving? It seems we're moving away from writing and more towards other roles, such as reviewer/convener, user champion, editor, publisher, and promoter. However, it's difficult to gauge change, especially across different job categories. In some scenarios, writing might never have been why we were hired."
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Reflecting on evolving roles

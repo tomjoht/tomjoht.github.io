@@ -9,6 +9,9 @@ bitlink:
 toc: false
 ---
 
+* TOC
+{:toc}
+
 *Note: This post is sponsored by Xeditor.*
 
 

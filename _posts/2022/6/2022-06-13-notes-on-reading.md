@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "The single greatest outcome from my <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention/'>basic phone experiment</a> has been to rekindle interest and enjoyment in reading books. Long-form reading is an activity that I'd sort of forgotten, and even though I've reverted to my smartphone, the experiment has taught me to love reading again. In picking up reading books again, I realized that I have many questions about reading, actually. This post is a random list of questions, observations, and other reading-related topics about reading books. I'm sure there's no single way to read, and one strategy might fit another person and scenario more than others."
 ---
 
+* TOC
+{:toc}
+
 ## Queueing up books?
 
 When I began the "Book a Week" challenge at my work, I read a page of tips that said to accrue a pile of books that you plan to read over the year ahead of time. Otherwise, when you finish one book, you might lose your reading momentum for the next one. Also, ordering a hardcover or paperback through the mail might take a couple of weeks to arrive. Now I find that I have two shelves: one with books I've read (the top), another with books to read (the bottom):

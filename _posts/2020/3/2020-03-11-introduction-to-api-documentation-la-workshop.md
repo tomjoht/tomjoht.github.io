@@ -17,6 +17,9 @@ podcast_length: "69110376"
 description: "In January I gave an <a href='https://idratherbewriting.com/blog/upcoming-api-documentation-workshop-los-angeles-jan-23/'>API documentation workshop in Los Angeles</a>, and I recorded the first section of the workshop. This section provides an introduction to APIs, including an overview of APIs, the API doc market, info about API popularity, how to submit requests through Postman, and other trends. The recording is available as both a video/audio or standalone audio."
 ---
 
+* TOC
+{:toc}
+
 ## Video
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ew3_sdRcEA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

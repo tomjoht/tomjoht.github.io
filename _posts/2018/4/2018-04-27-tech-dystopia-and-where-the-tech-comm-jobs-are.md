@@ -7,6 +7,9 @@ description: "To find high-paying jobs in tech comm, many technical writers move
 bitlink: http://bit.ly/urbantechwriterjobs
 ---
 
+* TOC
+{:toc}
+
 Danielle Villegas at <a href='https://techcommgeekmom.com'>TechCommGeekMom</a> wrote an article that caught my attention the other week. In [Tech Comm and The State of Urbanization](https://techcommgeekmom.com/2018/04/12/tech-comm-and-the-state-of-urbanization/), she laments how so many companies today require their tech workers to be on site, usually in large urban hubs. She explains that the industrialization era brought people from rural farms into city factories, and the digital revolution unnecessarily seems to be doing the same. She writes:
 
 > Millennial are willingly flocking to the cities to hopefully provide manpower needed, but even they can have issues with living in the cities simply because of one thing: cost.  I know I’ve read where you can’t even afford to live in the San Francisco Bay Area/Silicon Valley, even on the generous paychecks they dole out there, even if you live hours away.

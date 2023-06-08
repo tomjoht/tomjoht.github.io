@@ -9,6 +9,9 @@ rebrandly: https://idratherbewriting.site/docprocesses
 description: "Lately I've been thinking about processes for managing documentation work, and I decided to describe in detail a couple of different workflows -- a process for managing large documentation projects, and another process for managing small documentation requests."
 ---
 
+* TOC
+{:toc}
+
 You can read these two new articles here:
 
 * [Managing large documentation projects](/learnapidoc/docapis_managing_doc_projects.html)

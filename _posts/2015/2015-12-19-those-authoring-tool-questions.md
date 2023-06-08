@@ -7,6 +7,9 @@ keywords:
 description: "At the last WTD meetup, someone wanted to know my current thoughts on using Jekyll. Is it still what I recommend? There are challenges with search, file directory fragmentation, and authentication, but only the first point is inherent with static site generators."
 ---
 
+* TOC
+{:toc}
+
 Last week I attended a [Write the Docs meetup in San Francisco](http://www.meetup.com/Write-the-Docs), at Atlassian's stylish industrial-urban themed location. About 40 *documentation enthusiasts* (as they're called in WTD lingo) showed up, and we had an excellent panel discussion about creating documentation for startups.
 
 I recorded the event and will be publishing the videos soon (after I see *Star Wars*, that is), but I wanted to make a quick blog entry to expand on an enjoyable conversation I had with someone as I was wheeling out my bike to catch the 8:40 Caltrain train back to "rural" Santa Clara.

@@ -12,6 +12,9 @@ redirect_from:
 - /blog/from-focus-sessions-to-flow.html
 ---
 
+* TOC
+{:toc}
+
 ## Recap of the Eudaimonia machine 
 
 In the previous post in this series, I described some [techniques for deep work from Cal Newport](/blog/newport-deep-work/). Although he provided a variety of techniques, they all boiled down to essentially setting aside time to focus in prolonged ways on hard problems. 

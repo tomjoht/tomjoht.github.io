@@ -11,6 +11,9 @@ practitioner_survey:
 author:
 ---
 
+* TOC
+{:toc}
+
 > The major finding of our surveys is that the respondents cared most about quality content. The most frequent and common problems had to do with content, and the respondents prioritized addressing content-related problems over any presentation problem. Perhaps unsurprisingly, the biggest problems with API documentation were also the ones requiring the most technical expertise to solve. Completing, clarifying, and correcting documentation require deep, authoritative knowledge of the API’s implementation. This makes accomplishing these tasks difficult for non-developers or recent contributors to a project.  
 >
 > So, how can we improve API documentation if the only people who can accomplish this task are too busy to do it or are working on tasks that have been given a higher priority? One potential way forward is to develop recommendation systems that can reduce as much of the administrative overhead of documentation writing as possible, letting experts focus exclusively on the value-producing part of the task. As Barthélémy Dagenais and Martin Robillard discovered, a main challenge for evolving API documentation is identifying where a document needs to be updated.

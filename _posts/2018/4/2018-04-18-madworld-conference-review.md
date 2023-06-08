@@ -7,6 +7,9 @@ description: "In this guest post, Jayna Locke explains what brought her to the <
 bitlink: http://bit.ly/madworldconferencereview
 ---
 
+* TOC
+{:toc}
+
 The technical writing profession tends to be an overall solitary one, and it can be a vacuum. I'm a believer that everyone should attend a conference from time to time. If your company doesn't have a budget, try to find a way. As writers, we especially need community and the magical mental unblocking that can happen when we get away from our desks.
 
 ## Why MadWorld?

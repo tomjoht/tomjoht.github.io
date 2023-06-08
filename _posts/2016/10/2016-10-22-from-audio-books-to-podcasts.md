@@ -7,6 +7,9 @@ description: "Lately I've been turning my attention away from audio fiction and 
 bitlink: http://bit.ly/audibletopodcasts
 ---
 
+* TOC
+{:toc}
+
 I've listened to audio books from Audible for the past 5 years or more, but lately I've started drifting back towards listening to technology podcasts instead.
 
 I first started listening to podcasts around 2007, when podcasting was a new media form and MP3s were all the rage. Then at some point, I got introduced to Audible and started consuming audio books on a regular basis. At least from around 2010 through 2015, I mainly listened to audio books instead of podcasts. For example, I listened to nearly every single Jack Reacher book by Lee Childs. (This is largely why my podcast sort of faded.)

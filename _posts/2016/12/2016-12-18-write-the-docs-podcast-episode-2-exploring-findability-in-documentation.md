@@ -7,6 +7,9 @@ description: "Episode 2 in the Write the Docs podcast is now available. The topi
 bitlink: http://bit.ly/wtdpodcastep2findability
 ---
 
+* TOC
+{:toc}
+
 You can view the Write the Docs podcast here:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Z8puPiBVa0w" frameborder="0" allowfullscreen></iframe>

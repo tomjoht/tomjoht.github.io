@@ -7,6 +7,9 @@ bitlink: https://idratherbewriting.site/followup-to-tech-writing-screening-tests
 description: "It's been a while since I've written a post that has received so many negative comments as <a href='/blog/technical-writing-tests-for-screening-candidates/'>4 Technical Writing Tests to Screen Candidates</a>. Although many people did like the tests and found them interesting or fun, quite a few people had more negative reactions. As a result, I'm scrapping the idea of multiple choice tests as a way to filter candidates."
 ---
 
+* TOC
+{:toc}
+
 ## Sample comments
 
 Here are comments from people who were turned off by the tests:

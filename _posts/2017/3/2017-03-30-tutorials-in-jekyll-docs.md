@@ -7,6 +7,9 @@ description: "There's a new tutorials section in the Jekyll docs. I actually add
 bitlink: http://bit.ly/docsversustutorials
 ---
 
+* TOC
+{:toc}
+
 You can see the Jekyll tutorials here:
 
 * [Tutorials home](http://jekyllrb.com/tutorials/home/)

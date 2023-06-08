@@ -20,6 +20,9 @@ bitlink: http://bit.ly/ettermodern
 description: "Andrew Etter presented about his book, Modern Technical Writing, to the STC Silicon Valley chapter on January 24, 2017 in Santa Clara, California. In the presentation, Andrew talks about the strategies he implemented at Palantir to change to a new way of doing docs. This new way includes having a smaller team, using text editors, writing in plain text, processing pull requests instead of bugs, and more. He dives into lightweight markup syntax, static site generators, version control tools, and more, as well as challenges he has faced."
 ---
 
+* TOC
+{:toc}
+
 You can read Andrew's book here: [Modern Technical Writing: An Introduction to Software Documentation ](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). (I also posted a [review of his book](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/) earlier last year.)
 
 ## Presentation Description

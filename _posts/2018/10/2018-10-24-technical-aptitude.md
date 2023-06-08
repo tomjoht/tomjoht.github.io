@@ -14,6 +14,9 @@ podcast_duration: "13:07"
 podcast_length: 11586969
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## The unresolved debate between being a specialist or generalist

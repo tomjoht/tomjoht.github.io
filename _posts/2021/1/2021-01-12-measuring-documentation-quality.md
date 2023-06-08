@@ -9,6 +9,9 @@ rebrandly: https://idratherbewriting.site/devdocsrubric
 description: "I recently added a much-needed topic in my API course: a list of criteria for assessing API documentation quality. This list has 80 characteristics sorted into the following categories: Findability, Accuracy, Relevance, Clarity, Completeness, and Readability. I also describe ways to score and assess the docs for quantitative measurements."
 ---
 
+* TOC
+{:toc}
+
 Here's the intro:
 
 > As you set goals for your role or team, you might want to measure your impact on documentation quality in some way. The main reason for measuring your impact should be to evaluate your progress against documentation improvement goals. If you don't have any data to provide feedback on your efforts, it's hard to know if you're making a difference.

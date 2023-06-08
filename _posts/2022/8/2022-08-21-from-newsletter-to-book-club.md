@@ -12,6 +12,9 @@ sidebar: sidebar_workplace_influence
 description: "It's been a few months since I've added anything to this series (<i><a href='/web-and-workplace-influence/part1-introduction-to-influencers.html'>A hypothesis about influence on the web and the workplace</a></i>), but the absence doesn't mean that I've abandoned the theme. Instead, I've been mulling over some new strategies that have taken a while to play out. I'm now ready to describe the most recent segment in this journey."
 ---
 
+* TOC
+{:toc}
+
 ## Abysmal newsletter metrics 
 
 Initially, I thought that newsletters might be the most common corporate format for getting a message across in a company. Blogs were highly uncommon internally, except for random pictures of employees' dogs at work, from what I could tell. Instead, newsletters seemed to be more of a standard through which people could write and distribute lengthier content.

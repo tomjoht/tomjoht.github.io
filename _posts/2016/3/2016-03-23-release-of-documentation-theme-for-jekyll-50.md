@@ -7,6 +7,9 @@ description: "Version 5.0 of my Documentation Theme for Jekyll is now available.
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekyll50thumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Where to download the theme
 
 You can download the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) and find instructions for using it [here](https://idratherbewriting.com/documentation-theme-jekyll/).

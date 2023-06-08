@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/documentation-processes
 description: "I finished up the documentation processes section in my API course that I've been adding to over the last couple of months. Here's a list of all the article in this section."
 ---
 
+* TOC
+{:toc}
+
 * [DX content strategy with developer portals](/learnapidoc/docapis_dx_content_strategy.html)
 
 * [Processes for managing large documentation projects](/learnapidoc/docapis_managing_doc_projects.html)

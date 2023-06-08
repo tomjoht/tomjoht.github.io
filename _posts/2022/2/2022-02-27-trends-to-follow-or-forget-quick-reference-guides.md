@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on quick reference guides."
 ---
 
+* TOC
+{:toc}
+
 ## Quick reference guides
 
 Quick reference guides refer to short 1-2 page guides, attractively formatted often in multi-column layouts, that get users going with succinct descriptions of the key tasks in a software application. The idea is that users almost universally resist slogging through a long user manual and instead prefer to get up and running quickly. They often need only minimal amounts of information to get started; the rest they might figure out on their own through trial and experimentation. These quick reference guides could be printed and distributed to users at conferences, during training, attached to newsletters, or delivered in other contexts. For more info, see my [series on quick reference guides](/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/).

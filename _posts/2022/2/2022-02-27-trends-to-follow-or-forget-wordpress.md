@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on WordPress and web content management systems (CMSs)."
 ---
 
+* TOC
+{:toc}
+
 ## WordPress and web CMSs
 
 [WordPress](https://wordpress.org/) started out as a popular blogging platform but has since evolved into a multipurpose online platform with an extensive library of plugins that makes it easy for non-technical people to create rich, interactive websites for almost any need. WordPress is so popular that, as of 2021 it [powers approximately 37% of the total websites on the web](https://www.envisagedigital.co.uk/wordpress-market-share/)! WordPress falls within a category of online web content management systems (CMSs) similar to [Drupal](https://drupal.org) and [Joomla](https://joomla.org), which are also popular.

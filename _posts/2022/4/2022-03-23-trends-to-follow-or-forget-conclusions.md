@@ -11,6 +11,9 @@ description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.htm
 published: false
 ---
 
+* TOC
+{:toc}
+
 ## Overview
 
 One of the goals of this series was to analyze how we think about trends in an inductive way, based on a core set of raw experiences, and see what general observations come from the analysis of these trends. In this post, I'll make some general statements that come from patterns with the previous trends.

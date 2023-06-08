@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/longtermarrowstrats
 description: "One strategy for maintaining productivity when working on multiple projects is to try to complete one main task on each project each day. I have an illustration with arrows and blocks that helps keep me on track and aligns my focus in the long-term."
 ---
 
+* TOC
+{:toc}
+
 ## Immersion versus partition
 
 If I could choose my way of working, I would reduce my project load to just one project and immerse myself entirely on it, ramping up in every aspect to become extremely knowledgeable and influential with design, roadmap, adoption, and more.

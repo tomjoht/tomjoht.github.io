@@ -7,6 +7,9 @@ description: "Stack Overflow recently published their 2018 survey, which include
 bitlink: http://bit.ly/sosurveyresultsthoughts
 ---
 
+* TOC
+{:toc}
+
 The 2018 Stack Overflow results are [available here](https://insights.stackoverflow.com/survey/2018). First, you might ask, what's relevant to documentation? The survey found that:
 
 > Over 80% of respondents rely on Stack Overflow Q&A when learning something new. Additionally, developers understand the value of good documentation, as over 80% also use documentation as a resource when learning.

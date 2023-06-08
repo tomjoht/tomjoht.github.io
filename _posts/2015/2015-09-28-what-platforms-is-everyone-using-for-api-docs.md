@@ -6,6 +6,9 @@ keywords: doc platforms, viewing source
 description: "It's difficult to tell what platform someone is using for docs, but static site generators are pretty common. Other branding is sometimes easy to recognize."
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 > How can I tell what platform people are using to publish their API docs? What are the most common tools used for building developer documentation sites?

@@ -7,4 +7,7 @@ description: "In the <a href='https://idratherbewriting.com/simplifying-complexi
 bitlink: http://bit.ly/simpcompinfoharmony
 ---
 
+* TOC
+{:toc}
+
 {% include ads.html %}

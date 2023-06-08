@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on remote work."
 ---
 
+* TOC
+{:toc}
+
 ## What is remote work?
 
 In the list of disruptive trends affecting tech writers, I can't leave out the effects of the pandemic, even if this one might be less specific to tech comm than other trends. Among other learnings, the pandemic showed us that tech thrives in a world where people work and interact in a digital world. As the importance of tech and digital tools increase, the demand for tech writers seems to follow. Tech work remains a thriving industry in a pandemic-ridden, catastrophe-filled world.

@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.site/writingprocess
 description: "I added a new section to my API documentation course on the writing process. The section has six new pages and includes tips on moving through the writing process from beginning to end."
 ---
 
+* TOC
+{:toc}
+
 After an [overview](/learnapidoc/docapis_writing_process_overview.html), I describe these five general steps in the writing process:
 
 1. [Planning](/learnapidoc/docapis_planning.html)

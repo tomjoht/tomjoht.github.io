@@ -15,6 +15,9 @@ description: ""
 published: false
 ---
 
+* TOC
+{:toc}
+
 During my latest presentation on trends (at SCCI last month), I noted the somewhat startling fact that software developers seem to be growing at a rate about six times that of technical writers. If you look at the Bureau of Labor Statistics for these two categories, the trends look like this:
 
 Technical writers

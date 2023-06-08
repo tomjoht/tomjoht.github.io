@@ -7,6 +7,9 @@ description: "In early 2016 Google updated their search algorithm to reward site
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/googlebumpthumb.png
 ---
 
+* TOC
+{:toc}
+
 Tonight I was digging out some site stats for a guest post someone contributed on my site last year when I saw this in my Google Analytics:
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlebump.png" | prepend: site.baseurl }}" alt="Google traffic jumped up considerably around here and stayed up" />

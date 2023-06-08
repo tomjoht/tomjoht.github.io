@@ -29,6 +29,9 @@ bitlink: http://bit.ly/
 published: false
 ---
 
+* TOC
+{:toc}
+
 what is the problem you are writing about?
 - massive products with multiple owners. never had a product like this before. at the same time, never have i been so engaged with a product like this one before. it is truly an interesting product.
 

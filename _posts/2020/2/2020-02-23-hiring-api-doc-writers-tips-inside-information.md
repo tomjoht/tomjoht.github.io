@@ -14,6 +14,9 @@ rebrandly: https://idratherbewriting.site/hiringapidocwriters
 description: "I recently chatted with <a href='http://www.linkedin.com/in/synergistech'>Andrew Davis</a>, a recruiter for API documentation positions in the San Francisco Bay area, about why it's so difficult to hire technical writers for developer documentation roles. Andrew has more experience and knowledge with developer doc jobs, companies, and recruiting processes than nearly anyone else in the tech comm industry. He actually helped me find my first dev doc job when I transitioned to California years ago. Andrew's company is called <a href='http://www.synergistech.com/'>Synergistech Communications</a>. In this interview, Andrew provides an inside look at fixing broken processes around hiring."
 ---
 
+* TOC
+{:toc}
+
 ## Podcast
 
 {% include audio.html %}

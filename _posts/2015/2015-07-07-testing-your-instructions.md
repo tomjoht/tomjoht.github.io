@@ -17,6 +17,9 @@ podcast_duration: "23:44"
 podcast_length: 39876989
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagTestingDocs.html %}
 
 {% include audio.html %}

@@ -12,6 +12,9 @@ redirect_from:
 - /blog/from-monkey-mind-to-calm-consciousness.html
 ---
 
+* TOC
+{:toc}
+
 ## Context and background for this topic
 
 In my last post, [Applying Csikszentmihalyi's psychology of flow to the writing of technical documentation](/blog/csikszentmihalyi-dynamics-of-flow/), I explained that Csikszentmihalyi says our normal psychological state is one of constant entropy (disordered, unstructured thought). Most people call this "monkey mind," a term coined by Buddha to refer to the way a monkey swings from branch to branch &mdash; similar to our mind jumping from thought to thought. 

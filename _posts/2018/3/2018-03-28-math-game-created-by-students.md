@@ -7,6 +7,9 @@ description: "My 13-year-old daughter and her classmate recently created a math 
 bitlink: http://bit.ly/codestersappmath
 ---
 
+* TOC
+{:toc}
+
 My daughter wanted to make learning math *fun* for fifth graders by integrating scenarios played out by characters. Her game, called [Fibonacci's Adventures in Mathematics](https://www.codesters.com/preview/efa3d3e874aa4416b5dae374e9767a2a/), focuses on learning how to use variables. You can play this interactive math game with the embedded instance below (click **Run**).
 
 <iframe src="https://www.codesters.com/embed/v1/preview/efa3d3e874aa4416b5dae374e9767a2a/" height="680" width="500"></iframe>

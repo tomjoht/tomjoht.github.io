@@ -10,6 +10,9 @@ bitlink: http://bit.ly/wtdpod4cianddocascode
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/chriswtdpodcastpic.png
 ---
 
+* TOC
+{:toc}
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/EpRkt7zDRC4" frameborder="0" allowfullscreen></iframe>
 
 For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast, see the many [many subscription options][2].

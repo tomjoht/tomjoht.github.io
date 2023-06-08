@@ -14,6 +14,9 @@ status: publish
 published: true
 ---
 
+* TOC
+{:toc}
+
 Through my blog, I receive a lot of questions from users.
 
 I've seen the same questions numerous times, so I've decided to compile a list of answers to those questions and add a link to them on my contact page.

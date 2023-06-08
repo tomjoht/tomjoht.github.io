@@ -6,6 +6,9 @@ keywords: technical writing careers, programs of study for technical writing, da
 description: "Technical writing is a pretty awesome career. You'll probably enjoy it unless you dislike writing, aren't technical, hate working in team environments, and prefer to write content that pressures people to buy crap they don't need."
 ---
 
+* TOC
+{:toc}
+
 A reader asks a few questions:
 
 ### Can you describe a day in the life of a Technical Writer?

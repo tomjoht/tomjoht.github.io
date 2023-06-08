@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. In this post, I continue to unravel the principles of systems thinking and how this approach fits into the documentation domain. In particular, I dive into three system patterns covered in Peter Senge's book <i>The Fifth Discipline</i>: Limits to Growth, Complex Cause and Effect, and Shifting the Burden. And I try to connect the ideas back to documentation."
 ---
 
+* TOC
+{:toc}
+
 ## Introduction to systems thinking and Senge's *The Fifth Discipline*
 
 In the previous post in this series, [Systems thinking and developer portals](/trends/systems-thinking-and-developer-portals.html), I introduced systems thinking as the discipline that focuses on big picture thinking. I wondered whether tech writers might benefit by focusing on systems thinking, as it seems to be a gap within the infrastructure of tech companies. Tech companies are frequently broken down into highly specialized technology groups that focus only on their stewardship of isolated features, which creates a gap when it comes to seeing the big picture.

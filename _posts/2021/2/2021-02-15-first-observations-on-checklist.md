@@ -9,6 +9,9 @@ description: "I recently published a comprehensive checklist for evaluating docu
 rebrandly: https://idbwrtng.com/checklistobservations
 ---
 
+* TOC
+{:toc}
+
 ## Observation 1: Two levels for checklists
 
 Many characteristics for docs can only be assessed when you're much more familiar with the docs. For example, you can't know if the steps are accurate unless you go through the steps. You can't know if the docs are consistent unless you've read all the documentation. You can't know if the code works unless you can run it in a test environment. It might take more than a year working with the docs to be able to make these kinds of assessments. In fact, you can't even tell if screenshots or other visuals are accurate without more familiarity. Because of this, I separated the checklist into a first-level checklist and a second-level checklist.

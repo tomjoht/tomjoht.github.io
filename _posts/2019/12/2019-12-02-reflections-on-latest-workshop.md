@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/reflectionssfworkshop
 description: "Last week I gave another API documentation <a href='https://idratherbewriting.com/blog/upcoming-api-doc-workshop-san-francisco-nov-19/'>workshop in downtown San Francisco</a>. This was the second API doc workshop that I fully organized from start to finish myself, and overall it went pretty well. In this post, I want to reflect on a few of the things I learned."
 ---
 
+* TOC
+{:toc}
+
 ## Picking the date
 
 First, I made a rookie mistake by choosing a date that coincided with Dreamforce, which is Salesforce's big conference event. This event brought in 171,000 people into the city this year, which made it difficult for some of my workshop participants to book hotels. (One group in Portland didn't come to the workshop because they couldn't book a hotel.)

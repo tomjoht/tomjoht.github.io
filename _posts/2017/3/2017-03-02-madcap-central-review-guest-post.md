@@ -7,6 +7,9 @@ bitlink: http://bit.ly/madcapcentralguestreview
 description: "The following is a guest post from Michał Skowron and Jakub Wiśniewski, two technical writers working for 3di. 3di is a company providing technical authoring, translation and localization services. In this short review, Skowron and Wiśniewski evaluate MadCap Central, a new product from MadCap Software. MadCap Central is a cloud-based platform where you can host your MadCap Flare projects, manage builds, track tasks, manage users and their permissions, and collaborate with others. The article looks at the product from the perspective of a company delivering tech comm services."
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 [MadCap Central](http://www.madcapsoftware.com/products/central/) is a cloud-based, centralized solution for project hosting, build automation, task management and team collaboration. The idea of handling all those processes with a single tool sounds great. How does it work out in practice?

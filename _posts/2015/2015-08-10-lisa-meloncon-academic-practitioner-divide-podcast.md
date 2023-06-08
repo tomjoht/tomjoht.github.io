@@ -20,6 +20,9 @@ podcast_length: 61581340
 bitlink: http://bit.ly/lisamacademicpractpodcast
 ---
 
+* TOC
+{:toc}
+
 Here's the audio for the podcast:
 
 {% include audio.html %}

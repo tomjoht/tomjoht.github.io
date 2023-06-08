@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/expanding-responsibilities
 description: "Last week I wrote a post about <a href='/blog/what-is-ambiguous-content'>ambiguous content</a> and how one aspect of being a senior tech writer is taking on more ambiguous projects. In this post, I want to continue this thread on what it means to be a senior tech writer, or even a lead technical writer. But rather than exploring ambiguous content, senior/lead tech writers also have a lot more project/program management responsibilities as well. There are at least five key responsibilities I'll explore here: prioritizing work, defining doc strategies, organizing work among multiple writers, reviewing contributions, and reporting upward."
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 Trajectories for technical writing careers are somewhat strange. In my experience, moving from technical writer to senior technical writer came after working only two years in the role. When management wants to promote/reward you, they move you up a level. Throughout my career, I moved back and forth between technical writer and senior technical writer job titles somewhat arbitrarily. However, it wasn't until many years later that I realized the full scope of expanded responsibilities that align more with a senior or even lead technical writer role.

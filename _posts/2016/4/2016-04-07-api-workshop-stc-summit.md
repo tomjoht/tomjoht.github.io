@@ -7,6 +7,9 @@ description: "If you're planning to go to the STC Summit this year, or you're lo
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsummitanaheimworkshopthumb.png
 ---
 
+* TOC
+{:toc}
+
 During this 3.5 hours, I'll teach you everything you need to know to document REST APIs. You'll learn the essential sections of API reference topics, including how to document resources, endpoints, parameters, sample requests, and responses. I'll teach you how to use Postman to test REST endpoints, how to use cURL on the command line, how to read and document JSON, and more.
 
 <a href="http://technicalcommunicationsummit2016.sched.org/event/5o4O?iframe=no"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsummitworkshopanaheim.png" | prepend: site.baseurl }}" alt="STC Summit API documentation workshop" /></a>

@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "In a technology world growing increasingly specialized, technical writers can stay relevant by leveraging their most salient skill: the ability to see the big picture, to look across systems or individual APIs and see the shape of the whole. Technical writers can employ big-picture thinking with docs by emphasizing the following content types: (1) Detailed product overviews, (2) developer journeys, (3) cross-system workflows, (4) integrated API data, (5) and external domain knowledge."
 ---
 
+* TOC
+{:toc}
+
 ## Recap of series argument
 
 This series, [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html), is one I started last year but never finished. It's been a while since I last added to the series, so let me provide a brief recap of where I left off.

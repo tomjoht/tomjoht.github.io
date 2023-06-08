@@ -7,6 +7,9 @@ description: "In this guest post, Derric Gilling, CEO at Moesif, explores variou
 bitlink: http://bit.ly/designchoicesapidocs
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 Designing and writing good API documentation can be a daunting task, but it's critical for any API-driven or B2D company to ensure developer success. Your documentation is also your company's marketing asset and may be the first few pages a new prospect visits to understand how hard your integration is and how your product works.

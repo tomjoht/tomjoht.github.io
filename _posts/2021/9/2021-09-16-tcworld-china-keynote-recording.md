@@ -13,6 +13,9 @@ podcast_duration: "01:02:30"
 podcast_length: "50917029"
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 I was invited to fill in and give a keynote presentation at [tcworld China 2021](https://www.tcworld-china.cn) (due to another speaker cancelling the week before). The previous speaker's topic was on content marketing, so the conference organizer asked if I could present on [What is the technical writer's role in content marketing?](https://idratherbewriting.com/2016/01/04/content-marketing-to-the-rescue-for-thought-leadership/)

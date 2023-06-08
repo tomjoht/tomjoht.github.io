@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "Long, high-level conceptual docs don't command the same reading attention as task-based docs. How do you pull a reader through a long doc when the payoff isn't a completed task, but merely greater understanding?"
 ---
 
+* TOC
+{:toc}
+
 ## Thrown into a tailspin 
 
 It’s been a few weeks since I added another post in this series. I actually want to wrap this series up because I've arrived at good answers to my questions. But this past month, I ran into new obstacles that threw me into a tailspin, and I’m still trying to get out of it. Let me describe what happened.

@@ -7,6 +7,9 @@ description: "The same scrum approaches used to manage software development proj
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/agileprinciplesthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## The challenge of keeping up
 At the upcoming [TC Camp](http://www.tccamp.org/), during a brief 5-minute feud activity, Marta Rauch and I are going to provide our perspectives on the following question:
 

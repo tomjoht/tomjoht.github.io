@@ -8,6 +8,9 @@ bitlink: http://bit.ly/jekyllnavdoc
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/tutorialjekyllconverttheme.png
 ---
 
+* TOC
+{:toc}
+
 You can view the tutorial here: [Convert an HTML site to Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/). Here's the intro:
 
 > If you’re looking for themes for your Jekyll site, you don’t have to restrict yourself to existing Jekyll themes. It’s pretty easy to convert almost any static HTML files into a Jekyll website.

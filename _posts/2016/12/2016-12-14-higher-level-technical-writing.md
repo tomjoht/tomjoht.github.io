@@ -7,6 +7,9 @@ description: "This past week I made some contributions to the Jekyll documentati
 bitlink: http://bit.ly/singlepageversuswhole
 ---
 
+* TOC
+{:toc}
+
 ## Documentation topics are interconnected
 
 Although at times documentation of a new feature simply involves adding a new page, more often the new feature affects a getting started section, a sample app, other pages that reference the feature, tutorials, code samples, and more. Changing one topic can set off a cascade of other needed edits across the entire documentation set.

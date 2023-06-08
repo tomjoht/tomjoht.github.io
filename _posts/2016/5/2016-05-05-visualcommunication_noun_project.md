@@ -6,6 +6,9 @@ category: visual-communication
 description: "I recently gave a lightning talk at a Write the Docs meetup in downtown San Francisco. My talk was titled <i>Creating professional graphics in the easiest, simplest way possible.</i> This post contains the slides, recordings, and other notes."
 ---
 
+* TOC
+{:toc}
+
 ## Lightning talk
 
 For the event details, see [Write the Docs meetup](http://www.meetup.com/Write-the-Docs/events/228358497/?_af=event&_af_eid=228358497).

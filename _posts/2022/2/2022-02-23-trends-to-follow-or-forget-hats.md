@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on help authoring tools and single-sourcing."
 ---
 
+* TOC
+{:toc}
+
 ## What are HATS and single-sourcing?
 
 As the web became the new standard for information delivery and consumption, desktop authoring tools like FrameMaker, designed for print publications, started phasing out in favor of help authoring tools (HATs) that could generate web-based content. HATs provided an all-in-one website generation tool, complete with the left-hand navigation, search, expand/collapse folders, and more. You could easily deploy the entire HAT output on the web, without knowing anything about HTML, CSS, and JavaScript.

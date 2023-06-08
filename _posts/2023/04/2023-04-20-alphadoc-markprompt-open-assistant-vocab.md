@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/alphadoc-markprompt-open-assistant-vocab
 description: "Here's a summary of the latest tech comm news for April 20, 2023."
 ---
 
+* TOC
+{:toc}
+
 ## Alphadoc: a tool for generating OpenAPI documentation and tutorials
 
 Alphadoc is a new documentation tool designed to generate documentation from an OpenAPI specification. It creates reusable blocks from your OpenAPI spec, which can be used in various sections of your documentation. Treating the OpenAPI spec as the single source of truth, Alphadoc validates the spec to ensure it’s error-free. Then each time you upload a new version, Alphadoc automatically updates your documentation with the changes: "Whenever you upload a new spec file, we automatically update all connected API endpoints and parameters referenced across your docs and tutorials. This feature significantly streamlines your documentation process and ensures the docs stay in sync." 

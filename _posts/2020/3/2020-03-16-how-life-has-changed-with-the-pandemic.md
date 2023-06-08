@@ -9,6 +9,9 @@ description: "These past two weeks have been incredibly disruptive in terms of w
 sidebar: sidebar_pandemic
 ---
 
+* TOC
+{:toc}
+
 So much about my life has changed. Granted, the changes don't compare to anyone experiencing extreme illness or losing a loved one. But there are still lots of disruptions. My college daughter, enjoying her first year at UCSB, has returned home as all classes have transitioned online. We had to re-arrange our bedroom situation again, adding in another bed and shifting around who shares which rooms among the 4 kids.
 
 Packing in 6 people into a 1,000 square foot home with one bathroom means everyone has a small allotment of space. After a bed and desk, there's not much room for extra stuff. We have become hyper-space efficient (or strive to be). We did have to move more items into the garage, though, which means we can no longer park there. We're using my daughter's college dorm mini-fridge as a second fridge.

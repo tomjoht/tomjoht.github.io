@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/stoplight-webinar-april-11
 description: "I'm participating in an upcoming Stoplight webinar called <i><a href='https://stoplight-4892910.hs-sites.com/en/apitrendswebinar'>API Trends Across the Lifecycle Webinar</a>,</i> along with James Higginbotham and Keith Casey."
 ---
 
+* TOC
+{:toc}
+
 **April 14, 2023 Update:** The webinar recording is now available below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OYC4DJmDjWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

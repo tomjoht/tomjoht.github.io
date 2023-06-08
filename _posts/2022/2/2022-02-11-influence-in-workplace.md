@@ -14,6 +14,9 @@ redirect_from:
 - https://idratherbewriting.com/web-and-workplace-influence/part4-newsletter-content-medium.html
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}This post continues the series "A hypothesis about influence on the web and the workplace." See the lists of posts in the sidebar for more context. {{site.data.alerts.end}}
 
 Part of the reason I didn't incorporate any blog techniques is because blogs inside corporations are practically nonexistent. But there is a format that is common, and it's highly similar to blogs: newsletters. Just as blogs comprise much of the fabric of the web, newsletters are the staple of corporate communications.

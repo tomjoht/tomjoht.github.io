@@ -7,6 +7,9 @@ description: "Looking at technical writing trends is always a popular topic. Now
 bitlink: http://bit.ly/techwritingtrends2018
 ---
 
+* TOC
+{:toc}
+
 ## What technical writing trends stood out in 2017?
 
 The highest viewed post on my site in 2017 and the most listened to WTD podcast were both on the topic of trends (see my [2017 trends post](https://idratherbewriting.com/2017/01/28/technical-writing-trends-for-2017/) and the [2017 WTD trends podcast](http://podcast.writethedocs.org/2017/01/25/episode-3-trends/)). This suggests tech writers are interested in keeping up with what they perceive as a constantly changing landscape for their jobs. So, what technical writing trends stood out in 2017?

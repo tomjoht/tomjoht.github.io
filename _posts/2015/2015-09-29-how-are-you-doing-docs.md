@@ -6,6 +6,9 @@ keywords:
 description: "I'm publishing my documentation through Jekyll, delivering the content on internal servers for internal customers, and delivering it on Salesforce.com for external customers. I wish I had a better delivery mechanism externally other than Salesforce, but authentication solutions are either complicated or costly."
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 >How are you publishing and delivering your documentation these days?

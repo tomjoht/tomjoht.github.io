@@ -8,6 +8,9 @@ bitlink: http://bit.ly/techieacademiclwdita
 practitioner_survey: https://docs.google.com/forms/d/1l2FFcKzLwy_lMZ-TwahZAtp1PBRVIALdPTr-Tor8hL4/edit
 ---
 
+* TOC
+{:toc}
+
 ## Article for Discussion
 
 "Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation" in the _Technical Communication_ Journal (63.1, Feb 2016). You can view the article on [STC](https://www.stc.org/techcomm/2016/02/04/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/) or [Ingenta](https://www.ingentaconnect.com/content/stc/tc/2016/00000063/00000001/art00004). (If you don't have access, email Carlos ([cevia@vt.edu](mailto:cevia@vt.edu)) for a copy.) This article received a [Distinguished article of 2017](https://www.stc.org/frank-r-smith-award/frank-r-smith-award-previous-winners/) STC award.

@@ -10,6 +10,9 @@ rebrandly: https://idratherbewriting.site/wapiradioepisode
 description: "I recently participated in an online radio-style chat about documentation with the folks at <a href='https://readme.com'>Readme.com</a>. In an ambitious undertaking, Readme created a 24-hour streaming radio show (called <a href='https://wapi.fm/'>\"WAPI FM\"</a>') focused on APIs, from March 26-27, 2020. They are publishing some of the recordings week by week. During this hour, Ryan Openshaw and Greg Koberger chatted with <a href='https://www.linkedin.com/in/andrewtorkbaker/'>Andrew Baker from Twilio</a> and me about a host of documentation topics."
 ---
 
+* TOC
+{:toc}
+
 ## Episode summary
 
 The <a href="https://wapi.fm/">WAPI.fm</a> site lists the available episodes (three so far):

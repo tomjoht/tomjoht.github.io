@@ -28,5 +28,8 @@ thumb:
 published: false
 ---
 
+* TOC
+{:toc}
+
 
 {% include ads.html %}

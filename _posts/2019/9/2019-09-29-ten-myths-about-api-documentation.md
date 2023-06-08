@@ -14,6 +14,9 @@ podcast_length: 30156232
 description: "In this podcast, I debunk 10 myths about API documentation. For example, some myths are that only engineers can write API docs, or that you have to write API docs by deciphering an engineer's source code. In this podcast, I go through these myths one by one with discussion and analysis."
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## 10 myths about API documentation

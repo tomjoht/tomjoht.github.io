@@ -6,6 +6,9 @@ keywords: stc summit, developer documentation, workshop, virtual track
 description: "I recently attended the STC Summit 2015 in Columbus, Ohio. I gave both a workshop and presentation on REST API documentation. This post includes my slides, links to notes, and some thoughts."
 ---
 
+* TOC
+{:toc}
+
 ## Slide presentations
 
 Here are the slides from my workshop on REST API documentation. I have two sets of slides:

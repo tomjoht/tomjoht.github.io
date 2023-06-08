@@ -8,6 +8,9 @@ description: "In this post, I summarize the findings of an extensive research pr
 bitlink: http://bit.ly/whennottocommentcode
 ---
 
+* TOC
+{:toc}
+
 ## Research on code documentation
 
 For the next topic in my [Simplifying Complexity series](/simplifying-complexity), I plan to tackle the topic of documenting code. Programming code, such as Java, C++, or any other language, remains one of the most elusive and difficult topics to document. In part, this is because most technical writers aren't already fluent in the programming language. But even for writers or developers who are fluent in the language, code is hard to document. There isn't a step-by-step process to follow. Code is often arranged in non-linear order, so you can't simply proceed line-by-line through it. There's also the question of how much to document, what to cover, and where to include the documentation. Overall, best practices for documenting code are somewhat fuzzy and undefined.

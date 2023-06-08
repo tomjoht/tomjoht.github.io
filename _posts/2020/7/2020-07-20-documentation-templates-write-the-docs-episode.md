@@ -9,6 +9,9 @@ rebrandly: https://idratherbewriting.site/wtdepisode30doctemplates
 description: "In Write the Docs Podcast episode 30, Juan Lara from Google joins us for a lively discussion about documentation templates."
 ---
 
+* TOC
+{:toc}
+
 Documentation templates refer to established patterns we follow for common documentation types, such as quickstarts, how-to guides, concepts, tutorials, reference, troubleshooting, release notes, FAQs, or other information types that have similar, predictable patterns.
 
 Templates can be helpful in orienting new writers, but they can also help ensure consistency among larger groups of experienced writers too. Our discussion in this episode ranges from observations about when templates are right for users versus writers, and how templates fit into an overall content strategy and information architecture.

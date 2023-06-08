@@ -7,6 +7,9 @@ description: "The <a href='https://www.stc.org/salary-database/'>2017-2018 STC S
 bitlink: http://bit.ly/stcsalarydbhighlights201718
 ---
 
+* TOC
+{:toc}
+
 ## Why I was looking at the latest Salary Database
 
 I started looking through the 2017-2018 Salary Database to update the [Best locations for API documentation jobs](https://idratherbewriting.com/learnapidoc/jobapis_location.html) topic in my [API documentation course](/learnapidoc). I figured I would just update a few details for 2017, but I found myself drawn into the 2017-2018 report, reading it nearly cover to cover. This year's report seems to have more general commentary, analysis, and instruction about how to read and interpret the data. It's well-written and illuminating. I highly recommend that you [get a copy of the report](https://www.stc.org/salary-database/) (STC membership required) and read it &mdash; especially if you're looking at changing jobs or relocating this year.

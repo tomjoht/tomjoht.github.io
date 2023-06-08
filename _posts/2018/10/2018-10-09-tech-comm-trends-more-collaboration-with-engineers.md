@@ -10,6 +10,9 @@ description: "Trends in technical communication can be hard to decipher, even wh
 bitlink: http://bit.ly/trendscollabwithengineers
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.tip}}
 To read a more up-to-date version of this trends argument, see <a href='https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html'>Principle 11: Be both a generalist and specialist at the same time</a> in my <a href='https://idratherbewriting.com/simplifying-complexity/'>Simplifying Complexity series</a>.{{site.data.alerts.end}}
 

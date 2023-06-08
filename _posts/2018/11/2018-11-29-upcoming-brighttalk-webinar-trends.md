@@ -7,6 +7,9 @@ description: "I'll be giving an upcoming free webinar about trends on BrightTALK
 bitlink: http://bit.ly/upcomingbrighttalkwebinar
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}You can view the recording of this presentation here: <a href='https://idratherbewriting.com/2019/01/17/recording-brighttalk-trends/'>Recording of Trends presentation on BrightTALK</a>.{{site.data.alerts.end}}
 
 I'm giving a free webinar on January on BrightTALK on trends and the dilemma between being a specialist or generalist.

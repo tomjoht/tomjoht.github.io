@@ -11,6 +11,9 @@ series: "Value arguments for docs and tech comm"
 sidebar: sidebar_value_tech_comm
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagValueOfTechComm.html %}
 
 ## Introduction

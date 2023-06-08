@@ -14,6 +14,9 @@ redirect_from:
 - /2018/01/29/docs-as-code-tools-and-workflows-denver-presentation/
 ---
 
+* TOC
+{:toc}
+
 ## Video recording
 
 <iframe  width="640" height="360" src="https://www.youtube.com/embed/Z3e_38WS-2Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

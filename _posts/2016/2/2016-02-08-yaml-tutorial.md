@@ -7,6 +7,9 @@ description: "YAML is a format that is becoming a common way to store properties
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/yamltutorial.png
 ---
 
+* TOC
+{:toc}
+
 Not many technical writers use YAML in their authoring tools. However, in the Jekyll environment, YAML is commonly used as an approach for creating a table of contents and other lists of content.  
 
 Most commonly, you store each item in your table of contents in a YAML file. You then iterate through that YAML file using Liquid syntax in order to push each item into a more complex HTML structure.

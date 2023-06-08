@@ -13,6 +13,9 @@ podcast_duration: "11:05"
 podcast_length: 9559698
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 I published the recording of the API documentation workshop that I recently gave in Menlo Park (on Nov 8, 2018). You can view the recordings on my API documentation site here: [Recorded Video Presentations](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html#api-workshop-in-menlo-park-california-nov-8-2018).

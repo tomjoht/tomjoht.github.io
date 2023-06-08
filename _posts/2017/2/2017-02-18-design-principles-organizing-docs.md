@@ -18,6 +18,9 @@ bitlink: http://bit.ly/organizingdocsusability
 description: "I recently presented to the STC Twin Cities chapter on User-centered Design Principles for Organizing Documentation. When organizing your documentation, such as arranging navigation titles, workflows, or other wayfinding features, you can apply universal design principles to make your content more user centered. Some of these principles include Modularity, Hierarchy, Five hat racks, and Progressive disclosure. These design principles, based on solid user research from design gurus, will help users better find and navigate your help content. You can view the recording and audio from the event here."
 ---
 
+* TOC
+{:toc}
+
 ## Video recording
 
 Here's the recording for User-Centered Design Principles for Organizing Documentation:

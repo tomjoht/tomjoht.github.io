@@ -15,6 +15,9 @@ podcast_duration: "30:12"
 podcast_length: 25002593
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Introduction

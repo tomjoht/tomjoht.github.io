@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/exploratorywritingworkplace
 description: "In a <a href='https://idratherbewriting.com/blog/the-manuscript-podcast-interview-with-tom-johnson/'>recent episode of <i>The Manuscript</i></a>, a new podcast by Breno Barreto, Breno asked me questions about blogging and motivations and such. I explained two different modes of writing: explanatory writing versus exploratory writing. Technical documentation is <i>explanatory</i> writing, but many of the posts on my blog are <i>exploratory</i>. Breno asked whether there's a place for exploratory writing in the workplace. This is the great question that every humanities-based or otherwise curious person who is immersed in a corporate world must ask in order to thrive."
 ---
 
+* TOC
+{:toc}
+
 I've touched on these topics before in [How to avoid being a secretary for engineers](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/) and other posts. So this is a theme I return to often, I guess.
 
 To summarize, exploratory writing seeks to ask *why*, whereas explanatory writing seeks to answer *how*. Exploratory writing focuses on a question and seeks answers. Explanatory writing typically answers how a goal can be achieved using the tool or system at hand.

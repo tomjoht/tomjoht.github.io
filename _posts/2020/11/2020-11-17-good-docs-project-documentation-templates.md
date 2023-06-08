@@ -10,6 +10,9 @@ author: <a href='#ankita'>Ankita Tripathi</a>
 bio: false
 ---
 
+* TOC
+{:toc}
+
 ## Getting involved in The Good Docs project
 
 I was surprised to learn that even after all these years of dealing with open-source projects, one exhausting factor persisted: "Handling of a shared vision." When a team comes together to contribute to an open-source project, they forget its importance over time. And what suffers is proper maintenance, documentation, licensing, or chalking out guidelines. While all these factors need supervision, my focus for this blog post is on documentation.

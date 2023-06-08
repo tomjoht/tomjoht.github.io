@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/2021analytics
 description: "I updated my site <a href='/analytics/'>analytics page</a> for 2021. As far as noteworthy metrics, not much that has changed, but there are a few small trends worth reflecting on."
 ---
 
+* TOC
+{:toc}
+
 ## Overall traffic trends during the year
 
 First, unfortunately traffic waned a bit for the last half of the year. I attribute this to my less frequent posting and online activity during the second half of the year, as well as general online reader fatigue from the pandemic.

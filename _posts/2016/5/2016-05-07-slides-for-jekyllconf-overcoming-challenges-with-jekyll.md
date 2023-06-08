@@ -7,6 +7,9 @@ description: "My slides and video for Jekyll Conf 2016 are available below. In t
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekyllconfslidesthumb.png
 ---
 
+* TOC
+{:toc}
+
 Here are my slides:
 
 <figure><a href="https://idratherbewriting.com/files/jekyllwritetechdocslikehacker/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllconfslides.png" | prepend: site.baseurl }}"/></a><figcaption>My slides for Jekyll Conf 2016</figcaption></figure>

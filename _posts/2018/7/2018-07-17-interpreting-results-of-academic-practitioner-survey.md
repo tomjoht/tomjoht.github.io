@@ -7,6 +7,9 @@ description: "The results of my Academic/Practitioner Attitudes surveys are now 
 bitlink: http://bit.ly/surveyresultsacademicspractitioners
 ---
 
+* TOC
+{:toc}
+
 ## Survey results
 
 Here are the results for both practitioner and academic surveys:

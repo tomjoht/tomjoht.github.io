@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/historyofcontent
 description: "The <a href='https://heretto.com/project/content-components-podcast/'>Content Components podcast</a>, led by Patrick Bosek of Heretto (formerly easyDITA), has a two-part interview with Sarah O'Keefe worth listening to."
 ---
 
+* TOC
+{:toc}
+
 Although I've listened to Content Components on and off for a while, this latest interview with [Sarah O'Keefe from Scriptorium](https://www.scriptorium.com/) titled the ["The History of Content According to Sarah O'Keefe"](https://heretto.com/project/content-components-podcast/?wchannelid=kahto6p5y5&wmediaid) (Parts 1, 2, and 3) &mdash; was really fun to listen to. I actually listened to each part twice. (Each part is only about 15 min. long.)
 
 [Part 1](https://heretto.com/project/content-components-podcast/?wchannelid=kahto6p5y5&wmediaid) explores the idea of content re-use, starting with the revolution of movable type (which allowed letters used for printing to be reused with new content) to the challenges of reusing content between documentation and elearning. Many elearning folks are persuaded that "bouncy PowerPoint" (slides with custom animations and dynamic effects) helps people learn better than plain content (which is repurposed from documentation). Others argue that bouncy PowerPoint is a waste of time and that plain content is more accurate and on-target for learning.

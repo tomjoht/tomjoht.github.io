@@ -7,6 +7,9 @@ bitlink: http://bit.ly/cdqsmesq&a
 description: "In the workplace, why aren't technical writers recognized as SMEs with the same credibility and respect as engineering SMEs? Why do PMs and others often override the judgment of technical writers on matters of language and docs? This post explores the challenges that technical writers experience as SMEs in the workplace, and strategies they can implement for asserting their expertise. The format is a Q&A with authors of a CDQ article, with a survey at the end."
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 I was recently reading an article in [Communication Design Quarterly (CDQ)](https://sigdoc.acm.org/publication/) when an article about expertise in the workplace caught my attention, in part because it meshed with [previous themes](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/) I'd been exploring. CDQ is the publication of [SIGDOC ("Special Interest Group for Design of Communication")](https://sigdoc.acm.org).

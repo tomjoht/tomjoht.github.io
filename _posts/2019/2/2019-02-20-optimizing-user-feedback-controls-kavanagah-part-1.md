@@ -9,6 +9,9 @@ description: "User feedback is a common feature of online help these days. They 
 published: false
 ---
 
+* TOC
+{:toc}
+
 Donal Kavanagh is a technical writer of several years' experience in the software industry. He is pursuing a part MA in Technical Communication and E-Learning with the University of Limerick. This research essay was written as part of that programme [https://www.ul.ie/graduateschool/course/technical-communication-e-learning-ma].
 
 ## Measuring Principles of Information Design and Content Writing in Online Help Feedback Features

@@ -8,6 +8,9 @@ description: "Ryan Weber, the Director of Business and Technical Writing at the 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/tenminutetechcommthumb.png
 ---
 
+* TOC
+{:toc}
+
 You can listen to the API technical writing podcast [here](http://www.stitcher.com/podcast/10minute-tech-comm/e/42943843) or through the embedded player below.
 
 <iframe style="border: solid 1px #dedede;"  src="http://app.stitcher.com/splayer/f/73517/42943843" width="220" height="150" frameborder="0" scrolling="no"></iframe>

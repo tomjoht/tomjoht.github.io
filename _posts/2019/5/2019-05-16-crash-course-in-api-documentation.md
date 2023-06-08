@@ -13,6 +13,9 @@ podcast_duration: "58:04"
 podcast_length: 45432384
 ---
 
+* TOC
+{:toc}
+
 I mentioned in my [STC Summit slide links post](https://idratherbewriting.com/blog/my-slide-links-times-stc-summit/#apidoc) that I recorded my "Intro to API documentation" presentation using the on-board mic on my laptop, and that STC let me post it on my blog. The sound in the recording isn’t great, but if you’re interested, the video is available below. Someone who recently watched the video wrote me to say,
 
 > Btw, the one hour crash course was great. I just watched it. This will be my go-to-link to send people interested in the space. It's a lot of content for a beginner, but its variety and your talking more holistically about the workflow/mindset made it a great introduction. Bravo!

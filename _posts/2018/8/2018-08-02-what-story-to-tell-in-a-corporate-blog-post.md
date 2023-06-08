@@ -8,6 +8,9 @@ description: "When contributing to a corporate blog, the stories that get the mo
 bitlink: http://bit.ly/corporateblogchall
 ---
 
+* TOC
+{:toc}
+
 Despite the fact that I've been blogging for more than a decade, and in my spare time, *I'd rather be writing*, I have rarely engaged in any kind of writing on corporate blogs where I work. I have always found this a bit sad. I mean, while sure I'm a decent technical writer, I think I could hit a home run on a corporate blog if I applied myself to it.
 
 While I was working on my latest post, [Articulating the invisible stories that influence product adoption or rejection](https://idratherbewriting.com/simplifying-complexity/articulate-invisible-stories-that-influence-action.html#references), I started reflecting more about my role in influencing product adoption, and I thought, you know, I really should be contributing more to my company blog. My closeness to the development scene gives me an awareness about the products, latest releases, user questions, developer interests and issues, and other details. I could easily use this knowledge to contribute more content. Why don't I write a post?

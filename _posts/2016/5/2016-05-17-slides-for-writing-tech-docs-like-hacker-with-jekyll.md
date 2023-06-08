@@ -7,6 +7,9 @@ description: "Here are the slides for my STC Summit 2016 talk on Writing Tech Do
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/techdocslikehackerthumb.png
 ---
 
+* TOC
+{:toc}
+
 My slides are linked below (format is RevealJS):
 
 <a href="https://idratherbewriting.com/files/jekyllwritetechdocslikehackerstc/index.html#/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/techdocslikehackerslides.png" | prepend: site.baseurl }}"/></a>

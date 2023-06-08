@@ -13,6 +13,9 @@ rebrandly: https://idbwrtng.com/redocly-podcast
 description: "In this podcast, I chat with Adam Altman all about Redocly, an authoring/publishing tool for creating API documentation. Topics we discuss include why he started Redocly, the approach to API doc tools, what explains the continued popularity of Redocly, the docs-as-code approach to API tooling, and more."
 ---
 
+* TOC
+{:toc}
+
 _Note that this is a sponsored podcast._
 
 ## Video recording

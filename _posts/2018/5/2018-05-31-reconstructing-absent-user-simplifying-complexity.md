@@ -7,6 +7,9 @@ description: "I have a new article in my series on <a href='http://bit.ly/recons
 bitlink: http://bit.ly/simpcompreconstabsence
 ---
 
+* TOC
+{:toc}
+
 Here's a brief summary of the article:
 
 > To write good documentation, you have to follow the most fundamental rule of writing: know your reader. The problem in tech comm is that the reader (or "user") is absent, and there aren't any direct measurable outcomes when users interact with the documentation. Consequently, tech writers suffer from lack of user knowledge and feedback, which cripples the ability to write good documentation.

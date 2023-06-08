@@ -15,6 +15,9 @@ date: 2018-10-03T03:13:36+00:00
 bitlink: http://bit.ly/genandspecialisttrendspart6
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagGeneralistSpecialists.html %}
 
 ## Principle 5: Conform to the patterns and expectations of the genre and schemas

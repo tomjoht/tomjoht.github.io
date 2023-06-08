@@ -11,6 +11,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on faceted filtering."
 ---
 
+* TOC
+{:toc}
+
 ## What is faceted filtering?
 
 Faceted filtering is a technique you often see on sites that sell physical products (e.g., shoes, clothing); on these sites, the faceted filters allow you to select various options to narrow down what you want to find. For example, you might select filters such as style, gender, age, size, color, sport, etc. to narrow down the results as you’re looking for a new pair of running shoes.

@@ -8,6 +8,9 @@ description: "In this episode of the Write the Docs podcast, we talk about what'
 bitlink: http://bit.ly/wtdpodcastepisode10lives
 ---
 
+* TOC
+{:toc}
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gc6W1ZPvNOk" frameborder="0" allowfullscreen=""></iframe>
 
 Topics discussed in the podcast:

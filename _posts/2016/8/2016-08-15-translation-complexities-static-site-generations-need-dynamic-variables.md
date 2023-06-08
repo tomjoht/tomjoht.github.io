@@ -18,6 +18,9 @@ podcast_length: 11948010
 bitlink: http://bit.ly/ssgtranslationcomplexities
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](https://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).

@@ -8,6 +8,9 @@ bitlink: http://bit.ly/tomcirclereview
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/circlepicthumb.png
 ---
 
+* TOC
+{:toc}
+
 Shutting off the guest network sort of worked, except that each time my wife wanted to turn off kids' access to devices, she never wanted to log into the router. I tried showing her how, but she paid almost no attention and didn't have any interest in going to 192.168.1.1 and navigating through the confusing options in the router's interface. (Router interfaces, by the way, usually have horrible interfaces.)
 
 So when my wife wanted to turn off the devices, she instead went over to the router + modem, which is a jumble of cords in a corner, and she would unplug one or more cords until the Internet stopped working. This would drive me nuts because I'm usually not just playing on computer but doing something constructive. At the same time, my wife loves reading on her phone, and she can read using cellular Internet data just fine, without the need for wifi.

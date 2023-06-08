@@ -10,6 +10,9 @@ bitlink: https://idratherbewriting.site/wtdpodcast26
 description: "In episode 26 of the Write the Docs podcast, we talk with Alan Bowman about the technical writing forum on Reddit as well as the WTD Slack channel, comparing and contrasting the two spaces. Topics covered include pros and cons of anonymity on the internet, transparency around sensitive or taboo topics (e.g., salary, masters programs, feelings of overwhelm), age/experience demographics for both communities, balancing honesty with professionalism, responding to posts from overwhelmed tech writers, dealing with recurring topics, strategies for participating, and more."
 ---
 
+* TOC
+{:toc}
+
 ## Episode details
 
 You can view the episode on the [Write the Docs Podcast site here](https://podcast.writethedocs.org/2019/12/31/episode-26-tech-comm-reddit-and-wtd-slack/) or watch the video below.

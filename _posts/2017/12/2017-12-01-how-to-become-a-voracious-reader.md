@@ -11,9 +11,10 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.co
 podcast_file_size: 5.4 MB
 podcast_duration: "06:58"
 podcast_length: 5389413
-redirect_from:
-- /2017/12/01/how-to-become-a-voractious-reader/
 ---
+
+* TOC
+{:toc}
 
 {% include audio.html %}
 

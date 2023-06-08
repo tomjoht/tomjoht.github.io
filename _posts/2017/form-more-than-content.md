@@ -29,12 +29,18 @@ bitlink: http://bit.ly/
 published: false
 ---
 
+* TOC
+{:toc}
+
 
 
 
 
 
 -------------------
+
+* TOC
+{:toc}
 
 are we more interested in the critical thinking mindset than with the subject itself?
 

@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "Wayfinding starts with being attentive and present with the world around you. However, our suburban <i>geography-of-nowhere</i>-type cementscapes remove a lot of incentive for attentiveness."
 ---
 
+* TOC
+{:toc}
+
 *If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/blog/wayfinding-intro/).*
 
 ## The need to be attentive and present

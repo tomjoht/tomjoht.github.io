@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on content strategy."
 ---
 
+* TOC
+{:toc}
+
 ## What is content strategy
 
 Content strategy isn't a new tool or approach to writing docs. Content strategy is literally the shift to thinking strategically about documentation rather than just writing it. And not just thinking about it, but coming up with formal plans to achieve your content goals.

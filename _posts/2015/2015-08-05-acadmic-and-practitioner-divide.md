@@ -8,6 +8,9 @@ description: "Although the work of practitioners and academics should inform eac
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/university.png
 ---
 
+* TOC
+{:toc}
+
 {% include notes.html %}
 
 {{tip}} Check out the podcast I recorded on this same topic here: <a href="https://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/">Podcast: The divide between academics and practitioners — Interview with Lisa Meloncon</a>. {{end}}

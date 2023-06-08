@@ -7,6 +7,9 @@ description: "With developer documentation roles, some level of coding is requir
 date: 2017-01-06 18:00:00
 ---
 
+* TOC
+{:toc}
+
 Read more here: [Learning to code -- how much is enough?](https://idratherbewriting.com/learnapidoc/jobapis_learning_code.html)
 
 {% include ads.html %}

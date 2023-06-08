@@ -7,6 +7,9 @@ description: "I updated and reworked the topics in the Non-Reference Content sec
 bitlink: http://bit.ly/nonrefsectionupdate
 ---
 
+* TOC
+{:toc}
+
 Although this seems like a relatively easy section, it was actually one of the most tedious to write. It took me about a month to make these updates. I originally started updating this section when I [presented on non-reference content to the SF STC chapter back in March](https://idratherbewriting.com/2018/03/08/stc-sf-preso-nonreference-api-docs/). I then presented on the topic again in the [API workshop in Denver (it's Part III)](https://idratherbewriting.com/2018/03/12/api-documentation-workshop-in-denver/#video-recordings). I finally articulated some of the same instruction I gave during these presentations into written topics.
 
 Here's a list of pages in the [Non-reference content](https://idratherbewriting.com/learnapidoc/docnonref.html) section, along with their intro sentences:

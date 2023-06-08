@@ -22,6 +22,9 @@ podcast_length: 13544458
 bitlink: http://bit.ly/docsascodeargument
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Responses to Review Post were enormous

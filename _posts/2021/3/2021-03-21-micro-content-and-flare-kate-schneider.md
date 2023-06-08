@@ -14,6 +14,9 @@ podcast_duration: "31:05"
 podcast_length: "21872021"
 ---
 
+* TOC
+{:toc}
+
 ## Video
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/u8I5A6oqSzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,6 +6,9 @@ keywords: api documentation, online learning, payment gateways
 description: "I'm developing an online course for documenting REST APIs. I'm not quite done, and I'm trying to figure out the best freemium delivery model."
 ---
 
+* TOC
+{:toc}
+
 A reader notes:
 
 > I only just today discovered your [API Doc Course](https://idratherbewriting.com/learnapidoc/). Well done! Thanks very much for this. How long has this course been available? Are you still working on the material?

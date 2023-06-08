@@ -9,6 +9,9 @@ date: 2018-06-19T14:11:32+00:00
 sidebar: sidebar_basketball
 ---
 
+* TOC
+{:toc}
+
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/soccerworldcuppic.png"/><figcaption>World cup photo from espn.com with Japan scoring on Columbia</figcaption></figure>
 
 ## 1. You have to go out of your way to win the referee / project manager over.

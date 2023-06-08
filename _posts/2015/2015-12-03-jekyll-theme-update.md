@@ -7,6 +7,9 @@ description: "Version 4.0 of the Jekyll Documentation Theme now supports multipl
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekylltheme40thumb.png
 ---
 
+* TOC
+{:toc}
+
 I recently made some updates to my Jekyll Documentation Theme.
 
 <a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>

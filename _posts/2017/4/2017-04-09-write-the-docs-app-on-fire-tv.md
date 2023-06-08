@@ -9,6 +9,9 @@ bitlink: http://bit.ly/tryyourdoccode
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdpodcastappfiretv.png
 ---
 
+* TOC
+{:toc}
+
 ## Viewing the WTD Fire TV app
 
 You can view the Write the Docs podcast app in the Amazon Appstore web UI [here](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs).

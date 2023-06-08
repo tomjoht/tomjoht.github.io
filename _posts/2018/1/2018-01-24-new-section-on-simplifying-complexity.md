@@ -7,6 +7,9 @@ description: "In an earlier post on value arguments for tech comm, I mentioned t
 bitlink: http://bit.ly/newsectionsimplifyingcomplexity
 ---
 
+* TOC
+{:toc}
+
 You can read the post here: [Switching between macro and micro views with embedded maps](https://idratherbewriting.com/simplifying-complexity/macro-micro.html).
 
 The micro-macro principle is as follows:

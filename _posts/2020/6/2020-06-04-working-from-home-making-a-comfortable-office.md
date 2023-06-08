@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/comfortableenvironment
 description: "We recently moved about a mile away to a larger house (still renting, not owning), and this house has an office. I was initially excited about working in the office, and I still am, but I've come to realize some challenges in getting a comfortable office environment. It's harder than it looks. When I would go to work each day at my corporate office space, I now see that I took many details provided by facilities for granted. Here are some challenges that I have had to overcome to make my home office comfortable."
 ---
 
+* TOC
+{:toc}
+
 ## Fast Internet
 
 The office in this house is part of a garage-add-in (meaning, the garage was converted to a living space). Most of the garage is a second family room, while a section of it is an enclosed office. Here's what it looks like:

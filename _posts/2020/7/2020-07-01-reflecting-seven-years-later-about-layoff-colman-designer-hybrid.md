@@ -13,6 +13,9 @@ series: "Reflecting seven years later about why we were laid off"
 sidebar: sidebar_layoff_reflections
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesLayoffReflections.html %}
 
 ## Destroying [changing] the stretched-thin model for content design

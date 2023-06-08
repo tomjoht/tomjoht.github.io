@@ -7,6 +7,9 @@ description: "As we enter into 2019, it's fun to think about what's in store for
 bitlink: http://bit.ly/absoluteworst2019
 ---
 
+* TOC
+{:toc}
+
 Let's kick off this dystopian nightmare with a scene from the final episode of [Travelers](https://en.wikipedia.org/wiki/Travelers_(TV_series)). Travelers is a Netflix show where humans in the future &mdash; at a time when humanity is on the brink of extinction &mdash; transport their consciousness back in time (to our present day) to correct the chain of events that led to the escalating catastrophes and decimation of humanity. In the final episode of season 3, Grant MacLaren, one of the Traveler team leaders, explains to the FBI director (who is not a traveler) what went wrong to cause the future decline:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Gvg-6b4VSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on screencasting."
 ---
 
+* TOC
+{:toc}
+
 ## What is screencasting?
 
 [Screencasts](/2012/09/27/how-to-create-video-tutorials-a-five-step-process/) are short videos that show how to do a specific task (usually in a software application). They’re recorded using a tool such as Camtasia Studio, last between 30 seconds to several minutes, and often include a [voice providing commentary](/2012/09/17/writing-scripts-for-video-tutorials/) and instruction to complement the visual demonstration.

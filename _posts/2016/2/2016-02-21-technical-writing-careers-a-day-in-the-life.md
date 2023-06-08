@@ -7,6 +7,9 @@ description: "James Gill is working on the second edition of his book, <i>How to
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jamesgillhowtotechbookthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## My Tech writer "day in the life" contribution
 
 James Gill invited me to contribute responses to a questionnaire about a typical day in the life in my career for the upcoming second edition of his book, [How to Get Started As a Technical Writer](https://leanpub.com/getstartedtechwriting). This section will appear in a chapter that discusses the real-world work life of technical writers in different industries and specializations.

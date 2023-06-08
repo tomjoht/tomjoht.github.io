@@ -8,6 +8,9 @@ description: "In episode 18 of the Write the Docs podcast, we discuss the recent
 bitlink: http://bit.ly/wtdepisode18australia
 ---
 
+* TOC
+{:toc}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NG0sKE7Ujbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For more information about Write the Docs Australia, see the following:

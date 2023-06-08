@@ -8,6 +8,9 @@ description: "In the latest episode of the Write the Docs podcast, we chat with 
 bitlink: http://bit.ly/humanizingdocswtd
 ---
 
+* TOC
+{:toc}
+
 Here's a video recording of the podcast:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eDqaEtT4FCs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

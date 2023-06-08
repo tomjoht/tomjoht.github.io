@@ -7,6 +7,9 @@ description: "I updated the sample weather API in my API course to use a more ro
 bitlink: http://bit.ly/newweatherapiincourse
 ---
 
+* TOC
+{:toc}
+
 In my [API course](https://idratherbewriting.com/learnapidoc/), I use a simple weather API to demonstrate how developers use an API, how to make requests to an API, how to document various aspects of the API, and more &mdasah; see [Scenario for using a weather API](https://idratherbewriting.com/learnapidoc/docapis_scenario_for_using_weather_api.html). When I first created the course, I chose the simplest weather API I could find ([one from Mashape](https://market.mashape.com/fyhao/weather-13)) so that users could focus in on the bare bones of an API. However, the Mashape API I chose seemed to be a hobby project for a developer, and as such, it frequently had problems. Some endpoints were down, some didn't work reliably, and sometimes even when working fine, it crashed when multiple people submitted requests at the same time.
 
 Because I wove this API into a lot of different parts of my course (including the [Swagger examples](https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.html) and [OpenAPI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html)), I dreaded removing it. But as I was making updates the other week, the API again was down, and I realized I needed to replace it with a more robust and stable API.

@@ -9,6 +9,9 @@ published: false
 description: ""
 ---
 
+* TOC
+{:toc}
+
 This past week I have been thinking about whether to move out of California. I live near Sunnyvale (south of San Francisco about 30 miles) and have been here about 7 years. Before California, I lived in Utah for about 5 years, and before that, Florida for about the same. Before that, Cairo, and before that, New York, and before that, Washington State (where I grew up).
 
 Nearly every relocation has been related to work or school. While moving out of California after living here for this many years fits my own migration pattern, I also think there's evidence of a larger trend away from urban centers that is being driven by the pandemic. But I'm not sure, and I want to think through some ideas in this post. Ultimately, my question is this: Does Silicon Valley or some other), or have world events (not just the pandemic WFH, but climate change and other factors) prompted us to a more virtual model? When the pandemic is over, will we all go back to work, or are we actually never going back to work? The answer to that question -- what happens when the pandemic ends -- is driving a ton of thought about where people live.

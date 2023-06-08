@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/apidocpodcastlarryswanson
 description: "Larry Swanson, a UX content strategist, runs a podcast called <a href='https://ellessmedia.com/csi/'>Content Strategy Insights</a>. Larry recently interviewed me a few weeks ago about various topics related to API documentation."
 ---
 
+* TOC
+{:toc}
+
 You can listen to the podcast here: [Content Strategy Insights Episode 88 - Tom Johnson: Documenting APIs](https://ellessmedia.com/csi/tom-johnson/). (Larry's site is called Elles Media.)
 
 <a href="https://ellessmedia.com/csi/tom-johnson/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swansonpodcastapis.png" alt="Tom Johnson podcast with Larry Swanson on Content Strategy Insights" /></a>

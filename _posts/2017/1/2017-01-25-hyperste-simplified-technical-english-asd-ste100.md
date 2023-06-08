@@ -9,6 +9,9 @@ redirect_from:
 - /2017/01/24/hyperste-simplified-technical-english-asd-ste100/
 ---
 
+* TOC
+{:toc}
+
 *Note: Etteplan is one of the sponsors of this site.*
 
 ## Using tools to assist with writing

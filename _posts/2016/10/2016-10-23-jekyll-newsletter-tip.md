@@ -8,6 +8,9 @@ date: 2016-10-23 08:49:08.000000000 -08:00
 bitlink: http://bit.ly/jekyllandnewsletters
 ---
 
+* TOC
+{:toc}
+
 I've been blogging since 2006, but it took me a number of years before I realized that email usually has a far greater reach than RSS or social media. Regardless of which venue has the most impact, you don't want to exclude email from your reach. Here's my approach to delivering email in a free, painless way.
 
 I use [Tinyletter](http://tinyletter.com/) (it's free and works pretty well). (I have 3,500 subscribers, so most other newsletter platforms that have a free threshold at 2,000 don't work for me.)
@@ -19,6 +22,9 @@ Each of my posts has a `summary` tag in the frontmatter, as well as a `bitlink` 
 ---
 layout: none
 ---
+
+* TOC
+{:toc}
 
 <!-- site logo -->
 <a href="https://idratherbewriting.com"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting-site-logo.png"></a>

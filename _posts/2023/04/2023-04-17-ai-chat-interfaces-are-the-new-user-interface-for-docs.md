@@ -1,5 +1,4 @@
 ---
-
 title: "AI chat interfaces could become the primary user interface to read documentation"
 date: 2023-04-17
 permalink: /blog/ai-chat-interfaces-are-the-new-user-interface-for-docs
@@ -9,6 +8,9 @@ keywords:
 rebrandly: https://idbwrtng.com/ai-chat-interfaces-are-the-new-user-interface-for-docs
 description: "AI topics have saturated online posts <i>ad nauseam</i>, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I believed I had a genuine light bulb moment. In this post, here's what I argue:<p>&ndash;AI chat interfaces could become the primary user interface that people use to read documentation, not documentation websites themselves.<br/>&ndash;AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.<br/>&ndash;Documentation will provide the information source that AI chat engines need to respond to queries.<br/>&ndash;Both tech writers and machines will write the information source.</p>"
 ---
+
+* TOC
+{:toc}
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docwebsitetochatinterface.png" alt="AI chat becomes the new interface for reading docs" />
 

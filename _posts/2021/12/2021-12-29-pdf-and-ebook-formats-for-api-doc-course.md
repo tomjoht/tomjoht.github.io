@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/pdfandebookformats
 description: "PDF and eBook formats are now available for my API doc course. People have long-requested these formats, and I finally decided to create and make them available."
 ---
 
+* TOC
+{:toc}
+
 You can download them here: [PDF and eBook formats](/learnapidoc/docapis_formats.html). Like the rest of my API doc course, these formats are free.
 
 I've actually worked on these alternative formats on and off again for a couple of years, but I was always hesitant to make them available because they're a snapshot in time. Once someone loads an ebook onto a Kindle, are they really going to update it with a later version? Or once someone starts marking up a PDF, or printing it out, they're unlikely to get a later version of the content.

@@ -7,6 +7,9 @@ description: "gd2md-html is a Google Docs add-on that will convert your Google D
 bitlink: http://bit.ly/gd2md-html
 ---
 
+* TOC
+{:toc}
+
 Check out [gd2md-html here](https://github.com/evbacher/gd2md-html/wiki). Here's the description:
 
 > gd2md-html is a free Google Docs add-on that converts a Google Doc to a simple, readable Markdown or HTML text file. gd2md-html requires minimal permissions: it will ask for permission to access the current Doc (to convert it). It requires no other permissions.

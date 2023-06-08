@@ -8,6 +8,9 @@ bitlink: http://bit.ly/tcdojoswagger
 date: 2017-01-06 17:00:00
 ---
 
+* TOC
+{:toc}
+
 In the spirit of a dojo, my presentation is called **Harnessing the Chi of Swagger in Your API Docs**. Here's the description:
 
 > Frequently when tech writers start creating API documentation, a developer will ask, Why don't we use Swagger? Swagger, or the OpenAPI specification, is an open standard for describing your REST API. The Swagger/OpenAPI spec, which is created in YAML or JSON, can be parsed by different tools, such as the Swagger UI framework. Swagger UI can create an interactive experience for users to try out your API calls using their own API keys. This can be a powerful addition to your API documentation, since it gives users a sandbox to experiment with your API in an immediate way.

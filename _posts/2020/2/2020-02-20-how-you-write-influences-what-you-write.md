@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/howinfluenceswhat
 description: "In tech comm tool usage over the past 50 years, we've seen tools trends ranging from PDF to web, XML, wikis, CCMSs, and docs-as-code. Although some dismiss tools as short-lived and always changing, the tools and technologies we use do influence what we write, to a degree."
 ---
 
+* TOC
+{:toc}
+
 ## Trying to pin down noteworthy trends
 
 During the last holiday break, I was sitting inside a cozy hotel room in Red River, New Mexico, on vacation but also thinking about tech comm trends. Every year, as one year ends and a new year begins, bloggers and other writers address trends for the coming year. Especially since this topic has always gathered more hits than other posts in the past, I wanted to write a new post about trends.

@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdstc
 published: false
 ---
 
+* TOC
+{:toc}
+
 - the stc grew in an pre-internet era. it formed many practices before internet tools were available.
 - WTD leverages internet tools. meetup.com for sites, youtube for recordings, slack for communication.
 - the stc doesn't really have an overarching function. it's not lobbying washington anymore for anything, so why is it over in DC? revenue last year was $2 million.

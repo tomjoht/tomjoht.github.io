@@ -13,6 +13,9 @@ podcast_length: 11591898
 description: "When you don't have a system that logs users in and tracks their progress, it can be a challenge to show their progress in a course. However, rather than showing progress through completed pages, quizzes, or other interactive exercises, progress can also be measured through larger user goals that extend beyond the course. In the case of my API documentation course, the user's goal is to break into the field of API documentation, not so much to finish a course. Breaking into API documentation requires users to build a compelling portfolio, which is how I'm choosing to measure the user's progress."
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Differences in the idea of "learning" between tech comm and eLearning

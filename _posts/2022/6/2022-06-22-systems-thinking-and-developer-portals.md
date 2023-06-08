@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. In this post, I explore why focusing on the big picture fits into the domain of <i>systems thinking</i>. I also make a case for developer portals as a candidate for study that aligns with a systems thinking approach."
 ---
 
+* TOC
+{:toc}
+
 ## Recap of the argument context
 
 Let me briefly recap where I left off in this series. In a previous topic ([Technical diversity/pluralism/fragmentation in tech comm](/trends/embracing-diversity-pluralism-fragmentation.html)), I summarized Kevin Kelly's argument (in _What Technology Wants_) about the trajectory of growing technical diversity fueled by technology. With each year, the number of products and services available for us continues to grow, proliferate, and multiply, such that we swim/drown in a sea of choices and options.

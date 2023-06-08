@@ -12,10 +12,10 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.co
 podcast_file_size: 23 MB
 podcast_duration: "27:16"
 podcast_length: 23023302
-redirect_from:
-- /2018/11/18/different-types-of-knowledge/
-- /2018/11/19/different-types-of-knowledge/
 ---
+
+* TOC
+{:toc}
 
 {% include audio.html %}
 

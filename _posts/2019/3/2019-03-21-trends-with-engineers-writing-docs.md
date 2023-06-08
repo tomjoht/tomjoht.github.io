@@ -8,6 +8,9 @@ bitlink: http://bit.ly/surveyresultsengineersanddocs
 description: "I recently conducted a survey with engineers who write documentation to see why they are coming to my API documentation site &mdash; whether certain trends are pushing them to write more documentation, or whether the technology landscape is becoming more complex, or some other reason. Results from the survey are provided below. The most interesting result is that engineers who write docs almost unanimously agree that they prefer to treat docs like code."
 ---
 
+* TOC
+{:toc}
+
 ## About the survey
 
 A few months ago I was looking at my site's metrics and noticed a [large amount of traffic (59%) going to my API documentation site](https://idratherbewriting.com/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site). The gender and age demographics (according to Google Analytics), more closely aligned with programmer demographics, so I guessed this influx of users must consist mainly of engineers writing docs. But I wasn't sure.

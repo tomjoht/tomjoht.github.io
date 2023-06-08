@@ -11,6 +11,9 @@ author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
 bio: false
 ---
 
+* TOC
+{:toc}
+
 ## The question
 
 I recently received a question from a reader asking about the devaluation of tech writers in the workplace. The person writes:

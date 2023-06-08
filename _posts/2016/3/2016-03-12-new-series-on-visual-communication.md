@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/visual
 sidebar: sidebar_visualcommunication
 ---
 
+* TOC
+{:toc}
+
 Last week I posted the following on Twitter:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It’s kind of puzzling that there is such power in visuals yet almost no good instruction on how to do visuals in <a href="https://twitter.com/hashtag/techcomm?src=hash">#techcomm</a> documentation.</p>&mdash; Tom Johnson (@tomjohnson) <a href="https://twitter.com/tomjohnson/status/707623373963010048">March 9, 2016</a></blockquote>

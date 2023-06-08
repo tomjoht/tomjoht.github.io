@@ -17,6 +17,9 @@ podcast_duration: "7:28"
 podcast_length: 5797577
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 You can read Peter Welch's essay here: [Programming Sucks](http://www.stilldrinking.org/programming-sucks).

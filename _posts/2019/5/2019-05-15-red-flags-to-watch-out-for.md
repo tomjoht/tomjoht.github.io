@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/redflagshiring
 description: "A reader wonders whether having complete control as the lone writer in a company is a red flag he should watch out for, based on his previous experience. I agree that it is."
 ---
 
+* TOC
+{:toc}
+
 > Hi Tom,
 >
 > I'm writing to ask whether it's a red flag that a hiring manager tells you that you'll be the only tech writer in the group. A few years ago I found myself in a similar position. I was told I'd have complete control and autonomy with docs from end to end. Well, it soon became apparent that the group underestimated the amount of work required, and they seemingly had me editing and writing every written material in the company, from tech docs to marketing to reports and other content. It was overwhelming. Also, it seems my manager was mostly interested in making the docs look better visually. I was also trying to set up a docs-as-code workflow, but the position fizzled before I finished. Now as I look for another position, I just heard a similar promise from a hiring manager about being the only tech writer in the group. Is this a red flag I should watch out for?

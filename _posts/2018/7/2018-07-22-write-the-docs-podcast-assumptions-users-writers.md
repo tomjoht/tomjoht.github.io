@@ -7,6 +7,9 @@ description: "After a short summer break, we've returned to the WTD podcast and 
 bitlink: http://bit.ly/wtdepisode15pointer
 ---
 
+* TOC
+{:toc}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8UC3fWXCKp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 You can see the podcast post and subscribe to the show here: [WTD Episode 15: Assumptions about end users and tech writers](http://podcast.writethedocs.org/2018/07/22/ways-of-seeing-our-users-ways-others-see-us/)

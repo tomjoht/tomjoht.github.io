@@ -7,6 +7,9 @@ description: "As I prepare to record my API doc course, I'm finalizing a few tho
 thumb:
 ---
 
+* TOC
+{:toc}
+
 I've been planning to convert my [API documentation course content](https://idratherbewriting.com/learnapidoc/) into an online course for a while. I mostly have everything in place now; it's just a matter of doing it. These past few weeks I've been trying to clean up a few things with my blog, and the holidays seem to bring their own slow-down, with parties to attend, get-togethers, family activities, and so on. In short, I've been procrastinating.
 
 I want to outline a few thoughts and plans I have for recording the videos.

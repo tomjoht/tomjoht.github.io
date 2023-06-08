@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/userpr
 sidebar: sidebar_visualcommunication
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 In my previous post, I outlined a method for [showing linear workflows](https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/), and pointed users to [this example](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/).

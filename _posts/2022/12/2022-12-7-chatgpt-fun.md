@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/chatgptfun
 description: "If you haven't already heard about and experimented with ChatGPT, you need to. This generative AI writing tool has the potential to do for writing what art AI tools have already done for graphic content. ChatGPT is pretty mind-blowing. I didn't realize AI writing tools were so advanced."
 ---
 
+* TOC
+{:toc}
+
 ## Intro to ChatGPT
 
 ChatGPT has recently been released to the public and I've had the chance to play around with it. It's a powerful tool that can help with a number of tasks, from creating high-level summaries to quickly brainstorming ideas. It can even generate the feel of documents that can then be further customized, such as an admissions essay.
@@ -73,6 +76,9 @@ An engineer and a technical writer walk into a bar. The engineer says, "Wow, the
 
 -----
 
+* TOC
+{:toc}
+
 *tell me a joke about a technical writer who gets stuck in an elevator with donald trump.*
 
 Q: What did the technical writer say to Donald Trump when they got stuck in the elevator?
@@ -80,6 +86,9 @@ Q: What did the technical writer say to Donald Trump when they got stuck in the 
 A: "It looks like we have some time to proofread your latest tweet!"
 
 -----
+
+* TOC
+{:toc}
 
 *tell me a joke about a technical writer who gets stuck in an elevator with an engineer and a quality assurance person.*
 

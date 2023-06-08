@@ -7,6 +7,9 @@ description: "The following article is a sponsored article I wrote on behalf of 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/xeditorthumbscreen.png
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.tip}} For more up-to-date information about Xeditor, see this 2021 post: [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](/blog/xeditor-question-and-answer/).{{site.data.alerts.end}}
 
 ## CMS editors

@@ -8,6 +8,9 @@ bitlink: http://bit.ly/
 published: false
 ---
 
+* TOC
+{:toc}
+
 
 what is diff betw product owner and tech writer?
 - a prod owner decides direction (cont strat) while a tech writer follows the outlined direction

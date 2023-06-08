@@ -7,6 +7,9 @@ description: "If you want to learn how to document REST APIs, consider taking Pe
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/udemypeter.png
 ---
 
+* TOC
+{:toc}
+
 ## Part 2 is now available
 
 Peter Gruenbaum has released [part 2 of his Udemy course on API technical writing](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/?couponCode=idrather). Whereas part 1 focused mostly on requests and responses from REST APIs, part 2 gets into a lot more detail with REST APIs and provides more depth. (Part 2 felt more substantial to me than part 1, but it depends your familiarity with JSON and XML.)

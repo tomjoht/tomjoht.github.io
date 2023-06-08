@@ -10,6 +10,9 @@ bitlink: https://idratherbewriting.site/techcommroundup
 description: "Scott Abel has put together a new conference called <a href='https://technicaldocumentationroundup.com/'>Technical Documentation Roundup</a>, held May 21-23, 2019, in Menlo Park, California. If you're interested in attending the conference, there's currently an opportunity to get two tickets for the price of one."
 ---
 
+* TOC
+{:toc}
+
 I asked Scott to tell me a little bit about the conference. Here's the high-level description:
 
 <div style="background-color: #f8f8f8; border: 1px solid #dedede; padding: 15px; margin: 15px 0px;">

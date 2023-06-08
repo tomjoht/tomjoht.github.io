@@ -7,6 +7,9 @@ description: "Since I've been working at Amazon, my tech comm role has shifted m
 bitlink: http://bit.ly/kanbandocrole
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 During the [last STC meeting on agile](https://idratherbewriting.com/2016/09/20/thriving-in-agile-environments-as-technical-writers/), I was chatting with a fellow writer about whether agile fit his role at his work. He said that because he supports about 80 engineers, kanban was a better fit for him than scrum.

@@ -3,6 +3,9 @@ title: The Active tech writer
 published: false
 ---
 
+* TOC
+{:toc}
+
 ## The active, self-directed technical writer
 
 I'm fond of a more active tech writer. Rather than passively being assigned task items, or being under the management of the project manager, what if tech writers were more self-directed, autonomous, and aggressive in researching documentation needs? Instead of expecting managers to include you or push information out to you, or to assign you doc items, to assign points, etc., you can create your own task items based on your research of the features, your user analysis, market research, internal company knowledge, and other independent knowledge.

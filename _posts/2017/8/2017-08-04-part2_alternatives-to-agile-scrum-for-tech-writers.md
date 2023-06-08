@@ -13,6 +13,9 @@ podcast_duration: "31:07"
 podcast_length: 23964717
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
 
 {% include audio.html %}

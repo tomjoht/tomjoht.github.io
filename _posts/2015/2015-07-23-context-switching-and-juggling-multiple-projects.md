@@ -6,6 +6,9 @@ keywords: careers, task-switching, multitasking
 description: "Although the ability to juggle multiple projects is common to the technical writer role, switching contexts can hurt your momentum with projects because each time you switch, you have to re-prime your memory pump with a hundred details about the project. At the same time, this mental reset can help you see the product fresh, like a new user. In that respect, context-switching can be helpful."
 ---
 
+* TOC
+{:toc}
+
 ## Juggling multiple projects is the norm
 
 It seems that nearly every job description for technical writing mentions that the writer will need to "juggle multiple projects." And it's true. The nature of technical writing is that you are rarely dedicated to a single project. Most of the time, you are only needed near releases, so you end up switching among multiple projects depending upon which project needs documentation the most.

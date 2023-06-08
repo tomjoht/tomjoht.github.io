@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/wasabimediahosting
 description: "If you need an inexpensive way to host media, and your egress GB bandwidth (related to site traffic) is less than the GB data you're storing, Wasabi might be an option to explore. Combined with GitHub Pages, this <i>could</i> be an inexpensive way to host a website."
 ---
 
+* TOC
+{:toc}
+
 ## The challenge of media hosting
 
 About six years ago I switched off Bluehost and WordPress over to Jekyll and GitHub Pages. I quickly learned that hosting many image and audio files in a GitHub repository doesn't work, so I continued to host my media on Bluehost for a couple of years. Eventually, I hit Bluehost's max size limit with shared hosting (mainly due to audio files with podcasts), so I decided to shift all media over to what I thought would be the less expensive and more logical hosting source: [Amazon S3](https://aws.amazon.com/free/storage/s3/).

@@ -10,6 +10,9 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 ---
 
+* TOC
+{:toc}
+
 ## Context and catchup
 
 For those of you just catching up on this series, which documents my journey away from smartphones, see the previous posts for more context. Earlier posts explain my rationale and goals. Read these to get caught up:

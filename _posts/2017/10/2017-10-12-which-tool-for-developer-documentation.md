@@ -8,6 +8,9 @@ description: "Finding the right software tools to write API docs is a constant a
 bitlink: http://bit.ly/whichtoolsapidocs
 ---
 
+* TOC
+{:toc}
+
 A reader asks:
 
 > I'm an aspiring technical writer and I'm taking courses for a Masters in Tech Comm. What software tools do you think a freelance writer should own to be successful.  Should I own MadCap and Framemaker? My goal is to write API docs for developers.

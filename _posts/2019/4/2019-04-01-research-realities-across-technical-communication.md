@@ -9,6 +9,9 @@ author: <a href='#kirk_st_amant'>Kirk St. Amant</a>
 bio: false
 ---
 
+* TOC
+{:toc}
+
 ## Common ground
 
 Practitioners and academics are often presented as two camps within technical communication. Yet the two groups have a great deal in common. Both are interested in the same area: Communication. Both also focus their actions on a shared objective: Effectively conveying technical information to different audiences. The two groups also value research in improving technical communication practices. In fact, shared value of research should be an area where industry and academia can find common ground.<sup><a href="#no1">1</a></sup>

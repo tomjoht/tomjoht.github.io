@@ -7,6 +7,9 @@ description: "Github Pages is a sweet service that builds your Jekyll site for y
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/githubkramdowncrapthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## Updates to Markdown filter and syntax highlighters
 
 I use [Github Pages](https://pages.github.com/) to publish content for my Jekyll-based blog, and I've also used it for authoring tech docs with Jekyll. When you commit changes to your Jekyll site stored in a Github repo, Github Pages will automatically perform the process of building the Jekyll site for you.

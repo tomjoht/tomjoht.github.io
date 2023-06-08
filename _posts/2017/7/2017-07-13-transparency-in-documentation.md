@@ -15,6 +15,9 @@ podcast_length: 14580735
 bitlink: http://bit.ly/transparencyindocs
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Sample scenario with documentation and transparency

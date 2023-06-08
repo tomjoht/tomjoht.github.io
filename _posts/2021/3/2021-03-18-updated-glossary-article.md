@@ -9,4 +9,7 @@ description: "I revisited the original page on glossaries in my API doc course -
 rebrandly: https://idbwrtng.com/api-glossaries
 ---
 
+* TOC
+{:toc}
+
 {% include ads.html %}

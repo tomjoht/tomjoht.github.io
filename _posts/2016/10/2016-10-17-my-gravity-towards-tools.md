@@ -7,6 +7,9 @@ description: "Tools are an odd problem in tech comm. On the one hand, companies 
 bitlink: http://bit.ly/gravitytowardstools
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 In a quest to make our authoring tools as drop-dead simple as possible, I've been swimming in Jekyll code for the past few days, creating prototypes for a sidebar navigation with a more traditional documentation theme. However, despite the time I'm spending setting up this tool, I know that I shouldn't spend a lot of my tech comm time "tinkering" with tools. Instead, I should focus 95% of my energy on creating great documentation.

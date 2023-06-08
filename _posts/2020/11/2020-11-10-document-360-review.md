@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/document360-apireview
 description: "How does Document360 handle some of the tooling tasks common with API documentation? In this post, I look at some sample API doc sites using Document360 and look at how they handle aspects such as collaboration, GitHub integration, search/findability, versioning, OpenAPI integration, code-syntax highlighting, context-sensitive help, and developer portal architecture."
 ---
 
+* TOC
+{:toc}
+
 *Note: This is a sponsored post.*
 
 ## Introduction

@@ -7,6 +7,9 @@ description: "It's hard to make wikis successful because the wiki platform doesn
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/northbay.png
 ---
 
+* TOC
+{:toc}
+
 ## What went wrong with the wiki model
 
 The other day I had an email exchange with someone about wikis and scenarios where wikis might work well. I haven't talked much about wikis on my blog lately. But a few years ago, when I working in Utah in a community environment with a lot of contributors, I did use Mediawiki for a couple of years. In some ways the wiki worked well, and in other ways it did not.

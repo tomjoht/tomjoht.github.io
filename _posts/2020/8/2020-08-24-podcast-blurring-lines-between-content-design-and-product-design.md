@@ -14,6 +14,9 @@ podcast_duration: "46:20"
 podcast_length: "28470670"
 ---
 
+* TOC
+{:toc}
+
 ## Background
 
 In my series *Reflecting seven years later about why we were laid off*, specifically in [Part IV: Engaging deep enough to blur the lines between content and product design](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-colman-designer-hybrid/), I explored a model promoted by content designer [Jonathon Colman](https://noti.st/jcolman) in which content designers are allocated to one project only. Because of their more specialized focus, these writers play roles that blur the lines between content design and product design.

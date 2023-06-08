@@ -7,6 +7,9 @@ description: "I'm starting a new job at Amazon Lab126 in Sunnyvale, California t
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/amazonlab126screenthumb.png
 ---
 
+* TOC
+{:toc}
+
 Although without a doubt I will miss my colleagues and projects that I worked on at 41st Parameter / Experian, the switch to [Amazon Lab126](http://www.lab126.com/) presents a lot of new opportunities that I'm really excited about. For example, I'll likely be working on documentation for more mainstream commercial products in the public space, which are engineered in the Lab126 location.
 
 <figure><a href="http://www.lab126.com/index.htm"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/amazonlab126screen.png" | prepend: site.baseurl }}" alt="Amazon Lab126" /></a><figcaption></figcaption></figure>

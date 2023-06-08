@@ -11,6 +11,9 @@ series: "Value arguments for docs and tech comm"
 sidebar: sidebar_value_tech_comm
 ---
 
+* TOC
+{:toc}
+
 {% include series/seriesTagValueOfTechComm.html %}
 
 {{site.data.alerts.note}}This is part VII in a seven-part essay. Read the previous section, <a href="/2017/12/28/value-of-tech-comm-in-company-part6">Part VI: Deepening documentation's value by simplifying complexity</a> before starting here. {{site.data.alerts.end}}

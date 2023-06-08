@@ -12,6 +12,9 @@ date: 2018-07-18T20:04:46+00:00
 bio: false
 ---
 
+* TOC
+{:toc}
+
 I am fortunate to have been both a long-time practitioner in the high-tech industry and, now, a long-time instructor. From my viewpoint, the rift between practitioners and academics centers around speed, technology, and adaptability. The academic branch of technical communication does not move quickly, nor is it very comfortable with technology (for the most part).
 
 After working in industry &mdash; where change happens constantly, quickly, and is focused on technology &mdash; the slow pace of academia was jarring and the lack of focus on technology was concerning. To some degree, this plodding pace is simply the nature of academia: it takes time for an issue to be well-researched, written up, and then reviewed and edited for publication. The pace may speed up a bit, but I doubt academia will ever respond as quickly as industry simply because of the nature of the work.

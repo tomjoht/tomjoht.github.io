@@ -1,9 +1,7 @@
 ---
-layout: post
 title: 'The Tell-Tale Project &mdash; Guest Post by Edgar Allan Poe, Technical Writer'
 categories:
 - technical-writing
-
 published: true
 redirect_from:
  - /2013/10/26/guest-post-by-edgar-allen-poe-the-tell-tale-project/
@@ -11,6 +9,10 @@ description: "The following is a guest post by Edgar Allen Poe. Poe completed ma
 author: Edgar Allen Poe
 bitlink: http://bit.ly/edgarallenpoeguestpost
 ---
+
+* TOC
+{:toc}
+
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/edgar-allen-poe.png" style="float: right; padding: 15px;"/>
 
 <h2>The Tell-Tale Project</h2>

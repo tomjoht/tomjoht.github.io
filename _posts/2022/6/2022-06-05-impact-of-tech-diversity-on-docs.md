@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on the <i>impact of diversity/pluralism/fragmentation on documentation</i>."
 ---
 
+* TOC
+{:toc}
+
 ## Casualties of specialization: The loss of big-picture writing
 
 In the [previous post](/trends/embracing-diversity-pluralism-fragmentation.html), I argued that technical diversity is one of the trajectories of technology, but I didn't delve into the specific impact on documentation. That's what I'll tackle in this post.

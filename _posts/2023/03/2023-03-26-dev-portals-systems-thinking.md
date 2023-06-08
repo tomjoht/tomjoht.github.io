@@ -11,6 +11,9 @@ sidebar: sidebar_fizzled_trends
 description: "In this post, I continue the series on systems thinking and tech comm, describing my experience in writing a documentation project plan for a large project involving multiple APIs. I argue that we should look at how APIs interact as a network rather than just documenting each API as a standalone part."
 ---
 
+* TOC
+{:toc}
+
 ## Series recap 
 
 If you’re just joining this series, here’s a brief recap. After an exhaustive review of trends that I've followed and abandoned in my career, I read Kevin Kelly’s _What Technology Wants_ and became persuaded that [ever-increasing complexity, specialization, and diversity](/trends/embracing-diversity-pluralism-fragmentation.html) will lead to a loss of high-level systems views. In other words, people have their heads down building widgets but no one focuses on the whole. If tech writers hope to thrive in a hyper-specialized world, we have to focus on elucidating the big picture, on connecting the dots across multiple products, services, and more as a technology ecosystem. In short, we have to move into systems documentation, not just parts documentation. 

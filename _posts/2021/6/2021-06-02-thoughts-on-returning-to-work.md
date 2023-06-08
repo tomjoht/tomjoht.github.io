@@ -8,6 +8,9 @@ rebrandly: https://idbwrtng.com/back-to-normal
 description: "As the pandemic winds down in the US, I've been trying to get back to normal. I've been especially motivated to find this normal because I made both a job transition and a home relocation during the pandemic, so I don't have the context of what normal even looks and feels like. I can't \"return to my workplace\" because I'd never seen my new workplace. I don't dread the commute because I'd never made the commute (from my new home). Since moving to Renton, which is 30 minutes below Seattle, my experience has mostly been within the walls of our home and the green woods here. So for the past couple of weeks, I've set about experimenting with several ways to return to normal. In doing so, I've been surprised by how much I've forgotten."
 ---
 
+* TOC
+{:toc}
+
 ## Returning to the workplace
 
 My first step in returning to normal was to get acquainted with my new workplace (as much as possible given current limitations). Google has a strong reputation for a fun, creative workplace, and I wanted to get a sense of it. Most employees don't have to return until September, but some offices are open in a limited way, with desk stations that you can book. For the past week or more, I went into the office every day.

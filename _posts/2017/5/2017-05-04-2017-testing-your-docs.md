@@ -9,6 +9,9 @@ bitlink: http://bit.ly/testingyourdocsapi
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/testinginlab.png
 ---
 
+* TOC
+{:toc}
+
 Here are the pages on testing your documentation:
 
 * [Set up a test environment](https://idratherbewriting.com/learnapidoc/testingdocs_test_environment.html)

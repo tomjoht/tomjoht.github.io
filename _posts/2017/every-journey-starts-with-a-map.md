@@ -7,6 +7,9 @@ description: ""
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/
 ---
 
+* TOC
+{:toc}
+
 1 why a map? you start out on a journey. you have a point a and point b path you want to travel.
 2 is this a perfect metaphor? kind of, yes. i think it might be helpful to think of things this way.
 3 diff. between a journey and a map? well, a map is simply a cartography of the land, and as a user you decide on the trail that you'll take to get there. so this idea takes it one step further and lays out the various trails, with descriptions of what each of them contains.

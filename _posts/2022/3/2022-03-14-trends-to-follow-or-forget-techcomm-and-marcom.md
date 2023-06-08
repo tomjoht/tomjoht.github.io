@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on techcomm and marcom."
 ---
 
+* TOC
+{:toc}
+
 ## What is tech comm and marcom?
 
 Tech comm and marcom (marketing communication) refers to using tech comm content with marcom campaigns. The idea is that documentation can be used for more than just product instructions. Documentation can be leveraged as a full-fledged marketing asset, repurposed into white papers and other collateral to give more visibility to a company's products and services. After all, documentation is information rich, keyword dense, and of high value to users. Why not use documentation to help increase awareness and sales of the product? Why not use documentation to [help build relationships with customers](/2016/01/04/content-marketing-to-the-rescue-for-thought-leadership/)?

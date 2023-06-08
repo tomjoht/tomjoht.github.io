@@ -7,6 +7,9 @@ description: "Last week during an internal writers conference at Amazon, Carla J
 bitlink: http://bit.ly/brainstormingbytransposing
 ---
 
+* TOC
+{:toc}
+
 ## The brainstorming technique
 
 The basic idea is that patterns you observe in one category can be transposed to another category to create a new way of seeing that category. It's difficult to explain the technique without an example, so here's what we did in the workshop.

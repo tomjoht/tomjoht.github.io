@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "This post continues an ongoing series about a journey away from smartphones. In this post and the next several posts, I explore the topic of wayfinding. This topic surfaced as I tried driving without using a digital map on my smartphone."
 ---
 
+* TOC
+{:toc}
+
 ## Intro to some posts on wayfinding
 
 Earlier in this [Journey away from smartphones series](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/), as I formulated my strategies for living without the smartphone's essential apps, I wondered how to get by without a mapping application (e.g., Google Maps or Apple Maps) while driving or biking. These apps, which rely on GPS to pinpoint your location on a map and give you turn-by-turn directions to a destination, were supposed to be one of those can't-live-without-it apps.

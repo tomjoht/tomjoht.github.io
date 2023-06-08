@@ -20,6 +20,9 @@ description: "Last Monday we had a record turnout at our STC Silicon Valley chap
 bitlink: http://bit.ly/agilepanelstc
 ---
 
+* TOC
+{:toc}
+
 ## Audio Recording
 
 <div class="audioControls">

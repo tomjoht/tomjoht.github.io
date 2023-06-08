@@ -9,6 +9,9 @@ description: "Last Monday was one of my lowest days of the pandemic. The wildfir
 sidebar: sidebar_pandemic
 ---
 
+* TOC
+{:toc}
+
 And news feeds. All the news seems to only fuel the sense that the world was sliding downhill &mdash; the pandemic, police brutality (do not scan the [publicfreakout subreddit](https://www.reddit.com/r/PublicFreakout/) on a daily basis), polarization of our society, the general unrest and daily protests, the political maelstrom (which will only get worse as the election nears), climate change (from fires to hurricanes on a weekly basis), toxic air (soccer practice canceled again!), coronavirus cases never ending, vaccines always so far off, kids at home all day, political scandal after scandal, and so on.
 
 I don't have to go into detail here, as everyone is experiencing this and worse (really, things could be much worse). I mean, even my favorite comedian, Jim Gaffigan apparently snapped and posted a series of F-bombs on Twitter. When things like that happen, you know everyone is on edge.

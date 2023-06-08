@@ -6,6 +6,9 @@ description: "Apple's new Macbook laptops include a Touch Bar that replaces the 
 bitlink: http://bit.ly/textcalloutstouchbardocs
 ---
 
+* TOC
+{:toc}
+
 ## Checking out the Touch Bar documentation
 
 You can check out the Touch Bar documentation here: [Meet the Touch Bar and Touch ID](https://help.apple.com/macbookprothunderbolt3/late-2016/#/apdea299d0db). In particular, take a look at the first graphic (the keyboard with callouts). In the browser, this image is about 400px. However, if you right-click and open the image in a new tab, you see that the full size is [much larger](https://help.apple.com/macbookprothunderbolt3/late-2016/en.lproj/Art/P0011_MBP4KeyboardTopView.png), about 1600px.

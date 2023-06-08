@@ -8,6 +8,9 @@ bitlink: http://bit.ly/
 published: false
 ---
 
+* TOC
+{:toc}
+
 When I analyze my metrics, I find that posts about trends get a lot of visits. For example, my most popular post in 2017 was my trends post (according to Google Analytics). The most popular Write the Docs podcast was the episode on trends (according to Podtrac). Even though some people roll their eyes when trends discussions arise, it only makes sense to write about what people want to read. So ... recently I wrote a 2018 trends post.
 
 My [2018 tech writing trends](http://bit.ly/techwritingtrends2018) post had about 800 clicks on social media (according to Bitly). This is twice as many social media clicks as even my most popular posts, which often get 400 social media clicks. The total visits to the page also skyrocketed, as you can see from this Google Analytics graph:

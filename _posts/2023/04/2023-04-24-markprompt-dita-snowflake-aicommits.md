@@ -1,6 +1,4 @@
 ---
-#layout: newsletter
-
 title: "Newsletter: Markprompt Q&A, LearningDITA, Snowflake docs, AI Commits"
 permalink: /blog/markprompt-dita-snowflake-aicommits
 date: 2023-04-24
@@ -11,6 +9,9 @@ keywords:
 rebrandly: https://idbwrtng.com/markprompt-dita-snowflake-aicommits
 description: "The latest techcomm news for April 24, 2023."
 ---
+
+* TOC
+{:toc}
 
 ## Markprompt Q&A: interview with founder
 

@@ -7,6 +7,9 @@ description: "Jessica Parsons, a documentation engineer from Netlify, joins us f
 bitlink: http://bit.ly/wtdpodcast_episode19_pointer
 ---
 
+* TOC
+{:toc}
+
 Discussions focus on considerations for choosing a static site generator, and how to manage the content they consume, from APIs to Git-tracked markdown files. Headless CMS options like API-driven Strapi and Git-wrapper Netlify CMS make an appearance.
 
 You can view or listen to the episode on the <a href="http://bit.ly/wtdpodcast19">post on Write the Docs Podcast</a> or watch it below.

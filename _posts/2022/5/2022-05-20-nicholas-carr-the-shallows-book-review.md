@@ -10,6 +10,9 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 ---
 
+* TOC
+{:toc}
+
 ## A genre of anti-technology books
 
 I'm intrigued by the genre of books exploring the psychological effects of technology. Admittedly, most authors begin in a similar way: something is altering their brain/concentration/focus. What's driving the change? Technology &mdash; _the Internet and social media!_ A list of technological indictments is explored, and the watchdog author concludes with a warning about the new technology. This pattern seems to repeat with each new technology, dating as far back as Socrates and his concerns about writing (a new technology at the time).

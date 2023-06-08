@@ -36,6 +36,9 @@ samples:
   img: paligo_slides.png
 ---
 
+* TOC
+{:toc}
+
 *Note: This is a sponsored post.*
 
 ## Introduction

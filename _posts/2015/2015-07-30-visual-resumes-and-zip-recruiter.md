@@ -7,6 +7,9 @@ description: "I've added a Zip Recruiter job feature on my site to help you more
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jobalerts.png
 ---
 
+* TOC
+{:toc}
+
 I've added a Zip Recruiter feature on my site. You can now search for jobs by clicking the **Jobs** button on the top navigation bar. Additionally, you can sign up for job alerts by filling out the form at the bottom of each post.
 
 Here's what's cool about this feature. Not only are the jobs automatically filtered to your area, when you get email updates about the jobs that match your search, the job email notifications will actually come from tomjoht@gmail.com.

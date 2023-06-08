@@ -29,6 +29,9 @@ bitlink: http://bit.ly/
 published: false
 ---
 
+* TOC
+{:toc}
+
 cs1
 - what can you do with json that you can't do with xml? use js to pull it from a web location onto the page.
 - flip side of previous question. render larger docs with it.

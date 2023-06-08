@@ -8,6 +8,9 @@ bitlink: http://bit.ly/pickupballstratsanddocs
 sidebar: sidebar_basketball
 ---
 
+* TOC
+{:toc}
+
 ## Pickup ball versus the NBA
 
 First, by "pickup ball," I mean unorganized basketball that you play at a local gym or park with a group of other people you casually know. In contrast, the "NBA" (National Basketball Association) refers to professional basketball that you see on TV. Although presumably both pickup ball and NBA follow the same rules, actually there are some differences. In pickup ball, you will not get a charge, carry, fouls for pushing while rebounding, defensive three seconds, or three-in-the key. You'll never foul out, nor will the other team get free throws when you foul them. Everyone knows these discrepancies, and it's not really my focus here. What I'd like to highlight are the lesser discussed differences in defensive strategies.

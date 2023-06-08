@@ -19,6 +19,9 @@ podcast_length: 68607356
 bitlink: http://bit.ly/versioncontrolworkflowswritersstc
 ---
 
+* TOC
+{:toc}
+
 ## Video, audio, and slides
 
 Here's the recording of Richard Mateosian's presentation to the STC-Silicon Valley chapter on "Version control, writers, and worfklows." Richard describes the presentation as follows:

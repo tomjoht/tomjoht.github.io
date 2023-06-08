@@ -13,6 +13,9 @@ podcast_length: 19649147
 description: "In this podcast, I talk about how to deal with project overload, specifically covering strategies to manage tasks. Scrum is one framework for dealing with project work by allowing you to limit the work you have before you in a more systematic way. I also explain the importance of focusing on a project to build up flow and momentum, without always context switching."
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 I was reading a post on the [technical writing sub-Reddit](https://www.reddit.com/r/technicalwriting/) community about dealing with project overload and thought it would be a good topic for a podcast. The Reddit post is [In over my head - service docs, user docs, and localization (requesting advice)](https://www.reddit.com/r/technicalwriting/comments/dcjmqt/in_over_my_head_service_docs_user_docs_and/). In part, the topic resonated with me because I'm sort of overloaded myself right now, so I thought it would be good to think through some of these challenges.

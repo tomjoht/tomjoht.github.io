@@ -6,6 +6,9 @@ keywords: swagger, swagger ui, swagger editor, configuration, specification, api
 description: "As I've been configuring the Swagger spec file and UI for one of the APIs I document, I had a few realizations that I wanted to share. Some realizations involve understanding the Model versus Model Schema part of the Swagger UI, the syntax of using JSON references within the spec, how validation works, and more."
 ---
 
+* TOC
+{:toc}
+
 {{site.data.alerts.note}}The <a href="https://github.com/swagger-api/swagger-ui">new version of Swagger UI</a> fixes many of the issues I noted here. For more up-to-date info on Swagger, see the <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html">Swagger introduction</a> and <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger.html">Swagger tutorial</a> that I created in my <a href="https://idratherbewriting.com/learnapidoc/">API documentation course</a>.{{site.data.alerts.end}}
 
 ## Using Swagger

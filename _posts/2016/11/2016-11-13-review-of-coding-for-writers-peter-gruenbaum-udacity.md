@@ -8,6 +8,9 @@ description: "Peter Gruenbaum has a new course on Udemy called Coding for Writer
 bitlink: http://bit.ly/reviewcoding4writers
 ---
 
+* TOC
+{:toc}
+
 ## Coding for Writers
 
 You can take Peter's [Coding for Writers course here](https://www.udemy.com/coding-for-writers-1-basic-programming/?couponCode=IDRATHER) on Udemy with a coupon code **IDRATHER** for a discount. This makes it $29 instead of $45.

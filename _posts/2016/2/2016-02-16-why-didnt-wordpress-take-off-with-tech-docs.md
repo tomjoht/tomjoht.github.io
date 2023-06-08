@@ -7,6 +7,9 @@ description: "Despite the dominance of WordPress as a web publishing platform, w
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/14wpstatsthumb.png
 ---
 
+* TOC
+{:toc}
+
 ## The popularity of WordPress
 Despite the popularity of WordPress as detailed in [14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage), this web CMS still hasn't emerged as a competing help authoring tool in the tech comm industry.
 

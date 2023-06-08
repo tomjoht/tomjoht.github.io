@@ -15,6 +15,9 @@ redirect_from:
 - /2018/01/29/api-workshop-in-denver/
 ---
 
+* TOC
+{:toc}
+
 ## Workshop activities
 
 The activities we followed in the workshop are listed on the [Workshop activities](https://idratherbewriting.com/learnapidoc/workshop-activities.html) page in my [API documentation course](https://idratherbewriting.com/learnapidoc/).

@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on <i>technical diversity/pluralism/fragmentation</i>."
 ---
 
+* TOC
+{:toc}
+
 ## Identifying the larger trend
 
 I started this series ([trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html)) with the original goal of analyzing fizzled trends, to understand why certain trends failed. My approach was an anti-trends focus. However, my initial survey found that no trends truly fizzled but continued on in some form or fashion. Every single one of them! Thus, I pivoted my analysis to look at reasons why _I_ personally decided to abandon certain trends. Trends might not have fizzled across the tech comm industry, but many trends certainly fizzled in my own career. Why?

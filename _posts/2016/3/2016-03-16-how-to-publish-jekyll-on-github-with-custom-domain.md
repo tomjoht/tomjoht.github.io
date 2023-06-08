@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/
 published: false
 ---
 
+* TOC
+{:toc}
+
 ## Put your Jekyll project in a Github repo
 
 1. Create a new Github repo.

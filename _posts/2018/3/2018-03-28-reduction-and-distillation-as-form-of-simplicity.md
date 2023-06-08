@@ -7,6 +7,9 @@ description: "I published a new article on Simplifying Complexity called <a href
 bitlink: http://bit.ly/reductionforsimplicity
 ---
 
+* TOC
+{:toc}
+
 In the previous article on Simplifying Complexity, [Ensuring information harmony in the larger documentation landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html), I argued for the importance of integrating new information into a larger documentation landscape. I explained that it’s easy to create a new article and publish it to a documentation site but much harder to assess whether the new information harmoniously fits in with all the other information on a site (not just harmony with other docs, but with existing forum posts, blog posts, and other information assets). Integrating a small piece of information into a larger body of information requires wide reading and information analysis to determine information fit and harmony.
 
 {% include ads.html %}

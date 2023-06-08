@@ -6,6 +6,9 @@ keywords: git, bitbucket, ccms, collaboration, sharing, content re-use, global p
 description: "Instead of resorting to an expensive Component Content Management System (CCMS) to facilitate content re-use and collaboration across projects, you can probably get by with some basic version control tools that software developers have been using to collaborate on projects for years."
 ---
 
+* TOC
+{:toc}
+
 For most of my technical writing career, although I've often worked with other technical writers, the projects have usually been independent of each other. The other technical writers worked near me but on other projects. We coordinated with styles and tools, but we didn't have to push topics from one project into another.
 
 Now, however, I'm documenting a product whose primary purpose is to be a component integrated into other products at the same company. As a result, a lot of my documentation needs to be integrated into the documentation of other products.

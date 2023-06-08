@@ -8,6 +8,9 @@ description: "The paths I took in life depend in part of the family dynamics of 
 rebrandly: https://idbwrtng.com/lifestory
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 Sometimes I forget that the purpose of a blog is to be a journal of sorts, a web log. In my earlier blogging days, I would pound out an entry in an hour and publish it, whereas now I lean toward more lengthy, thought-out posts. Regardless of length or polish, sometimes I just want to write about everything that's going on and reflect a bit on it. Writing has been a tool for reflection for me, a way to sort out and organize my thoughts, to put onto paper the ideas swimming in my head so that I can see them externally, then agree or disagree with them.

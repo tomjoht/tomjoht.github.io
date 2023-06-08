@@ -12,9 +12,10 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.co
 podcast_file_size: 48.3 MB
 podcast_duration: "01:05:21"
 podcast_length: 48252845
-redirect_from:
-- /2018/01/03/upcoming-wtd-south-bay-publish-api-documentation-presentation/
 ---
+
+* TOC
+{:toc}
 
 ## Slides
 

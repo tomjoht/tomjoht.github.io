@@ -7,6 +7,9 @@ description: "Peter Gruenbaum's third API documentation course is now available 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/peterudemycourse3.png
 ---
 
+* TOC
+{:toc}
+
 [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/) recently published a third course on writing API documentation on Udemy. I reviewed the other two courses in previous posts [here](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/) and [here](https://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/). Peter's third course is called [The Art of API Documentation](https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather).
 
 {% include ads.html %}

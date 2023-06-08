@@ -26,6 +26,9 @@ description: ""
 published: false
 ---
 
+* TOC
+{:toc}
+
 
 http://contentmarketinginstitute.com/what-is-intelligent-content/
 

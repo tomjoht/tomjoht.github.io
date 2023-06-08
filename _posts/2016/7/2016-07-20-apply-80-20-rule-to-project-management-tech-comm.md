@@ -20,6 +20,9 @@ podcast_length: 7755917
 bitlink: http://bit.ly/ferrisfourhourtcprojects
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 I've written previously about the [inefficiency of context-switching](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.

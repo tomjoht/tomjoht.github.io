@@ -6,6 +6,9 @@ keywords: blogging revenue, making money
 description: "Although you can't earn much direct revenue from blogging, writing a professional blog can be brand you as an expert in a specific field. This can open doors for you professionally."
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 >Can I earn a living by writing a blog? How do blog writers make money? I'm an English major exploring my options.

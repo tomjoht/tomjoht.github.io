@@ -10,6 +10,9 @@ sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on \"every page is page one.\""
 ---
 
+* TOC
+{:toc}
+
 ## What is "Every Page Is Page One"?
 
 "Every page is page one" is a philosophy of writing that embraces web-centric behaviors and paradigms for reading. Mark Baker made this mantra popular through his book [*Every Page Is Page One*](http://xmlpress.net/publications/eppo/) (published in 2013) and his accompanying blog by the same name, [everypageispageone.com](https://everypageispageone.com).

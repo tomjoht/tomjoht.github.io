@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "Driving is one way we exercise our freedom. Driving without GPS could be seen as a rejection of the control of technological algorithms over lives."
 ---
 
+* TOC
+{:toc}
+
 *If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/blog/wayfinding-intro/).*
 
 ## Expanded consciousness and other benefits of wayfinding

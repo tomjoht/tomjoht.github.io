@@ -21,6 +21,9 @@ podcast_length: 44184559
 bitlink: http://bit.ly/shapeofmoderntechcommorg
 ---
 
+* TOC
+{:toc}
+
 ## Presentation description
 Here's a description of the presentation:
 

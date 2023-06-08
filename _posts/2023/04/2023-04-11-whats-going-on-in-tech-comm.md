@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.com/tclinksapril12
 description: "The following are a few interesting links related to tech comm I've been reading this week."
 ---
 
+* TOC
+{:toc}
+
 ## How Generative AI Impacts the Techcomm Content Industry: Key Predictions, by Zoomin
 
 Zoomin Software, a company offering a cloud-based doc platform supporting DITA, published a whitepaper describing AI’s anticipated impact on tech comm. Predictions from the white paper are as follows:

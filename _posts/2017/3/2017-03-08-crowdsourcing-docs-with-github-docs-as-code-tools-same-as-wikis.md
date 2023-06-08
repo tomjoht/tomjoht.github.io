@@ -8,6 +8,9 @@ description: "Adding an Edit on GitHub button to my docs didn't have the immedia
 bitlink: http://bit.ly/crowdsourcingdocsascode
 ---
 
+* TOC
+{:toc}
+
 ## Taking the big step
 
 A couple of weeks ago, I thought I was taking a big step forward by putting my docs on Github. I'd already been using an internal Git repo for the past year, so moving from internal Git to external Github posed no major technical challenges. I hoped the Github repo would enable other devs to contribute pull requests on my docs.

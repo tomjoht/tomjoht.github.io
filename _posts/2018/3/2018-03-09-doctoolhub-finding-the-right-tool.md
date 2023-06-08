@@ -7,6 +7,9 @@ description: "Last week I ran across an interesting site called <a href='https:/
 bitlink: http://bit.ly/doctoolhubstory
 ---
 
+* TOC
+{:toc}
+
 <figure><a href="https://doctoolhub.com/"><img style="border: 1px solid #dedede;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doctoolhubscreen.png" alt="DocToolHub"/></a><figcaption>DocToolHub helps you find the right documentation tool for the job.</figcaption></figure>
 
 ## Introduction

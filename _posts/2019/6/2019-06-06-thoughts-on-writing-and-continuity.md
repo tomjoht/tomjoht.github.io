@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/efficiency-context-switching
 description: "When you switch focus from one project to another with higher priority, this context switching can lead to a lot of inefficiencies. However, if you take time to review or work on the de-prioritized projects even just a little each day, then according to the Forgetting Curve, you'll be more likely to retain the needed context. When you do fully switch back to the project, you won't have to start over."
 ---
 
+* TOC
+{:toc}
+
 It's been a while since I've posted &mdash; about two weeks, which is a long time for me. Partly it's because after conference season I felt somewhat burned out from so many presentations, workshops, and conference sessions, along with all the travel that goes with it. But also, it's easy to fall out of the writing habit, and the longer you go without writing, the harder it is to regain momentum.
 
 People always ask me, "How do you find the time to blog so much?" and during my two weeks of not writing, that question kept resounding in my head, but directed in a different way &mdash; *Why can't I seem to find the time to write?* I used to find the time, but now that time seems so much more elusive.

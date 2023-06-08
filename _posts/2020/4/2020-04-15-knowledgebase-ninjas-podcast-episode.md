@@ -9,6 +9,9 @@ rebrandly: https://idratherbewriting.site/kbninjasmetrics
 description: "I recently appeared on the <a href='https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/'>Knowledgebase Ninjas podcast</a> in an episode titled <i>Metrics Don't Work</i>. In the podcast, I chat with Gowri Ramkumar about documentation processes, why metrics are problematic, advantages and disadvantages of docs-as-code models, why measuring doc traffic falls short, the value of internal documentation, people I've learned from in my career, advice for my younger self, and more."
 ---
 
+* TOC
+{:toc}
+
 ## Episode details
 
 You can view the episode details on [Doc360 podcast site](https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/):

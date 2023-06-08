@@ -18,6 +18,9 @@ podcast_length: 27289440
 bitlink: http://bit.ly/movefastandocthings
 ---
 
+* TOC
+{:toc}
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mMr16fzjY7M" frameborder="0" allowfullscreen></iframe>
 
 (The title is a play on Facebook's old slogan, "Move fast and break things.")

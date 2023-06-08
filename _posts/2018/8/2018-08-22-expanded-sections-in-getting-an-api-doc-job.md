@@ -7,6 +7,9 @@ description: "I recently expanded the <a href='/learnapidoc/jobapis.html'>Gettin
 bitlink: http://bit.ly/apidocjobsectionexpansion
 ---
 
+* TOC
+{:toc}
+
 To read the three topics in "Getting a Job in API documentation," see the following:
 
 * [The job market for API technical writers](/learnapidoc/jobapis_overview.html) - An explanation about why tech writers need programming knowledge even though REST APIs are language agnostic.

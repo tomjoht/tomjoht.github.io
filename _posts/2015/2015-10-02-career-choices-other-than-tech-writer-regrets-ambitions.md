@@ -6,6 +6,9 @@ keywords:
 description: "My alternative to doing technical writing would be to do web design. I'd also like to use my creative talents to finish an API documentation course, among other efforts."
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 > If you weren't a technical writer, what would you be? Also, is there anything you'd still like to accomplish and experience professionally?

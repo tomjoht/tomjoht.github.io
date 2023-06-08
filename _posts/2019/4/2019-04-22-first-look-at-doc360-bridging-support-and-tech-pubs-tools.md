@@ -8,6 +8,9 @@ bitlink: https://document360.com/?ref=idratherbewritingprodreviewirbw
 description: "<a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> is a new authoring and publishing tool that spans the needs of both support teams creating KB content and technical writers creating documentation. Document360 provides a good balance of features that will satisfy both audiences. Launched in July 2017, Document360 is already growing rapidly with a robust customer base. In this post, I'll show screenshots related to many of these features and talk about the need to bridge the gap between KB and tech doc content."
 ---
 
+* TOC
+{:toc}
+
 *Note: Document360 is one of my site sponsors.*
 
 ## Bridging the gap

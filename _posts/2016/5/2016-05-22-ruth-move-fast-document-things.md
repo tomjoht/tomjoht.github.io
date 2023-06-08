@@ -8,6 +8,9 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/writet
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ruthiemovefastanddocwtd.mp3
 ---
 
+* TOC
+{:toc}
+
 At the meetup, [Ruthie Bendor](https://twitter.com/unruthless), a web engineer, gave a presentation titled "Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup":
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mMr16fzjY7M" frameborder="0" allowfullscreen></iframe>

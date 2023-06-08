@@ -10,6 +10,9 @@ sidebar: sidebar_smartphones
 description: "The DMN and TPN areas of the brain perform different functions. The DMN is active during brooding, rumination, and other imaginative thought. The TPN is active when you're focused on tasks. Understanding these different networks can help us understand why our attention can sometimes shift its focus."
 ---
 
+* TOC
+{:toc}
+
 ## Context recap in this series
 
 In a recent post in this series, [How to move from focus sessions to flow sessions](https://idratherbewriting.com/blog/from-focus-sessions-to-flow/), I summarized Csikszentmihalyi's book on [*Flow*](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202) and explored how to enter this state. However, I was dissatisfied about the assumptions Csikszentmihalyi makes about "psychic entropy" being the natural state of the mind, and I wanted to understand the reasons why. Psychic entropy (Csikszentmihalyi's term) is more commonly known as "monkey mind," but in my post [From monkey mind to calm, ordered consciousness &mdash; even outside of flow? Wrestling with Csikszentmihalyi's assumptions about psychic entropy](https://idratherbewriting.com/blog/from-monkey-mind-to-calm-consciousness/), I didn't uncover any special reason for our default monkey mind other than speculating that our random Internet surfing behavior (or similar behavior with surfing TV) might teach the brain similar chaotic patterns to follow. In contrast, reading books seemed to encourage a more linear, sequential, and mellow brainwaves. 

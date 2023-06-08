@@ -13,6 +13,9 @@ podcast_duration: "56:22"
 podcast_length: 50027689
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Journal article we discuss

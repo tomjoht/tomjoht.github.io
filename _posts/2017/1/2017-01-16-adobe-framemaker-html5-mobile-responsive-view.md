@@ -10,6 +10,9 @@ redirect_from:
   - /2017/01/16/adobe-framemaker-continues-to-top-charts/
 ---
 
+* TOC
+{:toc}
+
 ## Responsive HTML5 output
 
 FrameMaker is already well-known as an excellent print publishing tool, but what about its ability to publish web help, especially **responsive** HTML5 output? (You can actually publish ePub and Kindle with FrameMaker too, but in this post, I want to focus exclusively on responsive output.)

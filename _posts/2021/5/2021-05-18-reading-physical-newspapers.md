@@ -9,6 +9,9 @@ description: "Lately I've been trying trying something that I call <i>life exper
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newspaperthumbphysical.png
 ---
 
+* TOC
+{:toc}
+
 ## The experiment
 
 I recently started an experiment of reading print newspapers. I took up a paper subscription for the New York Times, having it delivered on my driveway in a little plastic bag each day. With my wife's academic discount, this print subscription works out to $40/month, which (even at half off) is not a price I'm used to paying for news. I also canceled my Seattle Times digital subscription and turned off all news alerts delivered to my email, as I try to streamline my news sources.

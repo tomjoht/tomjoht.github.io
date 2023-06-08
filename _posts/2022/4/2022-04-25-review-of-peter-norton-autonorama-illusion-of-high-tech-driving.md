@@ -10,6 +10,9 @@ series: "Mobility posts"
 sidebar: sidebar_mobility
 ---
 
+* TOC
+{:toc}
+
 ## What's the book's main argument?
 
 Norton says carmakers promote an ideal of "zero crashes, zero emissions, and zero congestion" through more advanced cars (145). In contrast, Norton argues that AVs won't solve traffic congestion or make driving safe; additionally, the pursuit of AVs distracts (and actually hurts) other more practical solutions for mobility. "Our most essential mobility needs can be better met with tools we already have," Norton says (21).

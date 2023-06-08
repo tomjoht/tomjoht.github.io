@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/docsascoderecommends
 description: "A reader asks for my recommended docs-as-code tooling setup. I said probably Hugo with Docsy and Netlify, or maybe a solution like Readthedocs.com or Readme.com."
 ---
 
+* TOC
+{:toc}
+
 A reader asks,
 
 > If I had to set up an infrastructure (Docs-as-Code, Git, Jekyll?. etc) is there a workflow or Udemy course you'd recommend?

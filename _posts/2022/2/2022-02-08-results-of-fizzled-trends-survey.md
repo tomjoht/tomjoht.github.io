@@ -12,6 +12,9 @@ series: "Trends to follow or forget"
 sidebar: sidebar_fizzled_trends
 ---
 
+* TOC
+{:toc}
+
 ## Dashboard of results
 
 Here's the [dashboard of results](https://www.questionpro.com/t/7BnU7DZq7kM) from 300+ respondents:

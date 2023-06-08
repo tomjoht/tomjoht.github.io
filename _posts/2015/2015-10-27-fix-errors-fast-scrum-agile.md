@@ -6,6 +6,9 @@ keywords:
 description: "If you want to influence developers to make changes to code (such as with UI text), it's 24 times easier for developers to make the changes if you tell them the same day they code the feature than if you wait a few weeks later. This means technical writers should keep pace with the features coded during each sprint."
 ---
 
+* TOC
+{:toc}
+
 <img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scrum.png" | prepend: site.baseurl }}" alt="Scrum, by Jeff Sutherland" />
 [Scrum: The Art of Doing Twice the Work in Half the Time](http://www.audible.com/pd/Business/Scrum-Audiobook/B00NJ3WS9G/ref=a_search_c4_1_1_srTtl?qid=1445953702&sr=1-1) is one of the best books I've listened to in a long time. Although I've worked in agile environments for the last decade, I don't think I fully understood the way agile is supposed to work until listening to this book.
 

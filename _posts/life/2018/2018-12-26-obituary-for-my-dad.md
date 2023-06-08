@@ -8,6 +8,9 @@ rebrandly: https://idratherbewriting.site/
 description: "My father passed away on Dec 26, 2018, due to stomach cancer. He was 84 years old. The following is the obituary I wrote."
 ---
 
+* TOC
+{:toc}
+
 David Tait Johnson, age 84, passed away on December 26, 2018, in St. Petersburg, Florida, after a short battle with cancer. He was born in San Diego on July 26, 1935, to Mildred Odessa Tait and Henry Edgar Johnson.
 
 David was their second son. After growing up in San Diego, he joined the Air Force and served as a pilot. After his time in the military, he studied English literature at San Diego State and then pursued a Ph.D. in the same at the University of Washington. He settled in Washington for his career.

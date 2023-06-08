@@ -7,6 +7,9 @@ description: "With the beginning of the <a href='https://www.stc.org/wiki/electi
 bitlink: http://bit.ly/stcpambrewervpcandidate
 ---
 
+* TOC
+{:toc}
+
 ## In 3-5 sentences, can you describe who you are, what you do, and why are you running?
 
 <figure style="float: right; padding: 0px 20px;"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pambrewer.jpg"><figcaption>Pam Brewer, candidate for STC Vice President</figcaption></figure>

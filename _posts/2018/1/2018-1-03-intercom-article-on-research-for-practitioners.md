@@ -7,6 +7,9 @@ description: "I published an article in the most recent issue of STC's Intercom 
 bitlink: http://bit.ly/stcintercomresearcharticle
 ---
 
+* TOC
+{:toc}
+
 If you're an STC member, you can read the article on the STC Intercom site here: [How to Research What You Need to Learn to Be Successful as a Technical Writer
 ](https://www.stc.org/intercom/2017/12/how-to-research-what-you-need-to-learn-to-be-successful-as-a-technical-writer/).
 

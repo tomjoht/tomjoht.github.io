@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/fullstacktechwriterdebate
 description: "A reader asks whether he should be focusing not only on writing good developer docs but also building out doc portals and marketing material &mdash; in other words, being more of a 'full-stack' technical writer. This question taps into the dilemma between being a specialist or generalist."
 ---
 
+* TOC
+{:toc}
+
 A reader recently asked,
 
 > In a recent job interview, in addition to creating API documentation and other technical content, the company wanted me to put together the documentation portal (to resemble Twilio's), write white papers, and work on marketing collateral. I felt my strong suit was in the technical side of reading code and writing about APIs and user guide type documentation. Was I wrong to specialize in documentation only? Should I also be expanding my focus on doc portal tooling and marketing collateral to stay marketable?

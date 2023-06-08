@@ -8,6 +8,9 @@ bitlink: https://idratherbewriting.site/tablesjekyll
 description: "Jekyll lets you separate out your data from your presentation layer. You can store your data in a YAML file and then populate the data into templates as desired, passing parameters into includes. In this post, I describe my process for creating tables where I might re-use the same definitions in various places in the docs."
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 I was recently working on defining a lot of response definitions for an API project. Normally I would prefer [OpenAPI](/learnapidoc/pubapis_swagger_intro.html) for defining these fields, but this API doesn't actually have endpoints exposed to the user; it just has extensive JSON inputs and outputs.

@@ -8,6 +8,9 @@ bitlink: http://bit.ly/madcapcentralreview
 date: 2017-01-16 17:00:00
 ---
 
+* TOC
+{:toc}
+
 Here’s an introductory video with more details:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lqa2LqOGYIE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>

@@ -13,6 +13,9 @@ podcast_duration: "01:02:10"
 podcast_length: 66047185
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 You can read the essay here: [Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html).

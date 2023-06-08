@@ -13,6 +13,9 @@ podcast_duration: "1:08"
 podcast_length: 990138
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 You can learn more about the API documentation workshop on [eventbright here](https://www.eventbrite.com/e/documenting-rest-apis-a-jumpstart-workshop-for-technical-writers-tickets-49216045517). The workshop will be held from 8am to 5pm at the Quadrus Conference Center.

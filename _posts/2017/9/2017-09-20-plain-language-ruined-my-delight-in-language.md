@@ -14,6 +14,9 @@ podcast_duration: "18:07"
 podcast_length: 4347754
 ---
 
+* TOC
+{:toc}
+
 {% include audio.html %}
 
 ## Simple versus complex language
