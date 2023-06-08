@@ -13,8 +13,6 @@ description: "I recently tried a new approach to my newsletter: summarizing news
 * TOC
 {:toc}
 
-* TOC
-{:toc}
 
 For most of my blog’s history, my newsletter has contained links to my own blog’s articles. With this approach, I could only send out about one newsletter every two weeks, depending on how prolific I was on my blog. I usually included one substantial article per newsletter.
 
