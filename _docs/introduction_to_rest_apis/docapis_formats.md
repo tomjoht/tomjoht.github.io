@@ -10,7 +10,7 @@ last-modified: 2023-05-28
 ---
 
 
-In addition to reading on the web, you can also can read this content in PDF. These pages were last generated on {{page.last-modified}}.
+In addition to reading on the web, you can also can read this content in PDF. The date the pages were last generated appears in the header of the PDF. 
 
 <ul class="pdfList">
 <li><a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis_one.pdf"><i class="fa fa-file-pdf-o"></i>I: Introduction to REST APIs</a></li>

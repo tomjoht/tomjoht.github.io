@@ -20,11 +20,12 @@ folders:
   - title: Workshop video recordings
     jurl: /learnapidoc/docapis_course_videos.html
 
-  - title: PDF and eBook formats
+  - title: Download PDFs
     jurl: /learnapidoc/docapis_formats.html
 
   - title: Workshop agenda, slides, activities
     jurl: /learnapidoc/workshop.html
+    type: web
 
   - title: Why I developed this course
     jurl: /learnapidoc/docapis_foreword.html

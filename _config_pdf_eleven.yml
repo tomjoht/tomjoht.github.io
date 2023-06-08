@@ -1,13 +1,14 @@
+scope: individual
 section: eleven
 title: Documenting REST APIs
 subtitle: "XI: Thriving in the API doc space"
-media: /Users/tomjoht/projects/learnapidoc/images
+api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_image: images/ebook_cover.png
 
 sidebar: docapis
-baseurl: /Users/tomjoht/projects/learnapidoc/_site
+baseurl: /Users/tomjoht/projects/idratherbewriting/_site
 
 language: english
 format: print
@@ -29,6 +30,20 @@ kramdown:
 collections:
   docs:
     output: true
+  restapicourse:
+    output: false
+  publishingapidocs:
+    output: false
+  voiceovertechniques:
+    output: false
+  visualcommunication:
+    output: false
+  podcasts:
+    output: false
+  youngadultnovel:
+    output: false
+  user_centered_doc:
+    output: false
 
 sass:
     style: compressed
