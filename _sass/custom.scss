@@ -104,7 +104,8 @@ span.muted {
 /* this part adds an icon after external links, using FontAwesome */
 
 a[href^="http://"]:not([href*="idratherbewriting.com"]):after,
-a[href^="https://"]:not([href*="idratherbewriting.com"]):after {
+a[href^="https://"]:not([href*="idratherbewriting.com"]):after,
+a[href^="https://"]:not([href*="s3.us-west-1.wasabisys.com"]):after {
   content: "\f08e";
   font-family: FontAwesome;
   font-weight: normal;
@@ -123,15 +124,8 @@ a[data="github"]:after {
   padding-left: 5px;
 }
 
-a[href^="http://"]:not([href*="https://s3.us-west-1.wasabisys.com/idbwmedia.com"]) img,
-a[href^="https://"]:not([href*="https://s3.us-west-1.wasabisys.com/idbwmedia.com"]) img {
-  content: "\f08e";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 3px;
+a[href*="s3.us-west-1.wasabisys.com"]:after {
+  content: "" !important;
 }
 
 /*
@@ -140,7 +134,7 @@ a[href*="idratherbewriting.com"]:after {
 }
 */
 
-a[href].noCrossRef::after, a[href].noExtIcon::after, pre a::after, pre.highlight a::after, pre.highlight code a::after, pre code a.vglnk::after, a.no_icon:after, a[href] img
+a[href].noCrossRef::after, a[href].noExtIcon::after, pre a::after, pre.highlight a::after, pre.highlight code a::after, pre code a.vglnk::after, a.no_icon:after, a[href] img::after
  {
   content: "" !important;
   padding-left: 0;
