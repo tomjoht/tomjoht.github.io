@@ -597,7 +597,7 @@ ul#markdown-toc::before, #toc>ul::before  {
   font-size:18px;
   padding-top:30px;
   margin: 20px 0px 20px -30px;
-  content: "Table of Contents";
+  content: "Contents";
 }
 
 ul#markdown-toc a, #toc>ul a {
@@ -610,7 +610,7 @@ ul#markdown-toc li ul, #toc>ul li ul {
 /* end mini toc */
 
 ul#markdown-toc::before, #toc>ul::before  {
-content: "Table of Contents"
+content: "Contents"
 }
 
 .navbar-form {
