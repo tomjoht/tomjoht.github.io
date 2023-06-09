@@ -4,7 +4,6 @@ categories:
 - api-doc
 - podcasts
 keywords: bob watson, api usability, reference docs, design, performance, relevance, usability, testing, mythbusting
-tags: [series_testing_documentation]
 series: Testing your documentation
 sidebar: sidebar_testing_documentation
 weight: 1.6

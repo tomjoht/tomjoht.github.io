@@ -122,14 +122,25 @@ a[data="github"]:after {
   text-decoration: none;
   padding-left: 5px;
 }
+
+a[href^="http://"]:not([href*="https://s3.us-west-1.wasabisys.com/idbwmedia.com"]) img,
+a[href^="https://"]:not([href*="https://s3.us-west-1.wasabisys.com/idbwmedia.com"]) img {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
+
 /*
 a[href*="idratherbewriting.com"]:after {
   content: "" !important;
 }
 */
 
-a[href].noCrossRef::after, a[href].noExtIcon::after, pre a::after, pre.highlight a::after, pre.highlight code a::after, pre code a.vglnk::after,
-a.no_icon:after
+a[href].noCrossRef::after, a[href].noExtIcon::after, pre a::after, pre.highlight a::after, pre.highlight code a::after, pre code a.vglnk::after, a.no_icon:after, a[href] img
  {
   content: "" !important;
   padding-left: 0;
