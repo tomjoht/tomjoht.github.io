@@ -11,6 +11,9 @@ tags:
 - tutorials
 - wordpress screencasts
 ---
+
+{% include toc.html %}
+
 <p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/nHxD3W6BOQw&amp;hl=en_US&amp;fs=1;hd=1" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="https://www.youtube.com/v/nHxD3W6BOQw&amp;hl=en_US&amp;fs=1;hd=1" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
 
 Before WordPress 3.0, one of the frustrations with WordPress was configuring the navigation menu when you wanted to combine pages, categories, and URLs. The new navigation system in WordPress 3.0 solves this problem, because it allows you to create a menu by dragging and dropping almost any type of link. But just upgrading WordPress to 3.0 won't automatically give you the new navigation system. You have to modify your theme with the new navigation template tags. I'll walk you through this in this tutorial.

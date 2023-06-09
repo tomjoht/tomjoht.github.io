@@ -14,6 +14,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>This comprehensive post by Justin Tadlock, <a href="http://justintadlock.com/archives/2010/06/01/goodbye-headaches-hello-menus">Goodbye,  headaches. Hello, menus!</a>, covers the new menu system in WordPress 3.0 in depth. I've been using the new menu system on some WordPress 3.0 sites, and I have to say it looks like one of the best new features in 3.0. You can drag and drop categories, pages, and external URLs directly onto a navigation bar.</p>
 <p>As an example, I upgraded the navigation on <a href="http://intermountain-stc.org">intermountain-stc.org</a> to 3.0.  It combines static pages, such as About and Contact, with categories, such as Blog, Jobs, and Events. The menu links are generated dynamically rather than coded statically, which allows you to make custom styles for the active link. Previously, about the only way to do this was by creating page templates and then inserting post code (the loop) in them, which always screwed up the next/previous navigation for me.</p>
 <p>With 3.0, you can make as many navigation bars as you want, and place them wherever you want. For example, you can make a side menu that differs from the main menu, and you can add that to your sidebar. Add this new navigation with the <a href="http://wordpress.org/extend/plugins/widget-logic/">Widget Logic plugin</a>, and you can easily conditionalize the appearance of that side navigation so that it only appears on certain pages, categories, or posts.</p>

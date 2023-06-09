@@ -14,6 +14,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>After my post on <a href="https://idratherbewriting.com/2013/03/16/how-to-organize-page-level-content/">Organizing Page-Level Content</a>, a couple of people asked me about the usability of collapsible sections, also known as content toggles or dropdown hotspots. These are sections that are collapsed upon initial display and then expand when clicked.</p>
 <p>You can implement collapsible sections in several ways. In Flare, you can insert drop-down hotspots from a quick button on the ribbon. In Drupal, you can use the <a href="http://drupal.org/project/collapse_text">Collapse Text module</a>. In Wordpress, you can use the <a href="http://wordpress.org/extend/plugins/jquery-collapse-o-matic/">Collapse-O-Matic plugin</a>. The theme I'm using (Canvas from woothemes) has collapsible sections built directly in.</p>
 <p>You can also code the sections directly using <a href="http://api.jquery.com/toggle/">jQuery through the Toggle method</a>. For example, if you wanted to toggle a section with the ID "section" so it appeared in an expand/collapse state, you would insert a reference to the jQuery library in script tags, and then insert another script like this:</p>

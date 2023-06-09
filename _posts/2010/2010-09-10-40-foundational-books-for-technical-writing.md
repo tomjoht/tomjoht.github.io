@@ -15,6 +15,10 @@ status: publish
 
 published: true
 ---
+
+* TOC
+{:toc}
+
 I received the following question from a reader:
 
 > I have semi-transitioned to a new position at my job where I'm responsible for creating and maintaining documentation for our systems, programs, policies, etc. I was selected for the position because I have written many tutorials for our applications to be read by new employees. Since I have no formal education in writing (I love to write, but I majored in accounting with a masters in information technology), I'd like to learn the basics of it. Can you recommend any books (I live in the US) which provide a decent foundation into the field of technical writing?

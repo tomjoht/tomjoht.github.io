@@ -15,6 +15,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p><i>For an updated post on this topic, see <a href="https://idratherbewriting.com/2014/01/05/ditas-output-does-not-require-separation-of-tasks-from-concepts/">DITA's output does not require you to separate tasks from concepts</a>.</i></p>
 <p>I'm currently exploring the possibility of authoring content in DITA (using a tool such as easyDITA), publishing to an HTML web help output (through the DITA Open Toolkit), and then importing the output into Drupal (through some Python scripts someone has created).</p>
 <p>This sounds like a good workflow to me, but I've kind of run into a little problem. I want to nest some tasks into larger topics rather than having the tasks stand alone as their own TOC entries. Reason being, if every task has to stand alone in the TOC, I'll end up with a TOC that looks unnecessarily long and intimidating to users.</p>

@@ -14,6 +14,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>Context-sensitive help in Madcap Flare is pretty easy to set up – you just follow the steps in Flare's <a href="http://www.madcapsoftware.com/support/webhelp/flare/Content/CSH/About_Context_Sensitive_Help.htm">context-sensitive help</a> instructions. However, there's a usability problem that you must work around for the context-sensitive help to be successful.</p>
 <p>Let me explain. When the user clicks a context-sensitive help link, a help window appears, as it should. But suppose the user doesn't close the help window, but instead clicks back to the application. The help window minimizes. Now the user then clicks another context-sensitive help link. The new help topic loads in the existing help window, sure enough, <em>but that help window remains minimized.</em> The minimized help window doesn't automatically come to focus on top. As a result, the user thinks the help link is broken.</p>
 <p>Fortunately, the solution is simple. </p>

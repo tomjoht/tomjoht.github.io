@@ -7,9 +7,11 @@ categories:
 - api-doc
 tags: []
 status: publish
-
 published: true
 ---
+
+{% include toc.html %}
+
 <p>I've written a lot about documenting APIs, but what if your documentation itself could function as an API? By this I mean, what if you could give developers an endpoint through which they could retrieve different parts of your documentation? This setup would work well for context-sensitive help within an application.</p>
 <p>I stumbled across a cool Jekyll plugin called <a href="https://github.com/18F/jekyll_pages_api">Jekyll Pages API</a> that actually allows you to do this. The plugin creates a JSON file containing your site's pages and posts. From this JSON file, developers can make calls for specific data.</p>
 <p>Here's an example. I uploaded a vanilla Jekyll site here: <a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/docasapi/" target="_blank">docasapi</a>.</p>

@@ -14,8 +14,7 @@ redirect_from:
   - /2007/04/09/twenty-usability-tips-for-your-blog-%E2%80%94-condensed-from-dozens-of-bloggers-experiences/
 ---
 
-* TOC
-{:toc}
+{% include toc.html %}
 
 ## 1. Pick a topic for your blog
 

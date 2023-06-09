@@ -12,6 +12,8 @@ weight: 1.8
 ---
 {% include series/seriesTagDITAJourney.html %}
 
+{% include toc.html %}
+
 <p>After my last post on <a href="https://idratherbewriting.com/2014/06/24/strategies-for-content-re-use-in-confluence/">content re-use strategies with Confluence</a>, I realized that while you can do re-use with Confluence, you have to rely on so many third-party plugins, the whole solution tends to feel cobbled together with string and glue. While I initially thought Confluence would simplify authoring and allow me to focus more on content,  the primitive re-use capabilities actually make help authoring more tedious and time consuming.</p>
 <p>The real deal-killer with Confluence is managing access control. The paradigm is that all content is on one site, grouped into different spaces. If you only want certain groups to see certain content, you have to individually manage their access to those spaces (and each logged-in user counts against your licensing costs). That's a lot of individual user management. If you make the site anonymous and create several sites (one for each product), you can't reuse the same content easily across the different sites.</p>
 <p>Because of these issues, I've ditched Confluence and am hoping to officially adopt an XML solution using <a href="http://www.oxygenxml.com/">OxygenXML</a> as the editor. I'm still working on the proof of concept, but it looks promising. XML allows you to re-use content in easier ways. Content re-use with DITA is much more robust, precise, and just works.</p>

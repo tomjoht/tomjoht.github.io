@@ -13,6 +13,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>I've been researching how to translate screencasts. Here's one problem to overcome: Even if you use youtube's caption system, if you embed the translated videos on a web page, will users have to select both their language and captions? Normally, we want the video to display these automatically if we're embedding the video a page that we have translated.</p>
 <p>It turns out that by adding some parameters from the <a href="http://code.google.com/apis/youtube/player_parameters.html">Youtube Embedded Player Parameters Reference</a>, you can set the language for the video as well as force-display the captions.</p>
 <p>Here's an example. (I just chose this video because it happens to be translated into about a dozen languages, not because of the content.)</p>

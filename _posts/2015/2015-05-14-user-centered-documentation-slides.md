@@ -12,6 +12,8 @@ weight: 1.3
 ---
 {% include series/seriesTagUserCenteredDocumentation.html %}
 
+{% include toc.html %}
+
 <p>This is a post in my on-going <a href="https://idratherbewriting.com/series/user-centered-documentation/">series on user-centered documentation</a>.</p>
 <p>I usually write a series of posts, and then create a slide presentation summarizing my insights at the end. Then I usually give the presentation at some venue.</p>
 <p>Well, I didn't have time to write out the posts before giving the presentation this time, so I actually have the slides already prepared. You can view the user-centered documentation slides here.</p>

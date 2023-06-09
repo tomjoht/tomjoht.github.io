@@ -9,6 +9,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>If you write developer documentation, you know that developers prefer code samples to narrative instruction. The beauty of code samples is that they provide context at a glance. You can see where variables should be declared, functions called, objects initialized, and so forth — all by just looking at the code. Trying to describe the same content narratively just doesn't connect with users.</p>
 <p>The problem is, you can only pepper the code with brief 1-2 line comments as instruction to users. These short signposts might be fine for advanced users, but for those times when you need more instruction, code comments fail. You can't add 4 paragraphs of instruction inside a code block without completely derailing the developer's ability to see and take in the code.</p>
 <p>One workaround is to chop the code into different pieces and separate each piece with extended narration. This model gives you more space to expand with needed instruction, but you lose out on the context. Users can no longer see where everything is supposed to appear in context with each other. </p>

@@ -427,7 +427,7 @@ nav#toc2 ul {
 /* mini toc styles end */
 
 /* mini toc kramdown */
-ul#markdown-toc {
+ul#markdown-toc, #toc>ul {
   border: 1px solid #dedede;
   border-radius: 5px;
   max-width: 400px;
@@ -437,7 +437,7 @@ ul#markdown-toc {
   padding-right: 7px;
 }
 
-ul#markdown-toc::before  {
+ul#markdown-toc::before, #toc>ul::before  {
   font-size:18px;
   padding-top:30px;
   margin: 20px 0px 20px -30px;
@@ -580,7 +580,7 @@ margin: 20px 0px 20px -30px;
 }
 
 /* minitoc kramdown */
-ul#markdown-toc {
+ul#markdown-toc, #toc>ul {
   border: 1px solid #dedede;
   border-radius: 5px;
   max-width: 400px;
@@ -593,23 +593,23 @@ ul#markdown-toc {
   background-color: #f7f7f7;
 }
 
-ul#markdown-toc::before  {
+ul#markdown-toc::before, #toc>ul::before  {
   font-size:18px;
   padding-top:30px;
   margin: 20px 0px 20px -30px;
   content: "Table of Contents";
 }
 
-ul#markdown-toc a {
+ul#markdown-toc a, #toc>ul a {
     text-decoration: none;
 }
 
-ul#markdown-toc li ul {
+ul#markdown-toc li ul, #toc>ul li ul {
     color: gray;
 }
 /* end mini toc */
 
-ul#markdown-toc::before  {
+ul#markdown-toc::before, #toc>ul::before  {
 content: "Table of Contents"
 }
 

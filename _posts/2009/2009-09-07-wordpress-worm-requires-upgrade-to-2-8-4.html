@@ -10,6 +10,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>I woke up from my long Sunday nap to see all kinds of commotion about upgrading WordPress to 2.8.4 due to a worm that is currently circulating. The <a href="http://wordpress.org/development/2009/09/keep-wordpress-secure/" target="_blank">WordPress blog reports</a>:</p>
 <blockquote><p>Right now there is a worm making its way around old, unpatched versions of WordPress. This particular worm, like many before it, is clever: it registers a user, uses a security bug (fixed earlier in the year) to allow evaluated code to be executed through the permalink structure, makes itself an admin, then uses JavaScript to hide itself when you look at users page, attempts to clean up after itself, then goes quiet so you never notice while it inserts hidden spam and malware into your old posts.</p></blockquote>
 <p>Upgrading to 2.8.4 is pretty easy and won't take more than 5 minutes. Here's the process I recommend: </p>

@@ -6,9 +6,11 @@ categories:
 - jekyll
 tags: []
 status: publish
-
 published: true
 ---
+
+{% include toc.html %}
+
 <p>I've been exploring different ways to create a table of contents (TOC). Traditionally, user guides have a long TOC in the left column of each page. This works all right when you have about 50 pages, but when you scale up the doc set to 500 pages, the TOC becomes a bulky, unusable mess.</p>
 <p>For an example of the mess I'm talking about, see this <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=siteforce_overview.htm">TOC in Salesforce's documentation</a>. An all-encompassing TOC model like this essentially repeats the initial <a href="https://business.yahoo.com/">Yahoo directory of the web</a>, when Yahoo tried to provide an organized hierarchical table of contents for everything. Why present so many TOC options that aren't remotely related to what I'm currently viewing?</p>
 <p>A better model for a TOC is to show only links relevant to a <em>narrowed scope</em>. (I explored some of these ideas in an <a href="https://idratherbewriting.com/2013/12/16/seo-duplicate-content-and-single-sourcing/">earlier post here</a>.)</p>

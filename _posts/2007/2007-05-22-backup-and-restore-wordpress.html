@@ -11,6 +11,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>I spent a fun evening wrangling with WordPress 2.2. I attribute most of the trouble to the wp-cache plugin, because I kept receiving this exciting error:</p>
 <blockquote><p>Warning: fopen(/home/idrathe1/public_html/wp-content/cache/wp_cache_mutex.lock) [function.fopen]: failed to open stream: No such file or directory in /home/idrathe1/public_html/wp-content/plugins/wp-cache/wp-cache-phase2.php on line 96</p></blockquote>
 <p>I've never had a problem with a mutex.lock!</p>

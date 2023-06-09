@@ -17,6 +17,9 @@ status: publish
 
 published: true
 ---
+
+{% include toc.html %}
+
 <p>I helped another person whose WordPress site was hacked this weekend. I've noticed a trend about sites that get hacked. Most of the people installed their WordPress blog either long ago, before the right security phrases were included in the wp-config.php file, or they installed WordPress through an auto-installer that didn't insert the right security phrases.</p>
 <p>The wp-config.php file is the key file that contains your database name and password. It's the file that makes the WordPress files talk with your MySQL database, where all your posts and pages are stored. wp-config.php has also been upgraded with stronger security phrases over the past couple of years.</p>
 <p>If you have a self-hosted WordPress site, FTP into your root directory and download the wp-config.php file. Then download the latest copy of WordPress from <a href="http://wordpress.org" target="_blank">WordPress.org</a> and compare the wp-config-sample.php file in the WordPress download with your version of wp-config.php. After the database, username, and password details, there should be a section of security phrases that looks as follows: </p>

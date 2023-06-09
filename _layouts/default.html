@@ -185,7 +185,9 @@
             <!-- main area -->
             <div class="col-xs-12 col-sm-9 main">
               {% include search_results.html %}
-              <div id="content">
+             
+
+ <div id="content">
 {% if page.collection == "docs" %}
                 {% include breadcrumb.html %}
 {% endif %}
@@ -262,8 +264,9 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 <!-- Bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
-<script src="{{ "/assets/js/toc.js" }}"></script>
 <script type="text/javascript" src="/assets/js/pas-nc-embedded-v1.js"></script>
+<!-- for TOC for posts in html pre 2016-->
+<script src="{{ "/assets/js/toc.js" }}"></script>
 <script>
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
