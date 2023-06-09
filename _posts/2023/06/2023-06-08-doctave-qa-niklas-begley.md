@@ -7,7 +7,7 @@ categories:
 - AI
 keywords: 
 rebrandly: https://idbwrtng.com/doctave-qa-niklas-begley
-description: "<a href='https://www.doctave.com'>Doctave</a> is a new docs-as-code SaaS documentation platform built on Rust. In this post, I ask co-founder Niklas Begley more questions about the origin behind the platform, differentiating features, approaches to common problems, and more."
+description: "<a href='https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq'>Doctave</a> is a new docs-as-code SaaS documentation platform built on Rust. In this post, I ask co-founder Niklas Begley more questions about the origin behind the platform, differentiating features, approaches to common problems, and more."
 ---
 
 * TOC
@@ -17,7 +17,7 @@ description: "<a href='https://www.doctave.com'>Doctave</a> is a new docs-as-cod
 
 <h3> [Tom] Most products have an origin story. What’s the story behind Doctave? </h3>
 
-[Niklas] All three co-founders of [Doctave](https://www.doctave.com/) had previously been responsible for writing and maintaining documentation: public developer docs, knowledge bases, and support help centers. We appreciate how hard it is to produce good quality docs, and the positive impact great docs can have on users.
+[Niklas] All three co-founders of [Doctave](https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq) had previously been responsible for writing and maintaining documentation: public developer docs, knowledge bases, and support help centers. We appreciate how hard it is to produce good quality docs, and the positive impact great docs can have on users.
 
 But our experience was also a mix of frustration around workflows and ease-of-use. Many WYSIWYG were clumsy, or never got buy-in from the engineering team, since they required developers to step out of their normal workflows in order to make contributions. On the other hand, when engineers proposed solutions, aspects such as command line tooling alienated non-technical contributors.
 
@@ -25,7 +25,7 @@ On top of that, while setting up a basic documentation site can be done with ope
 
 That’s where the idea for Doctave came. We built the tool we would have wanted to use.
 
-<a href="https://www.doctave.com" class="noCrossRef" ><img style="max-width: 600px" src="{{site.media}}/doctavescreenshot.png" alt="Doctave: docs-as-code documentation platform" /></a>
+<a href="https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq" class="noCrossRef" ><img style="max-width: 600px" src="{{site.media}}/doctavescreenshot.png" alt="Doctave: docs-as-code documentation platform" /></a>
 
 <h3> [Tom] There are many tech comm tools available, especially within the developer docs landscape. What sets Doctave apart from others? </h3>
 
@@ -113,4 +113,8 @@ We were using Confluence for all our internal documentation. Since it was the de
 
 I even ended up writing a custom generator that would spit out custom API references in Confluence’s wiki markup language to make my life a bit easier. But keeping multiple versions live required duplicating lots of pages and ended up turning into a bit of a mess.
 
-If we’d had [Doctave](https://doctave.com) then, things would have been much simpler!
+If we’d had Doctave then, things would have been much simpler!
+
+<hr/>
+
+*Learn more about [Doctave](https://doctave.com?utm_source=idratherbewriting&utm_campaign=faq).*
