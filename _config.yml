@@ -187,9 +187,9 @@ algolia:
 eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV
 
 ####### jekyll seo tag configuration #######
-title: Documenting APIs
-tagline: A guide for technical writers and engineers learning how to document APIs
-description: Online course about creating API documentation, mostly focusing on REST APIs but covering strategies for developer documentation in general. Includes sections on what an API is, API reference documentation, OpenAPI specification and Swagger, docs-as-code publishing and workflows, conceptual topics, tutorials, API documentation jobs, and more.
+title: "I'd Rather Be Writing Blog and API doc course"
+tagline: "Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication."
+description: "Stay updated with best practices for technical writers. Includes an API documentation course for technical writers and engineers learning how to document APIs. The course includes sections on what an API is, API reference documentation, OpenAPI specification and Swagger, docs-as-code publishing and workflows, conceptual topics, tutorials, API documentation jobs, and more."
 url: https://idratherbewriting.com
 author:
   twitter: tomjohnson
