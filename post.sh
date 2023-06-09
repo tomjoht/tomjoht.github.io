@@ -30,8 +30,31 @@ title: "$TITLE"
 permalink: /blog/$SLUG
 date: $DATE
 categories:
+- academics-and-practitioners
+- api-doc
+- beginners
+- biking
+- blogging
+- book-reviews
+- creativity
+- dita
+- family
+- findability
 - technical-writing
-- AI
+- innovation
+- jekyll
+- jobs
+- podcasts
+- quick-reference-guides
+- screencasting
+- simplifying-complexity
+- user-centered-documentation
+- video
+- visual-communication
+- web-design
+- wikis
+- wordpress
+- writing
 keywords: 
 rebrandly: https://idbwrtng.com/$SLUG
 description: ""
