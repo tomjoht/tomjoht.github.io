@@ -83,7 +83,7 @@ Another benefit is the feedback we can provide to writers. The desktop app is co
 
 We are mainly targeting organizations that produce high quality technical documentation for their users. Often they have a mix of technical writers, developers, and other contributors in charge of documentation, and we try to cater to all of them.
 
-<h3> [Tom] I liked the humility in [your post on how AI is changing documentation](https://www.doctave.com/blog/how-ai-is-changing-documentation). Are you incorporating AI tools into the Doctave platform to compete with other authoring environments that are bringing in similar AI features? Do you have plans to include an AI chatbot in the Doctave output for readers? </h3>
+<h3> [Tom] I liked the humility in <a href="https://www.doctave.com/blog/how-ai-is-changing-documentation">your post on how AI is changing documentation</a>. Are you incorporating AI tools into the Doctave platform to compete with other authoring environments that are bringing in similar AI features? Do you have plans to include an AI chatbot in the Doctave output for readers? </h3>
 
 [Niklas] The AI landscape has completely changed in the last 6 months or so. That post you reference was our attempt to condense our thoughts from seeing all these changes and experimenting ourselves. Still, when discussing anything AI related it's still important to stay humble and remember that things may change dramatically even in a matter of weeks.
 
@@ -113,4 +113,4 @@ We were using Confluence for all our internal documentation. Since it was the de
 
 I even ended up writing a custom generator that would spit out custom API references in Confluence’s wiki markup language to make my life a bit easier. But keeping multiple versions live required duplicating lots of pages and ended up turning into a bit of a mess.
 
-If we’d had Doctave then, things would have been much simpler!
+If we’d had [Doctave](https://doctave.com) then, things would have been much simpler!
