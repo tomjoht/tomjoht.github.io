@@ -102,7 +102,7 @@ Despite the vicious cycle, I didn't want to kill the effort, having just sent on
 
 ## New idea: a book club
 
-While the newsletter idea struggled to survive, I had another idea brewing in the back of my mind. About six months ago, I started participating in a "Read a book a week" challenge at work. I'd become concerned that my reading had waned and I suspected the distraction of smartphones was a contributing factor, so I started a series that involved experimenting with techniques to regain my long-form focus. (See [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/).)
+While the newsletter idea struggled to survive, I had another idea brewing in the back of my mind. About six months ago, I started participating in a "Read a book a week" challenge at work. I'd become concerned that my reading had waned and I suspected the distraction of smartphones was a contributing factor, so I started a series that involved experimenting with techniques to regain my long-form focus. (See [My awakening moment about how smartphones fragment our attention span](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html).)
 
 Among the books I started reading, I included a few books related to the auto and transport industry, such as books on autonomous driving, Tesla, the history of the automotive industry, and more. I work on documentation for geo-related automotive products, so this niche fit my work focus. To my surprise, I found the books really interesting, so I started reading more of them. In reading these auto-related books, I started to understand the big picture for the products I was documenting. 
 

@@ -104,7 +104,7 @@ Without any incoming information through reading, we continue operating on our e
 
 Experimenting with new techniques, tactics, tools, and processes can be a way to expose you to new ideas as well. The experiments might change previous assumptions or lead you to new epiphanies or other insights. 
 
-When I did my [smartphone experiment](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) and gave up my smartphone for a time, it led to many new ideas and feelings. Another experiment, [moving from WordPress to Jekyll](/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), and then [adopting docs-as-code tools](/2018/07/03/docs-as-code-after-three-years/) for documentation, likewise led to many new realizations and ideas. 
+When I did my [smartphone experiment](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html) and gave up my smartphone for a time, it led to many new ideas and feelings. Another experiment, [moving from WordPress to Jekyll](/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), and then [adopting docs-as-code tools](/2018/07/03/docs-as-code-after-three-years/) for documentation, likewise led to many new realizations and ideas. 
 
 In this post, I'm experimenting with a new tool for creating images: [Midjourney](https://midjourney.com). Using this art AI tool led me to question some techno-skeptic ideas that I'd recently been following, and I started to believe that maybe anything is possible with tech. Perhaps I just wasn't patient enough.
 
@@ -166,7 +166,7 @@ Why does taking risks keep us young? Think of the analogy to company innovation.
 Our careers operate in the same way. It's easier to make small improvements, but sometimes the disruptive innovations in our lives can yield large improvements. For example, my [API doc course](/learnapidoc/) was a tremendous success from many points of view (workshops, advertising, feedback from others). But at the start of this year, as I [reflected on the previous year](/blog/seattle-one-year-later#whats-next--rekindling-more-blogging-energy), I realized I wanted to double down on some writing projects and techniques that I've been thinking about for years. I want to write essays following a common theme, and connect those essays together into published books. The time required to do this, however, would mean less time devoted to my API doc site maintaining and improving the content there. I decided to take the risk of devoting 2022 to seeing these projects through. I have three series I'm working on: 
 
 * [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html)
-* [Journey away from smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)
+* [Journey away from smartphones](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html)
 * [A hypothesis about influence on the web and the workplace](/web-and-workplace-influence/part1-introduction-to-influencers.html)
 
 It's now August and I'm hoping to bring at least one of the series to completion by the year's end. I'll dig back into my API course a bit later in the year, probably.
@@ -213,7 +213,7 @@ Proactivity extends beyond just discovering the doc work, of course. When you ta
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_distractions.png" alt="person distracted by social media and smartphones office realistic buzz notification sounds" /><figcaption>person distracted by social media and smartphones office realistic buzz notification sounds</figcaption></figure>
 
-Social media, from Slack to Twitter, Reddit, Youtube, and more, makes us feel connected and in step with the latest information and trends. But with that sense of connection comes the risk of attention fragmentation and constant distraction. My entire [series on smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into deep focus modes that allow for sustained productivity. 
+Social media, from Slack to Twitter, Reddit, Youtube, and more, makes us feel connected and in step with the latest information and trends. But with that sense of connection comes the risk of attention fragmentation and constant distraction. My entire [series on smartphones](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into deep focus modes that allow for sustained productivity. 
 
 Without sustained focus, you'll be unlikely to make much progress against projects. You might find that you're constantly interacting in chat, email, social media, and other channels all day, feeling busy, but not making much progress on projects.
 

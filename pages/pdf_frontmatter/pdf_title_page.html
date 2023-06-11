@@ -1,6 +1,6 @@
 ---
 type: title
-permalink: learnapidoc/pdf_title_page.html
+permalink: pdf_title_page.html
 progress: false
 class: title
 excerpt: title page
@@ -10,7 +10,7 @@ last-modified: 2023-05-29
 <div class="printTitleArea">
   {% if site.cover == true %}
     <div class="printTitleImage">
-        <img src="{{site.cover_image}}" alt="Documenting REST APIs: A guide for technical writers"/>
+        <img src="{{site.cover_image}}" alt="{{site.title}}"/>
         </div>
     {% else %}
     <div class="printTitle">{{site.title}}</div>
@@ -18,8 +18,8 @@ last-modified: 2023-05-29
 
 <hr />
 <div style="height: 400px"></div>
-    <div class="printByline">Tom Johnson<br/>
-    idratherbewriting.com/learnapidoc</div>
+    <div class="printByline">{{site.author}}<br/>
+    {{site.url_tagline}}</div>
     <div class="printAttribution">{{site.attribution}}</div>
     <div class="printSubparagraph">{{site.subparagraph}}</div>
     {% endif %}

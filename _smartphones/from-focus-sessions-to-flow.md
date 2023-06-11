@@ -1,15 +1,15 @@
 ---
 title: "How to move from focus sessions to flow sessions"
-permalink: /blog/from-focus-sessions-to-flow/
+permalink: /smartphones/from-focus-sessions-to-flow.html
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/fromfocustoflow
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
-description: "In this post, I describe my experience in trying to complete several ninety-minute focus sessions a day. While they allowed me to make a lot of progress, they reduced some of the fun from writing. This post is part of my ongoing series <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention/'>Journey away from smartphones</a>."
+description: "In this post, I describe my experience in trying to complete several ninety-minute focus sessions a day. While they allowed me to make a lot of progress, they reduced some of the fun from writing. This post is part of my ongoing series <a href='/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html'>Journey away from smartphones</a>."
 redirect_from:
-- /blog/from-focus-sessions-to-flow.html
+- /blog/from-focus-sessions-to-flow/
 ---
 
 * TOC
@@ -17,7 +17,7 @@ redirect_from:
 
 ## Recap of the Eudaimonia machine 
 
-In the previous post in this series, I described some [techniques for deep work from Cal Newport](/blog/newport-deep-work/). Although he provided a variety of techniques, they all boiled down to essentially setting aside time to focus in prolonged ways on hard problems. 
+In the previous post in this series, I described some [techniques for deep work from Cal Newport](/smartphones/newport-deep-work.html). Although he provided a variety of techniques, they all boiled down to essentially setting aside time to focus in prolonged ways on hard problems. 
 
 Among the techniques described, what stood out most to me was Newport's summary of David Dewane and his Eudaimonia machine. The "machine" is an architectural design based on rooms that provide increasingly isolated chambers for deep work. Newport explains:
 
@@ -91,7 +91,7 @@ In other words, the allure of television stems from our desire for mental focus 
 
 And if we haven't trained our minds to retain focus, as soon as the TV goes off, our psychic entropy starts expanding in different directions as we shift from topic to topic in fickle, random ways.
 
-I like Csikszentmihalyi's ideas around flow because they don't criminalize social media and scapegoat it as the cause of our fragmented attention. Remember, Csikszentmihalyi is writing prior to the Internet and social media. He doesn't point the finger at Facebook or the constant notifications on our smartphones as the culprit for our inability to focus (as [Johann Hari does in *Stolen Focus*](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)). Instead, he argues that the fundamental nature of our brains is more or less scattered, fragmented, and chaotic &mdash; a state of entropy. That's why we turn to distraction &mdash; to find some mental order.
+I like Csikszentmihalyi's ideas around flow because they don't criminalize social media and scapegoat it as the cause of our fragmented attention. Remember, Csikszentmihalyi is writing prior to the Internet and social media. He doesn't point the finger at Facebook or the constant notifications on our smartphones as the culprit for our inability to focus (as [Johann Hari does in *Stolen Focus*](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html)). Instead, he argues that the fundamental nature of our brains is more or less scattered, fragmented, and chaotic &mdash; a state of entropy. That's why we turn to distraction &mdash; to find some mental order.
 
 ## Overcoming psychic entropy 
 
@@ -111,7 +111,7 @@ In fact, Csikszentmihalyi says that if you develop a capacity to direct your own
 
 > When a person has learned a symbolic system well enough to use it, she has established a portable, self-contained world within the mind.... Without the capacity to provide its own information, the mind drifts into randomness. It is within each person's power to decide whether its order will be restored from the outside, in ways over which we have no control, or whether the order will be the result of an internal pattern that grows organically from our skills and knowledge. (127-28)
 
-In a previous post in this series, [From smartphones to Netflix: moving past plateaus in growth](/blog/limits-of-growth-shifting-burdens/), I observed that after abandoning my smartphone, it didn't take long before I simply moved on to Netflix instead. And I searched to uncover the underlying cause about why I needed distraction in the first place. Csikszentmihalyi's psychology of flow offers a potential reason: my mind sought for "consciousness ordered" (127).
+In a previous post in this series, [From smartphones to Netflix: moving past plateaus in growth](/smartphones/limits-of-growth-shifting-burdens.html), I observed that after abandoning my smartphone, it didn't take long before I simply moved on to Netflix instead. And I searched to uncover the underlying cause about why I needed distraction in the first place. Csikszentmihalyi's psychology of flow offers a potential reason: my mind sought for "consciousness ordered" (127).
 
 In the next post, I'll dive more into Csikszentmihalyi's ideas about how to enter the conditions for flow. My ultimate goal is to learn how to convert my "focus" sessions into "flow" sessions.
 

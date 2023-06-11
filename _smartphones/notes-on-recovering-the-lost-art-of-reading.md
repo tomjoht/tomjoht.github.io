@@ -1,13 +1,15 @@
 ---
 title: "Random notes on recovering the lost art of reading"
-permalink: /blog/notes-on-recovering-the-lost-art-of-reading/
+permalink: /smartphones/notes-on-recovering-the-lost-art-of-reading.html
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/notes-on-reading
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
-description: "The single greatest outcome from my <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention/'>basic phone experiment</a> has been to rekindle interest and enjoyment in reading books. Long-form reading is an activity that I'd sort of forgotten, and even though I've reverted to my smartphone, the experiment has taught me to love reading again. In picking up reading books again, I realized that I have many questions about reading, actually. This post is a random list of questions, observations, and other reading-related topics about reading books. I'm sure there's no single way to read, and one strategy might fit another person and scenario more than others."
+description: "The single greatest outcome from my <a href='/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html'>basic phone experiment</a> has been to rekindle interest and enjoyment in reading books. Long-form reading is an activity that I'd sort of forgotten, and even though I've reverted to my smartphone, the experiment has taught me to love reading again. In picking up reading books again, I realized that I have many questions about reading, actually. This post is a random list of questions, observations, and other reading-related topics about reading books. I'm sure there's no single way to read, and one strategy might fit another person and scenario more than others."
+redirect_from:
+- /blog/notes-on-recovering-the-lost-art-of-reading/
 ---
 
 * TOC
@@ -17,7 +19,7 @@ description: "The single greatest outcome from my <a href='/blog/awakening-momen
 
 When I began the "Book a Week" challenge at my work, I read a page of tips that said to accrue a pile of books that you plan to read over the year ahead of time. Otherwise, when you finish one book, you might lose your reading momentum for the next one. Also, ordering a hardcover or paperback through the mail might take a couple of weeks to arrive. Now I find that I have two shelves: one with books I've read (the top), another with books to read (the bottom):
 
-<figure><img style="max-width: 500px" src="{{site.media}}images/books_read_and_to_read3.jpg" alt="Queuing up books to read (bottom shelf)" /><figcaption>Queuing up books to read (bottom shelf)</figcaption></figure>
+<figure><img style="max-width: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/books_read_and_to_read3.jpg" alt="Queuing up books to read (bottom shelf)" /><figcaption>Queuing up books to read (bottom shelf)</figcaption></figure>
 
 The problem is that my interests evolve from book to book. I started out reading with a question about how technology affects our attention span and focus, and I also read books related to the auto industry and driving. But sometimes a book ignites or prompts other questions, which then shift my thinking and interests. For example, I'm not so eager to know how tech impacts our brains now. I feel like I've read enough to answer that question (with _Shallows_, _Stolen Focus_, _Digital Minimalism_). I still have a few books queued up on that topic, but I doubt I'll get to _Hooked_ and _Irresistible_. Now I'm more interested in quasi-philosophical topics, though I'm not sure exactly what.
 
@@ -31,7 +33,7 @@ Some books on my "To Read" shelf are the print versions of audiobooks that I imm
 
 I could always return or resell books that I no longer want, or the ones that turn out to be duds, but there's a problem there. I like to write notes in the margins of all the books I read. For example:
 
-<figure><img style="max-width: 700px" src="{{site.media}}images/annotated_page4.jpg" alt="How I annotate pages in books" /><figcaption>How I annotate pages in books</figcaption></figure>
+<figure><img style="max-width: 700px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/annotated_page4.jpg" alt="How I annotate pages in books" /><figcaption>How I annotate pages in books</figcaption></figure>
 
 Sometimes my notes are high-level summaries of the author's main point in that section, which maybe just crystallized in my head. I also note the passages and paragraphs I like. Sometimes I underline the passages, but mostly I just bracket them and put a checkmark in the margins. If it's a passage I really connect with, I draw a star. Multiple stars if I really like it.
 
@@ -99,7 +101,7 @@ In many of the books (particularly the man-versus-machine-themed books), Google 
 
 Years of being a technical writer taught me to prefer simple, easily understood words. As a result, I've let my vocabulary stagnate. I note unfamiliar or interesting words on a bookmark as I'm reading, along with other random notes:
 
-<figure><img style="max-width: 400px" src="{{site.media}}images/bookmark_and_vocab2.jpg" alt="Writing down interesting or unfamiliar words and other notes" /><figcaption>Writing down interesting or unfamiliar words and other notes</figcaption></figure>
+<figure><img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bookmark_and_vocab2.jpg" alt="Writing down interesting or unfamiliar words and other notes" /><figcaption>Writing down interesting or unfamiliar words and other notes</figcaption></figure>
 
 Then eventually, as I grow tired of reading, I'll take an hour or so to look them up. Lately, I've decided that if I can pair the definition with a picture I find on the internet (from image search), the chances of the word sticking in my mind increases tenfold. Looking for supporting images is fun, and I do think this picture-definition technique might be much more effective than pictureless definitions.
 
@@ -167,4 +169,4 @@ Sorry if you felt subjected to a random compilation of figurative post-it notes 
 
 ## Next post
 
-Continue to the next post in this series: [Wayfinding -- finding my way without GPS](/blog/wayfinding-intro/).
+Continue to the next post in this series: [Wayfinding -- finding my way without GPS](/smartphones/wayfinding-intro.html).

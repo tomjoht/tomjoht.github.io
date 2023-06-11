@@ -1,13 +1,15 @@
 ---
 title: "My initial rules and reasons for intentional smartphone use"
-permalink: /blog/my-international-rules-for-smartphone-use/
+permalink: /smartphones/my-international-rules-for-smartphone-use.html
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/rulesforsmartphoneuse
-description: "In my last post, I described my <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention'>awakening about how my smartphone had fragmented my attention span</a>, and I explained my goal to recapture my long-form concentration. This post builds on the previous to explore more specifics about intentional smartphone use."
+description: "In my last post, I described my <a href='/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html'>awakening about how my smartphone had fragmented my attention span</a>, and I explained my goal to recapture my long-form concentration. This post builds on the previous to explore more specifics about intentional smartphone use."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/my-international-rules-for-smartphone-use/
 ---
 
 * TOC
@@ -138,4 +140,4 @@ Newport, Cal. _[Digital Minimalism: Choosing a focused life in a noisy world](ht
 
 ## Next post
 
-Continue on to the next post in this series: [First experiences in moving away from smartphones](/blog/first-experiences-moving-away-from-smartphones/).
+Continue on to the next post in this series: [First experiences in moving away from smartphones](/smartphones/first-experiences-moving-away-from-smartphones.html).

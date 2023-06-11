@@ -1,6 +1,6 @@
 ---
 title: "More developments on my journey away from smartphones &mdash; a sudden interest in classical music?"
-permalink: /blog/sudden-interest-in-classical-music/
+permalink: /smartphones/sudden-interest-in-classical-music.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/suddenlyclassicalmusic
 description: "It's been 2-3 weeks now without my smartphone, and I wanted to jot down a few notes on how it's going. This entry is more like an informal journal log about what I'm observing."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/sudden-interest-in-classical-music/
 ---
 
 * TOC
@@ -17,9 +19,9 @@ sidebar: sidebar_smartphones
 
 If you're new to this series, see these previous posts:
 
-* [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)
-* [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/)
-* [First experiences in moving away from smartphones](/blog/first-experiences-moving-away-from-smartphones/)
+* [My awakening moment about how smartphones fragment our attention span](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html)
+* [My initial rules and reasons for intentional smart phone use](/smartphones/my-international-rules-for-smartphone-use.html)
+* [First experiences in moving away from smartphones](/smartphones/first-experiences-moving-away-from-smartphones.html)
 
 ## A sudden interest in classical music
 
@@ -55,7 +57,7 @@ I also hoped that I would have a lot more energy in the evenings, but so far, I 
 
 I do find that driving is much more enjoyable without a mapping application. It feels good to have a sense of where I'm going without constantly looking at an electronic map (always rotating with the changing direction of the car) out of the corner of my eye. There's a lot of information a map imparts, not just the next direction but the larger context of the roadscape.
 
-Reliance on the map takes some joy out of driving. Of course, so does being completely lost, but like I mentioned in an [earlier post](/blog/my-international-rules-for-smartphone-use/#dont-rely-on-mapping-applications-for-directions), it's okay to get lost sometimes. Getting lost (when you're not late for a meeting) can be fun. (Even without using a mapping app, I've yet to actually get lost, dang it!)
+Reliance on the map takes some joy out of driving. Of course, so does being completely lost, but like I mentioned in an [earlier post](/smartphones/my-international-rules-for-smartphone-use.html#dont-rely-on-mapping-applications-for-directions), it's okay to get lost sometimes. Getting lost (when you're not late for a meeting) can be fun. (Even without using a mapping app, I've yet to actually get lost, dang it!)
 
 I mentioned that I've purchased several paper maps. I sometimes unfold them fully on a small desk or lay them on the floor and just stare at them for long periods of time, as if I'm seeing the city for the first time. Paper maps give you the big picture, allowing you to see more of the area as a whole. It's an interesting perspective that you don't get when just looking at an electronic map zoomed in to your immediate surroundings. As a comparison, it's the difference between watching a sporting event live, which allows you to see the whole field or court at a time and how the players occupy the space, versus watching the same game on TV, which zooms in to one part of the field or court, showing you only the ball's location and involved players.
 
@@ -117,4 +119,4 @@ Overall, life is better without a smartphone. How much better? So far, quite a b
 
 ## Next post 
 
-Continue on to the next post in this series: [One month in without a smartphone — growing doubts about the value of technology in general](/blog/one-month-in-without-a-smartphone/).
+Continue on to the next post in this series: [One month in without a smartphone — growing doubts about the value of technology in general](/smartphones/one-month-in-without-a-smartphone.html).

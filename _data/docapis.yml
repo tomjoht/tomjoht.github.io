@@ -1,6 +1,7 @@
 sidebartitle: Documenting APIs
 folders:
 
+- title: "PDF frontmatter"
 - title: "I: Introduction to REST APIs"
   landing: /learnapidoc/docapis_introtoapis.html
   section: one

@@ -1,6 +1,6 @@
 ---
 title: "One month in without a smartphone -- growing doubts about the value of technology in general"
-permalink: /blog/one-month-in-without-a-smartphone/
+permalink: /smartphones/one-month-in-without-a-smartphone.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/onemonthin
 description: "It's been about a month since I moved away from smartphones. In this entry, I explain the distaste I've developed for screens, my rediscovery of photography, and more."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/one-month-in-without-a-smartphone/
 ---
 
 * TOC
@@ -17,10 +19,10 @@ sidebar: sidebar_smartphones
 
 For those of you just catching up on this series, which documents my journey away from smartphones, see the previous posts for more context. Earlier posts explain my rationale and goals. Read these to get caught up:
 
-* [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)
-* [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/)
-* [First experiences in moving away from smartphones](/blog/first-experiences-moving-away-from-smartphones/)
-* [More developments on my journey away from smartphones — a sudden interest in classical music?](/blog/sudden-interest-in-classical-music/)
+* [My awakening moment about how smartphones fragment our attention span](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html)
+* [My initial rules and reasons for intentional smart phone use](/smartphones/my-international-rules-for-smartphone-use.html)
+* [First experiences in moving away from smartphones](/smartphones/first-experiences-moving-away-from-smartphones.html)
+* [More developments on my journey away from smartphones — a sudden interest in classical music?](/smartphones/sudden-interest-in-classical-music.html)
 
 ## Books, printing things out
 
@@ -170,4 +172,4 @@ Wilmer, Henry H., Lauren E. Sherman, and Jason M. Chein. "[Smartphones and cogni
 
 ## Next post
 
-Continue on to the next post in this series: [Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr](/blog/nicholas-carr-the-shallows-book-review/).
+Continue on to the next post in this series: [Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr](/smartphones/nicholas-carr-the-shallows-book-review.html).

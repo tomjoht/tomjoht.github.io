@@ -1,6 +1,6 @@
 ---
 title: "First experiences in moving away from smartphones"
-permalink: /blog/first-experiences-moving-away-from-smartphones/
+permalink: /smartphones/first-experiences-moving-away-from-smartphones.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/experienceswithoutsmartphone
 description: "In this post, I describe my first two weeks living without a smartphone in my pocket. I got a flip phone and figured out how to get the functionality I needed (e.g., an Audible app, texting), how to use the phone again, and more."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/first-experiences-moving-away-from-smartphones/
 ---
 
 * TOC
@@ -15,8 +17,8 @@ sidebar: sidebar_smartphones
 
 If you're just coming into this series, see these two posts first:
 
-* [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)
-* [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/)
+* [My awakening moment about how smartphones fragment our attention span](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention/)
+* [My initial rules and reasons for intentional smart phone use](/smartphones/my-international-rules-for-smartphone-use/)
 
 ## Getting a basic phone
 
@@ -48,7 +50,7 @@ You might be asking, what's the point of installing apps on a flip phone? I thou
 
 ## Single-function devices
 
-The Kyocera has both a camera and alarm clock, but as per my [smartphone rules use](/blog/my-international-rules-for-smartphone-use/), I didn't want my phone on my nightstand acting as an alarm clock. The Kyocera's camera is okay, but if I'm capturing photos for the future, I'd prefer something higher quality. So I also ordered some single-function devices.
+The Kyocera has both a camera and alarm clock, but as per my [smartphone rules use](/smartphones/my-international-rules-for-smartphone-use.html), I didn't want my phone on my nightstand acting as an alarm clock. The Kyocera's camera is okay, but if I'm capturing photos for the future, I'd prefer something higher quality. So I also ordered some single-function devices.
 
 I'm still waiting for my point-and-shoot camera to arrive. For the alarm clock, I could not resist getting a 1980s GE electric alarm clock, just like the one I had growing up. It works great!
 
@@ -90,11 +92,11 @@ Overall, the switch to the basic phone has been novel and fun. I consider it an 
 
 I do think that hitting Do Not Disturb on a smartphone and leaving it in a bag all day (rather than a pocket) would likely achieve a highly similar result (as long as I have the willpower to enforce it). I've also found that blocking Reddit through [Freedom](https://freedom.to) does help pre-commit me to not relapse at 9pm at night when my brain is tired and I'm ready to just decompress/escape/relax.
 
-In my [smartphone rules use](/blog/my-international-rules-for-smartphone-use/), I also mentioned that I've mostly stopped reading the news. This has been a game changer as well. I *think* the Ukraine war is still going on, since gas prices haven't changed much. :) Seriously, my hypothesis about finding more mental/physical energy in the evenings by reducing the amount of incoming information the brain has to sort/file/manage throughout the day seems to be working. And I am sleeping better. But there could be a number of causes at work, and it's too early to tell.
+In my [smartphone rules use](/smartphones/my-international-rules-for-smartphone-use.html), I also mentioned that I've mostly stopped reading the news. This has been a game changer as well. I *think* the Ukraine war is still going on, since gas prices haven't changed much. :) Seriously, my hypothesis about finding more mental/physical energy in the evenings by reducing the amount of incoming information the brain has to sort/file/manage throughout the day seems to be working. And I am sleeping better. But there could be a number of causes at work, and it's too early to tell.
 
 The larger question will be whether all the inconvenience of moving away from smartphones outweighs the benefits. So far, the answer seems to be yes. But just like credit cards have now become table stakes for living in modern society, smartphones are too. I went to an Ol Reign soccer game last week with my kids, and found that the tickets were "mobile only" tickets that I had to add to my iOS or Android wallet. Literally, it wasn't not possible to print the ticket out. But beyond a few random scenarios (banking apps, Circle app), which can easily be remedied through an old tablet or iPod-like device, I'm able to get along just fine. I do feel more present and capable of listening.
 
-One other realization. I think Johann Hari's alarmist writing about our fragmented attention span in [*Stolen Focus*](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511) may have been over-inflated. I seem to be mostly back to my old self (the college self I reminisced about in [my awakening post](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)) after a month. The Internet didn't permanently rewire my brain. I think we can easily teach our brain habits and patterns within a short period of time.
+One other realization. I think Johann Hari's alarmist writing about our fragmented attention span in [*Stolen Focus*](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511) may have been over-inflated. I seem to be mostly back to my old self (the college self I reminisced about in [my awakening post](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html)) after a month. The Internet didn't permanently rewire my brain. I think we can easily teach our brain habits and patterns within a short period of time.
 
 For example, if you start posting on Twitter, within a few days, your brain starts coming up with quippy little nuggets to post. A 160-character thought will naturally form in the back of your mind, and you'll be like, what a clever thing I can post on Twitter!  
 
@@ -106,4 +108,4 @@ What I want to achieve long-term, however, is *optimal Tom*. I'm convinced that 
 
 ## Next post
 
-Continue on to the next post in this series: [More developments on my journey away from smartphones — a sudden interest in classical music?](/blog/sudden-interest-in-classical-music/)
+Continue on to the next post in this series: [More developments on my journey away from smartphones — a sudden interest in classical music?](/smartphones/sudden-interest-in-classical-music.html)

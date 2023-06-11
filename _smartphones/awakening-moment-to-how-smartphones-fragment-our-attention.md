@@ -1,6 +1,6 @@
 ---
 title: "My awakening moment about how smartphones fragment our attention span"
-permalink: /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+permalink: /smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/smartphoneawakening
 description: "I recently realized that absorbing the constant inflow of information from my smartphone, always readily available in my pocket to capture any free moment of attention, had fragmented my attention span."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/awakening-moment-to-how-smartphones-fragment-our-attention.html
 ---
 
 * TOC
@@ -165,7 +167,7 @@ And given that I read or listened to four books in the span of about two weeks, 
 
 I'm still in the awakening phase, but I'm excited about the initial results. Honestly, I'm most excited by the possibility of reclaiming _myself_. As Newport and others have said, it's not about sacrificing your smartphone, as if you're giving up some big element in your life. It's about what you're getting. I'm starting to see glimpses of my old self return. I'm starting to think at stop lights again! In the elevator, I'm not reaching for something to distract me. I am beginning to recapture my focus and self, and it's invigorating.
 
-Continue on to my next post in this series: [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/).
+Continue on to my next post in this series: [My initial rules and reasons for intentional smart phone use](/smartphones/my-international-rules-for-smartphone-use.html).
 
 **6/25/2022 note:** This post was discussed on [Hackernews](https://news.ycombinator.com/item?id=31874846). See the conversation thread there for lively comments.
 
@@ -185,4 +187,4 @@ Williams, James. _[Stand Out of Our Light: Freedom and Resistance in the Attenti
 
 ## Next post
 
-Continue to the next post in this series: [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/).
+Continue to the next post in this series: [My initial rules and reasons for intentional smart phone use](/smartphones/my-international-rules-for-smartphone-use.html).

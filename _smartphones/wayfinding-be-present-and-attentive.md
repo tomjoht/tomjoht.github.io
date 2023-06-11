@@ -1,6 +1,6 @@
 ---
 title: "Wayfinding requires you to be present in the world"
-permalink: /blog/wayfinding-be-present-and-attentive/
+permalink: /smartphones/wayfinding-be-present-and-attentive.html
 categories:
 - technical-writing
 keywords:
@@ -8,12 +8,14 @@ rebrandly: https://idbwrtng.com/wayfinding-attentiveness
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "Wayfinding starts with being attentive and present with the world around you. However, our suburban <i>geography-of-nowhere</i>-type cementscapes remove a lot of incentive for attentiveness."
+redirect_from:
+- /blog/wayfinding-be-present-and-attentive/
 ---
 
 * TOC
 {:toc}
 
-*If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/blog/wayfinding-intro/).*
+*If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/smartphones/wayfinding-intro.html).*
 
 ## The need to be attentive and present
 
@@ -159,4 +161,4 @@ Speck, Jeff. *Walkable city: How downtown can save America, one step at a time*.
 
 ## Next post
 
-Continue on to the next post: [Spatial and scientific reasoning from wayfinding](/blog/wayfinding-scientific-reasoning/).
+Continue on to the next post: [Spatial and scientific reasoning from wayfinding](/smartphones/wayfinding-scientific-reasoning.html).

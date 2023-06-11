@@ -1,6 +1,6 @@
 ---
 title: "Techniques for deep work from Cal Newport"
-permalink: /blog/newport-deep-work/
+permalink: /smartphones/newport-deep-work.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/deepworknewport
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "In this post, I summarize the ideas from Cal Newport's popular book, <i>Deep Work</i>. Structuring your time into several periods of deep focus during the day can help you become wildly productive."
+redirect_from:
+- /blog/newport-deep-work/
 ---
 
 * TOC
@@ -15,7 +17,7 @@ description: "In this post, I summarize the ideas from Cal Newport's popular boo
 
 ## Introduction
 
-In the last post in this series, [From smartphones to Netflix: moving past plateaus in growth](/blog/limits-of-growth-shifting-burdens/), I explored how systems enforce constant rebalancing, so that if you make a change in one area that leads to a temporary gain, you might find that the system compensates in some other area, eliminating your gains. Specifically, my abandonment of smartphones led to a temporary win with long-form concentration and reading, but it didn't take long to find another form of distraction through television. 
+In the last post in this series, [From smartphones to Netflix: moving past plateaus in growth](/smartphones/limits-of-growth-shifting-burdens.html), I explored how systems enforce constant rebalancing, so that if you make a change in one area that leads to a temporary gain, you might find that the system compensates in some other area, eliminating your gains. Specifically, my abandonment of smartphones led to a temporary win with long-form concentration and reading, but it didn't take long to find another form of distraction through television. 
 
 When I couldn't identify the true source behind distraction (*why do I keep watching TV?*), I decided that maybe we point the finger too much at social media and other entertainment sites as the culprit behind our concentration failure. Maybe long-form concentration is simply a difficult skill to develop. As such, I decided to read Cal Newport's [*Deep Work: Rules for Focused Success in a Distracted World*](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692) (which is one of the best business books I've read and currently has 17k+ reviews on Amazon with 4.5 stars rating). The book lives up to the ratings: it describes techniques that can unlock significant productivity. Fully implementing them, though, still remains a challenge.
 
@@ -186,4 +188,4 @@ Newport, Cal. *Deep work: Rules for focused success in a distracted world.* Hach
 
 ## Next post
 
-Continue to the next post in this series: [How to move from focus sessions to flow sessions](/blog/from-focus-sessions-to-flow/).
+Continue to the next post in this series: [How to move from focus sessions to flow sessions](/smartphones/from-focus-sessions-to-flow.html).

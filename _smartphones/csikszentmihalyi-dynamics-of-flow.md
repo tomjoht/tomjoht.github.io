@@ -1,6 +1,6 @@
 ---
 title: "Applying Csikszentmihalyi's psychology of flow to the writing of technical documentation"
-permalink: /blog/csikszentmihalyi-dynamics-of-flow/
+permalink: /smartphones/csikszentmihalyi-dynamics-of-flow.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/dynamics-of-flow
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "Mihaly Csikszentmihalyi's psychology of flow, which describes ways to be so engrossed in an activity that you lose track of time, can be applied to writing technical documentation. Some of the traits of flow I cover here include balance, effortlessness, goals, feedback, and concentration."
+redirect_from:
+- /blog/csikszentmihalyi-dynamics-of-flow/
 ---
 
 * TOC
@@ -15,7 +17,7 @@ description: "Mihaly Csikszentmihalyi's psychology of flow, which describes ways
 
 ## Recap 
 
-In my previous post, [How to move from focus sessions to flow sessions](/blog/from-focus-sessions-to-flow/), I explained that while 90-minute focus sessions led to a significant productivity boost with my writing projects, focusing my attention for that amount of time on a single task was a bit exhausting and demotivating. I then turned to the theory of flow by Csikszentmihalyi as a way to make these focus sessions more enjoyable. (Csikszentmihalyi is pronounced "Chick-sent-me-high.")
+In my previous post, [How to move from focus sessions to flow sessions](/smartphones/from-focus-sessions-to-flow.html), I explained that while 90-minute focus sessions led to a significant productivity boost with my writing projects, focusing my attention for that amount of time on a single task was a bit exhausting and demotivating. I then turned to the theory of flow by Csikszentmihalyi as a way to make these focus sessions more enjoyable. (Csikszentmihalyi is pronounced "Chick-sent-me-high.")
 
 Flow refers to a mental state that comes when you get into the zone, completely engrossed in a task, such that time seems to disappear and all outside stimuli fade away. 
 
@@ -99,7 +101,7 @@ After running out of detail, I would then revert to the information-gathering ph
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_worker_smoothing_wall3.jpg" alt="Analogy of building a rock wall" /><figcaption>After gathering nuggets of information, I smoothed them together like a masonry worker might smooth together rocks in a rock wall.</figcaption></figure>
 
-I realize that I have been following this same pattern on my blog. I've been writing two main essay series this year: [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html) and [Journey away from smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/). Both series have about 15+ posts in them. When I run out of things to say, I start reading a new book or article about the topic, and it fills me with more ideas and thoughts. I start quoting from these authors and responding to their arguments and experiences. In other words, I start having conversations with authors. 
+I realize that I have been following this same pattern on my blog. I've been writing two main essay series this year: [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html) and [Journey away from smartphones](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html). Both series have about 15+ posts in them. When I run out of things to say, I start reading a new book or article about the topic, and it fills me with more ideas and thoughts. I start quoting from these authors and responding to their arguments and experiences. In other words, I start having conversations with authors. 
 
 This technique isn't revelatory. Even Csikszentmihalyi notes, "As in all other branches of learning, the first step after deciding what area one wants to pursue is to learn what others have thought about the matter" (139). But I didn't realize how important reading was in the writing process until approaching these series. Essentially, writing is just a conversation you're having with the authors you're reading. As such, reading and writing go hand in hand. Reading leads you to discover new information, and writing is your way of responding to that information. It's like a see-saw &mdash; read a bit, then write, then read some more, then write. The two activities feed off each other.
 
@@ -165,7 +167,7 @@ But the effort to concentrate for extended periods of time on a topic depends mo
 
 Csikszentmihalyi's point here gets into a larger topic, that of developing your mind in such a way that you can control your thinking and consciousness. Focusing on a topic without wandering into randomness is hard. Controlling conscious thought connects more with meditation and yoga.
 
-I mentioned in previous posts that after getting rid of my smartphone, I basically substituted TV for it (see [From smartphones to Netflix](/blog/limits-of-growth-shifting-burdens/)). I searched for reasons why I seemed drawn to distraction. Csikszentmihalyi's answer is that TV alleviates our psychic entropy. TV helps produce an ordered consciousness, taking us away from worries and anxieties of our own lives. Csikszentmihalyi writes:
+I mentioned in previous posts that after getting rid of my smartphone, I basically substituted TV for it (see [From smartphones to Netflix](/smartphones/limits-of-growth-shifting-burdens.html)). I searched for reasons why I seemed drawn to distraction. Csikszentmihalyi's answer is that TV alleviates our psychic entropy. TV helps produce an ordered consciousness, taking us away from worries and anxieties of our own lives. Csikszentmihalyi writes:
 
 > Worries about one's love life, health, investments, family, and job are always hovering at the periphery of attention, waiting until there is nothing pressing that demands concentration. As soon as the mind is ready to relax, *zap!* the potential problems that were waiting in the wings take over. 
 > 
@@ -223,4 +225,4 @@ Newport, Cal. [*Deep work: Rules for focused success in a distracted world*](htt
 
 ## Next post
 
-Continue to the next post in this series: [From monkey mind to calm, ordered consciousness?](/blog/from-monkey-mind-to-calm-consciousness/).
+Continue to the next post in this series: [From monkey mind to calm, ordered consciousness?](/smartphones/from-monkey-mind-to-calm-consciousness.html).

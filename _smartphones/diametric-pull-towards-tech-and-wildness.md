@@ -1,6 +1,6 @@
 ---
 title: "The diametric pull towards technology vs. wildness"
-permalink: /blog/diametric-pull-towards-tech-and-wildness
+permalink: /smartphones/diametric-pull-towards-tech-and-wildness.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 rebrandly: https://idbwrtng.com/diametricpull
 description: "Not long ago, I decided to take up a goal of walking for two hours a day. The goal didn't last more than two weeks, but the trajectory informed me about my ongoing push and pull with technology. However much I try to break away from tech's screens, I'm drawn to them because of their continual inflow of multifaceted information; it's like a magnetic pull. At the same time, there's an opposing pull in the opposite direction: towards wildness, as Thoreau puts it."
+redirect_from:
+- /blog/diametric-pull-towards-tech-and-wildness/
 ---
 
 * TOC

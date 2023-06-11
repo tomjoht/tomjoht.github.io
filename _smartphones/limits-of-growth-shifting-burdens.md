@@ -1,6 +1,6 @@
 ---
 title: "From smartphones to Netflix: moving past plateaus in growth"
-permalink: /blog/limits-of-growth-shifting-burdens/
+permalink: /smartphones/limits-of-growth-shifting-burdens.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/systemarchetypes
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "In this post, I note that I've slowed reading a bit and started watching Netflix more. I turn to two system archetype theories to explain these dynamics. The archetypes 'Limits to Growth' and 'Shifting the Burden' from Peter Senge's <i>The Fifth Discipline</i>, a classic about learning organizations, provide insight into how to move past plateaus."
+redirect_from:
+- /blog/limits-of-growth-shifting-burdens/
 ---
 
 * TOC
@@ -15,7 +17,7 @@ description: "In this post, I note that I've slowed reading a bit and started wa
 
 ## Background summary
 
-If you're just coming into this series, there are quite a few previous posts (see the left sidebar). But to establish a quick context, I [gave up my smartphone](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) to recapture my sense of focus. I tried to make do with a basic phone, only to realize that it was causing communication stress with my family. So I [returned to my smartphone](/blog/returning-to-smartphones/) but still avoided the social media apps and continued to follow many of the [digital detox rules](/blog/returning-to-smartphones/#my-adjusted-rules) I'd adopted.
+If you're just coming into this series, there are quite a few previous posts (see the left sidebar). But to establish a quick context, I [gave up my smartphone](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html) to recapture my sense of focus. I tried to make do with a basic phone, only to realize that it was causing communication stress with my family. So I [returned to my smartphone](/smartphones/returning-to-smartphones.html/) but still avoided the social media apps and continued to follow many of the [digital detox rules](/smartphones/returning-to-smartphones.html/#my-adjusted-rules) I'd adopted.
 
 During my time away from the smartphone, I started reading books again. I realized that reading long-form content was the primary goal I was after in giving up my smartphone in the first place. I wondered whether I would continue the same pace of reading now that I had a smartphone again. Well, my pace of reading did slow with the return of my smartphone, but I wasn't exactly sure why.
 
@@ -25,7 +27,7 @@ So as I returned to smartphone use again, I started to add back in some other ac
 
 ## My initial reading pace has slowed
 
-I said this past month I've been reading less, probably about half as much as my previous pace. I've still averaged about a book every two weeks, and not all books are the same. Some are long, others short. Some are easy reads, others harder to get through. Some I abandoned partway through for  interest-related reasons. So it's not a steady control to measure. Even so, I felt myself slipping a bit. Here's what I've been reading since my [last report](/blog/returning-to-smartphones/):
+I said this past month I've been reading less, probably about half as much as my previous pace. I've still averaged about a book every two weeks, and not all books are the same. Some are long, others short. Some are easy reads, others harder to get through. Some I abandoned partway through for  interest-related reasons. So it's not a steady control to measure. Even so, I felt myself slipping a bit. Here's what I've been reading since my [last report](/smartphones/returning-to-smartphones.html/):
 
 * *A Profile of the Global Auto Industry: Innovation and Dynamics*, by Mike Smitka and Peter Warrian (1/3 finished, paused)
 
@@ -45,7 +47,7 @@ I said this past month I've been reading less, probably about half as much as my
 
 * *The Fifth Discipline: The Art & Practice of Learning Organization*, by Peter Senge (1/2 finished, currently reading)
 
-You can see that I have more half-finished books here, which could be a concerning trend indicating a slipping focus, or some books might just be duds. Another reason I've been reading less is to write more. I wanted to write some posts related to books I'd read (for example, the [wayfinding series](/blog/wayfinding-intro/)), and if I immediately move on to a new book after finishing the previous, I don't allow myself that time to write. So I intentionally slowed my reading pace a bit between books. Despite the worthwhile goal to read more, there's a risk in simply consuming content without taking the time to wrestle with and apply the ideas through my own writing.
+You can see that I have more half-finished books here, which could be a concerning trend indicating a slipping focus, or some books might just be duds. Another reason I've been reading less is to write more. I wanted to write some posts related to books I'd read (for example, the [wayfinding series](/smartphones/wayfinding-intro.html)), and if I immediately move on to a new book after finishing the previous, I don't allow myself that time to write. So I intentionally slowed my reading pace a bit between books. Despite the worthwhile goal to read more, there's a risk in simply consuming content without taking the time to wrestle with and apply the ideas through my own writing.
 
 But I also realized what else I've been doing: watching Netflix more and more. Gradually, I started allowing myself to get sucked into different TV shows. *Stranger Things Season 4*. *The Old Man.* *Resident Evil.* It's easy to start a single episode innocently enough and then realize that, instead of looking at my smartphone, I'm just watching Netflix, especially at the bookends of my day.
 
@@ -141,7 +143,7 @@ Fortunately, Netflix doesn't deteriorate your health and form bonds of addiction
 
 What could that underlying cause fueling a predilection for distraction be? My workload isn't insurmountable. I'm not facing bleak career prospects due to a saturated skillset. I actually work at Google and make a six-figure salary working mostly business hours at a place that provides free breakfast, free lunch, and all the lattes, cappuccinos, and cortados I want. My children are high-achievers. My wife is a rock star mom whose favorite activity is hiking. We're homeowners in a nice suburban area not too far outside of Seattle. It's not perfect (some kids have ADHD, my wife gets stressed out, I keep getting injured, etc.), but life is more or less good. So why would I seek out opportunities for distraction?
 
-Is it some existential ennui and despair of someone who hasn't been challenged enough in life? Or discontent from a [meaningless career](/blog/the-existentialism-of-technical-writing/) that fails to engage? Am I [Nietzsche's *Last Man*](/blog/wayfinding-driving-without-gps-freedom-and-control/#self-will) desperate to break free of society's numbing commercialization? Am I dealing with learned helplessness from living in a world sliding into chaos and oblivion?
+Is it some existential ennui and despair of someone who hasn't been challenged enough in life? Or discontent from a [meaningless career](/blog/the-existentialism-of-technical-writing/) that fails to engage? Am I [Nietzsche's *Last Man*](/smartphones/wayfinding-driving-without-gps-freedom-and-control.html#self-will) desperate to break free of society's numbing commercialization? Am I dealing with learned helplessness from living in a world sliding into chaos and oblivion?
 
 One aspect of Johann Hari's book, *Stolen Focus*, is that he seems to move past smartphones as the cause for distraction. He doesn't point the finger solely at tech; instead, there are lengthy chapters about ADHD, abuse, nutrition, pollution, and other causes that he says contribute to reasons for our distraction. He seems to be searching for something more, for that underlying cause beyond tech. Smartphones alone don't seem to explain it. I too am starting to think that blaming smartphones for our distractedness might be blaming the symptomatic solution instead of the real cause. What, then, could be the underlying cause that nudges me toward distraction? 
 
@@ -174,4 +176,4 @@ Sharif, Marissa A., Cassie Mogilner, and Hal E. Hershfield. ["Having too little 
 
 ## Next post
 
-Continue to the next post in this series: [Techniques for deep work from Cal Newport](/blog/newport-deep-work/).
+Continue to the next post in this series: [Techniques for deep work from Cal Newport](/smartphones/newport-deep-work.html).

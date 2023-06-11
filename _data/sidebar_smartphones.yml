@@ -1,66 +1,71 @@
 sidebartitle: Journey away from smartphones
 folders:
+
 - title: "Pages in this series"
-  jurl: /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+  landing: /smartphones/overview.html
   section: one
   class: first
   folderitems:
+
+  - title: "Overview"
+    jurl: /smartphones/overview.html 
+
   - title: "My awakening moment about how smartphones fragment our attention span"
-    jurl: /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+    jurl: /smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html
 
   - title: "My initial rules and reasons for intentional smart phone use"
-    jurl: /blog/my-international-rules-for-smartphone-use/
+    jurl: /smartphones/my-international-rules-for-smartphone-use.html
 
   - title: "First experiences in moving away from smartphones"
-    jurl: /blog/first-experiences-moving-away-from-smartphones/
+    jurl: /smartphones/first-experiences-moving-away-from-smartphones.html
 
   - title: "More developments on my journey away from smartphones – a sudden interest in classical music?"
-    jurl: /blog/sudden-interest-in-classical-music/
+    jurl: /smartphones/sudden-interest-in-classical-music.html
 
   - title: "One month in without a smartphone &mdash; growing doubts about the value of technology in general"
-    jurl: /blog/one-month-in-without-a-smartphone/
+    jurl: /smartphones/one-month-in-without-a-smartphone.html
 
   - title: "Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
-    jurl: /blog/nicholas-carr-the-shallows-book-review/
+    jurl: /smartphones/nicholas-carr-the-shallows-book-review.html
 
   - title: "Six weeks in -- returning to smartphone (but not as before)"
-    jurl: /blog/returning-to-smartphones/
+    jurl: /smartphones/returning-to-smartphones.html
 
   - title: "Random notes on recovering the lost art of reading"
-    jurl: /blog/notes-on-recovering-the-lost-art-of-reading/
+    jurl: /smartphones/notes-on-recovering-the-lost-art-of-reading.html
 
   - title: "Wayfinding -- finding my way without GPS"
-    jurl: /blog/wayfinding-intro/
+    jurl: /smartphones/wayfinding-intro.html
 
   - title: "Wayfinding requires you to be present in the world"
-    jurl: /blog/wayfinding-be-present-and-attentive/
+    jurl: /smartphones/wayfinding-be-present-and-attentive.html
 
   - title: "Spatial and scientific reasoning from wayfinding"
-    jurl: /blog/wayfinding-scientific-reasoning/
+    jurl: /smartphones/wayfinding-scientific-reasoning.html
 
   - title: "Driving without GPS -- the desire to be free and in control"
-    jurl: /blog/wayfinding-driving-without-gps-freedom-and-control/
+    jurl: /smartphones/wayfinding-driving-without-gps-freedom-and-control.html
 
   - title: "From smartphones to Netflix: moving past plateaus in growth"
-    jurl: /blog/limits-of-growth-shifting-burdens/
+    jurl: /smartphones/limits-of-growth-shifting-burdens.html
 
   - title: "Techniques for deep work from Cal Newport"
-    jurl: /blog/newport-deep-work/
+    jurl: /smartphones/newport-deep-work.html
 
   - title: "How to move from focus sessions to flow sessions"
-    jurl: /blog/from-focus-sessions-to-flow/
+    jurl: /smartphones/from-focus-sessions-to-flow.html
 
   - title: "Applying Csikszentmihalyi's psychology of Flow while writing technical documentation"
-    jurl: /blog/csikszentmihalyi-dynamics-of-flow/
+    jurl: /smartphones/csikszentmihalyi-dynamics-of-flow.html
 
   - title: "From monkey mind to calm, ordered consciousness?"
-    jurl: /blog/from-monkey-mind-to-calm-consciousness/
+    jurl: /smartphones/from-monkey-mind-to-calm-consciousness.html
 
   - title: "What the DMN and TPN modes of the brain teach us about focus"
-    jurl: /blog/dmn-and-tpn-brain/
+    jurl: /smartphones/dmn-and-tpn-brain.html
 
   - title: "The diametric pull towards tech and wildness"
-    jurl: /blog/diametric-pull-towards-tech-and-wildness
+    jurl: /smartphones/diametric-pull-towards-tech-and-wildness.html
 
   - title: "Conclusion and takeaways"
-    jurl: /blog/conclusion-and-learnings-smartphone-series/
+    jurl: /smartphones/conclusion-and-learnings-smartphone-series.html

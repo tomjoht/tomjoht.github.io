@@ -117,7 +117,7 @@ last-modified: 2023-04-23
     <td>3.0%</td>
   </tr>
   <tr>
-    <td><a href="/blog/awakening-moment-to-how-smartphones-fragment-our-attention/">Awakening moment to how smartphones fragment our attention</a></td>
+    <td><a href="/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html">Awakening moment to how smartphones fragment our attention</a></td>
     <td>2.8%</td>
   </tr>
   <tr>

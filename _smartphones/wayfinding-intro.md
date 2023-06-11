@@ -1,6 +1,6 @@
 ---
 title: "Wayfinding -- finding my way without GPS"
-permalink: /blog/wayfinding-intro/
+permalink: /smartphones/wayfinding-intro.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/wayfinding-intro
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "This post continues an ongoing series about a journey away from smartphones. In this post and the next several posts, I explore the topic of wayfinding. This topic surfaced as I tried driving without using a digital map on my smartphone."
+redirect_from:
+- /blog/wayfinding-intro/
 ---
 
 * TOC
@@ -15,7 +17,7 @@ description: "This post continues an ongoing series about a journey away from sm
 
 ## Intro to some posts on wayfinding
 
-Earlier in this [Journey away from smartphones series](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/), as I formulated my strategies for living without the smartphone's essential apps, I wondered how to get by without a mapping application (e.g., Google Maps or Apple Maps) while driving or biking. These apps, which rely on GPS to pinpoint your location on a map and give you turn-by-turn directions to a destination, were supposed to be one of those can't-live-without-it apps.
+Earlier in this [Journey away from smartphones series](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html), as I formulated my strategies for living without the smartphone's essential apps, I wondered how to get by without a mapping application (e.g., Google Maps or Apple Maps) while driving or biking. These apps, which rely on GPS to pinpoint your location on a map and give you turn-by-turn directions to a destination, were supposed to be one of those can't-live-without-it apps.
 
 In fact, when it first came out back in 2007, according to Bill Kilday, "Google Maps became the killer app of Apple's killer new device: the iPhone, with Steve Jobs personally demanding the inclusion and implementation of Google Maps" (xvi).
 
@@ -25,7 +27,7 @@ And yet, something about GPS was bothering me. Even though I'd been in Renton, W
 
 As I started to route without my smartphone, I noticed a new feeling surface every now and then &mdash; a sense of "navigational certitude," as one writer put it, a feeling of confidence and awareness of everything on the road. Not having to glance at a smartphone screen in the corner of my eye to know where I was going, but instead focusing more on the road and environment (the pedestrians, cyclists, cars, road construction, intersections, signs, trees, etc.), made me feel more connected and confident while driving. I found that I actually *liked* driving without GPS. I could be present in the driving experience.
 
-After I reverted from my feature phone [back to my smartphone](/blog/returning-to-smartphones/), I still avoided using my phone's mapping apps unless I got lost or was in a pinch and needed directions. Instead, I started looking more carefully at Google Maps on my computer to study the route beforehand. I learned the logic of streets and avenues, and which streets crossed the freeway, which were main streets and which were residential go-nowhere streets. It didn't take long before I could confidently drive to most destinations in my area (including that Safeway) without my smartphone.
+After I reverted from my feature phone [back to my smartphone](/smartphones/returning-to-smartphones.html/), I still avoided using my phone's mapping apps unless I got lost or was in a pinch and needed directions. Instead, I started looking more carefully at Google Maps on my computer to study the route beforehand. I learned the logic of streets and avenues, and which streets crossed the freeway, which were main streets and which were residential go-nowhere streets. It didn't take long before I could confidently drive to most destinations in my area (including that Safeway) without my smartphone.
 
 My brief experience in routing without GPS led to more interest in wayfinding. I started wondering if perhaps I could make navigation my strength rather than a weakness. I'd read many references to studies of London cabbies who had to learn 25,000 city streets (a feat called "The Knowledge") to enter a privileged order of London cab drivers. The hippocampuses of these cab drivers were noticeably larger, as this part of the brain controls spatial reasoning, navigation, and memory. Perhaps by learning wayfinding (that is, navigating without GPS), I could increase my spatial aptitude and sense of direction?
 
@@ -39,9 +41,9 @@ The overall result of all this was to become more reliant on the app to navigate
 
 Given all this context, when I saw a book titled *Wayfinding: The Science and Mystery of How Humans Navigate the World*, by M.R. O'Connor, I decided to read it. I learned that wayfinding is a robust domain that has been the focus of countless research and study. This book just scratched the surface of an area I knew almost nothing about. Did reading this book teach me the secret to wayfinding? Not really, it's not a "self-help" book. Wayfinding isn't a "simple trick" that can be learned overnight, but there are some attitudes (like paying attention to the environment around you) that lead to becoming better at wayfinding. Overall, wayfinding is much deeper and more interesting than I thought, so I'll dive into the topic with the next few posts. In fact, these next three posts are like a mini-series within the Journey away from smartphones series.
 
-* [Wayfinding requires you to be present in the world](/blog/wayfinding-be-present-and-attentive/)
-* [Spatial and scientific reasoning from wayfinding](/blog/wayfinding-scientific-reasoning/)
-* [Driving without GPS -- the desire to be free and in control](/blog/wayfinding-driving-without-gps-freedom-and-control/)
+* [Wayfinding requires you to be present in the world](/smartphones/wayfinding-be-present-and-attentive.html)
+* [Spatial and scientific reasoning from wayfinding](/smartphones/wayfinding-scientific-reasoning.html)
+* [Driving without GPS -- the desire to be free and in control](/smartphones/wayfinding-driving-without-gps-freedom-and-control.html)
 
 {: .note}
 Note that you might be wondering how wayfinding ties in with this series. The Journey away from smartphones series involved an experiment of giving up my smartphone. One of those essential smartphone apps is Google Maps (or Apple Maps). So to live without the smartphone, I had to relearn wayfinding outside of micro-directions from a GPS app.
@@ -91,4 +93,4 @@ O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the 
 
 ## Next post
 
-Continue on to the next post: [Wayfinding requires you to be present in the world](/blog/wayfinding-be-present-and-attentive/).
+Continue on to the next post: [Wayfinding requires you to be present in the world](/smartphones/wayfinding-be-present-and-attentive.html).

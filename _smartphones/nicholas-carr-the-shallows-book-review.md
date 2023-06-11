@@ -1,6 +1,6 @@
 ---
 title: "Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
-permalink: /blog/nicholas-carr-the-shallows-book-review/
+permalink: /smartphones/nicholas-carr-the-shallows-book-review.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/carrshallowsreview
 description: "In my ongoing series describing my journey away from smartphones, I decided to read one of the seminal works that kicked off the debate about the Internet's influence on our brains: Nicholas Carr's book <i>What the Internet Is Doing to Our Brains: The Shallows.</i> In this post, after a careful reading and dissection of Carr's argument, I try to make sense of the book for my own techno-skeptic journey. My conclusion is to find a balance between online and offline modes, using the computer to find info, but then turning away the monitor to read offline."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/nicholas-carr-the-shallows-book-review/
 ---
 
 * TOC
@@ -17,7 +19,7 @@ sidebar: sidebar_smartphones
 
 I'm intrigued by the genre of books exploring the psychological effects of technology. Admittedly, most authors begin in a similar way: something is altering their brain/concentration/focus. What's driving the change? Technology &mdash; _the Internet and social media!_ A list of technological indictments is explored, and the watchdog author concludes with a warning about the new technology. This pattern seems to repeat with each new technology, dating as far back as Socrates and his concerns about writing (a new technology at the time).
 
-Although many people dismiss these alarmists, I'm much more mixed. Based on personal experience, I feel that there's real merit to the argument about some technology having a negative influence. In fact, dismissing the psychological impact trivializes the power of technology as a force for transforming culture. Since I wrote my initial post, [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/), I've felt, on a visceral level, my attention span broken, and I've observed how abandoning my smartphone has essentially fixed me. I went from reading no books per month to reading 6+ books per month. I feel more level-headed, focused, calm, and in control of my life. The effect has been life changing. This spurred my interest in reading more books that follow similar themes.
+Although many people dismiss these alarmists, I'm much more mixed. Based on personal experience, I feel that there's real merit to the argument about some technology having a negative influence. In fact, dismissing the psychological impact trivializes the power of technology as a force for transforming culture. Since I wrote my initial post, [My awakening moment about how smartphones fragment our attention span](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html), I've felt, on a visceral level, my attention span broken, and I've observed how abandoning my smartphone has essentially fixed me. I went from reading no books per month to reading 6+ books per month. I feel more level-headed, focused, calm, and in control of my life. The effect has been life changing. This spurred my interest in reading more books that follow similar themes.
 
 However, I also agree that web technology has amplified our opportunities, made life much more convenient in ways, opened up access to information in unprecedented ways, and has been a boon to innovation, knowledge, connection, and community. Technology and progress go hand in hand, as many have noted. The trick is to learn how to harness technology's good while recognizing and rejecting those aspects that do harm.
 
@@ -220,4 +222,4 @@ Norvid, Peter. "If you're stupid, it's not Google's fault." Reuters.com. https:/
 
 ## Next post 
 
-Continue on with the next post in this series, [Six weeks in — returning to smartphone (but not as before)](/blog/returning-to-smartphones/).
+Continue on with the next post in this series, [Six weeks in — returning to smartphone (but not as before)](/smartphones/returning-to-smartphones.html/).

@@ -21,6 +21,7 @@
 
 <ul id="docnavsidebar" class="docnav">
 {% for folder in sidebar.folders %}
+{% unless folder.type == "print" %}
 {% if page.url == folder.url %}
 <li class="level1 folderTitle current open"><a  class="subfoldersTitle" href="{{folder.jurl | prepend: site.baseurl }}">{{ folder.title }}</a>
   {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://"  %}
@@ -28,6 +29,7 @@
 {% else %}
         <li class="level1 folderTitle"><a href="{{folder.jurl | prepend: site.baseurl }}">{{folder.title}}</a>
   {% endif %}
+{% endunless %}
     <ul>
         {% for folderitem in folder.folderitems %}
 

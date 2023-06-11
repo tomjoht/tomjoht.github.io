@@ -1,6 +1,6 @@
 ---
 title: "From monkey mind to calm, ordered consciousness -- even outside of flow? Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
-permalink: /blog/from-monkey-mind-to-calm-consciousness/
+permalink: /smartphones/from-monkey-mind-to-calm-consciousness.html
 categories:
 - technical-writing
 keywords:
@@ -9,7 +9,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "This post continues my series about how to regain long-form concentration. Although Csikszentmihalyi says the brain's natural state &mdash; when left alone without any focused attention &mdash; gravitates toward entropy and chaos (more commonly referred to as <i>monkey mind</i>), I'm not sure I want to agree. In this post, I ask how and why consciousness becomes disordered in the first place (why we have a monkey mind), and how we might change that natural state. In my experience, infinite-scrolling the web and filling my mind with a high-intensity of randomness creates different brain patterns than reading a book. (Note: Admittedly, in this post, I go off the deep end a bit.)"
 redirect_from:
-- /blog/from-monkey-mind-to-calm-consciousness.html
+- /blog/from-monkey-mind-to-calm-consciousness/
 ---
 
 * TOC
@@ -17,7 +17,7 @@ redirect_from:
 
 ## Context and background for this topic
 
-In my last post, [Applying Csikszentmihalyi's psychology of flow to the writing of technical documentation](/blog/csikszentmihalyi-dynamics-of-flow/), I explained that Csikszentmihalyi says our normal psychological state is one of constant entropy (disordered, unstructured thought). Most people call this "monkey mind," a term coined by Buddha to refer to the way a monkey swings from branch to branch &mdash; similar to our mind jumping from thought to thought. 
+In my last post, [Applying Csikszentmihalyi's psychology of flow to the writing of technical documentation](/smartphones/csikszentmihalyi-dynamics-of-flow.html), I explained that Csikszentmihalyi says our normal psychological state is one of constant entropy (disordered, unstructured thought). Most people call this "monkey mind," a term coined by Buddha to refer to the way a monkey swings from branch to branch &mdash; similar to our mind jumping from thought to thought. 
 
 The whole point of getting into flow, according to Csikszentmihalyi, a happiness researcher, is to counter that entropy with a more "ordered consciousness." Csikszentmihalyi says, 
 
@@ -219,7 +219,7 @@ In other words, your brain gets accustomed to thinking in story structures and i
 
 On days in which I haven't read a book but instead have been immersed online, my brain has a much different pattern. Instead of linear, focused thought, my mind skips around more. I get monkey mind, jumping from one topic to another. If I'm trying to fall asleep, my racing thoughts will keep me up unless I put an audiobook in my ear to focus my attention until I fall asleep.
 
-I might not have noticed this contrast in mental states were it not for this [whole smartphone experiment](/blog/first-experiences-moving-away-from-smartphones/) (noted earlier). These past two months, I've been more relaxed in my rules about technology use. Earlier on in my experience, however, I [adopted strict rules](/blog/my-international-rules-for-smartphone-use/) about when I would use a phone, and so on. My journey away from smartphones led me to [read a lot more](/blog/one-month-in-without-a-smartphone/#books-printing-things-out). When I [returned to my smartphone](/blog/returning-to-smartphones/) (because my family wanted to text me), I relapsed in other ways too, checking sports and news more often. Then my work provided me with a phone, which came equipped with work email and calendar. I started checking work email more often, in addition to checking my own email almost obsessively. I started reading Feedly (an RSS aggregator) more often. 
+I might not have noticed this contrast in mental states were it not for this [whole smartphone experiment](/smartphones/first-experiences-moving-away-from-smartphones.html) (noted earlier). These past two months, I've been more relaxed in my rules about technology use. Earlier on in my experience, however, I [adopted strict rules](/smartphones/my-international-rules-for-smartphone-use.html) about when I would use a phone, and so on. My journey away from smartphones led me to [read a lot more](/smartphones/one-month-in-without-a-smartphone.html#books-printing-things-out). When I [returned to my smartphone](/smartphones/returning-to-smartphones.html/) (because my family wanted to text me), I relapsed in other ways too, checking sports and news more often. Then my work provided me with a phone, which came equipped with work email and calendar. I started checking work email more often, in addition to checking my own email almost obsessively. I started reading Feedly (an RSS aggregator) more often. 
 
 At night I would bring up Youtube.com for entertainment (because it wasn't Reddit, right?). On Youtube, I even unsubscribed from every channel just to see what the algorithms would serve up, hoping the videos would lose their appeal, but they didn't. I watched this and that video, usually humor-related, until I was too tired to stay awake. 
 
@@ -250,4 +250,4 @@ Kelly, Kevin. *[What Technology Wants](https://www.amazon.com/What-Technology-Wa
 
 ## Next post
 
-Continue to the next post in this series: [What the DMN and TPN modes of the brain teach us about focus](/blog/dmn-and-tpn-brain/).
+Continue to the next post in this series: [What the DMN and TPN modes of the brain teach us about focus](/smartphones/dmn-and-tpn-brain.html).

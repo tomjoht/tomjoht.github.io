@@ -1,0 +1,59 @@
+---
+title: Table of Contents
+type: frontmatter
+progress: false
+permalink: pdf_toc_page_all.html
+class: frontmatter
+excerpt: table of contents
+last-modified: 2020-11-02
+---
+
+<div id="navig">
+
+<ul id="docnavsidebar" class="docnav">
+  {% assign sidebar = site.data[site.sidebar].folders %}
+{% for folder in sidebar %}
+{% unless folder.type == "web" %}
+<li class="sectionHead"><a href="{{ folder.landing | prepend: site.baseurl }}">{{ folder.title }}</a>
+    <ul>
+        {% for folderitem in folder.folderitems %}
+        {% if folderitem.title and folderitem.type != "web" %}
+        <li><a href="{{ folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+        {% endif %}
+        {% for subfolder in folderitem.subfolders %}
+        {% unless subfolder.type == "web" %}
+
+        <li class="sectionHead"><a href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+            <ul>
+                {% for subfolderitem in subfolder.subfolderitems %}
+
+                {% if subfolderitem.title and subfolderitem.type != "web" %}
+                <li class="level2items"><a href="{{ subfolderitem.jurl | prepend: site.baseurl }}">{{subfolderitem.title}}</a></li>
+                {% endif %}
+
+                {% for subsubfolder in subfolderitem.subsubfolders %}
+                {% unless subsubfolder.type == "web" %}
+                <li class="sectionHead"><a href="{{ subsubfolder.jurl| prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                    <ul>
+                        {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+                        {% if subsubfolderitem.title and subsubfolderitem.type != "web" %}
+                        <li class="level3items"><a href="{{ subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endunless %}
+                {% endfor %}
+                {% endfor %}
+            </ul>
+        </li>
+{% endunless %}
+        {% endfor %}
+
+        {% endfor %}
+    </ul>
+    {% endunless %}
+    {% endfor %}
+
+</li>
+</ul>

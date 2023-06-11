@@ -1,6 +1,6 @@
 ---
 title: "Six weeks in -- returning to smartphone (but not as before)"
-permalink: /blog/returning-to-smartphones/
+permalink: /smartphones/returning-to-smartphones.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/returningtosmartphones
 description: "All right, so you knew this post was coming. When would I abandon my basic phone and return, at some level, to a smartphone, and why? That's what this post is about. The TLDR here is that texting became too challenging on a basic phone, and it was creating more stress and disruption with my other family members who were trying to communicate with me. But let me provide more details here, because there was a key turning point."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+redirect_from:
+- /blog/returning-to-smartphones/
 ---
 
 * TOC
@@ -78,7 +80,7 @@ Even though I'd returned to the smartphone, I still wanted to keep many of the p
 
 {% include ads.html %}
 
-Here's a reassessment of [my initial rules](/blog/my-international-rules-for-smartphone-use/), with my notes about whether to keep, modify, or drop the rules:
+Here's a reassessment of [my initial rules](/smartphones/my-international-rules-for-smartphone-use.html), with my notes about whether to keep, modify, or drop the rules:
 
 ~~**Use a dumb phone instead of a smartphone**~~
 
@@ -164,4 +166,4 @@ This reassures me that my smartphone concerns and experiment has not been a fool
 
 ## Next post
 
-Continue on with the next post in this series: [Random notes on recovering the lost art of reading](/blog/notes-on-recovering-the-lost-art-of-reading/). 
+Continue on with the next post in this series: [Random notes on recovering the lost art of reading](/smartphones/notes-on-recovering-the-lost-art-of-reading.html). 

@@ -29,6 +29,8 @@ kramdown:
 collections:
   docs:
     output: true
+  smartphones: 
+    output: false
   restapicourse:
     output: false
   publishingapidocs:

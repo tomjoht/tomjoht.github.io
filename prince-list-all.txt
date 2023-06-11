@@ -2,15 +2,13 @@
 layout: null
 ---
 
-
 {% assign sidebar = site.data[site.sidebar].folders %}
 
 {{site.baseurl}}/pdf_title_page.html
 {{site.baseurl}}/pdf_copyright_page.html
-{{site.baseurl}}/pdf_toc_page.html
+{{site.baseurl}}/pdf_toc_page_all.html
 
 {% for folder in sidebar %}
-{% if folder.section == site.section %}
 {% unless folder.type == "web" %}
 {{ folder.landing | prepend: site.baseurl }}
 {% for folderitem in folder.folderitems %}
@@ -49,5 +47,4 @@ layout: null
 {% endfor %}
 {% endfor %}
 {% endunless %}
-{% endif %}
 {% endfor %}

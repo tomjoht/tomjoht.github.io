@@ -1,6 +1,6 @@
 ---
 title: "Conclusion and takeaways from my Journey Away from Smartphones series"
-permalink: /blog/conclusion-and-learnings-smartphone-series/
+permalink: /smartphones/conclusion-and-learnings-smartphone-series.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/conclusionsmartphoneseries
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "A <i>New York Times</i> article about Luddite teens who rejected their smartphones made me reflect on my own journey away from smartphones and the complexities of discerning how to adopt transformative technology in my life. In this conclusion to the series, I highlight key learnings and realizations throughout the year, including how the project changed me for the better."
+redirect_from:
+- /blog/conclusion-and-learnings-smartphone-series/
 ---
 
 * TOC
@@ -31,7 +33,7 @@ As I read the article, I began to trace back in my mind why I returned to using 
 
 I, too, once fantasized about throwing my smartphone into a canal. And I did give my smartphone up for six weeks, but then returned. Reading this article, I started to think back on my journey. What happened to me? Why did I revert?
 
-I've already recounted the story of returning to my smartphone in [Six weeks in—returning to smartphone (but not as before)](/blog/returning-to-smartphones/). In my experience, the killer app of smartphones is not an app at all—it's the full-screen keyboard, which allows you to text. Without the ability to text, I couldn't communicate much with my wife and other family members. Email is pre-Jurassic, and frequently ignored. Without text, you can still talk on the phone, but phone conversations and voicemail are inconvenient and slow, especially for quick notes.
+I've already recounted the story of returning to my smartphone in [Six weeks in—returning to smartphone (but not as before)](/smartphones/returning-to-smartphones.html/). In my experience, the killer app of smartphones is not an app at all—it's the full-screen keyboard, which allows you to text. Without the ability to text, I couldn't communicate much with my wife and other family members. Email is pre-Jurassic, and frequently ignored. Without text, you can still talk on the phone, but phone conversations and voicemail are inconvenient and slow, especially for quick notes.
 
 Texting can be a double-edged sword, though. On the one hand, it allows us to communicate quickly and easily through a screen-based keyboard. On the other, it  gives us access to app interfaces and the vast amount of information on the Internet, all in the palm of our hand.
 
@@ -76,7 +78,7 @@ For me, this meant disabling email and news mechanisms. (Almost no one is addict
 
 Despite the ups and downs of my experiment in moving away from smartphones, I achieved and learned so much through this series. In this final section, I'll wrap it up and form a conclusion about it all.
 
-In [My initial rules and reasons for intentional smartphone use](/blog/my-international-rules-for-smartphone-use/), I listed these goals for my experiment
+In [My initial rules and reasons for intentional smartphone use](/smartphones/my-international-rules-for-smartphone-use.html), I listed these goals for my experiment
 
 > What do I hope to achieve by removing smartphones?
 > 

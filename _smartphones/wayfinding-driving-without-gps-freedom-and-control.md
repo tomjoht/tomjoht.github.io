@@ -1,6 +1,6 @@
 ---
-title: "Driving without GPS &mdash; the desire to be free and in control"
-permalink: /blog/wayfinding-driving-without-gps-freedom-and-control/
+title: "Driving without GPS -- the desire to be free and in control"
+permalink: /smartphones/wayfinding-driving-without-gps-freedom-and-control.html
 categories:
 - technical-writing
 keywords:
@@ -8,12 +8,14 @@ rebrandly: https://idbwrtng.com/wayfinding-control
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 description: "Driving is one way we exercise our freedom. Driving without GPS could be seen as a rejection of the control of technological algorithms over lives."
+redirect_from:
+- /blog/wayfinding-driving-without-gps-freedom-and-control/
 ---
 
 * TOC
 {:toc}
 
-*If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/blog/wayfinding-intro/).*
+*If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/smartphones/wayfinding-intro.html).*
 
 ## Expanded consciousness and other benefits of wayfinding
 
@@ -113,4 +115,4 @@ O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the 
 
 ## Next post
 
-Continue to the next post in this series: [From smartphones to Netflix: moving past plateaus in growth](/blog/limits-of-growth-shifting-burdens/).
+Continue to the next post in this series: [From smartphones to Netflix: moving past plateaus in growth](/smartphones/limits-of-growth-shifting-burdens.html).
