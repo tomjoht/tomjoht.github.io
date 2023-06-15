@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/suddenlyclassicalmusic
-description: "It's been 2-3 weeks now without my smartphone, and I wanted to jot down a few notes on how it's going. This entry is more like an informal journal log about what I'm observing."
+description: "It’s been 2-3 weeks now without my smartphone, and I wanted to jot down a few notes on how things were progressing. This entry is more like an informal journal log about what I observed."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
@@ -15,108 +15,90 @@ redirect_from:
 * TOC
 {:toc}
 
-## More context
+## A sudden interest in classical music {#a-sudden-interest-in-classical-music}
 
-If you're new to this series, see these previous posts:
+Perhaps the most interesting observation about living without a smartphone is that I developed an interest in classical music. I’d never been into classical music before, but now this music seems so much more soothing and satisfying than other music types. What could cause a sudden interest in classical music? I found this Quora article:
 
-* [My awakening moment about how smartphones fragment our attention span](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html)
-* [My initial rules and reasons for intentional smart phone use](/smartphones/my-international-rules-for-smartphone-use.html)
-* [First experiences in moving away from smartphones](/smartphones/first-experiences-moving-away-from-smartphones.html)
+> It’s probably that with age you have developed the patience needed to appreciate the classical works. Typical “pop” tunes only last around three minutes, and listeners become accustomed to that pace, so when they’re faced with classical works that may take far longer than that just to get through the introduction, they just don’t have the attention span to appreciate the more expansive themes. (Whitehead)
 
-## A sudden interest in classical music
+Could there be a link between attention span and a preference for classical music? This gave hope that perhaps I’m recapturing my long-form attention again. I thought it was really happening.
 
-Perhaps the most interesting observation about living without a smartphone is that I've developed an interest in classical music. I've never been into classical music before, but now this music seems so much more soothing and satisfying than other music types. What can cause a sudden interest in classical music? I found this Quora article:
+One night I needed to drive to work (to drop off a testing device too large to carry on my bike). So after dropping my kid off at soccer practice, I drove there and back. From soccer practice, the drive was 25 minutes each way. I didn’t listen to audiobooks but rather classical music the whole way. And although I’ve biked there countless times, the driving route is different from the bike route. Whereas normally I would have plugged the address into Google Maps, instead I just drove from memory after looking briefly at an [online] map.
 
-> It's probably that with age you have developed the patience needed to appreciate the classical works. Typical "pop" tunes only last around three minutes, and listeners become accustomed to that pace, so when they're faced with classical works that may take far longer than that just to get through the introduction, they just don't have the attention span to appreciate the more expansive themes. ([Why am I suddenly listening to classical music more often?](https://qr.ae/prGmZc))
+After I returned to soccer, while waiting for practice to end, I started reading my book. I found that my concentration was much higher. My eyes didn’t jump over the words or get impatient with the book’s developing theme. Reading was enjoyable. I would have continued reading for hours had soccer practice not ended. I wondered if an hour of classical music helped lengthen my brainwaves (or something).
 
-Could there be a link between the attention span and a preference for classical music? This gives me hope that perhaps I'm recapturing my long-form attention again. I think it's really happening.
+I wasn't quite sure how to describe it. It might have just been my imagination, but I did feel in a way that something good was happening to my brain. Before, when I was constantly checking feeds, news, and receiving other incoming information at the normal modern pace of an always online, always connected person/blogger who worked in tech, I felt like the electrical neurons in my brain were much more energized/frazzled and bouncing around faster and more rapidly, like a blender bouncing around liquid on high. As such, it was difficult to focus on any one thing for an extended duration because my brain was in a mode where it was quickly processing incoming information, making sense of it, and firing its cylinders rapidly to constantly process new incoming information in various contexts. It was like a car's tachometer running on high, needing to shift gears but not doing so.
 
-The other night I needed to drive to work (to drop off a testing device too large to carry on my bike). So after dropping my kid off at soccer practice, I drove there and back. From soccer practice, the drive was 25 minutes there and 25 minutes back. I didn't listen to audiobooks but rather classical music the whole way. And although I've biked there countless times, the driving route is a bit different from the bike route. Whereas normally I would have plugged the address into Google Maps, instead I just drove from memory after looking briefly at an [online] map.
+Additionally, in the past, I could not fall asleep at night without listening to an audiobook. The audiobook would keep my mind focused on a continuous line of thought or plot, and after a few minutes, I’d drift off to sleep. Without an audiobook, though, my mind would chase different ideas and I’d have trouble falling asleep. If I didn’t have an audio book, I’d have to wait until I was so exhausted that my mind was too tired to chase those thoughts.
 
-After I returned to soccer, while waiting for practice to end, I started reading my book. I found that my concentration was much higher. My eyes didn't jump over the words or get impatient with the book's developing theme. It was enjoyable. I would have continued reading for hours, had soccer practice not ended. I wonder if the hour of classical music helped lengthen my brain waves (or something).
+But without a smartphone, the pace of life seemed to have slowed. There was a decrease in incoming information. Granted, I was still at a computer 8 hours a day due to my job as a tech writer, with email and chat all day. I was by no means unplugged. When I didn't have my smartphone with me during other parts of my day, things slowed down in many ways. And I felt more capable of long-form thought and concentration. My brain wasn't running at high speed with too much electrical energy. I was at peace even when I didn't have anything to read or listen to. I could maintain a more reflective mode, ruminating on day-to-day events or reading ideas. It’s hard to describe it, but I really did feel like something good was happening in my brain.
 
-I'm not quite sure how to describe it, and it might just be my imagination, but I do feel in a way that something good is happening to my brain. Before, when I was constantly checking feeds, news, and receiving other incoming information at the normal modern pace of an always online, always connected person/blogger who works in tech, I felt like the electrical neurons in my brain were much more energized/frazzled and bouncing around faster and more rapidly, like a blender bouncing around liquid on high. As such, it was hard to focus on any one thing for an extended duration because my brain was in a mode where it was quickly processing incoming information, making sense of it, and firing its cylinders rapidly to constantly process new incoming information in various contexts. Think of a car's tachometer running on high, needing to shift gears but not doing so.
+I heard many people say that the Internet had rewired our brains, and I started to think it was literal. I had more capacity for long-form attention then. I wanted to avoid saying that my brain was moving at a slower pace because that suggested that I had dumbed down or something. It wasn't the case. I thought of a slow-moving but still powerful river, or a slow-rolling train. I could focus in a more sustained way, concentrating on a single thing. The frenetic context-switching from task to task, always consuming information, was gone. I could go on long walks and not feel the need to be taking in information through audiobooks, podcasts, or other news feeds. I could just walk and quietly be in the moment, as they said.
 
-Additionally, at night, previously I could not fall asleep without listening to an audiobook. The audiobook would keep my mind more focused on a continuous line of thought or plot, and after a few minutes, I'd drift off to sleep. Without the audiobook, though, my mind would chase different ideas and I'd have trouble falling asleep. If I didn't have an audio book, I'd have to wait until I was so exhausted that my mind was too tired to chase rabbit holes.
+I wasn't quite where I wanted to be, though. I still had much more progress to make.
 
-But without the smartphone, the pace of life seems to have slowed. Much of the incoming information has decreased. Granted, I'm still at a computer 8 hours a day, with email and chat all day. I'm by no means unplugged. But by not having my smartphone with me during other parts of my day, things do slow down a bit. And I feel more capable of long-form thought and concentration. My brain isn't on high speed with too much electrical energy.
 
-Instead, I'm at peace even when I don't have anything to read or listen to. I can sustain a more reflective mode, either ruminating on ideas I'm reading, or events of the day. It's hard to describe it, but I really do feel like something good is happening with my brain.
+## Sleep {#sleep}
 
-I've heard many people say that the Internet has rewired our brains, and I'm starting to think it's literal. I have more capacity for long-form attention now. I want to avoid saying that my brain is moving at a slower pace, because that suggests that I've dumbed down or something. It's not the case. Think of a slow-moving but still powerful river, or a slow-rolling train. I can focus in a more sustained way, concentrating on a single thing. The frenetic context-switching from task to task, always consuming information, is gone. I can go on long walks and not feel the need to be taking in information through audiobooks, podcasts, or other news feeds. I can just walk and quietly be in the moment, as they say.
+Was I sleeping better? A bit. I wanted to sleep more soundly, but I still sometimes woke up in the middle of the night, or an hour earlier than I’d like.
 
-I'm not totally where I want to be, though. I still have much more progress to make.
+I also hoped that I would have a lot more energy in the evenings, but so far, I didn't notice a surge of new energy.
 
-## Sleep
 
-Am I sleeping better? A bit. I would like to sleep more soundly, but I still sometimes wake up in the middle of the night, or an hour earlier than I'd like.
+## Driving {#driving}
 
-I also hoped that I would have a lot more energy in the evenings, but so far, I haven't noticed a surge of new energy.
+I found that driving was more enjoyable without a mapping application. It felt good to have a sense of where I was going without constantly looking at an electronic map (which rotated with the changing direction of the car) out of the corner of my eye. There was a lot of information a map imparted, not just the next direction but the larger context of the roadscape.
 
-## Driving
+Reliance on the map took some joy out of driving. Of course, so did being completely lost, but like I mentioned earlier, it was okay to get lost sometimes. Getting lost (when I wasn't late for a meeting) could be fun. (Even without using a mapping app, I had yet to actually get lost, dang it!)
 
-I do find that driving is much more enjoyable without a mapping application. It feels good to have a sense of where I'm going without constantly looking at an electronic map (always rotating with the changing direction of the car) out of the corner of my eye. There's a lot of information a map imparts, not just the next direction but the larger context of the roadscape.
+I mentioned that I had purchased several paper maps. I sometimes unfolded them fully on a small desk or laid them on the floor, staring at them for long periods of time, as if I was seeing the city for the first time. Paper maps gave me the big picture, allowing me to see more of the area as a whole. It was a different perspective that I didn't get when just looking at an electronic map zoomed in on my immediate surroundings. As a comparison, it was the difference between watching a sporting event in person, which allowed me to see the whole field or court at a time, vs. watching the same game on TV, which zoomed in to one part of the field or court, showing me only the ball's location and involved players.
 
-Reliance on the map takes some joy out of driving. Of course, so does being completely lost, but like I mentioned in an [earlier post](/smartphones/my-international-rules-for-smartphone-use.html#dont-rely-on-mapping-applications-for-directions), it's okay to get lost sometimes. Getting lost (when you're not late for a meeting) can be fun. (Even without using a mapping app, I've yet to actually get lost, dang it!)
 
-I mentioned that I've purchased several paper maps. I sometimes unfold them fully on a small desk or lay them on the floor and just stare at them for long periods of time, as if I'm seeing the city for the first time. Paper maps give you the big picture, allowing you to see more of the area as a whole. It's an interesting perspective that you don't get when just looking at an electronic map zoomed in to your immediate surroundings. As a comparison, it's the difference between watching a sporting event live, which allows you to see the whole field or court at a time and how the players occupy the space, versus watching the same game on TV, which zooms in to one part of the field or court, showing you only the ball's location and involved players.
+## Email {#email}
 
-## Email
+I continued to unsubscribe from nearly everything that landed in my inbox. It was amazing to me how emails kept on coming. Over 20 years, my email address had landed in so many companies and databases that newsletter spam and other incoming messages seemed endless. But I greatly thinned out the incoming information. And you know what? The fewer messages I got, the less likely I was to feel compelled to check my email. (But I still probably checked my email 20+ times a day, especially work email.)
 
-I continue to unsubscribe to nearly everything that lands in my inbox. It's amazing to me how email keeps on coming. Over 20 years, my email address has landed in so many companies and databases that the newsletter spam and other incoming messages seem endless. But I've greatly thinned out the incoming information. And you know what? The fewer messages I get, the less likely I am to feel compelled to check my email. (But I still probably check my email 20+ times a day, especially work email.)
+When you had a lot of incoming messages, there was a tendency to think that a lot was going on, that you were busy and life was full of events. It was an illusion. The constant barrage of incoming information made me feel that way—busy, important, like a lot was taking place. Turning off that firehose of information allowed me to relax and breathe a bit more. There was really not that much going on (for me anyway). 
 
-{% include ads.html %}
+Not a lot of people actually called or emailed me, surprisingly. If I got rid of all the communication that was not specifically to me as a person, I found that there was not much there. I was still working toward a state where 95% of email messages would be personally to me.
 
-When you have a lot of incoming messages, there's a tendency to think that a lot is going on, that you're busy and life is full of events going on. But it's an illusion. The constant barrage of incoming information made me feel that way -- busy, important, like a lot is going on. Turning off that firehose of information allowed me to relax and breathe a bit more. There's really not that much going on. The full email inbox is an illusion of busy-ness.
+I liked being able to define my own path online each day, rather than having to fight the pull of each message coming to my inbox and where it tried to redirect me. I liked to start my day by jotting down my priorities, and then tackling them. I wanted to establish my own path and not be hindered in sticking to my plan.
 
-Not a lot of people actually call or email me, surprisingly. If you get rid of all the communication that's not specifically to me as a person, you might find that there's not much there. I'm still working toward a state where 95% of email messages will be personally to me.
+Although some scenarios require smartphones, I could see now that I had overestimated their importance. I could get by without a phone in almost every situation, making it much less of an essential device. For those indispensable moments, an old smartphone connected to wifi would almost always handle it.
 
-I like being able to define my own path online each day, rather than having to fight the pull of each message coming to my inbox and where it tries to redirect me. I like to start my day by jotting down my priorities, and then tackling them. I want to establish my own path and not be hindered in sticking to it.
 
-## Scenarios where smartphones are required
+## Second-factor authentication {#second-factor-authentication}
 
-The scenarios where smartphones are required are few and far between. I have an LA Fitness membership, and printed membership cards are no longer available. Instead, the fitness club provides an app that launches a virtual membership card with a QR code to scan on your way in. Printing this QR code out doesn't seem to work flawlessly, as I believe the QR code might change each time or something. But at any rate, the clerk can just type in my phone number to look me up.
+One feature I didn't realize smartphones provided was a security token. You know how with second-factor authentication, you sometimes had to verify your login by acknowledging it was you on your smartphone? When you tapped "Yes, it's me" (or whatever), it was the equivalent of using a token. Without a smartphone, second-factor authentication was more problematic because Google's second-factor account verification didn't like sending an email or text to verify identity (the phone number could be intercepted, perhaps?).
 
-I deposited a check to my bank with my old smartphone. I still don't know where my nearest bank is. I think there may be value in visiting it one day.
+At any rate, I bought some Titan physical security tokens to use for second-factor authentication. I already used them so much at work, I’d grown accustomed to them.
 
-But overall, the smartphone isn't all that essential. I don't take nearly as many photos as I thought. (The camera I ordered was delayed, so I still haven't experienced the switch to a dedicated point-and-shoot as a way to capture and store family memories.)
 
-## Second-factor authentication
+## Phones {#phones}
 
-One feature I didn't realize smartphones provided is a security token. You know how with second-factor authentication, you sometimes have to verify your login by acknowledging it's you on your smartphone? When you tap “Yes, it's me” (or whatever), it's the near equivalent of using a token. Without a smartphone, second-factor authentication is more problematic because Google's second-factor account verification doesn't like to send an email or text to verify identity (the phone number can be intercepted, perhaps?).
+As for using the flip phone, I enjoyed it. The flip phone's form factor was unparalleled when used as an actual phone. There was something satisfying about starting and ending a call by flipping the phone open or closed, hearing the click. Smartphones functioned poorly as actual phones. The flip phone is even ergonomically contoured to your face.
 
-At any rate, I bought some Titan physical security tokens to use for second-factor authentication. I already use them so much at work, I've grown accustomed to them.
+I did find myself calling my wife and children a bit more. My wife knew that unless I was at work (where I had Vysor to emulate my flip phone's display and text more easily than on a TX9 keypad), it was better to call me. Texting was much more emotionally distant than calling on the phone anyway. Smartphones had made it easier to text, but they had also made it easier to interact in emotionally distant ways with people. The flip phone helped me actually talk to people using my voice. I didn't want it to be weird for my family to see an incoming call from me. If you never called with a phone (just text), that incoming call seemed reserved for emergencies or bad news. It shouldn't have been that way!
 
-## Phones
 
-As for using the flip phone, I enjoy it. The flip phone's form factor is unparalleled when used as an actual phone. There's something satisfying about starting and ending a call by flipping the phone open or closed, hearing the click. Smartphones suck as actual phones. The flip phone even ergonomically contours to your face.
+## Stress level {#stress-level}
 
-I do find myself calling my wife and children a bit more. My wife knows that unless I'm at work (where I have Vysor to emulate my flip phone's display and text more easily than on a TX9 keypad), it's better to call me. Texting is much more emotionally distant than calling on the phone anyway. Smartphones have made it easier to text, but they've also made it easier to interact in emotionally distant ways with people. The flip phone helps me actually talk to people using my voice. I don't want it to be weird for my family to see an incoming call from me. If you never call with a phone (just text), that incoming call seems reserved for emergencies or bad news. It shouldn't be that way!
+I observed that my stress level went down a few notches. I was already a low-stress person, and even back in college, my wife said I was always extra calm. But on a scale of 1-10, if 10 was a full adrenaline freakout, and 1 was practically asleep, I then operated at about a 3. Previously, I operated at about a 5.
 
-## Stress level
+Overall, I felt less stressed. It really would have taken something to get me worked up or upset. Someone could have started shouting in my face and wringing their hands at me, and I might have moved from a stress level of 3 to 4. However, gauging a before-and-after of stress levels was challenging because other life events were different earlier as well, like having presentations to prepare.
 
-I've observed that my stress level has gone down a few notches. I'm already a low-stress person, and even back in college, my wife says I was always extra calm. But on a scale of 1-10, if 10 is a full adrenaline freakout, and 1 is practically asleep, I now operate at about a 3. Previously, I think I operated at about a 5.
 
-It's hard to tell because I remember about a month before I abandoned my smartphone, and during that time I was working on an upcoming presentation as well as finishing docs for a big release at work. Now I don't have either hanging over me. But even without these events, I feel less stressed. It would really take something to get me worked up or upset. Someone could start shouting in my face and wringing their hands at me, and I might move from a stress level of 3 to 3.2.
+## News {#news}
 
-## News
+I didn't miss listening to or reading more news. Sometimes I turned the news on while driving home. It was like the newscasters sat down each day and asked, what were all the bad things going on in the world? What were the worst possible things happening? What truly awful things were going on? That was the news of the day!
 
-I don't miss listening or reading more news. Sometimes I turn the news on while driving home. It's like the newscasters sit down each day and ask, what are all the bad things going on in the world? What are the worst possible things happening? What truly awful shit is going on? That's the news for the day!
+Sports news was so bad it was comical. Watching Stephen A. on ESPN was pure entertainment, not actual news.
 
-Sports news is so bad it's comical. Watching Stephen A. on ESPN is pure entertainment, not actual news.
+Generally, I turned the news off as quickly as I turned it on. I sometimes scanned my tech comm feeds for interesting posts. There weren't many tech comm bloggers anymore, so this was usually a short foray. I also scanned some feeds on bike transit and urbanization, but not for long. I didn't like reading on screens.
 
-Generally, I turn the news off as quickly as I turn it on. I sometimes scan my tech comm feeds for interesting posts. There aren't many tech comm bloggers, though, so this is usually a short foray. I also scan some feeds on bike transit and urbanization, but not for long. I don't like reading on screens.
+If I found a worthwhile article, I saved it to My Pocket. Then I printed it out and read it. I had been printing a lot of things out and reading them—especially at work. I was amazed at how much more enjoyable it was to read printouts. I used to just scan and skim long company newsletters or articles. If I printed them out, however, I could read for 30-60 minutes. For example, the other day I printed out a 27 page EU legislation annex to read before a meeting. I was pretty sure I was the only one who read it.
 
-If I find an interesting article, I save it to My Pocket. Then I print it out and read it. I've been printing a lot of things out and reading them &mdash; especially at work. I'm amazed at how much more enjoyable it is to read printouts. I used to just scan and skim long company newsletters or articles. If I print them out, however, I can read for 30-60 minutes. For example, the other day I printed out a 27 page EU legislation annex to read before a meeting. I'm pretty sure I was the only one who read it.
 
-## Conclusion
+## Conclusion {#conclusion}
 
-Overall, life is better without a smartphone. How much better? So far, quite a bit. Granted, in abandoning the smartphone, I feel like I've rejected part of my tech membership, somehow. But one day I think more people will suddenly realize that smartphones haven't improved our quality of life. They have only reduced our quality of life, despite all the apps we thought were indispensable. Those apps really aren't. What is indispensable is life and the moments we lose out on.
-
-## References
-
-["Why am I suddenly listening to classical music more often?"](https://qr.ae/prGmZc) *Quora.* Answer from Brian Whitehead. 11 Dec 2016.
-
-## Next post 
-
-Continue on to the next post in this series: [One month in without a smartphone — growing doubts about the value of technology in general](/smartphones/one-month-in-without-a-smartphone.html).
+Overall, life was better without a smartphone. How much better? So far, quite a bit. Granted, in abandoning the smartphone, I felt like I had rejected part of my tech membership, somehow. But one day I thought more people would suddenly realize that smartphones hadn't improved our quality of life. They had only reduced our quality of life, despite all the apps we thought were indispensable. Those apps really weren't. What was indispensable was life and the moments we lose.
