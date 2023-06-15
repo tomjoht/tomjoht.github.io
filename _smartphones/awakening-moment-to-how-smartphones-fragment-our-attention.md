@@ -9,7 +9,7 @@ description: "I recently realized that absorbing the constant inflow of informat
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
-- /blog/awakening-moment-to-how-smartphones-fragment-our-attention.html
+- /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
 ---
 
 * TOC

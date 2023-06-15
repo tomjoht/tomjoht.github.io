@@ -125,7 +125,7 @@ But because the real problem (the increased workload) goes unaddressed, the real
 
 This scenario is particularly poignant for me because my dad was an alcoholic during my early childhood (before I can remember) and then became sober through Alcoholics Anonymous (AA). Despite becoming sober, throughout his life he continued to attend regular AA meetings and celebrate each year of his sobriety. My dad passed away in 2018, and about the only thing I still keep of his is this AA coin he received upon achieving his first year of sobriety:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/recoveryAA.JPG" alt="Celebrating a first year of sobriety in AA" />
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/recoveryAA.JPG" alt="Celebrating a first year of sobriety in AA" /><figcaption>AA coin my father received after achieving his first year of sobriety</figcaption></figure>
 
 He kept sober for the next 30+ years, but I'm guessing this first year (denoted by the Roman number "I") had a special significance to him because he finally broke the addiction cycle.
 
