@@ -12,6 +12,11 @@ redirect_from:
 - /blog/one-month-in-without-a-smartphone/
 ---
 
+{% if site.format == "web" %}
+{: .tip}
+<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
+{% endif %}
+
 * TOC
 {:toc}
 
@@ -132,9 +137,7 @@ The video was great but didn't make strong enough recommendations toward the end
 
 > I remember the world before social media. It was so much better than it is now!!
 
-
 > Man, I feel sorry for kids being raised on social media. Being in middle school, high school, and always comparing yourself to other people was tough back then. Today, there’s no escape from it because of social media. It’s constant.
-
 
 > And god, the freedom of being able to go to a show and not feel compelled to film it. Of not worrying about missed calls, texts, of just being able to disconnect. Those days are gone forever.
 

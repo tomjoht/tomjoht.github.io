@@ -12,6 +12,11 @@ redirect_from:
 - /blog/notes-on-recovering-the-lost-art-of-reading/
 ---
 
+{% if site.format == "web" %}
+{: .tip}
+<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
+{% endif %}
+
 * TOC
 {:toc}
 
