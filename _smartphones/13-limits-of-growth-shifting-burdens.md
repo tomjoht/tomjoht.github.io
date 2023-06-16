@@ -1,5 +1,5 @@
 ---
-title: "From smartphones to Netflix: moving past plateaus in growth"
+title: "13. From smartphones to Netflix: moving past plateaus in growth"
 permalink: /smartphones/limits-of-growth-shifting-burdens.html
 categories:
 - technical-writing
@@ -54,7 +54,7 @@ But I also realized what else I'd been doing: watching Netflix more and more. Gr
 
 It turns out there are a couple of theories that explain my behavior. In _The Fifth Discipline_, Peter Senge, describing systems theory, says systems have balancing functions. After some initial success, it’s often followed by a plateau and eventual decline due to a secondary force that emerges as a consequence of the actions taken to achieve the initial success. The system balances itself out. Senge says this pattern recurs so frequently he calls it the “Limits to Growth” system archetype. He defines this archetype as follows:
 
-> ** Archetype 1: Limits to Growth Definition.** A reinforcing (amplifying) process is set in motion to produce a desired result. It creates a spiral of success but also creates inadvertent secondary effects (manifested in a balancing process) which eventually slow down the success. (94)
+> **Archetype 1: Limits to Growth Definition.** A reinforcing (amplifying) process is set in motion to produce a desired result. It creates a spiral of success but also creates inadvertent secondary effects (manifested in a balancing process) which eventually slow down the success. (94)
 
 He gives the example of managers who cut staff to reduce expenses only to find that the company pays contractors more because the same amount of work is expected to get done, or the company spends more on overtime pay. Contractors and overtime pay are secondary effects that emerge to restore balance to the system, eliminating the initial savings gain. Senge says, “_The system has its own agenda_. There is an implicit goal, unspoken but very real—the amount of work that is expected to get done” (84). The managers still expected similar amounts of work to get done, so the system found a way to accomplish this goal. In doing so, it balanced itself out.
 

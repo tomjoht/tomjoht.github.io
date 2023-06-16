@@ -1,5 +1,5 @@
 ---
-title: "Conclusion and takeaways from my Journey Away from Smartphones series"
+title: "20. Conclusion and takeaways from my Journey Away from Smartphones series"
 permalink: /smartphones/conclusion-and-learnings-smartphone-series.html
 categories:
 - technical-writing
@@ -203,22 +203,21 @@ In this series, I listed various technology rules that I would follow, which is 
 
 Also, remember that what might work for one person might not make sense for another. My rules fit me, based on those apps that are _my_ kryptonite, based on my social needs with my family, and my work. Here are my latest smartphone rules:
 
-1.** Disable addictive apps.** Using a smartphone (instead of a basic phone) is OK as long as the distracting elements are neutralized. For example, remove news, social media, and sports apps. Also, disable Chrome and Gmail (both work and personal versions). 
-2.** No devices in the bedroom.** Don’t take smartphones or laptops into bed (to view streaming media). Take a book instead.
-3.** Disable notifications.** Try to keep the phone in Do Not Disturb mode—disable app notifications and phone calls except for family and calendar apps. Same with email and chat notifications on desktop—mute them.
-4.** Read news offline.** Get your primary news offline rather than online.
-5.** Avoid non-personal email.** Keep your email inbox light by unsubscribing to almost everything.
-6.** Avoid using GPS to navigate.** Don’t rely on mapping applications when driving if you can help it. Learn the logic of the streets. (GPS can, however, be a tool if you’re actively learning and exploring new areas.)
-7.** Avoid using social media as entertainment.** You can check it every so often to gather information, but generally, it’s not worthwhile to consume social media as entertainment.
+1. **Disable addictive apps.** Using a smartphone (instead of a basic phone) is OK as long as the distracting elements are neutralized. For example, remove news, social media, and sports apps. Also, disable Chrome and Gmail (both work and personal versions). 
+2. **No devices in the bedroom.** Don’t take smartphones or laptops into bed (to view streaming media). Take a book instead.
+3. **Disable notifications.** Try to keep the phone in Do Not Disturb mode—disable app notifications and phone calls except for family and calendar apps. Same with email and chat notifications on desktop—mute them.
+4. **Read news offline.** Get your primary news offline rather than online.
+5. **Avoid non-personal email.** Keep your email inbox light by unsubscribing to almost everything.
+6. **Avoid using GPS to navigate.** Don’t rely on mapping applications when driving if you can help it. Learn the logic of the streets. (GPS can, however, be a tool if you’re actively learning and exploring new areas.)
+7. **Avoid using social media as entertainment.** You can check it every so often to gather information, but generally, it’s not worthwhile to consume social media as entertainment.
 
 Here are some best practices related to focus: 
 
-1.** Approach tasks in 90-minute pomodoros.** During the 90 minutes, don’t get pulled into distractions (such as email or news).
-2.** Do TPN warmups to get into the zone.** To switch into TPN mode, do the task for 5 minutes. Then alternate back and forth until your TPN engine is fully warmed up and you no longer need the timer.
-3.** Read print books regularly and voraciously**. Reading is key to providing the fodder for writing—both reading and writing fuel each other.
+1. **Approach tasks in 90-minute pomodoros.** During the 90 minutes, don’t get pulled into distractions (such as email or news).
+2. **Do TPN warmups to get into the zone.** To switch into TPN mode, do the task for 5 minutes. Then alternate back and forth until your TPN engine is fully warmed up and you no longer need the timer.
+3. **Read print books regularly and voraciously**. Reading is key to providing the fodder for writing—both reading and writing fuel each other.
 
 The process is an ongoing refinement about what works and what does not, taking the best of what new technology offers and toning down the bad.
-
 
 ## Recommended reading list {#recommended-reading-list}
 

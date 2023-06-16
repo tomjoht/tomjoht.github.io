@@ -1,5 +1,5 @@
 ---
-title: "Spatial and scientific reasoning from wayfinding"
+title: "11. Spatial and scientific reasoning from wayfinding"
 permalink: /smartphones/wayfinding-scientific-reasoning.html
 categories:
 - technical-writing

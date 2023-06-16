@@ -1,5 +1,5 @@
 ---
-title: "What the Default Mode Network (DMN) and Task Positive Network (TPN) modes of the brain teach us about focus"
+title: "18. What the Default Mode Network (DMN) and Task Positive Network (TPN) modes of the brain teach us about focus"
 permalink: /smartphones/dmn-and-tpn-brain.html
 categories:
 - technical-writing

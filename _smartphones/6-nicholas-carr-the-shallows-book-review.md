@@ -1,5 +1,5 @@
 ---
-title: "Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
+title: "6. Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
 permalink: /smartphones/nicholas-carr-the-shallows-book-review.html
 categories:
 - technical-writing

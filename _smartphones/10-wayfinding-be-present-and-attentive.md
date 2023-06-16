@@ -1,5 +1,5 @@
 ---
-title: "Wayfinding requires you to be present in the world"
+title: "10. Wayfinding requires you to be present in the world"
 permalink: /smartphones/wayfinding-be-present-and-attentive.html
 categories:
 - technical-writing

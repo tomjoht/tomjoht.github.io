@@ -1,5 +1,5 @@
 ---
-title: "Random notes on recovering the lost art of reading"
+title: "8. Random notes on recovering the lost art of reading"
 permalink: /smartphones/notes-on-recovering-the-lost-art-of-reading.html
 categories:
 - technical-writing

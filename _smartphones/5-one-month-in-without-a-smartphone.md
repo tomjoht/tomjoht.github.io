@@ -1,5 +1,5 @@
 ---
-title: "One month in without a smartphone -- growing doubts about the value of technology in general"
+title: "5. One month in without a smartphone -- growing doubts about the value of technology in general"
 permalink: /smartphones/one-month-in-without-a-smartphone.html
 categories:
 - technical-writing
@@ -33,7 +33,6 @@ When did we all start reading exclusively on screens in the first place? Screens
 While initially I developed a distaste for smartphone screens (due to their attention-wrecking influence), I’ve become more distrustful of screens in general, including computer screens. When I look around me, it seems that everyone is focused on screens of some sort almost all day long. In the morning, we eat breakfast and stare at our smartphones, then we sit at our desks and stare at computer screens all day at work, then in the evenings we look at TV screens for entertainment. Those driving the latest cars often have huge multi-color infotainment screens as well (e.g., look at any Tesla). Is this what life has come to—to always be looking at screens?
 
 I do feel a growing cognitive dissonance about technology in general. Since moving away from smartphones was so satisfying, I keep wondering, what else can I abandon? How else can I move back into the 90s or early 2000s with tech? Do I start composing blog posts longhand? Do I explore vinyl records?
-
 
 ## **Driving without a screen** {#driving-without-a-screen}
 

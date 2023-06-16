@@ -1,5 +1,5 @@
 ---
-title: "Driving without GPS -- the desire to be free and in control"
+title: "12. Driving without GPS -- the desire to be free and in control"
 permalink: /smartphones/wayfinding-driving-without-gps-freedom-and-control.html
 categories:
 - technical-writing

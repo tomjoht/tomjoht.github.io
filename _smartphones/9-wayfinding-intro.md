@@ -1,5 +1,5 @@
 ---
-title: "Wayfinding -- finding my way without GPS"
+title: "9. Wayfinding -- finding my way without GPS"
 permalink: /smartphones/wayfinding-intro.html
 categories:
 - technical-writing

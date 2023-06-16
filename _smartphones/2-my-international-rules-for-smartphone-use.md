@@ -1,5 +1,5 @@
 ---
-title: "My initial rules and reasons for intentional smartphone use"
+title: "2. My initial rules and reasons for intentional smartphone use"
 permalink: /smartphones/my-international-rules-for-smartphone-use.html
 categories:
 - technical-writing

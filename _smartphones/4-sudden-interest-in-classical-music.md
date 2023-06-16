@@ -1,5 +1,5 @@
 ---
-title: "More developments on my journey away from smartphones &mdash; a sudden interest in classical music?"
+title: "4. More developments on my journey away from smartphones &mdash; a sudden interest in classical music?"
 permalink: /smartphones/sudden-interest-in-classical-music.html
 categories:
 - technical-writing

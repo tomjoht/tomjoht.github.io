@@ -118,3 +118,5 @@ If we’d had Doctave then, things would have been much simpler!
 <hr/>
 
 *Learn more about [Doctave](https://doctave.com?utm_source=idratherbewriting&utm_campaign=faq).*
+
+{% include ads.html %}

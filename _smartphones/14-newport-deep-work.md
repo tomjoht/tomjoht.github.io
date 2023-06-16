@@ -1,5 +1,5 @@
 ---
-title: "Techniques for deep work from Cal Newport"
+title: "14. Techniques for deep work from Cal Newport"
 permalink: /smartphones/newport-deep-work.html
 categories:
 - technical-writing
@@ -42,7 +42,7 @@ Newport also spends a lot of time arguing for the value of deep work over shallo
 
 First, let’s start with some basic definitions. Newport defines deep work as follows:
 
-> ** Deep Work:** Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.” (3)
+> **Deep Work:** Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.” (3)
 
 Notice that deep work pushes your cognitive capabilities, requiring focus and concentration. It’s usually not something you can do while watching Netflix from the corner of your screen.
 
@@ -50,7 +50,7 @@ Notice that deep work pushes your cognitive capabilities, requiring focus and co
 
 In contrast, shallow work is as follows:
 
-> ** Shallow Work:** Non-cognitively demanding, logistical-style tasks, often performed while distracted. These efforts tend to not create much new value in the world and are easy to replicate. (6)
+> **Shallow Work:** Non-cognitively demanding, logistical-style tasks, often performed while distracted. These efforts tend to not create much new value in the world and are easy to replicate. (6)
 
 In distinguishing between deep work and shallow work, Newport says to use this test: consider whether the work could be done by a bright, young college graduate. Ask yourself, “How long would it take (in months) to train a smart recent college graduate with no specialized training in my field to complete this task?” (229). If the answer is that the college grad could learn to do this task within a few weeks of training, you're not doing deep work.
 

@@ -1,5 +1,5 @@
 ---
-title: "First experiences in moving away from smartphones"
+title: "3. First experiences in moving away from smartphones"
 permalink: /smartphones/first-experiences-moving-away-from-smartphones.html
 categories:
 - technical-writing

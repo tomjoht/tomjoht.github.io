@@ -1,5 +1,5 @@
 ---
-title: "The diametric pull towards technology vs. wildness"
+title: "19. The diametric pull towards technology vs. wildness"
 permalink: /smartphones/diametric-pull-towards-tech-and-wildness.html
 categories:
 - technical-writing

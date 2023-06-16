@@ -1,5 +1,5 @@
 ---
-title: "My awakening moment about how smartphones fragment our attention span"
+title: "1. My awakening moment about how smartphones fragment our attention span"
 permalink: /smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html
 categories:
 - technical-writing
@@ -165,4 +165,5 @@ As I waited for it to arrive, I started preparing. How would I navigate a city w
 I anticipated navigating other challenges, like how to deal with the cognitive dissonance of working for big tech. Could someone who worked for big tech use a flip phone? Yet I liked the idea, argued by Hari, Williams, and Newport, that we need to be aware of technology’s designs and ensure that tech is working _for_ us rather than _against_ us. I didn’t want to throw the baby out with the bathwater when it comes to technical innovations, but I grew increasingly skeptical that my smartphone was working for me.
 
 Though still in the awakening phase, and still waiting for my basic phone to arrive, I was excited about the initial results. Specifically, I was most excited about the possibility of reclaiming _myself_. As Newport and others have said, it’s not about sacrificing your smartphone, as if you’re giving up some significant element in your life. It’s about what you’re getting. I started to see glimpses of my old self return. I started to think at stoplights again! In the elevator, I stopped reaching for something to distract me. I began to think again for myself. I started finishing books.
+
 **6/25/2022 note:** This post was discussed on [Hackernews](https://news.ycombinator.com/item?id=31874846). See the conversation thread there for lively comments.

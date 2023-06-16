@@ -1,5 +1,5 @@
 ---
-title: "From monkey mind to calm, ordered consciousness -- even outside of flow? Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
+title: "17. From monkey mind to calm, ordered consciousness -- even outside of flow? Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
 permalink: /smartphones/from-monkey-mind-to-calm-consciousness.html
 categories:
 - technical-writing
