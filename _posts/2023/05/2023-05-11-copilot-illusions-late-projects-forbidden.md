@@ -22,8 +22,6 @@ The site says, "We're exploring a way to get you the information you need, faste
 
 With Copilot for Docs, we’re seeing a trend towards micro-focused bots (chatbots constrained to a specific set of documentation) as a way to provide accurate answers. This trend is good news for tech writers because it means companies will want to provide abundant training data for their documentation. In my experience, when you use these micro-chatbots, it becomes immediately apparent whether they have a strong foundation of documentation. If not, the bot frequently says it doesn't know the answer to your questions. Whereas the more general AI chats hallucinate at this point, or string together more farfetched information sources to predict an answer, the constrained chats admit a lack of knowledge. This model could create more demand for documentation.
 
-{% include newsletterlink4.html %}
-
 ## "What doc platform is this site using? It looks really nice…"
 
 This is a question that often lands in my inbox: "Do you know what doc tool is used for [x] site?” The latest question someone asked me was about [OpenAI’s docs](https://platform.openai.com/docs/introduction), which admittedly look nice. There’s a great tool for investigating the technologies a site uses: [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg), which is a Chrome extension. Click the Wappalyzer button while viewing a site, and probably half the time you can identify the platform. A lot of times, the static site generator gets included in the “generator” HTML tag, and Wappalyzer easily identifies it. If Wappalyzer just says “React,” as is the case with OpenAI’s docs, it could be a custom site and not the output of any specific documentation platform. 
@@ -34,8 +32,6 @@ If the project is on GitHub, you can view the source structure. You could then a
 
 If all this fails, try searching for the “company name + technical writer” on Linkedin and see if you can identify someone who works there. Usually tech writers are happy to share some basic details about doc platforms.
 
-{% include newsletterlink2.html %}
-
 ## The Illusion of Explanatory Depth
 
 [The Illusion of Explanatory Depth](https://www.edge.org/response-detail/27117) is a cognitive bias in which people overestimate their understanding of a process or system. This bias can lead to problems when people are asked to explain how something works, as they may be unable to do so accurately. The term was coined in 2002 by Leonid Rozenblit and Frank Keil, who stated, “Most people feel they understand the world with far greater detail, coherence, and depth than they really do.”
@@ -44,8 +40,6 @@ I find myself returning to this illusion more and more. Its application to writi
 
 It’s also good to keep this illusion in mind when estimating a task in someone else’s domain. Most of the time, things are more complex than they appear on the surface. 
 
-{% include newsletterlink3.html %}
-
 {% include ads.html %}
 
 ## Here’s Why All Your Projects Are Always Late — and What to Do About It — Freakonomics podcast
@@ -53,8 +47,6 @@ It’s also good to keep this illusion in mind when estimating a task in someone
 [This Freakonomics podcast](https://freakonomics.com/podcast/heres-why-all-your-projects-are-always-late-and-what-to-do-about-it/) gets into psychological theories about why we underestimate the time it takes to finish projects. The hosts discuss a phenomenon called _optimism bias_, in which people naturally embrace best-possible outcomes rather than reality. The hosts say the way to properly plan projects is by comparing them to similar projects to estimate timelines. Also, develop algorithms based on those projects that help you quantify the timeline. Don’t use your optimistically minded brain to pick a date when you assume you’ll finish. 
 
 I found the podcast relevant because, like most, I occasionally fall prey to procrastinating a project, only to spend enormous amounts of bandwidth near the deadline that leads to stress and burnout. If I could just plan more judiciously, I could avoid these traps. Simply by being aware that we have an optimism bias, we can identify the timeline bias and offset it with some deserved pessimism. For example, I can anticipate that all kinds of unexplainable nonsense will happen on this project that will extend the timeline beyond my estimations.
-
-{% include newsletterlink1.html %}
 
 ## Do you know how many subscribers this newsletter has?
 

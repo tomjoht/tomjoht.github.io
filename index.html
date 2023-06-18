@@ -4,7 +4,6 @@ layout: default
 focus: noform
 ---
 <div class="post-content">
-
     <div class="home-post-title">
         {% for post in paginator.posts %}
         <div class="entry"><a href="{{ post.url }}">{{ post.title }}</a>
@@ -14,14 +13,13 @@ focus: noform
                 <a href="{{ "/category-" | prepend: site.baseurl | append: cat}}">{{cat}}</a>{% unless forloop.last %}, {% endunless%}
                 {% endfor %}
             </div>
-            <div>{% if post.image %}
+            {% if post.image %}
                 <div class="thumb"> <a href="{{ post.url }}"><img src="{{post.image}}" alt="{{post.title}}"/></a>
-                </div>
+                
                 {% endif %}
                 <p>{{post.description | strip_html }}</p>
-
             </div>
-            <div style="clear:left;"></div>
+
             {% endfor %}
 
         </div>

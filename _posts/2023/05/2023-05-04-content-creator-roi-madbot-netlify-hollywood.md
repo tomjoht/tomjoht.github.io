@@ -58,6 +58,3 @@ Note that the next 8-week Jump School seminar starts May 8, 2023. There's also a
 Hollywood creatives plan to incorporate AI-restrictions as they negotiate labor contracts. Writers are mostly worried about stylistic theft. They fear producers will train AI by feeding it the author’s style and then generate a copy following that style. This concern is fairly known. But they’re also concerned about another scenario: AI could create adaptations of literary material for other formats, such as a screenplay from a novel. 
 
 Matters of artistic style aren’t present in tech comm, but surely AI might be successful at adapting technical material from one format to another &mdash; such as creating eLearning modules or marketing from documentation. Traditionally, one argument for enterprise content re-use has been to repurpose source material in different deliverables: documentation, marketing material, white papers, training, e-learning, webinars, slides, and more. We might see a blurring of boundaries between these categories, as AI might be able to adapt source content into these other formats, following specific instructions about style. [Read more >](https://www.nytimes.com/2023/04/29/business/media/writers-guild-hollywood-ai-chatgpt.html)
-
-
-

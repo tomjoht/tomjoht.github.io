@@ -24,8 +24,6 @@ That said, this solution seems more oriented toward startups. Big companies will
 
 Also, Doctave is written in Rust. From what I can see on [Jamstack](https://jamstack.org/generators/), only 3 other static site generators are written in Rust: mdBook, Zola, and Cobalt. How fast does a Rust-based SSG build a site consisting of thousands of pages? If it’s similar to Zola, it's apparently fast. Zola is 4x faster than Hugo, according to [TQdev.com](https://tqdev.com/2023-zola-ssg-is-4x-faster-than-hugo). Maybe Rust was a great choice here. 
 
-{% include newsletterlink1.html %}
-
 ## Chatbase and SiteGPT — add an AI Chatbot to your website
 
 Both [Chatbase](https://www.chatbase.co/) and [SiteGPT](https://sitegpt.ai/) allow you to easily add an AI chatbot to your site. The chatbots are constrained to a specific website or set of documents, allowing you to create specialized chatbots that can answer subject-specific questions. Chatbase’s [featured chatbots](https://www.chatbase.co/featured-chatbots) show examples of chatbots focused on specific texts or websites. Chatbase’s cost is based on message credits and tokens used per month. SiteGPT’s cost is based on the number of pages you train, with 5,000 web pages requiring $499/month.
@@ -42,8 +40,6 @@ Right now we’re in the figure-it-out phase with AI chat models. Will each webs
 
 I’m also curious what these plug-and-play chatbots do that the basic AI chatbot configuration described in OpenAI’s docs &mdash; [How to build an AI that can answer questions about your website](https://platform.openai.com/docs/tutorials/web-qa-embeddings) &mdash; wouldn’t accomplish, and how much the build-it-yourself model actually costs in terms of API usage. In other words, what features/optimization are Chatbase, SiteGPT, and Markprompt adding that aren’t possible with the method described in OpenAI’s docs? And isn’t there a GitHub project somewhere that offers an easy integration that one can just drop in, customizing an API key?
 
-{% include newsletterlink2.html %}
-
 ## Not your typical technical writing course (Sponsor)
 
 Universities and other institutions teach by copying available material in existing courses and stuffing your head with information that may or may not apply to get started as a technical writer.
@@ -51,8 +47,6 @@ Universities and other institutions teach by copying available material in exist
 [Jump School](https://idbwrtng.com/becometechnicalwriter2) focuses on exercising knowledge &mdash; doing exercises, creating documents, and building a portfolio. 
 
 These courses are “lean” and not full of theoretical or abstract knowledge so most members who earn a certificate are actively working in the industry within a few months. [Learn more >](https://idbwrtng.com/becometechnicalwriter3)
-
-{% include newsletterlink3.html %}
 
 ## Small CLs that focus on "just one thing"
 
@@ -70,8 +64,6 @@ Most people would rather be presented with a handful of small CLs instead of one
 
 {% include ads.html %}
 
-{% include newsletterlink4.html %}
-
 ## Testers needed for new TC bibliographic database
 
 Dr. Avon Murphy, who has been a researcher, teacher, book reviewer, editor, etc. for more than 50 years, is working with a group of computer science students to develop a comprehensive bibliographic database for tech comm research. The team is nearing completion with the bibliography project and looking for testers. Reach out to Avon at avonmu@comcast.net if you’re interested in doing usability testing. Formal testing will begin in Fall 2023.
@@ -81,8 +73,7 @@ Murphy’s bibliographic project was featured in a recent article by editor Miri
 If you’re looking to build your tech comm group on best practices, or want to back your practices with research, the bibliographic database can help you find this research. Murphy continues:
 
 > “The project is a continuously updated web-based bibliography of technical communication articles published beginning in 2000. As a reviewer of hundreds of manuscripts, I’ve seen that researchers often have difficulty discovering relevant articles. The service is meant to address this problem.
-
-
+> 
 > ... The project will open to users in May 2023 or a few weeks later. ... Users can search by author’s name, article title, journal name, and year. Most importantly, they can do deep subject searches taking advantage of hundreds of subject tags and artificial intelligence. Our sources include full runs of 60 journals of special interest to technical communicators, such as _IEEE Transactions on Professional Communication, Journal of Business and Technical Communication, Journal of Scholarly Publishing, Journal of Technical Writing and Communication, Technical Communication, Technical Communication Quarterly,_ and _Written Communication_.” 
 
 Again, reach out to Avon Murphy if you’d like to test the bibliography system.

@@ -26,8 +26,6 @@ The principles page explains:
 
 Disclosing AI assistance is an interesting rhetorical move. Microsoft's justification for the AI content generation is to expand doc coverage into additional programming languages and scenarios. The expansion might unsettle writers (first steps toward obsolescence?); on the other hand, it might also help them feel more empowered. [Read more >](https://learn.microsoft.com/en-us/principles-for-ai-generated-content)
 
-{% include newsletterlink2.html %}
-
 ## How I Built WritingGPT, a Fully Automated AI Writing Team, by Thomas Smith
 
 Although this seems like another wild claim about what ChatGPT can do, this article is actually brilliant. Smith describes how he divided the writing process into 5 tasks, each fed separately into GPT-4 APIs. He used AutoGPT to chain together each of the 5 tasks and had the API perform a specialized role with each task. AutoGPT consists of “AI agents that combine AI systems together in chains, improving their output by having the AI systems work together.”
@@ -46,8 +44,6 @@ He calls this whole solution WritingGPT. Smith says,
 
 By decomposing AI bots into specialized assembly workers each focusing on a specific task, the process more closely mirrors the human writing process. The API cost for a 1,000-word article is about $1 to produce the output. [Read more >](https://medium.com/the-generator/how-i-built-writinggpt-a-fully-automated-ai-writing-team-a8fdf0255586)
 
-{% include newsletterlink1.html %}
-
 {% include ads.html %}
 
 ## DevDocs: Your do-it-all documentation project partner (Sponsor)
@@ -57,8 +53,6 @@ Is your doc team overloaded with doc requests? Is your bandwidth constrained due
 [DevDocs](https://idbwrtng.com/devdocs) provides comprehensive consulting services to help organizations streamline technical writing needs. DevDocs goes beyond writing and consulting, offering a full suite of services, including design, tool implementation, and custom development. 
 
 Whether you need assistance with API documentation, SDKs, content writing, or any other documentation needs, DevDocs has the expertise and resources to get the job done. DevDocs empowers you to focus on your core business while handling your documentation needs. With a proven track record of guiding companies to success, DevDocs can help take your organization’s documentation to the next level. [Learn more >](https://idbwrtng.com/devdocs)
-
-{% include newsletterlink4.html %}
 
 ## The State of Tools, by Christina Mayr
 
@@ -71,8 +65,6 @@ Also, as tools become easier to use, writers can focus more on content. Mayr say
 I agree that tools shouldn’t get in the way of content creation and publication. Mayr’s article is a helpful reminder that my preference for docs-as-code tools is likely heavily influenced by being in the API documentation space. Were I writing for end-users, for translation, for the enterprise, for hardware, or for a regulated industry, another set of tools might be more applicable.
 
 Although I’ve veered away from tool development and “document engineering” type roles given that my current workplace already has robust authoring tools and workflows in place, I’m personally keen to become more tools savvy again, especially as AI threatens to automate content creation. The tools in the API doc space follow [Jamstack trends](https://jamstack.org/survey/2022/) and tend to involve a complex number of tools and services working together. Additionally, I want to learn more about integrating AI chat experiences into docs. [Read more >](https://www.stc.org/intercom/2023/04/the-state-of-tools/)
-
-{% include newsletterlink3.html %}
 
 ## If someone’s having to read your docs, it’s not “simple”, by General Products
 

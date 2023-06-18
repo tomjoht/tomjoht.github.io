@@ -21,8 +21,6 @@ Docusaurus, developed by Meta's Open Source Community, is a static-site generato
 
 For an excellent post comparing Docusaurus with Gatsby and Hugo, see [Docusaurus vs Gatsby vs Hugo](https://wtjungle.com/blog/docusaurus-gatsby-hugo/) by David Simão. For a counterargument against Docusaurus in favor of Hugo, see [Moving from Docusaurus to Hugo](https://ricard.dev/moving-from-docusaurus-to-hugo/) by Richard Torres.
 
-{% include newsletterlink4.html %}
-
 ## Lens (AI search)
 
 Lens is an AI search tool provided by Gitbook that toggles between regular search and AI chat. If you have a Gitbook project, you can toggle on Lens AI search through your project settings. Or you can implement Lens in another project using Gitbook APIs. Lens uses the OpenAI API “to pass your content to OpenAI to index and process data.” Once implemented, users can “simply tell Lens what you want — it’ll scan your documentation and summarize the results in seconds.”
@@ -32,8 +30,6 @@ What content does Lens draw upon? According to their Q&A, “GitBook Lens consta
 By creating a toggle between "search" and "lens," the widget provides an interesting evolution in search. It suggests that users prefer to search or chat ad different times. Perhaps chat can help users figure out the right terms to search, and vice versa.
 
 Overall, I suspect more AI-powered search widgets will be available for docs. Read more on the [Lens product page](https://www.gitbook.com/solutions/ai) or the [Lens (AI search) intro](https://docs.gitbook.com/product-tour/searching-your-content/lens) in the GitBook docs.
-
-{% include newsletterlink3.html %}
 
 ## The only technical writing certificate for career changers (Sponsor)
 
@@ -52,8 +48,6 @@ Tip: Use code `April100` when [signing up for the Jump School](https://idbwrtng.
 
 [Learn more >](https://idbwrtng.com/becometechnicalwriter2)
 
-{% include newsletterlink2.html %}
-
 ## Discover the New Edition of Docs Like Code: Available Now, by Anne Gentle
 
 Anne Gentle released an updated edition of *Docs Like Code*. She says 5 years have passed since its publication. With this updated version, she added a new subtitle: “Collaborate and Automate to Improve Technical Documentation.” She also added information on “how to eliminate biased language. The tools are ready: you can encode inclusive language policies for linters such as alex or woke.”
@@ -65,8 +59,6 @@ The mention of scale is worth commenting on. When docs-as-code approaches first 
 Gentle also makes updates about freely available style guides: “There are even open-source rulesets for the Microsoft or Google Style Guides available for free, which you can enable as tests in a CICD pipeline.” 
 
 Gentle’s first book was on wikis. Five years after that publication, wikis mostly fizzled. The same isn’t true for docs-as-code sites. Five years after this publication, docs-as-code sites became the default for API documentation sites. [Read more >](https://justwriteclick.com/2022/12/07/discover-the-new-edition-of-docs-like-code-available-now/) 
-
-{% include newsletterlink1.html %}
 
 ## Meandering thoughts on my 2022 site analytics
 

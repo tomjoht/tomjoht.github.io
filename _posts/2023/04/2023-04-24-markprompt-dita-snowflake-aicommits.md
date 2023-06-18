@@ -17,8 +17,6 @@ description: "The latest techcomm news for April 24, 2023."
 
 Last week I played around with Markprompt, integrating it in a basic way on my [API doc site](https://idratherbewriting.com/learnapidoc) (click the Chat button). During the process, I had a few questions, mostly around how to optimize content for embedding. I asked the co-founder, Michael Fester, if he’d be up for a Q&A post, and he agreed. Our Q&A exchange covers everything from the history of Markprompt to strategies for links, analytics workflows, optimal page sizes, preventing hallucination, structure and semantics, branding, privacy, and more. If you’re looking to move toward integrating GPT-style chat into your docs, especially with Markprompt, this post might help clarify some details. [**Read more >**](https://idbwrtng.com/markprompt-questions-and-answers)
 
-{% include newsletterlink1.html %}
-
 ## Not your typical technical writing course (Sponsor)
 
 Universities and other institutions teach by copying available material in existing courses and stuffing your head with information that may or may not apply to get started as a technical writer.
@@ -31,8 +29,6 @@ If you sign up for the Jump School, you can save $100 off the course price when 
 
 [**Learn more >**](https://idbwrtng.com/becometechnicalwriter3)
 
-{% include newsletterlink4.html %}
-
 ## What is LearningDITA? (podcast)
 
 The latest podcast from Scriptorium focuses on their [LearningDITA course](https://learningdita.com/), which has about 15,000 users so far. It seems to be a highly popular and valuable offering for learning DITA. The last time I mentioned LearningDITA on my blog was [back in 2015](https://idratherbewriting.com/2015/07/28/learning-dita-scriptorium-course/), when the course launched. In 2014, I was learning and experimenting with DITA as a way for managing doc content outside of Drupal. At the time, DITA tutorials were scarce and it seemed like DITA experts preferred to hold expensive DITA bootcamps instead of openly sharing the knowledge online. That’s why LearningDITA, a free resource, was such a welcome addition on the internet.
@@ -40,8 +36,6 @@ The latest podcast from Scriptorium focuses on their [LearningDITA course](https
 Although the ChatGPT wasn’t discussed during the podcast, I was curious how much ChatGPT knows about DITA. From my initial playing around, quite a lot. ChatGPT gave me code samples of the several topic types in DITA (e.g., task, reference, troubleshooting). It also converted the format of unstructured content to DITA structure. I’m not sure how accurate its DITA knowledge is, since I haven’t used DITA for more than a decade. But if you’re in a DITA environment, ramping up, it might be worth exploring ChatGPT (or Bard &mdash; it also seemed familiar with DITA) as a complement to the tutorials in the Learning DITA course. 
 
 Reference documentation like the [OASIS DITA schema](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/base/topicover.html#topicsoverview) could benefit from a more interactive user experience. Reference docs are almost always consulted on a per-question basis (for example, what is X element). AI tools can pull that info out quickly and promptly. [**Read more >**](https://www.scriptorium.com/2023/04/what-is-learningdita-podcast/)
-
-{% include newsletterlink2.html %}
 
 ## Building a New Platform for Snowflake Documentation: Part I and II, by James Lai
 
@@ -52,8 +46,6 @@ In brainstorming a new site, the team examined systems they enjoyed and noted pa
 Although Snowflake’s other sites used Go, the doc team needed more interactivity and so chose Next.js, based on React. Interactive elements they wanted included "collapsing sidebars, collapsible navigation, tabs for displaying multiple languages in examples ... interactive examples and results, diagrams, and even feedback systems." Lai says that "If we were to use Go to build the platform, the interaction with the code at that point becomes split-brained.“
 
 The team chose Next.js+React over Go+React because it provided server-side rendering capabilities, better interactivity, and efficient page transitions. For styling, they chose TailwindCSS. They still used Sphinx for building the basic HTML but then passed the HTML to Next.js for the layout. However, Sphinx's build times were still lengthy (because Sphinx can’t rebuild just the changed pages). To address this, they moved some build processes to Jenkins to free up writers’ bandwidth from local builds. This dropped their build times from 45 minutes on a local computer to 7 minutes on a server. You can view their new doc site [here](https://docs.snowflake.com/). **Read more >** [Part I](https://medium.com/snowflake/building-a-new-platform-for-snowflake-documentation-part-i-f655acdadc34), [Part II](https://medium.com/snowflake/building-a-new-platform-for-snowflake-documentation-part-ii-9b01bf08e7e7)
-
-{% include newsletterlink3.html %}
 
 {% include ads.html %}
 

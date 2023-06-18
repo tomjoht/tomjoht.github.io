@@ -105,9 +105,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                  {% comment %}
-                  {% include navtoggle.html %}
-                  {% endcomment %}
+
                   <!-- single item nav items appear here -->
                     {% assign topnav = site.data[page.topnav] %}
 <li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/">Blog</a></li>
@@ -173,12 +171,227 @@
             <!-- sidebar -->
             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 
-{% include sidebar.html %}
+<!-- start sidebar -->
+{% assign sidebar = site.data[page.sidebar] %}
+<div class="mydocsidebar">
+<div class="sidebar-inner">
+
+<div id="search-searchbar"></div>
+
+<!-- social_media_icons.html -->
+<a class="noCrossRef" href="https://feeds.feedburner.com/TomJohnson">
+    <div class="srssfeed"></div>
+</a>
+<a class="noCrossRef" href="https://twitter.com/tomjohnson">
+    <div class="stwitter"></div>
+</a>
+
+<a class="noCrossRef" href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">
+    <div class="situnes"></div>
+</a>
+
+<a class="noCrossRef" href="https://www.linkedin.com/in/tomjoht">
+    <div class="slinkedin"></div>
+</a>
+
+<a class="noCrossRef" href="https://github.com/tomjoht/">
+    <div class="sgithub"></div>
+</a>
+
+<div style="clear:both"></div>
+<!-- end social_media_icons.html -->
+
+<!-- start mailjet modal in sidebar -->
+<div style="margin-top: 30px; margin-bottom: 30px">
+<h3>Email Newsletter</h3>
+ <div style="margin-top:20px">
+
+<button type="button" class="btn btn-primary mynewsletter" data-toggle="modal" data-target="#newsletterModal">
+  <i class="fa fa-envelope"></i> Subscribe to my newsletter
+</button>
+
+<!-- Modal -->
+<div class="modal fade custom-modal" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="newsletterModalLabel">Newsletter signup</h5>
+      </div>
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        {% include mailjet_embedded.html %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+<!-- end mailjet modal in sidebar -->
+
+{% unless page.sidebar == null %}
+<div class="productTitle">{{sidebar.sidebartitle}}</div>
+
+<p class="external">
+    <a href="#" id="collapseAll">{{site.uistring.collapseall}}</a> | <a href="#" id="expandAll">{{site.uistring.expandall}}</a>
+</p>
+
+{% endunless %}
+
+<ul id="docnavsidebar" class="docnav">
+{% for folder in sidebar.folders %}
+{% unless folder.type == "print" %}
+{% if page.url == folder.url %}
+<li class="level1 folderTitle current open"><a  class="subfoldersTitle" href="{{folder.jurl | prepend: site.baseurl }}">{{ folder.title }}</a>
+  {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://"  %}
+  <li class="level1 folderTitle"><a  class="subfoldersTitle" href="{{ folder.jurl }}">{{ folder.title }}</a>
+{% else %}
+        <li class="level1 folderTitle"><a href="{{folder.jurl | prepend: site.baseurl }}">{{folder.title}}</a>
+  {% endif %}
+{% endunless %}
+    <ul>
+        {% for folderitem in folder.folderitems %}
+
+        {% if folderitem.title %}
+        {% unless folderitem.type == "print" %}
+        {% assign pageUrl = page.url %}
+        {% if pageUrl contains folderitem.jurl %}
+        <li class="level1items open"><a href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+        {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+        <li class="level1items"><a  href="{{folderitem.jurl}}">{{folderitem.title}}</a></li>
+        {% else %}
+        <li class="level1items"><a href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+        {% endif %}
+        {% endunless %}
+        {% endif %}
+
+        {% for subfolder in folderitem.subfolders %}
+        {% assign pageUrl = page.url %}
+        {% if pageUrl contains subfolder.jurl %}
+        <li class="level2 folderTitle current open"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+          {% else %}
+          <li class="level2 folderTitle"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+        {% endif %}
+            <ul style="display:none;">
+                {% for subfolderitem in subfolder.subfolderitems %}
+
+                {% if subfolderitem.title %}
+                {% unless subfolderitem.type == "print" %}
+                {% assign pageUrl = page.url %}
+                {% if pageUrl contains subfolderitem.jurl %}
+                <li class="level2items open"><a href="{{subfolderitem.jurl | prepend: site.baseurl }}">{{subfolderitem.title}}</a></li>
+                {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+                <li class="level2items"><a  href="{{subfolderitem.jurl }}">{{subfolderitem.title}}</a></li>
+                {% else %}
+                <li class="level2items"><a href="{{subfolderitem.jurl | prepend: "/" | prepend: site.baseurl  }}">{{subfolderitem.title}}</a></li>
+                {% endif %}
+                {% endunless %}
+                {% endif %}
+
+                {% for subsubfolder in subfolderitem.subsubfolders %}
+                {% assign pageUrl = page.url %}
+                {% if pageUrl contains subsubfolder.jurl %}
+                <li class="level3 folderTitle current open"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                  {% else %}
+                  <li class="level3 folderTitle"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                   {% endif %}
+                    <ul style="display:none;">
+                        {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+
+                        {% if subsubfolderitem.title %}
+                        {% unless subsubfolderitem.type == "print" %}
+                        {% assign pageUrl = page.url %}
+                        {% if pageUrl == subsubfolderitem.jurl %}
+                        <li class="level3items open"><a href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+                        <li class="level3items"><a href="{{subsubfolderitem.jurl }}">{{subsubfolderitem.title}}</a></li>
+                        {% else %}
+                        <li class="level3items"><a href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        {% endif %}
+                        {% endunless %}
+                        {% endif %}
+
+                        {% endfor %}
+                    </ul>
+                </li>
+
+                {% endfor %}
+
+                {% endfor %}
+            </ul>
+        </li>
+
+        {% endfor %}
+
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+</li>
+</ul>
+
+{% if sidebar.related_resources_title %}
+<hr class="resourceSeparator"></hr>
+{% endif %}
+<div class="relatedResources">{{sidebar.related_resources_title}}</div>
+<ul id="entrypages">
+        {% for item in sidebar.related_resources_list %}
+        <li><a class="noCrossRef" href="{{item.jurl }}">{{item.title}}</a></li>
+        {% endfor %}
+    </li>
+</ul>
+</div>
+</div>
+<script>$("li.open").parents('li').toggleClass("open");</script>
+
+
 {% include sidebar_comics.html %}
 
 {% unless page.collection == "docs" %}
-{% include recent_posts.html %}
-{% include popular_series.html %}
+<!-- recent posts in sidebar -->
+<div class="recent-posts">
+<h3>Recent posts</h3>
+  <ul>
+    {% for post in site.posts limit:10 %}
+      <li>
+        
+        <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b %-d, %Y" }})</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- end recent posts in sidebar -->
+
+<!-- popular series in sidebar -->
+<div class="recent-posts">
+<h3>Popular series</h3>
+{% assign topnav = site.data[page.topnav] %}
+<ul>
+{% assign counter = 0 %}
+{% for entry in topnav.topnav_dropdowns %}
+  {% for folder in entry.folders %}
+    {% if folder.title == "Series" %}
+      {% for folderitem in folder.folderitems %}
+        {% if counter < 10 %}
+          <li><a href="{{folderitem.url}}" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{folderitem.title}}</a></li>
+          {% assign counter = counter | plus: 1 %}
+        {% else %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
+</div>
+
+<!-- end popular series in sidebar -->
 {% endunless %}
             </div>
 
@@ -188,16 +401,72 @@
              
 
  <div id="content">
+
+<!-- page breadcrumb for docs collection type -->
 {% if page.collection == "docs" %}
-                {% include breadcrumb.html %}
+
+<ol class="breadcrumb">
+  <li><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
+    <li><a class="noExtIcon" href="{{site.url}}/learnapidoc">Learn API Doc</a></li>
+  {% if page.path1 %}
+  <li>
+    {% for pg in site.docs %}
+    {% if pg.permalink == page.path1 %}
+    {% if page.url == pg.path1 %}{{pg.title}}{% else %}
+    <a href="{{pg.url}}">{{pg.title}}</a>
+    {% endif %}
+     {% endif %}
+     {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if page.path2 %}
+  <li>
+    {% for pg in site.docs %}
+    {% if pg.permalink == page.path2 %}
+    {% if page.url == pg.path2 %}{{pg.title}}{% else %}
+    <a href="{{pg.url}}">{{pg.title}}</a>
+    {% endif %}
+     {% endif %}
+     {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if page.path3 %}
+  <li>
+    {% for pg in site.docs %}
+    {% if pg.permalink == page.path3 %}
+    {% if page.url == pg.path3 %}{{pg.title}}{% else %}
+    <a href="{{pg.url | remove: "/"}}">{{pg.title}}</a>
+    {% endif %}
+     {% endif %}
+     {% endfor %}
+  </li>
+  {% endif %}
+
+</ol>
 {% endif %}
-                <h1>{{page.title}}</h1>
+<!-- end page breadcrumb -->
+
+<!-- page title -->
+<h1>{{page.title}}</h1>
+<!-- end page title -->
+
+<!-- start metadata for posts collection type -->
 {% if page.collection == "posts" %}
+
+<!-- post series subtitle -->
 {% if page.series %}<div class="subheading">Series: {{page.series}}</div>{% endif %}
+<!-- end post series subtitle -->
+
+<!-- post metadata: byline, post date, github button -->
 <p class="page-meta">
   {% unless page.byline == false %}
 <i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a> <a href="{{ post.url }}#commento"></a></i><br/>
   {% endunless %}
+<!-- end post metdata -->
+
+<!-- post categories -->
 {% if page.categories %}
 <span id="pageCategories">
  categories: {% for cat in page.categories %}
@@ -205,36 +474,128 @@
 </span>
 {% endfor %}
 {% endif %}
+<!-- end post categories -->
+
 {% endif %}
+<!-- end metadata for posts collection type-->
+
+
+<!-- start metadata for docs collection type -->
 {% if page.collection == "docs" %}
 
+<!-- docs page metadata: last-modified data, github url -->
 {% unless page.last-modified == null %}
 <div class="lastModifiedDate">
 Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a>
 
 </div>
 {% endunless %}
-{% endif %}
+<!-- end docs page metadata -->
 
+{% endif %}
+<!-- end metadata for docs collection type -->
+<!-- page/post description property for summary -->
 {% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
+<!-- end page/post description property -->
 
+
+<!-- start Markprompt modal -->
 {% if page.collection == "docs" %}
-<p>{% include markprompt.html %}</p>
+<p>
 
-{% if page.versions %}{% include versions.html %}{% endif %}
-{% if page.github_url %} {% include github_button.html %}  {% endif %}
-{% if page.map %}{% assign mapStep = page.map.step %}{% assign mapDefinition = page.map.definition %}{% include workflow_map.html step=mapStep map=mapDefinition %}{% endif %}
-{% endif %}
+<!-- Markprompt button trigger modal -->
+<button type="button" class="btn btn-default" data-toggle="modal" data-target="#markPromptChat">
+  Start AI Chat
+</button>
 
-{{content}}
+<!-- Makrprompt Modal -->
+<div class="modal fade" id="markPromptChat" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="newsletterModalLabel">GPT Chat by Markprompt</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<script type="module" src="https://esm.sh/@markprompt/web@0.3.2-beta5" defer=""></script>
+<div id="myMarkprompt" style="width: 550px; height: 450px">
+<markprompt-content projectKey="Ehg2YU8UGYOh4eUXuN1lqW9VQ8z3FvfM" model="gpt-4" iDontKnowMessage="Sorry, I don't know!" placeholder="Ask me about API docs..."></markprompt-content>
+</div>
+      </div>
 
-{% include mailjet_embedded.html %}
-                
-<div class="donateButton">
-{% include coffee_button.html %}
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
+</p>
+<!-- end Markprompt modal -->
+{% endif %}
 
+{% if page.collection == "docs" %}<!-- versions dropdown selector -->
+{% if page.versions %}
+{% assign versionsList = page.versions %}
+<div class="versionsMenu">
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+  {% for singleVersion in versionsList %}
+  {% assign linkUrl = singleVersion.link | remove_first: "../" %}
+  {% assign pageUrl = page.permalink %}
+  {% if linkUrl == pageUrl %}
+    <li class="currentPage">{{singleVersion.title}}</li>
+    {% else %}
+    <li><a href="{{singleVersion.link}}">{{singleVersion.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>
+</div>
+{% endif %}
+{% endif %}
+<!-- end versions dropdown selector -->
+
+{% if page.github_url %} {% include github_button.html %}  {% endif %}
+
+<!-- workflow map-->
+{% if page.map %}
+{% assign mapStep = page.map.step %}{% assign mapDefinition = page.map.definition %}{% include workflow_map.html step=mapStep map=mapDefinition %}
+{% endif %}
+<!-- end workflow map-->
+
+
+<!-- page/post content -->
+{{content}}
+<!-- end page/post content -->
+
+<!-- mailjet newsletter signup form -->
+<div class="newsletterSignUpForm">
+<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://0gj01.mjt.lu/wgt/0gj01/5st/form?c=f9b08f11" width="100%"></iframe>
+
+<style>
+#successMessageDiv p {
+    padding-bottom: 50px !important;
+}
+</style>
+</div>
+<!-- end newsletter signup form -->
+
+<!-- coffee donation button -->            
+<div class="donateButton">
+{% if site.format == "web" %}
+<style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;margin-top: -1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 15px 7px 10px !important;line-height: 35px !important;height:51px !important;text-decoration: none !important;display:inline-flex !important;color:#000000 !important;background-color:#FFFFFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 15px 7px 10px !important;font-size: 28px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/learnapidoc"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px;font-size:28px !important;">Buy me a coffee</span></a>
+{% endif %}
+</div>
+<!-- end coffee donation button -->
+
+
+<!-- next/progress buttons -->
 {% if page.collection == "docs" %}
 {% unless page.type == 404 %}
 
@@ -243,19 +604,88 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 
 {% endunless %}
 {% endif %}
+<!-- end next/progress buttons-->
 
+<!-- include single post ad horizontal at bottom of post -->
 {% include single_post_comics.html %}
+<!-- end ad block -->
+
+<!-- commento form-->
+{% unless page.focus == "noform" %}
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
+<noscript>Please enable JavaScript to load the comments.</noscript>
+{% endunless %}
+              </div>
 
 
-{% include commento.html %}
-</div>
 
-</div>
+            </div>
         </div><!--/.container-->
 
+    </div><!-- /content-->
+    <!-- footer-->
+</div></div></div></div></div></div>
+<div class="footertop">
+    <div class="container">
+        <div class="col-md-6">
+            <p></p>
+        </div>
+        <div class="col-md-6">
+            <ul class="bottom_ul">
+        </div>
+    </div>
 </div>
-    </div><!--/.page-container-->
-    {% include footer.html %}
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 footerleft ">
+                <div class="logofooter"> About idratherbewriting.com</div>
+                <p>Technical writing blog and API documentation course by <a style="color: white; text-decoration: underline;" href="/aboutme/">Tom Johnson</a>.  </p>
+
+            </div>
+            <div class="col-md-2 col-sm-6 paddingtop-bottom">
+                <h6 class="heading7">Links</h6>
+                <ul class="footer-ul">
+                  <li><a class="noCrossRef" href="https://idratherbewriting.com"> Blog</a></li>
+                  <li><a class="noCrossRef" href="https://idratherbewriting.com/learnapidoc">API doc course</a></li>
+                  <li><a class="noCrossRef" href="https://idratherbewriting.com/contact/">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 paddingtop-bottom">
+                <h6 class="heading7">Tom on social media</h6>
+                <ul class="footer-ul">
+                    <li><a class="noCrossRef" href="https://writethedocs.slack.com/team/tomjohnson"> WTD Slack</a></li>
+                    <li><a class="noCrossRef" href="http://twitter.com/tomjohnson"> Twitter</a></li>
+                    <li><a class="noCrossRef" href="https://www.linkedin.com/in/tomjoht/"> Linkedin</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 paddingtop-bottom">
+                <h6 class="heading7">GitHub</h6>
+                <ul class="footer-ul">
+                  <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/">GitHub repo</a></li>
+                  <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/issues/new">Log an issue</a></li>
+                  <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/pulls?q=is%3Apr+is%3Aclosed">Closed issues</a></li>
+                </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<!--subfooter start from here -->
+
+<div class="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            <p>© 2023 Tom Johnson</p>
+        </div>
+    </div>
+</div>
+
+<!-- end footer -->
     <!--scripts loaded here-->
 
 <!-- Bootstrap -->
