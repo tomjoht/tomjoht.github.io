@@ -498,6 +498,7 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 {% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
 <!-- end page/post description property -->
 
+{% comment %}
 
 <!-- start Markprompt modal -->
 {% if page.collection == "docs" %}
@@ -534,6 +535,8 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 
 </p>
 <!-- end Markprompt modal -->
+{% endcomment %}
+
 {% endif %}
 
 {% if page.collection == "docs" %}<!-- versions dropdown selector -->
