@@ -1,5 +1,5 @@
 ---
-title: Testing API documentation
+title: "Chapter VI: Testing API documentation"
 permalink: learnapidoc/testingdocs.html
 sidebar: docapis
 path1: learnapidoc/testingdocs.html

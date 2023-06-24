@@ -1,5 +1,5 @@
 ---
-title: Metrics and measurement
+title: "Chapter XIV: Metrics and measurement"
 permalink: /learnapidoc/docapis_metrics_and_measurement.html
 course: "Documenting REST APIs"
 weight: 13.0

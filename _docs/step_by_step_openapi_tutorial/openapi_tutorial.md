@@ -1,5 +1,5 @@
 ---
-title: "Step-by-step OpenAPI code tutorial"
+title: "Chapter V: Step-by-step OpenAPI code tutorial"
 permalink: learnapidoc/openapi_tutorial.html
 course: "Documenting REST APIs"
 sidebar: docapis

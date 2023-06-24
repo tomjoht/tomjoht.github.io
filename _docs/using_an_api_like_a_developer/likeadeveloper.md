@@ -1,5 +1,5 @@
 ---
-title: Using an API like a developer
+title: "Chapter II: Using an API like a developer"
 permalink: learnapidoc/likeadeveloper.html
 sidebar: docapis
 path1: learnapidoc/likeadeveloper.html

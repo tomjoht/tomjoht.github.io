@@ -1,5 +1,5 @@
 ---
-title: Documenting API endpoints
+title: "Chapter III: Documenting API endpoints"
 permalink: learnapidoc/docendpoints.html
 sidebar: docapis
 path1: learnapidoc/docendpoints.html

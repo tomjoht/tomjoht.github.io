@@ -1,5 +1,5 @@
 ---
-title: Conceptual topics in API docs
+title: "Chapter VII: Conceptual topics in API docs"
 permalink: learnapidoc/docconceptual.html
 sidebar: docapis
 path1: learnapidoc/docconceptual.html

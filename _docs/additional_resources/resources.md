@@ -1,5 +1,5 @@
 ---
-title: "XV: Additional resources"
+title: "Chapter XV: Additional resources"
 permalink: learnapidoc/resources.html
 course: "Documenting REST APIs"
 sidebar: docapis

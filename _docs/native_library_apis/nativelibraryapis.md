@@ -1,5 +1,5 @@
 ---
-title: Native library APIs
+title: "Chapter XII: Native library APIs"
 permalink: learnapidoc/nativelibraryapis.html
 sidebar: docapis
 path1: learnapidoc/nativelibraryapis.html

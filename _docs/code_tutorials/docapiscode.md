@@ -1,5 +1,5 @@
 ---
-title: Code tutorials
+title: "Chapter VIII: Code tutorials"
 permalink: learnapidoc/docapiscode.html
 keywords:
 course: "Documenting REST APIs"

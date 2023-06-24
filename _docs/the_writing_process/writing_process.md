@@ -1,5 +1,5 @@
 ---
-title: "The writing process"
+title: "Chapter IX: The writing process"
 permalink: learnapidoc/writing_process.html
 course: "Documenting REST APIs"
 weight: 8.91

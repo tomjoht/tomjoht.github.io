@@ -1,5 +1,5 @@
 ---
-title: Documentation processes and methodology
+title: "Chapter XIII: Documentation processes and methodology"
 permalink: learnapidoc/docapis_managing_doc_processes.html
 course: "Documenting REST APIs"
 weight: 12.0

@@ -1,5 +1,5 @@
 ---
-title: OpenAPI spec and generated reference docs
+title: "Chapter IV: OpenAPI spec and generated reference docs"
 permalink: learnapidoc/restapispecifications.html
 sidebar: docapis
 path1: learnapidoc/restapispecifications.html
