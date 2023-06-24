@@ -1,5 +1,5 @@
 ---
-title: "Chapter XII: Native library APIs"
+title: "Chapter 12: Native library APIs"
 permalink: learnapidoc/nativelibraryapis.html
 sidebar: docapis
 path1: learnapidoc/nativelibraryapis.html
@@ -13,8 +13,8 @@ Native library APIs refer to Java, C++, or other programming-specific APIs. In t
 
 {% if site.format == "web" %}
 
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis_twelve.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this section.</a>
+{: .coffeenote}
+<a class="coffee" href="ttps://www.buymeacoffee.com/learnapidoc/e/146073">Download a PDF of this section</a>
 {% endif %}
 
 {% include minitoc.html %}

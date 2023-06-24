@@ -63,7 +63,7 @@ topnav_dropdowns:
           url: /learnapidoc/resources.html
 
         - title: Download PDFs
-          url: /learnapidoc/docapis_formats.html
+          url: /learnapidoc/download.html
 
     - title: About
       folderitems:

@@ -60,7 +60,7 @@ Run this script:
 
 ## Update the Download the PDFs page
 
-Update the last generated date on `docapis_formats.html` page.
+Update the last generated date on `download.html` page.
 
 ## How it works
 
@@ -146,7 +146,7 @@ Upload the PDFs to Wasabi: `pdf_upload.sh`
 
 ## Update the Download PDF page
 
-Update the `docapis_formats.md` page.
+Update the `download.md` page.
 
 2. see pdf/docapis.pdf
 

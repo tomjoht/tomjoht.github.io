@@ -77,7 +77,7 @@ But stories don't have to be personal. Stories can also be the way you (or other
 
 ## Endless wells of creativity
 
-In addition to creating engaging, story-driven content, influencers must have relentless energy to create new content. I realized how much I'd written in my API course when I [generated it to PDF](/learnapidoc/docapis_formats.html) and saw that it was 900+ pages long. To thrive online, you have to be endlessly creative. Blogs need at least one or more posts per week to keep the audience's attention. The web requires an insatiable amount of content to keep the wheel turning.
+In addition to creating engaging, story-driven content, influencers must have relentless energy to create new content. I realized how much I'd written in my API course when I [generated it to PDF](/learnapidoc/download.html) and saw that it was 900+ pages long. To thrive online, you have to be endlessly creative. Blogs need at least one or more posts per week to keep the audience's attention. The web requires an insatiable amount of content to keep the wheel turning.
 
 With the proliferation of smartphones, people are reading and consuming content more than ever. The next time you're waiting somewhere (on a train, in a line, at a cafe), lift your head up to see what everyone else is doing while waiting -- chances are, they're staring at their phones, consuming content. Influencers have to produce content in a continual way to keep the audience's attention. Capturing the audience's attention becomes more difficult as content sources expand online.
 

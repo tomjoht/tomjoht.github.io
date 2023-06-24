@@ -11,7 +11,7 @@ description: "PDF and eBook formats are now available for my API doc course. Peo
 * TOC
 {:toc}
 
-You can download them here: [PDF and eBook formats](/learnapidoc/docapis_formats.html). Like the rest of my API doc course, these formats are free.
+You can download them here: [PDF and eBook formats](/learnapidoc/download.html). Like the rest of my API doc course, these formats are free.
 
 I've actually worked on these alternative formats on and off again for a couple of years, but I was always hesitant to make them available because they're a snapshot in time. Once someone loads an ebook onto a Kindle, are they really going to update it with a later version? Or once someone starts marking up a PDF, or printing it out, they're unlikely to get a later version of the content.
 
@@ -60,7 +60,7 @@ Another issue to figure out is file size. The MOBI file is 250MB in size, and I 
 
 From a monetary perspective, I've had good success with the [advertisements](https://idratherbewriting.com/advertising/) integrated into course pages. I feel like the ad revenue is much more than a book or online course would make, and I don't really need the money anyway. I get more value from the comments, shares, and other visibility of the content than I would by gating the content with paywalls. I like the content to be visible in search results as well. So when and if I put the ebooks on Amazon, I'll make them as free as possible.
 
-If you do browse these [PDF and eBook formats](/learnapidoc/docapis_formats.html), let me know what you think. If you spot some style or formatting errors, or have other tips, I'd be interested to hear them. I'm also curious to know what eReaders you use, especially if not Kindle. I am tracking clicks to the various links, and so far PDF seems to be the most popular, followed by EPUB.
+If you do browse these [PDF and eBook formats](/learnapidoc/download.html), let me know what you think. If you spot some style or formatting errors, or have other tips, I'd be interested to hear them. I'm also curious to know what eReaders you use, especially if not Kindle. I am tracking clicks to the various links, and so far PDF seems to be the most popular, followed by EPUB.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/clickratesaltformats.png" alt="Click rates on formats" />
 

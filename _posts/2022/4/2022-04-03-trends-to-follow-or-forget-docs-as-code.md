@@ -67,7 +67,7 @@ Working in dev docs, I discovered that developers loved working with Jekyll beca
 
 On a personal level, when I first exploring Jekyll and tried to figure out themes, I realized that if I wanted to excel in this domain, I should flip my whole world to Jekyll. I didn't want to maintain my blog on WordPress while using Jekyll at work. If I wanted to gain more familiarity and fluidity with both static site generators and version control in the *Docs as Code* world, I figured I should also use Jekyll for my personal blog.
 
-So I made a rather large decision to abandon WordPress for my blog and to use Jekyll exclusively for authoring and publishing content. This shift did achieve my initial aims. With my [API course](/learnapidoc/), I've even built more sophisticated outputs that [include PDF and ebook](/learnapidoc/docapis_formats.html) (both Kindle and EPUB) from the Jekyll source. All my personal sites continue to use Jekyll today.
+So I made a rather large decision to abandon WordPress for my blog and to use Jekyll exclusively for authoring and publishing content. This shift did achieve my initial aims. With my [API course](/learnapidoc/), I've even built more sophisticated outputs that [include PDF and ebook](/learnapidoc/download.html) (both Kindle and EPUB) from the Jekyll source. All my personal sites continue to use Jekyll today.
 
 ## Why didn't I abandon docs-as-code
 

@@ -35,7 +35,7 @@ Not many other analytics have changed. The majority of users are in the US, use 
 
 ## Conversions
 
-I struggle to convert visits to newsletter subscriptions. I've thought about converting the [PDF and eBook formats of my API course](/learnapidoc/docapis_formats.html) into gated assets requiring a newsletter subscription, but I haven’t gotten around to doing that. By the way, to see which formats are most popular, just add "+" after any of my shortened idbwrtng.com links:
+I struggle to convert visits to newsletter subscriptions. I've thought about converting the [PDF and eBook formats of my API course](/learnapidoc/download.html) into gated assets requiring a newsletter subscription, but I haven’t gotten around to doing that. By the way, to see which formats are most popular, just add "+" after any of my shortened idbwrtng.com links:
 
 * PDF, [https://idbwrtng.com/learnapidoc-pdf+](https://idbwrtng.com/learnapidoc-pdf+): 4,161 clicks
 * Mobi, [https://idbwrtng.com/learnapidoc-mobi+](https://idbwrtng.com/learnapidoc-mobi+): 436 clicks

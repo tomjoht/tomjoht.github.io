@@ -1,7 +1,7 @@
 sidebartitle: Documenting APIs
 folders:
 
-- title: "I: Introduction to REST APIs"
+- title: "1: Introduction to REST APIs"
   landing: /learnapidoc/docapis_introtoapis.html
   section: one
   class: first
@@ -21,7 +21,7 @@ folders:
     jurl: /learnapidoc/docapis_course_videos.html
 
   - title: Download PDFs
-    jurl: /learnapidoc/docapis_formats.html
+    jurl: /learnapidoc/download.html
 
   - title: Workshop agenda, slides, activities
     jurl: /learnapidoc/workshop.html
@@ -48,7 +48,7 @@ folders:
   - title: "Glossary"
     jurl: /learnapidoc/api-glossary.html
 
-- title: "II: Using an API like a developer"
+- title: "2: Using an API like a developer"
   landing: /learnapidoc/likeadeveloper.html
   section: two
   folderitems:
@@ -90,7 +90,7 @@ folders:
   - title: "Dive into dot notation"
     jurl: /learnapidoc/docapis_diving_into_dot_notation.html
 
-- title: "III: Documenting API endpoints"
+- title: "3: Documenting API endpoints"
   landing: /learnapidoc/docendpoints.html
   section: three
   folderitems:
@@ -129,7 +129,7 @@ folders:
   - title: "Activity: Evaluate API reference docs for core elements"
     jurl: /learnapidoc/docapis_api_reference_activity.html
 
-- title: "IV: OpenAPI spec and generated reference docs"
+- title: "4: OpenAPI spec and generated reference docs"
   landing: /learnapidoc/restapispecifications.html
   section: four
   folderitems:
@@ -168,7 +168,7 @@ folders:
   - title: "Redoc Community Edition Basic Demo"
     jurl: /learnapidoc/pubapis_redoc.html
 
-- title: "V: Step-by-step OpenAPI code tutorial"
+- title: "5: Step-by-step OpenAPI code tutorial"
   landing: /learnapidoc/openapi_tutorial.html
   section: five
   folderitems:
@@ -210,7 +210,7 @@ folders:
   - title: "Activity: Create an OpenAPI specification document"
     jurl: /learnapidoc/pubapis_openapi_activity.html
 
-- title: "VI: Testing API docs"
+- title: "6: Testing API docs"
   landing: /learnapidoc/testingdocs.html
   section: six
   folderitems:
@@ -234,7 +234,7 @@ folders:
   - title: "Activity: Test your project's documentation"
     jurl: /learnapidoc/testingdocs_activity.html
 
-- title: "VII: Conceptual topics in API docs"
+- title: "7: Conceptual topics in API docs"
   landing: /learnapidoc/docconceptual.html
   section: seven
   folderitems:
@@ -276,7 +276,7 @@ folders:
   - title: "Activity: Assess the conceptual content in your project"
     jurl: /learnapidoc/docapis_concept_activity.html
 
-- title: "VIII: Code tutorials"
+- title: "8: Code tutorials"
   landing: /learnapidoc/docapiscode.html
   section: eight
   folderitems:
@@ -312,7 +312,7 @@ folders:
   - title: "Developer experience (DevX) usability"
     jurl: /learnapidoc/devx-usability-examples.html
 
-- title: "IX: The writing process"
+- title: "9: The writing process"
   landing: /learnapidoc/writing_process.html
   section: nine
   folderitems:
@@ -339,7 +339,7 @@ folders:
   - title: "5. Publishing"
     jurl: /learnapidoc/docapis_publishing.html
 
-- title: "X: Publishing API docs"
+- title: "10: Publishing API docs"
   landing: /learnapidoc/publishingapis.html
   section: ten
   folderitems:
@@ -402,7 +402,7 @@ folders:
   - title: "Tools FAQ"
     jurl: /learnapidoc/docapis_faq_tools.html
 
-- title: "XI: Thriving in the API doc space"
+- title: "11: Thriving in the API doc space"
   landing: /learnapidoc/jobapis.html
   section: eleven
   folderitems:
@@ -426,7 +426,7 @@ folders:
   - title: "Activity: Create or fix an API reference documentation topic"
     jurl: /learnapidoc/docapis_work_on_conceptual_topic.html
 
-- title: "XII: Native library APIs"
+- title: "12: Native library APIs"
   landing: /learnapidoc/nativelibraryapis.html
   section: twelve
   folderitems:
@@ -462,7 +462,7 @@ folders:
   - title: "Create non-ref docs with native library APIs"
     jurl: /learnapidoc/nativelibraryapis_nonrefdocs.html
 
-- title: "XIII: Processes and methodology"
+- title: "13: Processes and methodology"
   landing: /learnapidoc/docapis_managing_doc_processes.html
   section: thirteen
   folderitems:
@@ -513,7 +513,7 @@ folders:
   - title: "Ensuring documentation coverage with each software release"
     jurl: /learnapidoc/docapis_release_process.html
 
-- title: "XIV: Metrics and measurement"
+- title: "14: Metrics and measurement"
   landing: /learnapidoc/docapis_metrics_and_measurement.html
   section: fourteen
   folderitems:
@@ -534,7 +534,7 @@ folders:
   - title: Quantifying your progress
     jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
-- title: "XV: Additional resources"
+- title: "15: Additional resources"
   landing: /learnapidoc/resources.html
   section: fifteen
   folderitems:

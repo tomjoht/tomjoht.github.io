@@ -21,7 +21,7 @@ The following are the most recent updates to the API documentation course.
 
 * Merged the API doc site into the blog site to have a single repo for all files.
 * 
-* Converted the PDF download into separate PDFs of individual chapters rather than a full-length PDF (which was more than 900 pages long). Downloads to the individual chapters are available with each section overview and in the [Download  PDFs](docapis_formats.html) page. 
+* Converted the PDF download into separate PDFs of individual chapters rather than a full-length PDF (which was more than 900 pages long). Downloads to the individual chapters are available with each section overview and in the [Download  PDFs](download.html) page. 
 * Removed the Kindle and ePUB download options, as they weren't popular and the process created more complexity than it was worth.
 
 {% include random_ad4.html %}
