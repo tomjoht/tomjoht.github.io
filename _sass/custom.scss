@@ -769,7 +769,8 @@ a.coffee::before {
   width: 24px; 
   height: 28px;
   margin-right: 3px; /* change to right margin */
-  background: url('/images/buy-me-a-coffee.svg') no-repeat center center; 
+/* background: url('https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/buy-me-a-coffee.svg') no-repeat center center; */   
+  background: url('https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bmc-logo.svg') no-repeat center center; 
   background-size: contain;
   vertical-align:text-bottom;
 }
