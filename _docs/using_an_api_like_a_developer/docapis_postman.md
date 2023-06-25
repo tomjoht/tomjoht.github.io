@@ -146,7 +146,7 @@ When you make the following requests, insert your own values for the <code>CLIEN
 
 Get the weather forecast for your area using the [observations endpoint](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/):
 
-```bash
+```
 http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 

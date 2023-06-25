@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 
-In addition to reading on the web, you can also can read this content in PDF format. The date the pages were last generated appears in the header of the PDF. Click the individual links below or go to the [Shop](https://www.buymeacoffee.com/learnapidoc/extras).
+In addition to reading on the web, you can also can read this content in PDF format. Each chapter PDF costs $3. The date the pages were last generated appears in the header of the PDF. Click the individual links below or go to the [Shop](https://www.buymeacoffee.com/learnapidoc/extras). Payment is handled through the buymeacoffee.com platform.
 
 <ul class="pdfList">
 <li><a class="coffee" target="_blank" href="https://www.buymeacoffee.com/learnapidoc/e/145945">Chapter 1: Introduction to REST APIs</a></li>

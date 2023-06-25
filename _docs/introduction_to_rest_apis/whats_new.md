@@ -47,7 +47,7 @@ Then click the commit IDs to browse file diffs for the commits that include the 
 
 <img class="small_medium" src="{{site.api_media}}/github_commit_ids.png" alt="GitHub commit IDs" />
 
-You can see the [stream of commits in GitHub here](https://github.com/tomjoht/learnapidoc/commits/main).
+You can see the [stream of commits in GitHub here](https://github.com/tomjoht/tomjoht.github.io/commits/main).
 
 {% include ads.html %}
 
