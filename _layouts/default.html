@@ -115,6 +115,8 @@
                     <li class="active"><a href="{{item.url}}">{{item.title}}</a></li>
                     {% elsif item.github_icon == "show" %}
                     <li><a data="github" href="{{item.url}}"> {{item.title}}</a></li>
+                    {% elsif item.external == "show" %}
+                    <li><a class="external" href="{{item.url}}"> {{item.title}}</a></li>
                     {% else %}
                     <li><a href="{{item.url}}" class="noCrossRef"> {{item.title}}</a></li>
                     {% endif %}
@@ -133,7 +135,9 @@
                             {% if page.url contains folderitem.url %}
                             <li class="active"><a href="{{folderitem.url}}">{{folderitem.title}}</a></li>
                             {% elsif folderitem.github_icon == "show" %}
-                            <li><a data="github" href="{{folderitem.url}}"> {{folderitem.title}}</a></li>
+                            <li><a class="noCrossRef" href="{{folderitem.url}}"> {{folderitem.title}} <i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            {% elsif folderitem.external == "show" %}
+                            <li><a class="external" href="{{folderitem.url}}"> {{folderitem.title}}</a></li>
                             {% else %}
                             <li><a href="{{folderitem.url}}" class="noCrossRef"> {{folderitem.title}}</a></li>
                             {% endif %}

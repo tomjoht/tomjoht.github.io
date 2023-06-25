@@ -17,53 +17,58 @@ topnav_dropdowns:
         - title: Course home
           url: /learnapidoc/
 
-        - title: "I: Introduction to REST APIs"
+        - title: "Chapter 1: Introduction to REST APIs"
           url: /learnapidoc/docapis_introtoapis.html
 
-        - title: "II: Using an API like a developer"
+        - title: "Chapter 2: Using an API like a developer"
           url: /learnapidoc/likeadeveloper.html
 
-        - title: "III: Documenting API endpoints"
+        - title: "Chapter 3: Documenting API endpoints"
           url: /learnapidoc/docendpoints.html
 
-        - title: "IV: OpenAPI spec and generated reference docs"
+        - title: "Chapter 4: OpenAPI spec and generated reference docs"
           url: /learnapidoc/restapispecifications.html
 
-        - title: "V: Step-by-step OpenAPI code tutorial"
+        - title: "Chapter 5: Step-by-step OpenAPI code tutorial"
           url: /learnapidoc/openapi_tutorial.html
 
-        - title: "VI: Testing API docs"
+        - title: "Chapter 6: Testing API docs"
           url: /learnapidoc/testingdocs.html
 
-        - title: "VII: Conceptual topics in API docs"
+        - title: "Chapter 7: Conceptual topics in API docs"
           url: /learnapidoc/docconceptual.html
 
-        - title: "VIII: Code tutorials"
+        - title: "Chapter 8: Code tutorials"
           url: /learnapidoc/docapiscode.html
 
-        - title: "IX: The writing process"
+        - title: "Chapter 9: The writing process"
           url: /learnapidoc/writing_process.html
 
-        - title: "X: Publishing API docs"
+        - title: "Chapter 10: Publishing API docs"
           url: /learnapidoc/publishingapis.html
 
-        - title: "XI: Thriving in the API doc space"
+        - title: "Chapter 11: Thriving in the API doc space"
           url: /learnapidoc/jobapis.html
 
-        - title: "XII: Native library APIs"
+        - title: "Chapter 12: Native library APIs"
           url: /learnapidoc/nativelibraryapis.html
 
-        - title: "XIII: Processes and methodology"
+        - title: "Chapter 13: Processes and methodology"
           url: /learnapidoc/docapis_managing_doc_processes.html
 
-        - title: "XIV: Metrics and measurement"
+        - title: "Chapter 14: Metrics and measurement"
           url: /learnapidoc/docapis_metrics_and_measurement.html
 
-        - title: "XV: Additional resources"
+        - title: "Chapter 15: Additional resources"
           url: /learnapidoc/resources.html
 
+    - title: Downloads
+      folderitems:
         - title: Download PDFs
           url: /learnapidoc/download.html
+        - title: Shop
+          url: https://www.buymeacoffee.com/learnapidoc/extras
+          external: show
 
     - title: About
       folderitems:
@@ -79,46 +84,13 @@ topnav_dropdowns:
           url: /analytics/
         - title: Advertising
           url: /advertising/
-    - title: Archives
-      folderitems:
-        - title: 2023
-          url: /archives-2023/
-        - title: 2022
-          url: /archives-2022/
-        - title: 2021
-          url: /archives-2021/
-        - title: 2020
-          url: /archives-2020/
-        - title: 2019
-          url: /archives-2019/
-        - title: 2018
-          url: /archives-2018/
-        - title: 2017
-          url: /archives-2017/
-        - title: 2016
-          url: /archives-2016/
-        - title: 2015
-          url: /archives-2015/
-        - title: 2014
-          url: /archives-2014/
-        - title: 2013
-          url: /archives-2013/
-        - title: 2012
-          url: /archives-2012/
-        - title: 2011
-          url: /archives-2011/
-        - title: 2010
-          url: /archives-2010/
-        - title: 2009
-          url: /archives-2009/
-        - title: 2008
-          url: /archives-2008/
-        - title: 2007
-          url: /archives-2007/
-        - title: 2006
-          url: /archives-2006/
-        - title: Posts by tag
-          url: /tags/
+        - title: GitHub repo
+          url: https://github.com/tomjoht/tomjoht.github.io/
+          github_icon: show
+        - title: "I'd Rather Be Writing Podcasts"
+          url: /category-podcasts/
+        - title: Tech comm podcasts
+          url: /technical-writing-podcasts/
 
     - title: Series
       folderitems:
@@ -185,9 +157,43 @@ topnav_dropdowns:
         - title: DITA notes
           url: https://idratherbewriting.com/ditaqrg/
 
-    - title: Podcasts
+    - title: Archives
       folderitems:
-        - title: "I'd Rather Be Writing Podcasts"
-          url: /category-podcasts/
-        - title: Tech comm podcasts
-          url: /technical-writing-podcasts/
+        - title: 2023
+          url: /archives-2023/
+        - title: 2022
+          url: /archives-2022/
+        - title: 2021
+          url: /archives-2021/
+        - title: 2020
+          url: /archives-2020/
+        - title: 2019
+          url: /archives-2019/
+        - title: 2018
+          url: /archives-2018/
+        - title: 2017
+          url: /archives-2017/
+        - title: 2016
+          url: /archives-2016/
+        - title: 2015
+          url: /archives-2015/
+        - title: 2014
+          url: /archives-2014/
+        - title: 2013
+          url: /archives-2013/
+        - title: 2012
+          url: /archives-2012/
+        - title: 2011
+          url: /archives-2011/
+        - title: 2010
+          url: /archives-2010/
+        - title: 2009
+          url: /archives-2009/
+        - title: 2008
+          url: /archives-2008/
+        - title: 2007
+          url: /archives-2007/
+        - title: 2006
+          url: /archives-2006/
+        - title: Posts by tag
+          url: /tags/
