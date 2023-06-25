@@ -29,7 +29,7 @@ In a nutshell, REST APIs (which are a type of web API) involve requests and resp
 
 <figure><img class="docimage large" src="{{site.api_media}}/restapi_apidoc.svg" alt="Response and request model for REST APIs" /><figcaption>REST APIs involve requests and responses over HTTP protocol</figcaption></figure>
 
-I dive more into the principles of REST in [What is a REST API?](docapis_what_is_a_rest_api.html) In your REST API documentation, you describe the various endpoints available, their methods, parameters, and other details, and you also document sample responses from the endpoints.
+I dive more into the principles of REST in [What is a REST API?](docapis_what_is_a_rest_api.html) In REST API documentation, you describe the various endpoints available, their methods, parameters, and other details, and you also document sample responses from the endpoints.
 
 ## From practice to documentation
 

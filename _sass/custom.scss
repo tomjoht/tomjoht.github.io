@@ -101,72 +101,6 @@ span.muted {
     color: #a8a8a8;
 }
 
-/* this part adds an icon after external links, using FontAwesome */
-
-a[href^="http://"]:not([href*="idratherbewriting.com"]):after,
-a[href^="https://"]:not([href*="idratherbewriting.com"]):after,
-a[href^="https://"]:not([href*="s3.us-west-1.wasabisys.com"]):after {
-  content: "\f08e";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 5px;
-}
-a[data="github"]:after {
-  content: "\f09b";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 5px;
-}
-
-a[href*="s3.us-west-1.wasabisys.com"]:after {
-  content: "" !important;
-}
-
-/*
-a[href*="idratherbewriting.com"]:after {
-  content: "" !important;
-}
-*/
-
-a[href].noCrossRef::after, a[href].noExtIcon::after, pre a::after, pre.highlight a::after, pre.highlight code a::after, pre code a.vglnk::after, a.no_icon:after, a[href] img::after
- {
-  content: "" !important;
-  padding-left: 0;
-}
-
-pre a.vglnk, pre a.vglnk:visited {
-  color: lightblue;
-}
-
-pre a:hover, pre a, pre code a.vglnk, pre code a.vglnk:hover {
-  cursor: text;
-  text-decoration: none;
-  color: lightblue;
-}
-
-.docSample a, .docSample a:hover {
-  color: #c7254e;
-}
-
-a[data-toggle=tooltip], a[data-toggle=popover] {
-    color: cadetblue;
-    border-bottom: dashed;
-    border-bottom-color: darkgray;
-    border-bottom-width: thin;
-    font-style: italic;
-}
-
-a[data-toggle=tooltip]:hover, a[data-toggle=popover]:hover {
-  border-bottom: solid;
-  border-bottom-color: darkgray;
-  border-bottom-width: thin;
-}
 
 table code a.vglnk, table code a.vglnk:hover {
   color: #c7254e;
@@ -761,16 +695,3 @@ a:focus {
     font-style: italic;
 }
 
-
-/* buy me a coffee icon*/
-a.coffee::before {
-  content: "";
-  display: inline-block;
-  width: 24px; 
-  height: 28px;
-  margin-right: 3px; /* change to right margin */
-/* background: url('https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/buy-me-a-coffee.svg') no-repeat center center; */   
-  background: url('https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bmc-logo.svg') no-repeat center center; 
-  background-size: contain;
-  vertical-align:text-bottom;
-}

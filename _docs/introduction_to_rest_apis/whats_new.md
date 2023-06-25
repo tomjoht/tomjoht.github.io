@@ -4,7 +4,7 @@ permalink: learnapidoc/docapis_whats_new.html
 sidebar: docapis
 path1: learnapidoc/docapis_introtoapis.html
 weight: 1.02
-last-modified: 2022-10-30
+last-modified: 2023-06-24
 ---
 
 {% include_relative coffeebutton.html %}
@@ -22,8 +22,7 @@ The following are the most recent updates to the API documentation course.
 ## June 2023
 
 * Merged the API doc site into the blog site to have a single repo for all files.
-* 
-* Converted the PDF download into separate PDFs of individual chapters rather than a full-length PDF (which was more than 900 pages long). Downloads to the individual chapters are available with each section overview and in the [Download  PDFs](download.html) page. 
+* Converted the PDF download into separate PDFs of individual chapters rather than a full-length PDF (which was more than 900 pages long). Downloads to the individual chapters are available from within each section and from the [Downloads](download.html) page. The PDFs are stored on the Buy Me a Coffee Shop page and cost $3 for each chapter or $20 for all chapters.
 * Removed the Kindle and ePUB download options, as they weren't popular and the process created more complexity than it was worth.
 
 {% include random_ad4.html %}
