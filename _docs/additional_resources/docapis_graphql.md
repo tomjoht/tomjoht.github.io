@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-07-01
 ---
 
+{% include_relative coffeebutton.html %}
+
 {: .note}
 This article was written by Casey Armstrong on July 1, 2019, and originally titled "If I am learning to write developer documentation, should GraphQL be on my radar?" Casey Armstrong graduated from the Masters and Technical Professional Writing program at Portland State University and now works at a VR company on the East coast. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC) and on Twitter [@CrowdsourcingKC](https://twitter.com/CrowdsourcingKC).
 

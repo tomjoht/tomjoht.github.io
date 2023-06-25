@@ -10,6 +10,8 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2020-09-20
 ---
 
+{% include_relative coffeebutton.html %}
+
 Up until this point, we've mostly been focusing on the [reference aspects of API documentation](https://idratherbewriting.com/learnapidoc/docendpoints.html) (the endpoints). The reference documentation is only one aspect of API documentation.
 
 {% include random_ad4.html %}

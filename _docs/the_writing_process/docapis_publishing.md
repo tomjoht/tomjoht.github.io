@@ -9,6 +9,8 @@ path1: learnapidoc/writing_process.html
 last-modified: 2021-11-19
 ---
 
+{% include_relative coffeebutton.html %}
+
 After you've [finished the reviews](docapis_reviewing.html) and your deadline is imminent, it's time to make plans to publish your docs. Hitting that publish button will fill you with a rush of exhilaration, but before that moment arrives, you have a few final considerations.
 
 {% if site.format == "web" %}

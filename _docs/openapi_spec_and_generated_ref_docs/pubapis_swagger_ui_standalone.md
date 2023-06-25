@@ -9,6 +9,8 @@ progress: false
 last-modified: 2018-08-02
 ---
 
+{% include_relative coffeebutton.html %}
+
 <p>This page can only be viewed online in your computer's web browser. Go to <a href="https://idratherbewriting.com/assets/files/swagger/index.html">https://idratherbewriting.com/assets/files/swagger/index.html</a> to view it.</p>
 
 {% include random_ad2.html %}

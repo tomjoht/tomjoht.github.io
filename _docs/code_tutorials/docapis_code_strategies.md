@@ -10,6 +10,8 @@ path1: learnapidoc/doccode.html
 last-modified: 2019-11-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 In this section, we'll dive into approaches for actually documenting code. There are a number of approaches writers and engineers take here, and I've covered five of them with examples and commentary.
 
 * TOC

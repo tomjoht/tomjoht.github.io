@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-09-24
 ---
 
+{% include_relative coffeebutton.html %}
+
 Conducting a successful documentation review is challenging, especially with developer docs because the content is often highly technical and requires a lot of engineering input and review. At the same time, getting this engineering input and review doesn't come easy. In this topic, I'll outline a tactical approach to conducting doc reviews for large amounts of content.
 
 * TOC

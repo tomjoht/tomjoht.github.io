@@ -9,6 +9,8 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2020-06-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 Before jumping into the [tutorial for creating an OpenAPI spec using Stoplight](pubapis_openapis_quickstart_stoplight.html), let me introduce Stoplight a bit more conceptually. As a GUI editor for creating an OpenAPI, Stoplight Studio simplifies the authoring of a highly technical syntax that is often challenging to make valid.
 
 {% include random_ad4.html %}

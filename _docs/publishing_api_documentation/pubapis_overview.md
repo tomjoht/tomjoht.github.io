@@ -9,6 +9,8 @@ path1: learnapidoc/publishingapis.html
 last-modified: 2018-12-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 As you look for ways to provide value as a technical writer in a highly technical organization, you might find that you do less direct authoring of technical content and more editing/publishing. You might be guiding and directing the publishing of technical content that engineers mainly develop. For this reason, I have a lengthy focus on publishing in this course about documenting APIs.
 
 {% if site.format == "web" %}

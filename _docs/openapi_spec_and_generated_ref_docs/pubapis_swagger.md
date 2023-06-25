@@ -15,6 +15,8 @@ glossary_keys:
 last-modified: 2023-02-01
 ---
 
+{% include_relative coffeebutton.html %}
+
 [Swagger UI](https://github.com/swagger-api/swagger-ui) provides a display framework that reads an [OpenAPI specification document](https://github.com/OAI/OpenAPI-Specification) and generates an interactive documentation website. The following tutorial shows you how to integrate an OpenAPI specification document into Swagger UI.
 
 {: .tip}

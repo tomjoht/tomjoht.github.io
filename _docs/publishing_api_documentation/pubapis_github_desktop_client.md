@@ -9,6 +9,8 @@ path1: learnapidoc/publishingapis.html
 last-modified: 2018-12-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 Although most developers use the command line when working with version control systems, there are many GUI clients available that can potentially simplify the process. GUI clients might be especially helpful when you're trying to see what has changed in a file since the GUI can quickly highlight and indicate the changes taking place.
 
 * TOC

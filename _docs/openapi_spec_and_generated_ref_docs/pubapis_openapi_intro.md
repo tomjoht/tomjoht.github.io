@@ -15,6 +15,8 @@ redirect_from:
 last-modified: 2020-07-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 [OpenAPI](https://www.openapis.org/) is a specification for describing REST APIs. If you're familiar with tech comm specifications, you can think of the OpenAPI specification like the [DITA specification](https://www.xml.com/articles/2017/01/19/what-dita/). With DITA, there are specific XML elements used to define help components, and a required order and hierarchy to those elements. Different tools can read DITA and build out a documentation website from the elements.
 
 With OpenAPI, instead of XML elements, you have a set of JSON objects, with a specific schema that defines their naming, order, and contents. This JSON file (often expressed in YAML instead of JSON) describes each part of your API. By describing your API in a standard format, publishing tools can programmatically parse the information about your API and display each component in a stylized, interactive display.

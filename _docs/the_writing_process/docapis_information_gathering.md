@@ -9,6 +9,8 @@ path1: learnapidoc/writing_process.html
 last-modified: 2021-11-19
 ---
 
+{% include_relative coffeebutton.html %}
+
 Now that you've [created a doc plan](docapis_planning.html), gathered up source material (and presumably read it as well), and observed a demo, you're ready to move on to phase two of the writing process: information gathering through interviews.
 
 {% if site.format == "web" %}

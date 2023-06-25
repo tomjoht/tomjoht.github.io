@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-08-29
 ---
 
+{% include_relative coffeebutton.html %}
+
 {% include image_ad_right.html %}
 
 This is the answer key for [Activity: What's wrong with this API reference topic](https://idratherbewriting.com/learnapidoc/docapis_api_whats_wrong_activity.html).

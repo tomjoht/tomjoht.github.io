@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-06-21
 ---
 
+{% include_relative coffeebutton.html %}
+
 I recorded this full-day API documentation in Menlo Park, California, on November 8, 2018. (For more details, see this [blog post](https://idratherbewriting.com/2018/10/31/upcoming-api-doc-workshop/).) This recording closely aligns with the latest content and activities in this course. I divided this all-day workshop into five separate videos.
 
 * TOC

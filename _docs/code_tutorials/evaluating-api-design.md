@@ -9,6 +9,8 @@ path1: learnapidoc/doccode.html
 last-modified: 2019-12-02
 ---
 
+{% include_relative coffeebutton.html %}
+
 Technical writing intersects closely with usability like no other domain on technical projects. This close connection with usability especially surfaces as you're writing tutorials on how to use the API in a step-by-step way. Because of this, in this section I've decided to add some more tips and insights about how to assess the usability and design of an API.
 
 * TOC

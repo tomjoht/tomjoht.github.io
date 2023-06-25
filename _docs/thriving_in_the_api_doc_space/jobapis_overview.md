@@ -9,6 +9,8 @@ path1: learnapidoc/jobapis.html
 last-modified: 2020-01-02
 ---
 
+{% include_relative coffeebutton.html %}
+
 Technical writers who can write developer documentation are in high demand, especially in the Silicon Valley area. There are plenty of technical writers who can write documentation for graphical user interfaces but not many who can navigate the developer landscape to provide highly technical documentation for developers working in code.
 
 Although I briefly mentioned jobs in [Introduction to REST API documentation](https://idratherbewriting.com/learnapidoc/docapis_intro_to_rest_api_doc.html), in this section of my API documentation course, I'll dive deeper into the job market for API documentation.

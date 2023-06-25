@@ -9,6 +9,8 @@ path1: learnapidoc/writing_process.html
 last-modified: 2021-11-19
 ---
 
+{% include_relative coffeebutton.html %}
+
 First things first &mdash; you need to figure out what the writing project involves by doing some basic planning. In this step, you'll create a doc plan, establish roles, gather source material, and view a demo.
 
 {% if site.format == "web" %}

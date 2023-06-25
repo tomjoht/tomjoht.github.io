@@ -9,6 +9,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2019-01-01
 ---
 
+{% include_relative coffeebutton.html %}
+
 While [Postman](docapis_postman.html) is convenient, it's hard to use it to represent how to make calls with it in your documentation. Additionally, different users probably use different GUI clients, or none at all (preferring the command line instead).
 
 Instead of describing how to make REST calls using a GUI client like Postman, the most conventional method for documenting request syntax is to use curl.

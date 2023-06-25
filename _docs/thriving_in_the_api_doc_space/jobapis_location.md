@@ -9,6 +9,8 @@ section: jobapis
 last-modified: 2019-11-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 You're taking this course most likely because you want to break into API documentation. However, if you live in a place where there aren't many API documentation jobs, it will be difficult to find work. In this topic, I'll explain where the API documentation jobs are.
 
 * TOC

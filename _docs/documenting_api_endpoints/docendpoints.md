@@ -9,11 +9,8 @@ section: docendpoints
 last-modified: 2023-05-28
 ---
 
-Reference documentation for API endpoints consists of five general sections: resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. To document the reference endpoints of an API, provide detailed information for each of these sections.
+{% include_relative coffeebutton.html %}
 
-{% if site.format == "web" %}
-{: .coffeenote}
-<a class="coffee" href="https://www.buymeacoffee.com/learnapidoc/e/146014">Download a PDF of this section</a>
-{% endif %}
+Reference documentation for API endpoints consists of five general sections: resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. To document the reference endpoints of an API, provide detailed information for each of these sections.
 
 {% include minitoc.html %}

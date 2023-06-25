@@ -12,6 +12,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-05-10
 ---
 
+{% include_relative coffeebutton.html %}
+
 Seeing the response from curl or Postman is cool, but how do you make use of the JSON data? With most API documentation, you don't need to show how to make use of JSON data. You assume that developers will use their front-end development skills to parse through the data and display it appropriately in their apps. However, to better understand how developers will access the data, we'll go through a brief tutorial to display the REST response on a web page.
 
 * TOC

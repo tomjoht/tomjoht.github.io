@@ -10,6 +10,8 @@ path1: learnapidoc/doccode.html
 last-modified: 2019-11-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 Developer documentation tends to include a lot of code samples. These code samples might not be included with the endpoints you document, but as you create tasks and more sophisticated workflows about how to use the API to accomplish a variety of goals, you'll end up leveraging different endpoints and showing how to address different scenarios. Code tutorials are a crucial part of your user guide.
 
 {% if site.format == "web" %}

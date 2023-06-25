@@ -9,6 +9,8 @@ path1: learnapidoc/testingdocs.html
 last-modified: 2018-12-24
 ---
 
+{% include_relative coffeebutton.html %}
+
 Up until now, you've been focused intensely on API documentation. In this section, I'll talk about an aspect of API documentation that is perhaps more applicable to all types of documentation but which is especially relevant to developer docs, where testing and experimenting with the products and services is not always straightforward.
 
 Walking through all the steps in documentation yourself is critical to producing high-quality, accurate instructions. The more complex setup you have, the more difficult it can be to test all of the steps. Still, if you want to move beyond merely editing and publishing engineer-written documentation, you’ll need to build sample apps or set up the systems necessary to test the API docs. These tests should mirror what actual users will do as closely as possible.

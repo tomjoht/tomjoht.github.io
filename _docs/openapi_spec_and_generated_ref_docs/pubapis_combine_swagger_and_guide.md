@@ -9,6 +9,8 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2020-06-13
 ---
 
+{% include_relative coffeebutton.html %}
+
 Whenever discussions about Swagger and other REST API specifications take place, technical writers invariably ask how they can integrate the Swagger output with the rest of their documentation. This question dominates tech writer discussions perhaps more than any other when it comes to Swagger.
 
 {% if site.format == "web" %}

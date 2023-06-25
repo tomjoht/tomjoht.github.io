@@ -9,6 +9,8 @@ path1: learnapidoc/publishingapis.html
 last-modified: 2020-06-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 [Static site generators](pubapis_static_site_generators.html) handle content development, but not hosting and deployment. For this, you need another category of tools. I call this category of tools "hosting and deployment options."
 
 Theoretically, you could publish a static website on any web server (e.g., AWS S3, Bluehost, and more). But continuous delivery hosting platforms do something more: They automatically build your output when you commit a change to a repo. The whole build process takes place entirely on the server.

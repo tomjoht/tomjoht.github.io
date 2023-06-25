@@ -12,6 +12,8 @@ map:
 last-modified: 2020-09-07
 ---
 
+{% include_relative coffeebutton.html %}
+
 {% if site.format == "print" %}
 <img src="{{site.api_media}}/openapistep4.png"/>
 {% endif %}

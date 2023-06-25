@@ -9,11 +9,8 @@ section: docconceptual
 last-modified: 2023-05-28
 ---
 
-While reference topics in APIs generally receive the most attention, the conceptual topics, such as getting started tutorials, information about authorization, rate limiting, status and error codes, quick reference guides, and other topics constitute about half of the documentation. These topics are usually handled by technical writers more than engineers. You can evaluate the quality of API documentation in part by looking to see whether it includes these conceptual topics.
+{% include_relative coffeebutton.html %}
 
-{% if site.format == "web" %}
-{: .coffeenote}
-<a class="coffee" href="https://www.buymeacoffee.com/learnapidoc/e/146066">Download a PDF of this section</a>
-{% endif %}
+While reference topics in APIs generally receive the most attention, the conceptual topics, such as getting started tutorials, information about authorization, rate limiting, status and error codes, quick reference guides, and other topics constitute about half of the documentation. These topics are usually handled by technical writers more than engineers. You can evaluate the quality of API documentation in part by looking to see whether it includes these conceptual topics.
 
 {% include minitoc.html %}

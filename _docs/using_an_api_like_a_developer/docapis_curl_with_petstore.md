@@ -10,6 +10,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-09-07
 ---
 
+{% include_relative coffeebutton.html %}
+
 Our [sample weather API](docapis_scenario_for_using_weather_api.html) doesn't allow you to use anything but a GET method, so for this exercise, to use other methods with curl, we'll use the [petstore API from Swagger](http://petstore.swagger.io/). However, we won't actually use the Swagger UI (which is something we'll [explore later](pubapis_openapi_intro.html)). For now, we just need an API with which we can use to create, update, and delete content.
 
 In this example, using the Petstore API, you'll create a new pet, update the pet, get the pet's ID, delete the pet, and then try to get the deleted pet.

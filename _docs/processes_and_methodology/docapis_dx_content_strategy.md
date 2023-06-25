@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-8-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 As the content grows on a developer portal, there's an increasing need for some technical writers to expand their documentation roles from individual contributors creating and publishing new content to dedicated content strategists. These dedicated content strategists manage the processes, standards, tools, governance, and workflows for the content that is primarily authored by contributing writer and engineering teams.
 
 The general common industry term for this activity might be *content strategy*, but in the context of developer documentation, I'm calling this activity "DX content strategy." (*DX* refers developer experience, similar to how *CX* refers to customer experience.) Anyone who engages in DX content strategy would be considered a DX content strategist to some degree. An organization can have multiple people filling DX content strategist roles.

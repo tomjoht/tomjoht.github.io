@@ -10,6 +10,8 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2019-03-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 Quick reference guides serve a different function than [getting started tutorials](docapis_doc_getting_started_section.html). While the getting started tutorial helps beginners get oriented by providing an end-to-end instruction to make a simple API request, the quick reference guide helps users get a glimpse of the system as a whole, often by providing a list of the API's endpoints.
 
 * TOC

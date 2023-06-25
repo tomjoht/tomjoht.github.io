@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2019-08-23
 ---
 
+{% include_relative coffeebutton.html %}
+
 Just as [doc-as-code tools](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html) mirror tools used by software implementation teams, work processes that tech writers follow can also mirror processes used by software implementation teams. The most common software development methodology today is probably [Scrum](https://www.scrumguides.org/scrum-guide.html), which is a form of agile development methodology.
 
 {: note}

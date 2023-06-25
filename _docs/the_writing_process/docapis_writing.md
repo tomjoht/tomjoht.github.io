@@ -9,6 +9,8 @@ path1: learnapidoc/writing_process.html
 last-modified: 2021-11-19
 ---
 
+{% include_relative coffeebutton.html %}
+
 In this section, I'll dive into practical tips and strategies for writing the content. Before you get to this point, I assume you've already done some [planning](docapis_planning.html) and [information gathering](docapis_information_gathering.html).
 
 {% if site.format == "web" %}

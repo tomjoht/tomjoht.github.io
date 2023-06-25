@@ -9,6 +9,8 @@ weight: 9.98
 last-modified: 2020-06-13
 ---
 
+{% include_relative coffeebutton.html %}
+
 Q:  Is it possible to author API documentation using DITA/XML or an XML editor (like Oxygen)? I saw your recommended list of tools in the [Publishing API docs](publishingapis.html) section, but it would be great if we could leverage existing tools.
 
 :  Sure, you can use OxygenXML or similar tools and write your dev docs in DITA. However, for the reference content, if you're working with REST APIs, I recommend documenting the endpoints using the [OpenAPI spec](pubapis_openapi_intro.html). If documenting [class-based libraries](nativelibraryapis.html), then use [in-code annotations](nativelibraryapis_javadoc_tags.html) for that language.

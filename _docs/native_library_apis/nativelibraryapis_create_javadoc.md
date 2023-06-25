@@ -9,6 +9,8 @@ path1: learnapidoc/nativelibraryapis.html
 last-modified: 2019-03-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 Javadoc is the standard output for Java APIs, and it's somewhat effortless to build a Javadoc. The Javadoc is generated through something called a "doclet." Different doclets can parse the Java annotations in different ways and produce different outputs. But by and large, almost every Java documentation uses the standard doclet. The Javadoc output will be familiar and welcome to Java developers.
 
 {% include random_ad3.html %}

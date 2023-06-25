@@ -12,6 +12,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2019-11-18
 ---
 
+{% include_relative coffeebutton.html %}
+
 When you're testing endpoints with different parameters, you can use one of the many GUI REST clients available to make the requests. (By "GUI," I mean there's a graphical user interface with boxes and buttons for you to click.) You can also use [curl](docapis_install_curl.html) (which we'll cover soon), but GUI clients tend to simplify testing with REST APIs.
 
 * TOC

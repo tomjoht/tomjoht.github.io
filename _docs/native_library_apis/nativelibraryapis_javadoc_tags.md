@@ -9,6 +9,8 @@ path1: learnapidoc/nativelibraryapis.html
 last-modified: 2018-12-26
 ---
 
+{% include_relative coffeebutton.html %}
+
 [Javadoc](nativelibraryapis_create_javadoc.html) is a document generator that looks through your Java source files for specific annotations. It parses out the annotations into the Javadoc output. Knowing the annotations is essential because this is how the Javadoc gets created.
 
 {% if site.format == "web" %}

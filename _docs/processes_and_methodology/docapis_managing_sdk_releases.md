@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-08-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 So far we've talked about processes for managing [developer documentation projects](docapis_managing_doc_projects.html) and [small doc requests](docapis_managing_small_doc_requests.html). When you're working in a developer portal, you might also be responsible for managing and distributing SDKs and other sample code.
 
 Even if someone else distributes the SDKs, they might look to you for guidance and input on the Readme, the distribution process, and other aspects. The process here describes a few callouts that you should look for before publishing SDKs and other code artifacts.

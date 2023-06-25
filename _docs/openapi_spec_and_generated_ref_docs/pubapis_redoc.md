@@ -9,6 +9,8 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2021-10-15
 ---
 
+{% include_relative coffeebutton.html %}
+
 {: .note}
 [Redocly](https://redoc.ly/) offers robust tools for authoring and publishing API docs using the command-line and docs-as-code workflows. For a full tutorial, see [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](pubapis_redocly.html). The tutorial that follows here is a simple way to use the [community/free edition of Redoc](https://github.com/Redocly/redoc).
 

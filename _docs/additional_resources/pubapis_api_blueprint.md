@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-12-29
 ---
 
+{% include_relative coffeebutton.html %}
+
 Just as Swagger defines a spec for describing a REST API, [API Blueprint](https://apiblueprint.org/) is another specification for describing REST APIs. If you describe your API with this blueprint, tools that support API Blueprint can read and display the information.
 
 Note that unless you're using a platform that specifically requires API Blueprint, I recommend using the [OpenAPI specification](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html) instead.

@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_metrics_and_measurement.html
 last-modified: 2022-01-31
 ---
 
+{% include_relative coffeebutton.html %}
+
 *This section continues from the previous page, [Quality checklist for API documentation](docapis_quality_checklist.html).*
 
 * TOC

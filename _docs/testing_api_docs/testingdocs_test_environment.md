@@ -9,6 +9,8 @@ path1: learnapidoc/testingdocs.html
 last-modified: 2019-08-20
 ---
 
+{% include_relative coffeebutton.html %}
+
 The first step to testing your instructions is to set up a test environment. Without this test environment, it will be difficult to make any progress in testing your instructions.
 
 {% if site.format == "web" %}

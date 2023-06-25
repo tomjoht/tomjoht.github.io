@@ -9,6 +9,8 @@ path1: learnapidoc/testingdocs.html
 last-modified: 2020-06-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 Now that you've read about testing, it's time to get some more hands-on practice. In this activity, you'll do some doc testing with an open-source project (or another project you identified).
 
 * TOC

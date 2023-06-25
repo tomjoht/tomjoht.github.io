@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_introtoapis.html
 last-modified: 2021-11-15
 ---
 
+{% include_relative coffeebutton.html %}
+
 In case you'd like to know a little bit about me, I'm currently based in Seattle, Washington, working for Google. (Previously, I was at Amazon and a couple of startups in the Bay area.)
 
 {% if site.format == "web" %}<img src="{{site.api_media}}/tomjohnson.jpg" class="small" style="float: right; padding:1em;"/>

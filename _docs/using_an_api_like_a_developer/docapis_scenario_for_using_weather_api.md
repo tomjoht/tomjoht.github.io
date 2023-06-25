@@ -12,6 +12,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2021-12-13
 ---
 
+{% include_relative coffeebutton.html %}
+
 Let's start using an actual REST API to get more familiar with how they work. In the upcoming sections, you'll explore some weather APIs in the context of a specific use case: retrieving a weather forecast. By first playing the role of a developer using an API, you'll gain a greater understanding of how your audience will use APIs, the type of information they'll need, and what they might do with the information.
 
 * TOC

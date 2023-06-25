@@ -11,6 +11,8 @@ redirect_from:
 last-modified: 2023-02-01
 ---
 
+{% include_relative coffeebutton.html %}
+
 You can create an OpenAPI specification document in several ways: (a) you can auto-generate it from annotations in your source code, (b) you can code it by hand in an editor such as the Swagger Editor, and (c) you can use a GUI editor such as Stoplight Studio. In this tutorial, we will walk through the third approach: using Stoplight Studio, a GUI editor for modeling your API. We will create a valid OpenAPI specification, using the OpenWeatherMap as the sample API.
 
 For a higher-level introduction to the OpenAPI specification, see [Introduction to the OpenAPI specification](pubapis_openapi_intro.html). For a more conceptual introduction to Stoplight Studio, see [Stoplight &mdash; visual modeling tools for creating your OpenAPI spec](pubapis_stoplight.html).

@@ -11,6 +11,8 @@ redirect_from:
 last-modified: 2018-12-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 Changing any documentation tooling at a company can be a massive undertaking. Depending on the amount of legacy content to convert, the number of writers to train, the restrictions and processes you have to work against in your corporate environment and more, it can require an immense amount of time and effort to switch tools from the status quo to docs-as-code.
 
 Additionally, you will likely need to make this change outside your regular documentation work, and you'll probably need to develop the new system *while still updating and publishing content in the old system*. Essentially, this means you'll be laying down a new highway while simultaneously driving down it.

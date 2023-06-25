@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-11-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 Use the Flickr API to get photo images from [this Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/).
 
 {% if site.format == "web" %}

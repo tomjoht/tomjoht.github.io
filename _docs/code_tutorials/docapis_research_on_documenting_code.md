@@ -10,6 +10,8 @@ path1: learnapidoc/doccode.html
 last-modified: 2019-11-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 Before diving in to how to document code, let's first explore some research that has been done on best practices for documenting code, as this can inform our direction and approach. A couple of academic articles stand out as noteworthy for this effort:
 
 * **"When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects"** by Head et al. This article explores how developers at Google find and use documentation for code. The researchers found that for simple code, sometimes developers prefer to examine the code directly. However, for more complex code, developers consult the code's documentation, often by looking in the formal class declarations for information they need; other times they look at comments in the implementation code. Besides providing guidance on the best location for documentation, the researchers also identify what type of answers and guidance developers want for the content of the documentation.

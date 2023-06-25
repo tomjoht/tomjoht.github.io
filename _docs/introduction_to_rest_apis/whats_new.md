@@ -7,6 +7,8 @@ weight: 1.02
 last-modified: 2022-10-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 If you're looking to see what's new in the API doc site/course, you can browse new content in several ways.
 
 * TOC

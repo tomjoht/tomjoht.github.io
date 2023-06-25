@@ -9,6 +9,8 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2020-01-22
 ---
 
+{% include_relative coffeebutton.html %}
+
 With each of the conceptual topics in this section, you've been analyzing the topic in the context of the [open-source project you identified](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html).
 
 {% include random_ad4.html %}

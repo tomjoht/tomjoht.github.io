@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-11-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 One of the most influential aspects that will determine your experience as a technical writer at a company is the company's documentation culture and environment. If you find yourself in an organization with a poor documentation culture, it can be difficult if not impossible to change it. A poor documentation culture/environment leads to a high turnover on doc teams, loss of motivation for existing writers (especially as their colleagues constantly leave, which increases the workload), and contributes to a downward spiral of tasks you can never quite get a handle on. In this topic, I outline six strategies you can implement to influence change in your company's documentation culture, bringing about a more positive and healthy environment.
 
 * TOC

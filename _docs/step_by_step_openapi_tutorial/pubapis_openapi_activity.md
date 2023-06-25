@@ -9,11 +9,12 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2019-01-05
 ---
 
+{% include_relative coffeebutton.html %}
+
 The [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html) walked you through 8 steps in building the OpenAPI specification document. Now it's your turn to practice first editing and then creating an OpenAPI specification document.
 
 * TOC
 {:toc}
-
 
 ## <i class="fa fa-user-circle"></i> Activity: Edit an existing OpenAPI specification document
 

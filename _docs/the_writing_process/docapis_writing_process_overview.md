@@ -9,6 +9,8 @@ path1: learnapidoc/writing_process.html
 last-modified: 2021-11-19
 ---
 
+{% include_relative coffeebutton.html %}
+
 If there's one topic in this course that is glossed over, it's the writing process itself. This is ironic because, more than anything else, it's the content that matters. And this content is likely your primary stewardship.
 
 {% include random_ad3.html %}

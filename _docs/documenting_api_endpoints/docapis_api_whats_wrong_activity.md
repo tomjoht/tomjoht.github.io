@@ -8,6 +8,8 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2019-04-05
 ---
 
+{% include_relative coffeebutton.html %}
+
 In this activity, you'll critique an existing API reference topic to identify what's wrong with it.
 
 * TOC

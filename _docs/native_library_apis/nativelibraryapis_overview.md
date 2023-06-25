@@ -9,6 +9,8 @@ path1: learnapidoc/nativelibraryapis.html
 last-modified: 2018-12-26
 ---
 
+{% include_relative coffeebutton.html %}
+
 In most of this course, we focused on [REST APIs](https://idratherbewriting.com/learnapidoc/docapis_what_is_a_rest_api.html). In this section, we'll explore native library APIs, which are more common when building native apps that you install on devices (such as Android or iOS devices). Understanding native library APIs will also help clarify what makes REST APIs so different.
 
 {% if site.format == "web" %}

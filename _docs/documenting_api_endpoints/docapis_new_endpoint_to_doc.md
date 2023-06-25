@@ -12,6 +12,8 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2019-01-03
 ---
 
+{% include_relative coffeebutton.html %}
+
 Until this point, you've been [acting as a developer](likeadeveloper.html) with the task of integrating the weather data into your site. The point was to help you understand the type of information developers need and how they use APIs.
 
 Now let's shift perspectives. Now suppose you're a technical writer working with the OpenWeatherMap team. The team is asking you to document a new endpoint. What do you cover, and how do you approach it?

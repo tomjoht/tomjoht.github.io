@@ -10,6 +10,8 @@ path1: learnapidoc/resources.html
 last-modified: 2018-12-23
 ---
 
+{% include_relative coffeebutton.html %}
+
 RAML stands for REST API Modeling Language and is similar to the [OpenAPI specification](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html). RAML is backed by [Mulesoft](https://www.mulesoft.com/), a full-service, end-to-end API company.
 
 Note that unless you're publishing your docs with Mulesoft or another platform that specifically requires RAML, I recommend using the [OpenAPI specification](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html) instead. However, Mulesoft offers enterprise-grade API design, management, and deployment capabilities. If you're using Mulesoft for your API, you probably want to use RAML for your documentation specification.

@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-03-31
 ---
 
+{% include_relative coffeebutton.html %}
+
 {% include image_ad_right.html %}
 
 The API Jeopardy questions are in the [Conclusion section of Workshop Activities](https://idratherbewriting.com/learnapidoc/workshop.html#conclusion).

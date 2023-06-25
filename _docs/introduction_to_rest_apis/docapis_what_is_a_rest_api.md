@@ -10,6 +10,8 @@ path1: learnapidoc/docapis_introtoapis.html
 last-modified: 2020-03-15
 ---
 
+{% include_relative coffeebutton.html %}
+
 This course is all about learning by doing, but while *doing* various activities, I'll periodically pause and dive into some more abstract concepts to fill in more detail. This topic is one of those deep-dive moments into concepts. Here we'll explore what a REST API is, comparing it to other types of APIs like SOAP. REST APIs have common characteristics but no definitive protocols like its SOAP predecessor.
 
 {% if site.format == "web" %}

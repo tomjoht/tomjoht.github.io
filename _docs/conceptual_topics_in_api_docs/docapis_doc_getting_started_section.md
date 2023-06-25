@@ -10,6 +10,8 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2021-09-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 Following the [product overview section](docapis_doc_overview.html), you usually have a "Getting started" section that details the first steps users need to start using the API. This section often includes an end-to-end process of some starter task, complete in itself, to help users get started with your product.
 
 {% if site.format == "web" %}

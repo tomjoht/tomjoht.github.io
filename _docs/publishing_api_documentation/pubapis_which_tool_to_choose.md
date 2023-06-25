@@ -11,6 +11,8 @@ redirect_from:
 last-modified: 2020-06-13
 ---
 
+{% include_relative coffeebutton.html %}
+
 I described a smattering of tools in [static site generators](pubapis_static_site_generators.html), [hosting and deployment options](pubapis_hosting_and_deployment.html), and [hybrid solutions](pubapis_hybrid_systems.html). Which solution should you choose? It's a complicated decision that will invariably involve tradeoffs. The decision depends on your skill set, product, environment, and requirements. But here's my general recommendation. First, identify what authoring requirements you have. Then decide on a static site generator, and then consider a hosting and deployment platform.
 
 Also, note that I don't have total familiarity with all of these tools and solutions. My core experience with docs-as-code tools involves Jekyll, GitHub Pages, and internally developed publishing pipelines. I have only dabbled or experimented with a lot of these other tools and platforms, so I can't speak authoritatively about them.

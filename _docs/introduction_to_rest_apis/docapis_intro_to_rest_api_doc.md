@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_introtoapis.html
 last-modified: 2020-03-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 Before we dive into the technical aspects of APIs, let's explore the market, general landscape, and trends with API documentation.
 
 {% if site.format == "web" %}

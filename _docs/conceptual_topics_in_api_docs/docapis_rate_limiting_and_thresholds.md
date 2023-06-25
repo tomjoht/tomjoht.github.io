@@ -10,6 +10,8 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2019-03-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 Rate limits determine how frequently you can call a particular endpoint. Usually, companies have different tiers (for example, free versus pro) and licenses (open-source, business, commercial) corresponding to different capabilities or rate limits with the API.
 
 * TOC

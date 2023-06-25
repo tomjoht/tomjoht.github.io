@@ -11,6 +11,8 @@ no_newsletter: true
 last-modified: 2022-03-20
 ---
 
+{% include_relative coffeebutton.html %}
+
 The glossary defines all the terms that might be helpful for users to know &mdash; and especially all terms unique to your company or product. Glossaries are often overlooked or skipped, but their importance should not be understated since much of the user's understanding of API documentation depends on the clarity and alignment of specific terms. A glossary will help you, as a writer, be more precise about terminology. Additionally, sourcing definitions from a central glossary file can make authoring more efficient and consistent.
 
 * TOC

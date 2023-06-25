@@ -9,6 +9,8 @@ path1: learnapidoc/jobapis.html
 last-modified: 2019-11-17
 ---
 
+{% include_relative coffeebutton.html %}
+
 With developer documentation roles, some level of coding is required. But you don't need to know as much as developers, and acquiring that deep technical knowledge will usually cost you expertise in other areas.
 
 {% if site.format == "web" %}

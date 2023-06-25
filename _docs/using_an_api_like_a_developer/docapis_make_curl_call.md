@@ -12,6 +12,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-09-07
 ---
 
+{% include_relative coffeebutton.html %}
+
 In this section, you'll use curl to make the same weather API requests you made previously with Postman. If you haven't installed curl, see [curl intro and installation](docapis_install_curl.html) first.
 
 * TOC

@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_introtoapis.html
 last-modified: 2018-12-29
 ---
 
+{% include_relative coffeebutton.html %}
+
 Ramping up on API documentation, developing a portfolio of API documentation writing samples, and completing all the activities in this course will require a lot of time and effort. In this activity, you'll identify your goals and reasons for taking this course. Reflecting on your motivation will help you develop the right mindset and stamina to devote the necessary time for the course.
 
 {% include ads.html %}

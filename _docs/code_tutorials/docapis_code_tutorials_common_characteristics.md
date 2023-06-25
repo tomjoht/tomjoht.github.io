@@ -10,6 +10,8 @@ path1: learnapidoc/doccode.html
 last-modified: 2021-12-11
 ---
 
+{% include_relative coffeebutton.html %}
+
 Code tutorials describe how developers will use your APIs and other services to achieve some end. These tutorials often involve healthy chunks of code and configuration of various services. These are the "tasks" that would be more common in end-user docs.
 
 {% include random_ad4.html %}

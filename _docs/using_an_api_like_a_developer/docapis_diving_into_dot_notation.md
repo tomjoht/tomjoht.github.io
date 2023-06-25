@@ -10,6 +10,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-05-10
 ---
 
+{% include_relative coffeebutton.html %}
+
 In the previous topic, [Access and print a specific JSON value](docapis_access_json_values.html), you accessed and printed a specific JSON value to the page. Let's dive into dot notation a little more since understanding how to access the right JSON value you want is necessary to make use of the response.
 
 * TOC

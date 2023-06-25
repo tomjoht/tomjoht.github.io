@@ -9,6 +9,8 @@ path1: learnapidoc/testingdocs.html
 last-modified: 2018-12-06
 ---
 
+{% include_relative coffeebutton.html %}
+
 The previous two sections talked about testing from the perspective of the tech writer merely running through the steps. However, remember that you, the tech writer, are not the user. Almost all documentation builds on assumptions (about capabilities, setup, previous knowledge) that may or may not be shared with your audience. While [testing your documentation](testingdocs_test_your_instructions.html), recognize that what may seem clear to you may be confusing to your users. And what might be confusing to you might be clear to users. Learn to identify assumptions that can interfere with your audience's ability to follow the instructions in your documentation.
 
 {% if site.format == "web" %}

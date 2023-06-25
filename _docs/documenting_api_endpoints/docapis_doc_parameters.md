@@ -9,6 +9,8 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2020-06-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 {% include workflow_map.html step="3" map="content/reference_doc_map.html"  %}
 {% if site.format == "print" %}
 <img src="{{site.api_media}}/apiref4.png"/>

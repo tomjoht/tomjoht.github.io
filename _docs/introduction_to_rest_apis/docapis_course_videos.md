@@ -9,6 +9,8 @@ weight: 1.2
 last-modified: 2020-07-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 I've given numerous presentations and workshops on API documentation, and I've recorded some of them. The most recent recordings are available below. I divided this all-day workshop into multiple separate videos. Keep in mind that my API content evolves, so some older presentations might no longer match the course content.  
 
 * TOC

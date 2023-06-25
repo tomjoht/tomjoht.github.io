@@ -9,6 +9,8 @@ path1: learnapidoc/jobapis.html
 last-modified: 2020-06-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 To break into API documentation, you need to start thinking about API documentation samples in your portfolio. Your portfolio is key to [Getting an API documentation job and thriving](jobapis.html). Without a portfolio that contains compelling API documentation samples, it will be tough to get a job in API documentation.
 
 * TOC

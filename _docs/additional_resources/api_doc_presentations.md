@@ -9,6 +9,8 @@ path1: learnapidoc/resources.html
 last-modified: 2019-06-21
 ---
 
+{% include_relative coffeebutton.html %}
+
 The following are other video recordings for API-related presentations.
 
 * TOC

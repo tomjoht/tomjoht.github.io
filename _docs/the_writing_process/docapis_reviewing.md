@@ -9,6 +9,8 @@ path1: learnapidoc/writing_process.html
 last-modified: 2021-11-19
 ---
 
+{% include_relative coffeebutton.html %}
+
 Now that you've [written a draft](docapis_writing.html) and have edited the content a few times, you're ready to begin the review process. Unlike other forms of writing, reviews are essential for documentation because you're usually writing about a technical domain that you're not an expert in.
 
 {% if site.format == "web" %}

@@ -10,6 +10,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2021-12-28
 ---
 
+{% include_relative coffeebutton.html %}
+
 Almost every API has a method in place to authenticate requests. You usually have to provide an API key in your requests to get a response. Although we'll dive into [authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html) later, we need to get some API keys now to make requests to our weather API.
 
 * TOC

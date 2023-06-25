@@ -9,6 +9,8 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2020-06-27
 ---
 
+{% include_relative coffeebutton.html %}
+
 In this API reference tutorial, we'll work on creating five common sections in REST API reference documentation: resource description, endpoints and methods, parameters, request example, and response example and schema. To provide some context (and to continue with our sample documentation scenario), we'll structure the information from the [new endpoint to document](docapis_new_endpoint_to_doc.html#surf_report_api) into these five sections.
 
 * TOC

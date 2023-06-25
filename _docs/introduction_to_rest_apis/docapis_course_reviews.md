@@ -11,6 +11,8 @@ excerpt: Course reviews
 last-modified: 2017-12-26
 ---
 
+{% include_relative coffeebutton.html %}
+
 {% if site.format == "web" %}
 <style>
 blockquote {

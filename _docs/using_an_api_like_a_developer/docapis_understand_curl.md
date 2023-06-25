@@ -9,6 +9,8 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-09-07
 ---
 
+{% include_relative coffeebutton.html %}
+
 Almost every API shows how to interact with the API using curl. So before moving on, let's pause a bit and learn more about curl.
 
 * TOC

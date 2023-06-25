@@ -9,6 +9,8 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2020-09-07
 ---
 
+{% include_relative coffeebutton.html %}
+
 Before we dive into the steps of the [OpenAPI Tutorial](pubapis_openapi_tutorial_overview.html), it will help to have a better grounding in YAML, since this is the most common syntax for the OpenAPI specification document. (You can also use [JSON](https://idratherbewriting.com/learnapidoc/docapis_analyze_json.html), but the prevailing trend with the OpenAPI document format is YAML.)
 
 YAML stands for "YAML Ain't Markup Language." This means that the YAML syntax doesn't have markup tags such as `<` or `>`. Instead, it uses colons to denote an object's properties and hyphens to denote an array.

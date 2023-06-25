@@ -10,8 +10,9 @@ weight: 1.01
 redirect_from:
 - /learnapidoc/introtoapis.html
 last-modified: 2023-04-18
-markprompt: show
 ---
+
+{% include_relative coffeebutton.html %}
 
 In this course on writing documentation for APIs, instead of just talking about abstract concepts, I contextualize APIs with a direct, hands-on approach. You'll first learn about API documentation by using a simple weather API to put a weather forecast on your site.
 

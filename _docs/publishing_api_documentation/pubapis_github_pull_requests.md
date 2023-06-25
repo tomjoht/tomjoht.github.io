@@ -9,6 +9,8 @@ path1: learnapidoc/publishingapis.html
 last-modified: 2018-12-25
 ---
 
+{% include_relative coffeebutton.html %}
+
 In the previous step, [Activity: Use the GitHub Desktop Client](pubapis_github_desktop_client.html), you used Github Desktop to manage the workflow of committing files, branching, and merging. In this tutorial, you'll do a similar activity but using the browser-based interface that Github provides rather than using a terminal or Github Desktop.
 
 Understanding the pull request workflow is essential for reviewing changes in a collaborative project, such as an open-source project with many contributors. Using GitHub's interface is also handy if you have non-technical reviewers.

@@ -9,6 +9,8 @@ no_newsletter: true
 last-modified: 2022-12-22
 ---
 
+{% include_relative coffeebutton.html %}
+
 Let's pull together the various parts we've worked on and bring them together to showcase the full example.
 
 {% include random_ad4.html %}

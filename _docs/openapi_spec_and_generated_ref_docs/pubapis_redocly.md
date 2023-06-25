@@ -9,6 +9,8 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2022-11-20
 ---
 
+{% include_relative coffeebutton.html %}
+
 [Redocly](https://redoc.ly/) provides a variety of tools for working with API docs. Using Redocly's command-line tools, you can split the OpenAPI definition into many sub-files, and then later bundle up the discrete files into a single file during the publishing stage. You can generate your docs into one of the most attractive outputs available for REST API docs, including integration with conceptual topics as well. Redocly also offers more robust developer portals and SaaS offerings that cover the full authoring and publishing lifecycle.
 
 * TOC

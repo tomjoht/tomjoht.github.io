@@ -10,6 +10,8 @@ path1: learnapidoc/docapis_introtoapis.html
 last-modified: 2020-10-28
 ---
 
+{% include_relative coffeebutton.html %}
+
 I recently [conducted a survey](https://idratherbewriting.com/blog/developer-documentation-survey-2020/) about trends for those creating documentation for developers and engineers. You can view the content in several formats: slides, webinar, or article.
 
 {% if site.format == "web" %}

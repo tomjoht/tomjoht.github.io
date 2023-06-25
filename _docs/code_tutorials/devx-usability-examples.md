@@ -9,6 +9,8 @@ path1: learnapidoc/doccode.html
 last-modified: 2020-10-20
 ---
 
+{% include_relative coffeebutton.html %}
+
 In [API design and usability](evaluating-api-design.html), I covered different aspects of usability related to API design. In this topic, I'll explore usability related to developer processes and technologies in general, independent of API design.
 
 * TOC

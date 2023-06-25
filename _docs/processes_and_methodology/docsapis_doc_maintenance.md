@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-10-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 As soon as new docs are published, docs begin a trajectory of decay. The natural progression of technology makes documentation outdated within a matter of months or years. New versions of web browsers, operating systems, supporting utilities and tools, etc., are released, and the whole technology landscape keeps moving forward, evolving, improving, and adjusting &mdash; all while documentation remains static. The more your documentation relies on third-party components, the faster it goes out of date.
 
 Most documentation efforts focus on creating *new* documentation, but what happens to all the *existing* documentation that is decaying? In this section, I cover ways to maintain existing documentation and prevent it from rotting.

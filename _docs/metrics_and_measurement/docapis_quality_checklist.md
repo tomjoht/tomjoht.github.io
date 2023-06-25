@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_metrics_and_measurement.html
 last-modified: 2022-02-07
 ---
 
-page.url: {{page.url}}
+{% include_relative coffeebutton.html %}
 
 *This section continues from the previous page, [Different approaches for assessing information quality](docapis_metrics_assessing_information_quality.html).*
 

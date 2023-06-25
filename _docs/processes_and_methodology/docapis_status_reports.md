@@ -9,6 +9,8 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2021-08-15
 ---
 
+{% include_relative coffeebutton.html %}
+
 Sending documentation status reports can help foster trust and awareness with your business stakeholders. These stakeholders might be the core leadership within your organization or simply your management chain the next level up. Besides building visibility and relationships with these stakeholders, creating these status reports each month gives you a regular cadence for doc assessment and analysis, which is also helpful.
 
 {: .note}

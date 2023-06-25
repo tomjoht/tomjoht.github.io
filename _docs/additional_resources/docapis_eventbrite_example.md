@@ -10,6 +10,8 @@ path1: learnapidoc/resources.html
 last-modified: 2018-12-29
 ---
 
+{% include_relative coffeebutton.html %}
+
 Use the [Eventbrite API](https://www.eventbrite.com/platform/api) to get the event title and description of an event.
 
 {% if site.format == "web" %}

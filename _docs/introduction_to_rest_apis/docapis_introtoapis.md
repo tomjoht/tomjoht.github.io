@@ -10,11 +10,8 @@ class: first
 last-modified: 2023-05-28
 ---
 
-REST APIs are flourishing in the marketplace, and the web is becoming a mashup of interconnected APIs. REST APIs consist of requests to and responses from a web server. Job prospects are hot for technical writers who can write developer documentation. This course will help you break into API documentation, especially if you complete the many portfolio-building activities.
+{% include_relative coffeebutton.html %}
 
-{% if site.format == "web" %}
-{: .coffeenote}
-<a class="coffee" href="https://www.buymeacoffee.com/learnapidoc/e/145945">Download a PDF of this section</a>
-{% endif %}
+REST APIs are flourishing in the marketplace, and the web is becoming a mashup of interconnected APIs. REST APIs consist of requests to and responses from a web server. Job prospects are hot for technical writers who can write developer documentation. This course will help you break into API documentation, especially if you complete the many portfolio-building activities.
 
 {% include minitoc.html %}

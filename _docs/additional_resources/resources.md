@@ -9,11 +9,8 @@ weight: 14.0
 last-modified: 2023-05-28
 ---
 
-This section contains additional exercises and information, such as more activities for calling APIs, or more info about alternative specifications. I also archive topics here that don't seem to fit well anywhere else.
+{% include_relative coffeebutton.html %}
 
-{% if site.format == "web" %}
-{: .coffeenote}
-<a class="coffee" href="https://www.buymeacoffee.com/learnapidoc/e/146080">Download a PDF of this section</a>
-{% endif %}
+This section contains additional exercises and information, such as more activities for calling APIs, or more info about alternative specifications. I also archive topics here that don't seem to fit well anywhere else.
 
 {% include minitoc.html %}

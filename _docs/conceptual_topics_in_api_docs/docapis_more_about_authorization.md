@@ -8,6 +8,8 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2019-03-30
 ---
 
+{% include_relative coffeebutton.html %}
+
 Before users can make requests with your API, they'll usually need to register for an API key or learn other ways to authenticate the requests. APIs vary in the way they authenticate users. Some APIs require you to include an API key in the request header, while other APIs require elaborate security due to the need to protect sensitive data, prove identity, and ensure the requests aren't tampered with. In this section, you'll learn more about authentication and authorization and what you should focus on in documentation.
 
 {% if site.format == "web" %}
