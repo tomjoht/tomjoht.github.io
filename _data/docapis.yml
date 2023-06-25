@@ -7,7 +7,7 @@ folders:
   class: first
   folderitems:
 
-  - title: "Chapter Overview" 
+  - title: "Overview" 
     jurl: /learnapidoc/docapis_introtoapis.html
     type: web
 
@@ -53,7 +53,7 @@ folders:
   section: two
   folderitems:
 
-  - title: "Chapter Overview" 
+  - title: "Overview" 
     jurl: /learnapidoc/likeadeveloper.html
     type: web
 
@@ -95,7 +95,7 @@ folders:
   section: three
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/docendpoints.html
     type: web
 
@@ -134,7 +134,7 @@ folders:
   section: four
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/restapispecifications.html
     type: web
 
@@ -173,7 +173,7 @@ folders:
   section: five
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/openapi_tutorial.html
     type: web
 
@@ -215,7 +215,7 @@ folders:
   section: six
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/testingdocs.html
     type: web
 
@@ -239,7 +239,7 @@ folders:
   section: seven
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/docconceptual.html
     type: web
 
@@ -281,7 +281,7 @@ folders:
   section: eight
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/docapiscode.html
     type: web
 
@@ -317,7 +317,7 @@ folders:
   section: nine
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/writing_process.html
     type: web
 
@@ -344,7 +344,7 @@ folders:
   section: ten
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/publishingapis.html
     type: web
 
@@ -407,7 +407,7 @@ folders:
   section: eleven
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/jobapis.html
     type: web
 
@@ -431,7 +431,7 @@ folders:
   section: twelve
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/nativelibraryapis.html
     type: web
 
@@ -467,7 +467,7 @@ folders:
   section: thirteen
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/docapis_managing_doc_processes.html
     type: web
 
@@ -518,7 +518,7 @@ folders:
   section: fourteen
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/docapis_metrics_and_measurement.html
     type: web
 
@@ -539,7 +539,7 @@ folders:
   section: fifteen
   folderitems:
 
-  - title: "Chapter Overview"
+  - title: "Overview"
     jurl: /learnapidoc/resources.html
     type: web
 
