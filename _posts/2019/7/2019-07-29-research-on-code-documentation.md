@@ -4,6 +4,7 @@ permalink: /blog/research-on-documenting-code/
 categories:
 - academics-and-practitioners
 - api-doc
+- api-doc-site-updates
 keywords:
 bitlink: https://idratherbewriting.site/
 description: "I added another topic to the Documenting Code section in my API documentation course. This new topic is called <a href='/learnapidoc/docapiscode_research_on_documenting_code.html'>Research on documenting code</a> and summarizes/discusses two academic articles on documenting code."

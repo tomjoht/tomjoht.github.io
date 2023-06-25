@@ -3,7 +3,7 @@ title: "Measuring documentation quality -- a rubric for developer docs"
 permalink: /blog/measuring-documentation-quality-rubric-developer-docs/
 categories:
 - writing
-- apidoc-site-updates
+- api-doc-site-updates
 keywords:
 rebrandly: https://idratherbewriting.site/devdocsrubric
 description: "I recently added a much-needed topic in my API course: a list of criteria for assessing API documentation quality. This list has 80 characteristics sorted into the following categories: Findability, Accuracy, Relevance, Clarity, Completeness, and Readability. I also describe ways to score and assess the docs for quantitative measurements."

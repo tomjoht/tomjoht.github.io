@@ -3,7 +3,7 @@ title: "Process for collecting feedback post-release (new article in API doc cou
 permalink: /blog/process-for-collecting-feedback-post-release/
 categories:
 - writing
-- apidoc-site-updates
+- api-doc-site-updates
 keywords:
 rebrandly: https://idbwrtng.com/process-collecting-feedback
 description: "I added a new article covering the process for collecting and addressing feedback post-release in my API doc course. Collecting feedback post-release involves a host of new challenges and processes, such as how to optimize your feedback form, how to account for random externally driven requests across your dev portal, how to process the feedback from incoming requests, and so on."

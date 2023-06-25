@@ -4,6 +4,7 @@ permalink: /blog/blog-and-api-doc-site-merged-same-code
 date: 2023-06-09
 categories:
 - jekyll
+- api-doc-site-updates
 keywords: 
 rebrandly: https://idbwrtng.com/blog-and-api-doc-site-merged-same-code
 description: "I've been a bit quiet on my blog lately because I've been focusing on some technical upgrades. They probably aren't that noticeable, but I recently merged the blog and API doc site into the same code base."

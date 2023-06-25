@@ -3,6 +3,7 @@ title: "Updated Stoplight tutorial"
 permalink: /blog/updated-stoplight-tutorial/
 categories:
 - api-doc
+- api-doc-site-updates
 keywords: Stoplight Studio, Open API, Swagger
 rebrandly: https://idbwrtng.site/updatedstoplighttutorial
 description: "I updated (almost entirely rewrote) the tutorial for using Stoplight Studio. This is one of the centerpieces in my API doc course because it provides an easy way to create an OpenAPI specification document, without having to be familiar with the OpenAPI syntax or YAML."

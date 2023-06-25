@@ -3,7 +3,7 @@ title: "Introduction to API documentation - Recording from Los Angeles API docum
 permalink: /blog/introduction-to-api-documentation-la-workshop-recording/
 categories:
 - api-doc
-- apidoc-site-updates
+- api-doc-site-updates
 keywords:
 rebrandly: https://idratherbewriting.site/introapidoclaworkshop
 categories:

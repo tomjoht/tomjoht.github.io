@@ -3,7 +3,7 @@ title: "ISTC article on developer documentation trends"
 permalink: /blog/developer-documentation-trends-istc-article/
 categories:
 - api-doc
-- apidoc-site-updates
+- api-doc-site-updates
 keywords:
 rebrandly: https://idbwrtng.com/istcarticledevdoctrendsptr
 description: "I recently wrote an article for the <i>Institute of Scientific Technical Communicators</i> (ISTC) magazine <i>Communicator</i> called 'Developer documentation trends: How developer documentation trends differ from general technical communication trends.' This article provides the official writeup and analysis from the developer documentation survey that I conducted at the beginning of the year."

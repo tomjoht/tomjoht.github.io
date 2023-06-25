@@ -91,3 +91,5 @@ echo "done building fifteen";
 
 echo "Compress all individual PDFs into one zip file"
 zip pdf/docapis7428_all.zip pdf/docapis9541_chapter_one.pdf pdf/docapis5468_chapter_two.pdf pdf/docapis4043_chapter_three.pdf pdf/docapis9832_chapter_four.pdf pdf/docapis1349_chapter_five.pdf pdf/docapis9932_chapter_six.pdf pdf/docapis1256_chapter_seven.pdf pdf/docapis9834_chapter_eight.pdf pdf/docapis6721_chapter_nine.pdf pdf/docapis9153_chapter_ten.pdf pdf/docapis7834_chapter_eleven.pdf pdf/docapis8254_chapter_twelve.pdf pdf/docapis4431_chapter_thirteen.pdf pdf/docapis2395_chapter_fourteen.pdf pdf/docapis8129_chapter_fifteen.pdf
+
+echo: "All done. Now run ./pdf_upload_docapis.sh"

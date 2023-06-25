@@ -2,7 +2,7 @@
 title: "Blobr API portal (API doc topic)"
 permalink: /blog/blobr-api-portal/
 categories:
-- apidoc-site-updates
+- api-doc-site-updates
 - api-doc
 keywords:
 rebrandly: https://idbwrtng.com/blobrprodreviewpointer

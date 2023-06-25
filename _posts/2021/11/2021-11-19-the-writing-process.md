@@ -3,7 +3,7 @@ title: "\"The writing process\"-- a new section in my API doc course"
 permalink: /blog/the-writing-process/
 categories:
 - api-docs
-- apidoc-site-updates
+- api-doc-site-updates
 keywords:
 rebrandly: https://idbwrtng.site/writingprocess
 description: "I added a new section to my API documentation course on the writing process. The section has six new pages and includes tips on moving through the writing process from beginning to end."

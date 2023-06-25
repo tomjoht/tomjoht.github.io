@@ -2,6 +2,7 @@
 title: "Recording of Docs-as-code tools and workflows presentation"
 categories:
 - api-doc
+- api-doc-site-updates
 keywords:
 description: "I recently gave presentation to the Rocky Mountain STC on \"Docs-as-code workflows and tools\" on March 9, 2018. The docs-as-code approach is most common in the developer doc space. In this presentation, I explore the upsides and downsides of treating documentation as software code, and what details are involved in adopting engineering tools, workflows, collaborative processes, and other practices. You can view the recording, listen the audio, and browse the slides here."
 bitlink: http://bit.ly/stcrockydocsascode

@@ -2,7 +2,7 @@
 title: "New article in API doc course: Using Oxygen XML in docs-as-code workflows"
 permalink: /blog/oxygen-xml-with-docs-as-code-workflows/
 categories:
-- apidoc-site-updates
+- api-doc-site-updates
 - api-docs
 keywords: oxygen xml
 rebrandly: https://idbwrtng.site/oxygenxmlpointer

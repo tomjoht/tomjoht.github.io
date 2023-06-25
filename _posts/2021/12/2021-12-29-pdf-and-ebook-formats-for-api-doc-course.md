@@ -2,7 +2,7 @@
 title: "PDF and eBook formats available for API doc course"
 permalink: /blog/pdf-and-ebook-formats-for-api-doc-course
 categories:
-- apidoc-site-updates
+- api-doc-site-updates
 keywords: pdf, ebook, formats
 rebrandly: https://idbwrtng.com/pdfandebookformats
 description: "PDF and eBook formats are now available for my API doc course. People have long-requested these formats, and I finally decided to create and make them available."

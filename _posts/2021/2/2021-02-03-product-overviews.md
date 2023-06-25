@@ -3,7 +3,7 @@ title: "Product overviews -- a tricky space where documentation and marketing ov
 categories:
 - technical-writing
 - api-doc
-- apidoc-site-updates
+- api-doc-site-updates
 permalink: /blog/writing-product-overviews/
 keywords: product overviews
 description: "I recently re-wrote the article about product overviews in my API docs course, giving the article much more depth and discussion. I also included a survey to gather your feedback about my viewpoints with the product overview."

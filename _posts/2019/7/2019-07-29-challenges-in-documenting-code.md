@@ -3,6 +3,7 @@ title: "New topic in API course: Why documenting code is so difficult"
 permalink: /blog/why-documenting-code-is-so-difficult/
 categories:
 - api-doc
+- api-doc-site-updates
 keywords: documenting code
 bitlink: https://idratherbewriting.site/difficultyofcodedoc
 description: "I recently added a new section in my API documentation course on documenting code. This is an entire section that I'm building out with about 7-8 topics. The introduction is called <a href='/learnapidoc/docapis_code_difficulty.html'>Why documenting code is so difficult</a>."

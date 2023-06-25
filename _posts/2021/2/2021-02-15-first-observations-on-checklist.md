@@ -2,7 +2,7 @@
 title: "10 observations after using my API documentation checklist in a real scenario"
 categories:
 - technical-writing
-- apidoc-site-updates
+- api-doc-site-updates
 permalink: /blog/observations-using-checklist/
 keywords: product overviews
 description: "I recently published a comprehensive checklist for evaluating documentation quality (the section starts <a href='/learnapidoc/docapis_measuring_impact.html'>here</a>). In this section, I noted that my perspective is more evolving and experiential, which was good to note because when I tried to actually use the checklist, I realized a few shortcomings that I needed to address. Here are my 10 observations."

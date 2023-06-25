@@ -2,7 +2,7 @@
 title: "Adding last modified timestamps to content"
 categories:
 - technical-writing
-- apidoc-site-updates
+- api-doc-site-updates
 permalink: /blog/adding-last-modified-timestamps-to-documentation/
 keywords: product overviews
 description: "Recently I received feedback from someone saying that they couldn't tell when my <a href='/learnapidoc/docapis_measuring_impact.html'>API documentation quality checklist article</a> was published. This was embarrassing to me because printing timestamps on pages was one of the quality characteristics in the checklist. So I decided to add last-modified timestamps to every page. Unfortunately, this is a much harder task than it initially seems."
