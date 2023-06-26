@@ -1,5 +1,5 @@
 ---
-title: "Writing your own tech comm conversion story
+title: "Writing your own tech comm conversion story"
 permalink: /blog/writing-the-conversion-story-toward-tech-comm
 date: 2023-06-25
 categories:
