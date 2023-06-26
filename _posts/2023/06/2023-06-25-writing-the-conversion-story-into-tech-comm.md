@@ -1,5 +1,5 @@
 ---
-title: "Writing the career conversion story into tech comm"
+title: "Writing your own tech comm conversion story
 permalink: /blog/writing-the-conversion-story-toward-tech-comm
 date: 2023-06-25
 categories:
