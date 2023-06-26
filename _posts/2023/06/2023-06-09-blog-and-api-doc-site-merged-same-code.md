@@ -7,11 +7,13 @@ categories:
 - api-doc-site-updates
 keywords: 
 rebrandly: https://idbwrtng.com/blog-and-api-doc-site-merged-same-code
-description: "I've been a bit quiet on my blog lately because I've been focusing on some technical upgrades. They probably aren't that noticeable, but I recently merged the blog and API doc site into the same code base."
+description: "I've been a bit quiet on my blog lately because I've been focusing on some technical upgrades. They probably aren't that noticeable, but I recently merged the blog and API doc site into the same code base. Working from a single code base will make site enhancements much easier in the future."
 ---
 
 * TOC
 {:toc}
+
+## Previous architecture was two separate themes
 
 Previously, the blog ran from one Jekyll site stored in the [tomjoht.github.io repo](https://github.com/tomjoht/tomjoht.github.io), and the API doc site ran from the [learnapidoc repo](https://github.com/tomjoht/learnapidoc). I originally put the API doc course into a separate repo because it was easier to manage the content that way, but making updates to the code has been a slog over the years, requiring duplicate updates across the two repos, remembering the reasons for the differences in templates and code and logic, etc. Further, the two sites were never seamless, even though they were branded similarly.
 

@@ -4,6 +4,8 @@ permalink: /tags/
 mytags:
 - title: Academics and practitioners
   url: /category-academics-and-practitioners/
+- title: AI
+  url: /category-AI/
 - title: API documentation
   url: /category-api-doc/
 - title: API doc site updates

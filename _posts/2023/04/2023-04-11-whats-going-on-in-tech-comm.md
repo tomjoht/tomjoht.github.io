@@ -3,7 +3,6 @@ title: "Newsletter: AI and tech comm survey results, Zoomin's predictions, Beati
 categories:
 - technical-writing
 - AI
-- newsletter
 keywords:
 rebrandly: https://idbwrtng.com/tclinksapril12
 description: "The following are a few interesting links related to tech comm I've been reading this week."

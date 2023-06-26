@@ -7,7 +7,7 @@ categories:
 - writing
 keywords: 
 rebrandly: https://idbwrtng.com/blog-to-book-experiment-progress
-description: "This post reflects on my smartphone series experiment, which is a blog-to-book project. I note the challenges of trying to shape blog posts into a larger book-like work."
+description: "In this post, I explore the challenges of transforming a blog series into a book. The process proved to be more complex than I thought, and I had to deal with inconsistencies around tense (present vs past tense), time management, momentum, and more. Trying to read through 75,000 words to see if it has the shape and arc of a book is no small feat, and is one I'm still wrestling with."
 ---
 
 ## Origins of a writing model: continuous exploratory digging

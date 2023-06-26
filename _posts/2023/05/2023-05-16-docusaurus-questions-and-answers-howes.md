@@ -4,6 +4,8 @@ permalink: /blog/docusaurus-questions-and-answers-howes
 date: 2023-05-16
 categories:
 - technical-writing
+- web-design
+- innovation
 keywords: 
 rebrandly: https://idbwrtng.com/from-dita-to-docs-as-code-docusaurus-howes
 description: "In this Q&A focused on switching from DITA to docs-as-code tools, specifically Docusaurus, technical writer Mikes Howes shares the considerations, deliberations, and tradeoffs when choosing and implementing a new authoring tool."

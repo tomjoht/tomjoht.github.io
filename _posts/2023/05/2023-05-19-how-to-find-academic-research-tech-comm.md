@@ -4,7 +4,8 @@ permalink: /blog/how-to-find-academic-research-tech-comm
 date: 2023-05-19
 categories:
 - academics-and-practitioners
-- AI
+- technical-writing
+- findability
 keywords: 
 rebrandly: https://idbwrtng.com/how-to-find-academic-research-tech-comm
 description: "Here are a few quick tips for finding academic research related to tech comm."

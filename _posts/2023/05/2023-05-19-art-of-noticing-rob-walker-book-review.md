@@ -4,7 +4,8 @@ permalink: /blog/art-of-noticing-rob-walker-book-review
 date: 2023-05-19
 categories:
 - technical-writing
-- AI
+- book-reviews
+- creativity
 keywords: 
 rebrandly: https://idbwrtng.com/art-of-noticing-rob-walker-book-review
 description: "Rob Walker's <i>The Art of Noticing</i> can help you see the familiar environment around you in a new light."

@@ -5,7 +5,8 @@ date: 2023-05-09
 categories:
 - technical-writing
 - AI
-- newsletter
+- academics-and-practitioners
+- innovation
 keywords: 
 rebrandly: https://idbwrtng.com/doctave-microchat-copilot-bibliography
 description: "The following are tech comm links, articles, and thoughts for May 9, 2023."

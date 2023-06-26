@@ -5,9 +5,10 @@ date: 2023-06-08
 categories:
 - technical-writing
 - AI
+- - innovation
 keywords: 
 rebrandly: https://idbwrtng.com/doctave-qa-niklas-begley
-description: "<a href='https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq'>Doctave</a> is a new docs-as-code SaaS documentation platform built on Rust. In this post, I ask co-founder Niklas Begley more questions about the origin behind the platform, differentiating features, approaches to common problems, and more."
+description: "<a href='https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq'>Doctave</a> is a new docs-as-code SaaS documentation platform built on Rust. In this post, I ask co-founder Niklas Begley more questions about the origin behind the platform, differentiating features, approaches to common problems, and more. If you're looking for a docs-as-code platform that will allow you to get productive with documentation authoring quickly, Doctave looks to be a promising solution."
 ---
 
 * TOC

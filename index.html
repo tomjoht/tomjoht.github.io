@@ -15,9 +15,13 @@ focus: noform
             </div>
             {% if post.image %}
                 <div class="thumb"> <a href="{{ post.url }}"><img src="{{post.image}}" alt="{{post.title}}"/></a>
-                
-                {% endif %}
-                <p>{{post.description | strip_html }}</p>
+            {% endif %}
+               
+            {% if post.description %}
+            <p>{{post.description | strip_html }}</p>
+            {% else %}
+            <p>{{post.content | strip_html | truncate: 450}}</p>
+            {% endif %}
             </div>
 
             {% endfor %}

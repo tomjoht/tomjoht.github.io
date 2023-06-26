@@ -5,7 +5,8 @@ date: 2023-05-02
 categories:
 - technical-writing
 - AI
-- newsletter
+- innovation
+- web-design
 keywords: 
 rebrandly: https://idbwrtng.com/ai-alerts-tools-easy-automated-teams
 description: "Here are tech comm news and links for May 2, 2023."

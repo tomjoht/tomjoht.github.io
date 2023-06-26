@@ -3,8 +3,9 @@ title: "AI starting to diminish work for student essay ghostwriters"
 permalink: /blog/ai-diminishing-academic-ghostwriters-cheating
 date: 2023-05-19
 categories:
-- technical-writing
+- academics-and-practitioners
 - AI
+- innovation
 keywords: 
 rebrandly: https://idbwrtng.com/ai-diminishing-academic-ghostwriters-cheating
 description: "Tools like ChatGPT are diminishing reliance on essay cheating services. This doesn't mean fewer students are cheating, though. In fact, cheating is likely more rampant with AI tools, and more students are losing the patience to write."

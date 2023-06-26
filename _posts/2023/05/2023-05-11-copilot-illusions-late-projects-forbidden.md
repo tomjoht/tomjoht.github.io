@@ -5,7 +5,7 @@ date: 2023-05-11
 categories:
 - technical-writing
 - AI
-- newsletter
+- innovation
 keywords: 
 rebrandly: https://idbwrtng.com/copilot-illusions-late-projects-forbidden
 description: "The following are tech comm links, articles, and thoughts for May 11, 2023."

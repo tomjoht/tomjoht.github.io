@@ -31,6 +31,7 @@ permalink: /blog/$SLUG
 date: $DATE
 categories:
 - academics-and-practitioners
+- AI
 - api-doc
 - beginners
 - biking

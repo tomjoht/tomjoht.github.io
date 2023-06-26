@@ -5,7 +5,7 @@ date: 2023-05-19
 categories:
 - technical-writing
 - AI
-- newsletter
+- blogging
 keywords: 
 rebrandly: https://idbwrtng.com/news-cycle-wordtune-noticing-things-research
 description: "Here are tech comm news and links for May 19, 2023."

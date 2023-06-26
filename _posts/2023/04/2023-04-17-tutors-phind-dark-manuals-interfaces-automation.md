@@ -5,7 +5,6 @@ date: 2023-04-17
 categories:
 - technical-writing
 - AI
-- newsletter
 keywords: 
 rebrandly: https://idbwrtng.com/tutors-phind-dark-manuals-interfaces-automation
 description: "Here are links for my April 17, 2023 newsletter."
