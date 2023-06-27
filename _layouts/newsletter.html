@@ -376,6 +376,10 @@
     <p>{{ post.content | strip_html | truncate: 500 }} <a href="{{ "https://idratherbewriting.com" | append: post.url }}">Read more &raquo;</a></p>
             {% endif %}
 
+ {% if forloop.index == 3 %}
+{% include newsletter_blurbs/devdocs.md %}
+{% endif %}
+
     {% if forloop.index < forloop.length %}
         {% include newsletterlink{{link_counter}}.html %}
         {% assign link_counter = link_counter | plus: 1 %}
