@@ -17,7 +17,7 @@ description: "I've been a bit quiet on my blog lately because I've been focusing
 
 Previously, the blog ran from one Jekyll site stored in the [tomjoht.github.io repo](https://github.com/tomjoht/tomjoht.github.io), and the API doc site ran from the [learnapidoc repo](https://github.com/tomjoht/learnapidoc). I originally put the API doc course into a separate repo because it was easier to manage the content that way, but making updates to the code has been a slog over the years, requiring duplicate updates across the two repos, remembering the reasons for the differences in templates and code and logic, etc. Further, the two sites were never seamless, even though they were branded similarly.
 
-By having all code running from the same Jekyll site, it's a lot easier to manage. I moved all my series posts to use the same yaml format and sidebar logic as my API documentation content as well. The top navigation has the same links, as well as the sidebar, footer, etc.
+By having all code running from the same Jekyll site, it's a lot easier to manage. I moved all my series posts to use the same yaml format and sidebar logic as my API documentation content. The top navigation has the same links, as well as the sidebar, footer, etc.
 
 {% include ads.html %}
 
