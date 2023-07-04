@@ -55,6 +55,8 @@ The AI-generated response appears in the right pane. In this example, there don'
 
 The diff shows all the language changes. You can see the AI adjusted more text than it initially seemed. I LOVE the diff preview! 
 
+{% include random_ad3.html %}
+
 But this AI modified text isn't that helpful. You still don't have a clear sense of what an "embedding" is. The problem wasn't with poor wording but rather inadequate explanation. You could go back to the engineers for more details, but you don't want to look slow.
 
 You decide to further refine the AI prompt. In the right pane, you add this instruction: "provide a couple of concrete examples to clarify the concept." 
@@ -74,6 +76,8 @@ The examples offer more clarity! As a tech writer, you know that providing examp
 If you like the response, you can click **Replace** to insert the response in place of text you initially highlighted. In this case, because you're expanding on the concept with examples (not replacing the original), click **Copy** and manually insert it in the Text view (because the response already has DITA tags already).
 
 This scenario provides you an idea of the workflow for using Positron. You haven't left your documentation project context, and you surgically selected parts of your existing documentation to improve. Of course, you'll want to review the AI-generated additions with the engineers, but even if they adjust the examples, you've already improved the document.
+
+{% include random_ad4.html %}
 
 ## Available action buttons
 
@@ -288,6 +292,8 @@ Keep in mind that Positron only reveals summaries to the authors, not the full p
 ## Error correction
 
 Positron is also integrated into the Results pane to perform error correction. If you have an error with the DITA code, underlined in yellow, you can right click the error message and select **AI Positron Fix**. This will prompt Positron to send the error to ChatGPT to suggest a fix for the error. This will result in speedier fixing and debugging of issues.
+
+{% include random_ad2.html %}
 
 ## Button prompts
 

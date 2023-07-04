@@ -29,21 +29,9 @@ kramdown:
 collections:
   docs:
     output: true
-  smartphones: 
+  slides:
     output: false
-  restapicourse:
-    output: false
-  publishingapidocs:
-    output: false
-  voiceovertechniques:
-    output: false
-  visualcommunication:
-    output: false
-  podcasts:
-    output: false
-  youngadultnovel:
-    output: false
-  user_centered_doc:
+  pages:
     output: false
 
 sass:
