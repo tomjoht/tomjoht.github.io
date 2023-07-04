@@ -3,7 +3,7 @@ title: 'Get event information using the Eventbrite API'
 permalink: learnapidoc/docapis_eventbrite_example.html
 sidebar: docapis
 course: "Documenting REST APIs"
-weight: 14.2
+weight: 15.2
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html

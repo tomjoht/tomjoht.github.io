@@ -1,7 +1,7 @@
 scope: individual
 section: seven
 title: Documenting REST APIs
-subtitle: "VII: Conceptual topics in API docs"
+subtitle: "Chapter 7: Conceptual topics in API docs"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.

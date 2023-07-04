@@ -1,6 +1,6 @@
 section: three
 title: Documenting REST APIs
-subtitle: ""
+subtitle: "Chapter 3: Documenting API endpoints"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.

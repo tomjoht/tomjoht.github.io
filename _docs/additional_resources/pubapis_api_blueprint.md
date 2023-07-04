@@ -3,7 +3,7 @@ title: "API Blueprint tutorial"
 permalink: learnapidoc/pubapis_api_blueprint.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 14.5
+weight: 15.5
 section: resources
 path1: learnapidoc/resources.html
 last-modified: 2019-12-29

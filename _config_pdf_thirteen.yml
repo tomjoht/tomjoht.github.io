@@ -1,7 +1,7 @@
 scope: individual
 section: thirteen
 title: Documenting REST APIs
-subtitle: "XIII: Processes and methodology"
+subtitle: "Chapter 13: Processes and methodology"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.

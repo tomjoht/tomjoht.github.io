@@ -1,7 +1,7 @@
 scope: individual
-section: two
+section: sixteen
 title: Documenting REST APIs
-subtitle: "Chapter 2: Using an API like a developer"
+subtitle: "Chapter 16: Additional resources"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
@@ -74,7 +74,7 @@ defaults:
       published: true
   -
     scope:
-      path: _docs/using_an_api_like_a_developer
+      path: _docs/additional_resources
       type: docs
     values:
       layout: printpdf

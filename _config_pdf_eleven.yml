@@ -1,7 +1,7 @@
 scope: individual
 section: eleven
 title: Documenting REST APIs
-subtitle: "XI: Thriving in the API doc space"
+subtitle: "Chapter 11: Thriving in the API doc space"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.

@@ -534,9 +534,21 @@ folders:
   - title: Quantifying your progress
     jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
-- title: "Chapter 15: Additional resources"
-  landing: /learnapidoc/resources.html
+- title: "Chapter 15: AI and API documentation"
+  landing: /learnapidoc/ai.html
   section: fifteen
+  folderitems:
+
+  - title: "Overview"
+    jurl: /learnapidoc/ai.html
+    type: web
+
+  - title:  "First look at the Oxygen XML AI Positron Assistant"
+    jurl: /learnapidoc/docapis_oxygenxml_positron_assistant.html
+
+- title: "Chapter 16: Additional resources"
+  landing: /learnapidoc/resources.html
+  section: sixteen
   folderitems:
 
   - title: "Overview"

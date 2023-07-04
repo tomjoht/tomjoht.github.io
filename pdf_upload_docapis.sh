@@ -4,20 +4,21 @@ myvenv() {
 }
 myvenv
 
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis9541_chapter_one.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis5468_chapter_two.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis4043_chapter_three.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis9832_chapter_four.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis1349_chapter_five.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis9932_chapter_six.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis1256_chapter_seven.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis9834_chapter_eight.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis6721_chapter_nine.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis9153_chapter_ten.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis7834_chapter_eleven.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis8254_chapter_twelve.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis4431_chapter_thirteen.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis2395_chapter_fourteen.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis8129_chapter_fifteen.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis7428_all.zip s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter1_docapis9541.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter2_docapis5468.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter3_docapis4043.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter4_docapis9832.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter5_docapis1349.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter6_docapis9932.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter7_docapis1256.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter8_docapis9834.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter9_docapis6721.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter10_docapis9153.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter11_docapis7834.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter12_docapis8254.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter13_docapis4431.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter14_docapis2395.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter15_docapis3757.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/chapter16_docapis8129.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/all_chapters.zip s3://learnapidoc-outputs --profile wasabi
 echo 'done uploading'

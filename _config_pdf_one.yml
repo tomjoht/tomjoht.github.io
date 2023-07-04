@@ -1,7 +1,7 @@
 scope: individual
 section: one
 title: Documenting REST APIs
-subtitle: "I: Introduction to REST APIs"
+subtitle: "Chapter 1: Introduction to REST APIs"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.

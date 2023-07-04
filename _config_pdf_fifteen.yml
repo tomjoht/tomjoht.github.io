@@ -1,7 +1,7 @@
 scope: individual
 section: fifteen
 title: Documenting REST APIs
-subtitle: "XV: Additional resources"
+subtitle: "Chapter 15: AI tools and API documentation"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
@@ -32,19 +32,7 @@ collections:
     output: true
   smartphones: 
     output: false
-  restapicourse:
-    output: false
-  publishingapidocs:
-    output: false
-  voiceovertechniques:
-    output: false
-  visualcommunication:
-    output: false
-  podcasts:
-    output: false
-  youngadultnovel:
-    output: false
-  user_centered_doc:
+  pages:
     output: false
 
 sass:
@@ -74,7 +62,7 @@ defaults:
       published: true
   -
     scope:
-      path: _docs/additional_resources
+      path: _docs/ai
       type: docs
     values:
       layout: printpdf
