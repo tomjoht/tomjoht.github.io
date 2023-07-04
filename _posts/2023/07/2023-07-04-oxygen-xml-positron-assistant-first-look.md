@@ -13,5 +13,7 @@ description: "I added a new topic to my API doc course on the Oxygen XML Positro
 
 To read the post, see  <a href='/learnapidoc/docapis_oxygenxml_positron_assistant.html'>First look at the Oxygen XML AI Positron Assistant</a>.
 
+*Note: This is a sponsored post.*
+
 {% include ads.html %}
 
