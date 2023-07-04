@@ -33,7 +33,7 @@ Doors open at 8:00am. Check your name off at the registration table and get a na
 
 [Section: Introduction to API documentation](docapis_introtoapis.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/intro_api_documentation.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/introapidoctitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/intro_api_documentation.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/introapidoctitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity 1: Identify your goals](docapis_identify_your_goals.html)
 
@@ -41,7 +41,7 @@ Doors open at 8:00am. Check your name off at the registration table and get a na
 
 [Section: Using an API like a developer](likeadeveloper.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/using_api_like_developer.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/using-api-developer-titleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/using_api_like_developer.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/using-api-developer-titleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity: Explore OpenWeatherMap API](docapis_scenario_for_using_weather_api.html#explore_openweathermap_api)
 
@@ -61,7 +61,7 @@ Break time
 
 [Section: Documenting API endpoints](docendpoints.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/documenting_api_endpoints.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/documenting-endpoints-titleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/documenting_api_endpoints.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/documenting-endpoints-titleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity: What's wrong with this API reference topic](docapis_api_whats_wrong_activity.html)
 
@@ -71,7 +71,7 @@ Break time
 
 [Section: OpenAPI and Swagger](restapispecifications.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/openapi_and_swagger.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/openapiswaggertitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/openapi_and_swagger.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/openapiswaggertitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity: Explore Swagger UI through the Petstore Demo](pubapis_openapi_intro.html#explore_swagger_through_petstore_demo)
 
@@ -91,7 +91,7 @@ Lunch provided through catering.
 
 [Section: Conceptual topics](docconceptual.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/conceptual_content_api_docs.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/conceptualcontenttitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/conceptual_content_api_docs.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/conceptualcontenttitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity: Complete the SendGrid Getting Started tutorial](docapis_getting_started_activity.html)
 
@@ -105,7 +105,7 @@ Break. Snacks provided.
 
 [Section: Code tutorials](docapiscode.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/code_tutorials.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/codetutorialsthumb.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/code_tutorials.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/codetutorialsthumb.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity: Analyze two code tutorials](docapis_code_tutorials_common_characteristics.html#analyze_code_tutorials)
 
@@ -113,7 +113,7 @@ Break. Snacks provided.
 
 [Section: Publishing API Documentation](publishingapis.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/publishing_api_docs.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/publishingapidoctitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/publishing_api_docs.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/publishingapidoctitleslide.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 [Activity: Create a GitHub wiki and publish content on a sample page](pubapis_github_wikis.html#create_github_wiki)
 
@@ -131,7 +131,7 @@ During this time, I'd like to have participants surface specific challenges that
 
 [Section: Thriving in the API doc space](jobapis.html)
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/thriving_in_api_docs.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/thrivinginapidocsthumb.png" style="width: 300px; border: 1px solid #dedede;"></a>
+<a href="/slides/thriving_in_api_docs.html" class="noCrossRef"><img class="slideThumb" src="{{site.api_media}}/thrivinginapidocsthumb.png" style="width: 300px; border: 1px solid #dedede;"></a>
 
 ## Conclusion {#conclusion}
 

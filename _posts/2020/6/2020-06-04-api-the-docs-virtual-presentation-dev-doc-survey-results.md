@@ -53,7 +53,7 @@ If you only want the audio, you can listen here:
 
 If you only want the slides, they're here:
 
-<a href="../learnapidoc/slides/devdoctrends_results.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" style="max-width:500px; border: 1px solid #444"  /></a>
+<a href="../slides/devdoctrends_results.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" style="max-width:500px; border: 1px solid #444"  /></a>
 
 {% include ads.html %}
 

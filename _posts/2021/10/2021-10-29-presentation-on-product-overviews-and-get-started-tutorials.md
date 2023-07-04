@@ -33,7 +33,7 @@ If you want to listen to audio only, here's the file:
 
 Here are my slides:
 
-<a target="_blank" href="https://idratherbewriting.com/learnapidoc/slides/overviews_and_tutorialsv2.html#/"><img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/overviews_and_tutorials_title_slide2.png" alt="Best practices in API docs: Product overviews and getting started tutorials" /></a>
+<a target="_blank" href="https://idratherbewriting.com/slides/overviews_and_tutorialsv2.html#/"><img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/overviews_and_tutorials_title_slide2.png" alt="Best practices in API docs: Product overviews and getting started tutorials" /></a>
 
 (Note: Use both the right and down arrows to move through the slides.)
 

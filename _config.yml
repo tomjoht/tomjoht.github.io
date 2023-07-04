@@ -49,29 +49,25 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
+# Permalink style
+
+permalink: /:year/:month/:day/:title/
+
+# Collections
 collections:
   docs:
     output: true
+  slides:
+    output: true
   smartphones: 
     output: true
-  restapicourse:
-    output: true
-  publishingapidocs:
-    output: true
-  voiceovertechniques:
-    output: true
-  visualcommunication:
-    output: true
-  podcasts:
-    output: true
-  youngadultnovel:
-    output: false
-  user_centered_doc:
-    output: true
+
+# Sass styles
+
 sass:
     style: compressed
 
-permalink: /:year/:month/:day/:title/
+# Defaults for frontmatter values
 
 defaults:
   -
@@ -93,31 +89,10 @@ defaults:
       comments: true
       search: true
       author: <a href='/aboutme/'>Tom Johnson</a>
-  -
-    scope:
-      path: ""
-      type: "tooltips_demo"
-    values:
-      layout: "page"
-      search: true
-  -
-    scope:
-      path: ""
-      type: "podcasts"
-    values:
-      layout: "itunes"
 
   -
     scope:
-      path: ""
-      type: "visualcommunication"
-    values:
-      layout: "page_visualcommunication"
-      comments: true
-      search: true
-  -
-    scope:
-      path: ""
+      path: "_docs"
       type: docs
     values:
       layout: default
@@ -128,8 +103,16 @@ defaults:
 
   -
     scope:
-      path: ""
-      type: smartphones
+      path: "_slides"
+      type: slides
+    values:
+      layout: slides
+      permalink: /slides:path.html
+
+  -
+    scope:
+      path: "_smartphones"
+      type: smartphonesß
     values:
       layout: default
       sidebar: sidebar_smartphones

@@ -46,7 +46,7 @@ If you want to listen to audio only, here's the file:
 
 Here are my slides:
 
-<a target="_blank" href="https://idratherbewriting.com/learnapidoc/slides/techcomm_and_marketing.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/tcworldchinatitleslide.png" alt="Tech comm and marketing slides" /></a>
+<a target="_blank" href="https://idratherbewriting.com/slides/techcomm_and_marketing.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/tcworldchinatitleslide.png" alt="Tech comm and marketing slides" /></a>
 
 (I incorporated some tcworld China branding into the slides.)
 

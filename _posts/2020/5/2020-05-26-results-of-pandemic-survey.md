@@ -122,7 +122,7 @@ Overall, the new house was a good move for us and is helping with everything. It
 
 One reason I wanted to create this survey was to hopefully arrive at some well-thought, evidence-based conclusion about the best strategies for success in tech comm during these times. I'm not sure any specific strategies surface apart from the same strategies for career stability regardless of pandemics. I can endure the quarantine and the disruption to life as long as I have a stable job (my wife too). So I'd say the best measure you can take to make it through these times is to safeguard your job by staying as marketable and skilled as possible.
 
-In some ways, technical writers have more assurances than other positions because many of us are the only resource in this job category at our work. In my recent survey about [Developer Documentation Trends](../learnapidoc/slides/devdoctrends_results.html#/49), the results found that 34% of respondents are lone writers, 31% are part of small teams with 2-4 writers, and 12% are part of teams with 5-7 writers. I think companies are hesitant to get rid of every resource for a job function.
+In some ways, technical writers have more assurances than other positions because many of us are the only resource in this job category at our work. In my recent survey about [Developer Documentation Trends](../slides/devdoctrends_results.html#/49), the results found that 34% of respondents are lone writers, 31% are part of small teams with 2-4 writers, and 12% are part of teams with 5-7 writers. I think companies are hesitant to get rid of every resource for a job function.
 
 Regardless of the pandemic, what can you to do keep your marketability and skills at the top of your game? Here are a few focus areas:
 

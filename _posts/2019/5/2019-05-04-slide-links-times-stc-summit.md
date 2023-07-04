@@ -66,6 +66,6 @@ Description:
 Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/q0giL7hGfF)
-* [Web slides](https://idratherbewriting.com/learnapidoc/slides/crash_course.html)
+* [Web slides](https://idratherbewriting.com/slides/crash_course.html)
 
 <b><i>Post-Summit Note:</i></b> *I recorded this presentation using the on-board mic on my laptop, and STC let me post it. The sound in the recording isn't great, but if you're interested, the video is available [here](https://www.youtube.com/watch?v=5pzhtrrtkXY&t=287s). In this introductory presentation, I explore Sendgrid as a good example of API docs.*
