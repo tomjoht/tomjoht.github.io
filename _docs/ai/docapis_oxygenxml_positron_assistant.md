@@ -338,3 +338,5 @@ One detail I haven't yet addressed is the name: Positron. The name was inspired 
 In Oxygen XML, the Positron Assistant isn't conscious, nor is it about to start simulating emotions. But you can think of the Positron integration as having a character like Data on your bridge, available to ask it questions, improve language, suggest fixes, and more. Who wouldn't want that?
 
 Also, keep in mind that this is the first round of AI integration. We're at the beginning of what will no doubt be many more iterations and enhancements with AI integration. We're getting better at prompt engineering, understanding strategic ways to integrate AI, and reducing hallucination by passing in documentation context. It's an exciting time to be a tech writer. Explore and experiment with these new AI tools and see what works for you. Then share your experiences with the larger community.
+
+{% include ads.html %}
