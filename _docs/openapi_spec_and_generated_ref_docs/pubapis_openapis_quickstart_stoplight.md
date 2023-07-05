@@ -277,8 +277,13 @@ Now enter the path and parameter information:
 
     * *Name ...*: **lon**
     * *[Data type]*: string
-    * *Description...*: \*\*Longitude\*\*. \*Example: 139\*. Longitude coordinate of the location of your interest. Must use with \`lat
-    \`.
+    * *Description...*: \*\*Longitude\*\*. \*Example: 139\*. Longitude coordinate of the location of your interest. Must use with \`lat\`.
+
+    \-\-\-\-\-\-\-
+
+    * *Name ...*: **lat**
+    * *[Data type]*: string
+    * *Description...*: \*\*Latitude\*\*. \*Example: 35\*. Latitude coordinate of the location of your interest. Must use with \`lat\`.
 
     \-\-\-\-\-\-\-
 
