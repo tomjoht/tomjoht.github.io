@@ -309,6 +309,12 @@ After creating the action, you create a style rule in `action.css` to add a butt
 
 <figure><img style="border: 1px solid #dedede"  src="{{site.api_media}}/positroncssrule.png" alt="Configuring CSS actions" /><figcaption>Sample configuration of css action</figcaption></figure>
 
+For more details on configuring buttons, see the following: 
+
+* [Webinar: Improving the Oxygen Authoring Experience Through Custom Actions](https://www.oxygenxml.com/events/2020/webinar_improving_the_oxygen_authoring_experience_through_custom_actions.html)
+* [Button Form Control](https://www.oxygenxml.com/doc/versions/25.1/ug-editor/topics/button-editor.html)
+* [Form Controls](https://www.oxygenxml.com/doc/versions/25.1/ug-editor/topics/form-controls.html)
+
 ## Limitations
 
 Now that we've covered Positron's functionality, I'll comment on a few limitations. 
