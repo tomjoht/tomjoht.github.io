@@ -55,7 +55,7 @@ If it doesn't make sense to join an engineering scrum, you can create your own s
 
 1. **Identify upcoming projects and other work (sprint planning)**. Before each sprint, review upcoming projects and other work, such as by reviewing launch calendars, intake buckets, support forums, planning roadmaps, and more. Get a sense of the work and priorities. The point is not to be surprised by work that shows up on your door two weeks before the deliverables are needed.
 
-2. **Create a documentation plan for larger projects**. My documentation plan typically follows this [documentation plan template](/blog/documentation-project-plan-template/#documentation-plan-template) and is adapted for the project at hand. This plan provides a host of details that I need to keep straight about the project. It isn't a waterfall approach or a doc outline but rather a list of notes about the project, such as who's who, where QA test scripts are, expected deliverables, when release dates are planned, where key product documents are, and so on. This doc plan functions as a kind of run book for the project, with a section that lists running notes.
+2. **Create a documentation plan for larger projects**. My documentation plan typically follows this [documentation plan template](https://idratherbewriting.com/blog/documentation-project-plan-template/#documentation-plan-template) and is adapted for the project at hand. This plan provides a host of details that I need to keep straight about the project. It isn't a waterfall approach or a doc outline but rather a list of notes about the project, such as who's who, where QA test scripts are, expected deliverables, when release dates are planned, where key product documents are, and so on. This doc plan functions as a kind of run book for the project, with a section that lists running notes.
 
 2. **Chunk doc work into tickets**. From the doc plan, create tickets (e.g., JIRA issues) related to the work. The tickets should roughly outline the major tasks for each project. The tickets don't need to be comprehensive from the start, but they should give a sense of the work required. Also, you don't have to log all the tickets from the beginning, as they will likely sit in a backlog and become outdated before you even start working on them. The basic idea is to simplify complex tasks by chunking up the work into small tasks.
 
@@ -107,8 +107,8 @@ By implementing a more formal process and methodology for managing tech doc proj
 
 See these posts on my site for more reading about Scrum and tech docs:
 
-* [Increase efficiency 24 times faster when fixing errors — implications for technical writers on agile teams](/2015/10/27/fix-errors-fast-scrum-agile/)
-* [Tech docs and Agile: Problems with integrating tech writers into engineering scrums (Part 1)](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/)
-* [Tech docs and Agile: Alternatives to integrating into engineering scrums (Part 2)](/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/#what-about-lean)
-* [How can technical writers thrive in agile environments? Event recording and details](/2016/09/20/thriving-in-agile-environments-as-technical-writers)
-* [How to apply agile processes to manage your life's projects](/2016/01/21/apply-agile-principles-to-personal-projects/)
+* [Increase efficiency 24 times faster when fixing errors — implications for technical writers on agile teams](https://idratherbewriting.com15/10/27/fix-errors-fast-scrum-agile/)
+* [Tech docs and Agile: Problems with integrating tech writers into engineering scrums (Part 1)](https://idratherbewriting.com17/08/04/part1_when-agile-doesnt-work-technical-writers/)
+* [Tech docs and Agile: Alternatives to integrating into engineering scrums (Part 2)](https://idratherbewriting.com17/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/#what-about-lean)
+* [How can technical writers thrive in agile environments? Event recording and details](https://idratherbewriting.com16/09/20/thriving-in-agile-environments-as-technical-writers)
+* [How to apply agile processes to manage your life's projects](https://idratherbewriting.com16/01/21/apply-agile-principles-to-personal-projects/)

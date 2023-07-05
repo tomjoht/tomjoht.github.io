@@ -25,7 +25,7 @@ Second, I knew that through feedback, I could refine the information and make it
 
 {% include random_ad4.html %}
 
-Finally, the content would help drive traffic to my site. In fact, visits to the API documentation course pages outperform visits to my blog. I reflected on this traffic source in a blog post &mdash; see [If writing is no longer a marketable skill, what is?](/2018/08/09/writing-no-longer-a-skill/) How would people discover the material if they couldn't find it online? If the material were only trapped in a print book or behind a firewall, it would be difficult to discover. Content is a rich information asset that draws traffic to any site. It's what people primarily search for online.
+Finally, the content would help drive traffic to my site. In fact, visits to the API documentation course pages outperform visits to my blog. I reflected on this traffic source in a blog post &mdash; see [If writing is no longer a marketable skill, what is?](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/) How would people discover the material if they couldn't find it online? If the material were only trapped in a print book or behind a firewall, it would be difficult to discover. Content is a rich information asset that draws traffic to any site. It's what people primarily search for online.
 
 After putting the API doc on my site for some months, the feedback was positive. One person said:
 
@@ -58,6 +58,6 @@ One question I faced in preparing the content is whether I should stick with tex
 Additionally, videos force the user to go at the pace of the narrator. If your skill level matches the narrator, that's great. But in my experience, videos often go too slow or too fast. In contrast, text lets you more easily skip ahead when you already know the material, or slow down when you need more time to absorb concepts.
 
 Despite the constant changes in the technology landscape, I want to keep this course current and up to date. As such, I'll continue to add and edit and refine it as needed. I want this content to become a vital learning resource for all technical writers, both now and in the years to come as technologies evolve.
-If you have general feedback about this course, feel free to [drop me a line](/contact/).
+If you have general feedback about this course, feel free to [drop me a line](https://idratherbewriting.com/contact/).
 
 {% include random_ad3.html %}

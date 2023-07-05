@@ -64,7 +64,7 @@ However, for more complex code, especially where multiple files and generated co
 
 > When isn’t code enough to be self-documenting? Sometimes, developers had no problem reading code, and in fact preferred it for finding more accurate information. However, there are some cases where self-documentation isn’t feasible, like code with overly complex method signatures and generated code. Other details, like recommended usage, just can’t be conveyed by source code.
 
-In short, when the source code isn't intuitive to understand on its own, developers turned to more lengthy and formal documentation about it. This makes sense and aligns with best practices for GUI documentation as well &mdash; one should always focus on the complicated parts of a system, [not the obvious elements](/2013/09/04/sticking-with-obvious-information/) that no one needs help with.
+In short, when the source code isn't intuitive to understand on its own, developers turned to more lengthy and formal documentation about it. This makes sense and aligns with best practices for GUI documentation as well &mdash; one should always focus on the complicated parts of a system, [not the obvious elements](https://idratherbewriting.com13/09/04/sticking-with-obvious-information/) that no one needs help with.
 
 Granted, recognizing what code is simple versus complex is the challenge because the technical writer is likely not a developer and will likely only have a rudimentary idea about the complexity of the code. Just because the code is short or long does not give a clear indication about its complexity. A short snippet out of context might be confusing, while a lengthier sample that contains a fully functioning sample might be more understandable.
 
@@ -172,7 +172,7 @@ The authors call out some of these design patterns in their recommendations. The
 
 Note that "opportunistic" isn't the author's own terminology choice (it's a term previous researchers used). The authors say that opportunistic behavior "bears many similarities with the exploratory and active approach described by John Carroll ...", referring to Carroll's seminal work in *The Nurnberg Funnel*, which ties in with Mark Baker's "Every Page Is Page One" and other nonlinear reading behaviors. Readers jump around, gathering information after exploring the system with trial and error.
 
-Instead of "opportunistic" (which has a somewhat negative connotation), others have also characterized this behavior as "exploratory" or "active" or "bottom-up" learning. See [How to design documentation for non-linear reading behavior](/2015/05/15/writing-for-users-who-read-non-sequentially/) and [Principle 2: Make information discoverable as the user needs it](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html) for more information.
+Instead of "opportunistic" (which has a somewhat negative connotation), others have also characterized this behavior as "exploratory" or "active" or "bottom-up" learning. See [How to design documentation for non-linear reading behavior](https://idratherbewriting.com15/05/15/writing-for-users-who-read-non-sequentially/) and [Principle 2: Make information discoverable as the user needs it](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html) for more information.
 
 ### Where users spend the most time
 

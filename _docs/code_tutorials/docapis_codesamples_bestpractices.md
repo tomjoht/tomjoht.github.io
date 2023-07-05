@@ -70,7 +70,7 @@ Your documentation regarding the code should mix code comments with some explana
 
 {% include image_ad_right.html %}
 
-Comments within the code are usually short one-line notes that appear after every 5-10 lines of code. You can follow up this code with more robust explanations in your documentation, but it's ideal to pepper code samples with comments because it puts the explanation next to the code doing the action. This approach of adding brief comments within the code, followed by more robust explanations after the code, aligns with principles of [progressive information disclosure](/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) that help align with both advanced and novice user types. In this case, progressive information disclosure means you provide some detail in the context of an activity, and then add links or references for more information if the user needs it.
+Comments within the code are usually short one-line notes that appear after every 5-10 lines of code. You can follow up this code with more robust explanations in your documentation, but it's ideal to pepper code samples with comments because it puts the explanation next to the code doing the action. This approach of adding brief comments within the code, followed by more robust explanations after the code, aligns with principles of [progressive information disclosure](https://idratherbewriting.com12/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) that help align with both advanced and novice user types. In this case, progressive information disclosure means you provide some detail in the context of an activity, and then add links or references for more information if the user needs it.
 
 If you have comments interspersed in code as well as in conceptual sections before or after the code, won't that be somewhat redundant? Not really. Some research about how developers use documentation found that there are two common behaviors: developers who start in code and read higher-level conceptual documentation only as needed (called "opportunistic" behavior). And developers who start in higher-level conceptual documentation before working their way down to code (called "systematic" behavior). Michael Meng, Stephanie Steinhardt, and Andreas Schubert explain:
 
@@ -204,7 +204,7 @@ One could go into a lot more detail with the explanation, even going line by lin
 Documenting code can be one of the most challenging aspects of developer documentation. Part of the challenge is that code isn't organized such that a line-by-line (or block-by-block) description makes sense. Variables are often defined first, functions are called that are defined elsewhere, and other aspects are non-linear as well. As you explain the logic, you might find that you're jumping around to different places in the code, not necessarily moving from top to bottom.
 
 {: .tip}
-For a deeper dive into how to document code samples, see my presentation on [Creating code samples for API/SDK documentation](/2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/).
+For a deeper dive into how to document code samples, see my presentation on [Creating code samples for API/SDK documentation](https://idratherbewriting.com14/05/30/creating-code-samples-webinar-recording-slides-and-audio/).
 
 ## <i class="fa fa-user-circle"></i> Activity with code samples
 

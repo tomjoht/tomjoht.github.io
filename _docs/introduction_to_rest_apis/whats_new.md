@@ -16,7 +16,7 @@ If you're looking to see what's new in the API doc site/course, you can browse n
 
 <h2>Most recent updates</h2>
 
-See the [api-doc-site-updates category](/category-apidoc-site-updates/) on my blog. I describe the updates I'm making here, often with commentary about why I made the update.
+See the [api-doc-site-updates category](https://idratherbewriting.com/category-apidoc-site-updates/) on my blog. I describe the updates I'm making here, often with commentary about why I made the update.
 
 {% include random_ad1.html %}
 

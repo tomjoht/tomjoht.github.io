@@ -14,7 +14,7 @@ last-modified: 2021-08-15
 Sending documentation status reports can help foster trust and awareness with your business stakeholders. These stakeholders might be the core leadership within your organization or simply your management chain the next level up. Besides building visibility and relationships with these stakeholders, creating these status reports each month gives you a regular cadence for doc assessment and analysis, which is also helpful.
 
 {: .note}
-In my post [Some good decisions and minor mistakes](/blog/good-decisions-and-mistakes/), I said one of my good decisions at Amazon was sending regular doc reports to our business leadership. Here's a passage from the post: "Broadcasting all the recent doc updates made during the past month or so did an amazing job at increasing the visibility of our team. This had more impact than any doc-related metrics." In the post's comments, a lot of people asked me to expand on this point with more details. This article provides a follow-up about that point.
+In my post [Some good decisions and minor mistakes](https://idratherbewriting.com/blog/good-decisions-and-mistakes/), I said one of my good decisions at Amazon was sending regular doc reports to our business leadership. Here's a passage from the post: "Broadcasting all the recent doc updates made during the past month or so did an amazing job at increasing the visibility of our team. This had more impact than any doc-related metrics." In the post's comments, a lot of people asked me to expand on this point with more details. This article provides a follow-up about that point.
 
 * TOC
 {:toc}  
@@ -127,9 +127,9 @@ Staying in the shadows is an approach to avoid if you want to get ahead at work.
 
 I've written previously about this topic, as these themes have characterized the tech writing profession for years. See these posts for elaboration on this topic:
 
-* [Guest post: Why are technical writers often treated as such an unimportant part of a company?](/blog/why-technical-writers-treated-as-unimportant/)
-* [Value arguments for docs and tech comm](/2017/12/28/value-of-tech-comm-in-company-part1/)
-* [Reflecting seven years later about why we were laid off](/blog/reflecting-seven-years-later-about-layoff-intro/)
+* [Guest post: Why are technical writers often treated as such an unimportant part of a company?](https://idratherbewriting.com/blog/why-technical-writers-treated-as-unimportant/)
+* [Value arguments for docs and tech comm](https://idratherbewriting.com17/12/28/value-of-tech-comm-in-company-part1/)
+* [Reflecting seven years later about why we were laid off](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/)
 
 Can sending monthly doc reports fix the devaluation of the tech writer role? Maybe not, but this is certainly a way to help address visibility. The formula for visibility and recognition on the web with blogging is more or less the same as within an enterprise: write and promote, write and promote, write and promote, and so on.
 

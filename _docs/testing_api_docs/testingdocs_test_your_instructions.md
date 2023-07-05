@@ -36,7 +36,7 @@ When you start to run tests and experiments, you'll begin to discover what does 
 
 I didn't realize this until I started to ask how to configure the database, and an engineer said that my audience wouldn't be able to do that configuration, so it shouldn't be in the documentation.
 
-It's little things like that, which you learn as you're going through the process yourself, that reinforce the importance of testing your docs. Testing is vital to writing good developer documentation. Never just take an engineer's word for how something works. If you follow this advice and test all your docs, you'll be successful in the API doc field. But if you just transcribe what engineers tell you, you'll basically end up being an engineer's secretary. (For more, see my blog post [How to avoid being a secretary for engineers](/2018/11/19/avoid-being-secretary-for-engineers/).)
+It's little things like that, which you learn as you're going through the process yourself, that reinforce the importance of testing your docs. Testing is vital to writing good developer documentation. Never just take an engineer's word for how something works. If you follow this advice and test all your docs, you'll be successful in the API doc field. But if you just transcribe what engineers tell you, you'll basically end up being an engineer's secretary. (For more, see my blog post [How to avoid being a secretary for engineers](https://idratherbewriting.com18/11/19/avoid-being-secretary-for-engineers/).)
 
 ## Going through the whole process
 

@@ -53,7 +53,7 @@ Alternatively, you might have a developer relations group or developer marketing
 
 ## 5.4 Add metadata to pages about authors and last-updated {#metadata}
 
-Another task before publishing your new content is to add metadata to the pages about authorship and date last updated. How you do this depends on your authoring system, but hopefully your authoring/publishing system supports two essential fields: author and last-updated. These fields might be in YAML frontmatter if you're using a [static site generator](pubapis_static_site_generators.html), or they could be in more structured fields if using a [CCMS](/blog/what-is-a-dita-content-management-system-ccms/).
+Another task before publishing your new content is to add metadata to the pages about authorship and date last updated. How you do this depends on your authoring system, but hopefully your authoring/publishing system supports two essential fields: author and last-updated. These fields might be in YAML frontmatter if you're using a [static site generator](pubapis_static_site_generators.html), or they could be in more structured fields if using a [CCMS](https://idratherbewriting.com/blog/what-is-a-dita-content-management-system-ccms/).
 
 Don't skip adding metadata. Recognize that right now, at the point of release, everyone is excited about the new content. But it will only be a matter of time before most people forget about this page, before you move on, before the teams that support the content transition to other projects and parts of the org, or before the feature itself is sunset, then deprecated.
 

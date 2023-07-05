@@ -19,7 +19,7 @@ After you've finished commenting on the Google Doc, go to this [annotated Google
 
 <figure><a target="_blank" class="noCrossRef" href="https://docs.google.com/document/d/1ogj99YHhFMkXb-HMMMko-G9Hq9Rg6cztdT06-oUZm4E/edit"><img class="small" src="{{site.api_media}}/annotatedgoogledoc.png" /></a><figcaption>Annotated Google doc showing answers</figcaption></figure>
 
-Alternatively, expand the answers below to see how many issues you found. If you found additional issues beyond those noted here, feel free to [drop me an email](/contact/) letting me know. You can also add your own comments on the Google Doc answer key.
+Alternatively, expand the answers below to see how many issues you found. If you found additional issues beyond those noted here, feel free to [drop me an email](https://idratherbewriting.com/contact/) letting me know. You can also add your own comments on the Google Doc answer key.
 
 {% if site.format == "print" %}
 *Note: This content doesn't embed well in print because it contains JavaScript. Please go to [https://idratherbewriting.com/learnapidoc/docapis_whats_wrong_answer_key.html] to view the content.*

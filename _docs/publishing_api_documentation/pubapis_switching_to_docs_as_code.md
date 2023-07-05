@@ -266,7 +266,7 @@ It was also republished in Anne Gentle's [Docs Like Code: Case Studies](https://
 
 <a href="https://www.docslikecode.com/articles/change-case-study/" class="noCrossRef"><img src="{{site.api_media}}/docslikecodeannegentlecasestudies.png" class="small" /></a>
 
-I also [gave a presentation on Docs-as-code tools and workflows](/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/) to the STC Rocky Mountain and WTD Denver group.
+I also [gave a presentation on Docs-as-code tools and workflows](https://idratherbewriting.com18/03/09/docs-as-code-tools-and-workflows-denver-presentation/) to the STC Rocky Mountain and WTD Denver group.
 
 {% if site.format == "print" %}
 
@@ -280,8 +280,8 @@ I also [gave a presentation on Docs-as-code tools and workflows](/2018/03/09/doc
 
 To read some other docs-as-code posts on my blog, see the following:
 
-* [Discoveries and realizations while walking down the Docs-as-Code path](/2017/08/23/content-architecture-and-repo-sizes/)
-* [Limits to the idea of treating docs as code](/2017/06/02/when-docs-are-not-like-code/)
-* [Will the docs-as-code approach scale? Responding to comments on my Review of Modern Technical Writing](/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)
+* [Discoveries and realizations while walking down the Docs-as-Code path](https://idratherbewriting.com17/08/23/content-architecture-and-repo-sizes/)
+* [Limits to the idea of treating docs as code](https://idratherbewriting.com17/06/02/when-docs-are-not-like-code/)
+* [Will the docs-as-code approach scale? Responding to comments on my Review of Modern Technical Writing](https://idratherbewriting.com16/08/01/responding-to-feedback-on-modern-tech-writing-review/)
 
 To Learn more about docs as code in general, see Anne Gentle's book [Docs Like Code](https://www.amazon.com/Docs-Like-Code-Anne-Gentle/dp/1365816079/ref=sr_1_1?ie=UTF8&qid=1508090523&sr=8-1&keywords=docs+like+code).

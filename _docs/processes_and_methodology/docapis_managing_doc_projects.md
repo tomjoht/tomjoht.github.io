@@ -27,24 +27,7 @@ However, because tech writers are often allocated to multiple Scrum teams, and b
 
 ## Process overview
 
-A process for *managing doc projects* could have the following steps:
-
-- [Definition of a documentation project](#definition-of-a-documentation-project)
-- [Process overview](#process-overview)
-- [1. Identify the documentation projects {#identify\_work}](#1-identify-the-documentation-projects-identify_work)
-- [2. Assess the identified work against strategic priorities {#assess\_strategic\_priorities}](#2-assess-the-identified-work-against-strategic-priorities-assess_strategic_priorities)
-- [3. Assign the projects to different tech writers {#specialize\_the\_writers}](#3-assign-the-projects-to-different-tech-writers-specialize_the_writers)
-- [4. Create project plans for the documentation projects {#create\_project\_plans}](#4-create-project-plans-for-the-documentation-projects-create_project_plans)
-- [5. Convene a documentation kickoff meeting {#kickoff\_meeting}](#5-convene-a-documentation-kickoff-meeting-kickoff_meeting)
-- [6. Chunk project work into tickets {#chunk\_the\_work}](#6-chunk-project-work-into-tickets-chunk_the_work)
-- [7. Assign tickets to a sprint board {#assign\_tickets\_to\_sprints}](#7-assign-tickets-to-a-sprint-board-assign_tickets_to_sprints)
-- [8. Start creating content {#start\_creating\_content}](#8-start-creating-content-start_creating_content)
-- [9. Follow a review process for your docs {#follow\_review\_process}](#9-follow-a-review-process-for-your-docs-follow_review_process)
-- [10. Create a code review for your changes {#code\_review\_for\_changes}](#10-create-a-code-review-for-your-changes-code_review_for_changes)
-- [11. Close the sprint {#close\_sprint}](#11-close-the-sprint-close_sprint)
-- [12. Share monthly reports {#share\_reports}](#12-share-monthly-reports-share_reports)
-- [Meetings summary](#meetings-summary)
-- [Related topics](#related-topics)
+The following sections outline a process for *managing doc projects*.
 
 ## 1. Identify the documentation projects {#identify_work}
 
@@ -92,7 +75,7 @@ Even in cases where each tech writer has a healthy allocation of projects, you w
 
 Track down your organization's strategic goals from your C-suite execs or other senior leaders as a way to figure out these priorities. If you're so far down the org hierarchy that you've never seen such a document nor are allowed to access it, find out from your manager what the goals are. Your manager should be aware of his or her manager's goals, who should be aware of his or her manager's goals, and so on up the line. If there's a disconnect somewhere, it represents a broken line of communication and potentially an organization that isn't aligned.
 
-Decide which projects should receive your most thorough attention (based on the projects that your senior leaders are prioritizing). This alignment is key for boosting your value to the organization, as I described in [Part V: On being strategic, interpersonal, and sponsored](/blog/reflecting-seven-years-later-about-layoff-clarke-being-strategic/). After you get a sense of your organization's strategic priorities, assign each project on your doc planning spreadsheet one of the following priorities: low, medium, or high.
+Decide which projects should receive your most thorough attention (based on the projects that your senior leaders are prioritizing). This alignment is key for boosting your value to the organization, as I described in [Part V: On being strategic, interpersonal, and sponsored](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-clarke-being-strategic/). After you get a sense of your organization's strategic priorities, assign each project on your doc planning spreadsheet one of the following priorities: low, medium, or high.
 
 Keep in mind that strategic priorities differ by group. What might be a strategic priority for one group might not be a strategic priority for another group. This prioritization can be especially problematic if your group is cross-functional, meaning you support many organizations with different services (e.g., documentation, marketing, support, dev relations, and so on). In these cases, you'll have to figure out which priorities your own group wants to embrace.
 
@@ -355,7 +338,7 @@ During the bi-weekly Sprint Planning meeting, each writer weights their items an
 
 As tech writers begin developing content, there are two primary ways to go about it. For new content that involves a significant amount of new material, which will require review, comments, iterations, and other discussions, I recommend starting the content in a collaborative wiki platform (e.g., Google Docs, Quip, Confluence). Use the platform that your team already uses for collaboration, as it will probably a familiar place for interaction. These platforms allow you to easily ask questions, let reviewers provide input, and collaboratively shape the material in a more interactive way.
 
-There's no point in focusing on your authoring tool's syntax (e.g., Markdown, DITA, XML) or struggling with build issues at this point if you're not even sure if the pages you've written will make it into the published documentation. I wrote about this scenario extensively in [Treat code like code and prose like prose](/blog/treat-code-like-code-and-prose-like-prose/). While it might be tempting to drive everything from a docs-as-code tooling perspective here, asking engineers to review content using code review tools, this workflow typically excludes non-engineers from the documentation review process.
+There's no point in focusing on your authoring tool's syntax (e.g., Markdown, DITA, XML) or struggling with build issues at this point if you're not even sure if the pages you've written will make it into the published documentation. I wrote about this scenario extensively in [Treat code like code and prose like prose](https://idratherbewriting.com/blog/treat-code-like-code-and-prose-like-prose/). While it might be tempting to drive everything from a docs-as-code tooling perspective here, asking engineers to review content using code review tools, this workflow typically excludes non-engineers from the documentation review process.
 
 Although engineers might like providing comments through GitHub or other code review tools, usually product managers, field engineers, QA, or others will find these tools much less familiar and might forego participating in reviews altogether. This scenario is bad news for docs because you end up with the reviewers being the same people who created the systems you're documenting. You need more of an outside perspective to avoid problems related to the curse of knowledge.
 

@@ -227,7 +227,7 @@ For more details on using the Python simple server, see [How do you set up a loc
 
 By default, SwaggerUI has the Petstore OpenAPI document configured in the `url` parameter in the `index.html` file. You need to swap in your local file instead.
 
-1.  Download the [this OpenAPI document](/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) (right-click the link and save the YAML file to your desktop.).
+1.  Download the [this OpenAPI document](https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) (right-click the link and save the YAML file to your desktop.).
 
 2.  Drag your OpenAPI specification file, `openapi_openweathermap.yml`, into the `dist` folder. Your file structure should look as follows:
 
@@ -330,7 +330,7 @@ If you need help, the [Swagger Google Group](https://groups.google.com/forum/#!f
 In addition to publishing your Swagger UI output as a standalone site, you can also embed the Swagger file within an existing site. See the following:
 
 * [Standalone Swagger UI Demo](https://idratherbewriting.com/assets/files/swagger/)
-* [Embedded Swagger UI Demo](pubapis_swagger_demo.md)
+* [Embedded Swagger UI Demo](pubapis_swagger_demo)
 
 Since the Swagger UI site is responsive, it resizes well to fit into most any space. Even so, embedding Swagger into an existing site still looks like a website within a website.
 

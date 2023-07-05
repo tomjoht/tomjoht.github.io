@@ -48,7 +48,7 @@ In this phase of the document review, you're drawing a *map* of the instructions
 As you start drafting the content, no doubt you'll have many questions about areas you're unsure about. Especially if you've been trying to make the product work for yourself, you should have many questions about issues, unclear points, and other details that you need clarity about. List out about 20 of these questions in a collaborative document (such as Salesforce Quip or Google Docs), and then set up a meeting to ask these questions to the product team. People love to be asked questions, and having a list focuses the meeting on a specific agenda. Again, at this point, you haven't asked the product team to review any documentation. You're just asking them to answer questions.
 
 {: .tip}
-See my article and video titled [A tip for doc reviews -- bring a list of questions](/blog/tip-for-doc-reviews-bring-list-of-questions/) for more details here.
+See my article and video titled [A tip for doc reviews -- bring a list of questions](https://idratherbewriting.com/blog/tip-for-doc-reviews-bring-list-of-questions/) for more details here.
 
 ## Create a Slack channel
 
@@ -58,11 +58,11 @@ Batching up your questions for a meeting is great, but you will likely have many
 
 If your organization has Slack, use it. Create a Slack channel specific to documentation for the project (e.g., acme-tech-docs) and invite people to it. If you ask someone a question they don't have the answer to, it's easy for the person to tag another person for the answer, adding them to the channel. Having a dynamic channel like this to ask questions can be incredibly helpful and keep everyone informed about the documentation status.
 
-Also, note that Slack is trending as a way for teams to communicate. The [SmartBear 2020 API survey](/blog/smartBear-2020-state-of-api-docs-review/) found that JIRA and Slack (not email and meetings) are how engineering teams prefer to communicate feedback:
+Also, note that Slack is trending as a way for teams to communicate. The [SmartBear 2020 API survey](https://idratherbewriting.com/blog/smartBear-2020-state-of-api-docs-review/) found that JIRA and Slack (not email and meetings) are how engineering teams prefer to communicate feedback:
 
 <a class="noCrossRef" href="https://smartbear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="{{site.api_media}}/smartbearslack2020.png" alt="JIRA and Slack trending as preferred communication methods" /></a>
 
-You can read more insights about SmartBear's 2020 trends in this post: [SmartBear's 2020 API report finds 'Accurate and detailed documentation' to be second-most important characteristic of APIs](/blog/smartBear-2020-state-of-api-docs-review/).
+You can read more insights about SmartBear's 2020 trends in this post: [SmartBear's 2020 API report finds 'Accurate and detailed documentation' to be second-most important characteristic of APIs](https://idratherbewriting.com/blog/smartBear-2020-state-of-api-docs-review/).
 
 {% include image_ad_right.html %}
 
@@ -113,7 +113,7 @@ When a reviewer adds a question, if you follow up with a response, the reviewer 
 If your workplace has another common practice for review, follow it. For example, maybe it's common that people use track changes in Microsoft Word documents, passing them from one team member to another in a baton-like way. Or maybe everyone uses code review tools to handle comments and doc reviews. Identify the common doc review culture and toolset at your company and plug into it. You'll have the most success that way. Many documentation systems might have special reviewing features, but if you require people to learn new tools, or worse, to log in to unfamiliar third-party systems, you might not get many people reviewing your docs.
 
 {: .tip}
-See my post [A simple way to write, edit, and publish documentation online using Google Docs and Markdown](/2014/02/25/a-simple-way-to-write-edit-and-publish-documentation-online-using-google-docs-and-markdown/) for stories about the success I had using Google Docs to review content at a former company. See also [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/).
+See my post [A simple way to write, edit, and publish documentation online using Google Docs and Markdown](https://idratherbewriting.com14/02/25/a-simple-way-to-write-edit-and-publish-documentation-online-using-google-docs-and-markdown/) for stories about the success I had using Google Docs to review content at a former company. See also [Matching documentation review practices to company culture](https://idratherbewriting.com/blog/matching-doc-review-practices-to-company-culture/).
 
 ## Review with support and legal
 
@@ -133,6 +133,6 @@ This is important: Do not publish the docs until you get their signoff. As a tec
 
 After release, you're still not done with the documentation. You might have entered a beta period, where beta partners are trying out the docs. Or maybe the docs are entirely public and generally available. Pay attention to the first users and other external feedback. Incorporate a feedback button that allows users to reach out with comments. Also, monitor support channels and forums for feedback.
 
-However, at this stage, you will likely have identified the most significant questions and issues already and addressed them. I've found that the best doc reviews happen prior to release, not after. If users have issues, it's usually with the actual product rather than the documentation. You can't fix a poorly designed product with great docs &mdash; this is why some tech writers tend to gravitate toward product design. (For more on that direction, see [Playing a product design role as a content designer -- podcast with Jonathon Colman](/blog/podcast-colman-playing-product-design-roles-as-a-content-designer/).)
+However, at this stage, you will likely have identified the most significant questions and issues already and addressed them. I've found that the best doc reviews happen prior to release, not after. If users have issues, it's usually with the actual product rather than the documentation. You can't fix a poorly designed product with great docs &mdash; this is why some tech writers tend to gravitate toward product design. (For more on that direction, see [Playing a product design role as a content designer -- podcast with Jonathon Colman](https://idratherbewriting.com/blog/podcast-colman-playing-product-design-roles-as-a-content-designer/).)
 
 If you have tips for doc reviews, feel free to add them in the comments below.

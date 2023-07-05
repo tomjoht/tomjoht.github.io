@@ -22,7 +22,7 @@ In this section, I'll dive into practical tips and strategies for writing the co
 
 Now that you've gathered information and interviewed a handful of people related to the feature, you probably have a large pile of content. For example, you might have a single doc where you've been collecting all of this information (copying and pasting nuggets of information from various docs). That doc might be 20+ pages long.
 
-You must now begin organizing the information. I think of this task like sorting laundry. Start by sorting the content into different piles &mdash; put the socks together, the shirts together, the pants together, etc. (See [Writing is like sorting laundry &mdash; practical advice for tackling documentation projects](/2015/01/29/writing-is-like-sorting-laundry-practical-advice-for-tackling-documentation-projects/) for a full elaboration of this analogy.) Just group like information together. Each pile will probably   become a separate page in your final content output (but maybe not).
+You must now begin organizing the information. I think of this task like sorting laundry. Start by sorting the content into different piles &mdash; put the socks together, the shirts together, the pants together, etc. (See [Writing is like sorting laundry &mdash; practical advice for tackling documentation projects](https://idratherbewriting.com15/01/29/writing-is-like-sorting-laundry-practical-advice-for-tackling-documentation-projects/) for a full elaboration of this analogy.) Just group like information together. Each pile will probably   become a separate page in your final content output (but maybe not).
 
 ## 3.2 Create an outline for each group {#outline}
 
@@ -72,7 +72,7 @@ When I have writing to do, I often find myself looking around for anything else 
 
 After I wake up and have some coffee and breakfast, check email and news, I devote this time to writing. As the day wears on, my energy gets lower and lower, and by evening, I'm usually spent. Most people have an optimal time where their energy is at max productivity. When I was in college and didn't have kids or a full-time job, my writing energy peaked from about 8 to 11 pm. But now, during those same evening hours, I'm usually cruising in escape mode. Figure out when your mental energy is at full capacity, and then plan to write during that time.
 
-The second strategy I use is to set a four-hour timer using a [Focus app](https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12). This is just an app that keeps track of time on task, following the strategy of the [Pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique). I find that four hours of writing is the most that I can squeeze out during a day. I set 4 one-hour sessions, and if I find myself getting off task during the session, I pause the timer. (For more on this technique, see [Writing productivity tip: Focus sessions](/blog/writing-productivity-through-focus-sessions/).)
+The second strategy I use is to set a four-hour timer using a [Focus app](https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12). This is just an app that keeps track of time on task, following the strategy of the [Pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique). I find that four hours of writing is the most that I can squeeze out during a day. I set 4 one-hour sessions, and if I find myself getting off task during the session, I pause the timer. (For more on this technique, see [Writing productivity tip: Focus sessions](https://idratherbewriting.com/blog/writing-productivity-through-focus-sessions/).)
 
 {% include random_ad4.html %}
 
@@ -117,7 +117,7 @@ The nature of writing technical documentation is to simplify and communicate com
 
 Simple conceptual diagrams are easy to create. You don't need to be a graphic artist to draw boxes and arrows in a simple diagram to illustrate a concept. Download a program like [Sketch](https://www.sketch.com/) and create some basic visuals to illustrate technical concepts. Keep the diagrams simple, focusing on the aspect you're trying to explain.
 
-If you keep the graphics simple, you'll maintain control over the graphic assets and be empowered to create them as needed. In contrast, if you ask a graphic designer to create the graphics, you might find that it's impossible for you to create more graphics matching their same style and brand. I highly recommend reading [The Back of the Napkin](/2009/05/19/drawing-as-a-tool-for-thinking/) by Dan Roam (and my related post [Drawing as a Tool for Thinking: The Back of the Napkin](/2009/05/19/drawing-as-a-tool-for-thinking/). See also [Creating professional looking graphics in the easiest, simplest way possible](/2016/05/05/visualcommunication_noun_project/).
+If you keep the graphics simple, you'll maintain control over the graphic assets and be empowered to create them as needed. In contrast, if you ask a graphic designer to create the graphics, you might find that it's impossible for you to create more graphics matching their same style and brand. I highly recommend reading [The Back of the Napkin](https://idratherbewriting.com09/05/19/drawing-as-a-tool-for-thinking/) by Dan Roam (and my related post [Drawing as a Tool for Thinking: The Back of the Napkin](https://idratherbewriting.com09/05/19/drawing-as-a-tool-for-thinking/). See also [Creating professional looking graphics in the easiest, simplest way possible](https://idratherbewriting.com16/05/05/visualcommunication_noun_project/).
 
 {% include image_ad_right.html %}
 
@@ -126,7 +126,7 @@ Overall, Roam argues that you should get rid of the idea that graphics can only 
 Here are some general techniques to follow when creating visuals:
 
 * To show a difference between two things, consider showing graphics side by side with a slight difference between them.
-* To keep the minimalist focus, try to communicate your ideas by showing as few lines as possible. Check out [Jean-luc Doumont's Trees, maps, and theorems](/2009/06/25/page-layout-and-design-tips-from-jean-luc-doumonts-trees-maps-and-theorems/) for inspiration. Or read about how [Edward Tufte despises chart junk](/2010/11/01/what-is-chartjunk-visual-imagination-2/).
+* To keep the minimalist focus, try to communicate your ideas by showing as few lines as possible. Check out [Jean-luc Doumont's Trees, maps, and theorems](https://idratherbewriting.com09/06/25/page-layout-and-design-tips-from-jean-luc-doumonts-trees-maps-and-theorems/) for inspiration. Or read about how [Edward Tufte despises chart junk](https://idratherbewriting.com10/11/01/what-is-chartjunk-visual-imagination-2/).
 * Use a change in color to draw attention to something; one subtle color change in an element can bring the reader's focus to what you're trying to highlight. (This is a tip from Doumont's book.)
 
 Overall, creating visuals might be a welcome change from writing. You're still working but not taxing the same part of the brain.
@@ -155,9 +155,9 @@ Once you get that first draft, you can iterate endlessly afterward as you edit a
 
 At some point when the content is more or less finalized, run it through a spell checker. You might prefer to do this later, after the reviews, but using a spellchecker now can help eliminate superficial errors so that reviewers aren't distracted by the typos and misspellings but can instead focus on substance.
 
-My favorite spell checker is [Grammarly](https://app.grammarly.com/), though this service tends to be blocked in most companies due to the way Grammarly stores data on its servers. See [Is Premium Grammarly worth it for identifying style and grammar issues in tech docs?](/2018/12/28/evaluating-grammarly-as-a-style-checker/) for more details.
+My favorite spell checker is [Grammarly](https://app.grammarly.com/), though this service tends to be blocked in most companies due to the way Grammarly stores data on its servers. See [Is Premium Grammarly worth it for identifying style and grammar issues in tech docs?](https://idratherbewriting.com18/12/28/evaluating-grammarly-as-a-style-checker/) for more details.
 
-Other options could be the spell checker in Microsoft Word, Google Docs, [HyperSTE plugin](/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (to check for simplified technical English), or Acrolinx (if your company has it).
+Other options could be the spell checker in Microsoft Word, Google Docs, [HyperSTE plugin](https://idratherbewriting.com17/01/25/hyperste-simplified-technical-english-asd-ste100/) (to check for simplified technical English), or Acrolinx (if your company has it).
 
 You might be amazed by how many errors these services catch, especially in lengthy content. I personally prefer to leverage as many of these services as possible. I almost always use Grammarly to check new blog posts and articles on my site. One writing teacher explained that a small grammar or spelling error calls attention to itself and can be like having your fly down while you're wearing a tuxedo. Imagine finishing writing 2,000 words of content, sending it to your entire department, and getting feedback from a higher-up executive that you misspelled a word. That kind of superficial feedback can be deflating.
 

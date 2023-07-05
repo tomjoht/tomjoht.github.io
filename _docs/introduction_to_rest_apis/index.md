@@ -116,7 +116,7 @@ If you do have some familiarity with programming concepts, you might speed throu
 
 Some of the code samples in this course use JavaScript. JavaScript may or may not be a language that you actually use when you document REST APIs, but most likely there will be some programming language or platform that becomes important to know.
 
-JavaScript is one of the most useful and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation. JavaScript allows you to test code by merely opening it in your browser (rather than compiling it in an IDE). (I have a [quick crash-course in JavaScript here](/javascript/) if you need it.)
+JavaScript is one of the most useful and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation. JavaScript allows you to test code by merely opening it in your browser (rather than compiling it in an IDE). (I have a [quick crash-course in JavaScript here](https://idratherbewriting.com/javascript/) if you need it.)
 
 {% include random_ad4.html %}
 
@@ -146,7 +146,7 @@ In the past, people have asked for some tests to check whether their laptops are
 
 For video recordings of this course, see the [Video recordings of API doc workshops](docapis_course_videos.html). The page lists the most recent video recordings available. The video doesn't go into the same level of detail as the written material, but it would be a good start.
 
-See my [Upcoming Presentations](/presentations/) on my blog for details about future workshops and presentations.
+See my [Upcoming Presentations](https://idratherbewriting.com/presentations/) on my blog for details about future workshops and presentations.
 
 ## Course slides
 
@@ -156,13 +156,13 @@ For the live workshops, I have various slides that cover different sections of t
 
 Some people have asked whether they can use materials from this course to give their own API documentation workshops. I only allow the material to be used for non-profit workshops where the workshop leader isn't charging participants for the instruction. Of course, many of the ideas and concepts in this course aren't specific or unique to me, and you're entitled to fair use. However, please don't just hijack my site's materials, activities, and other information for your own commercial endeavors.
 
-If you're a teacher at a college or university (or high school) and are trying to teach APIs and developer docs to your students, feel free to use this site as part of your instructional materials. I appreciate links back to the site and attribution as needed (links pointing to my site boost search engine rankings). My larger goal for this site is to help educate and empower tech writers with developer documentation strategies, workflows, and best practices. If you'd like to share your API documentation course syllabus, [contact me](/contact/) and I'll add a link here.
+If you're a teacher at a college or university (or high school) and are trying to teach APIs and developer docs to your students, feel free to use this site as part of your instructional materials. I appreciate links back to the site and attribution as needed (links pointing to my site boost search engine rankings). My larger goal for this site is to help educate and empower tech writers with developer documentation strategies, workflows, and best practices. If you'd like to share your API documentation course syllabus, [contact me](https://idratherbewriting.com/contact/) and I'll add a link here.
 
 ## Is this course really free?
 
 Yes, this course is entirely free. Advertising helps make this content free, so you will see little text snippets and other ads on the course pages promoting links to API service providers. Sometimes I also include sponsored pages as well to highlight a vendor's particular offerings. Whenever content is sponsored, I note that on the page. I also wouldn't include any content in the course that didn't meet my standards or which I wouldn't recommend.
 
-If you'd like to give back, feel free to buy me coffee by clicking the [Buy me a coffee](https://www.buymeacoffee.com/learnapidoc) button on the bottom of each page. I'm grateful to see many people who find enough value in the course to contribute back. Seeing contributions helps me feel in a more immediate way how much the content helps people.
+If you'd like to give back, feel free to buy me coffee by clicking the [Buy me a coffee](https://www.buymeacoffee.com/learnapidoc) button on the bottom of each page or by [buying the PDF of the course](https://www.buymeacoffee.com/learnapidoc/e/146076). I'm grateful to see many people who find enough value in the course to contribute back. Seeing contributions helps me feel in a more immediate way how much the content helps people.
 
 ## PDF and Kindle/eBook formats
 
@@ -170,7 +170,7 @@ To read the same content in PDF or Kindle/eBook formats, see [PDF and eBook form
 
 ## Let me know if any content is out of date
 
-One of the challenges in any technical course is ensuring the content stays up to date. Technology changes rapidly, and given the many hands-on activities in the course, it's easy for some steps to become out of date as time passes. I've tried to maintain a healthy balance between general and specific details in the content here. If you find something is out of date, either add a comment on that page or [let me know](/contact/).
+One of the challenges in any technical course is ensuring the content stays up to date. Technology changes rapidly, and given the many hands-on activities in the course, it's easy for some steps to become out of date as time passes. I've tried to maintain a healthy balance between general and specific details in the content here. If you find something is out of date, either add a comment on that page or [let me know](https://idratherbewriting.com/contact/).
 
 ## Stay updated
 

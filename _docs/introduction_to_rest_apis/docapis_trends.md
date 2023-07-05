@@ -12,7 +12,7 @@ last-modified: 2020-10-28
 
 {% include coffeeshopbook.html %}
 
-I recently [conducted a survey](/blog/developer-documentation-survey-2020/) about trends for those creating documentation for developers and engineers. You can view the content in several formats: slides, webinar, or article.
+I recently [conducted a survey](https://idratherbewriting.com/blog/developer-documentation-survey-2020/) about trends for those creating documentation for developers and engineers. You can view the content in several formats: slides, webinar, or article.
 
 {% if site.format == "web" %}
 * TOC
@@ -21,7 +21,7 @@ I recently [conducted a survey](/blog/developer-documentation-survey-2020/) abou
 
 ## Slides
 
-You can view the [slides here](/slides/devdoctrends_results.html):
+You can view the [slides here](https://idratherbewriting.com/slides/devdoctrends_results.html):
 
 <a class="noCrossRef" href="https://idratherbewriting.com/slides/devdoctrends_results.html"><img src="{{site.api_media}}/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" class="medium" style="border: 1px solid #444" /></a>
 
@@ -126,7 +126,7 @@ For examples of how multiple tools are used together in different combinations a
 
 Overall, the survey results confirmed the predominance of the docs-as-code approach in the dev docs space. If you're working with developer docs, this approach is trending. However, there's also a decent amount of wikis, Oxygen XML, and MadCap Flare use, probably among those groups that have more robust localization and PDF requirements.
 
-To read more thoughts about how source formats affect not just how we write but *what* we write, see my blog post, [*How* you write influences *what* you write — interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code](/blog/how-you-write-influences-what-you-write/).
+To read more thoughts about how source formats affect not just how we write but *what* we write, see my blog post, [*How* you write influences *what* you write — interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code](https://idratherbewriting.com/blog/how-you-write-influences-what-you-write/).
 
 ### 2. Formats and output responses {#formats}
 
@@ -174,11 +174,11 @@ Most writers participate on Scrum teams, sometimes in limited capacity; other ti
 
 Writers review docs often using the same tools engineers use to review code (e.g, code review tools that show diffs between commits). They also review docs through in-person meetings or through collaborative annotation tools like Google Docs.
 
-The review process for docs has always been multi-pathed, and what works at one company might not work with another. Engineers often prefer to review content through code tools because it fits into how they're reviewing code, so they're accustomed to this approach. However, I find  these tools exclude non-engineers, which weakens the review process &mdash; see my extended thoughts on this in [Treat code like code and prose like prose](/blog/treat-code-like-code-and-prose-like-prose/).
+The review process for docs has always been multi-pathed, and what works at one company might not work with another. Engineers often prefer to review content through code tools because it fits into how they're reviewing code, so they're accustomed to this approach. However, I find  these tools exclude non-engineers, which weakens the review process &mdash; see my extended thoughts on this in [Treat code like code and prose like prose](https://idratherbewriting.com/blog/treat-code-like-code-and-prose-like-prose/).
 
 Engineers contribute content either through pull requests to the doc source or by putting the content on a wiki or equivalent (for example, Google Docs, Quip). Other times engineers have direct rights in the repo to work with the content.
 
-Note that the survey did not filter out documentation-writing engineers from dedicated technical writers. Many companies don't have the luxury of technical writers, so engineers often play roles as documentarians. In these cases, it would be natural for engineers to have rights in documentation repos, or to store documentation in the same repos as the code. (See [Integration documentation into engineering code and workflows](/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/) for a summary of an engaging presentation about how Google's internal doc team transformed their documentation by moving Markdown files directly inside of code repos.)
+Note that the survey did not filter out documentation-writing engineers from dedicated technical writers. Many companies don't have the luxury of technical writers, so engineers often play roles as documentarians. In these cases, it would be natural for engineers to have rights in documentation repos, or to store documentation in the same repos as the code. (See [Integration documentation into engineering code and workflows](https://idratherbewriting.com/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/) for a summary of an engaging presentation about how Google's internal doc team transformed their documentation by moving Markdown files directly inside of code repos.)
 
 Outsourcing developer docs with an offshore authoring agency is rare. I did not ask for reasons why outsourcing isn't more common, but there might not be many outsourcing agencies that can handle highly technical developer content. Or perhaps there are IP concerns about documenting the internal workings of APIs, or maybe the doc shops are so small that no one would manage an outsourced resource.
 
@@ -279,12 +279,12 @@ Tom Johnson is a senior technical writer for Amazon in Sunnyvale, California. He
 * Carliner, Saul and Chen, Yuan. [Professional Development of Technical Communicators](https://www.stc.org/intercom/2019/01/professional-development-of-technical-communicators/).  *STC Intercom*. Dec 2018.
 * Carliner, Saul and Chen, Yuan. [What Technical Communicators Do](https://www.stc.org/intercom/2019/01/what-technical-communicators-do/). Carliner, Saul and Chen, Yuan. *STC Intercom*. Jan 2019. *STC Intercom*. Dec 2018.
 * Carliner, Saul and Chen, Yuan. [Who Technical Communicators Are: A Summary of Demographics, Backgrounds, and Employment](https://www.stc.org/intercom/2019/01/who-technical-communicators-are-a-summary-of-demographics-backgrounds-and-employment/). *STC Intercom*. Dec 2018.
-* Johnson, Tom. [API the Docs recording: How Trends in API Documentation Differ from other Tech Comm Trends](/blog/api-the-docs-virtual-series-fifth-edition-api-doc-trends-design/)
-* Johnson, Tom. [2020 Developer documentation survey](/blog/developer-documentation-survey-2020).  Idratherbewriting.com. Dec 31, 2019.
+* Johnson, Tom. [API the Docs recording: How Trends in API Documentation Differ from other Tech Comm Trends](https://idratherbewriting.com/blog/api-the-docs-virtual-series-fifth-edition-api-doc-trends-design/)
+* Johnson, Tom. [2020 Developer documentation survey](https://idratherbewriting.com/blog/developer-documentation-survey-2020).  Idratherbewriting.com. Dec 31, 2019.
 * Johnson, Tom. [Developer Documentation Trends — Survey Results](docapis_trends.html)
-* Johnson, Tom. [*How* you write influences *what* you write — interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code](/blog/how-you-write-influences-what-you-write/). Idratherbewriting.com. Feb 20, 2020.
-* Johnson, Tom. [Integrating documentation into engineering code and workflows](/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/). Idratherbewriting.com. May 26, 2015.
-* Johnson, Tom. [Treat code like code and prose like prose](/blog/treat-code-like-code-and-prose-like-prose/). Idratherbewriting.com. Jun 16, 2020.
+* Johnson, Tom. [*How* you write influences *what* you write — interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code](https://idratherbewriting.com/blog/how-you-write-influences-what-you-write/). Idratherbewriting.com. Feb 20, 2020.
+* Johnson, Tom. [Integrating documentation into engineering code and workflows](https://idratherbewriting.com/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/). Idratherbewriting.com. May 26, 2015.
+* Johnson, Tom. [Treat code like code and prose like prose](https://idratherbewriting.com/blog/treat-code-like-code-and-prose-like-prose/). Idratherbewriting.com. Jun 16, 2020.
 * Johnson, Tom. [API design and usability](evaluating-api-design.html). Idratherbewriting.com.
 * Lauret, Arnaud. [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108). Manning Publications. 2019.
 * Welinske, Joe. [2014 WritersUA Tools Survey](http://www.welinske.com/2014-writersua-tools-survey/). *WritersUA.* Aug 20, 2015.
