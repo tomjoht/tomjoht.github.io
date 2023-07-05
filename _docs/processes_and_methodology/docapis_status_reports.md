@@ -83,7 +83,7 @@ If you have an aptitude for metrics analysis, you could also provide insights ab
 
 **Warning:** Analytics can be a rabbit hole that can consume a lot of time without leading to actionable results. For example, whether the average time on page is 3 minutes or 5 minutes, is that going to dictate your information architecture strategy? Probably not. The most valuable metrics are usually your top 10 pages, which can give you a sense of where to prioritize your content development efforts. Dive into metrics, but come up for air soon after.
 
-Even if analytics aren't always actionable, it's worth periodically reviewing the numbers to try glean as many insights as possible. Every year, I regularly review analytics on my blog. See the section [Posts analyzing site analytics](/analytics/).
+Even if analytics aren't always actionable, it's worth periodically reviewing the numbers to try glean as many insights as possible. Every year, I regularly review analytics on my blog. See the section [Posts analyzing site analytics](https://idratherbewriting.com/analytics/).
 
 The biggest action item to come from these blog analytics assessments has been to see the large traffic going to this API doc site, which prompted me to focus more efforts in this direction. At Amazon, when I looked at analytics, I realized that device specifications regularly trended as the most popular pages, so I put a lot of effort in into [Fire TV device specifications](https://developer.amazon.com/docs/fire-tv/device-specifications.html). In short, your most popular pages can indicate where you should prioritize your time.
 

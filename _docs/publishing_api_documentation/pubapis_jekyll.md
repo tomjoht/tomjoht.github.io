@@ -115,7 +115,7 @@ In this activity, we'll publish to CloudCanon using the [Documentation Theme for
 
     <figure><img class="docimage large" src="{{site.api_media}}/cloudcannonviewlivesite.png" alt="Viewing your live site" /><figcaption>Viewing your live site</figcaption></figure>
 
-	  The preview URL will be something random, such as `https://balmy-sunglasses.cloudvent.net/`. You'll need to click **Continue to sample site** because you're on the free plan. When you visit the URL, the theme should look just like the [Documentation theme for Jekyll here](/documentation-theme-jekyll).
+	  The preview URL will be something random, such as `https://balmy-sunglasses.cloudvent.net/`. You'll need to click **Continue to sample site** because you're on the free plan. When you visit the URL, the theme should look just like the [Documentation theme for Jekyll here](https://idratherbewriting.com/documentation-theme-jekyll).
 
 Using the CloudCannon user interface, you can make updates to files, and the updates will sync back to GitHub. Likewise, if you push updates to GitHub, CloudCannon will be notified, pull the changes, and rebuild the output.
 
