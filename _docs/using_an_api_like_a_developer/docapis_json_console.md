@@ -126,7 +126,7 @@ In this section, I'll explain a bit more about the `ajax` function you used earl
 
 (In the above code, replace `APIKEY` with your actual API key.)
 
-If you're working with JavaScript and APIs, the [`ajax` method from jQuery](http://api.jquery.com/jquery.ajax) can be helpful with code samples. This `ajax` method takes one argument: `settings`.
+If you're working with JavaScript and APIs, the [`ajax` method from jQuery](https://api.jquery.com/jquery.ajax/) can be helpful with code samples. This `ajax` method takes one argument: `settings`.
 
 ```js
 $.ajax(settings)
