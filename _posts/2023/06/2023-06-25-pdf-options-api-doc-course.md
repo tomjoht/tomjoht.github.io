@@ -9,6 +9,8 @@ rebrandly: https://idbwrtng.com/pdf-options-api-doc-course
 description: "I made some updates to the PDF options for my API doc course. Previously, I had one massive PDF that was 900+ pages. I split that long PDF into chapter PDFs instead, making each chapter PDF about 50-75 pages in length. I also put the chapter PDFs into the <a href='https://www.buymeacoffee.com/learnapidoc/extras'>Buy Me a Coffee Shop</a> digital downloads feature and priced them at $3 each or $20 for all."
 ---
 
+**July 4, 2023 update**: I changed my approach on the PDF. All people who have purchased PDFs so far bought the comprehensive chapters zip (all), rather than individual PDFs. Because of this, I decided to return to the single PDF output model. This also solves the cross-reference problem. The PDF is 912 pages, but people can easily print the chapters they want. I think people might prefer to have a single PDF, as it allows Ctrl+F functionality and a consolidated source for information. You can [buy the PDF here](https://idratherbewriting.com/learnapidoc/download.html).
+
 ## Reasons for the change 
 
 Why did I do this? First, no one reads a 900-page PDF, much less prints it. I knew this single long PDF wasn't ideal, but I didn't have the code logic in place to create smaller PDFs. My first task, then, was to update the code logic to build individual chapters. This pivot wasn't hard, but I'll omit the explanation here because otherwise this post will get into too many technical details. I'm planning a later tutorial on how I generate these PDFs, but basically, I'm using Prince XML. I also upgraded my Prince XML license to a commercial license so that I could sell the generated PDFs.
