@@ -18,7 +18,7 @@ podcast_length: 5389413
 
 {% include audio.html %}
 
-Since my last post on [balancing writing, editing, and learning](https://idratherbewriting.com/2017/11/18/balancing-editing-writing-and-learning/), I've been trying to read more. The problem is, despite the tradition of writers being "voracious" readers, I'm not one. I should revel in reading, staying up late at night to immerse myself in books, but I don't. Why?
+Since my last post on [balancing writing, editing, and learning](/2017/11/18/balancing-editing-writing-and-learning/), I've been trying to read more. The problem is, despite the tradition of writers being "voracious" readers, I'm not one. I should revel in reading, staying up late at night to immerse myself in books, but I don't. Why?
 
 Of course, I do read, both fiction and non-fiction. I often listen to fiction while I bike to work. My fiction tastes are low-brow, mostly consisting of the larger-than-life spy/CIA/military genre fiction (with protagonists like Jack Reacher, Mitch Rapp, Dewey Andreas, Evan Smoak, etc.). I listen to fiction as an escape, to be immersed in story while biking with partial attention.
 

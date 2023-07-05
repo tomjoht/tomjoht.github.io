@@ -140,7 +140,7 @@ The breakdown of audience age and gender is as follows:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
 
-In years past, the gender distribution was more balanced. But with more traffic coming in through my API documentation site, it suggests more programmers are reading the content. Why? The [2018 GitHub survey](https://insights.stackoverflow.com/survey/2018/#demographics) found that the gender breakdown among engineers was 92.9% male, 6.9% female. Given that my overall gender breakdown is now 71.7% male, 28.3% female, I think many of those readers are engineers rather than technical writers. In years past (such as [2017](https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/)), the gender breakdown on my site was more evenly balanced. In fact, just last year, Google Analytics indicated that 34% of readers were male, 66% female.
+In years past, the gender distribution was more balanced. But with more traffic coming in through my API documentation site, it suggests more programmers are reading the content. Why? The [2018 GitHub survey](https://insights.stackoverflow.com/survey/2018/#demographics) found that the gender breakdown among engineers was 92.9% male, 6.9% female. Given that my overall gender breakdown is now 71.7% male, 28.3% female, I think many of those readers are engineers rather than technical writers. In years past (such as [2017](/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/)), the gender breakdown on my site was more evenly balanced. In fact, just last year, Google Analytics indicated that 34% of readers were male, 66% female.
 
 ## Top 10 lists for 2018
 
@@ -167,7 +167,7 @@ Again, these top pages show that most of the traffic is coming through my [API d
 
 ### Top 10 blog posts in 2018
 
-From the [83 posts I wrote in 2018](https://idratherbewriting.com/archives-2018/), these posts received the most page views:
+From the [83 posts I wrote in 2018](/archives-2018/), these posts received the most page views:
 
 1. [What technical writing trends will we see in 2018?](/2018/01/02/technical-writing-trends-2018-and-2017-review/) (9,765 views)
 2. [If writing is no longer a marketable skill, what is?](/2018/08/09/writing-no-longer-a-skill/) (3,703 views)
@@ -186,33 +186,33 @@ The most popular posts focused on the theme of trends and tech comm value.
 
 Here are the top 10 podcasts in 2018:
 
-1.  [Recording of API documentation workshop in Denver](https://idratherbewriting.com/2018/03/12/api-documentation-workshop-in-denver/#workshop-activities) (8,357 downloads)
+1.  [Recording of API documentation workshop in Denver](/2018/03/12/api-documentation-workshop-in-denver/#workshop-activities) (8,357 downloads)
 2.  [If writing is no longer a marketable skill, what is?](/2018/08/09/writing-no-longer-a-skill/)(1,901 downloads)
-3.  [Preferring technical acuity over specialized knowledge](https://idratherbewriting.com/2018/10/24/technical-aptitude/) (1,800 downloads)
-4.  [Reducing the complexity of technical language (new article in Simplifying Complexity series)](https://idratherbewriting.com/2018/07/11/reducing-the-complexity-of-technical-language/) (1,641 downloads)
-5.  [Articulating stories that influence product adoption (new article in Simplifying Complexity series](https://idratherbewriting.com/2018/07/31/articulating-stories-that-influence-product-adoption/) (1,278 downloads)
-6.  [Recording of OpenAPI and Swagger presentation (for STC and WTD San Diego)](https://idratherbewriting.com/2018/02/14/openapi-and-swagger-presentation) (1,116 downloads)
-7.  [Evaluating the user experience of documentation — Podcast with Bob Watson](https://idratherbewriting.com/2018/06/18/podcast-on-the-user-experience/) (1,112 downloads)
-8.  [Upcoming full-day API documentation workshop in Menlo Park](https://idratherbewriting.com/2018/10/31/upcoming-api-doc-workshop/) (1,022 downloads)
-9.  [My conflicted thoughts about the decentralized web (while taking the Census of Technical Communicators survey)](https://idratherbewriting.com/2018/08/06/conflicted-thoughts-on-decentralized-web-and-survey/) (900 downloads)
-10. [New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/2018/11/30/trends-generalist-specialist-topic-in-simplifying-complexity-series/) (679 downloads)
+3.  [Preferring technical acuity over specialized knowledge](/2018/10/24/technical-aptitude/) (1,800 downloads)
+4.  [Reducing the complexity of technical language (new article in Simplifying Complexity series)](/2018/07/11/reducing-the-complexity-of-technical-language/) (1,641 downloads)
+5.  [Articulating stories that influence product adoption (new article in Simplifying Complexity series](/2018/07/31/articulating-stories-that-influence-product-adoption/) (1,278 downloads)
+6.  [Recording of OpenAPI and Swagger presentation (for STC and WTD San Diego)](/2018/02/14/openapi-and-swagger-presentation) (1,116 downloads)
+7.  [Evaluating the user experience of documentation — Podcast with Bob Watson](/2018/06/18/podcast-on-the-user-experience/) (1,112 downloads)
+8.  [Upcoming full-day API documentation workshop in Menlo Park](/2018/10/31/upcoming-api-doc-workshop/) (1,022 downloads)
+9.  [My conflicted thoughts about the decentralized web (while taking the Census of Technical Communicators survey)](/2018/08/06/conflicted-thoughts-on-decentralized-web-and-survey/) (900 downloads)
+10. [New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist at the same time](/2018/11/30/trends-generalist-specialist-topic-in-simplifying-complexity-series/) (679 downloads)
 
-I use Podtrac to track downloads. I've never seen a single podcast get as many downloads as the [Recording of API documentation workshop in Denver](https://idratherbewriting.com/2018/03/12/api-documentation-workshop-in-denver/#workshop-activities), with 8,357 downloads. Across all podcasts ever published on my site, there were about 42,000 downloads in 2018.
+I use Podtrac to track downloads. I've never seen a single podcast get as many downloads as the [Recording of API documentation workshop in Denver](/2018/03/12/api-documentation-workshop-in-denver/#workshop-activities), with 8,357 downloads. Across all podcasts ever published on my site, there were about 42,000 downloads in 2018.
 
 ### Top 10 pages on API doc site
 
 These were the top 10 pages on my [API documentation site](/learnapidoc) during 2018:
 
-1. [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) (184,574 views)
-2. [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/) (70,162 views)
-3. [Step 3: Parameters (API reference tutorial)](https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html) (68,750 views)
-4. [Submit requests through Postman](https://idratherbewriting.com/learnapidoc/docapis_postman.html) (46,6350 views)
-5. [OpenAPI 3.0 tutorial overview](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview) (20,455 views)
-6. [OpenAPI 3.0 tutorial overview](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html) (18,970 views)
-7. [Inspect the JSON from the response payload](https://idratherbewriting.com/learnapidoc/docapis_json_console.html) (18,909 views)
-8. [Introduction to the OpenAPI specification and Swagger](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) (18,040 views)
-9. [Step 1: Resource description (API reference tutorial)](https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html) (16,427 views)
-10. [Overview of REST API specification formats](https://idratherbewriting.com/learnapidoc/pubapis_rest_specification_formats.html) (15,923 views)
+1. [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (184,574 views)
+2. [Documenting APIs: A guide for technical writers and engineers](/learnapidoc/) (70,162 views)
+3. [Step 3: Parameters (API reference tutorial)](/learnapidoc/docapis_doc_parameters.html) (68,750 views)
+4. [Submit requests through Postman](/learnapidoc/docapis_postman.html) (46,6350 views)
+5. [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview) (20,455 views)
+6. [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview.html) (18,970 views)
+7. [Inspect the JSON from the response payload](/learnapidoc/docapis_json_console.html) (18,909 views)
+8. [Introduction to the OpenAPI specification and Swagger](/learnapidoc/pubapis_swagger_intro.html) (18,040 views)
+9. [Step 1: Resource description (API reference tutorial)](/learnapidoc/docapis_resource_descriptions.html) (16,427 views)
+10. [Overview of REST API specification formats](/learnapidoc/pubapis_rest_specification_formats.html) (15,923 views)
 
 Most of the traffic focuses on Swagger and the OpenAPI &mdash; in other words, reference documentation.
 
@@ -229,13 +229,13 @@ Overall, the increased traffic to my API documentation site grew my page views f
 
 That said, I think the engineering audience who comes to the API documentation site is less likely to comment, subscribe, and become regular readers. The bump in newsletter subscribers (about a thousand this year) doesn't necessarily reflect the doubling of site traffic.
 
-In 2018, I also posted [video recordings of the two API workshops](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html) that I gave (in Denver and Menlo Park) this year. There were 4,691 views on YouTube for the collective videos, so these were also popular.
+In 2018, I also posted [video recordings of the two API workshops](/learnapidoc/docapis_course_videos.html) that I gave (in Denver and Menlo Park) this year. There were 4,691 views on YouTube for the collective videos, so these were also popular.
 
-Some efforts that didn't have much success this year include the [Simplifying Complexity](/simplifying-complexity) site and the [Academic Practitioner collaboration project](https://idratherbewriting.com/academic-practitioner-project/). Low traffic and page views for this content suggests that I should discontinue (or at least de-emphasize) these efforts. I probably won't, though. I enjoy that kind of writing more.
+Some efforts that didn't have much success this year include the [Simplifying Complexity](/simplifying-complexity) site and the [Academic Practitioner collaboration project](/academic-practitioner-project/). Low traffic and page views for this content suggests that I should discontinue (or at least de-emphasize) these efforts. I probably won't, though. I enjoy that kind of writing more.
 
 ## Drawing conclusions
 
-Let's reflect on some ideas and predictions I wrote about in [What technical writing trends will we see in 2018?](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/) (which I published at the beginning of the year). In that post, I said,
+Let's reflect on some ideas and predictions I wrote about in [What technical writing trends will we see in 2018?](/2018/01/02/technical-writing-trends-2018-and-2017-review/) (which I published at the beginning of the year). In that post, I said,
 
 > What will 2018 bring for the field of tech comm? Here’s what I think. In 2018, tech writers will play more cross-functional, interdisciplinary roles in order to establish value as generalists. ... We all know that for the past few decades, technology has been getting more and more specialized. Knowledge is becoming more extensive, detailed, and deep. ... Hyperspecialization has become only more acute with each passing year. Because of this specialization, I think more engineers and other specialists will be writing docs &mdash; because the information is so technical and specialized, tech writers will have a hard time developing the content. Instead, technical writers might play more general roles with content and more specialized roles in editing, publishing, and curating content.
 
@@ -261,7 +261,7 @@ Yet I bet a lot more than 180 software engineering jobs were added during 2017. 
 
 Who is documenting all the code and other products that the additional 50,000 engineers are creating? The 180 new technical writers? Uh, I kind of doubt it. Engineers are likely playing more documentation roles.
 
-As more evidence that engineers are writing, consider that [docs-as-code tooling](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html) has flourished as a standard approach to writing and publishing documentation. Why would a software-engineering-based doc approach be flourishing, if not because more engineers are writing?
+As more evidence that engineers are writing, consider that [docs-as-code tooling](/learnapidoc/pubapis_docs_as_code.html) has flourished as a standard approach to writing and publishing documentation. Why would a software-engineering-based doc approach be flourishing, if not because more engineers are writing?
 
 I wrote and focused on trends a lot this year. I argued that the increased amount of specialization means more engineers will be writing docs &mdash; because the content is so specialized, it exceeds the capacity of tech writers (typically generalists) to explain it. As a result, tech writers either need to step up their technical game, or they need to get more skilled at collaborating with engineers to elicit the needed information.
 
@@ -269,7 +269,7 @@ In some posts about trends, I explained the ramifications of the increase in spe
 
 > However much I dislike the model where engineers develop content and technical writers add information usability, this just might be the norm in years to come. If the content is so specialized that only engineers can fully articulate it at the required level, then technical writers will play more supporting editorial roles, guiding engineers with content creation and making the information more readable/usable.
 >
-> The degree to which engineers collaborate in the documentation process falls along a spectrum, for sure. But I don’t see how we can accommodate increasing amounts of specialization and complexity in the technology landscape without also incorporating more engineers into the writing process. ([Embracing a more collaborative role in authoring specialized content](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/#embracing-a-more-collaborative-role-in-authoring-specialized-content))
+> The degree to which engineers collaborate in the documentation process falls along a spectrum, for sure. But I don’t see how we can accommodate increasing amounts of specialization and complexity in the technology landscape without also incorporating more engineers into the writing process. ([Embracing a more collaborative role in authoring specialized content](/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/#embracing-a-more-collaborative-role-in-authoring-specialized-content))
 
 In short, the increase in specialization is shifting the tech writer's role to more of an editorial and publishing role, where tech writers collaborate more fully with engineers in the documentation process.
 
@@ -283,6 +283,6 @@ Craig's lament about my shift from software technical writing toward API program
 
 You can read my analysis of metrics for previews years here:
 
-* 2017 &mdash; [Unexpected realizations after a comprehensive review of my 2017 site metrics](https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017)
-* 2016 &mdash; [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/)
-* 2015 &mdash; [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](https://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/)
+* 2017 &mdash; [Unexpected realizations after a comprehensive review of my 2017 site metrics](/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017)
+* 2016 &mdash; [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/)
+* 2015 &mdash; [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/)

@@ -10,9 +10,9 @@ path1: learnapidoc/doccode.html
 last-modified: 2020-08-09
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
-Sample apps aren't just a convenience for developers, nor even an illuminating demonstration of abstract concepts in code. Sample apps are critical for technical writers to write good documentation. Without the ability to [test content](https://idratherbewriting.com/learnapidoc/testingdocs_overview.html) through a sample app, it's nearly impossible to know if your code instructions in your docs work.
+Sample apps aren't just a convenience for developers, nor even an illuminating demonstration of abstract concepts in code. Sample apps are critical for technical writers to write good documentation. Without the ability to [test content](testingdocs_overview.html) through a sample app, it's nearly impossible to know if your code instructions in your docs work.
 
 Whether a sample app is relevant and available depends on the nature of the product, but in general you need sample apps or sample code to make sure the steps in the documentation work correctly. Additionally, sample apps tend to be powerful learning tools for developers because they allow them to experiment and see code in context from end to end.
 
@@ -27,7 +27,7 @@ Let me start the discussion by sharing an experience related to sample apps. At 
 
 The implementation process was pretty involved and required a [series of steps listed here](https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html). I inherited an initial set of docs (written by a PM + engineers) and sample app. I spent a month just getting the steps to work with the sample app. Then I spent another month fixing and updating the documentation. Using a sample app was critical for determining which steps in the initial docs were missing or incomplete. After I was confident that the steps worked well (because by following said steps, the sample app actually worked), I published the [sample app as a companion to the docs](https://developer.amazon.com/docs/video-skills-fire-tv-apps/set-up-sample-app.html).
 
-Without testing the docs through this sample app, I wouldn't have had any idea if they actually worked, and I'd basically be an [engineer's secretary](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers). What I love most about sample apps is that they provide an end-to-end sample of working code. If you're working in any particular language, a simple code snippet might not run on its own (unless it's a standalone web call to an endpoint). But a chunk of Java or PHP or C++ code will usually require a sample app to run, or an IDE to compile and run the code.
+Without testing the docs through this sample app, I wouldn't have had any idea if they actually worked, and I'd basically be an [engineer's secretary](/2018/11/19/avoid-being-secretary-for-engineers). What I love most about sample apps is that they provide an end-to-end sample of working code. If you're working in any particular language, a simple code snippet might not run on its own (unless it's a standalone web call to an endpoint). But a chunk of Java or PHP or C++ code will usually require a sample app to run, or an IDE to compile and run the code.
 
 Having little disconnected pieces of code that aren't associated within a sample app often isn't a testable scenario. And if you have a bunch of code that you can't easily test, how do you even know that it works? If you don't know whether the code you're documenting works, how can you feel good about the technical documentation you're writing? This is why sample apps are critical &mdash; they let you know that your instructions probably work.
 

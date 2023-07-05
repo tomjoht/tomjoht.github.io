@@ -10,7 +10,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/firsta
 * TOC
 {:toc}
 
-Here's the first video for my [API documentation course](https://idratherbewriting.com/learnapidoc/).
+Here's the first video for my [API documentation course](/learnapidoc/).
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/h_WsKO_NWuw" frameborder="0" allowfullscreen></iframe>
 

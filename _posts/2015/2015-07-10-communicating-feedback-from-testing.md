@@ -13,7 +13,7 @@ weight: 1.2
 
 ## Results from testing
 
-As I [test all my documentation](https://idratherbewriting.com/2015/07/07/testing-your-instructions/), I usually have several results:
+As I [test all my documentation](/2015/07/07/testing-your-instructions/), I usually have several results:
 
 * I have questions about how something works.
 * I discover bugs with the system.

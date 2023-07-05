@@ -58,6 +58,6 @@ On each page, I include a short survey to gather your responses and input. Throu
 
 ## Slides
 
-I'm giving several presentations related to this series topic. For a slide presentation, see [idratherbewriting.com/trends-generalists-specialists/](https://idratherbewriting.com/trends-generalists-specialists/index.html). You can also download a [PDF of the slides here](https://idratherbewriting.com/trends-generalists-specialists/trends_generalist_specialist.pdf).
+I'm giving several presentations related to this series topic. For a slide presentation, see [idratherbewriting.com/trends-generalists-specialists/](/trends-generalists-specialists/index.html). You can also download a [PDF of the slides here](/trends-generalists-specialists/trends_generalist_specialist.pdf).
 
 {% include series/seriesTagGeneralistSpecialists_next.html %}

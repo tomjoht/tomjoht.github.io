@@ -40,5 +40,5 @@ But end users haven't written all the docs, so they don't have a solid grasp of 
 
 I've written about the need for tutorials and narrative workflow topics in previous posts. See the following:
 
-* [Narrative Workflow Topics: Helping Users Connect the Dots Among Topics](https://idratherbewriting.com/2013/09/12/narrative-workflow-topics-helping-users-connect-the-dots-among-topics/).
-* [Where Topic-Based Authoring Fails: End-to-End Scenarios](https://idratherbewriting.com/2011/05/25/where-topic-based-authoring-fails/)
+* [Narrative Workflow Topics: Helping Users Connect the Dots Among Topics](/2013/09/12/narrative-workflow-topics-helping-users-connect-the-dots-among-topics/).
+* [Where Topic-Based Authoring Fails: End-to-End Scenarios](/2011/05/25/where-topic-based-authoring-fails/)

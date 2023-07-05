@@ -23,7 +23,7 @@ You won't really see the difference on a regular monitor, but for fun, I embedde
 
 On a regularly 72 DPI monitor, you won't see much difference between the two. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with the 1600px original size).
 
-(I also explored this topic in [Retina Display and Screen Capture Sizes in Online Help](https://idratherbewriting.com/2012/11/10/high-retina-displays-and-screen-captures-into-online-help/).)
+(I also explored this topic in [Retina Display and Screen Capture Sizes in Online Help](/2012/11/10/high-retina-displays-and-screen-captures-into-online-help/).)
 
 If you aren't sure how many pixels per inch your monitor has, look at [dpilove](http://dpi.lv/). My Macbook Pro has 227 pixels per inch, but my Dell monitors have only 166 pixels per inch.
 

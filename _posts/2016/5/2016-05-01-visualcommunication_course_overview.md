@@ -9,7 +9,7 @@ description: "In this series on visual communication, I'm going to explore in a 
 * TOC
 {:toc}
 
-For a little background about why I started this course, see [Starting a new series on visual communication](https://idratherbewriting.com/2016/03/12/new-series-on-visual-communication/).
+For a little background about why I started this course, see [Starting a new series on visual communication](/2016/03/12/new-series-on-visual-communication/).
 
 The content here is a draft in progress. I will be publishing about two new sections a week here for the next year. After I finish collecting the material, my second approach will be to organize it into a logical, coherent flow. Right now the topics and sequence are mostly random.
 

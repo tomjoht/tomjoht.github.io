@@ -82,4 +82,4 @@ In this email group, I hope to help bridge this gap in the following way:
 
 * Academics can post questions about the research projects they're undertaking. For example, is data available for a study about user metrics that are used in reporting? Are practitioners interested in learning more about effective integration in agile?
 
-You can also [email me](https://idratherbewriting.com/contact/) with the information, and I'll post it in the group and on my blog.
+You can also [email me](/contact/) with the information, and I'll post it in the group and on my blog.

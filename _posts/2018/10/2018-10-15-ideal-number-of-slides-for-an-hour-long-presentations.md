@@ -22,7 +22,7 @@ Hands-down, the best advice for creating slides is [Guy Kawasaki's 10-20-30 rule
 
 I have aspired to follow Kawasaki's slide rule for a number of years, but one fear always gets in the way: if I have just 10 slides, what if I run out of things to say after 20 minutes? I mean, usually I have to fill an hour presentation slot, right? In order to guard against running out of time, I have a tendency to add more and more slides, helping me remember points I want to make and ensuring I don't end early.
 
-With my first keynote presentation, I unfortunately had [50 slides](https://idratherbewriting.com/trends-generalists-specialists/index.html) (and got through about 40 of them during the presentation). (Granted, many were "sub-slides," but they were still slides.) For my second presentation, I had only [14 slides](https://idratherbewriting.com/trends-collaboration-with-engineers/#/) (and got through them all). I felt the second presentation went better than the first.
+With my first keynote presentation, I unfortunately had [50 slides](/trends-generalists-specialists/index.html) (and got through about 40 of them during the presentation). (Granted, many were "sub-slides," but they were still slides.) For my second presentation, I had only [14 slides](/trends-collaboration-with-engineers/#/) (and got through them all). I felt the second presentation went better than the first.
 
 Here's the problem with having too many slides: the slides lock you into a fixed, rigid presentation order. The more slides you have, the more locked in you are to a fixed set of topics in a predefined order &mdash; which may or may not be the *right* order you want while presenting. With 50+ slides, you won't have the freedom and flexibility to flow in a more natural way. The more slides you have, the more fixed the order becomes. Instead of a crutch, these slides become a cast that restricts your movement.
 
@@ -58,7 +58,7 @@ Or like this:
 
 Granted, some font on these slides is less than 30 points, but you don't see extensive bulleted lists here.
 
-For my [second presentation slides](https://idratherbewriting.com/trends-collaboration-with-engineers), I tried to include about 3 stories per slide depicting concept diagrams like this. My thought was that I could glance at the pictures, and each picture would trigger 3 points to cover for the topic. I could cover the 3 stories/points in whatever order I wanted, so I wasn't locked into a fixed outline. It more or less worked.
+For my [second presentation slides](/trends-collaboration-with-engineers), I tried to include about 3 stories per slide depicting concept diagrams like this. My thought was that I could glance at the pictures, and each picture would trigger 3 points to cover for the topic. I could cover the 3 stories/points in whatever order I wanted, so I wasn't locked into a fixed outline. It more or less worked.
 
 I also had slide notes in the presenter view that I could fall back on, but these presenter notes are challenging to read while speaking, and I think most presenters end up ignoring them. Pictures that trigger thought without interfering with one's language-speaking functions work much better (for me anyway).
 
@@ -138,7 +138,7 @@ Additionally, note that as a presenter, you can also be the one to ask questions
 
 ## A good essay makes for a good presentation
 
-A good essay and a good presentation share many similarities. For many presentations I give, I'll often write out the content as a blog post or essay before hand. For example, for my second keynote presentation, my [Tech comm trends - take two](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/) post was the essay form of the post. The essay was about 8,000 words, which is about right for an hour-long presentation. For my first keynote, the essay was [an earlier version of the same trends topic](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/).
+A good essay and a good presentation share many similarities. For many presentations I give, I'll often write out the content as a blog post or essay before hand. For example, for my second keynote presentation, my [Tech comm trends - take two](/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/) post was the essay form of the post. The essay was about 8,000 words, which is about right for an hour-long presentation. For my first keynote, the essay was [an earlier version of the same trends topic](/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/).
 
 If the essay doesn't have a good shape and focus (no idea journey, no story arc, no argument, no evidence, no analysis of opposing views, no interesting questions, etc.), then the presentation will probably lack life as well.
 

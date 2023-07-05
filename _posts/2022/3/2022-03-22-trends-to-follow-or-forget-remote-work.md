@@ -39,7 +39,7 @@ For more reading, see the following:
 
 ## Why I embraced remote work
 
-Like most tech employees, for me, remote work was mandated when offices shut down. I've struggled to operate optimally in WFH mode and have written a number of posts on this &mdash; see the [posts listed in the sidebar here](https://idratherbewriting.com/blog/working-outside/). I often felt isolated and unproductive working from home and began returning to work when offices started reopening, even when it was optional.
+Like most tech employees, for me, remote work was mandated when offices shut down. I've struggled to operate optimally in WFH mode and have written a number of posts on this &mdash; see the [posts listed in the sidebar here](/blog/working-outside/). I often felt isolated and unproductive working from home and began returning to work when offices started reopening, even when it was optional.
 
 But as others started returning to work as well, I didn't find that same bubbling social dynamic in the workplace that I sometimes thought about while isolated at home. It's possible to feel alone in a crowd of people. I'm not an extrovert by default, so going over to someone I don't know and striking up a conversation with them, or worse, inviting them to lunch, didn't come naturally. And the commute time chipped away at my productivity. Even so, working all day from home feels boring to me, and lonely, like staying home from school while everyone else is in the classroom.
 

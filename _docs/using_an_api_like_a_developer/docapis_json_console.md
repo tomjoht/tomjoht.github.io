@@ -12,7 +12,7 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-05-10
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Seeing the response from curl or Postman is cool, but how do you make use of the JSON data? With most API documentation, you don't need to show how to make use of JSON data. You assume that developers will use their front-end development skills to parse through the data and display it appropriately in their apps. However, to better understand how developers will access the data, we'll go through a brief tutorial to display the REST response on a web page.
 
@@ -165,7 +165,7 @@ You can then access the values from the response object using object notation. I
 If you're new to JavaScript, this is likely a bit fuzzy right now. If so, don't worry &mdash; code becomes clearer the more you use it.
 
 {: .tip}
-Notice how difficult it is to explain code? This is one of the challenges of developer documentation. Fortunately, you wouldn't need to explain much from standard programming languages like JavaScript. But you might need to explain how to work with your API in different languages. I cover this topic in more depth in [Code samples and tutorials](https://idratherbewriting.com/learnapidoc/docapis_codesamples_bestpractices.html).
+Notice how difficult it is to explain code? This is one of the challenges of developer documentation. Fortunately, you wouldn't need to explain much from standard programming languages like JavaScript. But you might need to explain how to work with your API in different languages. I cover this topic in more depth in [Code samples and tutorials](docapis_codesamples_bestpractices.html).
 
 ## Logging responses to the console
 

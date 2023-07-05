@@ -59,7 +59,7 @@ We structure it in the shape of a story &mdash; in this case, I structured it ar
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_customer_journey.svg"/><figcaption>I structured the competitive analysis around the common steps in the user's journey.</figcaption></figure>
 
-For more information, see [Conform to the patterns and expectations of the genre and schemas](https://idratherbewriting.com/simplifying-complexity/reducing-complexity-by-shaping-into-schemas-esp-story.html).
+For more information, see [Conform to the patterns and expectations of the genre and schemas](/simplifying-complexity/reducing-complexity-by-shaping-into-schemas-esp-story.html).
 
 ## Principle 6: Reduce the complexity of technical language
 
@@ -92,7 +92,7 @@ Granted, this kind of knowledge gathering takes time, and we might object that w
 
 If we only look at our own company’s use of terms, the definitions of the terms might seem clear and straightforward. But we run the risk of operating in a bubble, without awareness of the linguistic chaos and complexity going on outside.
 
-For more information, see [Reduce the complexity of technical language](https://idratherbewriting.com/simplifying-complexity/reducing-the-complexity-of-technical-language.html).
+For more information, see [Reduce the complexity of technical language](/simplifying-complexity/reducing-the-complexity-of-technical-language.html).
 
 ## Principle 7: Iterate and increment on content following an agile approach
 
@@ -118,7 +118,7 @@ Instead, where iterative development with the software product ends (at least wi
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/agiledocdev_swimlanes.svg"/><figcaption>Documentation should follow similar iterative development cycles as software</figcaption></figure>
 
-For more information, see [Iterate and increment on content following an agile approach](https://idratherbewriting.com/simplifying-complexity/iterative-and-increment-on-content.html).
+For more information, see [Iterate and increment on content following an agile approach](/simplifying-complexity/iterative-and-increment-on-content.html).
 
 ## Your reactions and input?
 

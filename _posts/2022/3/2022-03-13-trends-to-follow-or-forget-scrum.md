@@ -27,7 +27,7 @@ Scrum has specific practices such as these:
 
 Tech writers usually plug into various Scrum teams, but documentation groups can also manage documentation using their documentation Scrums as well. For more details, see [Following Scrum with documentation projects](/learnapidoc/pubapis_agile_scrum_for_docs.html).
 
-One of the most popular recordings on my site is an STC Silicon Valley panel discussion on agile: [How can technical writers thrive in agile environments?](/2016/09/20/thriving-in-agile-environments-as-technical-writers) I also wrote a two-part series on documentation Scrums (see [part 1](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) and [part 2](/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/)), another post on [How to apply Scrum to your life's projects](/2016/01/21/apply-agile-principles-to-personal-projects), a post on [Kanban](https://idratherbewriting.com/2016/09/23/playing-content-curation-publishing-roles/) (which is another methodology for agile), and more.
+One of the most popular recordings on my site is an STC Silicon Valley panel discussion on agile: [How can technical writers thrive in agile environments?](/2016/09/20/thriving-in-agile-environments-as-technical-writers) I also wrote a two-part series on documentation Scrums (see [part 1](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) and [part 2](/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/)), another post on [How to apply Scrum to your life's projects](/2016/01/21/apply-agile-principles-to-personal-projects), a post on [Kanban](/2016/09/23/playing-content-curation-publishing-roles/) (which is another methodology for agile), and more.
 
 ## Why I embraced Scrum
 

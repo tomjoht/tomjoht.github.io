@@ -9,7 +9,7 @@ description: "This is a tutorial for creating interactive consoles with the RAML
 * TOC
 {:toc}
 
-Following on the [Swagger tutorial](https://idratherbewriting.com/2015/09/14/swagger-tutorial/) I posted about the other week, this week I'd like to point you to my [RAML tutorial](https://idratherbewriting.com/learnapidoc/pubapis_raml/).
+Following on the [Swagger tutorial](/2015/09/14/swagger-tutorial/) I posted about the other week, this week I'd like to point you to my [RAML tutorial](/learnapidoc/pubapis_raml/).
 
 This is part of my larger API doc course, so in this tutorial I'm taking a simple Weather API from Mashape and putting the API's endpoints, parameters, and sample responses into the RAML spec. Then I publish that API into several different RAML outputs using API Console, Mulesoft's Anypoint Platform, and RAML2HTML.
 

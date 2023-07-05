@@ -9,7 +9,7 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2020-04-06
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 {% include workflow_map.html step="1" map="content/reference_doc_map.html"  %}
 {% if site.format == "print" %}

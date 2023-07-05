@@ -11,7 +11,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/ditaxm
 * TOC
 {:toc}
 
-After my post the other day about choosing various [models for single-sourced content](https://idratherbewriting.com/2016/02/11/the-problem-with-single-source-publishing/), one person added the [following comment](https://idratherbewriting.com/2016/02/11/the-problem-with-single-source-publishing/#comment-2510062908):
+After my post the other day about choosing various [models for single-sourced content](/2016/02/11/the-problem-with-single-source-publishing/), one person added the [following comment](/2016/02/11/the-problem-with-single-source-publishing/#comment-2510062908):
 
 >The beautiful thing about structured authoring with DITA is that you don't have to make that choice up front. If you're marking up your content correctly with @audience or other filtering attributes, applying a taxonomy, or both, then your source is ready for whatever tooling or delivery you choose to use....
 

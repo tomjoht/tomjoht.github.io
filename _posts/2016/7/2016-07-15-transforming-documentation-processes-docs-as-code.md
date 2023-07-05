@@ -44,7 +44,7 @@ As more support for the value of docs, a 2013 survey conducted by [Programmablew
 
 <figure><a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/progwebdoc.png" | prepend: site.baseurl }}"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
 
-(As exciting as it is to find these surveys, don't get too excited -- few people seem to take them seriously, as evidenced by the [steady decline or flatlining of employed tech writers](https://idratherbewriting.com/innovation/#/8/2). But let's not dwell on that.)
+(As exciting as it is to find these surveys, don't get too excited -- few people seem to take them seriously, as evidenced by the [steady decline or flatlining of employed tech writers](/innovation/#/8/2). But let's not dwell on that.)
 
 The four panelists Riona chose all moved their documentation process toward openness and collaboration in similar ways:
 
@@ -59,7 +59,7 @@ The idea is to put docs in a space developers will look at and feel comfortable 
 
 But will treating docs as code achieve these technical writers' goals? With Riona's model, she says she's having success. She looks at code commits and analyzes the number of times developers update the readme file when pushing updates. She finds that developers are updating the readme about a third of the time. This is because the docs are literally embedded in the code repositories, exactly where engineers prefer to work.
 
-I wrote more about Riona's doc process and previous WTD presentation [here](https://idratherbewriting.com/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/). If you haven't listened to her talk, definitely do so. It's inspiring.
+I wrote more about Riona's doc process and previous WTD presentation [here](/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/). If you haven't listened to her talk, definitely do so. It's inspiring.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/EnB8GtPuauw" frameborder="0" allowfullscreen></iframe>
 
@@ -67,9 +67,9 @@ Riona works in *internal* documentation for engineers. Will these other writers,
 
 **More importantly, will treating docs as code actually solve any of the problems about documentation being poor, incomplete, and hard to find?**
 
-Although I'm a passionate [Jekyll user](https://idratherbewriting.com/about-jekyll/) and advocate treating docs as code, I'm wary about over-hyping this trend, as I don't think it will actually solve the problems in a significant way.
+Although I'm a passionate [Jekyll user](/about-jekyll/) and advocate treating docs as code, I'm wary about over-hyping this trend, as I don't think it will actually solve the problems in a significant way.
 
-Case in point, look at wikis. 10 years ago, wikis were all the rage. Wikis were (and still are) the epitome of openness and collaboration. They invite anyone to write, publish, and share information. But for some reason, wikis didn't stick. About their only success is in replacing Sharepoint for internal information platforms at companies. (For more detail about why wikis failed, see [When wikis succeed and fail](https://idratherbewriting.com/2012/05/23/wikis-are-dead-other-options-for-collaboration/).)
+Case in point, look at wikis. 10 years ago, wikis were all the rage. Wikis were (and still are) the epitome of openness and collaboration. They invite anyone to write, publish, and share information. But for some reason, wikis didn't stick. About their only success is in replacing Sharepoint for internal information platforms at companies. (For more detail about why wikis failed, see [When wikis succeed and fail](/2012/05/23/wikis-are-dead-other-options-for-collaboration/).)
 
 If wikis didn't take off, why do we think this more current transformation process -- writing docs in code repositories using text editors and following Markdown syntax -- is going to be any more successful? Maybe Riona's use case is too specific to internal engineering documentation only?
 
@@ -79,7 +79,7 @@ I don't mean to completely undervalue success of wikis. Nearly every company has
 
 99% of engineers have absolutely no interest in dedicating the lengthy amount of time needed to write, edit, and maintain documentation on a regular basis. This is precisely why technical writers exist. If engineers loved to write docs, we would not have jobs.
 
-Even if engineers do want to write, they don't have time for it. Look back at the Stack Overflow survey -- the number one challenge is "unrealistic expectations." Companies expect engineers to work little miracles each day, turning out new APIs and software applications overnight rather than over a period of months or years. (See my post, [Why "Programming Sucks" and the fallacy of documentation in the context of code chaos](https://idratherbewriting.com/2016/07/12/why-programming-sucks/) for more details about why programmers have little time to spend writing documentation.)
+Even if engineers do want to write, they don't have time for it. Look back at the Stack Overflow survey -- the number one challenge is "unrealistic expectations." Companies expect engineers to work little miracles each day, turning out new APIs and software applications overnight rather than over a period of months or years. (See my post, [Why "Programming Sucks" and the fallacy of documentation in the context of code chaos](/2016/07/12/why-programming-sucks/) for more details about why programmers have little time to spend writing documentation.)
 
 I do think the move toward *docs as code* is positive, if only because the open source model is compelling and preferable to vendor lock-in, proprietary platforms, expensive tooling, black boxes, marketing, and other characteristics of the old guard model. (That's another post, though.)
 

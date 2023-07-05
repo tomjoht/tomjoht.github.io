@@ -50,7 +50,7 @@ I found the podcast relevant because, like most, I occasionally fall prey to pro
 
 ## Do you know how many subscribers this newsletter has?
 
-This newsletter has 6,200 subscribers, mostly people in tech comm + engineering. Each time I send it, about 35% of recipients open the email, so about 2,200. Of those 2,200 people who open the newsletter, about 75 click on the links in the sponsored section. That’s a click-through-rate (CTR) of about 3.4%. If you want to advertise something here, the cost is $100 per newsletter instance, or 10 instances for $900. More advertising details are [here](https://idratherbewriting.com/advertising/#newsletter_summaries).
+This newsletter has 6,200 subscribers, mostly people in tech comm + engineering. Each time I send it, about 35% of recipients open the email, so about 2,200. Of those 2,200 people who open the newsletter, about 75 click on the links in the sponsored section. That’s a click-through-rate (CTR) of about 3.4%. If you want to advertise something here, the cost is $100 per newsletter instance, or 10 instances for $900. More advertising details are [here](/advertising/#newsletter_summaries).
 
 If you do want to advertise in this newsletter, you’ll need to write your newsletter summary. In your summary, try to be informative and interesting. Avoid marketing language or overt sales techniques. Most people respond best to plain explanations of products. Their eyes might glaze over banner ads, as experience has taught them to consider ads to be irrelevant, but if you share information in an authentic, transparent way, they may choose to learn more. People dislike sales but love information.
 

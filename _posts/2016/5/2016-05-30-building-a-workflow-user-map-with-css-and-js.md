@@ -13,7 +13,7 @@ sidebar: sidebar_visualcommunication
 
 ## Map background
 
-I've been thinking more about user maps lately. My [first user map](https://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/) looked like this:
+I've been thinking more about user maps lately. My [first user map](/2016/05/11/establishing-more-context-in-tech-comm/) looked like this:
 
 <figure><a href="https://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/diagram_setupworkflowdiagram.png" | prepend: site.baseurl }}"/></a><figcaption>This shows all the steps in the workflow.</figcaption></figure>
 
@@ -33,7 +33,7 @@ However, when I showed this to my wife, she said she didn't like having to scrol
 
 {% include ads.html %}
 
-So I made another version without scrolling, which you can see here: [Sample 1](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
+So I made another version without scrolling, which you can see here: [Sample 1](/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
 
 <figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
 

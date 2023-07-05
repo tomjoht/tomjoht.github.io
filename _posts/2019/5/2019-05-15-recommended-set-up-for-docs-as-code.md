@@ -21,7 +21,7 @@ I'm currently using Jekyll with GitHub Pages for this blog and my [API doc site]
 
 Jekyll's not bad by any means, but when your site starts growing into thousands of pages, build speed becomes a real issue, and you have to implement build shortcuts to reduce the time for local builds. I still love that GitHub Pages builds Jekyll natively, so there's still an argument for that. And I love how easy it is to create custom scripts in Liquid (which Jekyll uses).
 
-In my [previous post about red flags](https://idratherbewriting.com/blog/red-flags-tech-writer-with-complete-control/), I mentioned that you should probably look for pre-built solutions when it comes to tools, since companies typically want you to focus on content more than tooling. If you use Docsy, you already have a starting point for your documentation theme, but you'll probably still need to do a lot of figuring out.
+In my [previous post about red flags](/blog/red-flags-tech-writer-with-complete-control/), I mentioned that you should probably look for pre-built solutions when it comes to tools, since companies typically want you to focus on content more than tooling. If you use Docsy, you already have a starting point for your documentation theme, but you'll probably still need to do a lot of figuring out.
 
 Some easier options (which involve third-party hosting) might be [Readthedocs.com](https://readthedocs.com/) and [Readme.com](https://readme.com/). You won't have as much control, but that also means less time spent with tool development. A lot of your decisions depend on whether you consider yourself a "tools person."
 

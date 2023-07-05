@@ -46,7 +46,7 @@ As a generalist, you can bring your skills in information usability to the speci
 * Principle 6: Reduce the complexity of technical language
 * Principle 7: Iterate and increment on content following an agile approach
 
-I dive pretty deep into each of these principles in my series on Simplifying Complexity: [Simplifying complexity](https://idratherbewriting.com/simplifying-complexity/).
+I dive pretty deep into each of these principles in my series on Simplifying Complexity: [Simplifying complexity](/simplifying-complexity/).
 
 <figure><a href="https://idratherbewriting.com/simplifying-complexity"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simpcomplexscreenshot.png"/></a><figcaption>I explore these principles in depth in a series that I've been calling Simplifying Complexity</figcaption></figure>
 
@@ -70,7 +70,7 @@ Creating these maps is pretty easy, but it can become more challenging when you 
 
 The absence of maps in documentation constitutes one of the main reasons why people get lost. Imagine going on a hike without a map. Maps are critical for orienting users through complex terrain. Just as maps help us navigate cities and wildernesses, they can also help us navigate information spaces as well. Adding these maps is particularly appropriate for installation or setup tasks, as there's a clear start to end progression.
 
-To read more, see [Principle 1: Let users switch between macro and micro views](https://idratherbewriting.com/simplifying-complexity/macro-micro.html).
+To read more, see [Principle 1: Let users switch between macro and micro views](/simplifying-complexity/macro-micro.html).
 
 ## Principle 2: Make information discoverable as the user needs it
 
@@ -100,7 +100,7 @@ The next step would be to research metrics around page visibility. Based on your
 
 I won't go into depth about my forays into SEO, but I do pay attention to page metrics. In looking at my docs at work, I noticed that about 14% of our doc traffic was focused on specification pages, so I expanded and amplified the specification information on that page to be even more comprehensive and navigable. I also started linking out to other pages from that master specification page. The specification page sort of becomes the landing page and entry point for other docs.
 
-To read more about how to make information discoverable, see [Principle 2: Make information discoverable as the user needs it](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html).
+To read more about how to make information discoverable, see [Principle 2: Make information discoverable as the user needs it](/simplifying-complexity/discoverability-through-metadata.html).
 
 ## Principle 3: Ensure information harmony in the larger landscape
 
@@ -124,7 +124,7 @@ Synthesizing information to harmonize with the larger information landscape requ
 
 In my projects, when one of the engineering teams wanted to contribute docs that touched on other content, I Cc'd the other teams and asked them to evaluate whether the new information to be integrated harmonized. One engineer raised some issues about it, and noted potential conflicts. I then got the two engineers battling off against each other. Had I just worked with a single team on content, I might have simply published out the new content without realizing that I was contributing towards a contradictory and conflicting information experience for users.
 
-For more information, see [Principle 3: Ensure information harmony in the larger landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html).
+For more information, see [Principle 3: Ensure information harmony in the larger landscape](/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html).
 
 ## Principle: Reduce and distill information to its essence
 
@@ -140,7 +140,7 @@ A couple of years ago, while browsing information on Jakob Nielsen’s site, I b
 
 <figure><a href="https://www.nngroup.com/articles/moderated-remote-usability-test/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nielsonsummaryexample.png"/></a><figcaption>A good summary lets you know immediately what the content is about and whether it matches your information needs.</figcaption></figure>
 
-In almost all my blog posts, you see a short summary at the top that usually tries to capture the main point of the article. On my [Simplifying Complexity site](https://idratherbewriting.com/simplifying-complexity), I’ve put this information into a “Principle” at the top.
+In almost all my blog posts, you see a short summary at the top that usually tries to capture the main point of the article. On my [Simplifying Complexity site](/simplifying-complexity), I’ve put this information into a “Principle” at the top.
 
 The summary is arguably the most important part of the entire topic because most articles have a high bounce rate and short view time from visitors. A user clicks the title, thinking the content would answer his or her needs, and then quickly jumps to another page after scanning the content. In the digital age, users jump from one document to another looking for the right information. In fact, a Time, Inc study found that
 
@@ -158,7 +158,7 @@ Besides distilling information into summaries, another approach is to distill in
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/watershed6101.png"/><figcaption>The quick reference guide should provide the user with just enough information to get the gist of what the system is about, how to do key tasks, and get going. Almost invariably, you write the quick reference guide near the end of your documentation project, when you can see the whole and compress it accordingly.</figcaption></figure>
 
-For more information, see [Principle 4: Reduce and distill vast information down to its essence](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html).
+For more information, see [Principle 4: Reduce and distill vast information down to its essence](/simplifying-complexity/reduction-layering-distillation.html).
 
 ## Your reactions and input?
 

@@ -9,7 +9,7 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2019-11-17
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 In this activity, you'll use the Aeris Weather API to get the wind speed for a specific place (your choice). You'll then display the wind speed on a web page based on some conditional logic about the wind speed's value.
 
@@ -28,7 +28,7 @@ In earlier tutorials, you integrated information from the [OpenWeatherMap API](h
 
 ## 1. Get the API keys
 
-See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-started/) page for information on how to register and get API keys. (Get the free version of the keys available to development projects.) You will need both the ID and secret to make API calls. See [Get the Aeris Weather API secret and ID](https://idratherbewriting.com/learnapidoc/docapis_get_auth_keys.html#aeris_weather_apikey) for more detail.
+See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-started/) page for information on how to register and get API keys. (Get the free version of the keys available to development projects.) You will need both the ID and secret to make API calls. See [Get the Aeris Weather API secret and ID](docapis_get_auth_keys.html#aeris_weather_apikey) for more detail.
 
 ## 2. Construct the request
 

@@ -50,17 +50,17 @@ I think I took more of a devil's advocate approach regarding metrics during this
 
 ## Resources mentioned during the podcast
 
-* [Value arguments for docs and tech comm (Part II): Reviewing past research](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part2/)
-* [Value arguments for docs and tech comm (Part III): Determining value through usage](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part3/)
+* [Value arguments for docs and tech comm (Part II): Reviewing past research](/2017/12/28/value-of-tech-comm-in-company-part2/)
+* [Value arguments for docs and tech comm (Part III): Determining value through usage](/2017/12/28/value-of-tech-comm-in-company-part3/)
 * [Measuring the value of technical writing](https://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing/), by Bob Watson
-* [Value arguments for docs and tech comm (Part IV): Enabling information flow](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part2/)
-* ["Value from perceptions from others" (Saul Carliner reference)](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part2/#carliner), by Saul Carliner
-* ["Value from knowledge creation" (Mike Hughes reference)](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part2/#hughes), by Michael Hughes
+* [Value arguments for docs and tech comm (Part IV): Enabling information flow](/2017/12/28/value-of-tech-comm-in-company-part2/)
+* ["Value from perceptions from others" (Saul Carliner reference)](/2017/12/28/value-of-tech-comm-in-company-part2/#carliner), by Saul Carliner
+* ["Value from knowledge creation" (Mike Hughes reference)](/2017/12/28/value-of-tech-comm-in-company-part2/#hughes), by Michael Hughes
 * [Every Page Is Page One](https://everypageispageone.com/), by Mark Baker
 * [Descript help center](https://help.descript.com/en/)
 * [Cave of Programming](https://courses.caveofprogramming.com/)
-* [Docs-as-code tools](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html)
-* [Limits to the idea of treating docs as code](https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code)
+* [Docs-as-code tools](/learnapidoc/pubapis_docs_as_code.html)
+* [Limits to the idea of treating docs as code](/2017/06/02/when-docs-are-not-like-code)
 
 ## Subscribe to Knowledgebase Ninjas Podcast
 

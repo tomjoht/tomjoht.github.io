@@ -32,7 +32,7 @@ But in nearly every company I've worked at, authoring and publishing tools have 
 
 **2014** ... As a technical writer for 41st Parameter, a startup acquired by Experian, I first implemented DITA through OxygenXML and then later created a Jekyll theme to help move content out of Confluence-generated PDF into a web format. This is where I first started learning Jekyll.
 
-**2016** ... As a technical writer at Amazon, I created a hack to insert a navigation sidebar into an existing CMS (called Hippo), and also developed a more extensive Jekyll theme for local viewing and as a potentially deployable site. (See [Coding the sidebar navigation element for documentation websites](https://idratherbewriting.com/2016/10/23/coding-sidebar-navigation-for-documentation-websites/) for more details.)
+**2016** ... As a technical writer at Amazon, I created a hack to insert a navigation sidebar into an existing CMS (called Hippo), and also developed a more extensive Jekyll theme for local viewing and as a potentially deployable site. (See [Coding the sidebar navigation element for documentation websites](/2016/10/23/coding-sidebar-navigation-for-documentation-websites/) for more details.)
 
 {% include ads.html %}
 

@@ -24,9 +24,9 @@ I work in engineering documentation, so I would always choose a candidate that h
 
 ## Note about this revision
 
-Last week I published a 7-part series called [Tech comm trends: Providing value as a generalist in a sea of specialists](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/). However, I felt that the essay series (and its accompanying presentation) were trying to cover too much ground. I was not only identifying trends but also trying to argue for strategies to address gaps that the trends created. The approach felt like it lacked coherence and focus. As a result, I decided to limit the scope to just the first part: trends. I realize this means cutting out about half the essay/presentation, but I think it has more punch this way.
+Last week I published a 7-part series called [Tech comm trends: Providing value as a generalist in a sea of specialists](/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/). However, I felt that the essay series (and its accompanying presentation) were trying to cover too much ground. I was not only identifying trends but also trying to argue for strategies to address gaps that the trends created. The approach felt like it lacked coherence and focus. As a result, I decided to limit the scope to just the first part: trends. I realize this means cutting out about half the essay/presentation, but I think it has more punch this way.
 
-In this post, I've expanded the section on trends with more depth, analysis, and information. I've also incorporated the feedback I received from the survey on the [previous version](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-2/) (thanks to all who participated and responded).
+In this post, I've expanded the section on trends with more depth, analysis, and information. I've also incorporated the feedback I received from the survey on the [previous version](/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-2/) (thanks to all who participated and responded).
 
 At the bottom of this post (in [Your reactions and input](#reactions-and-input)), I also have some survey questions to gather your level of agreement or disagreement. Your responses help me better align my observations. Thanks!
 
@@ -54,7 +54,7 @@ Grey argues that UX design has displaced the need for tech comm in software comp
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_design_not_docs.svg"/><figcaption>Grey says the trend, at least for end-user products, is to hire UX designers to create intuitive products that don't need documentation</figcaption></figure>
 
-Keep in mind this was a simple blog post. [Grey has noted](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-2/#comment-4128781619) that he "wasn't trying to write a well-researched article for the ages," and it's not fair to make him the poster child of this argument. This idea has been bandied about by lots of people in a variety of contexts &mdash; I just chose this reference to make the idea more concrete. (Grey explained in a note to me, "I was just trying to make a point that old, traditional, explain-the-UI tech writing appeared to me to be going away, but that a technical communicator can stay employed by pivoting into some related fields.")
+Keep in mind this was a simple blog post. [Grey has noted](/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-2/#comment-4128781619) that he "wasn't trying to write a well-researched article for the ages," and it's not fair to make him the poster child of this argument. This idea has been bandied about by lots of people in a variety of contexts &mdash; I just chose this reference to make the idea more concrete. (Grey explained in a note to me, "I was just trying to make a point that old, traditional, explain-the-UI tech writing appeared to me to be going away, but that a technical communicator can stay employed by pivoting into some related fields.")
 
 Even it was only a simple blog post, Grey stood by his argument. Sensing his irrelevance as a technical writer, Grey jumped off the documentation ship and into software testing instead, where he says he brought along many useful skills he learned as a technical writer.
 
@@ -168,7 +168,7 @@ When I've been in situations like this, I've seen hiring managers choose the one
 
 This experience (and Lanier's research) points to a larger trend toward the devaluation of writing. Having "writing skills" doesn't seem to resonate much anymore because, presumably, everyone can write &mdash; or at least write well enough to get the job passably done. What's important is technical acumen and subject matter familiarity, not stylistic flair. So you hire the candidate with an engineering background and address any style issues with an editorial pass &mdash; because it's easier to teach writing than technical skills, some say.
 
-In my recent blog post, [If writing is no longer a marketable skill, what is?](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/), I noted (after comparing web metrics) that writing skills don't seem to sell in the job market, so you have to supplement writing skills with some kind of hybridization to make them seem valuable. I took a poll on my site to see which hybrid job titles were most common, and out of 277 respondents, the top roles were as follows:
+In my recent blog post, [If writing is no longer a marketable skill, what is?](/2018/08/09/writing-no-longer-a-skill/), I noted (after comparing web metrics) that writing skills don't seem to sell in the job market, so you have to supplement writing skills with some kind of hybridization to make them seem valuable. I took a poll on my site to see which hybrid job titles were most common, and out of 277 respondents, the top roles were as follows:
 
 * Technical writer/editor (14%)
 * Technical writer/content strategist (7%)
@@ -269,7 +269,7 @@ Technology is like an iceberg &mdash; seemingly simple on the surface for end-us
 
 Looking at diagrams like those in the previous section strikes a bit of terror inside me because I realize how challenging it is to stay current in the evolving, deepening technology landscape. If you blink, you miss a new technology, and before you know it, your lack of understanding (what's "blockchain" again, or "containers"?) has dated you.
 
-In surveys I've done in the past, keeping up with the latest technology is one of the primary challenges for technical writers. About a decade ago (in 2007), I had a [virtual chat with a group of tech writers](https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) to find out what their most pressing challenges were. Their answers (remember, this was 11 years ago in 2007) included the following:
+In surveys I've done in the past, keeping up with the latest technology is one of the primary challenges for technical writers. About a decade ago (in 2007), I had a [virtual chat with a group of tech writers](/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) to find out what their most pressing challenges were. Their answers (remember, this was 11 years ago in 2007) included the following:
 
 *   "For me, it's keeping up with the right technology and fighting to increase productivity without making our jobs horrid."
 *   "I have trouble keeping up with the rapid pace of innovation in the IT world and the many ways to deliver content."
@@ -280,7 +280,7 @@ In surveys I've done in the past, keeping up with the latest technology is one o
 
 Can you imagine how these same writers must feel now? How do you keep up? In a recent post, I polled writers to find out how much time they felt they *should devote* to learning technology each day to be successful in their role. Of the 40 responses, about 30% said 30 minutes, 30% said 1 hour, and 15% said 2 hrs.
 
-But I also asked how much time they *actually devote* to learning technology each day. 27% said 0 minutes, 30% said 20 minutes, 19% said 30 minutes, and only 13% said 1 hour (see [Strategies for learning technology -- podcast recommendation and a poll](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/)).
+But I also asked how much time they *actually devote* to learning technology each day. 27% said 0 minutes, 30% said 20 minutes, 19% said 30 minutes, and only 13% said 1 hour (see [Strategies for learning technology -- podcast recommendation and a poll](/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/)).
 
 Given how much technical knowledge you need to be functionally able to write documentation in today's landscape, how can one possibly ramp up the right level of knowledge by just spending 30 minutes or less each day? I felt I would need 2 hours a day to feel comfortable writing in some of these domains, but as another writer noted, it's not always clear where to start. There is such diversity in what we document, it can be like moving from one long line to another long line in an amusement park &mdash; spending hours of learning just to be able to write one sentence that lasts 30 seconds.
 
@@ -314,7 +314,7 @@ One approach to ramping up on this complexity might be to reduce your scope a bi
 
 Another approach might be to spend more time in online courses and textbooks at work. This would reduce your productivity in the short-term, but it might increase your productivity in the long-term. But even if I were to start a steady course of C# learning, I doubt I'd be able to convert Java code samples to C# without engineering involvement.
 
-Some push back on Neiman's standards for technical knowledge. [James Rhea says](https://idratherbewriting.com/2016/12/20/changing-roles-of-technical-writers/) says that "adequate" technical knowledge is usually enough to get the job done, and acquiring deeper technical knowledge has somewhat diminishing returns, since it means other aspects of documentation will likely be neglected. Rhea explains:
+Some push back on Neiman's standards for technical knowledge. [James Rhea says](/2016/12/20/changing-roles-of-technical-writers/) says that "adequate" technical knowledge is usually enough to get the job done, and acquiring deeper technical knowledge has somewhat diminishing returns, since it means other aspects of documentation will likely be neglected. Rhea explains:
 
 > I wouldn't aim for deep technical knowledge. I would aim for adequate technical knowledge, recognizing that what constitutes adequacy may vary by project, and that technical knowledge ought to grow over time due to immersion in the documentation and exposure to the technology and the industry.
 >
@@ -352,9 +352,9 @@ However, recognizing that documentation is now a collaborative effort more than 
 
 (It's kind of like cooking &mdash; when someone spends hours cooking dinner, they don't have the energy to also clear the table and wash the dishes. *Cookers aren't cleaners*, as they say.)
 
-Finally, it's worth noting that because more engineers are contributing to documentation, there has also been a significant shift in authoring and publishing tools and processes. Much of the tech comm industry (particularly in developer documentation domains) has shifted from XML to Markdown and [docs-as-code tools](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html) because most [developers find XML too cumbersome and tedious](https://idratherbewriting.com/2014/09/30/why-developers-will-never-adopt-dita/), and Markdown so easy.
+Finally, it's worth noting that because more engineers are contributing to documentation, there has also been a significant shift in authoring and publishing tools and processes. Much of the tech comm industry (particularly in developer documentation domains) has shifted from XML to Markdown and [docs-as-code tools](/learnapidoc/pubapis_docs_as_code.html) because most [developers find XML too cumbersome and tedious](/2014/09/30/why-developers-will-never-adopt-dita/), and Markdown so easy.
 
-For example, Microsoft's developer docs were previously in XML, but they have since switched to a docs-as-code model. Check out [Open Authoring -- Collaboration Across Disciplines](https://idratherbewriting.com/2016/11/15/recording-of-open-authoring-collaboration-ralph-squillace/), by Ralph Squillace, for details. Microsoft is one of many companies making this switch. Google made huge strides in their internal documentation when they adopted an engineering approach of including Markdown files directly in repositories (see [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/embed/EnB8GtPuauw) for more details). I also recently learned that [Citrix's developer docs](https://developer-docs.citrix.com/) just switched from an XML model to a docs-as-code model.
+For example, Microsoft's developer docs were previously in XML, but they have since switched to a docs-as-code model. Check out [Open Authoring -- Collaboration Across Disciplines](/2016/11/15/recording-of-open-authoring-collaboration-ralph-squillace/), by Ralph Squillace, for details. Microsoft is one of many companies making this switch. Google made huge strides in their internal documentation when they adopted an engineering approach of including Markdown files directly in repositories (see [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/embed/EnB8GtPuauw) for more details). I also recently learned that [Citrix's developer docs](https://developer-docs.citrix.com/) just switched from an XML model to a docs-as-code model.
 
 ## Conclusion
 
@@ -380,7 +380,7 @@ EMBED_PARAMS.border = "hidden";
 
 ## Slides
 
-For slides related to this topic, see [https://idratherbewriting.com/trends-collaboration-with-engineers/](https://idratherbewriting.com/trends-collaboration-with-engineers/).
+For slides related to this topic, see [https://idratherbewriting.com/trends-collaboration-with-engineers/](/trends-collaboration-with-engineers/).
 
 ## References
 
@@ -400,11 +400,11 @@ Highsmith, Jim; Mason, Mike; Ford, Neal. ["Implications of Tech Stack Complexity
 
 Johnson, Robert R. ["Craft Knowledge: Of Disciplinarity in Writing Studies."](https://www.jstor.org/stable/27917868) *College Composition and Communication, Vol. 61, No. 4.* June 2010.
 
-Johnson, Tom. ["If writing is no longer a marketable skill, what is?"](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/) *Idratherbewriting.* 9 Aug 2018.
+Johnson, Tom. ["If writing is no longer a marketable skill, what is?"](/2018/08/09/writing-no-longer-a-skill/) *Idratherbewriting.* 9 Aug 2018.
 
-Johnson, Tom. ["Number One Issue for Technical Writers Today: Keeping Pace with Rapidly Evolving Technology."](https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) *Idratherbewriting.com.* 1 Mar 2007.
+Johnson, Tom. ["Number One Issue for Technical Writers Today: Keeping Pace with Rapidly Evolving Technology."](/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) *Idratherbewriting.com.* 1 Mar 2007.
 
-Johnson, Tom. ["Strategies for learning technology -- podcast recommendation and a poll."](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/) *Idratherbewriting.com* 10 Aug 2018.
+Johnson, Tom. ["Strategies for learning technology -- podcast recommendation and a poll."](/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/) *Idratherbewriting.com* 10 Aug 2018.
 
 Lanier, Clinton. ["Analysis of the Skills Called for by Technical Communication Employers in Recruitment Postings."](http://www.ingentaconnect.com/contentone/stc/tc/2009/00000056/00000001/art00008) *Technical Communication, Volume 56, Number 1*. Feb 2009.
 

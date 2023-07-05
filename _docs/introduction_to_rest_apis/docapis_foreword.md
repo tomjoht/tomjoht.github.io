@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_introtoapis.html
 last-modified: 2018-12-29
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 I initially compiled this material to teach a series of workshops to a local tech writing firm in the San Francisco Bay area. They felt they either needed to train their existing technical writers on how to document APIs, or they would need to let some of their writers go. I taught a series of three workshops delivered in the evenings, spread over several weeks.
 
@@ -25,7 +25,7 @@ Second, I knew that through feedback, I could refine the information and make it
 
 {% include random_ad4.html %}
 
-Finally, the content would help drive traffic to my site. In fact, visits to the API documentation course pages outperform visits to my blog. I reflected on this traffic source in a blog post &mdash; see [If writing is no longer a marketable skill, what is?](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/) How would people discover the material if they couldn't find it online? If the material were only trapped in a print book or behind a firewall, it would be difficult to discover. Content is a rich information asset that draws traffic to any site. It's what people primarily search for online.
+Finally, the content would help drive traffic to my site. In fact, visits to the API documentation course pages outperform visits to my blog. I reflected on this traffic source in a blog post &mdash; see [If writing is no longer a marketable skill, what is?](/2018/08/09/writing-no-longer-a-skill/) How would people discover the material if they couldn't find it online? If the material were only trapped in a print book or behind a firewall, it would be difficult to discover. Content is a rich information asset that draws traffic to any site. It's what people primarily search for online.
 
 After putting the API doc on my site for some months, the feedback was positive. One person said:
 

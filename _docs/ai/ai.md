@@ -10,7 +10,7 @@ path1: learnapidoc/ai.html
 last-modified: 2023-07-04
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 AI tools can help speed up authoring, demystifying code, automating publishing tasks, populating templates, and more. This section will look at how to use AI tools within the context of API documentation. 
 

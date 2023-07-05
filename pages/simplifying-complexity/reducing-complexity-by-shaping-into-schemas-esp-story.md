@@ -7,7 +7,7 @@ description: "Look at the genre conventions for the topics you're writing about,
 
 ## Overview
 
-In previous topics, I analyzed how [integrating new information into the larger landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html) and conversely [distilling information from a larger landscape into smaller units](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html) both help to reduce the complexity of information. In this article, I'll dive into another technique for simplifying complexity: making information fit a pattern or schema that is familiar to users, especially story schemas. Our mind constantly filters the events, objects, and information around us by ignoring irrelevant information and fitting the important details into mental schemas. These schemas allow us to operate efficiently in what would otherwise be a complex chaos of incoming sensory information. As such, using these schemas simplifies the user experience.
+In previous topics, I analyzed how [integrating new information into the larger landscape](/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html) and conversely [distilling information from a larger landscape into smaller units](/simplifying-complexity/reduction-layering-distillation.html) both help to reduce the complexity of information. In this article, I'll dive into another technique for simplifying complexity: making information fit a pattern or schema that is familiar to users, especially story schemas. Our mind constantly filters the events, objects, and information around us by ignoring irrelevant information and fitting the important details into mental schemas. These schemas allow us to operate efficiently in what would otherwise be a complex chaos of incoming sensory information. As such, using these schemas simplifies the user experience.
 
 One approach for fitting information into the user's mental schemas is to look at genre conventions and user expectations, and then follow these same conventions and expectations in the new information. However, this approach does little to exceed expectations in a genre of dissatisfied and frustrated users. A better approach is to fit information into a larger user journey that looks from beginning to end across topics, rather than focusing on one specific topic. This larger, more encompassing journey contains more of a story arc that resonates on a universal level with users.
 
@@ -73,7 +73,7 @@ First, let's unpack what a schema is. Schemas are the patterns the mind uses to 
 
 > A schema is a cognitive framework or concept that helps organize and interpret information. Schemas can be useful because they allow us to take shortcuts in interpreting the vast amount of information that is available in our environment. ([What Is a Schema in Psychology?](https://www.verywellmind.com/what-is-a-schema-2795873))
 
-Let's make schemas clearer through a technical analogy. When you create an RSS feed, like the one [for my blog](https://idratherbewriting.com/feed.xml), the information is arranged in a structure like this:
+Let's make schemas clearer through a technical analogy. When you create an RSS feed, like the one [for my blog](/feed.xml), the information is arranged in a structure like this:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

@@ -20,4 +20,4 @@ You also have the challenge of sifting through feedback from people who might no
 
 Finally, there’s no built-in bandwidth to handle tasks like this, so you’ll likely have to deal with these random requests on top of a full project load. Because of all these factors, handling feedback post-release presents many new challenges.
 
-Read more here: [Processes for collecting feedback post-release](https://idratherbewriting.com/learnapidoc/docapis_collecting_feedback_post_release.html).
+Read more here: [Processes for collecting feedback post-release](/learnapidoc/docapis_collecting_feedback_post_release.html).

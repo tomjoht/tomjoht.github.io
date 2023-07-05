@@ -34,7 +34,7 @@ If you only want the audio, you can listen here:
 
 You can read the event description here: [Remote discussion: Techcomm in the times of pandemic](https://www.meetup.com/Write-the-Docs-Australia/events/270641270/)
 
-> Tom recently put out a survey [https://idratherbewriting.com/blog/quarantine-pandemic-impact-on-tech-comm-survey/](https://idratherbewriting.com/blog/quarantine-pandemic-impact-on-tech-comm-survey/)
+> Tom recently put out a survey [https://idratherbewriting.com/blog/quarantine-pandemic-impact-on-tech-comm-survey/](/blog/quarantine-pandemic-impact-on-tech-comm-survey/)
 >
 > Kirk published an article about the tech comm facets of the pandemic that health communicators have been working in or against [https://communicating-about-covid19.weebly.com/](https://communicating-about-covid19.weebly.com/)
 
@@ -42,7 +42,7 @@ You can read the event description here: [Remote discussion: Techcomm in the tim
 
 ## What we chatted about
 
-We talked about two main topics, primarily. First, the [results of the pandemic survey](https://www.questionpro.com/t/PGzGMZhSHg). (I also recently posted thoughts about this here: [Results of Pandemic Impact on Tech Comm survey](https://idratherbewriting.com/blog/results-of-pandemic-impact-on-tech-comm-survey/).)
+We talked about two main topics, primarily. First, the [results of the pandemic survey](https://www.questionpro.com/t/PGzGMZhSHg). (I also recently posted thoughts about this here: [Results of Pandemic Impact on Tech Comm survey](/blog/results-of-pandemic-impact-on-tech-comm-survey/).)
 
 Second, we discussed the pandemic from the health tech comm perspective, specifically looking at information in some essays Kirk has written on this topic:  
 * [Communicating about Covid-19](https://communicating-about-covid19.weebly.com/)

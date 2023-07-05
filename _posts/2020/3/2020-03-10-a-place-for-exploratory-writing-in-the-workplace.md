@@ -11,7 +11,7 @@ description: "In a <a href='https://idratherbewriting.com/blog/the-manuscript-po
 * TOC
 {:toc}
 
-I've touched on these topics before in [How to avoid being a secretary for engineers](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/) and other posts. So this is a theme I return to often, I guess.
+I've touched on these topics before in [How to avoid being a secretary for engineers](/2018/11/19/avoid-being-secretary-for-engineers/) and other posts. So this is a theme I return to often, I guess.
 
 To summarize, exploratory writing seeks to ask *why*, whereas explanatory writing seeks to answer *how*. Exploratory writing focuses on a question and seeks answers. Explanatory writing typically answers how a goal can be achieved using the tool or system at hand.
 

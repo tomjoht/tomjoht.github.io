@@ -224,7 +224,7 @@ Providing a glossary is a good first step in helping users understand your conte
 
 Weaving these tooltips into your documentation manually is tedious and prone to error. If you link every instance of the term Intent, PendingIntent, Activity, startActivity, and broadcastActivity to their corresponding glossary pages, and even link glossary definitions that define one term with another, you end up with a lot of links.
 
-The abundance of inline links can be distracting and paradoxically make it harder for users to read the content. Each link presents a [jumping off point](https://idratherbewriting.com/2010/06/19/finally-convinced-about-removing-inline-links-to-increase-readability/), and users must constantly make decisions about whether to click links or not. Still, if you can pull off an inline glossary, especially in an automated way, I think it's a good move.
+The abundance of inline links can be distracting and paradoxically make it harder for users to read the content. Each link presents a [jumping off point](/2010/06/19/finally-convinced-about-removing-inline-links-to-increase-readability/), and users must constantly make decisions about whether to click links or not. Still, if you can pull off an inline glossary, especially in an automated way, I think it's a good move.
 
 Whether people *use* the glossary is also debatable. Coming back to the impatient, frustrated user who searches for an answer &mdash; will he or she take the time to learn the necessary vocabulary before reading your documentation? Probably not, and the docs will seem like gibberish. But at least you've given the user a lifeline to grab hold of in the water. There's now a clear starting point to avoid drowning.
 

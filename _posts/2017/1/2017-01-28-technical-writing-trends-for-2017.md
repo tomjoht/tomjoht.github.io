@@ -15,17 +15,17 @@ bitlink: http://bit.ly/2017techwritingtrends
 
 Before jumping into trends for 2017, let me briefly review how my 2016 trends predictions turned out.
 
-In 2016, I based my trends predictions off of the rapid growth of REST APIs. Based on API growth, I [outlined 10 ripple effects](https://idratherbewriting.com/2015/12/29/trends-technical-writing-2016/) that would extend to technical writers.
+In 2016, I based my trends predictions off of the rapid growth of REST APIs. Based on API growth, I [outlined 10 ripple effects](/2015/12/29/trends-technical-writing-2016/) that would extend to technical writers.
 
 ### 1. Use of Swagger with API docs becomes an expectation (2016)
 
-The [most popular 3 posts on my site during 2016](https://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/) were all Swagger related, with the [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) taking the number one spot and driving a massive uptake in traffic to my site. So I'd say yes, Swagger continued its upward trajectory in 2016.
+The [most popular 3 posts on my site during 2016](/2017/01/17/trends-2017-swagger-all-the-way/) were all Swagger related, with the [Swagger tutorial](/learnapidoc/pubapis_swagger.html) taking the number one spot and driving a massive uptake in traffic to my site. So I'd say yes, Swagger continued its upward trajectory in 2016.
 
 ### 2. Markdown as an authoring format gets taken more seriously by the tech comm community (2016)
 
 With Github's integration of Markdown (including auto-builds with Jekyll site through [Github Pages](https://pages.github.com/)), Markdown has continued to proliferate as the dominant syntax for documentation among developers. More tools support Markdown out of the box, and developers find Markdown natural and easy for their use simple doc needs.
 
-Selling developers on any other syntax (even rST, with all the semantic benefits it offers) is increasingly difficult. In a recent STC Silivon Valley presentation, Andrew Etter noted he has to constantly explain to developers why they use rST instead of Markdown. (See [Recording: Modern Technical Writing, by Andrew Etter](https://idratherbewriting.com/2017/01/24/modern-technical-writing-andrew-etter-presentation/) for details -- jump to the [51 minute mark](https://www.youtube.com/watch?v=NmyvIB7zL8o&start=3060) for the relevant commentary on Markdown versus rST/AsciiDoc.)
+Selling developers on any other syntax (even rST, with all the semantic benefits it offers) is increasingly difficult. In a recent STC Silivon Valley presentation, Andrew Etter noted he has to constantly explain to developers why they use rST instead of Markdown. (See [Recording: Modern Technical Writing, by Andrew Etter](/2017/01/24/modern-technical-writing-andrew-etter-presentation/) for details -- jump to the [51 minute mark](https://www.youtube.com/watch?v=NmyvIB7zL8o&start=3060) for the relevant commentary on Markdown versus rST/AsciiDoc.)
 
 ### 3. Github as a collaboration platform rises in popularity among tech writers (2016)
 
@@ -61,11 +61,11 @@ When I look at [Google trends for "tutorials"](https://www.google.com/trends/exp
 
 ### 8. Technical writers study at least one programming language (2016)
 
-In 2016, I had numerous people ask me advice about learning a programming language. I always point them to this post: [API doc survey: The most common programming languages tech writers know](https://idratherbewriting.com/2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/).
+In 2016, I had numerous people ask me advice about learning a programming language. I always point them to this post: [API doc survey: The most common programming languages tech writers know](/2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/).
 
 Adam Wood also has a good post on [What (and how much) to learn?](http://hackwrite.com/posts/what-and-how-much-to-learn/) Udemy has taken off with its array of [Nanodegree courses](https://www.udacity.com/nanodegree), and more technical writers are hungry to learn development techniques.
 
-Additionally, numerous people went through my [API documentation course](https://idratherbewriting.com/learnapidoc/) and found it helpful. For example, [David Wilks said](https://idratherbewriting.com/learnapidoc/#comment-3124829110), "Tom, this course is great. I'm only part way through it, but it already helped me get a job by appearing fluent in APIs during an interview." I've heard similar feedback from a lot of people this year.
+Additionally, numerous people went through my [API documentation course](/learnapidoc/) and found it helpful. For example, [David Wilks said](/learnapidoc/#comment-3124829110), "Tom, this course is great. I'm only part way through it, but it already helped me get a job by appearing fluent in APIs during an interview." I've heard similar feedback from a lot of people this year.
 
 Through this API doc course, technical writers are digging into cURL, JSON, Postman, JavaScript, YAML, the command line, and other common technologies related to REST APIs.
 
@@ -95,7 +95,7 @@ If documentation for any project is going to thrive, it needs the attention and 
 
 At my work, we want to embrace a Github workflow. You can already see this Github revolution in other companies with [Microsoft and their Azure docs](https://docs.microsoft.com/en-us/azure/). They shifted away from the cumbersome, slow XML model with MSDN and have reinvented their docs in the community following an open source model.
 
-Definitely listen to this [Open Authoring -- Collaboration Across Disciplines presentation](https://idratherbewriting.com/2016/11/15/recording-of-open-authoring-collaboration-ralph-squillace/) by Ralph Squillace. Microsoft's Azure docs embody all the points Shaun mentioned in his 2016 trends. The Azure docs are Markdown-based, generated with static site generators, housed on Github, continuously integrated, and more. They use pull-request workflow for updates -- both internal and external. Ralph says the external PRs are mostly minor fixes for typos, but internally engineers across the company contribute significantly to the content.
+Definitely listen to this [Open Authoring -- Collaboration Across Disciplines presentation](/2016/11/15/recording-of-open-authoring-collaboration-ralph-squillace/) by Ralph Squillace. Microsoft's Azure docs embody all the points Shaun mentioned in his 2016 trends. The Azure docs are Markdown-based, generated with static site generators, housed on Github, continuously integrated, and more. They use pull-request workflow for updates -- both internal and external. Ralph says the external PRs are mostly minor fixes for typos, but internally engineers across the company contribute significantly to the content.
 
 Solutions architects and business developers tell me that **they want docs to be in the same spaces that developers are in**. Developers are on Github, Stack Overflow, and more. We want our docs to tap into these communities and integrate into common developer touchpoints. We want to enable developers, field engineers, and others to flag issues with docs, track the progress of submitted issues, and submit pull requests.
 

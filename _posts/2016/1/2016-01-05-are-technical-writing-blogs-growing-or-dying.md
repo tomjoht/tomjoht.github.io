@@ -12,7 +12,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/google
 {:toc}
 
 ## "Blogging is dead"!!???
-Every so often someone either proclaims that [blogging is dead](https://www.google.de/search?q=Blogging+is+dead&trackid=sp-006) or asserts that blogging is alive and well. Recently someone noted that the 2015 vs. 2014 statistics comparison graph in my [2015 top posts analysis](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/) post looked interesting, so I decided to explore this comparison a little more to try to assess whether blogging (particularly my technical writing blog) was growing or dying.
+Every so often someone either proclaims that [blogging is dead](https://www.google.de/search?q=Blogging+is+dead&trackid=sp-006) or asserts that blogging is alive and well. Recently someone noted that the 2015 vs. 2014 statistics comparison graph in my [2015 top posts analysis](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/) post looked interesting, so I decided to explore this comparison a little more to try to assess whether blogging (particularly my technical writing blog) was growing or dying.
 
 ## Google trends
 First, take a look at this Google Trends graph looking at blogging and technical writing.

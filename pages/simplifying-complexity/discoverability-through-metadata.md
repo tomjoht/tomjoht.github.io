@@ -5,7 +5,7 @@ sidebar: sidebar_simplifying_complexity
 description: "Complex, non-linear processes often have feedback loops that influence the next step. In these systems, users need to be able to find information that meets their ever-changing needs. Metadata embedded in topics can facilitate more intelligent pushing and pulling of information for these shifting scenarios. The metadata can also inform better search results."
 ---
 
-In the [previous tutorial](https://idratherbewriting.com/simplifying-complexity/macro-micro.html), we looked at embedding maps to help guide users through larger processes. But all the maps I showed were *linear* maps. What about maps for non-linear, complex systems? In this section, we'll explore ways to guide users when defined paths don't exist.
+In the [previous tutorial](/simplifying-complexity/macro-micro.html), we looked at embedding maps to help guide users through larger processes. But all the maps I showed were *linear* maps. What about maps for non-linear, complex systems? In this section, we'll explore ways to guide users when defined paths don't exist.
 
 ## Adaptive information systems for adaptive user journeys
 
@@ -58,11 +58,11 @@ You see some faceted filters in documentation websites, but it's not as common. 
 
 I suspect faceted filtering would be more commonly implemented if the tooling were more available. However, beyond the attributes described here (product, version, category, platform, content type, last update), information systems tend to lack clear facets around which you can pivot the information. You mostly end up with keywords and tags.
 
-In earlier posts on my blog, I explored adaptive displays of information through semantic tags quite a bit. For example, I based much of my 2013 keynote to the [User Assistance Europe conference](http://www.uaconference.eu/) on faceted classification (see [Making Content More Findable When Users Browse and Search](https://idratherbewriting.com/2013/06/24/recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation/)).
+In earlier posts on my blog, I explored adaptive displays of information through semantic tags quite a bit. For example, I based much of my 2013 keynote to the [User Assistance Europe conference](http://www.uaconference.eu/) on faceted classification (see [Making Content More Findable When Users Browse and Search](/2013/06/24/recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation/)).
 
 I drank the Kool-Aid to excessive sugar highs ways when I read Dave Weinberger's book, [Everything is Miscellaneous](http://www.amazon.com/gp/product/B0029PSOOS/ref=as_li_qf_sp_asin_il_tl). Weinberger argues that most everything we have defies classification; it can only be defined as "miscellaneous." The classification schemes we use (from encyclopedias to planets, libraries, and other supposedly objective knowledge systems) break down. Each thing has characteristics that overlap with other things &mdash; a classification that makes sense to one person doesn't make sense to another. There is no neat way to classify and organize the world's information.
 
-Rather than classifying information in absolute ways, or deciding what to include and exclude in systems, Weinberger argues that we should strive to add as much metadata to information as we can, and then manipulate the information in ways that make sense to each of us. (See my previous post, [On Metadata and Help Content](https://idratherbewriting.com/2013/05/27/on-metadata-and-help-content/) for a summary of Karen McGrane's presentation and emphasis on the same strategy.)
+Rather than classifying information in absolute ways, or deciding what to include and exclude in systems, Weinberger argues that we should strive to add as much metadata to information as we can, and then manipulate the information in ways that make sense to each of us. (See my previous post, [On Metadata and Help Content](/2013/05/27/on-metadata-and-help-content/) for a summary of Karen McGrane's presentation and emphasis on the same strategy.)
 
 Weinberger isn't an XML consultant for documentation projects; in fact, he doesn't even mention documentation systems in his book. His concern is at a higher level, with the general Internet as the playing field. But certainly, the idea of pushing and pulling content through metadata based on a user's specific needs (with the context of the user's profile, language, location, and other details) has made its way into the documentation landscape and serves as a key message in documentation conferences.
 
@@ -96,7 +96,7 @@ If you walk along the trails in Moab, Utah, where the sandstone and dirt ground 
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/cairns.png" alt="cairns" />
 
-(To read more about chunking, see my earlier post on this: [The importance of chunking for sorting](https://idratherbewriting.com/2011/04/18/the-importance-of-chunking-for-sorting).)
+(To read more about chunking, see my earlier post on this: [The importance of chunking for sorting](/2011/04/18/the-importance-of-chunking-for-sorting).)
 
 If your goal is to manipulate content in a variety of nimble ways, pulling out bits and pieces to fit a specific user context at a specific time, you need to not only tag your content with the right metadata to surface such content, you must chunk your content in granular ways so that it can be extracted and delivered to the right user context. This leads us to probably the most recent application of this idea &mdash; chatbot design and digital assistants.
 
@@ -122,7 +122,7 @@ Chatbots don't have a standard format for structuring information. There isn't a
 
 The chatbot model works only if your information is chunked into granular pieces and tagged with the right metadata. Then these chunks can be summoned at will and inserted into the chat user interface.
 
-Chatbots are mostly used in sales or support scenarios, and they provide relatively simple information on websites (like returning an answer from your [FAQ](https://idratherbewriting.com/2017/06/23/why-tech-writers-hate-faqs/), which arguably users could just as easily scan as text on a page). Chatbots have also been used in college pre-matriculation scenarios to help reduce "summer melt" (the tendency for students not to matriculate into college after being admitted). See [Using AI Chatbots to Freeze ‘Summer Melt’ in Higher Ed](https://campustechnology.com/Articles/2017/03/07/Using-AI-Chatbots-to-Freeze-Summer-Melt-in-Higher-Ed.aspx) and [this NPR podcast](https://www.npr.org/2017/07/17/537740926/why-arent-students-showing-up-for-college).
+Chatbots are mostly used in sales or support scenarios, and they provide relatively simple information on websites (like returning an answer from your [FAQ](/2017/06/23/why-tech-writers-hate-faqs/), which arguably users could just as easily scan as text on a page). Chatbots have also been used in college pre-matriculation scenarios to help reduce "summer melt" (the tendency for students not to matriculate into college after being admitted). See [Using AI Chatbots to Freeze ‘Summer Melt’ in Higher Ed](https://campustechnology.com/Articles/2017/03/07/Using-AI-Chatbots-to-Freeze-Summer-Melt-in-Higher-Ed.aspx) and [this NPR podcast](https://www.npr.org/2017/07/17/537740926/why-arent-students-showing-up-for-college).
 
 Google also seems to be implementing chatbot-like features in their search. For example, after watching some recent SNL skits that included Will Ferrell, I was curious to know how old Ferrell was (he looked older than usual to me). Google not only helped auto-complete my question, it also showed me the answer right in the auto-complete options:
 

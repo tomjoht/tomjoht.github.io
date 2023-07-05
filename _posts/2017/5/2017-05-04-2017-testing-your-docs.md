@@ -14,8 +14,8 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/testin
 
 Here are the pages on testing your documentation:
 
-* [Set up a test environment](https://idratherbewriting.com/learnapidoc/testingdocs_test_environment.html)
-* [Test all instructions yourself](https://idratherbewriting.com/learnapidoc/testingdocs_test_your_instructions.html)
-* [Test your assumptions](https://idratherbewriting.com/learnapidoc/testingdocs_testing_assumptions.html)
+* [Set up a test environment](/learnapidoc/testingdocs_test_environment.html)
+* [Test all instructions yourself](/learnapidoc/testingdocs_test_your_instructions.html)
+* [Test your assumptions](/learnapidoc/testingdocs_testing_assumptions.html)
 
 {% include ads.html %}

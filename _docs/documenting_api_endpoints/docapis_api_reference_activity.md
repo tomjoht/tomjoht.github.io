@@ -8,7 +8,7 @@ path1: learnapidoc/docendpoints.html
 last-modified: 2019-03-31
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 After completing the [API reference tutorial](docapis_api_reference_tutorial_overview.html), you're ready to start an activity that gives you more experience in creating and editing API reference documentation.
 

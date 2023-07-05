@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-09-02
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 At some point after receiving a new documentation project, the first step in the project is to hold a documentation kickoff meeting and product demo. These meetings are mostly about gathering information so you can create the documentation. The following are some initial questions and topics for these meetings.
 

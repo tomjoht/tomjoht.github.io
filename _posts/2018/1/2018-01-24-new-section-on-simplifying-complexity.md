@@ -10,13 +10,13 @@ bitlink: http://bit.ly/newsectionsimplifyingcomplexity
 * TOC
 {:toc}
 
-You can read the post here: [Switching between macro and micro views with embedded maps](https://idratherbewriting.com/simplifying-complexity/macro-micro.html).
+You can read the post here: [Switching between macro and micro views with embedded maps](/simplifying-complexity/macro-micro.html).
 
 The micro-macro principle is as follows:
 
 > To help users navigate a complex system, provide a way for users to switch between macro and micro views of the system. One of the easiest techniques to enable this view switching is to embed a map (at the top of each relevant topic) that shows the path to achieving a goal.
 
-You can get to this section by clicking the [Complexity](https://idratherbewriting.com/simplifying-complexity) button on my main navigation bar.
+You can get to this section by clicking the [Complexity](/simplifying-complexity) button on my main navigation bar.
 
 For the earlier post on deepening value by focusing on complexity, see [Part VI: Deepening documentation's value by simplifying complexity](/2017/12/28/value-of-tech-comm-in-company-part6/).
 

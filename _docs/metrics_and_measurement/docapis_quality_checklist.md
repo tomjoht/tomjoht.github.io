@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_metrics_and_measurement.html
 last-modified: 2022-02-07
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 *This section continues from the previous page, [Different approaches for assessing information quality](docapis_metrics_assessing_information_quality.html).*
 
@@ -94,7 +94,7 @@ li.checkboxListType1 {
 
 </div>
 
-For a version of this checklist that is easy to copy and paste, see [Quality checklist for API docs (simplified html) -- comprehensive version](https://idratherbewriting.com/docapis_quality_checklist_html.html). This output strips away most formatting and just list the various criteria in a basic HTML file. Copy and paste the content into Google Docs or Microsoft Word. Then as you go through the content, make your notes in the "Assessment" area.
+For a version of this checklist that is easy to copy and paste, see [Quality checklist for API docs (simplified html) -- comprehensive version](/docapis_quality_checklist_html.html). This output strips away most formatting and just list the various criteria in a basic HTML file. Copy and paste the content into Google Docs or Microsoft Word. Then as you go through the content, make your notes in the "Assessment" area.
 
 {% include ads.html %}
 

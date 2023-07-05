@@ -63,7 +63,7 @@ I've noticed that people seem to reach out to me more at work, in part because I
 
 In my mind, a 10X technical writer, especially at a big company with thousands of people, is one who can figure out who to contact, in which department, about various resources, access, permissions, or other knowledge, in a fast way, by navigating messaging and email. Communication, especially prompt communication, is at the heart of this productivity.
 
-In a previous post about [motivating users to provide feedback](https://idratherbewriting.com/2019/02/01/motivating-user-feedback-through-survey-links/), I noted that prompt replies to incoming feedback encourages users to share more, especially as they're usually still in the midst of some challenge and will often provide more details and ask additional questions. The email exchange builds a relationship of trust. But if you let days build up before responding, the conversation dies.
+In a previous post about [motivating users to provide feedback](/2019/02/01/motivating-user-feedback-through-survey-links/), I noted that prompt replies to incoming feedback encourages users to share more, especially as they're usually still in the midst of some challenge and will often provide more details and ask additional questions. The email exchange builds a relationship of trust. But if you let days build up before responding, the conversation dies.
 
 {{site.data.alerts.tip}} For more on this topic, see <a href='https://www.nytimes.com/2019/02/15/opinion/sunday/email-etiquette.html'>No, You Can’t Ignore Email. It’s Rude</a>, by Adam Grant in the <i>New York Times</i>.{{site.data.alerts.end}}
 
@@ -79,7 +79,7 @@ More perspectives usually enrich the doc, and while my primary purpose is to str
 
 This awareness builds trust and lets others know just how to contact me when they have doc-related issues or requests. In short, expanding the circle of reviewers expands my own influence in the company, moving me more towards the 10X technical writer.
 
-For more on iterative doc development, see [Principle 9: Iterate and increment on content following an agile approach](https://idratherbewriting.com/simplifying-complexity/iterative-and-increment-on-content.html) in my series on Simplifying Complexity.
+For more on iterative doc development, see [Principle 9: Iterate and increment on content following an agile approach](/simplifying-complexity/iterative-and-increment-on-content.html) in my series on Simplifying Complexity.
 
 By the way, when I review content with SMEs, I rarely give them more than 1-2 topics to review at a time. I've never met a SME who has the bandwidth to get through dozens of pages of content to review.
 

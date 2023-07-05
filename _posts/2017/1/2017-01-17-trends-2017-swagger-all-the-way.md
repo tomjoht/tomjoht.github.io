@@ -27,15 +27,15 @@ What pages were users visiting? Here are the top 10:
 
 Here are links to pages listed in the above screenshot:
 
-* [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html)
-* [10 realizations as I was creating my Swagger spec and Swagger UI](https://idratherbewriting.com/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/)
-* [Swagger tutorial link](https://idratherbewriting.com/2015/09/14/swagger-tutorial/)
-* [Quick reference guides](https://idratherbewriting.com/quickreferenceguides/)
-* [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](https://idratherbewriting.com/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
-* [Quick reference guides: Short and sweet documentation](https://idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/)
-* [Documenting REST APIs](https://idratherbewriting.com/learnapidoc/)
-* [Javascript Event Listeners](https://idratherbewriting.com/events-and-listeners-javascript/)
-* [Are Certificate Programs Helpful for Transitioning into Technical Writing?](https://idratherbewriting.com/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
+* [Swagger tutorial](/learnapidoc/pubapis_swagger.html)
+* [10 realizations as I was creating my Swagger spec and Swagger UI](/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/)
+* [Swagger tutorial link](/2015/09/14/swagger-tutorial/)
+* [Quick reference guides](/quickreferenceguides/)
+* [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
+* [Quick reference guides: Short and sweet documentation](/2009/04/10/quick-reference-guides-short-and-sweet-documentation/)
+* [Documenting REST APIs](/learnapidoc/)
+* [Javascript Event Listeners](/events-and-listeners-javascript/)
+* [Are Certificate Programs Helpful for Transitioning into Technical Writing?](/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
 
 ## Reasons for increase in traffic
 
@@ -47,7 +47,7 @@ The JavaScript article is one of those weird instances where a single post shoot
 
 {% include ads.html %}
 
-But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is driving a steady stream of visitors to my site. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
+But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](/learnapidoc/pubapis_swagger.html) is driving a steady stream of visitors to my site. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
 
 If you search for "Swagger tutorial," my page is in the top 3 results. I find this odd, because it's not even a very good tutorial.
 

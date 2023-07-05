@@ -25,7 +25,6 @@ folders:
 
   - title: Workshop agenda, slides, activities
     jurl: /learnapidoc/workshop.html
-    type: web
 
   - title: Why I developed this course
     jurl: /learnapidoc/docapis_foreword.html

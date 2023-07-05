@@ -45,7 +45,7 @@ This all made sense to me. I wanted to embrace the more holistic perspective of 
 
 To embrace content strategy, at one point I changed our doc group's name to "Information strategy and design." And I brainstormed ways to update the title in my email signature (changing my actual job title wasn't possible due to HR designations). Regardless of the titles we considered, one trend was clear: It was no longer sexy to be a "technical writer." Writing itself was considered a commodity &mdash; something anyone could really do. You needed to hybridize your job title and professional brand with something more "strategic."
 
-I still remember hearing [Jack Molisani stress the importance of hyphenating your job title](https://idratherbewriting.com/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) in some way. He often emphasized that you're not just a technical writer. You're a technical writer / usability specialist. You're a technical writer / elearning specialist. You're a technical writer / designer. You're a technical writer / programmer.
+I still remember hearing [Jack Molisani stress the importance of hyphenating your job title](/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) in some way. He often emphasized that you're not just a technical writer. You're a technical writer / usability specialist. You're a technical writer / elearning specialist. You're a technical writer / designer. You're a technical writer / programmer.
 
 ## Why I abandoned content strategy
 

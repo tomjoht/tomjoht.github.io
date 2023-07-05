@@ -9,7 +9,7 @@ path1: learnapidoc/publishingapis.html
 last-modified: 2018-12-25
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 [Static site generators](pubapis_static_site_generators.html) are a breed of website compilers that package up a group of files (usually [written in Markdown](pubapis_markdown.html)) and make them into a fully deployable website. One of the most popular static site generators (based on the number of downloads, usage, and community) is [Jekyll](https://jekyllrb.com/), and it's the one I have the most experience with, so I'll be focusing on Jekyll here, particularly how you can integrate Jekyll with CloudCannon for a continuous delivery publishing solution.
 
@@ -22,7 +22,7 @@ Jekyll is a Ruby-based [static site generator](pubapis_static_site_generators.ht
 
 {% include random_ad2.html %}
 
-Here's a [documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) that I developed for Jekyll:
+Here's a [documentation theme](/documentation-theme-jekyll/) that I developed for Jekyll:
 
 <a href="https://idratherbewriting.com/documentation-theme-jekyll/" class="noExtIcon"><img src="{{site.api_media}}/jekylldocumentationtheme.png" size="large" alt="My Jekyll Documentation theme" /></a>
 
@@ -86,7 +86,7 @@ You can integrate Jekyll into platforms such as GitHub Pages or CloudCannon to c
 
 [GitHub Pages](pubapis_hosting_and_deployment.html#github_pages) is free and is what I use for my blog and this API docs site. But CloudCannon provides more features that might be needed by the enterprise. So let's follow an example in publishing in [CloudCannon](https://cloudcannon.com/), which describes itself as the "The Cloud CMS for Jekyll."
 
-In this activity, we'll publish to CloudCanon using the [Documentation Theme for Jekyll](https://idratherbewriting.com/documentation-theme-jekyll) (the theme I built). You don't need to have a Windows machine to facilitate the building and publishing &mdash; you'll do that via CloudCannon and Github. (Of course, being able to build locally is important if you're developing with Jekyll, but I want to avoid [Jekyll installation](https://jekyllrb.com/docs/installation/) issues here and just demonstrate the continuous deployment features that a host like CloudCannon provides.) This tutorial will show you how to plug into a robust hosting platform that reads content stored and managed on GitHub.
+In this activity, we'll publish to CloudCanon using the [Documentation Theme for Jekyll](/documentation-theme-jekyll) (the theme I built). You don't need to have a Windows machine to facilitate the building and publishing &mdash; you'll do that via CloudCannon and Github. (Of course, being able to build locally is important if you're developing with Jekyll, but I want to avoid [Jekyll installation](https://jekyllrb.com/docs/installation/) issues here and just demonstrate the continuous deployment features that a host like CloudCannon provides.) This tutorial will show you how to plug into a robust hosting platform that reads content stored and managed on GitHub.
 
 {% include ads.html %}
 
@@ -115,7 +115,7 @@ In this activity, we'll publish to CloudCanon using the [Documentation Theme for
 
     <figure><img class="docimage large" src="{{site.api_media}}/cloudcannonviewlivesite.png" alt="Viewing your live site" /><figcaption>Viewing your live site</figcaption></figure>
 
-	  The preview URL will be something random, such as `https://balmy-sunglasses.cloudvent.net/`. You'll need to click **Continue to sample site** because you're on the free plan. When you visit the URL, the theme should look just like the [Documentation theme for Jekyll here](https://idratherbewriting.com/documentation-theme-jekyll).
+	  The preview URL will be something random, such as `https://balmy-sunglasses.cloudvent.net/`. You'll need to click **Continue to sample site** because you're on the free plan. When you visit the URL, the theme should look just like the [Documentation theme for Jekyll here](/documentation-theme-jekyll).
 
 Using the CloudCannon user interface, you can make updates to files, and the updates will sync back to GitHub. Likewise, if you push updates to GitHub, CloudCannon will be notified, pull the changes, and rebuild the output.
 

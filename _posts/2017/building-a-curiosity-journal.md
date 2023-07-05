@@ -25,7 +25,7 @@ This strategy got me thinking about my own career. I think I'm a pretty good tec
 
 {% include ads.html %}
 
-The trick is that I am better at persuading others of my capabilities, because they can read about it on my blog. I'm pretty sure it was my post [What is the technical writer's role in content marketing?](https://idratherbewriting.com/2016/01/04/content-marketing-to-the-rescue-for-thought-leadership/) that persuaded a senior hiring manager over to me when I applied at Amazon. I've had similar experiences when I applied for other jobs. People read my blog or listen to my podcasts, get a glimpse of my awareness and sensibility, make a connection, and then feel I'm a good fit for the job.
+The trick is that I am better at persuading others of my capabilities, because they can read about it on my blog. I'm pretty sure it was my post [What is the technical writer's role in content marketing?](/2016/01/04/content-marketing-to-the-rescue-for-thought-leadership/) that persuaded a senior hiring manager over to me when I applied at Amazon. I've had similar experiences when I applied for other jobs. People read my blog or listen to my podcasts, get a glimpse of my awareness and sensibility, make a connection, and then feel I'm a good fit for the job.
 
 Even if I'm really no better than anyone else, I show evidence of my knowledge through my blog, and that is what opens doors. My blog convinces them I'm a rockstar.
 

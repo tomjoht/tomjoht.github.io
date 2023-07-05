@@ -9,7 +9,7 @@ path1: learnapidoc/resources.html
 last-modified: 2019-11-17
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Use the Flickr API to get photo images from [this Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/).
 
@@ -215,9 +215,9 @@ A common pattern in programming is to loop through a response. This code example
 
 For more information, see these topics:
 
-* [Inspect the JSON from the response payload[](](https://idratherbewriting.com/learnapidoc/)docapis_json_console.html)
-* [Access and print a specific JSON value](https://idratherbewriting.com/learnapidoc/docapis_access_json_values.html)
-* [Dive into dot notation](https://idratherbewriting.com/learnapidoc/docapis_diving_into_dot_notation.html)
+* [Inspect the JSON from the response payload[](]()docapis_json_console.html)
+* [Access and print a specific JSON value](docapis_access_json_values.html)
+* [Dive into dot notation](docapis_diving_into_dot_notation.html)
 
 ## Final Result
 

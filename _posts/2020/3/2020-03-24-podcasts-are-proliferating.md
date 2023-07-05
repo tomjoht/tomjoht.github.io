@@ -18,7 +18,7 @@ TWi has a nice write-up of their favorite tech comm podcasts in an article calle
 * [The Cherryleaf Podcast](https://www.cherryleaf.com/podcast/)
 * [The Content Strategy Experts](https://www.scriptorium.com/content-strategy-experts-podcast)
 * [Write the Docs Podcast](https://podcast.writethedocs.org/)
-* [I’d Rather Be Writing](https://idratherbewriting.com/category-podcasts)
+* [I’d Rather Be Writing](/category-podcasts)
 * [Wireframe](https://podcasts.apple.com/us/podcast/wireframe/id1437677219)
 
 In addition to the above, you might also enjoy these other tech comm podcasts:

@@ -98,7 +98,7 @@ There are at least two reasons why documentation processes have "big opportuniti
 
 We can thank the authors of Scrum for de-emphasizing the importance of documentation by proclaiming "Working software over comprehensive documentation" in the [Manifesto for Agile Software Development](https://agilemanifesto.org/). Even if the intent wasn't meant to include *end-user* documentation, the Scrum authors never clarified this (as far as I know) nor do they include documentation as part of the sprint development process. For example, during sprint demos, features are demo'd. Where do docs fit into the demo process? What is their cadence? Who reviews docs and when? None of this is mentioned or considered in Scrum development methodologies, which tend to be the default process that software teams follow.
 
-Tech writers have never fit neatly into the Scrum model, where engineers are fully dedicated but tech writers are spread thin across half a dozen projects and treated in ad hoc ways (e.g., docs are rarely assigned points or reflected in burn-down charts). (For more on this topic, see [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/).)
+Tech writers have never fit neatly into the Scrum model, where engineers are fully dedicated but tech writers are spread thin across half a dozen projects and treated in ad hoc ways (e.g., docs are rarely assigned points or reflected in burn-down charts). (For more on this topic, see [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/).)
 
 ### 2. No built-in quality control mechanism
 

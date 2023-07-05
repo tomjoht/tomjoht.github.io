@@ -10,7 +10,7 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2019-03-30
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 API best practices can refer to any general advice your product team wants to communicate to developers about working with the API. There aren't any set number of topics typically covered in API best practices. Instead, the best practices can be a catch-all title for content that doesn't fit anywhere else.
 
@@ -49,7 +49,7 @@ Coinbase doesn't specifically refer to these topics as best practices; instead, 
 
 {% include image_ad_right.html %}
 
-Earlier, when defining the characteristics of REST, I mentioned [HATEOS](https://idratherbewriting.com/learnapidoc/docapis_what_is_a_rest_api.html#stateless_and_cacheable), or "Hypermedia as the Engine of Application State." Links in responses that return more results is one example of HATEOS.
+Earlier, when defining the characteristics of REST, I mentioned [HATEOS](docapis_what_is_a_rest_api.html#stateless_and_cacheable), or "Hypermedia as the Engine of Application State." Links in responses that return more results is one example of HATEOS.
 
 {% include random_ad4.html %}
 
@@ -57,7 +57,7 @@ Programmatically handling the URL to get more responses can be kind of tricky. I
 
 ## <i class="fa fa-user-circle"></i> Activity with best practices
 
-With the [open-source project you identified](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html), identify any API best practices type of content. Then answer the following questions:
+With the [open-source project you identified](docapis_find_open_source_project.html), identify any API best practices type of content. Then answer the following questions:
 
 1. Are there best practices for working with the API that don't fit in any other typical API topics?
 2. How are best practices organized in the existing documentation? Are they randomly listed in an FAQ?

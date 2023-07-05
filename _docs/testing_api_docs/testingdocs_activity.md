@@ -9,7 +9,7 @@ path1: learnapidoc/testingdocs.html
 last-modified: 2020-06-25
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Now that you've read about testing, it's time to get some more hands-on practice. In this activity, you'll do some doc testing with an open-source project (or another project you identified).
 
@@ -20,7 +20,7 @@ Now that you've read about testing, it's time to get some more hands-on practice
 
 ## Test a topic
 
-1.  With the [open-source API project you're working with](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html), find the following:
+1.  With the [open-source API project you're working with](docapis_find_open_source_project.html), find the following:
 
     * Getting started tutorial (or similar tutorial)
     * API endpoint

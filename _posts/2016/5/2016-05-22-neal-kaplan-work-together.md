@@ -34,7 +34,7 @@ We're leaning away from lecture-based formats and trying to do more creative, in
 
 {% include ads.html %}
 
-Having said that, tomorrow I'm presenting on Jekyll at the [STC-Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/). I'm giving the same presentation I gave [at the STC Summit](https://idratherbewriting.com/2016/05/17/slides-for-writing-tech-docs-like-hacker-with-jekyll/).
+Having said that, tomorrow I'm presenting on Jekyll at the [STC-Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/). I'm giving the same presentation I gave [at the STC Summit](/2016/05/17/slides-for-writing-tech-docs-like-hacker-with-jekyll/).
 
 Speaking of Jekyll, if you're looking to learn more about it, Mike Neumegen has recorded more than 20 excellent [Jekyll casts](http://jekyll.tips/).
 

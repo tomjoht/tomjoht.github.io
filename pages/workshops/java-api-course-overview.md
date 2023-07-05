@@ -8,7 +8,7 @@ keywords:
 
 <h2>Workshop description</h2>
 
-Whereas the [Documenting REST APIs](https://idratherbewriting.com/documenting-rest-apis-course-overview) and [Publishing REST API Documentation](https://idratherbewriting.com/publishing-rest-apis-course-overview) workshops focused specifically on REST APIs, this workshop focuses on Java APIs.
+Whereas the [Documenting REST APIs](/documenting-rest-apis-course-overview) and [Publishing REST API Documentation](/publishing-rest-apis-course-overview) workshops focused specifically on REST APIs, this workshop focuses on Java APIs.
 
 Java APIs belong to a cateogory of APIs that are sometimes referred to as platform APIs. (Others might call them library APIs, class APIs, or native APIs.) The basic difference is that rather than using HTTP protocol to make and receive requests (as you do with REST APIs), you add a library of classes or functions to your code and then call the classes or functions in your code. There is no exchange of information across HTTP protocols.
 

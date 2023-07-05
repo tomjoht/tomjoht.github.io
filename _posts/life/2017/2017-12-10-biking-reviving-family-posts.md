@@ -11,7 +11,7 @@ sidebar: sidebar_biking
 * TOC
 {:toc}
 
-It's been far too long since I've made a personal entry in my [family category](https://idratherbewriting.com/category-family/). Like, years too long. I hope to course correct a bit more here and publish more often in this category.
+It's been far too long since I've made a personal entry in my [family category](/category-family/). Like, years too long. I hope to course correct a bit more here and publish more often in this category.
 
 I biked down the Coyote Creek trail today. Here's the [Google Maps ride route](https://www.google.com/maps/dir/6073+Silver+Creek+Valley+Rd,+San+Jose,+CA+95138/Coyote+Creek+Trailhead,+Morgan+Hill,+CA/@37.2118232,-121.7893315,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x808e2e147fade349:0x7b9606727d560b81!2m2!1d-121.790909!2d37.258013!1m5!1m1!1s0x808e274bdeb9425f:0xc548ecb62d51991c!2m2!1d-121.6471242!2d37.1654012!3e1). Start at 6073 Silver Creek Valley Rd, San Jose, CA 95138, as this is a nice trailhead with free parking (or park at Hellyer park and pay, or park on nearby residential streets). Then go south along Coyote Creek trail toward Morgan Hill for 13 miles. The trail is almost entirely flat, paved, and without interruption from cross streets. At the end of the 13 miles is the Coyote Creek visitor's center.
 

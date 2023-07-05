@@ -13,7 +13,7 @@ description: "I recently conducted a survey with engineers who write documentati
 
 ## About the survey
 
-A few months ago I was looking at my site's metrics and noticed a [large amount of traffic (59%) going to my API documentation site](https://idratherbewriting.com/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site). The gender and age demographics (according to Google Analytics), more closely aligned with programmer demographics, so I guessed this influx of users must consist mainly of engineers writing docs. But I wasn't sure.
+A few months ago I was looking at my site's metrics and noticed a [large amount of traffic (59%) going to my API documentation site](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site). The gender and age demographics (according to Google Analytics), more closely aligned with programmer demographics, so I guessed this influx of users must consist mainly of engineers writing docs. But I wasn't sure.
 
 I wanted to understand more about this audience, so I embedded [a survey](https://www.questionpro.com/t/AOaGwZduq7) (still open) at the top of my [API documentation site](/learnapidoc) for engineers to complete. I wanted to know if more engineers were writing docs, if they resented writing docs, if they mostly wrote reference docs, and so on. I collected 101 responses over the course of several weeks.
 
@@ -39,7 +39,7 @@ Many comments here indicated that technical writers weren't present or available
 
 **80% said that when they engage in documentation efforts, they prefer to treat documentation like software (using Git, text editors, Markdown, static site generators, building from the server, etc.).**
 
-I found this result somewhat fascinating and believe it provides strong support for adopting the [docs-as-code model](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html), particularly when you're integrating engineers into the documentation authoring/publishing process.
+I found this result somewhat fascinating and believe it provides strong support for adopting the [docs-as-code model](/learnapidoc/pubapis_docs_as_code.html), particularly when you're integrating engineers into the documentation authoring/publishing process.
 
 **61% are contributing more to documentation now than they previously did.**
 
@@ -47,7 +47,7 @@ I asked this question ("Are you contributing more to documentation now than you 
 
 **Only 50% said that they are contributing more to documentation because the level of complexity in the technology landscape has increased.**
 
-I mentioned in a previous post that I abandoned the argument that technical skills are in such high demand because the technology landscape is getting more complex (see the [Latest thoughts on trends](https://idratherbewriting.com/2019/02/24/slides-for-trends-preso-symposium-for-communicating-complex-info/#latest-thoughts-on-trends) section in my "Recording and slides for my trends presentation at SCCI" post). One reason I abandoned the argument was due to the responses here. If engineers didn't feel the landscape was getting more complex, this was probably a tough argument to make. Read that post for more of my thoughts here.
+I mentioned in a previous post that I abandoned the argument that technical skills are in such high demand because the technology landscape is getting more complex (see the [Latest thoughts on trends](/2019/02/24/slides-for-trends-preso-symposium-for-communicating-complex-info/#latest-thoughts-on-trends) section in my "Recording and slides for my trends presentation at SCCI" post). One reason I abandoned the argument was due to the responses here. If engineers didn't feel the landscape was getting more complex, this was probably a tough argument to make. Read that post for more of my thoughts here.
 
 {% include ads.html %}
 
@@ -55,7 +55,7 @@ Note that this is one instance where survey responses shape and influence my thi
 
 **65% said that when writing documentation, standards such as the OpenAPI specification help guide them in valuable ways.**
 
-I think [OpenAPI specs](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) have been quite helpful in providing standards for REST API docs. For more, check out my [OpenAPI tutorial here](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html). Despite the guidance these standards provide, I'm guessing that some find these standards lacking or incomplete for their own [API documentation](/learnapidoc).
+I think [OpenAPI specs](/learnapidoc/pubapis_swagger_intro.html) have been quite helpful in providing standards for REST API docs. For more, check out my [OpenAPI tutorial here](/learnapidoc/pubapis_openapi_tutorial_overview.html). Despite the guidance these standards provide, I'm guessing that some find these standards lacking or incomplete for their own [API documentation](/learnapidoc).
 
 **Only 41% said that although they contribute to documentation, they dislike writing docs and resent that they have to write them (when they could otherwise be coding).**
 
@@ -71,7 +71,7 @@ One person noted that it "Depends on whether the TW has technical skills." Anoth
 
 ## Conclusion
 
-What's the most interesting conclusion here? I think the strongest takeaway is that when engineers engage in documentation efforts, they prefer to [treat documentation like they manage code](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html) (using Git, text editors, Markdown, static site generators, building from the server, etc.). This question had majority agreement and provides support for tool directions I've taken when working in developer-centric documentation departments.
+What's the most interesting conclusion here? I think the strongest takeaway is that when engineers engage in documentation efforts, they prefer to [treat documentation like they manage code](/learnapidoc/pubapis_docs_as_code.html) (using Git, text editors, Markdown, static site generators, building from the server, etc.). This question had majority agreement and provides support for tool directions I've taken when working in developer-centric documentation departments.
 
 Overall, I'm not sure if this survey answered my initial question, which was to find out if the traffic influx to the site consists of engineers. I had the survey on my site for several weeks and barely collected 101 responses. Perhaps many others coming to the site are technical writers, or other folks other than engineers? To try to pinpoint the audience, I'm planning to add a one-question demographic poll on the site for everyone to complete.
 

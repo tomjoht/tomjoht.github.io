@@ -21,7 +21,7 @@ The process for submitting the guest post is simple: write your guest post in Go
 
 {% include ads.html %}
 
-Here's an example guest post from Emily January Peterson on [stereotypes](/2018/07/18/stereotypes-about-tech-writers-in-workplace/), and another guest post by Melonie McMichael on [technological adaptability](https://idratherbewriting.com/2018/07/18/learning-technology/).
+Here's an example guest post from Emily January Peterson on [stereotypes](/2018/07/18/stereotypes-about-tech-writers-in-workplace/), and another guest post by Melonie McMichael on [technological adaptability](/2018/07/18/learning-technology/).
 
 ## Podcasts {#podcasts}
 
@@ -33,7 +33,7 @@ Here's an example of a podcast with Kirk St. Amant on the [relationship between 
 
 ## Individual surveys to follow posts
 
-In order to align and evaluate the goals of the Academic/Practitioner Conversations project, at the end of each post I'll include a survey form that asks the same questions as the [original survey](2018/07/17/interpreting-results-of-academic-practitioner-survey/) but personalized to you. This gives you more direct feedback about your topic or other writing connects or doesn't connect with the practitioner audience. The individual surveys are done through Google Forms. You can see an example [here](https://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/#emily).
+In order to align and evaluate the goals of the Academic/Practitioner Conversations project, at the end of each post I'll include a survey form that asks the same questions as the [original survey](2018/07/17/interpreting-results-of-academic-practitioner-survey/) but personalized to you. This gives you more direct feedback about your topic or other writing connects or doesn't connect with the practitioner audience. The individual surveys are done through Google Forms. You can see an example [here](/2018/07/18/stereotypes-about-tech-writers-in-workplace/#emily).
 
 ## Optional sections
 

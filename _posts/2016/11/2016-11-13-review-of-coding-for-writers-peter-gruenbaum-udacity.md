@@ -43,6 +43,6 @@ If you're currently documenting a JavaScript SDK, Peter's course would definitel
 
 Here are some other courses from Peter that I've reviewed on my blog:
 
-* [Review of API Technical Writing 1](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/)
-* [Review of API Technical Writing 2](https://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/)
-* [Review of API Technical Writing 3](https://idratherbewriting.com/2016/02/08/third-api-course-from-peter-gruenbaum/)
+* [Review of API Technical Writing 1](/2015/05/22/api-technical-writing-course-on-udemy/)
+* [Review of API Technical Writing 2](/2015/07/24/udemy-course-on-api-technical-writing-part-two/)
+* [Review of API Technical Writing 3](/2016/02/08/third-api-course-from-peter-gruenbaum/)

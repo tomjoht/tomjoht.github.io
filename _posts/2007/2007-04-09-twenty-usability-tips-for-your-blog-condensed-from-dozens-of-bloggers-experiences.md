@@ -163,7 +163,7 @@ However, if you have nothing to say, don't blog fluff. That annoys readers even 
 *   [Top 10 blog mistakes? - maybe](http://kay.zombiecoder.com/index.php/archives/top-ten-blog-mistakes-maybe), by Kay Smoljak
 *   [Common Blog Mistakes and Users Can't Distinguish Blogs](http://rssdiary.marketingstudies.net/content/common_blog_mistakes_and_users_cant_distinguish_blogs.php?src=e28), by Rok Hrastnik
 *   [10 Principles of Highly Effective Blogging](http://www.citebite.com/n9f8u6tture), by Darren McLaughlin
-*   [10 Ways to Make Your Blog More Appealing](https://idratherbewriting.com/2007/02/12/10-simple-ways-to-make-your-blog-more-appealing/), by Tom Johnson
+*   [10 Ways to Make Your Blog More Appealing](/2007/02/12/10-simple-ways-to-make-your-blog-more-appealing/), by Tom Johnson
 *   [How to Start a Blog](http://www.windley.com/essays/2004/how_to_start_a_blog#), by Phil Windley
 *   [The 120 Day Wonder: How to Evangelize a Blog](http://blog.guykawasaki.com/2006/04/the_120_day_won.html), by Guy Kawasaki
 *   [Why Blog Post Frequency Does Not Matter Anymore](http://www.mpdailyfix.com/2006/06/w_why_blog_post_frequency_does.html), by Eric Kintz

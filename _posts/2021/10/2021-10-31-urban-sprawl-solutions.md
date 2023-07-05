@@ -76,7 +76,7 @@ EVs won't reduce dependence on cars, but reducing parking in downtown areas will
 
 1. Drive your EV to a transportation hub (e.g., train station).
 2. Ride the train into downtown.
-3. Use a bike, scooter, or walk the [last mile to work.](https://idratherbewriting.com/blog/bike-commuting-from-renton-to-seattle/)
+3. Use a bike, scooter, or walk the [last mile to work.](/blog/bike-commuting-from-renton-to-seattle/)
 
 Why eliminate parking as a way to reduce cars? While congestion pricing could de-incentivize driving, reducing parking availability has a similar effect without triggering driver hate or targeting class lines. Many downtown streets could be converted into roads closed to outside traffic ([Stay Healthy Streets](http://www.seattle.gov/transportation/projects-and-programs/programs/stay-healthy-streets) or greenways), allowing them to transform into safe cycling options. Bicyclists could then more easily get around the city and feel safe doing so.
 

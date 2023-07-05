@@ -43,7 +43,7 @@ There's nothing in the documentation that hints at the inconvenience and cumbers
 
 If you're trying to relate to your users, wouldn't you anticipate some of their questions and address these issues? In Ginny Redish's book *Letting Go of the Words*, she explains that documentation should be written as if you're having a conversation with your users. Redish explains:
 
-> If you think of the web as conversation, you'll realize that much of your content is meant to answer the questions that people come with. you do not want an entire site to be in a section called frequently asked questions. You do want to think about what people come wanting to know and then about how to give them that information as concisely and clearly as possible. ([Letting Go of the Words](https://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/))
+> If you think of the web as conversation, you'll realize that much of your content is meant to answer the questions that people come with. you do not want an entire site to be in a section called frequently asked questions. You do want to think about what people come wanting to know and then about how to give them that information as concisely and clearly as possible. ([Letting Go of the Words](/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/))
 
 If the Apple's tech writers were imagining what questions users might ask, surely they would have included some sections with the following titles:
 

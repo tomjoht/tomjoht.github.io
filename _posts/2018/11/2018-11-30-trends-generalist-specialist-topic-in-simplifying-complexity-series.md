@@ -18,7 +18,7 @@ podcast_length: 66047185
 
 {% include audio.html %}
 
-You can read the essay here: [Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html).
+You can read the essay here: [Principle 11: Be both a generalist and specialist at the same time](/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html).
 
 How exactly does the topic of being a generalist or specialist tie in with simplifying complexity? Here's an excerpt:
 
@@ -26,9 +26,9 @@ How exactly does the topic of being a generalist or specialist tie in with simpl
 
 Note that this content has undergone multiple iterations:
 
-* [First version](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/)
-* [Second version](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
-* [Third version](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html)
+* [First version](/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/)
+* [Second version](/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
+* [Third version](/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html)
 
 In this third version, I expanded the research in places, provided better organization in my analysis, and tried to integrate some more personal stories in places. I also narrated it as a podcast. Overall, this still remains a challenging topic, and the length of the article probably shows.
 

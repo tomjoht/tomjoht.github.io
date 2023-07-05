@@ -19,7 +19,7 @@ podcast_length: "28470670"
 
 ## Background
 
-In my series *Reflecting seven years later about why we were laid off*, specifically in [Part IV: Engaging deep enough to blur the lines between content and product design](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-colman-designer-hybrid/), I explored a model promoted by content designer [Jonathon Colman](https://noti.st/jcolman) in which content designers are allocated to one project only. Because of their more specialized focus, these writers play roles that blur the lines between content design and product design.
+In my series *Reflecting seven years later about why we were laid off*, specifically in [Part IV: Engaging deep enough to blur the lines between content and product design](/blog/reflecting-seven-years-later-about-layoff-colman-designer-hybrid/), I explored a model promoted by content designer [Jonathon Colman](https://noti.st/jcolman) in which content designers are allocated to one project only. Because of their more specialized focus, these writers play roles that blur the lines between content design and product design.
 
 Jonathon gave a presentation on this topic &mdash; titled [How we destroyed content design](https://noti.st/jcolman/videos/IfDulD) &mdash; at the [Design & Content Conference 2020 conference](https://content.design/). I wanted to interview Jonathon to find out more details and insights about this topic, so I reached out to him for this podcast interview. The podcast is available as both a video and audio recording.
 

@@ -40,7 +40,7 @@ Let's go a bit deeper here with the question about playing multiple roles. About
 
 I hit a burnout point. I wasn't building a doc portal, but I was wearing multiple hats in other ways with support and QA and usability. Was I wasting my time, especially given that at the end of the day, I was only being evaluated on the documentation deliverables I produced?
 
-I decided that no, wearing multiple hats wasn't *diluting* my ability to write docs. Instead, it was *enhancing* my ability to write docs. In [Epiphany: Cross Pollination](https://idratherbewriting.com/2010/04/25/epiphany-cross-pollination-overlooked/), I explained:
+I decided that no, wearing multiple hats wasn't *diluting* my ability to write docs. Instead, it was *enhancing* my ability to write docs. In [Epiphany: Cross Pollination](/2010/04/25/epiphany-cross-pollination-overlooked/), I explained:
 
 > As I was writing one day, I realized that my extension into these other areas had made me a much faster, more efficient writer. It made me more aware. From my interactions with customers, I could better imagine personas. Often after writing a topic, I would picture that frazzled user who had me on speed dial and wonder if he would actually get what I was writing. I could think about specific users, like the people in Europe who traveled constantly, or the executives in audiovisual, or the mission presidencies in Russia. I could step inside the heads of the users better because I had actually interacted with them. The questions they would ask would naturally be on my mind as I wrote documentation.
 >

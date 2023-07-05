@@ -24,7 +24,7 @@ I asked why they didn't load up the TOC with all the topics, as is customary wit
 
 {% include ads.html %}
 
-I've written in the past about chunking and context (for example, see [Topic Chunking and The Broken Alarm Clock](https://idratherbewriting.com/2011/04/27/topic-chunking-and-the-broken-clock/)). As I've been documenting a new project lately, I want to preserve the context for users in helpful ways.
+I've written in the past about chunking and context (for example, see [Topic Chunking and The Broken Alarm Clock](/2011/04/27/topic-chunking-and-the-broken-clock/)). As I've been documenting a new project lately, I want to preserve the context for users in helpful ways.
 
 This topic also is on my mind because while reading [Head First Android Development](http://shop.oreilly.com/product/0636920029045.do), I noticed how the writers continually presented a map to show you the larger view of the doc structure:
 

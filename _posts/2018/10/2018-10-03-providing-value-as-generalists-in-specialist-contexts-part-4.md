@@ -88,7 +88,7 @@ Imagine a scenario where, even in a large organization, everyone knows who write
 
 
 
-Much more could be said about how to gather feedback from users. I wrote about this in more depth in [Reconstruct the absent user](https://idratherbewriting.com/simplifying-complexity/reconstructing-the-absent-user.html).
+Much more could be said about how to gather feedback from users. I wrote about this in more depth in [Reconstruct the absent user](/simplifying-complexity/reconstructing-the-absent-user.html).
 
 ## Your reactions and input?
 

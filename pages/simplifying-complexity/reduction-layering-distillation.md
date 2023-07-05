@@ -10,7 +10,7 @@ description: "Layering information on your site (reducing it in places and expan
 
 ## The focus here is on distillation, not integration
 
-In the previous article, [Ensuring information harmony in the larger documentation landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html), I argued for the importance of integrating new information into a larger documentation landscape. I explained that it's easy to create a new article and publish it to a documentation site but much harder to assess whether the new information harmoniously fits in with all the other information on a site (not just harmony with other docs, but with existing forum posts, blog posts, and other information assets). Integrating a small piece of information into a larger body of information requires wide reading and information analysis to determine information fit and harmony.
+In the previous article, [Ensuring information harmony in the larger documentation landscape](/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html), I argued for the importance of integrating new information into a larger documentation landscape. I explained that it's easy to create a new article and publish it to a documentation site but much harder to assess whether the new information harmoniously fits in with all the other information on a site (not just harmony with other docs, but with existing forum posts, blog posts, and other information assets). Integrating a small piece of information into a larger body of information requires wide reading and information analysis to determine information fit and harmony.
 
 Conversely, the opposite activity &mdash; taking an existing body of information and distilling its essence down into a smaller information unit (whether that smaller unit is a title, overview, heading, topic sentence, quick reference guide, or some other compressed form of information) also requires cognitive prowess. Crystalizing large information into a brief distillation that captures the main point in as little a space as possible can be a difficult skill that rivals a poet's astuteness with language and articulation. Despite the difficulty with the task, this distillation is worth it as it can go a long way towards simplifying a complex system.
 
@@ -114,7 +114,7 @@ All too often, section headings are meaningless verbiage, their only real purpos
 
 I was recently editing some content an engineer had written. I added headings on a variety of sections and then attempted to distill the point of each section into the heading. He said I'd made the headings technically inaccurate, and changed them back to more general titles. When I asked him to sharpen the headings to capture the point of the paragraphs below each heading, he said it wasn't possible. He said a user will just need to read the details to understand that section.
 
-I lost this battle, but the experience underscored the challenge of writing good headings. It's not easy to capture the meaning of a larger body of information in a small, tight space where you only have 10 words or so, especially when one small shift in the heading might make the content inaccurate on a technical level. For more on headings, see my post [Subheadings: Perhaps the Most Useful Technique in Technical Writing](https://idratherbewriting.com/2013/08/23/subheadings-perhaps-the-most-useful-technique-in-technical-writing/).
+I lost this battle, but the experience underscored the challenge of writing good headings. It's not easy to capture the meaning of a larger body of information in a small, tight space where you only have 10 words or so, especially when one small shift in the heading might make the content inaccurate on a technical level. For more on headings, see my post [Subheadings: Perhaps the Most Useful Technique in Technical Writing](/2013/08/23/subheadings-perhaps-the-most-useful-technique-in-technical-writing/).
 
 ### Mini-TOC (table of contents)
 
@@ -140,7 +140,7 @@ The quick reference guide should provide the user with just enough information t
 
 The information in the quick reference usually can't be single sourced, since it's not just an excerpt from the docs but rather a more briefly written summary of the entire system. As a result, many times it seems like yet another deliverable we don't have time to write. But for the best user experience, the quick reference guide provides incalculable value to users.  
 
-I've written quite a bit about quick reference guides before. See [Quick Reference Guides](https://idratherbewriting.com/quickreferenceguides/) for a list of articles. Probably the best article is [Quick Reference Guides: Short and Sweet Documentation](https://idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/).
+I've written quite a bit about quick reference guides before. See [Quick Reference Guides](/quickreferenceguides/) for a list of articles. Probably the best article is [Quick Reference Guides: Short and Sweet Documentation](/2009/04/10/quick-reference-guides-short-and-sweet-documentation/).
 
 ## Minimal viable documentation
 

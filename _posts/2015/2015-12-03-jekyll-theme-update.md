@@ -42,15 +42,15 @@ Converting the Jekyll theme into a multi-author solution is a huge paradigm shif
 
 ## URL generator
 
-There's a URL generator file that makes it easier to create and maintain links to other files. In the generator output, the urls_mydoc.txt file contains code that iterates over the links in the sidebar and top nav, and puts the link formatting into a YAML file. Here's the [result](https://idratherbewriting.com/documentation-theme-jekyll/urls_mydoc.txt).
+There's a URL generator file that makes it easier to create and maintain links to other files. In the generator output, the urls_mydoc.txt file contains code that iterates over the links in the sidebar and top nav, and puts the link formatting into a YAML file. Here's the [result](/documentation-theme-jekyll/urls_mydoc.txt).
 
 Just copy the output from this file into a data file internally in your \_data folder. (I wish I could avoid this step and just generate the YAML directly inside the theme, but I haven't figure out how to do that yet...)
 
-To link to a page, you just reference a YAML value in a data file. You can either reference the full link with the page title, or just the link. See the [Hyperlinks](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_hyperlinks) topic for details.
+To link to a page, you just reference a YAML value in a data file. You can either reference the full link with the page title, or just the link. See the [Hyperlinks](/documentation-theme-jekyll/mydoc_hyperlinks) topic for details.
 
 ## Title checker
 
-To make sure the titles in the sidebar correspond with page names, there's a title checker in the root directory. In the output, browse to the title-checker.html page in your browser. Here's [an example](https://idratherbewriting.com/documentation-theme-jekyll/title-checker.html).
+To make sure the titles in the sidebar correspond with page names, there's a title checker in the root directory. In the output, browse to the title-checker.html page in your browser. Here's [an example](/documentation-theme-jekyll/title-checker.html).
 
 If a page name conflicts with the sidebar name in the title, the checker tells you there's an inconsistency. It will say something like this:
 
@@ -62,7 +62,7 @@ There are some limitations with the title checker. If the filename or path itsel
 
 The build scripts are more fleshed out and automated. There are 5 build scripts &mdash; the fifth one will execute the first four. The build scripts automate the generating of PDFs and website outputs, including the transfer of files to a server.
 
-Once you configure the scripts, you can run them all by just executing mydoc_all.sh. In other words, the build scripts make publishing and deployment an entire operation that you can execute from one terminal command.See [10. Configure the build scripts](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_build_scripts) for more details.
+Once you configure the scripts, you can run them all by just executing mydoc_all.sh. In other words, the build scripts make publishing and deployment an entire operation that you can execute from one terminal command.See [10. Configure the build scripts](/documentation-theme-jekyll/mydoc_build_scripts) for more details.
 
 ## Links with subheadings
 
@@ -74,7 +74,7 @@ Links to external sites have a pop-out icon next to them. This is just a simple 
 
 ## More detailed getting started section
 
-The instructions for getting started are updated. See the [Getting started](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_getting_started) section.
+The instructions for getting started are updated. See the [Getting started](/documentation-theme-jekyll/mydoc_getting_started) section.
 
 ## Syntax highlighting preserved in PDF output
 

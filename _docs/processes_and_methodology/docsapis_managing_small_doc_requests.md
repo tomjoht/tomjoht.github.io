@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2021-02-17
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 With any developer portal, you'll receive not only incoming [documentation projects](docapis_managing_doc_projects.html) but also a healthy dose of small documentation requests too. These small requests can be managed in a similar way as documentation projects but can also be scaled down with a simpler workflow. Even so, small requests have unique challenges when it comes to prioritization, weighting, and cadence.
 

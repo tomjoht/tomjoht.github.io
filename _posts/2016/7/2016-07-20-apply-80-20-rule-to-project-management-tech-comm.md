@@ -25,7 +25,7 @@ bitlink: http://bit.ly/ferrisfourhourtcprojects
 
 {% include audio.html %}
 
-I've written previously about the [inefficiency of context-switching](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.
+I've written previously about the [inefficiency of context-switching](/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.
 
 To give you a sense of my day, last week I started regulating tasks following Kanban principles. To the right of my desk, I have a whiteboard where I wrote the three tasks I wanted to accomplish that day.
 

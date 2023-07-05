@@ -21,7 +21,7 @@ redirect_from:
 
 ## Workshop activities
 
-The activities we followed in the workshop are listed on the [Workshop activities](https://idratherbewriting.com/learnapidoc/workshop-activities.html) page in my [API documentation course](https://idratherbewriting.com/learnapidoc/).
+The activities we followed in the workshop are listed on the [Workshop activities](/learnapidoc/workshop-activities.html) page in my [API documentation course](/learnapidoc/).
 
 ## Video recordings
 
@@ -94,7 +94,7 @@ The slides are all stored on GitHub:
 
 ## Event description
 
-The workshop covered many of the topics from my [API doc course](https://idratherbewriting.com/learnapidoc/). Here's the workshop description.
+The workshop covered many of the topics from my [API doc course](/learnapidoc/). Here's the workshop description.
 
 > ## API Documentation Workshop
 >
@@ -124,7 +124,7 @@ The workshop covered many of the topics from my [API doc course](https://idrathe
 >
 > This workshop covers a broad range of topics, so the depth we go into with each area can vary based on the participants' questions and interests. My approach is to first learn what questions and information needs participants have and then give emphasis to those areas. Questions and discussion throughout will be welcome. We will do some hands-on activities during the workshop, but we won't get too detailed with technical activities, sticking more with high-level concepts and techniques.
 
-Note that I didn't talk much about docs-as-code publishing tools, as I covered this in a separate presentation on [Docs-as-code tools and workflows](https://idratherbewriting.com/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/).
+Note that I didn't talk much about docs-as-code publishing tools, as I covered this in a separate presentation on [Docs-as-code tools and workflows](/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/).
 
 The event was sponsored by the [Rocky Mountain STC chapter](http://www.stcrmc.org/) and [Write the Docs Denver](https://www.meetup.com/Write-the-Docs-Boulder-Denver/events/past/). You can learn more about the event here: [API Documentation Workshop](https://www.eventbrite.com/e/api-documentation-workshop-tickets-42621663543).
 

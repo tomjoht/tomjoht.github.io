@@ -23,7 +23,7 @@ description: "Andrew Etter presented about his book, Modern Technical Writing, t
 * TOC
 {:toc}
 
-You can read Andrew's book here: [Modern Technical Writing: An Introduction to Software Documentation ](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). (I also posted a [review of his book](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/) earlier last year.)
+You can read Andrew's book here: [Modern Technical Writing: An Introduction to Software Documentation ](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). (I also posted a [review of his book](/2016/07/26/modern-technical-writing-review/) earlier last year.)
 
 ## Presentation Description
 

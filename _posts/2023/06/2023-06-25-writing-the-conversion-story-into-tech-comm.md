@@ -21,6 +21,6 @@ Fabrizio fell in love with technical writing because it combined his passions an
 
 Read more on Fabrizio's blog, Uno Passo, here: [How did I become a technical writer](https://passo.uno/how-did-i-become-tech-writer/).
 
-I tell my story of how I got into tech comm here: [My life story, or reflections on what shaped my life's career trajectory](https://idratherbewriting.com/blog/life-story-what-shapes-your-lifes-trajectory/).
+I tell my story of how I got into tech comm here: [My life story, or reflections on what shaped my life's career trajectory](/blog/life-story-what-shapes-your-lifes-trajectory/).
 
 {% include ads.html %}

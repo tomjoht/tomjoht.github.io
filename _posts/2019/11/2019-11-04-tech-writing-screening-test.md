@@ -43,7 +43,7 @@ The tests have the following requirements and procedures:
 
 Please don't be offended if the questions don't align with your level of expertise or provide a measure of your professional depth. These questions aren't an objective measure of professional knowledge. They are somewhat random questions from Tom's brain and world of experience. However, I will evaluate the general success of the responses based on the number of correct answers to judge whether the questions have some validity. This will help me evaluate the questions with some data and hopefully work towards another iteration.
 
-If any question seems misleading, irrelevant, or wrong, please let me know by [reaching out to me](https://idratherbewriting.com/contact).
+If any question seems misleading, irrelevant, or wrong, please let me know by [reaching out to me](/contact).
 
 {% include ads.html %}
 

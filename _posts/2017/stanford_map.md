@@ -105,7 +105,7 @@ mini-tabs horizontal: http://vault.simplebits.com/bits/minitabs.html#
 
 i like the pattern of 5 across. you could click a square and a modal pops up. you could fit 3 tasks per square, making them more column like.
 
-In a previous post, I wrote about [linear workflow maps for users](https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/). But not all tech doc (and actually very little tech doc) consists of straightforward linear steps like this.
+In a previous post, I wrote about [linear workflow maps for users](/2016/05/30/building-a-workflow-user-map-with-css-and-js/). But not all tech doc (and actually very little tech doc) consists of straightforward linear steps like this.
 
 Instead, workflows in user documentation are often non-linear, optional, branching, and depending on user goals. There isn't always one way through the documentation, but rather a lot of different routes users can take depending on what they want to learn about or do.
 

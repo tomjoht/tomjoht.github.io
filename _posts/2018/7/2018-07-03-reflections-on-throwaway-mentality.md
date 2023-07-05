@@ -38,7 +38,7 @@ Some processes are easier to fix than others, for sure. For example, figuring ou
 
 ## Systematically fixing everything that's broken
 
-Why do we live with broken processes? Most likely, it's because fixing the process requires more energy than simply living with it. (I wrote about this previously in [When the pain of ignorance exceeds the pain of learning](https://idratherbewriting.com/2017/07/23/pain-of-ignorance-versus-pain-of-learning/).) I'm embarrassed to say that I can't shift into the bottom 3 gears on my Trek bike &mdash; but I guess it's fine because I rarely use those gears anyway. I mostly stay in the same gear all the way to work and back. So why fix it? I know that eventually I'll just get a new bike anyway, replacing this one.
+Why do we live with broken processes? Most likely, it's because fixing the process requires more energy than simply living with it. (I wrote about this previously in [When the pain of ignorance exceeds the pain of learning](/2017/07/23/pain-of-ignorance-versus-pain-of-learning/).) I'm embarrassed to say that I can't shift into the bottom 3 gears on my Trek bike &mdash; but I guess it's fine because I rarely use those gears anyway. I mostly stay in the same gear all the way to work and back. So why fix it? I know that eventually I'll just get a new bike anyway, replacing this one.
 
 Perhaps if we determine that a process can't be fixed, at that point we throw it away and get a new one, whatever that might look like for the situation. But distinguishing between repair and replace can't be done easily without first attempting repair.
 

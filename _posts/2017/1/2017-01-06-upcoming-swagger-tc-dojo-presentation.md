@@ -20,7 +20,7 @@ In the spirit of a dojo, my presentation is called **Harnessing the Chi of Swagg
 
 <a href="https://attendee.gotowebinar.com/register/2294274322258003203"><button type="button" class="btn btn-info">Register here</button></a>
 
-Interested in previewing my slides? You can check out an early draft [here](https://idratherbewriting.com/files/swaggerslides), though I'm still working on them.
+Interested in previewing my slides? You can check out an early draft [here](/files/swaggerslides), though I'm still working on them.
 
 {% include ads.html %}
 

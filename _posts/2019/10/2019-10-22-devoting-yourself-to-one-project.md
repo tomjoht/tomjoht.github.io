@@ -35,5 +35,5 @@ Additionally, knocking out one task here and there each day on the project keeps
 
 ## Related posts
 
-* [How to avoid inefficiencies even with context switching](https://idratherbewriting.com/blog/avoid-inefficiencies-even-with-context-switching/)
-* [Is it inefficient to frequently switch contexts among multiple projects?](https://idratherbewriting.com/2015/07/23/context-switching-and-juggling-multiple-projects/)
+* [How to avoid inefficiencies even with context switching](/blog/avoid-inefficiencies-even-with-context-switching/)
+* [Is it inefficient to frequently switch contexts among multiple projects?](/2015/07/23/context-switching-and-juggling-multiple-projects/)

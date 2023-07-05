@@ -11,7 +11,7 @@ description: "I'm developing an online course for documenting REST APIs. I'm not
 
 A reader notes:
 
-> I only just today discovered your [API Doc Course](https://idratherbewriting.com/learnapidoc/). Well done! Thanks very much for this. How long has this course been available? Are you still working on the material?
+> I only just today discovered your [API Doc Course](/learnapidoc/). Well done! Thanks very much for this. How long has this course been available? Are you still working on the material?
 
 I've been working on this material for the past several months. It's gone through several iterations. From presentations and short workshops on API documentation over the past year, the material has evolved and grown, and I'm trying to add more detail and polish to the content in order to convert it into an online learning course. Exactly how I'll deliver that course, I'm not sure.
 

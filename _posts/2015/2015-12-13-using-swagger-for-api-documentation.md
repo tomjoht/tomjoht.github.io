@@ -9,7 +9,7 @@ description: "Swagger should be a feature of every REST API doc set, since it co
 * TOC
 {:toc}
 
-I'm finishing up the Swagger UI implementation for my REST API docs. I've already written a bit about Swagger previously (see my [realizations post](https://idratherbewriting.com/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/) and [single sourcing the spec](https://idratherbewriting.com/2015/12/03/overcoming-doc-fragmentation-with-swagger-spec/) post, as well as my [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html)).
+I'm finishing up the Swagger UI implementation for my REST API docs. I've already written a bit about Swagger previously (see my [realizations post](/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/) and [single sourcing the spec](/2015/12/03/overcoming-doc-fragmentation-with-swagger-spec/) post, as well as my [Swagger tutorial](/learnapidoc/pubapis_swagger.html)).
 
 In this post, I just want to emphasize how cool Swagger is, and why I think every REST API doc set should have one.
 

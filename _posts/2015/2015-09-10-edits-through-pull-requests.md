@@ -12,7 +12,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/pullre
 
 ## Pull request tutorial
 
-The other day I was exploring Github's pull request workflow with more detail. I created a [tutorial for using pull requests here](https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests.html).
+The other day I was exploring Github's pull request workflow with more detail. I created a [tutorial for using pull requests here](/learnapidoc/pubapis_github_pull_requests.html).
 
 <a href="https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/github_compare_to.png" alt="Pull request tutorial" /></a>
 

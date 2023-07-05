@@ -12,9 +12,9 @@ bitlink: http://bit.ly/kanbandocrole
 
 ## Background
 
-During the [last STC meeting on agile](https://idratherbewriting.com/2016/09/20/thriving-in-agile-environments-as-technical-writers/), I was chatting with a fellow writer about whether agile fit his role at his work. He said that because he supports about 80 engineers, kanban was a better fit for him than scrum.
+During the [last STC meeting on agile](/2016/09/20/thriving-in-agile-environments-as-technical-writers/), I was chatting with a fellow writer about whether agile fit his role at his work. He said that because he supports about 80 engineers, kanban was a better fit for him than scrum.
 
-I wrote previously about kanban [here](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and [here](https://idratherbewriting.com/2011/12/18/kanban-and-limiting-the-scope-of-work/). Both kanban and scrum are two different approaches to agile.
+I wrote previously about kanban [here](/2016/07/13/context-switching-and-efficiency/) and [here](/2011/12/18/kanban-and-limiting-the-scope-of-work/). Both kanban and scrum are two different approaches to agile.
 
 The main difference between kanban and scrum is that scrum organizes work into two week sprints, with points assigned to each item. The scrum team is expected to complete a specific number of points before the sprint ends.
 

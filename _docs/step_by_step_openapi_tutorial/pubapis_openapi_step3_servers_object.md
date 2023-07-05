@@ -12,7 +12,7 @@ map:
 last-modified: 2020-09-07
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 {% if site.format == "print" %}
 <img src="{{site.api_media}}/openapistep3.png"/>

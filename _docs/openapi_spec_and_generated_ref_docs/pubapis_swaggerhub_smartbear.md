@@ -9,9 +9,9 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2020-03-30
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
-Previously, I explored using the open-source [Swagger UI project](pubapis_swagger.html) as a way to render your [OpenAPI specification document](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html). The same company that offers the free, open-source version of Swagger Editor and Swagger UI (Smartbear) also offers a premium version with more robust features. This premium version of Swagger Editor is called [SwaggerHub](https://app.swaggerhub.com/). You can see a comparison of features between the open source and premium versions [here](https://swaggerhub.com/swagger-open-source-comparison/).
+Previously, I explored using the open-source [Swagger UI project](pubapis_swagger.html) as a way to render your [OpenAPI specification document](pubapis_openapi_tutorial_overview.html). The same company that offers the free, open-source version of Swagger Editor and Swagger UI (Smartbear) also offers a premium version with more robust features. This premium version of Swagger Editor is called [SwaggerHub](https://app.swaggerhub.com/). You can see a comparison of features between the open source and premium versions [here](https://swaggerhub.com/swagger-open-source-comparison/).
 
 You can see a demo of the [sample OpenWeatherMap API on SwaggerHub here](https://app.swaggerhub.com/apis-docs/IdRatherBeWriting/open-weather_map_api/).
 
@@ -46,7 +46,7 @@ To get started with SwaggerHub, go to [swaggerhub.com](https://swaggerhub.com/) 
 
 <a href="https://app.swaggerhub.com/home" class="noExtIcon"><img src="{{site.api_media}}/swaggerhubhomepage.png" /></a>
 
-The dashboard shows a list of the APIs you've created. In this example, you see the [OpenWeatherMap API](https://idratherbewriting.com/learnapidoc/docapis_scenario_for_using_weather_api.html) that I've been using throughout this course.
+The dashboard shows a list of the APIs you've created. In this example, you see the [OpenWeatherMap API](docapis_scenario_for_using_weather_api.html) that I've been using throughout this course.
 
 ## SwaggerHub Editor
 
@@ -92,7 +92,7 @@ Few tech comm tools support inline annotations like this, and it wouldn't be pos
 
 Another benefit to SwaggerHub is the ability to auto-generate the needed client or server code from your specification. Client SDKs provide the tooling needed to make API requests in specific programming languages (like Java or Ruby).
 
-In the upper-right corner, click the down-arrow and select **Client** or **Server**. Users have access to generate [client and server SDKs](https://idratherbewriting.com/learnapidoc/docapis_sdks.html) in more than 30 formats.
+In the upper-right corner, click the down-arrow and select **Client** or **Server**. Users have access to generate [client and server SDKs](docapis_sdks.html) in more than 30 formats.
 
 <figure><img class="docimage large" src="{{site.api_media}}/swaggerhub_download.png" alt="Client and server SDK export capabilities" /><figcaption>Client and server SDK export capabilities</figcaption></figure>
 
@@ -100,7 +100,7 @@ For example, suppose a user is implementing your REST API in a Java application.
 
 Some API documentation sites look impressive for showing implementations in various programming languages. SwaggerHub takes those programming languages and multiplies them tenfold to provide every possible output a user could want.
 
-The output includes more than a simple code sample showing how to call a REST endpoint in that language. The output includes a whole SDK that includes the various nuts and bolts of an implementation in that language. (For more information on SDKs, see [SDKs](https://idratherbewriting.com/learnapidoc/docapis_sdks.html).)
+The output includes more than a simple code sample showing how to call a REST endpoint in that language. The output includes a whole SDK that includes the various nuts and bolts of an implementation in that language. (For more information on SDKs, see [SDKs](docapis_sdks.html).)
 
 Providing this code speeds implementation for developers and helps you scale your language-agnostic REST API to a greater variety of platforms and users, reducing the friction in adoption.
 
@@ -167,7 +167,7 @@ Designing a fully-featured, highly functioning OpenAPI spec is at the heart of t
 Great tools aren’t free. SwaggerHub does [cost money](https://swaggerhub.com/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.
 
 {: .tip}
-To read more about SwaggerHub, check out my blog post [SwaggerHub: A collaborative platform for working on OpenAPI/Swagger specification files, and more](https://idratherbewriting.com/2017/10/05/swaggerhub-collaborative-platform-for-swagger-openapi-projects).
+To read more about SwaggerHub, check out my blog post [SwaggerHub: A collaborative platform for working on OpenAPI/Swagger specification files, and more](/2017/10/05/swaggerhub-collaborative-platform-for-swagger-openapi-projects).
 
 ## Related resources
 

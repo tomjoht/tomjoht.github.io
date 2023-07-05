@@ -2,7 +2,7 @@ scope: all
 title: Documenting REST APIs
 subtitle: "A guide for technical writers and engineers creating API documentation"
 api_media: /Users/tomjoht/projects/idratherbewriting/images/api
-# cover: true
+cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_image: images/ebook_cover.png
 

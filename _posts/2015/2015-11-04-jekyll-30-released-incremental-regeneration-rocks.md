@@ -45,7 +45,7 @@ Incremental regeneration is a different sort of model compared to the typical pr
 
 With Jekyll, by continuously building the site, I can immediately see if there's an error based on code I just wrote. For example, if I write some conditional Liquid tags and forget to close them, the Terminal window will show an error. The error will cause the build to stop &mdash; I can then fix what I just broke. There's no guessing game about what I did to break the build.
 
-By using continuous build, I don't have a large gap between when I introduce an error and when I fix it. As I wrote in [my previous post](https://idratherbewriting.com/2015/10/27/fix-errors-fast-scrum-agile/), closing the gap between identifying bugs and fixing bugs can increase efficiency (by as much as 24 times according to the research Sutherland cited).
+By using continuous build, I don't have a large gap between when I introduce an error and when I fix it. As I wrote in [my previous post](/2015/10/27/fix-errors-fast-scrum-agile/), closing the gap between identifying bugs and fixing bugs can increase efficiency (by as much as 24 times according to the research Sutherland cited).
 
 In contrast, if you build your site after hours of working on the content, you may be sorting through vague build error messages that you have to troubleshoot in a time-consuming way. What exactly caused this error? What did I do wrong in those 15 files I was working on? This lag time between authoring and building creates uncertainty with troubleshooting, which increases authoring time and also leads to waste.
 

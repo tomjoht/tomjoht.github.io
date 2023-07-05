@@ -29,7 +29,7 @@ In contrast, the traffic on my API documentation site (for the past 3 months) is
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidoc-stats-graph.png" alt="Traffic on API doc site"/>
 
-How do you interpret this disparity? It seems pretty clear that one type of content is sought after more than the other. Granted, the API doc site has more pages (96 instead of 11) and it's been around longer, and I've given lots of [API doc presentations](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html) referring to it. But I think it's more than that. People seek to learn about skills *they lack*. API documentation is one of these sought-after skills; simplifying complexity isn't a skill people search out.
+How do you interpret this disparity? It seems pretty clear that one type of content is sought after more than the other. Granted, the API doc site has more pages (96 instead of 11) and it's been around longer, and I've given lots of [API doc presentations](/learnapidoc/docapis_course_videos.html) referring to it. But I think it's more than that. People seek to learn about skills *they lack*. API documentation is one of these sought-after skills; simplifying complexity isn't a skill people search out.
 
 Further, I'm guessing that most of the traffic to that API doc site involves *developers* looking for tips on how to document their API, not technical writers. This is because the traffic is outpacing the regular traffic on my blog.
 
@@ -97,7 +97,7 @@ If I understand the math correctly, if you support 5 engineering teams now, in 2
 
 Despite the trend of more engineers writing, engineers still generally dislike writing. Matt Asay explains that the 2018 GitHub Survey found that contributions to documentation in open source projects are abysmal. Even when developers write, they are extremely reluctant to do so. Asay explains:
 
-> 93% of respondents gnashed their teeth over shoddy documentation but also admitted to doing virtually nothing to improve the situation. … If you think this deeply felt need for documentation would motivate more developers to pitch in and help, you’d be wrong: 60% of developers can’t be bothered to contribute documentation. ([Open source documentation is bad, but proprietary software is worse](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html))
+> 93% of respondents gnashed their teeth over shoddy documentation but also admitted to doing virtually nothing to improve the situation. … If you think this deeply felt need for documentation would motivate more developers to pitch in and help, you’d be wrong: 60% of developers can’t be bothered to contribute documentation. ([Open source documentation is bad, but proprietary software is worse](/learnapidoc/docapis_find_open_source_project.html))
 
 So even if engineers are writing, they are likely gnashing their teeth while doing it, and resenting it. As such, what they produce can't be very exciting to read. Maybe we'll see trends reverse course, similar to how many thought all tech writing jobs would be off-shored to India, but then that off-shoring trend seemed to fizzle (presumably because the output was ... kind of poor, like an engineer's writing?).
 
@@ -109,7 +109,7 @@ This pivot was my initial intention with the focus on simplifying complexity. We
 
 Moreover, even if products are highly complex and technical, I'm not sure that tech writers can swoop in and save the day. I spent most of this week trying to explain a product that was just poorly designed &mdash; some aspects of it are a kluge designed entirely by engineers. Products that are designed so poorly as to be insanely complex can't be bandaided with helpful documentation and fixed. The products will ultimately fail if they aren't designed in a more usable way. So you don't need a super-duper specialist to come in and save the day by making clear documentation for a virtually unusable product, because the market will ignore the product anyway.
 
-So if we can't market our writing ability, what sells? Earlier I said to consider what you could package into a workshop and market to people. Rather than reflect on workshop titles, let's think about ways to hyphenate our roles, making our job titles a hybrid. This is something [Jack Molisani recommended back in 2007](https://idratherbewriting.com/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) when I interviewed him at an STC conference.
+So if we can't market our writing ability, what sells? Earlier I said to consider what you could package into a workshop and market to people. Rather than reflect on workshop titles, let's think about ways to hyphenate our roles, making our job titles a hybrid. This is something [Jack Molisani recommended back in 2007](/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) when I interviewed him at an STC conference.
 
 After some brainstorming, here are a few hyphenated or hybrid roles for technical writers:
 

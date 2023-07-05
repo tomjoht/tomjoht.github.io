@@ -17,7 +17,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekyll
 
 Version 3.0 of my Documentation theme for Jekyll is now available. You can download the source code from the [theme's Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
-Here's an example output: [https://idratherbewriting.com/documentation-theme-jekyll/](https://idratherbewriting.com/documentation-theme-jekyll/).
+Here's an example output: [https://idratherbewriting.com/documentation-theme-jekyll/](/documentation-theme-jekyll/).
 
 The theme is built for single sourcing, so the default theme has a couple of outputs: Designers and Writers. The Designers output has detailed instructions for working with the theme.
 
@@ -29,7 +29,7 @@ The Writers output is a slightly scaled back version of the same content (elimin
 
 {% include ads.html %}
 
-The [Getting started page](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
+The [Getting started page](/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
 
 ## Prominent theme features
 
@@ -51,9 +51,9 @@ For a more detailed list of supported features, see [Supported features](https:/
 
 ## Getting started
 
-To get started using the theme, see [Getting started with this theme](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html).
+To get started using the theme, see [Getting started with this theme](/documentation-theme-jekyll/doc_getting_started.html).
 
-Then see [Setting configuration options](https://idratherbewriting.com/documentation-theme-jekyll/doc_configuration_settings.html) and [Customizing the theme](https://idratherbewriting.com/documentation-theme-jekyll/doc_customizing_the_theme.html).
+Then see [Setting configuration options](/documentation-theme-jekyll/doc_configuration_settings.html) and [Customizing the theme](/documentation-theme-jekyll/doc_customizing_the_theme.html).
 
 ## Comparing this Jekyll theme to HATs and DITA
 

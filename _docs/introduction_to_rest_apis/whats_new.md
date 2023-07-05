@@ -7,7 +7,7 @@ weight: 1.02
 last-modified: 2023-06-24
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 If you're looking to see what's new in the API doc site/course, you can browse new content in several ways.
 

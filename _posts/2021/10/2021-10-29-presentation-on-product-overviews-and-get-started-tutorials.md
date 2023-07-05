@@ -63,4 +63,4 @@ Here's a description of the presentation:
 
 ## Related resources
 
-I gave a [similar presentation a couple of months earlier to tekom Europe](https://idratherbewriting.com/blog/product-overviews-and-getting-started-tutorials-presentation/). In the tekom Europe version, I didn't have any examples and didn't respond to audience chat during the presentation. But otherwise, the content is highly similar.
+I gave a [similar presentation a couple of months earlier to tekom Europe](/blog/product-overviews-and-getting-started-tutorials-presentation/). In the tekom Europe version, I didn't have any examples and didn't respond to audience chat during the presentation. But otherwise, the content is highly similar.

@@ -12,7 +12,7 @@ bitlink: http://bit.ly/docsascodecheckin
 
 ## Checking in after using docs-as-code for several years
 
-I've both written and presented about [docs-as-code](https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/#first-what-we-mean-by-docs-like-code) off and on for a number of years. I started using [Jekyll](https://idratherbewriting.com/about-jekyll/) at my previous job at 41st Parameter / Experian, and then helped lead the effort to [implement docs-as-code](https://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html) with my role on the Amazon Appstore doc team (we publish at [developer.amazon.com](https://developer.amazon.com/documentation/)). I'd just like to check in and say, docs-as-code works. Docs-as-code is the way to go.
+I've both written and presented about [docs-as-code](/2017/06/02/when-docs-are-not-like-code/#first-what-we-mean-by-docs-like-code) off and on for a number of years. I started using [Jekyll](/about-jekyll/) at my previous job at 41st Parameter / Experian, and then helped lead the effort to [implement docs-as-code](/learnapidoc/pubapis_switching_to_docs_as_code.html) with my role on the Amazon Appstore doc team (we publish at [developer.amazon.com](https://developer.amazon.com/documentation/)). I'd just like to check in and say, docs-as-code works. Docs-as-code is the way to go.
 
 If you've been hesitant about embracing docs-as-code because it might seem like another fad or newfangled approach, don't worry. Once you get used to it, there's no turning back.
 
@@ -57,8 +57,8 @@ Okay, so not to sound like I'm in a honeymoon phase with a tool, I'll note a few
 
 See the following posts for more information:
 
-* [Case study: Switching tools to docs-as-code](https://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html)
-* [Docs-as-code tools](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html)
+* [Case study: Switching tools to docs-as-code](/learnapidoc/pubapis_switching_to_docs_as_code.html)
+* [Docs-as-code tools](/learnapidoc/pubapis_docs_as_code.html)
 * [Documentation, Disrupted: How Two Technical Writers Changed Google Engineering Culture](https://www.youtube.com/embed/EnB8GtPuauw)
-* [Recording of Docs-as-code tools and workflows presentation](https://idratherbewriting.com/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/#slides)
+* [Recording of Docs-as-code tools and workflows presentation](/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/#slides)
 * [Docs Like Code, by Anne Gentle](https://www.docslikecode.com/book/)

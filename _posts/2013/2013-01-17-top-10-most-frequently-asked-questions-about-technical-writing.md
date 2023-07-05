@@ -33,12 +33,12 @@ For specific tools, look at [http://indeed.com](http://indeed.com) for technical
 
 In general, learn these four types of tools:
 
-*   Help authoring tools (such as [Jekyll](https://idratherbewriting.com/about-jekyll/), MadCap Flare, Confluence, Robohelp, Doc-to-Help, or some other)
+*   Help authoring tools (such as [Jekyll](/about-jekyll/), MadCap Flare, Confluence, Robohelp, Doc-to-Help, or some other)
 *   Graphics tools (Snagit, Capture, Photoshop, Illustrator)
 *   Video recording tools (Camtasia Studio, Screenflow, Captivate)
 *   Page layout tool (InDesign, Word, Framemaker)
 
-{{site.data.alerts.tip}}When learning how to create screencasts and other videos, see my [five-step process for creating video tutorials](https://idratherbewriting.com/2012/09/27/how-to-create-video-tutorials-a-five-step-process/)." {{site.data.alerts.end}}
+{{site.data.alerts.tip}}When learning how to create screencasts and other videos, see my [five-step process for creating video tutorials](/2012/09/27/how-to-create-video-tutorials-a-five-step-process/)." {{site.data.alerts.end}}
 
 {% include ads.html %}
 
@@ -54,8 +54,8 @@ Instead, focus your efforts in developing a strong portfolio with examples that 
 
 For more information, see the following:
 
-* [Are Certificate Programs Helpful for Transitioning into Technical Writing?](https://idratherbewriting.com/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
-* [Do I need to take courses in technical writing? Guest post by Laura Palmer](https://idratherbewriting.com/2014/03/07/do-i-need-to-take-courses-in-technical-writing-guest-post-by-laura-palmer/)
+* [Are Certificate Programs Helpful for Transitioning into Technical Writing?](/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
+* [Do I need to take courses in technical writing? Guest post by Laura Palmer](/2014/03/07/do-i-need-to-take-courses-in-technical-writing-guest-post-by-laura-palmer/)
 
 ## 3\. How do I get a job in technical writing without experience?
 
@@ -63,7 +63,7 @@ If you don't have any experience, volunteer your technical writing skills with a
 
 The exact product doesn't so matter much. Interviewers will be interested to see your writing style, your ability to articulate complex concepts, your mastery of advanced tools to author the information, your sense of organization and detail, and more.
 
-For more information on landing a technical writing job, see my series on [How to Get a Job in Technical Writing](https://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/).
+For more information on landing a technical writing job, see my series on [How to Get a Job in Technical Writing](/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/).
 
 ## 4\. I'm interested in technical writing, but isn't it boring?
 
@@ -74,8 +74,8 @@ In addition to using these creative skills, you'll be immersed in an environment
 At the very least, give technical writing a try. If you find it boring, switch to something else.
 
 For more details, see the following:
-* [Is technical writing boring?](https://idratherbewriting.com/2007/02/13/is-technical-writing-boring/)
-* [Why no one stopped by my technical writing booth at career fair day](https://idratherbewriting.com/2015/05/31/realizations-from-career-fair-what-i-lost/)
+* [Is technical writing boring?](/2007/02/13/is-technical-writing-boring/)
+* [Why no one stopped by my technical writing booth at career fair day](/2015/05/31/realizations-from-career-fair-what-i-lost/)
 
 ## 5\. Would I be good technical writer? I don't have a background in technology or writing.
 
@@ -92,7 +92,7 @@ Most tech writers don't have a specific background in technical writing. You wil
 
 ## 6\. I don't have money to buy the tools, but all technical writer jobs seem to require knowledge of these tools.
 
-I use an open source tool called [Jekyll](https://idratherbewriting.com/about-jekyll/). This is a static site generator that helps you build HTML quickly and push out websites. If you're interested in this approach, you can try the [free Jekyll theme](https://idratherbewriting.com/documentation-theme-jekyll/) I developed specifically for documentation projects.
+I use an open source tool called [Jekyll](/about-jekyll/). This is a static site generator that helps you build HTML quickly and push out websites. If you're interested in this approach, you can try the [free Jekyll theme](/documentation-theme-jekyll/) I developed specifically for documentation projects.
 
 You could purchase academic versions of the software for usually half price or less. For example, you can buy an academic license to MadCap Flare for $500\. Most Adobe products have similar academic discounts.
 
@@ -121,7 +121,7 @@ Technical writers do a variety of tasks, including some or all of the following:
 *   Create elearning courses and simulations for users to learn products.
 *   Create technology how-to articles for marketing efforts to increase awareness and adoption of technology products.
 
-{{site.data.alerts.tip}}For a better understanding of what technical writers do, see my [chapter on technical writing in the UX Careers Handbook](https://idratherbewriting.com/2016/06/21/technical-writing-chapter-in-ux-careers-book/).{{site.data.alerts.end}}
+{{site.data.alerts.tip}}For a better understanding of what technical writers do, see my [chapter on technical writing in the UX Careers Handbook](/2016/06/21/technical-writing-chapter-in-ux-careers-book/).{{site.data.alerts.end}}
 
 ## 9\. I have an assignment to interview a technical writer. Can I send you my list of questions?
 
@@ -129,7 +129,7 @@ Sorry, but I usually don't have the bandwidth to respond at length for this. How
 
 ## 10\. How can I get a job as a technical writer?
 
-[Getting your first job as a technical writer ](https://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/) is usually the hardest job to get, but the jobs once you're established in the field become much easier. Follow these seven steps to get a job as a technical writer:
+[Getting your first job as a technical writer ](/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/) is usually the hardest job to get, but the jobs once you're established in the field become much easier. Follow these seven steps to get a job as a technical writer:
 
 1.  **Build up your knowledge of tools and languages**. For example, learn CSS, HTML, and XML. Also learn a help authoring tool, a graphics tool, a video recording tool, and a page layout tool.
 2.  **Create a portfolio of sample technical writing deliverables.** For example, create an online help, a how-to guide, a quick start guide, and a video tutorial.

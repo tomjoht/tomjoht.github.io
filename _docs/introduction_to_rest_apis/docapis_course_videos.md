@@ -9,7 +9,7 @@ weight: 1.2
 last-modified: 2020-07-25
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 I've given numerous presentations and workshops on API documentation, and I've recorded some of them. The most recent recordings are available below. I divided this all-day workshop into multiple separate videos. Keep in mind that my API content evolves, so some older presentations might no longer match the course content.  
 
@@ -36,7 +36,7 @@ I recorded part of a more recent API workshop held in Los Angeles here:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/UOc2g-yRFxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-See the [event details](https://idratherbewriting.com/blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/) for more info.
+See the [event details](/blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/) for more info.
 
 {% include image_ad_left.html %}
 

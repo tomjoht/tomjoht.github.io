@@ -107,7 +107,7 @@ These posts can provide more visibility than other forms of advertising. A popul
 Here are a few examples:
 
 * [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](/learnapidoc/pubapis_openapis_quickstart_stoplight.html). This post received 14,800 page views in 2022.
-* [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](https://idratherbewriting.com/learnapidoc/pubapis_redocly.html). This post received 3,566 page views in 2022.
+* [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](/learnapidoc/pubapis_redocly.html). This post received 3,566 page views in 2022.
 * [Using Oxygen XML with docs-as-code workflows](/learnapidoc/pubapis_oxygenxml.html). This post received 9,326 page views in 2022.
 
 The number of page views depends on the popularity of the product. On the low end, you can expect about 1,500 page views. On the high-end, you can expand around 10,000 page views.

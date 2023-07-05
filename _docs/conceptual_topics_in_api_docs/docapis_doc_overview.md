@@ -10,7 +10,7 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2021-09-17
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 The product overview tells your product's story at a high level, including what you can do with the product, the market needs or pain points it solves, requirements to use it, who the product or other features are for, and other introductory information. A company with multiple products will have distinct product overview pages for each product, with a more general umbrella overview for them all. In contrast, smaller companies with fewer products might have a single, consolidated product overview page for everything the company offers.
 
@@ -224,7 +224,7 @@ Both of these product overviews are like product landing pages within a larger d
 
 ## <i class="fa fa-user-circle"></i> Activity with product overviews
 
-With the [open-source project you identified](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html), identify the API overview. Then answer the following questions:
+With the [open-source project you identified](docapis_find_open_source_project.html), identify the API overview. Then answer the following questions:
 
 1. Does the documentation have a product overview?
 2. Does the overview clarify who the API is for?
@@ -314,7 +314,7 @@ Another reason product overviews often fail for users is because, put simply, pr
 
 As technical writers, we're often incrementing our understanding of a complex product little by little &mdash; we're piecing together what it's about, how it works, how to perform various tasks, the reference material about the APIs, and so on. We're slowly identifying puzzle pieces and trying to fit them together into the right picture. At any given time, there are likely many unidentified and unused puzzle pieces, making our current picture incomplete. It might not be until several weeks or months that we have a light bulb moment and glimpse the full puzzle picture.
 
-To use another metaphor, I often like to think of projects as a [monster that I battle and slay](https://idratherbewriting.com/blog/every-project-is-a-monster-you-battle/). That moment when I slay the monster is when I unlock its secret and suddenly grasp how it ticks, how to unlock its data and have it returned to me. It's at that point, near the end, that I can properly write the overview page. In general, *I usually can't finish the first page of documentation until I write the last page of documentation.*
+To use another metaphor, I often like to think of projects as a [monster that I battle and slay](/blog/every-project-is-a-monster-you-battle/). That moment when I slay the monster is when I unlock its secret and suddenly grasp how it ticks, how to unlock its data and have it returned to me. It's at that point, near the end, that I can properly write the overview page. In general, *I usually can't finish the first page of documentation until I write the last page of documentation.*
 
 And when am I writing that last page of documentation? Sometimes right near crunch-time, about two weeks before release.
 
@@ -377,7 +377,7 @@ Don't get me wrong &mdash; I support task-oriented docs and agree that it's gene
 
 But task-oriented docs often swing too far toward tasks, resulting in minimal or anemic overview information. When that happens, you often end up confusing users with various tasks and no higher-level content that helps their decision-making about which tasks to follow and why.
 
-In [research about how developers use APIs](https://idratherbewriting.com/learnapidoc/docapiscode_research_on_documenting_code.html#systematic-versus-opportunistic-behaviors), researchers have identified "opportunistic behaviors" (try-first), "systematic behaviors" (read-first), and hybrids of the two. When users are observed, there's much hybrid behavior than solely opportunistic or systematic. Just because you might be an opportunistic user, it doesn’t mean you always skip conceptual explanations &mdash; it's just that you might not start with concepts. A hybrid reader might start with code, trying it out on their own, and circle back to the introductory conceptual information when the code doesn’t work as expected.
+In [research about how developers use APIs](docapiscode_research_on_documenting_code.html#systematic-versus-opportunistic-behaviors), researchers have identified "opportunistic behaviors" (try-first), "systematic behaviors" (read-first), and hybrids of the two. When users are observed, there's much hybrid behavior than solely opportunistic or systematic. Just because you might be an opportunistic user, it doesn’t mean you always skip conceptual explanations &mdash; it's just that you might not start with concepts. A hybrid reader might start with code, trying it out on their own, and circle back to the introductory conceptual information when the code doesn’t work as expected.
 
 Deciding to cater to one type of behavior at the expense of the other might not be practical, since the learning behaviors and approaches seem to be in constant flux.
 

@@ -12,7 +12,7 @@ redirect_from:
 last-modified: 2019-05-06
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 {% include workflow_map.html step="5" map="content/reference_doc_map.html"  %}
 {% if site.format == "print" %}

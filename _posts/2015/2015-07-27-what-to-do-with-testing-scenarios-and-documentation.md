@@ -16,7 +16,7 @@ div pre {
 background-color: #fdfdfd;
 }
 </style>
-This is another post in my series on [testing documentation](https://idratherbewriting.com/2015/07/07/testing-your-instructions/).
+This is another post in my series on [testing documentation](/2015/07/07/testing-your-instructions/).
 
 ## What I mean by testing
 First, I want to add a quick clarifying note about terms. By "testing" docs, I'm not referring to the same rigor or perspective that QA teams apply to code. QA teams look at more than whether the product meets basic expectations. QA teams try to break the code by scaling the load, or they set up automated tests that run through hundreds of scenarios in scripts, or they test the code on dozens of different simulated devices.

@@ -12,7 +12,7 @@ description: "In the workplace, why aren't technical writers recognized as SMEs 
 
 ## Background
 
-I was recently reading an article in [Communication Design Quarterly (CDQ)](https://sigdoc.acm.org/publication/) when an article about expertise in the workplace caught my attention, in part because it meshed with [previous themes](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/) I'd been exploring. CDQ is the publication of [SIGDOC ("Special Interest Group for Design of Communication")](https://sigdoc.acm.org).
+I was recently reading an article in [Communication Design Quarterly (CDQ)](https://sigdoc.acm.org/publication/) when an article about expertise in the workplace caught my attention, in part because it meshed with [previous themes](/2018/11/19/avoid-being-secretary-for-engineers/) I'd been exploring. CDQ is the publication of [SIGDOC ("Special Interest Group for Design of Communication")](https://sigdoc.acm.org).
 
 In [Theory to Practice: Negotiating Expertise for New Technical Communicators](https://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=1312&amp;context=english_facpubs) (*CDQ 6.3. 2018*), [Jennifer Mallette](#jenn_mallette) and [Megan Gerkhe](#megan_gerhke) explore the kinds of expertise valued in the workplace, surfacing the question of why technical writers aren't often respected as SMEs while engineers are. Here's the abstract of their article:
 
@@ -64,7 +64,7 @@ For me and Megan both, the question of gender always comes up when we talk about
 
 **Megan:** I think we mean to suggest not so much that tech writers become self-reliant and experts in every area they write about (like you bring up, who has the time...), but instead that they become involved in the process earlier/more/deeper etc. with the SME and contribute from the start, rather than waiting for things to be delivered to them (passive).
 
-I believe in your blog post where you reference our article you talk about a specification document from an engineer that was barely readable for you, the expert in "translating" it to the public ([How to avoid being a secretary for engineers](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/)). We think there is some merit in involving writers and tech comm specialists earlier to contribute to those types of documents and get them to a better place before working on the for end-users. In this way, I think tech comm professionals are more actively involved.
+I believe in your blog post where you reference our article you talk about a specification document from an engineer that was barely readable for you, the expert in "translating" it to the public ([How to avoid being a secretary for engineers](/2018/11/19/avoid-being-secretary-for-engineers/)). We think there is some merit in involving writers and tech comm specialists earlier to contribute to those types of documents and get them to a better place before working on the for end-users. In this way, I think tech comm professionals are more actively involved.
 
 ### Should tech writers specialize in order to get respect in the workplace? What are the costs of specialization? I mean, it could take years and entire programs and courses of study to ramp up to an engineering level of knowledge about some topics. Where does one find the time for this?
 

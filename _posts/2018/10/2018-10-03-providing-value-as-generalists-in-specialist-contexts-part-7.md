@@ -39,7 +39,7 @@ Within the topic of information usability, I covered 7 principles:
 * Principle 6: Reduce the complexity of technical language
 * Principle 7: Iterate and increment on content following an agile approach
 
-I list some additional information usability principles on my site, [idratherbewriting.com/simplifying-copmlexity](https://idratherbewriting.com/simplifying-copmlexity), and I'll continue to add to them in the future.
+I list some additional information usability principles on my site, [idratherbewriting.com/simplifying-copmlexity](/simplifying-copmlexity), and I'll continue to add to them in the future.
 
 
 
@@ -83,9 +83,9 @@ Courtney, Jonathan. ["The Golden Age of UX Is Over."](https://uxplanet.org/the-g
 
 Grey, Jim. [Software technical writing is a dying career (but here’s what writers can do to stay in the software game)](https://softwaresaltmines.com/2015/06/16/software-technical-writing-dying/). *Delivering software through leading people well.* 16 June 2015.
 
-Johnson, Tom. ["Transparency in documentation: dealing with limits about what you can and cannot say."](https://idratherbewriting.com/2017/07/13/transparency-in-documentation/) *Idratherbewriting.com*. 13 Jul 2017.
+Johnson, Tom. ["Transparency in documentation: dealing with limits about what you can and cannot say."](/2017/07/13/transparency-in-documentation/) *Idratherbewriting.com*. 13 Jul 2017.
 
-Johnson, Tom. ["Recording of Open Authoring -- Collaboration Across Disciplines presentation, by Ralph Squillace.](https://idratherbewriting.com/2016/11/15/recording-of-open-authoring-collaboration-ralph-squillace/). *Idratherbewriting.com*. 15 Nov 2016.
+Johnson, Tom. ["Recording of Open Authoring -- Collaboration Across Disciplines presentation, by Ralph Squillace.](/2016/11/15/recording-of-open-authoring-collaboration-ralph-squillace/). *Idratherbewriting.com*. 15 Nov 2016.
 
 Lichaw, Donna. [*The User’s Journey: Storymapping Products That People Love*](https://rosenfeldmedia.com/books/storymapping/). Rosenfeld. March 2016.
 

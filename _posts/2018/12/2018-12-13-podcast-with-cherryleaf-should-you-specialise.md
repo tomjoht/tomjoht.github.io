@@ -46,8 +46,8 @@ Here's a list of some of the topics discussed:
 
 Here are links to some of the articles we discussed:
 
-* [Tech comm trends -- why tech writers will be collaborating more with engineers](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
-* [Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html)
+* [Tech comm trends -- why tech writers will be collaborating more with engineers](/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
+* [Principle 11: Be both a generalist and specialist at the same time](/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html)
 * [Clients from Hell](http://clientsfromhell.net/)
 
 You can find more podcasts from Ellis at [Cherryleaf > Podcasts](https://www.cherryleaf.com/podcast/).

@@ -140,7 +140,7 @@ Rather than manually populating each table in the docs, I create a template to r
 {% endraw %}
 ```
 
-Notice the references into the YAML file &mdash; `{% raw %}{{site.data.fire-tv-specs2[device].friendly_name}}{% endraw %}`. This is how you access those values using Jekyll. (See [Data Files](https://jekyllrb.com/docs/datafiles/) in the Jekyll docs for more details, or see my [YAML tutorial in the context of Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial).)
+Notice the references into the YAML file &mdash; `{% raw %}{{site.data.fire-tv-specs2[device].friendly_name}}{% endraw %}`. This is how you access those values using Jekyll. (See [Data Files](https://jekyllrb.com/docs/datafiles/) in the Jekyll docs for more details, or see my [YAML tutorial in the context of Jekyll](/documentation-theme-jekyll/mydoc_yaml_tutorial).)
 
 BTW, this is one of the things I love most about Jekyll &mdash; the ability to define my own structures for information and then access that structured information in custom ways.
 

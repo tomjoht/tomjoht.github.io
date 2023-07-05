@@ -52,7 +52,7 @@ In the survey feedback, some people said the following to elaborate:
 
 In other words, assumptions about overview content already being consumed in pre-sales scenarios by some readers doesn't account for the engineers implementing the features.
 
-Others left direct comments on the [the post](https://idratherbewriting.com/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/#commento).
+Others left direct comments on the [the post](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/#commento).
 
 Katya said:
 

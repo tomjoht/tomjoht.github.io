@@ -99,7 +99,7 @@ You'll see how the `items`, `file`, and `caption` parameters get populated into 
 ## Step 4: Populate the table with your YAML data
 
 Now comes the fun part: Use Liquid to populate the template with your table data. You might want to see my [YAML tutorial in the context of Jekyll
-](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial.html) for some more basic tutorials to start.
+](/documentation-theme-jekyll/mydoc_yaml_tutorial.html) for some more basic tutorials to start.
 
 Here's how I loop through my table data in this example:
 

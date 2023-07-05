@@ -85,7 +85,7 @@ In addition to putting the OpenAPI specification at the center of the API lifecy
 
 <figure><a href="https://developer.shopgate.com/docs/"><img alt="Shopgate docs" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shopgate.png" class="noExtIcon" /></a><figcaption>You can integrate your reference and non-reference documentation in Stoplight's hosted doc solution. Integrating these two content types has been a longtime challenge for tech writers in the API doc space.</figcaption></figure>
 
-Stoplight also allows you to create variables to use in *both* your specification and your how-to docs. Stoplight plans to take re-use one step further by allowing re-use of your [spec's component definitions](https://idratherbewriting.com/learnapidoc/pubapis_openapi_step5_components_object.html) in your [non-reference documentation](docnonref.html) as well. (But this feature is still forthcoming.)
+Stoplight also allows you to create variables to use in *both* your specification and your how-to docs. Stoplight plans to take re-use one step further by allowing re-use of your [spec's component definitions](/learnapidoc/pubapis_openapi_step5_components_object.html) in your [non-reference documentation](docnonref.html) as well. (But this feature is still forthcoming.)
 
 Although I generally like working directly in the code, I've found that Stoplight lets me focus more on the content and less on the details of the spec's format. Ideally, you can probably get developers and other project team members to populate reference content in Stoplight themselves, since this is an activity that needs to happen much earlier in the API design process anyway.
 

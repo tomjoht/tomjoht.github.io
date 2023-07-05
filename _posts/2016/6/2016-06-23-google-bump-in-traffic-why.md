@@ -28,9 +28,9 @@ And Searchmetrics:
 
 This is pretty awesome. Good quality content is finally being rewarded. I think Google is trying to weed out all the content-farmed articles that are keyword rich but semantically empty. (I seem to get daily requests to publish these sorts of articles.)
 
-Last January, when I poured through my 2015 metrics, I noticed a slight downward trend in the readership of my blog. (See my post, [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/).)
+Last January, when I poured through my 2015 metrics, I noticed a slight downward trend in the readership of my blog. (See my post, [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/).)
 
-The downward trend was slight and not easy to analyze. Was I not posting as much as the previous year? Were readers getting tired of "blogs"? Was there simply more content to read online on other sites? Who knew. Someone even suggested that my focus on API documentation was turning off readers. Actually, my [Swagger Tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is my top most viewed page on my site, with 40,700 page views!
+The downward trend was slight and not easy to analyze. Was I not posting as much as the previous year? Were readers getting tired of "blogs"? Was there simply more content to read online on other sites? Who knew. Someone even suggested that my focus on API documentation was turning off readers. Actually, my [Swagger Tutorial](/learnapidoc/pubapis_swagger.html) is my top most viewed page on my site, with 40,700 page views!
 
 {% include ads.html %}
 

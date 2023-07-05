@@ -23,7 +23,7 @@ bitlink: http://bit.ly/ssgtranslationcomplexities
 
 {% include audio.html %}
 
-I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](https://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).
+I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).
 
 Translation is a complex undertaking. In Andrew Etter's [*Modern Technical Writing*](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS?tag=viglink124746-20#nav-subnav), he says translation projects are time-consuming and costly. To quote:
 

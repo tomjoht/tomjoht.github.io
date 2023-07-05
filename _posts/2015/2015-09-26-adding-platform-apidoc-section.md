@@ -9,7 +9,7 @@ description: "I added a section to my API documentation course on native library
 * TOC
 {:toc}
 
-I added a section to my API documentation course on [native library APIs](https://idratherbewriting.com/learnapidoc/nativelibraryapis_overview.html). Check it out and let me know what you think.
+I added a section to my API documentation course on [native library APIs](/learnapidoc/nativelibraryapis_overview.html). Check it out and let me know what you think.
 
 By the way, I'm never quite sure what to call these kinds of APIs, but it seems that "native libraries" is better than either platform APIs, library APIs, or class-based APIs for the following reason:
 

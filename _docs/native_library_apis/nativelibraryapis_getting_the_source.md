@@ -9,7 +9,7 @@ path1: learnapidoc/nativelibraryapis.html
 last-modified: 2020-12-26
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 To understand the documentation for Java APIs, it helps to see the context of what the documentation describes. As such, I created a simple little Java application (called [sample-java-project](https://github.com/tomjoht/sample-java-project)) to demonstrate how the various tags get rendered into the Javadoc.
 
@@ -40,7 +40,7 @@ One of your immediate challenges to editing Javadoc will be to get the source co
     git clone https://github.com/tomjoht/sample-java-project
     ```
 
-    (If you need to review version control basics, see [Version control systems (such as Git)](https://idratherbewriting.com/learnapidoc/pubapis_version_control.html).)
+    (If you need to review version control basics, see [Version control systems (such as Git)](pubapis_version_control.html).)
 
 2.  If you haven't already [downloaded and installed Eclipse](nativelibraryapis_overview.html#eclipse), do so.
 3.  Open Eclipse and go to **File > New > Java Project**.

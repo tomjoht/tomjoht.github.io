@@ -9,7 +9,7 @@ path1: learnapidoc/testingdocs.html
 last-modified: 2018-12-24
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 After setting up your [test environment](testingdocs_test_environment.html), the next step is to test your instructions. This will likely involve testing API endpoints with various parameters along with other configurations. Testing all your docs can be challenging, but it's where you'll get the most useful insights when creating documentation.
 
@@ -30,13 +30,13 @@ When things don't work, you can identify and log bugs in issue tracking systems 
 
 Other times, the bugs are within your documentation. For example, on one project, through testing API calls I realized I had one of my parameters wrong. Instead of `verboseMode`, the parameter was simply `verbose`. This subtle discrepancy is one of those details you don't discover unless you test something, find it doesn't work, and then set about figuring out what's wrong.
 
-If you're testing a REST API, you can submit the test calls using [curl](https://idratherbewriting.com/learnapidoc/docapis_make_curl_call.html), [Postman](https://idratherbewriting.com/learnapidoc/docapis_postman.html), or another REST client. Save the calls so that you can quickly run a variety of scenarios.
+If you're testing a REST API, you can submit the test calls using [curl](docapis_make_curl_call.html), [Postman](docapis_postman.html), or another REST client. Save the calls so that you can quickly run a variety of scenarios.
 
 When you start to run tests and experiments, you'll begin to discover what does and does not work. For example, at one company, after setting up a test system and running some calls, I learned that part of my documentation was unnecessary. I thought that field engineers would need to configure a database with a particular code themselves, when it turned out that IT operations would actually be doing this configuration.
 
 I didn't realize this until I started to ask how to configure the database, and an engineer said that my audience wouldn't be able to do that configuration, so it shouldn't be in the documentation.
 
-It's little things like that, which you learn as you're going through the process yourself, that reinforce the importance of testing your docs. Testing is vital to writing good developer documentation. Never just take an engineer's word for how something works. If you follow this advice and test all your docs, you'll be successful in the API doc field. But if you just transcribe what engineers tell you, you'll basically end up being an engineer's secretary. (For more, see my blog post [How to avoid being a secretary for engineers](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/).)
+It's little things like that, which you learn as you're going through the process yourself, that reinforce the importance of testing your docs. Testing is vital to writing good developer documentation. Never just take an engineer's word for how something works. If you follow this advice and test all your docs, you'll be successful in the API doc field. But if you just transcribe what engineers tell you, you'll basically end up being an engineer's secretary. (For more, see my blog post [How to avoid being a secretary for engineers](/2018/11/19/avoid-being-secretary-for-engineers/).)
 
 ## Going through the whole process
 

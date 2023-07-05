@@ -27,7 +27,7 @@ Although many people offered relevant writer-oriented suggestions, one person ([
 
 I agree. This pretty much cancels out anything like Udemy courses, professional memberships, style guides, screen recording software, or other writerly accoutrements. What's left? You have to get a bit more creative.
 
-Back in 2008, I published [Top 10 Gag Christmas Gifts for Technical Writers](https://idratherbewriting.com/2008/11/30/top-10-christmas-gifts-for-technical-writers/). This time around, I decided to create a holiday list *based on products I personally own*. (By the way, this is a fun, not-so-serious post.) With that introduction, here are my top 10 holiday gifts for technical writers:
+Back in 2008, I published [Top 10 Gag Christmas Gifts for Technical Writers](/2008/11/30/top-10-christmas-gifts-for-technical-writers/). This time around, I decided to create a holiday list *based on products I personally own*. (By the way, this is a fun, not-so-serious post.) With that introduction, here are my top 10 holiday gifts for technical writers:
 
 
 ## 1. Metro Vacuum ED500P DataVac 500-Watt, 75-HP Electric Duster {#duster}

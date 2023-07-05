@@ -22,7 +22,7 @@ YAML is more readable than JSON because it doesn't have any tags. It just uses w
 
 {% include ads.html %}
 
-I created a new tutorial on YAML and added it to my other tutorials that are in my Jekyll project. You can view  my YAML tutorial here: **[YAML tutorial in the context of Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial/)**
+I created a new tutorial on YAML and added it to my other tutorials that are in my Jekyll project. You can view  my YAML tutorial here: **[YAML tutorial in the context of Jekyll](/documentation-theme-jekyll/mydoc_yaml_tutorial/)**
 
 In my tutorial, I show a lot of examples of YAML and how to access the YAML data using Liquid and Jekyll.
 

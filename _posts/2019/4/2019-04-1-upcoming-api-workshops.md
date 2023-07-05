@@ -17,7 +17,7 @@ description: "I'm giving a couple of API workshops soon. The first workshop is A
 
 **Denver workshop (STC Summit) - May 5, 2019**: This workshop is a pre-conference workshop before the regular sessions at the STC Summit begin. It's also a full-day workshop. For details, go to the [Summit Schedule](https://summit.stc.org/schedule/) and expand the *API Documentation Workshop* event. Register through the [STC Summit site](https://summit.stc.org/).
 
-To get a sense of the workshop, see my [API documentation course](https://idratherbewriting.com/learnapidoc/), especially the [workshop activities](https://idratherbewriting.com/learnapidoc/docapis_workshop_activities.html) section.
+To get a sense of the workshop, see my [API documentation course](/learnapidoc/), especially the [workshop activities](/learnapidoc/docapis_workshop_activities.html) section.
 
 I've actually been working on some of my material to include more activities. Also, the content is constantly evolving, and I'm using feedback from each workshop to try to make improvements.
 

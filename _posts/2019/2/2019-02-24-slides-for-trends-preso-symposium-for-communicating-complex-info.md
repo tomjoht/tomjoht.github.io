@@ -24,7 +24,7 @@ You can view the conference program and schedule for the Symposium for Communica
 
 ## My presentation on trends
 
-My presentation was a keynote on tech comm trends called <a href="https://scci2019.weebly.com/keynote.html">Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a>. You can view my slides at [trends-growing-disproportions](https://idratherbewriting.com/trends-growing-disproportions/#/).
+My presentation was a keynote on tech comm trends called <a href="https://scci2019.weebly.com/keynote.html">Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a>. You can view my slides at [trends-growing-disproportions](/trends-growing-disproportions/#/).
 
 <a href="https://idratherbewriting.com/trends-growing-disproportions/#/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sccitrendspresothumb.png" style="max-width: 350px;" /></a>
 

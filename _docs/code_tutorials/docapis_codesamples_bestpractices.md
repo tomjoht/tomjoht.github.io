@@ -10,7 +10,7 @@ path1: learnapidoc/doccode.html
 last-modified: 2019-11-17
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Developer documentation tends to include a lot of code samples. These code samples might not be included with the endpoints you document, but as you create tasks and more sophisticated workflows about how to use the API to accomplish a variety of goals, you'll end up leveraging different endpoints and showing how to address different scenarios. Code tutorials are a crucial part of your user guide.
 
@@ -70,7 +70,7 @@ Your documentation regarding the code should mix code comments with some explana
 
 {% include image_ad_right.html %}
 
-Comments within the code are usually short one-line notes that appear after every 5-10 lines of code. You can follow up this code with more robust explanations in your documentation, but it's ideal to pepper code samples with comments because it puts the explanation next to the code doing the action. This approach of adding brief comments within the code, followed by more robust explanations after the code, aligns with principles of [progressive information disclosure](https://idratherbewriting.com/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) that help align with both advanced and novice user types. In this case, progressive information disclosure means you provide some detail in the context of an activity, and then add links or references for more information if the user needs it.
+Comments within the code are usually short one-line notes that appear after every 5-10 lines of code. You can follow up this code with more robust explanations in your documentation, but it's ideal to pepper code samples with comments because it puts the explanation next to the code doing the action. This approach of adding brief comments within the code, followed by more robust explanations after the code, aligns with principles of [progressive information disclosure](/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) that help align with both advanced and novice user types. In this case, progressive information disclosure means you provide some detail in the context of an activity, and then add links or references for more information if the user needs it.
 
 If you have comments interspersed in code as well as in conceptual sections before or after the code, won't that be somewhat redundant? Not really. Some research about how developers use documentation found that there are two common behaviors: developers who start in code and read higher-level conceptual documentation only as needed (called "opportunistic" behavior). And developers who start in higher-level conceptual documentation before working their way down to code (called "systematic" behavior). Michael Meng, Stephanie Steinhardt, and Andreas Schubert explain:
 
@@ -105,7 +105,7 @@ Ideally, test out all the code samples yourself (or implement a more robust proc
 
 With REST APIs, developers can use pretty much any programming language to make the request. One question will inevitably arise: Should you show code samples that span across several languages? If so, how many languages?
 
-Providing code samples is almost always a good thing, so if you have the bandwidth to show code samples in various languages, go for it. However, providing just one code example in your audience's target language is probably enough. If there isn't a standard language for most users, you could also just provide the curl examples in your docs, and then provide users with a [Postman collection](https://idratherbewriting.com/learnapidoc/docapis_postman.html) or an [OpenAPI specification file](https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html) &mdash; both of these approaches will allow developers to generate code samples in many different languages.
+Providing code samples is almost always a good thing, so if you have the bandwidth to show code samples in various languages, go for it. However, providing just one code example in your audience's target language is probably enough. If there isn't a standard language for most users, you could also just provide the curl examples in your docs, and then provide users with a [Postman collection](docapis_postman.html) or an [OpenAPI specification file](pubapis_openapi_intro.html) &mdash; both of these approaches will allow developers to generate code samples in many different languages.
 
 Remember that each code sample you provide needs to be tested and maintained. When you make updates to your API, you'll need to update each of the code samples across all the different languages. When your API pushes out a new release, you'll need to check all the code samples to make sure the code doesn't break with the changes in the new release (this is called "regression testing" in QA lingo).
 
@@ -155,7 +155,7 @@ The IBM Watson tutorial does an excellent job breaking up the tutorial steps int
 
 ## Code samples for sample weather API
 
-Earlier in the course, we walked through [each element of reference documentation](https://idratherbewriting.com/learnapidoc/docapis_new_endpoint_to_doc.html) for a fictitious new endpoint called `surfreport` in the weather API we were working with. Let's return briefly to that scenario and assume that we also want to add a code tutorial for showing the surfreport on a web page. What might that tutorial look like? Here's an example:
+Earlier in the course, we walked through [each element of reference documentation](docapis_new_endpoint_to_doc.html) for a fictitious new endpoint called `surfreport` in the weather API we were working with. Let's return briefly to that scenario and assume that we also want to add a code tutorial for showing the surfreport on a web page. What might that tutorial look like? Here's an example:
 
 <div class="docSample">
 
@@ -204,11 +204,11 @@ One could go into a lot more detail with the explanation, even going line by lin
 Documenting code can be one of the most challenging aspects of developer documentation. Part of the challenge is that code isn't organized such that a line-by-line (or block-by-block) description makes sense. Variables are often defined first, functions are called that are defined elsewhere, and other aspects are non-linear as well. As you explain the logic, you might find that you're jumping around to different places in the code, not necessarily moving from top to bottom.
 
 {: .tip}
-For a deeper dive into how to document code samples, see my presentation on [Creating code samples for API/SDK documentation](https://idratherbewriting.com/2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/).
+For a deeper dive into how to document code samples, see my presentation on [Creating code samples for API/SDK documentation](/2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/).
 
 ## <i class="fa fa-user-circle"></i> Activity with code samples
 
-With the [open-source project you identified](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html), identify code samples in the API documentation. Answer the following questions:
+With the [open-source project you identified](docapis_find_open_source_project.html), identify code samples in the API documentation. Answer the following questions:
 
 1. Are there code samples provided? In which languages?
 2. How many code samples are there? Lots? Just a few? None?

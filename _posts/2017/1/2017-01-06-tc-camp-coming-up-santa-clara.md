@@ -16,7 +16,7 @@ The TC Camp Unconference is one of my favorite conferences for a number of reaso
 * The audience consists mainly of Bay area tech writers
 * It's free and just 2 miles from my house
 
-To learn more TC Camp, see the previous interview I did with Liz Fraley: [Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, TC Camp Founder](https://idratherbewriting.com/2016/01/06/tc-camp-unconference-interview-with-liz-fraley/)
+To learn more TC Camp, see the previous interview I did with Liz Fraley: [Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, TC Camp Founder](/2016/01/06/tc-camp-unconference-interview-with-liz-fraley/)
 
 Before the unconference, several morning workshops are held (for minimal fees). Additionally, the day before the conference, on January 20, [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/), president of SDK Bridge and author of four online courses on writing API documentation on Udemy, each of which I have reviewed on this site ([1][1], [2][2], [3][3], [4][4]), will be giving a full-day [API workshop](http://www.tccamp.org/2016/12/api-workshop-tc-camp-west-2017/). This workshop is a great opportunity to learn API documentation from a guru in the field.
 

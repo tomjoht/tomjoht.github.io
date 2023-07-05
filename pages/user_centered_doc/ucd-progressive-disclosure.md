@@ -11,7 +11,7 @@ sidebar: user_centered_doc_principles
 
 > Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels of navigation.
 
-See [Applying Progressive Information Disclosure to Online Help Navigation](https://idratherbewriting.com/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) for more details.
+See [Applying Progressive Information Disclosure to Online Help Navigation](/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) for more details.
 
 {% include ads.html %}
 

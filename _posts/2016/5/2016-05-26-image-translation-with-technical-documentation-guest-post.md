@@ -26,7 +26,7 @@ The problem is that some image types are meaningless when the text is removed. T
 
 ## 2. Text in the image?
 
-My previous post ([11 images issues for tech doc systems](https://idratherbewriting.com/2016/05/26/image-handling-strategies-guest-post/)) explored some of the challenges inherent in handling images in technical documentation.
+My previous post ([11 images issues for tech doc systems](/2016/05/26/image-handling-strategies-guest-post/)) explored some of the challenges inherent in handling images in technical documentation.
 
 Unless you're writing very image-intense documentation, you're probably using a system that does not include all the image information.
 

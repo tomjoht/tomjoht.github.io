@@ -9,7 +9,7 @@ description: "I'm going to focus on writing more pages than posts. Given how few
 * TOC
 {:toc}
 
-I'm thinking about leaning toward a shorter style for blog posts. Lately I've been focusing a lot of energy on developing an [API documentation course](https://idratherbewriting.com/learnapidoc/), so although it may not appear as if I'm posting as much, I'm actually writing quite a bit here.
+I'm thinking about leaning toward a shorter style for blog posts. Lately I've been focusing a lot of energy on developing an [API documentation course](/learnapidoc/), so although it may not appear as if I'm posting as much, I'm actually writing quite a bit here.
 
 The difference between posts and pages on a blog is becoming less important. Posts appear in an RSS feed and are intended as diary-like entries that live on the homepage a few weeks before sliding into oblivion. In contrast, pages are intended to be more permanent.
 

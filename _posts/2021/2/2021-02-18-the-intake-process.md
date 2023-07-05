@@ -36,8 +36,8 @@ The trick to being a more efficient technical writer is to put more of the docum
 
 This is why your intake form should be as specific as possible. For example, see these two sections for more elaboration on sample intake questions/fields:
 
-* [small requests intake questions](https://idratherbewriting.com/learnapidoc/docapis_managing_small_doc_requests.html#intake-template-for-small-requests)
-* [large requests intake questions](https://idratherbewriting.com/learnapidoc/docapis_managing_doc_projects.html#create_project_plans)
+* [small requests intake questions](/learnapidoc/docapis_managing_small_doc_requests.html#intake-template-for-small-requests)
+* [large requests intake questions](/learnapidoc/docapis_managing_doc_projects.html#create_project_plans)
 
 The more information you can gather from requesters, the better positioned you'll be to take action in an efficient way.
 

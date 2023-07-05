@@ -23,6 +23,6 @@ As for what I'd like to accomplish and experience professionally, that is a toug
 
 {% include ads.html %}
 
-On a more practical level, I would like to use my creative skills to finish the course on [API documentation](https://idratherbewriting.com/learnapidoc/) that I started. Although I have a lot of content, I'm only about half way there. I need to layer it with stronger conceptual content, visuals, and not get so sidetracked into specific technologies. I want to record videos with the content (including green screens, teleprompters, and illustrations), and I want to deliver it in an engaging way.
+On a more practical level, I would like to use my creative skills to finish the course on [API documentation](/learnapidoc/) that I started. Although I have a lot of content, I'm only about half way there. I need to layer it with stronger conceptual content, visuals, and not get so sidetracked into specific technologies. I want to record videos with the content (including green screens, teleprompters, and illustrations), and I want to deliver it in an engaging way.
 
 I would also like to help my wife find more professional fulfillment. She's spent the last decade being a stay-at-home mom for our four kids, and now she's re-entered the workforce as an admin assistant at Stanford. I'd really like to see her get a masters degree in a field she enjoys and find a job doing something that engages her.

@@ -10,7 +10,7 @@ bitlink: http://bit.ly/balancingwritingeditinglearning
 * TOC
 {:toc}
 
-Lately I've been focusing on refining the content on my [API documentation site](https://idratherbewriting.com/learnapidoc/). I'm trying to finalize the content to publish the material as a Kindle book and a downloadable PDF. As part of the content refinement, I've been updating tutorials, screenshots, and other information. I've been fine-tuning the organization and sequence, assessing and adjusting content, and most of all, editing, editing, editing. During this time, I haven't been writing much new content (other than the [OpenAPI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html), which I already mentioned last week).
+Lately I've been focusing on refining the content on my [API documentation site](/learnapidoc/). I'm trying to finalize the content to publish the material as a Kindle book and a downloadable PDF. As part of the content refinement, I've been updating tutorials, screenshots, and other information. I've been fine-tuning the organization and sequence, assessing and adjusting content, and most of all, editing, editing, editing. During this time, I haven't been writing much new content (other than the [OpenAPI tutorial](/learnapidoc/pubapis_openapi_tutorial_overview.html), which I already mentioned last week).
 
 Overall, I'm feeling pretty confident about where I'm at with the content. For the most part, I think I nailed it in terms of what I've chosen to cover and write about. My goal is to finalize the book by the end of the year and then start on a new one.
 

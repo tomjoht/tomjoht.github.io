@@ -55,6 +55,6 @@ Some topics covered during the podcast include the following:
 * [DocBook or DITA for technical writing - What is the difference in 2020?](https://paligo.net/blog/single-sourcing/docbook-or-dita-for-technical-writing-what-is-the-difference-in-2020/)
 * [Old HAT: time to switch from a Help Authoring Tool to a CCMS?](https://paligo.net/blog/single-sourcing/old-hat-time-to-switch-from-a-help-authoring-tool-to-a-ccms/)
 
-Also see this post I wrote about Paligo back in 2016: [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/).
+Also see this post I wrote about Paligo back in 2016: [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/).
 
 *Note that Paligo is one of the sponsors of my site.*

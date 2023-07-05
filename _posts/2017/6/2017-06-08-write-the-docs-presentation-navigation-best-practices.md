@@ -62,4 +62,4 @@ To watch other Write the Docs 2017 Portland conferences videos, see the [this pl
 
 To learn more about the Portland Write the Docs conference, see [writethedocs.org/conf/na/2017/](http://www.writethedocs.org/conf/na/2017/).
 
-If you missed my conference write-up, see [Impressions from the Write the Docs Conference -- and thoughts on achieving sustainability without selling out to vendors](https://idratherbewriting.com/2017/05/23/write-the-docs-and-the-battle-against-vendor-evil/).
+If you missed my conference write-up, see [Impressions from the Write the Docs Conference -- and thoughts on achieving sustainability without selling out to vendors](/2017/05/23/write-the-docs-and-the-battle-against-vendor-evil/).

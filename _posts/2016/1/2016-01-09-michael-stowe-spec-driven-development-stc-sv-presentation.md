@@ -44,4 +44,4 @@ To learn more, see the following:
 
 ## Other resources
 
-Previously I recorded a podcast with Michael Stowe about [spec-driven development and RAML here](https://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/). If API documentation and specifications are topics that interest you, definitely check out the podcast.
+Previously I recorded a podcast with Michael Stowe about [spec-driven development and RAML here](/2015/10/12/spec-driven-design-podcast-michael-stowe/). If API documentation and specifications are topics that interest you, definitely check out the podcast.

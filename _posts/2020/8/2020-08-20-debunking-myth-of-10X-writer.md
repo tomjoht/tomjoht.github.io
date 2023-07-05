@@ -17,7 +17,7 @@ One of my favorite podcasts is [Command Line Heroes](https://www.redhat.com/en/c
 
 <a href="https://www.redhat.com/en/command-line-heroes/season-5/what-kind-of-coder-will-you-become"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/commandlineheroes.png" alt="What Kind of Coder Will You Become?" /></a>
 
-This episode prompted me to rethink a post I wrote a while back called [How to become a 10X technical writer in the workplace](https://idratherbewriting.com/2019/02/07/how-to-become-a-10x-technical-writer-in-the-workplace/), which received a lot of clicks. (Side note: I actually don't have any substantial 10X productivity tips in that post, unfortunately. My best productivity tip is here: [Writing productivity tip: Focus sessions](https://idratherbewriting.com/blog/writing-productivity-through-focus-sessions/) &mdash; the tip to achieve productivity is to simply spend 4 hours a day writing docs.)
+This episode prompted me to rethink a post I wrote a while back called [How to become a 10X technical writer in the workplace](/2019/02/07/how-to-become-a-10x-technical-writer-in-the-workplace/), which received a lot of clicks. (Side note: I actually don't have any substantial 10X productivity tips in that post, unfortunately. My best productivity tip is here: [Writing productivity tip: Focus sessions](/blog/writing-productivity-through-focus-sessions/) &mdash; the tip to achieve productivity is to simply spend 4 hours a day writing docs.)
 
 ## The 10X Myth
 

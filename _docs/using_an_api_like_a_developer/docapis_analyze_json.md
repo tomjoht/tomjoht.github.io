@@ -12,7 +12,7 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2019-01-01
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 JSON is the most common format for responses from REST APIs. Let's look at the JSON response for the OpenWeatherMap weather endpoint in more depth, distinguishing between arrays and objects in JSON.
 

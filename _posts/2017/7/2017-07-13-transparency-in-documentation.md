@@ -98,7 +98,7 @@ In the reasons for my uneasiness with information filtering, I think my Mormon b
 
 Here's another potential reason for uneasiness: I'm also a blogger, and  all good bloggers place a high sense of value on transparency. Transparency is what earns your trust with readers.
 
-Back in 2009, I wrote a series of posts about the "7 Deadly Sins of Blogging." I said Sin #1 was [Being fake](https://idratherbewriting.com/2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/). In the post, I quote a pro blogger who explains that trust is the blogger's currency. Tony Hung explains:
+Back in 2009, I wrote a series of posts about the "7 Deadly Sins of Blogging." I said Sin #1 was [Being fake](/2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/). In the post, I quote a pro blogger who explains that trust is the blogger's currency. Tony Hung explains:
 
 > At the end of the day, trust is the only real currency in the blogosphere, and people who read blogs have the expectation that they're getting at the truth — in whatever form the truth is to them. And because there is the presumption of truth, readers will often react in an intense fashion to being manipulated, hoodwinked, and otherwise bamboozled. [The Rules Behind Creating a Great Blog](https://problogger.com/the-rules-behind-creating-a-great-blog/)
 

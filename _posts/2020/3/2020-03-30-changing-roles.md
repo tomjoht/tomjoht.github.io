@@ -164,4 +164,4 @@ EMBED_PARAMS.border = "hidden";
 
 By the way, I hope to record more podcasts. This was an experiment in that I recorded the podcast *before* writing the blog post. I don't think it worked &mdash; I prefer to refine the blog post first and then spin off a podcast from it.
 
-I like listening to podcasts a lot as well, and there are some excellent podcasts out there. I recently posted about my favorite podcasts, so if you missed that post, check out [Tech comm podcasts are growing -- here's a list](https://idratherbewriting.com/blog/tech-comm-podcasts-are-growing/). If you subscribe to all of these podcasts, you'll find topics that interest you.
+I like listening to podcasts a lot as well, and there are some excellent podcasts out there. I recently posted about my favorite podcasts, so if you missed that post, check out [Tech comm podcasts are growing -- here's a list](/blog/tech-comm-podcasts-are-growing/). If you subscribe to all of these podcasts, you'll find topics that interest you.

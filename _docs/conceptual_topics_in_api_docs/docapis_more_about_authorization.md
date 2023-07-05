@@ -8,7 +8,7 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2019-03-30
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Before users can make requests with your API, they'll usually need to register for an API key or learn other ways to authenticate the requests. APIs vary in the way they authenticate users. Some APIs require you to include an API key in the request header, while other APIs require elaborate security due to the need to protect sensitive data, prove identity, and ensure the requests aren't tampered with. In this section, you'll learn more about authentication and authorization and what you should focus on in documentation.
 
@@ -180,7 +180,7 @@ Like Twitter, Dropbox also uses OAuth 2.0. Their documentation includes not just
 
 ## <i class="fa fa-user-circle"></i> Activity with authorization
 
-With the [open-source project you identified](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html), identify the information about authorization for requests to the API. Answer the following questions:
+With the [open-source project you identified](docapis_find_open_source_project.html), identify the information about authorization for requests to the API. Answer the following questions:
 
 1. What kind of authorization is required to make requests to the API?
 2. Are there different access levels within the authorization (for example, free versus pro tiers) that determine how many requests you can make or the types of information you can access?

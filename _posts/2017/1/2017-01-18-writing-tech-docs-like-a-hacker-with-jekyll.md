@@ -19,7 +19,7 @@ podcast_length: 51863807
 
 ## Slides
 
-You can view the [slides here](https://idratherbewriting.com/files/jekyllwritetechdocslikehackerstc/#/).
+You can view the [slides here](/files/jekyllwritetechdocslikehackerstc/#/).
 
 ## Video recording
 

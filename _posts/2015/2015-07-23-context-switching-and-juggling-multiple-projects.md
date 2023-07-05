@@ -53,7 +53,7 @@ It's why I said that, ideally, I'd like to stay focused on the same project &mda
 
 However, sometimes this mental reset might be a good thing when it comes to technical writing. If you get too mired in assumptions and other details, so much that you've become numb to them because you're so familiar with them, it may lead to poor documentation.
 
-The best documentation happens right in the space between familiarity and unfamiliarity, when you're aware enough to understand but not hampered by the [curse of knowledge](https://idratherbewriting.com/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/). The mental reset might help you see the product from a fresh perspective.
+The best documentation happens right in the space between familiarity and unfamiliarity, when you're aware enough to understand but not hampered by the [curse of knowledge](/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/). The mental reset might help you see the product from a fresh perspective.
 
 In a way, it's like taking the 20 pages of your novel that you've just written and putting them in a drawer for a week. You need that space to really reboot/refresh/wipe-clean your previous perspective and see the content anew. In fact, it's probably a good idea to work on multiple writing projects at once for exactly this same reason.
 

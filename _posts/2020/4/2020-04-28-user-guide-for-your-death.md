@@ -53,7 +53,7 @@ I did complete a basic will online and downloaded the PDF it generates. I'm fine
 
 ## Writing an obituary
 
-Another detail family members will need to do is write an obituary. Actually, publishing obituaries in newspapers costs hundreds of dollars (I thought they were free). But even if you just want a short obituary to publish in a memorial service brochure, someone will have to write it, and they will need some basic facts. Here is the [short obituary I wrote about my dad](https://idratherbewriting.com/blog/obituary-for-my-dad-1935-2018/). Writing the obituary is therapeutic and emotional, but there are also factual details to include:
+Another detail family members will need to do is write an obituary. Actually, publishing obituaries in newspapers costs hundreds of dollars (I thought they were free). But even if you just want a short obituary to publish in a memorial service brochure, someone will have to write it, and they will need some basic facts. Here is the [short obituary I wrote about my dad](/blog/obituary-for-my-dad-1935-2018/). Writing the obituary is therapeutic and emotional, but there are also factual details to include:
 
 * Dates and places of birth
 * Names of parents and siblings

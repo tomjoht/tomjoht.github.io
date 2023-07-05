@@ -70,7 +70,7 @@ You asked some other questions:
 
 <b>Are there any technical writing certifications that I can do?</b>
 
-Yes, there are many online tech comm programs. See this [guest post by Laura Palmer on taking courses in technical writing](https://idratherbewriting.com/2014/03/07/do-i-need-to-take-courses-in-technical-writing-guest-post-by-laura-palmer/). My opinion is that tech comm programs make sense early on in your career, when you're young and have opportunity to get formal education. However, today you can learn everything you need to learn online by yourself. If you're a self-learner, the potential for learning is limitless.
+Yes, there are many online tech comm programs. See this [guest post by Laura Palmer on taking courses in technical writing](/2014/03/07/do-i-need-to-take-courses-in-technical-writing-guest-post-by-laura-palmer/). My opinion is that tech comm programs make sense early on in your career, when you're young and have opportunity to get formal education. However, today you can learn everything you need to learn online by yourself. If you're a self-learner, the potential for learning is limitless.
 
 <b>What technical writing tools can I learn on my own in my spare time?</b>
 
@@ -91,14 +91,14 @@ Try taking these two Udemy courses by Peter Gruenbaum:
 
 Also see my online content on similar topics:
 
-* [Documenting REST APIs](https://idratherbewriting.com/learnapidoc/)
-* [Publishing REST API Documentation](https://idratherbewriting.com/learnapidoc/publishingapis.html)
+* [Documenting REST APIs](/learnapidoc/)
+* [Publishing REST API Documentation](/learnapidoc/publishingapis.html)
 
 You can learn a lot about APIs by simply using them. Using an API will help you practice your technical skills as well.
 
 <b>What programming languages should I learn in order to become a successful, high-earning technical writer?</b>
 
-If your husband knows Java, you've got a great resource to teach you right at home. Also see this topic from my API doc survey: [The most common programming languages tech writers know](https://idratherbewriting.com/2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/).
+If your husband knows Java, you've got a great resource to teach you right at home. Also see this topic from my API doc survey: [The most common programming languages tech writers know](/2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/).
 
 It's hard to learn a programming language if you're not regularly using it, though. I think I've learned Java twice now and forgotten 50% of it each time, since I don't use it regularly.
 

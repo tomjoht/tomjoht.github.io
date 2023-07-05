@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2020-11-18
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Although you already [reviewed some of your docs](docapis_review_processes.html) prior to release with internal stakeholders, after you publish the content you now need to pivot to collecting feedback from external users post-release across your entire landscape of docs. Collecting feedback post-release involves a host of new challenges and processes that I haven't yet covered, such as how to optimize your feedback form, how to account for random externally driven requests across your dev portal, how to process the feedback from incoming requests, and so on.
 

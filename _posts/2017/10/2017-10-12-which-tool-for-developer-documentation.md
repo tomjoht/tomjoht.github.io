@@ -15,7 +15,7 @@ A reader asks:
 
 > I'm an aspiring technical writer and I'm taking courses for a Masters in Tech Comm. What software tools do you think a freelance writer should own to be successful.  Should I own MadCap and Framemaker? My goal is to write API docs for developers.
 
-Great question. Finding the right authoring tools for developer documentation, specifically documenting APIs, is a topic I touch upon briefly in my [API course](https://idratherbewriting.com/learnapidoc/pubapis_overview.html). The short answer is that there are many different tools for creating documentation, and there's no clear industry standard in this space. You'd be better off devoting time to deepening your technical background with programming languages and technical concepts rather than focusing on doc tools.
+Great question. Finding the right authoring tools for developer documentation, specifically documenting APIs, is a topic I touch upon briefly in my [API course](/learnapidoc/pubapis_overview.html). The short answer is that there are many different tools for creating documentation, and there's no clear industry standard in this space. You'd be better off devoting time to deepening your technical background with programming languages and technical concepts rather than focusing on doc tools.
 
 Different tools may better suit different environments, skill sets, and products. Currently I'm using [Jekyll](http://jekyllrb.com/) and have been for several years. At my work, we recently completed an engineering integration where we build and deploy Jekyll's web output directly from the server. This is the docs-as-code tooling approach.
 
@@ -31,7 +31,7 @@ If you want to pursue the docs-as-code route, you could use a number of tools be
 
 In this same category of static-site-generator tools, there are also many hosted options for developer docs. [Readthedocs.com](https://readthedocs.com/), [Forestry.io](https://forestry.io/), [CloudCannon](https://cloudcannon.com/) are all excellent choices. Also check out [Readme.com](http://readme.com/). If your company allows you to use third-party hosting for your content and you have budget, I'd recommend this route instead of trying to build your own theme.
 
-If you're documenting REST APIs, definitely check out the [OpenAPI specification](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) and [SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html). Find a doc tool that supports the OpenAPI specification.
+If you're documenting REST APIs, definitely check out the [OpenAPI specification](/learnapidoc/pubapis_swagger_intro.html) and [SwaggerHub](/learnapidoc/pubapis_swaggerhub_smartbear.html). Find a doc tool that supports the OpenAPI specification.
 
 If you have more robust requirements around translation and content re-use, you might want to use a more traditional help authoring tool that excels in this area. Both Madcap Software's Flare and Adobe's Tech Comm Suite are widely used tools in the tech comm industry because they handle just about every tech comm scenario you will encounter. If you're trying to ramp up your tech comm skill set to look attractive to employers, familiarity with these tools will make you better qualified for a broader number of jobs.
 

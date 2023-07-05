@@ -10,7 +10,7 @@ path1: learnapidoc/docconceptual.html
 last-modified: 2019-03-30
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Quick reference guides serve a different function than [getting started tutorials](docapis_doc_getting_started_section.html). While the getting started tutorial helps beginners get oriented by providing an end-to-end instruction to make a simple API request, the quick reference guide helps users get a glimpse of the system as a whole, often by providing a list of the API's endpoints.
 
@@ -28,7 +28,7 @@ The quick reference guide should provide the user with just enough information t
 {% comment %}Leave image path as is. Otherwise, when generating ebooks, the site.api_media property becomes blank and Kindlegen looks for this asset locally, returning error. {% endcomment %}
 <figure><a target="_blank" class="noExtIcon" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/sample_api_diagram.pdf"><img class="docimage medium" src="{{site.api_media}}/sample_api_diagram.png" alt="Sample quick reference guide format" /></a><figcaption>A quick reference guide format</figcaption></figure>
 
-The text is Latin filler for privacy reasons, so the logic may not be entirely apparent. But with this API, the endpoints could be organized into different groups. Some of the groups had multiple levels within the endpoint, and multiple include options for each endpoint. I created this diagram in Adobe Illustrator and distributed it as a PDF. Developers found it useful because it tried to make sense of the API as a whole, showing how all the endpoints fit together in logical harmony. Most commonly with API documentation, the quick reference guide lists abbreviated descriptions of the endpoints. For this reason, the [Swagger UI output](https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.html) can often function as a quick reference guide.
+The text is Latin filler for privacy reasons, so the logic may not be entirely apparent. But with this API, the endpoints could be organized into different groups. Some of the groups had multiple levels within the endpoint, and multiple include options for each endpoint. I created this diagram in Adobe Illustrator and distributed it as a PDF. Developers found it useful because it tried to make sense of the API as a whole, showing how all the endpoints fit together in logical harmony. Most commonly with API documentation, the quick reference guide lists abbreviated descriptions of the endpoints. For this reason, the [Swagger UI output](pubapis_swagger_demo.html) can often function as a quick reference guide.
 
 Outside of API documentation, quick reference guides tend to focus more on tasks. If you have a service to set up or configure, a more narrative rather than visual format might make sense. Here's a sample layout for such a guide:
 
@@ -51,7 +51,7 @@ For a deep dive into the importance of distilling information for users, see [Re
 
 Distilling large amounts of information into concisely worded titles, summaries, headings, mini-TOCs, and topic sentences can facilitate information consumption and comprehension. Quick reference guides take the principle of distillation to another level by compressing the whole system into a bite-sized information deliverable.
 
-Quick reference guides are like the [poetry of technical writing](https://idratherbewriting.com/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/). The goal is not just to be brief or concise. With poetry, the poet attempts to evoke a mood or paint a moment, and in that brief moment, capture the essence of the whole. Writing a quick reference guide involves much the same effort. It's not that you merely cut words to make the documentation shorter, or restrict the output to a few topics, but that you try to compress the documentation as a whole and express its minimalist equivalent.
+Quick reference guides are like the [poetry of technical writing](/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/). The goal is not just to be brief or concise. With poetry, the poet attempts to evoke a mood or paint a moment, and in that brief moment, capture the essence of the whole. Writing a quick reference guide involves much the same effort. It's not that you merely cut words to make the documentation shorter, or restrict the output to a few topics, but that you try to compress the documentation as a whole and express its minimalist equivalent.
 
 I'll grant that the task is probably impossible for technical material. Still, the attempt is worthwhile and the philosophy remains the same. Quick reference guides teach each us how to use the system in 5 minutes rather than 5 hours. It's a philosophy of simplification and linguistic efficiency.
 
@@ -77,7 +77,7 @@ There's a certain understanding you get from seeing all the endpoints at a glanc
 
 The quick reference for Parse is similar to Eventful in that it's a long list of endpoints, this time grouped in tables. Notice that this quick reference page is just a section within one long, single page of docs. In their approach, all documentation is on the same page, but as you scroll down, different entries in the sidebar highlight.
 
-Sometimes developers like the one-page approach because it reduces information fragmentation and lets them use Ctrl+F to find all instances of a keyword. I explored the tradeoffs in this one-page approach in [Single-page docs versus "Click Insanity."](https://idratherbewriting.com/2014/01/12/single-page-docs-versus-click-insanity/)
+Sometimes developers like the one-page approach because it reduces information fragmentation and lets them use Ctrl+F to find all instances of a keyword. I explored the tradeoffs in this one-page approach in [Single-page docs versus "Click Insanity."](/2014/01/12/single-page-docs-versus-click-insanity/)
 
 If you use the [OpenAPI reference docs on GitHub](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md), you'll notice the docs are also contained on a single page. Developers might like to use Ctrl+F to quickly see all instances of a topic. However, I'm not a fan of single-page documentation like this because it provides a lot of visual complexity for users to sort out.
 
@@ -95,7 +95,7 @@ This quick reference guide is handy because it lets you browse all the available
 
 ## <i class="fa fa-user-circle"></i> Activity with quick reference guides
 
-With the [open-source project you identified](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html), identify the information about quick reference guides for the API. Answer the following questions:
+With the [open-source project you identified](docapis_find_open_source_project.html), identify the information about quick reference guides for the API. Answer the following questions:
 
 1. Is there a quick reference guide for the API? Perhaps a quick list of the API endpoints?
 2. Is there a Swagger UI output that acts as a quick reference for the API?

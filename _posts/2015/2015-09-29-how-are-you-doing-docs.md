@@ -13,7 +13,7 @@ A reader asks,
 
 >How are you publishing and delivering your documentation these days?
 
-As far as publishing, I'm using [Jekyll](http://jekyllrb.com) with [this doc theme](https://idratherbewriting.com/documentation-theme-jekyll/) I created. (You can see the [Github source here](https://github.com/tomjoht/documentation-theme-jekyll).)
+As far as publishing, I'm using [Jekyll](http://jekyllrb.com) with [this doc theme](/documentation-theme-jekyll/) I created. (You can see the [Github source here](https://github.com/tomjoht/documentation-theme-jekyll).)
 
 To deliver the content, I have several channels. For internal audiences, I upload the HTML output onto an internal server using FTP. For external audiences, I upload the HTML output into a [site.com repository on Salesforce](https://help.salesforce.com/HTViewHelpDoc?id=siteforce_overview.htm). This is because the content must be authenticated for access, and our users already access Salesforce to submit tickets and get files, so adding documentation there seemed natural.
 
@@ -23,7 +23,7 @@ The delivery setup is okay but not ideal. Uploading content onto Salesforce is t
 
 If I didn't have to worry about authentication, I'd use Github as a repository and [Github Pages](https://pages.github.com/) to build the Jekyll sites from commits to the repository. That's the approach I use for publishing my blog, and it's great not having to reupload the entire site each time I make an update. I just commit to Github, and hooks in Github build my Jekyll site. This approach may not work so well with multiple outputs defined by multiple configuration files, though.
 
-If you require authentication, another approach would be to use [CloudCannon](http://cloudcannon.com) to connect to Github repositories. CloudCannon will automatically rebuild your Jekyll site when you commit a change to your Github repository. I created a tutorial for setting that up [here](https://idratherbewriting.com/learnapidoc/pubapis_static_site_generators.html).
+If you require authentication, another approach would be to use [CloudCannon](http://cloudcannon.com) to connect to Github repositories. CloudCannon will automatically rebuild your Jekyll site when you commit a change to your Github repository. I created a tutorial for setting that up [here](/learnapidoc/pubapis_static_site_generators.html).
 
 Additionally, you can protect your output hosted on CloudCannon through usernames and passwords, or through [onelogin.com](http://onelogin.com/). In fact, onelogin looks like a great way to authenticate users, except that it costs $2 per user per month (which seems like a lot if you have a lot of users).
 

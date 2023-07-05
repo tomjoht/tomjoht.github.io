@@ -27,7 +27,7 @@ podcast_length: 49595665
 
 ## Slides
 
-My slides are here: [idratherbewriting.com/intro-to-api-documentation](https://idratherbewriting.com/intro-to-api-documentation/index.html).
+My slides are here: [idratherbewriting.com/intro-to-api-documentation](/intro-to-api-documentation/index.html).
 
 <a href="https://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsv-intro-api-doc.png" style="border: 1px solid #dedede"/></a>
 
@@ -43,17 +43,17 @@ Here's the presentation description:
 >
 > At its core, REST API documentation focuses on requests and responses. You describe the various endpoints available, their methods, parameters, and other details, and you also document sample responses from the endpoints. To test the endpoints, you often make sample requests using tools such as cURL and Postman.
 >
-> In this presentation, you’ll learn what a REST API is, the 8 essential sections in endpoint reference documentation, and how to test and analyze API requests. You can find more details in my [API documentation course here](https://idratherbewriting.com/learnapidoc/).
+> In this presentation, you’ll learn what a REST API is, the 8 essential sections in endpoint reference documentation, and how to test and analyze API requests. You can find more details in my [API documentation course here](/learnapidoc/).
 
 Note that this presentation is geared towards beginners, not advanced gurus who have worked on API doc projects for a number of years.
 
 {% include ads.html %}
 
-Also, I don't cover any new material that isn't already in my [API documentation course](https://idratherbewriting.com/learnapidoc/). Specifically, I briefly cover these first 3 sections from my API doc course:
+Also, I don't cover any new material that isn't already in my [API documentation course](/learnapidoc/). Specifically, I briefly cover these first 3 sections from my API doc course:
 
-* [Introduction to REST APIs](https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html)
-* [Using a REST API as a developer](https://idratherbewriting.com/learnapidoc/likeadeveloper.html)
-* [Documenting endpoints](https://idratherbewriting.com/learnapidoc/docendpoints.html)
+* [Introduction to REST APIs](/learnapidoc/docapis_introtoapis.html)
+* [Using a REST API as a developer](/learnapidoc/likeadeveloper.html)
+* [Documenting endpoints](/learnapidoc/docendpoints.html)
 
 To learn more about the Silicon Valley chapter of the STC, see [http://www.stc-siliconvalley.org](http://www.stc-siliconvalley.org).
 

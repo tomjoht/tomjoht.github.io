@@ -9,7 +9,7 @@ path1: learnapidoc/docapis_managing_doc_processes.html
 last-modified: 2021-08-29
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Getting a good handle on your release process &mdash; such as understanding the cadence of releases, how features are tracked and tagged in different phases, and other checkpoints prior to the release signoff &mdash; is central to thriving in any documentation role. Providing doc coverage for each release ensures you don't accrue documentation debt, and it boosts user satisfaction for the new features being released.
 
@@ -56,7 +56,7 @@ Here's where you have some options for a doc coverage goal. You could expand the
 
 {% include random_ad3.html %}
 
-I know that the features I personally test usually end up with much better documentation. While it might seem like a given that tech writers [test all the features they document](https://idratherbewriting.com/learnapidoc/testingdocs.html), that's hardly the case. The setup and execution of the features often requires extensive engineering knowledge and expertise. If you're working in dev docs, testing each feature is a feat unto itself.
+I know that the features I personally test usually end up with much better documentation. While it might seem like a given that tech writers [test all the features they document](testingdocs.html), that's hardly the case. The setup and execution of the features often requires extensive engineering knowledge and expertise. If you're working in dev docs, testing each feature is a feat unto itself.
 
 ## Conclusion
 

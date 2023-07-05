@@ -14,6 +14,6 @@ Here are the slides:
 
 <a href="https://idratherbewriting.com/files/apiworkshopslidesstc/" target="\_blank"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docrestapisstcanaheim.png" | prepend: site.baseurl }}"/></a>
 
-You can find more detail in my [API doc course](https://idratherbewriting.com/learnapidoc/). (These slides are slightly updated from some of the topics in my course, but generally the slide number in the heading title corresponds with the course number.)
+You can find more detail in my [API doc course](/learnapidoc/). (These slides are slightly updated from some of the topics in my course, but generally the slide number in the heading title corresponds with the course number.)
 
 {% include ads.html %}

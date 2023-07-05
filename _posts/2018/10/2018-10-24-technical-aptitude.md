@@ -21,7 +21,7 @@ podcast_length: 11586969
 
 ## The unresolved debate between being a specialist or generalist
 
-After I gave a [recent presentation on trends](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/), some of the attendees felt I left the dilemma between being a specialist or a generalist unresolved. Some said, "So, should I be a specialist or a generalist, and if I specialize, what should I focus on?"
+After I gave a [recent presentation on trends](/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/), some of the attendees felt I left the dilemma between being a specialist or a generalist unresolved. Some said, "So, should I be a specialist or a generalist, and if I specialize, what should I focus on?"
 
 Others were incensed that I wasn't considering language expertise to count as specialized knowledge. I knew this was a controversial subject, and I would no doubt anger people off because to suggest that their writing expertise doesn't count as specialized knowledge in the same light as engineering specializations.
 

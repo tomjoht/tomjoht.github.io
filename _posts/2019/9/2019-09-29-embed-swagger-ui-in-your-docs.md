@@ -73,8 +73,8 @@ Continuing on with the script, the `toggleClass` function looks for the `contain
 
 When you click the Nav button again, the same function removes the injected classes. For more details, check out the source code of my [Swagger UI Demo](/learnapidoc/pubapis_swagger_demo.html) on [GitHub here](https://github.com/tomjoht/learnapidoc/blob/master/_docs/rest_api_specifications/pubapis_swagger_demo.html).
 
-(By the way, a community user contributed this Nav technique as an enhancement to my [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/).)
+(By the way, a community user contributed this Nav technique as an enhancement to my [Jekyll documentation theme](/documentation-theme-jekyll/).)
 
 Overall, I like this approach because it lets you render the content using Swagger UI and incorporate it in with your other docs, but you can escape the website-within-a-website look by expanding it in place.
 
-You can see other strategies for integrating Swagger with the rest of your docs [here](https://idratherbewriting.com/learnapidoc/pubapis_combine_swagger_and_guide.html).
+You can see other strategies for integrating Swagger with the rest of your docs [here](/learnapidoc/pubapis_combine_swagger_and_guide.html).

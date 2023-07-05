@@ -43,7 +43,7 @@ If you just want the audio, here it is:
 
 ## Post series
 
-For a series of posts on this topic, see [A hypothesis about influence on the web and the workplace](https://idratherbewriting.com/web-and-workplace-influence/part1-introduction-to-influencers.html).
+For a series of posts on this topic, see [A hypothesis about influence on the web and the workplace](/web-and-workplace-influence/part1-introduction-to-influencers.html).
 
 ## Learn more about MEGAComm
 

@@ -9,7 +9,7 @@ path1: learnapidoc/publishingapis.html
 last-modified: 2019-08-21
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 One of the first considerations to make when you think about API doc tooling is who will be doing the writing. If technical writers will create all the documentation, the choice of tools may not matter as much. But if developers will be contributing to the docs, it's generally advantageous to integrate your authoring and publishing tools into the developer's toolchain and workflow. Developer-centric tools for documentation are often referred to as docs-as-code tools. Docs-as-code tools are much more common than traditional help authoring tools (HATs) with API documentation.
 
@@ -60,7 +60,7 @@ Just because you *can* manage docs like code, should you? What exactly are the a
 If you work with developer documentation, chances are you'll be working on a wide variety of deeply technical topics and will be reliant on engineers to contribute and review the docs. Many times developer documentation is so complex, only developers can really write and review it. Unless you have a background in engineering, understanding all the details in programming, server configuration, or other technical platforms may be beyond your ability to document (without a lot of research, interviewing, and careful note taking).
 
 {: .tip}
-See my post [What technical writing trends will we see in 2018?](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/) for a description of how specialization is forcing technical writers to play more of a generalist role with content.
+See my post [What technical writing trends will we see in 2018?](/2018/01/02/technical-writing-trends-2018-and-2017-review/) for a description of how specialization is forcing technical writers to play more of a generalist role with content.
 
 Additionally, some developers prefer just to write the doc themselves. If a developer is the audience, and another developer is the writer, chances are they can cut through some of the guesswork about assumptions, prerequisite knowledge, and accuracy. In short, in some API documentation contexts, developers write the content. This fact alone is enough to make the case for adopting a docs-as-code approach.
 
@@ -68,7 +68,7 @@ Most developers are comfortable with Markdown, enjoy being able to work in their
 
 {% include random_ad4.html %}
 
-Granted, engineers who write documentation often fall prey to the [curse of knowledge](https://idratherbewriting.com/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/). That is, the more they know about a topic, the more assumptions and background information they have getting in the way of clear communication. Even so, technical writers may not always have the time to write documentation for engineering topics. In many cases, a development group that has an API might not even have a technical writer available. Developers might handle everything, from coding to docs.
+Granted, engineers who write documentation often fall prey to the [curse of knowledge](/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/). That is, the more they know about a topic, the more assumptions and background information they have getting in the way of clear communication. Even so, technical writers may not always have the time to write documentation for engineering topics. In many cases, a development group that has an API might not even have a technical writer available. Developers might handle everything, from coding to docs.
 
 {% include ads.html %}
 

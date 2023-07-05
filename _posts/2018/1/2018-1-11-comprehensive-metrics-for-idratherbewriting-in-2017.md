@@ -18,7 +18,7 @@ From Jan 1, 2017, to Dec 31, 2017, idratherbewriting.com had about 845,000 page 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
 
-(There was a slight dip mid-year because I split out the [API doc site](https://idratherbewriting.com/learnapidoc/) into a separate Jekyll project and didn't have analytics configured correctly for a couple of months.)
+(There was a slight dip mid-year because I split out the [API doc site](/learnapidoc/) into a separate Jekyll project and didn't have analytics configured correctly for a couple of months.)
 
 Here's another slice of analytics focusing more on audience:
 
@@ -112,16 +112,16 @@ There were at least 66,000 more page views in 2017 than in 2016.
 
 These were the most viewed posts in 2017:
 
-* [Technical Writing Trends and Predictions for 2017](https://idratherbewriting.com/2017/01/28/technical-writing-trends-for-2017/) (1,952 words, no graphic)
-* [Amazon begins pilot with voice-interactive user manuals](https://idratherbewriting.com/2017/04/01/voice-interactive-manuals/) (1,334 words, graphics)
-* [The problem with Frequently Asked Questions (FAQs) in documentation](https://idratherbewriting.com/2017/06/23/why-tech-writers-hate-faqs/) (1,281 words, graphics)
-* [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) (4,293 words, podcast)
-* [How do you learn what you need to learn to be successful as a technical writer?](https://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/) (2,695 words, podcast)
-* [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (1,163 words)
-* [Limits to the idea of treating docs as code](https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/) (2,099 words, graphic)
-* [Tech docs and Agile: Alternatives to integrating into engineering Scrums (Part 2)](https://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/) (3,991 words, podcast)
-* [Why simple language isn't so simple: the struggle to create plain language in documentation](https://idratherbewriting.com/2017/07/27/why-simple-language-isnt-so-simple/) (4,023 words, graphic, podcast)
-* [Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective](https://idratherbewriting.com/2017/08/05/why-stack-overflow-documentation-effort-failed/) (1,676 words, podcast)
+* [Technical Writing Trends and Predictions for 2017](/2017/01/28/technical-writing-trends-for-2017/) (1,952 words, no graphic)
+* [Amazon begins pilot with voice-interactive user manuals](/2017/04/01/voice-interactive-manuals/) (1,334 words, graphics)
+* [The problem with Frequently Asked Questions (FAQs) in documentation](/2017/06/23/why-tech-writers-hate-faqs/) (1,281 words, graphics)
+* [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) (4,293 words, podcast)
+* [How do you learn what you need to learn to be successful as a technical writer?](/2017/02/24/how-to-learn-what-you-need-to-learn/) (2,695 words, podcast)
+* [Simplified Technical English and HyperSTE](/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (1,163 words)
+* [Limits to the idea of treating docs as code](/2017/06/02/when-docs-are-not-like-code/) (2,099 words, graphic)
+* [Tech docs and Agile: Alternatives to integrating into engineering Scrums (Part 2)](/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/) (3,991 words, podcast)
+* [Why simple language isn't so simple: the struggle to create plain language in documentation](/2017/07/27/why-simple-language-isnt-so-simple/) (4,023 words, graphic, podcast)
+* [Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective](/2017/08/05/why-stack-overflow-documentation-effort-failed/) (1,676 words, podcast)
 
 Average word count: 2,451
 
@@ -129,18 +129,18 @@ Average word count: 2,451
 
 These are the most viewed posts of all time (since I started blogging in 2006):
 
-* [10 realizations as I was creating my Swagger spec and Swagger UI](https://idratherbewriting.com/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/) (2,615 words, graphics)
-* [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](https://idratherbewriting.com/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/) (1,988 words)
-* [Quick Reference Guides: Short and Sweet Documentation](https://idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/) (3,135 words, no graphics)
-* [Swagger tutorial for REST API documentation](https://idratherbewriting.com/2015/09/14/swagger-tutorial/) (routing page only, not really a post.)
-* [Are Certificate Programs Helpful for Transitioning into Technical Writing?](https://idratherbewriting.com/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/) (562 words, graphic)
-* [The Name of Your Department Does Matter](https://idratherbewriting.com/2008/12/04/the-name-of-your-department-does-matter/) (623 words)
-* [Five Skills Every Technical Writer Needs](https://idratherbewriting.com/2007/09/26/five-skills-every-technical-writer-needs/) (524 words)
-* [Technical Writing Trends and Predictions for 2017](https://idratherbewriting.com/2017/01/28/technical-writing-trends-for-2017/) (1,940 words)
-* [Quick Reference Guide Formats -- Tips for Finding Attractive Layouts](https://idratherbewriting.com/2008/12/31/quick-reference-guide-formats-tips-for-finding-attractive-layouts/) (346 words)
-* [40 Foundational Books for Technical Writing](https://idratherbewriting.com/2010/09/10/40-foundational-books-for-technical-writing/) (1,300 words)
+* [10 realizations as I was creating my Swagger spec and Swagger UI](/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/) (2,615 words, graphics)
+* [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/) (1,988 words)
+* [Quick Reference Guides: Short and Sweet Documentation](/2009/04/10/quick-reference-guides-short-and-sweet-documentation/) (3,135 words, no graphics)
+* [Swagger tutorial for REST API documentation](/2015/09/14/swagger-tutorial/) (routing page only, not really a post.)
+* [Are Certificate Programs Helpful for Transitioning into Technical Writing?](/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/) (562 words, graphic)
+* [The Name of Your Department Does Matter](/2008/12/04/the-name-of-your-department-does-matter/) (623 words)
+* [Five Skills Every Technical Writer Needs](/2007/09/26/five-skills-every-technical-writer-needs/) (524 words)
+* [Technical Writing Trends and Predictions for 2017](/2017/01/28/technical-writing-trends-for-2017/) (1,940 words)
+* [Quick Reference Guide Formats -- Tips for Finding Attractive Layouts](/2008/12/31/quick-reference-guide-formats-tips-for-finding-attractive-layouts/) (346 words)
+* [40 Foundational Books for Technical Writing](/2010/09/10/40-foundational-books-for-technical-writing/) (1,300 words)
 
-These posts are largely the same as in [2016](https://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/).
+These posts are largely the same as in [2016](/2017/01/17/trends-2017-swagger-all-the-way/).
 
 Average word count: 1,448
 
@@ -148,18 +148,18 @@ Average word count between top 10 posts in 2017 and top 10 posts of all time: **
 
 ## Top 10 pages on API documentation site
 
-These are the top 10 pages on my [API documentation site](https://idratherbewriting.com/learnapidoc/).
+These are the top 10 pages on my [API documentation site](/learnapidoc/).
 
-* [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) (1,954 words, graphics)
-* [Documenting APIs: A guide for technical writers](https://idratherbewriting.com/learnapidoc/) (1,265 words, graphics)
-* [Submit requests through Postman](https://idratherbewriting.com/learnapidoc/docapis_postman.html) (1,371 words, graphics)
-* [Introduction to the OpenAPI specification and Swagger](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) (3,997 words, graphics)
-* [Overview of REST API specification formats](https://idratherbewriting.com/learnapidoc/pubapis_rest_specification_formats.html) (566 words)
-* [Use the JSON from the response payload](https://idratherbewriting.com/learnapidoc/docapis_json_console.html) (1,008 words, graphics)
-* [Flickr example: Retrieve a Flickr gallery](https://idratherbewriting.com/learnapidoc/docapis_flickr_example.html) (1,256 words, graphics)
-* [Step 3: Parameters (API reference tutorial)](https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html) (2,014 words, graphics)
-* [OpenAPI 3.0 tutorial overview](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html) (1,498 words)
-* [RAML tutorial](https://idratherbewriting.com/learnapidoc/pubapis_raml.html) (1,580 words, graphics)
+* [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (1,954 words, graphics)
+* [Documenting APIs: A guide for technical writers](/learnapidoc/) (1,265 words, graphics)
+* [Submit requests through Postman](/learnapidoc/docapis_postman.html) (1,371 words, graphics)
+* [Introduction to the OpenAPI specification and Swagger](/learnapidoc/pubapis_swagger_intro.html) (3,997 words, graphics)
+* [Overview of REST API specification formats](/learnapidoc/pubapis_rest_specification_formats.html) (566 words)
+* [Use the JSON from the response payload](/learnapidoc/docapis_json_console.html) (1,008 words, graphics)
+* [Flickr example: Retrieve a Flickr gallery](/learnapidoc/docapis_flickr_example.html) (1,256 words, graphics)
+* [Step 3: Parameters (API reference tutorial)](/learnapidoc/docapis_doc_parameters.html) (2,014 words, graphics)
+* [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview.html) (1,498 words)
+* [RAML tutorial](/learnapidoc/pubapis_raml.html) (1,580 words, graphics)
 
 Average word count: 1,651 words
 
@@ -167,16 +167,16 @@ Average word count: 1,651 words
 
 These are the top 10 pages on my site altogether, excluding blog posts and excluding pages from the API documentation site.
 
-* [Quick Reference Guide Templates](https://idratherbewriting.com/quickreferenceguides/) (989 words, graphics)
-* [JavaScript: Events and Listeners](https://idratherbewriting.com/events-and-listeners-javascript/) (967 words)
-* [Beginners category](https://idratherbewriting.com/category-beginners/) (not a post)
-* [About me](https://idratherbewriting.com/aboutme/) (815 words, graphics)
-* [Contact me](https://idratherbewriting.com/contact/) (not a post)
-* [About Jekyll](https://idratherbewriting.com/about-jekyll/) (252 words)
-* [Java: Share files with others using Git and Github](https://idratherbewriting.com/java-share-files/) (632 words)
-* [Podcasts category](https://idratherbewriting.com/category-podcasts/) (not a post)
-* [Java: Javadoc tags](https://idratherbewriting.com/java-javadoc-tags/) (2,065 words)
-* [Introduction to User-Centered Documentation](https://idratherbewriting.com/ucd-introduction/) (501 words, graphics)
+* [Quick Reference Guide Templates](/quickreferenceguides/) (989 words, graphics)
+* [JavaScript: Events and Listeners](/events-and-listeners-javascript/) (967 words)
+* [Beginners category](/category-beginners/) (not a post)
+* [About me](/aboutme/) (815 words, graphics)
+* [Contact me](/contact/) (not a post)
+* [About Jekyll](/about-jekyll/) (252 words)
+* [Java: Share files with others using Git and Github](/java-share-files/) (632 words)
+* [Podcasts category](/category-podcasts/) (not a post)
+* [Java: Javadoc tags](/java-javadoc-tags/) (2,065 words)
+* [Introduction to User-Centered Documentation](/ucd-introduction/) (501 words, graphics)
 
 Average word count: 889 words
 
@@ -184,47 +184,47 @@ Average word count between top 10 pages on the API doc site and top 10 pages on 
 
 ## Top 10 podcasts
 
-These were my top 10 [podcasts](https://idratherbewriting.com/category-podcasts/).
+These were my top 10 [podcasts](/category-podcasts/).
 
-* [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) (2,675 downloads, 35:03 min.)
-* [Recording of User-Centered Design Principles for Organizing Documentation](https://idratherbewriting.com/2017/02/18/design-principles-organizing-docs/) (2,269 downloads, 57:58 min.)
-* [Why simple language isn't so simple: the struggle to create plain language in documentation](https://idratherbewriting.com/2017/07/27/why-simple-language-isnt-so-simple/) (2,055 downloads, 30:11 min.)
-* [Tech docs and Agile: Alternatives to integrating into engineering Scrums (Part 2)](https://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/) (1,949 downloads, 31:07 min.)
-* [Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective](https://idratherbewriting.com/2017/08/05/why-stack-overflow-documentation-effort-failed/) (1,754 downloads, 12:08 min.)
-* [When the pain of ignorance exceeds the pain of learning](https://idratherbewriting.com/2017/07/23/pain-of-ignorance-versus-pain-of-learning/) (1,734 downloads, 17:51 min.)
-* [Has plain language deepened or ruined our delight in language?](https://idratherbewriting.com/2017/09/20/plain-language-ruined-my-delight-in-language/) (1,733 downloads, 18:06 min.)
-* [Recording: Modern Technical Writing, by Andrew Etter (STC Silicon Valley chapter)](https://idratherbewriting.com/2017/01/24/modern-technical-writing-andrew-etter-presentation/) (1,456 downloads, 1:02:00 min.)
-* [Recording: Writing tech docs like a hacker with Jekyll](https://idratherbewriting.com/2017/01/18/writing-tech-docs-like-a-hacker-with-jekyll/) (1,519 downloads, 59:18 min.)
-* [Transparency in documentation: dealing with limits about what you can and cannot say](https://idratherbewriting.com/2017/07/13/transparency-in-documentation/) (1,198 downloads, 18:27 min.)
+* [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) (2,675 downloads, 35:03 min.)
+* [Recording of User-Centered Design Principles for Organizing Documentation](/2017/02/18/design-principles-organizing-docs/) (2,269 downloads, 57:58 min.)
+* [Why simple language isn't so simple: the struggle to create plain language in documentation](/2017/07/27/why-simple-language-isnt-so-simple/) (2,055 downloads, 30:11 min.)
+* [Tech docs and Agile: Alternatives to integrating into engineering Scrums (Part 2)](/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/) (1,949 downloads, 31:07 min.)
+* [Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective](/2017/08/05/why-stack-overflow-documentation-effort-failed/) (1,754 downloads, 12:08 min.)
+* [When the pain of ignorance exceeds the pain of learning](/2017/07/23/pain-of-ignorance-versus-pain-of-learning/) (1,734 downloads, 17:51 min.)
+* [Has plain language deepened or ruined our delight in language?](/2017/09/20/plain-language-ruined-my-delight-in-language/) (1,733 downloads, 18:06 min.)
+* [Recording: Modern Technical Writing, by Andrew Etter (STC Silicon Valley chapter)](/2017/01/24/modern-technical-writing-andrew-etter-presentation/) (1,456 downloads, 1:02:00 min.)
+* [Recording: Writing tech docs like a hacker with Jekyll](/2017/01/18/writing-tech-docs-like-a-hacker-with-jekyll/) (1,519 downloads, 59:18 min.)
+* [Transparency in documentation: dealing with limits about what you can and cannot say](/2017/07/13/transparency-in-documentation/) (1,198 downloads, 18:27 min.)
 
 Average length: 32 min.
 
-The [Write the Docs podcasts](http://podcast.writethedocs.org/) didn't have nearly as many hits. The highest show, [Write the Docs Podcast #3 - Trends for 2017](https://idratherbewriting.com/2017/02/03/wtd-podcast-trends-2017/), had just 587 downloads. The average number of downloads was 300-400 per episode.
+The [Write the Docs podcasts](http://podcast.writethedocs.org/) didn't have nearly as many hits. The highest show, [Write the Docs Podcast #3 - Trends for 2017](/2017/02/03/wtd-podcast-trends-2017/), had just 587 downloads. The average number of downloads was 300-400 per episode.
 
 I didn't realize that, for a popular podcast, all you really need to do is read your posts.
 
 ## Number of posts written
 
-I wrote just 72 posts this year. In 2016, I wrote 96 posts. In 2015, I wrote 145 posts. In 2014, I wrote 117 posts. In 2013, I wrote 88 posts. However, I probably added 25 pages to my [API documentation site](https://idratherbewriting.com/learnapidoc/) this year, so the numbers probably balance out.
+I wrote just 72 posts this year. In 2016, I wrote 96 posts. In 2015, I wrote 145 posts. In 2014, I wrote 117 posts. In 2013, I wrote 88 posts. However, I probably added 25 pages to my [API documentation site](/learnapidoc/) this year, so the numbers probably balance out.
 
 ## Percent of traffic to API doc site versus regular site
 
-In 2017, my [API documentation site](https://idratherbewriting.com/learnapidoc/) received 309,000 visits out of the 845,000 overall visits. This is about 36% of the traffic to my site.
+In 2017, my [API documentation site](/learnapidoc/) received 309,000 visits out of the 845,000 overall visits. This is about 36% of the traffic to my site.
 
 ## Top 10 most-linked-to pages
 
 There are 35,408 backlinks pointing to my site. Pages with the most links pointing to them are as follows:
 
-* [I'd Rather Be Writing (homepage)](https://idratherbewriting.com/)	(18,876 backlinks, not a post)
+* [I'd Rather Be Writing (homepage)](/)	(18,876 backlinks, not a post)
 * [Jekyll category](/category-jekyll/	2,466	 backlinks) (not a post)
 * [Jekyll Documentation Theme](/documentation-theme-jekyll/)	(1,151 backlinks, 2,576 words)
-* [Misconceptions about Topic-Based Authoring](https://idratherbewriting.com/2012/07/31/misconceptions-about-topic-based-authoring/)	(703	backlinks, 1,970 words)
-* [Why is TC Camp's unconference format so popular? Interview with Liz Fraley, TC Camp Founder](https://idratherbewriting.com/2017/12/22/tc-camp-unconference-interview-with-liz-fraley/)	(359 backlinks, 1,739 words)
-* [Discoveries and realizations while walking down the Docs-as-Code path](https://idratherbewriting.com/2017/08/23/content-architecture-and-repo-sizes/)	(294 backlinks, 3,342 words)
-* [About me](https://idratherbewriting.com/aboutme/)	(286 backlinks, 815 words)
-* [Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective](https://idratherbewriting.com/2017/08/05/why-stack-overflow-documentation-effort-failed/)	(255 backlinks, 1,676 words)
-* [Convert Google Docs content to Markdown or HTML using the gd2md-html add-on](https://idratherbewriting.com/2017/09/22/convert-google-docs-to-markdown/)	(235 backlinks, 345 words)
-* [Translating with the New Madcap Lingo V2](https://idratherbewriting.com/2009/02/24/translating-with-the-new-madcap-lingo-v2/) (215 backlinks, 940 words)
+* [Misconceptions about Topic-Based Authoring](/2012/07/31/misconceptions-about-topic-based-authoring/)	(703	backlinks, 1,970 words)
+* [Why is TC Camp's unconference format so popular? Interview with Liz Fraley, TC Camp Founder](/2017/12/22/tc-camp-unconference-interview-with-liz-fraley/)	(359 backlinks, 1,739 words)
+* [Discoveries and realizations while walking down the Docs-as-Code path](/2017/08/23/content-architecture-and-repo-sizes/)	(294 backlinks, 3,342 words)
+* [About me](/aboutme/)	(286 backlinks, 815 words)
+* [Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective](/2017/08/05/why-stack-overflow-documentation-effort-failed/)	(255 backlinks, 1,676 words)
+* [Convert Google Docs content to Markdown or HTML using the gd2md-html add-on](/2017/09/22/convert-google-docs-to-markdown/)	(235 backlinks, 345 words)
+* [Translating with the New Madcap Lingo V2](/2009/02/24/translating-with-the-new-madcap-lingo-v2/) (215 backlinks, 940 words)
 
 Average word count: 1,490
 
@@ -272,7 +272,7 @@ Top countries performing searches:
 
 ## Visits to Jekyll theme
 
-Mid-way through the year, I started tracking hits on my [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/). There were 73,000 page views.
+Mid-way through the year, I started tracking hits on my [Jekyll documentation theme](/documentation-theme-jekyll/). There were 73,000 page views.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalyticsjekylltheme.png" />
 
@@ -298,11 +298,11 @@ These topics seem to matter most to technical communicators:
 
 Why these topics? Maybe just as end-users search for answers related to their "pain points," tech comm readers also search for answers to their pain points. Perhaps we have questions, challenges, or other issues with these topics that make them particularly [painfully] relevant.
 
-[Agile](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) is a hot button for tech writers, probably because of all the problems tech writers face in trying to integrate into the agile flow. [Swagger and OpenAPI specifications](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) are hot topics too because they are confusing and difficult to implement. Writers care about [language and simplicity](https://idratherbewriting.com/2017/09/20/plain-language-ruined-my-delight-in-language/) yet probably struggle to capture the readability they feel capable of achieving. [Topics for beginners](https://idratherbewriting.com/category-beginners/) are also popular no doubt because of the difficulty of breaking into the field.
+[Agile](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) is a hot button for tech writers, probably because of all the problems tech writers face in trying to integrate into the agile flow. [Swagger and OpenAPI specifications](/learnapidoc/pubapis_swagger_intro.html) are hot topics too because they are confusing and difficult to implement. Writers care about [language and simplicity](/2017/09/20/plain-language-ruined-my-delight-in-language/) yet probably struggle to capture the readability they feel capable of achieving. [Topics for beginners](/category-beginners/) are also popular no doubt because of the difficulty of breaking into the field.
 
 (By the way, analytics data explains "what is," not "why." We supply the reasoning behind the data mostly through speculation.)
 
-Given the popularity of these topics, should I focus my blog more squarely on these topics of high interest? If I wanted to increase site traffic, these techniques might build more readership, more search results clicks, and more overall visits. Throughout 2017, based on [learnings from 2016](https://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/), I did massively rewrite and expand on the [Swagger](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) and [OpenAPI content](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html) in my API doc site. I focused a bit on [agile](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) and [trends](https://idratherbewriting.com/2017/01/28/technical-writing-trends-for-2017/) as well in blog posts.
+Given the popularity of these topics, should I focus my blog more squarely on these topics of high interest? If I wanted to increase site traffic, these techniques might build more readership, more search results clicks, and more overall visits. Throughout 2017, based on [learnings from 2016](/2017/01/17/trends-2017-swagger-all-the-way/), I did massively rewrite and expand on the [Swagger](/learnapidoc/pubapis_swagger_intro.html) and [OpenAPI content](/learnapidoc/pubapis_openapi_tutorial_overview.html) in my API doc site. I focused a bit on [agile](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) and [trends](/2017/01/28/technical-writing-trends-for-2017/) as well in blog posts.
 
 But if I only write towards what's popular, the trajectory of my content becomes more like an annoying tennis game where the players move one step closer to each other with each hit. For example, suppose based on my metrics, I write about what gets the most hits &mdash; trends. The new trends post goes viral and drives more traffic. I write another post on trends. Bang, even more hits. Now I'm getting asked to speak on trends and people perceive me as a trends expert. In time, my blog is now reframed as "Technical Writing Trends." When people think of technical writing trends, they think of Tom Johnson. Is that what I want? Which audience am I writing for? And what audience am I missing by not addressing other topics? What about all the readers for, say, science communication?
 
@@ -312,7 +312,7 @@ If it so happens that others have similar interests and questions, then great, w
 
 In 2018, I want to align myself with who I authentically am &mdash; in ways that I've never done before. This might involve me challenging more assumptions, being creatively introspective. Inside I am a curious, philosophically wandering sort of contrarian person. In 2018, I'd like to tease more of that curiosity out to the surface.
 
-Last year, I had a [similar debate](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/#strategies-for-brand-or-strategies-for-more-readership) about writing for "readership" or writing for "brand." I concluded that writing for beginners (hence readership) would draw more traffic, but writing about API doc would establish my brand as an expert. I did the latter, and yes, it largely had the effect I wanted -- all my posts about API doc has helped position me as an expert in this area.
+Last year, I had a [similar debate](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/#strategies-for-brand-or-strategies-for-more-readership) about writing for "readership" or writing for "brand." I concluded that writing for beginners (hence readership) would draw more traffic, but writing about API doc would establish my brand as an expert. I did the latter, and yes, it largely had the effect I wanted -- all my posts about API doc has helped position me as an expert in this area.
 
 ### Realization #2: Popular post titles include contrarian trigger words
 
@@ -329,7 +329,7 @@ Does the data here mean that I should write more about swagger, agile, trends, p
 
 Hmmm, *I* would click on each of these articles. So maybe there is something to this game. Put the right topic keywords with the right contrarian trigger words in your title, and you've got a great hook. I'm not sure how long game can last ([linkbait titles](http://linkbaitgenerator.com/marketing/index.php) have to actually deliver on the promise), but it might be fun.  (Can you tell where I got the motivation for my current post's title?)
 
-In 2008, I observed that the most popular posts have lists in the titles, but I decided that making laundry lists of everything was artificial and suggested superficial thinking rather than deeper structured arguments (see [Three Notable Characteristics of Top 10 Posts: Lists, Headings, Images](https://idratherbewriting.com/2008/01/09/three-notable-characteristics-of-top-10-posts-lists-headings-images/)).
+In 2008, I observed that the most popular posts have lists in the titles, but I decided that making laundry lists of everything was artificial and suggested superficial thinking rather than deeper structured arguments (see [Three Notable Characteristics of Top 10 Posts: Lists, Headings, Images](/2008/01/09/three-notable-characteristics-of-top-10-posts-lists-headings-images/)).
 
 ### Realization #3: The ideal content length is ... long (1,600+ words)
 
@@ -355,16 +355,16 @@ Here's their graphic:
 
 A few years ago, I engaged in endless debates about the ideal length of content for documentation. See these posts as examples of the content length debate:
 
-* [Why Long Topics Are Better for the User](https://idratherbewriting.com/2013/05/06/why-long-topics-are-better-for-the-user/)  
-* [Do Short Topics Make Information More Findable?](https://idratherbewriting.com/2013/05/05/do-short-topics-make-information-more-findable/)
-* [Does DITA Encourage Authors to Fragment Information into a Million Little Pieces?](https://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/) (this one, by the way, generated a ton of controversy)
+* [Why Long Topics Are Better for the User](/2013/05/06/why-long-topics-are-better-for-the-user/)  
+* [Do Short Topics Make Information More Findable?](/2013/05/05/do-short-topics-make-information-more-findable/)
+* [Does DITA Encourage Authors to Fragment Information into a Million Little Pieces?](/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/) (this one, by the way, generated a ton of controversy)
 
-I'm not sure we need to debate the length question anymore. We can now use "content science" to analyze the common characteristics of the most popular content online. We don't have to conclude debates of "how long should a topic be" with answers like "it depends." The results are in. Longer is usually better. Shoot for 1,600 words but don't be afraid to jack it up 2-3 times that. (My [value arguments post](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part1/) was nearly 9,000 words long, but broken up into a series, which makes more sense to me.)
+I'm not sure we need to debate the length question anymore. We can now use "content science" to analyze the common characteristics of the most popular content online. We don't have to conclude debates of "how long should a topic be" with answers like "it depends." The results are in. Longer is usually better. Shoot for 1,600 words but don't be afraid to jack it up 2-3 times that. (My [value arguments post](/2017/12/28/value-of-tech-comm-in-company-part1/) was nearly 9,000 words long, but broken up into a series, which makes more sense to me.)
 
 Not yet convinced? You're reading a post that is about 4,500 words long. Let's expand the data:
 
-* For the top 10 posts of 2015, the average word count was 1,450. (See [Top 10 posts in 2016](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/).)
-* For the top 10 posts of 2014, the average word count was 1,289 words. (See [Top 10 posts, podcasts, tweets of 2014](https://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/).)
+* For the top 10 posts of 2015, the average word count was 1,450. (See [Top 10 posts in 2016](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/).)
+* For the top 10 posts of 2014, the average word count was 1,289 words. (See [Top 10 posts, podcasts, tweets of 2014](/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/).)
 
 I think in earlier years, I was following the model that online content should be short, but gradually I started writing longer posts. Long-form content (1,200 + words up to 5,000 +) is clearly trending. In [How to Use Long Form Content to Skyrocket Your Search Rankings,](http://www.jeffbullas.com/long-form-content/) the author notes that a study by Backlinko "found that on average, the sites occupying the first page of Google contain about 1,890 words hence." The author cites another study by serpIQ that looked at top results from Google and had similar findings &mdash; "on average, posts with over 2,000 words are ranking much higher than shorter form posts." Here's the author's graph:
 
@@ -413,6 +413,6 @@ What will you see in 2018 from my blog? I'll finish up my API documentation cont
 
 For similar posts analyzing metrics, see the following:
 
-* [Three Notable Characteristics of Top 10 Posts: Lists, Headings, Images](https://idratherbewriting.com/2008/01/09/three-notable-characteristics-of-top-10-posts-lists-headings-images/)
-* [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/)
-* [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](https://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/)
+* [Three Notable Characteristics of Top 10 Posts: Lists, Headings, Images](/2008/01/09/three-notable-characteristics-of-top-10-posts-lists-headings-images/)
+* [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/)
+* [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/)

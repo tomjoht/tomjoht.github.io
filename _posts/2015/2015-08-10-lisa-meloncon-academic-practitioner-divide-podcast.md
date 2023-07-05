@@ -122,5 +122,5 @@ Practitioners should also respect academics more, recognizing that the job acade
 * [@lmel0ncon](http://twitter.com/lmeloncon)
 * [Lisa Meloncon's website and blog](http://tek-ritr.com/)
 * [Intersections at the Ivory Tower](http://tek-ritr.com/intersections-at-the-ivory-tower/)
-* [Why is there a divide between academics and practitioners in tech comm?](https://idratherbewriting.com/2015/08/05/acadmic-and-practitioner-divide/)
+* [Why is there a divide between academics and practitioners in tech comm?](/2015/08/05/acadmic-and-practitioner-divide/)
 * [Lisa's U. of Cincinnatti About page](http://www.artsci.uc.edu/departments/english/profiles/lisa_meloncon.html)

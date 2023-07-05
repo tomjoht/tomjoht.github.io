@@ -18,11 +18,11 @@ podcast_length: 9559698
 
 {% include audio.html %}
 
-I published the recording of the API documentation workshop that I recently gave in Menlo Park (on Nov 8, 2018). You can view the recordings on my API documentation site here: [Recorded Video Presentations](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html#api-workshop-in-menlo-park-california-nov-8-2018).
+I published the recording of the API documentation workshop that I recently gave in Menlo Park (on Nov 8, 2018). You can view the recordings on my API documentation site here: [Recorded Video Presentations](/learnapidoc/docapis_course_videos.html#api-workshop-in-menlo-park-california-nov-8-2018).
 
-This API documentation workshop (which I [mentioned earlier](https://idratherbewriting.com/2018/10/31/upcoming-api-doc-workshop/)) was a full-day workshop, so there are more than 5 hours of recorded material here.
+This API documentation workshop (which I [mentioned earlier](/2018/10/31/upcoming-api-doc-workshop/)) was a full-day workshop, so there are more than 5 hours of recorded material here.
 
-If you're really into workshop recordings, you can also listen to the [Denver API workshop](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html#api-workshop-in-denver-colorado-march-2018) that I gave earlier this year (March 2018).
+If you're really into workshop recordings, you can also listen to the [Denver API workshop](/learnapidoc/docapis_course_videos.html#api-workshop-in-denver-colorado-march-2018) that I gave earlier this year (March 2018).
 
 ## Notes on recording -- cardioid versus omnidirectional
 
@@ -40,6 +40,6 @@ The microphone I use to record my blog posts (like this one) is a [Shure RE20 ca
 
 The Denver API workshop had quite a few views: 2,424 views for Part I, 970 views for Part II, and 433 views for Part III. I expect the Menlo Park API documentation workshop to have similar views, though the view count doesn't matter too much to me.
 
-Why provide free recordings for a paid workshop? As I mentioned in an earlier post ([If writing is no longer a marketable skill, what is?](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/)), traffic to my [API documentation site](/learnapidoc/) is now greater than the traffic to my blog. By putting information assets online for free, it adds to content discovery and visits, which in turn attract advertising and other benefits (like speaking engagements or readers for the API doc book I'm working on).
+Why provide free recordings for a paid workshop? As I mentioned in an earlier post ([If writing is no longer a marketable skill, what is?](/2018/08/09/writing-no-longer-a-skill/)), traffic to my [API documentation site](/learnapidoc/) is now greater than the traffic to my blog. By putting information assets online for free, it adds to content discovery and visits, which in turn attract advertising and other benefits (like speaking engagements or readers for the API doc book I'm working on).
 
 I think the way the Write the Docs conference posts video recordings of their events *but continues to sell out each year* reinforces the fact that people will still come to your event/site even if they can consume the content on YouTube for free.

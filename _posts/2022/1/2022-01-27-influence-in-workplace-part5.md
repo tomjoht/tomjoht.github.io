@@ -50,7 +50,7 @@ Instead, it's more natural to focus on documentation for an upcoming release. Re
 
 If tech writers are focused on what's coming rather than the current user experience, this makes it difficult to focus on current user pain points. However, pushing tech writers to focus more on the current experience would be beneficial, so it might be a good focus anyway. The tech writer's interpretation of user pain points will inevitably connect to documentation needs or efforts.
 
-Another issue with focusing on the curernt user experience is that, sadly, tech writers tend to be disconnected from users. It's not as if you're chatting regularly with users during meetings and other events. I wrote about this challenge here: [Principle 6: Reconstruct the absent user](https://idratherbewriting.com/simplifying-complexity/reconstructing-the-absent-user.html). The main challenge of technical writing is that you're writing for an audience that's mostly absent and disconnected from the writer.
+Another issue with focusing on the curernt user experience is that, sadly, tech writers tend to be disconnected from users. It's not as if you're chatting regularly with users during meetings and other events. I wrote about this challenge here: [Principle 6: Reconstruct the absent user](/simplifying-complexity/reconstructing-the-absent-user.html). The main challenge of technical writing is that you're writing for an audience that's mostly absent and disconnected from the writer.
 
 ### Tech news/trends within the business domain itself
 

@@ -35,4 +35,4 @@ Overall, I highly recommend taking Peter's course. The instruction about REST AP
 
 
 
-For a review of review of Part 1 of Peter's course, see my previous post, [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/).
+For a review of review of Part 1 of Peter's course, see my previous post, [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](/2015/05/22/api-technical-writing-course-on-udemy/).

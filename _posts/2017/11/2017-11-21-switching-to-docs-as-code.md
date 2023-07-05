@@ -10,6 +10,6 @@ bitlink: http://bit.ly/switchtodocsascode
 * TOC
 {:toc}
 
-You can read the article here: [Case study: Switching tools to docs-as-code](https://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html).
+You can read the article here: [Case study: Switching tools to docs-as-code](/learnapidoc/pubapis_switching_to_docs_as_code.html).
 
 {% include ads.html %}

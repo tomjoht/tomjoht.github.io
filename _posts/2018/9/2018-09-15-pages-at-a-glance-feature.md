@@ -23,7 +23,7 @@ Here's a quick demo of "Pages at a glance" with Fire TV:
 
 The idea is that users who see the section title in the sidebar can click the folder title and get a better sense of the folder's contents at a glance. In the section overview, users can view the page title followed by the first two sentences (or 200 characters) of the topic.
 
-This design principle aligns with an article in my Simplifying Complexity series &mdash; specifically, [Principle 4: Reduce and distill vast information down to its essence](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html). (In fact, I even added the "Pages at a glance" explanation into a new section there called ["Showing section summaries at a glance"](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html#summaries_at_a_glance).)
+This design principle aligns with an article in my Simplifying Complexity series &mdash; specifically, [Principle 4: Reduce and distill vast information down to its essence](/simplifying-complexity/reduction-layering-distillation.html). (In fact, I even added the "Pages at a glance" explanation into a new section there called ["Showing section summaries at a glance"](/simplifying-complexity/reduction-layering-distillation.html#summaries_at_a_glance).)
 
 As a general best practice, section summaries follow the idea of progressive information flow to provide users with an increasing amount of detail as desired. The progression goes somewhat like this:
 

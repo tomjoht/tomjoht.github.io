@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 last-modified: 2021-10-15
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 {: .note}
 [Redocly](https://redoc.ly/) offers robust tools for authoring and publishing API docs using the command-line and docs-as-code workflows. For a full tutorial, see [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](pubapis_redocly.html). The tutorial that follows here is a simple way to use the [community/free edition of Redoc](https://github.com/Redocly/redoc).
@@ -62,7 +62,7 @@ In this activity, you'll render your OpenAPI spec with [Redoc](https://github.co
 
 2.  Change the value for `redoc spec-url` to a valid OpenAPI spec that is available at an online URL.
 
-    If you were following the previous tutorial on creating an OpenAPI spec through Stoplight Studio ([Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html)), you can use the OpenAPI URL that Stoplight provides. From your Stoplight Studio display, go to the Overview topic and click **Export OpenAPI**. Choose either original or dereferenced. Copy the URL. Here's an [example URL](https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml).
+    If you were following the previous tutorial on creating an OpenAPI spec through Stoplight Studio ([Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html)), you can use the OpenAPI URL that Stoplight provides. From your Stoplight Studio display, go to the Overview topic and click **Export OpenAPI**. Choose either original or dereferenced. Copy the URL. Here's an [example URL](/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml).
 
     <figure><img src="{{site.api_media}}/export_openapi_stoplight.png" alt="Exporting an OpenAPI URL" class="medium" /><figcaption>Exporting an OpenAPI URL</figcaption></figure>
 

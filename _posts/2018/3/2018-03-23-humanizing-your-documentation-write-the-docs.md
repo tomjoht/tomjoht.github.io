@@ -28,5 +28,5 @@ For more information, see the following:
 
 For some I'd Rather Be Writing posts related to these topics, see:
 
-* [Transparency in documentation: dealing with limits about what you can and cannot say](https://idratherbewriting.com/2017/07/13/transparency-in-documentation/)
-* [Why simple language isn't so simple: the struggle to create plain language in documentation](https://idratherbewriting.com/2017/07/27/why-simple-language-isnt-so-simple/)
+* [Transparency in documentation: dealing with limits about what you can and cannot say](/2017/07/13/transparency-in-documentation/)
+* [Why simple language isn't so simple: the struggle to create plain language in documentation](/2017/07/27/why-simple-language-isnt-so-simple/)

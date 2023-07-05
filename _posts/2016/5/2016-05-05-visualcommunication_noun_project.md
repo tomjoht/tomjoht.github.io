@@ -15,7 +15,7 @@ For the event details, see [Write the Docs meetup](http://www.meetup.com/Write-t
 
 You can view my slides <a href="{{ "/files/professionalgraphics" | prepend: site.baseurl }}">here</a> or just read on below. I've added some more detail to each of the slides.
 
-If you're unfamiliar with lightning talks, they are 5 minute talks, so basically you deliver a single, focused idea in a compressed amount of time. Although I've given more than [75 presentations](https://idratherbewriting.com/presentations/), I had never given a lightning talk.
+If you're unfamiliar with lightning talks, they are 5 minute talks, so basically you deliver a single, focused idea in a compressed amount of time. Although I've given more than [75 presentations](/presentations/), I had never given a lightning talk.
 
 Here's the recording:
 

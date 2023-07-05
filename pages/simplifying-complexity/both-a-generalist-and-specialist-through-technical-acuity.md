@@ -16,13 +16,13 @@ Here's a video of a presentation I gave on this topic in May 2019:
 
 {% include audio.html %}
 
-For details about the presentation, see [this post](https://idratherbewriting.com/blog/tech-comm-trends-stc-puget-sound/).
+For details about the presentation, see [this post](/blog/tech-comm-trends-stc-puget-sound/).
 
 ## Bloggers and trends
 
 As a blogger, I'm conscious of my web analytics (whether metrics from clicks on newsletter articles or visits to pages), since I'm keen to know what topics resonate with readers. Each year I look deeply at analytics and try to gauge what topics I should focus on &mdash; partly to drive more traffic, and partly out of simple curiosity to know what readers click on most. Without a doubt, one topic that gets the most clicks, year and year out, is trends.
 
-Exactly why the topic of trends is so popular, and whether bloggers have any special insight about trends, remains a bit of mystery to me. I've never considered myself an expert on trends, though after I posted my [2018 trends](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/), I literally had three separate groups invite me to speak on the topic. I've noticed that in general, people frequently associate bloggers with the topic of trends, as if trends were intertwined with the blogging brand.
+Exactly why the topic of trends is so popular, and whether bloggers have any special insight about trends, remains a bit of mystery to me. I've never considered myself an expert on trends, though after I posted my [2018 trends](/2018/01/02/technical-writing-trends-2018-and-2017-review/), I literally had three separate groups invite me to speak on the topic. I've noticed that in general, people frequently associate bloggers with the topic of trends, as if trends were intertwined with the blogging brand.
 
 {% include ads.html %}
 
@@ -210,7 +210,7 @@ In a recent issue of *Communication Design Quarterly*, Jennifer Mallette and Meg
 
 Unfortunately, they found that subject-matter expertise was a status not available for tech writers, who were treated with less respect than other SMEs. Anyone could challenge or dismiss the technical writer's decisions about content, as the product owner or engineer ultimately owned the content and carried the authority. Instead, they had to argue the rationale behind decisions, often resorting to making arguments by showing similar approaches in competitor's documentation. This "power hierarchy," where "where communicators are viewed as support or secondary," is somewhat pervasive in the profession. It seems that very few engineers and product managers are willing to grant the holy status of SME to the technical writer.
 
-In my recent blog post, ["If writing is no longer a marketable skill, what is?"](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/), I noted (after comparing web metrics) that writing skills don't seem to sell in the job market, so you have to supplement writing skills with some kind of hybridization to make yourself seem more valuable. I took a poll on my site to see which hybrid job titles were most common, and out of 277 respondents, the top roles were as follows:
+In my recent blog post, ["If writing is no longer a marketable skill, what is?"](/2018/08/09/writing-no-longer-a-skill/), I noted (after comparing web metrics) that writing skills don't seem to sell in the job market, so you have to supplement writing skills with some kind of hybridization to make yourself seem more valuable. I took a poll on my site to see which hybrid job titles were most common, and out of 277 respondents, the top roles were as follows:
 
 * Technical writer/editor (14%)
 * Technical writer/content strategist (7%)
@@ -283,7 +283,7 @@ Looking at diagrams like those in the previous section strikes a bit of terror i
 
 If there's one question that vexes me as a technical writer, it's this: In this era of increasing technological complexity and specialization, is there any room for generalists like me? Do technical writers, who are typically only *familiar* with the subjects we write about, need to become engineer-like specialists, focusing in on a couple of domains in depth, so that we can write, edit, and publish more knowledgeably in these domains? Is specialization the only way to handle complexity? Will I need to become a specialist to survive as a technical writer in the future?
 
-I'm not alone in this feeling of drowning in technology. In surveys I've done in the past, keeping up with the latest technology is one of the primary challenges for technical writers. About a decade ago (in 2007), I had a [virtual chat with a group of tech writers](https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) to find out what their most pressing challenges were. Their most pressing challenges included the following:
+I'm not alone in this feeling of drowning in technology. In surveys I've done in the past, keeping up with the latest technology is one of the primary challenges for technical writers. About a decade ago (in 2007), I had a [virtual chat with a group of tech writers](/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) to find out what their most pressing challenges were. Their most pressing challenges included the following:
 
 > *   "For me, it's keeping up with the right technology and fighting to increase productivity without making our jobs horrid."
 > *   "I have trouble keeping up with the rapid pace of innovation in the IT world and the many ways to deliver content."
@@ -297,7 +297,7 @@ Despite the need to accrue this more specialized knowledge, I'm still responsibl
 
 How do you keep up with the need for specialized knowledge while also fulfilling your generalist writing role? In a recent post, I polled writers to find out how much time they felt they *should devote* to learning technology each day to be successful in their role. Of the 40 responses, about 30% said 30 minutes, 30% said 1 hour, and 15% said 2 hours.
 
-But I also asked how much time they *actually devote* to learning technology each day. 27% said 0 minutes, 30% said 20 minutes, 19% said 30 minutes, and only 13% said 1 hour (see [Strategies for learning technology -- podcast recommendation and a poll](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/)).
+But I also asked how much time they *actually devote* to learning technology each day. 27% said 0 minutes, 30% said 20 minutes, 19% said 30 minutes, and only 13% said 1 hour (see [Strategies for learning technology -- podcast recommendation and a poll](/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/)).
 
 Given how much technical knowledge you need to be functionally able to write documentation in today's landscape, how can one possibly ramp up to the right level of knowledge by just spending 30 minutes or less each day? I felt I would need 2 hours a day to feel comfortable writing in some of these domains.
 
@@ -375,13 +375,13 @@ Highsmith, Jim; Mason, Mike; Ford, Neal. ["Implications of Tech Stack Complexity
 
 Johnson, Robert R. ["Craft Knowledge: Of Disciplinarity in Writing Studies."](https://www.jstor.org/stable/27917868) *College Composition and Communication, Vol. 61, No. 4.* June 2010.
 
-Johnson, Tom. ["Generalist versus specialist: What should you focus on with knowledge building in your tech writing role?"](https://idratherbewriting.com/2016/12/20/changing-roles-of-technical-writers) *Idratherbewriting.com*. 20 Dec 2016.
+Johnson, Tom. ["Generalist versus specialist: What should you focus on with knowledge building in your tech writing role?"](/2016/12/20/changing-roles-of-technical-writers) *Idratherbewriting.com*. 20 Dec 2016.
 
-Johnson, Tom. ["If writing is no longer a marketable skill, what is?"](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/) *Idratherbewriting.* 9 Aug 2018.
+Johnson, Tom. ["If writing is no longer a marketable skill, what is?"](/2018/08/09/writing-no-longer-a-skill/) *Idratherbewriting.* 9 Aug 2018.
 
-Johnson, Tom. ["Number One Issue for Technical Writers Today: Keeping Pace with Rapidly Evolving Technology."](https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) *Idratherbewriting.com.* 1 Mar 2007.
+Johnson, Tom. ["Number One Issue for Technical Writers Today: Keeping Pace with Rapidly Evolving Technology."](/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) *Idratherbewriting.com.* 1 Mar 2007.
 
-Johnson, Tom. ["Strategies for learning technology -- podcast recommendation and a poll."](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/) *Idratherbewriting.com* 10 Aug 2018.
+Johnson, Tom. ["Strategies for learning technology -- podcast recommendation and a poll."](/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/) *Idratherbewriting.com* 10 Aug 2018.
 
 Lanier, Clinton. ["Analysis of the Skills Called for by Technical Communication Employers in Recruitment Postings."](http://www.ingentaconnect.com/contentone/stc/tc/2009/00000056/00000001/art00008) *Technical Communication, Volume 56, Number 1*. Feb 2009.
 

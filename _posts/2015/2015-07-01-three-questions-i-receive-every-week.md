@@ -26,7 +26,7 @@ I think a lot of people start thinking about technical writing careers when seve
 
 I never quite know what to say to people who ask this question. I usually say, yeah, tech writing is a great career. If you like to write and solve problems, you'll be a good fit. Just create a compelling portfolio of writing samples and move to a tech hub. Blah blah blah.
 
-But I can't predict the future or really know if tech writing is a suitable career for them. To change things up, I might start sending people who ask this question to Keith Hood's guest post, [The Raw, Unvarnished Truth About Technical Writing](https://idratherbewriting.com/2008/11/04/guest-post-the-dark-side-of-technical-writing/) or to Neil Kaplan's [The Death of Technical Writing, Part 1](http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/).
+But I can't predict the future or really know if tech writing is a suitable career for them. To change things up, I might start sending people who ask this question to Keith Hood's guest post, [The Raw, Unvarnished Truth About Technical Writing](/2008/11/04/guest-post-the-dark-side-of-technical-writing/) or to Neil Kaplan's [The Death of Technical Writing, Part 1](http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/).
 
 I will beg and plead with them not to become trapped in a meaningless and demoralizing career in technical writing like me. Stay away, take another path. This road be a hot dry desert of nothingness. Then I'll say, *Just kidding! Tech writing is a lot of fun. I just say this for job security reasons.*
 
@@ -44,7 +44,7 @@ The second most common question I receive is this one:
 > <li>What fields in technical writing are the most popular?</li></ul>
 > <p>Thanks, please respond with answers before 5pm tomorrow as my assignment is due then. thanks.</p>
 
-About five years ago, I used to actually respond to these questions (see the [Beginners category](https://idratherbewriting.com/category-beginners/)). Then I started pushing them out to my colleagues and invited them to respond. A lot of times my colleagues wrote really detailed responses, writing more than 1,5000 to 3,000 words sometimes.
+About five years ago, I used to actually respond to these questions (see the [Beginners category](/category-beginners/)). Then I started pushing them out to my colleagues and invited them to respond. A lot of times my colleagues wrote really detailed responses, writing more than 1,5000 to 3,000 words sometimes.
 
 Then I stopped responding and just recommended to students that they post a tweet to #techcomm with their questions, or join the techwhir-l listserv and ask someone there.
 

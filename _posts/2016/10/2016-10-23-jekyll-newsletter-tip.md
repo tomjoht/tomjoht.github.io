@@ -40,7 +40,7 @@ layout: none
 {% endraw %}
 ```
 
-You can view the rendered template here: [https://idratherbewriting.com/newslettertemplate/](https://idratherbewriting.com/newslettertemplate/).
+You can view the rendered template here: [https://idratherbewriting.com/newslettertemplate/](/newslettertemplate/).
 
 My layout `none` is a layout that has no formatting. The newsletter template code loops through the last 6 posts on the site and pushes in the title, summary, and bitlink.
 

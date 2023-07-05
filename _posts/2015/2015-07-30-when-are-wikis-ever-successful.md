@@ -30,7 +30,7 @@ Overall, though, I think wikis have seen their day and other models are being im
 
 ## I wrote a whole series of posts on wikis
 
-A few years ago I wrote a series of posts describing my journey to and from wikis. You can read it here: [My Journey To and From Wikis: Why I Adopted Wikis, Why I Veered Away, and a New Model](https://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/).
+A few years ago I wrote a series of posts describing my journey to and from wikis. You can read it here: [My Journey To and From Wikis: Why I Adopted Wikis, Why I Veered Away, and a New Model](/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/).
 
 I noted that I could probably offer some strategies about how a wiki might be run successfully, but ultimately I haven't had what I feel to be a really successful wiki experience. As a writer who enjoys tight control over the content I create, I like having ownership and responsibility for the content. Sometimes when a community member would make edits, I'd want to rewrite it or remove it &mdash; but doing so discourages contributions.
 

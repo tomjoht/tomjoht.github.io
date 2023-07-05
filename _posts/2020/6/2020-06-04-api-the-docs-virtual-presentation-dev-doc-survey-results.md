@@ -20,7 +20,7 @@ transcript: "transcripts/2020-06-04-api-the-docs-virtual-presentation-dev-doc-su
 
 ## API the Docs Virtual Series
 
-Last month I posted about the [API The Docs Virtual Series 2020](https://idratherbewriting.com/blog/api-the-docs-virtual-conference-2020/), with an explanation of the format and upcoming presentations. Here's what the 5th edition covered:
+Last month I posted about the [API The Docs Virtual Series 2020](/blog/api-the-docs-virtual-conference-2020/), with an explanation of the format and upcoming presentations. Here's what the 5th edition covered:
 
 **5th edition: 27 May (6-8pm CEST) – API docs trends & API design**.
 

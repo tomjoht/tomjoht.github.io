@@ -15,37 +15,37 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/2016st
 
 Every year I try to analyze the top posts on my site so that I better understand what information people are looking for. This analysis helps direct my blog efforts and lets me know what's working and not working. This analysis is just as much for me as any reader.
 
-(Compare this 2015 post with the [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](https://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/).)
+(Compare this 2015 post with the [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/).)
 
 ## Top 10 posts written in 2015
 
 Based on Google Analytics, these 10 posts written in 2015 received the most traffic:
 
-1. [My *real* top 10 technical writing trend predictions for 2015](https://idratherbewriting.com/2015/01/05/my-real-top-10-technical-writing-trend-predictions-for-2015/)
-2. [Reveal JS: An HTML5 alternative to PowerPoint, with support for SVG graphics](https://idratherbewriting.com/2015/03/11/reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics/)
-3. [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html)
-4. [Why no one stopped by my technical writing booth at career fair day](https://idratherbewriting.com/2015/05/31/realizations-from-career-fair-what-i-lost/)
-5. [10 reasons for moving away from DITA](https://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/)
-6. [Newbie to Technical Writer in 4 Easy Steps](https://idratherbewriting.com/2015/04/03/newbie-to-technical-writer-in-4-easy-steps/)
-7. [1.0 Documenting REST APIs](https://idratherbewriting.com/learnapidoc/)
-8. [Swagger tutorial for REST API documentation](https://idratherbewriting.com/2015/09/14/swagger-tutorial/)
-9. [Static site generators start to replace web publishing platforms like WordPress](https://idratherbewriting.com/2015/02/27/static-site-generators-start-to-displace-online-cmss/)
-10. [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/)
+1. [My *real* top 10 technical writing trend predictions for 2015](/2015/01/05/my-real-top-10-technical-writing-trend-predictions-for-2015/)
+2. [Reveal JS: An HTML5 alternative to PowerPoint, with support for SVG graphics](/2015/03/11/reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics/)
+3. [Swagger tutorial](/learnapidoc/pubapis_swagger.html)
+4. [Why no one stopped by my technical writing booth at career fair day](/2015/05/31/realizations-from-career-fair-what-i-lost/)
+5. [10 reasons for moving away from DITA](/2015/01/28/10-reasons-for-moving-away-from-dita/)
+6. [Newbie to Technical Writer in 4 Easy Steps](/2015/04/03/newbie-to-technical-writer-in-4-easy-steps/)
+7. [1.0 Documenting REST APIs](/learnapidoc/)
+8. [Swagger tutorial for REST API documentation](/2015/09/14/swagger-tutorial/)
+9. [Static site generators start to replace web publishing platforms like WordPress](/2015/02/27/static-site-generators-start-to-displace-online-cmss/)
+10. [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](/2015/05/22/api-technical-writing-course-on-udemy/)
 
 ## Top 10 posts of all time
 
 These 10 posts received the most traffic overall, regardless of the publication date. All of these posts have publication dates prior to 2014.
 
-1. [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](https://idratherbewriting.com/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
-2. [Quick Reference Guides](https://idratherbewriting.com/quickreferenceguides/)
-3. [Quick Reference Guides: Short and Sweet Documentation](https://idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/)
-4. [JavaScript: Events and Listeners](https://idratherbewriting.com/events-and-listeners-javascript/)
-5. [Top 10 Most Frequently Asked Questions about Technical Writing](https://idratherbewriting.com/2013/01/17/top-10-most-frequently-asked-questions-about-technical-writing/)
-6. [Seamlessly Integrating a Blog into Your Non-Blog Website](https://idratherbewriting.com/2008/10/23/seamlessly-integrating-a-blog-into-your-non-blog-website/)
-7. [How to Create Video Tutorials -- A Five Step Process](https://idratherbewriting.com/2012/09/27/how-to-create-video-tutorials-a-five-step-process/)
-8. [Avoiding plosives and breathing noises (Voiceover)](https://idratherbewriting.com/2010/03/10/4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio/)
-9. [Are Certificate Programs Helpful for Transitioning into Technical Writing? [Collaborative Post]](https://idratherbewriting.com/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
-10. [Sample Expand and Collapse Code with Twisting Buttons](https://idratherbewriting.com/2013/03/31/sample-expand-and-collapse-code-with-twisting-buttons/)
+1. [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
+2. [Quick Reference Guides](/quickreferenceguides/)
+3. [Quick Reference Guides: Short and Sweet Documentation](/2009/04/10/quick-reference-guides-short-and-sweet-documentation/)
+4. [JavaScript: Events and Listeners](/events-and-listeners-javascript/)
+5. [Top 10 Most Frequently Asked Questions about Technical Writing](/2013/01/17/top-10-most-frequently-asked-questions-about-technical-writing/)
+6. [Seamlessly Integrating a Blog into Your Non-Blog Website](/2008/10/23/seamlessly-integrating-a-blog-into-your-non-blog-website/)
+7. [How to Create Video Tutorials -- A Five Step Process](/2012/09/27/how-to-create-video-tutorials-a-five-step-process/)
+8. [Avoiding plosives and breathing noises (Voiceover)](/2010/03/10/4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio/)
+9. [Are Certificate Programs Helpful for Transitioning into Technical Writing? [Collaborative Post]](/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
+10. [Sample Expand and Collapse Code with Twisting Buttons](/2013/03/31/sample-expand-and-collapse-code-with-twisting-buttons/)
 
 {% include ads.html %}
 
@@ -53,11 +53,11 @@ These 10 posts received the most traffic overall, regardless of the publication 
 
 The following podcasts published during 2015 received the most downloads:
 
-1. [The divide between academics and practitioners — Interview with Lisa Meloncon](https://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/) (804 downloads)
-2. [Spec-driven Development of REST APIs, with a focus on RAML — interview with Michael Stowe](https://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/) (753 downloads)
-3. [Recording of Innovation in Technical Communication keynote at tcworld India 2015](https://idratherbewriting.com/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/) (657 downloads)
-4. [How do design, length, and relevance affect how people use API reference docs — interview with Bob Watson](https://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/) (617 downloads)
-5. [Recording of API documentation workshop (REST and Javadoc) at tcworld India 2015](https://idratherbewriting.com/2015/03/19/recording-of-api-documentation-workshop-rest-and-javadoc-at-tcworld-india-2015/) (594 downloads)
+1. [The divide between academics and practitioners — Interview with Lisa Meloncon](/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/) (804 downloads)
+2. [Spec-driven Development of REST APIs, with a focus on RAML — interview with Michael Stowe](/2015/10/12/spec-driven-design-podcast-michael-stowe/) (753 downloads)
+3. [Recording of Innovation in Technical Communication keynote at tcworld India 2015](/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/) (657 downloads)
+4. [How do design, length, and relevance affect how people use API reference docs — interview with Bob Watson](/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/) (617 downloads)
+5. [Recording of API documentation workshop (REST and Javadoc) at tcworld India 2015](/2015/03/19/recording-of-api-documentation-workshop-rest-and-javadoc-at-tcworld-india-2015/) (594 downloads)
 
 ## General stats
 
@@ -132,7 +132,7 @@ Google says the average page loading time is *7.16 seconds*.
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/avgpagetimegoogle.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
 
-I honestly don't know how to interpret this statistic. [Pingdom Tools](http://tools.pingdom.com/fpt/) puts my average page load time much quicker. You can see when I [switched from WordPress to Jekyll](https://idratherbewriting.com/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), the page loading time dropped from about 2 seconds to 0.2 seconds.
+I honestly don't know how to interpret this statistic. [Pingdom Tools](http://tools.pingdom.com/fpt/) puts my average page load time much quicker. You can see when I [switched from WordPress to Jekyll](/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), the page loading time dropped from about 2 seconds to 0.2 seconds.
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pingdomreport2016.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
 
@@ -149,7 +149,7 @@ Whenever I look at my stats, I always want to deny the most staggering, mind-blo
 
 A lot of my visitors are new to technical writing. They're searching for information on technical writing certification programs, jobs, salaries, skills, and other details associated with technical writing careers. In other words, most of my traffic is from newbies trying to learn about technical writing. Is that what I should focus on?
 
-Last year there was also a lot of traffic with my [API documentation writing course](https://idratherbewriting.com/learnapidoc/) and [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe.
+Last year there was also a lot of traffic with my [API documentation writing course](/learnapidoc/) and [Swagger tutorial](/learnapidoc/pubapis_swagger.html). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe.
 
 The regular users who comment on my blog don't represent the overwhelming traffic from organic search. It's easy to overlook that and just think of my regular commenters as my readers. But those who comment are in the minority by far. The bulk of my visitors are like the dark matter of the Internet &mdash; present and undeniable but ethereal and unknown. Who the heck are all the users from the other sessions? How can I convert them into regular subscribers?
 
@@ -169,7 +169,7 @@ If I wanted to increase the readership of my blog, here's what I should do:
 
 This year I'm thinking of adding a new course on my site called "Getting started with technical writing" or something, and then covering a host of newbie topics. I'm not sure if a focus on the basics will motivate me to write, though. I tend to write about topics and ideas that I'm thinking about or experiencing, and I'm not sure if I can write passionately about technical writing certificates, technical writing tips, technical writer salaries, technical writer resumes, and technical writing books. But I just might give it a try.
 
-The downside of focusing on these mainstream, general topics is that it will dilute my sense of expertise or brand. This past year I wrote a lot about [API documentation](https://idratherbewriting.com/category-api-doc/). These posts helped present me as an expert in API documentation.
+The downside of focusing on these mainstream, general topics is that it will dilute my sense of expertise or brand. This past year I wrote a lot about [API documentation](/category-api-doc/). These posts helped present me as an expert in API documentation.
 
 The secret trick to online branding is that simply writing extensively and thoughtfully about any topic will brand you as an expert about that topic. Robert Scoble recommends that you blog only about what you want to be known for, or the direction you hope to go. For example, if you want to drive cabs, let cabs be the dominant focus on your blog:
 
@@ -189,6 +189,6 @@ Most likely I'll continue the same path as before, emphasizing brand and API doc
 
 ## Other strategies
 
-Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](https://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe. I think this will help convert visitors into subscribers.
+Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe. I think this will help convert visitors into subscribers.
 
 Finally, I need to stop focusing so much on social media promotion and think more strategically about keywords on Google (regardless of my blog's focus). Links on social media channels evaporate within a day of posting, but URLs indexed by Google are more permanent and visible.

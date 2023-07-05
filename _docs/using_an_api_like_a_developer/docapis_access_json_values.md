@@ -12,7 +12,7 @@ path1: learnapidoc/likeadeveloper.html
 last-modified: 2020-06-27
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 This tutorial continues from the previous topic, [Inspect the JSON from the response payload](docapis_json_console.html). In the [sample page](https://idratherbewriting.com/assets/files/weather-plain.html) where you logged the `weather` response to the JS Console, the REST response information didn't appear on the page. It only appeared in the JS Console. You need to use dot notation and JavaScript to access the JSON values you want. In this tutorial, you'll use JavaScript to print some of the response to the page.
 
@@ -285,8 +285,8 @@ $.ajax(settings).done(function (response) {
 
 ## More exercises
 
-If you'd like to follow some more exercises that involve calling REST APIs, accessing specific values, and printing the values to the page, see the following topics in the [Glossary and resources](https://idratherbewriting.com/learnapidoc/resources.html) section:
+If you'd like to follow some more exercises that involve calling REST APIs, accessing specific values, and printing the values to the page, see the following topics in the [Glossary and resources](resources.html) section:
 
-* [Get event information using the Eventbrite API](https://idratherbewriting.com/learnapidoc/docapis_eventbrite_example.html)
-* [Flickr example: Retrieve a Flickr gallery](https://idratherbewriting.com/learnapidoc/docapis_flickr_example.html)
-* [Get wind speed using the Aeris Weather API](https://idratherbewriting.com/learnapidoc/docapis_aerisweather_example.html)
+* [Get event information using the Eventbrite API](docapis_eventbrite_example.html)
+* [Flickr example: Retrieve a Flickr gallery](docapis_flickr_example.html)
+* [Get wind speed using the Aeris Weather API](docapis_aerisweather_example.html)

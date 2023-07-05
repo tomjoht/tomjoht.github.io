@@ -12,7 +12,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsum
 * TOC
 {:toc}
 
-My API workshop will more or less follow the same content as my [API doc course](https://idratherbewriting.com/learnapidoc/). This content is online and available right now.
+My API workshop will more or less follow the same content as my [API doc course](/learnapidoc/). This content is online and available right now.
 
 For my presentation on Jekyll, here's the presentation title and description:
 

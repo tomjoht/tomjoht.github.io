@@ -38,7 +38,7 @@ Since technical writers tend to be language connoisseurs, priding themselves on 
 
 Entire books have been written on plain language principles and writing for clarity. My intent isn't to duplicate this research but to briefly note it before exploring my own angle on the topic.
 
-The principles of plain language are explained well in the [Federal Plain Language Guidelines](https://www.plainlanguage.gov/guidelines/). Ginny Redish's [Letting Go of the Words](https://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/) also provides excellent guidance for clear language, as does the [ASD-STE100 spec](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/). For example, keep sentences short, with one main idea per sentence. Use active voice with clear verbs. Don't stack adjectives before nouns. Use section headings, lists, and tables to break up content. You know these basics.
+The principles of plain language are explained well in the [Federal Plain Language Guidelines](https://www.plainlanguage.gov/guidelines/). Ginny Redish's [Letting Go of the Words](/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/) also provides excellent guidance for clear language, as does the [ASD-STE100 spec](/2017/01/25/hyperste-simplified-technical-english-asd-ste100/). For example, keep sentences short, with one main idea per sentence. Use active voice with clear verbs. Don't stack adjectives before nouns. Use section headings, lists, and tables to break up content. You know these basics.
 
 In ["Defining Glossaries"](http://www.ingentaconnect.com/search/article?option1=tka&value1=defining+glossaries&pageSize=10&index=1), Michelle Tackebary describes the history of glossaries and approaches for defining terms, such as distinguishing between *contextual definitions* and *stipulative definitions*. Tackebary provides a history of glossaries, even going back hundreds of years, with clergyman writing *glosses* in the margins of texts they were studying). She explains glossary best practices and notes recommendations from style guides and other research.
 
@@ -173,7 +173,7 @@ $(function () {
 
 I've explored which terms to define, but there are other considerations with glossaries, including technical ones. First, the glossary definition should be stored in a re-usable source so that the definition can be provided in different parts of your documentation.
 
-For example, you'll probably want the definition to appear on a master glossary page as well as embed it on the page in a Background Knowledge section, and maybe embed the definition in <a style="cursor: pointer !important; color: green; text-decoration: underline; text-decoration-style: double;" data-toggle="popover" title="tooltip" data-placement="top" data-html="true" data-content="A tooltip shows a definition or hint for some UI text or other element. Tooltips hide explanations from users who don't need them while providing a way for others to get more detail.">inline tooltips</a>. (By the way, [Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_adding_tooltips.html) is excellent at re-using definitions stored in YAML files.)
+For example, you'll probably want the definition to appear on a master glossary page as well as embed it on the page in a Background Knowledge section, and maybe embed the definition in <a style="cursor: pointer !important; color: green; text-decoration: underline; text-decoration-style: double;" data-toggle="popover" title="tooltip" data-placement="top" data-html="true" data-content="A tooltip shows a definition or hint for some UI text or other element. Tooltips hide explanations from users who don't need them while providing a way for others to get more detail.">inline tooltips</a>. (By the way, [Jekyll](/documentation-theme-jekyll/mydoc_adding_tooltips.html) is excellent at re-using definitions stored in YAML files.)
 
 Further, you might have specialized glossaries for different products, with overlapping terms. For example, a glossary for *Alexa Skills Kit* and *Alexa Voice Service* and *Alexa Auto* (which are all different products with their own documentation) might all define the terms "near field" and "far field." These terms might also appear in the Fire TV glossary. By storing all glossary definitions in one file, and then referencing that definition where needed, you can reduce duplication.
 
@@ -249,7 +249,7 @@ I’ve worked in too many IT shops where actual spoken communication and other f
 
 To read more about the importance of glossaries in API documentation, check out the [Glossaries](/learnapidoc/docapis_glossary_section.html) topic in my [API documentation course](/learnapidoc/).
 
-See also [Has plain language deepened or ruined our delight in language?](https://idratherbewriting.com/2017/09/20/plain-language-ruined-my-delight-in-language/) for a post reflecting on the downsides of using plain language.
+See also [Has plain language deepened or ruined our delight in language?](/2017/09/20/plain-language-ruined-my-delight-in-language/) for a post reflecting on the downsides of using plain language.
 
 {% include_relative reducing-the-complexity-of-language-questions.md %}
 

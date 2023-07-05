@@ -21,7 +21,7 @@ sidebar: sidebar_layoff_reflections
 
 ## Background {#background}
 
-The recent guest post by Jeremy Rosselot-Merritt on [why technical writers are treated as unimportant in a company](https://idratherbewriting.com/blog/why-technical-writers-treated-as-unimportant/) received more than 7x the clicks of my other posts. This topic clearly struck a nerve with people and tapped into a longstanding issue in tech comm. In this series, I want to explore this theme even further and present an argument that explains this lack of workplace value for tech comm.
+The recent guest post by Jeremy Rosselot-Merritt on [why technical writers are treated as unimportant in a company](/blog/why-technical-writers-treated-as-unimportant/) received more than 7x the clicks of my other posts. This topic clearly struck a nerve with people and tapped into a longstanding issue in tech comm. In this series, I want to explore this theme even further and present an argument that explains this lack of workplace value for tech comm.
 
 To recap, Jeremy was exploring why technical writers are often treated as unimportant in companies, and one of his findings was that many people are unaware of the communication value that technical communicators provide. As Jeremy interviewed non-TC workers at various companies, he found that many people just assumed technical communicators provided the tools that others used to fill in with content. Others weren’t sure exactly what technical writers did. In general, Jeremy argued that it’s the lack of awareness and understanding of the tech writer role that contributes to the low estimation of tech writers in the workplace.
 

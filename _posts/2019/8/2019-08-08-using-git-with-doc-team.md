@@ -15,6 +15,6 @@ The reader asks,
 
 > Hi Tom, do you have a recommended article for how a team of writers collaborate in git? We’ve made the big switch to our new docs pipeline and the biggest challenge is that we are unable to collaborate in git. A lot of changes and suggestion to technical documentation is hard to resolve in the git workflow. We are now talking about keeping the doc in Google docs and then porting to git after approval from the team and stakeholders. Does that make sense?
 
-I decided to put my response as another section in an existing topic in my API doc course. You can read it here: [Can you collaborate on doc projects in Git with other writers?](https://idratherbewriting.com/learnapidoc/pubapis_version_control.html#collaborate-in-git).
+I decided to put my response as another section in an existing topic in my API doc course. You can read it here: [Can you collaborate on doc projects in Git with other writers?](/learnapidoc/pubapis_version_control.html#collaborate-in-git).
 
 {% include ads.html %}

@@ -10,13 +10,13 @@ bitlink: http://bit.ly/separatereposforcontent
 * TOC
 {:toc}
 
-If you click the **API Doc** button on my primary navigation bar, it takes you here: [idratherbewriting.com/learnapidoc/](https://idratherbewriting.com/learnapidoc/). Previously, there wasn't a separating path called "learnapidoc."
+If you click the **API Doc** button on my primary navigation bar, it takes you here: [idratherbewriting.com/learnapidoc/](/learnapidoc/). Previously, there wasn't a separating path called "learnapidoc."
 
 This doesn't seem like much of a change, but behind the scenes there is quite a bit that's different. First, I moved all the API doc content into its own repo here: [learnapidoc](https://github.com/tomjoht/learnapidoc). (My blog's repo is [here](https://github.com/tomjoht/tomjoht.github.io).)
 
 Additionally, I used a different theme with the content. I actually developed this theme for a [project at work](https://github.com/amzn/appstore-alexa-docs/) (which we open sourced), but it doesn't look like we'll be using the theme after all.
 
-This theme includes a search and a multilevel menu that doesn't use an accordion toggle like my [previous doc theme](https://idratherbewriting.com/documentation-theme-jekyll/). I also added a breadcrumb that helps orient users. In the breadcrumb, "Home" takes you back to my blog.
+This theme includes a search and a multilevel menu that doesn't use an accordion toggle like my [previous doc theme](/documentation-theme-jekyll/). I also added a breadcrumb that helps orient users. In the breadcrumb, "Home" takes you back to my blog.
 
 I'm still fine-tuning the material. For example, I plan to add numbers back into the headers and provide next/previous buttons between each of the pages. However, for the time being, I haven't included these features. Hard-coding numbers into the titles is a serious pain if you decide to switch around topics or insert new ones. I need to do this programmatically if I do it at all.
 

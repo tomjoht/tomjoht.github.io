@@ -8,11 +8,11 @@ last-modified: 2020-11-02
 published: false
 ---
 
-For a list of upcoming presentations and past presentations all topics, see [Presentations](https://idratherbewriting.com/presentations).
+For a list of upcoming presentations and past presentations all topics, see [Presentations](/presentations).
 
 <h2>Previous API doc workshops and presentations</h2>
 
-The following are previous API presentations or workshops I've given. Some have recordings. For a full list of past presentations (including both API and other topics), see the [presentations page on my blog](https://idratherbewriting.com/presentations/).
+The following are previous API presentations or workshops I've given. Some have recordings. For a full list of past presentations (including both API and other topics), see the [presentations page on my blog](/presentations/).
 <ul>
   <li>November 19, 2019. <a href="https://idratherbewriting.com/blog/upcoming-api-doc-workshop-san-francisco-nov-19/">API Documentation Workshop</a>. Full-day. San Francisco, California.</li>
   <li>August 30, 2019. <a href="/2019/07/08/upcoming-api-documention-workshop-mountainview/">API Documentation Workshop</a>. Full-day. Computer History Museum, Mountain View, California.</li>

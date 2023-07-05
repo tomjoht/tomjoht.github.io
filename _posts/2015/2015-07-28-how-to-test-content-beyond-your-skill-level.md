@@ -11,7 +11,7 @@ weight: 1.5
 ---
 {% include series/seriesTagTestingDocs.html %}
 
-This is another post in my series on [testing documentation](https://idratherbewriting.com/2015/07/07/testing-your-instructions/).
+This is another post in my series on [testing documentation](/2015/07/07/testing-your-instructions/).
 
 ## Series recap
 Testing your docs is one of the great principles of technical writing. Not only does testing all aspects of your documentation help you discover missing or inaccurate steps, it also lets you discover bugs, make recommendations for improving the product, and helps you be a power player on the team.

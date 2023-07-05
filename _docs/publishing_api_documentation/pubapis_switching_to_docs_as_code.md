@@ -11,7 +11,7 @@ redirect_from:
 last-modified: 2018-12-25
 ---
 
-{% include_relative coffeebutton.html %}
+{% include coffeeshopbook.html %}
 
 Changing any documentation tooling at a company can be a massive undertaking. Depending on the amount of legacy content to convert, the number of writers to train, the restrictions and processes you have to work against in your corporate environment and more, it can require an immense amount of time and effort to switch tools from the status quo to docs-as-code.
 
@@ -266,7 +266,7 @@ It was also republished in Anne Gentle's [Docs Like Code: Case Studies](https://
 
 <a href="https://www.docslikecode.com/articles/change-case-study/" class="noCrossRef"><img src="{{site.api_media}}/docslikecodeannegentlecasestudies.png" class="small" /></a>
 
-I also [gave a presentation on Docs-as-code tools and workflows](https://idratherbewriting.com/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/) to the STC Rocky Mountain and WTD Denver group.
+I also [gave a presentation on Docs-as-code tools and workflows](/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/) to the STC Rocky Mountain and WTD Denver group.
 
 {% if site.format == "print" %}
 
@@ -280,8 +280,8 @@ I also [gave a presentation on Docs-as-code tools and workflows](https://idrathe
 
 To read some other docs-as-code posts on my blog, see the following:
 
-* [Discoveries and realizations while walking down the Docs-as-Code path](https://idratherbewriting.com/2017/08/23/content-architecture-and-repo-sizes/)
-* [Limits to the idea of treating docs as code](https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/)
-* [Will the docs-as-code approach scale? Responding to comments on my Review of Modern Technical Writing](https://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)
+* [Discoveries and realizations while walking down the Docs-as-Code path](/2017/08/23/content-architecture-and-repo-sizes/)
+* [Limits to the idea of treating docs as code](/2017/06/02/when-docs-are-not-like-code/)
+* [Will the docs-as-code approach scale? Responding to comments on my Review of Modern Technical Writing](/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)
 
 To Learn more about docs as code in general, see Anne Gentle's book [Docs Like Code](https://www.amazon.com/Docs-Like-Code-Anne-Gentle/dp/1365816079/ref=sr_1_1?ie=UTF8&qid=1508090523&sr=8-1&keywords=docs+like+code).

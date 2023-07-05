@@ -29,4 +29,4 @@ That said, this role focuses on web services, not Java programming or other main
 
 {% include ads.html %}
 
-If you're interested, [contact me](https://idratherbewriting.com/contact) and send me your resume.  Note that this position isn't remote. You have to work in Seattle or Sunnyvale (or possibly Irvine).
+If you're interested, [contact me](/contact) and send me your resume.  Note that this position isn't remote. You have to work in Seattle or Sunnyvale (or possibly Irvine).

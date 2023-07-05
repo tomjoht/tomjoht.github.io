@@ -19,7 +19,7 @@ description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.htm
 
 [GitHub](https://github.com) is a collaborative platform for managing Git projects, often used for open-source projects on the web. When teams put their documentation on GitHub, the code usually includes the authoring framework (e.g., [Jekyll](https://jekyllrb.com), [Hugo](https://gohugo.io/)) as well, allowing others to see how the whole solution is put together, the code powering the site, the source format for the content, and more. Seeing this level of detail can be helpful for others building code, especially if the code is open-source and others can fork it. This openness and source transparency allows for social coding.
 
-For example, back in 2016 I created a [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) and [put it on GitHub](https://github.com/tomjoht/documentation-theme-jekyll). As of this writing, the theme has been forked 1,022 times, and many have used it for their own documentation.
+For example, back in 2016 I created a [Jekyll documentation theme](/documentation-theme-jekyll/) and [put it on GitHub](https://github.com/tomjoht/documentation-theme-jekyll). As of this writing, the theme has been forked 1,022 times, and many have used it for their own documentation.
 
 Additionally, when your content is on GitHub, contributors can create pull requests and contribute to the existing content. For distributed, online teams working on open-source projects, GitHub provides an ideal platform for managing all aspects of their code, not just version control but also automated checks, validation, workflows, and more.
 
