@@ -31,7 +31,7 @@ Positron gives you tools for this more surgical approach to content development.
 
 ## Get started
 
-To get started with Positron, see the "[Manual Installation](https://blog.oxygenxml.com/topics/ai_positron.html#ai_positron__section_kgh_fzg_rsb)" section in the Positron documentation. After activating the extension, an AI menu appears at the top. From the AI menu, select **Show Positron Assistant**.
+To get started with Positron, see the [Manual Installation](https://blog.oxygenxml.com/topics/ai_positron.html#ai_positron__section_kgh_fzg_rsb) section in the Positron documentation. After activating the extension, an AI menu appears at the top. From the AI menu, select **Show Positron Assistant**.
 
 <figure><img style="border: 1px solid #dedede"  src="{{site.api_media}}/positronpanelsb.png" alt="The AI menu appears after you activate the AI Positron Assistant" /><figcaption>The AI menu appears after you activate the AI Positron Assistant</figcaption></figure>
 

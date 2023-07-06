@@ -120,8 +120,20 @@ p.warning {
     overflow: auto;
 }
 
+p.disclaimer {
+    background: #f1f1f1;
+    padding: 1em;
+    border-left: 1em solid gray;
+    overflow: auto;
+}
+
 p.note::before {
     content: "Note: ";
+    font-weight: bold;
+}
+
+p.disclaimer::before {
+    content: "Disclaimer: ";
     font-weight: bold;
 }
 
@@ -142,6 +154,11 @@ p.tip::before {
 
 p.warning::before {
     content: "Warning: ";
+    font-weight: bold;
+}
+
+p.disclaimer::before {
+    content: "Disclaimer: ";
     font-weight: bold;
 }
 

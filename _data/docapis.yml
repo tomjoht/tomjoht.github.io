@@ -545,6 +545,9 @@ folders:
   - title:  "First look at the Oxygen XML AI Positron Assistant"
     jurl: /learnapidoc/docapis_oxygenxml_positron_assistant.html
 
+  - title:  "AI document engineering with pattern-based prompts"
+    jurl: /learnapidoc/docapis_pattern_prompts.html
+
 - title: "Chapter 16: Additional resources"
   landing: /learnapidoc/resources.html
   section: sixteen
