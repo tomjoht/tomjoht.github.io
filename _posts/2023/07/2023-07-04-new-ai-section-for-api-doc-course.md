@@ -8,7 +8,7 @@ categories:
 - api-doc-site-updates
 keywords: 
 rebrandly: https://idbwrtng.com/new-ai-section-for-api-doc-course
-description: "I'm adding a new section on AI to my API doc course. Currently, there's just 1 article in there (on <a href='/learnapidoc/docapis_oxygenxml_positron_assistant.html'>Oxygen XML Positron Assistant</a>), but I plan to add many more over the coming months."
+description: "I'm adding a new section on AI to my API doc course. Currently, there are just two articles in there (one on Oxygen XML's Positron Assistant, another on AI document engineering) but I plan to add many more over the coming months."
 ---
 
 Some of the articles I have planned include the following:
