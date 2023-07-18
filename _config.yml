@@ -178,6 +178,7 @@ algolia:
     - files/**/*
     - pages/category-archives/*
     - pages/date-based-archives/*
+    - slides/*
   nodes_to_index: 'p,.description'
 
 eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV

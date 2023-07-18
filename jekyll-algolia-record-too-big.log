@@ -1,0 +1,160 @@
+{
+  "html": "<p>\n                       <small>By Tom Johnson / <a href=\"http://twitter.com/tomjohnson\">@tomjohnson</a><br>\n                       <a href=\"https://idratherbewriting.com\">idratherbewriting.com</a></small><br><br>\n                       </p>",
+  "content": "\n                       By Tom Johnson / @tomjohnson\n                       idratherbewriting.com\n                       ",
+  "headings": [
+    "Tech Comm Trends",
+    "Providing value as a generalist in a sea of specialists"
+  ],
+  "custom_ranking": {
+    "position": 0,
+    "heading": 70
+  },
+  "permalink": "/slides:path.html",
+  "presentation": {
+    "title": "Tech Comm Trends",
+    "subtitle": "Providing value as a generalist in a sea of specialists",
+    "date": "May 6, 2019",
+    "location": "Denver, Colorado",
+    "author": "Tom Johnson",
+    "site": "idratherbewriting.com"
+  },
+  "slides": [
+    {
+      "image": "trends_slide1.svg",
+      "title": "Why trends intrigue us",
+      "notes": "Some say these companies fizzled because they focused only on what helped make them successful and became blind to further innovation after achieving success. <br><br>*Could job roles also follow suit? or job skills?"
+    },
+    {
+      "image": "trends_slide2.svg",
+      "title": "Impact of UX and need for docs",
+      "notes": "Jim Grey: 'Technical writing is dying off…. It’s all about clean, engaging UX now. I have talked to more than a hundred startup and small software companies as I’ve built my business. Almost none of them have technical writers, and almost all of them have UX designers.' <br><br>* Does Apple have ten times as many UX designers as technical writers?<br><br>* Grey articulates a common concern."
+    },
+    {
+      "image": "trends_slide4.svg",
+      "title": "BLS data: TW and SD job growth",
+      "notes": ""
+    },
+    {
+      "image": "trends_slide5.svg",
+      "title": "Growth projections compared",
+      "notes": "one cat for TW, but for devs, there are 4: Computer programers, Software devs (applications), Software devs (systems software), Web devs. changed in 2012, so hard to compare prev. data sets.<br><br>*Perceptions of workload vs. reality is hard to measure"
+    },
+    {
+      "image": "trends_slide6.svg",
+      "title": "Common questions and objections",
+      "notes": "Questions from academics: <br>* How consistent is BLS’s collection methodology from year to year? <br>* Are job titles in tech comm too diverse to measure? <br>* Are more tech writers being hired offshore (ireland, poland)?<br>* Has user-generated content reduced the need for tech writers?"
+    },
+    {
+      "image": "trends_slide3.svg",
+      "title": "Evolution of roles ... towards what?",
+      "notes": "'But exactly how is tech comm evolving? Towards what direction? Are we changing in positive ways to align with tomorrow’s needs? Are we being left behind? And what kind of data supports these changes?"
+    },
+    {
+      "image": "trends_slide7.svg",
+      "title": "Trends trajectories",
+      "notes": "whole conference on chatbots. is that the direction we're moving towards? how do you know? what EVIDENCE do we have for any trends?"
+    },
+    {
+      "image": "trends_slide8.svg",
+      "title": "Barometer for trends: job ads",
+      "notes": "'Our data suggest that there are several points of overlap in products and competencies, which could allow some degree of movement among job categories — or multiple specializations — if one maintains a broad skillset and flexible outlook.'"
+    },
+    {
+      "image": "trends_slide9.svg",
+      "title": "Constant theme: tech familiarity",
+      "notes": "'112 of the postings (34%) required or desired the potential writer to have experience writing about the specific subject matter that the current job involves. [For example], if the candidate was applying for a software documentation job in which they were going to be writing application programming interfaces (APIs) or online help, many of the positions required or desired that they have written such types of documents for the related types of subject matter....This reflects the trend that technical communication is moving away from a “Jack of all trades” model, where technical writing is a very generalized concept, and toward a model that is more specialized and contextually defined.'"
+    },
+    {
+      "image": "trends_slide10.svg",
+      "title": "... should know [X] tech already",
+      "notes": "Subject matter familiarity is a key requirement in a lot of the tech comm jobs I've looked at. It seems employers often want me to know X, Y, and Z technologies already from the start."
+    },
+    {
+      "image": "trends_slide12.svg",
+      "title": "Devs writing for devs -- a brand",
+      "notes": "Writer shares linkedin note re being fired in favor of a developer writer. I have permission to share this. His theory is that companies have this idea of a brand."
+    },
+    {
+      "image": null,
+      "title": "Hiring mgrs want the full-stack TW",
+      "content": "<blockquote>In addition to creating API documentation and other technical content, they wanted me to put together the documentation portal (to resemble Twilio's), write white papers, and work on marketing collateral. &mdash; person interviewing for TW job</blockquote>"
+    },
+    {
+      "image": "trends_slide11.svg",
+      "title": "Tech depth vs. writing depth in hiring",
+      "notes": "Reddit: 'I work in engineering documentation, so I would always choose a candidate that has solid domain expertise even if they only have adequate writing skills. It’s easier to train the writing skills than teach the domain expertise. '"
+    },
+    {
+      "image": "trends_slide14.svg",
+      "title": "Why? tech getting more complex?",
+      "notes": "Business article: 'Not too many years ago … technology stacks ... were simpler and often vendor-specific. A good example is the Microsoft stack: .NET languages for programming, IIS as a web and application server, and the SQL Server database. Today, technology stacks have exploded. We have platforms such as Microsoft Nano Server, Deis, Fastly, Apache Spark and Kubernetes. New tools pop up every week including Docker Toolbox, Gitrob, Polly, Prometheus and Sleepy Puppy. Programming languages and new frameworks such as Nancy, Axon, Frege, and Traveling Ruby are introduced. Advanced techniques such as the Data Lake, Gitflow, Flux and NoPSD mature. This list goes on and on.'"
+    },
+    {
+      "image": "whyapidocsfail.png",
+      "title": "Why docs fail for developers",
+      "notes": ""
+    },
+    {
+      "image": null,
+      "title": "Expertise required to improve docs",
+      "content": "<blockquote>Perhaps unsurprisingly, the biggest problems with API documentation were also the ones requiring the most technical expertise to solve. Completing, clarifying, and correcting documentation require deep, authoritative knowledge of the API’s implementation. This makes accomplishing these tasks difficult for non-developers or recent contributors to a project. &mdash; <a href='/learnapidoc/pubapis_overview.html'>Martin Robillard and Gias Uddin</a></blockquote>"
+    },
+    {
+      "image": "trends_slide13.svg",
+      "title": "'Technical Technical' writer wins job",
+      "notes": "The future is the Technical Technical Writer who knows lots of programming languages or technical frameworks. There's a growing divide between these writers and other less-technical writers. TTW wins the job in the hiring process."
+    },
+    {
+      "image": "trends_slide15.svg",
+      "title": "How to learn technology",
+      "notes": "If there’s one question that vexes me as a technical writer, it’s this: In this era of increasing technological complexity and specialization, is there any room for generalists like me? Do technical writers, who are typically only familiar with the subjects we write about, need to become engineer-like specialists, focusing in on a couple of domains in depth, so that we can write, edit, and publish more knowledgeably in these domains? Is specialization the only way to handle complexity? Will I need to become a specialist to survive as a technical writer in the future? How much time do you actually devote to learning technology each day? 30 min. or less."
+    },
+    {
+      "image": "trends_slide16.svg",
+      "title": "Learning creates a plastic brain",
+      "notes": "but there's a certain depressing nature about tech learning because it never stops, and it consumes a lot of time. tech writers bounce from one tech to the next, never becoming masters but always learning."
+    },
+    {
+      "image": "trends_slide17.svg",
+      "title": "Disconnect between prob & solution",
+      "notes": "TC Camp discussion. Same guy who notes this nautilus metaphor for learning tech. starting simple."
+    },
+    {
+      "image": "trends_slide18.svg",
+      "title": "CX-focused writer wins real goal",
+      "notes": "'If I had asked people what they wanted, they would have said faster horses.' ~ Henry Ford <br><br>'A lot of times, people don’t know what they want until you show it to them.' - Steve Jobs. most interesting project was competitive analysis you wrote..."
+    },
+    {
+      "image": "trends_slide19.svg",
+      "title": "CX awareness begins with feedback",
+      "notes": ""
+    },
+    {
+      "image": null,
+      "title": "Be both a generalist and specialist",
+      "content": "<blockquote>That is where the heart of technical communication lies, in the intersection of rhetorical acuity and technical acuity. The great debate in technical communication is whether that intersection can be achieved by a writer and an engineer working together, each bringing half of the equation, or whether it has to be by one person possessing both acuities. I tend to be in the latter camp. &mdash; <a href='/2018/10/24/technical-aptitude/'>Mark Baker</a></blockquote>"
+    },
+    {
+      "image": null,
+      "title": "More reading",
+      "content": "<a href='/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html'>Principle 11: Be both a generalist and specialist at the same time</a>. <br/><br/>Shortlink: <a href='/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html\n'>/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html</a><br/><br/>(Idratherbewriting.com > Simplifying Complexity > Principle 11)"
+    },
+    {
+      "image": null,
+      "title": "Agree or Disagree?",
+      "content": "<ul><li><b>Survey:</b> <a href='https://www.questionpro.com/t/AOaGwZeYEs'>https://www.questionpro.com/t/AOaGwZeYEs</a></li><li><b>Results:</b><a href='https://www.questionpro.com/t/PGHSUZeYEs'>https://www.questionpro.com/t/PGHSUZeYEs</a></li></ul>",
+      "notes": ""
+    }
+  ],
+  "title": "Index",
+  "collection": "slides",
+  "tags": [
+
+  ],
+  "categories": [
+
+  ],
+  "slug": "index",
+  "type": "document",
+  "url": "/slides/trends_stc19/index.html"
+}
