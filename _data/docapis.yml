@@ -548,6 +548,9 @@ folders:
   - title:  "AI document engineering with pattern-based prompts"
     jurl: /learnapidoc/docapis_pattern_prompts.html
 
+  - title: "Using AI tools to build, stage, and publish API reference docs"
+    jurl: /learnapidoc/ai-tools-build-publish-api-docs.html
+
 - title: "Chapter 16: Additional resources"
   landing: /learnapidoc/resources.html
   section: sixteen

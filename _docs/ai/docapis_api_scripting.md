@@ -1,5 +1,5 @@
 ---
-title:  "Using AI tools for building and publishing API reference docs"
+title:  "Using AI tools to build, stage, and publish API reference docs"
 permalink: learnapidoc/ai-tools-build-publish-api-docs.html
 keywords:
 course: "Documenting REST APIs"
@@ -8,21 +8,114 @@ sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html
 last-modified: 2023-07-17
-published: false
 ---
 
-At the core of API documentation is the reference content. Whether Javadoc, Doxygen, OpenAPI, or other reference output, almost every API has reference documentation that you build, stage, and publish&mdash;usually pushing out new versions with every release. Given the centrality of building and publishing reference documentation, we can leverage AI tools to create advanced scripts to configure these tasks. This is one area that few people are focusing on, but it could provide significant time savings.
+At the core of API documentation work is the building, staging, and publishing of API reference content. Whether it's [Javadoc](https://idratherbewriting.com/learnapidoc/nativelibraryapis_javadoc_tags.html), [Doxygen](https://idratherbewriting.com/learnapidoc/nativelibraryapis_doxygen.html), [OpenAPI](https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html), or other reference output, almost every API has reference documentation that you build, stage, and publish with each release. 
+
+Given the centrality reference documentation building and publishing tasks, AI tools can be great helps at configuring scripts to perform these tasks. This is one AI area that few people are focusing on, but scripts are an easy way to incorporate AI to improve your productivity and reduce the tediousness of document production.
+
+In this article, I'll focus on shell scripts (`.sh`) because they're commonly used in linux environments working with files. For docs-as-code systems, shell scripts are commonly used. You run a shell script from your terminal like this: `./some-script.sh`. The script then performs a process on one or more files. However, you could just as easily create other types of scripts, such as Python scripts.
 
 * TOC
 {:toc}
 
-{% include image_ad_right.html %}
+## Publishing example
 
+One product I support includes Java API documentation, including a Javadoc for the reference docs. To build the Javadoc, I roughly do the following:
 
-{% include random_ad2.html %}
+* Get a link to the release build from the build management system
+* Configure a build command using the release build link
+* Switch into a special branch for the build
+* Build the reference output for multiple API variants
+* Copy the generated outputs from the build output directory to the documentation directory
+* Insert a note into the pre-release builds
+* Push the docs to the staging server
+* Set up a changelist to review with engineers
 
-{% include random_ad3.html %}
+Doing this all manually required writers to follow a series of steps that took about 10-15 minutes, tediously following an internal guide through the process. Given that the reference documentation is generated from comments in the source files, if we spotted something we wanted to fix in the comments, we would need to re-build the Javadoc output and re-transfer everything to the staging server each time. 
+
+After doing this a few times per release (for example, trying to get code for links correct, or figuring out some Markdown formatting, or adjusting the language in a comment), it became exhausting. It's the kind of task that usually prompts me to flip on Netflix in the corner of my screen. It's the perfect task for automation!
+
+One day I created two shell scripts that automated the entire process down to about a minute, with almost no cognitive load. You just run the scripts and wait for it to process. All of the complexity was in the scripts. I fed the shell script commands a couple of parameters and then watched them work, speeding through each step of the process with breakneck speed. It almost felt like cheating.
+
+## Building a shell script
+
+For a developer familiar with shell scripting, creating a script to automate a build process probably isn't too hard. It depends on the complexity of the build process. But I'm a shell scripting novice, and I didn't feel like devoting a summer's worth of time learning shell scripting how-to's. (Actually, I did read through a 20-page shell scripting guide, but it didn't get me any closer to the code I needed.)
+
+Using AI tools, I stepped my way through each piece of logic that I needed until I completed script in about two days. Due to confidentiality of data and processes, I generalized my AI queries using pseudo code like this:
+
+```
+Build a shell script that does the following:
+
+- Run the command foo. The output of the foo command is bar. 
+- From the bar response, capture the part after path acme. 
+- Store the part after the path acme into a variable called barResponse.
+- Pass the barResponse variable as a parameter into the beta command.
+- The output is a doc called mydocs.zip. Unzip the mydocs.zip and copy it over to another directory here ...
+- On each page of the output, insert a note after the <body> element that says ...
+```
+
+And so on. You get the point. AI would return code that worked (most of the time) and also taught me about shell scripting along the way. 
+
+Writing pseudo code is fairly easy. If the AI tool starts recommending methods not available in your environment (e.g., configuring Flask or plugins), steer it back in the direction of shell scripts or other technology supported in your environment. The key is to write specific instructions as pseudo code.
+
+You will need some technical familiarity with code to make your through this process. But if you're a technical writer, you probably have this technical acumen already. And if not, you can learn.
+
+{% include ads.html %}
+
+## Reference content is high value--tech writers should be involved
+
+Due to the complexity in building and configuring files in reference generation processes, many technical writers actually delegate the reference docs to engineers. For example, tech writing teams might say they don't have bandwidth to build the reference output and will require engineering teams to do it instead. 
+
+However, this puts the reference content in the engineer's domain, removing technical writers from the process. If technical writers don't have their hand in editing and crafting reference content for an API, they put themselves outside of the perhaps most valuable aspect of API documentation.
 
 {% include random_ad4.html %}
 
-{% include ads.html %}
+Because reference content is high-value content, I want to get my hands dirty with field definitions, cross-references, identifying incomplete definitions, and so on. Here's a dirty secret about API technical writing: you don't have to be a Java maven to provide valuable input in Java API documentation, or any other language. For the most part, a Java API provides various classes and methods that return data. The developers working with your API are primarily interested in the data that gets returned. Usually, the data in an API is poorly described. I rarely see developer questions about how to use the API's classes and methods; instead, developers ask for more details about the data. 
+
+In fact, with the prevalence of AI tools to explain code, general knowledge about working with a programming language is less needed. What's essential is the clarity of information about what's specific to your API. What's specific is the data the API returns, not the constructs and mechanics of the programming language and usage.
+
+If you want to be a key player with API documentation, you probably need to manage the building and publishing of the reference content. Maybe your company has a push-button system already in place. Great. Chances are, however, especially if you're working in a docs-as-code shop, there are custom processes all over the place, and scripts that manage it all. By creating your own shell scripts to automate part of the building and publishing of reference docs, you can stay involved as a key player without losing bandwidth and energy in file management tasks.
+
+{% include random_ad3.html %}
+
+## Another script-building example
+
+I was feeling pretty good about my first advanced shell script, so I started wondering what else I could do. I have another scenario that involves disambiguating between preview API documentation and current release documentation. I'd been generating two variants, but they were hard to distinguish in the developer portal. Could I write a script to identify specific pages in the output (based on a diff of two table of contents), and then insert custom notes on those specific pages that appeared in both variants, and other notes on other pages? 
+
+Again, I started proceeding line by line through the logic. It didn't take more than two afternoons before I'd finished another script. This one helped disambiguate the various outputs with custom-inserted notes. Although I'm sure developers could have done this, they're usually too involved in writing code to focus on the documentation. In my experience, it's rare for engineers to sink time and energy into anything related to documentation, even if it involves coding build logic.
+
+{% include random_ad2.html %}
+
+## Blog example
+
+A few months ago I posted a script about creating a new post on my site that populated the post with the needed frontmatter, tags, and which also made a call to Rebrandly to create a shortlink for a post. See [A script that creates a new Jekyll post and populates it with YAML frontmatter, and also makes a curl call to add a Rebrandly shortlink](/blog/create-script-to-auto-create-new-post-jekyll), or view the code here: [`post.sh`](https://github.com/tomjoht/tomjoht.github.io/blob/main/post.sh).
+
+I also created some scripts to customize the PDF build process. I haven't explained much about that process, but the PDF build logic I've created for this site is pretty incredible. My PDF build command is a script here: [pdf_build_docapis_all.sh](https://github.com/tomjoht/tomjoht.github.io/blob/main/pdf_build_docapis_all.sh). This references a page [`prince-list-all.txt`](https://github.com/tomjoht/tomjoht.github.io/blob/main/prince-list-all.txt) that has its own code to gather up all the pages for Prince XML (the PDF generation tool). After the build, another script, [`pdf_upload_docapis.sh`](https://github.com/tomjoht/tomjoht.github.io/blob/main/pdf_upload_docapis.sh), uploads the content into Wasabi, the server where I host binary assets like PDFs and images.
+
+I also have a simple upload script for images as well, [`upload.sh`](https://github.com/tomjoht/tomjoht.github.io/blob/main/upload.sh), the lets me upload images to Wasabi from the command line and returns the code for easy copy/pasting into a site. Given how common it is to upload images, this small script has saved me lots of time over the past few years.
+
+{% include image_ad_right.html %}
+
+## Other applications for scripting 
+
+Depending on your systems for technical authoring and publishing, you could create scripts for many aspects of authoring and publishing, especially as you combine the shell scripts with other command line interfaces available at your disposal. Here are a few examples, including the ones I've already mentioned:
+
+* Build reference docs and copy them into your documentation system.
+* Create new pages and populate them with the needed frontmatter and sections based on the doc type.
+* Upload images into your a file network, with responses that include copy-and-paste ready HTML code with figure references and captions.
+* Generate and publish PDF versions of your content.
+* Configure release processes that kick off builds based on specific events, such as a bug that gets closed or a code release.
+* Identify the last time a page was edited, correlated with analytics that list the most viewed pages of your site.
+* Trigger actions that kick off when people create changelists for documentation edits, such as notification workflows for specific groups or product owners of those groups.
+* Create pre-staging checks (linters) on existing content, such as style checking, Markdown formatting, link validation, alt tags on images, and more.
+* Convert file formats, using tools such as Pandoc to automate the conversion.
+* Version content after a release by archiving content and updating file names and directories.
+* Perform post-publishing actions, such as updating a search index, closing bugs, or pinging groups with links to the new docs.
+* Send build notifications to specific groups about the status of docs during build, staging, and publishing to keep groups informed.
+
+## Conclusion 
+
+AI tools empower technical writers with scripting capabilities, whether it be shell scripts, Python scripts, CLIs available at your work, or more. In particular, shell scripting can help you automate parts of your build process that are tedious, making it easier to push docs through myriad processes. In a world of doc ops, where continuous builds and publishing are becoming part of the norm, tech writers need as much automation as possible with these processes.
+
+With novices building advanced shell scripts to automate documentation building and publishing, it's possible that we end up with lengthy, poorly written code that few people understand (except the person who once built it and who has since left). However, just as tools are good at building the code, you can also feed the code into the same tools for simplified explanations. This would allow those who inherit the shell scripts to make sense of the logic, if it's not clear.
