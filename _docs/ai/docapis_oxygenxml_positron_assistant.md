@@ -45,7 +45,7 @@ The general workflow with Positron involves selecting text, then clicking an act
 
 (Note: I just pulled this paragraph randomly from the OpenAI documentation [here](https://platform.openai.com/docs/introduction/key-concepts).)
 
-Dissatisfied with the definition's clarity, you select the text and click **Improve Readability** in the AI Positron Assistant pane**:**
+Dissatisfied with the definition's clarity, you select the text and click **Improve Readability** in the AI Positron Assistant pane:
 
 <figure><img style="border: 1px solid #dedede"  src="{{site.api_media}}/positronreadabilityb.png" alt="The general workflow with Positron" /><figcaption>The general workflow with Positron is to select text, then choose an action in the left AI Positron Assistant pane</figcaption></figure>
 
@@ -288,6 +288,8 @@ Each button indicates its function when sending the prompt. For convenience, I c
 </table>
 
 Keep in mind that Positron only reveals summaries to the authors, not the full prompts that it sends to ChatGPT. A significant part of mastering AI interaction lies in the art of prompt engineering. If you're skilled at eliciting the desired response from an AI bot, a practice akin to magical incantations, your answers will far surpass those of others. In fact, you can actually purchase prompts for a variety of scenarios, so I can see why Oxygen XML keeps their full prompts hidden. The skill of creating the perfect prompt for each tech comm situation is the pivotal factor in a high-quality AI integration.
+
+{% include image_ad_right.html %}
 
 ## Error correction
 

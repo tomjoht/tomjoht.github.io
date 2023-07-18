@@ -249,6 +249,8 @@ Make the following content fit into the task template above:
 
 And voila! You should have a draft of documentation ready to review and add to your documentation project. It won't be perfect, but it will probably be 70% there.
 
+{% include image_ad_right.html %}
+
 ## Demo
 
 To demo this process, let's say you're creating documentation about how to make a basic call with the OpenWeatherMap API (an API I've used elsewhere in this course). You gathered the info about making a basic call [here in this Google Doc](https://docs.google.com/document/d/1F8e0U4EUuKoXO2rhjhII5mknnTSVe7_W64dPZJYSsfE/edit). The information is just pasted in randomly without much shape or form.
