@@ -178,7 +178,8 @@ algolia:
     - files/**/*
     - pages/category-archives/*
     - pages/date-based-archives/*
-    - slides/*
+    - _slides/*
+    - _slides/trends_stc19/index.html
   nodes_to_index: 'p,.description'
 
 eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV

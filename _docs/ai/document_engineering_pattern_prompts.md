@@ -10,8 +10,7 @@ path1: learnapidoc/ai.html
 last-modified: 2023-07-06
 ---
 
-{: .disclaimer}
-This section is mostly experimental. I'm not an expert in prompt engineering and am only trying to apply some basic concepts to technical writing scenarios. I haven't tested this approach extensively because language models aren't available for me to use with the confidential documentation that I work on all day at work. However, I think the approach I describe here is how technical writers might use AI language models to write documentation in the future. The approach could significantly speed up documentation development. I will likely refine this content over time.
+{% include coffeeshopbook.html %}
 
 ## Using patterns in prompts
 

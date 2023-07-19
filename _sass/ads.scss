@@ -3,7 +3,7 @@
   }
 
   .inpostComics {
-      padding: 25px;
+      padding: 10px;
       margin-bottom: 10px;
       border-radius: 7px;
       max-width: 900px;
@@ -21,6 +21,10 @@
   .comicLink {
     max-width: 260px;
   }
+
+.container.comicBlock {
+
+}
 
   .inpostComics .comicLink {
       margin-bottom: 20px;
@@ -46,4 +50,14 @@
  {
     content: ""!important;
     padding-left: 0;
+}
+
+.row.inpostComics {
+    margin-right: -40px;
+    margin-left: -40px;
+    max-width: 850px;
+}
+
+.inpostComics img {
+    margin-bottom: 0px;
 }

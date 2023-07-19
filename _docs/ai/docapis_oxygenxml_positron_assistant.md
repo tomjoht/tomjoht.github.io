@@ -10,6 +10,8 @@ path1: learnapidoc/ai.html
 last-modified: 2023-07-04
 ---
 
+{% include coffeeshopbook.html %}
+
 The Oxygen XML Positron Assistant lets you use AI tools inside Oxygen XML to help with a variety of writing tasks, such as writing short description elements, correcting grammar, improving readability, adding index terms, and more. Positron hooks into an AI provider (currently ChatGPT 3.5) to pass your topic content to the AI with a specific instruction. It then returns the content and allows you to preview the diff, seeing what has changed and inserting the modified text in place. By integrating directly with your project, Positron helps you use AI when and where you need it, without switching contexts or resorting to external tools.
 
 In this post, I'll explain what Positron can do, how it works, and include my thoughts and analysis along the way. Although this is a sponsored post, I'll still include my own perspective about the uses of Positron and, more generally, AI. For Positron documentation, see [Oxygen AI Positron Assistant Add-on](https://blog.oxygenxml.com/topics/ai_positron.html).
