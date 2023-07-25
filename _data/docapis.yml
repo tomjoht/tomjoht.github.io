@@ -551,6 +551,9 @@ folders:
   - title: "Using AI tools to build, stage, and publish API reference docs"
     jurl: /learnapidoc/ai-tools-build-publish-api-docs.html
 
+  - title: "Using AI to learn coding"
+    jurl: /learnapidoc/docapis_ai_learn_coding.html
+    
 - title: "Chapter 16: Additional resources"
   landing: /learnapidoc/resources.html
   section: sixteen

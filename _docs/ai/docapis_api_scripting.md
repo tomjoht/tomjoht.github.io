@@ -53,7 +53,8 @@ Build a shell script that does the following:
 - From the bar response, capture the part after path acme. 
 - Store the part after the path acme into a variable called barResponse.
 - Pass the barResponse variable as a parameter into the beta command.
-- The output is a doc called mydocs.zip. Unzip the mydocs.zip and copy it over to another directory here ...
+- The output is a doc called mydocs.zip. Unzip the mydocs.zip and copy it over
+to another directory here ...
 - On each page of the output, insert a note after the <body> element that says ...
 ```
 

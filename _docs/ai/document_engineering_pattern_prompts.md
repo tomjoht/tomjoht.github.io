@@ -175,7 +175,8 @@ Here's a sample response:
 > 
 > Overview: "This guide explains how to {insert a brief description of the task}."
 > 
-> Before you start: (Optional) "Before you {insert brief description of task}, ensure: Prerequisite 1, Prerequisite 2, Prerequisite 3."
+> Before you start: (Optional) "Before you {insert brief description of task}, 
+> ensure: Prerequisite 1, Prerequisite 2, Prerequisite 3."
 > 
 > Task: "{Task Name}"
 > 
@@ -190,7 +191,8 @@ Here's a sample response:
 > 
 > Sub-task: (Optional, if the task is big and complex)
 > 
-> See also: (Optional) "Include references to other related guides or information."
+> See also: (Optional) "Include references to other related guides
+> or information."
 
 Here's a similar template rendered from the [DITA Task topic](https://www.oxygenxml.com/dita/1.3/specs/archSpec/technicalContent/dita-task-topic.html). (It took a little more massaging to get rid of the angle brackets and technical emphasis.) 
 
