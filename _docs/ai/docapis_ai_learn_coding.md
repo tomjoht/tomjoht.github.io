@@ -21,7 +21,7 @@ One challenge API technical writers face is [understanding developer code and to
 
 As if documenting code for one project weren't enough, API technical writers must also support multiple projects simultaneously, often with different types of code. You might document a Java API for one project, a REST API for another project, some Go code for an SDK, some C++ code for another project, and so on. It can be nearly impossible to be fluent in all of these languages. Even keeping the terminology straight (a "function" in one language, a "class" is another, etc.) can be challenging.
 
-Fortunately, one way you can use AI tools is to learn code more efficiently. AI tools can act like a friendly programming buddy who is sitting next to you, ready to explain anything you want, at whatever technical level you need. You can zero in on a specific question or broaden it out to increase your understanding from ground zero.
+Fortunately, you can use AI tools to learn code more efficiently. AI tools can act like a friendly programming buddy who is sitting next to you, ready to explain anything you want, at whatever technical level you need. You can zero in on a specific question or broaden it out to increase your understanding from ground zero.
 
 {% include random_ad4.html %}
 
@@ -37,9 +37,9 @@ that i can follow. i want you to teach me step by step, like a friend.
 
 You can see ChatGPT's response and my thread [here](https://chat.openai.com/share/d1843d8c-df5b-429c-ba8c-1fff659fc7f7). For general topics like this, in which there are likely abundant sources online to train the model, the responses are pretty good. 
 
-If you read my thread, you can see that I got stuck along the way and was able to use ChatGPT to work through issues. For example, I had a [sample Java project](nativelibraryapis_getting_the_source.htm) that I wanted to use to experiment with tags, but I'd forgotten how to generate the [Javadoc](nativelibraryapis_create_javadoc.html). Running the command that AI gave me didn't work and resulted in errors, so I asked it for help in sorting through the errors. In a few minutes, I installed the right VS Code Java extensions and got back on track. 
-
 {% include image_ad_right.html %}
+
+If you read my thread, you can see that I got stuck along the way and was able to use ChatGPT to work through issues. For example, I had a [sample Java project](nativelibraryapis_getting_the_source.htm) that I wanted to use to experiment with tags, but I'd forgotten how to generate the [Javadoc](nativelibraryapis_create_javadoc.html). Running the command that AI gave me didn't work and resulted in errors, so I asked it for help in sorting through the errors. In a few minutes, I installed the right VS Code Java extensions and got back on track. 
 
 The ability to zoom in on specific issues, work through error messages, and control and pace and direction of the course makes for a phenomenal learning experience. If you're not already an AI enthusiast, using AI to learn a technical topic like this might make you a convert.
 
@@ -95,6 +95,8 @@ Overall, this AI-generated Javadoc course probably took me an hour to get throug
 * The material doesn't stick long term. After a few months of not using the code, I forget it.
 * It takes too long to get to relevant material. It might be hours into a course before I even get to something that feels relevant.
 * I'm a passenger in someone else's car. I go where the driver takes me, and that driver assumes I'm a developer learning to code, not a technical writer trying to understand how to document that code.
+
+{% include ads.html %}
 
 ## The larger challenge: Finding the time
 
