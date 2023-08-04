@@ -553,6 +553,9 @@ folders:
 
   - title: "Using AI to learn coding"
     jurl: /learnapidoc/docapis_ai_learn_coding.html
+
+  - title:  "Using AI for language advice"
+    jurl: /learnapidoc/docapis_ai_language_advice.html
     
 - title: "Chapter 16: Additional resources"
   landing: /learnapidoc/resources.html
