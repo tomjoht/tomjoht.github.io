@@ -46,17 +46,18 @@ For a developer familiar with shell scripting, creating a script to automate a b
 
 Using AI tools, I stepped my way through each piece of logic that I needed until I completed the script in about two days. Due to confidentiality of data and processes, I generalized my AI queries using pseudo code like this:
 
-```
-Build a shell script that does the following:
-
-- Run the command foo. The output of the foo command is bar. 
-- From the bar response, capture the part after path acme. 
-- Store the part after the path acme into a variable called barResponse.
-- Pass the barResponse variable as a parameter into the beta command.
-- The output is a doc called mydocs.zip. Unzip the mydocs.zip and copy it over
-to another directory here ...
-- On each page of the output, insert a note after the <body> element that says ...
-```
+<div class="chat">
+<p>Build a shell script that does the following:</p>
+<ul>
+<li>Run the command foo. The output of the foo command is bar.</li>
+<li>From the bar response, capture the part after path acme.</li>
+<li>Store the part after the path acme into a variable called barResponse.</li>
+<li>Pass the barResponse variable as a parameter into the beta command.</li>
+<li>The output is a doc called mydocs.zip. Unzip the mydocs.zip and copy it over
+to another directory here ...</li>
+<li>On each page of the output, insert a note after the &lt;body&gt; element that says ...</li>
+</ul>
+</div>
 
 And so on. You get the point. AI would return code that worked (most of the time) and also taught me about shell scripting along the way. 
 

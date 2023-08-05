@@ -77,6 +77,42 @@ blockquote {
     padding: 1em;
 }
 
+div.chat p, div.response p, div.chat li, div.response li {
+    font-family: arial;
+    font-size: 14px;
+}
+
+div.chat {
+    background: #f1f1f1;
+    padding: 1em;
+    border: 0.1em solid #555; /* Corrected border declaration */
+    border-radius: 0.5em; /* Rounded corners for a more chat-like appearance */
+    overflow: auto;
+    font-size: 14px; /* Increased font size for readability */
+    font-family: 'Arial', sans-serif; /* Specified a font-family */
+    line-height: 1.5; /* Improved line spacing */
+    color: #333; /* Set a readable text color */
+    margin: 0.5em 0; /* Added a little margin between chat bubbles */
+    max-width: 80%; /* Set a max-width to prevent overflow */
+    position: relative; /* For potential positioning of child elements */
+}
+
+div.response {
+    background: lightyellow;
+    padding: 1em;
+    border: 0.1em solid #555; /* Corrected border declaration */
+    border-radius: 0.5em; /* Rounded corners for a more chat-like appearance */
+    overflow: auto;
+    font-size: 14px; /* Increased font size for readability */
+    font-family: 'Arial', sans-serif; /* Specified a font-family */
+    line-height: 1.5; /* Improved line spacing */
+    color: #333; /* Set a readable text color */
+    margin: 0.5em 0; /* Added a little margin between chat bubbles */
+    max-width: 80%; /* Set a max-width to prevent overflow */
+    position: relative; /* For potential positioning of child elements */
+}
+
+
 p.note {
     background: #f1f1f1;
     padding: 1em;

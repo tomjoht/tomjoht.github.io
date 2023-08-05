@@ -66,91 +66,106 @@ The Template Suite from Good Docs makes this easy. For example, suppose you want
 
 Paste it into an AI language model with the following prompt:
 
-```text
-The following is a list of guidelines for writing tasks. These guidelines
+<div class="chat">
+<p>The following is a list of guidelines for writing tasks. These guidelines
 provide tips and best practices to follow. Condense this information into
 a brief, concise set of rules that an AI prompt can follow. Make the statement
-of the rules machine friendly and oriented.
- 
-<PASTE IN TASK GUIDELINES FROM ABOUT-HOW-TO.MD>
-```
+of the rules machine friendly and oriented.</p>
+<p>&lt;PASTE IN TASK GUIDELINES FROM ABOUT-HOW-TO.MD&gt;</p>
+</div>
 
 The result might look like this:
 
-> Rules for tasks:
-> 
-> * Single Task Focus: One guide equals one task.
-> * Advanced Users: Guides cater to advanced users, not beginners.
-> * No Concept Teaching: Guides should not explain concepts.
-> * Clear Step Sequences: Provide ordered, straightforward steps.
-> * Unexpected Scenarios Alert: Inform about possible error scenarios.
-> * Avoid Over-Documentation: Document the most common or recommended task completion method only.
-> * Ensure Accuracy: Test and confirm the technical accuracy of instructions.
-> * Simplicity and Brevity: Limit each guide to 8-10 steps.
-> * Prerequisites: Specify required knowledge, tools, and setups.
-> * Regular Updates: Re-test instructions post product updates for continued accuracy.
+<div class="response">
+<p>Rules for tasks:</p>
+<ul>
+<li>Single Task Focus: One guide equals one task.</li>
+<li>Advanced Users: Guides cater to advanced users, not beginners.</li>
+<li>No Concept Teaching: Guides should not explain concepts.</li>
+<li>Clear Step Sequences: Provide ordered, straightforward steps.</li>
+<li>Unexpected Scenarios Alert: Inform about possible error scenarios.</li>
+<li>Avoid Over-Documentation: Document the most common or recommended task completion method only.</li>
+<li>Ensure Accuracy: Test and confirm the technical accuracy of instructions.</li>
+<li>Simplicity and Brevity: Limit each guide to 8-10 steps.</li>
+<li>Prerequisites: Specify required knowledge, tools, and setups.</li>
+<li>Regular Updates: Re-test instructions post product updates for continued accuracy.</li>
+</ul>
+</div>
 
 You could also do more or less the same thing from the [DITA Task topic](https://www.oxygenxml.com/dita/1.3/specs/archSpec/technicalContent/dita-task-topic.html). For example, following a similar process as above, here's how the AI language model rendered these rules:
 
-> Rules for tasks:
-> * Ensure document type compliance with the latest standards.
-> * Answer "How do I?" with clear step-by-step instructions.
-> * Use distinct sections for prerequisites, context, steps, results, troubleshooting, examples, and follow-up tasks.
-> * Keep prerequisites succinct and clear.
-> * Provide brief but helpful context for the task.
-> * Make steps sequential, logical, and easy to follow.
-> * Detail specific actions for each step and optionally include additional information.
-> * Clearly state the expected outcome in the results section.
-> * Provide solutions in the troubleshooting section when expected results may not be met.
-> * Support tasks with relevant examples.
-> * Guide users to the next steps or tasks after task completion.
+<div class="response">
+    <p>Rules for tasks:</p>
+    <ul>
+        <li>Ensure document type compliance with the latest standards.</li>
+        <li>Answer "How do I?" with clear step-by-step instructions.</li>
+        <li>Use distinct sections for prerequisites, context, steps, results, troubleshooting,</li>
+        <li>examples, and follow-up tasks.</li>
+        <li>Keep prerequisites succinct and clear.</li>
+        <li>Provide brief but helpful context for the task.</li>
+        <li>Make steps sequential, logical, and easy to follow.</li>
+        <li>Detail specific actions for each step and optionally include additional information.</li>
+        <li>Clearly state the expected outcome in the results section.</li>
+        <li>Provide solutions in the troubleshooting section when expected results may not be met.</li>
+        <li>Support tasks with relevant examples.</li>
+        <li>Guide users to the next steps or tasks after task completion.</li>
+    </ul>
+</div>
+
 
 If you don't have a list of rules or template for a particular topic type, find a good example in documentation and reverse engineer it through the AI model. For example, you might say:
 
-```
-Analyze the following software documentation text and identify core features
+<div class="chat">
+<p>Analyze the following software documentation text and identify core features
 which will allow further documents to imitate the same style, consistency,
-and formatting as the document below:
-
-<INSERT DOCUMENTATION SAMPLE>
-```
+and formatting as the document below:</p>
+<p>&lt;INSERT DOCUMENTATION SAMPLE&gt;</p>
+</div>
 
 For the documentation sample, pick out a task from good documentation, such as this [Update existing subscriptions task from Stripe](https://stripe.com/docs/tax/subscriptions/update). (Copy only part of the task due to token limits.)
 
 The AI response might be too detailed. Trim it down with a prompt such as the following:
 
-```
-Make the list more concise and machine oriented, as it will be fed as instructions
-to an AI language model for processing data.
-```
+<div class="chat">
+<p>Make the list more concise and machine oriented, as it will be fed as instructions
+to an AI language model for processing data.</p>
+</div>
 
 Here's what I ended up with following this reverse-engineering approach: 
 
-> Rules for tasks:
-> * Headers: Use informative and concise headers for each section.
-> * Ordered Steps: Present instructions in a clear, sequential order.
-> * Nested Instructions: Include detailed sub-steps within high-level steps.
-> * Direct Addressing: Use direct speech, addressing the reader as "you".
-> * Definitions: Provide explanations and definitions for key terms.
-> * Tabular Data: Use tables for conveying key information.
-> * Links: Incorporate cross-references and links to related content.
-> * Bold Formatting: Highlight important sections or actions using bold format.
-> * Standardized Phrasing: Maintain consistent phrasing for similar steps.
-> * Logical Structure: Arrange content in a logical flow from introduction, body to conclusion.
+<div class="response">
+<p>Rules for tasks:</p>
+<ul>
+<li>Headers: Use informative and concise headers for each section.</li>
+<li>Ordered Steps: Present instructions in a clear, sequential order.</li>
+<li>Nested Instructions: Include detailed sub-steps within high-level steps.</li>
+<li>Direct Addressing: Use direct speech, addressing the reader as "you".</li>
+<li>Definitions: Provide explanations and definitions for key terms.</li>
+<li>Tabular Data: Use tables for conveying key information.</li>
+<li>Links: Incorporate cross-references and links to related content.</li>
+<li>Bold Formatting: Highlight important sections or actions using bold format.</li>
+<li>Standardized Phrasing: Maintain consistent phrasing for similar steps.</li>
+<li>Logical Structure: Arrange content in a logical flow from introduction, body to conclusion.</li>
+</ul>
+</div>
 
 For fun, I also asked ChatGPT to merge the three lists of rules. Here's the outcome: 
 
-> Rules for writing tasks:
-> * Single Task Focus: One guide per task.
-> * Sequential Steps: Order steps logically with clear actions.
-> * Headers and Structure: Use concise headers, organize content logically: introduction, body, conclusion.
-> * Definitions and Context: Include key term definitions and task context.
-> * Prerequisites: Specify necessary knowledge, tools, and setups concisely.
-> * Outcome and Troubleshooting: State expected outcome, provide troubleshooting solutions.
-> * Formatting and Cross-References: Highlight important sections, incorporate related links.
-> * Unexpected Scenarios: Alert about possible error scenarios.
-> * Accuracy and Updates: Ensure and maintain instruction accuracy, update post product changes.
-> * Simplicity and Brevity: Keep guides to 8-10 steps, avoid over-documenting, focus on common/recommended methods.
+<div class="response">
+<p>Rules for writing tasks:</p>
+<ul>
+<li>Single Task Focus: One guide per task.</li>
+<li>Sequential Steps: Order steps logically with clear actions.</li>
+<li>Headers and Structure: Use concise headers, organize content logically: introduction, body, conclusion.</li>
+<li>Definitions and Context: Include key term definitions and task context.</li>
+<li>Prerequisites: Specify necessary knowledge, tools, and setups concisely.</li>
+<li>Outcome and Troubleshooting: State expected outcome, provide troubleshooting solutions.</li>
+<li>Formatting and Cross-References: Highlight important sections, incorporate related links.</li>
+<li>Unexpected Scenarios: Alert about possible error scenarios.</li>
+<li>Accuracy and Updates: Ensure and maintain instruction accuracy, update post product changes.</li>
+<li>Simplicity and Brevity: Keep guides to 8-10 steps, avoid over-documenting, focus on common/recommended methods.</li>
+</ul>
+</div>
 
 Seems pretty good to me. Note that you don't want to be too wordy with the rules because you have limited tokens to pass. The more tokens the rules occupy, the less text you can process. Also, there's a balance between providing too little or too much information&mdash;both extremes can lead to poorer results.
 
@@ -160,63 +175,56 @@ Seems pretty good to me. Note that you don't want to be too wordy with the rules
 
 The Good Docs Template Suite also has a template that accompanies each topic type (for the how-to, it's `template-how-to.md`). Copy this template into the following prompt to your AI language model:
 
-```
-From the following task template, strip this down into a template for
-an AI language model to follow as a pattern:
-
-<PASTE IN TASK TEMPLATE>
-```
+<div class="chat">
+<p>From the following task template, strip this down into a template for
+an AI language model to follow as a pattern:</p>
+<p>&lt;PASTE IN TASK TEMPLATE&gt;</p>
+</div>
 
 Here's a sample response:
 
-> Task template:
-> 
-> Title: "{Insert Brief Description of Task}"
-> 
-> Overview: "This guide explains how to {insert a brief description of the task}."
-> 
-> Before you start: (Optional) "Before you {insert brief description of task}, 
-> ensure: Prerequisite 1, Prerequisite 2, Prerequisite 3."
-> 
-> Task: "{Task Name}"
-> 
-> * {Optional description of the task.}
-> 
-> Steps:
-> 
->  * "1. {Write the first step here. Start with a verb.}"
->  * "2. {Write the second step here. Start with a verb.}"
->     * "2.1. {Substep 1}"
->     * "2.2. {Substep 2}"
-> 
-> Sub-task: (Optional, if the task is big and complex)
-> 
-> See also: (Optional) "Include references to other related guides
-> or information."
+<div class="response">
+    <p>Task template:</p>
+    <p>Title: "{Insert Brief Description of Task}"</p>
+    <p>Overview: "This guide explains how to {insert a brief description of the task}."</p>
+    <p>Before you start: (Optional) "Before you {insert brief description of task}, ensure: Prerequisite 1, Prerequisite 2, Prerequisite 3."</p>
+    <p>Task: "{Task Name}"</p>
+    <p>* {Optional description of the task.}</p>
+    <p>Steps:</p>
+    <ol>
+        <li>{Write the first step here. Start with a verb.}</li>
+        <li>{Write the second step here. Start with a verb.}
+            <ol>
+                <li>{Substep 1}</li>
+                <li>{Substep 2}</li>
+            </ol>
+        </li>
+    </ol>
+    <p>Sub-task: (Optional, if the task is big and complex)</p>
+    <p>See also: (Optional) {Include references to other related guides or information.}</p>
+</div>
 
 Here's a similar template rendered from the [DITA Task topic](https://www.oxygenxml.com/dita/1.3/specs/archSpec/technicalContent/dita-task-topic.html). (It took a little more massaging to get rid of the angle brackets and technical emphasis.) 
 
-> Task ID: {task_id}
-> 
-> Task Title: {task_title}
-> 
-> Task Body:
->
-> Context: {context}
->
-> Prerequisite: {prerequisite}
->
-> Steps:
-> - Step 1: {step_1}
-> - Step 2: {step_2}
-> - Step 3: {step_3}
-> - Step 4: {step_4}
->
-> Result: {result}
-> 
-> Example: {example}
+<div class="response">
+    <p>Task ID: {task_id}</p>
+    <p>Task Title: {task_title}</p>
+    <p>Task Body:</p>
+    <p>Context: {context}</p>
+    <p>Prerequisite: {prerequisite}</p>
+    <p>Steps:</p>
+    <ul>
+        <li>Step 1: {step_1}</li>
+        <li>Step 2: {step_2}</li>
+        <li>Step 3: {step_3}</li>
+        <li>Step 4: {step_4}</li>
+    </ul> <!-- Corrected closing tag -->
+    <p>Result: {result}</p>
+    <p>Example: {example}</p>
+</div>
 
-Coming up with these rules and templates shouldn't be too hard. The [Good Docs Project](https://thegooddocsproject.dev/), DITA OASIS committees, style guides, and other groups have been meeting for years to come up with the rules and templates for technical writing. Plus, you have all the best practices listed in my API doc course (for example, see the [Conceptual documentation section](docconceptual.html)). Now all this hard work can be used to teach machines how to write documentation.
+
+Coming up with these rules and templates shouldn't be too hard. The [Good Docs Project](https://thegooddocsproject.dev), DITA OASIS committees, style guides, and other groups have been meeting for years to come up with the rules and templates for technical writing. Plus, you have all the best practices listed in my API doc course (for example, see the [Conceptual documentation section](docconceptual.html)). Now all this hard work can be used to teach machines how to write documentation.
 
 {% include random_ad4.html %}
 
@@ -229,24 +237,17 @@ If you company prohibits you from pasting internal content into third-party AI m
 
 With your set of rules and template, apply it to the unstructured content in a prompt like this:
 
-```
-INPUT:
-
-You are a technical writer creating documentation, specifically a task.
-You follow a list of rules and arrange information into a given template. 
- 
-Rules: Here are the rules for writing tasks:
-
-<INSERT RULES>
-
-Template: Here is the template for writing tasks:
-
-<INSERT TEMPLATE>
- 
-Make the following content fit into the task template above:
- 
-<INSERT UNSTRUCTURED CONTENT>
-```
+<div class="chat">
+<p>INPUT:</p>
+<p>You are a technical writer creating documentation, specifically a task.
+You follow a list of rules and arrange information into a given template.</p>
+<p>Rules: Here are the rules for writing tasks:</p>
+<p>&lt;INSERT RULES&gt;</p>
+<p>Template: Here is the template for writing tasks:</p>
+<p>&lt;INSERT TEMPLATE&gt;</p>
+<p>Make the following content fit into the task template above:</p>
+<p>&lt;INSERT UNSTRUCTURED CONTENT&gt;</p>
+</div>
 
 And voila! You should have a draft of documentation ready to review and add to your documentation project. It won't be perfect, but it will probably be 70% there.
 

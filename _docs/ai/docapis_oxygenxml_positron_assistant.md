@@ -43,7 +43,7 @@ An "AI Positron Assistant" pane appears on the left with buttons for quick actio
 
 The general workflow with Positron involves selecting text, then clicking an action button in the AI Positron Assistant pane. For example, suppose you're trying to explain a confusing concept. In this scenario, pretend you're a tech writer for OpenAI explaining the concept of "embeddings." You asked engineers what an embedding is, but their response was confusing. They wrote,
 
-> An embedding is a vector representation of a piece of data (e.g. some text) that is meant to preserve aspects of its content and/or its meaning. Chunks of data that are similar in some way will tend to have embeddings that are closer together than unrelated data. OpenAI offers text embedding models that take as input a text string and produce as output an embedding vectn, classification, and more.
+> An embedding is a vector representation of a piece of data (e.g. some text) that is meant to preserve aspects of its content and/or its meaning. Chunks of data that are similar in some way will tend to have embeddings that are closer together than unrelated data. OpenAI offers text embedding models that take as input a text string and produce as output an embedding vector, classification, and more.
 
 (Note: I just pulled this paragraph randomly from the OpenAI documentation [here](https://platform.openai.com/docs/introduction/key-concepts).)
 
@@ -351,7 +351,7 @@ The confidentiality of data is  what's slowing down big tech companies from usin
 
 Oxygen's AI Positron assistant provides a practical approach to using AI when writing documentation. The integrated experience allows you to stay focused on your documentation in Oxygen XML, and the pre-made prompt actions help you quickly achieve the desired results.
 
-One detail I haven't yet addressed is the name: Positron. The name was inspired by Isaac Asimov's "positronic brain," which is a fictional device that provides robots with a sense of consciousness, reasoning, and simulated emotion. The character Data on Star Trek is an example of a robot with a positronic brain.)
+One detail I haven't yet addressed is the name: Positron. The name was inspired by Isaac Asimov's "positronic brain," which is a fictional device that provides robots with a sense of consciousness, reasoning, and simulated emotion. The character Data on Star Trek is an example of a robot with a positronic brain.
 
 In Oxygen XML, the Positron Assistant isn't conscious, nor is it about to start simulating emotions. But you can think of the Positron integration as having a character like Data on your bridge, available to ask it questions, improve language, suggest fixes, and more. Who wouldn't want that?
 
