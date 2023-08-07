@@ -556,7 +556,10 @@ folders:
 
   - title:  "Using AI for language advice"
     jurl: /learnapidoc/docapis_ai_language_advice.html
-    
+
+  - title:  "Using AI to create doc updates based on bugs"
+    jurl: /learnapidoc/docapis_ai_fix_bugs.html
+
 - title: "Chapter 16: Additional resources"
   landing: /learnapidoc/resources.html
   section: sixteen
