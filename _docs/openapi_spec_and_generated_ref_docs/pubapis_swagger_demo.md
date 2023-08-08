@@ -22,7 +22,7 @@ last-modified: 2021-06-03
 
 <p><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></p>
 
-<link rel="stylesheet" type="text/css" href="assets/css/swagger-ui.css" >
+<link rel="stylesheet" type="text/css" href="https://idratherbewriting.com/assets/css/swagger-ui.css" >
 <style>
 html
 {
@@ -79,8 +79,8 @@ background: #fafafa;
 
 <div id="swagger-ui"></div>
 
-<script src="{{ "assets/files/swagger/swagger-ui-bundle.js" }}"> </script>
-<script src="{{ "assets/files/swagger/swagger-ui-standalone-preset.js" }}"> </script>
+<script src="{{ "https://idratherbewriting.com/assets/files/swagger/swagger-ui-bundle.js" }}"> </script>
+<script src="{{ "https://idratherbewriting.com/assets/files/swagger/swagger-ui-standalone-preset.js" }}"> </script>
 <script>
 window.onload = function() {
 
