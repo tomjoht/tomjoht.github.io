@@ -50,7 +50,7 @@ i added a return tag to the following method, but i don't see a return parameter
 in the output. Why?
 </div>
 
-Not only did the AI explanations cover the general reasons (the method used a `void` tag, which meant it didn't return anything, so my `@return` command was ignored), it used the specific method names and details from the example in its explanation. There was no need for me to adapt and fit general knowledge to my specific problem.
+Not only did the AI explanations cover the general reasons (the method used a `void` tag, which meant it didn't return anything, so my `@return` command was ignored), but it used the specific method names and details from the example in its explanation. There was no need for me to adapt and fit general knowledge to my specific problem.
 
 In other areas, I wanted to expand my knowledge of specific documentation style around the `@param` tag. 
 

@@ -196,3 +196,5 @@ Do you remember what grammar rule this comma usage relates to? Rather than just 
 {% include image_ad_right.html %}
 
 By the way, once you provide the initial prompt as I indicated above, your future grammar questions can simply provide the pairs of similar sounding sentences. AI will understand your intent from the context. You could even bookmark the thread so that with future questions, you just paste in the two sentences without having to re-establish the question.
+
+Update: Since I wrote this post, there's now a "[grammar check](https://indianexpress.com/article/technology/artificial-intelligence/google-search-grammar-check-ai-feature-8882140/)" feature soon to be added into Google Search. The Grammar Check in Bard now. For any problematic sentence, try typing "grammar check" and then paste the sentence into [Bard](https://bard.google.com). The response explains any grammar issues, related rules, and suggested changes. It's pretty nifty.
