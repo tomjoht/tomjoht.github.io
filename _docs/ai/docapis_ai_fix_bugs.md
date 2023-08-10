@@ -52,7 +52,7 @@ Can AI help in making doc updates based on bugs? Yes, I think. This is one appli
 
 First, copy all the relevant information from the bug, meeting notes, code diffs, and other sources discussing the bug into a Google Doc.
 
-Then use an AI tool with a high input limit, using the gathered content as an input source. Some tools you could use for this include [Claude.ai](http://claude.ai/), which accepts an extraordinarily high input length, and [NotebookLM](https://notebooklm.google/), which is still in its experimental phase and so access is limited, but you can join the waitlist. (See [Introducing NotebookLM](https://blog.google/technology/ai/notebooklm-google-ai/) for more details.) Other AI tools could also be useful as well.
+Then use an AI tool with a high input limit, using the gathered content as an input source. Some tools you could potentially use for this include [Claude.ai](http://claude.ai/), which accepts an extraordinarily high input length, and [NotebookLM](https://notebooklm.google/), which is still in its experimental phase and so access is limited, but you can join the waitlist. (See [Introducing NotebookLM](https://blog.google/technology/ai/notebooklm-google-ai/) for more details.) Other AI tools could also be useful as well. Always consider your company's data policies when using AI tools.
 
 After you've gathered the source material, ask the AI a question such as the following: 
   
