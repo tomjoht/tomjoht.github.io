@@ -103,6 +103,13 @@ defaults:
 
   -
     scope:
+      path: "assets/files"
+      type: "pages"
+    values:
+      permalink: "/assets/files/:basename.html"
+
+  -
+    scope:
       path: "_slides"
       type: slides
     values:
