@@ -18,13 +18,13 @@ As a technical writer, I'm frequently making doc updates based on user-reported 
 
 The total diff you submit might be just a few changed lines, but here's what the process usually looks like with a doc bug:
 
-* During a meeting users have with the product team (or other Developer Relations group), the users bring up an issue with the API. The users explain an error or incorrect design with the API in some way. Meeting notes briefly describe the issue, but if you weren't there, much of the context already gets lost here.
+* During a meeting users have with the product team (or other Developer Relations group), the users bring up an issue with the API. The users explain an error or incorrect design with the API in some way. Meeting notes briefly describe the issue, but if you weren't there, much of the context is already lost here.
 * The meeting notes indicate that an action item is to log a ticket, but the ticket only briefly notes the discussion. It does not add many details, as it assumes that others involved in the project have the context of the meeting.
-* In addition to the ticket description, there's usually a dozen or more comments on the ticket, as the implementation often evolves from the original description of the fix. Some bugs might have such a lengthy comment thread that reading it requires at least an hour or more. Really gnarly bugs can have 75+ half-readable comments, with comments linking to other comments. There could also be associated email threads.
-* At the end of the ticket and comment thread, it's not clear what the problem or resolution actually was, or what docs need to be updated. If you're lucky, there's a code change attached to the ticket, but that code change might not be intelligible or straightforward. Someone just fixed the bug and closed the ticket. You have to guess which comment, if any, describes what the actual fix was. The ticket's resolution might have been privately discussed in a team meeting that the tech writer wasn't part of.
+* In addition to the ticket description, there's usually a dozen or more comments on the ticket, as the implementation often evolves from the original description of the fix. Some bugs might have such a lengthy comment thread that reading it requires at least an hour or more. Really gnarly bugs can have 75+ half-readable comments, with comments linking to other comments. There could also be associated email threads. Discussions in the threads flip back and forth with different solutions and views.
+* At the end of the ticket and comment thread, it's not clear what the problem or resolution actually was, or what docs need to be updated. If you're lucky, there's a code change attached to the ticket, but that code change might not be intelligible or straightforward. Someone just fixed the bug and closed the ticket. You have to guess which comment, if any, describes what the actual fix was. The ticket's resolution might have been privately discussed in a team meeting that the tech writer wasn't part of (e.g., all those daily standups engineers attend).
 * The product team communicates the fix back to the users through conversations, chat, team meetings, or other sources. 
 * After implementing the fix, the developers file a bug for the tech writer to make a doc update. However, the developers are overstretched already and don't have the time or interest to add easy-to-read descriptions in the ticket. They quickly file a doc bug, describing the needed change in a vague way, and reference the engineering ticket that describes the issue and fix.
-* The tech writer sees the ticket in his or her queue. He or she spends a lot of bandwidth parsing through the ticket and trying to figure out exactly what the doc update should be.
+* The tech writer sees the ticket in his or her queue. He or she spends a lot of bandwidth parsing through the ticket trying to figure out exactly what the doc update should be.
 * Despite reading through the ticket threads and meeting notes, the tech writer still has questions, so he or she reaches out to the product team for clarification.
 * The engineers are working on the next release and don't have much time to devote to explaining the maintenance fixes. Plus, isn't all the information in the engineering ticket and other notes already? 
 * After spending an hour or two deciphering the needed update and interfacing with engineers through chat, the tech writer updates a few lines in the docs and sends the change out for review.
@@ -34,7 +34,7 @@ The total diff you submit might be just a few changed lines, but here's what the
 
 If this sounds familiar, welcome to the club. Making doc updates from an assortment of bugs isn't at the top of my favorite activities. I can't tell you how many times I've gathered up a long list of doc fixes needed based on bugs only to abandon them after a short while. The work is tedious and often doesn't have hard deadlines. 
 
-Plus, once the engineers have resolved the bug, they've moved on to other work. If you ask them questions, they have to re-familiarize themselves with the bug's context as well. The user who complained was usually notified about the fix, and since no one else is making a fuss about the bug, the priority of the doc update fizzles. Tech writers also tend to focus most of their energy on documentation for the next release, not on bug fixes for existing APIs.
+Plus, once the engineers have resolved the bug, they've moved on to other work. If you ask them questions, they have to re-familiarize themselves with the bug's context as well. The user who complained was usually notified about the fix, and since no one else is making a fuss about the bug, the priority of the update fizzles. Tech writers also tend to focus most of their energy on documentation for the next release, not on bug fixes for existing code.
 
 {% include random_ad3.html %}
 
@@ -42,7 +42,7 @@ Plus, once the engineers have resolved the bug, they've moved on to other work. 
 
 I'm just as guilty as focusing on docs for the next release as anyone. However, last week I had an interesting thought about bugs. One afternoon I wanted to know what our partner engineers focus on, so I started looking at all the bugs they've had in our ticket system. Reading through the tickets, I found that the partner engineers were mostly loaded with small bugs with the product, investigating causes and fixes. The extent of their workload seemed to consist of troubleshooting and fixing bugs, and being the interface between users and the product teams. 
 
-And then the larger realization hit me: What if what makes a product excellent isn't some large feature but rather the fixing of thousands of tiny bugs surfaced from users? And if a product achieves a great user experience through these thousand bug fixes, maybe documentation elevates in the same way? What if documentation becomes excellent through a tech writer's attention to a thousand tiny user-reported bugs? Fix a sentence here, a definition there, a concept on this page, a section on another page, and so on, accruing 1,000 bug fixes until the docs become truly excellent.
+And then the larger realization hit me: What if what makes a product excellent isn't some large feature but rather the fixing of thousands of tiny bugs surfaced from users? And if a product achieves excellence through these thousand bug fixes, maybe documentation elevates in the same way? What if documentation achieves excellence through a tech writer's attention to a thousand tiny user-reported bugs? Fix a sentence here, a definition there, a concept on this page, a section on another page, and so on, accruing 1,000 bug fixes until the docs become truly next level.
 
 If a thousand tiny fixes paves the road to a great user experience, then I need to develop a much better system for triaging and fixing bugs&mdash;not just identifying them, but powering through them on a regular basis. In short, I need to develop a better system for making updates based on bugs. 
 
@@ -52,7 +52,8 @@ Can AI help in making doc updates based on bugs? Yes, I think. This is one appli
 
 First, copy all the relevant information from the bug, meeting notes, code diffs, and other sources discussing the bug into a Google Doc.
 
-Then use an AI tool with a high input limit, using the gathered content as an input source. Some tools you could potentially use for this include [Claude.ai](http://claude.ai/), which accepts an extraordinarily high input length, and [NotebookLM](https://notebooklm.google/), which is still in its experimental phase and so access is limited, but you can join the waitlist. (See [Introducing NotebookLM](https://blog.google/technology/ai/notebooklm-google-ai/) for more details.) Other AI tools could also be useful as well. Always consider your company's data policies when using AI tools.
+Then use an AI tool with a high input limit, using the gathered content as an input source. Some tools you could potentially use for this include [Claude.ai](http://claude.ai/), which accepts an extraordinarily high input length, and [NotebookLM](https://notebooklm.google/), which is still in its experimental phase and so access is limited, but you can join the waitlist. (See [Introducing NotebookLM](https://blog.google/technology/ai/notebooklm-google-ai/) for more details.) Other AI tools could also be useful as well. Always consider your company's data policies when using AI tools. In this case, due to data confidentiality, I'm using NotebookLM.
+
 
 After you've gathered the source material, ask the AI a question such as the following: 
   
@@ -93,9 +94,70 @@ For example, understanding the issues in the bug might unlock understanding in o
 
 ## Another risk: rubber-stamped LGTM
 
-Relying on engineers and product team members to vet AI-written content also poses another risk: rubber-stamped LGTMs (looks good to me). By rubber-stamped LGTMs, I mean approvals given without careful analysis and understanding of the content. Thi YouTube video [How we write/review code in big tech companies](https://www.youtube.com/watch?v=rR4n-0KYeKQ) captures the scenario perfectly. In the video, an engineer doesn't fully understand some code but makes an attempt at a fix and submits the updated code for review, assuming that the reviewer will vet the code and examine whether it's correct. However, the reviewing engineer doesn't fully understand the code either and just adds a quick LGTM and approves it. Although this scenario seems comical, there's truth to it. A lot of people will LGTM a fix without really understanding it or having knowledge to know whether it's right or wrong. They just want to get the pull request or changelist out of their queue, and they assume the author knows the information is correct.
+Relying on engineers and product team members to vet AI-written content also poses another risk: rubber-stamped LGTMs (looks good to me). By rubber-stamped LGTMs, I mean approvals given without careful analysis and understanding of the content. This YouTube video [How we write/review code in big tech companies](https://www.youtube.com/watch?v=rR4n-0KYeKQ) captures the scenario perfectly. In the video, an engineer doesn't fully understand some code but makes an attempt at a fix and submits the updated code for review, assuming that the reviewer will vet the code and examine whether it's correct. However, the reviewing engineer doesn't fully understand the code either and just adds a quick LGTM and approves it. Although this scenario seems comical, there's truth to it. A lot of people will LGTM a fix without really understanding it or having knowledge to know whether it's right or wrong. They just want to get the pull request or changelist out of their queue, and they assume the author knows the information is correct.
 
 In the case of AI, suppose the tech writer copies AI-written content that looks and sounds plausible but isn't. The reviewer reads it and, not realizing it's written by AI, gets duped by the believability of the content (AI tools are great at sounding convincing). Unless the tech writer discloses that the content was written by AI, chances are the reviewer won't be extra cautious in the review. At least when humans are writing, tech writers are much less likely to slip into fiction mode and will press engineers for answers. 
+
+
+## Gathering more context
+
+As I described earlier in the typical bug scenario, the main challenge is lack of information and context, which makes the bug hard to understand and take action on. One step I've taken to improve the amount of context/information available is to require people filing bugs to dig deep in providing needed information. Here's a sample bug template that tries to squeeze all the possible information from a requester. I generalized the info, but reading through it you will see my point. 
+
+> Please provide answers to all questions below. Note: Supplying as much info as possible below avoids the need for a follow-up meeting with you to get more details. Remember that we have almost no context for the doc update (no partner meetings, no engineering coding sessions, no post-mortems, etc.), so the information you provide is critical to making this doc update actionable.
+> 
+> 1. What release is this for? By providing the release, we can better prioritize this work against the other bugs in our queue. If the update is unrelated to a release, indicate "No Release."
+-----------------------------------------------------------------------
+> 
+> 2. What's the priority for this update? In your view, is this a P0, a P1, P2, or P3? (Feel free to explain/justify a P0 request.)
+-----------------------------------------------------------------------
+> 
+> 3. Which API are you updating?
+-----------------------------------------------------------------------
+> 
+> 4. Did you review this change with the API steering committee? If so, provide any related bugs and change request documents presented to the council. If there's a product launch entry, include the link too.
+-----------------------------------------------------------------------
+> 
+> 5. Are there any other source materials (for example, pitch docs, engineering docs, product review documents) that describe the updates? In the documents, please note which solution (among several that might be proposed) was implemented.
+-----------------------------------------------------------------------
+> 
+> 6. Is there an engineering bug related to this doc request? For example, an engineering bug that points to a change request with some code diffs? Are there other bugs that provide more detail as well? List all related bugs that might inform needed doc changes.
+-----------------------------------------------------------------------
+> 
+> 7. If the changelist with related code changes isn't included in the related bugs, please list the changelists here. From the diffs, we can get a better sense of needed doc updates.
+-----------------------------------------------------------------------
+> 
+> 8. Are there any email threads that you can PDF and attach here (or forward)? Any meeting notes that you can point us to? Anything that provides more context for us?
+-----------------------------------------------------------------------
+> 
+> 9. What proto, class, or other source files are being changed in this update? (Since docs are generated from source comments in proto and public class files, identifying the source helps us make any changes to comments.)
+-----------------------------------------------------------------------
+> 
+> 10. Write the release note for this update. Be specific about field or class names. Provide as much detail as is needed for users to understand the update. 
+-----------------------------------------------------------------------
+> 
+> 11. Indicate the release status of the feature.
+-----------------------------------------------------------------------
+> 
+> 12. Does the field/method, etc. appear in other APIs? Which ones? (We want to avoid having duplicate and conflicting descriptions of the same fields across different APIs.)
+-----------------------------------------------------------------------
+> 
+> 13. Does this change affect any code samples in the documentation?
+-----------------------------------------------------------------------
+> 
+> 14. Who should review and approve this content before we submit the updated documentation? Include any relevant stakeholders as well.
+-----------------------------------------------------------------------
+>
+>
+> If you have any questions, reach out through email or chat.
+
+As you can see, filing a bug will be time-consuming and somewhat painful for the requester, but ever so sweet for the tech writer. Imagine having all of this information gathered at the time someone requests an update. It might actually make the bug actionable!
+
+From this gathered context, you can copy the information into a single Google doc, remove all the parts that might mislead an AI, and then provide the doc as context. Some parts to remove might include the following:
+
+* Wrong answers in email threads
+* Alternative solutions never implemented
+* Future roadmaps not yet relevant
+* Unnecessary fluff unrelated to the needed updates
 
 ## Conclusion
 
