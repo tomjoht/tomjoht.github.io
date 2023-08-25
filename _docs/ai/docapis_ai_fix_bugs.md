@@ -12,13 +12,15 @@ last-modified: 2023-08-06
 
 {% include coffeeshopbook.html %}
 
-As a technical writer, I'm frequently making doc updates based on user-reported bugs. For example, here's a common scenario: users provide feedback about one of the fields returned in an API; then the engineering team fixes the field, changing the name and the responses it provides. As a final step to the fix, the engineers create a doc bug for the technical writer to update the documentation. Sounds simple, right? It's usually anything but simple. 
+As a technical writer, I'm frequently making doc updates based on user-reported bugs. A doc bug is a fix that needs to be made to documentation that has already been released, rather than documentation for a new feature.
+
+For example, here's a common scenario: users provide feedback about one of the confusing fields returned in an API. The partner files a bug that kicks off a long back-and-forth thread with the engineers. The engineering team might make a fix or unravel the confusion a bit. As a final step to the fix, the engineers create a doc bug for the technical writer to update the documentation. Sounds simple, right? It's usually anything but simple. 
 
 ## The doc bug process
 
 The total diff you submit might be just a few changed lines, but here's what the process usually looks like with a doc bug:
 
-* During a meeting users have with the product team (or other Developer Relations group), the users bring up an issue with the API. The users explain an error or incorrect design with the API in some way. Meeting notes briefly describe the issue, but if you weren't there, much of the context is already lost here.
+* During a meeting users have with the product team (or other Developer Relations group), the users bring up an issue with the API. Meeting notes briefly describe the issue, but if you weren't there, much of the context is already lost here.
 * The meeting notes indicate that an action item is to log a ticket, but the ticket only briefly notes the discussion. It does not add many details, as it assumes that others involved in the project have the context of the meeting.
 * In addition to the ticket description, there's usually a dozen or more comments on the ticket, as the implementation often evolves from the original description of the fix. Some bugs might have such a lengthy comment thread that reading it requires at least an hour or more. Really gnarly bugs can have 75+ half-readable comments, with comments linking to other comments. There could also be associated email threads. Discussions in the threads flip back and forth with different solutions and views.
 * At the end of the ticket and comment thread, it's not clear what the problem or resolution actually was, or what docs need to be updated. If you're lucky, there's a code change attached to the ticket, but that code change might not be intelligible or straightforward. Someone just fixed the bug and closed the ticket. You have to guess which comment, if any, describes what the actual fix was. The ticket's resolution might have been privately discussed in a team meeting that the tech writer wasn't part of (e.g., all those daily standups engineers attend).
@@ -106,46 +108,43 @@ As I described earlier in the typical bug scenario, the main challenge is lack o
 > Please provide answers to all questions below. Note: Supplying as much info as possible below avoids the need for a follow-up meeting with you to get more details. Remember that we have almost no context for the doc update (no partner meetings, no engineering coding sessions, no post-mortems, etc.), so the information you provide is critical to making this doc update actionable.
 > 
 > 1. What release is this for? By providing the release, we can better prioritize this work against the other bugs in our queue. If the update is unrelated to a release, indicate "No Release."
------------------------------------------------------------------------
 > 
 > 2. What's the priority for this update? In your view, is this a P0, a P1, P2, or P3? (Feel free to explain/justify a P0 request.)
------------------------------------------------------------------------
 > 
 > 3. Which API are you updating?
------------------------------------------------------------------------
 > 
 > 4. Did you review this change with the API steering committee? If so, provide any related bugs and change request documents presented to the council. If there's a product launch entry, include the link too.
------------------------------------------------------------------------
+>
 > 
 > 5. Are there any other source materials (for example, pitch docs, engineering docs, product review documents) that describe the updates? In the documents, please note which solution (among several that might be proposed) was implemented.
------------------------------------------------------------------------
+>
 > 
 > 6. Is there an engineering bug related to this doc request? For example, an engineering bug that points to a change request with some code diffs? Are there other bugs that provide more detail as well? List all related bugs that might inform needed doc changes.
------------------------------------------------------------------------
+>
 > 
 > 7. If the changelist with related code changes isn't included in the related bugs, please list the changelists here. From the diffs, we can get a better sense of needed doc updates.
------------------------------------------------------------------------
+>
 > 
 > 8. Are there any email threads that you can PDF and attach here (or forward)? Any meeting notes that you can point us to? Anything that provides more context for us?
------------------------------------------------------------------------
+>
 > 
 > 9. What proto, class, or other source files are being changed in this update? (Since docs are generated from source comments in proto and public class files, identifying the source helps us make any changes to comments.)
------------------------------------------------------------------------
+>
 > 
 > 10. Write the release note for this update. Be specific about field or class names. Provide as much detail as is needed for users to understand the update. 
------------------------------------------------------------------------
+>
 > 
 > 11. Indicate the release status of the feature.
------------------------------------------------------------------------
+>
 > 
 > 12. Does the field/method, etc. appear in other APIs? Which ones? (We want to avoid having duplicate and conflicting descriptions of the same fields across different APIs.)
------------------------------------------------------------------------
+>
 > 
 > 13. Does this change affect any code samples in the documentation?
------------------------------------------------------------------------
+>
 > 
 > 14. Who should review and approve this content before we submit the updated documentation? Include any relevant stakeholders as well.
------------------------------------------------------------------------
+>
 >
 >
 > If you have any questions, reach out through email or chat.
