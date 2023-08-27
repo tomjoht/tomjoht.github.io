@@ -7,7 +7,7 @@ weight: 14.6
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html
-last-modified: 2023-08-25
+last-modified: 2023-08-26
 ---
 
 The best scenarios to implement AI are those tasks that humans perform poorly but robots perform excellently. One of these task domains is comparative analysis, specifically comparing two sets of information to identify inconsistencies.
