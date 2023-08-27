@@ -560,8 +560,8 @@ folders:
   - title:  "Using AI to create doc updates based on bugs"
     jurl: /learnapidoc/docapis_ai_fix_bugs.html
 
-  - title:  "Least-to-most prompting techniques"
-    jurl: /learnapidoc/docapis_least_to_most_prompts.html
+  - title:  "Using AI For thematic analysis"
+    jurl: /learnapidoc/docapis_thematic_analysis.html
 
   - title:  "Using AI for comparison tasks with API responses"
     jurl: /learnapidoc/docapis_ai_comparison_tasks.html

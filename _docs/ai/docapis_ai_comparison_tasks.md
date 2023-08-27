@@ -113,7 +113,7 @@ Here's the truncated response:
 ...
 ```
 
-To see the full response for the 16 days, go to [forecast-response.txt](/assets/files/forecast-response.txt)
+To see the full response for the 16 days, go to [forecast-response.txt](https://idratherbewriting.com/assets/files/forecast-response.txt)
 
 The Forecast API shows some of the complexity in evaluating responses. In this case, the API returns 16 days of weather forecast, so the `list` array has 16 objects. (I truncated the sample after the first object.) Each object has some parent fields like `main`, `weather`, `clouds`, `wind`, and `sys`. Then there are some standalone fields: `dt`, `visibility`, `pop`, and `dt_text`. 
 
