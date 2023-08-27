@@ -12,8 +12,10 @@ last-modified: 2023-07-25
 
 {% include coffeeshopbook.html %}
 
+{% if site.format == "web" %}
 * TOC
 {:toc}
+{% endif %}
 
 ## The challenge of learning code
 

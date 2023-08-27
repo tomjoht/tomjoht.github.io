@@ -16,6 +16,11 @@ As a technical writer, I'm frequently making doc updates based on user-reported 
 
 For example, here's a common scenario: users provide feedback about one of the confusing fields returned in an API. The partner files a bug that kicks off a long back-and-forth thread with the engineers. The engineering team might make a fix or unravel the confusion a bit. As a final step to the fix, the engineers create a doc bug for the technical writer to update the documentation. Sounds simple, right? It's usually anything but simple. 
 
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
+
 ## The doc bug process
 
 The total diff you submit might be just a few changed lines, but here's what the process usually looks like with a doc bug:

@@ -12,6 +12,11 @@ last-modified: 2023-08-15
 
 {% include coffeeshopbook.html %}
 
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
+
 In the context of AI prompt engineering strategies, least-to-most prompts involve asking for high-level information/outlines first, followed by subsequent prompts that dive into each point for greater detail. I recently used this technique in preparing notes for a book club and, though I haven't yet used it for API documentation, I think it could work well for a number of documentation-related scenarios.
 
 ## The basic strategy of least-to-most prompts
@@ -50,7 +55,7 @@ Anyway, every month we read a book and then meet to discuss it. As the book club
 
 Here was my process:
 
-1. Go back through the book and_ voice type _the key passages and ideas into a Google Doc. (I used to type the notes out; then I discovered voice typing by going to Tools > Voice typing in Google Docs, and it sped things up.) This part is the most tedious because I put stars next to far too many passages when I read. However, collecting this material is key to creating the input source for the AI. I don't mind if the voice-typed passages have errors because the AI tools are generally great at correctly interpreting the intent and meaning anyway.
+1. Go back through the book and _voice type_ the key passages and ideas into a Google Doc. (I used to type the notes out; then I discovered voice typing by going to Tools > Voice typing in Google Docs, and it sped things up.) This part is the most tedious because I put stars next to far too many passages when I read. However, collecting this material is key to creating the input source for the AI. I don't mind if the voice-typed passages have errors because the AI tools are generally great at correctly interpreting the intent and meaning anyway.
 2. Find about 10 book reviews and copy and paste the review content into the same Google Doc. (I sometimes don't even read the reviews.)
 3. Ask a high-level question to the AI. I chose to use [Claude.ai](https://claude.ai/) because it accepts a large input, and also because the book club doesn't involve confidential data. (If you haven't tried Claude, it's pretty amazing. The large text input is a game-changer because it allows you to supply more context to the AI, which can prevent the wacky hallucinations and fictitious responses.) The prompt I used was the following: 
 

@@ -12,6 +12,11 @@ last-modified: 2023-07-19
 
 {% include coffeeshopbook.html %}
 
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
+
 At the core of API documentation work is building, staging, and publishing of API reference content. Whether it's [Javadoc](https://idratherbewriting.com/learnapidoc/nativelibraryapis_javadoc_tags.html), [Doxygen](https://idratherbewriting.com/learnapidoc/nativelibraryapis_doxygen.html), [OpenAPI](https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html), or other reference output, almost every API has reference documentation that you build, stage, and publish with each release. 
 
 Given the centrality of documentation building and publishing tasks, AI tools can be a great help when it comes to configuring scripts to perform these tasks. This is one AI area few people are focusing on, but scripts are an easy way to incorporate AI to improve your productivity and reduce the tediousness of document production.

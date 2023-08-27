@@ -563,6 +563,9 @@ folders:
   - title:  "Least-to-most prompting techniques"
     jurl: /learnapidoc/docapis_least_to_most_prompts.html
 
+  - title:  "Using AI for comparison tasks with API responses"
+    jurl: /learnapidoc/docapis_ai_comparison_tasks.html
+
 - title: "Chapter 16: Additional resources"
   landing: /learnapidoc/resources.html
   section: sixteen

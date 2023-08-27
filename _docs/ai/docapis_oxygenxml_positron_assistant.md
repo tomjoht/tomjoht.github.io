@@ -16,8 +16,10 @@ The Oxygen XML Positron Assistant lets you use AI tools inside Oxygen XML to hel
 
 In this post, I'll explain what Positron can do, how it works, and include my thoughts and analysis along the way. Although this is a sponsored post, I'll still include my own perspective about the uses of Positron and, more generally, AI. For Positron documentation, see [Oxygen AI Positron Assistant Add-on](https://blog.oxygenxml.com/topics/ai_positron.html).
 
+{% if site.format == "web" %}
 * TOC
 {:toc}
+{% endif %}
 
 *Note: This is a sponsored post.*
 
