@@ -16,7 +16,7 @@ description: "Lately, I've been researching different options for doc search. I'
 I'd like to start by taking a look at the searches I made over the previous day or so. According to [Google History](https://myactivity.google.com/myactivity), here's what I searched for:
 
 * Windows chrome
-* Windows chrome (Window non-client areas
+* Windows chrome (Window non-client areas)
 * what is a windowed mode windows
 * from january 22 to june 10 is how many days
 * site:qualtrics.com site intercept
@@ -77,7 +77,7 @@ If I look at the actual visitors on my site for the same 30 days by looking at G
 
 {% include ads.html %}
 
-## The actual searches people are making on my blog
+## The actual searches people are making on my blog {#actual_searches}
 
 Let's dive deeper and analyze the actual [non-empty] searches people are making on my blog. Here are the queries:
 

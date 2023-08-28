@@ -3,7 +3,7 @@ title:  "Using AI to learn coding"
 permalink: learnapidoc/docapis_ai_learn_coding.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.3
+weight: 14.4
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

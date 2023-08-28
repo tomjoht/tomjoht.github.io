@@ -3,7 +3,7 @@ title:  "Using AI for language advice"
 permalink: learnapidoc/docapis_ai_language_advice.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.4
+weight: 14.5
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

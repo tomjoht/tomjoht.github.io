@@ -3,12 +3,14 @@ title:  "Using AI for comparison tasks with API responses"
 permalink: learnapidoc/docapis_ai_comparison_tasks.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.6
+weight: 14.8
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html
-last-modified: 2023-08-26
+last-modified: 2023-08-28
 ---
+
+{% include coffeeshopbook.html %}
 
 The best scenarios to implement AI are those tasks that humans perform poorly but robots perform excellently. One of these task domains is comparative analysis, specifically comparing two sets of information to identify inconsistencies.
 
@@ -31,20 +33,18 @@ Compare the following JSON blobs. Sort the blobs alphabetically by their keys, t
 
 API responses can have a lot of fields returned in the response, and the fields returned depend on the input parameters and the available data. 
 
-For more background on API responses, see [Response example and schema](docapis_doc_sample_responses_and_schema.html). In short, an API responses can be broken down into the following:
+For more background on API responses, see [Response example and schema](docapis_doc_sample_responses_and_schema.html). In short, API responses can be broken down into the following:
 
-* **schema** - this describes all possible fields returned and the rules for which they're returned, as well as definitions of each field
-* **sample responses** - these usually provide a subset of the total fields described by the schema, often determined by different input parameters. In other words, if you use parameter `foo`, the response includes `acme` objects; but if you use parameter `bar`, the response includes `beta` objects, etc.
+* **schema** - describes all possible fields returned and the rules for which they're returned, as well as definitions of each field. For example, the response includes one of the following: an array of `acme` or `beta` objects.
+* **sample responses** - provides a subset of the total fields described by the schema, often determined by different input parameters. In other words, if you use parameter `foo`, the response includes an array of `acme` objects; but if you use parameter `bar`, the response includes an array of `beta` objects, etc.
 
-It's this relationship between the schema and the sample responses that makes understanding the API responses difficult. Is a sample response missing certain fields because the data didn't include those fields, because of the input parameters used, or due to error? Are there fields the tech writer documented that don't actually align with the API responses? Are there fields present in the response that aren't listed in the documentation? And which fields might be confusing to users?
+It's this relationship between the schema and the sample responses that makes assessing  API responses difficult. Is a sample response missing certain fields because the data didn't include those fields, because of the input parameters used, or due to error? Are there fields the tech writer documented that don't actually align with the API responses? Are there fields present in the response that aren't listed in the documentation? Which fields might be confusing to users?
 
-This is exactly the kind of task that robots are better are doing than humans(by robots, I just mean LLMs or AI). We're not great at line by line comparison of hundreds of words to identify the diffs between information objects. But this eye for detail is what we need when we write docs. This kind of meticulousness can be taxing and straining cognitively.
+This is exactly the kind of task that robots are better are doing than humans (by robots, I just mean LLMs or AI). We're not great at line by line comparison of hundreds of words to identify the diffs between information objects. But this eye for detail is what we need when we write docs. Exerting this meticulousness can be taxing and cognitively straining.
 
-There can also be some drift between engineering specifications that a tech writer might have used in creating the documentation (specifications that likely included the fields and their definitions) and the actual implementation. 
+There can also be some drift between engineering specifications that a tech writer might have used in creating the documentation (specifications that likely included the fields and their definitions) and the actual implementation. To identify drift, the tech writer usually [runs some sample tests](testingdocs.html) to confirm that the responses match the documentation. But unless your API has only a simple number of fields in the response, the comparison tasks can be daunting task. The API response might have an array with repeated fields, or it might have deeply nested fields, or other complexities that make it difficult to evaluate. With Java APIs, the reference documentation often names the objects, but those names don't appear as field names in the output. 
 
-To identify drift, the tech writer usually [runs some sample tests](testingdocs.html) to confirm that the responses match the documentation. But unless your API has only a simple number of fields in the response, this can be a daunting task. The API response might have an array with repeated fields, or it might have deeply nested fields, or other complexities that make it difficult to evaluate. With Java APIs, the reference documentation often names the objects, but those names don't appear in the output. 
-
-Overall, this is one area prone to error. Here let's see if AI tools can help with the comparative analysis. Using AI tools, we will ask whether the documentation about our API's responses matches the API's actual responses.
+Overall, ensuring the API's responses are accurate is one area prone to error. Here let's see if AI tools can help with the comparative analysis. Using AI tools, we will ask whether the documentation about our API's responses matches the API's actual responses.
 
 {% include ads.html %}
 
@@ -56,17 +56,17 @@ Here is the scenario: as a tech writer, you're working with some API responses a
 
 {% include random_ad3.html %}
 
-In this experiment, we'll use the [Forecast API](https://openweathermap.org/forecast16) from OpenWeatherMap, which is an API I've used elsewhere in this course. First, I created a Forecast API response [using Postman](docapis_postman.html) or [curl](docapis_make_curl_call.html). (I went over this earlier in the course.) As an alternative to Postman, or if you want to import this command into Postman, here's the curl to make a call to OpenWeatherMap's Forecast endpoint:
+In this experiment, we'll use the [Forecast API](https://openweathermap.org/forecast16) from OpenWeatherMap, which is an API I've used elsewhere in this course. First, I created a Forecast API response [using Postman](docapis_postman.html). (I went over Postman earlier in the course.) As an alternative to Postman, or if you want to import this command into Postman, here's the [curl](docapis_make_curl_call.html) command to make the same call:
 
 ```
 curl --location 'https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY'
 ```
 
-[Swap in your own API key](docapis_get_auth_keys.html) for `YOURAPIKEY`.
+Swap in your own [API key](docapis_get_auth_keys.html) for `YOURAPIKEY`.
 
-Or literally just paste in this URL into the browser: https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY
+Or literally just paste in this URL into the browser: `https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY`.`
 
-Here's the truncated response:
+Here's the response (truncated):
 
 ```json
 {
@@ -113,15 +113,15 @@ Here's the truncated response:
 ...
 ```
 
-To see the full response for the 16 days, go to [forecast-response.txt](https://idratherbewriting.com/assets/files/forecast-response.txt)
+To see the full response for the 16 days, view [forecast-response.txt](https://idratherbewriting.com/assets/files/forecast-response.txt){: target="_blank"}.
 
 The Forecast API shows some of the complexity in evaluating responses. In this case, the API returns 16 days of weather forecast, so the `list` array has 16 objects. (I truncated the sample after the first object.) Each object has some parent fields like `main`, `weather`, `clouds`, `wind`, and `sys`. Then there are some standalone fields: `dt`, `visibility`, `pop`, and `dt_text`. 
 
-You can see this so much better in Postman, and you can expand/collapse the sections. In the terminal, the response is compressed and almost unintelligible unless prettified.
+In the terminal, the response is compressed and almost unintelligible unless prettified.
 
 <img src="{{site.api_media}}/terminalresponseforecastapi.png" alt="Terminal response of compressed JSON payload" />
 
-I include options to see the full response to convey that actual JSON responses can be lengthy and difficult to process. Responses are not the greatest task for humans to be constantly analyzing.
+You can see this so much better in Postman, and you can expand/collapse the sections. But regardless, lengthy API responses are not the greatest task for humans to be constantly analyzing.
 
 ## Prompts and responses
 
@@ -318,11 +318,11 @@ Other than these minor naming differences, the field names appear consistent bet
 Let me know if you notice any other inconsistencies with field names between the documentation and JSON!
 </div>
 
-With this response, Claude goes off the rails. The JSON response doesn't use `feelsLike` nor `Description` with a capital D. Further, the [Forecast documentation](https://openweathermap.org/forecast16) doesn't use `ground_level`.
+With this response, Claude goes off the rails. The JSON response doesn't use `feelsLike`, nor does it use `Description` with a capital D. Further, the [Forecast documentation](https://openweathermap.org/forecast16) doesn't use `ground_level`.
 
-Weirdly, the day before I was doing a similar experiment with Claude, and I had changed the response to `feelsLike` in order to see whether it could spot an inconsistency. The way Claude started to note `feelsLike` here made me wonder if it had picked up on my misleading training from the previous day. When I pressed Claude for more details on why it included `feelsLike`, it flipped its response, apologized, and then made more errors in its correction, noting:
+Weirdly, the day previous, I was doing a similar experiment with Claude, and I had changed the response to `feelsLike` to see whether it could spot an inconsistency. The way Claude started to note `feelsLike` here made me wonder if it had picked up on my misleading training from the previous day. When I pressed Claude for more details on why it included `feelsLike`, it flipped its response, apologized, and then made more errors in its correction, noting:
 
-<div class="chat">
+<div class="response">
 <p>...my previous explanation was incorrect. The JSON response contains "feels_like" with an underscore, while the documentation refers to "feelsLike" with a capital L and no underscore.</p>
 
 <p>To clarify:</p>
@@ -333,7 +333,7 @@ Weirdly, the day before I was doing a similar experiment with Claude, and I had 
 <p>The casing is different between the two. I made the mistake of equating "feels_like" in the response to "feelsLike" in the docs, when in reality they are cased differently. Thank you for catching my mistake! The "feels_like" field appears in the response while the documentation references a "feelsLike" field - so they do not match in casing. I appreciate you helping me correct my understanding here.</p>
 </div>
 
-Sorry Claude, the documentation doesn't have a `feelsLike` field either. This error reinforces the fact that we shouldn't put much confidence in the responses from these systems, nor forgive them when they apologetically admit errors. Further, it seems there's a possibility for them to get dumber with more use, as many have said about ChatGPT. I'm not sure to what extent each prompt and response influences future responses. 
+Sorry Claude, the documentation doesn't have a `feelsLike` field either. This error reinforces the fact that we shouldn't put much confidence in the responses from these systems, nor believe their explanations about why the errors occurred. Further, it seems there's a possibility for them to get dumber with more use, as many have [said about ChatGPT](https://futurism.com/the-byte/stanford-chatgpt-getting-dumber). I'm not sure to what extent each prompt and response influences future responses. 
 
 Prompt: 
 <div class="chat">
@@ -378,7 +378,7 @@ Prompt:
 Now take a look at this new response. [PASTE OF NEW MODIFIED JSON RESPONSE]. Then identify any fields in the response that are inconsistent with the fields in the documentation. Pay attention to capitalization, casing, spelling, etc.
 </div>
 
-{% include random_ad2.html %}
+{% include random_ad4.html %}
 
 Response:
 
@@ -458,6 +458,6 @@ If this were an actual API I was documenting, I would examine each of these fiel
 
 ## Conclusion
 
-Hopefully you get the point of these sample prompts and responses. Use AI tools to check for inconsistencies. Just as AI tools are good at summaries, they're also good at comparing two sets of data and identifying inconsistencies.
+Hopefully you get the point of these sample prompts and responses. You can use AI tools to check for inconsistencies. It's too early to tell from my brief experiment how useful the comparison tasks are, whether you end up spending time chasing errors or not, but it does seem like these comparison tasks could be a good way to use AI tools in API documentation workflows. Even if the error rate is 20% or so, perhaps the 80% of actual errors caught could prove useful.
 
 If you have more use cases where you compare two sets of information, I'd love to hear about them.

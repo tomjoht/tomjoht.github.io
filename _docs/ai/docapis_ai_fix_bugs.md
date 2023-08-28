@@ -3,7 +3,7 @@ title:  "Using AI to create doc updates based on bugs"
 permalink: learnapidoc/docapis_ai_fix_bugs.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.5
+weight: 14.6
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html
@@ -155,6 +155,8 @@ As I described earlier in the typical bug scenario, the main challenge is lack o
 > If you have any questions, reach out through email or chat.
 
 As you can see, filing a bug will be time-consuming and somewhat painful for the requester, but ever so sweet for the tech writer. Imagine having all of this information gathered at the time someone requests an update. It might actually make the bug actionable!
+
+{% include image_ad_right.html %}
 
 From this gathered context, you can copy the information into a single Google doc, remove all the parts that might mislead an AI, and then provide the doc as context. Some parts to remove might include the following:
 
