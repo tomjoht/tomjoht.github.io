@@ -19,7 +19,7 @@ last-modified: 2023-08-27
 
 One of the main ways I use AI is with thematic analysis, which involves identifying, analyzing, and reporting patterns (themes) within qualitative data. After you identify major themes, you can use least-to-most prompting techniques to go into more detail.
 
-I recently used this technique in preparing notes for a book club. It could also could work well for a number of documentation-related scenarios.
+I recently used this technique in preparing notes for a book club. It could also could work well for a number of documentation-related scenarios. In this article, I explore using AI for thematic analysis with doc feedback, search analytics, tags and related pages, FAQs, glossary items, bugs, and documentation pages.
 
 ## Step 1: Thematic analysis
 
@@ -51,13 +51,13 @@ The result was a list of major themes and high-level arguments in the book. The 
 
 The following sections list other use cases for thematic analysis, more applicable to tech comm.
 
-### Thematic analysis of job ads
+### Thematic analysis of desired skills in job ads
 
 I wrote about this technique in [Looking at job advertisements to extrapolate the evolution of tech comm](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/#jobads). In "The Evolution of Technical Communication: An Analysis of Industry Job Postings" (Nov 2015 *Technical Communication Journal*), Eva Brumberger and Claire Lauer analyze hundreds of job advertisements, looking for patterns. They want to know what skills employers are seeking for so they can prepare their students to be successful in the job market.
 
 After identifying the skills in the job ads, they quantify the skills to assess trending patterns. From this research, they arrive at a list of desired skills. The most sought-after professional competencies for technical writers/editors include written communication (75%), Editing (51%), Project planning/mgmt (49%), Visual communication (49%), Subject-matter familiarity (45%), Working with SMEs (41%), and Style guides/standards (40%).
 
-### Thematic analysis of feedback
+### Thematic analysis of doc feedback
 
 Affinity diagramming is another common technique used by UX researchers to synthesize user feedback into more actionable groups and themes. An affinity diagramming session starts with writing hundreds of qualitative statements on Post-it notes; then a dozen or so people arrange the Post-it notes into thematic groupings. Finally, someone writes a statement at the top of the Post-it note group that expresses the collection of notes. This technique allows researchers to go from hundreds of points of data (fragmented, ungrouped, and miscellaneous) into actionable insights. 
 
