@@ -20,5 +20,5 @@ myvenv
 # aws s3 cp ~/projects/idratherbewriting/pdf/chapter14_docapis2395.pdf s3://learnapidoc-outputs --profile wasabi
 # aws s3 cp ~/projects/idratherbewriting/pdf/chapter15_docapis3757.pdf s3://learnapidoc-outputs --profile wasabi
 # aws s3 cp ~/projects/idratherbewriting/pdf/chapter16_docapis8129.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis.pdf s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/docapis.zip s3://learnapidoc-outputs --profile wasabi
 echo 'done uploading'

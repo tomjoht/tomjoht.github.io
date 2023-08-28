@@ -70,25 +70,29 @@ The course primarily serves the following audiences:
 
 The course consists of the following sections:
 
-- [I: Introduction to REST APIs](docapis_introtoapis.html)
-- [II: Using an API like a developer](likeadeveloper.html)
-- [III: Documenting API endpoints](docendpoints.html)
-- [IV: OpenAPI spec and generated reference docs](restapispecifications.html)
-- [V: Step-by-step OpenAPI code tutorial](openapi_tutorial.html)
-- [VI: Testing API docs](testingdocs.html)
-- [VII: Conceptual topics in API docs](docconceptual.html)
-- [VIII: Code tutorials](docapiscode.html)
-- [IX: The writing process](writing_process.html)
-- [X: Publishing API docs](publishingapis.html)
-- [XI: Thriving in the API doc space](jobapis.html)
-- [XII: Native library APIs](nativelibraryapis.html)
-- [XIII: Processes and methodology](docapis_managing_doc_processes.html)
-- [XIV: Metrics and measurement](docapis_metrics_and_measurement.html)
-- [XV: Additional resources](resources.html)
+- [Chapter 1: Introduction to REST APIs](docapis_introtoapis.html)
+- [Chapter 2: Using an API like a developer](likeadeveloper.html)
+- [Chapter 3: Documenting API endpoints](docendpoints.html)
+- [Chapter 4: OpenAPI spec and generated reference docs](restapispecifications.html)
+- [Chapter 5: Step-by-step OpenAPI code tutorial](openapi_tutorial.html)
+- [Chapter 6: Testing API docs](testingdocs.html)
+- [Chapter 7: Conceptual topics in API docs](docconceptual.html)
+- [Chapter 8: Code tutorials](docapiscode.html)
+- [Chapter 9: The writing process](writing_process.html)
+- [Chapter 10: Publishing API docs](publishingapis.html)
+- [Chapter 11: Thriving in the API doc space](jobapis.html)
+- [Chapter 12: Native library APIs](nativelibraryapis.html)
+- [Chapter 13: Processes and methodology](docapis_managing_doc_processes.html)
+- [Chapter 14: Metrics and measurement](docapis_metrics_and_measurement.html)
+- [Chapter 15: AI tools and API documentation](docapis_ai.html)
+- [Chapter 16: Additional resources](resources.html)
+
+{: .tip}
+The PDF download provides the PDF as a single PDF consisting of all chapters as well as individual chapters as standalone PDF files.
 
 ## Sequence and activities
 
-You don't have to read the sections in order &mdash; feel free to skip around as you prefer. Some of the earlier sections (such as the section on [Using a REST API like a developer](likeadeveloper.html) and [Documenting endpoints](docendpoints.html) follow a somewhat sequential order with the same [weather API scenario](docapis_scenario_for_using_weather_api.html), but by and large you can jump around as desired.
+You don't have to read the sections in order &mdash; feel free to skip around as you prefer. Some of the earlier sections (such as the section on [Using a REST API like a developer](likeadeveloper.html) and [Documenting endpoints](docendpoints.html)) follow a somewhat sequential order with the same [weather API scenario](docapis_scenario_for_using_weather_api.html), but by and large you can jump around as desired.
 
 Because the purpose of the course is to help you learn, there are many activities that require hands-on coding and other exercises. Along with the learning activities, there are also conceptual deep dives, but the focus is always on *learning by doing*. Where there are hands-on activities, I typically include this icon in the section title: <i class="fa fa-user-circle"></i>. Other topics have the word "Activity" in the title. The activities are integrated into various sections, but you can also see many of the activities in the [Workshop Activities](workshop.html). These are the activities we do during live workshops.
 
