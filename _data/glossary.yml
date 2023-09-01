@@ -1,281 +1,567 @@
-api:
-  term: API
-  def: "Application Programming Interface. Enables different systems to interact with each other programmatically. Two types of APIs are REST APIs (web APIs) and native-library APIs."
-  link: See <a href='docapis_what_is_a_rest_api.html'>What is a REST API?</a>
+agile_testing: 
+  term: agile testing
+  def: "Relying on user feedback after release to improve docs iteratively. Risky without pre-release testing."
 
-api_console:
-  term: API Console
-  def: "Renders an interactive display for the RAML spec. Similar to Swagger UI, but for [RAML](pubapis_raml.html#apiconsole)."
-  link: See <a href='https://github.com/mulesoft/apiconsole'>github.com/mulesoft/api-console</a>.
+api: 
+  term: API (Application Programming Interface)
+  def: "A set of definitions, protocols, and tools for building software applications. APIs allow different systems to communicate with each other."
 
-apimatic:
-  term: APIMATIC
-  def: "Supports most REST API description formats (OpenAPI, RAML, API Blueprint, etc.) and provides SDK code generation, conversions from one spec format to another, and many more services. APIMATIC \"lets you define APIs and generate SDKs for more than 10 languages.\" For example, you can automatically convert Swagger 2.0 to 3.0 using the <a href='https://apimatic.io/transformer'>API Transformer</a> service on this site."
-  link: See <a href='https://apimatic.io/'>https://apimatic.io/</a> and read their <a href='https://docs.apimatic.io/'>documentation</a>.
-
-api_transformer:
-  term: API Transformer
-  def: "A cross-platform service provided by APIMATIC that will automatically convert your specification document from one format or version to another."
-  link: See <a href='https://apimatic.io/transformer'>apimatic.io/transformer</a>.
-
-apiary:
-  term: Apiary
-  def: "Platform that supports the full life-cycle of API design, development, and deployment. For interactive documentation, Apiary supports the API Blueprint specification, which similar to OpenAPI or RAML but includes more Markdown elements. It also supports the OpenAPI specification now too."
-  link: See <a href='https://apiary.io'>apiary.io</a>.
-
-api_blueprint:
+api_blueprint: 
   term: API Blueprint
-  def: "The API Blueprint spec is an alternative specification to OpenAPI or RAML. API Blueprint is written in a Markdown-flavored syntax."
-  link: See <a href='pubapis_api_blueprint.html'>API Blueprint</a> in this course, or go to <a href='https://apiblueprint.org/'>API Blueprint&#39;s homepage</a> to learn more.
+  def: "The API Blueprint spec is an alternative specification to OpenAPI or RAML. API Blueprint is written in a Markdown-flavored syntax. See API Blueprint in this course, or go to API Blueprint's homepage to learn more."
 
-apigee:
+api_console: 
+  term: API Console
+  def: "Renders an interactive display for the RAML spec. Similar to Swagger UI, but for RAML."
+
+api_documentation: 
+  term: API documentation
+  def: "Documentation that describes how an API works so that developers can understand and use it. Usually includes reference documentation, tutorials, code samples, and overviews."
+
+api_key: 
+  term: API key
+  def: "A unique identifier required to authenticate API requests. API keys control access to the API."
+
+api_portal: 
+  term: API portal
+  def: "A developer-facing website that provides documentation, support, and access management for an API. Serves as the main interface for API consumers."
+
+api_reference: 
+  term: API reference
+  def: "The documentation describing the endpoints, requests, parameters, responses, schemas, and other details about an API."
+
+api_transformer: 
+  term: API Transformer
+  def: "A cross-platform service provided by APIMATIC that will automatically convert your specification document from one format or version to another. See apimatic.io/transformer."
+
+apiary: 
+  term: Apiary
+  def: "Platform that supports the full life-cycle of API design, development, and deployment. For interactive documentation, Apiary supports the API Blueprint specification, which is similar to OpenAPI or RAML but includes more Markdown elements. It also supports the OpenAPI specification now too. See apiary.io."
+
+apigee: 
   term: Apigee
-  def: "Similar to Apiary, Apigee provides services for you to manage the whole lifecycle of your API. Specifically, Apigee lets you \"manage API complexity and risk in a multi- and hybrid-cloud world by ensuring security, visibility, and performance across the entire API landscape.\" Supports the OpenAPI spec. See <a href='https://apigee.com/api-management/'>apigee.com</a>."
+  def: "Similar to Apiary, Apigee provides services for you to manage the whole lifecycle of your API. Specifically, Apigee lets you 'manage API complexity and risk in a multi- and hybrid-cloud world by ensuring security, visibility, and performance across the entire API landscape.' Supports the OpenAPI spec. See apigee.com."
 
-asciidoc:
+apimatic: 
+  term: APIMATIC
+  def: "Supports most REST API description formats (OpenAPI, RAML, API Blueprint, etc.) and provides SDK code generation, conversions from one spec format to another, and many more services. For example, you can automatically convert Swagger 2.0 to 3.0 using the API Transformer service on this site."
+
+asciidoc: 
   term: Asciidoc
-  def: "A lightweight text format that provides more semantic features than Markdown. Used in some static site generators, such as <a href='http://asciidoctor.org/'>Asciidoctor</a> or <a href='https://nanoc.ws/'>Nanoc</a>. See <a href='http://asciidoc.org/'>http://asciidoc.org/</a>."
+  def: "A lightweight text format that provides more semantic features than Markdown. Used in some static site generators, such as Asciidoctor or Nanoc."
 
-branch:
+assumption: 
+  term: assumption
+  def: "An idea taken for granted without confirmation. Docs often make faulty assumptions about user knowledge."
+
+authentication: 
+  term: authentication
+  def: "The process of verifying the identity of a user or client making an API request. Common authentication methods include API keys, OAuth, and basic auth."
+
+authorization: 
+  term: authorization
+  def: "The process of determining what permissions an authenticated user has for different operations and resources in the API."
+
+authorization_documentation: 
+  term: authorization documentation
+  def: "Explains how to get API keys, showing how to authenticate requests with examples. Details error messages related to authorization issues. Notes sensitivity of keys and expiration times."
+
+backlog: 
+  term: backlog
+  def: "In Scrum, a prioritized list of work items or user stories waiting to be worked on and completed by the team."
+
+blobr: 
+  term: Blobr
+  def: "A cloud platform for creating API portals that package API use cases into purchasable products with customized documentation. Allows monetizing APIs."
+
+branch: 
   term: branch
-  def: "In Git, a branch is a copy of the repository that is often used for developing new features. Usually, you work in branches and then merge the branch into the master branch when you're ready to publish. If you're editing documentation in a code repository, developers will probably have you work in a branch to make your edits. The developers will then either merge your branch into the master when ready, or you might submit a pull request to merge your branch into the master."
-  link: See [git-branch](https://git-scm.com/docs/git-branch).
+  def: "A copy of the Git repository that is often used for developing new features. Usually, you work in branches and then merge the branch into the master branch when you're ready to publish."
 
-clone:
+clone: 
   term: clone
-  def: "In Git, clone is the command used to copy a repository in a way that keeps it linked to the original. The first step in working with any repository is to clone the repo locally. Git is a distributed version control system, so everyone working in it has a local copy (clone) on their machines. The central repository is referred to as the origin. Each user can pull updates from origin and push updates to origin."
-  link: See [git-clone](https://git-scm.com/docs/git-clone).
+  def: "The Git command used to copy a repository in a way that keeps it linked to the original. The first step in working with any repository is to clone the repo locally. Git is a distributed version control system, so everyone working in it has a local copy (clone) on their machines."
 
-commit:
+code_sample: 
+  term: code sample
+  def: "A snippet of code that shows how to use an API. Code samples demonstrate API usage in real programming languages."
+
+commit: 
   term: commit
-  def: "In Git, a commit is when you take a snapshot of your changes to the repo. Git saves the commit as a snapshot in time that you can revert to later if needed. You commit your changes before pulling from origin or before merging your branch within another branch."
-  link: See [git-commit](https://git-scm.com/docs/git-commit).
+  def: "A snapshot of your changes to the Git repo. Git saves the commit as a snapshot in time that you can revert to later if needed. You commit your changes before pulling from origin or before merging your branch within another branch."
 
-crud:
+components: 
+  term: components
+  def: "Storage for re-usable schema definitions referenced elsewhere through $ref pointers in the OpenAPI specification."
+
+conceptual_docs: 
+  term: conceptual docs
+  def: "High-level overview documentation that teaches developers how to use an API through tutorials, guides, and explanations of key concepts."
+
+continuous_delivery: 
+  term: continuous delivery
+  def: "Automating the build and deployment of documentation whenever content is pushed to a repository, through services like GitHub Pages or Netlify."
+
+cross_reference: 
+  term: cross-reference
+  def: "A link from one documentation topic to a related topic to help users navigate and find associated information."
+
+crud: 
   term: CRUD
   def: "Create, Read, Update, Delete. These four programming operations are often compared to POST, GET, PUT, and DELETE with REST API operations."
 
-curl:
+curl: 
   term: curl
-  def: "A command line utility often used to interact with REST API endpoints. Used in documentation for request code samples. curl is usually the default format used to display requests in API documentation. See [curl](https://curl.haxx.se/). Also written as cURL."
-  link: See [Make a curl call](docapis_make_curl_call.html) and [Understand curl more](docapis_understand_curl.html).
+  def: "A command line tool for transferring data with URL syntax. curl is commonly used to demonstrate example API requests."
 
-endpoints_and_methods:
-  term: endpoints and methods
-  def: "The endpoints indicate how you access the resource, while the method indicates the allowed interactions (such as GET, POST, or DELETE) with the resource. <br/><br/>The same resource usually has a variety of related endpoints, each with different paths and methods but returning different information about the same resource. Endpoints usually have brief descriptions similar to the overall resource description but shorter. Also, the endpoint shows the end path of a resource URL only, not the base path common to all endpoints."
-  link: See [Endpoints and methods](docapis_resource_endpoints.html).
+customization: 
+  term: customization
+  def: "Changing the default styling and branding of a platform. Blobr enables customizing the portal name, logo, colors, domain, etc."
 
-git:
-  term: Git
-  def: "Distributed version control system commonly used when interacting with code. GitHub uses Git, as does BitBucket and other version control platforms. Learning Git is essential for working with developer documentation, since this is the most common way developers share, review, collaborate, and distribute code."
-  link: See [https://git-scm.com/](https://git-scm.com/).
+daily_standup: 
+  term: daily standup
+  def: "A short daily meeting, usually held in the morning, where each member of the Scrum team describes what they accomplished yesterday, plans for today, and any blocking issues."
 
-github:
-  term: GitHub
-  def: "A platform for managing Git repositories. Used for most open-source projects. You can also publish documentation using GitHub, either by simply uploading your non-binary text files to the repo, or by auto-building your Jekyll site with GitHub Pages, or by using the built-in GitHub wiki."
-  link: See [GitHub wikis](pubapis_github_wikis.html) in this course as well as on [pages.github.com/](https://pages.github.com/).
+definition_of_done: 
+  term: definition of done
+  def: "In Scrum, the agreed upon criteria that user stories must meet before they can be considered complete and shippable."
 
-git_repo:
+delete: 
+  term: DELETE
+  def: "An HTTP method that removes a resource."
+
+developer_portal: 
+  term: developer portal
+  def: "A website that brings together documentation, code samples, SDKs, tools, and other resources to help developers use an API or set of APIs. The portal is a central location for developers to access everything they need."
+
+dita: 
+  term: DITA
+  def: "Darwin Information Typing Architecture, an XML-based architecture for authoring, producing, and delivering technical information. Allows topic-based authoring."
+
+docs_as_code: 
+  term: docs-as-code
+  def: "Treating documentation files like code by using lightweight markup, version control, plain text editors, and engineering tools/workflows. Facilitates developer contributions."
+
+endpoint: 
+  term: endpoint
+  def: "The URL path that is used to make requests and receive responses from an API. The endpoints indicate how you access the resource, while the method indicates the allowed interactions (such as GET, POST, or DELETE) with the resource. The same resource usually has a variety of related endpoints, each with different paths and methods but returning different information about the same resource."
+
+epic: 
+  term: epic
+  def: "A large user story that can be broken down into smaller stories, used in Agile software development to group related functionality."
+
+error_message_documentation: 
+  term: error message documentation
+  def: "Documentation about custom codes beyond standard HTTP codes. Explains codes to assist troubleshooting and error recovery. Provides actionable steps users can take to resolve issues."
+
+get: 
+  term: GET
+  def: "An HTTP method that retrieves a resource. GET requests do not modify any resources."
+
+getting_started_tutorial: 
+  term: getting started tutorial
+  def: "An introductory guide that walks through making a basic successful call to the API and receiving a response, to get started quickly."
+
+git_repo: 
   term: Git repo
   def: "In Git, a repo (short for repository) stores your project's code. Usually, you only store non-binary (human-readable) text files in a repo, because Git can run diffs on text files and show you what has changed."
 
-hat:
-  term: HAT
-  def: "Help Authoring Tool. Refers to the traditional help authoring tools (RoboHelp, Flare, Author-it, etc.) used by technical writers for documentation. Tooling for API docs tends to use [docs-as-code tools](pubapis_docs_as_code.html) more than [HATs](pubapis_overview.html#hats)."
+git: 
+  term: Git
+  def: "A distributed version control system that tracks changes to code or text files. Allows branching and merging of file updates among multiple collaborators. Core part of collaborating on software projects and docs-as-code workflows."
 
-hateos:
+github: 
+  term: GitHub
+  def: "A web-based platform built around Git that provides user interfaces and collaboration features such as wikis, issue tracking, and pull requests. Commonly used to manage documentation."
+
+hat: 
+  term: HAT
+  def: "Help Authoring Tool. Refers to the traditional help authoring tools (RoboHelp, Flare, Author-it, etc.) used by technical writers for documentation. Tooling for API docs tends to use docs-as-code tools more than HATs."
+
+hateos: 
   term: HATEOS
   def: "Stands for Hypermedia as the Engine of Application State. Hypermedia is one of the characteristics of REST that is often overlooked or missing from REST APIs. In API responses, responses that span multiple pages should provide links for users to page to the other items."
-  link: See [HATEOS](https://en.wikipedia.org/wiki/HATEOAS).
 
-header_parameters:
-  term: Header parameters
+header_parameters: 
+  term: header parameters
   def: "Parameters that are included in the request header, usually related to authorization."
 
-hugo:
-  term: Hugo
-  def: "A static site generator that uses the Go programming language as its base. Along with Jekyll, Hugo is among the top 5 most popular static site generators. Hugo is probably the fastest site generator available. Speed matters as you scale the number of documents in your project beyond several hundred. See [https://gohugo.io/](https://gohugo.io/)."
-  link: For more about static site generators, see [Static site generators](pubapis_static_site_generators.html).
+http_method: 
+  term: HTTP method
+  def: "The type of action indicated in an API request, such as GET, POST, PUT, DELETE. Determines if you are reading, creating, updating, or deleting a resource."
 
-json:
+http_verb: 
+  term: HTTP verb
+  def: "The action indicated in the API request, such as GET, POST, PUT, PATCH, DELETE. Each verb refers to a different type of operation."
+
+hugo: 
+  term: Hugo
+  def: "A static site generator that uses the Go programming language as its base. Along with Jekyll, Hugo is among the top 5 most popular static site generators. Extremely fast site generation time."
+
+java: 
+  term: Java
+  def: "General purpose programming language commonly used in enterprise application development. Preferred by some organizations over languages like PHP."
+
+javadoc: 
+  term: Javadoc
+  def: "A documentation generator that produces API reference documentation from Java source code comments formatted with tags. The Javadoc tool is the standard for documenting Java APIs."
+
+json: 
   term: JSON
-  def: "JavaScript Object Notation. A lightweight syntax containing objects and arrays, usually used (instead of XML) to return information from a REST API."
-  link: See [Analyze the JSON response](docapis_analyze_json.html) in this course and [http://www.json.org/](http://www.json.org/).
+  def: "JavaScript Object Notation. A common data format for API responses, consisting of attribute-value pairs and arrays."
+
+kanban:
+  term: Kanban
+  def: "An agile project management methodology that uses a board with columns for tracking the progress of work through different states."
+
+markdown:
+  term: Markdown
+  def: "A lightweight markup language that uses plain text formatting syntax that gets converted to HTML. Popular format with developers writing documentation."
 
 mercurial:
   term: Mercurial
   def: "A distributed revision control system, similar to Git but not as popular."
-  link: See [https://www.mercurial-scm.org/](https://www.mercurial-scm.org/).
+
+metadata:
+  term: metadata
+  def: "Data about data. In documentation, this refers to information about the document itself added to the file, like authors, dates, tags."
 
 method:
   term: method
-  def: "The allowed operation with a resource in terms of GET, POST, PUT, DELETE, and so on. These operations determine whether you're reading information, creating new information, updating existing information, or deleting information."
-  link: See [Endpoints and methods](docapis_resource_endpoints.html).
+  def: "An HTTP verb that indicates the desired action for an API request. Common HTTP methods are GET, POST, PUT, and DELETE."
+
+mock_server:
+  term: mock server
+  def: "A simulated API server that returns sample responses without any actual implementation or processing of requests. Mock servers allow testing interactions with an API before it's built."
+
+monetization:
+  term: monetization
+  def: "Generating revenue from an API, through methods like usage fees, rate limits, subscriptions, or freemium models."
 
 mulesoft:
   term: Mulesoft
-  def: "Similar to Apiary or Apigee, Mulesoft provides an end-to-end platform for designing, developing, and distributing your APIs. For documentation, Mulesoft supports [RAML](pubapis_raml.html)."
-  link: See [https://www.mulesoft.com/](https://www.mulesoft.com/).
+  def: "Similar to Apiary or Apigee, Mulesoft provides an end-to-end platform for designing, developing, and distributing your APIs."
+
+native_library_api:
+  term: native library API
+  def: "API with code libraries for incorporating functionality directly into an application, rather than using network calls. Tied to a language and usually has a library file that you integrate into your project. Also called library API or class-based API."
 
 oas:
   term: OAS
   def: "Abbreviation for OpenAPI specification."
 
-openapi:
-  term: OpenAPI
-  def: "The official name for the OpenAPI specification. The OpenAPI specification provides a set of properties that can be used to describe your REST API. When valid, the specification document can be used to create interactive documentation, generate client SDKs, run unit tests, and more. You can read the specification details on GitHub at [https://github.com/OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification). Under the Open API Initiative with the Linux Foundation, the OpenAPI specification aims to be vendor neutral (many companies [steer its development](https://www.openapis.org/membership/members), not just one)."
-  link: See [Introduction to the OpenAPI specification](pubapis_openapi_intro.html).
+open_source:
+  term: open source
+  def: "Software projects with publicly available source code that can be used, modified, and distributed by anyone. Provide opportunities to contribute."
+
+openapi_swagger:
+  term: OpenAPI (Swagger)
+  def: "A specification for describing REST APIs that can be used to generate interactive documentation, code libraries, and more."
 
 openapi_contract:
   term: OpenAPI contract
   def: "Synonym for OpenAPI specification document."
 
-openapi_specification_document:
-  term: OpenAPI specification document
-  def: "The file (either in YAML or JSON syntax) that describes your REST API. Follows the OpenAPI specification format."
-  link: See [https://www.openapis.org/](https://www.openapis.org/). See also [OpenAPI 3.0 tutorial](pubapis_openapi_tutorial_overview.html).
-
 openapi_initiative:
   term: OpenAPI Initiative
   def: "The governing body that directs the OpenAPI specification. Backed by the Linux Foundation."
-  link: See [https://www.openapis.org/](https://www.openapis.org/).
+
+openapi_specification_document:
+  term: OpenAPI specification document
+  def: "The file (either in YAML or JSON syntax) that describes your REST API. Follows the OpenAPI specification format."
+
+openapi_specification:
+  term: OpenAPI specification
+  def: "A vendor-neutral specification (in JSON or YAML) for describing REST APIs. Allows API providers to describe API operations, parameters, authentication methods, models, and other components in a portable document. When valid, the specification document can be used to create interactive documentation, generate client SDKs, run unit tests, and more."
+
+operation:
+  term: operation
+  def: "The type of API call, such as GET, POST, PUT, DELETE. Indicates allowed interactions with a resource."
+
+outline:
+  term: outline
+  def: "A list of section headings and bullet points that maps out the structure and content to be covered in a document. Outlines are created before writing begins."
+
+oxygenxml:
+  term: OxygenXML
+  def: "An XML editor and publishing platform that supports DITA and other XML formats, along with Markdown and docs-as-code workflows."
 
 parameters:
   term: parameters
-  def: "Parameters are options you can pass with the endpoint (such as specifying the response format or the amount returned) to influence the response. There are several types of parameters: header parameters, path parameters, and query string parameters. Request bodies are closely similar to parameters but are not technically a parameter. <br/><br/>The different types of parameters are often documented in separate groups on the same page. Not all endpoints contain each type of parameter."
-  link: See [Parameters](docapis_doc_parameters.html) for more details.
+  def: "Options that can be passed with an endpoint to influence the response, such as specifying the response format or number of results returned. Common types are header, path, and query string parameters."
 
 path_parameters:
-  term: Path parameters
-  def: "Parameters that appear within the path of the endpoint, before the query string (`?`). Path parameters are usually set off within curly braces."
-  link: See [Parameters](docapis_doc_parameters.html) for more details.
+  term: path parameters
+  def: "Parameters that appear within the path of the endpoint, before the query string (?). Path parameters are usually set off within curly braces {}."
 
-pelican:
-  term: Pelican
-  def: "A static site generator based on Python. See [https://github.com/getpelican/pelican](https://github.com/getpelican/pelican)."
-  link: For more about static site generators, see [Static site generators](pubapis_static_site_generators.html).
+paths:
+  term: paths
+  def: "The available endpoints and operations in an API. Paths are the core resources that make up an API's interface."
+
+payload:
+  term: payload
+  def: "The data returned in the body of an API response. The payload contains the requested information or data from the API."
 
 perforce:
   term: Perforce
   def: "Revision control system often used before Git became popular. Often configured as a centralized repository instead of a distributed repository."
-  link: See [Perforce](https://en.wikipedia.org/wiki/Perforce_Helix).
+
+portfolio:
+  term: portfolio
+  def: "A collection of writing samples and projects that demonstrates a technical writer's skills and experience. Useful for job applications."
+
+post:
+  term: POST
+  def: "An HTTP method that creates a new resource."
+
+postman:
+  term: Postman
+  def: "A GUI application for interacting with APIs by constructing requests and viewing responses. Simplifies API testing. Useful for exploring and trying out APIs."
+
+product_overview_documentation:
+  term: product overview documentation
+  def: "Documentation that explains the product's purpose, audience, capabilities, and use cases. Provides high-level architectural diagrams to depict components. Transitions into getting started tutorial."
+
+publishing:
+  term: publishing
+  def: "The act of finalizing documentation and making it publicly available on a website or elsewhere. The last step of the writing process."
+
+pull_request:
+  term: pull request
+  def: "GitHub workflow where proposed code changes in a branch are submitted for review and potential merging into the project's main branch."
 
 pull:
   term: pull
-  def: "In Git, when you pull from origin (the master location where you cloned the repo), you get the latest updates from origin onto your local system. When you run `git pull`, Git tries to automatically merge the updates from origin into your copy. If the merge cannot happen automatically, you might see merge conflicts."
-  link: See [git-pull](https://git-scm.com/docs/git-pull).
-
-pull_request:
-  term: Pull Request
-  def: "A request from an outside contributor to merge a cloned branch back into the master branch. The pull request workflow is commonly used with open-source projects because developers outside the team will not usually have contributor rights to merge updates into the repository. GitHub provides a user-friendly interface for making and processing pull requests."
-  link: See [Pull Requests](https://www.atlassian.com/git/tutorials/making-a-pull-request).
+  def: "In Git, when you pull from origin (the main location where you cloned the repo), you get the latest updates from origin onto your local system."
 
 push:
   term: push
-  def: "In Git, when you want to update the origin with the latest updates from your local copy, you run `git push`. Your updates will bring origin back into sync with your local copy."
-  link: See [https://git-scm.com/docs/git-push](https://git-scm.com/docs/git-push).
+  def: "In Git, when you want to update the origin (the main location where you cloned the repo) with the latest updates from your local copy, you run git push. Your updates will bring origin back into sync with your local copy."
+
+put:
+  term: PUT
+  def: "An HTTP method that updates an existing resource or creates a new resource if it doesn't exist."
+
+qa:
+  term: QA
+  def: "Quality Assurance. Team responsible for testing products before release to ensure quality."
 
 query_string_parameters:
-  term: Query string parameters
-  def: "Parameters that appear in the query string of the endpoint, after the `?`."
-  link: See [Parameters](docapis_doc_parameters.html) for more details.
+  term: query string parameters
+  def: "The part of a URL after the ? symbol that contains parameter names and values to configure an endpoint request. Multiple parameters are separated with &."
 
-raml:
-  term: RAML
-  def: "Stands for REST API Modeling Language and is similar to OpenAPI specifications. RAML is backed by Mulesoft, a commercial API company, and uses a more YAML-based syntax in the specification."
-  link: See [RAML tutorial](pubapis_raml.html) in this course or [RAML](https://raml.org/).
+quick_reference:
+  term: quick reference
+  def: "Provides a brief 1-2 page overview of core API endpoints/tasks. Lists endpoints and abbreviated descriptions. Visually groups related endpoints through tables, diagrams. Facilitates scanning system as a whole."
 
 raml_console:
   term: RAML Console
   def: "In Mulesoft, the RAML Console is where you design your RAML spec. Similar to the Swagger Editor for the OpenAPI spec."
 
+raml:
+  term: RAML
+  def: "Stands for REST API Modeling Language and is similar to OpenAPI specifications. RAML is backed by Mulesoft, a commercial API company, and uses a more YAML-based syntax in the specification."
+
+rate_limiting_and_thresholds_documentation:
+  term: rate limiting and thresholds documentation
+  def: "Indicates rate limits for free and paid API tiers. Explains what happens when limits are exceeded. Notes status codes returned when limits are hit. Covers best practices to avoid hitting rate limits."
+
+rate_limiting:
+  term: rate limiting
+  def: "Policies that restrict the number of requests a user can make to prevent overload or abuse. Requests over the limit may be throttled or blocked."
+
+redoc:
+  term: Redoc
+  def: "An open-source tool for generating interactive API reference documentation from OpenAPI (formerly Swagger) definitions. Provides an expandable three-column layout."
+
+redocly:
+  term: Redocly
+  def: "Company that offers premium tools and services for API documentation, including enhanced Redoc, CLI tools, and developer portals."
+
+reference_docs:
+  term: reference docs
+  def: "Detailed documentation of an API's resources/endpoints, parameters, sample requests, responses, errors, etc. Provides a reference for developers."
+
+release_notes:
+  term: release notes
+  def: "Documentation describing the new features, changes, fixes, and improvements in a product release."
+
 repo:
   term: Repo
   def: "A tool for consolidating and managing many smaller repos with one system."
-  link: See [git-repo](https://code.google.com/archive/p/git-repo/). For the definition of a Git repository, see [Git repo](#git_repo).
-
-request:
-  term: request
-  def: "The way information is returned from an API. In a request, the client provides a resource URL with the proper authorization to an API server. The API returns a response with the information requested."
-  link: See [Request example](docapis_doc_sample_requests.html) for more details.
 
 request_body:
   term: request body
-  def: "A block of information, usually JSON, included in the request body, often used with CREATE and PUT methods."
-  link: See [Parameters](docapis_doc_parameters.html) for more details.
+  def: "The data submitted in the body of the request, often used to create or update a resource. Defined in OpenAPI under requestBody."
 
-request_example:
-  term: request example
-  def: "The request example includes a sample request using the endpoint, showing some parameters configured. The request example usually doesn't show all possible parameter configurations, but it should be as rich as possible with parameters.  <br/><br/>Sample requests sometimes include code snippets that show the same request in a variety of languages (besides curl). Requests shown in other programming languages are optional and not always included in the reference topics (but when available, users welcome them)."
-  link: See [Request example](docapis_doc_sample_requests.html) for more details.
+request:
+  term: request
+  def: "A call made to an API, including the endpoint URL and parameters, headers, authorization, and other components needed to retrieve the desired information."
 
-resource_description:
-  term: resource description
-  def: "\"Resources\" refers to the information returned by an API. Most APIs have various categories of information, or various resources, that can be returned. <br/><br/>The resource description is brief (1-3 sentences) and usually starts with a verb. Resources usually have various endpoints to access the resource and multiple methods for each endpoint. On the same page, you usually have a general resource described along with a number of endpoints for accessing the resource, also described."
-  link: See [Resource description](docapis_resource_descriptions.html) for more details.
+resource:
+  term: resource
+  def: "The core object or information managed by the API. Resources have different representations that can be retrieved or manipulated."
+
+response_code:
+  term: response code
+  def: "HTTP status codes returned with API responses indicating success, failure, errors, etc."
+
+response_example:
+  term: response example
+  def: "Shows a sample response from the request example. The response example is typically not comprehensive of all parameter configurations or operations, but it does correspond with the parameters passed in the request example."
+
+response_schema:
+  term: response schema
+  def: "The description of the response from an API endpoint. The response schema documents the response in a more comprehensive, general way, listing each property that could possibly be returned, what each property contains, the data format of the values, the structure, optional/required aspects, and other details."
 
 response:
   term: response
-  def: "The information returned by an API after a request is made. Responses are usually in either JSON or XML format. See [Response example and schema](docapis_doc_sample_responses_and_schema.html) for details."
-
-response_example_and_schema:
-  term: response example and schema
-  def: "The response example shows a sample response from the request example; the response schema defines all possible elements in the response. The response example is not comprehensive of all parameter configurations or operations, but it should correspond with the parameters passed in the request example. The response lets developers know if the resource contains the information they want, the format, and how that information is structured and labeled.  <br/><br/>The description of the response is known as the response schema. The response schema documents the response in a more comprehensive, general way, listing each property that could possibly be returned, what each property contains, the data format of the values, the structure, and other details."
-  link: See [Response example and schema](docapis_doc_sample_responses_and_schema.html) for details.
+  def: "The data an API returns after receiving and processing a request. The response contains requested information or confirmation that an operation succeeded."
 
 rest_api:
   term: REST API
-  def: "Stands for Representational State Transfer. Uses web protocols (HTTP) to make requests and provide responses in a language agnostic way, meaning that users can choose whatever programming language they want to make the calls. See [What is a REST API?](docapis_what_is_a_rest_api.html) for more details."
+  def: "An API that follows REST (Representational State Transfer) principles by exposing resources through endpoints that can be interacted with using standard HTTP methods like GET, POST, PUT, and DELETE. REST APIs return data in easy-to-process formats like JSON."
+
+review:
+  term: review
+  def: "The process of having stakeholders and subject matter experts read draft documentation and provide feedback to improve the content."
+
+schematron:
+  term: schematron
+  def: "XML vocabulary that allows validating the structure and content in XML documents against a set of rules. Can help enforce standards."
+
+scrum:
+  term: Scrum
+  def: "An agile project management framework that breaks down product development into short, iterative sprints with daily standup meetings."
 
 sdk:
-  term: SDK
-  def: "Software development kit. Developers often create an SDK to accompany a REST API. The SDK helps developers implement the API using a specific language, such as Java or PHP. See [SDKs](docapis_sdks.html) for more details."
+  term: SDK (Software Development Kit)
+  def: "A collection of tools and resources that allows developers to program applications for a specific platform, software, or service. SDKs include API client libraries, documentation, code samples, and guides. Note that an SDK can include various APIs, but an API does not include an SDK."
 
 smartbear:
   term: Smartbear
-  def: "The company that maintains and develops the Swagger tooling &mdash; [Swagger Editor](https://swagger.io/swagger-editor/), [Swagger UI](https://swagger.io/swagger-ui/), [Swagger Codegen](https://swagger.io/swagger-codegen/), [SwaggerHub](https://app.swaggerhub.com/home), and [others](https://swagger.io/tools/). See [Smartbear](https://smartbear.com/)."
+  def: "The company that maintains and develops the Swagger tooling — Swagger Editor, Swagger UI, Swagger Codegen, SwaggerHub, and others."
+
+specification:
+  term: Specification
+  def: "A detailed technical description of an API's architecture, endpoints, parameters, sample requests/responses, and other implementation details. The most common API specification format is OpenAPI."
 
 sphinx:
   term: Sphinx
-  def: "A static site generator developed for managing documentation for Python. Sphinx is the most documentation-oriented static site generator available and includes many robust features -- such as search, sidebar navigation, semantic markup, managed links -- that other static site generators lack. Based on Python. See [staticgen.com/sphinx](https://www.staticgen.com/sphinx) for high-level details. For more about static site generators, see [Static site generators](pubapis_static_site_generators.html#sphinx)."
+  def: "A static site generator developed for managing documentation for Python. Sphinx is a documentation-oriented static site generator available that includes features such as search, sidebar navigation, semantic markup, and managed links. Based on Python."
+
+sprint_demo:
+  term: sprint demo
+  def: "A meeting at the end of each sprint where the Scrum team shows completed user stories/features to stakeholders and collects feedback."
+
+sprint_planning:
+  term: sprint planning
+  def: "A meeting at the start of each sprint where the product owner and team select user stories from the backlog to work on that align with the sprint goal."
+
+sprint_retrospective:
+  term: sprint retrospective
+  def: "A meeting at the end of each sprint where the Scrum team reflects on what went well, what needs improvement, and lessons learned from the sprint."
+
+sprint:
+  term: sprint
+  def: "In Scrum, a short, timeboxed period (usually 1-4 weeks) focused on completing specific work items for a product increment."
+
+stakeholder:
+  term: stakeholder
+  def: "People involved in some way with a product, such as engineers, product managers, executives, partners, support, and others. Stakeholders review documentation."
 
 static_site_generator:
-  term: Static site generator
-  def: "A breed of website compilers that package up a group of files (usually written in Markdown) and make them into a website. There are more than 350 different static site generators. See [Jekyll](pubapis_jekyll.html) in this course for a deep-dive into the most popular static site generator, or [Staticgen](https://www.staticgen.com/) for a list of all static site generators. See [Static site generators](pubapis_static_site_generators.html) for a deep-dive into this topic."
+  term: static site generator
+  def: "Tool that compiles a website from simpler text-based source files like Markdown. Popular static site generators include Jekyll, Hugo, and Sphinx. A common part of docs-as-code workflows."
+
+status_code:
+  term: status code
+  def: "A 3-digit number returned with an API response indicating whether the request succeeded or failed. Common status codes include 200 (success), 400 (bad request), 404 (not found), 500 (server error)."
 
 stoplight:
   term: Stoplight
-  def: "Provides a platform with visual modeling tools to create an OpenAPI document for your API &mdash; without requiring you to know the OpenAPI spec details or code the spec line by line. See [http://stoplight.io/](http://stoplight.io/) for more information. See [Stoplight &mdash; visual modeling tools for creating your OpenAPI spec](pubapis_stoplight.html) for more information."
+  def: "Provides a platform with visual modeling tools to create an OpenAPI document for your API — without requiring you to know the OpenAPI spec details or code the spec line by line."
 
-swagger:
-  term: Swagger
-  def: "Refers to API tooling related to the OpenAPI spec. Some of these tools include [Swagger Editor](https://swagger.io/swagger-editor/), [Swagger UI](https://swagger.io/swagger-ui/), [Swagger Codegen](https://swagger.io/swagger-codegen/), [SwaggerHub](https://app.swaggerhub.com/home), and [others](https://swagger.io/tools/). These tools are managed by [Smartbear](https://smartbear.com/). For more tools, see [Swagger Tools](https://swagger.io/tools/). \"Swagger\" was the original name of the OpenAPI spec, but the name was later changed to [OpenAPI](https://github.com/OAI/OpenAPI-Specification/) to reinforce the open, non-proprietary nature of the standard. People sometimes refer to both names interchangeably (especially on older web pages), but \"OpenAPI\" is how the spec should be referred to. For more on naming conventions between OpenAPI and Swagger, see [What Is the Difference Between Swagger and OpenAPI?](https://swagger.io/difference-between-swagger-and-openapi/)."
+story_points:
+  term: story points
+  def: "A unit of measure for expressing the overall size, complexity, and effort required to implement a user story or feature in Agile methodologies like Scrum."
+
+support:
+  term: support
+  def: "Resources that help API users, often provided through live chat, forums, or ticketing systems."
 
 swagger_codegen:
   term: Swagger Codegen
-  def: "Generates client SDK code for a lot of different platforms (such as Java, JavaScript, Scala, Python, PHP, Ruby, Scala, and more). The client SDK code helps developers integrate your API on a specific platform and provides for more robust implementations that might include more scaling, threading, and other necessary code. In general, SDKs are toolkits for implementing the requests made with an API. Swagger Codegen generates the client SDKs in nearly every programming language. See [Swagger Codegen](https://swagger.io/swagger-codegen/) for more information. See also [SDKs](docapis_sdks.html)."
+  def: "Generates client SDK code for a lot of different platforms (such as Java, JavaScript, Scala, Python, PHP, Ruby, Scala, and more). The client SDK code helps developers integrate your API on a specific platform and provides for more robust implementations that might include more scaling, threading, and other necessary code. In general, SDKs are toolkits for implementing the requests made with an API. Swagger Codegen generates the client SDKs in nearly every programming language."
 
 swagger_editor:
   term: Swagger Editor
-  def: "An online editor that validates your OpenAPI document against the rules of the OpenAPI specification. The Swagger Editor will flag errors and give you formatting tips. See [Swagger Editor](http://editor.swagger.io/#/)."
-
+  def: "An online editor that validates your OpenAPI document against the rules of the OpenAPI specification. The Swagger Editor will flag errors and give you formatting tips."
 
 swagger_ui:
   term: Swagger UI
-  def: "An open-source web framework ([on GitHub](https://github.com/swagger-api/swagger-ui)) that parses an OpenAPI specification document and generates an interactive documentation website. Swagger UI is the tool that transforms your spec into the [Petstore-like site](http://petstore.swagger.io/)."
+  def: "An open-source web framework (on GitHub) that parses an OpenAPI specification document and generates an interactive documentation website. Swagger UI is the tool that transforms your spec into the Petstore-like site."
+
+swagger:
+  term: Swagger
+  def: "Refers to API tooling related to the OpenAPI spec. Some of these tools include Swagger Editor, Swagger UI, Swagger Codegen, SwaggerHub, and others. These tools are managed by Smartbear. “Swagger” was the original name of the OpenAPI spec, but the name was later changed to OpenAPI to reinforce the open, non-proprietary nature of the standard. OpenAPI is still often referred to as Swagger."
 
 swaggerhub:
   term: SwaggerHub
-  def: "A site developed by Smartbear to help teams collaborate around the OpenAPI spec. In addition to generating interactive documentation from SwaggerHub, you can generate many client and server SDKs and other services. See [Manage Swagger Projects with SwaggerHub](pubapis_swaggerhub_smartbear.html)."
+  def: "A premium API platform from Smartbear that provides collaboration, mocking, testing, and publishing tools around the OpenAPI specification."
 
-vcs:
-  term: VCS
-  def: "Stands for version control system. Git and Mercurial are examples."
+swaggerhub:
+  term: SwaggerHub
+  def: "A site developed by Smartbear to help teams collaborate around the OpenAPI spec. In addition to generating interactive documentation from SwaggerHub, you can generate many client and server SDKs and other services."
 
-version_control_system:
-  term: version control system
-  def: "A system for managing code that relies on snapshots that store content at specific states. Enables you to revert to previous states, branch the code into different versions, and more. See [About Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) in Git. See [Version Control Systems](pubapis_version_control.html) for more information."
+tags:
+  term: tags
+  def: "Groups for endpoints to organize them in the interactive documentation. Used in the OpenAPI spec."
+
+templating_language:
+  term: templating language
+  def: "Languages like Liquid, Handlebars, or Go that allow inserting dynamic content into static templates when sites are built. Help abstract complex site generation logic."
+
+terminology:
+  term: terminology
+  def: "Specialized words and phrases used in a field."
+
+test_case:
+  term: test case
+  def: "A scenario to execute to validate expected behavior and responses. QA teams run test cases."
+
+test_environment:
+  term: test environment
+  def: "The system setup used to experiment with and validate code, APIs, apps, etc. Often a separate test server."
+
+thematic_analysis:
+  term: thematic analysis
+  def: "A qualitative data analysis method that involves identifying, analyzing, and reporting patterns or themes within data. Useful for synthesizing insights with AI tools."
+
+tutorial:
+  term: tutorial
+  def: "Guides that demonstrate how to accomplish a goal or implement a scenario using the API, often in a step-by-step format with code snippets."
+
+user_story:
+  term: user story
+  def: "A high-level definition of a requirement or feature from an end-user perspective, used as the basis for planning in Agile methodologies."
+
+user_testing:
+  term: user testing
+  def: "Having real users try documentation to identify problems and gaps. Essential for creating usable docs."
+
+velocity:
+  term: velocity
+  def: "In Scrum, the amount of work a team can successfully complete within a sprint, measured in story points. Used to forecast how much work can be done."
+
+version_control:
+  term: version control
+  def: "A system to track changes to code and documentation over time, support collaboration, and maintain previous versions. Examples are Git, SVN, Perforce. Also referred to as version control system."
+
+waterfall:
+  term: waterfall
+  def: "A sequential, linear software development methodology where phases must be completed in order before moving to the next phase."
 
 yaml:
   term: YAML
-  def: "Recursive acronym for \"YAML Ain't No Markup Language.\" A human-readable, space-sensitive syntax used in the OpenAPI specification document. See [More About YAML](pubapis_yaml.html)."
+  def: "A human-readable data serialization format commonly used for configuration files and OpenAPI definitions. Uses indentation and whitespace for structure. Less visually noisy than JSON. Recursive acronym for YAML Ain't No Markup Language."

@@ -85,7 +85,8 @@ The course consists of the following sections:
 - [Chapter 13: Processes and methodology](docapis_managing_doc_processes.html)
 - [Chapter 14: Metrics and measurement](docapis_metrics_and_measurement.html)
 - [Chapter 15: AI tools and API documentation](docapis_ai.html)
-- [Chapter 16: Additional resources](resources.html)
+- [Chapter 16: Glossary](docapis_glossary.html)
+- [Chapter 17: Additional resources](resources.html)
 
 {: .tip}
 The PDF download provides the PDF as a single PDF consisting of all chapters as well as individual chapters as standalone PDF files.

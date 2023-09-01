@@ -44,9 +44,6 @@ folders:
   - title: "Developer Documentation Trends: Survey Results"
     jurl: /learnapidoc/docapis_trends.html
 
-  - title: "Glossary"
-    jurl: /learnapidoc/api-glossary.html
-
 - title: "Chapter 2: Using an API like a developer"
   landing: /learnapidoc/likeadeveloper.html
   section: two
@@ -566,9 +563,20 @@ folders:
   - title:  "Using AI for comparison tasks with API responses"
     jurl: /learnapidoc/docapis_ai_comparison_tasks.html
 
-- title: "Chapter 16: Additional resources"
-  landing: /learnapidoc/resources.html
+- title: "Chapter 16: Glossary"
+  landing: /learnapidoc/api-glossary-overview.html
   section: sixteen
+  folderitems:
+
+  - title: "Glossary list"
+    jurl: /learnapidoc/api-glossary.html
+
+  - title: "Glossary groups"
+    jurl: /learnapidoc/api-glossary-groups.html
+
+- title: "Chapter 17: Additional resources"
+  landing: /learnapidoc/resources.html
+  section: seventeen
   folderitems:
 
   - title: "Overview"

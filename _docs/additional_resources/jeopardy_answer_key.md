@@ -2,7 +2,7 @@
 title: API jeopardy answer key
 permalink: learnapidoc/jeopardy_answer_key.html
 course: "Documenting REST APIs"
-weight: 15.6
+weight: 16.6
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html

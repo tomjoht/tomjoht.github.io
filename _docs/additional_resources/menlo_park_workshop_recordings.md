@@ -2,7 +2,7 @@
 title: Menlo Park API Workshop Video Recording
 permalink: learnapidoc/menlo_park_workshop_recording.html
 course: "Documenting REST APIs"
-weight: 15.8
+weight: 16.8
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html

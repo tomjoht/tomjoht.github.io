@@ -19,7 +19,7 @@ span.glossarySeparator {
 
 <dl>
 
-{% for entry in page.glossary_keys[item] %}
+{% for entry in page[item] %}
 <dt><a id="{{entry}}"></a>{{glossaryFile[entry].term}}</dt>
 <dd markdown="span">{{glossaryFile[entry].def}} {{glossaryFile[entry].link}}</dd>
 {% endfor %}

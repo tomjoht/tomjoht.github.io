@@ -62,7 +62,10 @@ topnav_dropdowns:
         - title: "Chapter 15: AI tools and API documentation"
           url: /learnapidoc/ai.html
 
-        - title: "Chapter 16: Additional resources"
+        - title: "Chapter 16: Glossary"
+          url: /learnapidoc/glossary.html
+
+        - title: "Chapter 17: Additional resources"
           url: /learnapidoc/resources.html
 
     - title: Downloads

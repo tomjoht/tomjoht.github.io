@@ -2,7 +2,7 @@
 title: API doc presentation video recordings
 permalink: learnapidoc/api_doc_presentations.html
 course: "Documenting REST APIs"
-weight: 15.91
+weight: 16.91
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
