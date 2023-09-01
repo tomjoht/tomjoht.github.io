@@ -3,7 +3,7 @@ title: "Chapter X: Overview for publishing API docs"
 permalink: learnapidoc/pubapis_overview.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.01
+weight: 9.1
 section: publishingapis
 path1: learnapidoc/publishingapis.html
 last-modified: 2018-12-25

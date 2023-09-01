@@ -3,9 +3,9 @@ title: "Blobr: An API portal that arranges your API's use cases as individual pr
 permalink: learnapidoc/pubapis_blobr.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.95
-section: publishingapis
-path1: learnapidoc/publishingapis.html
+weight: 9.96
+path1: learnapidoc/publishingtools.html
+section: publishingtools
 last-modified: 2022-06-01
 ---
 

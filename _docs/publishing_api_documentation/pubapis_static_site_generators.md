@@ -3,7 +3,7 @@ title: "Static site generators"
 permalink: learnapidoc/pubapis_static_site_generators.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.91
+weight: 9.6
 section: publishingapis
 path1: learnapidoc/publishingapis.html
 last-modified: 2021-10-12

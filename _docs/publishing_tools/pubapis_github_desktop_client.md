@@ -2,10 +2,10 @@
 title: "Activity: Use the GitHub Desktop client"
 permalink: learnapidoc/pubapis_github_desktop_client.html
 course: "Documenting REST APIs"
-weight: 9.8
+weight: 9.93
 sidebar: docapis
-section: publishingapis
-path1: learnapidoc/publishingapis.html
+path1: learnapidoc/publishingtools.html
+section: publishingtools
 last-modified: 2018-12-25
 ---
 

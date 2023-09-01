@@ -3,8 +3,8 @@ title: Tools FAQ
 permalink: learnapidoc/docapis_faq_tools.html
 course: "Documenting REST APIs"
 sidebar: docapis
-section: publishingapis
-path1: learnapidoc/publishingapis.html
+path1: learnapidoc/publishingtools.html
+section: publishingtools
 weight: 9.98
 last-modified: 2020-06-13
 ---

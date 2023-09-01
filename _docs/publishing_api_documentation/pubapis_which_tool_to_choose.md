@@ -3,7 +3,7 @@ title: "Which tool to choose for API docs &mdash; my recommendations"
 permalink: learnapidoc/pubapis_which_tool_to_choose.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.96
+weight: 9.9
 section: publishingapis
 path1: learnapidoc/publishingapis.html
 redirect_from:

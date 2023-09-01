@@ -362,15 +362,6 @@ folders:
   - title: "Version control systems (e.g., Git)"
     jurl: /learnapidoc/pubapis_version_control.html
 
-  - title: "Activity: Manage content in a GitHub wiki"
-    jurl: /learnapidoc/pubapis_github_wikis.html
-
-  - title: "Activity: Use the GitHub Desktop Client"
-    jurl: /learnapidoc/pubapis_github_desktop_client.html
-
-  - title: "Activity: Pull request workflows through GitHub"
-    jurl: /learnapidoc/pubapis_github_pull_requests.html
-
   - title: "Static site generators"
     jurl: /learnapidoc/pubapis_static_site_generators.html
 
@@ -380,17 +371,35 @@ folders:
   - title: "Hybrid documentation systems"
     jurl: /learnapidoc/pubapis_hybrid_systems.html
 
+  - title: "Which tool to choose for API docs &mdash; my recommendations"
+    jurl: /learnapidoc/pubapis_which_tool_to_choose.html
+
+- title: "Chapter 11: Publishing tools"
+  landing: /learnapidoc/publishingapis.html
+  section: eleven
+  folderitems:
+
+  - title: "Overview"
+    jurl: /learnapidoc/publishingtools.html
+    type: web
+    
+  - title: "Activity: Manage content in a GitHub wiki"
+    jurl: /learnapidoc/pubapis_github_wikis.html
+
+  - title: "Activity: Use the GitHub Desktop Client"
+    jurl: /learnapidoc/pubapis_github_desktop_client.html
+
+  - title: "Activity: Pull request workflows through GitHub"
+    jurl: /learnapidoc/pubapis_github_pull_requests.html
+
+  - title: "Jekyll and CloudCannon continuous deployment tutorial"
+    jurl: /learnapidoc/pubapis_jekyll.html
+
   - title: "Using Oxygen XML with docs-as-code workflows"
     jurl: /learnapidoc/pubapis_oxygenxml.html
 
   - title: "Blobr: An API portal that arranges your API's use cases as individual products"
     jurl: /learnapidoc/pubapis_blobr.html
-
-  - title: "Which tool to choose for API docs &mdash; my recommendations"
-    jurl: /learnapidoc/pubapis_which_tool_to_choose.html
-
-  - title: "Jekyll and CloudCannon continuous deployment tutorial"
-    jurl: /learnapidoc/pubapis_jekyll.html
 
   - title: "Case study: Switching tools to docs-as-code"
     jurl: /learnapidoc/pubapis_switching_to_docs_as_code.html
@@ -398,9 +407,9 @@ folders:
   - title: "Tools FAQ"
     jurl: /learnapidoc/docapis_faq_tools.html
 
-- title: "Chapter 11: Thriving in the API doc space"
+- title: "Chapter 12: Thriving in the API doc space"
   landing: /learnapidoc/jobapis.html
-  section: eleven
+  section: twelve
   folderitems:
 
   - title: "Overview"
@@ -422,9 +431,9 @@ folders:
   - title: "Activity: Create or fix an API reference documentation topic"
     jurl: /learnapidoc/docapis_work_on_conceptual_topic.html
 
-- title: "Chapter 12: Native library APIs"
+- title: "Chapter 13: Native library APIs"
   landing: /learnapidoc/nativelibraryapis.html
-  section: twelve
+  section: thirteen
   folderitems:
 
   - title: "Overview"
@@ -458,9 +467,9 @@ folders:
   - title: "Create non-ref docs with native library APIs"
     jurl: /learnapidoc/nativelibraryapis_nonrefdocs.html
 
-- title: "Chapter 13: Processes and methodology"
+- title: "Chapter 14: Processes and methodology"
   landing: /learnapidoc/docapis_managing_doc_processes.html
-  section: thirteen
+  section: fourteen
   folderitems:
 
   - title: "Overview"
@@ -509,9 +518,9 @@ folders:
   - title: "Ensuring documentation coverage with each software release"
     jurl: /learnapidoc/docapis_release_process.html
 
-- title: "Chapter 14: Metrics and measurement"
+- title: "Chapter 15: Metrics and measurement"
   landing: /learnapidoc/docapis_metrics_and_measurement.html
-  section: fourteen
+  section: fifteen
   folderitems:
 
   - title: "Overview"
@@ -530,9 +539,9 @@ folders:
   - title: Quantifying your progress
     jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
-- title: "Chapter 15: AI and API documentation"
+- title: "Chapter 16: AI and API documentation"
   landing: /learnapidoc/ai.html
-  section: fifteen
+  section: sixteen
   folderitems:
 
   - title: "Overview"
@@ -563,9 +572,9 @@ folders:
   - title:  "Using AI for comparison tasks with API responses"
     jurl: /learnapidoc/docapis_ai_comparison_tasks.html
 
-- title: "Chapter 16: Glossary"
+- title: "Chapter 17: Glossary"
   landing: /learnapidoc/glossary_overview.html
-  section: sixteen
+  section: seventeen
   folderitems:
 
   - title: "Overview"
@@ -577,9 +586,9 @@ folders:
   - title: "Glossary groups"
     jurl: /learnapidoc/glossary_groups.html
 
-- title: "Chapter 17: Additional resources"
+- title: "Chapter 18: Additional resources"
   landing: /learnapidoc/resources.html
-  section: seventeen
+  section: eighteen
   folderitems:
 
   - title: "Overview"

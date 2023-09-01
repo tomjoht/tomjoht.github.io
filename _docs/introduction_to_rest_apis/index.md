@@ -80,13 +80,14 @@ The course consists of the following sections:
 - [Chapter 8: Code tutorials](docapiscode.html)
 - [Chapter 9: The writing process](writing_process.html)
 - [Chapter 10: Publishing API docs](publishingapis.html)
-- [Chapter 11: Thriving in the API doc space](jobapis.html)
-- [Chapter 12: Native library APIs](nativelibraryapis.html)
-- [Chapter 13: Processes and methodology](docapis_managing_doc_processes.html)
-- [Chapter 14: Metrics and measurement](docapis_metrics_and_measurement.html)
-- [Chapter 15: AI tools and API documentation](docapis_ai.html)
-- [Chapter 16: Glossary](docapis_glossary.html)
-- [Chapter 17: Additional resources](resources.html)
+- [Chapter 11: Publishing tools](publishingtools.html)
+- [Chapter 12: Thriving in the API doc space](jobapis.html)
+- [Chapter 13: Native library APIs](nativelibraryapis.html)
+- [Chapter 14: Processes and methodology](docapis_managing_doc_processes.html)
+- [Chapter 15: Metrics and measurement](docapis_metrics_and_measurement.html)
+- [Chapter 16: AI tools and API documentation](docapis_ai.html)
+- [Chapter 17: Glossary](docapis_glossary.html)
+- [Chapter 18: Additional resources](resources.html)
 
 {: .tip}
 The PDF download provides the PDF as a single PDF consisting of all chapters as well as individual chapters as standalone PDF files.

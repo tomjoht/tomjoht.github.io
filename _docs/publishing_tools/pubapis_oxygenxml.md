@@ -4,8 +4,8 @@ permalink: learnapidoc/pubapis_oxygenxml.html
 course: "Documenting REST APIs"
 sidebar: docapis
 weight: 9.94
-section: publishingapis
-path1: learnapidoc/publishingapis.html
+path1: learnapidoc/publishingtools.html
+section: publishingtools
 last-modified: 2021-10-13
 ---
 

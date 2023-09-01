@@ -3,7 +3,7 @@ title: "Hybrid documentation systems"
 permalink: learnapidoc/pubapis_hybrid_systems.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.93
+weight: 9.8
 section: publishingapis
 path1: learnapidoc/publishingapis.html
 last-modified: 2020-06-27

@@ -3,9 +3,9 @@ title: "Activity: Manage content in a GitHub wiki"
 permalink: learnapidoc/pubapis_github_wikis.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.7
-section: publishingapis
-path1: learnapidoc/publishingapis.html
+weight: 9.92
+path1: learnapidoc/publishingtools.html
+section: publishingtools
 last-modified: 2018-12-25
 ---
 
