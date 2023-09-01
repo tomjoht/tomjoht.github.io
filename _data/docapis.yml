@@ -564,15 +564,18 @@ folders:
     jurl: /learnapidoc/docapis_ai_comparison_tasks.html
 
 - title: "Chapter 16: Glossary"
-  landing: /learnapidoc/api-glossary-overview.html
+  landing: /learnapidoc/glossary_overview.html
   section: sixteen
   folderitems:
 
+  - title: "Overview"
+    jurl: /learnapidoc/glossary_overview.html
+
   - title: "Glossary list"
-    jurl: /learnapidoc/api-glossary.html
+    jurl: /learnapidoc/glossary.html
 
   - title: "Glossary groups"
-    jurl: /learnapidoc/api-glossary-groups.html
+    jurl: /learnapidoc/glossary_groups.html
 
 - title: "Chapter 17: Additional resources"
   landing: /learnapidoc/resources.html

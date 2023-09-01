@@ -510,10 +510,6 @@ swaggerhub:
   term: SwaggerHub
   def: "A premium API platform from Smartbear that provides collaboration, mocking, testing, and publishing tools around the OpenAPI specification."
 
-swaggerhub:
-  term: SwaggerHub
-  def: "A site developed by Smartbear to help teams collaborate around the OpenAPI spec. In addition to generating interactive documentation from SwaggerHub, you can generate many client and server SDKs and other services."
-
 tags:
   term: tags
   def: "Groups for endpoints to organize them in the interactive documentation. Used in the OpenAPI spec."

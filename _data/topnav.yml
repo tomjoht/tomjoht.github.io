@@ -63,7 +63,7 @@ topnav_dropdowns:
           url: /learnapidoc/ai.html
 
         - title: "Chapter 16: Glossary"
-          url: /learnapidoc/glossary.html
+          url: /learnapidoc/glossary_overview.html
 
         - title: "Chapter 17: Additional resources"
           url: /learnapidoc/resources.html
