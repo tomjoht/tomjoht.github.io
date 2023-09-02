@@ -5,7 +5,7 @@ course: "Documenting REST APIs"
 sidebar: docapis
 path1: learnapidoc/publishingtools.html
 section: publishingtools
-weight: 9.98
+weight: 9.99
 last-modified: 2020-06-13
 ---
 

@@ -4,7 +4,7 @@ agile_testing:
 
 api: 
   term: API (Application Programming Interface)
-  def: "A set of definitions, protocols, and tools for building software applications. APIs allow different systems to communicate with each other."
+  def: "A set of definitions, protocols, and tools for building software applications. APIs allow different systems to interact with each other programmatically. This course focuses mostly on REST APIs, but there are also language-based APIs such as Java, C++, Python, and more. I refer to these as native library APIs."
 
 api_blueprint: 
   term: API Blueprint

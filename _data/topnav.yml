@@ -47,25 +47,28 @@ topnav_dropdowns:
         - title: "Chapter 10: Publishing API docs"
           url: /learnapidoc/publishingapis.html
 
-        - title: "Chapter 11: Thriving in the API doc space"
+        - title: "Chapter 11: Publishing tools and workflows"
+          url: /learnapidoc/publishingtools.html
+
+        - title: "Chapter 12: Thriving in the API doc space"
           url: /learnapidoc/jobapis.html
 
-        - title: "Chapter 12: Native library APIs"
+        - title: "Chapter 13: Native library APIs"
           url: /learnapidoc/nativelibraryapis.html
 
-        - title: "Chapter 13: Processes and methodology"
+        - title: "Chapter 14: Processes and methodology"
           url: /learnapidoc/docapis_managing_doc_processes.html
 
-        - title: "Chapter 14: Metrics and measurement"
+        - title: "Chapter 15: Metrics and measurement"
           url: /learnapidoc/docapis_metrics_and_measurement.html
 
-        - title: "Chapter 15: AI tools and API documentation"
+        - title: "Chapter 16: AI tools and API documentation"
           url: /learnapidoc/ai.html
 
-        - title: "Chapter 16: Glossary"
+        - title: "Chapter 17: Glossary"
           url: /learnapidoc/glossary_overview.html
 
-        - title: "Chapter 17: Additional resources"
+        - title: "Chapter 18: Additional resources"
           url: /learnapidoc/resources.html
 
     - title: Downloads

@@ -3,7 +3,7 @@ title: "Using Oxygen XML with docs-as-code workflows"
 permalink: learnapidoc/pubapis_oxygenxml.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 9.94
+weight: 9.96
 path1: learnapidoc/publishingtools.html
 section: publishingtools
 last-modified: 2021-10-13

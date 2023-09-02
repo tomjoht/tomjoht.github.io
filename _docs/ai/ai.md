@@ -1,5 +1,5 @@
 ---
-title: "Chapter 15: AI tools and API documentation"
+title: "Chapter 16: AI tools and API documentation"
 permalink: learnapidoc/ai.html
 keywords:
 course: "Documenting REST APIs"

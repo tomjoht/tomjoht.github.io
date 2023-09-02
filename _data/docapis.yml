@@ -359,7 +359,7 @@ folders:
   - title: "More about Markdown"
     jurl: /learnapidoc/pubapis_markdown.html
 
-  - title: "Version control systems (e.g., Git)"
+  - title: "Version control systems"
     jurl: /learnapidoc/pubapis_version_control.html
 
   - title: "Static site generators"
@@ -375,7 +375,7 @@ folders:
     jurl: /learnapidoc/pubapis_which_tool_to_choose.html
 
 - title: "Chapter 11: Publishing tools"
-  landing: /learnapidoc/publishingapis.html
+  landing: /learnapidoc/publishingtools.html
   section: eleven
   folderitems:
 

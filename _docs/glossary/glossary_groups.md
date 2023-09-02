@@ -170,12 +170,6 @@ api_tools_and_platforms:
 {% assign glossaryFile = site.data.glossary %}
 {% assign counter = 0 %}
 
-{% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains JavaScript. Please go to [https://idratherbewriting.com/learnapidoc/api-glossary-groups.html] to view the content.*
-{% endif %}
-
-{% if site.format == "web" %}
-
 ## Basic terms
 
 {% include glossary_group.html group_name="Basic terms" group_code="basic_terms" %}
@@ -235,8 +229,6 @@ api_tools_and_platforms:
 ## API tools and platform terms
 
 {% include glossary_group.html group_name="API tools and platform terms" group_code="api_tools_and_platforms" %}
-
-{% endif %}
 
 {% include random_ad2.html %}
 {% include random_ad4.html %}

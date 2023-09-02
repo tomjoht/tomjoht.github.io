@@ -1,5 +1,5 @@
 ---
-title: "Chapter 11: Thriving in the API doc space"
+title: "Chapter 12: Thriving in the API doc space"
 permalink: learnapidoc/jobapis.html
 sidebar: docapis
 path1: learnapidoc/jobapis.html
