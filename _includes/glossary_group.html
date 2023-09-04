@@ -3,7 +3,7 @@
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo{{ counter }}">{{include.group_name}} &raquo;</button>
 <div id="demo{{ counter }}" class="collapse defs">
 {% endif %}
-<p>These terms are all related to {{include.group_name}}.</p>
+<p>These terms are all related to <b>{{include.group_name}}</b>.</p>
 <dl>
 {% for entry in page.[include.group_code] %}
 <dt><a id="{{entry}}"></a>{{glossaryFile[entry].term}}</dt>

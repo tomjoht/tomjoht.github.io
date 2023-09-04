@@ -12,10 +12,14 @@ last-modified: 2023-08-04
 
 {% include coffeeshopbook.html %}
 
+Technical writers frequently act as editors, whether reviewing content written by other technical writers, engineers, or product team members. For help with language decisions, AI tools can provide a helpful tool for identifying specific grammar and style rules. Although they might not produce emotionally resonant content ideally, AI tools are adept at providing reasoned language advice.
+
 {% if site.format == "web" %}
 * TOC
 {:toc}
 {% endif %}
+
+## Leveraging AI to help with language 
 
 When I first started using AI tools, I tried to get them to write blog posts or other large pieces of content. These efforts almost always failed. The content sounded flat, unassertive, impersonal, boring, and voiceless. For more on why AI can't approximate real human writing, see Lauren Hartenberger's insightful essay [What AI Teaches Us About Good Writing](https://www.noemamag.com/what-ai-teaches-us-about-good-writing/). Hartenberger says that human writers often purposefully deviate from convention or rules as they engage with topics in authentic ways; this makes their writing connect emotionally with readers. 
 

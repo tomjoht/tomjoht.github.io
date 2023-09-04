@@ -18,6 +18,9 @@ The glossary defines all the terms that might be helpful for users to know &mdas
 * TOC
 {:toc}
 
+{: .tip}
+AI tools can help speed up glossary work. See [Using AI for glossary definitions](docapis_ai_glossary_definitions.html).
+
 ## Defining specialized terms
 
 Unlike most other professional writing disciplines, tech docs are notorious for the number of specialized terms in their content. We have unique terms specific to our company as well as industry and business domain jargon.
@@ -229,8 +232,8 @@ For more articles on glossaries, see the following:
 
 * [Defining Glossaries](https://www.ingentaconnect.com/content/stc/tc/2005/00000052/00000004/art00003), Michelle Kidd Tackabery. *Technical Communication.* Volume 52, Number 4, November 2005.
 
+* [Principle 7: Reduce the complexity of technical language](https://idratherbewriting.com/simplifying-complexity/reducing-the-complexity-of-technical-language.html), Tom Johnson. *Simplifying complexity series*. Idratherbewriting.com.
+
 * [Techniques for Introducing Unfamiliar Terms](https://www.ingentaconnect.com/content/stc/tc/2020/00000067/00000001/art00006), David K. Farkas. *Technical Communication.* Volume 67, Number 1, February 2020.
 
 * [The ABCs of Writing a Technical Glossary](https://www.ingentaconnect.com/contentone/stc/tc/1998/00000045/00000001/art00003), Evie Gray, William Ingram, and Dennis Bodson. *Technical Communication.* Volume 45, Number 1, February 1998.
-
-* [Principle 7: Reduce the complexity of technical language](https://idratherbewriting.com/simplifying-complexity/reducing-the-complexity-of-technical-language.html), Tom Johnson. *Simplifying complexity series*. Idratherbewriting.com.

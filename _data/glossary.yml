@@ -195,10 +195,10 @@ content_management_system:
 
 continuous_delivery: 
   term: continuous delivery
-  def: "Synonymous for Continuous Integration/Continuous Deployment (CI/CD)."
+  def: "Synonymous for continuous integration/continuous deployment (CI/CD)."
 
 continuous_integration_continuous_delivery:
-  term: "Continuous Integration/Continuous Deployment (CI/CD)"
+  term: "continuous integration/continuous deployment (CI/CD)"
   def: "Automation practices where changes to code are automatically tested and deployed. Useful for constantly updating documentation sites."
 
 cross_reference: 

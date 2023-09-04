@@ -156,6 +156,10 @@ For the `surfreport/{beachId}` endpoint that we've been exploring in our [sample
 
 {% include random_ad4.html %}
 
+{: .tip}
+
+AI tools can help you identify inconsistencies in API responses. See [Using AI for comparison tasks with API responses](docapis_ai_comparison_tasks.html).
+
 ## Next steps
 
 Now that you've completed each of the sections, take a look at all the sections together: [Putting it all together](docapis_finished_doc_result.html).

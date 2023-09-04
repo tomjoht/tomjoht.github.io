@@ -12,6 +12,8 @@ last-modified: 2023-07-25
 
 {% include coffeeshopbook.html %}
 
+One challenge API technical writers face is [understanding developer code and tools](jobapis_learning_code.html). This is by far the most intimidating aspect of being an API technical writer. Fortunately, AI tools can be a great learning aid for programming topics, with the option to design custom courses tailored around topics you specifically want to learn.
+
 {% if site.format == "web" %}
 * TOC
 {:toc}
@@ -19,7 +21,7 @@ last-modified: 2023-07-25
 
 ## The challenge of learning code
 
-One challenge API technical writers face is [understanding developer code and tools](jobapis_learning_code.html). This is by far the most intimidating aspect of being an API technical writer. Chances are, you're working with code from various programming languages without a deep understanding of them. Yet your job is to explain to a target audience of developers the purpose of the code and how to use it. At first, this requirement seems like API technical writers would need to be developers themselves to succeed.
+Chances are, you're working with code from various programming languages without a deep understanding of them. Yet your job is to explain to a target audience of developers the purpose of the code and how to use it. At first, this requirement seems like API technical writers would need to be developers themselves to succeed.
 
 As if documenting code for one project weren't enough, API technical writers must also support multiple projects simultaneously, often with different types of code. You might document a Java API for one project, a REST API for another project, some Go code for an SDK, some C++ code for another project, and so on. It can be nearly impossible to be fluent in all of these languages. Even keeping the terminology straight (a "function" in one language, a "class" is another, etc.) can be challenging.
 

@@ -572,6 +572,9 @@ folders:
   - title:  "Using AI for comparison tasks with API responses"
     jurl: /learnapidoc/docapis_ai_comparison_tasks.html
 
+  - title:  "Using AI for glossary definitions"
+    jurl: /learnapidoc/docapis_ai_glossary_definitions.html
+
 - title: "Chapter 17: Glossary"
   landing: /learnapidoc/glossary_overview.html
   section: seventeen

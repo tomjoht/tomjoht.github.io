@@ -18,6 +18,9 @@ With developer documentation roles, some level of coding is required. But you do
 {:toc}
 {% endif %}
 
+{: .tip}
+AI tools can help you learn code. See [Using AI to learn coding](docapis_ai_learn_coding.html).
+
 ## The ideal hybrid: programmer + writer
 
 When faced with these multi-language documentation challenges, hiring managers often search for technical writers who are former programmers to do the tasks. There are a good number of technical writers who were once programmers, and they can command more respect and competition for these developer documentation jobs.

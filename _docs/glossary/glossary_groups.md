@@ -6,8 +6,8 @@ path1: learnapidoc/glossary_overview.html
 weight: 15.1
 course: "Documenting REST APIs"
 section: glossary
-last-modified: 2023-08-31
-basic_terms:
+last-modified: 2023-09-04
+general_api:
 - api
 - api_contract
 - api_documentation
@@ -261,37 +261,33 @@ api_tools_and_platforms:
 {% assign glossaryFile = site.data.glossary %}
 {% assign counter = 0 %}
 
-## Basic terms
+## General API terms
 
-{% include glossary_group.html group_name="Basic terms" group_code="basic_terms" %}
+{% include glossary_group.html group_name="APIs in general" group_code="general_api" %}
 
 ## API method terms
 
-{% include glossary_group.html group_name="API method terms" group_code="api_methods" %}
+{% include glossary_group.html group_name="API methods" group_code="api_methods" %}
 
-## API parameter terms
+## API parameters terms
 
-{% include glossary_group.html group_name="API parameter" group_code="api_parameters" %}
+{% include glossary_group.html group_name="API parameters" group_code="api_parameters" %}
 
 ## API responses terms
 
 {% include glossary_group.html group_name="API responses" group_code="api_responses" %}
 
-## API doc format terms
+## Documentation tools terms
 
-{% include glossary_group.html group_name="API doc format" group_code="doc_formats" %}
+{% include glossary_group.html group_name="documentation formats and tools" group_code="doc_formats_and_tools" %}
 
 ## Version control terms
 
-{% include glossary_group.html group_name="Version control" group_code="version_control" %}
-
-## Documentation tools terms
-
-{% include glossary_group.html group_name="Documentation formats and tools" group_code="doc_formats_and_tools" %}
+{% include glossary_group.html group_name="version control" group_code="version_control" %}
 
 ## Writing process terms
 
-{% include glossary_group.html group_name="Writing process" group_code="writing_process" %}
+{% include glossary_group.html group_name="the writing process" group_code="writing_process" %}
 
 ## OpenAPI terms
 
@@ -303,19 +299,19 @@ api_tools_and_platforms:
 
 ## Project management terms
 
-{% include glossary_group.html group_name="Project management" group_code="project_management_concepts" %}
+{% include glossary_group.html group_name="project management" group_code="project_management_concepts" %}
 
 ## Testing and QA terms
 
-{% include glossary_group.html group_name="Testing and QA" group_code="testing_and_qa" %}
+{% include glossary_group.html group_name="testing and  quality assurance" group_code="testing_and_qa" %}
 
 ## Conceptual docs terms
 
-{% include glossary_group.html group_name="Conceptual docs" group_code="conceptual_docs" %}
+{% include glossary_group.html group_name="conceptual documentation" group_code="conceptual_docs" %}
 
 ## API tools and platform terms
 
-{% include glossary_group.html group_name="API tools and platform" group_code="api_tools_and_platforms" %}
+{% include glossary_group.html group_name="API tools and platforms" group_code="api_tools_and_platforms" %}
 
 {% include random_ad2.html %}
 {% include random_ad4.html %}
