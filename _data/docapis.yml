@@ -582,8 +582,9 @@ folders:
 
   - title: "Overview"
     jurl: /learnapidoc/glossary_overview.html
+    type: web
 
-  - title: "Glossary list"
+  - title: "Glossary"
     jurl: /learnapidoc/glossary.html
 
   - title: "Glossary groups"

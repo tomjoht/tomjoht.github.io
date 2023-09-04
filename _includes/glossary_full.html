@@ -10,7 +10,7 @@ span.glossarySeparator {
 </style>
 
 <div class="glossaryJumpMenu">
-{% for item in letterAlphabet %} <a href="#{{item}}">{{item | capitalize }}</a><span class='glossarySeparator'>|</span> {% endfor %}
+{% for item in letterAlphabet %} <a href="#{{item}}" class="noCrossRef">{{item | capitalize }}</a><span class='glossarySeparator'>|</span> {% endfor %}
 </div>
 
 {% for item in letterAlphabet %}
