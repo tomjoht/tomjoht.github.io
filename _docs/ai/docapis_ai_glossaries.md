@@ -70,7 +70,7 @@ Claude looked through the content and provided a list of definitions. The defini
 
 Note that because I'm not on a paid Claude plan (paid plans haven't been released yet), the number of queries is limited. When you exceed the allowed query limit (which seemed to be about 10 glossary-related queries for me), you have to wait several hours to use Claude again. So uploading the PDFs and getting vocab lists took a day of making queries at different times. 
 
-Also, each chat session could only provide terms for 3 chapters before the chat session's context window maxed out and I had to create a new chat session. You can't rename the chat sessions either, so it was a bit difficult to keep track of my progress. That said, the ability to work with much longer input sources in an AI tool is immensely appealing.
+Also, each chat session could only provide terms for 3 chapters before the chat session's context window maxed out and I had to create a new chat session. Even so, the ability to work with much longer input sources in an AI tool is immensely appealing.
 
 {% include ads.html %}
 
