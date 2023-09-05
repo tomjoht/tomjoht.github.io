@@ -5,6 +5,8 @@ folders:
   landing: /learnapidoc/docapis_introtoapis.html
   section: one
   class: first
+  description: >
+    REST APIs are flourishing in the marketplace, and the web is becoming a mashup of interconnected APIs. REST APIs consist of requests to and responses from a web server. Job prospects are hot for technical writers who can write developer documentation. This course will help you break into API documentation, especially if you complete the many portfolio-building activities.
   folderitems:
 
   - title: "Overview" 
@@ -47,6 +49,8 @@ folders:
 - title: "Chapter 2: Using an API like a developer"
   landing: /learnapidoc/likeadeveloper.html
   section: two
+  description: > 
+    Playing a brief role as a developer will help you understand developer needs better, as well as what developers typically look for in API documentation. Developers often use tools such as Postman or curl to make calls. They look at the structure of the response, and they dynamically integrate the needed information into web pages and other applications.
   folderitems:
 
   - title: "Overview" 
@@ -89,6 +93,8 @@ folders:
 - title: "Chapter 3: Documenting API endpoints"
   landing: /learnapidoc/docendpoints.html
   section: three
+  description: > 
+    Reference documentation for API endpoints consists of five general sections: resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. To document the reference endpoints of an API, provide detailed information for each of these sections.
   folderitems:
 
   - title: "Overview"
@@ -128,6 +134,9 @@ folders:
 - title: "Chapter 4: OpenAPI spec and generated reference docs"
   landing: /learnapidoc/restapispecifications.html
   section: four
+  description: >
+    The OpenAPI specification provides a formal way of describing your REST API and includes all the reference sections mentioned in the previous section, Documenting API endpoints. Display frameworks such as Swagger UI can parse the OpenAPI specification and generate interactive documentation that lets users try out endpoints while learning about the API.
+
   folderitems:
 
   - title: "Overview"
@@ -167,6 +176,8 @@ folders:
 - title: "Chapter 5: Step-by-step OpenAPI code tutorial"
   landing: /learnapidoc/openapi_tutorial.html
   section: five
+  description: > 
+    If you want to build the OpenAPI spec by hand in a text editor, this tutorial will help you get started. Even though documentation isn’t necessarily linear, I break down the various sections in the OpenAPI YAML file and go through them line by line. Approaching the OpenAPI file manually requires a more advanced understanding of the spec, YAML or JSON syntax, and how to approach strategies specific to your API.
   folderitems:
 
   - title: "Overview"
@@ -209,6 +220,8 @@ folders:
 - title: "Chapter 6: Testing API docs"
   landing: /learnapidoc/testingdocs.html
   section: six
+  description: >
+    Testing your documentation is critical to providing accurate, thorough information. With API and developer docs, due to the high level of complexity and engineering requirements, technical writers might be inclined to simply take information that engineers give them and incorporate it wholesale, without personally testing it. Merely playing an editorial/publishing function, however, can reduce your role to that of an engineer’s secretary.
   folderitems:
 
   - title: "Overview"
@@ -233,6 +246,8 @@ folders:
 - title: "Chapter 7: Conceptual topics in API docs"
   landing: /learnapidoc/docconceptual.html
   section: seven
+  description: >
+    While reference topics in APIs generally receive the most attention, the conceptual topics, such as getting started tutorials, information about authorization, rate limiting, status and error codes, quick reference guides, and other topics constitute about half of the documentation. These topics are usually handled by technical writers more than engineers. You can evaluate the quality of API documentation in part by looking to see whether it includes these conceptual topics.
   folderitems:
 
   - title: "Overview"
@@ -275,6 +290,8 @@ folders:
 - title: "Chapter 8: Code tutorials"
   landing: /learnapidoc/docapiscode.html
   section: eight
+  description: >
+    Documenting code poses one of the most challenging tasks for technical writers, especially if the writers don’t have an engineering background or familiarity with the code. Even without deeper engineering expertise, you can still document code — everything from code snippets to full-fledged sample apps. This section explores techniques and strategies for documenting code.
   folderitems:
 
   - title: "Overview"
@@ -311,6 +328,8 @@ folders:
 - title: "Chapter 9: The writing process"
   landing: /learnapidoc/writing_process.html
   section: nine
+  description: > 
+    The writing process refers to the way you write and develop content. There are five main steps to the writing process: planning, information gathering, writing, reviewing, and publishing. Although these aspects of the writing process are general to almost every type of writing, in this section I tailor the information to be specific to writing technical documentation.
   folderitems:
 
   - title: "Overview"
@@ -338,6 +357,8 @@ folders:
 - title: "Chapter 10: Publishing API docs"
   landing: /learnapidoc/publishingapis.html
   section: ten
+  description: >
+    API documentation often follows a docs-as-code workflow, where the tools to author and publish documentation align closely with the same tools developers use to write, manage, build, and deploy code. Docs-as-code involves using lightweight formats such as Markdown, collaborating through Git or other version control, building your doc site with a static site generator, and deploying it through a continuous build model, where the build happens on the server when you push commits to a particular branch.
   folderitems:
 
   - title: "Overview"
@@ -377,6 +398,8 @@ folders:
 - title: "Chapter 11: Publishing tools"
   landing: /learnapidoc/publishingtools.html
   section: eleven
+  description: > 
+    This section focuses on various publishing tools and tutorials related to those tools. The chapter continues similar themes of publishing from the previous chapter but dives into the details of several tools, a publishing workflow, case study, and more.
   folderitems:
 
   - title: "Overview"
@@ -410,6 +433,8 @@ folders:
 - title: "Chapter 12: Thriving in the API doc space"
   landing: /learnapidoc/jobapis.html
   section: twelve
+  description: >
+    Getting an API documentation job and thriving requires you to demonstrate your technical aptitude through a writing portfolio. The portfolio should include samples of documentation written for developers. One way to build this portfolio is by working on an open-source project. You also need to live in a tech hub where API documentation jobs are available, such as California, Texas, New York, or Virginia. Overall, thriving in the developer documentation space requires you to continually learn a healthy dose of code, which can be challenging.
   folderitems:
 
   - title: "Overview"
@@ -434,6 +459,8 @@ folders:
 - title: "Chapter 13: Native library APIs"
   landing: /learnapidoc/nativelibraryapis.html
   section: thirteen
+  description: >
+    Native library APIs refer to Java, C++, or other programming-specific APIs. In this model, rather than making requests across the web for the information, you download a library of code and integrate it into your project. The library is compiled directly into your application's build (rather than accessed through web protocols as with REST APIs). Although this type of API is less common, I include it here in part to clarify what makes REST APIs so different from native library APIs.
   folderitems:
 
   - title: "Overview"
@@ -470,6 +497,8 @@ folders:
 - title: "Chapter 14: Processes and methodology"
   landing: /learnapidoc/docapis_managing_doc_processes.html
   section: fourteen
+  description: > 
+    The process for managing developer portal documentation includes a number of different tasks outside of content development. The role of a DX (developer experience) content strategist plays a key role in defining workflows, standards, user flows, processes, and other aspects of the site. workflows for different types of documentation. In this section, I cover details for how to manage the doc work, including processes for fixing doc bugs versus tackling larger doc projects. I also explain processes for releasing SDKs, managing external contributions, and more.
   folderitems:
 
   - title: "Overview"
@@ -521,6 +550,8 @@ folders:
 - title: "Chapter 15: Metrics and measurement"
   landing: /learnapidoc/docapis_metrics_and_measurement.html
   section: fifteen
+  description: >
+    Metrics and measurement addresses ways to measure API documentation quality and how to track your progress on improvement. You can use the quality checklist here to review essential components of documentation and decide how your API docs measure up. The checklist can be a way to investigate, analyze, and interrogate your documentation from another perspective and discover ways to improve it.
   folderitems:
 
   - title: "Overview"
@@ -542,6 +573,8 @@ folders:
 - title: "Chapter 16: AI and API documentation"
   landing: /learnapidoc/ai.html
   section: sixteen
+  description: >
+    AI tools can help speed up authoring, demystifying code, automating publishing tasks, populating templates, and more. This section will look at how to use AI tools within the context of API documentation.
   folderitems:
 
   - title: "Overview"
@@ -578,6 +611,8 @@ folders:
 - title: "Chapter 17: Glossary"
   landing: /learnapidoc/glossary_overview.html
   section: seventeen
+  description: >
+    This section contains definitions of glossary terms. It also contains term groups so you can learn all the key terms within a specific subject area.
   folderitems:
 
   - title: "Overview"
@@ -593,6 +628,8 @@ folders:
 - title: "Chapter 18: Additional resources"
   landing: /learnapidoc/resources.html
   section: eighteen
+  description: > 
+    This section contains additional exercises and information, such as more activities for calling APIs, or more info about alternative specifications. I also archive topics here that don’t seem to fit well anywhere else.
   folderitems:
 
   - title: "Overview"

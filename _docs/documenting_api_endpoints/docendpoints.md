@@ -11,6 +11,6 @@ last-modified: 2023-05-28
 
 {% include coffeeshopbook.html %}
 
-Reference documentation for API endpoints consists of five general sections: resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. To document the reference endpoints of an API, provide detailed information for each of these sections.
+{% include chapter_description.html %}
 
 {% include minitoc.html %}

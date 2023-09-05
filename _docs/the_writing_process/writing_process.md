@@ -11,6 +11,6 @@ last-modified: 2023-05-28
 
 {% include coffeeshopbook.html %}
 
-The writing process refers to the way you write and develop content. There are five main steps to the writing process: planning, information gathering, writing, reviewing, and publishing. Although these aspects of the writing process are general to almost every type of writing, in this section I tailor the information to be specific to writing technical documentation.
+{% include chapter_description.html %}
 
 {% include minitoc.html %}

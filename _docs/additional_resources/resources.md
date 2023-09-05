@@ -11,6 +11,6 @@ last-modified: 2023-05-28
 
 {% include coffeeshopbook.html %}
 
-This section contains additional exercises and information, such as more activities for calling APIs, or more info about alternative specifications. I also archive topics here that don't seem to fit well anywhere else.
+{% include chapter_description.html %}
 
 {% include minitoc.html %}

@@ -11,6 +11,5 @@ last-modified: 2023-05-28
 
 {% include coffeeshopbook.html %}
 
-Testing your documentation is critical to providing accurate, thorough information. With API and developer docs, due to the high level of complexity and engineering requirements, technical writers might be inclined to simply take information that engineers give them and incorporate it wholesale, without personally testing it. Merely playing an editorial/publishing function, however, can reduce your role to that of an engineer's secretary.
-
+{% include chapter_description.html %}
 {% include minitoc.html %}

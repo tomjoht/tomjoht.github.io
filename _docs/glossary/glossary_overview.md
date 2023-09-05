@@ -11,6 +11,6 @@ last-modified: 2023-09-04
 
 {% include coffeeshopbook.html %}
 
-This section contains definitions of glossary terms.
+{% include chapter_description.html %}
 
 {% include minitoc.html %}

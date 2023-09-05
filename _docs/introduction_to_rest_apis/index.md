@@ -70,27 +70,12 @@ The course primarily serves the following audiences:
 
 The course consists of the following sections:
 
-- [Chapter 1: Introduction to REST APIs](docapis_introtoapis.html)
-- [Chapter 2: Using an API like a developer](likeadeveloper.html)
-- [Chapter 3: Documenting API endpoints](docendpoints.html)
-- [Chapter 4: OpenAPI spec and generated reference docs](restapispecifications.html)
-- [Chapter 5: Step-by-step OpenAPI code tutorial](openapi_tutorial.html)
-- [Chapter 6: Testing API docs](testingdocs.html)
-- [Chapter 7: Conceptual topics in API docs](docconceptual.html)
-- [Chapter 8: Code tutorials](docapiscode.html)
-- [Chapter 9: The writing process](writing_process.html)
-- [Chapter 10: Publishing API docs](publishingapis.html)
-- [Chapter 11: Publishing tools](publishingtools.html)
-- [Chapter 12: Thriving in the API doc space](jobapis.html)
-- [Chapter 13: Native library APIs](nativelibraryapis.html)
-- [Chapter 14: Processes and methodology](docapis_managing_doc_processes.html)
-- [Chapter 15: Metrics and measurement](docapis_metrics_and_measurement.html)
-- [Chapter 16: AI tools and API documentation](docapis_ai.html)
-- [Chapter 17: Glossary](docapis_glossary.html)
-- [Chapter 18: Additional resources](resources.html)
+{% for folder in site.data.docapis.folders %}
+* **[{{folder.title}}]({{folder.landing}})**. {{folder.description}}
+{% endfor %}
 
 {: .tip}
-The PDF download provides the PDF as a single PDF consisting of all chapters as well as individual chapters as standalone PDF files.
+You can [download a PDF of this course here](https://www.buymeacoffee.com/learnapidoc/e/146076). The download includes a comprehensive PDF of the entire course (900+ pages) as well as individual chapter PDFs, which are more practical for printing. The chapter PDFs are all under 10MB, which means you can also upload them into [Claude.ai](https://claude.ai) or other AI tools with large input allowances and interact with the information that way.
 
 ## Sequence and activities
 
