@@ -44,6 +44,9 @@ Before we begin the tutorial, note the following:
 
 **Disclaimer:** Stoplight is one of the sponsors of my site. I would still recommend this approach regardless of any site sponsorship. It makes sense to use a visual editor when your content must conform to a highly technical syntax.
 
+{: .note}
+As of September 2023, Smartbear acquired Stoplight. See [SmartBear’s API Development Hub Gets the Green Light with Stoplight](https://smartbear.com/blog/smartbears-api-development-hub-gets-the-green-light-with-stoplight/). As Stoplight merges into Smartbear, expect some changes with the tutorial and information below. 
+
 # What you'll build
 
 In this tutorial, we'll use sample information from the [OpenWeatherMap API](https://openweathermap.org/api) (more specifically, the [Current weather data endpoint](https://openweathermap.org/current)), which is the same API we've been using in other tutorials, such as the [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html).
@@ -68,14 +71,15 @@ Stoplight provides a variety of options for working with projects &mdash; deskto
 
 # Step 1: Set up a project in Stoplight Studio {#setup}
 
-1.  Go to [https://stoplight.io/studio/](https://stoplight.io/studio/) and click **On the Web**.
-2.  Follow the on-screen instruction to sign in, create a workspace, and then log in to the workspace.
-3.  Click the **+** button <img src="{{site.api_media}}/stoplight-purple-plus-button.png" alt="Add project button" /> at the top to add a new project. Give the project a name, and then click **Create API Project**. 
+1.  Go to [https://stoplight.io/welcome](https://stoplight.io/welcome) and click **Login**.
+2.  Follow the on-screen instruction to sign in, create a workspace, and then log in to the workspace. For more details, see the following in the Stoplight documentation:
+    * [Create a workspace](https://docs.stoplight.io/docs/platform/204f944cbb829-creating-a-workspace)
+    * [Log into a workspace](https://docs.stoplight.io/docs/platform/1e9fae1085c67-log-in-to-stoplight)
+3.  After you're logged into a workspace, click the **+** button <img src="{{site.api_media}}/stoplight-purple-plus-button.png" alt="Add project button" /> at the top to add a new project. Give the project a name, and then click **Create API Project**. 
  
     <img src="{{site.api_media}}/2-create-project-stoplight.png" alt="Create API Project" />
 
     The Stoplight Studio editor opens. The left pane says, "You do not have any APIs or models."
-
     <img src="{{site.api_media}}/3-b-stoplight-studio-stoplight.png" alt="Stoplight Studio editor" />
 
 4.  Click the **API** button in the sidebar.
@@ -103,13 +107,13 @@ Stoplight provides a variety of options for working with projects &mdash; deskto
    
     {% endif %}
 
-8.  Select `users/{userId}` under the Paths folder, and then click the **Preview** button in the upper-right corner to see what the content would look like when published: 
+1.  Select `users/{userId}` under the Paths folder, and then click the **Preview** button in the upper-right corner to see what the content would look like when published: 
 
     <img src="{{site.api_media}}/6-stoplight-studio-preview-stoplight.png" alt="Stoplight's published view" />
 
     The ability to switch views between Form, Code, and Preview gives you a lot of authoring power.
 
-1.  Click the **Form** button to switch back to the Form view.
+2.  Click the **Form** button to switch back to the Form view.
 
 # Step 2: Enter the API overview information {#overview}
 

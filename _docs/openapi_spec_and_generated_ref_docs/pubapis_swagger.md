@@ -118,7 +118,7 @@ First, you'll make sure you can view Swagger locally. Then you'll switch the Pet
 
 	  The only folder you'll be working with in the downloaded zip is the `dist` folder (short for distribution). Everything else is used only if you're recompiling the Swagger files, which is beyond the scope of this tutorial. (If desired, you can drag the `dist` folder out of the `swagger-ui-master` folder so that it stands alone.)
 
-3.  In your Chrome browser, press **Cmd+O** (Mac) or **Ctrl+O** (Windows), browse to the `dist` folder, and select the `swagger-initializer.js` file,
+3.  In your Chrome browser, press **Cmd+O** (Mac) or **Ctrl+O** (Windows), browse to the `dist` folder, and select the `index.html` file,
 
     You should see the Petstore Swagger content. Now you'll customize the OpenAPI spec file with another file.
 
