@@ -12,7 +12,7 @@ glossary_keys:
 - swagger_editor
 - swagger_ui
 - swagger_codegen
-last-modified: 2023-02-01
+last-modified: 2023-09-06
 ---
 
 {% include coffeeshopbook.html %}
