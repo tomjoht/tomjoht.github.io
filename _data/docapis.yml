@@ -608,6 +608,9 @@ folders:
   - title:  "Using AI for glossary definitions"
     jurl: /learnapidoc/docapis_ai_glossary_definitions.html
 
+  - title:  "Using AI for summaries"
+    jurl: /learnapidoc/docapis_ai_summaries.html
+
 - title: "Chapter 17: Glossary"
   landing: /learnapidoc/glossary_overview.html
   section: seventeen
