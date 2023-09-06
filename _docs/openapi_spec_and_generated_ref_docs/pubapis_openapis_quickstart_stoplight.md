@@ -8,7 +8,7 @@ section: restapispecifications
 path1: learnapidoc/restapispecifications.html
 redirect_from:
 - /learnapidoc/stoplight_studio_tutorial.html
-last-modified: 2023-02-01
+last-modified: 2023-09-06
 ---
 
 {% include coffeeshopbook.html %}
