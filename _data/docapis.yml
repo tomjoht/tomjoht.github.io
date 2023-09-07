@@ -6,7 +6,7 @@ folders:
   section: one
   class: first
   description: >
-    REST APIs consist of requests and responses between clients and servers over the web. Because REST APIs are flourishing (every company seems to have an API), there is a strong need for helpful, accurate API documentation. Technical writers can apply their skills to fill this gap in highly valued ways. This introduction discusses different types of APIs, reasons for API growth, and why docs are critical for REST APIs. It outlines course contents, prerequisites, goals, and target audiences. The introduction sets the stage for learning API documentation through the hands-on activities in the course.
+    REST APIs consist of requests and responses between clients and servers over the web. Although there are many types of APIs, REST APIs are flourishing, and there's a strong need for API documentation at almost every company that provides an API. Technical writers can apply their skills to fill this gap in highly valuable ways. This introduction discusses different types of APIs, reasons for API growth, and why docs are critical for REST APIs. It outlines course contents, prerequisites, goals, and target audiences. The introduction sets the stage for learning API documentation through the hands-on activities in the course.
   folderitems:
 
   - title: "Overview" 
@@ -50,7 +50,7 @@ folders:
   landing: /learnapidoc/likeadeveloper.html
   section: two
   description: > 
-    This chapter covers using a REST API from a developer's perspective. It walks through getting API keys, making requests with Postman and curl, analyzing JSON responses, and dynamically displaying API responses on a web page. These hands-on activities provide context for understanding developer needs and how developers use APIs. After using the API, you switch perspectives and start documenting the API in the next chapter. Going through the developer workflow first gives you insight into developer requirements for documentation.
+    In this chapter, you use a REST API like a developer would. You get API keys, make requests with Postman and curl, analyze JSON responses, and dynamically display API responses on a web page. These hands-on activities give you context for understanding developer needs and workflow. After using the API in this way, you switch perspectives and prepare to start documenting an API as a technical writer.
   folderitems:
 
   - title: "Overview" 
@@ -94,7 +94,7 @@ folders:
   landing: /learnapidoc/docendpoints.html
   section: three
   description: > 
-    This chapter covers documenting API endpoints, the core reference documentation for APIs. It walks through the five key sections: resource description, endpoints and methods, parameters, request example, and response example/schema. These sections provide the reference details developers need to work with the API. The chapter includes a hands-on tutorial to create documentation for a sample endpoint, as well as activities to evaluate and improve existing API reference topics. The goal is to learn best practices for structuring and writing clear API endpoint documentation.
+    The bulk of API documentation focuses on the resources available (accessed through endpoints) and the data returned. API reference documentation usually includes five key sections for each resource: resource description, endpoints and methods to access the resource, parameters, request examples, and response examples and schemas. After learning about each section, you document a sample resource. You also evaluate and improve existing API reference topics.
   folderitems:
 
   - title: "Overview"
@@ -135,7 +135,7 @@ folders:
   landing: /learnapidoc/restapispecifications.html
   section: four
   description: >
-    Chapter 4 covers the OpenAPI specification, which provides a standard way to describe REST APIs. The chapter introduces the OpenAPI spec and shows how tools like Stoplight Studio, Swagger UI, SwaggerHub, and Redocly can use an OpenAPI file to generate interactive API reference documentation. The chapter includes tutorials on creating an OpenAPI file both manually and using a visual editor, validating the spec, and publishing the documentation. Key topics include spec-first development, integrating reference docs into full documentation, and leveraging the OpenAPI spec to empower API design, testing, implementation, and documentation.
+    The OpenAPI specification provides a standard way to describe REST APIs, and includes elements such as paths, operations, parameters, and schemas. Tools like Stoplight, Swagger UI, SwaggerHub, and Redocly can generate interactive API reference documentation from the OpenAPI spec. In this chapter, you follow a tutorial for using Stoplight, a visual editor, to create an OpenAPI specification file and publish the documentation. As you work with the OpenAPI spec, you learn about "spec-first development," a philosophy of creating the spec before developers write API code, as well as other challenges, such as integrating the reference output and conceptual documentation in a seamless experience.
 
   folderitems:
 
@@ -177,7 +177,7 @@ folders:
   landing: /learnapidoc/openapi_tutorial.html
   section: five
   description: > 
-    Chapter 5 provides a step-by-step tutorial for manually creating an OpenAPI specification document. It walks through each of the main objects in the OpenAPI spec, including openapi, info, servers, paths, components, security, tags, and externalDocs. For each object, it shows code samples and explains how the information maps to an interactive documentation site powered by the OpenAPI spec. The tutorial uses the OpenWeatherMap API as an example and shows how to build the OpenAPI document in the Swagger Editor using YAML. The goal is to gain familiarity with the OpenAPI objects and properties by building a valid OpenAPI file from scratch.
+    Whereas the previous chapter involved building and publishing OpenAPI specification using a visual editor (Stoplight), in this chapter you code the spec by hand following a step-by-step tutorial using the Swagger Editor. You populate each of the main objects in the OpenAPI spec: `openapi`, `info`, `servers`, `paths`, `components`, `security`, `tags`, and `externalDocs`. For each object, you can refer to code samples and see how the source maps to the documentation output. The goal is to gain familiarity with the OpenAPI objects and properties by building a valid OpenAPI file from scratch.
   folderitems:
 
   - title: "Overview"
@@ -221,7 +221,7 @@ folders:
   landing: /learnapidoc/testingdocs.html
   section: six
   description: >
-    Chapter 6 focuses on the importance of testing documentation, especially for APIs and developer documentation. It emphasizes setting up a test environment, walking through all instructions personally, testing assumptions against real users, and collaborating with QA teams. Key points are that documentation should be treated like code and put through rigorous testing before release. Writers should not just passively document what developers say but actively validate everything. The chapter provides strategies for testing docs, getting access to test systems, and soliciting user feedback. Thorough testing leads to higher quality and more accurate documentation.
+    Testing documentation against your APIs is critical for documentation quality. Fortunately, testing REST APIs and their responses tends involves less setup and expertise than testing library-based APIs like Java. Even so, to test your docs, you need to set up a test environment and get access to API keys or other resources. This will involve collaborating with QA teams. Your goal should be to walk through your instructions personally, making test calls and verifying the responses. You also should push back against any technical assumptions as you champion user needs. In short, testing docs means avoiding passively documenting what engineers say but rather actively validating as much as you can.
   folderitems:
 
   - title: "Overview"
@@ -247,7 +247,7 @@ folders:
   landing: /learnapidoc/docconceptual.html
   section: seven
   description: >
-    Chapter 7 covers the common conceptual topics that make up about half of API documentation, including product overviews, getting started tutorials, authentication and authorization, status and error codes, rate limiting and thresholds, quick reference guides, glossaries, and best practices. These conceptual topics provide critical context for understanding and using the API beyond just the reference documentation. The chapter explores best practices for each topic, reasons why the topics are often neglected, and includes examples from API documentation sites. Activities guide you to evaluate these topics in an open source API project and decide which examples demonstrate best practices. The chapter emphasizes the importance of conceptual documentation in facilitating the user's journey in understanding and adopting the API.
+    Conceptual topics that make up documentation include product overviews, getting started tutorials, authentication and authorization, status and error codes, rate limiting and thresholds, quick reference guides, glossaries, and best practices. These topics provide critical context for understanding and using the API beyond just the reference documentation. The chapter explores best practices for each topic, reasons why the topics are often neglected, and includes examples from API documentation sites. Activities guide you to evaluate these topics in an open source API project and decide which examples demonstrate best practices. The chapter emphasizes the importance of conceptual documentation in facilitating the user's journey in understanding and adopting the API.
   folderitems:
 
   - title: "Overview"
@@ -291,7 +291,7 @@ folders:
   landing: /learnapidoc/docapiscode.html
   section: eight
   description: >
-    Chapter 8 covers techniques for documenting code, one of the most challenging aspects of API documentation, especially for non-engineers. It starts by explaining why code is difficult to document, including its non-linear nature, variation of audience technical levels, and dependence on specific languages. The chapter then explores five strategies for documenting code: separating conceptual "why" from code "how," using a third column for juxtaposed commentary, building up complexity in steps like Legos, starting simple and expanding complexity, and creating interactive browser experiences.
+    Documenting code can be one of the most challenging aspects of API documentation, especially for non-engineers. Code can be hard to document because of its non-linear nature. For example,you don't simply start by describing chunks of code from top to bottom. Figuring out your audience's technical level can also be a guessing game, as a user's proficiency in one language or area might not carry over to another. As you document code, focus on the "why" instead of the "how," and consider building up complexity in stages, starting simple and expanding into more advanced use cases. If you can provide interactive browser experiences with code, which allows users to adjust the input and immediately see the output, this can also help developers learn.
   folderitems:
 
   - title: "Overview"
@@ -329,7 +329,7 @@ folders:
   landing: /learnapidoc/writing_process.html
   section: nine
   description: > 
-    Chapter 9 covers the 5 main steps in the API documentation writing process: planning (creating a doc plan, establishing roles), gathering information (interviewing engineers, product managers, partner engineers, QA), writing (separating content into groups, outlining, scheduling reviews, writing the first draft), reviewing (strategies for ineffective and effective reviews, incorporating feedback, resolving conflicts), and publishing (integrating new content, adding metadata, coordinating timing, publicizing releases). The chapter provides practical tips tailored to tech writers creating API documentation, such as recording engineering interviews, bringing questions to review meetings, and publicizing releases through newsletters.
+    The five main steps in the documentation writing process include **(1) Planning** (creating a doc plan, establishing roles), **(2) Gathering information** (interviewing engineers, product managers, etc.), **(3) Writing** (separating content into groups, outlining, scheduling reviews, writing the first draft), **(4) Reviewing** (reaching out to the right people, incorporating feedback, resolving conflicts), and **(5) Publishing** (integrating new content, adding metadata, coordinating timing, publicizing releases). This chapter provides practical tips in each writing step, such as recording engineering interviews, bringing questions to review meetings, and publicizing releases through newsletters. Although many other aspects of API documentation might seem more pressing, such as configuring your publishing toolchain, writing is still a core task technical writers do when creating API documentation.
   folderitems:
 
   - title: "Overview"
@@ -358,7 +358,7 @@ folders:
   landing: /learnapidoc/publishingapis.html
   section: ten
   description: >
-    Chapter 10 covers best practices and tools for publishing API documentation. It discusses common design patterns seen in API doc sites, such as consistent structure and templates, seamless branding, abundant code samples, lengthy pages, and interactive API explorers. The chapter then explores docs-as-code tools like static site generators, version control systems, Markdown, and hosting platforms. It provides an overview of tools like Jekyll, Hugo, Sphinx, GitHub Pages, ReadTheDocs, and more. The chapter concludes with recommendations for selecting the right publishing tools based on your content, authors, infrastructure, and other requirements. The main goal is to choose lightweight tools that integrate into engineering workflows, so developers can more easily contribute to the docs.
+    When you're publishing API documentation, it's important to have consistent structure and templates, ensure seamless branding, provide plenty of code samples, and follow other API documentation conventions. If you can include an interactive API explorer, users will love it. In this chapter, you dive into tools like Jekyll, Hugo, Sphinx, GitHub Pages, and ReadTheDocs for documentation. The chapter encourages you to embrace the docs-as-code approach, which means using static site generators, version control (Git), lightweight documentation syntax (Markdown), continuous integration, and more. Docs-as-code tools fit well into engineering workflows, making it easier for developers to contribute and review documentation.
   folderitems:
 
   - title: "Overview"
@@ -399,7 +399,7 @@ folders:
   landing: /learnapidoc/publishingtools.html
   section: eleven
   description: > 
-    This chapter focuses on publishing tools and workflows for technical documentation. It provides tutorials on using GitHub wikis and GitHub Desktop to manage content with Git version control. It also covers pull request workflows through GitHub as a way to collaborate on content. There is a tutorial on using Jekyll with CloudCannon for continuous deployment, and a section on using Oxygen XML with docs-as-code workflows. The chapter also profiles Blobr, an API portal that arranges API use cases into products, and includes a case study on transitioning documentation processes to docs-as-code. The chapter finishes with a frequently asked questions section on documentation tools.
+    Publishing technical documentation typically involves following docs-as-code tools and workflows. For open source projects, GitHub is frequently used to manage content. But even within the enterprise, Git is still common. A typical documentation workflow involves making pull requests with doc changes that get rolled into the main branch. In this chapter, you explore some of these workflows using tools like GitHub wikis, Jekyll, CloudCannon, Oxygen XML and more. It's important to become comfortable working from the command line to create branches, get updates, perform merges, and push builds.
   folderitems:
 
   - title: "Overview"
@@ -434,7 +434,7 @@ folders:
   landing: /learnapidoc/jobapis.html
   section: twelve
   description: >
-    This chapter focuses on getting a job in API documentation and thriving in the field. It covers the basic qualifications needed, such as familiarity with programming languages, experience writing developer docs, and a portfolio with writing samples. The chapter discusses how much code knowledge is needed and strategies for learning code. It looks at the best locations for API doc jobs, with a focus on tech hubs like California, Texas, New York, and Virginia. The chapter includes activities for finding an open source project to contribute to and creating a sample API reference topic, which will build your portfolio. Overall, the chapter provides guidance on building the skills and portfolio needed to get an API documentation job.
+    Getting a job in API documentation requires you to have some familiarity programming languages, experience writing developer docs, and a portfolio of writing samples. Chances are, hiring managers will want you to be tech savvy and comfortable working in code, with less to say about your actual writing skills. While opportunities for API documentation roles exist globally, tech hubs such as California, Texas, New York, and Virginia have a higher concentration of these jobs. If you need to build up a writing portfolio, consider contributing to open source projects and creating sample API reference documentation.
   folderitems:
 
   - title: "Overview"
@@ -456,11 +456,11 @@ folders:
   - title: "Activity: Create or fix an API reference documentation topic"
     jurl: /learnapidoc/docapis_work_on_conceptual_topic.html
 
-- title: "Chapter 13: Native library APIs"
+- title: "Chapter 13: Library-based APIs"
   landing: /learnapidoc/nativelibraryapis.html
   section: thirteen
   description: >
-    This chapter covers native library APIs, which are programming language-specific APIs like Java and C++ that get compiled into a developer's code rather than accessed over web protocols. It provides an overview comparing REST APIs to native library APIs. The chapter includes a tutorial on generating Javadoc documentation from a sample Java project, with details on Javadoc tags and style guidelines. It also covers Doxygen, a popular document generator for C++. The chapter emphasizes that reference documentation alone is insufficient, and technical writers need to create conceptual documentation around tasks as well. Overall, the chapter aims to clarify native library APIs and how to approach documentation for them.
+    Library-based APIs are programming-language-specific APIs, such as Java and C++ libraries (instead of web APIs) that developers compile into their code instead of accessing via web protocols. If you're documenting a library-based API, at least for the reference content, you add documentation in the form of code comments (following specific tags), and then build the output using tools like Javadoc (for Java) or Doxygen (for C++). Each library-based API has its own documentation generators that build from source and output documentation from comments in that source. Although working in the source code might seem uncomfortable at first, it's essential to become familiar with these workflows if you want to contribute to the API's reference documentation.
   folderitems:
 
   - title: "Overview"
@@ -498,7 +498,7 @@ folders:
   landing: /learnapidoc/docapis_managing_doc_processes.html
   section: fourteen
   description: > 
-    Chapter 14 covers processes and methodology for managing developer portal documentation. It outlines strategies for handling both large documentation projects and smaller documentation requests, including following an adapted Scrum methodology. The chapter also discusses kickoff meetings, documentation reviews, maintaining existing docs, collecting feedback, working with external contributors, changing documentation culture, sending status reports, broadcasting meeting notes, and ensuring documentation coverage for software releases. The key themes are integrating documentation into formal processes, building visibility for the documentation team, and maintaining healthy documentation practices.
+    This chapter dives into project methodologies to manage technical documentation work. For both extensive projects and minor documentation requests, file the requests as bugs and managing them using a Scrum-like methodology, preferably following similar management processes as your engineers. You need to understand your engineering organization's release cycle process and plug documentation into that cadence so that you can anticipate upcoming documentation needs and orchestrate reviews in time for the releases. Besides working on new requests, you also need a method for maintaining existing documentation and ensuring quality. From SDK releases to kickoff meetings and more, you need processes to follow. To facilitate communication, tech writers should be visible and participate in the activities, forums, and channels around them.
   folderitems:
 
   - title: "Overview"
@@ -551,7 +551,7 @@ folders:
   landing: /learnapidoc/docapis_metrics_and_measurement.html
   section: fifteen
   description: >
-    Chapter 15 discusses ways to measure API documentation quality and track improvement efforts. The chapter first looks at the challenges of relying solely on user surveys and satisfaction scores to evaluate documentation. It then surveys different research on defining documentation quality, identifying common criteria like accuracy, clarity, completeness, and relevance. The chapter introduces a comprehensive quality checklist with criteria tailored specifically to API documentation. The checklist can guide an in-depth review to assess strengths and weaknesses of documentation and identify areas needing improvement. While a scoring approach is discussed, the real value is having concrete, actionable criteria for elevating documentation quality.
+    Measuring API documentation quality and tracking its improvement is a frequent management request that's challenging to fulfill. User surveys and satisfaction scores offer some insight, but they shouldn't be the only evaluation tools. This chapter provides a comprehensive quality checklist for API documentation and developer portals, spanning more than 70 different aspects that involve accuracy, clarity, completeness, and relevance across your API documentation. This checklist can help highlight areas to focus on and be a springboard for discussion about ways to improve your developer portal. Although scoring methods are possible, your primary focus should be to agree on clear, actionable standards for documentation quality.
   folderitems:
 
   - title: "Overview"
@@ -574,7 +574,7 @@ folders:
   landing: /learnapidoc/ai.html
   section: sixteen
   description: >
-    Chapter 16 explores practical applications of LLM-based AI tools like ChatGPT and Claude for API documentation workflows. It looks at using an AI assistant plugin in Oxygen XML for tasks like improving readability, generating index terms, and fixing errors. Other applications covered include using AI for pattern-based content prompts, building automation scripts, learning code basics, getting language advice, creating doc updates for bugs, analyzing search analytics for themes, comparing API responses to docs, and assisting with glossary creation. While AI tools can't fully replace human technical writers, the chapter focuses on targeted ways AI can provide helpful assistance with certain documentation tasks, accelerating productivity.
+    LLM-based AI tools, such as ChatGPT, Bard, and Claude, can help you with various documentation-related tasks. Pattern-based content prompts can help arrange content in expected documentation formats. You can use AI tools to both learn code and write code yourself--the latter comes in handy when you need to create build and publishing scripts. You can use AI tools to get language advice, to identify answers when fixing bugs, to analyze large sets of information from threads, comments, and feedback, to compare API responses with schemas, to create glossaries, and more. Using AI tools requires you to provide a lot of direction, review, and guidance, so don't expect too much from them. Still, they can perform some of the documentation work, leading to increased productivity.
   folderitems:
 
   - title: "Overview"
@@ -615,7 +615,7 @@ folders:
   landing: /learnapidoc/glossary_overview.html
   section: seventeen
   description: >
-    The glossary chapter provides definitions and explanations for over 130 key terms related to API documentation. The terms span a wide range of topics relevant to documenting REST APIs, including general API concepts, OpenAPI/Swagger specifics, API parameters, responses, methods, tools, project management approaches, writing best practices, and more. This glossary serves as a quick reference for readers to look up unfamiliar documentation terminology they encounter throughout the course material. The terms are organized alphabetically as well as by common topic groups, allowing readers to easily browse terms within certain subject areas.
+    This glossary provides definitions and explanations for over 130 key terms related to API documentation. The terms span a wide range of topics relevant to documenting REST APIs, including general API concepts, OpenAPI/Swagger specifics, API parameters, responses, methods, tools, project management approaches, writing best practices, and more. The terms are organized alphabetically as well as by common topic groups, allowing you to easily browse terms within certain subject areas.
   folderitems:
 
   - title: "Overview"
@@ -632,7 +632,7 @@ folders:
   landing: /learnapidoc/resources.html
   section: eighteen
   description: > 
-    Chapter 18 provides a variety of supplementary material to expand on topics covered in the course. It includes a detailed article comparing REST and GraphQL APIs and recommendations for documenting each. There are several hands-on activities for calling additional APIs to get more practice working with endpoints, parameters, and responses. Tutorials are provided for two alternative API specification formats: RAML and API Blueprint. The chapter also contains answer keys for activities, as well as video recordings of full-day workshops delivering this course content. Overall, this additional resources section offers more in-depth exploration of key course topics for those looking to further solidify their learning.
+    Additional resources provides a variety of supplementary material to expand on topics covered in the course. This is also the section where content gets archived that no longer fits into the other chapters. There are several hands-on activities for calling additional APIs to get more practice working with endpoints, parameters, and responses. Tutorials are provided for two (semi-abanoned) API specification formats: RAML and API Blueprint. The chapter also contains answer keys for activities, as well as video recordings of previous workshops.
   folderitems:
 
   - title: "Overview"

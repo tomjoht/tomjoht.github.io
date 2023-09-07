@@ -66,7 +66,7 @@ The course primarily serves the following audiences:
 * Developers who are documenting their own APIs and want to know best practices for structure, terminology, and style with tech docs.
 * Educators who are training technical writing students about API documentation practices and technologies.
 
-## Course organization
+## Course organization {#course_organization}
 
 The course consists of the following sections:
 

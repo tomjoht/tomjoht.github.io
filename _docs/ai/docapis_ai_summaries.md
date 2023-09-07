@@ -24,31 +24,31 @@ At every level in tech docs, summaries provide distilled information about the n
 
 * Product overviews provide summaries of the chapters/sections they contain.
 * Chapter/section overviews provide summaries of the topics they contain.
-* Topics provide summaries (at the top) of the subheadings they contain. They also provide a table of contents that outlines the content below.
+* Topics provide summaries of the subheadings they contain. They also provide a table of contents that outlines the content below.
 * Subheading titles summarize the paragraphs they contain.
 * Topic sentences provide summaries of the paragraphs they introduce. 
 
-When information follows this pattern, the docs become easy to skim and read. You can read through a product overview before deciding whether the product is relevant to your needs. You can skim through a chapter overview to decide if the chapter is relevant. Users can skim through subheadings to decide whether the sections are worth reading, and so on. 
+When information follows this pattern, the docs become easy to skim and read. You can read through a product overview before deciding whether the product is relevant to your needs. You can skim through a chapter overview to decide if the chapter is relevant. You can skim through subheadings to decide whether the sections are worth reading, and so on. 
 
-In short, summaries facilitate information scanning and retrieval in key ways. Tech docs that lack summaries are hard to read. That’s why the ability to [reduce and distill vast amounts of information down to its essence](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html) is a key principle for simplifying complexity.
+In short, summaries facilitate information scanning and retrieval in key ways. Tech docs that lack summaries are hard to read. That's why the ability to [reduce and distill vast amounts of information down to its essence](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html) is a key principle for simplifying complexity.
 
 Summarizing even a 2,000 word topic into 100 words can be mentally taxing, as summaries require writers to comprehend the whole and then simplify those details into a concise and accurate representation (like making a poem out of a novel). 
 
-To create summaries, I often make mini-outlines of the topic’s key points and then try to integrate the various points into smooth-flowing sentences. It’s not an easy task. 
+To create summaries, I often make mini-outlines of the topic's key points and then try to integrate the various points into smooth-flowing sentences. It's not an easy task. 
 
 {% include random_ad2.html %}
 
 ## Rich input sources make good summaries possible
 
-Can AI chatbots help with summaries? Yes! AI tools excel at summaries partly because the input source (the topic’s content) is provided to the LLM. This makes them less likely to hallucinate. In contrast, when the AI tool has to draw upon its training of patterns across the Internet to create data, the chances of making bogus/spurious connections are much higher. 
+Can AI chatbots help with summaries? Yes, AI tools excel at summaries partly because the input source (the content) is provided to the LLM. This makes them less likely to hallucinate. In contrast, when the AI tool has to draw upon its training of patterns across the Internet to create data, the chances of making bogus/spurious connections are much higher. 
 
-Additionally, when writers are familiar with the topic’s content (for example, when they wrote the content that they want AI to summarize), they can easily assess whether the summary is on target.
+Additionally, when writers are familiar with the topic's content (for example, when they wrote the content that they want AI to summarize), they can easily assess whether the summary is on target.
 
-With [Claude.ai](https://claude.ai), the input source length can be much larger than with other LLMs — about 100k tokens, or 60,000 words. This allows you to paste in nearly any type of content for Claude to summarize. 
+With [Claude.ai](https://claude.ai), the input source length can be much larger than with other LLMs &mdash; about 100k tokens, or 60,000 words. This allows you to paste in nearly any type of content for Claude to summarize. 
 
-There’s even a workaround if you have longer content requirements. To summarize lengthier material (> 60k words), chunk it up into pieces, then generate summaries of the pieces, then generate a summary of the summaries.
+There's even a workaround if you have longer content requirements. To summarize lengthier material (> 60k words), chunk it up into pieces, then generate summaries of the pieces, then generate a summary of the summaries.
 
-For example, the comprehensive [PDF of my API course](https://www.buymeacoffee.com/learnapidoc/e/146076) (containing all chapters) is too long for Claude to process, as it’s nearly 1,000 pages. Because of this, I’ve broken this content down into individual chapters, each under 10MB in length (which is Claude’s max PDF size). If you want to summarize all 1,000 pages, you could summarize each individual chapter, compile the chapter summaries, then ask an AI tool to summarize the chapter summaries. (More on this later on in this article.)
+For example, the comprehensive [PDF of my API course](https://www.buymeacoffee.com/learnapidoc/e/146076) (containing all chapters) is too long for Claude to process, as it's nearly 1,000 pages. Because of this, I've broken this content down into individual chapters, each under 10 MB in length (which is Claude's max PDF size). If you want to summarize all 1,000 pages, you could summarize each individual chapter, compile the chapter summaries, then ask an AI tool to summarize the chapter summaries. (More on this later on in this article.)
 
 {% include random_ad3.html %}
 
@@ -58,40 +58,42 @@ Besides authoring scenarios, another way tech writers can use AI summaries is in
 
 > One of the most powerful abilities of A.I. language models is quickly summarizing large amounts of text.
 > 
-> I’ve used A.I. programs to “read" long articles for me, and summarize dense academic papers. Usually they get the broad strokes right, even if some of the details are missing.
+> I've used A.I. programs to “read" long articles for me, and summarize dense academic papers. Usually they get the broad strokes right, even if some of the details are missing.
 > 
-> This power really shines when you combine it with other A.I. abilities, like transcribing audio and video recordings. Suddenly it becomes possible to condense a two-hour podcast into bullet points, or get a concise summary of a work meeting _while you’re still in the meeting._
+> This power really shines when you combine it with other A.I. abilities, like transcribing audio and video recordings. Suddenly it becomes possible to condense a two-hour podcast into bullet points, or get a concise summary of a work meeting _while you're still in the meeting._
 > 
-> If you’re bored of reading this newsletter, you could ask ChatGPT or Bing to summarize the rest of it for you, or to rewrite it as a jaunty limerick. I promise I won’t be offended.
+> If you're bored of reading this newsletter, you could ask ChatGPT or Bing to summarize the rest of it for you, or to rewrite it as a jaunty limerick. I promise I won't be offended.
 
 Asking AI chatbots for summaries of long articles is how I frequently use AI as well. Here are a few scenarios where I ask AI to summarize content:
 
 * Summarize a Reddit or Hacker News thread that has a lengthy number of comments.
-* Summarize a long news article that takes too long to get to the point.
+* Summarize a long *New York Times* article that takes too long to get to the point.
 * Summarize a journal article from a publication such as _Technical Communication Journal_ (getting to the conclusion and argument more quickly).
-* Summarize the comments thread for a lengthy bug.
+* Summarize the comments thread on a lengthy bug.
 
 {% include ads.html %}
 
 ## Adjusting the simplicity levels of the explanation
 
-Beyond merely providing summaries, AI tools are excellent at _simplifying_ complex concepts, making the content understandable for second-grade reading levels or similar. For example, suppose you paste in an academic journal article and ask it for a summary, but the summary is still opaque and hard to understand. You could ask the AI to explain it like you’re 5 years old, or explain it like you’re a high schooler, or to just provide a simpler explanation. AI tools often do an amazing job at simplification.
+Beyond merely providing summaries, AI tools are excellent at _simplifying_ complex concepts, making the content understandable for second-grade reading levels or similar. For example, suppose you paste in an academic journal article and ask it for a summary, but the summary is still opaque and hard to understand. You could ask the AI to explain it like you're 5 years old, or explain it like you're a high schooler, or to just provide a simpler explanation. AI tools often do an amazing job at simplification.
 
-Additionally, I often ask AI tools to provide concrete examples as a way of clarifying concepts. Reading 10 concrete examples of any concept usually clears it up. Kevin Roose explains how he uses ChatGPT to simplify concepts:
+Kevin Roose explains how he uses ChatGPT to simplify concepts:
 
-> For the last few months, I’ve been using ChatGPT as my personal tutor every time I get curious about a new topic. If it’s, say, fractional reserve banking, I’ll start by asking ChatGPT to “explain fractional reserve banking at a high school level." (Or, if I’m still confused, “at a middle school level.")
+> For the last few months, I've been using ChatGPT as my personal tutor every time I get curious about a new topic. If it's, say, fractional reserve banking, I'll start by asking ChatGPT to “explain fractional reserve banking at a high school level." (Or, if I'm still confused, “at a middle school level.")
 > 
-> ChatGPT and other A.I. chatbots do well with these types of prompts, using their skills at **natural language processing**, as long as you don’t ask about very recent events or extremely obscure topics. Calling on an infinitely patient, zero-cost tutor to guide me through new subjects feels like a superpower. Used properly, [they can be amazing teaching tools](https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html). ([How Should I Use A.I. Chatbots Like ChatGPT?](https://www.nytimes.com/2023/03/30/technology/ai-chatbot-chatgpt-uses-work-life.html))
+> ChatGPT and other A.I. chatbots do well with these types of prompts, using their skills at **natural language processing**, as long as you don't ask about very recent events or extremely obscure topics. Calling on an infinitely patient, zero-cost tutor to guide me through new subjects feels like a superpower. Used properly, [they can be amazing teaching tools](https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html). ([How Should I Use A.I. Chatbots Like ChatGPT?](https://www.nytimes.com/2023/03/30/technology/ai-chatbot-chatgpt-uses-work-life.html))
 
 {: .tip}
 
-Kevin Roose and Casey Newton have a tech podcast called [Hard Fork](https://www.nytimes.com/column/hard-fork), which covers AI and other tech topics. It’s my favorite podcast to listen to.
+Kevin Roose and Casey Newton have a tech podcast called [Hard Fork](https://www.nytimes.com/column/hard-fork), which covers AI and other tech topics. It's my favorite podcast to listen to.
+
+Additionally, I often ask AI tools to provide concrete examples as a way of clarifying concepts. Reading 10 concrete examples of any concept usually clears it up. 
 
 {% include random_ad4.html %}
 
 ## Experimenting with summaries
 
-To experiment with summaries, I decided to compare Claude’s summaries against the chapter summaries in my API course. I already had chapter descriptions written for the 18 chapters in the course. The chapter descriptions preface each chapter. I uploaded each chapter PDF to  Claude and asked it to do the following:
+To experiment with summaries, I decided to compare Claude's summaries against the chapter summaries in my API course. I already had chapter descriptions written for the 18 chapters in the course. The chapter descriptions preface each chapter. I uploaded each chapter PDF to  Claude and asked it to do the following:
 
 <div class="chat">
 Provide a 1 paragraph summary of this chapter. This summary will appear as a high-level description of the chapter's contents. Don't refer to the chapter as "This chapter provides..." Write the summary's main points directly.
@@ -141,7 +143,7 @@ Chapter 4 covers the OpenAPI specification, which provides a standard way to des
 
 **[Chapter 5: Step-by-step OpenAPI code tutorial](openapi_tutorial.html)**
 
-**Tom:** If you want to build the OpenAPI spec by hand in a text editor, this tutorial will help you get started. Even though documentation isn’t necessarily linear, I break down the various sections in the OpenAPI YAML file and go through them line by line. Approaching the OpenAPI file manually requires a more advanced understanding of the spec, YAML or JSON syntax, and how to approach strategies specific to your API.
+**Tom:** If you want to build the OpenAPI spec by hand in a text editor, this tutorial will help you get started. Even though documentation isn't necessarily linear, I break down the various sections in the OpenAPI YAML file and go through them line by line. Approaching the OpenAPI file manually requires a more advanced understanding of the spec, YAML or JSON syntax, and how to approach strategies specific to your API.
 
 **Claude:**
 
@@ -151,7 +153,7 @@ Chapter 5 provides a step-by-step tutorial for manually creating an OpenAPI spec
 
 **[Chapter 6: Testing API docs](testingdocs.html)**
 
-**Tom:** Testing your documentation is critical to providing accurate, thorough information. With API and developer docs, due to the high level of complexity and engineering requirements, technical writers might be inclined to simply take information that engineers give them and incorporate it wholesale, without personally testing it. Merely playing an editorial/publishing function, however, can reduce your role to that of an engineer’s secretary.
+**Tom:** Testing your documentation is critical to providing accurate, thorough information. With API and developer docs, due to the high level of complexity and engineering requirements, technical writers might be inclined to simply take information that engineers give them and incorporate it wholesale, without personally testing it. Merely playing an editorial/publishing function, however, can reduce your role to that of an engineer's secretary.
 
 **Claude:**
 
@@ -171,7 +173,7 @@ Chapter 7 covers the common conceptual topics that make up about half of API doc
 
 **[Chapter 8: Code tutorials](docapiscode.html)**
 
-**Tom:** Documenting code poses one of the most challenging tasks for technical writers, especially if the writers don’t have an engineering background or familiarity with the code. Even without deeper engineering expertise, you can still document code — everything from code snippets to full-fledged sample apps. This section explores techniques and strategies for documenting code.
+**Tom:** Documenting code poses one of the most challenging tasks for technical writers, especially if the writers don't have an engineering background or familiarity with the code. Even without deeper engineering expertise, you can still document code — everything from code snippets to full-fledged sample apps. This section explores techniques and strategies for documenting code.
 
 **Claude:**
 
@@ -221,7 +223,7 @@ This chapter focuses on getting a job in API documentation and thriving in the f
 
 **[Chapter 13: Native library APIs](nativelibraryapis.html)**
 
-**Tom:** Native library APIs refer to Java, C++, or other programming-specific APIs. In this model, rather than making requests across the web for the information, you download a library of code and integrate it into your project. The library is compiled directly into your application’s build (rather than accessed through web protocols as with REST APIs). Although this type of API is less common, I include it here in part to clarify what makes REST APIs so different from native library APIs.
+**Tom:** Native library APIs refer to Java, C++, or other programming-specific APIs. In this model, rather than making requests across the web for the information, you download a library of code and integrate it into your project. The library is compiled directly into your application's build (rather than accessed through web protocols as with REST APIs). Although this type of API is less common, I include it here in part to clarify what makes REST APIs so different from native library APIs.
 
 **Claude:**
 
@@ -271,27 +273,33 @@ The glossary chapter provides definitions and explanations for over 130 key term
 
 **[Chapter 18: Additional resources](resources.html)**
 
-**Tom:** This section contains additional exercises and information, such as more activities for calling APIs, or more info about alternative specifications. I also archive topics here that don’t seem to fit well anywhere else.
+**Tom:** This section contains additional exercises and information, such as more activities for calling APIs, or more info about alternative specifications. I also archive topics here that don't seem to fit well anywhere else.
 
 **Claude:**
 
 <div class="response">
-Chapter 18 provides a variety of supplementary material to expand on topics covered in the course. It includes a detailed article comparing REST and GraphQL APIs and recommendations for documenting each. There are several hands-on activities for calling additional APIs to get more practice working with endpoints, parameters, and responses. Tutorials are provided for two alternative API specification formats - RAML and API Blueprint. The chapter also contains answer keys for activities, as well as video recordings of full-day workshops delivering this course content. Overall, this additional resources section offers more in-depth exploration of key course topics for those looking to further solidify their learning.
+Chapter 18 provides a variety of supplementary material to expand on topics covered in the course. It includes a detailed article comparing REST and GraphQL APIs and recommendations for documenting each. There are several hands-on activities for calling additional APIs to get more practice working with endpoints, parameters, and responses. Tutorials are provided for two alternative API specification formats &mdash; RAML and API Blueprint. The chapter also contains answer keys for activities, as well as video recordings of full-day workshops delivering this course content. Overall, this additional resources section offers more in-depth exploration of key course topics for those looking to further solidify their learning.
 </div>
 
 {% include image_ad_right.html %}
 
-## The verdict? Claude’s responses are better than mine
+## The verdict? Claude's responses are better than mine, but also problematic
 
-Most of the time, I like Claude’s descriptions more than mine. This is partly because summaries are hard to write, and I dislike writing them. I would gladly hand the pen to Claude to craft a summary from a chapter PDF that I’ve written anyway. AI tools just seem to do a better job at distilling large amounts of information into summaries than I do—at least for the time I’m willing to put into the summary task. I’d rather save my cognitive bandwidth for content development and creation.
+Most of the time, I like Claude's descriptions more than mine. This is partly because summaries are hard to write, and I dislike writing them. I would gladly hand the pen to Claude to craft a summary from a chapter PDF that I've written anyway. AI tools just seem to do a better job at distilling large amounts of information into summaries than I do &mdash; at least for the time I'm willing to put into the summary task. I'd rather save my cognitive bandwidth for content creation and development.
 
-Also, one nice benefit to using AI is that you can easily re-run the summary for the same content at a later time. My API course content has evolved and fluctuated over the years. A summary that I wrote in 2019 might no longer apply to a section that I’ve heavily revised, split up, added to, etc. With each chapter modification, I usually don’t rewrite the chapter summaries. Eventually, the summaries drift from the chapter content.
+That said, Claude's responses (which are similar to other AI chatbot responses) are problematic: they describe content from an external perspective, with phrases such as "This chapter discusses ..." or "The chapter includes ..." Remember back in high school when nearly every essay started out with an introductory paragraph that described what the author was going to say instead of just saying it? For example, 
 
-I’ve gone ahead and updated my API course with the improved chapter summaries. In places I edited Claude’s summaries, but not too much.
+> "In this essay, I explore widgets. I argue that widgets are great, and that everyone needs widgets. I list the main reasons why people fail to adopt widgets, and then how we can overcome these reasons. Finally, I provide some examples of widgets in real use cases."
+
+When I later became a composition teacher, I learned to despise these constructions. I would regularly write, *Don't tell me what you're going to say, just say it!* Unsurprisingly, this is Claude's problem too. Claude describes the chapters from a third-party perspective, as if it's a robot analyzing what someone else has written rather than making the points more directly. 
+
+Additionally, when you come to recognize what AI-written summaries look like, you can more easily identify them. Someone recently sent me a newsletter that had all the hallmarks of AI-written summaries, and I could barely get through the paragraphs without having this same composition-teacher reaction.
+
+Although I liked Claude's summaries, I ended up rewriting the summaries in a more direct, active way as much as possible. I couldn't entirely omit the "This chapter discusses..." convention, but I tried to. It was helpful to have Claude's summary a starting point. I also tried to train ChatGPT to switch the perspective of these passages more toward the approach I wanted, but it usually failed and I had to take over the wheel. At any rate, to read my fixes for the summaries&mdash; see the [Course organization](index.html#course_organization) in the introduction.
 
 ## The summary of summaries
 
-I mentioned earlier that a workaround to the summary limits in Claude is to paste in various summaries and then ask Claude to generate a summary of those summaries. Here’s the outcome with all 18 chapter summaries pasted into Claude.
+I mentioned earlier that a workaround to the summary limits in Claude is to paste in various summaries and then ask Claude to generate a summary of those summaries. Here's the outcome with all 18 chapter summaries pasted into Claude.
 
 <div class="response">
 <p>This book provides a comprehensive guide to creating effective documentation for REST APIs. It approaches the topic from the perspective of a developer first using an API, then as a technical writer documenting the API. The book covers foundational concepts like making API calls, analyzing responses, and displaying data dynamically. Core skills for API documentation are then addressed, including documenting API endpoints, parameters, requests, and responses. Best practices are provided for reference docs, conceptual topics, tutorials, code samples, and testing.</p>
@@ -301,11 +309,13 @@ I mentioned earlier that a workaround to the summary limits in Claude is to past
 <p>Additional topics include documenting native library APIs like Javadoc, evaluating docs through quality checklists, leveraging AI for documentation tasks, creating glossaries, and managing documentation processes. The book aims to provide both strategic advice and practical skills for technical writers creating developer documentation for REST APIs. It combines big picture concepts with realistic tutorials and activities centered around sample APIs. Readers will gain the knowledge needed to create clear, usable API documentation that empowers developers to use APIs effectively.</p>
 </div>
 
-I could definitely see this copy written on a jacket cover.
+I could definitely see this copy written on a jacket cover. Again, the style follows the convention of a third-party analyzing the content, which I dislike, but my pet peeve for this style might not be entirely reasonable.
 
 ## Conclusion
 
-In the case of writing summaries, AI tools work best when starting with an input source. If I were to ask Claude to write a chapter based on the summary, the results are much less compelling. For example, I took the summary of chapter 2 and asked Claude to do the following:
+In the case of writing summaries, AI tools work best when starting with an input source. If I were to ask Claude to write a chapter based on the summary, the results are much less compelling. For example, I took the summary of chapter 2 and asked Claude to actually write the chapter content. Here's my prompt.
+
+Prompt:
 
 <div class="chat">
 Based on the description of this chapter, write out the actual chapter content. The chapter should be approximately 10 pages long. Make sure you cover all the detail mentioned in the description here. Break information into various subheadings with numbered steps as appropriate for the tasks.
@@ -436,4 +446,8 @@ fetch('https://api.spacex.com/v4/launches/latest', {
 <p>Approaching documentation from this developer perspective will ensure you provide what developers need to use the API successfully. In the next chapter, we'll apply these lessons as we move to the other side and begin documenting the API.</p>
 </div>
 
-That said, starting a draft this way isn’t a bad approach and can give you a lot of ideas and something to work with. But don’t expect much of the AI-written chapter. In sum, AI chatbots are great at summarizing content you provide it, but not so much at creating original content.
+As you can see, this isn't actual content. This is why I haven't recommended using AI tools to write content from scratch like this. 
+
+Also, note that although Claude can take a large input, its outputs tend to be brief. If you really wanted to try generating content based on an outline, it would be better to the approach it as I described in [Step 2: Expansion of detail](docapis_thematic_analysis#expansion_of_detail) in the thematic analysis chapter. This approach involves asking for a high-level outline, then proceeding through each of the points with detailed requests rather than requesting the entire content in one response.
+
+Despite how poor the content generation is here, starting a draft this way can give you a lot of ideas and something to work with. But don't expect much of the AI-written chapter. In sum, AI chatbots are decent at summarizing content you provide it, but not so much at creating original content.

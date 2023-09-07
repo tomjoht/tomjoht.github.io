@@ -145,7 +145,7 @@ In this scenario, you could use AI to do two things:
 
 Each of these scenarios involves sorting and grouping lots of little pieces of information. This is a common cognitive task that we perform countless times in our role as technical writers. (Information synthesis is a topic I wrote about in my series on Simplifying Complexity: [Principle 3: Ensure information harmony in the larger landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html).) We are frequently taking small pieces of information and fitting them into a larger information landscape. Consider using AI tools to assist with these tasks.
 
-## Step 2: Expansion of detail
+## Step 2: Expansion of detail {#expansion_of_detail}
 
 Now that we covered thematic analysis in a variety of scenarios, let's explore the logical follow-up to the thematic analysis: detail expansion. Specifically, expanding the detail using a prompting technique known as least-to-most prompts. 
 
