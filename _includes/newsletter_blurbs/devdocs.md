@@ -1,3 +1,0 @@
-<h2>DevDocs: Your do-it-all documentation project partner (Sponsor)</h2>
-
-DevDocs provides comprehensive consulting services to help organizations streamline all of their technical writing needs. They go beyond simply writing and consulting, offering a full suite of services, including design, tool implementation, and custom development. Their team of experts understand that clear and concise documentation is crucial to the success of any SaaS project. <a href="https://idbwrtng.com/devdocs_newsletter">Read more &raquo;</a>

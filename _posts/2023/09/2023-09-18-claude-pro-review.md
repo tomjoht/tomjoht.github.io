@@ -1,5 +1,5 @@
 ---
-title: "Claude Pro vs. ChatGPT -- and a few thoughts on using an AI chatbots on an Alaskan cruise"
+title: "Claude versus ChatGPT -- and a few thoughts on using AI chatbots on an Alaskan cruise"
 permalink: /blog/comparing-claude-vs-chatgpt-on-an-alaskan-cruise
 date: 2023-09-18
 categories:
@@ -91,7 +91,7 @@ How will we use this information to not only answer basic questions like mine, b
 
 ## Comparing Claude's answers with ChatGPT
 
-Let's get back to comparing Claude vs. ChatGPT. It just so happens that, during one of the ship excursions, we were in an excursion group (ziplines!) with the ship's navigator. The navigator invited us on a special tour of the ship's bridge, where we could see the captain, officers, and other crew using the navigation controls. To prepare for this special bridge tour, I started thinking up questions to ask:
+Let's get back to comparing Claude versus ChatGPT. It just so happens that, during one of the ship excursions, we were in an excursion group (ziplines!) with the ship's navigator. The navigator invited us on a special tour of the ship's bridge, where we could see the captain, officers, and other crew using the navigation controls. To prepare for this special bridge tour, I started thinking up questions to ask:
 
 * **Navigation.** How do you navigate the ship? GPS? What if GPS goes down? Satellite GPS? If you had to navigate using another method, what would it be? Could you navigate by way of the stars?
 * **Avoiding hazards.** How do you see underwater to make sure we don’t run into anything like icebergs, whales, shallow water, large rocks, other stuff in the ocean? How do you avoid collisions with other cruise ships in the area? How much do you pay attention to weather in route planning and navigation?
