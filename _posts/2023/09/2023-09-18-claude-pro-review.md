@@ -15,12 +15,12 @@ I have subscriptions to both ChatGPT Plus and Claude Pro and have been comparing
 
 This input source also relates to the context window of the chat session. This means you can upload a long article and follow it up with a few questions (for example, a 90k token-length article followed by 10k token-length chat), or you can upload a short article and follow it up with a lot of questions (for example, 10k token-length article followed by 90k token-length chat).
 
-For example, after I upload several chapters from my API doc course into Claude, I can only ask a few questions in the chat session before I have to start a new chat session. And with a new chat session, the context of the uploads is lost. But even having this upload limit size is phenomenal compared to ChatGPT, whose token limit is around 4k.
+For example, after I upload several chapters from my [API documentation course](/learnapidoc) into Claude, I can only ask a few questions in the chat session before I have to start a new chat session. And with a new chat session, the context of the uploads is lost. But even having this upload limit size is phenomenal compared to ChatGPT, whose token limit is around 4k.
 
 Anyway, here are some additional differences between Claude and ChatGPT:
   
 * You can upload PDFs to Claude (max file size is 10 MB). With ChatGPT, you have to paste in the content.
-* Claude seems faster with its responses. The site loads quickly, and answers appear more rapidly. In contrast, ChatGPT sometimes hangs and requires me to hit Regenerate. At times the text appears word-by-word at a plodding pace.
+* Claude seems faster with its responses. The site loads quickly, and answers appear more rapidly. In contrast, ChatGPT sometimes hangs and requires me to hit Regenerate. At times ChatGPT's text appears word-by-word at a plodding pace.
 * Claude has more safeguards (such as guarding against biases). In contrast, you can "jailbreak" ChatGPT more easily.
 
 I'm sure there are a lot more nuances across different knowledge domains. For example, is one better at math than another? Coding questions? Specialized knowledge? I'm not sure. That kind of testing is beyond the scope of my post.
@@ -116,11 +116,9 @@ Then I went through each of the above bullets, pasting them in separately rather
 * [Claude's answers](https://shareclaude.top/c/ztanjkd)
 * [ChatGPT's answers](https://chat.openai.com/share/bd962389-c098-449a-9983-a559eea10e08)
 
-Looking at the responses, ChatGPT's answers are more detailed and thorough. Claude's answers are decent but shorter and more succinct.
+Looking at the responses, ChatGPT's answers are more detailed and thorough. Claude's answers are decent but shorter and more succinct. During ChatGPT's responses, the chat session timed out twice, requiring me to hit Regenerate for the response. Additionally, ChatGPT took significantly longer to type out the answers than Claude. 
 
-During ChatGPT's responses, the chat session timed out twice, requiring me to hit Regenerate for the response. Additionally, ChatGPT took significantly longer to type out the answers than Claude. 
-
-During the actual bridge session, I asked only a couple of questions. Claude and ChatGPT's responses didn't really predict what the navigator explained on the bridge in detail. But it was still fun to do this.
+During the actual bridge session (see pic below), I asked only a couple of questions. Claude and ChatGPT's responses didn't really predict what the navigator explained on the bridge in detail. But it was still fun to do this.
 
 <img src="{{site.media}}/cruisebridgetour2.jpg" alt="Bridge tour" />
 
