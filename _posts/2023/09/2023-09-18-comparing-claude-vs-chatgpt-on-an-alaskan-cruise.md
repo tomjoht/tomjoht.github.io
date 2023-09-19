@@ -124,6 +124,6 @@ During the actual bridge session (see pic below), I asked only a couple of quest
 
 ## Conclusion
 
-In conclusion, Claude is the better choice when you have longer content to analyze, but ChatGPT is better for shorter content. Both tools, however, can expand your curiosity and fill your mind with questions. This curiosity about the world around you can make you more attentive and present.
+In conclusion, Claude is the better choice when you have longer content to analyze, but ChatGPT might be better for shorter content. Both tools, however, can expand your curiosity and fill your mind with questions. This curiosity about the world around you can make you more attentive and present.
 
 

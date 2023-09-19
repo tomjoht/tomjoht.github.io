@@ -7,7 +7,7 @@ categories:
 - api-doc
 keywords: Alphadoc, API tools, OpenAI
 rebrandly: https://idbwrtng.com/alphadocq&a
-description: "A few weeks ago I mentioned <a href='https://alphadoc.io/'>Alphadoc</a>, a new tool for publishing API documentation. The following is a Q&A with Daan Stolk, cofounder/CPO of Alphadoc. In the following questions, Daan tells the story behind Alphadoc and what makes it unique from other API documentation tools."
+description: "A few weeks ago I mentioned <a href='https://alphadoc.io/?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters'>Alphadoc</a>, a new tool for publishing API documentation. The following is a Q&A with Daan Stolk, cofounder/CPO of Alphadoc. In the following questions, Daan tells the story behind Alphadoc and what makes it unique from other API documentation tools."
 ---
 
 *Note: This is a sponsored post.*
@@ -18,9 +18,9 @@ description: "A few weeks ago I mentioned <a href='https://alphadoc.io/'>Alphado
 
 A large part of the success from companies like Stripe and Twilio is their focus on developer experience from the very beginning, and we wanted to productize this and offer it to the market, to make it accessible to all companies, even if they don't have a dedicated developer experience (DX) team. So far our focus has been primarily on working with companies with OpenAPI specifications, but our latest feature is now helping companies that have SDK's help explain how to use their products as well.
 
-<h3>Tom: Looking at the recent posts on the <a href='https://blog.alphadoc.io/'>Alphadoc blog</a>, you're releasing major new features multiple times a month. Are you nearing an official release date yet for Alphadoc?</h3>
+<h3>Tom: Looking at the recent posts on the <a href='https://blog.alphadoc.io/?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters'>Alphadoc blog</a>, you're releasing major new features multiple times a month. Are you nearing an official release date yet for Alphadoc?</h3>
 
-**Daan:** We are indeed shipping big features monthly since the start of this year. Together with design partners we have shaped the product to the point where it is today, and we intend to open up for wider availability at the end of September.
+**Daan:** We are shipping big features monthly since the start of this year. Together with design partners we have shaped the product to the point where it is today, and we intend to open up for wider availability at the end of September.
 
 <h3>Tom: What is the new Code-Walkthrough tool about? Also, there's also a sequence diagram builder?</h3>
 
@@ -40,9 +40,9 @@ In the diagram more information is made available as you click through the block
 
 We're releasing a new feature soon&mdash;Sequence diagrams. You will be able to create sequence diagrams by quickly clicking together the lifelines (vertical lines) and messages (these will represent API calls), and you get more flexibility compared to the generated diagrams.
 
-<img src="{{site.media}}/alphadoc-image3.png" alt="Sequence diagrams" style="border: 1px solid #dedede;" />
+<img src="{{site.media}}/alphadoc-sequence-diagram.png" alt="Sequence diagrams" style="border: 1px solid #dedede;" />
 
-One version is automatically created when you create a tutorial, and chain data in the tutorial together. 
+So, one version of the diagrams is automatically generated when you create a tutorial with API chains. The other version is a sequence diagram that has more flexibility.
 
 <h3>Tom: I saw that change logs are automatically created. How is this being done and how are you integrating AI features?</h3>
 
@@ -84,13 +84,15 @@ Today we also support embedding our components into other solutions or platforms
 
 This approach empowers companies in various industries, such as Ecommerce and Fintech, to effectively convey their product stories. Companies in the Ecommerce and Fintech industry, for example, have many use cases in their APIs where data (IDid's) needs to be carried over between endpoints (carrying over data between API calls). They also often have endpoints that are very flexible, which makes it difficult for them to explain all possible scenarios on how to use them. 
 
-The [tutorials and diagrams](https://docs.alphadoc.io/home/%5Bdirect%5D%20first%20time%20-%20api%20setup/1) in Alphadoc allow you to completely configure each endpoint when you add it to a page, work with [variables](https://docs.alphadoc.io/home/guides/variables) (think Postman), and [chain up endpoints](https://docs.alphadoc.io/home/guides/chaining%20apis). When everything has been configured, we provide helpful code snippets for each API call and automatically generate [interactive diagrams](https://docs.alphadoc.io/home/%5Bdirect%5D%20first%20time%20-%20api%20setup/1) that display the relationship between all the steps. The developer who is integrating can try out API calls with live data.
 
-To see this concept in action, explore our own documentation at [docs.alphadoc.io](https://docs.alphadoc.io), where you can witness how we transform technical documentation into an interactive storytelling experience. 
+
+The [tutorials and diagrams](https://docs.alphadoc.io/home/%5Bdirect%5D%20first%20time%20-%20api%20setup/1?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters) in Alphadoc allow you to completely configure each endpoint when you add it to a page, work with [variables](https://docs.alphadoc.io/home/guides/variables?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters) (think Postman), and [chain up endpoints](https://docs.alphadoc.io/home/guides/chaining%20apis?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters). When everything has been configured, we provide helpful code snippets for each API call and automatically generate [interactive diagrams](https://docs.alphadoc.io/home/%5Bdirect%5D%20first%20time%20-%20api%20setup/1?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters) that display the relationship between all the steps. The developer who is integrating can try out API calls with live data.
+
+To see this concept in action, explore our own documentation at [docs.alphadoc.io](https://docs.alphadoc.io?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters), where you can witness how we transform technical documentation into an interactive storytelling experience. 
 
 <h3>Tom: How can people learn more about Alphadoc and try it out?</h3>
 
-**Daan:** To start building your docs & DX with Alphadoc, [please fill out the sign-up form](https://x41o9fxcwcg.typeform.com/to/wWBawmt6?typeform-source=www.google.com) or visit our website at [alphadoc.io](https://alphadoc.io/). We'll review your request for access within 1 business day. If granted access, you can upload your OpenAPI spec and easily create a compelling developer experience.
+**Daan:** To start building your docs & DX with Alphadoc, [please fill out the sign-up form](https://alphadoc.io?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters) or visit our website at [alphadoc.io](https://alphadoc.io/?utm_medium=advertorial&utm_source=idratherbewriting&utm_campaign=techwriters). We'll review your request for access within 1 business day. If granted access, you can upload your OpenAPI spec and easily create a compelling developer experience.
 
 
 {% include ads.html %}
