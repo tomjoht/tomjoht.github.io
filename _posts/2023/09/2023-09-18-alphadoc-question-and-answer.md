@@ -7,7 +7,7 @@ categories:
 - api-doc
 keywords: Alphadoc, API tools, OpenAI
 rebrandly: https://idbwrtng.com/alphadocq&a
-description: "The following is a Q&A with Daan Stolk, cofounder/CPO of <a href='https://alphadoc.io/'>Alphadoc</a>, a new tool for API documentation."
+description: "A few weeks ago I mentioned <a href='https://alphadoc.io/'>Alphadoc</a>, a new tool for publishing API documentation. The following is a Q&A with Daan Stolk, cofounder/CPO of Alphadoc. In the following questions, Daan tells the story behind Alphadoc and what makes it unique from other API documentation tools."
 ---
 
 *Note: This is a sponsored post.*
