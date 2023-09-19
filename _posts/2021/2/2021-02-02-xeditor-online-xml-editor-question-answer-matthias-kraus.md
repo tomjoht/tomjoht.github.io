@@ -46,7 +46,7 @@ We founded the company in 2009 and introduced our online publishing system Xpubl
 
 The main focus of Xeditor is its intuitive usability and the ease of collaboration among authors. With every version, we strengthen and expand that focus. Last year we optimized the collaboration; the first release in 2021 simplifies the handling even further with tag-view-mode, drag-and-drop, as well as improved table editing. Of course, there are more features yet to come in the next months, which we are very excited about. Here's a screenshot showing Xeditor:
 
-<a href="https://idbwrtng.com/xeditor" rel="nofollow"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/xeditor_screenshot_2021v4.png" alt="Xeditor, online XML editor" /></a>
+<a href="https://idbwrtng.com/xeditor" class="noCrossRef" rel="nofollow"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/xeditor_screenshot_2021v4.png" alt="Xeditor, online XML editor" /></a>
 
 <h2> How does Xeditor differ from tools such as OxygenXML and easyDITA? </h2>
 
