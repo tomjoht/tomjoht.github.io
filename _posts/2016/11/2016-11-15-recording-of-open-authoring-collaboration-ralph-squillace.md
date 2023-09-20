@@ -52,7 +52,7 @@ Here's a description of the presentation:
 </ul>
 </blockquote>
 
-You can read more details from the event on the [STC Silicon Valley site](http://www.stc-siliconvalley.org/2016/10/17/november-14-2016-open-authoring-content-collaboration-across-disciplines/).
+You can read more details from the event on the [STC Silicon Valley site](http://stcsiliconvalley.com//2016/10/17/november-14-2016-open-authoring-content-collaboration-across-disciplines/).
 
 ## About Ralph Squillace
 

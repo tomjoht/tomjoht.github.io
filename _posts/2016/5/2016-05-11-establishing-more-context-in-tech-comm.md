@@ -14,9 +14,9 @@ category: visual-communication
 
 ## Background
 
-Recently I attended an STC Silicon Valley presentation by two tech writers from Palo Alto Networks who spoke about how they constructed their [documentation portal](https://www.paloaltonetworks.com/documentation/). The portal is a great example of doc portals, and one that you can learn a lot by studying. You can see their slides [here](http://www.stc-siliconvalley.org/2016/03/06/march-21-2016-building-a-documentation-portal/).
+Recently I attended an STC Silicon Valley presentation by two tech writers from Palo Alto Networks who spoke about how they constructed their [documentation portal](https://docs.paloaltonetworks.com/). The portal is a great example of doc portals, and one that you can learn a lot by studying. You can see their slides [here](https://www.slideshare.net/stc-siliconvalley/building-a-documentation-portal).
 
-While doc portals is a topic worth exploring in more depth, I had a question along a different line. I asked why they chose to minimize the number of topics in the table of contents and instead put more of the nav links within the main content view. For example, if you go to [this page](https://www.paloaltonetworks.com/documentation/71/pan-os/pan-os), you'll see that the TOC navigation tree on the left is fairly minimal, but when you click a topic, there a number of sublinks to navigate.
+While doc portals is a topic worth exploring in more depth, I had a question along a different line. I asked why they chose to minimize the number of topics in the table of contents and instead put more of the nav links within the main content view. For example, if you go to [this page](https://docs.paloaltonetworks.com/pan-os), you'll see that the TOC navigation tree on the left is fairly minimal, but when you click a topic, there a number of sublinks to navigate.
 
 {% include image.html file="paloaltodocpage.png" caption="Notice how the links aren't all crammed into the sidebar table of contents?" alt="Providing context" %}
 

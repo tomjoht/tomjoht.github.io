@@ -33,7 +33,7 @@ My slides are here: [idratherbewriting.com/intro-to-api-documentation](/intro-to
 
 ## Presentation details
 
-To view more details about the API doc presentation, see the STC Silicon Valley event details: [November 20, 2017: Introduction to API Documentation](http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/).
+To view more details about the API doc presentation, see the STC Silicon Valley event details: [November 20, 2017: Introduction to API Documentation](http://stcsiliconvalley.com//2017/11/06/november-20-2017-introduction-to-api-documentation/).
 
 Here's the presentation description:
 
@@ -55,6 +55,6 @@ Also, I don't cover any new material that isn't already in my [API documentation
 * [Using a REST API as a developer](/learnapidoc/likeadeveloper.html)
 * [Documenting endpoints](/learnapidoc/docendpoints.html)
 
-To learn more about the Silicon Valley chapter of the STC, see [http://www.stc-siliconvalley.org](http://www.stc-siliconvalley.org).
+To learn more about the Silicon Valley chapter of the STC, see [http://stcsiliconvalley.com/](http://stcsiliconvalley.com/).
 
-<a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsvscreenshot22.png"/></a>
+<a href="http://stcsiliconvalley.com//2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsvscreenshot22.png"/></a>

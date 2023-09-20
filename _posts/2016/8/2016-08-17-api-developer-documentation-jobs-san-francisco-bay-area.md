@@ -25,7 +25,7 @@ bitlink: http://bit.ly/huntingdevdocjobsbay
 
 ## Presentation description
 
-Andrew gave a presentation titled "Hunting for Dev Doc Work Around the Bay" on August 15, 2016 at the [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/07/21/august-15-hunting-for-dev-doc-work-around-the-bay/
+Andrew gave a presentation titled "Hunting for Dev Doc Work Around the Bay" on August 15, 2016 at the [STC Silicon Valley chapter](http://stcsiliconvalley.com//2016/07/21/august-15-hunting-for-dev-doc-work-around-the-bay/
 ) in Santa Clara, California.
 
 Here's a description of Andrew's presentation:

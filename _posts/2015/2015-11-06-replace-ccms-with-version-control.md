@@ -55,6 +55,6 @@ With version control systems, you can still collaborate, but you don't have the 
 
 Some companies have built more elaborate web interfaces around version control. Platforms like Github and Bitbucket (from Atlassian) give you a lot more collaborative capabilities. These platforms provide pull requests, allow you to log issues, add notes on a wiki, comment on commits in a line-item fashion, and more.
 
-At the next STC Silicon Valley chapter meeting on November 16, Richard Mateosian will be talking about [version control workflows for help content](http://www.stc-siliconvalley.org/2014/10/08/version-control-workflows-for-help-content/). If you're interested in this topic, you can expect this meeting to provide a lively and interactive discussion.
+At the next STC Silicon Valley chapter meeting on November 16, Richard Mateosian will be talking about [version control workflows for help content](http://stcsiliconvalley.com//2014/10/08/version-control-workflows-for-help-content/). If you're interested in this topic, you can expect this meeting to provide a lively and interactive discussion.
 
 Well, that's it for now. If you're using version control to collaborate with other writers, I'm interested to hear any tips or feedback about what's working well or what you find challenging.

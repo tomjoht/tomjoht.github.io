@@ -32,7 +32,7 @@ Here's the description of Matt Ness' presentation, "Let's Tell a Story: Scenario
 >
 > In other words, your customers need a narrative. And maybe they need lots of them. When you’re dealing with products that can be run and configured in a bewildering variety of ways, a single getting started manual might not do the trick. It’s like giving people a Choose Your Own Adventure book and only allowing them to choose one path through to the end.
 >
-> For my talk I’ll explain how we became aware of the need for better scenario-based documentation, and how we ended up building a prototype during a hack week project. Now we’re on our way to creating a collection of short stories that show users how to string sets of features and procedures together to solve complex problems. We’ll cover some of the things we’ve learned along the way and offer best practices for those who want to tell a few stories of their own. (Read more details at [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/scenario-based-documentation/))
+> For my talk I’ll explain how we became aware of the need for better scenario-based documentation, and how we ended up building a prototype during a hack week project. Now we’re on our way to creating a collection of short stories that show users how to string sets of features and procedures together to solve complex problems. We’ll cover some of the things we’ve learned along the way and offer best practices for those who want to tell a few stories of their own. (Read more details at [STC Silicon Valley chapter](http://stcsiliconvalley.com//2016/05/02/scenario-based-documentation/))
 
 ## Video
 

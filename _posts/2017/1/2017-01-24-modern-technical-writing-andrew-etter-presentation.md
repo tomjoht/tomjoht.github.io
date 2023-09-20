@@ -31,7 +31,7 @@ Here's a description of the presentation:
 
 > In [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) (an ebook available on Kindle), Andrew Etter argues for a model of technical writing that involves lightweight markup languages (like AsciiDoc and Markdown), static site generators (such as Sphinx), distributed version control systems (like Git or Bitbucket), constantly iterating/updating doc content on your website based on analytics, and more. In this presentation, Andrew will provide a summary of Modern Technical Writing, including a discussion of distributed workflows, static site generators, lessons learned during the publishing process, and more.
 
-You can read more details on the [STC Silicon Valley event post](http://www.stc-siliconvalley.org/2017/01/03/january-23-2017-modern-technical-writing/).
+You can read more details on the [STC Silicon Valley event post](http://stcsiliconvalley.com//2017/01/03/january-23-2017-modern-technical-writing/).
 
 ## Video
 

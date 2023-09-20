@@ -26,16 +26,16 @@ bitlink: http://bit.ly/versioncontrolworkflowswritersstc
 
 Here's the recording of Richard Mateosian's presentation to the STC-Silicon Valley chapter on "Version control, writers, and worfklows." Richard describes the presentation as follows:
 
->In a highly interactive discussion, we’ll go over the basics of using version control systems to help support documentation of software products. We’ll share ideas and swap war stories about how to set up workspaces and workflows, conduct reviews, deal with product versions, and interact with developers. We’ll look at how (or whether) using these systems affects our decisions about chunking, modularity, and reuse. Spoiler alert: version control systems are not component content management systems. ([STC Silicon Valley](http://www.stc-siliconvalley.org/2015/11/16/version-control-workflows-for-help-content/))
+>In a highly interactive discussion, we’ll go over the basics of using version control systems to help support documentation of software products. We’ll share ideas and swap war stories about how to set up workspaces and workflows, conduct reviews, deal with product versions, and interact with developers. We’ll look at how (or whether) using these systems affects our decisions about chunking, modularity, and reuse. Spoiler alert: version control systems are not component content management systems. ([STC Silicon Valley](http://stcsiliconvalley.com//2015/11/16/version-control-workflows-for-help-content/))
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NKWEn2JTDyQ" frameborder="0" allowfullscreen></iframe>
 
 {% include ads.html %}
 
-If you just want the audio, you can listen here or <a href="http://www.stc-siliconvalley.org/wp-content/recordings/richardmateosian.mp3">download it</a>.
+If you just want the audio, you can listen here or <a href="http://stcsiliconvalley.com//wp-content/recordings/richardmateosian.mp3">download it</a>.
 
 <audio controls>
-  <source src="http://www.stc-siliconvalley.org/wp-content/recordings/richardmateosian.mp3" type="audio/mpeg">
+  <source src="http://stcsiliconvalley.com//wp-content/recordings/richardmateosian.mp3" type="audio/mpeg">
 </audio>
 
 Here are the slides:

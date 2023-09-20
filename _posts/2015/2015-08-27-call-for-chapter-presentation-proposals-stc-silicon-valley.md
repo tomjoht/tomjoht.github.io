@@ -14,11 +14,11 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsv.
 
 Are you interested in presenting to the Silicon Valley STC Chapter this year? We're now accepting proposals for 2016 speakers.
 
-<a href="http://www.stc-siliconvalley.org/"><img class="shrink" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/presentationsstcsv.png" | prepend: site.baseurl }}" alt="STC Silicon Valley Chapter presentations" /></a>
+<a href="http://stcsiliconvalley.com//"><img class="shrink" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/presentationsstcsv.png" | prepend: site.baseurl }}" alt="STC Silicon Valley Chapter presentations" /></a>
 
 ## What presenting involves
 
-Presenting to the [STC Silicon Valley Chapter](http://www.stc-siliconvalley.org/) (located in the South Bay of the San Francisco, California) involves the following:
+Presenting to the [STC Silicon Valley Chapter](http://stcsiliconvalley.com//) (located in the South Bay of the San Francisco, California) involves the following:
 
 * Preparing a 1-hour presentation relevant to technical writers
 * Preparing some slides or other visuals to accompany your presentation
@@ -29,7 +29,7 @@ Note that STC Silicon Valley Chapter meetings are always on Monday evenings, usu
 
 <a target="_blank" href="https://www.google.de/maps/place/4200+Great+America+Pkwy,+Santa+Clara,+CA+95054,+USA/@37.9583825,-121.4144876,7.63z/data=!4m2!3m1!1s0x808fc9c23f2e0f0d:0xc7d11dfdf0d921c3"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/santaclaraihop.png" | prepend: site.baseurl }}" alt="STC Silicon Valley chapter meets at IHOP in Santa Clara, California" /></a>
 
-To get a better sense of the topics for the chapter meetings, you can browse the [meeting archives](http://www.stc-siliconvalley.org/category/archive-meetings/).
+To get a better sense of the topics for the chapter meetings, you can browse the [meeting archives](http://stcsiliconvalley.com//category/archive-meetings/).
 
 ## Why we are inviting proposal submissions
 

@@ -11,7 +11,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/thumbs
 {:toc}
 
 <img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/thumbsupdown_hands.png" | prepend: site.baseurl }}" alt="Pros and cons of Jekyll" />
-We had a lively turnout at the [last STC meeting](http://www.stc-siliconvalley.org/2015/11/15/version-control-workflows-for-help-content/). By lively, I think we had about 30+ people in attendance, and good all-around discussion.
+We had a lively turnout at the [last STC meeting](http://stcsiliconvalley.com//2015/11/15/version-control-workflows-for-help-content/). By lively, I think we had about 30+ people in attendance, and good all-around discussion.
 
 I had the chance to meet several new people, and one person mentioned that he reads my blog; as a bonus, he had positive things to say. We got to talking, and the conversation turned to DITA (in part because of Sarah OKeefe's [recent post](http://www.scriptorium.com/2015/11/sturm-und-dita-drang-at-tekom/) about the controversy in Germany), and my new friend said, "I know you're a bit of a naysayer with DITA..."
 
@@ -133,7 +133,7 @@ All right, now here are 10 pros of using Jekyll for documentation.
 
 A while ago I decided to steer my career more toward developer documentation. To work successfully in developer environments, it helps to use developer tools and workflows. Working in text file formats, using the command line, collaborating through repositories and version control &mdash; this is how developer's work.
 
-As Richard Mateosian pointed out in his [STC-SV presentation on version control workflows for writers](http://www.stc-siliconvalley.org/2015/11/15/version-control-workflows-for-help-content/), you need to be on the same team as the engineers. If your tooling puts you on another planet, you're always going to be an outsider.
+As Richard Mateosian pointed out in his [STC-SV presentation on version control workflows for writers](http://stcsiliconvalley.com//2015/11/15/version-control-workflows-for-help-content/), you need to be on the same team as the engineers. If your tooling puts you on another planet, you're always going to be an outsider.
 
 In contrast, when you know how to use version control and text editors like Intellij or Sublime, you can interact with the same content devs are interacting with. You will better understand how they work and can more easily interact with them. Using Jekyll has certainly helped me make this transition.
 

@@ -42,7 +42,7 @@ Here's a description of the agile panel event:
 >
 > Technical writers who work with engineers usually find that being productive requires them to become familiar with the engineer’s agile scrum workflow. Whether you want to keep abreast of engineering work, factor in time for doc reviews during the sprint, or have documentation be managed like other IT work, you need to know how to integrate or work with the agile scrum workflow.
 >
-> In this chapter meeting, we will have a panel discussion about how technical writers can thrive in agile environments. (See the [STC SV event post](http://www.stc-siliconvalley.org/2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-agile-environments/) for more details.)
+> In this chapter meeting, we will have a panel discussion about how technical writers can thrive in agile environments. (See the [STC SV event post](http://stcsiliconvalley.com//2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-agile-environments/) for more details.)
 
 {{site.data.alerts.tip}} If you're new to agile and scrum, check out Jeff Sutherland&#8217;s book <a href="https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X" target="_blank">Scrum</a>. {{site.data.alerts.end}}
 

@@ -32,4 +32,4 @@ Unfortunately, the recordings are only available to Summit attendees, those who 
 
 {% include ads.html %}
 
-I'm giving a similar presentation to the [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/) next week (and I'll record and post that one).
+I'm giving a similar presentation to the [STC Silicon Valley chapter](http://stcsiliconvalley.com//2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/) next week (and I'll record and post that one).

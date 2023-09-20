@@ -32,7 +32,7 @@ Here's the description of Alisa Bonsignore's presentation, "Saving Your Sanity T
 >
 > You’ll learn how to charge what you’re worth, and do so with confidence. You’ll also learn how to strategically use the word “no” to give yourself more authority and shift the balance of power out of the client’s favor.
 
-(Read more details at [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/09/28/october-17-2016-saving-your-sanity-through-better-client-relations/))
+(Read more details at [STC Silicon Valley chapter](http://stcsiliconvalley.com//2016/09/28/october-17-2016-saving-your-sanity-through-better-client-relations/))
 
 ## Video
 

@@ -29,7 +29,7 @@ Here's a description of the presentation:
 
 > Modern writing organizations need skills very different from basic writing. This session will cover the job roles and skills that your organization might need to adopt best practices. For example: content strategy, analytics, web and app development, taxonomist, linguists, etc, and how can you best incorporate these new skills and roles to partner with your writing team.
 
-For more details, see the [STC Silicon Valley event post](http://www.stc-siliconvalley.org/2016/03/20/shape-of-a-modern-tech-pubs-org/).
+For more details, see the [STC Silicon Valley event post](http://stcsiliconvalley.com//2016/03/20/shape-of-a-modern-tech-pubs-org/).
 
 ## Slides
 

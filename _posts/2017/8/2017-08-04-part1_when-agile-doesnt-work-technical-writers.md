@@ -74,7 +74,7 @@ I also want to emphasize how important this topic is. Tech docs and Agile remain
 
 Surely there's a sensitive nerve here. I suspect many tech writers have similar issues related to Scrum they're trying to resolve.
 
-About a year ago, we held a panel discussion on [how tech writers can thrive in an Agile environment](http://www.stc-siliconvalley.org/2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-scrum-environments/) in the STC Silicon Valley chapter. We had double the attendance of usual meetings. That recording has been listened to nearly 3,500 times, which is about three times as many listens as other recordings.
+About a year ago, we held a panel discussion on [how tech writers can thrive in an Agile environment](http://stcsiliconvalley.com//2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-scrum-environments/) in the STC Silicon Valley chapter. We had double the attendance of usual meetings. That recording has been listened to nearly 3,500 times, which is about three times as many listens as other recordings.
 
 With that said, let me lay out some of the problems I've observed in trying to integrate into Scrum teams as a technical writer. These problems may be why the topic is of such great interest to technical writers.
 
