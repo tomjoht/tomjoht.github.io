@@ -1,5 +1,5 @@
 ---
-title: "Alphadoc Q&A with Daan Stolk"
+title: "Alphadoc: Build API documentation that tells your API's story"
 permalink: /blog/alphadoc-question-and-answer
 date: 2023-09-17
 categories:
