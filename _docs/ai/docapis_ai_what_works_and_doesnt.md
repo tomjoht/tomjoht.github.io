@@ -11,7 +11,7 @@ last-modified: 2023-09-28
 
 {% include coffeeshopbook.html %}
 
-In conversations about AI, a lot of people ask the same questions: What kind of scenarios is AI good for? What works, what doesn't? In which scenarios? This section focuses on making those scenarios where AI excels clear and apparent, particularly for technical writers creating documentation. I also argue for the inevitability of AI integration through an argument referred to as the "obsolescence regime."
+In conversations about AI, a lot of people ask the same questions: What kind of scenarios is AI good for? What works, what doesn't? In which scenarios? This section focuses on clarifying those scenarios where AI excels, particularly for technical writers creating documentation. I also argue for the inevitability of AI integration through an argument referred to as the "obsolescence regime."
 
 {% if site.format == "web" %}
 * TOC
