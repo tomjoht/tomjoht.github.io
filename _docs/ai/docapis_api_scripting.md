@@ -1,9 +1,9 @@
 ---
-title:  "Using AI tools to build, stage, and publish API reference docs"
+title:  "Use cases for AI: Develop build and publishing scripts"
 permalink: learnapidoc/ai-tools-build-publish-api-docs.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.3
+weight: 14.2
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

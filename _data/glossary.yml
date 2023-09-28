@@ -330,7 +330,7 @@ headers:
   def: "Metadata sent with both API requests and responses. Headers can include information about the type of content being sent, authorization details, and more."
 
 hateos: 
-  term: HATEOS
+  term: HATEOAS
   def: "Stands for Hypermedia as the Engine of Application State. Hypermedia is one of the characteristics of REST that is often overlooked or missing from REST APIs. In API responses, responses that span multiple pages should provide links for users to page to the other items."
 
 header_parameters: 

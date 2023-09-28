@@ -1,9 +1,9 @@
 ---
-title:  "Using AI For thematic analysis"
+title:  "Use cases for AI: Synthesize insights from granular data"
 permalink: learnapidoc/docapis_thematic_analysis.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.7
+weight: 14.5
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

@@ -3,7 +3,7 @@ title:  "First look at the Oxygen XML AI Positron Assistant"
 permalink: learnapidoc/docapis_oxygenxml_positron_assistant.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.1
+weight: 14.92
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

@@ -581,35 +581,41 @@ folders:
     jurl: /learnapidoc/ai.html
     type: web
 
-  - title:  "First look at the Oxygen XML AI Positron Assistant"
-    jurl: /learnapidoc/docapis_oxygenxml_positron_assistant.html
+  - title: "Using AI in APIs: What works, what doesn't"
+    jurl: /learnapidoc/docapis_ai_what_works_and_doesnt.html
 
-  - title:  "AI document engineering with pattern-based prompts"
-    jurl: /learnapidoc/docapis_pattern_prompts.html
-
-  - title: "Using AI tools to build, stage, and publish API reference docs"
+  - title: "Use cases for AI: Develop build and publishing scripts"
     jurl: /learnapidoc/ai-tools-build-publish-api-docs.html
 
-  - title: "Using AI to learn coding"
+  - title: "Use cases for AI: Understand the meaning of code"
     jurl: /learnapidoc/docapis_ai_learn_coding.html
 
-  - title:  "Using AI for language advice"
-    jurl: /learnapidoc/docapis_ai_language_advice.html
-
-  - title:  "Using AI to create doc updates based on bugs"
+  - title: "Use cases for AI: Distill needed updates from bug threads"
     jurl: /learnapidoc/docapis_ai_fix_bugs.html
 
-  - title:  "Using AI For thematic analysis"
+  - title: "Use cases for AI: Create summaries"
+    jurl: /learnapidoc/docapis_ai_summaries.html
+
+  - title: "Use cases for AI: Synthesize insights from granular data"
     jurl: /learnapidoc/docapis_thematic_analysis.html
 
-  - title:  "Using AI for comparison tasks with API responses"
+  - title: "Use cases for AI: Seek advice on grammar and style"
+    jurl: /learnapidoc/docapis_ai_language_advice.html
+
+  - title: "Use cases for AI: Format content (HTML, XML, YAML)"
+    jurl: /learnapidoc/docapis_ai_format_content.html
+
+  - title: "Use cases for AI: Arrange content into information type patterns"
+    jurl: /learnapidoc/docapis_pattern_prompts.html
+
+  - title: "Use cases for AI: Compare API responses to identify discrepancies"
     jurl: /learnapidoc/docapis_ai_comparison_tasks.html
 
-  - title:  "Using AI for glossary definitions"
+  - title: "Use cases for AI: Draft glossary definitions"
     jurl: /learnapidoc/docapis_ai_glossary_definitions.html
 
-  - title:  "Using AI for summaries"
-    jurl: /learnapidoc/docapis_ai_summaries.html
+  - title:  "First look at the Oxygen XML AI Positron Assistant"
+    jurl: /learnapidoc/docapis_oxygenxml_positron_assistant.html
 
 - title: "Chapter 17: Glossary"
   landing: /learnapidoc/glossary_overview.html

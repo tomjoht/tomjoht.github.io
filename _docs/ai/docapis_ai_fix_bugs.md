@@ -1,9 +1,9 @@
 ---
-title:  "Using AI to create doc updates based on bugs"
+title:  "Use cases for AI: Distill needed updates from bug threads"
 permalink: learnapidoc/docapis_ai_fix_bugs.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.6
+weight: 14.4
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

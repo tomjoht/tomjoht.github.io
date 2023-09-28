@@ -1,8 +1,8 @@
 ---
-title:  "Using AI for summaries"
+title:  "Use cases for AI: Create summaries"
 permalink: learnapidoc/docapis_ai_summaries.html
 course: "Documenting REST APIs"
-weight: 14.91
+weight: 14.5
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

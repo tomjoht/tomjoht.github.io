@@ -1,9 +1,9 @@
 ---
-title:  "Using AI for language advice"
+title:  "Use cases for AI: Seek advice on grammar and style"
 permalink: learnapidoc/docapis_ai_language_advice.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.5
+weight: 14.6
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

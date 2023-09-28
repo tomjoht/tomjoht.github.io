@@ -71,7 +71,7 @@ The course primarily serves the following audiences:
 The course consists of the following sections:
 
 {% for folder in site.data.docapis.folders %}
-* **[{{folder.title}}]({{folder.landing}})**. {{folder.description}}
+* **[{{folder.title}}]({{folder.landing | remove: "/learnapidoc/"}})**. {{folder.description}}
 {% endfor %}
 
 {: .tip}

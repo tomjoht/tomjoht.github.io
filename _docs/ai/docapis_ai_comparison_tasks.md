@@ -1,9 +1,9 @@
 ---
-title:  "Using AI for comparison tasks with API responses"
+title:  "Use cases for AI: Compare API responses to identify discrepancies"
 permalink: learnapidoc/docapis_ai_comparison_tasks.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.8
+weight: 14.9
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

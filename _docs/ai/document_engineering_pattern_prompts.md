@@ -1,9 +1,9 @@
 ---
-title:  "AI document engineering with pattern-based prompts"
+title:  "Use cases for AI: Arrange content into information type patterns"
 permalink: learnapidoc/docapis_pattern_prompts.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.2
+weight: 14.8
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

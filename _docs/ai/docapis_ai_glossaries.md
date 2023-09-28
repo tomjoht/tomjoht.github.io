@@ -1,9 +1,9 @@
 ---
-title:  "Using AI for glossary definitions"
+title:  "Use cases for AI: Draft glossary definitions"
 permalink: learnapidoc/docapis_ai_glossary_definitions.html
 keywords:
 course: "Documenting REST APIs"
-weight: 14.9
+weight: 14.91
 sidebar: docapis
 section: docapisai
 path1: learnapidoc/ai.html

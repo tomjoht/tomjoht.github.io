@@ -14,7 +14,7 @@ description: "This tutorial shows you how to build your own balance board with b
 {:toc}
 
 {: .note}
-This is the first balance board I've made, so take my approach with a grain of salt here. I'm an experienced balance board DIYer. But the board I created seemed to work extremely well.
+This is the first balance board I've made, so take my approach with a grain of salt here. I'm not an experienced balance board DIYer. But the board I created seemed to work extremely well.
 
 ## Finished product
 
