@@ -200,7 +200,7 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
 
     After you click Try it out, the example value in the Request Body field becomes editable.
 
-4.  In the example value, change the first `id` value to a unique (and unlikely to be repeated) whole number (such as `24329`). Change the name `doggie` to a pet name you can remember (e.g., `Bentley`).
+4.  In the example value, change the first `id` value to a unique (and unlikely to be repeated) whole number (such as `24329`). Change the name `doggie` to a pet name you can remember (e.g., `Ponyo`).
 5.  Click **Execute**.
 
     <figure><a target="_blank" class="noExtIcon" href="http://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_execute.png" alt="Executing a sample Petstore request"></a><figcaption>Executing a sample Petstore request</figcaption></figure>
@@ -208,7 +208,7 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
     Swagger UI submits the request and shows the [curl](docapis_make_curl_call.html) that was submitted. For example, here's the curl Swagger UI sent:
 
     ```curl
-    curl -X POST "https://petstore.swagger.io/v2/pet" -H "accept: application/xml" -H "Content-Type: application/json" -d "{ \"id\": 1000, \"category\": { \"id\": 0, \"name\": \"string\" }, \"name\": \"Bentley\", \"photoUrls\": [ \"string\" ], \"tags\": [ { \"id\": 0, \"name\": \"string\" } ], \"status\": \"available\"}"
+    curl -X POST "https://petstore.swagger.io/v2/pet" -H "accept: application/xml" -H "Content-Type: application/json" -d "{ \"id\": 1000, \"category\": { \"id\": 0, \"name\": \"string\" }, \"name\": \"Ponyo\", \"photoUrls\": [ \"string\" ], \"tags\": [ { \"id\": 0, \"name\": \"string\" } ], \"status\": \"available\"}"
     ```
 
     Notice that, with the `-d` (data) parameter, the request body is escaped and added directly into the curl command rather than being loaded from a file (as explained in [Common curl commands related to REST](docapis_understand_curl.html#common)).
@@ -222,7 +222,7 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
         "id": 0,
         "name": "string"
       },
-      "name": "Bentley",
+      "name": "Ponyo",
       "photoUrls": [
         "string"
       ],
