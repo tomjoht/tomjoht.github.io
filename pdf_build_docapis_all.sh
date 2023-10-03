@@ -23,9 +23,9 @@ pdftk $LOCATION/docapis_all_chapters.pdf cat 658-689 output $LOCATION/chapter12_
 pdftk $LOCATION/docapis_all_chapters.pdf cat 690-725 output $LOCATION/chapter13_native_library_apis.pdf
 pdftk $LOCATION/docapis_all_chapters.pdf cat 726-798 output $LOCATION/chapter14_processes_and_methodology.pdf
 pdftk $LOCATION/docapis_all_chapters.pdf cat 799-824 output $LOCATION/chapter15_metrics_and_measurement.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 825-922 output $LOCATION/chapter16_ai_and_api_docs.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 923-960 output $LOCATION/chapter17_glossary.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 961-1024 output $LOCATION/chapter18_additional_resources.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 825-928 output $LOCATION/chapter16_ai_and_api_docs.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 929-966 output $LOCATION/chapter17_glossary.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 967-1030 output $LOCATION/chapter18_additional_resources.pdf
 
 echo "Now zipping everything up"
 zip pdf/docapis.zip pdf/readme.txt pdf/docapis_all_chapters.pdf pdf/frontmatter.pdf pdf/chapter1_introduction_to_rest_apis.pdf pdf/chapter2_using_an_api_like_a_developer.pdf pdf/chapter3_documenting_api_endpoints.pdf pdf/chapter4_openapi_spec_and_generated_reference_docs.pdf pdf/chapter5_step_by_step_openapi_code_tutorial.pdf pdf/chapter6_testing_api_docs.pdf pdf/chapter7_conceptual_topics_in_api_docs.pdf pdf/chapter8_code_tutorials.pdf pdf/chapter9_the_writing_process.pdf pdf/chapter10_publishing_api_docs.pdf pdf/chapter11_publishing_tools.pdf pdf/chapter12_thriving_in_the_api_doc_space.pdf pdf/chapter13_native_library_apis.pdf pdf/chapter14_processes_and_methodology.pdf pdf/chapter15_metrics_and_measurement.pdf pdf/chapter16_ai_and_api_docs.pdf pdf/chapter17_glossary.pdf pdf/chapter18_additional_resources.pdf

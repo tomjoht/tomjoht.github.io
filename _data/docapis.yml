@@ -584,6 +584,9 @@ folders:
   - title: "Using AI in APIs: What works, what doesn't"
     jurl: /learnapidoc/docapis_ai_what_works_and_doesnt.html
 
+  - title:  "Embracing professional redefinition"
+    jurl: /learnapidoc/docapis_ai_professional_redefinition.html
+
   - title: "Use cases for AI: Develop build and publishing scripts"
     jurl: /learnapidoc/ai-tools-build-publish-api-docs.html
 
