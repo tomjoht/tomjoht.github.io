@@ -11,7 +11,7 @@ last-modified: 2023-10-03
 
 {% include coffeeshopbook.html %}
 
-If AI transforms the tech writing field, we'll face a choice of either resisting change and skirting with obsolescence, or reinventing our professional identity. To deal with this hypothetical dilemma, I invoke a figure from philosophy: Nietzsche's Übermensch.
+If AI transforms the tech writing field, as many think it will, we'll face a choice of either resisting change and skirting with obsolescence, or reinventing our professional identity. To deal with this hypothetical dilemma, I invoke a figure from philosophy: Nietzsche's Übermensch. This figure embraces an idea of radical reinvention of values and meaning, regardless of cultural constraints.
 
 {% if site.format == "web" %}
 * TOC
@@ -24,13 +24,15 @@ First, a quick recap from my last post. In [AI and APIs: What works, what doesn'
 
 ## An alternative path 
 
-I argued that this dystopian outcome doesn't have to be inevitable. Rather than resist AI or become entirely dependent on it, technical writers can redefine their roles. As [James Bessen explains](https://www.theatlantic.com/business/archive/2016/01/automation-paradox/424437), new technologies often morph and reshape jobs rather than eliminate them outright. 
+I argued that this dystopian outcome doesn't have to be inevitable. Rather than resist AI or become entirely dependent on it, technical writers can redefine their roles. As [James Bessen explains](https://www.theatlantic.com/business/archive/2016/01/automation-paradox/424437), new technologies often morph and reshape job functions rather than eliminate them outright. 
 
 For example, instead of just operating AI tools, writers can reskill to become AI documentation engineers. They can learn prompting, fine-tuning, and collaboration techniques to productively partner with generative models. Skills like prompt engineering, few-shot learning, and custom LLM training can allow writers to optimize and direct AI capabilities. 
 
 This point about redefining and reshaping our professional roles deserves more reflection, though, because changing your professional role is psychologically difficult. How to embrace professional redefinition is what this post is all about.
 
-Redefining your professional identity can be like discarding your old body for a new one without knowing beforehand what kind of body you will soon be getting. As tech writers who may have embraced technology from humanities disciplines or other non-engineering fields, we can be stubborn about adopting new tools or workflows. 
+## Challenges with professional redefinition 
+
+Redefining your professional identity can be like discarding your old body for a new one without knowing beforehand what kind of body you'll soon be getting. As tech writers who may have embraced technology from humanities disciplines, struggling to come up to speed technically, we can be stubborn about adopting new tools or workflows in contrast to those we've already learned.
 
 Pivoting from hands-on writing to AI oversight poses an identity crisis, even an existential threat. If I'm no longer the one crafting each sentence, what am I? What's my role? It's far simpler to reject or dismiss new technologies that disrupt our sense of tech writer identity. This is partly why tech writer reactions to AI are all over the map, from dismissive and facetious to cautious and measured to over-embracing and hyper-optimistic.
 
@@ -48,11 +50,11 @@ Opposite to the last man is the Übermensch. Rather than cling to traditional no
 
 The Übermensch might analyze product usage data and bug reports to build self-healing help content. He or she could use their API skills not just to document but design and improve the APIs themselves. Or combine doc engineering with creative code and writing to build innovative new doc platforms. 
 
-Basically, the Übermensch writer breaks free of limiting norms and expectations, asserting his or her will to change systems and redefine value. The Übermensch does not merely react to change, they direct change. They write their own job descriptions.
+Basically, Übermensch writers break free of limiting norms and expectations, asserting their will to change systems and redefine value. Übermensch writers do not merely react to change, they direct change. They write their own job descriptions.
 
 Is it ridiculous to bring in this figure from philosophy? I'm not necessarily saying we have to become the Übermensch to escape the obsolescence regime, only that this model provides an interesting way of approaching professional redefinition. 
 
-Also, I'm using the Übermensch here despite the imperfect parallel. Nietzsche's ideas are obviously more complex for the challenges I'm discussing. The Übermensch is about creating new values, living beyond common norms. It's a big idea that goes beyond learning to work with AI in tech writing and is much more existential. I don't intend to steer into philosophy too far here, but I still like the general idea and think some of it applies. I mean, there are many educated people who see AI as a humanity extinction event.
+Also, I should acknowledge that the Übermensch model is an imperfect parallel here. Nietzsche's ideas are obviously more complex for the challenges I'm discussing. The Übermensch is about creating new values, living beyond common norms. It's a big idea that goes beyond learning to work with AI in tech writing and is much more existential. I don't intend to steer into philosophy too far here, but I still like the general idea and think some of it applies. Keep in mind, there are many educated people who see AI as a humanity extinction event.
 
 The most radical change AI presents is shifting us away from writing expertise. From sophomore year in college until now (nearly 30 years) my identity has been associated with writing. During my sophomore year, I enrolled in a Writing Fellows program that involved acting as dedicated writing tutors for various classes. As part of the Writing Fellows program, we had to write our literary biography, describing our origin stories as writers. How did you know you were a writer? That kind of essay. 
 
