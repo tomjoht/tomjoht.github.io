@@ -584,9 +584,6 @@ folders:
   - title: "Using AI in APIs: What works, what doesn't"
     jurl: /learnapidoc/docapis_ai_what_works_and_doesnt.html
 
-  - title:  "Embracing professional redefinition"
-    jurl: /learnapidoc/docapis_ai_professional_redefinition.html
-
   - title: "Use cases for AI: Develop build and publishing scripts"
     jurl: /learnapidoc/ai-tools-build-publish-api-docs.html
 
@@ -596,7 +593,7 @@ folders:
   - title: "Use cases for AI: Distill needed updates from bug threads"
     jurl: /learnapidoc/docapis_ai_fix_bugs.html
 
-  - title: "Use cases for AI: Create summaries"
+  - title: "Use cases for AI: Summarize long content"
     jurl: /learnapidoc/docapis_ai_summaries.html
 
   - title: "Use cases for AI: Synthesize insights from granular data"
@@ -616,9 +613,6 @@ folders:
 
   - title: "Use cases for AI: Draft glossary definitions"
     jurl: /learnapidoc/docapis_ai_glossary_definitions.html
-
-  - title:  "First look at the Oxygen XML AI Positron Assistant"
-    jurl: /learnapidoc/docapis_oxygenxml_positron_assistant.html
 
 - title: "Chapter 17: Glossary"
   landing: /learnapidoc/glossary_overview.html

@@ -8,7 +8,7 @@ sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
 redirect_from:
-- https://idratherbewriting.com/learnapidoc/docapis_doc_sample_responses.html
+- /learnapidoc/docapis_doc_sample_responses.html
 last-modified: 2019-05-06
 ---
 

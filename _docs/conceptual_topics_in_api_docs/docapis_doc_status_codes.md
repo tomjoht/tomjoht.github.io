@@ -2,7 +2,7 @@
 title: "API status and error codes"
 permalink: learnapidoc/docapis_doc_status_codes.html
 redirect_from:
-- https://idratherbewriting.com/learnapidoc/docapis_doc_response_codes.html
+- /learnapidoc/docapis_doc_response_codes.html
 weight: 7.4
 sidebar: docapis
 section: docconceptual

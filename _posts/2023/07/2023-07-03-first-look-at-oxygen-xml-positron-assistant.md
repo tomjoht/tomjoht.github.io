@@ -1,18 +1,15 @@
 ---
-title:  "First look at the Oxygen XML AI Positron Assistant"
-permalink: learnapidoc/docapis_oxygenxml_positron_assistant.html
-keywords:
-course: "Documenting REST APIs"
-weight: 14.92
-sidebar: docapis
-section: docapisai
-path1: learnapidoc/ai.html
-last-modified: 2023-07-04
+title: "First look at the Oxygen XML's AI Positron Assistant"
+permalink: /blog/first-look-at-oxygen-xml-positron-assistant
+date: 2023-07-04
+categories:
+- ai
+- api-doc
+keywords: Oxygen XML, AI Positron
+description: "The Oxygen XML Positron Assistant lets you use AI tools inside Oxygen XML to help with a variety of writing tasks, such as writing short description elements, correcting grammar, improving readability, adding index terms, and more. Positron hooks into an AI provider (currently ChatGPT 3.5) to pass your topic content to the AI with a specific instruction. It then returns the content and allows you to preview the diff, seeing what has changed and inserting the modified text in place. By integrating directly with your project, Positron helps you use AI when and where you need it, without switching contexts or resorting to external tools."
+redirect_from:
+- learnapidoc/docapis_oxygenxml_positron_assistant.html
 ---
-
-{% include coffeeshopbook.html %}
-
-The Oxygen XML Positron Assistant lets you use AI tools inside Oxygen XML to help with a variety of writing tasks, such as writing short description elements, correcting grammar, improving readability, adding index terms, and more. Positron hooks into an AI provider (currently ChatGPT 3.5) to pass your topic content to the AI with a specific instruction. It then returns the content and allows you to preview the diff, seeing what has changed and inserting the modified text in place. By integrating directly with your project, Positron helps you use AI when and where you need it, without switching contexts or resorting to external tools.
 
 In this post, I'll explain what Positron can do, how it works, and include my thoughts and analysis along the way. Although this is a sponsored post, I'll still include my own perspective about the uses of Positron and, more generally, AI. For Positron documentation, see [Oxygen AI Positron Assistant Add-on](https://blog.oxygenxml.com/topics/ai_positron.html).
 
@@ -59,8 +56,6 @@ The AI-generated response appears in the right pane. In this example, there don'
 
 The diff shows all the language changes. You can see the AI adjusted more text than it initially seemed. I LOVE the diff preview! 
 
-{% include random_ad3.html %}
-
 But this AI modified text isn't that helpful. You still don't have a clear sense of what an "embedding" is. The problem wasn't with poor wording but rather inadequate explanation. You could go back to the engineers for more details, but you don't want to look slow.
 
 You decide to further refine the AI prompt. In the right pane, you add this instruction: "provide a couple of concrete examples to clarify the concept." 
@@ -80,8 +75,6 @@ The examples offer more clarity! As a tech writer, you know that providing examp
 If you like the response, you can click **Replace** to insert the response in place of text you initially highlighted. In this case, because you're expanding on the concept with examples (not replacing the original), click **Copy** and manually insert it in the Text view (because the response already has DITA tags already).
 
 This scenario provides you an idea of the workflow for using Positron. You haven't left your documentation project context, and you surgically selected parts of your existing documentation to improve. Of course, you'll want to review the AI-generated additions with the engineers, but even if they adjust the examples, you've already improved the document.
-
-{% include random_ad4.html %}
 
 ## Available action buttons
 
@@ -293,13 +286,9 @@ Each button indicates its function when sending the prompt. For convenience, I c
 
 Keep in mind that Positron only reveals summaries to the authors, not the full prompts that it sends to ChatGPT. A significant part of mastering AI interaction lies in the art of prompt engineering. If you're skilled at eliciting the desired response from an AI bot, a practice akin to magical incantations, your answers will far surpass those of others. In fact, you can actually purchase prompts for a variety of scenarios, so I can see why Oxygen XML keeps their full prompts hidden. The skill of creating the perfect prompt for each tech comm situation is the pivotal factor in a high-quality AI integration.
 
-{% include image_ad_right.html %}
-
 ## Error correction
 
 Positron is also integrated into the Results pane to perform error correction. If you have an error with the DITA code, underlined in yellow, you can right click the error message and select **AI Positron Fix**. This will prompt Positron to send the error to ChatGPT to suggest a fix for the error. This will result in speedier fixing and debugging of issues.
-
-{% include random_ad2.html %}
 
 ## Button prompts
 
