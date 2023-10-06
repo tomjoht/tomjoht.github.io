@@ -17,7 +17,7 @@ description: "If AI transforms the tech writing field, as many think it will, we
 
 ## The obsolescence regime
 
-First, a quick recap from my last post. In [AI and APIs: What works, what doesn't](/learnapidoc/ai-and-apis-what-works-and-doesnt.html), I talked about the "obsolescence regime." The gist is that competitive necessity will drive increased AI reliance, resulting in three phases: (1) First, writers who embrace AI gain a competitive advantage while AI-resistant peers fall behind. (2) Next, over-reliance on AI leads to skill atrophy, making writers unable to produce content without AI assistance. (3) Finally, AI systems no longer require human oversight and deem writers obsolete. Writers are discarded.
+First, a quick recap from my last post. In [AI and APIs: What works, what doesn't](/learnapidoc/docapis_ai_what_works_and_doesnt.html), I talked about the "obsolescence regime." The gist is that competitive necessity will drive increased AI reliance, resulting in three phases: (1) First, writers who embrace AI gain a competitive advantage while AI-resistant peers fall behind. (2) Next, over-reliance on AI leads to skill atrophy, making writers unable to produce content without AI assistance. (3) Finally, AI systems no longer require human oversight and deem writers obsolete. Writers are discarded.
 
 ## An alternative path 
 
