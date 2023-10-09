@@ -1,5 +1,5 @@
 ---
-title: "Links from around the web"
+title: "Links from around the web (Sept 5, 2023)"
 permalink: /blog/links-from-web-sept5-2023
 date: 2023-09-05
 categories:

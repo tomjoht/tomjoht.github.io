@@ -1,5 +1,5 @@
 ---
-title: "Links from around the web (Oct 9)"
+title: "Links from around the web (Oct 9, 2023)"
 permalink: /blog/links-from-web-oct-9
 date: 2023-10-09
 categories:
@@ -7,6 +7,7 @@ categories:
 - api-doc
 - jobs
 - writing
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/links-from-web-oct-10
 description: "The following are links from around the web for October 10, 2023."
