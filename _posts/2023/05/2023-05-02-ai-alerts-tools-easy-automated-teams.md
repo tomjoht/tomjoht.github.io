@@ -7,6 +7,7 @@ categories:
 - AI
 - innovation
 - web-design
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/ai-alerts-tools-easy-automated-teams
 description: "Here are tech comm news and links for May 2, 2023."

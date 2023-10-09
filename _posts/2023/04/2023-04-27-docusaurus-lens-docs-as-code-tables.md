@@ -4,6 +4,7 @@ permalink: /blog/docusaurus-lens-docs-as-code-tables
 date: 2023-04-27
 categories:
 - AI
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/docusaurus-lens-docs-as-code-tables
 description: "Here are tech comm news and links for April 28, 2023."

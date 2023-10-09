@@ -30,10 +30,12 @@ mytags:
   url: /category-jekyll/
 - title: Quick reference guides
   url: /category-quick-reference-guides/
+- title: News
+  url: /category-news/
 - title: Podcasts
-  url: /category-podcasts
+  url: /category-podcasts/
 - title: Podcasting
-  url: /category-podcasting
+  url: /category-podcasting/
 - title: Screencasting
   url: /category-screencasting/
 - title: Simplifying Complexity

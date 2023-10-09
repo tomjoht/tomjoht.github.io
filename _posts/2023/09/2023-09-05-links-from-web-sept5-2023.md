@@ -5,6 +5,7 @@ date: 2023-09-05
 categories:
 - ai
 - innovation
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/links-from-web-sept5-2023
 description: "Here are a few links from around the web worth reading for September 5, 2023."

@@ -4,6 +4,7 @@ permalink: /blog/markprompt-dita-snowflake-aicommits
 date: 2023-04-24
 categories:
 - technical-writing
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/markprompt-dita-snowflake-aicommits
 description: "The latest techcomm news for April 24, 2023."

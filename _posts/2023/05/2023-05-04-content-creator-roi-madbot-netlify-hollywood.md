@@ -6,6 +6,7 @@ categories:
 - technical-writing
 - AI
 - blogging
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/content-creator-roi-madbot-netlify-hollywood
 description: "Here are the latest tech comm articles and links for May 4, 2023."

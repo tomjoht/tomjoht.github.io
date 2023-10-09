@@ -6,6 +6,7 @@ categories:
 - technical-writing
 - AI
 - blogging
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/news-cycle-wordtune-noticing-things-research
 description: "Here are tech comm news and links for May 19, 2023."

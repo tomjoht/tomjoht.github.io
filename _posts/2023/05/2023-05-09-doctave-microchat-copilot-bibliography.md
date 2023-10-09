@@ -7,6 +7,7 @@ categories:
 - AI
 - academics-and-practitioners
 - innovation
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/doctave-microchat-copilot-bibliography
 description: "The following are tech comm links, articles, and thoughts for May 9, 2023."

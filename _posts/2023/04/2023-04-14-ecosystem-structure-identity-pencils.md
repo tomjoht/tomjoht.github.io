@@ -2,6 +2,7 @@
 title: "Newsletter: Docs-as-ecosystem, structure in WordPress, identity crisis, and pencils"
 categories:
 - technical-writing
+- news
 keywords:
 rebrandly: https://idbwrtng.com/tclinksapril14
 description: "The following are a few interesting links related to tech comm I've been reading this week."

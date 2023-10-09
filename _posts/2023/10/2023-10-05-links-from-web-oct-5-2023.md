@@ -5,6 +5,7 @@ date: 2023-10-05
 categories:
 - ai
 - writing
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/links-from-web-oct-5-2023
 description: "The following are summaries of interesting articles from around the web, as well as my commentary."

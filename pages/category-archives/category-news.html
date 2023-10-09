@@ -1,0 +1,16 @@
+---
+title: "Technical writer news"
+permalink: /category-news/
+categoryName: news
+---
+
+<p>The news category covers posts commenting on news around the web from intersting links I've come across. In these posts, I provide a list of links along with summaries and commentary.</p>
+
+<p>The following content is in the <b>news</b> category:
+
+    {% for p in site.categories.news %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endfor %}
+
+{% include ads.html %}

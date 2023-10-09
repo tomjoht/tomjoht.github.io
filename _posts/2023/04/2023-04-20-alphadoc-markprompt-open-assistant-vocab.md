@@ -4,6 +4,7 @@ permalink: /blog/alphadoc-markprompt-open-assistant-vocab
 date: 2023-04-20
 categories:
 - AI
+- news
 keywords: 
 rebrandly: https://idbwrtng.com/alphadoc-markprompt-open-assistant-vocab
 description: "Here's a summary of the latest tech comm news for April 20, 2023."
