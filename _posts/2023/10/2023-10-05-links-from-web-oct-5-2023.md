@@ -1,5 +1,5 @@
 ---
-title: "Links from around the web (Oct 6, 2023)"
+title: "Open-source contribution myths, Hiring poets to train LLMs, Problems with 'content', AI agents (Oct 6, 2023)"
 permalink: /blog/links-from-web-oct-6-2023
 date: 2023-10-05
 categories:

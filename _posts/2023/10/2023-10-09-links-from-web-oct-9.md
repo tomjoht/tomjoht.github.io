@@ -1,5 +1,5 @@
 ---
-title: "Links from around the web (Oct 9, 2023)"
+title: "Forrester Report, Coding jobs, Hyper-personalization, RFPs, Call center replacement (Oct 9, 2023)"
 permalink: /blog/links-from-web-oct-9
 date: 2023-10-09
 categories:
