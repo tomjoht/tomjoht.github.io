@@ -84,7 +84,7 @@ For AI tools to provide intelligent, accurate responses, the input source needs 
 
 ---
 
-## ChatGPT Isn't Coming for Your Coding Job 
+## ChatGPT Isn't Coming for Your Coding Job, by Zeb Larson
 
 Sept 17, 2023 <br/>
 WIRED, [LINK](https://www.wired.com/story/chatgpt-coding-software-crisis/)
