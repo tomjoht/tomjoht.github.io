@@ -116,7 +116,7 @@ This report paints a grim picture for the future of technical writing, suggestin
 
 Here's a graph showing technical writers in the quadrant where tasks are both subject to influence and automation:
 
-<figure><a class="noCrossRef" href="https://regmedia.co.uk/2023/09/06/forrester_gen_ai_report_pdf.pdf"><img src="{{site.media}}/forresterreporttws.png" alt="Forrester report foretelling automation of tech writer roles in the future" /></a><figcaption>"Influence And Automation Potential Together Yield Job Losses"</figcaption></figure>
+<figure><a class="noCrossRef" href="https://regmedia.co.uk/2023/09/06/forrester_gen_ai_report_pdf.pdf"><img src="{{site.media}}/forresterreporttws2.png" alt="Forrester report foretelling automation of tech writer roles in the future" /></a><figcaption>"Influence And Automation Potential Together Yield Job Losses"</figcaption></figure>
 
 The report doesn't explain _why_ the researchers think technical writing can more easily be automated, nor does it define what it means by technical writing, but we can speculate as to the reasons why:
 
