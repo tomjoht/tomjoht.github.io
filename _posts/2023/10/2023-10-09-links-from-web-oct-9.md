@@ -119,7 +119,7 @@ We regularly hear how good help content should offer different paths for novices
 
 ---
 
-## Generative AI Is Coming for Sales Execs' Jobs—and They're Celebrating
+## Generative AI Is Coming for Sales Execs' Jobs—and They're Celebrating, by Paresh Dave
 
 Oct 5, 2023 <br/>
 WIRED [LINK](https://www.wired.com/story/generative-ai-chatgpt-is-coming-for-sales-jobs)
