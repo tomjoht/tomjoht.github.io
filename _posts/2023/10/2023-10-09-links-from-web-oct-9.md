@@ -13,6 +13,12 @@ rebrandly: https://idbwrtng.com/links-from-web-oct-10
 description: "The following are links from around the web for October 10, 2023."
 ---
 
+Articles listed here include the following:
+
+* TOC
+{:toc}
+
+
 ## Generative AI Is Coming for Sales Execs' Jobs—and They're Celebrating
 
 Oct 5, 2023 <br/>
@@ -107,6 +113,10 @@ August 30, 2023, Forrester <br/>
 This report paints a grim picture for the future of technical writing, suggesting that it is a role more easily automated than other types of jobs, even editor. Other roles will more likely be augmented rather than replaced by AI, but apparently not technical writing. Here's the heart of the report:
 
 > Generative AI will influence 4.5 times more jobs than it replaces. By 2030, we forecast that generative AI will influence more than 11 million US jobs, or 4.5 times the number of jobs replaced (see Figure 3). Influence is different from job loss. It means reshaping, retraining, and upskilling existing workers to incorporate generative AI tools into the daily workflow. Jobs that are easier to automate that also have high generative AI influence, such as technical writers, social science research assistants, proofreaders, and copywriters, are more likely to be lost. Harder-to-automate jobs with high generative AI influence, such as editors, writers, authors and poets, lyricists, and creative writers, are more likely to influence how jobs are conducted (via augmentation) rather than replace them. 
+
+Here's a graph showing technical writers in the quadrant where tasks are both subject to influence and automation:
+
+<figure><a class="noCrossRef" href="https://regmedia.co.uk/2023/09/06/forrester_gen_ai_report_pdf.pdf"><img src="{{site.media}}/forresterreporttws.png" alt="Forrester report foretelling automation of tech writer roles in the future" /></a><figcaption>"Influence And Automation Potential Together Yield Job Losses"</figcaption></figure>
 
 The report doesn't explain _why_ the researchers think technical writing can more easily be automated, nor does it define what it means by technical writing, but we can speculate as to the reasons why:
 

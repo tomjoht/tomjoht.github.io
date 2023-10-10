@@ -16,7 +16,6 @@ Articles listed here include the following:
 * TOC
 {:toc}
 
-
 ## The open source docs portfolio myth, by Daniel Beck
 
 {: .home-post-meta}
