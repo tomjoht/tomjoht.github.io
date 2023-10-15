@@ -15,7 +15,6 @@ layout: null
     <itunes:explicit>No</itunes:explicit>
     <itunes:image href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png"/>
     <itunes:category text="Technology">
-        <itunes:category text="Podcasting" />
     </itunes:category>
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.podcast_description}}</itunes:summary>
@@ -44,7 +43,7 @@ layout: null
                 <![CDATA[{{ ep.description | strip_html | truncatewords: 100 | expand_urls: site.url | cdata_escape  }}]]>
             </description>
 
-            <enclosure url="{{ ep.podcast_link }}" type="audio/mpeg" />
+            <enclosure url="{{ ep.podcast_link }}" type="audio/mpeg" length="{{ ep.podcast_length}}" />
             <itunes:subtitle>{{ ep.description | strip_html | truncatewords: 30 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
             <itunes:summary>{{ ep.description | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape  }}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
