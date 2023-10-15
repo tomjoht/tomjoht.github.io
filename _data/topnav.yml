@@ -93,9 +93,6 @@ topnav_dropdowns:
           url: /analytics/
         - title: Advertising
           url: /advertising/
-        - title: GitHub repo
-          url: https://github.com/tomjoht/tomjoht.github.io/
-          github_icon: show
 
     - title: Series
       folderitems:

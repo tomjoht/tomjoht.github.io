@@ -17,6 +17,10 @@ podcast_length: "7140112"
 * TOC
 {:toc}
 
+{% include audio.html %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mi1bFiWiesA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to have a bad doc review
 
 If you want to have a *bad doc review experience*, try doing any of the following:
@@ -43,13 +47,3 @@ However, usually after writing docs, we have specific areas that we're unsure ab
 People love seeing questions in a list like this. It focuses the meeting, gives more structure, and provides reviewers with a starting point for their comments.
 
 {% include ads.html %}
-
-## Videocast
-
-I recorded a short videocast explaining this tip:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mi1bFiWiesA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-For just the audio:
-
-{% include audio.html %}
