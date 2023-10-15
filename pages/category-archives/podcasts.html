@@ -1,0 +1,28 @@
+---
+title: "I'd Rather Be Writing podcasts"
+permalink: /podcasts/
+categoryName: podcasts
+redirect_from:
+- /category-podcasts
+---
+
+<p>You can listen to the I'd Rather Be Writing podcast on most podcast platforms. This category page lists all podcasts that I've recorded as part of my site, I'd Rather Be Writing. I've been recording and sharing podcasts for more than a decade, and though my consistency has fluctuated, I've always championed recording and sharing presentations and other conversations whenever possible.</p>
+
+{% include podcast_subscribe_buttons.html %}
+
+<h3>Recent idratherbewriting.com podcast episodes</h3>
+<ol reversed="true">
+    {% for p in site.categories.podcasts %}
+
+  <li><h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4></li>
+
+{% endfor %}
+
+</ol>
+
+<p>I also used to participated in the <a href='https://podcast.writethedocs.org/'>Write the Docs Podcast</a> (which since fizzled) and post summaries of each episode here as well &mdash; see <a href="/category-wtd-podcasts/">Write the Docs podcasts</a>.
+
+{{site.data.alerts.tip}} See <a href="/technical-writing-podcasts/">Technical writing podcasts</a> for other podcasts related to technical writing, language, content strategy, and so on.{{site.data.alerts.end}}
+
+{% include ads.html %}

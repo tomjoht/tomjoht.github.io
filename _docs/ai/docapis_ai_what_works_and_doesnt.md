@@ -18,6 +18,18 @@ In conversations about AI, a lot of people ask the same questions: What kind of 
 {:toc}
 {% endif %}
 
+{% if site.format == "print" %}
+{: .tip}
+To watch a presentation on this topic, see https://www.youtube.com/watch?v=cacDYvA5ZTI.
+{% endif %}
+
+{% if site.format == "web" %}
+Here's a video on this topic: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cacDYvA5ZTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% endif %}
+
 ## Moving past the AI hype cycle
 
 The topic of AI evokes strong reactions from tech writers:

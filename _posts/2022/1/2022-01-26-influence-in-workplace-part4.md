@@ -83,7 +83,7 @@ How do you maintain emotional engagement and a sense of meaningfulness if you're
 
 I started blogging in 2006. Whereas many blogs fizzled after a few years, I've nevertheless continued to blog for the past 16 years. Why? Because I find the act of writing, especially about my current experiences, to be meaningful. I emotionally engage with the activity. This is key to prolonged and sustained content creation, which is essential for the endless publishing required in online endeavors.
 
-In contrast, my foray with [podcasting](/category-podcasts/) started more as an experiment, one that I started because I liked listening to podcasts myself, but ultimately I didn't emotionally engage with creating voice-based content like I do with written content. My podcast fizzled.
+In contrast, my foray with [podcasting](/podcasts/) started more as an experiment, one that I started because I liked listening to podcasts myself, but ultimately I didn't emotionally engage with creating voice-based content like I do with written content. My podcast fizzled.
 
 ## Flipping the perspective: the writing/thinking process versus the subject
 

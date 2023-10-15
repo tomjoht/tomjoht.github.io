@@ -14,5 +14,8 @@ description: "I added a new article in my API course called <i>AI and APIs: What
 
 Read the article here: [AI and APIs: What works, what doesn't](/learnapidoc/docapis_ai_what_works_and_doesnt.html).
 
+{: .tip}
+For a podcast on this topic, see [\[Podcast\] AI and APIs: What works, what doesn't](/blog/ai-apis-what-works-and-doesnt-video-recording-podcast).
+
 {% include ads.html %}
 

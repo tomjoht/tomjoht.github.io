@@ -18,7 +18,7 @@ podcasts:
 
 I'm launching a series of podcasts focused on academic/practitioner conversations. In these podcasts, I interview academics who have published research in academic journals that I find interesting and relevant to tech comm.
 
-The podcasts will be listed in my [regular podcast feed](/category-podcasts/), but they'll also appear here.
+The podcasts will be listed in my [regular podcast feed](/podcasts/), but they'll also appear here.
 
 {% include ads.html %}
 

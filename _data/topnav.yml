@@ -12,7 +12,7 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
 
-    - title: API documentation course
+    - title: API doc course
       folderitems:
         - title: Course home
           url: /learnapidoc/
@@ -79,6 +79,14 @@ topnav_dropdowns:
           url: https://www.buymeacoffee.com/learnapidoc/extras
           external: show
 
+    - title: Podcasts
+      folderitems:
+        - title: "I'd Rather Be Writing Podcasts"
+          url: /podcasts/
+        - title: Other techcomm podcasts
+          url: /technical-writing-podcasts/
+
+
     - title: About
       folderitems:
         - title: About me
@@ -96,10 +104,6 @@ topnav_dropdowns:
         - title: GitHub repo
           url: https://github.com/tomjoht/tomjoht.github.io/
           github_icon: show
-        - title: "I'd Rather Be Writing Podcasts"
-          url: /category-podcasts/
-        - title: Tech comm podcasts
-          url: /technical-writing-podcasts/
 
     - title: Series
       folderitems:

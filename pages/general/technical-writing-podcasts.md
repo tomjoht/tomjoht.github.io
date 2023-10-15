@@ -6,7 +6,7 @@ type: page
 published: true
 ---
 
-Beside [my podcasts](/category-podcasts/), here are some technical writing podcasts focused on language, writing, content strategy, and more:
+Beside [my podcasts](/podcasts/), here are some technical writing podcasts focused on language, writing, content strategy, and more:
 
 <div class="grid-container-for-podcasts">
 {% for item in site.data.recommended_podcasts.podcasts %}

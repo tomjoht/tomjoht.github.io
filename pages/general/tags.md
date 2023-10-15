@@ -33,7 +33,7 @@ mytags:
 - title: News
   url: /category-news/
 - title: Podcasts
-  url: /category-podcasts/
+  url: /podcasts/
 - title: Podcasting
   url: /category-podcasting/
 - title: Screencasting

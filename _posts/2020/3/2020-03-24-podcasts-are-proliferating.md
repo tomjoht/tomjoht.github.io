@@ -18,7 +18,7 @@ TWi has a nice write-up of their favorite tech comm podcasts in an article calle
 * [The Cherryleaf Podcast](https://www.cherryleaf.com/podcast/)
 * [The Content Strategy Experts](https://www.scriptorium.com/content-strategy-experts-podcast)
 * [Write the Docs Podcast](https://podcast.writethedocs.org/)
-* [I’d Rather Be Writing](/category-podcasts)
+* [I’d Rather Be Writing](/podcasts)
 * [Wireframe](https://podcasts.apple.com/us/podcast/wireframe/id1437677219)
 
 In addition to the above, you might also enjoy these other tech comm podcasts:
@@ -36,9 +36,9 @@ I added a list of these podcasts on a new page on my site called [Technical writ
 
 <a href="/technical-writing-podcasts/"><img style="max-width=500px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/recommendpodcastsscreenshot2.png"/></a>
 
-Also, on my [Podcasts page](/category-podcasts/), I added some more subscribe buttons:
+Also, on my [Podcasts page](/podcasts/), I added some more subscribe buttons:
 
-<a href="/category-podcasts/"><img style="max-width=400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/podcasts-subscription-options.png"/></a>
+<a href="/podcasts/"><img style="max-width=400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/podcasts-subscription-options.png"/></a>
 
 {% include ads.html %}
 

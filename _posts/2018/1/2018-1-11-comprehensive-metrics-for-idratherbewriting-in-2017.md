@@ -174,7 +174,7 @@ These are the top 10 pages on my site altogether, excluding blog posts and exclu
 * [Contact me](/contact/) (not a post)
 * [About Jekyll](/about-jekyll/) (252 words)
 * [Java: Share files with others using Git and Github](/java-share-files/) (632 words)
-* [Podcasts category](/category-podcasts/) (not a post)
+* [Podcasts category](/podcasts/) (not a post)
 * [Java: Javadoc tags](/java-javadoc-tags/) (2,065 words)
 * [Introduction to User-Centered Documentation](/ucd-introduction/) (501 words, graphics)
 
@@ -184,7 +184,7 @@ Average word count between top 10 pages on the API doc site and top 10 pages on 
 
 ## Top 10 podcasts
 
-These were my top 10 [podcasts](/category-podcasts/).
+These were my top 10 [podcasts](/podcasts/).
 
 * [Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) (2,675 downloads, 35:03 min.)
 * [Recording of User-Centered Design Principles for Organizing Documentation](/2017/02/18/design-principles-organizing-docs/) (2,269 downloads, 57:58 min.)

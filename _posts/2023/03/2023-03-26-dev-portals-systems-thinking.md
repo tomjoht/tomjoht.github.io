@@ -3,7 +3,6 @@ title: "Beyond 'parts' documentation: Moving towards systems thinking with devel
 permalink: /blog/dev-portals-and-systems-thinking/
 categories:
 - technical-writing
-- podcasts
 keywords: big picture, systems view
 rebrandly: https://idbwrtng.com/
 series: "Trends to follow or forget"
