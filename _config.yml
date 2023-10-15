@@ -182,7 +182,6 @@ algolia:
     - _site
     - vendor
     - redirects/*
-    - files/**/*
     - pages/category-archives/*
     - pages/date-based-archives/*
     - _slides/*
