@@ -14,10 +14,11 @@ layout: null
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
     <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
     <itunes:image href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png"/>
-    <itunes:category text="{{ site.podcast_category }}">
-        <itunes:category text="{{ site.podcast_subcategory }}"/>
+    <itunes:category text="Technology" />
+    <itunes:category text="Education">
+        <itunes:category text="How To"/>
+        <itunes:category text="Courses"/>
     </itunes:category>
-    <itunes:category text="{{ site.podcast_category_second }}"/>
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.podcast_description}}</itunes:summary>
     <itunes:owner>
@@ -29,8 +30,10 @@ layout: null
         <item>
             <title><![CDATA[{{ ep.title | cdata_escape }}]]></title>
             <link>{{ site.url }}{{ ep.url }}</link>
-            <itunes:category text="{{ site.podcast_category }}">
-                <itunes:category text="{{ site.podcast_subcategory}}"/>
+            <itunes:category text="Technology" />
+            <itunes:category text="Education">
+                <itunes:category text="How To"/>
+                <itunes:category text="Courses"/>
             </itunes:category>
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>

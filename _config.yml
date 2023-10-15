@@ -156,9 +156,6 @@ podcast_album_art: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idrat
 podcast_title: I'd Rather Be Writing Podcast
 podcast_owner: Tom Johnson
 podcast_email: tomjoht@gmail.com
-podcast_category: Technology
-podcast_subcategory: Software How-to
-podcast_category_second: Education
 podcast_explicit: "No"
 podcast_author: Tom Johnson
 podcast_description: Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.
