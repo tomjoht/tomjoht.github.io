@@ -1,5 +1,15 @@
 podcasts:
 
+- title: Inside Tech Comm with Zohra Mutabanna
+  author: Zohra Mutabanna
+  url: https://www.insidetechcomm.show/
+  img: zohra_mutabanna.jpeg
+
+- title: Content Components
+  author: Patrick Bosek
+  url: https://easydita.com/project/content-components-podcast/
+  img: content_components.jpeg
+
 - title: 10 Minute Tech Comm podcast
   author: Ryan Weber
   url: https://www.stitcher.com/podcast/uah-technical-writing/10minute-tech-comm
@@ -20,15 +30,28 @@ podcasts:
   url: https://www.scriptorium.com/category/podcast/
   img: contentstrategyexperts.jpg
 
-- title: I'd Rather Be Writing podcasts
-  author: Tom Johnson
-  url: https://idratherbewriting.com/podcasts/
-  img: tomjohnsonpodcast.jpg
-
 - title: Grammar Girl podcast
   author: Mignon Fogarty
   url: https://www.quickanddirtytips.com/grammar-girl
   img: grammargirl.jpg
+
+- title: Knowledgebase Ninjas
+  author: Gowri Ramkumar (Document 360)
+  url: https://document360.io/blog/category/knowledgebase-ninjas/
+  img: kbninjas.png
+
+- title: The Content Strategy Podcast
+  author: Kristina Halvorson
+  url: https://www.contentstrategy.com/podcast
+  img: content_strategy.png
+
+
+podcasts_fizzled:
+
+- title: Let's Talk Docs
+  author: Portia Burton and Eric Holscher
+  url: https://ltd-podcast.sustainoss.org/
+  img: letstalkdocs.png
 
 - title: Write the Docs podcast
   author: Chris Ward, Tom Johnson, and other WTD community
@@ -50,42 +73,7 @@ podcasts:
   url: https://podcasts.apple.com/podcast/the-manuscript/id1501843799
   img: the_manuscript.png
 
-- title: Knowledgebase Ninjas
-  author: Gowri Ramkumar (Document 360)
-  url: https://document360.io/blog/category/knowledgebase-ninjas/
-  img: kbninjas.png
-
 - title: Instrktiv's Insane Instructions Show
   author: Ferry Vermeulen
   url: https://open.spotify.com/show/0OqluDn7YSjc1cdAULPOB8
   img: instrktiv.png
-
-- title: The Content Strategy Podcast
-  author: Kristina Halvorson
-  url: https://www.contentstrategy.com/podcast
-  img: content_strategy.png
-
-- title: Content Components
-  author: Patrick Bosek
-  url: https://easydita.com/project/content-components-podcast/
-  img: content_components.jpeg
-
-- title: Inside Tech Comm with Zohra Mutabanna
-  author: Zohra Mutabanna
-  url: https://www.insidetechcomm.show/
-  img: zohra_mutabanna.jpeg
-
-- title: Titans of Tech Comm
-  author: Vivek Nanda
-  url: https://heretto.com/video/titans-of-tech-comm/
-  img: titansoftechcomm.png
-
-- title: Let's Talk Docs
-  author: Portia Burton and Eric Holscher
-  url: https://ltd-podcast.sustainoss.org/
-  img: letstalkdocs.png
-
-- title: Win with Content
-  author: Herreto
-  url: https://heretto.com/win-with-content/
-  img: winwithcontent2.png

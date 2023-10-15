@@ -29,4 +29,4 @@ The Let's Talk Docs podcast (which is associated under the larger [Sustain podca
 * [Episode 3: Fabrizio Ferri-Benedetti](https://ltd-podcast.sustainoss.org/3)
 * [Episode 1: Megan Sullivan](https://ltd-podcast.sustainoss.org/1)
 
-I added Let's Talk Docs to my [list of tech comm podcasts here](/technical-writing-podcasts/).
+I added Let's Talk Docs to my [list of tech comm podcasts here](/podcasts#recommended).
