@@ -2,7 +2,7 @@
 title: "API The Docs Virtual Series 2020 -- Upcoming presentations and thoughts on the virtual format"
 permalink: /blog/api-the-docs-virtual-conference-2020/
 categories:
-- podcasts
+- podcasting
 - community
 - api-doc
 keywords:

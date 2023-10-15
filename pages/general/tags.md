@@ -32,10 +32,12 @@ mytags:
   url: /category-quick-reference-guides/
 - title: News
   url: /category-news/
-- title: Podcasts
+- title: My podcasts
   url: /podcasts/
 - title: Podcasting
-  url: /category-podcasting/
+  url: /category-podcasting
+- title: Podcast guest
+  url: /category-podcast-guest
 - title: Screencasting
   url: /category-screencasting/
 - title: Simplifying Complexity

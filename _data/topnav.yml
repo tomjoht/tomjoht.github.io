@@ -79,14 +79,6 @@ topnav_dropdowns:
           url: https://www.buymeacoffee.com/learnapidoc/extras
           external: show
 
-    - title: Podcasts
-      folderitems:
-        - title: "I'd Rather Be Writing Podcasts"
-          url: /podcasts/
-        - title: Other techcomm podcasts
-          url: /technical-writing-podcasts/
-
-
     - title: About
       folderitems:
         - title: About me

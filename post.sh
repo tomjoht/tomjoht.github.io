@@ -47,6 +47,8 @@ categories:
 - jekyll
 - jobs
 - podcasts
+- podcasting
+- podcast-guest
 - quick-reference-guides
 - screencasting
 - simplifying-complexity
@@ -56,6 +58,7 @@ categories:
 - web-design
 - wikis
 - wordpress
+- wtd-podcasts
 - writing
 keywords: 
 rebrandly: https://idbwrtng.com/$SLUG

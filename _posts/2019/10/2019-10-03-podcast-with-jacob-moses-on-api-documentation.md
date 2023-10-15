@@ -3,7 +3,7 @@ title: "Podcast with Jacob Moses on the Not-Boring Tech Writer: Skill #26: Getti
 categories:
 - api-doc
 - beginners
-- podcasts
+- podcast-guest
 keywords:
 bitlink: https://idratherbewriting.site/jacmospodcastep26
 description: "Jacob Moses has a podcast called <a href='https://www.thenotboringtechwriter.com'>The Not-Boring Tech Writer</a>. Recently, he interviewed me for an episode titled <a href='https://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26'>Skill #26: Getting Started with API Documentation</a>."

@@ -4,7 +4,6 @@ permalink: /blog/video-recordings-for-raleigh-api-documentation-workshop/
 categories:
 - academics-and-practitioners
 - api-doc
-- podcasts
 - screencasting
 - api-doc-site-updates
 keywords:

@@ -110,6 +110,7 @@
                   <!-- single item nav items appear here -->
                     {% assign topnav = site.data[page.topnav] %}
 <li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/">Blog</a></li>
+<li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/podcasts">Podcast</a></li>
                     {% for entry in topnav.navbar_singleitems %}
                     {% for item in entry.items %}
                     {% if page.url contains item.url %}

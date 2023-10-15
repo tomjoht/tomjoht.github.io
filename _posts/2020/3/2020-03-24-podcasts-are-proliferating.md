@@ -2,7 +2,7 @@
 title: "Tech comm podcasts are growing -- here's a list"
 permalink: /blog/tech-comm-podcasts-are-growing/
 categories:
-- podcasts
+- podcasting
 keywords:
 rebrandly: https://idratherbewriting.site/podcastsgrowing
 description: "Podcasts seem to be growing now more than ever. Here's a list of more than ten technical writing podcasts that you can listen to."

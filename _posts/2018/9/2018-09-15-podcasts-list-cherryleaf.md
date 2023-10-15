@@ -1,7 +1,7 @@
 ---
 title: "Tech comm podcasts roundup and survey"
 categories:
-- podcasts
+- podcasting
 keywords:
 description: "The latest Cherryleaf podcast lists the available tech comm podcasts and how to get started with your own podcast. I created a short survey about podcasts to gather some feedback about your listening habits and preferences."
 bitlink: http://bit.ly/podcastsurveytc

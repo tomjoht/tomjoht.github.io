@@ -4,7 +4,8 @@ categories:
 - api-doc
 - jekyll
 - dita
-- podcasts
+- podcast-guest
+- podcasting
 keywords: podcast, ed marsh, api documentation, careers, story
 description: "Ed Marsh had me as a guest on episode 4 of his Content Content podcast, which is now available to listen to."
 ---

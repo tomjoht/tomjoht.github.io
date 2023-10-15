@@ -2,7 +2,7 @@
 title: "The Untold Story of Techwriter.pl: A Polish website about technical communication for technical writers, trainers, and translators"
 categories:
 - technical-writing
-- podcasts
+- podcasting
 keywords:
 description: Techwriter.pl is an online hub of information for technical writers in Poland. Although it's maintained by volunteers, the site continues to thrive from its inception in 2013 up through today. The following is a guest post by Michal Skowron and Jakub Wisniewski, two Poland-based technical writers who helped shape Techwriter.pl and who wanted to tell the story of the site.
 bitlink: http://bit.ly/techwriterplstory

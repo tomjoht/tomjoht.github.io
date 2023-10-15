@@ -2,7 +2,7 @@
 title: "New podcast: Unifying Technical Content Sets into a Broader Ecosystem, with Cruce Sanders at [A]"
 permalink: /blog/podcast-with-cruce-sanders-enterprise-versus-agile/
 categories:
-- podcasts
+- podcast-guest
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/enterprisevsagilepodcast

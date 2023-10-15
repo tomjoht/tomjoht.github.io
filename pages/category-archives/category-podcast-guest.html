@@ -1,0 +1,16 @@
+---
+title: "Podcast guest"
+permalink: /category-podcast-guest/
+categoryName: podcast guest
+---
+
+<p>The podcasting category lists topics related to podcasting, but it doesn't strictly include podcasts here. Podcasting could include posts about podcasting, such as good podcasts to listen to or thoughts on trends in podcasting. My podcasts category, in contrast, actually factors into the XML feed for my podcast, so it has the right tags for enclosures and MP3 files and such.</p>
+
+<p>The following content is in the <b>podcasting</b> category:
+
+    {% for p in site.categories.podcasting %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endfor %}
+
+{% include ads.html %}

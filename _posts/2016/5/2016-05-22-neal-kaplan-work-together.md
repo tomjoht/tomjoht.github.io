@@ -9,6 +9,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/writet
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3
 redirect_from: 
 - /2016/05/22/bridging-gap-between-docs-and-support/
+podcast_length: 18510066
 ---
  
 * TOC

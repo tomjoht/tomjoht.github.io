@@ -1,9 +1,10 @@
 ---
-title: "My Knowledgebase Ninjas podcast episode -- \"Metrics don't work\""
+title: "My Knowledgebase Ninjas podcast episode -- Metrics don't work"
 permalink: /blog/knowledgebase-ninjas-podcast-metrics-dont-work.html
 categories:
 - technical-writing
-- podcasts
+- podcasting
+- podcast-guest
 keywords:
 rebrandly: https://idratherbewriting.site/kbninjasmetrics
 description: "I recently appeared on the <a href='https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/'>Knowledgebase Ninjas podcast</a> in an episode titled <i>Metrics Don't Work</i>. In the podcast, I chat with Gowri Ramkumar about documentation processes, why metrics are problematic, advantages and disadvantages of docs-as-code models, why measuring doc traffic falls short, the value of internal documentation, people I've learned from in my career, advice for my younger self, and more."
