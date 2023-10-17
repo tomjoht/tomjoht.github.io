@@ -3,6 +3,7 @@ title: "Content Strategy Insights podcast with Larry Swanson about API documenta
 permalink: /blog/podcast-larry-swanson-api-documentation/
 categories:
 - api-doc
+- podcast-guest
 keywords:
 rebrandly: https://idbwrtng.com/apidocpodcastlarryswanson
 description: "Larry Swanson, a UX content strategist, runs a podcast called <a href='https://ellessmedia.com/csi/'>Content Strategy Insights</a>. Larry recently interviewed me a few weeks ago about various topics related to API documentation."

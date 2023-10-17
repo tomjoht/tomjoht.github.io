@@ -8,7 +8,7 @@ redirect_from:
 - /technical-writing-podcasts
 ---
 
-You can listen to the I'd Rather Be Writing podcast on most podcast platforms. This category page lists all podcasts that I've recorded as part of my site, I'd Rather Be Writing, and which get included in my [podcast feed](/itunes.rss). I've been recording and sharing podcasts for more than a decade, and though my consistency has fluctuated, I've always championed recording and sharing presentations and other conversations whenever possible.
+You can listen to the I'd Rather Be Writing podcast on most podcast platforms. This category page lists all podcasts that I've recorded and included in my [podcast feed](/itunes.rss). I've been recording and sharing podcasts for more than a decade, with varying formats. For example, I started out mostly interviewing people, then transitioned to recording presentations, experimented with some individual monologue podcasts, explored discussion podcasts with co-hosts, and more. I like experimenting with different approaches.
 
 ## Subscribe to the podcast {#subscribe}
 
@@ -17,7 +17,7 @@ You can listen to the I'd Rather Be Writing podcast on most podcast platforms. T
 * TOC
 {:toc}
 
-## Recent idratherbewriting.com podcast episodes {#recent_episodes}
+## All podcast episodes {#recent_episodes}
 
 <ol reversed="true">
 {% for p in site.categories.podcasts %}
@@ -48,7 +48,7 @@ I used to participate in the <a href='https://podcast.writethedocs.org/'>Write t
 {% endfor %}
 </ol>
 
-## Other recommended techcomm podcasts {#recommended}
+## Other techcomm podcasts {#recommended}
 
 The following are active podcasts related to technical writing, language, content strategy, and so on.
 
