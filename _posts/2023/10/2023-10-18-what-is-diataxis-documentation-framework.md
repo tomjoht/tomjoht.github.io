@@ -60,7 +60,7 @@ Here are some key benefits and promises of the Diátaxis approach:
 
 ## Who is Daniele Procida?
 
-Daniele Procida developed the Diátaxis approach to documentation. Although he has a background in philosophy, Procida has been in the tech industry for a decade now, and has been involved in open-source software for even longer. He is currently the Engineering Director at Canonical.
+Daniele Procida developed the Diátaxis approach to documentation. Although he has a background in philosophy, Procida has been in the tech industry for a decade now, and has been involved in open-source software for even longer. He is currently an Engineering Director at Canonical.
 
 ## Comparing Diátaxis with other approaches
 
