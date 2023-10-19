@@ -1,5 +1,5 @@
 ---
-title: "AI news conversation with Fabrizio Ferri Benedetti"
+title: "Chatting about AI trends and tech comm with Fabrizio Ferri Benedetti"
 permalink: /blog/ai-chat-fabrizio-podcast
 date: 2023-10-16
 categories:
@@ -13,11 +13,14 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 70.6
 podcast_duration: "49:01"
 podcast_length: 70595626
-description: "In this podcast, I chat with Fabrizio Ferri Benedetti about various AI topics in the news. We talk about the Forrester AI jobs impact forecast, the way the profession is changing, whether the word 'content' is problematic, and more."
+description: "In this podcast, I chat with Fabrizio Ferri Benedetti, a tech writer in Barcelona who blogs at passo.uno and works for Splunk, about various AI news topics. We talk about the Forrester AI jobs impact forecast, the way the profession is changing with AI, content design roles where you train LLMs on language, how processes and interactions can't be automated, whether the word 'content' is problematic, and more."
 ---
 
 {% include audio.html %}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YyAtNrJQu-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## More about Fabrizio
 
 ## Links
 
