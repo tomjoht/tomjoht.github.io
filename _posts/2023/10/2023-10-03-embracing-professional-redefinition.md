@@ -146,7 +146,7 @@ When I spend a few days trying something new that flops (for example, trying to 
 
 To avoid obsolescence, dabbling in new skills won't cut it. We need to dedicate time to redefining our role through high-risk, high-reward experiments. But what the experiments should be, exactly, remains unclear. At the same time, we can't totally ignore our current doc work. We're shakily straddling at least two worlds&mdash;an unsure present and unclear future. This is the position we all find ourselves in.
 
-<img src="{{site.media}}/writeratcrossroads.jpg" alt="writer at crossroads" /></a>
+<img src="{{site.media}}/writeratcrossroads.jpg" alt="writer at crossroads" />
 
 ## Postscript
 

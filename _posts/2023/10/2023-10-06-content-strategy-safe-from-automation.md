@@ -103,6 +103,8 @@ Although this post might seem like a downer, it actually isn't. The failure of A
 
 This is a topic I'll need to explore in more depth. And obviously, my planning experiments were half-baked. But I think content strategy is a good area to expand on.
 
+<img src="{{site.media}}/morecomplexrolestw.jpg" alt="Expanding into content strategy" />
+
 ## Quickly surveying research 
 
 A quick survey of research suggests that analytical thinking and complex decision-making won't easily be automated by AI, especially compared to tasks such as writing. Here are a few sources that support this idea.
