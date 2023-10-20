@@ -151,6 +151,8 @@ Technical communicators are modern practitioners of rhetoric. We study recurring
 
 Let’s briefly look at the information patterns that Procida makes explicit. We’ll look at each information type and describe the salient characteristics.
 
+<img style="max-width=600px" src="{{site.media}}/ditataxisinfographic.jpg" alt="Diátaxis information patterns" />
+
 ### Information patterns in tutorials
 
 In the Diátaxis approach to documentation, a [tutorial](https://diataxis.fr/tutorials/) is "a lesson, safely in the hands of an instructor" that provides a guided, hands-on learning experience.
