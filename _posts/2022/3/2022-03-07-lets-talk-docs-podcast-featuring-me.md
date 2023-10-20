@@ -3,6 +3,7 @@ title: "Let's Talk Docs podcast -- episode on measuring API documentation qualit
 permalink: /trends/lets-talk-docs-podcast-featuring-me/
 categories:
 - technical-writing
+- podcast-guest
 keywords:
 rebrandly: https://idbwrtng.com/letstalkdocs
 description: "There's a new podcast called <a href='https://ltd-podcast.sustainoss.org/'>Let's Talk Docs</a>, hosted by Portia Burton and Eric Holscher (co-founder of Write the Docs). They recently interviewed me for episode 2."

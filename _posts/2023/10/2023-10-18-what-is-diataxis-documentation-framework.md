@@ -98,7 +98,7 @@ Cheung says information management uses these three principles:
 > * Relevance: limit each group or “unit of information” to a single topic, purpose, or idea.
 > * Labelling: give each unit of information a meaningful name.
 
-Here Information Mapping seems more similar to DITA than Diátaxis, in that information is broken down into small chunks with single ideas. The labels, however, seem unique to Information Mapping and interestingly seem to share commonly with embedding techniques used when preparing information for LLMs.
+Here Information Mapping seems more similar to DITA than Diátaxis, in that information is broken down into small chunks with single ideas. The labels, however, seem unique to Information Mapping and interestingly seem to share commonality with embedding techniques used when preparing information for LLMs.
 
 ### How does Diátaxis compare to The Good Docs project?
 
