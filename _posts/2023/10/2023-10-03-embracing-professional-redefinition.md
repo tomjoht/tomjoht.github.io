@@ -146,6 +146,8 @@ When I spend a few days trying something new that flops (for example, trying to 
 
 To avoid obsolescence, dabbling in new skills won't cut it. We need to dedicate time to redefining our role through high-risk, high-reward experiments. But what the experiments should be, exactly, remains unclear. At the same time, we can't totally ignore our current doc work. We're shakily straddling at least two worlds&mdash;an unsure present and unclear future. This is the position we all find ourselves in.
 
+<img src="{{site.media}}/writeratcrossroads.jpg" alt="writer at crossroads" /></a>
+
 ## Postscript
 
 This essay wouldn't be complete without acknowledging some AI assistance. For fun, here is the [Claude thread](https://shareclaude.top/c/dgikjps) that shows how I used AI to help with this post. For the initial draft, I tried to steer Claude paragraph by paragraph through the ideas I wanted to express. I'm not sure it saved me much time, though, as I ended up rewriting most everything. Interestingly, as the essay progresses, I seem to try to take back control by injecting increasingly personal anecdotes and a perspective expressing uncertainty and self-doubt. This may have been me pushing back against the machine. Claude also let me go in directions that I later regretted.

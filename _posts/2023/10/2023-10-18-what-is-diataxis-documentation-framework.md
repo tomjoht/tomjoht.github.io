@@ -247,6 +247,8 @@ So I decided to group all the conceptual topics into a central "Map Data Concept
 
 Although I was initially reluctant to separate out concepts from the API overviews, this turned out to be a good move. Both conceptual definitions and overviews probably fit under “Explanation,” but even more granular separation of content by different explanation types seemed helpful. I have a clear place to add more conceptual information, and I can better integrate it with the other concepts more harmoniously.
 
+{% include ads.html %}
+
 ## Will information organization still be necessary when users interface with docs through AI tools?
 
 At this point, note that I’m steering away from explanations of Diátaxis and introducing my own ideas. With the rise of AI, I think the information architecture of help content may become less critical in the future. I believe most users will likely interface with documentation primarily through chatbots and other AI tools rather than navigating a complex help system. I wrote about this in [AI chat interfaces could become the primary user interface to read documentation](https://idratherbewriting.com/blog/ai-chat-interfaces-are-the-new-user-interface-for-docs)
