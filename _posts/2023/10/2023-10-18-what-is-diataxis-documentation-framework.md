@@ -28,7 +28,7 @@ You can read more about it here: [Diátaxis](https://diataxis.fr). It seems Diá
 
 I knew Diátaxis involves organizing docs into four specific content types: explanation, reference, tutorials, and tasks. But I was fuzzy on most other specifics. The constant references to Diátaxis made me wonder, what am I missing? Is there something new here? Is this how I should be approaching the structure of my own documentation? And why is Diátaxis growing in popularity? What’s unique about the approach, and how does it differ from DITA?
 
-<a href="https://diataxis.fr" class="noCrossRef"><img src="{{site.media}}/diataxisdiagram.png" style="border: 1px solid #dedede" alt="Diataxis diagram" /></a>
+<a href="https://diataxis.fr" class="noCrossRef"><img src="{{site.media}}/diataxisdiagram.png" style="border: 1px solid #dedede; max-width:600px" alt="Diataxis diagram" /></a>
 
 ## What is Diátaxis?
 
