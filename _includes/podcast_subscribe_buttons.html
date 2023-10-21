@@ -1,11 +1,24 @@
+{% if include.options == "truncated" %}
+<div class="podcastButtonsEmbedPost">
 <div class="podcastButtons">
-<div class="podcastcol1">
+<a target="_blank" class="noCrossRef" href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275"><img src="{{site.media}}/available-on-itunes-button.png" /></a>
+
+<a target="_blank" class="noCrossRef" href="https://www.youtube.com/@idratherbewriting"><img src="{{site.media}}/watchonyoutubeblack.png" /></a>
 
 <a target="_blank" class="noCrossRef" href="https://open.spotify.com/show/4HeOZfPGMMfViOhVS40QBD"><img src="{{site.media}}/listen-on-spotify.png" /></a>
+</div>
+</div>
+{% endif %}
+
+{% if include.options == "all" %}
+<div class="podcastButtons">
+<div class="podcastcol1">
 
 <a target="_blank" class="noCrossRef" href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275"><img src="{{site.media}}/available-on-itunes-button.png" /></a>
 
 <a target="_blank" class="noCrossRef" href="https://www.youtube.com/@idratherbewriting"><img src="{{site.media}}/watchonyoutubeblack.png" /></a>
+
+<a target="_blank" class="noCrossRef" href="https://open.spotify.com/show/4HeOZfPGMMfViOhVS40QBD"><img src="{{site.media}}/listen-on-spotify.png" /></a>
 
 </div>
 
@@ -28,3 +41,4 @@
 </div>
 <div style="clear: both;"></div>
 
+{% endif %}

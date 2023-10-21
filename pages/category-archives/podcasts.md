@@ -12,7 +12,7 @@ You can listen to the I'd Rather Be Writing podcast on most podcast platforms. T
 
 ## Subscribe to the podcast {#subscribe}
 
-{% include podcast_subscribe_buttons.html %}
+{% include podcast_subscribe_buttons.html options="all" %}
 
 * TOC
 {:toc}
