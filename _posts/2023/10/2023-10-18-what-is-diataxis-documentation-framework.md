@@ -287,6 +287,10 @@ You could even include descriptions of each template section. The AI tool will t
 
 In conclusion, should you be using Diátaxis? Even if you don’t separate content by type, defining and shaping content into these four content types might help improve your documentation. It’s an easy-to-understand approach to documentation that draws power and appeal from this simplicity. You can learn more at [https://diataxis.fr](https://diataxis.fr). 
 
+## Related resources
+
+See this BrightTALK video [Introducing the Diátaxis Approach to Technical Documentation](https://www.brighttalk.com/webcast/9273/594742).
+
 <hr/>
 
 *I wrote this post with some AI assistance.*
