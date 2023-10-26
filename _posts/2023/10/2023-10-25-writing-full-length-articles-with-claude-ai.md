@@ -383,4 +383,4 @@ For creative content, I'm leaning towards this conclusion: the best use of AI is
 
 <hr/>
 
-<small>This post was written with some AI-assistance. For another example of the paragraph-by-paragraph technique, see <a href="https://shareclaude.top/c/xtnptcf">claude thread</a>.</small>
+<small>This post was written with some AI-assistance. (You can see the <a href="https://shareclaude.top/c/xtnptcf">main Claude thread here</a>.)</small>
