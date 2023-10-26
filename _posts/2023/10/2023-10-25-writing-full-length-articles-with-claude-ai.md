@@ -228,7 +228,7 @@ For example, I'll copy an entire section and ask Claude to suggest a prompt for 
 
 Plugging that into DALLE3 (a plugin with ChatGPT Plus), renders 4 different image prompts, each diversified:
 
-> Photo of a bustling film set with crew members moving around. In the center, a female director of Asian descent stands, holding a film script in one hand and gesturing with the other. Two actors, a Black male and a Caucasian female, listen intently to her guidance. Behind them, a large clapperboard displays the text 'AI Oversight Scene 1'. Lighting equipment and cameras frame the background, capturing the essence of a live movie set.
+> Wide format photo of a film director on a set, standing behind a camera and observing two actors in a living room scene. The director, wearing jeans, a button-down shirt, and a ballcap, holds a megaphone. The scene exudes the magic of cinema with crew members like a cinematographer and boom operator at work.
 
 <img src="{{site.media}}/directormetaphorai.jpg" alt="Director metaphor for writing" />
 
