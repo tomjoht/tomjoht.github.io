@@ -15,6 +15,7 @@ podcast_length: 50108886
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ai_and_apis.mp3
 rebrandly: https://idbwrtng.com/podcast-ai-and-apis-what-works
 description: "In conversations about AI, a lot of tech writers are asking what kind of scenarios is AI good for? What works, what doesn’t? In which scenarios? You may have read my responses to these questions before in previous posts, but this time I recorded a podcast with slides. In the podcast, I try to pull together these ideas into more of a narrative shape and flow. This podcast focuses on clarifying those scenarios where AI excels and where it doesn’t, particularly for technical writers creating documentation. I also argue for the inevitability of AI integration through an argument referred to as the 'obsolescence regime.'"
+image: aiandapispodcastthumb.jpg
 ---
 
 * TOC

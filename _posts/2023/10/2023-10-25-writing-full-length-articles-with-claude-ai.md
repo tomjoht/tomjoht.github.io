@@ -9,6 +9,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/writing-full-length-articles-with-claude-ai
 description: "You can use AI tools like Claude to help you write full-length content. By going paragraph-by-paragraph, you can direct the AI while seemingly maintaining your own voice and ideas. However, despite my attempts to use AI with writing, I've found that it's harder to pull off than I thought. I can come kind of close, but due to the way AI tools are trained, they inevitably steer into explanation more than argument. This can remove much of the interest from a personal essay."
+image: directormetaphorai.jpg
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/usingclaudeaitowritearticles.mp3
 podcast_file_size: 29.8
 podcast_duration: "37:30"

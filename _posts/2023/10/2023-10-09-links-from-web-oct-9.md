@@ -10,7 +10,8 @@ categories:
 - news
 keywords: 
 rebrandly: https://idbwrtng.com/links-from-web-oct-10
-description: "The following are links from around the web for October 10, 2023."
+description: "The following are links from around the web for October 10, 2023. Forrester predicts a major AI impact on U.S. jobs in 2023. A CEO faces backlash for replacing and criticizing human staff with ChatGPT. Zeb Larson assures coders that ChatGPT isn't a job threat, while Rex Woodbury explores the rise of hyper-personalization. Finally, sales execs welcome AI's role in their industry."
+image: forresterreporttws2.png
 ---
 
 Articles listed here include the following:

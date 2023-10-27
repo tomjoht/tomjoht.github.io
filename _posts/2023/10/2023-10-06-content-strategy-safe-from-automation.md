@@ -8,6 +8,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/content-strategy-safe-from-automation
 description: "I experimented with using AI tools to help with planning and prioritizing my documentation work. However, I found that the AI tools weren't very helpful for this complex, analytical task. This suggests that content strategy roles, which require higher-level thinking like strategic analysis and decision-making, could be a promising area for technical writers to specialize in as AI starts automating more routine writing."
+image: morecomplexrolestw.jpg
 ---
 
 * TOC

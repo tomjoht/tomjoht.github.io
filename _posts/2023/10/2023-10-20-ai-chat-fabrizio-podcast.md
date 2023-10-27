@@ -13,6 +13,7 @@ podcast_file_size: 70.6
 podcast_duration: "49:01"
 podcast_length: 70595626
 description: "In this podcast, I chat with Fabrizio Ferri Benedetti, a tech writer in Barcelona who blogs at passo.uno and works for Splunk, about various AI news topics. We talk about the Forrester AI jobs impact forecast, the community element in documentation, the way the profession is changing with AI, content design roles with LLMs, how complex processes and interactions can't be automated, whether the word 'content' is problematic, and more."
+image: fabriziopodcasthumb.jpg
 ---
 
 {% include audio.html %}

@@ -7,6 +7,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/claude-pro-review
 description: "In this post, I compare ChatGPT and Claude on an Alaskan cruise. Claude seems better at handling long content, and ChatGPT shorter content. Using both chatbots, I asked many questions to learn about my cruise surroundings. The chatbots expanded my curiosity and made me more attentive to my environment by encouraging endless questions."
+image: cruisebridgetour2.jpg
 ---
 
 Currently, two of the most popular chatbots are [ChatGPT](https://chat.openai.com/) and [Claude](https://claude.ai). Most people have heard of ChatGPT, fewer Claude. Until recently, Claude was available for free in a limited way, allowing only a certain number of queries per hour. Then Claude came out with [Claude Pro](https://www.anthropic.com/index/claude-pro), offering 5x the amount of data queries. They priced it the same as ChatGPT: $20/month.

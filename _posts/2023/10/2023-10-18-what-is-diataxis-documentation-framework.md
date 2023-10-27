@@ -9,6 +9,7 @@ categories:
 keywords: diataxis, documentation frameworks, methodologies
 rebrandly: https://idbwrtng.com/what-is-diataxis-documentation-framework
 description: "The Diátaxis approach to documentation organizes technical documentation into four types — tutorials, how-tos, reference, and explanation. In this post, I compare Diátaxis to DITA, Information Mapping, and the Good Docs Project, explaining similarities and differences. I also point out why identifying information patterns can be so worthwhile as a technical writer, and how identifying these patterns not only grounds our practice in the larger practice of rhetoric but also gives us useful patterns to use with AI tools."
+image: diataxisdiagram.png
 ---
 
 * TOC

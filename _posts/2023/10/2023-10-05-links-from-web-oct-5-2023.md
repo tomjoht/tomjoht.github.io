@@ -8,7 +8,8 @@ categories:
 - news
 keywords: 
 rebrandly: https://idbwrtng.com/links-from-web-oct-5-2023
-description: "The following are summaries of interesting articles from around the web, as well as my commentary."
+description: "The following are summaries of interesting articles from around the web, as well as my commentary. Daniel Beck debunks myths surrounding open-source documentation portfolios. Silicon Valley's top AI firms are intriguingly recruiting poets. Jason Bailey supports Emma Thompson's stance on the term 'content' being disrespectful. The potential of A.I. is examined beyond the hype, emphasizing its aid for human writers and editors. Ivan Walsh provides insights on optimizing ChatGPT prompts for technical summaries, while Ellis Pratt discusses how AI agents can be a time-saver for technical writers."
+image: svhiringpoetsthumb.jpg
 ---
 
 Articles listed here include the following:
