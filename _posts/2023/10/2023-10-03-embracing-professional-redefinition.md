@@ -9,7 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/embracing-professional-redefinition
 redirect_from: 
 - /learnapidoc/docapis_ai_professional_redefinition.html
-description: "If AI transforms the tech writing field, as many think it will, we'll face a choice of either resisting change and skirting with obsolescence, or reinventing our professional identity. Reinventing one's identity, particularly letting go of the sense of being a <i>writer</i> first and foremost, is psychologically difficult."
+description: "If AI transforms the tech writing field, as many think it will, we'll face a choice of either resisting change and skirting with obsolescence, or reinventing our professional identity. Reinventing one's identity, particularly letting go of the sense of being a <i>writer</i> first and foremost, is psychologically difficult. We need to dedicate time to redefining our role through high-risk, high-reward experiments. But what the experiments should be, exactly, remains unclear."
 image: embraceprofredefinitionthumb.png
 ---
 
