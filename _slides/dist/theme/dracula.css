@@ -1,33 +1,35 @@
 /**
- * Sky theme for reveal.js.
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Dracula Dark theme for reveal.js.
+ * Based on https://draculatheme.com
  */
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
-.reveal a {
-  line-height: 1.3em;
+/**
+ * Dracula colors by Zeno Rocha
+ * https://draculatheme.com/contribute
+ */
+html * {
+  color-profile: sRGB;
+  rendering-intent: auto;
 }
 
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
-  color: #fff;
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #282A36;
 }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #f7fbfc;
-  --r-main-font: Open Sans, sans-serif;
+  --r-background-color: #282A36;
+  --r-main-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   --r-main-font-size: 40px;
-  --r-main-color: #333;
+  --r-main-color: #F8F8F2;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Quicksand, sans-serif;
-  --r-heading-color: #333;
+  --r-heading-font: League Gothic, Impact, sans-serif;
+  --r-heading-color: #BD93F9;
   --r-heading-line-height: 1.2;
-  --r-heading-letter-spacing: -0.08em;
-  --r-heading-text-transform: uppercase;
+  --r-heading-letter-spacing: normal;
+  --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: none;
@@ -35,22 +37,18 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading2-size: 2.11em;
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
-  --r-code-font: monospace;
-  --r-link-color: #3b759e;
-  --r-link-color-dark: #264c66;
-  --r-link-color-hover: #74a7cb;
-  --r-selection-background-color: #134674;
+  --r-code-font: Fira Code, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --r-link-color: #FF79C6;
+  --r-link-color-dark: #ff2da5;
+  --r-link-color-hover: #8BE9FD;
+  --r-selection-background-color: #44475A;
   --r-selection-color: #fff;
+  --r-overlay-element-bg-color: 240, 240, 240;
+  --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {
-  background: #add9e4;
-  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
-  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: #282A36;
   background-color: var(--r-background-color);
 }
 
@@ -365,4 +363,23 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+:root {
+  --r-bold-color: #FFB86C;
+  --r-italic-color: #F1FA8C;
+  --r-inline-code-color: #50FA7B;
+  --r-list-bullet-color: #8BE9FD;
+}
+
+.reveal strong, .reveal b {
+  color: var(--r-bold-color);
+}
+.reveal em, .reveal i, .reveal blockquote {
+  color: var(--r-italic-color);
+}
+.reveal code {
+  color: var(--r-inline-code-color);
+}
+.reveal ul li::marker, .reveal ol li::marker {
+  color: var(--r-list-bullet-color);
 }

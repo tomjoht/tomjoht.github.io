@@ -16,7 +16,6 @@ search: false
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{% if post.description %}{{post.description | xml_escape }}{% endif %}
-       {{ post.content | xml_escape }}
         </description>
         {% if post.image %}
         <media:content url="{{site.media}}/{{ post.image }}" {% if post.image contains ".jpg" %}type="image/jpeg"{% elsif post.image contains ".png" %}type="image/png"{% endif %} />

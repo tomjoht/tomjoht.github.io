@@ -350,7 +350,9 @@
 					layoutDropdown,
 					pendingCalls = {},
 					lastRevealApiCallId = 0,
-					connected = false;
+					connected = false
+
+				var connectionStatus = document.querySelector( '#connection-status' );
 
 				var SPEAKER_LAYOUTS = {
 					'default': 'Default',
@@ -361,17 +363,25 @@
 
 				setupLayout();
 
-				var connectionStatus = document.querySelector( '#connection-status' );
+				let openerOrigin;
+
+				try {
+					openerOrigin = window.opener.location.origin;
+				}
+				catch ( error ) { console.warn( error ) }
+
+				// In order to prevent XSS, the speaker view will only run if its
+				// opener has the same origin as itself
+				if( window.location.origin !== openerOrigin ) {
+					connectionStatus.innerHTML = 'Cross origin error.<br>The speaker window can only be opened from the same origin.';
+					return;
+				}
+
 				var connectionTimeout = setTimeout( function() {
 					connectionStatus.innerHTML = 'Error connecting to main window.<br>Please try closing and reopening the speaker view.';
 				}, 5000 );
 
 				window.addEventListener( 'message', function( event ) {
-
-					// Ignore post messages from other origins to prevent XSS
-					if( window.location.origin !== event.origin ){
-						return;
-					}
 
 					clearTimeout( connectionTimeout );
 					connectionStatus.style.display = 'none';
