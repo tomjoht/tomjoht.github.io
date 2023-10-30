@@ -14,6 +14,9 @@ description: "This tutorial shows you how to build your own balance board with b
 {:toc}
 
 {: .note}
+**Oct 2023 update**: If you're thinking about getting or making a balance board for a standing desk, consider trying the [Movemate standing board](/blog/movemate-review-standing-board) instead. Since writing this post, I've switched to using Movemate almost exclusively instead because it offers more movement possibilities.
+
+{: .note}
 This is the first balance board I've made, so take my approach with a grain of salt here. I'm not an experienced balance board DIYer. But the board I created seemed to work extremely well.
 
 ## Finished product
