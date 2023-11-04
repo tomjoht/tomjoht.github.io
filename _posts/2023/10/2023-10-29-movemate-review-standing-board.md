@@ -12,7 +12,7 @@ sidebar: sidebar_sitting
 image: movematepic2.jpg
 ---
 
-The [Movemate](https://www.letsmovemate.com/) standing board has been a gamechanger in helping me stand for longer periods of time at work without fatigue. I'm really excited about the product, actually. In this post, I'll share my thoughts on using Movemate, especially what's working for me. Note: This is _not_ a paid review. I'm just reviewing Movemate on my own accord.
+The [Movemate](https://www.letsmovemate.com/) standing board has been a gamechanger in helping me stand for longer periods of time at work without fatigue. I'm really excited about the product, actually. In this post, I'll share my thoughts on using Movemate, especially what's working for me. Note: This is not a paid review. I'm just reviewing Movemate on my own accord.
 
 <img src="{{site.media}}/movematepic1.jpg" alt="Movemate standing board" />
 
@@ -75,7 +75,7 @@ For example, whereas standing on a balance board puts me 6 inches off the ground
 
 ## Music helps induce natural motion
 
-I've found that listening to music helps naturally encourage some physical motion. If I listen to something with a regular beat, like [Lovers Rock](https://www.youtube.com/watch?v=wcJY0WDe-H4) by TV Girl, or [Elephant](https://www.youtube.com/watch?v=LnKUD_OztRE) by Tame Impala, or [Lazy eye](https://www.youtube.com/watch?v=DYd57rkvnpQ) by Silversun Pickups, I find myself moving more naturally to the music. Music elicits movement.
+I've found that listening to music helps naturally encourage some physical motion. If I listen to something with a regular beat, like [Lovers Rock](https://www.youtube.com/watch?v=wcJY0WDe-H4) by TV Girl, or [Elephant](https://www.youtube.com/watch?v=LnKUD_OztRE) by Tame Impala, or [Lazy eye](https://www.youtube.com/watch?v=DYd57rkvnpQ) by Silversun Pickups, I find myself moving more naturally to the music. Music induces movement.
 
 The many movement possibilities afforded by the board allow my body to more easily move with the music. I know it sounds corny, but it's true. You might find yourself sort of dancing in place without even realizing it.
 
@@ -103,7 +103,7 @@ I'm not sure if this motion will rehab my calf without also doing more focused a
 
 ## Lower back pain relief
 
-Standing periodically on the Movemate board also reduces a lot of pressure on my lower back. While any kind of periodic standing probably ehlps reduce back pressure, because Movemate allows me to stand more easily for longer periods, the effect on my back is more noticeable.
+Standing periodically on the Movemate board also reduces a lot of pressure on my lower back. While any kind of periodic standing probably helps reduce back pressure, because Movemate allows me to stand more easily for longer periods, the effect on my back is more noticeable.
 
 I don't know if others feel this way, but when I sit for hours at a time, I can feel my back compress down a bit. Standing up lets my vertebrae open up and breathe more easily. Of course, if I were to stand all day, I'd probably have similar back pain, but the switch-off between standing and sitting seems to provide good relief for lower back pain. 
 
@@ -121,9 +121,9 @@ One prohibitive factor about Movemate is the cost. As of October 2023, it costs 
 
 Also, the product really is a sturdy, impressively crafted wood unit. (I'm hesitant to call it a "board" because it feels so much more than that.) The 14 planks/slats are thick, treated wood with a curved bottom and rotating around 3 metal rods in a wave-like motion. There's also a built-in carrying handle. It probably weighs 10 pounds or so. 
 
-If I'm bringing Movemate to or from work, I can fit it in a skateboard backpack (which has more depth than a usual backpack). It's transportable, but not in a comfortable way because, as I said, it's sturdy. 
+If I'm bringing Movemate to or from work, I can fit it in a skateboard backpack (which has more depth than a usual backpack). It's transportable, but not in an easy way because, as I said, it's sturdy. 
 
-I think future versions might innovate on cost with other materials, but I prefer the solid feel of the wood. I'm trying to say that you're getting your money's worth with this wave board.
+All I'm trying to say that, despite the cost, you're getting your money's worth with this product. I think future versions might innovate on cost with other materials, but I prefer the solid feel of the wood.
 
 ## Conclusion
 
