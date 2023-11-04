@@ -10,6 +10,11 @@ description: "In this post, I compare ChatGPT and Claude on an Alaskan cruise. C
 image: cruisebridgetour2.jpg
 ---
 
+* TOC
+{:toc}
+
+## Introduction
+
 Currently, two of the most popular chatbots are [ChatGPT](https://chat.openai.com/) and [Claude](https://claude.ai). Most people have heard of ChatGPT, fewer Claude. Until recently, Claude was available for free in a limited way, allowing only a certain number of queries per hour. Then Claude came out with [Claude Pro](https://www.anthropic.com/index/claude-pro), offering 5x the amount of data queries. They priced it the same as ChatGPT: $20/month.
 
 I have subscriptions to both ChatGPT Plus and Claude Pro and have been comparing them. Both provide similarly intelligent answers to most questions I ask. The chatbots mostly differ in the input source limits. Claude has a 100k input source limit, while ChatGPT Plus's input source is around 4k tokens. (100k tokens is about 75k words. 4k tokens is about 3k words.) 
