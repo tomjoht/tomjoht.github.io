@@ -12,7 +12,7 @@ sidebar: sidebar_sitting
 image: movematepic2.jpg
 ---
 
-The [Movemate](https://www.letsmovemate.com/) standing board has been a gamechanger in helping me stand for longer periods of time at work without fatigue. I'm really excited about the product, actually. In this post, I'll share my thoughts on using Movemate, especially what's working for me. Note: This is not a paid review. I'm just reviewing Movemate on my own accord.
+The [Movemate](https://www.letsmovemate.com/) standing board has been a gamechanger in helping me stand for longer periods of time at work without fatigue. I'm really excited about the product, actually. In this post, I'll share my thoughts on using Movemate, especially what's working for me. Note: This is not a paid review. I'm just reviewing Movemate on my own.
 
 <img src="{{site.media}}/movematepic1.jpg" alt="Movemate standing board" />
 
@@ -25,7 +25,7 @@ I have a few previous posts on building balance boards for my standing desk. Jus
 
 I believe most people turn to standing desks due to some physical backstory. If you're perfectly happy sitting all day and don't experience any adverse effects from a highly sedentary, sitting-all-day lifestyle, count yourself lucky. Or you might just be too young for the sedentary lifestyle to start taking its toll. 
 
-I've tried many other boards and other techniques with standing desks. I started out with an anti-fatigue mat, which did little. I tried a few different wobble boards and balance boards. I even have a desk treadmill that's now collecting dust. Before Movemate, of my previous standing attempts, I had the best success on the balance board.
+I've tried many other boards and other techniques with standing desks. I started out with an anti-fatigue mat, which did little. I tried a few different wobble boards and balance boards. I even have a desk treadmill that's now collecting dust. Before Movemate, of my previous standing attempts, I had the most success with the balance board.
 
 However, despite the success with the balance board, I started noticing a drop in my work productivity. After a few months, I stopped standing on my balance board and returned to sitting again. I expected more benefits from standing and became discouraged when I didn't see it.
 
@@ -57,7 +57,7 @@ You can also see this video for a better demo:
 
 Here's the key idea: *The variety of board movements translates into a variety of physical body movements.* The variety of physical movement is what reduces standing fatigue. It's an ingenious design.
 
-To use an analogy about the benefits of multifaceted movement, consider a sport like basketball. During the game, you perform all kinds of movements &mdash; lateral cuts, running up and down the court (backwards and forwards), jumping up and down, bending low on defense, sprinting, standing, etc. Because of this physical movement variety, basketball players can play the game for 2+ hours. However, if I try to run, it's such a repetitive, monotonous movement that I quickly get bored and tired. I usually can't run for more than 10 minutes, but I can play basketball for much, much longer.
+To use an analogy about the benefits of multifaceted movement, consider a sport like basketball. During the game, you perform all kinds of movements &mdash; lateral cuts, running up and down the court (backwards and forwards), jumping, bending low on defense, sprinting, standing, etc. Because of this physical movement variety, basketball players can play the game for 2+ hours. However, if I try to run, it's such a repetitive, monotonous movement that I quickly get bored and tired. I usually can't run for more than 10 minutes, but I can play basketball all afternoon.
 
 Using Movemate has the same effect for me. The variety of movements makes standing interesting and less fatiguing, and allows me to stand for upwards of 45 minutes or more at a time.
 
@@ -65,7 +65,7 @@ Unlike a balance board, Movemate isn't trying to teach you to balance. It's inst
 
 ## Lower profile
 
-Unlike standing on a balance board, the Movemate board has a low profile. There's not a ton of curvature or height to the skinny planks. This makes it easier to work from.
+Unlike standing on a balance board, the Movemate board has a low profile. There's not a ton of curvature or height to the skinny planks. This makes it easier to work while standing on it.
 
 For example, whereas standing on a balance board puts me 6 inches off the ground, the Movemate doesn't add more than 2 inches. This is really nice for several reasons:
 
@@ -77,7 +77,7 @@ For example, whereas standing on a balance board puts me 6 inches off the ground
 
 I've found that listening to music helps naturally encourage some physical motion. If I listen to something with a regular beat, like [Lovers Rock](https://www.youtube.com/watch?v=wcJY0WDe-H4) by TV Girl, or [Elephant](https://www.youtube.com/watch?v=LnKUD_OztRE) by Tame Impala, or [Lazy eye](https://www.youtube.com/watch?v=DYd57rkvnpQ) by Silversun Pickups, I find myself moving more naturally to the music. Music induces movement.
 
-The many movement possibilities afforded by the board allow my body to more easily move with the music. I know it sounds corny, but it's true. You might find yourself sort of dancing in place without even realizing it.
+The many movement possibilities afforded by the board allow my body to more easily move with the music. I know it sounds corny, but it's true. You might find yourself sort of quietly dancing in place without even realizing it.
 
 ## Foot massage
 
@@ -85,7 +85,7 @@ Standing on the Movemate feels best in socks rather than shoes. At work, it migh
 
 The skinny accordion planks (like fingers) feel good on the feet, similar to a foot massage. We have many "proprioceptors" in our feet, and with all the motion in the board, the movement translates into a good feeling in the feet. 
 
-I've also noticed another benefit. When I would stand on a flat balance board, despite rolling back and forth, my ankles would sometimes go a bit numb from the static pressure. With Movemate, the frequent motion of the individual moving planks keeps my feet much more alive and full of feeling. As each of the planks moves, each of my feet moves with it (in an independent motion from the other foot), creating not just leg and body movement, but intra-foot movement. This is a benefit that flat boards can't offer.
+I've also noticed another benefit. When I would stand on a flat balance board, despite rolling back and forth, my ankles would sometimes go a bit numb from the static pressure. With Movemate, the frequent motion of the individual moving planks keeps my feet much more alive and full of feeling. As each of the planks moves, each foot moves with it (in an independent motion from the other foot), creating not just leg and body movement, but intra-foot movement. This is a benefit that flat boards can't offer.
 
 If you absolutely have to wear shoes in the office all the time, try getting some minimalist, zero-dop shoes. I've tried standing on the board with Xero shoes, and while it's better than standing on the board with cushiony running shoes, socks are still the best experience.
 
@@ -117,13 +117,13 @@ Instead, I try to listen more to my body. When I feel my body starting to get st
 
 ## Getting over the cost
 
-One prohibitive factor about Movemate is the cost. As of October 2023, it costs $359 + shipping. This is what initially made me reluctant to try it. However, if you think about all the money one spends on going to physical therapy, or on trying other standing board solutions only to find that they don't work, Movemate's price seems justified. 
+One prohibitive factor about Movemate is the cost. As of October 2023, it costs $359 + shipping. This is what initially made me reluctant to try it. However, if you think about all the money you mgiht spend going to physical therapy, or trying other standing board solutions only to find that they don't work, Movemate's price seems justified. 
 
 Also, the product really is a sturdy, impressively crafted wood unit. (I'm hesitant to call it a "board" because it feels so much more than that.) The 14 planks/slats are thick, treated wood with a curved bottom and rotating around 3 metal rods in a wave-like motion. There's also a built-in carrying handle. It probably weighs 10 pounds or so. 
 
 If I'm bringing Movemate to or from work, I can fit it in a skateboard backpack (which has more depth than a usual backpack). It's transportable, but not in an easy way because, as I said, it's sturdy. 
 
-All I'm trying to say that, despite the cost, you're getting your money's worth with this product. I think future versions might innovate on cost with other materials, but I prefer the solid feel of the wood.
+All I'm trying to say is that, despite the cost, you're getting your money's worth with this product. I think future versions might innovate on cost with other materials, but I prefer the solid feel of the wood.
 
 ## Conclusion
 
