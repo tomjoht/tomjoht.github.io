@@ -23,7 +23,7 @@ On the one hand, developers often lack expertise in all the languages provided b
 
 On the other side, the quality of the OSS-generated SDKs is often problematic and prone to bugs or other issues. There are often gaps that need to be filled for them to be usable by enterprises. This can be hard for engineers to manage due to the language variety and expertise needed.
 
-With Speakeasy, you can create enterprise-grade SDKs from an OpenAPI spec. They're marrying the quality of hand maintained SDKs, with the ease of use of the OSS generators. Most relevant to technical writers, Speakeasy is also launching a new tool called "Code as Docs" (currently in alpha stage) Their Code-as-Docs platform generates code samples from the SDK that technical writers can easily pull into their documentation, providing the kind of hands-on, copy-and-paste code users need to get up and running quickly with an SDK. 
+With [Speakeasy](https://www.speakeasyapi.dev), you can create enterprise-grade SDKs from an OpenAPI spec. They're marrying the quality of hand maintained SDKs with the ease of use of the OSS generators. Most relevant to technical writers, Speakeasy is also launching a new tool called "Code as Docs" (currently in alpha stage) Their Code-as-Docs platform generates code samples from the SDK that technical writers can easily pull into their documentation, providing the kind of hands-on, copy-and-paste code users need to get up and running quickly with an SDK. 
 
 The following is a Q&A with Sagar Batchu, co-founder and CEO of Speakeasy. 
 
@@ -104,7 +104,7 @@ As much as possible, we're trying to replicate the feeling of in-IDE type hints 
 
 **[Tom]: What if technical writers just want to get the code samples and integrate them into a different documentation platform? Is that possible? Can you speak more about how to integrate the output into an existing developer portal?**
 
-**[Sagar]:** If they're using Speakeasy to build their SDKs, that would certainly be possible. The way it currently works, we ship all of the output to a github repo specified by our customer. The documentation that we generate is MDX-based. If your docsite supports MDX, then you will be able to incorporate the output from our platform however you like.
+**[Sagar]:** If they're using Speakeasy to build their SDKs, that would certainly be possible. The way it currently works, we ship all of the output to a GitHub repo specified by our customer. The documentation that we generate is MDX-based. If your docsite supports MDX, then you will be able to incorporate the output from our platform however you like.
 
 If you only wanted code snippets, our CLI does have the ability to create snippets for specified methods, so that is also an option.
 
@@ -116,7 +116,7 @@ That said, we know we can't do everything. Tech writers can go into the generate
 
 **[Tom]: Can you explain more about how tech writers would add custom narratives to the generated doc? If these narratives aren't in the OpenAPI spec, and the Speakeasy output is a fully packaged website, how would one get the custom narratives in the output?**
 
-**[Sagar]:** It is a fully packaged website, but it's also fairly easy to edit. The site will live entirely within a github repo within our customers org. The repo structure is straightforward: each section of the docs is a file in the repository.
+**[Sagar]:** It is a fully packaged website, but it's also fairly easy to edit. The site will live entirely within a GitHub repo within our customers org. The repo structure is straightforward: each section of the docs is a file in the repository.
 
 If a writer wants to add additional narrative, they simply create a new file, add their content, and specify where they want it to appear in information hierarchies. And that's really it, the site will redeploy, and the new content will be included.
 
