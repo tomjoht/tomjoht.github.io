@@ -94,6 +94,13 @@ Otherwise, the docs are piped into a standalone GitHub repo in our customers' or
 
 <a class="noCrossRef" href="https://www.speakeasyapi.dev/"><img src="{{site.media}}/speakeasyscreenshot1.png" alt="Code as Docs, Speakeasy" /></a>
 
+For more detail, see this short video:
+
+<video width="740" height="100%" controls>
+  <source src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/speakeasy-docs-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 **[Tom]: Looking at the screenshot, it seems like Code as Docs offers a full documentation experience of the API, similar to a Swagger output. Is that right? Does Speakeasy generate web files (HTML, CSS, and JS) that you would upload somewhere?**
 
 **[Sagar]:** It mirrors the three pane view people are familiar with, but we would argue that there is a fundamental difference in terms of the content. Our documentation product is "code-based", not the traditional "json-based" documentation. Everything shown is type native to the languages supported by our customers.   
