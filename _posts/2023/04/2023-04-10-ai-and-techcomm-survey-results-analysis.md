@@ -2,7 +2,7 @@
 title: "Survey results: Technical writers on AI"
 permalink: /blog/survey-analysis-tech-writers-on-ai/
 categories:
-- AI
+- ai
 keywords:
 rebrandly: https://idbwrtng.com/aisurveyresults
 description: "I recently conducted an informal survey to find out the thoughts and concerns of technical writers about AI's impact on tech comm. 291 people responded to the survey. This post is a brief analysis of the findings. (The tldr here is this: change is coming quickly to the profession.)"

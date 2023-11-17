@@ -4,7 +4,7 @@ permalink: /blog/site-analytics-2022
 date: 2023-04-23
 categories:
 - technical-writing
-- AI
+- ai
 keywords:
 rebrandly: https://idbwrtng.com/site-analytics-2022
 description: "I updated my <a href='/analytics'>site analytics</a> page for the 2022 year. I usually do this at the turn of the year, particularly when renewing ads on the site, but this year I got lazy and postponed it until last weekend. In this post, I talk about a variety of site-related challenges and issues, from content focus to monetization and more."

@@ -4,7 +4,7 @@ permalink: /blog/content-creators-need-roi-from-ai
 date: 2023-05-04
 categories:
 - technical-writing
-- AI
+- ai
 - blogging
 keywords: 
 rebrandly: https://idbwrtng.com/content-creators-need-roi-from-ai

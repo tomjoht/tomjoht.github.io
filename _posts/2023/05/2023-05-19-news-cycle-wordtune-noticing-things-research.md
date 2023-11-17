@@ -4,7 +4,7 @@ permalink: /blog/news-cycle-wordtune-noticing-things-research
 date: 2023-05-19
 categories:
 - technical-writing
-- AI
+- ai
 - blogging
 - news
 keywords: 

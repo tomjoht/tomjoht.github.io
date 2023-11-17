@@ -4,7 +4,7 @@ permalink: /blog/content-creator-roi-madbot-netlify-hollywood
 date: 2023-05-04
 categories:
 - technical-writing
-- AI
+- ai
 - blogging
 - news
 keywords: 

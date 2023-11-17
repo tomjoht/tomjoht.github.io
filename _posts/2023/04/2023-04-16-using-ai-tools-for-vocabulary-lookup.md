@@ -1,7 +1,7 @@
 ---
 title: "Using AI tools to look up words and provide mini-poems to help remember their meaning"
 categories:
-- AI
+- ai
 keywords:
 rebrandly: https://idbwrtng.com/aivocablookup
 description: "I've been using AI to look up vocabulary terms. Not just to provide definitions, but to provide sample sentences, etymology, and a mini poem to help remember the meaning. It's fun and a lot faster than looking up words one by one. The most fun part is the poem, which is often delightful."

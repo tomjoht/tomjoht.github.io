@@ -4,7 +4,7 @@ permalink: /blog/doctave-qa-niklas-begley
 date: 2023-06-08
 categories:
 - technical-writing
-- AI
+- ai
 - - innovation
 keywords: 
 rebrandly: https://idbwrtng.com/doctave-qa-niklas-begley

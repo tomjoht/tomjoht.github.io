@@ -2,7 +2,7 @@
 title: "Newsletter: AI and tech comm survey results, Zoomin's predictions, Beating an ATS, ChatGPT plugin docs"
 categories:
 - technical-writing
-- AI
+- ai
 - news
 keywords:
 rebrandly: https://idbwrtng.com/tclinksapril12

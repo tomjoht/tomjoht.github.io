@@ -3,7 +3,7 @@ title: "Newsletter: Docusaurus, Lens, Docs-as-Code, 2022 site analytics, and HTM
 permalink: /blog/docusaurus-lens-docs-as-code-tables
 date: 2023-04-27
 categories:
-- AI
+- ai
 - news
 keywords: 
 rebrandly: https://idbwrtng.com/docusaurus-lens-docs-as-code-tables

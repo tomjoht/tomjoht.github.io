@@ -4,7 +4,7 @@ permalink: /blog/markprompt-questions-and-answers
 date: 2023-04-23
 categories:
 - technical-writing
-- AI
+- ai
 keywords: 
 rebrandly: https://idbwrtng.com/markprompt-questions-and-answers
 description: "Last week I played around with <a href='https://markprompt.com'>Markprompt</a>, integrating it in a basic way on my <a href='/learnapidoc'>API doc site</a> (click the Chat button). During the process, I had a few questions, mostly around how to optimize content for embedding. I asked the co-founder, Michael Fester, if he’d be up for a Q&A post, and he agreed. Our Q&A exchange covers everything covers everything from the history of Markprompt to strategies for links, analytics workflows, optimal page sizes, preventing hallucination, structure and semantics, branding, privacy, and more. If you’re looking to move toward integrating GPT-style chat into your docs, especially with Markprompt, this post might help clarify some details."

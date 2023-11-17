@@ -4,7 +4,7 @@ permalink: /blog/news-turns-content-wheel-of-advertising
 date: 2023-05-19
 categories:
 - technical-writing
-- AI
+- ai
 keywords: 
 rebrandly: https://idbwrtng.com/news-turns-content-wheel-of-advertising
 description: "I recently tried a new approach to my newsletter: summarizing news articles. The new approach resulted in good engagement but left me feeling empty. News exploits our psychological vulnerabilities, including our novelty bias, negativity bias, and fear of missing out. We should be mindful of our news consumption and balance it with other more self-directed activities."

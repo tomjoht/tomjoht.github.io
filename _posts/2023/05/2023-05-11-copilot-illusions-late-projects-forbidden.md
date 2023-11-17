@@ -4,7 +4,7 @@ permalink: /blog/copilot-illusions-late-projects-forbidden
 date: 2023-05-11
 categories:
 - technical-writing
-- AI
+- ai
 - innovation
 - news
 keywords: 

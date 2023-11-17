@@ -3,7 +3,7 @@ title: "Newsletter: Alphadoc, vocab lookup, field, Open Assistant, Markprompt, c
 permalink: /blog/alphadoc-markprompt-open-assistant-vocab
 date: 2023-04-20
 categories:
-- AI
+- ai
 - news
 keywords: 
 rebrandly: https://idbwrtng.com/alphadoc-markprompt-open-assistant-vocab

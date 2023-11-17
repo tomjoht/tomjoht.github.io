@@ -4,7 +4,7 @@ permalink: /blog/tutors-phind-dark-manuals-interfaces-automation
 date: 2023-04-17
 categories:
 - technical-writing
-- AI
+- ai
 - news
 keywords: 
 rebrandly: https://idbwrtng.com/tutors-phind-dark-manuals-interfaces-automation

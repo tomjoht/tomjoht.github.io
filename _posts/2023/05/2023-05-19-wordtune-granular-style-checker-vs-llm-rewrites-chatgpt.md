@@ -4,7 +4,7 @@ permalink: /blog/wordtune-granular-style-checker-vs-llm-rewrites-chatgpt
 date: 2023-05-19
 categories:
 - technical-writing
-- AI
+- ai
 keywords: 
 rebrandly: https://idbwrtng.com/wordtune-granular-style-checker-vs-llm-rewrites-chatgpt
 description: "While AI tools are helpful if you target an isolated sentence or paragraph, I prefer more granular line-by-line style checking tools instead because I want to know what content has changed."

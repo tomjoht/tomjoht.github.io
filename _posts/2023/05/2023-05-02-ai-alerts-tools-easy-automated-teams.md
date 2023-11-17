@@ -4,7 +4,7 @@ permalink: /blog/ai-alerts-tools-easy-automated-teams
 date: 2023-05-02
 categories:
 - technical-writing
-- AI
+- ai
 - innovation
 - web-design
 - news

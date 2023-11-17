@@ -2,7 +2,7 @@
 title: "Newsletter: Why engineers need to write, tech writers in pop culture, 101 subreddit, Cambrian period of AI (April 4, 2023)"
 categories:
 - technical-writing
-- AI
+- ai
 - news
 keywords:
 rebrandly: https://idbwrtng.com/tclinksapril4

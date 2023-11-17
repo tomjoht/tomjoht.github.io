@@ -4,7 +4,7 @@ permalink: /blog/ai-diminishing-academic-ghostwriters-cheating
 date: 2023-05-19
 categories:
 - academics-and-practitioners
-- AI
+- ai
 - innovation
 keywords: 
 rebrandly: https://idbwrtng.com/ai-diminishing-academic-ghostwriters-cheating

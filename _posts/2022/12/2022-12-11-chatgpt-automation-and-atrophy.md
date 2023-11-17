@@ -2,7 +2,7 @@
 title: "Thoughts on ChatGPT after reading Crawford's Why We Drive: whatever skill you outsource, atrophies"
 permalink: /blog/chatgpt-automation-and-atrophy/
 categories:
-- AI
+- ai
 keywords:
 rebrandly: https://idbwrtng.com/automationandatrophy
 description: "Whatever skill you outsource, atrophies. When we outsource tasks to machines to perform, our ability to perform the task ourselves weakens. From driving to writing, automation threatens to reduce key elements of the human experience. In this post, I'll use Matthew Crawford's <i>Why We Drive</i> as a lens through which to interpret ChatGPT. Although Crawford's book is about driving, so many of the arguments could equally apply to writing."

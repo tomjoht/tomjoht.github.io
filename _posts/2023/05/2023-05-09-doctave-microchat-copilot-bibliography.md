@@ -4,7 +4,7 @@ permalink: /blog/doctave-microchat-small-cls-bibliography
 date: 2023-05-09
 categories:
 - technical-writing
-- AI
+- ai
 - academics-and-practitioners
 - innovation
 - news
