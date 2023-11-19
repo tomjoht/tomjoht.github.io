@@ -1,0 +1,8 @@
+sidebartitle: Zen and the Art of Motorcycle Maintenance
+folders:
+- title: "Pages in this series"
+  section: one
+  class: first
+  folderitems:
+  - title: "Podcast: Tech writing and Zen and the Art of Motorcycle Maintenance, with Dan Grabski"
+    jurl: /blog/zen-motorcycle-maintenance-dan-grabski
