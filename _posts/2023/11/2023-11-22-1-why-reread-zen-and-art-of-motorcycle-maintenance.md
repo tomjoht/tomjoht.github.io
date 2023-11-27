@@ -14,14 +14,17 @@ image: motorcycle_field_best2_thumb.jpg
 series: "Zen and the Art of Motorcycle Maintenance"
 sidebar: sidebar_zamm
 weight: 1.0
-description: "I decided to reread a classic in the tech comm field: Robert Pirsig's Zen and the Art of Motorcycle Maintenance, nearly 50 years after it was first published. I wondered if Pirsig had more insights about technical writing than I initially understood when I first read the book long ago. In this introduction to an upcoming series, I list a few parallels and the questions I'm hoping to answer."
+description: "I recently decided to reread a classic in the tech comm field: Robert Pirsig's <i>Zen and the Art of Motorcycle Maintenance</i>, nearly 50 years after it was first published. I wondered if Pirsig had more insights about technical writing than I initially understood when I first read the book long ago. In this introduction to an upcoming series, I list a few parallels and questions I'm hoping to answer."
 ---
 
-# Why I decided to reread Zen and the Art of Motorcycle Maintenance
+* TOC
+{:toc}
 
-As I was catching up on some recent videos from WTD Portland 2023 (a conference I missed), one talk in particular caught my attention: Dan Grabski's [Zen And The Art Of Automanually Creating API Documentation - An Inquiry Into Process](https://www.youtube.com/watch?v=UHVAKNdvihE). In a nutshell, Grabski argues for processes that combine technology and people in balanced ways. You can't create technical scripts to automate everything; your process needs to include input and feedback from people, considering their differing viewpoints. To make his point, Dan draws upon Robert Pirsig's [*Zen and the Art of Motorcycle Maintenance*](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872)_.
+# Reasons for rereading
 
-After listening to Grabski's talk, I started thinking more about _Zen and the Art of Motorcycle Maintenance_, a book I'd read nearly 30 years ago. I run a book club at work focused on auto and transportation books, and started thinking that maybe _Zen and the Art of Motorcycle Maintenance_ would be good to read. I also began to consider that maybe, since Pirsig was a technical writer, the book had more common threads and application with my own life than I'd realized. There are some other common threads, which I describe below.
+As I was catching up on some recent videos from WTD Portland 2023 (a conference I missed), one talk in particular caught my attention: Dan Grabski's [Zen And The Art Of Automanually Creating API Documentation - An Inquiry Into Process](https://www.youtube.com/watch?v=UHVAKNdvihE). In a nutshell, Grabski argues for processes that combine technology and people in balanced ways. You can't create technical scripts to automate everything; your process needs to include input and feedback from people, considering their differing viewpoints. To make his point, Dan draws upon Robert Pirsig's [*Zen and the Art of Motorcycle Maintenance*](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872).
+
+After listening to Grabski's talk, I started thinking more about _Zen and the Art of Motorcycle Maintenance_, a book I'd read nearly 30 years ago. I run a book club at work focused on auto and transportation books, and started thinking that maybe _Zen and the Art of Motorcycle Maintenance_ would be good to read. I also began to consider that maybe, since Pirsig was a technical writer, the book had more common threads and application with my own life than I'd realized. The following sections describe a few parallels.
 
 ## Motorcycles
 
@@ -50,7 +53,7 @@ Another overlap: Pirsig's narrator is also a technical writer. After deciding th
 
 Pirsig was a technical writer back in the 1970s and worked on missile systems maintenance documentation (see this [interview here](https://www.youtube.com/watch?v=ENeYNqwK_8g) for Pirsig's full backstory). I mostly document software, so there might be a lot of differences in documenting missiles versus documenting APIs. One difference might extend to working with physical machines (like motorcycles) versus code, but many principles are the same. I think ethically, it must have been difficult to document technological weapons.
 
-## Non-parallels: mental illness, theories of philosophy 
+## Non-parallels: mental illness, theories of philosophy, maintenance skills
 
 Despite these parallels with _Zen and the Art of Motorcycle Maintenance_ (ZAMM), I've never struggled with mental illness nor have I undergone electroshock therapy, as the ZAMM narrator has. (It's not mentioned explicitly in the book, but it's assumed the narrator had a form of schizophrenia.) 
 
@@ -81,6 +84,6 @@ After listening to Grabski's talk, I started thinking that maybe rereading _Zen 
 
 With this backstory, let me jump more into _Zen and the Art of Motorcycle Maintenance_. I plan to write a series of posts on this book. My takes on the book won't be academic but will be more personal thoughts and applications, related mostly to technical writing.
 
-<figure><img src="{{site.media}}/zamm/rereading_zamm_pages_open2.jpg" alt="" />
+<figure><img style="max-width: 600px" src="{{site.media}}/zamm/rereading_zamm_pages_open2.jpg" alt="Re-reading Zen and the Art of Motorcycle Maintenance" />
 <figcaption>Re-reading Zen and the Art of Motorcycle Maintenance</figcaption></figure>
 
