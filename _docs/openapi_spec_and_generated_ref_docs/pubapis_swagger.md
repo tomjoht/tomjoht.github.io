@@ -338,4 +338,4 @@ Since the Swagger UI site is responsive, it resizes well to fit into most any sp
 
 {% include glossary_limited.html file="glossary" %}
 
-For more terms, see the [Glossary](api-glossary.html).
+For more terms, see the [Glossary](glossary.html).

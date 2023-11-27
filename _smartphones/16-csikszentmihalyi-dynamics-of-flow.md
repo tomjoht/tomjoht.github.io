@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "Mihaly Csikszentmihalyi’s psychology of flow, which describes ways to be so engrossed in an activity that you lose track of time, can be applied to writing technical documentation. Some of the traits of flow I cover here include balance, effortlessness, goals, feedback, and concentration."
 redirect_from:
 - /blog/csikszentmihalyi-dynamics-of-flow/
+last-modified: 2022-10-16
 ---
 
 {% if site.format == "web" %}
@@ -59,7 +60,7 @@ Csikszentmihalyi identified eight traits that form common patterns when people a
 
 Summarizing these traits, Csikszentmihalyi explains:
 
-> First, the experience usually occurs when we confront tasks we have a chance of completing.> Second, we must be able to concentrate on what we are doing. Third and fourth, the concentration is usually possible because the task undertaken has clear goals and provides immediate feedback. Fifth, one acts with a deep but effortless involvement that removes from awareness the worries and frustrations of everyday life. Sixth, enjoyable experiences allow people to exercise a sense of control over their actions. Seventh, concern for the self disappears, yet paradoxically the sense of self emerges stronger after the flow experience is over. Finally, the sense of the duration of time is altered; hours pass by in minutes, and minutes can stretch out to seem like hours. The combination of all these elements causes a sense of deep enjoyment that is so rewarding people feel that expanding a great deal of energy is worthwhile simply to be able to feel it (49).
+> First, the experience usually occurs when we confront tasks we have a chance of completing. Second, we must be able to concentrate on what we are doing. Third and fourth, the concentration is usually possible because the task undertaken has clear goals and provides immediate feedback. Fifth, one acts with a deep but effortless involvement that removes from awareness the worries and frustrations of everyday life. Sixth, enjoyable experiences allow people to exercise a sense of control over their actions. Seventh, concern for the self disappears, yet paradoxically the sense of self emerges stronger after the flow experience is over. Finally, the sense of the duration of time is altered; hours pass by in minutes, and minutes can stretch out to seem like hours. The combination of all these elements causes a sense of deep enjoyment that is so rewarding people feel that expanding a great deal of energy is worthwhile simply to be able to feel it (49).
 
 There’s a lot to unpack there, and Csikszentmihalyi elaborates on these traits throughout his book. They are never outlined in any clear-cut formula to follow, as I believe life is too messy for that. But let's go through the main traits below and discuss how they apply to a profession. In this case, I’ll specifically apply them to technical writing because it’s what I do, but they could likely be applied to many other professions and activities. The following sections cover skills balance, effortlessness, goals, feedback, and concentration.
 

@@ -50,7 +50,7 @@ I also wrote a post titled [Using AI tools to look up words and provide mini-poe
 
 ## Experimenting with larger glossaries
 
-To experiment with a larger glossary effort, I decided to work with the glossary in my API course. My API doc course also already has an [API glossary](api-glossary.html) with about 70 terms. I compiled the glossary in the early days of this course but haven't added to it since then, in part because I almost never see feedback about it. In this experiment, I wanted to refresh, expand, and integrate the glossary better.
+To experiment with a larger glossary effort, I decided to work with the glossary in my API course. My API doc course also already has an [API glossary](glossary.html) with about 70 terms. I compiled the glossary in the early days of this course but haven't added to it since then, in part because I almost never see feedback about it. In this experiment, I wanted to refresh, expand, and integrate the glossary better.
 
 For this experiment, I mostly used [Claude.ai](https://claude.ai) since it allows for much better context windows. You can upload PDFs (less than 10 MB in size) to Claude, and the chat sessions maintain a context window (total word count for the chat session) up to 100k tokens. This allowed me to upload several PDFs per Claude chat session before maxing out the tokens. I also used ChatGPT in places because I felt that for shorter content, its outputs were better.
 

@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "In this chapter, I summarize the ideas from Cal Newport’s popular book, Deep Work. Structuring your time into several periods of deep focus during the day can help you become wildly productive."
 redirect_from:
 - /blog/newport-deep-work/
+last-modified: 2022-09-10
 ---
 
 {% if site.format == "web" %}

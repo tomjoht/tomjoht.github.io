@@ -44,7 +44,7 @@ I had to go back through the [whole section on REST specifications](/learnapidoc
 
 Maintaining these [tutorials on API documentation](/learnapidoc/) is certainly a challenge, since this space is rapidly evolving. In addition to the major changes from 2.0 to 3.0 in the specification, and the ownership and steering of the specification from Smartbear to the OpenAPI Initiative, Swagger UI (the display framework that reads the spec and generates an interactive documentation website) also updated to a new version ([3.4](https://github.com/swagger-api/swagger-ui/tree/v3.4.3)).
 
-With all these changes, I needed to overhaul the entire section on REST specifications and clarify terms. I even added an [API Glossary](/learnapidoc/api-glossary.html) to my API course.
+With all these changes, I needed to overhaul the entire section on REST specifications and clarify terms. I even added an [API Glossary](/learnapidoc/glossary.html) to my API course.
 
 Also, when I first put together the material on REST specifications, [RAML](/learnapidoc/pubapis_raml.html) and [API Blueprint](/learnapidoc/pubapis_api_blueprint.html) were also more serious contenders for widespread acceptance of the spec. But in the past couple of years, I've heard almost nothing about these other specs. I'm pretty sure they're adoption continues to wane, and frankly, I don't think we don't need multiple specifications for REST. It's confusing enough to learn one specification, let alone several, especially when they have the same goals and largely the same result.
 

@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "This section continues an ongoing series about a journey away from smartphones. In this part and the next few sections, I explore the topic of wayfinding. This topic surfaced as I tried driving without using a digital map on my smartphone."
 redirect_from:
 - /blog/wayfinding-intro/
+last-modified: 2022-07-07
 ---
 
 {% if site.format == "web" %}

@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/nicholas-carr-the-shallows-book-review/
+last-modified: 2022-05-20
 ---
 
 {% if site.format == "web" %}

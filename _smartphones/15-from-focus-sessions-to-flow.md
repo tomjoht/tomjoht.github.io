@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "In this post, I describe my experience trying to complete several ninety-minute focus sessions a day. While they allowed me to make a lot of progress, they reduced some of the fun of writing. This content is part of my ongoing series Journey away from smartphones."
 redirect_from:
 - /blog/from-focus-sessions-to-flow/
+last-modified: 2022-10-01
 ---
 
 {% if site.format == "web" %}

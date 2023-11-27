@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/one-month-in-without-a-smartphone/
+last-modified: 2022-05-7
 ---
 
 {% if site.format == "web" %}

@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "Driving is one way we exercise our freedom. Driving without GPS could be seen as a rejection of the control of technological algorithms over lives."
 redirect_from:
 - /blog/wayfinding-driving-without-gps-freedom-and-control/
+last-modified: 2022-07-10
 ---
 
 {% if site.format == "web" %}

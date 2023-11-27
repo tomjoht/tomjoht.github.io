@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "I’ve slowed reading a bit and started watching Netflix more. Two system archetype theories to explain these dynamics. The archetypes “Limits to Growth” and “Shifting the Burden” from Peter Senge’s The Fifth Discipline, a classic about learning organizations, provide insight into how to move past plateaus."
 redirect_from:
 - /blog/limits-of-growth-shifting-burdens/
+last-modified: 2022-08-09
 ---
 
 {% if site.format == "web" %}

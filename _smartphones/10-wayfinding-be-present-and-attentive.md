@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "Wayfinding starts with being attentive and present in the world around you. However, our suburban geography-of-nowhere-type cementscapes remove a lot of incentive for attentiveness."
 redirect_from:
 - /blog/wayfinding-be-present-and-attentive/
+last-modified: 2022-07-09
 ---
 
 {% if site.format == "web" %}

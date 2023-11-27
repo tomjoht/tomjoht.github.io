@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "The greatest outcome of my basic phone experiment was to rekindle interest and enjoyment in reading books. Long-form reading was an activity that I’d sort of forgotten, and even though I reverted to my smartphone, the experiment taught me to love reading again. In picking up reading books again, I realized that I had many questions about reading itself, actually. This section contains a random list of questions, observations, and other reading-related topics about reading books. There’s no single way to read, and one strategy might fit another person and scenario more than others."
 redirect_from:
 - /blog/notes-on-recovering-the-lost-art-of-reading/
+last-modified: 2022-06-13
 ---
 
 {% if site.format == "web" %}

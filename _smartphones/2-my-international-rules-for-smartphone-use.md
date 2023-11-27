@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/my-international-rules-for-smartphone-use/
+last-modified: 2022-04-16
 ---
 
 {% if site.format == "web" %}

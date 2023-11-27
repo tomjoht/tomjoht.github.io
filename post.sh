@@ -63,6 +63,13 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/$SLUG
 description: ""
+# podcast_file_size: 
+# podcast_duration: ""
+# podcast_length: 
+# image: filename.png
+# series: "Zen and the Art of Motorcycle Maintenance"
+# sidebar: sidebar_zamm
+# weight: 1.X
 published: false
 ---
 

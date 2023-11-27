@@ -10,6 +10,7 @@ sidebar: sidebar_smartphones
 description: "The DMN and TPN areas of the brain perform different functions. The DMN is active during brooding, ruminating, and other imaginative thought. The TPN is active when you’re focused on tasks. Understanding these different networks can help us understand why our attention often shifts."
 redirect_from:
 - /blog/dmn-and-tpn-brain/
+last-modified: 2022-12-02
 ---
 
 {% if site.format == "web" %}

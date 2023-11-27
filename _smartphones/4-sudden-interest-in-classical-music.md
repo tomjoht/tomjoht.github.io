@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/sudden-interest-in-classical-music/
+last-modified: 2022-04-27
 ---
 
 {% if site.format == "web" %}

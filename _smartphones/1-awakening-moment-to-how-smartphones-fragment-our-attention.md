@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+last-modified: 2022-04-10
 ---
 
 {% if site.format == "web" %}

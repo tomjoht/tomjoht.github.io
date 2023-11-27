@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/returning-to-smartphones/
+last-modified: 2022-05-29
 ---
 
 {% if site.format == "web" %}

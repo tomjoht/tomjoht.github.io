@@ -10,6 +10,7 @@ series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 redirect_from:
 - /blog/first-experiences-moving-away-from-smartphones/
+last-modified: 2022-04-17
 ---
 
 {% if site.format == "web" %}

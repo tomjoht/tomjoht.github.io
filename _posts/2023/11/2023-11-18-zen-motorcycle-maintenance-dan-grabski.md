@@ -1,5 +1,5 @@
 ---
-title: "Podcast: Tech writing and Zen and the Art of Motorcycle Maintenance, with Dan Grabski"
+title: "Podcast: Tech writing and Zen and the Art of Motorcycle Maintenance, with Dan Grabski (ZAMM series)"
 permalink: /blog/zen-motorcycle-maintenance-dan-grabski
 date: 2023-11-18
 categories:
