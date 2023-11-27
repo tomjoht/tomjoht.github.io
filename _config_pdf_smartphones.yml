@@ -29,7 +29,7 @@ kramdown:
 
 collections:
   docs:
-    output: true
+    output: false
   smartphones:
     output: true
   restapicourse:
