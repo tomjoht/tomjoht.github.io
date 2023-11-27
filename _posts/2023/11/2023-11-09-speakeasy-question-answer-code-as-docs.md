@@ -13,6 +13,9 @@ image: speakeasyscreenshot1thumb.png
 
 *Note: This is a sponsored post.*
 
+* TOC
+{:toc}
+
 ## Background about SDKs
 
 Before we jump into the Q&A, let me first provide a basic intro to software development kits (SDKs). When you write API documentation, the list of deliverables often includes documentation for an SDK as well. While web APIs are language agnostic, the SDK is a language-specific implementation of the API, such as a Java, Node, or Python library, that provides language-specific classes/functions for implementing and calling the API.
