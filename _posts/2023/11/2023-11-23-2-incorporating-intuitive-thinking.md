@@ -1,26 +1,29 @@
 ---
 title: "My main takeaway from Zen and the Art of Motorcycle Maintenance: How to incorporate intuitive thinking into writing documentation (ZAMM series)"
 permalink: /zamm/incorporating-intuitive-thinking.html
-date: 2023-11-26
+date: 2023-12-01
 rebrandly: https://idbwrtng.com/incorporating-intuitive-thinking
-description: ""
-published: false
 categories:
 # - podcasts
 - technical-writing
 keywords: 
-description: ""
-published: false
-podcast_file_size: 
-podcast_duration: ""
-podcast_length: 
-image: podcastthumbzengrabski.png
+description: "In this post, I delve into my insights from 'Zen and the Art of Motorcycle Maintenance' (ZAMM), focusing on integrating intuitive thinking into technical writing. I begin with the ZAMM narrator's anecdote about why his friend John refuses to do motorcycle maintenance to illustrate the book's central theme of forming a deeper, more peace-of-mind style connection with technology. I then transition into sharing personal experiences trying to incorporate this mindset. This post contrasts two approaches: one that embraces hands-on interaction with technology and another that avoids it."
+# podcast_file_size: 
+# podcast_duration: ""
+# podcast_length: 
+image: techwriterandzenimagethumb.jpg
 series: "Zen and the Art of Motorcycle Maintenance"
 sidebar: sidebar_zamm
 weight: 1.3
 ---
 
-There’s a lot I could say about _Zen and the Art of Motorcycle Maintenance_ from a technical writer’s perspective. For example, I could start by summarizing research previously done by tech comm scholars. There are some excellent articles by Charles Beck and Daniel Jones. However, in many ways, more academic interpretations of Zen and the Art of Motorcycle Maintenance aren’t my goal here. My larger goal is an experiential exploration of the book, attempting to incorporate an intuitive, implicit knowledge into my practices with technology. More than just critical insights from the reading, I want to know: does integrating zen into technical tasks (akin to motorcycle maintenance) actually work? Can it work in writing complex documentation? Has anyone tried? What were the outcomes?
+## Intro
+
+There’s a lot I could say about _Zen and the Art of Motorcycle Maintenance_ from a technical writer’s perspective. For example, I could start by summarizing research previously done by tech comm scholars. There are some excellent articles by Charles Beck and Daniel Jones. However, in many ways, more academic interpretations of Zen and the Art of Motorcycle Maintenance aren’t my goal here. 
+
+My larger goal is an experiential exploration of the book, attempting to incorporate an intuitive, implicit knowledge into my practices with technology. More than just critical insights from the reading, I want to know: does integrating zen into technical tasks (akin to motorcycle maintenance) actually work? Can it work in writing complex documentation? Has anyone tried? What were the outcomes?
+
+<img style="max-width: 500px" src="{{site.media}}/zamm/techwriterandzenimage.png" alt="Incorporating intuitive thinking into tech comm" />
 
 ## Doing your own motorcycle maintenance
 
