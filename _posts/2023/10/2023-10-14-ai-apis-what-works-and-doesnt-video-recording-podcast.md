@@ -48,4 +48,8 @@ Or jump to the slides <a href="https://docs.google.com/presentation/d/1qk7QccovY
 {: .tip}
 To show your support, please <a href="https://podcasts.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">rate this podcast on iTunes</a>.
 
+## Text version
+
+For a written version of this information, see this section in my API course: [AI and API docs: What works, what doesn’t](/learnapidoc/docapis_ai_what_works_and_doesnt.html).
+
 {% include ads.html %}
