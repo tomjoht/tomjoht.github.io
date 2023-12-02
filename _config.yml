@@ -61,7 +61,8 @@ collections:
     output: true
   smartphones: 
     output: true
-
+  zamm: 
+    output: true
 # Sass styles
 
 sass:
@@ -123,6 +124,17 @@ defaults:
     values:
       layout: default
       sidebar: sidebar_smartphones
+      topnav: topnav
+      progress: true
+      permalink: /docs:path.html
+
+  -
+    scope:
+      path: "_zamm"
+      type: zamm
+    values:
+      layout: default
+      sidebar: sidebar_zamm
       topnav: topnav
       progress: true
       permalink: /docs:path.html

@@ -2,6 +2,7 @@
 title: Tags
 permalink: /tags/
 mytags:
+
 - title: Academics and practitioners
   url: /category-academics-and-practitioners/
 - title: AI

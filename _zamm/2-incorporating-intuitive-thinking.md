@@ -1,5 +1,5 @@
 ---
-title: "My main takeaway from Zen and the Art of Motorcycle Maintenance: How to incorporate intuitive thinking into writing documentation (ZAMM series)"
+title: "Main takeaway: How to incorporate intuitive thinking (ZAMM series)"
 permalink: /zamm/incorporating-intuitive-thinking.html
 date: 2023-12-01
 rebrandly: https://idbwrtng.com/incorporating-intuitive-thinking

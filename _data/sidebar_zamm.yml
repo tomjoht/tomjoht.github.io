@@ -1,14 +1,15 @@
-sidebartitle: Zen and the Art of Motorcycle Maintenance
+sidebartitle: Reflections on Zen and the Art of Motorcycle Maintenance
 folders:
 - title: "Pages in this series"
   section: one
   class: first
   folderitems:
-  - title: "Podcast: Tech writing and Zen and the Art of Motorcycle Maintenance, with Dan Grabski"
-    jurl: /blog/zen-motorcycle-maintenance-dan-grabski
 
   - title: "Why I decided to reread Zen and the Art of Motorcycle Maintenance"
-    jurl: /zamm/zamm-why-reread-zen-and-art-of-motorcycle-maintenance.html
+    jurl: /zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html
 
-  - title: "How to incorporate intuitive thinking into writing documentation"
+  - title: "Main takeaway: How to incorporate intuitive thinking"
     jurl: /zamm/incorporating-intuitive-thinking.html
+
+  - title: "Bleeding my brakes"
+    jurl: /zamm/bleeding-my-brakes-inner-calm.html
