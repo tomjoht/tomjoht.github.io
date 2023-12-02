@@ -1,5 +1,5 @@
 ---
-title: "1. My awakening moment about how smartphones fragment our attention span"
+title: "1.1 My awakening moment about how smartphones fragment our attention span"
 permalink: /smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html
 categories:
 - technical-writing
@@ -13,10 +13,7 @@ redirect_from:
 last-modified: 2022-04-10
 ---
 
-{% if site.format == "web" %}
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
-{% endif %}
+{% include coffeeshopbook-smartphones.html %}
 
 * TOC
 {:toc}
@@ -41,8 +38,7 @@ In graduate school, I once had a work-study job as a useless security monitor th
 
 I wondered, could I reclaim that aspect of myself, back when I could be immersed in an author’s train of thought for an extended period of time? Could I reclaim those times when I could enter more of a state of uninterrupted flow? Or was that lost forever?
 
-
-## Awareness of how I’d changed {#awareness-of-how-i’d-changed}
+## Awareness of how I’d changed {#awareness-of-how-id-changed}
 
 The more I read _Stolen Focus_, the more aware I became of how I’d changed. I realized that I was looking at my phone every spare moment of the day. When I pulled up at a stoplight waiting for the light to change, I would instinctively reach for my phone (mounted on my dash) to check my email (personal + work), check ESPN, look up something on Amazon, etc. While pumping gas in the car, I’d whip out my phone while waiting. Stuck in a line somewhere? Time for my phone. Waiting in an elevator? The phone. Riding the train? The phone. Going to the bathroom? Don't forget your phone! Eating breakfast? The phone. Any spare or idle moments? The phone. I didn’t have any unique apps—some news apps, email, feeds, podcasts, music, messages, and more.
 

@@ -1,5 +1,5 @@
 ---
-title: "12. Driving without GPS -- the desire to be free and in control"
+title: "2.4 Driving without GPS -- the desire to be free and in control"
 permalink: /smartphones/wayfinding-driving-without-gps-freedom-and-control.html
 categories:
 - technical-writing
@@ -13,10 +13,7 @@ redirect_from:
 last-modified: 2022-07-10
 ---
 
-{% if site.format == "web" %}
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
-{% endif %}
+{% include coffeeshopbook-smartphones.html %}
 
 * TOC
 {:toc}

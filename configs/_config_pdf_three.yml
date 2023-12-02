@@ -29,7 +29,9 @@ kramdown:
 collections:
   docs:
     output: true
-  smartphones: 
+  smartphones:
+    output: false
+  zamm:
     output: false
   restapicourse:
     output: false

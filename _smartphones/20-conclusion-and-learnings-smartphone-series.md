@@ -1,5 +1,5 @@
 ---
-title: "20. Conclusion and takeaways from my Journey Away from Smartphones series"
+title: "4.2 Conclusion and takeaways from my Journey Away from Smartphones series"
 permalink: /smartphones/conclusion-and-learnings-smartphone-series.html
 categories:
 - technical-writing
@@ -13,10 +13,7 @@ redirect_from:
 last-modified: 2022-01-29
 ---
 
-{% if site.format == "web" %}
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
-{% endif %}
+{% include coffeeshopbook-smartphones.html %}
 
 * TOC
 {:toc}

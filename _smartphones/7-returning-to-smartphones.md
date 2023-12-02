@@ -1,5 +1,5 @@
 ---
-title: "7. Six weeks in -- returning to smartphone (but not as before)"
+title: "1.7 Six weeks in -- returning to smartphone (but not as before)"
 permalink: /smartphones/returning-to-smartphones.html
 categories:
 - technical-writing
@@ -13,12 +13,7 @@ redirect_from:
 last-modified: 2022-05-29
 ---
 
-{% if site.format == "web" %}
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
-{% endif %}
-
-
+{% include coffeeshopbook-smartphones.html %}
 
 * TOC
 {:toc}

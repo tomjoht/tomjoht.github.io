@@ -15,6 +15,8 @@ series: "Zen and the Art of Motorcycle Maintenance"
 sidebar: sidebar_zamm
 weight: 1.0
 description: "I recently decided to reread a classic in the tech comm field: Robert Pirsig's <i>Zen and the Art of Motorcycle Maintenance</i>, nearly 50 years after it was first published. I wondered if Pirsig had more insights about technical writing than I initially understood when I first read the book long ago. In this introduction to an upcoming series, I list a few parallels and questions I'm hoping to answer."
+redirect_from:
+- /zamm/zamm-why-reread-zen-and-art-of-motorcycle-maintenance.html
 ---
 
 * TOC

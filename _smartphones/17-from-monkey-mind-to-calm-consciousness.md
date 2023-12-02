@@ -1,5 +1,5 @@
 ---
-title: "17. From monkey mind to calm, ordered consciousness -- even outside of flow? Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
+title: "3.5 From monkey mind to calm, ordered consciousness -- even outside of flow? Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
 permalink: /smartphones/from-monkey-mind-to-calm-consciousness.html
 categories:
 - technical-writing
@@ -13,10 +13,7 @@ redirect_from:
 last-modified: 2022-10-25
 ---
 
-{% if site.format == "web" %}
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
-{% endif %}
+{% include coffeeshopbook-smartphones.html %}
 
 * TOC
 {:toc}

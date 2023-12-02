@@ -1,4 +1,4 @@
-{% for folder in site.data.docapis.folders %}
+{% for folder in site.data[site.sidebar].folders %}
   {% assign folderLanding = folder.landing | remove: '/' %}
   {% assign pagePermalink = page.permalink | remove: '/' %}
   {% if pagePermalink == folderLanding %}{{folder.description}}

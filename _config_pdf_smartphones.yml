@@ -1,7 +1,7 @@
 scope: all
 title: Journey away from smartphones
-subtitle: ""
-url_tagline: idratherbewriting.com/smartphones
+subtitle: "Regaining focus"
+url_tagline: By Tom Johnson <br/>idratherbewriting.com/smartphones
 media: /Users/tomjoht/projects/idratherbewriting/images/
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
@@ -29,6 +29,8 @@ kramdown:
 
 collections:
   docs:
+    output: false
+  zamm:
     output: false
   smartphones:
     output: true

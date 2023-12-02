@@ -29,6 +29,10 @@ kramdown:
 collections:
   docs:
     output: true
+  smartphones:
+    output: false
+  zamm:
+    output: false
   slides:
     output: false
   pages:

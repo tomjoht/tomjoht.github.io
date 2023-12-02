@@ -1,5 +1,5 @@
 ---
-title: "19. The diametric pull towards technology vs. wildness"
+title: "4.1 The diametric pull towards technology vs. wildness"
 permalink: /smartphones/diametric-pull-towards-tech-and-wildness.html
 categories:
 - technical-writing
@@ -13,10 +13,7 @@ redirect_from:
 last-modified: 2023-01-12
 ---
 
-{% if site.format == "web" %}
-{: .tip}
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/journey_away_from_smartphones.pdf"><i class="fa fa-file-pdf-o"></i> Download a PDF of this book.</a>
-{% endif %}
+{% include coffeeshopbook-smartphones.html %}
 
 * TOC
 {:toc}

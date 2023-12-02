@@ -1,74 +1,98 @@
 sidebartitle: Journey away from smartphones
 folders:
 
-- title: "Chapters"
+- title: "Chapter 1"
   landing: /smartphones/overview.html
   section: one
   class: first
+  description: >
+    This series started with the realization that smartphones were fragmenting my attention span, so I abandoned my smartphone for six weeks. During that time, I rediscovered books and reading. I did return to my smartphone because disconnecting from it also meant disconnecting from family communication, but I continued reading and making more space in my life to consume more of the content offline, rather than the social media feeds on my smartphone. 
+
   folderitems:
 
-  - title: "Overview"
-    jurl: /smartphones/overview.html 
-
-  - title: "1. My awakening moment about how smartphones fragment our attention span"
+  - title: "1.1 My awakening moment about how smartphones fragment our attention span"
     jurl: /smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html
 
-  - title: "2. My initial rules and reasons for intentional smart phone use"
+  - title: "1.2 My initial rules and reasons for intentional smart phone use"
     jurl: /smartphones/my-international-rules-for-smartphone-use.html
 
-  - title: "3. First experiences in moving away from smartphones"
+  - title: "1.3 First experiences in moving away from smartphones"
     jurl: /smartphones/first-experiences-moving-away-from-smartphones.html
 
-  - title: "4. More developments on my journey away from smartphones –- a sudden interest in classical music?"
+  - title: "1.4 More developments on my journey away from smartphones –- a sudden interest in classical music?"
     jurl: /smartphones/sudden-interest-in-classical-music.html
 
-  - title: "5. One month in without a smartphone &mdash; growing doubts about the value of technology in general"
+  - title: "1.5 One month in without a smartphone &mdash; growing doubts about the value of technology in general"
     jurl: /smartphones/one-month-in-without-a-smartphone.html
 
-  - title: "6. Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
+  - title: "1.6 Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
     jurl: /smartphones/nicholas-carr-the-shallows-book-review.html
 
-  - title: "7. Six weeks in -- returning to smartphone (but not as before)"
+  - title: "1.7 Six weeks in -- returning to smartphone (but not as before)"
     jurl: /smartphones/returning-to-smartphones.html
 
-  - title: "8. Random notes on recovering the lost art of reading"
+  - title: "1.8 Random notes on recovering the lost art of reading"
     jurl: /smartphones/notes-on-recovering-the-lost-art-of-reading.html
 
-  - title: "9. Wayfinding -- finding my way without GPS"
+- title: "Chapter 2: Returning to the smartphone"
+  landing: /smartphones/wayfinding.html
+  section: two
+  description: > 
+    In giving up my smartphone, I had to relearn how to navigate. This led to a major realization: I liked driving without having to pay attention to the micro-directions of my smartphone. I felt a sense of autonomy, control, and liberation.
+    
+  folderitems:
+
+  - title: "2.1 Wayfinding -- finding my way without GPS"
     jurl: /smartphones/wayfinding-intro.html
 
-  - title: "10. Wayfinding requires you to be present in the world"
+  - title: 2.2 Wayfinding requires you to be present in the world"
     jurl: /smartphones/wayfinding-be-present-and-attentive.html
 
-  - title: "11. Spatial and scientific reasoning from wayfinding"
+  - title: "2.3 Spatial and scientific reasoning from wayfinding"
     jurl: /smartphones/wayfinding-scientific-reasoning.html
 
-  - title: "12. Driving without GPS -- the desire to be free and in control"
+  - title: "2.4 Driving without GPS -- the desire to be free and in control"
     jurl: /smartphones/wayfinding-driving-without-gps-freedom-and-control.html
 
-  - title: "13. From smartphones to Netflix: moving past plateaus in growth"
+- title: "Chapter 3: Deep focus"
+  landing: /smartphones/deepfocus.html
+  section: three
+  description: > 
+    As I sought to regain my attention, I explored ideas about deep focus, and attempted to concentrate for extended periods of time on single tasks. As these focus sessions were grueling, I looked into ideas of flow and other natural techniques to make it more effortless.
+    
+  folderitems:
+
+  - title: "3.1 From smartphones to Netflix: moving past plateaus in growth"
     jurl: /smartphones/limits-of-growth-shifting-burdens.html
 
-  - title: "14. Techniques for deep work from Cal Newport"
+  - title: "3.2 Techniques for deep work from Cal Newport"
     jurl: /smartphones/newport-deep-work.html
 
-  - title: "15. How to move from focus sessions to flow sessions"
+  - title: "3.3 How to move from focus sessions to flow sessions"
     jurl: /smartphones/from-focus-sessions-to-flow.html
 
-  - title: "16. Applying Csikszentmihalyi's psychology of Flow while writing technical documentation"
+  - title: "3.4 Applying Csikszentmihalyi's psychology of Flow while writing technical documentation"
     jurl: /smartphones/csikszentmihalyi-dynamics-of-flow.html
 
-  - title: "17. From monkey mind to calm, ordered consciousness?"
+  - title: "3.5 From monkey mind to calm, ordered consciousness?"
     jurl: /smartphones/from-monkey-mind-to-calm-consciousness.html
 
-  - title: "18. What the DMN and TPN modes of the brain teach us about focus"
+  - title: "3.6 What the DMN and TPN modes of the brain teach us about focus"
     jurl: /smartphones/dmn-and-tpn-brain.html
 
-  - title: "19. The diametric pull towards tech and wildness"
+- title: "Chapter 4: Push and pull"
+  landing: /smartphones/pushandpull.html
+  section: four
+  description: > 
+    Despite my attempts to ditch my smartphone, I felt a constant pull drawing me back to my smartphone and the constant stream of tech news. This constant push and pull is one that I feel requires artful balance and judgement to navigate.
+    
+  folderitems:
+
+  - title: "4.1 The diametric pull towards tech and wildness"
     jurl: /smartphones/diametric-pull-towards-tech-and-wildness.html
 
-  - title: "20. Conclusion and takeaways"
+  - title: "4.2 Conclusion and takeaways"
     jurl: /smartphones/conclusion-and-learnings-smartphone-series.html
 
-  - title: "References"
+  - title: "4.3 References"
     jurl: /smartphones/references.html
