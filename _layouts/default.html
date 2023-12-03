@@ -358,7 +358,7 @@
 
 {% include sidebar_comics.html %}
 
-{% unless page.collection == "docs" %}
+{% unless page.collection == "docs" or "smartphones" %}
 <!-- recent posts in sidebar -->
 <div class="recent-posts">
 <h3>Recent posts</h3>
@@ -396,7 +396,6 @@
 {% endfor %}
 </ul>
 </div>
-
 <!-- end popular series in sidebar -->
 {% endunless %}
             </div>

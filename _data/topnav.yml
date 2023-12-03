@@ -94,7 +94,7 @@ topnav_dropdowns:
         - title: Advertising
           url: /advertising/
 
-    - title: Top series
+    - title: Series
       folderitems:
         - title: "Reflections on Zen and the Art of Motorcycle Maintenance"
           url: /zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html 
