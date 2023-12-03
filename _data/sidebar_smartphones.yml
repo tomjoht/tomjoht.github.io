@@ -6,13 +6,13 @@ folders:
   section: one
   class: first
   description: >
-    I started to suspect that smartphones were fragmenting my attention span, so I abandoned my smartphone for six weeks. During that time, I rediscovered books and reading. I did return eventually to my smartphone because disconnecting from it also meant disconnecting from family communication, but I continued reading and making more space in my life to consume more of the content offline, rather than the social media feeds on my smartphone. 
+
+    I started noticing issues with my attention span and ability to focus on reading books, likely due to the constant distractions and fragmentation from my smartphone. This prompted me to experiment with removing my smartphone from my life for 6 weeks. During this time, I rediscovered the joy of reading books, printing content out to read offline, and even classical music. Without the constant incoming notifications and information, I found my focus and calm improving. However, living without a smartphone created family communication issues, as well as other inconveniences. I returned to using a smartphone, but in a more intentional and limited way.
 
   folderitems:
 
   - title: "Introduction to the book"
     jurl: /smartphones/index.html
-    type: web
 
   - title: "Overview"
     jurl: /smartphones/awakening.html
@@ -46,7 +46,7 @@ folders:
   landing: /smartphones/wayfinding.html
   section: two
   description: > 
-    In giving up my smartphone, I had to relearn how to navigate. This led to a major realization: I liked driving without having to pay attention to the micro-directions of my smartphone. I felt a sense of autonomy, control, and liberation. Although a seemingly small act, driving without GPS became somewhat life-changing.
+    In giving up my smartphone, I had to relearn navigation without relying on GPS apps as I drove. This challenge led me to realize how much I enjoyed driving without turn-by-turn directions -- it gave me a sense of freedom and control. Wayfinding also forced me to pay closer attention to my surroundings. Although a small act, finding my way and being fully present while driving became almost liberating. While technology like GPS offers conveniences, there's something to be said for retaining spatial skills and not always outsourcing decisions to an algorithm.
     
   folderitems:
 
@@ -70,8 +70,7 @@ folders:
   landing: /smartphones/flow.html
   section: three
   description: > 
-    As I sought to regain my attention, I explored ideas about deep focus, and attempted to concentrate for extended periods of time on single tasks. As these focus sessions were grueling, I looked into ideas of flow and other natural techniques to make it more effortless.
-    
+    I had hoped that removing smartphones would help me achieve focus, especially on difficult tasks, while working. However, my work in tech meant sitting at a computer all day anyway, inevitably immersed in the online sources fragmenting my attention. I wanted to sustain Cal Newport's idea of deep work but found it too grueling to sustain regularly. The psychology of flow offered a tantalizing promise of complete immersion without consciously being aware of distractions. I attempted to enter states of flow with documentation, but didn't make much progress. I also explored parts of the brain that might be responsible for derailing my focus, such as the Default Mode Network (DMN) versus the Task Positive Network (TPN).
   folderitems:
 
   - title: "Overview"
@@ -100,7 +99,7 @@ folders:
   landing: /smartphones/pushandpull.html
   section: four
   description: > 
-    Despite my attempts to ditch my smartphone, I felt a constant pull drawing me back to my smartphone and the constant stream of tech news. This constant push and pull is one that I feel requires artful balance and judgement to navigate.
+    Despite attempts to move away from smartphones, I still felt constantly drawn back by tech's magnetic pull. Whether curiosity about AI developments, diving into niche communities online, or getting sucked into binge-watching shows on my laptop, the internet tapped into my intellectual curiosity and offered convenient engagement. Yet time offline, such as taking Thoreau-like nature walks, provided balance and clarity. This push and pull left me feeling conflicted, sometimes skeptical about tech's role. I realized finding the right balance was an ongoing learning process of identifying what technology to embrace.
     
   folderitems:
 
