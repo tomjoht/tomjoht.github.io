@@ -1,41 +1,27 @@
+{% assign collection_name = page.collection %}
+
+{% if collection_name %}
 
 <ol class="breadcrumb">
   <li><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
-    <li><a class="noExtIcon" href="{{site.url}}/learnapidoc">Learn API Doc</a></li>
-  {% if page.path1 %}
-  <li>
-    {% for pg in site.docs %}
-    {% if pg.permalink == page.path1 %}
-    {% if page.url == pg.path1 %}{{pg.title}}{% else %}
-    <a href="{{pg.url }}">{{pg.title}}</a>
-    {% endif %}
-     {% endif %}
-     {% endfor %}
-  </li>
+  {% if site[collection_name] %}
+    <li><a class="noExtIcon" href="{{site.url}}/{{collection_name}}">{{ collection_name | capitalize }}</a></li>
   {% endif %}
 
-  {% if page.path2 %}
-  <li>
-    {% for pg in site.docs %}
-    {% if pg.permalink == page.path2 %}
-    {% if page.url == pg.path2 %}{{pg.title}}{% else %}
-    <a href="{{pg.url "}}">{{pg.title}}</a>
+  {% for i in (1..3) %}
+    {% assign path_var = "path" | append: i %}
+    {% if page[path_var] %}
+      <li>
+        {% for pg in site[collection_name] %}
+          {% if pg.permalink == page[path_var] %}
+            {% if page.url == pg[path_var] %}{{ pg.title }}{% else %}
+              <a href="{{ pg.url }}">{{ pg.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </li>
     {% endif %}
-     {% endif %}
-     {% endfor %}
-  </li>
-  {% endif %}
-
-  {% if page.path3 %}
-  <li>
-    {% for pg in site.docs %}
-    {% if pg.permalink == page.path3 %}
-    {% if page.url == pg.path3 %}{{pg.title}}{% else %}
-    <a href="{{pg.url | remove: "/"}}">{{pg.title}}</a>
-    {% endif %}
-     {% endif %}
-     {% endfor %}
-  </li>
-  {% endif %}
-
+  {% endfor %}
 </ol>
+
+{% endif %}

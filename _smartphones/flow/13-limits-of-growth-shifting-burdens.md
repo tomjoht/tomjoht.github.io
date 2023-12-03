@@ -8,7 +8,7 @@ rebrandly: https://idbwrtng.com/systemarchetypes
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
 path1: smartphones/flow.html
-description: "I’ve slowed reading a bit and started watching Netflix more. Two system archetype theories to explain these dynamics. The archetypes “Limits to Growth” and “Shifting the Burden” from Peter Senge’s The Fifth Discipline, a classic about learning organizations, provide insight into how to move past plateaus."
+description: "I’ve slowed reading a bit and started watching Netflix more. Two system archetype theories to explain these dynamics. The archetypes “Limits to Growth” and “Shifting the Burden” from Peter Senge’s <i>The Fifth Discipline</i>, a classic about learning organizations, provide insight into how to move past plateaus."
 redirect_from:
 - /blog/limits-of-growth-shifting-burdens/
 last-modified: 2022-08-09
@@ -124,7 +124,7 @@ But because the real problem (the increased workload) remains unaddressed, the r
 
 This scenario is particularly poignant for me because my dad was an alcoholic during my early childhood (before I can remember) and then became sober through Alcoholics Anonymous (AA). Despite becoming sober, throughout his life he continued to attend regular AA meetings and celebrate each year of his sobriety. My dad passed away in 2018, and about the only thing I still keep of his is an AA coin he received upon achieving his first year of sobriety.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/recoveryAA.JPG" alt="Celebrating a first year of sobriety in AA" /><figcaption>AA coin my father received after achieving his first year of sobriety</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/recoveryAA.JPG" alt="Celebrating a first year of sobriety in AA" /><figcaption>AA coin my father received after achieving his first year of sobriety</figcaption></figure>
 
 He kept sober for the next 30+ years. However, I’m guessing his first year (denoted by the Roman number “I”) had special significance to him because he finally broke the addiction cycle.
 

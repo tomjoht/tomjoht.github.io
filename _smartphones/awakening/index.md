@@ -1,5 +1,5 @@
 ---
-title: "Journey away from smartphones: Regaining focus"
+title: "Introduction to Journey away from smartphones: Regaining focus"
 permalink: /smartphones/index.html
 course: "Journey away from smartphones"
 sidebar: sidebar_smartphones
@@ -10,7 +10,8 @@ redirect_from:
 - /smartphones/overview.html
 ---
 
-{% include chapter_description.html %}
+
+This is an intro to the entire series...
 
 {% include coffeeshopbook-smartphones.html %}
 

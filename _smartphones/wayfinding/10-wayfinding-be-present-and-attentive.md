@@ -54,19 +54,19 @@ Kunstler’s book, written in 1993, couldn’t more accurately describe the subu
 
 The other day I decided to bike home from the train station (a 5-mile ride, partly uphill). I rarely biked this segment because there weren't any suitable bike routes, so I pedaled along the sidewalks next to car-dominant routes. Here are some scenes from the ride:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_5.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_5.jpg" alt="Suburban cementscape" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_4.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_4.jpg" alt="Suburban cementscape" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_3.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_3.jpg" alt="Suburban cementscape" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_2.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_2.jpg" alt="Suburban cementscape" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_7.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_7.jpg" alt="Suburban cementscape" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_6.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_6.jpg" alt="Suburban cementscape" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_8.jpg" alt="Suburban cementscape" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cementscape_renton_8.jpg" alt="Suburban cementscape" />
 
 These scenes wouldn’t inspire anyone. They look like any other suburban city street: unmemorable, boring. At one point I passed a lady sitting on a curb in front of a Starbucks. I couldn’t tell if she was lost or just waiting for someone. She looked down at the cement, as if her life had been one depressing event after another. Or maybe she was just bored and her phone was dead. I couldn’t tell, but her vacant stare toward the ground seemed fitting for the landscape.
 
@@ -97,9 +97,9 @@ For O’Connor, her home “was the small, scrappy chicken farm that [she] had l
 
 And yet, if a stranger were to drive through Burlington, this area would be indistinguishable. It looks like just any small town whose economic livelihood is waning and where people live in 75-year-old homes that haven’t changed much with the passage of time. But for me, the map is my treasure map.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/field_out_back.jpg" alt="This is the field where I would ride my dirt bike and explore on foot near the river"><figcaption>The field out back</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/field_out_back.jpg" alt="This is the field where I would ride my dirt bike and explore on foot near the river"><figcaption>The field out back</figcaption></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/house-where-i-grew-up.jpg" alt="The house where I grew up" /><figcaption>This is the house where I grew up</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/house-where-i-grew-up.jpg" alt="The house where I grew up" /><figcaption>This is the house where I grew up</figcaption></figure>
 
 Although Renton's downtown area holds little appeal, I am, in fact, located in one of the most beautiful areas in the Northwest. South Seattle might be an unappealing industrial wasteland (with some warehouses and complexes that would make IKEA look small), but southeast King County (Kent, Renton) sits at the edge of the Cascades in a lush, green area filled with tall Fir trees, watersheds, and rolling hills. Drive east for 15 minutes from Kent and, given the rolling rural landscape, you might think you’re in another area entirely.
 
@@ -110,37 +110,37 @@ The other week I needed to drop my 11-year-old off at a week-long summer camp ne
 
 The recommended route following I-5 gets you there just 1 minute faster than the scenic route, which passes through the foothills of the Cascades with green wilderness and hills to the east. The scenic route adds just 1 minute of time. The freeway route even adds 5 more miles of distance, which means you’re traveling faster, so everything will be even more of a blur. 
 
-<figure><img style="border: 1px solid #dedede;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_1.jpg" alt="Recommended route" /><figcaption>Recommended route</figcaption></figure>
+<figure><img class="large" style="border: 1px solid #dedede;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_1.jpg" alt="Recommended route" /><figcaption>Recommended route</figcaption></figure>
 
-<figure><img style="border: 1px solid #dedede;"  src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_2.jpg" alt="Green areas" /><figcaption>Green areas</figcaption></figure>
+<figure><img class="large" style="border: 1px solid #dedede;"  src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_2.jpg" alt="Green areas" /><figcaption>Green areas</figcaption></figure>
 
 I didn’t want to use GPS to get to the camp, so I ended up printing off the map. Even traveling this short distance (a one-hour trip) made paper maps problematic. My printed map of the area (a GM Johnson City Map) didn’t extend into Enumclaw, and I didn’t have another map of that area with the needed detail. I tried printing off the route overview but it lacked the scale for the various connection points and turns that I’d need to make. This is one problem with relying on a printed map—if you drive more than an hour, you often exceed the scope of the map. If you get a larger scale map, it doesn’t show detailed information in the areas you’re driving. And I didn’t have a Washington Atlas.
 
 In the end, I took screenshots of the various connection points and referenced them from the larger map, with a few notes. 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_7.jpg" alt="Overview" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_7.jpg" alt="Overview" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_0.jpg" alt="Micro view" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_0.jpg" alt="Micro view" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_8.jpg" alt="Micro view" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_8.jpg" alt="Micro view" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_4.jpg" alt="Micro view" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_4.jpg" alt="Micro view" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_3.jpg" alt="Micro view" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_3.jpg" alt="Micro view" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_6.jpg" alt="Micro view" />
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanadomap_6.jpg" alt="Micro view" />
 
 Albeit tedious, this method also allowed me to study the route a bit more. The drive was, in fact, much more scenic and enjoyable than the time-optimized route along I-5. My 15-year-old and 17-year-old are both learning to drive, so I sat in the front passenger seat, fully attentive and alert (even more so than when I’m driving because they’re both still novices), and navigated for them while they drove. We stopped in Wilkeson and ate at a small diner called a Simple Goodness Soda Shop that had interior decor described as “Americana Mining Town chic."
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sodashop.jpg" alt="Soda shop" /><figcaption>Soda shop</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sodashop.jpg" alt="Soda shop" /><figcaption>Soda shop</figcaption></figure>
 
 Modern GPS technology optimizes our route algorithms on the principle that getting to a destination the fastest way possible is the preferred route. There’s no setting to adjust for that. Instead, you have to venture out of your way to find more scenic routes. Even as my children drove (which can be somewhat terrifying), it was much more peaceful to travel a bit slower and through this lush green area. I developed more of an interest in the towns and scenery. I wanted to know more about the history of places like Buckley, Enumclaw, and Kangley.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanado_scenery_1.jpg" alt="Scenery in the green area" /><figcaption>Scenery in the green area</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanado_scenery_1.jpg" alt="Scenery in the green area" /><figcaption>Scenery in the green area</figcaption></figure>
 
 If I really wanted to develop wayfinding skills, the next step would be for me to learn the stories of these places, to maybe make day trips into these areas and be more observant of their city details and environment. In short, to cultivate a sense of topophilia. Topophilia doesn’t naturally develop from a picturesque vista or two. Topophilia comes from spending time and having experiences in an area, either by living there or learning from those who do.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanado_scenary_2.jpg" alt="Scenery in the green area" /><figcaption>Scenery in the green area</figcaption></figure>
+<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carbanado_scenary_2.jpg" alt="Scenery in the green area" /><figcaption>Scenery in the green area</figcaption></figure>
 
 At least the paper maps helped me stay focused on the environment. We did get lost briefly, though it involved only a 10 minute detour. I sensed we were off course, checked the GPS to confirm it (I pulled my phone out of my bag), and then backtracked to realign with our planned route. I don’t think GPS itself is bad; it’s relinquishing our own decision-making to the turn-by-turn directions of an algorithm that might be at odds with our goals (like optimizing for speed instead of for place), without thinking about that algorithm or questioning its omniscience.
 

@@ -50,7 +50,7 @@ Csikszentmihalyi says flow helps us return to a pre-conscious state, almost like
 
 Look over at your cat or dog, and quietly observe their state. Presumably, the animal enjoys peace free from the psychic burdens of self-reflective consciousness. I have a young cat that likes to paw at random objects on the floor as if they were mice. In many ways, the cat gets into a state of flow doing this.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cat-at-play-kitchen.jpg" alt="Animals in state of flow" /><figcaption>A cat that directs its attention playfully on an object could be said to be in a state of flow.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cat-at-play-kitchen.jpg" alt="Animals in state of flow" /><figcaption>A cat that directs its attention playfully on an object could be said to be in a state of flow.</figcaption></figure>
 
 But alas, we humans have the burden of a conscious mind, which leads to psychic entropy (monkey mind). Csikszentmihalyi continues:
 
@@ -71,11 +71,11 @@ Csikszentmihalyi doesn’t spend much time on how consciousness is formed (at le
 * the “cacophony of disparate values, beliefs, choices, and behaviors.”
 * exposure to “increasingly contradictory goals, to incompatible opportunities for action” (230)
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/future-civilization-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>The complexity of civilization, especially as it juxtaposes contradiction, differing points of view, and different roles and ways of being could have spurred consciousness to develop.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/future-civilization-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>The complexity of civilization, especially as it juxtaposes contradiction, differing points of view, and different roles and ways of being could have spurred consciousness to develop.</figcaption></figure>
 
 The overarching theme here is that as civilization grows complex and multifaceted, particularly in ways that prompt reflection, such as by being confronted with contradictory or opposing views or lifestyles, consciousness increases. These more complex scenarios prompt advanced thought.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/emergence-of-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>When you're confronted with contradiction or an alternate point of view that contrasts with your own, it might set off a state of reflection that leads to greater consciousness.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/emergence-of-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>When you're confronted with contradiction or an alternate point of view that contrasts with your own, it might set off a state of reflection that leads to greater consciousness.</figcaption></figure>
 
 Overall, Csikszentmihalyi doesn’t seem too concerned with how humans arrived at consciousness (or an advanced state of mind), only that they do experience consciousness, and that the mental state of consciousness drifts toward entropy. However, before dismissing the possibility of a better answer about how consciousness formed, let’s explore one more theory about how consciousness formed.
 
@@ -90,11 +90,11 @@ Jaynes says if you look back several thousand years ago, during the time the _Il
 
 Jaynes says the frequent gods and muses directing events in ancient texts were actually auditory hallucinations from the right hemispheres of people’s brains. The left hemisphere incorrectly interpreted these auditory hallucinations as the voices of the gods. Jaynes called this the bicameral mind (for “two houses").
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/angel-wispering-in-ear-bicameral-mind.jpg" alt="" /><figcaption>Subjective introspection seems absent in ancient texts. Why? Jaynes says people basically weren't fully conscious. They interpreted the voice in their heads as the voices of gods and muses. In reality, the voice in their heads was their right brain projecting an auditory hallucination to the left brain.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/angel-wispering-in-ear-bicameral-mind.jpg" alt="" /><figcaption>Subjective introspection seems absent in ancient texts. Why? Jaynes says people basically weren't fully conscious. They interpreted the voice in their heads as the voices of gods and muses. In reality, the voice in their heads was their right brain projecting an auditory hallucination to the left brain.</figcaption></figure>
 
 As written language evolved, specifically metaphoric language, the bicameral mind started to break down. Those auditory hallucinations, which previously originated from the “gods,” started to be perceived as emerging from the same human mind. As people evolved and the bicameral mind disappeared, the auditory hallucinations from their right brains ceased. Without the gods directing their actions, many people felt abandoned.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bicameral-angel-no-more.jpg" alt="No more gods whispering into the ear" /><figcaption>The auditory voice of the "gods" was really the conscious mind projecting these thoughts all along. As people evolved and the bicameral mind disappeared, the auditory hallucinations from their right brains ceased. Without the gods directing their actions, many people felt abandoned.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bicameral-angel-no-more.jpg" alt="No more gods whispering into the ear" /><figcaption>The auditory voice of the "gods" was really the conscious mind projecting these thoughts all along. As people evolved and the bicameral mind disappeared, the auditory hallucinations from their right brains ceased. Without the gods directing their actions, many people felt abandoned.</figcaption></figure>
 
 Jaynes’ controversial bicameral mind hypothesis caused critics to reconsider their interpretations of gods and muses' frequent appearances in texts like the _Iliad._ Many started to think that the gods weren’t literary devices or cultural tropes but rather literal beliefs about what was happening.
 
@@ -111,7 +111,7 @@ Jaynes says “... metaphor is not a mere extra trick of language, as it is so o
 
 Metaphoric language helps us consider unfamiliar circumstances and ideas, prompting more advanced thought and ultimately consciousness. Metaphors take us from the familiar into the unfamiliar. By taking us into unfamiliar territory, metaphors prompt us into more advanced thought (and eventually consciousness).
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/metaphor-consciousness.jpg" alt="Moving toward conscious thought" /><figcaption>Metaphoric language helps us consider unfamiliar circumstances and ideas, prompting more advanced thought and ultimately consciousness. Metaphors take us from the familiar into the unfamiliar. (Even this image is a metaphor. Does it make you consider new ways of thinking about metaphors?)</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/metaphor-consciousness.jpg" alt="Moving toward conscious thought" /><figcaption>Metaphoric language helps us consider unfamiliar circumstances and ideas, prompting more advanced thought and ultimately consciousness. Metaphors take us from the familiar into the unfamiliar. (Even this image is a metaphor. Does it make you consider new ways of thinking about metaphors?)</figcaption></figure>
 
 Jaynes continues:
 
@@ -125,7 +125,7 @@ Jaynes also says symbols in language allow us to assemble and manipulate advance
 
 If you consider how mathematical operations and computer programming involve converting ideas into symbols that you can manipulate and perform actions against in complex ways, it’s not hard to see how language might perform a similar function. Words act as symbols that we can manipulate in advanced ways, leading to more complex thought.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/language-and-the-emergence-of-consciousness.jpg" alt="Language has an impact on consciousness" /><figcaption>The symbolic nature of language allows us to explore more complex thought.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/language-and-the-emergence-of-consciousness.jpg" alt="Language has an impact on consciousness" /><figcaption>The symbolic nature of language allows us to explore more complex thought.</figcaption></figure>
 
 
 ## Externalizing thought through writing {#externalizing-thought-through-writing}
@@ -136,7 +136,7 @@ When you write something, you’re literally making your internal thoughts exter
 
 The widespread recognition of Forster's quotation reinforces its validity. The more you write, the more likely you are to know what you think. Knowledge of what you think creates self-awareness, and it leads you to deliberate about whether you agree with what you’re reading or not. All of this complexity likely leads to more advanced thinking. And more advanced thought leads to more consciousness, the ability to step outside our frame of mind and analyze it formally, points of view, to be aware of ourselves and our mental processes, almost like an external observer looking at us.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/think-see-what-say-cons.jpg" alt="How can I know what I think until I see what I say?" /><figcaption>Externalizing our ideas helps us see them from another perspective. This alternate perspective (outside ourselves) can help expand our awareness.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/think-see-what-say-cons.jpg" alt="How can I know what I think until I see what I say?" /><figcaption>Externalizing our ideas helps us see them from another perspective. This alternate perspective (outside ourselves) can help expand our awareness.</figcaption></figure>
 
 Regardless of how language works, there’s no greater tool for thinking than writing. Not only can you see your thoughts in concrete form but you can also refine the logic of your arguments, trace out more complex trajectories of ideas, build elaborate narratives, and more. 
 
@@ -147,13 +147,13 @@ Language leads to thought, but thought alone doesn't trigger consciousness. You 
 
 I remember the specific moment when I first became aware of my thinking mind, or when I recognized my consciousness. When I was about 5 years old, I had a friend who didn’t talk much. One day I had lunch at his house. His mother made us a sandwich and chips, and we sat at his kitchen table, mostly eating in silence. As we ate in silence, I realized that I could think silently in my mind. I could think whatever I wanted, and no one else could know what I was thinking. Did others have this capability? Looking at my friend quietly eating his sandwich, I wondered, was he considering things in his mind too? Or was his mind blank, without any thoughts other than taking another bite of his sandwich?
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sitting-at-table-first-consciousness.jpg" alt="First inklings of the awareness of thought" /><figcaption>Was my ability to think whatever I wanted in my mind a unique capability, or did everyone possess it? The juxtaposition of a person in a seemingly opposite state prompted reflection, then awareness.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sitting-at-table-first-consciousness.jpg" alt="First inklings of the awareness of thought" /><figcaption>Was my ability to think whatever I wanted in my mind a unique capability, or did everyone possess it? The juxtaposition of a person in a seemingly opposite state prompted reflection, then awareness.</figcaption></figure>
 
 The juxtaposition of a person in a seemingly opposite state prompts reflection, then awareness. My experience reinforces Csikszentmihalyi’s argument that when we “... see the world different from one another, [recognizing that] [t]here is no one right way to behave, and each role requires different skills,” it moves us toward consciousness.
 
 My wife had a similar experience. She says when she was a young girl growing up in the Mormon church, someone explained to her the doctrine of polygamy, and she felt repulsed by it. She reacted so strongly that she decided that internally, in her mind, she could believe whatever she wanted and wouldn’t have to agree with polygamy. She realized her mind was a private sphere for her alone. No one else could enter her mind castle. It was her house, her space, and she could believe whatever she wanted. It was the first time she realized her private sphere of thought.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannon-castles-in-her-mind.jpg" alt="You own the castles of your mind. " /><figcaption>When my wife rejected what her church leaders taught, she reveled in the private castle of her mind. She realized it was a space no one else could enter, and she was free to believe whatever she wanted in there.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannon-castles-in-her-mind.jpg" alt="You own the castles of your mind. " /><figcaption>When my wife rejected what her church leaders taught, she reveled in the private castle of her mind. She realized it was a space no one else could enter, and she was free to believe whatever she wanted in there.</figcaption></figure>
 
 The moment I started introspecting while eating a sandwich with my silent childhood friend, or when my wife first realized she could think her own thoughts about polygamy—were these the starting points for a mental state increasingly filled with, as Csikszentmihalyi says, “unfulfilled wants, dashed expectations, loneliness, frustration, anxiety, guilt”? (230) In other words, is this the transition point when we move from the bright side of consciousness to the dark side of consciousness? And if so, is advanced thought itself to blame for our disordered consciousness? Does avoiding introspective thought lead to ordered consciousness?
 
@@ -190,7 +190,7 @@ Since the publication of _What Technology Wants_ (2010), more insights about the
 
 Does the internet become a catalyst for encouraging our minds to jump around in the same way we jump around from site to site, topic to topic, search to search, online? 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/randomness-of-internet-good-pov.jpg" alt="The internet is the ultimate mishmash of randomness into the same experience." /><figcaption>The internet brings everything together into one experience. It presents the mind with far more chaos and complexity than anything before it.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/randomness-of-internet-good-pov.jpg" alt="The internet is the ultimate mishmash of randomness into the same experience." /><figcaption>The internet brings everything together into one experience. It presents the mind with far more chaos and complexity than anything before it.</figcaption></figure>
 
 The internet brings everything together into one experience. It presents the mind with far more chaos and complexity than anything before it. You move from scene to scene as different as night and day, moving across cultural and geographical boundaries without even noticing. You are exposed to ideas of every kind, often contradictory, challenging, or upsetting. Maybe this cacophony pushes our conscious brain into overdrive, such that our mental patterns trend toward entropy rather than order. We get too much awareness, too many associations, too many connections.
 
@@ -209,14 +209,14 @@ Putting aside the internet’s cacophonous content, the mere pattern of web-surf
 
 If we constantly switch online throughout the day (every 19 seconds), is it surprising that our brain might switch topics every 19 seconds as well? When we teach our brain a pattern, it learns to follow it.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/random-internet-patterns-hell.jpg" alt="Randomness becomes mental chaos we desire to escape from" /><figcaption>The constant context-switching behavior of the internet might cause us to internalize the same context-switching in our mind, moving from topic to topic by tenuous association rather than directed thought.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/random-internet-patterns-hell.jpg" alt="Randomness becomes mental chaos we desire to escape from" /><figcaption>The constant context-switching behavior of the internet might cause us to internalize the same context-switching in our mind, moving from topic to topic by tenuous association rather than directed thought.</figcaption></figure>
 
 
 ## What I’ve noticed {#what-i’ve-noticed}
 
 As I read, I noticed a fascinating phenomenon. When I tried to sleep at night, if I had read a book that day (say, 50 pages of something), my mind seemed to follow a more linear, sequential pattern, similar to the calm order in which my eyes moved left to right across a page, following a larger narrative or argument an author was making. The act of reading imbued my mind with more order even in a natural, unfocused state.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reading-and-brain-thought-pattern-alignment.jpg" alt="Reading reduces entropy" /><figcaption>Reading seems to induce harmonic patterns in my brain waves, or something. To experiment, read a book for an hour and note your mental state. Then watch TikTok and compare.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reading-and-brain-thought-pattern-alignment.jpg" alt="Reading reduces entropy" /><figcaption>Reading seems to induce harmonic patterns in my brain waves, or something. To experiment, read a book for an hour and note your mental state. Then watch TikTok and compare.</figcaption></figure>
 
 One researcher explains that books' story structure can instill a more sequential order in our brains:
 

@@ -8,7 +8,7 @@ rebrandly: https://idbwrtng.com/rulesforsmartphoneuse
 description: "In my last post, I described an awakening about how my smartphone had fragmented my attention span, and I described my goal to recapture my long-form concentration. This section explores more specifics about “intentional” smartphone use."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
-path1: smartphones/overview.html
+path1: smartphones/awakening.html
 redirect_from:
 - /blog/my-international-rules-for-smartphone-use/
 last-modified: 2022-04-16

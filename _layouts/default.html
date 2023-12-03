@@ -411,53 +411,7 @@
  <div id="content">
 
 <!-- page breadcrumb for docs collection type -->
-{% if page.collection == "docs" or "smartphones" %}
-
-<ol class="breadcrumb">
-  <li><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
-{% if page.collection == "docs" %}
-    <li><a class="noExtIcon" href="{{site.url}}/learnapidoc">Learn API Doc</a></li>
-{% elsif page.collection == "smartphones" %}
-    <li><a class="noExtIcon" href="{{site.url}}/smartphones">Journey away from smartphones</a></li>
-{% endif %}
-  {% if page.path1 %}
-  <li>
-    {% for pg in site.docs %}
-    {% if pg.permalink == page.path1 %}
-    {% if page.url == pg.path1 %}{{pg.title}}{% else %}
-    <a href="{{pg.url}}">{{pg.title}}</a>
-    {% endif %}
-     {% endif %}
-     {% endfor %}
-  </li>
-  {% endif %}
-
-  {% if page.path2 %}
-  <li>
-    {% for pg in site.docs %}
-    {% if pg.permalink == page.path2 %}
-    {% if page.url == pg.path2 %}{{pg.title}}{% else %}
-    <a href="{{pg.url}}">{{pg.title}}</a>
-    {% endif %}
-     {% endif %}
-     {% endfor %}
-  </li>
-  {% endif %}
-
-  {% if page.path3 %}
-  <li>
-    {% for pg in site.docs %}
-    {% if pg.permalink == page.path3 %}
-    {% if page.url == pg.path3 %}{{pg.title}}{% else %}
-    <a href="{{pg.url | remove: "/"}}">{{pg.title}}</a>
-    {% endif %}
-     {% endif %}
-     {% endfor %}
-  </li>
-  {% endif %}
-
-</ol>
-{% endif %}
+{% include breadcrumb.html %}
 <!-- end page breadcrumb -->
 
 <!-- page title -->

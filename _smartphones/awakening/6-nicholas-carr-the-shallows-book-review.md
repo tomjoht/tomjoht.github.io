@@ -8,7 +8,7 @@ rebrandly: https://idbwrtng.com/carrshallowsreview
 description: "In my ongoing series describing my journey away from smartphones, I read one of the seminal works that kicked off the debate about the Internet’s influence on our brains: Nicholas Carr’s book What the Internet Is Doing to Our Brains: The Shallows. In this section, after careful reading and dissection of Carr’s argument, I try to make sense of the book for my own techno-skeptic journey. My conclusion is to find a balance between online and offline modes, using the computer to find info, but then turning away the monitor to read offline."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
-path1: smartphones/overview.html
+path1: smartphones/awakening.html
 redirect_from:
 - /blog/nicholas-carr-the-shallows-book-review/
 last-modified: 2022-05-20
@@ -117,11 +117,11 @@ But figuring out how to make reading my superpower wasn’t clear to me, especia
 
 To attempt a balance between online and offline modes, I started experimenting with an alternative approach. Because my computer monitor is attached to a swing arm, I could swing it out of focus when I wanted to read. I could then swing it back to center when I needed to type or do other internet tasks. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/online_mode_computer2.png" alt="Online reading mode" /><figcaption>Online reading mode</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/online_mode_computer2.png" alt="Online reading mode" /><figcaption>Online reading mode</figcaption></figure>
 
 When I want to switch to offline reading mode, I move my monitor off to the side, like this:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/offline_mode_computer2.png" alt="Offline reading mode" /><figcaption>Offline reading mode</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/offline_mode_computer2.png" alt="Offline reading mode" /><figcaption>Offline reading mode</figcaption></figure>
 
 I tried this approach a few times, and it seemed to work pretty well. I also started printing things out (for example, those long newsletters) that I wanted to read. By printing content out, I could read and annotate it more carefully and patiently than when I was online. I found that reading offline magically transformed my patience. I could read much more than a page in a single sitting. I could take in 20+ pages or more, without the distraction of checking my email, interacting with chat, and so on. I could focus and take in information much more thoroughly.
 

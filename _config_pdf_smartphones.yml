@@ -69,6 +69,7 @@ defaults:
     values:
       layout: printpdf
       published: true
+      collection: smartphones
 
   -
     scope:

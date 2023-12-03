@@ -25,7 +25,7 @@ As the start of the new year approached, I tried to think of some meaningful act
 
 So I decided to formalize my goal—walking for two hours a day outside—to make it a permanent habit. This time around, however, I didn’t just want to exercise; I wanted to be outdoors. Why walk outside? At the time, I’d grown increasingly weary of the sedentary, screen-based life of working in tech. I was tired of sitting in a corporate or home office all day, with my butt parked for eight hours on a padded chair, eyes focused on the artificial light of a screen, almost no body movement except for the tapping of my fingers across a keyboard, legs growing stiffer the longer I sit, hours passing me by until the sky grows dark and it’s time to go home.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tom-sitting-computer-chair-dalle.jpg" alt="Sitting at a computer living the sedentary tech life" /><figcaption>Sitting at a computer living the sedentary tech life</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tom-sitting-computer-chair-dalle.jpg" alt="Sitting at a computer living the sedentary tech life" /><figcaption>Sitting at a computer living the sedentary tech life</figcaption></figure>
 
 
 ## Sitting at a computer and living the sedentary tech life {#sitting-at-a-computer-and-living-the-sedentary-tech-life}
@@ -72,7 +72,7 @@ Wandering in the Suzallo library, I observed that it was filled with students an
 
 After this outing, I decided to start walking more frequently, not just for exercise, but to get outside. For example, I started nature walks. I explored a patch of woods behind a train station I frequented but never wandered around. While walking, I tried to look up and notice everything around me—a wooden birdhouse, the varieties of trees, old cement slabs with overgrown moss, a hidden pond, red and black berries of different shapes and textures. I used Google Lens to identify things. I tried to notice everything around me, as if seeing it for the first time. I became more curious and inquisitive. I was like a prisoner let out of his cell, allowed to wander about outside for the first time in years.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tom-walking-thinking-dalle.jpg" alt="Walking more regularly outdoors" /><figcaption>Walking more regularly outdoors</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tom-walking-thinking-dalle.jpg" alt="Walking more regularly outdoors" /><figcaption>Walking more regularly outdoors</figcaption></figure>
 
 
 ## Walking more regularly outdoors {#walking-more-regularly-outdoors}

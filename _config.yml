@@ -101,6 +101,7 @@ defaults:
       topnav: topnav
       progress: true
       permalink: /docs:path.html
+      collection: docs
 
   -
     scope:
@@ -127,6 +128,7 @@ defaults:
       topnav: topnav
       progress: true
       permalink: /docs:path.html
+      collection: smartphones
 
   -
     scope:
@@ -138,6 +140,7 @@ defaults:
       topnav: topnav
       progress: true
       permalink: /docs:path.html
+      collection: zamm
   -
     scope:
       path: "images"

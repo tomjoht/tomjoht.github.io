@@ -54,7 +54,7 @@ For a helpful podcast explaining DMN and TPN networks, see the Angels and Demons
 
 When you’re in monkey mind mode, the DMN is active. When you’re engaged in a task, the TPN is active. In most brains, the DMN and TPN function like seesaws, Hallowell and Ratey explain. When the DMN is active, the TPN is inactive; conversely, when the TPN is active, the DMN is inactive.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/seesaw-dmn-tpn.jpg" alt="" /><figcaption>The DMN and TPN normally function like a seesaw, with one active while the other is inactive.</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/seesaw-dmn-tpn.jpg" alt="" /><figcaption>The DMN and TPN normally function like a seesaw, with one active while the other is inactive.</figcaption></figure>
 
 People with ADHD can have both DMN and TPN modes _active at the same time._ There isn’t always a seesaw effect. Further, when the seesaw tilts correctly, there can be a “glitchy switch” between the two modes, the authors say. Someone with ADHD can get stuck in TPN mode, which locks them into a hyper-focused state where everything becomes mute around them. Similarly, they can get stuck in DMN mode, unable to transition into specific tasks as they delve deeper into negative brooding.
 
@@ -73,7 +73,7 @@ Learning about these networks in _ADHD 2.0_ was eye-opening for me. Three of the
 
 In particular, I had a hard time “getting going” on tasks in the morning. I often flittered around a bit, doing easy tasks, before I could get into the rhythm and groove of work. If I could figure out ways to quiet the DMN, or even just to warm up my TPN network, I would have solved a huge obstacle to productivity.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/car-wont-start-tpn.png" alt="Getting going in the morning" /><figcaption>I struggle to get going in the morning. I'm like an old car that needs a lot of warm-up before it can go anywhere</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/car-wont-start-tpn.png" alt="Getting going in the morning" /><figcaption>I struggle to get going in the morning. I'm like an old car that needs a lot of warm-up before it can go anywhere</figcaption></figure>
 
 I've written a lot about focus sessions and turning off distractions. But what I didn’t find in previous books (such as those by Cal Newport) were techniques for sustaining motivation and getting into TPN mode early. It was common for me to procrastinate on difficult tasks, doing almost anything until deadlines and stress compelled me. How could I get my TPN engine running? Ideally, I wanted to wake up in the morning, list my highest priority tasks for the day, and then immediately start working on them—rather than slowly coming around to them after a couple of hours of reading email, checking the news, browsing the internet, and doing other easy/distracting activities.
 

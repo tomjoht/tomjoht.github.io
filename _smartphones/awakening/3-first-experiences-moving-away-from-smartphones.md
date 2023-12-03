@@ -8,7 +8,7 @@ rebrandly: https://idbwrtng.com/experienceswithoutsmartphone
 description: "In this post, I describe my first two weeks living without a smartphone in my pocket. I got a flip phone and figured out how to get the functionality I needed (e.g., an Audible app, texting), how to use the phone again, and more."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
-path1: smartphones/overview.html
+path1: smartphones/awakening.html
 redirect_from:
 - /blog/first-experiences-moving-away-from-smartphones/
 last-modified: 2022-04-17
@@ -45,7 +45,7 @@ The Kyocera had a camera but with such poor quality, I avoided using it for anyt
 
 I bought the most compact point-and-shoot I could find. For the alarm clock, I bought a 1980s GE electric alarm clock, just like the one I had growing up. The alarm clock worked great, and I loved rotating the dial to change the FM radio station. The alarm clock was so old that if I unplugged it, there wasn’t even a backup battery.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gealarmclock.jpg" alt="GE alarm clock" /><figcaption>GE alarm clock</figcaption></figure>
+<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gealarmclock.jpg" alt="GE alarm clock" /><figcaption>GE alarm clock</figcaption></figure>
 
 I wasn’t sure what was happening to me, but suddenly I wanted to turn back time and live in the 80s again, or go back to the early days of the internet (90s), when everything was just coming online. I felt like I was going through a serious anti-tech phase. Would it last?
 
