@@ -14,9 +14,6 @@ podcast_file_size: 30.7
 podcast_duration: "42:12"
 podcast_length: 30710938
 image: podcastthumbzengrabski.png
-series: "Zen and the Art of Motorcycle Maintenance"
-sidebar: sidebar_zamm
-weight: 1.1
 ---
 
 {% include audio.html %}
