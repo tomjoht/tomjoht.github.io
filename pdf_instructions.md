@@ -119,7 +119,7 @@ After Jekyll builds the output, both the images and files are ready for Prince t
     ```js
     <script>
         Prince.addScriptFunc("datestamp", function() {
-            return "PDF last generated: {{ site.time | date: '%B %d, %Y' }}";
+            return "PDF last generated: {{ site.time | date: '%b %d, %Y' }}";
         });
     </script>
 

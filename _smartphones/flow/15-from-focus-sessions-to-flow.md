@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/fromfocustoflow
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/flow.html
 description: "In this post, I describe my experience trying to complete several ninety-minute focus sessions a day. While they allowed me to make a lot of progress, they reduced some of the fun of writing. This content is part of my ongoing series Journey away from smartphones."
 redirect_from:
 - /blog/from-focus-sessions-to-flow/

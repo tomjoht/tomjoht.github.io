@@ -411,11 +411,15 @@
  <div id="content">
 
 <!-- page breadcrumb for docs collection type -->
-{% if page.collection == "docs" %}
+{% if page.collection == "docs" or "smartphones" %}
 
 <ol class="breadcrumb">
   <li><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
+{% if page.collection == "docs" %}
     <li><a class="noExtIcon" href="{{site.url}}/learnapidoc">Learn API Doc</a></li>
+{% elsif page.collection == "smartphones" %}
+    <li><a class="noExtIcon" href="{{site.url}}/smartphones">Journey away from smartphones</a></li>
+{% endif %}
   {% if page.path1 %}
   <li>
     {% for pg in site.docs %}

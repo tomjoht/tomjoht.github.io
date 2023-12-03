@@ -1,14 +1,18 @@
 sidebartitle: Journey away from smartphones
 folders:
 
-- title: "Chapter 1"
-  landing: /smartphones/overview.html
+- title: "Chapter 1: Awakening"
+  landing: /smartphones/index.html
   section: one
   class: first
   description: >
     This series started with the realization that smartphones were fragmenting my attention span, so I abandoned my smartphone for six weeks. During that time, I rediscovered books and reading. I did return to my smartphone because disconnecting from it also meant disconnecting from family communication, but I continued reading and making more space in my life to consume more of the content offline, rather than the social media feeds on my smartphone. 
 
   folderitems:
+
+  - title: "Overview"
+    jurl: /smartphones/index.html
+    type: web
 
   - title: "1.1 My awakening moment about how smartphones fragment our attention span"
     jurl: /smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html
@@ -34,13 +38,17 @@ folders:
   - title: "1.8 Random notes on recovering the lost art of reading"
     jurl: /smartphones/notes-on-recovering-the-lost-art-of-reading.html
 
-- title: "Chapter 2: Returning to the smartphone"
+- title: "Chapter 2: Wayfinding"
   landing: /smartphones/wayfinding.html
   section: two
   description: > 
-    In giving up my smartphone, I had to relearn how to navigate. This led to a major realization: I liked driving without having to pay attention to the micro-directions of my smartphone. I felt a sense of autonomy, control, and liberation.
+    In giving up my smartphone, I had to relearn how to navigate. This led to a major realization: I liked driving without having to pay attention to the micro-directions of my smartphone. I felt a sense of autonomy, control, and liberation. Although a seemingly small act, driving without GPS became somewhat life-changing.
     
   folderitems:
+
+  - title: "Overview"
+    jurl: /smartphones/wayfinding.html
+    type: web
 
   - title: "2.1 Wayfinding -- finding my way without GPS"
     jurl: /smartphones/wayfinding-intro.html
@@ -54,13 +62,17 @@ folders:
   - title: "2.4 Driving without GPS -- the desire to be free and in control"
     jurl: /smartphones/wayfinding-driving-without-gps-freedom-and-control.html
 
-- title: "Chapter 3: Deep focus"
-  landing: /smartphones/deepfocus.html
+- title: "Chapter 3: Flow"
+  landing: /smartphones/flow.html
   section: three
   description: > 
     As I sought to regain my attention, I explored ideas about deep focus, and attempted to concentrate for extended periods of time on single tasks. As these focus sessions were grueling, I looked into ideas of flow and other natural techniques to make it more effortless.
     
   folderitems:
+
+  - title: "Overview"
+    jurl: /smartphones/flow.html
+    type: web
 
   - title: "3.1 From smartphones to Netflix: moving past plateaus in growth"
     jurl: /smartphones/limits-of-growth-shifting-burdens.html
@@ -87,6 +99,10 @@ folders:
     Despite my attempts to ditch my smartphone, I felt a constant pull drawing me back to my smartphone and the constant stream of tech news. This constant push and pull is one that I feel requires artful balance and judgement to navigate.
     
   folderitems:
+
+  - title: "Overview"
+    jurl: /smartphones/pushandpull.html
+    type: web
 
   - title: "4.1 The diametric pull towards tech and wildness"
     jurl: /smartphones/diametric-pull-towards-tech-and-wildness.html

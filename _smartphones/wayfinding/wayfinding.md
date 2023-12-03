@@ -11,4 +11,6 @@ last-modified: 2023-12-02
 
 {% include chapter_description.html %}
 
+{% include coffeeshopbook-smartphones.html %}
+
 {% include minitoc.html %}

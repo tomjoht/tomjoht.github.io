@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/conclusionsmartphoneseries
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/pushandpull.html
 description: "A New York Times article about Luddite teens who rejected their smartphones made me reflect on my own journey away from smartphones and the complexities of discerning how to adopt transformative technology in my life. In this conclusion to the series, I highlight key learnings and realizations throughout the year, including how the project changed me for the better."
 redirect_from:
 - /blog/conclusion-and-learnings-smartphone-series/

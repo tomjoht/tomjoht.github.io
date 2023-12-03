@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/wayfinding-control
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/wayfinding.html
 description: "Driving is one way we exercise our freedom. Driving without GPS could be seen as a rejection of the control of technological algorithms over lives."
 redirect_from:
 - /blog/wayfinding-driving-without-gps-freedom-and-control/

@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/dynamics-of-flow
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/flow.html
 description: "Mihaly Csikszentmihalyi’s psychology of flow, which describes ways to be so engrossed in an activity that you lose track of time, can be applied to writing technical documentation. Some of the traits of flow I cover here include balance, effortlessness, goals, feedback, and concentration."
 redirect_from:
 - /blog/csikszentmihalyi-dynamics-of-flow/

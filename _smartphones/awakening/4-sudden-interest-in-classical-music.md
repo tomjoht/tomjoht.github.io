@@ -8,6 +8,7 @@ rebrandly: https://idbwrtng.com/suddenlyclassicalmusic
 description: "It’s been 2-3 weeks now without my smartphone, and I wanted to jot down a few notes on how things were progressing. This entry is more like an informal journal log about what I observed."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/overview.html
 redirect_from:
 - /blog/sudden-interest-in-classical-music/
 last-modified: 2022-04-27

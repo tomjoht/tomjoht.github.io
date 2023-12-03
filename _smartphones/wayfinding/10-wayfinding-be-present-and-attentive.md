@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/wayfinding-attentiveness
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/wayfinding.html
 description: "Wayfinding starts with being attentive and present in the world around you. However, our suburban geography-of-nowhere-type cementscapes remove a lot of incentive for attentiveness."
 redirect_from:
 - /blog/wayfinding-be-present-and-attentive/

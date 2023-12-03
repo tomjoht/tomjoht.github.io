@@ -8,6 +8,7 @@ rebrandly: https://idbwrtng.com/carrshallowsreview
 description: "In my ongoing series describing my journey away from smartphones, I read one of the seminal works that kicked off the debate about the Internet’s influence on our brains: Nicholas Carr’s book What the Internet Is Doing to Our Brains: The Shallows. In this section, after careful reading and dissection of Carr’s argument, I try to make sense of the book for my own techno-skeptic journey. My conclusion is to find a balance between online and offline modes, using the computer to find info, but then turning away the monitor to read offline."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/overview.html
 redirect_from:
 - /blog/nicholas-carr-the-shallows-book-review/
 last-modified: 2022-05-20

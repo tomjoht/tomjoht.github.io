@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/systemarchetypes
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/flow.html
 description: "I’ve slowed reading a bit and started watching Netflix more. Two system archetype theories to explain these dynamics. The archetypes “Limits to Growth” and “Shifting the Burden” from Peter Senge’s The Fifth Discipline, a classic about learning organizations, provide insight into how to move past plateaus."
 redirect_from:
 - /blog/limits-of-growth-shifting-burdens/

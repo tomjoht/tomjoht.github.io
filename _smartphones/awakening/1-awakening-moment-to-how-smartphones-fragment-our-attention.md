@@ -8,6 +8,7 @@ rebrandly: https://idbwrtng.com/smartphoneawakening
 description: "The constant inflow of information from my smartphone, always readily available in my pocket to capture any free moment of attention, had fragmented my attention span."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/overview.html
 redirect_from:
 - /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
 last-modified: 2022-04-10

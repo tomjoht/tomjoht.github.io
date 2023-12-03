@@ -12,6 +12,14 @@ last-modified: 2023-05-29
     <div class="printTitleImage">
         <img src="{{site.cover_image}}" alt="{{site.title}}"/>
         </div>
+  {% elsif site.cover_hybrid == true %}
+    <div class="printTitle">{{site.title}}</div>
+    <div class="printSubtitle">{{site.subtitle}}</div>
+    <div class="printTitleImage">
+        <img src="{{site.cover_image}}" alt="{{site.title}}"/>
+        </div>
+    <div class="printByline">by {{site.author}}<br/>
+    {{site.url_tagline}}</div>
     {% else %}
     <div class="printTitle">{{site.title}}</div>
     <div class="printSubtitle">{{site.subtitle}}</div>

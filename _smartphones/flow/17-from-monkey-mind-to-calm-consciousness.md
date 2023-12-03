@@ -7,7 +7,8 @@ keywords:
 rebrandly: https://idbwrtng.com/changconsc
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
-description: "This content continues my series about regaining long-form concentration. Although Csikszentmihalyi says the brain’s natural state&mdash;when left alone without focused attention—gravitates toward entropy and chaos, I’m not sure I want to agree. In this post, I ask how and why consciousness becomes disordered in the first place (why we have a monkey mind), and how we might change that natural state. "
+path1: smartphones/flow.html
+description: "This content continues my series about regaining long-form concentration. Although Csikszentmihalyi says the brain’s natural state&mdash;when left alone without focused attention—gravitates toward entropy and chaos, I’m not sure I want to agree. In this post, I ask how and why consciousness becomes disordered in the first place (why we have a monkey mind), and how we might change that natural state."
 redirect_from:
 - /blog/from-monkey-mind-to-calm-consciousness/
 last-modified: 2022-10-25

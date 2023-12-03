@@ -8,6 +8,7 @@ rebrandly: https://idbwrtng.com/onemonthin
 description: "It had been about a month since I moved away from smartphones. In this entry, I explain the distaste I developed for screens, my rediscovery of photography, and more."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+
 redirect_from:
 - /blog/one-month-in-without-a-smartphone/
 last-modified: 2022-05-7

@@ -8,6 +8,7 @@ rebrandly: https://idbwrtng.com/returningtosmartphones
 description: "All right, so you knew this development was coming. When would I abandon my basic phone and return, at some level, to a smartphone, and why? That’s what this section is about. The TLDR here is that texting became too challenging on a basic phone, and it was creating more stress and disruption for my other family members who were trying to communicate with me. But let me provide more details here, because there was a key turning point."
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/overview.html
 redirect_from:
 - /blog/returning-to-smartphones/
 last-modified: 2022-05-29

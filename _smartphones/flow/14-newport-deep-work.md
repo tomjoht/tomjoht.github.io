@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/deepworknewport
 series: "Journey away from smartphones"
 sidebar: sidebar_smartphones
+path1: smartphones/flow.html
 description: "In this chapter, I summarize the ideas from Cal Newport’s popular book, Deep Work. Structuring your time into several periods of deep focus during the day can help you become wildly productive."
 redirect_from:
 - /blog/newport-deep-work/
