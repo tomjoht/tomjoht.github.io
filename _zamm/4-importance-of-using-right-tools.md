@@ -11,6 +11,8 @@ description: "In this section, I explore the role of tools in both bicycle maint
 image: righttypeofconewrench.jpg
 series: "Zen and the Art of Motorcycle Maintenance"
 sidebar: sidebar_zamm
+section: peaceofmind
+path1: smartphones/peaceofmind.html
 ---
 
 ## Fixing the brake and tools

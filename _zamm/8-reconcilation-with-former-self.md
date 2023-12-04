@@ -16,6 +16,8 @@ description: ""
 # sidebar: sidebar_zamm
 # weight: 1.X
 published: false
+section: peaceofmind
+path1: smartphones/peaceofmind.html
 ---
 
 Over the Thanksgiving break, I decided to dig out my writing journal, which covered the time of my motorcycle trip, and find some good pictures to post. As I started rereading through my entries, I realized a few things that troubled me. I didn't entirely like the person I was reading. This disturbed me because in my mind, I had remembered someone entirely different. Yet there on the page, every so often an image of someone emerged that bothered me.

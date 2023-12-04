@@ -16,6 +16,8 @@ description: ""
 # sidebar: sidebar_zamm
 # weight: 1.X
 published: false
+section: peaceofmind
+path1: smartphones/peaceofmind.html
 ---
 
 Removing deadline pressure

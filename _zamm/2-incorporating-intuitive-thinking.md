@@ -14,6 +14,8 @@ description: "In this post, I delve into my insights from 'Zen and the Art of Mo
 image: techwriterandzenimagethumb.jpg
 series: "Zen and the Art of Motorcycle Maintenance"
 sidebar: sidebar_zamm
+section: peaceofmind
+path1: smartphones/peaceofmind.html
 weight: 1.3
 ---
 

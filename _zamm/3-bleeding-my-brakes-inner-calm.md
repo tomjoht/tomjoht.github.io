@@ -9,6 +9,8 @@ keywords:
 rebrandly: https://idbwrtng.com/learning-and-doing-zen-and-motorcycle-maintenance
 description: "I experimented with intuitively bleeding my bicycle's brakes over the weekend, guided by principles from <i>Zen and the Art of Motorcycle Maintenance.</i> After meditating with the Calm app to achieve a peaceful mindset, I studied some YouTube tutorials for guidance. Despite some initial missteps, like bleeding the wrong brake, I maintained a calm and patient approach throughout the process. I wasn't successful, but having a different mindset felt like a gamechanger."
 image: brakebleedingaragethumb.jpg
+section: peaceofmind
+path1: smartphones/peaceofmind.html
 ---
 
 ## Introduction 
