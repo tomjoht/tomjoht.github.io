@@ -63,6 +63,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/$SLUG
 description: ""
+# podcast_link: 
 # podcast_file_size: 
 # podcast_duration: ""
 # podcast_length: 
@@ -70,6 +71,8 @@ description: ""
 # series: "Zen and the Art of Motorcycle Maintenance"
 # sidebar: sidebar_zamm
 # weight: 1.X
+# section: peaceofmind
+# path1: smartphones/peaceofmind.html
 published: false
 ---
 

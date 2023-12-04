@@ -1,5 +1,5 @@
 ---
-title: "The evolution of podcasting, with Ed Marsh"
+title: "Podcast: The evolution of podcasting, with Ed Marsh"
 permalink: /blog/evolution-of-podcasting-podcast-ed-marsh
 date: 2023-12-03
 categories:
@@ -8,7 +8,7 @@ categories:
 - podcasting
 keywords: 
 rebrandly: https://idbwrtng.com/evolution-of-podcasting-podcast-ed-marsh
-description: "In this podcast, I talk with <a href='https://edmarsh.com'>Ed Marsh</a> about podcasting. You may have listened to Ed Marsh's <a href='https://edmarsh.com/content-content-podcast/'>Content Content podcast</a> previously. As an experienced podcaster, Ed has a lot of insights and thoughts about podcasting. We discuss what initially drew him to start podcasting, why podcasters often go on hiatus, the equipment and logistics involved in podcasting, different formats that engage listeners (from co-hosts to single person podcasts, and more), incorporating AI tools, the ongoing appeal of podcasting, and more."
+description: "In this podcast, I talk with <a href='https://edmarsh.com'>Ed Marsh</a> about podcasting. You may have listened to Ed Marsh's <a href='https://edmarsh.com/content-content-podcast/'>Content Content podcast</a> previously. As an experienced podcaster, Ed has a lot of insights and thoughts about podcasting. We discuss what initially drew him to start podcasting, the equipment and logistics involved in podcasting, different formats that engage listeners (from co-hosts to single person podcasts, and more), incorporating AI tools, why podcasters often go on hiatus, the ongoing appeal of podcasting, and more."
 podcast_file_size: 46.8
 podcast_duration: "57:24"
 podcast_length: 46781184

@@ -47,6 +47,8 @@ Overall, lots of hands-on experimentation to learn, looking at the big picture o
 
 He said that if you look at a bike long enough, it will reveal its problem to you. 
 
+Other notes: my comment that my derailler seemed kind of cheap, and why not just replace it without a more quality component instead of trying to fiddle and fix cheap plastic parts. instead of giving me an answer straight out, wanted me to think through the answer for myself, prompted me to reason it out in my head first. then got into discussion: for bike shops, is cheaper and guaranteed to work when you replace a part so is often the fastest path to fixing it. but they often put cheap components in there. my experience at bike shop: $400 to fix drivetrain, and components complete crap.
+
 The workshop lasted 3 hours. In comparing my own learning sessions with the guided session, I found them both useful. There's something rewarding about going at your own pace, figuring out what you specifically want to learn, attacking problems with your specific bike, and more. 
 
 At the same time, other people can impart knowledge and perspectives that are highly valuable. Cory explained how to basically adjust my derailer in a really easy way, but also impressed upon me the larger ideas of personal experimentation and exploration as a way to increase understanding.
