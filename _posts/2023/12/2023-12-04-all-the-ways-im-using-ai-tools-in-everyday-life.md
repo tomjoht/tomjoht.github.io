@@ -8,7 +8,7 @@ categories:
 - writing
 keywords: 
 rebrandly: https://idbwrtng.com/all-the-ways-im-using-ai-tools-in-everyday-life
-description: "Here I provide over 30 real-life examples of how I'm using AI on a daily basis, not just for technical writing tasks but more broadly in life, including summarizing content, explaining concepts, answering questions, troubleshooting problems, and having engaging conversations. In my view, AI use cases are ubiquitous, equivalent to the use cases for computers or the Internet in general. In other words, the use cases apply to nearly every aspect of writing, learning, creativity, research, and more."
+description: "In this post, I provide over 30 real-life examples of how I'm using AI on a daily basis, not just for technical writing tasks but more broadly in life, including summarizing content, explaining concepts, answering questions, troubleshooting problems, and having engaging conversations for a variety of tasks and scenarios. In my view, AI use cases are ubiquitous, equivalent to the use cases for computers or the Internet in general."
 # podcast_link
 # podcast_file_size: 
 # podcast_duration: ""
@@ -21,17 +21,15 @@ image: usingai30waysimage.jpg
 
 ## Intro notes, including why I wrote this post
 
-Currently, many people are trying to figure out how to use AI. The hype is extremely high and they’re seeing so much innovation and news, but that hype + innovation isn’t reaching actual transformation of their tech doc work. They look around and try to find an expert who has figured it out, because there must be something wrong if they can’t make use of this transformative new technology that everyone keeps raving about. As a result, there’s a lot of discussion about identifying the right use cases for AI.
+Recently, I've noticed many people around me trying to figure out how to use AI. The hype is extremely high and they’re seeing so much innovation and news, but that hype + innovation isn’t reaching actual transformation of their tech doc work. They look around and try to find an expert who has figured it out, because there must be something wrong if they can’t make use of this transformative new technology that everyone keeps raving about, but which hasn't seemed to change their own workflows. As a result, there’s a lot of discussion about identifying the right use cases for AI.
 
-What *are* the best use cases for AI? I think this question is somewhat like asking what are the use cases for the computer or Internet. Nearly everything is a use case. The same question was common when these technologies first surfaced, but they quickly gave way to an enormous variety of applications in nearly every domain. This is an argument Ellis Pratt makes in his latest Cherryleaf podcast ([episode 141](https://www.cherryleaf.com/2023/11/podcast-141-what-techcomm-problems-can-generative-ai-solve/)). AI will likely fade from the discussion spotlight and just be the way people get things done.
+What *are* the best use cases for AI? I think this question is somewhat like asking what are the use cases for the computer or Internet. Nearly everything is a use case. The same question was common when these technologies first surfaced, but they quickly gave way to an enormous variety of applications in nearly every domain. This is an argument Ellis Pratt makes in his latest Cherryleaf podcast ([episode 141](https://www.cherryleaf.com/2023/11/podcast-141-what-techcomm-problems-can-generative-ai-solve/)).
 
-In the following 30+ scenarios, I describe various ways that I'm using AI in everyday life. In this post, I decided to expand outside the realm of technical writer scenarios. As for tools, I’ve mostly used ChatGPT (plus version), Claude (pro version), Bard, and NotebookLM. 
+In the following 30+ scenarios, I describe various ways that I'm using AI in everyday life. In this post, I decided to expand outside the realm of technical writer scenarios. As for tools, I’ve mostly used ChatGPT, Claude, and Bard.
 
 For a previous presentation on a related topic, see [AI and API docs: What works, what doesn’t](https://idratherbewriting.com/learnapidoc/docapis_ai_what_works_and_doesnt.html). Also see the posts in my blog’s [AI category](https://idratherbewriting.com/category-ai/).
 
-Note that the following sections aren’t in any particular order. I’ve resisted grouping them because I want to show how AI can be used pervasively for many tasks, not just limited to technical writing applications. My central argument is that AI use cases are so ubiquitous they apply to all facets of life.
-
-The following are rough descriptions of 30+ ways I’m using AI.
+The following are rough descriptions of 30+ ways I’m using AI. The sections aren’t in any particular order. I’ve resisted grouping them because I want to show how AI can be used pervasively for many tasks, not just limited to technical writing applications. My central argument is that AI use cases are so ubiquitous they apply to all facets of life.
 
 <img style="max-width:600px" src="{{site.media}}/usingai30waysimage.jpg" alt="All the ways I'm using AI" />
 
