@@ -9,12 +9,17 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/all-the-ways-im-using-ai-tools-in-everyday-life
 description: "In this post, I provide over 30 real-life examples of how I'm using AI on a daily basis, not just for technical writing tasks but more broadly in life, including summarizing content, explaining concepts, answering questions, troubleshooting problems, and having engaging conversations for a variety of tasks and scenarios. In my view, AI use cases are ubiquitous, equivalent to the use cases for computers or the Internet in general."
-# podcast_link
-# podcast_file_size: 
-# podcast_duration: ""
-# podcast_length: 
+podcast_link: 
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/allthewaysimusingai.mp3
+podcast_file_size: 35.1
+podcast_duration: "44:33"
+podcast_length: 35134943
 image: usingai30waysimage.jpg
 ---
+
+{% include audio.html %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kKMnv9tDl30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * TOC
 {:toc}
@@ -290,5 +295,9 @@ Scenario: You want to know what the weather report is for the next week, or mayb
 Note: As far as I know, this requires ChatGPT with Bing.
 
 <div class="chat">Prompt: Browse the web to to get the weather report for this week. / Browse the web to get the latest NFL news for the past 2 days.</div>
+
+<hr/>
+
+Here's the This Week in Tech (TWIT) podcast episode I mentioned in my video: [TWIT episode 956, starting at minute 11:45](https://twit.tv/shows/this-week-in-tech/episodes/956).
 
 
