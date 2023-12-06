@@ -15,10 +15,6 @@ last-modified: 2023-09-26
 {: .note}
 This content is forthcoming...
 
-
-{% include coffeeshopbook.html %}
-
-
 {% if site.format == "web" %}
 * TOC
 {:toc}
