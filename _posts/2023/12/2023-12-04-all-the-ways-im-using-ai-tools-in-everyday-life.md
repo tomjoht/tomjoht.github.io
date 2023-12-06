@@ -3,9 +3,9 @@ title: "30+ ways I’m using AI in everyday writing life as a technical writer, 
 permalink: /blog/all-the-ways-im-using-ai-tools-in-everyday-life
 date: 2023-12-04
 categories:
-- academics-and-practitioners
 - ai
 - writing
+- podcasts
 keywords: 
 rebrandly: https://idbwrtng.com/all-the-ways-im-using-ai-tools-in-everyday-life
 description: "In this post, I provide over 30 real-life examples of how I'm using AI on a daily basis, not just for technical writing tasks but more broadly in life, including summarizing content, explaining concepts, answering questions, troubleshooting problems, and having engaging conversations for a variety of tasks and scenarios. In my view, AI use cases are ubiquitous, equivalent to the use cases for computers or the Internet in general."
