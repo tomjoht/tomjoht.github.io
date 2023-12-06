@@ -282,3 +282,13 @@ Scenario: You’re documenting a new feature that’s pretty much contained in a
 Scenario: You’re trying to solve a complex problem, like how to get your ADHD child to do her homework as well as navigate the right approach between discipline and support. You aren’t sure if disciplinary measures will be interpreted as punitive and backfire for an ADHD mindset, and you also need to find strategies for persuading your spouse about why a punitive approach might backfire. You use AI to express your concerns, talk through solutions, raise objections, explore counterarguments, etc.
 
 <div class="chat">Prompt: I’m trying to figure out how to help my daughter, who has ADHD, complete her homework…</div>
+
+## 33. Get the latest weather or news
+
+Scenario: You want to know what the weather report is for the next week, or maybe what the latest NFL news is for the past couple of days. 
+
+Note: As far as I know, this requires ChatGPT with Bing.
+
+<div class="chat">Prompt: Browse the web to to get the weather report for this week. / Browse the web to get the latest NFL news for the past 2 days.</div>
+
+
