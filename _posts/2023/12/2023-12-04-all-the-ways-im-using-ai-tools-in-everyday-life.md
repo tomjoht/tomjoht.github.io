@@ -298,6 +298,8 @@ Note: As far as I know, this requires ChatGPT with Bing.
 
 <hr/>
 
+## Related resources
+
 Here's the This Week in Tech (TWIT) podcast episode I mentioned in my video: [TWIT episode 956, starting at minute 11:45](https://twit.tv/shows/this-week-in-tech/episodes/956).
 
-
+I recently gave an STC webinar on this same topic. See [Webinar recording: Experiments and use cases for AI from a tech writer’s perspective](blog/stc-webinar-experiments-use-cases-ai) for the recording and slides.
