@@ -76,6 +76,9 @@ description: ""
 published: false
 ---
 
+* TOC
+{:toc}
+
 {% include ads.html %}
 
 EOL
