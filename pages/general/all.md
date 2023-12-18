@@ -6,7 +6,7 @@ permalink: /all
 * TOC
 {:toc}
 
-<h2>2023 archives</h2>
+## 2023 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -16,7 +16,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2022 archives</h2>
+## 2022 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -26,7 +26,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2021 archives</h2>
+## 2021 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -36,7 +36,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2020 archives</h2>
+## 2020 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -46,7 +46,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2019 archives</h2>
+## 2019 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -56,7 +56,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2018 archives</h2>
+## 2018 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -66,7 +66,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2017 archives</h2>
+## 2017 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -76,7 +76,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2016 archives</h2>
+## 2016 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -86,7 +86,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2015 archives</h2>
+## 2015 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -96,7 +96,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2014 archives</h2>
+## 2014 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -106,7 +106,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2013 archives</h2>
+## 2013 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -116,7 +116,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2012 archives</h2>
+## 2012 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -126,7 +126,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2011 archives</h2>
+## 2011 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -136,7 +136,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2010 archives</h2>
+## 2010 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -146,7 +146,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2009 archives</h2>
+## 2009 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -156,7 +156,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2008 archives</h2>
+## 2008 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -166,7 +166,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2007 archives</h2>
+## 2007 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -176,7 +176,7 @@ permalink: /all
     {% endfor %}
 </ol>
 
-<h2>2006 archives</h2>
+## 2006 archives
 <ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
