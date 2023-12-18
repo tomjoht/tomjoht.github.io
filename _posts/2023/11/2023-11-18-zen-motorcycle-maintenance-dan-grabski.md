@@ -24,6 +24,8 @@ You can view Dan's Write the Docs 2023 Portland talk here: [Zen And The Art Of A
 
 {% include ads.html %}
 
+For a related podcast, see [Podcast: Notes and themes from Zen and the Art of Motorcycle Maintenance by Robert Pirsig](/blog/zen-and-art-of-motorcycle-maintenance-pirsig-notes-themes-podcast).
+
 ## Transcript
 
 You can view a literal transcript in the [YouTube version](https://www.youtube.com/embed/0RIZR7I480k). The following is a more readable version of the transcript:

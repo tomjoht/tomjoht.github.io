@@ -358,6 +358,20 @@
 
 {% include sidebar_comics.html %}
 
+<!-- popular series in sidebar -->
+<div class="recent-posts">
+<h3>Popular series</h3>
+<ul>
+    <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle Maintenance</a></li>
+    <li><a href="/smartphones/overview.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Journey away from smartphones</a></li>
+    <li><a href="/trends/trends-to-follow-or-forget-intro.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Trends to follow or forget</a></li>
+    <li><a href="/simplifying-complexity/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Simplifying complexity</a></li>
+    <li><a href="/2017/12/28/value-of-tech-comm-in-company-part1/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Value arguments for docs and tech comm</a></li>
+    <li><a href="/series/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> See all series</a></li>
+</ul>
+  </div>
+  <!-- end popular series in sidebar -->
+
 <!-- recent posts in sidebar -->
 <div class="recent-posts">
 <h3>Recent posts</h3>
@@ -371,31 +385,31 @@
   </ul>
 </div>
 
-<!-- end recent posts in sidebar -->
-
-<!-- popular series in sidebar -->
+<!-- archives in sidebar -->
 <div class="recent-posts">
-<h3>Popular series</h3>
-{% assign topnav = site.data[page.topnav] %}
-<ul>
-{% assign counter = 0 %}
-{% for entry in topnav.topnav_dropdowns %}
-  {% for folder in entry.folders %}
-    {% if folder.title == "Series" %}
-      {% for folderitem in folder.folderitems %}
-        {% if counter < 10 %}
-          <li><a href="{{folderitem.url}}" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{folderitem.title}}</a></li>
-          {% assign counter = counter | plus: 1 %}
-        {% else %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-</ul>
+<h3>Archives</h3>
+<a href="/archives-2023/" class="noCrossRef">2023</a> &bull;  
+<a href="/archives-2022/" class="noCrossRef">2022</a> &bull; 
+<a href="/archives-2021/" class="noCrossRef">2021</a> &bull; 
+<a href="/archives-2020/" class="noCrossRef">2020</a> &bull; 
+<a href="/archives-2019/" class="noCrossRef">2019</a> &bull; 
+<a href="/archives-2018/" class="noCrossRef">2018</a> &bull; 
+<a href="/archives-2017/" class="noCrossRef">2017</a> &bull; 
+<a href="/archives-2016/" class="noCrossRef">2016</a> &bull; 
+<a href="/archives-2015/" class="noCrossRef">2015</a> &bull; 
+<a href="/archives-2014/" class="noCrossRef">2014</a> &bull; 
+<a href="/archives-2013/" class="noCrossRef">2013</a> &bull; 
+<a href="/archives-2012/" class="noCrossRef">2012</a> &bull; 
+<a href="/archives-2011/" class="noCrossRef">2011</a> &bull; 
+<a href="/archives-2010/" class="noCrossRef">2010</a> &bull; 
+<a href="/archives-2009/" class="noCrossRef">2009</a> &bull; 
+<a href="/archives-2008/" class="noCrossRef">2008</a> &bull; 
+<a href="/archives-2007/" class="noCrossRef">2007</a> &bull; 
+<a href="/archives-2006/" class="noCrossRef">2006</a> &bull; 
+<a href="/tags/" class="noCrossRef">Posts by tag</a> &bull; 
+<a href="/archives/">See all archives</a>
 </div>
-<!-- end popular series in sidebar -->
+<!-- end recent posts in sidebar -->
 
             </div>
 
