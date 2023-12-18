@@ -705,3 +705,14 @@ a:focus {
     border-radius: 4px;
     max-width: 200px;
 }
+
+div#myBio p {
+    font-size: 14px;
+    line-height: inherit;
+}
+
+div#myBio {
+    background: aliceblue;
+    padding: 40px;
+    font-size: smaller;
+}
