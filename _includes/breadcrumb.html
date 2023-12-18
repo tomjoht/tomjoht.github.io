@@ -1,3 +1,5 @@
+{% unless page.collection == "posts" %}
+
 {% assign collection_name = page.collection %}
 
 {% if collection_name %}
@@ -25,3 +27,4 @@
 </ol>
 
 {% endif %}
+{% endunless %}
