@@ -7,7 +7,7 @@ permalink: /all
 {:toc}
 
 <h2>2023 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2023" %}
@@ -17,7 +17,7 @@ permalink: /all
 </ol>
 
 <h2>2022 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2022" %}
@@ -27,7 +27,7 @@ permalink: /all
 </ol>
 
 <h2>2021 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2021" %}
@@ -37,7 +37,7 @@ permalink: /all
 </ol>
 
 <h2>2020 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2020" %}
@@ -47,7 +47,7 @@ permalink: /all
 </ol>
 
 <h2>2019 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2019" %}
@@ -57,7 +57,7 @@ permalink: /all
 </ol>
 
 <h2>2018 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2018" %}
@@ -67,7 +67,7 @@ permalink: /all
 </ol>
 
 <h2>2017 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2017" %}
@@ -77,7 +77,7 @@ permalink: /all
 </ol>
 
 <h2>2016 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2016" %}
@@ -87,7 +87,7 @@ permalink: /all
 </ol>
 
 <h2>2015 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2015" %}
@@ -97,7 +97,7 @@ permalink: /all
 </ol>
 
 <h2>2014 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2014" %}
@@ -107,7 +107,7 @@ permalink: /all
 </ol>
 
 <h2>2013 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2013" %}
@@ -117,7 +117,7 @@ permalink: /all
 </ol>
 
 <h2>2012 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2012" %}
@@ -127,7 +127,7 @@ permalink: /all
 </ol>
 
 <h2>2011 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2011" %}
@@ -137,7 +137,7 @@ permalink: /all
 </ol>
 
 <h2>2010 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2010" %}
@@ -147,7 +147,7 @@ permalink: /all
 </ol>
 
 <h2>2009 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2009" %}
@@ -157,7 +157,7 @@ permalink: /all
 </ol>
 
 <h2>2008 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2008" %}
@@ -167,7 +167,7 @@ permalink: /all
 </ol>
 
 <h2>2007 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2007" %}
@@ -177,7 +177,7 @@ permalink: /all
 </ol>
 
 <h2>2006 archives</h2>
-<ol>
+<ol reversed="true">
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2006" %}
