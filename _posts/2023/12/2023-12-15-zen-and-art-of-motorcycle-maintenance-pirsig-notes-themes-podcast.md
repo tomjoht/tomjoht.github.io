@@ -13,6 +13,7 @@ podcast_file_size: 53.3
 podcast_duration: "01:03:29"
 podcast_length: 52627223
 image: zammnotesthumbimage2.png
+sidebar: sidebar_zamm
 ---
 
 {% include audio.html %}

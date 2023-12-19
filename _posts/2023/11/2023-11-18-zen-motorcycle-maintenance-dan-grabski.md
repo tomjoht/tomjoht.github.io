@@ -14,6 +14,7 @@ podcast_file_size: 30.7
 podcast_duration: "42:12"
 podcast_length: 30710938
 image: podcastthumbzengrabski.png
+sidebar: sidebar_zamm
 ---
 
 {% include audio.html %}

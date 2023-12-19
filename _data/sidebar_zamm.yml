@@ -5,6 +5,9 @@ folders:
   class: first
   folderitems:
 
+  # - title: "Overview"
+  #   jurl: /zamm/peaceofmind.html
+
   - title: "Why I decided to reread Zen and the Art of Motorcycle Maintenance"
     jurl: /zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html
 
@@ -16,3 +19,19 @@ folders:
 
   - title: "The importance of using the right tools"
     jurl: /zamm/importance-of-using-right-tools.html
+
+- title: "Related resources"
+  landing: /zamm/resources.html
+  type: web
+  section: two
+  description: > 
+    
+  folderitems:
+
+  - title: "Podcast: Notes and themes from Zen and the Art of Motorcycle Maintenance by Robert Pirsig" 
+    jurl: /blog/zen-and-art-of-motorcycle-maintenance-pirsig-notes-themes-podcast
+    type: web
+
+  - title: "Podcast: Tech writing and Zen and the Art of Motorcycle Maintenance, with Dan Grabski"
+    jurl: /blog/zen-motorcycle-maintenance-dan-grabski
+    type: web

@@ -7,7 +7,7 @@
 <ol class="breadcrumb">
   <li><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
   {% if site[collection_name] %}
-    <li><a class="noExtIcon" href="{{site.url}}/{{collection_name}}">{{ collection_name | capitalize }}</a></li>
+    <li>{{ collection_name | capitalize }}</li>
   {% endif %}
 
   {% for i in (1..3) %}
