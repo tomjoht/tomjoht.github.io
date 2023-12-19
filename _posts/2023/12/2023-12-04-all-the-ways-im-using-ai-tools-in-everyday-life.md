@@ -13,7 +13,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 35.1
 podcast_duration: "44:33"
 podcast_length: 35134943
-image: usingai30waysimage.jpg
+image: everydayaifuturethumb.jpg
 ---
 
 {% include audio.html %}
