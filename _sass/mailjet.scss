@@ -30,3 +30,19 @@
     outline: none;
     box-shadow: none;
   }
+
+  .mynewsletter::after {
+    content: 'Subscribe to my newsletter';
+    margin-left: 8px; 
+  }
+  
+
+@media only screen and (max-width: 990px) {
+  .mynewsletter::after {
+    content: 'Subscribe me';
+    margin-left: 8px;
+  }
+}
+
+
+
