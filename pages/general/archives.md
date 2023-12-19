@@ -1,6 +1,6 @@
 ---
 title: Archives
-permalink: /archives
+permalink: /archives/
 myarchives:
 
 - title: 2023

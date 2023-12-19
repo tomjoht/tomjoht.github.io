@@ -1,6 +1,6 @@
 ---
 title: "All post content by year"
-permalink: /all
+permalink: /all/
 ---
 
 * TOC

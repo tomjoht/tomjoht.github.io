@@ -1,6 +1,6 @@
 ---
 title: Series
-permalink: /series
+permalink: /series/
 myseries:
 
 - title: Reflections on Zen and the Art of Motorcycle Maintenance
