@@ -439,27 +439,14 @@ h3#id-rather-be-writing-newsletter {
   padding: 20px;
 }
 
-.amazonBook {
-float: right;
-padding-left: 15px;
-padding-top: 0px;
-padding-bottom: 10px;
-}
-
 .previousButton {
   margin-bottom:15px;
-}
-
-.nextButton {
-
 }
 
 .previousButton_top {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-
-
 }
 
 .nextButton_top {
@@ -487,7 +474,6 @@ padding-bottom: 10px;
     color: #888;
     font-size: 13px;
 }
-
 
 /* minitoc on page (automatic jump menu)*/
 
@@ -610,16 +596,12 @@ dl {
 }
 
 @media only screen and (max-width: 600px) {
-  .amazonBook {
-    float: none !important;
-  }
    .navbar-header img {
      display: none;
    }
 }
 
-
-.sgithub, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter, .sstitcher, .sfacebook {
+.sgithub, .situnes, .slinkedin, .srssfeed, .stwitter {
     background: url(https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sprites.png) no-repeat;
     float: left;
     padding: 6px;
@@ -634,16 +616,6 @@ dl {
 }
 .stwitter {
     background-position: -50px 0;
-    width: 26px;
-    height: 27px;
-}
-.sstitcher {
-    background-position: -100px 0;
-    width: 26px;
-    height: 27px;
-}
-.sfacebook {
-    background-position: -150px 0;
     width: 26px;
     height: 27px;
 }
@@ -663,13 +635,11 @@ dl {
     height: 27px;
 }
 
-
-.socialMediaButtons {
-    padding-bottom:20px;
+@media only screen and (max-width: 990px) {
+    .sgithub, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter {
+        padding: 2px; /* Reduced padding */
+        margin-left: 2px; /* Reduced margin */
 }
-
-#socialMediaButtons.irbw {
-margin-bottom:15px;
 }
 
 a:focus {
