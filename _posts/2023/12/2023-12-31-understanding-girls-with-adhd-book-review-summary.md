@@ -4,9 +4,9 @@ permalink: /blog/understanding-girls-with-adhd-book-review-summary
 date: 2023-12-31
 categories:
 - technical-writing
-keywords: 
+keywords: ADHD, attention
 rebrandly: https://idbwrtng.com/understanding-girls-with-adhd-book-review-summary
-description: "In Understanding Girls with ADHD: How They Feel and Why They Do What They Do, Nadeu et al argue that _a girl's experience of ADHD differs from that of boys? Girls tend to internalize their ADHD in ways that can be isolating and damaging to their self-confidence over time. For example, relationship friction from impulsive behaviors can lead to more peer rejection. To gain acceptance, they might turn to unsafe activities as they give in to peer pressure. The repeated failures that come with executive dysfunction (always late, disorganized, forgetful, procrastinating, overwhelmed) can also batter self-worth. Parents can counter this self-negativity by teaching their children to recognize their strengths and praising them for what they do right. A parent's biggest influence can be to install a sense of hope in their children."
+description: "In <i>Understanding Girls with ADHD: How They Feel and Why They Do What They Do</i>, Nadeu et al argue that a girl's experience of ADHD differs from that of boys? Girls tend to internalize their ADHD in ways that can be isolating and damaging to their self-confidence over time. For example, relationship friction from impulsive behaviors can lead to more peer rejection. To gain acceptance, they might turn to unsafe activities as they give in to peer pressure. The repeated failures that come with executive dysfunction (always late, disorganized, forgetful, procrastinating, overwhelmed) can also batter self-worth. Parents can counter this self-negativity by teaching their children to recognize their strengths and praising them for what they do right. A parent's biggest influence can be to install a sense of hope in their children."
 # podcast_link: 
 # podcast_file_size: 
 # podcast_duration: ""
