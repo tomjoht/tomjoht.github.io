@@ -20,7 +20,7 @@ last-modified: 2023-04-23
 
 <h2 id="page_traffic">Overall page traffic</h2>
 <p>
-   In 2021, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. More details are in the following table:
+   In 2022, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. More details are in the following table:
 </p>
 
 <table>
@@ -148,8 +148,6 @@ last-modified: 2023-04-23
 <p>This section compares the same values for the past four years, providing a sense of trends over time. The percentage change from the previous year is listed in parentheses after the value.
 
 <table>
-  <col width="60%">
-  <col width="40%">
   <thead>
     <tr>
       <th><b>Metric</b></th>
@@ -241,8 +239,6 @@ last-modified: 2023-04-23
 <h2 id="locations">Locations</h2>
 
 <table>
-  <col width="60%">
-  <col width="40%">
   <thead>
     <tr>
       <th><b>Location</b></th>
@@ -282,8 +278,6 @@ last-modified: 2023-04-23
 <h2 id="browsers">Browsers</h2>
 
 <table>
-  <col width="60%">
-  <col width="40%">
   <thead>
     <tr>
       <th><b>Browser</b></th>
@@ -320,8 +314,6 @@ last-modified: 2023-04-23
 
 <h2 id="device_types">Device types</h2>
 <table>
-  <col width="60%">
-  <col width="40%">
   <thead>
     <tr>
       <th><b>Device type</b></th>
@@ -351,8 +343,6 @@ last-modified: 2023-04-23
 
 <h2 id="mobile_device_type">Mobile device type</h2>
 <table>
-  <col width="60%">
-  <col width="40%">
   <thead>
     <tr>
       <th><b>Mobile device type</b></th>
@@ -382,8 +372,6 @@ last-modified: 2023-04-23
 
 <h2 id="traffic_origins">Traffic origins — organic and social referrals</h2>
 <table>
-  <col width="60%">
-  <col width="40%">
   <thead>
     <tr>
       <th><b>Traffic Origin</b></th>
@@ -442,6 +430,7 @@ last-modified: 2023-04-23
 <h2 id="analytical_posts">Posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
 <ul>
+   <li>2022 - <a href="/blog/site-analytics-2022>Meandering thoughts on my 2022 site analytics</a></li>
    <li>2021 — <a href="/blog/2021-site-analytics-reflections">Site analytics for 2021</a></li>
    <li>2020 — <a href="/blog/site-analytics-reflections/">Site analytics for 2020 – trends, reflections, and thoughts</a></li>
    <li>2019 — <a href="/blog/reflections-on-site-analytics-for-2019/">Reflections on my 2019 site analytics</a></li>
