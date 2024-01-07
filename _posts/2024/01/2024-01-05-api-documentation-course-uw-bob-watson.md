@@ -24,7 +24,7 @@ image: thumbpostwatsonpodcastuw.png
 To learn more about Bob Watson, see the following:
 
 * Bob's blog: [Docsbydesign.com](https://www.docsbydesign.com/)
-* [Bob' Linkedin profile](https://www.linkedin.com/in/docsbydesign/)
+* [Bob's Linkedin profile](https://www.linkedin.com/in/docsbydesign/)
 
 ## Course details
 
