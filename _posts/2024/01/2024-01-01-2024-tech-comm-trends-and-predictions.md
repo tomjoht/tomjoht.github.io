@@ -20,7 +20,7 @@ image: predictions2024image0thumb.jpg
 
 {% include audio.html %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iXM83xu8hao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iXM83xu8hao" title="My 2024 technical writing trends and predictions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The [slides are here](https://docs.google.com/presentation/d/1N6b2XXbBhpjj4bl4cQfaRLi3GsnZhMFidhMf2I7_Ch4/edit?usp=sharing).
 
