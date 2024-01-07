@@ -238,6 +238,16 @@ a.productSubtitle:hover {
   max-width: 200px;
 }
 
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .main img.large,
+  .main img.medium,
+  .main img.small_medium {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 dt {
   //font-family: "AmazonEmber_Bd";
 }

@@ -9,7 +9,7 @@ categories:
 - podcasts
 keywords: 
 rebrandly: https://idbwrtng.com/api-documentation-course-uw-bob-watson
-description: "In this podcast, I chat with <a href='https://www.linkedin.com/in/docsbydesign/'>Bob Watson</a> about an upcoming <a href='https://www.pce.uw.edu/specializations/api-documentation'>API documentation course</a> he'll be teaching at the <a href='https://www.pce.uw.edu/'>University of Washington</a>. Bob has extensive experience working as an API technical writer at big tech companies like Microsoft, Google, and Amazon. In fact, for the latter two, I was a colleague of Bob's. The UW reached out to Bob to develop this new course offering. His background in both API software documentation/development as well as his academic background (PhD + teaching experience at Mercer) make him a perfect fit. The 14-week evening course will cover fundamentals like understanding developer behaviors, working with various types of APIs, publishing workflows, as well as hands-on practice. A key component is having students create API documentation portfolios they can use to demonstrate their skills. (Note: This is <i>not</i> a sponsored post.)"
+description: "In this podcast, I chat with <a href='https://www.linkedin.com/in/docsbydesign/'>Bob Watson</a> about an upcoming <a href='https://www.pce.uw.edu/specializations/api-documentation'>API documentation course</a> he'll be teaching at the <a href='https://www.pce.uw.edu/'>University of Washington</a>. Bob has extensive experience working as an API technical writer at big tech companies like Microsoft, Amazon, and Google. The UW reached out to Bob to develop this new course offering. The 14-week evening course will cover fundamentals like understanding developer behaviors, working with various types of APIs, publishing workflows, as well as hands-on practice. A key component is having students create API documentation portfolios they can use to demonstrate their skills."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/watsonpodcastapidocuw.mp3
 podcast_file_size: 44.8
 podcast_duration: "53:05"
@@ -26,6 +26,8 @@ To learn more about Bob Watson, see the following:
 * Bob's blog: [Docsbydesign.com](https://www.docsbydesign.com/)
 * [Bob's Linkedin profile](https://www.linkedin.com/in/docsbydesign/)
 
+ (Note: This is <i>not</i> a sponsored post.)
+ 
 ## Course details
 
 <a class="noCrossRef" href="https://www.pce.uw.edu/specializations/api-documentation"><img src="{{site.media}}/uwapidocumentationcourse.png" alt="API documentation course at UW" /></a>
@@ -36,7 +38,7 @@ The API documentation course is part of the Continuing Education program at UW, 
 
 Here are some topics we talk about:
 
-* Bob's background working in API documentation at big tech companies like Microsoft, Google, and Amazon.
+* Bob's background working in API documentation at big tech companies like Microsoft, Amazon, and Google. (For the latter two, I was a colleague of Bob's.)
 * The University of Washington reaching out to Watson to teach a new API documentation course.
 * The rising demand and need for API documentation skills training.
 * Details on the 14-week evening course Watson is teaching.
