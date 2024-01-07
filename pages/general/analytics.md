@@ -430,7 +430,7 @@ last-modified: 2023-04-23
 <h2 id="analytical_posts">Posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
 <ul>
-   <li>2022 - <a href="/blog/site-analytics-2022>Meandering thoughts on my 2022 site analytics</a></li>
+   <li>2022 - <a href="/blog/site-analytics-2022">Meandering thoughts on my 2022 site analytics</a></li>
    <li>2021 — <a href="/blog/2021-site-analytics-reflections">Site analytics for 2021</a></li>
    <li>2020 — <a href="/blog/site-analytics-reflections/">Site analytics for 2020 – trends, reflections, and thoughts</a></li>
    <li>2019 — <a href="/blog/reflections-on-site-analytics-for-2019/">Reflections on my 2019 site analytics</a></li>
