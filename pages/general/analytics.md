@@ -75,7 +75,7 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>1,814,770 <span class="negative">(-8%)</span></td>
     <td>1,865,635 <span class="positive">(+3%)</span></td>
     <td>1,535,622 <span class="negative">(-18%)</span></td>
-    <td>992,255<span class="negative">(-35%%)</span></td>
+    <td>992,255<span class="negative">(-35%)</span></td>
   </tr>
   <tr>
     <td>Average page views per day</td>
@@ -286,7 +286,7 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
 </table>
 
 
-<h2 id="top_30_pages">Top 30 pages</h2>
+<h2 id="top_pages">Top 30 pages</h2>
 
 About 50% of the traffic goes to my [API doc site](/learnapidoc). Looking at the top 30 pages of my site, the API documentation pages top the list, even though there are about 100 course pages and 3,000 blog pages.
 
@@ -349,7 +349,7 @@ About 50% of the traffic goes to my [API doc site](/learnapidoc). Looking at the
     <td>11,175</td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc?pubapis_openapi_step7_tags_object.html">/learnapidoc?pubapis_openapi_step7_tags_object.html</a></td>
+    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step7_tags_object.html">/learnapidoc?pubapis_openapi_step7_tags_object.html</a></td>
     <td>10,615</td>
   </tr>
   <tr>
@@ -419,9 +419,10 @@ About 50% of the traffic goes to my [API doc site](/learnapidoc). Looking at the
   </tbody>
 </table>
 
-<h2 id="analytical_posts">Posts analyzing site analytics</h2>
+<h2 id="analytical_posts">Previous posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
 <ul>
+   <li>2023 - <a href="/blog/site-analytics-for-2023">My site analytics for 2023</a></li>
    <li>2022 - <a href="/blog/site-analytics-2022">Meandering thoughts on my 2022 site analytics</a></li>
    <li>2021 — <a href="/blog/2021-site-analytics-reflections">Site analytics for 2021</a></li>
    <li>2020 — <a href="/blog/site-analytics-reflections/">Site analytics for 2020 – trends, reflections, and thoughts</a></li>
