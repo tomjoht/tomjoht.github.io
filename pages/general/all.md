@@ -6,6 +6,16 @@ permalink: /all/
 * TOC
 {:toc}
 
+## 2024 archives
+<ol reversed="true">
+    {% for post in site.posts %}
+    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% if year == "2024" %}
+    <li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></h4></li>
+    {% endif %}
+    {% endfor %}
+</ol>
+
 ## 2023 archives
 <ol reversed="true">
     {% for post in site.posts %}

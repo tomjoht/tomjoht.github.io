@@ -46,6 +46,8 @@ I didn't see stark differences that map to these exact timeframes. There's just 
 
 **Is my API documentation too basic?** I think most people who have worked in API docs for several years will quickly outgrow the content and find more relevance in their growing knowledge about the tools they're using, the programming languages, domain, and other details. So perhaps my content is tailored toward beginners, and during the 2017-2020 period, there was a surge in tech writers transitioning to API documentation and learning about it, but now that surge has fizzled.
 
+{% include ads.html %}
+
 **Do I have too much content outside of tech comm interests?** I've devoted a lot of time pursuing some non-tech comm-specific topics, with my series on [Journey away from smartphones](/smartphones) and a series on [trends that evolved into system thinking](/trends/trends-to-follow-or-forget-intro.html). It could be that these topics weren't that interesting to readers. Most people come to my blog to learn about technical writing and API documentation, not about focus or deep work.
 
 **Are readers moving to the PDF version of my content?** In [Dec 2021 I started offering a PDF](/blog/pdf-and-ebook-formats-for-api-doc-course) of my API course, and then in [2022 I formalized it](/blog/chapter-pdfs-for-api-doc-course) even more and started charging for it, offering it on the [buymecoffee platform for $20](/learnapidoc/download.html). Since then, 86 people have bought it. This means more people could be reading offline, but it's unlikely to affect traffic.
@@ -74,5 +76,5 @@ Based on the analytics, I think I'll do the following in 2024:
 * Work on a series explaining how to apply principles from *Zen and the Art of Motorcycle Maintenance* into the practice of technical writing.
 * Continue to expand the content on AI, focusing on concrete activities, use cases, and other tech-writing-related scenarios.
 
-{% include ads.html %}
+
 
