@@ -10,7 +10,7 @@ categories:
 - podcasts
 keywords: 
 rebrandly: https://idbwrtng.com/2024-tech-comm-trends-and-predictions
-description: "I've been mulling over whether to write a trends post this year. There's so much uncertainty, it's hard to feel confident about how the tech writing profession will play out. But little trends-related ideas keep surfacing in the back of my mind, so I decided to write out some of my thoughts."
+description: "I've been mulling over whether to write a trends post this year. There's so much uncertainty, it's hard to feel confident about how the tech writing profession will play out. But little trends-related ideas keep surfacing in the back of my mind, so I decided to write out some of my thoughts. Before I jump into this, I want to say that I’m much more agnostic and unsure about directions this year. 2024 could be amazing, it could also be terrible. Or everything could be overblown and remain more or less the same. One thing is for sure: in predictions, AI dominates the scene and discussion."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/predictions2024podcastv2.mp3
 podcast_file_size: 27.3
 podcast_duration: "28:28"
@@ -29,11 +29,9 @@ The [slides are here](https://docs.google.com/presentation/d/1N6b2XXbBhpjj4bl4cQ
 
 ## Will AI disrupt tech writer job roles?
 
-Before I jump into this, I want to say that I'm much more agnostic and unsure about directions this year. 2024 could be amazing, it could also be terrible. Or everything could be overblown and remain more or less the same. One thing is for sure: in predictions, AI dominates the scene and discussion. 
+There's high optimism about the potential of AI to lead to major scientific and technological breakthroughs. At the same time, some of the "innovation" AI is offering is simply replacing human labor in some roles &mdash; replacing customer support roles with chat agents, for example. And the greater fear, maybe replacing other writing roles, including tech writer, with AI as well. 
 
 <img class="predictionsPost" src="{{site.media}}/predictions2024image0.jpg" alt="Looking at trends and predictions for 2024" />
-
-There's high optimism about the potential of AI to lead to major scientific and technological breakthroughs. At the same time, some of the "innovation" AI is offering is simply replacing human labor in some roles &mdash; replacing customer support roles with chat agents, for example. And the greater fear, maybe replacing other writing roles, including tech writer, with AI as well. 
 
 This is the tricky position we tech writers find ourselves in going into 2024. In most companies, few understand what tech writers do but assume that writing is the core activity, so they're understandably confused when tech writers struggle to incorporate AI into "writing" workflows. 
 
