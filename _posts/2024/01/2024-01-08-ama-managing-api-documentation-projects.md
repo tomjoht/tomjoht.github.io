@@ -1,5 +1,5 @@
 ---
-title: "AMA Coffee Chat on Managing API documentation projects"
+title: "Coffee Chat: Ask Me Anything about Managing API documentation projects"
 permalink: /blog/ama-managing-api-documentation-projects
 date: 2024-01-08
 categories:
