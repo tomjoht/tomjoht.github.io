@@ -6,11 +6,7 @@ categories:
 - technical-writing
 keywords: ADHD, attention
 rebrandly: https://idbwrtng.com/understanding-girls-with-adhd-book-review-summary
-description: "In <i>Understanding Girls with ADHD: How They Feel and Why They Do What They Do</i>, Nadeu et al argue that a girl's experience of ADHD, especially during their elementary, middle, and high school years, differs from that of boys. Girls tend to internalize their ADHD in ways that can be isolating and damaging to their self-confidence over time. For example, relationship friction from impulsive behaviors can lead to more peer rejection. To gain acceptance, they might turn to unsafe activities as they give in to peer pressure. The repeated failures that come with executive dysfunction (always late, disorganized, forgetful, procrastinating, overwhelmed) can also batter self-worth. Parents can counter this self-negativity by teaching their children to recognize their strengths and praising them for what they do right. A parent's biggest influence can be to install a sense of hope in their children."
-# podcast_link: 
-# podcast_file_size: 
-# podcast_duration: ""
-# podcast_length: 
+description: "Although my blog usually focuses on tech comm, I've started reviewing books covering wider topics. I recently read <a href='https://www.amazon.com/Understanding-Girls-ADHD-Updated-Revised/dp/0971460973'><i>Understanding Girls with ADHD: How They Feel and Why They Do What They Do</i></a>, by Kathleen G. Nadeau, Ellen B. Littman, and Patricia O. Quinn. Several of my family members have ADHD, and I wanted to understand ADHD more to better support them. This book is one of the best ADHD books I've read, probably because I have four daughters (ranging from 13 to 22) and the book focused entirely on ADHD in girls. The book describes challenges girls with ADHD face in elementary school, middle school, high school, and beyond."
 image: adhdpic2thumb.jpg
 ---
 
@@ -19,9 +15,9 @@ image: adhdpic2thumb.jpg
 
 ## Overview
 
-Although my blog usually focuses on tech comm, I've started reviewing books covering wider topics. I recently read [*Understanding Girls with ADHD: How They Feel and Why They Do What They Do*](https://www.amazon.com/Understanding-Girls-ADHD-Updated-Revised/dp/0971460973)_, by Kathleen G. Nadeau, Ellen B. Littman, and Patricia O. Quinn. Several of my family members have ADHD, and I wanted to understand ADHD more to better support them. This book is one of the best ADHD books I've read, probably because I have four daughters (ranging from 13 to 22) and the book focused entirely on ADHD in girls. The book describes challenges girls with ADHD face in elementary school, middle school, high school, and beyond.
+In <i>Understanding Girls with ADHD: How They Feel and Why They Do What They Do</i>, Nadeu et al argue that a girl's experience of ADHD, especially during their elementary, middle, and high school years, differs from that of boys. Girls tend to internalize their ADHD in ways that can be isolating and damaging to their self-confidence over time. For example, relationship friction from impulsive behaviors can lead to more peer rejection. To gain acceptance, they might turn to unsafe activities as they give in to peer pressure. The repeated failures that come with executive dysfunction (always late, disorganized, forgetful, procrastinating, overwhelmed) can also batter self-worth. Parents can counter this self-negativity by teaching their children to recognize their strengths and praising them for what they do right. A parent's biggest influence can be to install a sense of hope in their children.
 
-The authors' main argument is that girls experience unique challenges with ADHD. Some of these behaviors apply to inattentive ADHD, and others to impulsive ADHD. For example: 
+One of the main themes the authors make is that girls experience unique challenges with ADHD. Some of these behaviors apply to inattentive ADHD, and others to impulsive ADHD. For example: 
 
 * Girls with impulsive-type ADHD may be more aggressive, controlling, verbally jarring, etc., leading to more friction and disruption in relationships. The behavior can cause them to be rejected by their peers. 
 * Girls have certain cultural expectations (be supportive, helpful, comforting, etc.) that might not welcome a more aggressive, competitive behavior. As such, the impulsive ADHD experience can be especially challenging because the behaviors work against societal norms.
