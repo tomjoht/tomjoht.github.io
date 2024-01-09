@@ -78,7 +78,7 @@ Based on the analytics, I think I'll do the following in 2024:
   * Expand more on the Java API section.
 * Move the section on AI into a different collection and publication.
 * Continue to expand the content on AI, focusing on concrete activities, use cases, and other tech-writing-related scenarios.
-* Work on a series explaining how to apply principles from *Zen and the Art of Motorcycle Maintenance* into the practice of technical writing.
+* Work on a series explaining how to apply principles from [*Zen and the Art of Motorcycle Maintenance*](/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html) into the practice of technical writing.
 
 
 If you have any thoughts on why my site's traffic dropped in 2023, feel free to [reach out to me](/contact) or comment on this post. 
