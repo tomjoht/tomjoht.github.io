@@ -94,7 +94,7 @@ li.checkboxListType1 {
 
 </div>
 
-For a version of this checklist that is easy to copy and paste, see [Quality checklist for API docs (simplified html) -- comprehensive version](docapis_quality_checklist_html.html). This output strips away most formatting and just list the various criteria in a basic HTML file. Copy and paste the content into Google Docs or Microsoft Word. Then as you go through the content, make your notes in the "Assessment" area.
+For a version of this checklist that is easy to copy and paste, see [Quality checklist for API docs (simplified html) -- comprehensive version](/docapis_quality_checklist_html.html). This output strips away most formatting and just list the various criteria in a basic HTML file. Copy and paste the content into Google Docs or Microsoft Word. Then as you go through the content, make your notes in the "Assessment" area.
 
 {% include ads.html %}
 
@@ -193,6 +193,6 @@ Feedback I've received about the checklist is that it's too long &mdash; isn't t
 
 </div>
 
-For the copy/paste version of this checklist, see [Quality checklist for API docs (simplified html) --- short version](https://idratherbewriting.com/docapis_quality_checklist_html_short.html). Similar to the simplified form of the comprehensive version, this output strips away most formatting and just list the various criteria in a basic HTML file.
+For the copy/paste version of this checklist, see [Quality checklist for API docs (simplified html) --- short version](/docapis_quality_checklist_html_short.html). Similar to the simplified form of the comprehensive version, this output strips away most formatting and just list the various criteria in a basic HTML file.
 
 {% include random_ad2.html %}
