@@ -107,8 +107,8 @@ By implementing a more formal process and methodology for managing tech doc proj
 
 See these posts on my site for more reading about Scrum and tech docs:
 
-* [Increase efficiency 24 times faster when fixing errors — implications for technical writers on agile teams](https://idratherbewriting.com15/10/27/fix-errors-fast-scrum-agile/)
-* [Tech docs and Agile: Problems with integrating tech writers into engineering scrums (Part 1)](https://idratherbewriting.com17/08/04/part1_when-agile-doesnt-work-technical-writers/)
-* [Tech docs and Agile: Alternatives to integrating into engineering scrums (Part 2)](https://idratherbewriting.com17/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/#what-about-lean)
-* [How can technical writers thrive in agile environments? Event recording and details](https://idratherbewriting.com16/09/20/thriving-in-agile-environments-as-technical-writers)
+* [Increase efficiency 24 times faster when fixing errors — implications for technical writers on agile teams](https://idratherbewriting.com/2015/10/27/fix-errors-fast-scrum-agile/)
+* [Tech docs and Agile: Problems with integrating tech writers into engineering scrums (Part 1)](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/)
+* [Tech docs and Agile: Alternatives to integrating into engineering scrums (Part 2)](https://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/#what-about-lean)
+* [How can technical writers thrive in agile environments? Event recording and details](https://idratherbewriting.com/2016/09/20/thriving-in-agile-environments-as-technical-writers)
 * [How to apply agile processes to manage your life's projects](https://idratherbewriting.com16/01/21/apply-agile-principles-to-personal-projects/)
