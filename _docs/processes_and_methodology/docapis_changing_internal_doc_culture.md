@@ -35,7 +35,7 @@ Poor documentation environments can be characterized by the following:
 Most tech writers are familiar with some of these aspects. I've written about these topics multiple times on my blog, especially in these two series:
 
 * [Reflecting seven years later about why we were laid off](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/)
-* [Value arguments for docs and tech comm](https://idratherbewriting.com17/12/28/value-of-tech-comm-in-company-part1/)
+* [Value arguments for docs and tech comm](https://idratherbewriting.com/207/12/28/value-of-tech-comm-in-company-part1/)
 
 In the following sections, I'll explore processes you can implement to change your documentation culture.
 

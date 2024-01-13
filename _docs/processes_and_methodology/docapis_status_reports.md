@@ -128,7 +128,7 @@ Staying in the shadows is an approach to avoid if you want to get ahead at work.
 I've written previously about this topic, as these themes have characterized the tech writing profession for years. See these posts for elaboration on this topic:
 
 * [Guest post: Why are technical writers often treated as such an unimportant part of a company?](https://idratherbewriting.com/blog/why-technical-writers-treated-as-unimportant/)
-* [Value arguments for docs and tech comm](https://idratherbewriting.com17/12/28/value-of-tech-comm-in-company-part1/)
+* [Value arguments for docs and tech comm](https://idratherbewriting.com/207/12/28/value-of-tech-comm-in-company-part1/)
 * [Reflecting seven years later about why we were laid off](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/)
 
 Can sending monthly doc reports fix the devaluation of the tech writer role? Maybe not, but this is certainly a way to help address visibility. The formula for visibility and recognition on the web with blogging is more or less the same as within an enterprise: write and promote, write and promote, write and promote, and so on.

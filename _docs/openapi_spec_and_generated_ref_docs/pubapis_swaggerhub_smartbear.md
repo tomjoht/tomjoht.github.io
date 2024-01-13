@@ -167,7 +167,7 @@ Designing a fully-featured, highly functioning OpenAPI spec is at the heart of t
 Great tools aren’t free. SwaggerHub does [cost money](https://swaggerhub.com/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.
 
 {: .tip}
-To read more about SwaggerHub, check out my blog post [SwaggerHub: A collaborative platform for working on OpenAPI/Swagger specification files, and more](https://idratherbewriting.com17/10/05/swaggerhub-collaborative-platform-for-swagger-openapi-projects).
+To read more about SwaggerHub, check out my blog post [SwaggerHub: A collaborative platform for working on OpenAPI/Swagger specification files, and more](https://idratherbewriting.com/207/10/05/swaggerhub-collaborative-platform-for-swagger-openapi-projects).
 
 ## Related resources
 

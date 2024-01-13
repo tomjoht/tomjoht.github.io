@@ -77,7 +77,7 @@ There's a certain understanding you get from seeing all the endpoints at a glanc
 
 The quick reference for Parse is similar to Eventful in that it's a long list of endpoints, this time grouped in tables. Notice that this quick reference page is just a section within one long, single page of docs. In their approach, all documentation is on the same page, but as you scroll down, different entries in the sidebar highlight.
 
-Sometimes developers like the one-page approach because it reduces information fragmentation and lets them use Ctrl+F to find all instances of a keyword. I explored the tradeoffs in this one-page approach in [Single-page docs versus "Click Insanity."](https://idratherbewriting.com14/01/12/single-page-docs-versus-click-insanity/)
+Sometimes developers like the one-page approach because it reduces information fragmentation and lets them use Ctrl+F to find all instances of a keyword. I explored the tradeoffs in this one-page approach in [Single-page docs versus "Click Insanity."](https://idratherbewriting.com/204/01/12/single-page-docs-versus-click-insanity/)
 
 If you use the [OpenAPI reference docs on GitHub](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md), you'll notice the docs are also contained on a single page. Developers might like to use Ctrl+F to quickly see all instances of a topic. However, I'm not a fan of single-page documentation like this because it provides a lot of visual complexity for users to sort out.
 

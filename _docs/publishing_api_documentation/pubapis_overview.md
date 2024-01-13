@@ -117,7 +117,7 @@ Now that I've hopefully established that traditional HATs aren't the go-to tools
 
 ## Video about publishing tools for API docs
 
-If you'd like to view a presentation I gave to the [Write the Docs South Bay chapter](https://idratherbewriting.com18/01/19/wtd-south-bay-publish-api-documentation-presentation/) on this topic, you can view it here:
+If you'd like to view a presentation I gave to the [Write the Docs South Bay chapter](https://idratherbewriting.com/208/01/19/wtd-south-bay-publish-api-documentation-presentation/) on this topic, you can view it here:
 
 {% if site.format == "print" %}
 

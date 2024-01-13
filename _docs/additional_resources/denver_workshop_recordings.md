@@ -11,7 +11,7 @@ last-modified: 2019-06-21
 
 {% include coffeeshopbook.html %}
 
-These videos are from an API documentation workshop that I gave in Denver, Colorado, on March 10, 2018. (For more details, see this [blog post](https://idratherbewriting.com18/03/12/api-documentation-workshop-in-denver/). This version of the workshop is slightly different from the latest version of the course, but the content is still good. I divided the videos into three parts, since the workshop was slightly shorter than a full-day.
+These videos are from an API documentation workshop that I gave in Denver, Colorado, on March 10, 2018. (For more details, see this [blog post](https://idratherbewriting.com/208/03/12/api-documentation-workshop-in-denver/). This version of the workshop is slightly different from the latest version of the course, but the content is still good. I divided the videos into three parts, since the workshop was slightly shorter than a full-day.
 
 * TOC
 {:toc}

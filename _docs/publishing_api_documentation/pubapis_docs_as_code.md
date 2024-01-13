@@ -60,7 +60,7 @@ Just because you *can* manage docs like code, should you? What exactly are the a
 If you work with developer documentation, chances are you'll be working on a wide variety of deeply technical topics and will be reliant on engineers to contribute and review the docs. Many times developer documentation is so complex, only developers can really write and review it. Unless you have a background in engineering, understanding all the details in programming, server configuration, or other technical platforms may be beyond your ability to document (without a lot of research, interviewing, and careful note taking).
 
 {: .tip}
-See my post [What technical writing trends will we see in 2018?](https://idratherbewriting.com18/01/02/technical-writing-trends-2018-and-2017-review/) for a description of how specialization is forcing technical writers to play more of a generalist role with content.
+See my post [What technical writing trends will we see in 2018?](https://idratherbewriting.com/208/01/02/technical-writing-trends-2018-and-2017-review/) for a description of how specialization is forcing technical writers to play more of a generalist role with content.
 
 Additionally, some developers prefer just to write the doc themselves. If a developer is the audience, and another developer is the writer, chances are they can cut through some of the guesswork about assumptions, prerequisite knowledge, and accuracy. In short, in some API documentation contexts, developers write the content. This fact alone is enough to make the case for adopting a docs-as-code approach.
 
