@@ -63,6 +63,8 @@ collections:
     output: true
   zamm: 
     output: true
+  ai: 
+    output: true
 # Sass styles
 
 sass:
@@ -141,6 +143,18 @@ defaults:
       progress: true
       permalink: /docs:path.html
       collection: zamm
+
+  -
+    scope:
+      path: "_ai"
+      type: ai
+    values:
+      layout: default
+      sidebar: sidebar_ai
+      topnav: topnav
+      progress: true
+      permalink: /docs:path.html
+      collection: ai
   -
     scope:
       path: "images"

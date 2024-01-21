@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Seek advice on grammar and style"
-permalink: learnapidoc/docapis_ai_language_advice.html
+permalink: ai/docapis_ai_language_advice.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.6
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-08-04
+redirect_from:
+- /learnapidoc/docapis_ai_language_advice.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 Technical writers frequently act as editors, whether reviewing content written by other technical writers, engineers, or product team members. For help with language decisions, AI tools can provide a helpful tool for identifying specific grammar and style rules. Although they might not produce emotionally resonant content ideally, AI tools are adept at providing reasoned language advice.
 

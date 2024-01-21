@@ -1,14 +1,14 @@
 scope: individual
 section: eleven
 title: Documenting REST APIs
-subtitle: "Chapter 11: Thriving in the API doc space"
-api_media: /Users/tomjoht/projects/idratherbewriting/images/api
+subtitle: "Chapter 11: Publishing tools and workflows"
+api_media: /Users/tomjohnson/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_image: images/ebook_cover.png
 
 sidebar: docapis
-baseurl: /Users/tomjoht/projects/idratherbewriting/_site
+baseurl: /Users/tomjohnson/projects/idratherbewriting/_site
 
 language: english
 format: print
@@ -34,9 +34,7 @@ collections:
     output: false
   zamm:
     output: false
-  restapicourse:
-    output: false
-  publishingapidocs:
+  ai:
     output: false
   voiceovertechniques:
     output: false
@@ -76,8 +74,10 @@ defaults:
       published: true
   -
     scope:
-      path: _docs/thriving_in_the_api_doc_space
+      path: _docs/publishing_tools
       type: docs
     values:
       layout: printpdf
       published: true
+
+      Thriving in the API doc space

@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Arrange content into information type patterns"
-permalink: learnapidoc/docapis_pattern_prompts.html
+permalink: ai/docapis_pattern_prompts.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.8
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-07-06
+redirect_from:
+- /learnapidoc/docapis_pattern_prompts.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 ## Using patterns in prompts
 

@@ -1,7 +1,7 @@
 scope: individual
 section: sixteen
 title: Documenting REST APIs
-subtitle: "Chapter 16: Glossary"
+subtitle: "Chapter 17: Additional resources"
 api_media: /Users/tomjohnson/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
@@ -74,7 +74,7 @@ defaults:
       published: true
   -
     scope:
-      path: _docs/glossary
+      path: _docs/additional_resources
       type: docs
     values:
       layout: printpdf

@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Distill needed updates from bug threads"
-permalink: learnapidoc/docapis_ai_fix_bugs.html
+permalink: ai/docapis_ai_fix_bugs.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.4
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-08-06
+redirect_from:
+- /learnapidoc/docapis_ai_fix_bugs.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 As a technical writer, I'm frequently making doc updates based on user-reported bugs. A doc bug is a fix that needs to be made to documentation that has already been released, rather than documentation for a new feature.
 

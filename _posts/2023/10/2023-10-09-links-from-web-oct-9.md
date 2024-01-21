@@ -114,7 +114,7 @@ October 4, 2023, Digital Native <br/>
 * Successive innovations enabled more personalization, from mass production in the Industrial Revolution to online fragmentation and niche communities. AI will take it even further.
 * Hyper-personalization brings benefits like better customer alignment, but risks exacerbating loneliness and over-customization. The ideal is balanced between individual customization and shared community.
 
-I'm sorry that I keep relating everything to AI, but it's hard not to interpret the possibility of hyper-personalized documentation without it. I recently wanted to learn more about Javadoc tags, and I asked ChatGPT to create a [custom course all about Javadoc tags](https://idratherbewriting.com/learnapidoc/docapis_ai_learn_coding.html). It was pretty awesome. I think we're starting a new era of hyper-personalization, as the author describes. 
+I'm sorry that I keep relating everything to AI, but it's hard not to interpret the possibility of hyper-personalized documentation without it. I recently wanted to learn more about Javadoc tags, and I asked ChatGPT to create a [custom course all about Javadoc tags](https://idratherbewriting.com/ai/docapis_ai_learn_coding.html). It was pretty awesome. I think we're starting a new era of hyper-personalization, as the author describes. 
 
 We regularly hear how good help content should offer different paths for novices and advanced users. Or we deliberate whether we should insert extensive side notes in tutorials given that the info might not align with what users need to know. Or how we should customize the documentation of APIs within the context of specific industry use cases and scenarios. Few people have time to create different versions of help content, given that tech writers typically are understaffed for the work. But AI tools offer the promise of hyper-personalized documentation, without extra work.
 
@@ -135,7 +135,7 @@ The sales execs celebrate the RFP bot because, according to the Twilio CEO, "Thi
 
 The author explains, "They devised a method that pairs a program that retrieves snippets relevant to the questions in an RFP from technical documentation and other sources the company with a system that directs GPT-4 to summarize those snippets in a clear and professional tone. GPT-4 proved capable of generating extremely accurate responses—though solutions engineers and technical experts still review or edit every answer before sending them off to a prospective client." 
 
-In my experiments with AI, I tried to follow a similar approach by gathering all relevant documents related to a bug, adding them into a Google Doc that I fed into [NotebookLM](https://notebooklm.google/), and then querying NotebookLM to look for the answer. See [Use cases for AI: Distill needed updates from bug threads](https://idratherbewriting.com/learnapidoc/docapis_ai_fix_bugs.html). It worked all right, but I ran into several problems:
+In my experiments with AI, I tried to follow a similar approach by gathering all relevant documents related to a bug, adding them into a Google Doc that I fed into [NotebookLM](https://notebooklm.google/), and then querying NotebookLM to look for the answer. See [Use cases for AI: Distill needed updates from bug threads](https://idratherbewriting.com/ai/docapis_ai_fix_bugs.html). It worked all right, but I ran into several problems:
 
 * Some data might be too confidential to add into the AI tool, thus limiting the scope. 
 * Some data contains alternative approaches considered but not implemented, which can confuse the AI. 

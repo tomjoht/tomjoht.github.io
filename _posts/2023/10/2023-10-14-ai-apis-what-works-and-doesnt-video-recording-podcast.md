@@ -50,6 +50,6 @@ To show your support, please <a href="https://podcasts.apple.com/us/podcast/id-r
 
 ## Text version
 
-For a written version of this information, see this section in my API course: [AI and API docs: What works, what doesn’t](/learnapidoc/docapis_ai_what_works_and_doesnt.html).
+For a written version of this information, see this section in my API course: [AI and API docs: What works, what doesn’t](/ai/docapis_ai_what_works_and_doesnt.html).
 
 {% include ads.html %}

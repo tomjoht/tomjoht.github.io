@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Synthesize insights from granular data"
-permalink: learnapidoc/docapis_thematic_analysis.html
+permalink: ai/docapis_thematic_analysis.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.5
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-08-27
+redirect_from:
+- /learnapidoc/docapis_thematic_analysis.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 {% if site.format == "web" %}
 * TOC

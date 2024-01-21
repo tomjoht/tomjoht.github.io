@@ -31,7 +31,7 @@ What *are* the best use cases for AI? I think this question is somewhat like ask
 
 In the following 30+ scenarios, I describe various ways that I'm using AI in everyday life. In this post, I decided to expand outside the realm of technical writer scenarios. As for tools, I’ve mostly used ChatGPT, Claude, and Bard.
 
-For a previous presentation on a related topic, see [AI and API docs: What works, what doesn’t](https://idratherbewriting.com/learnapidoc/docapis_ai_what_works_and_doesnt.html). Also see the posts in my blog’s [AI category](https://idratherbewriting.com/category-ai/).
+For a previous presentation on a related topic, see [AI and API docs: What works, what doesn’t](https://idratherbewriting.com/ai/docapis_ai_what_works_and_doesnt.html). Also see the posts in my blog’s [AI category](https://idratherbewriting.com/category-ai/).
 
 The following are rough descriptions of 30+ ways I’m using AI. The sections aren’t in any particular order. I’ve resisted grouping them because I want to show how AI can be used pervasively for many tasks, not just limited to technical writing applications. My central argument is that AI use cases are so ubiquitous they apply to all facets of life.
 
@@ -154,7 +154,7 @@ Scenario: You want to write some code to automate some build and publishing task
 
 <div class="chat">Prompt: Help me with some shell scripting for my documentation. I want you to write a shell script that does the following: run the command foo, then capture foo’s output as a variable called foo_output. Using foo_output, pass this into the BAR command as a parameter.</div>
 
-More info: [Use cases for AI: Develop build and publishing scripts](https://idratherbewriting.com/learnapidoc/ai-tools-build-publish-api-docs.html)
+More info: [Use cases for AI: Develop build and publishing scripts](https://idratherbewriting.com/ai/ai-tools-build-publish-api-docs.html)
 
 ## 16. Distill needed updates from bug threads
 
@@ -162,7 +162,7 @@ Scenario: You need to write release notes about a bug issue and resolution. Engi
 
 <div class="chat">Prompt: From the following thread and related information, describe the issue and the resolution taken. This information will be included in release notes for documentation.</div>
 
-More info: [Use cases for AI: Distill needed updates from bug threads](https://idratherbewriting.com/learnapidoc/docapis_ai_fix_bugs.html) 
+More info: [Use cases for AI: Distill needed updates from bug threads](https://idratherbewriting.com/ai/docapis_ai_fix_bugs.html) 
 
 
 ## 17. Create article summaries
@@ -171,7 +171,7 @@ Scenario: You want to create a short summary paragraph describing an article/top
 
 <div class="chat">Prompt: Write a summary of the following content in a few sentences.</div>
 
-More info: [Summarize long content](https://idratherbewriting.com/learnapidoc/docapis_ai_summaries.html)
+More info: [Summarize long content](https://idratherbewriting.com/ai/docapis_ai_summaries.html)
 
 
 ## 18. Synthesize insights from granular data
@@ -190,7 +190,7 @@ Scenario: You have a lot of information you’ve gathered about a new feature, a
 <p>Template: Here is the template for writing tasks: [paste in template, such as from the Good Docs project]</p>
 <p>Instruction: Make the following content fit into the task template above.</p></div>
 
-More info: [Arrange content into information type patterns](https://idratherbewriting.com/learnapidoc/docapis_pattern_prompts.html) 
+More info: [Arrange content into information type patterns](https://idratherbewriting.com/ai/docapis_pattern_prompts.html) 
 
 
 ## 20. Format content (HTML, XML, YAML)
@@ -206,7 +206,7 @@ Scenario: You have an API response for a new API you’re documenting, and you w
 
 <div class="chat">Prompt: The documentation for the OpenWeatherMap Forecast API is as follows: [Paste in documentation of the API]. Here’s a sample response from the API: [Paste in response]. Identify any fields that were present in the documentation but which are not present in the response, and vice versa.</div>
 
-More info: [Compare API responses to identify discrepancies](https://idratherbewriting.com/learnapidoc/docapis_ai_comparison_tasks.html) 
+More info: [Compare API responses to identify discrepancies](https://idratherbewriting.com/ai/docapis_ai_comparison_tasks.html) 
 
 
 ## 22. Draft glossary definitions
@@ -215,7 +215,7 @@ Scenario: You want to build out a glossary for specialized terms. First, you wan
 
 <div class="chat">Prompt: From the following PDF, identify all the words that would be good to add to a glossary for a course on API documentation. Provide definitions of each of the terms as well. [Paste in content or upload PDF.]</div>
 
-More info: [Create glossary definitions](https://idratherbewriting.com/learnapidoc/docapis_ai_glossary_definitions.html)
+More info: [Create glossary definitions](https://idratherbewriting.com/ai/docapis_ai_glossary_definitions.html)
 
 
 ## 23. Get quick answers about Clickbait articles

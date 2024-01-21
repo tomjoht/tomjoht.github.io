@@ -6,7 +6,7 @@ echo "done building smartphones";
 
 
 
-LOCATION="/Users/tomjoht/projects/idratherbewriting/pdf"
+LOCATION="/Users/tomjohnson/projects/idratherbewriting/pdf"
 
 echo "now splitting the comprehensive PDF up into individual chapters"
 pdftk $LOCATION/journey_away_from_smartphones_all_chapters.pdf cat 1-3 output $LOCATION/frontmatter.pdf

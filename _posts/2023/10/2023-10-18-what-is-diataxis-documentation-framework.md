@@ -260,7 +260,7 @@ That said, the actual documentation source still needs to be well-structured for
 
 ## How can information patterns be used with AI prompting techniques?
 
-In the context of AI, there’s another major benefit to the Diátaxis information model. You can more easily create structured prompts that ask an AI to sort and arrange unstructured information into specific information patterns. I wrote about this in [Use cases for AI: Arrange content into information type patterns](https://idratherbewriting.com/learnapidoc/docapis_pattern_prompts.html). 
+In the context of AI, there’s another major benefit to the Diátaxis information model. You can more easily create structured prompts that ask an AI to sort and arrange unstructured information into specific information patterns. I wrote about this in [Use cases for AI: Arrange content into information type patterns](https://idratherbewriting.com/ai/docapis_pattern_prompts.html). 
 
 Let’s say that you gather a large body of content about the Widget API from internal documents, code, threads, and more. You can then supply this corpus of unstructured content to an AI and ask it to arrange the relevant information into an information template like this:
 

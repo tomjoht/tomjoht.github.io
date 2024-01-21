@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Develop build and publishing scripts"
-permalink: learnapidoc/ai-tools-build-publish-api-docs.html
+permalink: ai/ai-tools-build-publish-api-docs.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.2
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-07-19
+redirect_from:
+- /learnapidoc/ai-tools-build-publish-api-docs.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 At the core of API documentation work is building, staging, and publishing of API reference content. Whether it's [Javadoc](https://idratherbewriting.com/learnapidoc/nativelibraryapis_javadoc_tags.html), [Doxygen](https://idratherbewriting.com/learnapidoc/nativelibraryapis_doxygen.html), [OpenAPI](https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html), or other reference output, almost every API has reference documentation that you build, stage, and publish with each release. 
 

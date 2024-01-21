@@ -12,7 +12,7 @@ rebrandly: https://idbwrtng.com/ai-document-engineering-patterns
 description: "I added a new section to my API doc course on pattern-based prompts. Pattern prompting involves teaching the AI a specific structure or template, then having it populate information into that template. Pattern prompts are similar to few-shot prompts, but in this case, rather than having the language model populate the template with its own information, we’ll have it sort and structure a mess of information into the template, thus reducing hallucination and error."
 ---
 
-See [AI document engineering with pattern-based prompts](/learnapidoc/docapis_pattern_prompts.html).
+See [AI document engineering with pattern-based prompts](/ai/docapis_pattern_prompts.html).
 
 {% include ads.html %}
 

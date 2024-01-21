@@ -36,7 +36,7 @@ Here are the slides that go along with the podcast. I generated these slide imag
 
 ## Introduction
 
-In my API course section on [how use AI with technical writing](/learnapidoc/ai.html), you'll notice one topic is conspicuously absent: there's no post that explains how to write original, full-length content with AI. This is kind of the holy grail that a lot of people are hoping AI can help with — generating new writing and ideas rather than just assisting with editing or summarization tasks. In this article, I'll share my attempts to answer this question: Can you use AI tools to write full-length content, specifically articles suitable for a blog?
+In my API course section on [how use AI with technical writing](/ai/index.html), you'll notice one topic is conspicuously absent: there's no post that explains how to write original, full-length content with AI. This is kind of the holy grail that a lot of people are hoping AI can help with — generating new writing and ideas rather than just assisting with editing or summarization tasks. In this article, I'll share my attempts to answer this question: Can you use AI tools to write full-length content, specifically articles suitable for a blog?
 
 Before jumping into this topic, you might wonder why I'd even try. I'm fully capable of writing sentences myself, so why would I want to abdicate the role to a non-human entity?
 

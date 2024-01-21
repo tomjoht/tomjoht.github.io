@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Understand the meaning of code"
-permalink: learnapidoc/docapis_ai_learn_coding.html
+permalink: ai/docapis_ai_learn_coding.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.3
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-07-25
+redirect_from:
+- /learnapidoc/docapis_ai_learn_coding.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 One challenge API technical writers face is [understanding developer code and tools](jobapis_learning_code.html). This is by far the most intimidating aspect of being an API technical writer. Fortunately, AI tools can be a great learning aid for programming topics, with the option to design custom courses tailored around topics you specifically want to learn.
 

@@ -1,17 +1,20 @@
 ---
 title:  "Use cases for AI: Create glossary definitions"
-permalink: learnapidoc/docapis_ai_glossary_definitions.html
+permalink: ai/docapis_ai_glossary_definitions.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.91
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-09-04
+redirect_from:
+- /learnapidoc/docapis_ai_glossary_definitions.html
 ---
 
-
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 In this series on [AI tools and APIs](ai.html), the question I keep asking is this: how can we use AI for practical tasks with API documentation? Specifically, how can we leverage generative AI tools to do API documentation work faster, easier, and better? My goal is to assemble about a dozen solid ways that we can use AI with API docs. In this topic, I'll explore potentially using AI for glossary definitions.
 

@@ -1,15 +1,19 @@
 ---
 title:  "Use cases for AI: Summarize long content"
-permalink: learnapidoc/docapis_ai_summaries.html
-course: "Documenting REST APIs"
+permalink: ai/docapis_ai_summaries.html
+course: "AI-powered API documentation"
 weight: 14.5
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-09-06
+redirect_from:
+- /learnapidoc/docapis_ai_summaries.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 Providing summaries of content is one of the most useful and powerful capabilities of AI chatbots powered by large language models (LLMs), like ChatGPT, Bard, and Claude. As such, AI chatbots can significantly help tech writers in a variety of documentation-related tasks, such as generating summaries at the top of each document, generating product overviews that summarize features and capabilities, and helping tech writers process content more quickly from long articles, bugs, meetings, and other documents.
 

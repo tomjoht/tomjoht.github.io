@@ -54,13 +54,13 @@ The response looks something like this:
 
 ```
 ~/projects/learnapidoc [master] $ bundle exec jekyll serve
-Configuration file: /Users/tomjoht/projects/learnapidoc/_config.yml
-            Source: /Users/tomjoht/projects/learnapidoc
+Configuration file: /Users/tomjohnson/projects/learnapidoc/_config.yml
+            Source: /Users/tomjohnson/projects/learnapidoc
        Destination: _site
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 6.457 seconds.
- Auto-regeneration: enabled for '/Users/tomjoht/projects/learnapidoc'
+ Auto-regeneration: enabled for '/Users/tomjohnson/projects/learnapidoc'
     Server address: http://127.0.0.1:4000/learnapidoc/
   Server running... press ctrl-c to stop.
 ```

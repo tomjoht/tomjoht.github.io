@@ -18,7 +18,7 @@ image: embraceprofredefinitionthumb.png
 
 ## The obsolescence regime
 
-First, a quick recap from my last post. In [AI and APIs: What works, what doesn't](/learnapidoc/docapis_ai_what_works_and_doesnt.html), I talked about the "obsolescence regime." The gist is that competitive necessity will drive increased AI reliance, resulting in three phases: (1) First, writers who embrace AI gain a competitive advantage while AI-resistant peers fall behind. (2) Next, over-reliance on AI leads to skill atrophy, making writers unable to produce content without AI assistance. (3) Finally, AI systems no longer require human oversight and deem writers obsolete. Writers are discarded.
+First, a quick recap from my last post. In [AI and APIs: What works, what doesn't](/ai/docapis_ai_what_works_and_doesnt.html), I talked about the "obsolescence regime." The gist is that competitive necessity will drive increased AI reliance, resulting in three phases: (1) First, writers who embrace AI gain a competitive advantage while AI-resistant peers fall behind. (2) Next, over-reliance on AI leads to skill atrophy, making writers unable to produce content without AI assistance. (3) Finally, AI systems no longer require human oversight and deem writers obsolete. Writers are discarded.
 
 ## An alternative path 
 
@@ -65,43 +65,39 @@ The following are 10 tasks that I think have strong applicability with AI tools 
   </thead>
   <tbody>
     <tr>
-      <td><a href="/learnapidoc/ai-tools-build-publish-api-docs.html">Develop build and publishing scripts</a></td>
+      <td><a href="/ai/ai-tools-build-publish-api-docs.html">Develop build and publishing scripts</a></td>
       <td><em>You are a <strong>developer</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_ai_learn_coding.html">Understand the meaning of code</a></td>
+      <td><a href="/ai/docapis_ai_learn_coding.html">Understand the meaning of code</a></td>
       <td><em>You are a <strong>polyglot</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_ai_format_content.html">Format content (HTML, XML, YAML)</a></td>
-      <td><em>You are a <strong>web designer</strong></em></td>
-    </tr>
-    <tr>
-      <td><a href="/learnapidoc/docapis_ai_fix_bugs.html">Distill needed updates from bug threads</a></td>
+      <td><a href="/ai/docapis_ai_fix_bugs.html">Distill needed updates from bug threads</a></td>
       <td><em>You are a <strong>partner engineer</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_ai_summaries.html">Summarize long content</a></td>
+      <td><a href="/ai/docapis_ai_summaries.html">Summarize long content</a></td>
       <td><em>You are a <strong>voracious reader</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_thematic_analysis.html">Synthesize insights from granular data</a></td>
+      <td><a href="/ai/docapis_thematic_analysis.html">Synthesize insights from granular data</a></td>
       <td><em>You are a <strong>data analyst</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_ai_language_advice.html">Seek advice on grammar and style</a></td>
+      <td><a href="/ai/docapis_ai_language_advice.html">Seek advice on grammar and style</a></td>
       <td><em>You are a <strong>linguist</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_pattern_prompts.html">Arrange content into information type patterns</a></td>
+      <td><a href="/ai/docapis_pattern_prompts.html">Arrange content into information type patterns</a></td>
       <td><em>You are an <strong>information architect</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_ai_comparison_tasks.html">Compare API responses to identify discrepancies</a></td>
+      <td><a href="/ai/docapis_ai_comparison_tasks.html">Compare API responses to identify discrepancies</a></td>
       <td><em>You are a <strong>debugger</strong></em></td>
     </tr>
     <tr>
-      <td><a href="/learnapidoc/docapis_ai_glossary_definitions.html">Create glossary definitions</a></td>
+      <td><a href="/ai/docapis_ai_glossary_definitions.html">Create glossary definitions</a></td>
       <td><em>You are a <strong>lexicographer</strong></em></td>
     </tr>
   </tbody>

@@ -1,15 +1,18 @@
 ---
 title:  "AI and APIs: What works, what doesn't"
-permalink: learnapidoc/docapis_ai_what_works_and_doesnt.html
-course: "Documenting REST APIs"
+permalink: ai/docapis_ai_what_works_and_doesnt.html
+course: "AI-powered API documentation"
 weight: 14.1
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-09-28
+redirect_from:
+- /learnapidoc/docapis_ai_what_works_and_doesnt.html
 ---
-
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 In conversations about AI, a lot of people ask the same questions: What kind of scenarios is AI good for? What works, what doesn't? In which scenarios? This section focuses on clarifying those scenarios where AI excels, particularly for technical writers creating documentation. I also argue for the inevitability of AI integration through an argument referred to as the "obsolescence regime."
 
@@ -60,7 +63,6 @@ The following are 10 scenarios where AI works well:
 * [Create summaries](docapis_ai_summaries.html)
 * [Synthesize insights from granular data](docapis_thematic_analysis.html)
 * [Seek advice on grammar and style](docapis_ai_language_advice.html)
-* [Format content (HTML, XML, YAML)](docapis_ai_format_content.html)
 * [Arrange content into information type patterns](docapis_pattern_prompts.html)
 * [Compare API responses to identify discrepancies](docapis_ai_comparison_tasks.html)
 * [Draft glossary definitions](docapis_ai_glossary_definitions.html)

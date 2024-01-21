@@ -62,22 +62,26 @@ topnav_dropdowns:
         - title: "Chapter 15: Metrics and measurement"
           url: /learnapidoc/docapis_metrics_and_measurement.html
 
-        - title: "Chapter 16: AI tools and API documentation"
-          url: /learnapidoc/ai.html
-
-        - title: "Chapter 17: Glossary"
+        - title: "Chapter 16: Glossary"
           url: /learnapidoc/glossary_overview.html
 
-        - title: "Chapter 18: Additional resources"
+        - title: "Chapter 17: Additional resources"
           url: /learnapidoc/resources.html
 
-    - title: Downloads
+    # - title: Downloads
+    #   folderitems:
+    #     - title: Download PDFs
+    #       url: /learnapidoc/download.html
+    #     - title: Shop
+    #       url: https://www.buymeacoffee.com/learnapidoc/extras
+    #       external: show
+
+    - title: AI and docs
       folderitems:
-        - title: Download PDFs
-          url: /learnapidoc/download.html
-        - title: Shop
-          url: https://www.buymeacoffee.com/learnapidoc/extras
-          external: show
+        - title: AI-powered documentation
+          url: /ai/
+        - title: AI category posts
+          url: /category-ai/
 
     - title: About
       folderitems:

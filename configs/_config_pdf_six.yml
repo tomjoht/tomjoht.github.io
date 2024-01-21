@@ -2,13 +2,13 @@ scope: individual
 section: six
 title: Documenting REST APIs
 subtitle: "Chapter 6: Testing API docs"
-api_media: /Users/tomjoht/projects/idratherbewriting/images/api
+api_media: /Users/tomjohnson/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_image: images/ebook_cover.png
 
 sidebar: docapis
-baseurl: /Users/tomjoht/projects/idratherbewriting/_site
+baseurl: /Users/tomjohnson/projects/idratherbewriting/_site
 
 language: english
 format: print
@@ -34,9 +34,7 @@ collections:
     output: false
   zamm:
     output: false
-  restapicourse:
-    output: false
-  publishingapidocs:
+  ai:
     output: false
   voiceovertechniques:
     output: false

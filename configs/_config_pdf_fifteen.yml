@@ -1,14 +1,14 @@
 scope: individual
 section: fifteen
 title: Documenting REST APIs
-subtitle: "Chapter 15: AI tools and API documentation"
-api_media: /Users/tomjoht/projects/idratherbewriting/images/api
+subtitle: "Chapter 15: Metrics and measurement"
+api_media: /Users/tomjohnson/projects/idratherbewriting/images/api
 # cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_image: images/ebook_cover.png
 
 sidebar: docapis
-baseurl: /Users/tomjoht/projects/idratherbewriting/_site
+baseurl: /Users/tomjohnson/projects/idratherbewriting/_site
 
 language: english
 format: print
@@ -64,7 +64,7 @@ defaults:
       published: true
   -
     scope:
-      path: _docs/ai
+      path: _docs/metrics_and_measurement
       type: docs
     values:
       layout: printpdf

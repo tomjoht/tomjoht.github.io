@@ -1,16 +1,20 @@
 ---
 title:  "Use cases for AI: Compare API responses to identify discrepancies"
-permalink: learnapidoc/docapis_ai_comparison_tasks.html
+permalink: ai/docapis_ai_comparison_tasks.html
 keywords:
-course: "Documenting REST APIs"
+course: "AI-powered API documentation"
 weight: 14.9
-sidebar: docapis
+sidebar: sidebar_ai
 section: docapisai
-path1: learnapidoc/ai.html
+path1: ai/index.html
 last-modified: 2023-08-28
+redirect_from:
+- /learnapidoc/docapis_ai_comparison_tasks.html
 ---
 
+{% comment %}
 {% include coffeeshopbook.html %}
+{% endcomment %}
 
 The best scenarios to implement AI are those tasks that humans perform poorly but robots perform excellently. One of these task domains is comparative analysis, specifically comparing two sets of information to identify inconsistencies. API responses can be complex, with a wide variety of fields that can be returned depending on the request. As humans, it can be hard to compare large amounts of text quickly, but AI tools might be good at this task.
 

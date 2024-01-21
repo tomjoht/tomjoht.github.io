@@ -16,7 +16,7 @@ These instructions explain how to build the PDF outputs.
 Switch into `myvenv`, then run:
 
 ```
-aws s3 cp s3://idbwmedia.com/images/api/ ~/tomjoht/projects/idratherbewriting/images/api  --recursive  --profile wasabi
+aws s3 cp s3://idbwmedia.com/images/api/ ~/tomjohnson/projects/idratherbewriting/images/api  --recursive  --profile wasabi
 ```
 
 Prince requires image references to be local, absolute paths and will look into this directory for the images.

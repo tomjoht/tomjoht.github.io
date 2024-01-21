@@ -45,7 +45,6 @@ Rather than focus the use cases on documentation, in this presentation I wanted 
 
 See [30+ ways I’m using AI in everyday writing life as a technical writer, blogger, and curious human](/blog/all-the-ways-im-using-ai-tools-in-everyday-life) for the post that contains more details about the prompts.
 
-See also [Chapter 16: AI tools and API documentation](/learnapidoc/ai.html) in my API doc course for more in-depth articles about the main use cases covered in this presentation.
+See also [AI-powered API documentation](/ai/index.html) in my API doc course for more in-depth articles about the main use cases covered in this presentation.
 
 {% include ads.html %}
-

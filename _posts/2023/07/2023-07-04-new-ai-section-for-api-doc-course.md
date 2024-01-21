@@ -23,6 +23,6 @@ Some of the articles I have planned include the following:
 - Improve search with AI tools
 - Use AI to summarize bug threads and resolutions
 
-Any other ideas for me? Let me know. You can see the new section here: [Chapter 15: AI tools and API documentation](/learnapidoc/ai.html).
+Any other ideas for me? Let me know. You can see the new section here: [AI-powered API documentation](/ai/index.html).
 
 {% include ads.html %}

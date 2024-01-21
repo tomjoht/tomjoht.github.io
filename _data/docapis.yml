@@ -570,51 +570,7 @@ folders:
   - title: Quantifying your progress
     jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
-- title: "Chapter 16: AI and API documentation"
-  landing: /learnapidoc/ai.html
-  section: sixteen
-  description: >
-    LLM-based AI tools, such as ChatGPT, Bard, and Claude, can help you with various documentation-related tasks. Pattern-based content prompts can help arrange content in expected documentation formats. You can use AI tools to both learn code and write code yourself--the latter comes in handy when you need to create build and publishing scripts. You can use AI tools to get language advice, to identify answers when fixing bugs, to analyze large sets of information from threads, comments, and feedback, to compare API responses with schemas, to create glossaries, and more. Using AI tools requires you to provide a lot of direction, review, and guidance, so don't expect too much from them. Still, they can perform some of the documentation work, leading to increased productivity.
-  folderitems:
-
-  - title: "Overview"
-    jurl: /learnapidoc/ai.html
-    type: web
-
-  - title: "Using AI in APIs: What works, what doesn't"
-    jurl: /learnapidoc/docapis_ai_what_works_and_doesnt.html
-
-  - title: "Use cases for AI: Develop build and publishing scripts"
-    jurl: /learnapidoc/ai-tools-build-publish-api-docs.html
-
-  - title: "Use cases for AI: Understand the meaning of code"
-    jurl: /learnapidoc/docapis_ai_learn_coding.html
-
-  - title: "Use cases for AI: Distill needed updates from bug threads"
-    jurl: /learnapidoc/docapis_ai_fix_bugs.html
-
-  - title: "Use cases for AI: Summarize long content"
-    jurl: /learnapidoc/docapis_ai_summaries.html
-
-  - title: "Use cases for AI: Synthesize insights from granular data"
-    jurl: /learnapidoc/docapis_thematic_analysis.html
-
-  - title: "Use cases for AI: Seek advice on grammar and style"
-    jurl: /learnapidoc/docapis_ai_language_advice.html
-
-  - title: "Use cases for AI: Format content (HTML, XML, YAML)"
-    jurl: /learnapidoc/docapis_ai_format_content.html
-
-  - title: "Use cases for AI: Arrange content into information type patterns"
-    jurl: /learnapidoc/docapis_pattern_prompts.html
-
-  - title: "Use cases for AI: Compare API responses to identify discrepancies"
-    jurl: /learnapidoc/docapis_ai_comparison_tasks.html
-
-  - title: "Use cases for AI: Draft glossary definitions"
-    jurl: /learnapidoc/docapis_ai_glossary_definitions.html
-
-- title: "Chapter 17: Glossary"
+- title: "Chapter 16: Glossary"
   landing: /learnapidoc/glossary_overview.html
   section: seventeen
   description: >
@@ -631,7 +587,7 @@ folders:
   - title: "Glossary groups"
     jurl: /learnapidoc/glossary_groups.html
 
-- title: "Chapter 18: Additional resources"
+- title: "Chapter 17: Additional resources"
   landing: /learnapidoc/resources.html
   section: eighteen
   description: > 

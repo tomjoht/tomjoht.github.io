@@ -32,7 +32,7 @@ details:
 - build_kindle.sh runs this:
 
 ```
-/Users/tomjoht/projects/kindlegen/kindlegen _site/docapis.opf
+/Users/tomjohnson/projects/kindlegen/kindlegen _site/docapis.opf
 ```
 
 the first is kindlegen, the next is the location of the docapis.opf file
@@ -71,7 +71,7 @@ use to convert mobi to epub. Register and sign in first (otherwise you exceed yo
 1. run " ./build_pdf.sh"
 
 this file uses the \_config_pdf.yml. in this file, two important properties are defined:
-baseurl: /Users/tomjoht/projects/learnapidoc/\_site
+baseurl: /Users/tomjohnson/projects/learnapidoc/\_site
 format: print
 
 it builds from the local, so it's not necessary to have serve_pdf running

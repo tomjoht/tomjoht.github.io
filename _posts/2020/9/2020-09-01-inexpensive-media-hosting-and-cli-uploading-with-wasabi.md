@@ -86,7 +86,7 @@ deactivate
 `myvenv` is an alias in my `.bash_profile` that just activates the Python virtual environment:
 
 ```sh
-alias myvenv='source /Users/tomjoht/myvenv/bin/activate'
+alias myvenv='source /Users/tomjohnson/myvenv/bin/activate'
 ```
 
 The script then runs `deactivate` when finished. (Really, this virtual environment is not a necessary hack but something I included due to conflicts I encountered.) Here's a sample demo of uploading an image via the command line:
