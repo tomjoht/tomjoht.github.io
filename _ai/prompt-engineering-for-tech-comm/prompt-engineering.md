@@ -1,13 +1,11 @@
 ---
-title: "AI-powered API documentation"
-permalink: ai/index.html
+title: "Prompt engineering for tech comm"
+permalink: ai/prompt-engineering.html
 keywords:
 sidebar: sidebar_ai
-section: docapisai
-path1: /ai.html
-last-modified: 2023-09-04
-redirect_from:
-- /learnapidoc/ai.html
+section: prompt-engineering
+path1: /prompt-engineering.html
+last-modified: 2024-02-13
 ---
 
 {% comment %}
