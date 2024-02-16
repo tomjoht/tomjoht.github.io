@@ -489,13 +489,11 @@ root
 
 You get the idea. If nodes have massive substructures, break them into smaller pieces for the AI to work with. This is especially useful if the diagram becomes quite large, putting a strain on your AI tool's memory capacity and input limits. How you might divide up the structure depends on the particular complexities and the limits of your tool. You can temporarily focus on building out these substructures piece by piece, working on isolated sections instead of attempting the entire diagram at once.
 
-Expect some refining of your instructions and possibly re-dos of earlier parts as the diagram grows. It's unlikely that you'll achieve a perfect, complex diagram on the first attempt.
-
-Don't assume that the generated diagram will be completely error-free. As the complexity grows, the chance of misinterpretations or omissions due to memory constraints increases. Carefully review the results and be prepared to iterate on different sections until the entire diagram accurately matches your source JSON.
-
-With diagrams in particular, note that AI tools struggle to construct long vertical lines. In Visual Studio Code, there's a trick to adding these. Select one area, then press Shift+Option to select another without losing the first selection. The result will highlight all the space between the two selections.
+Expect some refining of your instructions and possibly re-dos of earlier parts as the diagram grows. It's unlikely that you'll achieve a perfect, complex diagram on the first attempt. By making sure the first few iterations produce the results you want, and making any needed refinements in your prompt, the later iterations will be more accurate on the first try.
 
 I would keep going with this example, converting each element into a variable, then defining links for the variables, etc. However, I think the above sections have made the point about task decomposition without the need to carry this too far.
+
+With this diagram example, note that AI tools struggle to construct long vertical lines. In Visual Studio Code, there's a trick to adding these. Select one area, then press Shift+Option (on a Mac) to select another area without losing the first selection. The result will highlight all the space between the two selections.
 
 ## From complex diagrams to complex essays
 
@@ -504,6 +502,20 @@ The task decomposition strategies used here to build complex tree diagrams are r
 As the tree diagram expanded, you broke complex nodes into smaller, more manageable JSON chunks. Similarly, large essay topics can be broken down into subtopics or distinct arguments, making the overall writing process less daunting.
 
 Just as the AI constructed and refined portions of the tree diagram iteratively, a well-written essay evolves through drafts. You might tackle individual paragraphs or specific supporting sections one at a time, rather than writing from start to finish in a single sitting. Writing a robust essay also requires proofreading and editing to catch any misspellings, grammatical inconsistencies, or  errors in logic.
+
+Don't assume that the generated diagram will be completely error-free. As the complexity grows, the chance of misinterpretations or omissions due to memory constraints increases. Carefully review the results and be prepared to iterate on different sections until the entire diagram accurately matches your source JSON.
+
+## Context windows and input limits
+
+If you're working with large amounts of text and input, keep in mind the context windows of your LLM. The context window refers to how much content the LLM can remember in one session. This is different fron an input maximum. For example, the input maximum might be 5,000 tokens, and the context window could be 12,000 tokens. The model itself might support 32,000 tokens, but the server that's providing the model might support a smaller number of tokens than the model itself supports.
+
+As the context window reaches its maximum capacity, older information might be pushed out. This makes recalling specific, isolated details increasingly difficult over lengthy conversations. The context window could function as a sliding window, where the AI's memory pushes out the older and slides into focus with the new. Or the context window could be more static, expiring the thread once the maximum context window is reached. Different tools handle context windows differently, and few of them explain even what the context windows are (for both the servers and the models) nor how they work.
+
+Some researchers test an AI's memory through needle in a haystack experiments, such as telling the LLM a specific detail earlier on in the conversation and seeing how long it can remember the detail later. However, conversational memory could work in different ways. It could be that just like humans, LLMs prioritize concepts and information central to the ongoing conversation (providing summaries of threads and then archiving the summaries). To help an LLM remember a detail, use the detail and repeatedly integrate it into various elements of the discussion. Without repeated reinforcement, isolated details become less prominent in the LLM's understanding compared to major conversational themes. It's like any human-to-human conversation. Small, seemingly unimportant details become forgotten, while the important aspects of the conversation are remembered.
+
+## Conclusion 
+
+Input limits and context memory are rapidly evolving. The limits we experience today might not pose significant limitations weeks or months from now. For example, Gemini 1.5 will support a million token context window. At that point, it might no longer be necessary to chunk complex tasks. Even so, perhaps the tasks we attempt to perform with million-token context windows will be multitudes more complex.
 
 <hr/>
 
