@@ -6,7 +6,7 @@ mytags:
 - title: Academics and practitioners
   url: /category-academics-and-practitioners/
 - title: AI
-  url: /category-AI/
+  url: /category-ai/
 - title: API documentation
   url: /category-api-doc/
 - title: API doc site updates
