@@ -1,7 +1,7 @@
 ---
 title: "The importance of using the right tools"
 permalink: /zamm/importance-of-using-right-tools.html
-date: 2023-11-26
+last-modified: 2023-11-26
 categories:
 # - podcasts
 - technical-writing

@@ -2,7 +2,7 @@
 ---
 title: "Experiments to try"
 permalink: /zamm/experiments-to-try
-date: 2023-12-03
+last-modified: 2023-12-03
 categories:
 - technical-writing
 # podcasts

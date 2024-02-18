@@ -2,7 +2,7 @@
 ---
 title: "An epiphany while riding through the city"
 permalink: /zamm/riding-through-city-epiphany
-date: 2023-11-28
+last-modified: 2023-11-28
 categories:
 - technical-writing
 # podcasts

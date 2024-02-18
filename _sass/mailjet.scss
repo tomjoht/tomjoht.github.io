@@ -32,9 +32,13 @@
   }
 
   .mynewsletter::after {
-    content: 'Subscribe to my newsletter';
+    content: 'Subscribe to newsletter';
     margin-left: 8px; 
   }
+
+  button.btn.btn-primary.mynewsletter {
+    max-width: 95%;
+}
   
 
 @media only screen and (max-width: 990px) {

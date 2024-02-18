@@ -1,7 +1,7 @@
 ---
 title: "Main takeaway: How to incorporate intuitive thinking (ZAMM series)"
 permalink: /zamm/incorporating-intuitive-thinking.html
-date: 2023-12-01
+last-modified: 2023-12-01
 rebrandly: https://idbwrtng.com/incorporating-intuitive-thinking
 categories:
 # - podcasts

@@ -2,7 +2,7 @@
 ---
 title: "The bike repair workshop"
 permalink: /zamm/bike-repair-workshop
-date: 2023-12-03
+last-modified: 2023-12-03
 categories:
 - technical-writing
 # podcasts

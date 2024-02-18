@@ -7,6 +7,7 @@ sidebar: sidebar_zamm
 section: peaceofmind
 path1: smartphones/peaceofmind.html
 last-modified: 2023-12-02
+published: false
 ---
 
 {% include chapter_description.html %}

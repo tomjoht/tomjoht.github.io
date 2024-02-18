@@ -1,7 +1,7 @@
 ---
 title: "The bathroom fan and multiple paths through a topic"
 permalink: /zamm/bathroom-fan-and-multiple-paths-through-a-task.html
-date: 2023-11-26
+last-modified: 2023-11-26
 categories:
 # - podcasts
 - technical-writing

@@ -1,7 +1,7 @@
 ---
 title: "Why I decided to reread Zen and the Art of Motorcycle Maintenance (ZAMM series)"
 permalink: /zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html
-date: 2023-11-26
+last-modified: 2023-11-26
 categories:
 # - podcasts
 - technical-writing

@@ -360,33 +360,58 @@
 
 {% include sidebar_comics.html %}
 
-<!-- popular series in sidebar -->
+<!--Recent posts on ZAMM-->
 <div class="recent-posts">
-<h3>Popular series</h3>
-<ul>
-    <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle Maintenance</a></li>
-    <li><a href="/smartphones/overview.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Journey away from smartphones</a></li>
-    <li><a href="/trends/trends-to-follow-or-forget-intro.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Trends to follow or forget</a></li>
-    <li><a href="/simplifying-complexity/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Simplifying complexity</a></li>
-    <li><a href="/2017/12/28/value-of-tech-comm-in-company-part1/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Value arguments for docs and tech comm</a></li>
-    <li><a href="/series/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> See all series</a></li>
-</ul>
+  <h3>Recent posts from Zen and the Art of Motorcycle Maintenance series</h3>
+    <ul>
+      {% assign zamm_posts = site.zamm | sort: 'date' | reverse %}
+      {% for post in zamm_posts limit:10 %}
+        <li>
+          <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.last-modified | date: "%b %-d, %Y" }})</span>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-  <!-- end popular series in sidebar -->
 
-<!-- recent posts in sidebar -->
+  <!--Recent posts on Prompt Engineering-->
 <div class="recent-posts">
-<h3>Recent posts</h3>
+  <h3>Recent posts from my AI tech comm series</h3>
+    <ul>
+      {% assign ai_posts = site.ai | sort: 'date' | reverse %}
+      {% for post in ai_posts limit:10 %}
+        <li>
+          <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.last-modified | date: "%b %-d, %Y" }})</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+<!-- recent blog posts in sidebar -->
+<div class="recent-posts">
+<h3>Recent blog posts</h3>
   <ul>
     {% for post in site.posts limit:10 %}
       <li>
-        
         <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b %-d, %Y" }})</span>
       </li>
     {% endfor %}
   </ul>
 </div>
 
+<!-- popular series in sidebar -->
+<div class="recent-posts">
+  <h3>Popular series</h3>
+  <ul>
+      <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle Maintenance</a></li>
+      <li><a href="/smartphones/overview.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Journey away from smartphones</a></li>
+      <li><a href="/trends/trends-to-follow-or-forget-intro.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Trends to follow or forget</a></li>
+      <li><a href="/simplifying-complexity/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Simplifying complexity</a></li>
+      <li><a href="/2017/12/28/value-of-tech-comm-in-company-part1/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Value arguments for docs and tech comm</a></li>
+      <li><a href="/series/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> See all series</a></li>
+  </ul>
+</div>
+<!-- end popular series in sidebar -->
+    
 <!-- archives in sidebar -->
 <div class="recent-posts">
 <h3>Archives</h3>

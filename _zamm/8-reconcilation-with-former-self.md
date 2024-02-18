@@ -1,7 +1,7 @@
 ---
 title: "Selecting facts to fit the situation"
 permalink: /blog/reconcilation-with-former-self
-date: 2023-11-28
+last-modified: 2023-11-28
 categories:
 - technical-writing
 # podcasts
