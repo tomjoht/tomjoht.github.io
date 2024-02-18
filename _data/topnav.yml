@@ -76,9 +76,9 @@ topnav_dropdowns:
     #       url: https://www.buymeacoffee.com/learnapidoc/extras
     #       external: show
 
-    - title: AI and docs
+    - title: AI tech comm series
       folderitems:
-        - title: AI-powered documentation
+        - title: AI and documentation
           url: /ai/
         - title: AI category posts
           url: /category-ai/

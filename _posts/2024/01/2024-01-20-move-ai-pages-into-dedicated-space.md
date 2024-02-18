@@ -16,7 +16,7 @@ description: "I recently moved the AI section from my <a href='/learnapidoc/'>AP
  
 See the **AI and docs** menu on my top navigation. This menu has two options: 
 
-* **[AI-powered documentation](/ai)**: Contains the 9 developed use cases for AI that I wrote about at length.
+* **[AI tech comm series](/ai)**: Contains use cases for using AI with tech comm, including prompt engineering techniques for doc scenarios and more.
 * **[AI category posts](/category-ai)**: Contains all the posts that I've added to my ai category.
 
 {% include ads.html %}

@@ -10,7 +10,7 @@ description: "I'm participating in a Coffee and Content chat titled 'Ask Me Anyt
 image: ama-mging-doc-projects-heretto-thumb.jpg
 ---
 
-You can register [here](https://www.brighttalk.com/webcast/9273/593123):``
+**Update:** The event has already taken place. You can view the recording here:
 
 <a class="noCrossRef" href="https://www.brighttalk.com/webcast/9273/593123"><img src="{{site.media}}/ama-managing-api-doc-projects.jpg" alt="Ask Me Anything: Managing API Documenation Projects" /></a>
 
