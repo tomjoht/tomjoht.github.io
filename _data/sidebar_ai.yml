@@ -55,3 +55,6 @@ folders:
 
   - title: "Task decomposition"
     jurl: /ai/prompt-engineering-task-decomposition.html
+
+  - title: "Summarizing meeting notes and amplifying visibility"
+    jurl: /ai/prompt-engineering-summarizing-meeting-notes.html

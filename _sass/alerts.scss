@@ -113,6 +113,21 @@ div.response {
     position: relative; /* For potential positioning of child elements */
 }
 
+.chat::before {
+  content: "Prompt";
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+
+.response::before {
+  content: "Response";
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+.pVar {
+  color: darkslateblue;
+  font-weight: bold;
+}
 
 p.note {
     background: #f1f1f1;

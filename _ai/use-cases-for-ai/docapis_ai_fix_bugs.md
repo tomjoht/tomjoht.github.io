@@ -68,7 +68,8 @@ Then use an AI tool with a high input limit, using the gathered content as an in
 
 After you've gathered the source material, ask the AI a question such as the following: 
   
-<div class="chat">Based on the input sources, provide a summary of the issue {about ...} and the resolution taken to fix the issue. 
+<div class="chat">
+<p>Based on the input sources, provide a summary of the issue {about ...} and the resolution taken to fix the issue.</p>
 </div>
 
 If you can [supply a pattern based on the output you want](docapis_pattern_prompts.html), great. For example, usually the release notes describe the fix like this:

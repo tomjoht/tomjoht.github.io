@@ -66,7 +66,7 @@ I also split up the Publishing Tools chapter into two separate chapters because 
 With each PDF, I asked Claude the following:
 
 <div class="chat">
-[UPLOAD CHAPTER PDF] From the PDF here, identify all the words that would be good to add to a glossary for a course on API documentation. Provide definitions of each of the terms as well.
+<p>[UPLOAD CHAPTER PDF] From the PDF here, identify all the words that would be good to add to a glossary for a course on API documentation. Provide definitions of each of the terms as well.</p>
 </div>
 
 Claude looked through the content and provided a list of definitions. The definitions looked all right—fairly representative of the chapter content. Some of my chapters cover a lot of different topics, making it difficult to select a coherent set of terms.
@@ -98,7 +98,7 @@ clone:
 My prompt to Claude looked as follows:
 
 <div class="chat">
-Structure this list of glossary definitions with the following YAML syntax. [PASTE SYNTAX ABOVE]
+<p>Structure this list of glossary definitions with the following YAML syntax. [PASTE SYNTAX ABOVE]</p>
 </div>
 
 Claude did an excellent job at the YAML formatting, as has been my experience with other AI tools. Time and again, AI tools do exceedingly well at pattern matching. However, copying and pasting from Claude dropped the spacing syntax, so I ended up using ChatGPT for this. Claude doesn't offer code view styling for its content, unlike ChatGPT and Bard. 
@@ -118,13 +118,13 @@ Because I already had a list of terms, I just needed to make one more query to C
 Prompt:
 
 <div class="chat">
-I want you to identify a subgroup of vocabulary terms that would be good to include in a mini-list for each chapter. The following is a list of all vocabulary terms: And here is a PDF of chapter 1. For chapter 1, identify the most relevant vocabulary terms to include in this mini-list. Limit the number of terms to no more than 15 terms. Include only the keys for each term (e.g., agile_testing for agile). Make the list comma-separated.
+<p>I want you to identify a subgroup of vocabulary terms that would be good to include in a mini-list for each chapter. The following is a list of all vocabulary terms: And here is a PDF of chapter 1. For chapter 1, identify the most relevant vocabulary terms to include in this mini-list. Limit the number of terms to no more than 15 terms. Include only the keys for each term (e.g., agile_testing for agile). Make the list comma-separated.</p>
 </div>
 
 Claude's response was mediocre. Some of the terms didn't group well. I tried the same with ChatGPT:
 
 <div class="chat">
-The following vocab list is in alphabetical order, but it's not very helpful. It would be more helpful to group the terms into different subgroups based on similar themes. do that for these terms. don't make more than 15 subgroups. In each subgroup, include only a list of comma-separated keys, where the key is the term that introduces the "term" and "def", like <code>agile_testing</code> or <code>daily_standup</code>.
+<p>The following vocab list is in alphabetical order, but it's not very helpful. It would be more helpful to group the terms into different subgroups based on similar themes. do that for these terms. don't make more than 15 subgroups. In each subgroup, include only a list of comma-separated keys, where the key is the term that introduces the "term" and "def", like <code>agile_testing</code> or <code>daily_standup</code>.</p>
 </div>
 
 The responses were mediocre as well.
@@ -132,7 +132,7 @@ The responses were mediocre as well.
 I tried a number of similar queries to each tool, trying to get it to sort the terms more logically.
 
 <div class="chat">
-Looking through this list of glossary terms, identify the most relevant terms used in this chapter. 
+<p>Looking through this list of glossary terms, identify the most relevant terms used in this chapter.</p>
 </div>
 
 Again, the results weren't great. This task might have been difficult because the terminology is a mixed bag that doesn't sort well. Maybe there aren't salient groupings that allow for easy categorization. I ended up using one of the responses from ChatGPT as a starting point and then did my own custom sorting and grouping for the next hour.
@@ -153,9 +153,8 @@ After I finished sorting, I needed to get the glossary groups on a page. I modif
 
 Looking over my glossary groups, I wasn't satisfied with the number of terms, as they seemed incomplete and dated. Because AI tools are good at pattern matching and connections, I figured they could do a good job at predicting what other terms would match the existing pattern of terms. So I asked ChatGPT to expand them: 
 
-<div class="chat"> \
-The following is a group of specialized glossary terms for http methods in REST APIs. Expand the number of terms with a more comprehensive list of terms related to http methods. [PASTE IN TERMS FOR A GLOSSARY GROUP]
-
+<div class="chat"> 
+<p>The following is a group of specialized glossary terms for http methods in REST APIs. Expand the number of terms with a more comprehensive list of terms related to http methods. [PASTE IN TERMS FOR A GLOSSARY GROUP]</p>
 </div>
 
 AI tools are good at pattern-matching and connections, and the responses didn't disappoint here. I added about 25 more terms to the overall list, filling in gaps and other missing terms. Inserting these terms was somewhat manual because I'd already alphabetized and formatted the list, and I didn't want to bother with exports, reimports, additional sorting, etc.

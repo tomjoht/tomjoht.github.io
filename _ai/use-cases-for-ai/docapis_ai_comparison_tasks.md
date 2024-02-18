@@ -32,7 +32,7 @@ The idea for this technique comes from a post by Francis Elliot titled [Proofrea
 Here's Elliot's prompt:
 
 <div class="chat">
-Compare the following JSON blobs. Sort the blobs alphabetically by their keys, then for the sorted blobs, tell me if the blobs are structurally identical in terms of key names. If they're different, tell me specifics of how they're different. Ignore different values for the keys, ignore repeated array items, and ignore empty arrays in the comparison.
+<p>Compare the following JSON blobs. Sort the blobs alphabetically by their keys, then for the sorted blobs, tell me if the blobs are structurally identical in terms of key names. If they're different, tell me specifics of how they're different. Ignore different values for the keys, ignore repeated array items, and ignore empty arrays in the comparison.</p>
 </div>
 
 API responses can have a lot of fields returned in the response, and the fields returned depend on the input parameters and the available data. 
@@ -132,7 +132,7 @@ You can see this so much better in Postman, and you can expand/collapse the sect
 Here's my first prompt:
 
 <div class="chat">
-The documentation for the OpenWeatherMap Forecast API is as follows: [PASTE OF FORECAST DOCS, SPECIFICALLY <a href="https://openweathermap.org/forecast16#fields_JSON">JSON format API response fields</a>]. Based on those descriptions, provide documentation for every field in this actual JSON response from the Forecast API: [PASTE OF API RESPONSE ABOVE]
+<p>The documentation for the OpenWeatherMap Forecast API is as follows: [PASTE OF FORECAST DOCS, SPECIFICALLY <a href="https://openweathermap.org/forecast16#fields_JSON">JSON format API response fields</a>]. Based on those descriptions, provide documentation for every field in this actual JSON response from the Forecast API: [PASTE OF API RESPONSE ABOVE]</p>
 </div>
 
 Response:
@@ -202,7 +202,7 @@ This prompt allowed me to see if the fields in the response were documented and 
 Prompt:
 
 <div class="chat">
-Identify any fields that were present in the documentation but which are not present in the response
+<p>Identify any fields that were present in the documentation but which are not present in the response.</p>
 </div>
 
 Response: 
@@ -238,7 +238,7 @@ Response:
 Prompt:
 
 <div class="chat">
-Are these fields optional?
+<p>Are these fields optional?</p>
 </div>
 
 Response:
@@ -262,7 +262,7 @@ Response:
 Prompt: 
 
 <div class="chat">
-Are there any fields in the response that were not listed in the documentation?
+<p>Are there any fields in the response that were not listed in the documentation?</p>
 </div>
 
 Response: 
@@ -287,7 +287,7 @@ which are all documented.</li>
 Prompt:
 
 <div class="chat">
-are any fields in the response cased differently than they are written in the documentation? any inconsistencies with capitalization or spelling?
+<p>are any fields in the response cased differently than they are written in the documentation? any inconsistencies with capitalization or spelling?</p>
 </div>
 
 Response:
@@ -341,7 +341,7 @@ Sorry Claude, the documentation doesn't have a `feelsLike` field either. This er
 
 Prompt: 
 <div class="chat">
-Which fields in the documentation need more descriptive definitions?
+<p>Which fields in the documentation need more descriptive definitions?</p>
 </div>
 
 Response: 
@@ -379,7 +379,7 @@ Claude wasn't finding anything too interesting, but that could be because docume
 Prompt:
 
 <div class="chat">
-Now take a look at this new response. [PASTE OF NEW MODIFIED JSON RESPONSE]. Then identify any fields in the response that are inconsistent with the fields in the documentation. Pay attention to capitalization, casing, spelling, etc.
+<p>Now take a look at this new response. [PASTE OF NEW MODIFIED JSON RESPONSE]. Then identify any fields in the response that are inconsistent with the fields in the documentation. Pay attention to capitalization, casing, spelling, etc.</p>
 </div>
 
 {% include random_ad4.html %}
@@ -427,7 +427,7 @@ Claude did do a good job at identifying the errors I introduced. I did try to ga
 Prompt:
 
 <div class="chat">
-Are there any documentation fields that aren't present in the response? Which ones?
+<p>Are there any documentation fields that aren't present in the response? Which ones?</p>
 </div>
 
 Response:

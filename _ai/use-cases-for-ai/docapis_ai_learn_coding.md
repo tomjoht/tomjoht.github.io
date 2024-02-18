@@ -54,8 +54,7 @@ The ability to zoom in on specific issues, work through error messages, and cont
 During the AI-generated course, I could also ask why my sample code didn't work. For example, as I experimented with the `@return` tag, the Javadoc didn't show the return comment in the output. Why not? 
 
 <div class="chat">
-i added a return tag to the following method, but i don't see a return parameter
-in the output. Why?
+<p>i added a return tag to the following method, but i don't see a return parameter in the output. Why?</p>
 </div>
 
 Not only did the AI explanations cover the general reasons (the method used a `void` tag, which meant it didn't return anything, so my `@return` command was ignored), but it used the specific method names and details from the example in its explanation. There was no need for me to adapt and fit general knowledge to my specific problem.
@@ -63,18 +62,15 @@ Not only did the AI explanations cover the general reasons (the method used a `v
 In other areas, I wanted to expand my knowledge of specific documentation style around the `@param` tag. 
 
 <div class="chat">
-what should the syntax be with @param? do i start with a lowercased verb
+<p>what should the syntax be with @param? do i start with a lowercased verb
 phrase? what happens if there's a period in there? does the javadoc output put
-the content after the period in another place?
+the content after the period in another place?</p>
 </div>
 
 Again, the AI was able to provide information specific to my documentation-oriented interests. In other places, I wanted more detail as well, such as how to handle definitions for the fields returned by the method. 
 
 <div class="chat">
-for the @return tag, in the example above you said "the area of the rectangle."
-suppose my method returns a bunch of data, such as rectangle area, rectangle
-style, rectangle depth. where would i define those definitions? in the method?
-or elsewhere?
+<p>for the @return tag, in the example above you said "the area of the rectangle." suppose my method returns a bunch of data, such as rectangle area, rectangle style, rectangle depth. where would i define those definitions? in the method? or elsewhere?</p>
 </div>
 
 AI explained that field definitions are often encapsulated in another class. Now things were clicking and I started to understand the structure of the code I was documenting better. 
@@ -84,8 +80,8 @@ AI explained that field definitions are often encapsulated in another class. Now
 What I appreciated most about the Javadoc course is that I could customize the content specific to my needs as a technical writer. Almost every book on Java I've ever read has been targeted for developers. There simply aren't books on Java written for technical writers. There might be a brief section on Javadoc nested within a gargantuan book that will take weeks to get through. And after making your way through the thick text or online course, do you ever get the answer to your documentation questions? Often not. Instead, using AI, I could go right to documentation-specific questions:
 
 <div class="chat">
-tell me more about the {@link} tag. what's the reason for the #? if i am
-linking to a method inside a class, how would i do that?
+<p>tell me more about the {@link} tag. what's the reason for the #? if i am
+linking to a method inside a class, how would i do that?</p>
 </div>
 
 The structure of the `@link` tag can be pretty complex, actually, especially when you're trying to link to a section within a class in another package.
@@ -93,8 +89,7 @@ The structure of the `@link` tag can be pretty complex, actually, especially whe
 Finally, I wanted to focus on the larger question: 
 
 <div class="chat">
-as a tech writer, i need to identify places in the java source files that are
-missing the needed tags. how can i do that?
+<p>as a tech writer, i need to identify places in the java source files that are missing the needed tags. how can i do that?</p>
 </div>
 
 Overall, this AI-generated Javadoc course probably took me an hour to get through. Granted, if you spend 10x the time learning Java in a course targeted at developers, you'll probably have a much greater understanding. But here's the problem: I've read through multiple books and gone through online courses for programming languages. The experience is almost always the same:
@@ -132,9 +127,7 @@ To put theory to practice, try the following:
 2.  Customize this prompt:
 
     <div class="chat">
-    I'm a technical writer documenting a [Java API]. I want to better understand how
-    to [tag the source with comments that get generated as Javadoc]. Create a course
-    that I can follow. Teach me step by step, like a friend.
+    <p>I'm a technical writer documenting a [Java API]. I want to better understand how to [tag the source with comments that get generated as Javadoc]. Create a course that I can follow. Teach me step by step, like a friend.</p>
     </div>
 
 3. As you're learning about the topic, steer it in the direction that would be most helpful and relevant to you as a technical writer.

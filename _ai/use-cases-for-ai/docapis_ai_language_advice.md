@@ -18,11 +18,6 @@ redirect_from:
 
 Technical writers frequently act as editors, whether reviewing content written by other technical writers, engineers, or product team members. For help with language decisions, AI tools can provide a helpful tool for identifying specific grammar and style rules. Although they might not produce emotionally resonant content ideally, AI tools are adept at providing reasoned language advice.
 
-{% if site.format == "web" %}
-* TOC
-{:toc}
-{% endif %}
-
 ## Leveraging AI to help with language 
 
 When I first started using AI tools, I tried to get them to write blog posts or other large pieces of content. These efforts almost always failed. The content sounded flat, unassertive, impersonal, boring, and voiceless. For more on why AI can't approximate real human writing, see Lauren Hartenberger's insightful essay [What AI Teaches Us About Good Writing](https://www.noemamag.com/what-ai-teaches-us-about-good-writing/). Hartenberger says that human writers often purposefully deviate from convention or rules as they engage with topics in authentic ways; this makes their writing connect emotionally with readers. 
@@ -47,147 +42,159 @@ and style rules by name in your reasoning.
 After using this prompt, you can just paste in multiple similar-sounding sentences and the AI will tell you which is better and why. If you're worried about privacy, note that it's easy to swap in generic terms while preserving the sentence's structure. Here are some examples:
 
 <div class="chat">
-You first click the red button, and then you click the blue button.
-<br/>
-You first click the red button and then you click the blue button.
-<br/> 
-You first click the red button, then you click the blue button.
+<p>You first click the red button, and then you click the blue button.</p>
+
+<p>You first click the red button and then you click the blue button.</p>
+ 
+<p>You first click the red button, then you click the blue button.</p>
 </div>
 
 <div class="chat">
-The system is composed of five modules.
-<br/>
-The system is comprised of five modules.
-<br/>
-The system is made up of five modules.
+<p>The system is composed of five modules.</p>
+
+<p>The system is comprised of five modules.</p>
+
+<p>The system is made up of five modules.</p>
 </div>
 
 <div class="chat">
-The app displays a screen that says...
-<br/>
-The app shows a screen that says...
+<p>The app displays a screen that says...</p>
+
+<p>The app shows a screen that says...</p>
 </div>
 
 {% include random_ad3.html %}
 
 <div class="chat">
-The user must opt into the terms...
-<br/>
-The user must opt in to the terms...
+<p>The user must opt into the terms...</p>
+
+<p>The user must opt in to the terms...</p>
 </div>
 
 <div class="chat">
-The widget allows you to try the feature...
-<br/>
-The widget enables you to try the feature...
-<br/>
-The widget lets you try the feature...
+<p>The widget allows you to try the feature...</p>
+
+<p>The widget enables you to try the feature...</p>
+
+<p>The widget lets you try the feature...</p>
 </div>
 
 <div class="chat">
 <p>With the widget, you can do the following:
-<br/>- Schedule flights
-<br/>- Manage bookings</p>
+- Schedule flights
+- Manage bookings</p>
 
 <p>With this app, you can:
-<br/>- Schedule flights
-<br/>- Manage bookings</p>
+- Schedule flights
+- Manage bookings</p>
 </div>
 
 <div class="chat">
-One thing to remember — set the initial parameter.
-<br/>
-One thing to remember: set the initial parameter.
+<p>One thing to remember — set the initial parameter.</p>
+
+<p>One thing to remember: set the initial parameter.</p>
 </div>
 
 <div class="chat">
-The function accepts two arguments...
-<br/>
-The function accepts two parameters...
+<p>The function accepts two arguments...</p>
+
+<p>The function accepts two parameters...</p>
 </div>
 
 <div class="chat">
-Many vehicles drive on this road. For example: trucks and RVs.
-<br/>
-Many vehicles drive on this road — for example, trucks and RVs.
+<p>Many vehicles drive on this road. For example: trucks and RVs.</p>
+
+<p>Many vehicles drive on this road — for example, trucks and RVs.</p>
 </div>
 
 {% include random_ad4.html %}
 
 <div class="chat">
-Enter your desired input into the form.
-<br/>
-Enter the input you want into the form.
+<p>Enter your desired input into the form.</p>
+
+<p>Enter the input you want into the form.</p>
 </div>
 
 <div class="chat">
-The API only searches for lakes.
-<br/>
-The API searches only for lakes.
+<p>The API only searches for lakes.</p>
+
+<p>The API searches only for lakes.</p>
 </div>
 
 <div class="chat">
-This is the master view...
-<br/>
-This is the main view...
+<p>This is the master view...</p>
+
+<p>This is the main view...</p>
 </div>
 
 <div class="chat">
-You must be added to the safelist to call the API.
-<br/>
-You must be added to the allowlist to call the API.
+<p>You must be added to the safelist to call the API.</p>
+
+<p>You must be added to the allowlist to call the API.</p>
 </div>
 
 <div class="chat">
-Enter the input to the widget, for example: "acme" or "beta."
-<br/>
-Enter the input to the widget — for example, acme or beta."
-<br/>
-Enter the input to the widget; for example, search for acme or beta."
+<p>Enter the input to the widget, for example: "acme" or "beta."</p>
+
+<p>Enter the input to the widget — for example, acme or beta."</p>
+
+<p>Enter the input to the widget; for example, search for acme or beta."</p>
 </div>
 
 <div class="chat">
-You can perform various actions (configure the widget, initialize the system,
-etc.) as an administrator.
-<br/>
-You can perform various actions (such as configure the widget or initialize the
-system) as an administrator.
+<p>
+    You can perform various actions (configure the widget, initialize the system,
+    etc.) as an administrator.
+</p>
+
+<p>
+    You can perform various actions (such as configure the widget or initialize the
+    system) as an administrator.
+</p>
 </div>
 
 <div class="chat">
-You can configure permissions via the app.
-<br/>
-You can configure permissions using the app.
-<br/>
-You can configure permissions through the app.
+<p>You can configure permissions via the app.</p>
+
+<p>You can configure permissions using the app.</p>
+
+<p>You can configure permissions through the app.</p>
 </div>
 
 <div class="chat">
-Use the library's methods to make your requests.
-<br/>
-Use the library methods to make your requests.
+<p>Use the library's methods to make your requests.</p>
+
+<p>Use the library methods to make your requests.</p>
 </div>
 
 <div class="chat">
-To make requests, you must have an API key.
-<br/>
-To make requests, you need an API key.
+<p>To make requests, you must have an API key.</p>
+
+<p>To make requests, you need an API key.</p>
 </div>
 
 <div class="chat">
-Over the years, the university provided me with a great education and set me on
-the right path - which I want to share with you now.
-<br/>
-Over the years, the university provided me with a great education and set me on
-the right path, which I want to share with you now.
+<p>
+    Over the years, the university provided me with a great education and set me on
+    the right path - which I want to share with you now.
+</p>
+
+<p>
+    Over the years, the university provided me with a great education and set me on
+    the right path, which I want to share with you now.
+</p>
 </div>
 
 <div class="chat">
-The widget has various buttons, namely, a power button, an off button, and a
-channel button.
-<br/>
-The widget has various buttons, namely: a power button, an off button, and a
-channel button.
+<p>
+    The widget has various buttons, namely, a power button, an off button, and a
+    channel button.
+</p>
+
+<p>
+    The widget has various buttons, namely: a power button, an off button, and a
+    channel button.
+</p>
 </div>
 
 {% include random_ad2.html %}
@@ -199,9 +206,8 @@ As you can see, a lot of sentences have subtle differences in grammar and style,
 Notice that I included the following in my prompt: "Reference grammar and style rules by name in your reasoning." As you're making editorial comments, if the content does relate to a rule, you can call it out by name. For example:
 
 <div class="chat">
-Click the big blue button in the upper-right corner.
-<br/>
-Click the big, blue button in the upper-right corner.
+<p>Click the big blue button in the upper-right corner.</p>
+<p>Click the big, blue button in the upper-right corner.</p>
 </div>
 
 Do you remember what grammar rule this comma usage relates to? Rather than just adding a comma there, you can note that in this usage, the adjectives are coordinate adjectives rather than cumulative adjectives. This gives users terms they can use to better understand the sentence's mechanics.

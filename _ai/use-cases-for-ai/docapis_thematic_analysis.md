@@ -40,9 +40,7 @@ Here's my process:
 3. I ask a high-level question to the AI. I chose [Claude.ai](https://claude.ai/) because it accepts a large input, and also because the book club doesn't involve confidential data. (If you haven't tried Claude, it's pretty amazing. The large text input allows you to supply more context to the AI, which can prevent the wacky hallucinations and fictitious responses.) Here's the prompt I used:
 
    <div class="chat">
-   The following content contains quotes from Henry Grabar's book, Paved Paradise:
-   How Parking Explains the World. There are also book reviews. From this content,
-   pick out the major themes in the book and the high-level arguments.
+   <p>The following content contains quotes from Henry Grabar's book, Paved Paradise: How Parking Explains the World. There are also book reviews. From this content, pick out the major themes in the book and the high-level arguments.</p>
    </div>
 
    Here's a screenshot:
@@ -74,7 +72,7 @@ But if you plug the same long list of keywords into [Claude.ai](https://claude.a
 Prompt: 
 
 <div class="chat">
-The following is a list of keywords that people search for using my site search. [Paste of search keywords from [The actual searches people are making on my blog](https://idratherbewriting.com/blog/pointless-to-implement-site-search/#actual_searches).] From this list of keywords, synthesize the predominant themes.
+<p>The following is a list of keywords that people search for using my site search. [Paste of search keywords from [The actual searches people are making on my blog](https://idratherbewriting.com/blog/pointless-to-implement-site-search/#actual_searches).] From this list of keywords, synthesize the predominant themes.</p>
 </div>
 
 Response:
@@ -109,7 +107,7 @@ Another use case for thematic analysis is with FAQs. Some websites have hundreds
 Using AI tools, you could group the individual FAQs into themes. With this approach, you might go from 100 randomly ordered FAQs into half a dozen thematic groupings. But then from those thematic groupings, you could use a prompt like this to match the FAQs with their appropriate pages:
 
 <div class="chat">
-The following is a list of FAQs for my site [paste FAQs]. Here also is a site index listing all the web pages of my site [paste index of web pages]. For each FAQ, list the most appropriate web page this information should appear on.
+<p>The following is a list of FAQs for my site [paste FAQs]. Here also is a site index listing all the web pages of my site [paste index of web pages]. For each FAQ, list the most appropriate web page this information should appear on.</p>
 </div>
 
 You get the idea here. There are certain scenarios where you have lots of individual pieces of information. From these pieces, you can use AI tools to synthesize larger groupings and themes. This is one area that AI tools might perform much more efficiently than humans. 
@@ -183,7 +181,7 @@ With my book club, after I gathered a list of high-level book themes and argumen
 
 Prompt:
 <div class="chat">
-Now I want to zoom in on some of these arguments, starting with this one: "Required parking for housing and other buildings has limited the creation of affordable housing and driven up costs. Parking can add tens of thousands of dollars per unit, pricing out lower income residents." Articulate the logic in as crisp of a way as possible. What is the assertion, what are the supporting reasons, and what's the premise? Any faulty assumptions in the reasoning?
+<p>Now I want to zoom in on some of these arguments, starting with this one: "Required parking for housing and other buildings has limited the creation of affordable housing and driven up costs. Parking can add tens of thousands of dollars per unit, pricing out lower income residents." Articulate the logic in as crisp of a way as possible. What is the assertion, what are the supporting reasons, and what's the premise? Any faulty assumptions in the reasoning?</p>
 </div>
 
 Here's a screenshot:
