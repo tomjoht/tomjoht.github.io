@@ -3,22 +3,14 @@ title: "Visualizing APIs with tree diagrams, partly generated with AI"
 permalink: /blog/task-decomposition-tree-diagram-example
 date: 2024-02-13
 categories:
-- academics-and-practitioners
 - ai
 - api-doc
 - visual-communication
 keywords: 
 rebrandly: https://idbwrtng.com/task-decomposition-tree-diagram-example
-description: "I recently visualized both a cloud and Java API through some complex tree diagrams that showed the objects returned, with all the detail inherent in the parent/child relationships and structures."
+description: "I recently visualized both a cloud and Java API through some complex tree diagrams that showed the objects returned, with all the detail inherent in the parent/child relationships and structures. One of the primary principles of prompt engineering is to break complex tasks up into smaller ones. This principle has at least two purposes: (1) most AI chatbots can't process large amounts of text, and (2) you can more precisely direct the output from smaller inputs."
+image: jabberwockythumb.png
 ---
-
-* TOC
-{:toc}
-
-One of the primary principles of prompt engineering is to break complex tasks up into smaller ones. This principle has at least two purposes:
-
-* Most AI chatbots can't process large amounts of text
-* You can more precisely direct the output from smaller inputs
 
 As I've been working with AI chatbots over the past few weeks on a particular project visualizing APIs with tree diagrams, I've really come to see how important these two principles are. I'll elaborate more on the details of the prompt engineering techniques, but first, let me explain the documentation context.
 

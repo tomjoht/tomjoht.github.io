@@ -6,12 +6,13 @@ categories:
 - ai
 keywords: 
 rebrandly: https://idbwrtng.com/walking-and-chatting-with-chatgpt
-description: "I've begun a new favorite activity: walking and talking with ChatGPT. It might sound crazy, but it's really engaging."
+description: "I've begun a new favorite activity: walking and talking with ChatGPT. It might sound crazy, but it's really engaging. As I walk around for exercise, I usually listen to non-fiction audiobooks or podcasts. Particularly with non-fiction audiobooks, I listen to learn something. For example, today I was listening to <a href='https://www.amazon.com/Little-Book-Common-Sense-Investing/dp/B000NJXF6E'><em>The Little Book of Common Sense Investing</em></a> by John C. Bogle, founder of Vanguard. After about 20 minutes of listening to the book, my mind tends to gravitate toward questions I have. When I find myself losing interest in listening instead want to pursue specific questions, I pull out the ChatGPT app on my phone, tap the headphone button to initiate the audio conversation, and start asking questions related to topics surfaced in the book."
+image: chatgptwalkingandtalkingthumb.png
 ---
 
-As I walk around for exercise, I usually listen to non-fiction audiobooks or podcasts. Particularly with non-fiction audiobooks, I listen to learn something. For example, today I was listening to [*The Little Book of Common Sense Investing*](https://www.amazon.com/Little-Book-Common-Sense-Investing/dp/B000NJXF6E) by John C. Bogle, founder of Vanguard. After about 20 minutes of listening to the book, my mind tends to gravitate toward questions I have. When I find myself losing interest in listening instead want to pursue specific questions, I pull out the ChatGPT app on my phone, tap the headphone button to initiate the audio conversation, and start asking questions related to topics surfaced in the book. (Note: This audio feature is only available in the paid version.)
-
 <figure style="float: right; margin-left: 15px"><img src="{{site.media}}/chattingwithchatgpt.jpg" alt="Chatting with ChatGPT on my walk" /></figure>
+
+ (Note: This audio feature is only available in the paid version.)
 
 ChatGPT listens to my question and then responds. Then I ask another question, and ChatGPT responds, etc. I'll often do this for 20-30 minutes or so. My phone remains in my pocket the whole time &mdash; I'm not simply voice typing text into the chat. ChatGPT is pretty good at simulating conversation. However, once it begins responding, there's no way to interrupt it without pulling out my phone and tapping on the ChatGPT screen. But that's fine &mdash; the responses aren't usually more than 1-2 minutes, and it's good practice to listen anyway.
 
