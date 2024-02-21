@@ -11,7 +11,7 @@ last-modified: 2024-02-17
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-One of the easiest ways to use AI tools is summarizing meeting notes. While this seems on the surface to be secretarial in nature, it's not. When you tag people in meeting notes and broadcast the notes to larger lists of people (for example, all those who skipped the meeting, to those who were mentioned in the meeting, etc.), the notes can amplify your visibility and communication about the documentation projects you're working on. I've split this process of summarizing and broadcasting meeting notes up into 5 steps.
+One of the easiest ways to use AI tools is summarizing meeting notes. While this seems to be superficial in nature, it's not. When you tag people in meeting notes and broadcast the notes to larger lists of people (for example, all those who skipped the meeting, to those who were mentioned in the meeting, etc.), the notes can amplify your visibility and communication about the documentation projects you're working on. I've split this process of summarizing and broadcasting meeting notes up into 5 steps.
 
 {% if site.format == "web" %}
 * TOC
