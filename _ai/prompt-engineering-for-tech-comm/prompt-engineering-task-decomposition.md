@@ -509,6 +509,8 @@ I would keep going with this example, converting each element into a variable, t
 
 With this diagram example, note that AI tools struggle to construct long vertical lines. In Visual Studio Code, there's a trick to adding these. Select one area, then press Shift+Option (on a Mac) to select another area without losing the first selection. The result will highlight all the space between the two selections.
 
+{% include ads.html %}
+
 ## From complex diagrams to complex essays
 
 The task decomposition strategies used here to build complex tree diagrams are relevant in many creative and problem-solving tasks, including writing an essay. For example, similar to how you began the tree diagram journey with a basic skeletal outline of the top-level nodes, a good essay often starts with identifying the core sections or thematic points. A high-level outline acts as your guide as you dive into the finer details.

@@ -1,11 +1,11 @@
-sidebartitle: AI tech comm series
+sidebartitle: AI-powered documentation
 folders:
 - title: "Use cases for AI"
   landing: /ai/index.html
   section: one
   class: first
   description: >
-    LLM-based AI tools, such as ChatGPT, Bard, and Claude, can help you with various documentation-related tasks. Pattern-based content prompts can help arrange content in expected documentation formats. You can use AI tools to both learn code and write code yourself--the latter comes in handy when you need to create build and publishing scripts. You can use AI tools to get language advice, to identify answers when fixing bugs, to analyze large sets of information from threads, comments, and feedback, to compare API responses with schemas, to create glossaries, and more. Using AI tools requires you to provide a lot of direction, review, and guidance, so don't expect too much from them. Still, they can perform some of the documentation work, leading to increased productivity.
+    LLM-based AI tools, such as ChatGPT, Gemini, and Claude, can help you with documentation-related activities.  You can use AI tools to both learn code and write code yourself. You can use AI tools to get language advice, to identify answers when fixing bugs, to analyze large sets of information from threads, comments, and feedback, to compare API responses with schemas, and more. Using AI tools requires you to provide a lot of direction, review, and guidance, so don't expect too much from them. Still, they can perform some of the documentation work in impressive ways, leading to increased productivity.
   folderitems:
 
   - title: "Overview"

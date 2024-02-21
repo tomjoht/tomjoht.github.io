@@ -137,6 +137,8 @@ Finally, imagine how AI-written notes could transform a workplace. Many meetings
 
 <hr />
 
+{% include ads.html %}
+
 <h3>An experiment that mostly failed</h3>
 
 I want to describe an experiment that mostly failed with regards to meeting notes. In experimenting with meeting notes prompts, I was curious whether I could use a "for" loop with the LLM's responses in order to maximize the output tokens with each go around. 
@@ -173,3 +175,7 @@ Despite my high hopes for this technique, it didn't work. I'm not sure why. One 
 <hr/>
 
 *This content was AI-assisted.*
+
+## Related posts
+
+* [Visualizing APIs with tree diagrams, partly generated with AI](/blog/task-decomposition-tree-diagram-example)

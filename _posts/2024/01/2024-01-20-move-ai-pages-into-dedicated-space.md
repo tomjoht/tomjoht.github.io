@@ -15,9 +15,9 @@ The API documentation course is already more than 900 pages when <a href='https:
 
 <figure><img style="max-width:500px" src="{{site.media}}/ainavigationnew.png" alt="AI section for content" /><figcaption>I moved the AI content into its own section and added links to the top navigation</figcaption></figure>
  
-See the **AI and docs** menu on my top navigation. This menu has two options: 
+See the **AI-powered docs** menu on my top navigation. This menu has two options: 
 
-* **[AI tech comm series](/ai)**: Contains use cases for using AI with tech comm, including prompt engineering techniques for doc scenarios and more.
+* **[AI-powered documentation](/ai)**: Contains use cases for using AI with tech comm, including prompt engineering techniques for doc scenarios and more.
 * **[AI category posts](/category-ai)**: Contains all the posts that I've added to my ai category.
 
 {% include ads.html %}

@@ -248,4 +248,8 @@ These tree diagrams might not be something that applies to many people, but for 
 
 Regardless of whether tree diagrams make sense in other scenarios, my main point was to describe that approach I took with AI here. I used task decomposition to break down a complex project into smaller tasks. There were probably 50 smaller tasks I did before I finished the diagrams. That breakdown of complex tasks allowed me to use AI to achieve the result.
 
+## Related posts
+
+* [Task decomposition and complex tree diagrams (prompt engineering)](/ai/prompt-engineering-task-decomposition.html)
+
 
