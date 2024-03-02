@@ -1,5 +1,5 @@
 ---
-title: "Prompt engineering: Creating high-fidelity, thematically organized AI-written notes from engineering meetings"
+title: "Prompt engineering: Creating high-fidelity, thematically organized notes from engineering meetings using AI"
 permalink: /blog/summarizing-meeting-notes-amplifying-visibility
 date: 2024-02-20
 categories:
