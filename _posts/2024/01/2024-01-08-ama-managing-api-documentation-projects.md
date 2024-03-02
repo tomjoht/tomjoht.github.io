@@ -1,20 +1,20 @@
 ---
-title: "Coffee Chat: Ask Me Anything about Managing API documentation projects"
+title: "Coffee Chat recording: Ask Me Anything about Managing API documentation projects"
 permalink: /blog/ama-managing-api-documentation-projects
 date: 2024-01-08
 categories:
 - api-doc
 keywords: 
 rebrandly: https://idbwrtng.com/ama-managing-api-documentation-projects
-description: "I'm participating in a Coffee and Content chat titled 'Ask Me Anything: Managing API Documenation Projects', with Patrick Bosek and Scott Abel, sponsored by Heretto. The Coffee and Content is information, so there aren't any slides from me or formal presentation. This is an 'Ask me anything' style chat, though the audience can only participate through chat on Brighttalk's platform. The coffee chat takes will take place this Thursday, Jan 11, 2024, online."
+description: "I recently participated in a Coffee and Content chat titled 'Ask Me Anything: Managing API Documenation Projects', with Patrick Bosek and Scott Abel, sponsored by Heretto. This was an 'Ask me anything' style chat, though the audience could only participate through chat on Brighttalk's platform. The coffee chat took place on Thursday, Jan 11, 2024."
 image: ama-mging-doc-projects-heretto-thumb.jpg
 ---
 
-**Update:** The event has already taken place. You can view the recording here:
+You can [view the recording here](https://www.brighttalk.com/webcast/9273/593123):
 
 <a class="noCrossRef" href="https://www.brighttalk.com/webcast/9273/593123"><img src="{{site.media}}/ama-managing-api-doc-projects.jpg" alt="Ask Me Anything: Managing API Documenation Projects" /></a>
 
-The topic is pretty open-ended, but I'm hoping we can chat about some of these challenges that often come up when managing API documentation projects. For example:
+The topic was pretty open-ended. Here are a few of the topics that came up:
 
 * The tech writer is pulled in too late into the release cycle.
 * Bug reports lack detail to be actionable.
@@ -27,7 +27,7 @@ The topic is pretty open-ended, but I'm hoping we can chat about some of these c
 * Dividing tasks among multiple writers for the same project is too difficult.
 * Complex release cycles and processes are opaque.
 
-All the links in my [Processes and methodology section](/learnapidoc/docapis_managing_doc_processes.html) in my API course could be relevant:  
+For more information, see all the links in my [Processes and methodology section](/learnapidoc/docapis_managing_doc_processes.html) in my API course:
 
 * [Following agile scrum with documentation projects](/learnapidoc/pubapis_agile_scrum_for_docs.html)
 * [Managing large documentation projects](/learnapidoc/docapis_managing_doc_projects.html)
@@ -43,7 +43,5 @@ All the links in my [Processes and methodology section](/learnapidoc/docapis_man
 * [Broadcasting your meeting notes to influence a wider audience](/learnapidoc/docapis_meeting_notes.html)
 * [Ensuring documentation coverage with each software release](/learnapidoc/docapis_release_process.html)
 * [DX content strategy with developer portals](/learnapidoc/docapis_dx_content_strategy.html)
-
-The episode will be recorded for later playback. 
 
 {% include ads.html %}

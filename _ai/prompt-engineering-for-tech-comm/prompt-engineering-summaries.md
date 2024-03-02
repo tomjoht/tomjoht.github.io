@@ -1,5 +1,5 @@
 ---
-title:  "Summarizing meeting notes and amplifying visibility (prompt engineering)"
+title:  "Creating high-fidelity, thematically organized AI-written notes from engineering meetings"
 permalink: ai/prompt-engineering-summarizing-meeting-notes.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
@@ -11,7 +11,15 @@ last-modified: 2024-02-17
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-One of the easiest ways to use AI tools is summarizing meeting notes. While this seems on the surface to be secretarial in nature, it's not. When you tag people in meeting notes and broadcast the notes to larger lists of people (for example, all those who skipped the meeting, to those who were mentioned in the meeting, etc.), the notes can amplify your visibility and communication about the documentation projects you're working on. I've split this process of summarizing and broadcasting meeting notes up into 5 steps.
+Before you can use AI tools to generate accurate, relevant content, you need to gather up a source of credible information from which the AI can draw from. For example, if you were to simply ask Gemini, ChatGPT, or another generative AI tool to write an API overview for Product ACME, a proprietary application not even online, without providing a lot of source material about ACME, you can imagine how the output will go &mdash; the AI tools will hallucinate wildly or might refuse the task altogether. 
+
+AI tools produce the best output when you supply copious input. When you can gather up one-pagers, product definition papers, engineering designs, and other collateral about the product, AI tools can use this input to produce more intelligible outputs. However, many times this source material isn't available. Or if it's available, it might not be fully accurate (some papers might explore various approaches never implemented, for example). Chances are, you'll need to meet with engineers to gather a lot more information about the product, even it's to clarify and validate information in the source material you've gathered.
+
+When you meet with engineers, they often provide a firehose of information, adding so many details and explanations that it can be overwhelming. Tech writers might record the meetings so re-listen later, or to transcribe them, but the automated transcripts can be chaotic, hard to read, fragmented, and so on. Additionally, transcribing the material manually can take forever.
+
+Fortunately, with the right techniques, you can use AI tools to create a high fidelity, thematically organized writeup about the meeting, with an accuracy that some engineers have told me is "scarily good," "fantastic," and "impressive." I've been using this technique for about a dozen meetings as I've gathered information from numerous teams about a large SDK that I'm documenting. Having a large body of accurate notes from these meetings is a gold mine to feed into AI tools to help with the later generation of documentation.
+
+These notes can also be a way to amplify your visibility across teams, since the high fidelity version of the meeting is often of interest to other stakeholders. I've split this process of summarizing and broadcasting meeting notes up into 4 steps.
 
 {% if site.format == "web" %}
 * TOC
@@ -26,54 +34,9 @@ After the meeting ends, Google Meet sends you the transcribed meeting as a Googl
 
 ## Step 2: Get a readable summary of the meeting
 
-Now it's time for AI to work its magic on the transcript. In this step, paste the transcript into an AI tool and ask for a grammatically correct, readable version that preserves the rich detail of the meeting. Choose an AI model that has a high input maximum and a high output maximum.
+Now it's time for AI to work its magic on the transcript. In this step, you paste the transcript into an AI tool and first ask for a list of themes from the meeting. Then from those themes, you initiate a series of follow-up prompts for more detail about each theme.
 
-When formulating your summary prompt, you have two main options:
-
-* **All-at-once response**: Ask the AI to provide the summary all at once. This provides the shortest response.
-* **Question-by-question response**: Manually ask the AI to describe each meeting theme question by question. This provides a verbose, sometimes repetitive response.
-
-The length and quality of the responses varies tremendously between these two techniques. In my tests, the responses for the questino-by-question technique can be around 4x as long as the all-at-once response.
-
-In my experience, when I ask AI for a summary, the general training of most AIs is to provide an overly shortened version of the meeting &mdash; one that leaves out many rich details that can be useful. I want to preserve as much of the detail as possible from the meetings, organized by theme to be readable so that this information can be useful for documentation purposes later on.
-
-### All-at-once response
-
-This technique results in the shortest response. If you want a more condensed summary of the meeting, this is the way to go. The following prompt is more articulate than it needs to be. Even if you simply ask for a grammatically correct, readable version of the meeting, the response will probably be decent. 
-
-Keep in mind that all AI interfaces have a maximum token output for responses. For example, even if an AI tool has a huge context window, the output might be a fraction of the context. You can't upload a 200-page novel and ask an AI to write a 200-page response to a prompt about the novel. Chances are, the max token output length will be about 1,000 tokens or twice that if you're lucky. 
-
-(If you're wondering why the AI's responses are always so short/summarized, look at the AI's max token output, which could be different from the model's output if interacting with the model through an API. That is, an LLM might support higher outputs when you interact with it programmatically through an API rather than through a web interface on an API server. The server itself might perform some logic and processing.)
-
-Here's a prompt you can use for meeting notes:
-
-<div class="chat">
-<p>You are an AI assistant tasked with creating a detailed and actionable summary from the provided meeting transcription, indicated with <span class="pVar">{Transcript}</span>.</p>
-
-<p>First, analyze the entire <span class="pVar">{Transcript}</span> to identify the major themes or topics discussed. Generate a list of themes.</p>
-
-<p>For each identified theme in the list of themes, provide detailed notes from the <span class="pVar">{Transcript}</span>. Include direct quotes and expand on any acronyms. Focus on capturing all the relevant details discussed during the meeting related to this theme, formatted for easy readability with bullet points, numbered lists, and clear hierarchies of information. Avoid truncation or summary but instead strive for as much detail as possible, articulated in grammatically correct English.</p>
-
-<p>Repeat this process for each theme until all themes have been documented.</p>
-
-<p>After the themes are complete, create a list of all action items, decisions, and their corresponding owners or deadlines. If no specific person was assigned, determine the most relevant person to be responsible.</p>
-
-<p><span class="pVar">{Transcript}</span></p>
-
-<p>[paste the transcript here]</p>
-</div>
-
-By the way, when you find a meeting notes prompt you like, save it somewhere. The key to continuing to summarize notes depends on adopting a fast, lightweight process. It shouldn't take you more than 10 minutes after the meeting to clean up the notes. Also, keep the instruction about direct quotes in the response. These quotes will liven up the meeting notes.
-
-In formulating your prompt, you might also provide instructions about the length of the response. For example, if generating a summary for a meeting, perhaps you want a summary that's no more than 10 sentences. Some AI tools do better if you constrain the output by the number of sentences rather than the number of tokens or words. You can also provide instructions such as formatting the summary as 10 bullet points, which works well. You could also ask the AI to generate its maximum output tokens in its response.
-
-Whether an AI can follow this instruction is also questionable. Some LLM models disregard this instruction and just sort of provide the response they want to write. LLMs undergo "instruction training" that teaches them to follow user-specific instructions. (Think of a dog at training school, learning to heel. Dogs that have been instruction-trained will heel.)
-
-### Question-by-question responses
-
-The question-by-question technique returns the most verbose response, with as much detail as possible, though you might find the response could be tightened and made more succinct. This is really a fascinating technique because it follows the same approach you would use in [task decomposition](prompt-engineering-task-decomposition.html). You start by asking for a high-level list of themes, then expand into each one in more custom ways. 
-
-Right from the start, you can filter out content you don't want. If you don't want meeting notes about "Vacation spots" or something, you can simply skip over that theme as you proceed with later prompt questions asking for more detail about each theme.
+You might be thinking, why stagger the prompts like this? I can just ask for a summary in one prompt. No, that method provides a truncated summary that omits much of the rich detail from the meeting. The secret to getting high fidelity / rich detail is to ask for it in individual prompts. This technique follows the same approach you would use in [task decomposition](prompt-engineering-task-decomposition.html). You start by asking for a high-level list of themes, then expand into each one in more custom ways. 
 
 <div class="chat">
 <p>You are an AI assistant tasked with creating a detailed and actionable summary from the provided meeting transcription, indicated with <span class="pVar">{Transcript}</span>.</p>
@@ -105,29 +68,29 @@ After the response:
 <p>Now create a list of all action items, decisions, and their corresponding owners or deadlines. If no specific person was assigned, determine the most relevant person to be responsible.</p>
 </div>
 
+
+After you proceed through all the themes, compile the responses together into one long summary. You now have a highly readable version of the meeting. Yes, it might contain more detail than most people want to read. But remember that this is source material for writing documentation later on. You might not get to this topic for a number of weeks after the interview. When you do, you'll want to have as much detail as possible. 
+
+Also, apart from actually reading the content for later recall, richer detail will provide better source input when you task an AI to do write some documentation later.
+
+You might find the multiple prompts approach here a bit tedious. Couldn't you just ask for the summary in the same prompt? You could, but then the summary will probably be 500 words instead of 2,500 words. LLMs have a max token output that varies depending on the tool but might be around 600 words. If you don't break up the prompts, you end up with truncated, shortened meeting summaries that lack the rich detail you need for writing documentation.
+
 ## Step 3: Fix any glaring errors in the summary
 
-Before sending out the AI-written transcript, you'll want to read it over once and correct any obvious errors. Here's what I usually fix:
+Before sending out the AI-written transcript to meeting participants, you'll want to read it over once and correct any obvious errors. Here's what I usually fix:
 
-* If a participant joins from a meeting room (for example, "Central Command" meeting room), the transcript will say "Central Command" instead of the person speaking in that meeting room.
+* If a participant joins from a meeting room (for example, "Central Command" meeting room), the transcript will say "Central Command" instead of the person speaking in that meeting room. Change meeting rooms to people's names where feasible.
 * Names might be spelled phonetically rather than accurately.
-* Links to documents, often pasted into meeting chats, don't find their way into the AI-cleaned-up transcript.
+* Links to documents, often pasted into meeting chats, don't find their way into the AI-cleaned-up transcript. Add the links.
 * Action items can be a bit too robust and often need to be paired back.
-* If someone said something during the meeting they wouldn't want broadcast, omit it. AI transcriptions can capture much more detail than people might realize, assuming that no human would record this detail in a transcript.
 
 Don't spend too much time editing the transcript. Be sure to put "(AI-written)" after the meeting transcript title. This acknowledgement provides a disclaimer in case something is wrong; it also provides a bit of intrigue.
 
-## Step 4: Include action items
+## Step 4: Share the meeting notes
 
-Meetings usually have some action items. Recording these action items and following up on them ensures &mdash; in the minds of each participant &mdash; that you take the meeting seriously. It makes participants feel the meeting has been productive if you follow through with the actual action items. 
+After you've compiled the transcript and fixed any obvious errors, share it with the meeting participants. People are usually interested to see how AI captured the meeting anyway, and they'll often share it with others. You could also broadcast the notes to a larger audience on your own, if appropriate. I like to think that meeting notes should provide the needed level of detail for people outside the meeting to understand the discussion in an easy-to-read way.
 
-Consider creating bugs for each action item and assign them owners in the Google Doc (if you're using Google Docs for meetings). Each meeting should usually include a review of the previous meeting's action items. If you're not generating action items from meetings, nor completing the action items generated, what's the point of the meeting?
-
-By the way, there isn't an AI-automated step here, but if you can find a way to programmatically convert action items into bugs in your issue tracking tool, that could be a good move. 
-
-## Step 5: Broadcast the meeting notes
-
-Now comes the fun, uncomfortable part. Gather up a list of meeting recipients. This should include all people who are on the meeting invite (but who probably didn't all come), people discussed or referenced in the meeting (wouldn't you be curious to see notes of a meeting you were discussed in?), and of course the actual meeting attendees. Then copy the meeting notes into an email, as well as reference the Google Doc where they're stored, and send it out to them.
+If you want to crank up your visibility, share the meeting notes with everyone mentioned in the meeting, even if they weren't present. And possibly with team aliases as well. This will amplify your visibility in massive ways, if you want that for your group.
 
 Sending meeting notes to participants is like sending micro-newsletters to a highly targeted audience. The sender becomes much more visible, and this visibility translates into more familiarity with you and your role. People might suddenly realize that you're working on important documentation, gathering needed details, interacting with stakeholders, and more. 
 
@@ -139,11 +102,11 @@ Finally, imagine how AI-written notes could transform a workplace. Many meetings
 
 {% include ads.html %}
 
-<h3>An experiment that mostly failed</h3>
+<h3>Some notes on a failed experiment</h3>
 
 I want to describe an experiment that mostly failed with regards to meeting notes. In experimenting with meeting notes prompts, I was curious whether I could use a "for" loop with the LLM's responses in order to maximize the output tokens with each go around. 
 
-To be more specific, knowing that AIs have a max token output per response, I decided to break up the AI's response after each meeting theme by requiring me to type "Continue." I wondered if this would allow me to get the maximum token output with each response. I wasn't sure whether the AI stores up the first response in memory and then just divides it across each paused response, or if the AI goes back to the transcript each time to get richer, more accurate detail for each theme. Here's the prompt.
+Knowing that AIs have a max token output per response, I decided to break up the AI's response after each meeting theme by requiring me to type "Continue." I wondered if this would allow me to get the maximum token output with each response. I wasn't sure whether the AI stores up the first response in memory and then just divides it across each paused response, or if the AI goes back to the transcript each time to get richer, more accurate detail for each theme. Here's the prompt.
 
 <div class="chat">
 <p>You are an AI assistant tasked with creating a detailed and actionable summary from the provided meeting transcription, indicated with <span class="pVar">{Transcript}</span>.</p>
@@ -170,7 +133,7 @@ To be more specific, knowing that AIs have a max token output per response, I de
 <p>[paste the transcript here]</p>
 </div>
 
-Despite my high hopes for this technique, it didn't work. I'm not sure why. One possible reason could be that most current LLM models aren't designed for iterative prompting flows like this. They're more optimized to take in a full prompt, process it, and return the best answer they can generate in a single shot based on that prompt and their training data. Perhaps trying to introduce an unnatural feedback loop likely went against the core design principles and assumptions these models were built upon? I'm not sure.
+Despite my high hopes for this technique, it didn't work. In other words, the total meeting summary was about the same length as a prompt that asks for the summary all at once. I'm not sure why. One possible reason could be that most current LLM models aren't designed for iterative prompting flows like this. They're more optimized to take in a full prompt, process it, and return the best answer they can generate in a single shot based on that prompt and their training data. Perhaps trying to introduce an unnatural feedback loop likely went against the core design principles and assumptions these models were built upon? I'm not sure.
 
 <hr/>
 
