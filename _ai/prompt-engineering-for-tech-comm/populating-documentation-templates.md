@@ -278,6 +278,8 @@ AI responds...
 <p>Is there any other material in the <span class="pVar">{Source Material}</span> that wasn't part of the previous templates that you think might be a good idea to include in the API overview?</p>
 </div>
 
+{% include ads.html %}
+
 ## Verifying accuracy
 
 After you make your way through the entire template, you need to check for accuracy. However, this is the tricky part. How do you know if it's accurate or not? Unless you've read through the source material, you probably won't know. Follow these steps to review the content for accuracy:
