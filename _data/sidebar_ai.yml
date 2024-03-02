@@ -58,3 +58,6 @@ folders:
 
   - title: "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
     jurl: /ai/prompt-engineering-summarizing-meeting-notes.html
+
+  - title: "Populating documentation templates using AI"
+    jurl: /ai/prompt-engineering-populating-documentation-templates.html

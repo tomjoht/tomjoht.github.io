@@ -1,5 +1,5 @@
 ---
-title:  "Creating high-fidelity, thematically organized AI-written notes from engineering meetings"
+title:  "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
 permalink: ai/prompt-engineering-summarizing-meeting-notes.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
