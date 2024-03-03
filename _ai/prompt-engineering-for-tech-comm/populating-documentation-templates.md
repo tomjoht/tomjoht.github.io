@@ -14,6 +14,7 @@ last-modified: 2024-03-02
 
 In this tutorial, you'll learn how to use AI to populate documentation templates with information that you've gathered. This technique can be a quick way to get an initial draft of documentation, which you can then edit and review with SMEs.
 
+**Note**: This is a new technique I'm experimenting with. My thoughts and techniques may change over time here.
 
 ## Prerequisites
 
