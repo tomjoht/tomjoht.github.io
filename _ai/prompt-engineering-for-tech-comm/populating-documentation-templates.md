@@ -338,6 +338,6 @@ Review the material with someone who has a high degree of project knowledge (in 
 
 ## Conclusion
 
-Getting an AI to produce an accurate piece of documentation like an API overview isn't zero-shot prompt. It involves quite a bit of work, but much less work than writing it yourself. By expertly wielding documentation templates against a large body of accurate source material, you can speed your way through writing documentation and arrive at a decent first draft. 
+Getting an AI to produce an accurate piece of documentation like an API overview isn't zero-shot prompt. It involves quite a bit of work, but much less work than writing the first draft yourself. By expertly wielding documentation templates against a large body of accurate source material, you can speed your way through writing documentation and arrive at a decent first draft. 
 
-Collecting the source material and crafting the documentation prompts is the hard part. Once you've finished that, you can work your way through the rest of the documentation in a speedy way.
+Collecting the source material and crafting the documentation prompts is the hard part. Once you've finished that, you can work your way through the rest of the documentation in a speedy way. You'll notice that I worked in some positive feedback as the prompts go along. This is emotional priming. I'm not sure how effective it is, but the idea is that positive feedback makes the AI better. Even if not, it makes my feel better about the relationship with AI.
