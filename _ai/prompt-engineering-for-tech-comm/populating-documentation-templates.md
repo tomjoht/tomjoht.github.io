@@ -12,7 +12,6 @@ rebrandly: https://idbwrtng.com/populating-documentation-templates
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-
 In this tutorial, you'll learn how to use AI to populate documentation templates with information that you've gathered. This technique can be a quick way to get an initial draft of documentation, which you can then edit and review with SMEs.
 
 **Note**: This is a new technique I'm experimenting with. My thoughts and techniques may change over time here.
@@ -26,18 +25,17 @@ In this tutorial, you'll learn how to use AI to populate documentation templates
 
 Before you start, you'll need three things:
 
-
 ### A large body of accurate information
 
-Gather up all the documents related to the API or features you're documenting, including meeting notes. If you don't have this information, you'll need to interview the product team to gather it. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](/blog/summarizing-meeting-notes-amplifying-visibility) for details on this approach. You might need to interview half a dozen team members to gather information, if it doesn't exist. From the myriad project documents you can find (one-pagers, product definitions, engineering design documents, business analysis docs, and more), quickly glance through and remove any information that isn't accurate. For example, in engineering design docs, the teams often explore alternative approaches that aren't ever implemented. You can remove those sections.
+Gather up all the documents related to the API or features you're documenting, including meeting notes. If you don't have this information, you'll need to interview the product team to gather it. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](/ai/prompt-engineering-summarizing-meeting-notes.html) for details on this approach. You might need to interview half a dozen team members to gather information, if it doesn't exist. From the myriad project documents you can find (one-pagers, product definitions, engineering design documents, business analysis docs, and more), quickly glance through and remove any information that isn't accurate. For example, in engineering design docs, teams often explore alternative approaches that aren't ever implemented. You can remove those sections to avoid confusing the AI.
 
 ### Documentation templates
 
-You'll need documentation templates that match your company's existing structure and style. If you're working for a large company with many existing docs, you should follow common patterns in other docs. If you don't have to match an existing structure and style, you can create your own templates, perhaps leveraging them from the [Good Docs project](https://thegooddocsproject.dev/) or by reverse engineering prompts from examples of good documentation. In this tutorial, I'll use a template for an API overview. In addition to template sections, your template should ideally include example content for each section.
+You'll need documentation templates that match your company's existing structure and style. If you're working for a large company with many existing docs, you could follow common patterns in other company docs. If you don't have to match an existing structure and style, you can create your own templates, perhaps leveraging them from the [Good Docs project](https://thegooddocsproject.dev/) or by reverse engineering prompts from examples of good documentation. In this tutorial, I'll use a template for an API overview. In addition to template sections, your template should ideally include example content for each section. See [Reverse engineering prompts](/ai/reverse-engineering-prompts.html) for more tips here.
 
 ### A powerful AI tool
 
-You'll need access to an generative AI tool that accepts a large token input and is fairly powerful. The AI tools available to you vary by company. See the information security policies at your company for which tools you're allowed to use company data with. In general, use LLMs with high token inputs.
+You'll need access to an generative AI tool that accepts a large token input and is fairly powerful. The AI tools available to you vary by company. See the information security policies at your company for which tools you're allowed to use company data with. In general, use LLMs with high token inputs. If you're able to use Gemini, Claude, or ChatGPT for you documentation work, all the better. (In this series on prompt engineering, I've kept things generic rather than tying them to specific AI tools.)
 
 ## The prompt {#the_prompt}
 
@@ -46,18 +44,10 @@ Let's get started with the prompt.
 **Note:** For an even more detailed version of this prompt, see the [Consolidated prompt](/ai/reverse-engineering-prompts.html#consolidated_prompt) in [Reverse engineering prompts](/ai/reverse-engineering-prompts.html).
 
 <div class="chat">
-<p>
-You're a technical writer creating API documentation for developers. As a technical writer, you write with both clarity and accuracy, following documentation style standards common in technical style guides. You've gathered a lot of source material <span class="pVar">{Source Material}</span> in the form of engineering docs, project designs, and more. You've also gathered information from meetings with the project team and have included transcripts of the meetings in <span class="pVar">{Source Material}</span> as well. 
-</p>
-<p>
-You'll draw upon this <span class="pVar">{Source Material}</span> to populate a documentation template. A documentation template just specifies a specific pattern for information, putting information into a specific order and arrangement. In this case, you'll create an API overview, populating the API documentation template based on information in the <span class="pVar">{Source Material}</span>. You'll proceed section by section through the template, with me prompting you with the template sections and including an example each time. 
-</p>
-<p>
-Stick as closely as possible to the <span class="pVar">{Source Material}</span> for your information. If the information doesn't exist in the <span class="pVar">{Source Material}</span>, don't invent information. Instead, write "No information available in source material" for that part of the template. 
-</p>
-<p>
-Sounds good? Ready to begin? Here's the first section of the API overview template:
-</p>
+<p>You're a technical writer creating API documentation for developers. As a technical writer, you write with both clarity and accuracy, following documentation style standards common in technical style guides. You've gathered a lot of source material <span class="pVar">{Source Material}</span> in the form of engineering docs, project designs, and more. You've also gathered information from meetings with the project team and have included transcripts of the meetings in <span class="pVar">{Source Material}</span> as well.</p>
+<p>You'll draw upon this <span class="pVar">{Source Material}</span> to populate a documentation template. A documentation template just specifies a specific pattern for information, putting information into a specific order and arrangement. In this case, you'll create an API overview, populating the API documentation template based on information in the <span class="pVar">{Source Material}</span>. You'll proceed section by section through the template, with me prompting you with the template sections and including an example each time. </p>
+<p>Stick as closely as possible to the <span class="pVar">{Source Material}</span> for your information. If the information doesn't exist in the <span class="pVar">{Source Material}</span>, don't invent information. Instead, write "No information available in source material" for that part of the template. </p>
+<p>Sounds good? Ready to begin? Here's the first section of the API overview template:</p>
 <p><span class="pVar">{Template for section 1}</span></p>
 <p>
 <strong>Section 1: API Name, Description and Visual Aid</strong>
@@ -79,7 +69,7 @@ Sounds good? Ready to begin? Here's the first section of the API overview templa
 <p>[Paste in all your source material here]</p>
 </div>
 
-AI responds ...
+After AI responds, follow it with this:
 
 <div class="chat">
 <p>
@@ -119,7 +109,7 @@ To start using the RetailGraph API, you will need to:
 Now draw upon the <span class="pVar">{Source Material}</span> and populate this second section of the template &mdash; Section 2: Getting Started.
 </p>
 <p>
-AI responds ...
+After AI responds, follow it with this:
 </p>
 <p>
 Nice work! You're really amazing. I like how you've added so much detail and how you've followed the structure I gave you. You're doing a really good job! Now let's keep going with the third section. Here's the template:
@@ -144,7 +134,6 @@ Here's an example:
 <strong>Key Capabilities:</strong>
 </p>
 <ul>
-
 <li><strong>Product Relationship Analysis:</strong> Identify products frequently purchased together, revealing opportunities for cross-selling and promotions, or those which are commonly returned together, highlighting potential issues with quality or compatibility.</li>
 <li><strong>Customer Journey Mapping:</strong> Visualize the steps customers take leading up to a purchase, enabling you to optimize marketing campaigns and the sales funnel.</li>
 <li><strong>Influencer Identification:</strong> Discover customers with a substantial impact on others' buying decisions, helping you develop targeted influencer marketing strategies.</li>
@@ -166,11 +155,11 @@ Now draw upon the <span class="pVar">{Source Material}</span> and populate this 
 </p>
 </div>
 
-After AI responds, follow with this:
+After AI responds, follow it with this:
 
 <div class="chat">
 <p>
-It's looking good! Nice job. I especially like that you conform to technical style by being accurate, plain, and concise in the language. I also like the bulleted lists and other structures that make it easy to read this information. Way to go! Now let's move on to the next section. Here's the template for section 4:
+It's looking good! Beautiful work. I especially like that you conform to technical style by being accurate, plain, and concise in the language. I also like the bulleted lists and other structures that make it easy to read this information. Way to go! Now let's move on to the next section. Here's the template for section 4:
 </p>
 <p>
 <span class="pVar">{Template for section 4}</span>
@@ -179,7 +168,6 @@ It's looking good! Nice job. I especially like that you conform to technical sty
 <strong>Section 4: Technical Details</strong>
 </p>
 <ul>
-
 <li><strong>Endpoints</strong> &mdash; A well-structured summary of all available endpoints, the HTTP methods associated with them and the expected data formats for requests and responses. Examples of both successful and error responses should be included, potentially with links to a Postman collection.</li>
 <li><strong>Error Handling</strong> &mdash; Clear guidance for developers on how to handle errors. A list of potential error codes with their meanings and suggested resolutions, as well as the structure of error responses.</li>
 <li><strong>Additional Considerations</strong> &mdash; This section provides additional technical specifications like available SDKs, code examples in various programming languages, pagination details, API versioning and the API's deprecation policy.</li>
@@ -195,7 +183,6 @@ Here's an example:
 </p>
 <ul>
 <li><strong>Get Product Relationships</strong> &mdash; <code>GET https://api.retailgraph.com/v2/products/{productID}/relationships</code> &mdash; returns products frequently bought or returned with the specified product ID. Request body should be formatted as JSON, example response:
-
 <pre class="prettyprint">{
     "relationships" : [
         {
@@ -230,11 +217,11 @@ Now draw upon the <span class="pVar">{Source Material}</span> and populate this 
 </p>
 </div>
 
-After AI responds, follow with this:
+After AI responds, follow it with this:
 
 <div class="chat">
 <p>
-Nice work. I like the way you draw upon the <span class="pVar">{Source Material}</span> for the information. Accuracy is really important to me. Above all else, I want users to have credible information. Let's keep going with the rest of the template. The following is the template for section 5.
+Nice job. I like the way you draw upon the <span class="pVar">{Source Material}</span> for the information. Accuracy is really important to me. Above all else, I want users to have credible information. Let's keep going with the rest of the template. The following is the template for section 5.
 </p>
 <p>
 <span class="pVar">{Template for section 5}</span>
@@ -277,11 +264,11 @@ Here's an example:
 </ul>
 <p><span class="pVar">{Instructions for section 5}</span></p>
 <p>
-Now draw upon the <span class="pVar">{Source Material}</span> and populate this fifth section of the template: Section 5 &mdash;  Developer Resources. Again, if the information doesn't exist in the <span class="pVar">{Source Material}</span>, don't invent information. Instead, write "No information available in source material."
+Now draw upon the <span class="pVar">{Source Material}</span> and populate this fifth section of the template: Section 5 &mdash; Developer Resources. Again, if the information doesn't exist in the <span class="pVar">{Source Material}</span>, don't invent information or guess. Instead, write "No information available in source material."
 </p>
 </div>
 
-After AI responds, follow with this:
+After AI responds, follow itwith this:
 
 <div class="chat">
 <p>Is there any other material in the <span class="pVar">{Source Material}</span> that wasn't part of the previous templates that you think might be a good idea to include in the API overview?</p>
@@ -289,7 +276,7 @@ After AI responds, follow with this:
 
 {% include ads.html %}
 
-## Verifying accuracy
+## Verifying accuracy {#verifying_accuracy}
 
 After you make your way through the entire template, you need to check for accuracy. However, this is the tricky part. How do you know if it's accurate or not? Unless you've read through the source material, you probably won't know. Follow these steps to review the content for accuracy:
 
@@ -299,7 +286,7 @@ Start a new AI session and use a prompt like this:
 
 <div class="chat">
 <p>
-You are an expert fact-checker. Your task is to ensure the accuracy of the {Documentation}.  The <span class="pVar">{Source Material}</span> is the authoritative source of truth.
+You are an expert fact checker. Your task is to ensure the accuracy of the <span class="pVar">{Documentation}</span>.  The <span class="pVar">{Source Material}</span> is the authoritative source of truth.
 </p>
 
 <p><strong>Identify Errors:</strong> Carefully compare the<span class="pVar">{Documentation}</span> against <span class="pVar">{Source Material}</span>. Look for the following types of errors:</p> 
@@ -335,7 +322,7 @@ Let's say the <span class="pVar">{Documentation}</span> includes a statement lik
 <p>[Paste the source material]</p>
 </div>
 
-Keep in mind that you can't necessarily trust the AI's response. It's like listening to a liar who says he or she isn't lying. Sometimes an LLM might also invent a discrepancy that isn't actually a discrepancy. However, this accuracy check is relatively easy to do and might be a way to flag possible inaccuracies, especially if you want an easy way to highlight potential grey areas for others to focus on.
+Keep in mind that you can't necessarily trust the AI's response. It's like listening to a liar who says he or she isn't lying. For example, if the LLM says that the content is all accurate, do you trust this judgement? Sometimes an LLM might also invent a discrepancy that isn't actually a discrepancy. However, this accuracy check is relatively easy to do and might be a way to flag possible inaccuracies, especially if you want an easy way to highlight potential grey areas for others to focus on.
 
 ### 2. Read the source material 
 
@@ -343,10 +330,10 @@ Read through the source material to confirm the AI's output. This is likely time
 
 ### 3. Review the content with SMEs
 
-Review the material with someone who has a high degree of project knowledge (in other words, someone who is a "subject matter expert," aka SME), such as the tech lead for the project and the product manager. Let them know the content was AI-generated so that they're aware of the need to pay close attention to accuracy and possible hallucination. Gen AI tools write with such a high degree of confidence that it's easy to be persuaded by this ethos, so you have to be extra suspicious. 
+Review the material with someone who has a high degree of project knowledge (in other words, someone who is a "subject matter expert," aka SME), such as the tech lead for the project and the product manager. Let them know the content was AI-generated so that they're aware of the need to pay close attention to accuracy and possible hallucination. Gen AI tools write with such a high degree of confidence that it's easy to be persuaded by their ethos, so you have to be extra suspicious. 
 
 ## Conclusion
 
 Getting an AI to produce an accurate piece of documentation like an API overview isn't zero-shot prompt. It involves quite a bit of work, but much less work than writing the first draft yourself. By expertly wielding documentation templates against a large body of accurate source material, you can speed your way through writing documentation and arrive at a decent first draft. 
 
-Collecting the source material and crafting the documentation prompts is the hard part. Once you've finished that, you can work your way through the rest of the documentation in a speedy way. You'll notice that I worked in some positive feedback as the prompts go along. This is emotional priming. I'm not sure how effective it is, but the idea is that positive feedback makes the AI better. Even if not, it makes my feel better about the relationship with AI.
+Collecting the source material and crafting the documentation prompts is the hard part. Once you've finished that foundational work, you can apply the techniques to your documentation more efficiently. You'll notice that I worked in some positive feedback as the prompts go along. This is emotional priming. I'm not sure how effective it is, but the idea is that positive feedback makes the AI better. Even if not, it makes my feel better about my relationship with AI.

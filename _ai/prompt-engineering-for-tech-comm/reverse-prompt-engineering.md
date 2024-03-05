@@ -501,7 +501,7 @@ After the AI responds, follow it with this:
 
 ## Consolidate the responses
 
-Consolidate the responses into a single API overview, then apply the [fact checking prompt] described in [Populating documentation templates using AI](/ai/prompt-engineering-populating-documentation-templates.html#1-apply-an-accuracy-check-with-another-ai-session).
+Consolidate the responses into a single API overview, then apply the [fact checking prompt] described in [Populating documentation templates using AI](/ai/prompt-engineering-populating-documentation-templates.html#verifying_accuracy).
 
 ## Other considerations
 
