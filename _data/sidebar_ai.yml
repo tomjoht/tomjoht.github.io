@@ -61,3 +61,6 @@ folders:
 
   - title: "Populating documentation templates using AI"
     jurl: /ai/prompt-engineering-populating-documentation-templates.html
+
+  - title: "Reverse engineering prompts"
+    jurl: /ai/reverse-engineering-prompts.html"

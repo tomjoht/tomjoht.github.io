@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-03-02
+rebrandly: https://idbwrtng.com/populating-documentation-templates
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
@@ -15,6 +16,11 @@ last-modified: 2024-03-02
 In this tutorial, you'll learn how to use AI to populate documentation templates with information that you've gathered. This technique can be a quick way to get an initial draft of documentation, which you can then edit and review with SMEs.
 
 **Note**: This is a new technique I'm experimenting with. My thoughts and techniques may change over time here.
+
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
 
 ## Prerequisites
 
@@ -33,9 +39,11 @@ You'll need documentation templates that match your company's existing structure
 
 You'll need access to an generative AI tool that accepts a large token input and is fairly powerful. The AI tools available to you vary by company. See the information security policies at your company for which tools you're allowed to use company data with. In general, use LLMs with high token inputs.
 
-## The prompt
+## The prompt {#the_prompt}
 
 Let's get started with the prompt.
+
+**Note:** For an even more detailed version of this prompt, see the [Consolidated prompt](/ai/reverse-engineering-prompts.html#consolidated_prompt) in [Reverse engineering prompts](/ai/reverse-engineering-prompts.html).
 
 <div class="chat">
 <p>
@@ -158,7 +166,7 @@ Now draw upon the <span class="pVar">{Source Material}</span> and populate this 
 </p>
 </div>
 
-AI responds...
+After AI responds, follow with this:
 
 <div class="chat">
 <p>
@@ -222,7 +230,7 @@ Now draw upon the <span class="pVar">{Source Material}</span> and populate this 
 </p>
 </div>
 
-AI responds...
+After AI responds, follow with this:
 
 <div class="chat">
 <p>
@@ -273,7 +281,7 @@ Now draw upon the <span class="pVar">{Source Material}</span> and populate this 
 </p>
 </div>
 
-AI responds...
+After AI responds, follow with this:
 
 <div class="chat">
 <p>Is there any other material in the <span class="pVar">{Source Material}</span> that wasn't part of the previous templates that you think might be a good idea to include in the API overview?</p>
