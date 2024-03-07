@@ -372,7 +372,7 @@ After the AI responds, follow it with this:
         <li><strong>Informative and inspiring:</strong> Write with an enthusiastic and informative tone, highlighting the API's versatility and potential for innovation.</li>
         <li><strong>Active voice and present tense:</strong> Maintain active voice and present tense for clarity and engagement. Avoid using the word "will" or any future tense.</li>
         <li><strong>Structure and organization:</strong> Employ clear subheading, bullet points, or numbered lists to enhance readability.</li>
-        <li><strong>Consider the use of examples to provide context and clarity for each capability.</li>
+        <li><strong>Examples:</strong>Consider the use of examples to provide context and clarity for each capability.</li>
     </ul>
 </div>
 
