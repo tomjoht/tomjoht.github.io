@@ -1,5 +1,5 @@
 ---
-title:  "Reverse engineering prompts"
+title:  "Reverse engineering the recipe for excellent documentation"
 permalink: ai/reverse-engineering-prompts.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
