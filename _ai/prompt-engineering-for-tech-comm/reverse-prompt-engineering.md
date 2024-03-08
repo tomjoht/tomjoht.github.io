@@ -5,7 +5,7 @@ course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-03-14
+last-modified: 2024-03-07
 rebrandly: https://idbwrtng.com/reverse-engineering-prompts
 ---
 {% comment %}
