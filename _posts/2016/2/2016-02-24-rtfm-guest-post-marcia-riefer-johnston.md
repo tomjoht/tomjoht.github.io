@@ -3,9 +3,9 @@ title: "So People Don't RTFM? Write a FM That's Worth R'ing &mdash; Guest post b
 categories:
 - technical-writing
 keywords: RTFM, read the fucking manual, read the fine manual, marcia riefer johnston, larry kunz
-description: "The following is a guest post by Marcia Riefer Johnston exploring an alternative view towards the RTFM argument. In this post, Marcia argues that it's the writer's care and interest in the product and users that leads to producing help content worth reading versus content that is mechanical, dry, and lifeless."
+description: "The following is a guest post by <a href='#marcia'>Marcia Riefer Johnston</a> exploring an alternative view towards the RTFM argument. In this post, Marcia argues that it's the writer's care and interest in the product and users that leads to producing help content worth reading versus content that is mechanical, dry, and lifeless."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/marciar.png
-author: marcia
+author: Marcia Reifer Johnston
 bio: false
 ---
 
@@ -61,5 +61,6 @@ If you write FMs (instructions of any kind), why not write them as if people wil
 
 Go ahead. Put a little love in your craft. TFM can make the world a better place. If we, the creators of TFM, don't believe that, who will?
 
-<hr />
+## About Marcia Reifer Johnston {#marcia}
+
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/marciar.png" | prepend: site.baseurl }}" alt="Marcia Riefer Johnson" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Marcia Riefer Johnston is the author of [Word Up! How to Write Powerful Sentences and Paragraphs (And Everything You Build from Them)](http://www.amazon.com/gp/product/B00CYSB2IK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00CYSB2IK&linkCode=as2&tag=howtowrieve-20&linkId=6HAIMJ2P4BKK3RBX) and [You Can Say That Again: 750 Redundant Phrases to Think Twice About](http://www.amazon.com/gp/product/B00VSBRB0M/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00VSBRB0M&linkCode=as2&tag=howtowrieve-20&linkId=5DYHEJYBFCIGG3T7). As a member of the Content Marketing Institute team, she serves as managing editor of content-strategy-related topics. She has run a technical-writing business for … a long time. She taught technical writing in the Engineering School at Cornell University and studied literature and creative writing in the Syracuse University Masters program under Raymond Carver and Tobias Wolff. She lives in Portland, Oregon. Follow her on Twitter [@MarciaRJohnston](http://twitter.com/marciarjohnston). For more, see [Writing.Rocks](http://writing.rocks/).
