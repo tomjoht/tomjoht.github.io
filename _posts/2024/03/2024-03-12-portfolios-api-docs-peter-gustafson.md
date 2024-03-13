@@ -14,9 +14,11 @@ bio: false
 * TOC
 {:toc}
 
-![technical writer portfolio](https://img.freepik.com/free-photo/young-team-working-together-use-laptop_1157-27433.jpg?t=st=1710064280~exp=1710064880~hmac=b0daa9c77ec5a98ec97c09b00d28beabbc6b1fe722d1515b8498a49804648296)
+![technical writer portfolio]({{site.media}}/petergustafson-guestpost1.png)
 
-About a decade ago, I was making the leap from marketing writer to API tech writer. But I had a menacing problem. I was clueless how to land my first job as an API doc writer. It took me a few years to land my first API tech writer role. 
+My friend, Tom Johnson, is the granddaddy of API documentation. I ought to know since I've been stealing his stuff since 2012. 
+
+Back then, I was making the leap from marketing writer to API tech writer. But I had a menacing problem. I was clueless how to land my first job as an API doc writer. It took me a few years to land my first API tech writer role. 
 
 This article chronicles my journey building and upgrading [my writing portfolio](https://www.pdgseo.com/portfolio). Then covers some trends I see in the marketplace for technical writers.
 
@@ -64,6 +66,7 @@ There's tons of site generators out there to build an online portfolio.
 - Then upgrade your portfolio at least once a week.
 
 ## Avoid Tech-Heavy Layouts
+
 I ran into a UK-based tech writer recently on LinkedIn. She has an awesome portfolio built with github.io. Then powered by Docusaurus. The thing is a beast and reminds me of an API doc UI. She also has a beefy sidebar that links to each writing sample. 
 
 One night at about 2am when I was working on my portfolio, she pinged me. "What do you think," she asked me about hers. Honestly, I thought it was far too confusing. I suggested she think about how recruiters would navigate her sidebar links. 
@@ -75,11 +78,13 @@ You're selling yourself with your portfolio. So try to avoid teched-out page lay
 Always ask yourself: can my recruiter evaluate my portfolio in three minutes or less? Yes? Groovy. No? Time to rework it and declutter the layout.
 
 ## Average Visitor Duration
+
 How long do you think hiring teams review your portfolio? Do you know? 
 
 Based on my portfolio analytics, it's about 36 seconds. I know, it's not long. Especially since I have 40+ writing samples of work I did for 12 companies. My point is that based on my analytics, hiring teams scan my portfolio, read a quick piece of content or two, then leave. 
 
-![technical writer](http://www.pdgseo.com/wp-content/uploads/2024/02/port-analytics.png) 
+![technical writer]({{site.media}}/petergustafson-guestpost2.png)
+
 I view the topic of using website analytics as nice to know data points. That's it. I'm not selling hotdog stands or products. So the reason I look at my analytics from time-to-time is to confirm people are spending some time on my portfolio. 
 
 What measuring stick do I use to prove my portfolio is making the cut? Interviews and job offers. Those are the only two data points that matter to me. 
@@ -90,18 +95,22 @@ Way back in the day, I worked for a national advertising agency. I wrote between
 As far as portfolio content, I recommend including the following:
 
 An introduction at the top of what types of technical writing you specialize. For me, it's 100% API doc writing. I also include a link to a contact form in the introduction. 
-![api tech writing portfolio](http://www.pdgseo.com/wp-content/uploads/2024/02/intro-port.png)
+
+![api tech writing portfolio]({{site.media}}/petergustafson-guestpost3.png)
 
 I also include big logos of each company project I worked on which appear on the left column. On the right column, I include 4-8 sentences describing the project. Then I add the article title links (published and the raw Markdown file).
 
-![tom johnson api tech writer](http://www.pdgseo.com/wp-content/uploads/2024/02/coin-port.png)
-![technical writing](http://www.pdgseo.com/wp-content/uploads/2024/02/epic-port.png)
+![tom johnson api tech writer]({{site.media}}/petergustafson-guestpost-coinbase.png)
+![technical writing]({{site.media}}/petergustafson-guestpost7.png)
+
 ## Portfolio Color
+
 As you can see, I chose a black background for my portfolio page. I feel it adds better contrast for reading. We all stare at white screens all day so why not give busy reading eyes a break right?
 
 Since my portfolio is powered by my Wordpress CMS, I have been using the Divi theme by Elegant Themes. You can do a lot of customization with page color inside the page widget. 
 
 ## Got None?
+
 It can feel gloomy not having a well-structured portfolio. But what's worse is having no work history to populate your portfolio. If you're stuck with zero job projects to add to your portfolio, please understand I was once there myself. Ouch, it stinks. But there is a solution I used back in the day.
 
 If you've got none, and are ready to build your first real portfolio, here's what I recommend:
