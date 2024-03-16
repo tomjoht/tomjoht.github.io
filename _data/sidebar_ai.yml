@@ -64,3 +64,6 @@ folders:
 
   - title: "Reverse engineering the recipe for excellent documentation"
     jurl: /ai/reverse-engineering-prompts.html
+
+  - title: "Gathering source material for context input"
+    jurl: /ai/prompt-engineering-source-material-context
