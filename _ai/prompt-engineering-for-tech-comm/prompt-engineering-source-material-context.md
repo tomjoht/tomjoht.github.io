@@ -36,7 +36,7 @@ While RAG is usually a programmatic augmentation of an existing LLM's training d
 
 Now let's get into best practices for source material. The following points aren't in a particular order.
 
-## Prefer quality over quantity
+### Prefer quality over quantity
 
 Is it better to have a smaller, more refined and curated body of documents rather than amassing every possible document you can find? When I'm in gather mode, I glance at the document and make a quick judgment about whether it would actually be helpful or not. Remember that each document you include could potentially mislead the LLM's answers and output. My preference is to be selective. If something looks irrelevant, such as database schema model discussion for the API that has no bearing on the developer's usage of the API, I omit it. More noise creates more work for the AI to sort through to find the signal. Be selective and carefully hand pick the documents you want to include.
 
@@ -44,7 +44,7 @@ If an engineering design document includes a lengthy discussion about alternativ
 
 It's not hard to create scripts that programmatically scrape content from every page in a directory, or every page in a list of URLs. But this bypasses the hand-picked selection and might lead to a lot of garbage content in the source material. 
 
-## Be aware of source material bias
+### Be aware of source material bias and focus
 
 By "bias" here, I'm referring more to unintended emphases and focus areas rather than racial or gender stereotypes. In internal project documents, the content typically focuses on the features the teams need to build. The focus on these new features might distort the focus of what the documentation should focus on. 
 
@@ -52,7 +52,7 @@ For example, suppose a team leverages an existing API and repurposes it in anoth
 
 However, it might not be correct to focus the product documentation on the newly added features and format. Instead, the team might want the core characteristics of the API to be the main emphasis. Be aware that source material can emphasize certain angles that might not be what the documentation should emphasize.
 
-## Loading large amounts of information
+### Load large amounts of information in chunks
 
 How do you load 100-200 pages into an LLM session? It's important to understand that the LLM's context window probably differs from the input threshold. The context window might be 100,000+ tokens or more, while the maximum tokens you can send in any one prompt might be 30,000 tokens. It depends on how the AI interface is coded and what the LLM model can support. In other words, APIs might indicate a context window maximum, but programmatically using the API might be different than using the same service in an existing chat interface.
 
@@ -68,15 +68,13 @@ When I need to load in a lengthy context, I break the material into chunks. I us
 
 This approach tends to work well. 
 
-
-## Saving context-right sessions for later
+## Save context-loaded sessions for later
 
 After you create a chat session with hundreds of thousands of tokens of context loaded into the session, save the chat session. Usually there's a "share chat" link in AI interfaces. If you bookmark the shared link, you can often step back into that session at any time, and you won't need to reload all the source material again. It will be like stepping into a custom AI that's been augmented with all your specialized information.
 
 Different chat interfaces have different ways of saving and sharing the interaction. In fact, instead of simply loading the {Source material} into the chat session, the AI might allow you to load it into a permanent preamble for the chat, similar to the custom GPT approach. This simply passes in the context up front (but behind the scenes) before the chat session. I haven't tested whether the LLM's responses are better with this approach rather than just pasting the source material directly into the beginning of the session.
 
-
-## Order of material: basic to advanced
+## Order content from basic to advanced
 
 Is there a preferred order for the source material? In general, consider putting basic information first and more advanced information later. For example, start with high-level product overviews (one-pagers), kickoff slide information, etc., then maybe reference content, and then the rest of the content. Although I'm not sure, I think order can impact the intelligibility of content by the LLM. 
 
@@ -86,8 +84,6 @@ With this in mind, I try to put one-pagers, high-level information first, and ki
 
 Consider also that as you start making progress in the documentation project, each document you finish and get reviewed can become part of the source material. Therefore it makes sense to tackle this progression of information in a documentation project in a similar way:
 
-
-
 * Start with generating the reference material.
 * Write the overviews.
 * Add in user guide topics.
@@ -95,15 +91,15 @@ Consider also that as you start making progress in the documentation project, ea
 
 Each information deliverable can build on the one before it, allowing you lay the foundation to tackle the more advanced topics.
 
+{% include ads.html %}
 
-## Filling in the gaps: meeting notes with engineers
+## Fill in the gaps with meeting notes
 
 Chances are, the source material you gather won't have all the information. This is where you go out and manually gather that information by meeting with engineers. Record, transcript, and clean up the transcriptions with AI, then feed them into your body of source material, preferably near the beginning. Remember that one of the key functions tech writers play is with information gathering. We pull information out of engineers' heads. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](https://idratherbewriting.com/ai/prompt-engineering-summarizing-meeting-notes.html).
 
 If you have a clear sense of information gaps, your meetings with engineers could round out the source material with more complete coverage.
 
-
-## Loading in source code
+## Loading in app source code?
 
 One scenario I haven't explored yet is how to load an entire codebase. Do you upload a zip file containing all the files in an application? Do you put file names and separators into a long list of files? Suppose you have a sample app that shows how to use various APIs, but that sample app contains dozens of files in various hierarchical folders. How do you simply upload it into the AI in a way that it can understand?
 
@@ -111,8 +107,7 @@ You could create a tree diagram of the file structure, with names for each node.
 
 This is a topic I'll explore in a future post. Much depends on the AI tool you're using, whether you can even upload a zip file or not, and so on. What becomes lost in bulk upload?
 
-
-## Formatting — rendered vs. source
+## Formatting — rendered vs. source?
 
 Speaking of file structure, is it better to upload the rendered output or source? The source might include a lot of noise with HTML tags, but those tags can also communicate structure and hierarchy. On the other hand, in my experience, simply copying and pasting documents into one long Google Doc, and then pasting that Google Doc into a text input window that strips all formatting, tends to work surprisingly well. Perhaps headings and bullets can be inferred from line breaks. 
 
@@ -120,11 +115,7 @@ At any rate, whether the source formatting helps or hinders the LLM's processing
 
 I don't know, but I'll be tackling this scenario soon. 
 
-
 ## Conclusion
 
 I tried to provide best practices for source material in this article. Whenever I have a writing project. I'm always on the lookout for project-related documents that might be useful. In my doc plan, I usually collect these links and continue adding to them. You never know when a document might contain a goldmine of information that an LLM can leverage as you write documentation.
-
-
-{% include ads.html %}
 
