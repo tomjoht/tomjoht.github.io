@@ -68,13 +68,13 @@ When I need to load in a lengthy context, I break the material into chunks. I us
 
 This approach tends to work well. 
 
-## Save context-loaded sessions for later
+### Save context-loaded sessions for later
 
 After you create a chat session with hundreds of thousands of tokens of context loaded into the session, save the chat session. Usually there's a "share chat" link in AI interfaces. If you bookmark the shared link, you can often step back into that session at any time, and you won't need to reload all the source material again. It will be like stepping into a custom AI that's been augmented with all your specialized information.
 
 Different chat interfaces have different ways of saving and sharing the interaction. In fact, instead of simply loading the {Source material} into the chat session, the AI might allow you to load it into a permanent preamble for the chat, similar to the custom GPT approach. This simply passes in the context up front (but behind the scenes) before the chat session. I haven't tested whether the LLM's responses are better with this approach rather than just pasting the source material directly into the beginning of the session.
 
-## Order content from basic to advanced
+### Order content from basic to advanced
 
 Is there a preferred order for the source material? In general, consider putting basic information first and more advanced information later. For example, start with high-level product overviews (one-pagers), kickoff slide information, etc., then maybe reference content, and then the rest of the content. Although I'm not sure, I think order can impact the intelligibility of content by the LLM. 
 
@@ -93,13 +93,13 @@ Each information deliverable can build on the one before it, allowing you lay th
 
 {% include ads.html %}
 
-## Fill in the gaps with meeting notes
+### Fill in the gaps with meeting notes
 
 Chances are, the source material you gather won't have all the information. This is where you go out and manually gather that information by meeting with engineers. Record, transcript, and clean up the transcriptions with AI, then feed them into your body of source material, preferably near the beginning. Remember that one of the key functions tech writers play is with information gathering. We pull information out of engineers' heads. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](https://idratherbewriting.com/ai/prompt-engineering-summarizing-meeting-notes.html).
 
 If you have a clear sense of information gaps, your meetings with engineers could round out the source material with more complete coverage.
 
-## Loading in app source code?
+### Loading in app source code?
 
 One scenario I haven't explored yet is how to load an entire codebase. Do you upload a zip file containing all the files in an application? Do you put file names and separators into a long list of files? Suppose you have a sample app that shows how to use various APIs, but that sample app contains dozens of files in various hierarchical folders. How do you simply upload it into the AI in a way that it can understand?
 
@@ -107,7 +107,7 @@ You could create a tree diagram of the file structure, with names for each node.
 
 This is a topic I'll explore in a future post. Much depends on the AI tool you're using, whether you can even upload a zip file or not, and so on. What becomes lost in bulk upload?
 
-## Formatting — rendered vs. source?
+### Formatting — rendered vs. source?
 
 Speaking of file structure, is it better to upload the rendered output or source? The source might include a lot of noise with HTML tags, but those tags can also communicate structure and hierarchy. On the other hand, in my experience, simply copying and pasting documents into one long Google Doc, and then pasting that Google Doc into a text input window that strips all formatting, tends to work surprisingly well. Perhaps headings and bullets can be inferred from line breaks. 
 
