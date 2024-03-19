@@ -73,7 +73,7 @@ It's a great question. To start I will say this &mdash; with technical content, 
 
 **[Keren]:** Our GPT customers get access to detailed GPT analytics from day one. We track adoption, which means how many GPT searches were performed out of total search, coverage, accuracy and users' feedback. We also have analytics on each query logged &mdash; was there a response, from which topic/content it came, etc. One critical thing we also do with our customers is a full investigation of each query that didn't give a response; that's how we can tell our partner content writers if they need to make any changes to their documentation (update, add new), maybe work on better tagging or synonyms, etc. GPT performance can be a true mirror to your content, and it's a never ending learning process. In a good way!
 
-If you would like to learn more about Zoomin GPT and how we can power documentation with AI, you can visit us at [https://www.zoominsoftware.com/zoomin-gpt](https://www.zoominsoftware.com/zoomin-gpt), or contact me directly at [keren.brown@zoominsoftware.com](mailto:keren.brown@zoominsoftware.com).
+If you would like to learn more about Zoomin GPT and how we can power documentation with AI, you can visit us at [https://www.zoominsoftware.com/zoomin-gpt](https://idbwrtng.com/zoomin-gpt), or contact me directly at [keren.brown@zoominsoftware.com](mailto:keren.brown@zoominsoftware.com).
 
 <h3 id="about-keren">About Keren Brown</h3>
 
