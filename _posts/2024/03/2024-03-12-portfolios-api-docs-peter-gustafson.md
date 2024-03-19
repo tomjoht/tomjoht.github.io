@@ -59,6 +59,7 @@ Thus, having an online portfolio is a must. Next, think about accessibility of y
 - Here's my portfolio: [https://www.pdgseo.com/portfolio](https://www.pdgseo.com/portfolio).
 
 There's tons of site generators out there to build an online portfolio. 
+
 - I recommend GitHub pages & Jekyll.
 - Wordpress is an easy one. 
 - Squarespace offers a nice CMS.
