@@ -36,8 +36,7 @@ For this activity, you'll use JavaScript to display the API response on a web pa
           </script>
        </head>
        <body>
-          <h1>Sample Page</h1>
-          wind speed: <span id="windSpeed"></span>
+          <h1>Sample Page</h1>          
        </body>
     </html>
     ```
@@ -79,8 +78,7 @@ For this activity, you'll use JavaScript to display the API response on a web pa
           </script>
        </head>
        <body>
-          <h1>Sample Page</h1>
-          wind speed: <span id="windSpeed"></span>
+          <h1>Sample Page</h1>          
        </body>
     </html>
     ```
