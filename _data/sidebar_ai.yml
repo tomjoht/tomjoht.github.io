@@ -67,3 +67,6 @@ folders:
 
   - title: "Gathering source material for context input"
     jurl: /ai/prompt-engineering-source-material-context
+
+  - title: "Error checking the AI output"
+    jurl: /ai/prompt-engineering-error-checking.html"

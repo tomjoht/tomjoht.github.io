@@ -344,7 +344,7 @@ After the AI responds, follow it with this:
         <li><strong>Active voice:</strong> Use active voice to make the writing more direct and engaging.</li>
         <li><strong>Feature focus:</strong> Emphasize the capabilities and features rather than making generalized statements.</li>
         <li><strong>Bullet points:</strong> Pepper in bullet points now and then to make the content easier to read.</li>
-        <li><strong>Straightforward language:</strong> Use straightforward language and avoid business cliches including words like "leverage," "harness," "innovative," "robust." Use few adjectives if any, as this is technical documentation meant to instruct, not persuade.</li></strong>
+        <li><strong>Straightforward language:</strong> Use straightforward language and avoid business cliches including words like "leverage," "harness," "innovative," "robust." Use few adjectives if any, as this is technical documentation meant to instruct, not persuade.</li>
     </ul>
 </div>
 

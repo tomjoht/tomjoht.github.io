@@ -76,10 +76,12 @@ topnav_dropdowns:
     #       url: https://www.buymeacoffee.com/learnapidoc/extras
     #       external: show
 
-    - title: AI-powered docs
+    - title: TW + AI
       folderitems:
-        - title: AI-powered documentation
-          url: /ai/
+        - title: Use cases for AI
+          url: /ai/index.html
+        - title: Prompt engineering for TW scenarios
+          url: /ai/prompt-engineering.html
         - title: AI category posts
           url: /category-ai/
 
