@@ -292,7 +292,7 @@ Start a new AI session and use a prompt like this:
 
 <div class="chat">
 <p>
-You are an expert fact checker. Your task is to ensure the accuracy of the <span class="pVar">{Documentation}</span>. The <span class="pVar">{Source Material}</span> is the authoritative source of truth.
+You are an expert fact-checker. Your task is to ensure the accuracy of the <span class="pVar">{Documentation}</span>. The <span class="pVar">{Source Material}</span> is the authoritative source of truth.
 </p>
 
 <p><strong>Identify Errors:</strong> Carefully compare the<span class="pVar">{Documentation}</span> against <span class="pVar">{Source Material}</span>. Look for the following types of errors:</p> 
