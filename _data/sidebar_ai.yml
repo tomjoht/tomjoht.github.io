@@ -66,7 +66,7 @@ folders:
     jurl: /ai/reverse-engineering-prompts.html
 
   - title: "Gathering source material for context input"
-    jurl: /ai/prompt-engineering-source-material-context
+    jurl: /ai/prompt-engineering-source-material-context.html
 
   - title: "Error checking the AI output"
     jurl: /ai/prompt-engineering-error-checking.html"
