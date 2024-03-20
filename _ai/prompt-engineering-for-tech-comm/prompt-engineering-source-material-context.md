@@ -1,6 +1,6 @@
 ---
 title: "Gathering source material for context input"
-permalink: ai/prompt-engineering-source-material-context
+permalink: ai/prompt-engineering-source-material-context.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

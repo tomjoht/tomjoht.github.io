@@ -1,5 +1,5 @@
 ---
-title:  "Error checking the AI output"
+title: "Error checking the AI output"
 permalink: ai/prompt-engineering-error-checking.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
@@ -8,6 +8,7 @@ path1: ai/prompt-engineering.html
 last-modified: 2024-03-02
 rebrandly: https://idbwrtng.com/prompt-engineering-error-checking
 ---
+
 {% comment %}
 {% include coffeeshopbook.html %}
 {% endcomment %}
