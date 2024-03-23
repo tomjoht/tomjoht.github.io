@@ -15,6 +15,9 @@ rebrandly: https://idbwrtng.com/prompt-engineering-error-checking
 
 In the [Populating documentation templates](/ai/prompt-engineering-populating-documentation-templates.html#accuracy_check) section, I mentioned an accuracy check after writing the first draft. In this article, I'll expand more on this technique, since reducing errors ("hallucination") remains one of the key challenges in using AI tools. It's the fear of hallucination, of putting your name on a document that has some bogus statements, code, or other details, which keeps many tech writers hesitant to use AI tools.
 
+* TOC
+{:toc}
+
 ## Accuracy prompt
 
 As I explained in [Gathering source material for context input](/ai/prompt-engineering-source-material-context), one way to avoid errors in the output is to gather an abundance of source material as input or context for the AI. This tends to work fairly well. Then after you've arrived at the first draft, use an error prompt like this:
