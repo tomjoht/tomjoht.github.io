@@ -1,5 +1,5 @@
 ---
-title: "Prompt engineering: error checking the output"
+title: "Prompt engineering series: Error checking the output"
 permalink: /blog/error-checking-the-output-prompt-engineering
 date: 2024-03-20
 categories:

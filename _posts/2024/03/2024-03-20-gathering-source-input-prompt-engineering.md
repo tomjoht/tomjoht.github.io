@@ -1,5 +1,5 @@
 ---
-title: "Prompt engineering: gathering source input"
+title: "Prompt engineering series: Gathering source input"
 permalink: /blog/gathering-source-input-prompt-engineering
 date: 2024-03-20
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "Upcoming conference: AI the API docs"
 permalink: /blog/ai-the-api-docs-conference-preso
-date: 2024-02-17
+date: 2024-04-03
 categories:
 - ai
 - api-doc
@@ -24,6 +24,10 @@ Here's a [description of the conference](https://ti.to/pronovix/ai-the-docs-2024
 You can [register here](https://ti.to/pronovix/ai-the-docs-2024) or [learn more here](https://apithedocs.org/ai-2024).
 
 I'll be speaking on prompt engineering, which is something I've [started a series on here](/ai).
+
+Here are my [slides](https://docs.google.com/presentation/d/1CPXjPGsNnyuXUN-D2jHz94ibqVDbSt2hS9Jaxg2G7JU/): 
+
+<a href="https://docs.google.com/presentation/d/1CPXjPGsNnyuXUN-D2jHz94ibqVDbSt2hS9Jaxg2G7JU/" class="noCrossRef"><img src="{{site.media}}/aitheapidocsslidesthumb.png" alt="Slides for AI the API Docs presentation" style="max-width: 400px" /></a>
 
 {% include ads.html %}
 

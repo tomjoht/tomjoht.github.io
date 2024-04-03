@@ -1,5 +1,5 @@
 ---
-title: "Prompt engineering: Reverse engineering the recipe for excellent documentation"
+title: "Prompt engineering series: Reverse engineering the recipe for excellent documentation"
 permalink: /blog/prompt-engineering-reverse-engineering
 date: 2024-03-04
 categories:
