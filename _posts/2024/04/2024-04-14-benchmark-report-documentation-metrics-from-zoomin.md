@@ -1,5 +1,5 @@
 ---
-title: "What should your documentation metrics look like? Q&A with Zoomin about their Technical Content Benchmark Report"
+title: "What should your documentation metrics look like? Q&A with Zoomin about their 2024 Technical Content Benchmark Report"
 permalink: /blog/benchmark-report-documentation-metrics-from-zoomin
 date: 2023-04-14
 categories:
@@ -134,7 +134,7 @@ You can download the <a href='https://idbwrtng.com/zoominbenchmarkreport'>Techni
 
 <h3 id="rita-khait">About Rita Khait</h3>
 
-<img src="{{site.media}}/rita-khait-zoomin.jpg" alt="Rita Khait" style="float: left; padding-left:10px; max-width:200px; padding-top:0px; margin-top:5px;" />
+<img src="{{site.media}}/rita-khait-zoomin.jpg" alt="Rita Khait" style="float: left; padding-right:10px; max-width:200px; padding-top:0px; margin-top:5px;" />
 
 Rita Khait is the Director of Customer Enablement at Zoomin Software. She leads Zoomin's benchmarking initiatives and the online learning academy to optimize customer engagement and business results. Previously, Rita developed instructional content and strategic educational solutions, bringing over six years of experience from KPMG Russia. She holds a Master's degree in Educational Psychology, blending scientific research with practical applications to enhance user engagement.
 
