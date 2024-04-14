@@ -90,5 +90,7 @@ Interestingly, I realize that despite having access to powerful AI tools, I've b
 
 Perhaps I haven't carved out dedicated writing time like I used to. My mornings usually involve a long bike ride to work (I drive to the train, ride the train downtown, and bike the remaining 6.5 miles). It takes me 1 hour and 15 minutes, then I'm fully focused on work. By the time I get home in the evenings, I'm usually out of energy to write. I'm at my best when writing first thing in the morning. For example, I'm writing this post on a Saturday morning at Panera Bread while my youngest daughter plays volleyball at a nearby park. It seems I haven't figured out how to use AI to dedicate more blog-writing time in my day.
 
+<figure><a href=""><img style="max-width: 700px" src="{{site.media}}/writingatpanerabreadaipost.jpeg" alt="Writing at Panera Bread" /></a><figcaption>Writing at Panera Bread</figcaption></figure>
+
 <hr/>
 <small>Some content in this post was AI-assisted. Image is from ChatGPT.</small>
