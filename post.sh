@@ -74,6 +74,7 @@ description: ""
 # section: peaceofmind
 # path1: smartphones/peaceofmind.html
 published: false
+# thumb: 
 ---
 
 * TOC

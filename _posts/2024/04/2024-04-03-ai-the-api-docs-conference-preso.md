@@ -7,7 +7,7 @@ categories:
 - api-doc
 keywords: 
 rebrandly: https://idbwrtng.com/ai-the-api-docs-conference-preso
-description: "There's an upcoming conference called <a href='https://apithedocs.org/ai-2024'>AI The Docs 2024: API Documentation and AI Best Practices</a>, held April 3, 2024 online. The conference is put on by the same API the Docs group / Pronovix that holds other online conferences and events. I'll be one of the speakers. I'm planning to talk about prompt engineering. "
+description: "There's an upcoming conference called <a href='https://apithedocs.org/ai-2024'>AI The Docs 2024: API Documentation and AI Best Practices</a>, held April 3, 2024 online. The conference is put on by the same API the Docs group / Pronovix that holds other online conferences and events. I'll be one of the speakers. I'm planning to talk about prompt engineering."
 image: aithedocsconfthumb123.png
 ---
 
