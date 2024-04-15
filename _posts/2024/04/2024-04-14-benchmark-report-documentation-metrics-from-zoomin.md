@@ -1,7 +1,7 @@
 ---
 title: "What should your documentation metrics look like? Q&A with Zoomin about their 2024 Technical Content Benchmark Report"
 permalink: /blog/benchmark-report-documentation-metrics-from-zoomin
-date: 2023-04-14
+date: 2024-04-14
 categories:
 - ai
 - technical-writing
