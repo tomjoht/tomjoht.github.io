@@ -5,7 +5,7 @@ date: 2023-04-14
 categories:
 - ai
 - technical-writing
-keywords: 
+keywords: documentation metrics, analytics, metrics benchmark reports, page views, time on page, bounce rates
 rebrandly: https://idbwrtng.com/benchmark-report-documentation-metrics-from-zoomin
 description: "Zoomin recently released a <a href='https://idbwrtng.com/zoominbenchmarkreport'>Technical Content Benchmark Report for 2024</a>. This report explains the company's second benchmark report on documentation metrics, which analyzes data from 97.6 million user sessions across 136 countries. The report provides insights into average metrics like page views, bounce rates, time on page, GPT search usage, and more. In this Q&A with <a href='#rita-khait'>Rita Khait</a> from Zoomin, she discusses how to interpret and use these benchmarks to set goals, improve content findability and performance, and demonstrate documentation's value to stakeholders and the business."
 image: zoominsoftwarebenchmarkreport2024thumb.jpg
