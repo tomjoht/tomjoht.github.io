@@ -16,7 +16,7 @@ redirect_from:
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-At the core of API documentation work is building, staging, and publishing of API reference content. Whether it's [Javadoc](https://idratherbewriting.com/learnapidoc/nativelibraryapis_javadoc_tags.html), [Doxygen](https://idratherbewriting.com/learnapidoc/nativelibraryapis_doxygen.html), [OpenAPI](https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html), or other reference output, almost every API has reference documentation that you build, stage, and publish with each release. 
+At the core of API documentation work is building, staging, and publishing of API reference content. Whether it's [Javadoc](/learnapidoc/nativelibraryapis_javadoc_tags.html), [Doxygen](/learnapidoc/nativelibraryapis_doxygen.html), [OpenAPI](/learnapidoc/pubapis_openapi_intro.html), or other reference output, almost every API has reference documentation that you build, stage, and publish with each release. 
 
 Given the centrality of documentation building and publishing tasks, AI tools can be a great help when it comes to configuring scripts to perform these tasks. This is one AI area few people are focusing on, but scripts are an easy way to incorporate AI to improve your productivity and reduce the tediousness of document production.
 
@@ -148,3 +148,7 @@ However, again, if you see this happening, I would recommend studying the code t
 ## Conclusion 
 
 AI tools empower technical writers with scripting capabilities, whether it be shell scripts, Python scripts, CLIs available at your work, or more. In particular, shell scripting can help you automate parts of your build process that are tedious, making it easier to push docs through advanced build and publish processes. In a world of doc ops, where continuous builds and publishing are becoming the norm, tech writers need as much automation as possible with these processes.
+
+## What's next
+
+Continue reading more about this topic here: [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html).

@@ -70,3 +70,6 @@ folders:
 
   - title: "Error checking the AI output"
     jurl: /ai/prompt-engineering-error-checking.html
+
+  - title: "Creating scripts to automate doc build processes"
+    jurl: /ai/prompt-engineering-doc-build-scripts.html
