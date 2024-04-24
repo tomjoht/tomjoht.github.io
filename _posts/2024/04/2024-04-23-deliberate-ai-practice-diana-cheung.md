@@ -42,7 +42,7 @@ So for my next technical writing task or project, I'm planning to be more delibe
 I picked up a [GitHub issue](https://github.com/Redocly/redocly-cli/issues/1429) for an open-source API documentation tool.
 
 <figure>
-    <a href='https://github.com/Redocly/redocly-cli/issues/1429'><img class="noCrossRef" style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-revisit-command-pages.png" /></a>
+    <a class="noCrossRef" href='https://github.com/Redocly/redocly-cli/issues/1429'><img style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-revisit-command-pages.png" /></a>
     <figcaption>Screenshot of GitHub issue description. <a href="https://github.com/Redocly/redocly-cli/issues/1429">Source: https://github.com/Redocly/redocly-cli/issues/1429</a></figcaption>
 </figure>
 
@@ -238,7 +238,7 @@ For more comprehensive testing of the prompt, I should create a test file contai
 I created a prompt to detect the consistency in heading levels. For this prompt, I tested it with the join command file.
 
 <figure>
-  <a href='https://redocly.com/docs/cli/commands/join/'><img class="noCrossRef" style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-join-documentation.png" /></a>
+  <a class="noCrossRef" href='https://redocly.com/docs/cli/commands/join/'><img style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-join-documentation.png" /></a>
   <figcaption>A screenshot of the join command webpage. <a href="https://redocly.com/docs/cli/commands/join/">Source: https://redocly.com/docs/cli/commands/join/</a></figcaption>
 </figure>
 
