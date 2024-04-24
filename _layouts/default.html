@@ -544,7 +544,9 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 <!-- end page/post content -->
 
 <!-- bio -->
+{% if page.bio != false %}
 {% include mybio.html %}
+{% endif %}
 
 <!-- mailjet newsletter signup form -->
 <div class="newsletterSignUpForm">
