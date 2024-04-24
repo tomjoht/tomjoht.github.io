@@ -9,6 +9,7 @@ rebrandly: https://idbwrtng.com/portfolios-api-docs-peter-gustafson
 description: "How can you persuade potential employers about your API expertise? One of the strongest moves you can make is to share a link to your portfolio. The following is a guest post by <a href='#peter-gustafson'>Peter Gustafson</a>, a technical writer who's had a lot of success with API documentation projects at many high-profile companies. I was chatting with Peter on Linkedin the other week about trends he's seeing in the field, and I asked him to write a guest post. In this post, he explains the importance of having an online portfolio that potential employers can easily access and browse."
 author: Peter Gustafson
 bio: false
+image: gustafson-portfolio-post-thumb.png
 ---
 
 * TOC

@@ -8,6 +8,7 @@ keywords:
 rebrandly: https://idbwrtng.com/zoomin-ai-integration-question-and-answer
 description: "In this post, I chat with Keren Brown at Zoomin Software about best practices for integrating AI with documentation. Keren emphasizes the importance of first making your content AI-ready, which means ensuring that it's accurate and up to date, before incorporating AI features. We discuss the reasons companies adopt AI, how to overcome implementation challenges, common mistakes, creativity vs. hallucination, consolidating content, user behaviors, security concerns, and measuring success."
 published: true
+image: 
 ---
 
 *Note: This is a sponsored post.*

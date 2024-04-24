@@ -1,13 +1,13 @@
 ---
-title: "Get Better at Using Prompts With Deliberate Practice: One technical writer's little experiment -- by Diana Cheung"
+title: "Get Better at Using Prompts With Deliberate Practice: One technical writer's little experiment — guest post by Diana Cheung"
 permalink: /blog/deliberate-ai-practice-diana-cheung
 date: 2024-04-23
 categories:
 - ai
-keywords: 
+keywords: technical writing, AI prompts, prompt engineering, deliberate practice, technical writer, technical documentation, API documentation, LLMs
 rebrandly: https://idbwrtng.com/deliberate-ai-practice-diana-cheung
-description: "In this guest post, <a href='#diana-cheung'>Diana Cheung</a> explores how to learn AI by using deliberate practice to enhance her prompting skills. In her deliberate practice, she emphasizes the importance of intentional, systematic practice rather than mindless repetition, similar to how one would learn coding or other skills."
-thumb: diana-cheung.jpeg
+description: "In this guest post, <a href='#diana-cheung'>Diana Cheung</a> explores how to learn AI by using deliberate practice to enhance her prompting skills. As a deliberate practice effort, she emphasizes intentional, systematic practice rather than mindless repetition, similar to how one would learn coding or other skills. In this post, she shares her attempts at using Claude.ai to work through editorial improvements to a GitHub project's API documentation."
+image: diana-text-suggestion-thumb.png
 author: Diana Cheung
 bio: false
 ---
@@ -42,7 +42,7 @@ So for my next technical writing task or project, I'm planning to be more delibe
 I picked up a [GitHub issue](https://github.com/Redocly/redocly-cli/issues/1429) for an open-source API documentation tool.
 
 <figure>
-    <img style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-revisit-command-pages.png" />
+    <a href='https://github.com/Redocly/redocly-cli/issues/1429'><img style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-revisit-command-pages.png" /></a>
     <figcaption>Screenshot of GitHub issue description. <a href="https://github.com/Redocly/redocly-cli/issues/1429">Source: https://github.com/Redocly/redocly-cli/issues/1429</a></figcaption>
 </figure>
 
@@ -238,7 +238,7 @@ For more comprehensive testing of the prompt, I should create a test file contai
 I created a prompt to detect the consistency in heading levels. For this prompt, I tested it with the join command file.
 
 <figure>
-  <img style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-join-documentation.png" />
+  <a href='https://redocly.com/docs/cli/commands/join/'><img style="max-width: 650px; border: 1px solid #dedede" src="{{site.media}}/diana-join-documentation.png" /></a>
   <figcaption>A screenshot of the join command webpage. <a href="https://redocly.com/docs/cli/commands/join/">Source: https://redocly.com/docs/cli/commands/join/</a></figcaption>
 </figure>
 
@@ -302,6 +302,7 @@ So devise your own experiment to deliberately get better at prompting and infusi
 ## About Diana Cheung {#diana-cheung}
 
 <img src="{{site.media}}/diana-cheung.jpeg" alt="Diana Cheung" style="float: left; padding-right:10px; max-width:200px; padding-top:0px; margin-top:5px;" />Diana Cheung is an AI enthusiast and technical writer focused on the developer experience. She is an avid learner and has a soft spot for tea and meows. Follow her on [Medium](https://medium.com/@meetdianacheung) and [Linkedin](https://www.linkedin.com/in/meetdianacheung/)
+<p>&nbsp;</p>
 
 
 
