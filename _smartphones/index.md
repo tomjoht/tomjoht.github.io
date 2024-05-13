@@ -14,6 +14,6 @@ This series started with the realization that smartphones were fragmenting my at
 
 The greatest outcome of my basic phone experiment was to rekindle interest and enjoyment in reading books. Long-form reading was an activity that I’d sort of forgotten, and even though I reverted to my smartphone, the experiment taught me to love reading again. 
 
-{% include coffeeshopbook-smartphones.html %}
+Start reading [Chapter 1: The awakening](/smartphones/awakening.html).
 
-{% include minitoc.html %}
+{% include coffeeshopbook-smartphones.html %}

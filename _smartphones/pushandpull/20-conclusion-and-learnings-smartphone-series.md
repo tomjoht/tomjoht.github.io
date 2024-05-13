@@ -68,14 +68,14 @@ In trying to restore the balance of technology use, I didn’t realize how delic
 I looked at my smartphone now and then wondering what the device was for. It was obviously underperforming in its capability, like having a Lamborghini you used only to drive to the mailbox and back. But just as with any sports car, could you really drive it without occasionally accelerating past the speed limit?
 
 
-## Did I achieve the experiment's end goal? {#did-i-achieve-the-experiment's-end-goal}
+## Did I achieve the experiment's end goal? {#did-i-achieve-the-experiments-end-goal}
 
 I mentioned the above only to be realistic and honest about my relationship with smartphones and technology. It’s not as if one can easily walk away, form a Luddite club, and get immersed in the classics for ever more. Life is more complicated, especially if one works in tech and has family and friends with smartphones. The only feasible path, in my experience, is to find a way to neutralize the addictive elements of smartphones.
 
 For me, this meant disabling email and news mechanisms. (Almost no one is addicted to checking the weather on their phones, or setting alarms all day.) I’ve never been much of an Instagram or Facebook user, and Twitter lost its appeal long before Elon Musk took over. Each person has their own kryptonite, so what might be Instagram for one person (like Logan Lane in the Luddite Club) could be a news or email app for another. (My kids check their email once a week, if that.) By neutralizing my phone, I figuratively moved away from it while still interacting and participating in modern life and maintaining social relationships.
 
 
-## **Overall achievements** {#overall-achievements}
+## Overall achievements {#overall-achievements}
 
 Despite the ups and downs of my experiment with moving away from smartphones, I achieved and learned so much through this series. In this final section, I’ll wrap it up and form a conclusion about it all.
 

@@ -33,7 +33,7 @@ While initially I developed a distaste for smartphone screens (due to their atte
 
 I do feel a growing cognitive dissonance about technology in general. Since moving away from smartphones was so satisfying, I keep wondering, what else can I abandon? How else can I move back into the 90s or early 2000s with tech? Do I start composing blog posts longhand? Do I explore vinyl records?
 
-## **Driving without a screen** {#driving-without-a-screen}
+## Driving without a screen {#driving-without-a-screen}
 
 Let’s talk about driving, because mapping applications are supposedly one of those can’t-live-without-it apps. Not wanting a screen in front of my face while driving, I have now removed the smartphone mount entirely from my car. There are no more screens in my car beyond the blue built-in infotainment displays.
 
