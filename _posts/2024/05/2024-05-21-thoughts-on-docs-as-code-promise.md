@@ -39,7 +39,7 @@ I don't want to build my own themes and maintain the site's design, though. This
 
 When people ask me for docs-as-code advice, I usually recommend that they go the *buy* instead of *build* route. Larger teams with more resources to build tools and workflows can build their own platforms and workflows, but for the lone writer or small team of writers, it doesn't make much sense to try to build your own. Today there are plenty of docs-as-code commercial options for documentation. Overall, even with the challenges inherent in docs-as-code systems, I still prefer them over proprietary, closed source tools. Fortunately, I think even many of these tools now build on top of Git and provide a simplified interaction model.
 
-## More reading
+For more reading on the topic, see the following:
 
 * [Git and Github (Trends series)](/trends/trends-to-follow-or-forget-git-and-github.html)
 * [Version control systems (such as Git)](/learnapidoc/pubapis_version_control.html)
