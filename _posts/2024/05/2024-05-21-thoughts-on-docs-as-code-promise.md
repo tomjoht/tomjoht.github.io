@@ -7,7 +7,7 @@ categories:
 - tools
 keywords: 
 rebrandly: https://idbwrtng.com/thoughts-on-docs-as-code-promise
-description: "In response to Sarah Moir's post, "Docs as code is a broken promise," I agree that Git's complexity can be a major hurdle for writers, especially when generating diffs for review. Simpler Git workflows and tools with visual interfaces for merging and diffs are essential for making the process smoother. Despite its challenges, I still prefer docs-as-code over proprietary tools because of its advantages, like using Markdown and generating diffs for review."
+description: "In response to Sarah Moir's post, *Docs as code is a broken promise,* I agree that Git's complexity can be a major hurdle for writers, especially when generating diffs for review. Simpler Git workflows and tools with visual interfaces for merging and diffs are essential for making the process smoother. Despite its challenges, I still prefer docs-as-code over proprietary tools because of its advantages, like using Markdown and generating diffs for review."
 ---
 
 * TOC
