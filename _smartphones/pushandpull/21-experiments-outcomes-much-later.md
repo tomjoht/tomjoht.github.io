@@ -142,7 +142,7 @@ Almost every op-ed in the NY Times seems to have clickbait title now. Other arti
 
 **Cameras**. In this series I tried to embrace a DSLR instead of my smartphone camera. I ended up becoming the team photographer for my daughter's soccer team&mdash;an activity that has involved endless taking of photos, followed by processing, uploading, and sharing of the photos. It's been an interesting role and outcome. I like taking pictures, as many do. It's interesting how one goal ends up leading to unintended hobbies and interests. The only drawback is carrying a large camera around. Except for a zoom lens for sports photography, the smartphone camera does a heck of a good job.
 
-**Wayfinding**. In this series I tried to get rid of navigation through my smartphone and instead learn the areas I drive. I still try to navigate without following Google Maps, but whenever I go outside my familiar area, I often revert to Google Maps. It takes so much time and preparation to navigate to an unfamiliar area, with little payoff for memorizing the street grid if I won't be returning there for many months or years. I wish I were better about wayfinding, though.
+**Wayfinding**. In this series I tried to abandoning with GPS apps on my smartphone and instead learn the areas I drive. I still try to navigate without following Google Maps, but whenever I go to an unfamiliar area, I often revert to Google Maps. It takes so much time and preparation to navigate to an unfamiliar area, with little payoff for memorizing the street grid if I won't be returning there for many months or years. I wish I were better about wayfinding on my own, though. Driving is really more enjoyable without using a phone.
 
 ## Overall
 
