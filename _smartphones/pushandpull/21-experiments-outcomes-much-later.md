@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/conclusionsmartphoneseries
 series: "Journey away from smartphones"
-sidebar: sidebar_smartphones
+sidebar: syidebar_smartphones
 path1: smartphones/pushandpull.html
 description: "In this post, I describe the updates of this experiment two years later. While in some areas I've reverted to my previous ways, I've also removed the social media, news, email, and chat apps on my phone that give rise to the anxiety-inducing, fast-paced cadence of smartphones."
 last-modified: 2024-05-12
