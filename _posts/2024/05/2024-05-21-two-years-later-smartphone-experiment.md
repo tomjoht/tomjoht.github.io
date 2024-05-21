@@ -1,5 +1,5 @@
 ---
-title: "two-years-later-smartphone-experiment"
+title: "Updates two years later on my smartphone experiment"
 permalink: /blog/two-years-later-smartphone-experiment
 date: 2024-05-21
 categories:
