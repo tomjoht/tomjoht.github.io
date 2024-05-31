@@ -1,5 +1,5 @@
 ---
-title: "Uncovering and communicating the value of your tech comm teams' work, with Keren Brown"
+title: "[Podcast] Uncovering and communicating the value of your tech comm teams' work, with Keren Brown"
 permalink: /blog/value-techcomm-zoomin-podcast
 date: 2024-05-30
 categories:
