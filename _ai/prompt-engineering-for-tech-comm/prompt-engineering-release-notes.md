@@ -55,13 +55,20 @@ The audience for the release notes consists of experienced developers who integr
 
 You'll be provided with the diff output of all changed files in the release. The diff describes the changes in the reference documentation, which directly reflects how the code has changed. Your task is to analyze the diff and clearly describe the changes. I'll pull from your descriptions to populate the release notes.
 
+**IGNORE GRAMMAR/STYLE CHANGES**
+
+The diff is comprehensive and includes many grammar and style changes to existing definitions. Ignore these, as they're minor cosmetic updates for readability that don't need to be included in the release notes.
+
 **INTERPRETING THE DIFF SYNTAX:**
 
 The diff output uses the following syntax to indicate changes:
 
-* `+` : This symbol indicates a line that was *added* in the new version.
-* `-` : This symbol indicates a line that was *removed* in the new version. 
-* `@@ ... @@`: These lines show the line numbers where changes occur in each file.
+* **`+` :** This symbol indicates a line that was **added** in the new version.
+* **`-` :** This symbol indicates a line that was **removed** in the new version.
+* **`@@ ... @@` :** These lines show the **line numbers** where changes occur in each file. 
+    * The first line number refers to the **original file** (before changes).
+    * The second line number refers to the **new file** (after changes).
+* **`<del>`:** This tag is used to indicate **deprecated** code. It is often used around method or class names in the documentation.
 
 **Example:**
 
@@ -69,19 +76,24 @@ The diff output uses the following syntax to indicate changes:
 --- a/file.java
 +++ b/file.java
 @@ -1,5 +1,6 @@
-
+ 
  public class MyClass {
 -  private int value = 10;
-+  private int value = 20;
++  private int value = 20;  // This line was changed
 +  public void newValue() { ... } 
  }
-```
+ ```
 
 **Explanation:**
 
-* The line `private int value = 10;` was removed.
-* The line `private int value = 20;` was added.
-* A new method `public void newValue() { ... }` was added. 
+* The line `private int value = 10;` was **removed**. 
+* The line `private int value = 20;` was **added** (and is also marked with a comment).
+* A new method `public void newValue() { ... }` was **added**. 
+
+**Note:**
+
+* You should **focus on changes that affect functionality or integrations**. Ignore internal implementation details, minor comment updates, or stylistic changes.
+* Pay close attention to the `<del>` tag to identify deprecated elements.
 
 **YOUR TASK:**
 
