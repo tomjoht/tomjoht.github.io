@@ -1,5 +1,5 @@
 ---
-title: "4.3 Two years later"
+title: "4.3 Updates two years later on my smartphone experiment"
 permalink: /smartphones/updates-two-years-later.html
 categories:
 - technical-writing
