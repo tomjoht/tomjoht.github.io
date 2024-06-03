@@ -43,7 +43,7 @@ Here are some of the topics we cover in the podcast:
 ## Keren's contact info
 
 * [Zoominsoftware.com](https://zoominsoftware.com)
-* [Keren Brown on Linkedin](https://www.linkedin.com/in/keren-brown-2868212b/). Email: karen.brown@zoominsoftware.com.
+* [Keren Brown on Linkedin](https://www.linkedin.com/in/keren-brown-2868212b/). Email: keren.brown@zoominsoftware.com.
 
 ## Resources mentioned
 
