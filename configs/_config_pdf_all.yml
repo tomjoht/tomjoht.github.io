@@ -5,7 +5,7 @@ api_media: /Users/tomjohnson/projects/idratherbewriting/images/api
 cover: true
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_image: images/ebook_cover.png
-
+type: pdf
 sidebar: docapis
 baseurl: /Users/tomjohnson/projects/idratherbewriting/_site
 

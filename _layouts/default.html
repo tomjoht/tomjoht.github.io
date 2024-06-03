@@ -361,6 +361,7 @@
 {% include sidebar_comics.html %}
 
 <!--Recent posts on ZAMM-->
+{% unless site.type=="pdf" %}
 <div class="recent-posts">
   <h3>Recent posts from Zen and the Art of Motorcycle Maintenance series</h3>
     <ul>
@@ -372,8 +373,10 @@
       {% endfor %}
     </ul>
   </div>
+  {% endunless %}
 
   <!--Recent posts on Prompt Engineering-->
+  {% unless site.type=="pdf" %}
 <div class="recent-posts">
   <h3>Recent posts from my AI tech comm series</h3>
     <ul>
@@ -385,8 +388,9 @@
       {% endfor %}
     </ul>
   </div>
+  {% endunless %}
 
-<!-- recent blog posts in sidebar -->
+  <!-- recent blog posts in sidebar -->
 <div class="recent-posts">
 <h3>Recent blog posts</h3>
   <ul>

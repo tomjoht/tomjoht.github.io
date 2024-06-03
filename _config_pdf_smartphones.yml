@@ -4,7 +4,7 @@ subtitle: "Regaining focus"
 author: Tom Johnson
 url_tagline: idratherbewriting.com/smartphones
 media: /Users/tomjohnson/projects/idratherbewriting/images/
-
+type: pdf
 # if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
 cover_hybrid: true
 cover_image: images/journeyawayfromsmartphonestitle.png

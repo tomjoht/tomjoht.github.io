@@ -19,7 +19,7 @@ last-modified: 2024-05-12
 
 ## Requests for updates
 
-A few people have asked for updates on this series. On my [Awakening post](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html), some commenters said:
+A few people have asked for updates on this series. On my [Awakening post](awakening-moment-to-how-smartphones-fragment-our-attention.html), some commenters said:
 
 > Just read your article 2 years later. Where are you at now. Was it ultimately effective?
 > 
@@ -29,7 +29,7 @@ This topic seems to be in the spotlight partly due to Jonathan Haidt's bestselli
 
 So how is it going for me? There's a short and long answer. In short, I've reverted to a lot of the old ways, before this whole experiment. When the gen AI boom hit, I threw myself headlong back into tech with the idea of not being left behind. 
 
-But I've also flip-flopped back and forth multiple times about different strategies related to smartphones, and some approaches have stuck. If you've read this series, you'll know that six weeks into my smartphone experiment I had already [returned to using a smartphone](/smartphones/returning-to-smartphones.html), just with different rules. I think many people land on my [awakening post](/smartphones/awakening.html) (which gained popularity from being on Hacker News) and think that the whole experiment was about permanently abandoning smartphones, when in fact it was more about identifying the aspects of smartphones that are toxic.
+But I've also flip-flopped back and forth multiple times about different strategies related to smartphones, and some approaches have stuck. If you've read this series, you'll know that six weeks into my smartphone experiment I had already [returned to using a smartphone](returning-to-smartphones.html), just with different rules. I think many people land on my [awakening post](awakening.html) (which gained popularity from being on Hacker News) and think that the whole experiment was about permanently abandoning smartphones, when in fact it was more about identifying the aspects of smartphones that are toxic.
 
 Today, about two years later, I'm more and more convinced of the following:
 
@@ -57,7 +57,7 @@ Although I can read books on my own, participating in book clubs gives me the di
 
 I still run the Auto & Transportation Book Club that I started at my work a year and a half ago. It's awesome, though participation has declined. We've just hit the point where we've exhausted all the good, relevant books in this genre, so I'm planning to shift the focus of the club to a new theme: "maps." I find that I really like running this book club, as it allows me to keep one foot in an intellectual circle while working in the corporate world. It's okay if only two other people show up.
 
-## 4. It's actually not possible to live in today's society without a smartphone
+## 4. It’s not practical to live in today’s society without a smartphone
 
 Sure, you could give up your smartphone, just as you could give up your computer, plumbing, and electricity. But the smartphone is too useful to abandon. Here are all the apps I don't want to live without:
 
@@ -90,7 +90,7 @@ Sure, you could give up your smartphone, just as you could give up your computer
 * Phone
 * Authenticator
 
-I won't go through each app to explain why it's necessary. I imagine you have a similar list of apps that, if you had to eliminate them, their absence would make your life more difficult. I spent a lot of time trying to figure out workarounds for the apps (especially texting). It's possible in many cases, but with each passing year, smartphone apps become more saturated and integrated into how society functions.
+I won't go through each app to explain why it's necessary. I imagine you have a similar list of apps that, if you had to eliminate them, their absence would make your life more difficult. I spent a lot of time trying to figure out workarounds in the absence of these apps (especially texting). It's possible in many cases, but with each passing year, smartphone apps become more saturated and integrated into how society functions.
 
 More to the point, though, these apps aren't what's toxic about smartphones. My list mostly includes utility apps. I don't doomscroll any of these apps. You can scroll the "Updates" in Google Maps, but it's really boring after about 30 seconds. You also won't be sucked into your weather app for too long.
 
@@ -98,15 +98,17 @@ Noticeably absent from my list of apps are social media and news apps: Twitter, 
 
 ## 5. Constant notifications on a smartphone from email and chat are what drive anxiety &mdash; this is what's toxic about smartphones
 
-I've come to the conclusion that what's toxic about smartphones are the notifications. Any app that sends me frequent notifications tends to have ill effects on my mental health. I'm not much of a social media junkie. The only real social media app I participated on was Twitter. I faded from that platform about 2 years ago, just using it to broadcast new posts. I browse Linkedin more regularly, but there's rarely content on that platform that keeps me there beyond a few minutes a day.
+I've come to the conclusion that what's toxic about smartphones are the notifications. Any app that sends me frequent notifications tends to have ill effects on my mental health. I'm not much of a social media junkie. The only real social media app I participated on was Twitter. I faded from that platform about 2 years ago, just using it to broadcast new posts. I browse Linkedin from time to time, but there's rarely content on that platform that keeps me there beyond a few minutes a day.
 
 I actually do have Snapchat on my phone, but only to track my youngest daughter's location (she set the app up for me). The app has no appeal to me for exchanging snaps with friends &mdash; my God, I'm 48 years old. Who would I be snapchatting with?
 
-There have been occasions where I install work apps, primarily email and chat, often because I'm traveling but not out of office. Then I forget to remove the apps. When I do this, I find myself frequently checking those apps for any incoming information. I get addicted to checking email and chat regularly, and it drives up my general anxiety levels. 
+There have been occasions where I install work apps, primarily email and chat, often because I'm traveling but not out of office. Then I forget to remove the apps. When I do this, I find myself frequently checking those apps for any incoming information. I get addicted to checking email and chat regularly, and it drives up my general anxiety levels.
+
+That said, even uninstalling Gmail doesn't eliminate the possibility of checking it. You can go to gmail.com in your browser, just like with nearly every other site, most of which display surprisingly well in the browser due to mobile styles. If you disable Chrome, you also remove the ability to use AI apps like ChatGPT and Gemini, so it's a more drastic step. Anyway, going to gmail.com in the web browser (something I do much less frequently than when I have the app) is different from having the Gmail app for one main reason: notifications.
 
 I have a theory: any app that constantly pings me with information, either from actual notifications or from manually opening and looking at feeds in the apps, accounts for the anxiety-inducing mental health phenomenon of smartphones. This stream of incoming information, 99% of which is usually trivial noise, wratchets up my internal rhythms to keep checking for information. This is especially true of email and chat apps for me.
 
-Having gone through cycles of having email and chat apps on my phone and not having them, I've  felt this anxiety level rise with the apps and diminish without them. Keep in mind this is just email and chat &mdash; it would probably be worse if I installed news and social media apps too and left on the default notifications. My phone would be constantly buzzing all day with pointless notifications. 
+Having gone through cycles of having email and chat apps on my phone and not having them, I've felt this anxiety level rise with the apps and diminish without them. Keep in mind this is just email and chat &mdash; it would probably be worse if I installed news and social media apps too and left on the default notifications. My phone would be constantly buzzing all day with pointless notifications. 
 
 I've almost forgotten what a phone looks like with notifications turned on for all the apps. The other day while riding to work, I came across a recently dropped iPhone that an unknown owner lost. As I picked it up and tried to decipher how to contact the owner, all I could do was scroll the recent notifications on the lock screen. I couldn't believe someone actually had all the notifications turned on, getting spammed with tidbits about NBA game details, news alerts, Instagram posts, and more. 
 
@@ -128,6 +130,8 @@ By drastically cutting down the number of email subscriptions, I don't feel like
 
 There are a few newsletters I still subscribe to, such as my daughter's school newsletter and a city newsletter, both of which seem to put the information only into the newsletters. I also often go directly to nytimes.com, seattletimes.com, and espn.com. But by not having these apps, I'm not subject to long-term browsing due to a convenient UI nor the notification pings from the apps. I go to these sites when I want information, not when they want to send information to me.
 
+To get information from Substack sites, I started using [Omnivore.app](https://omnivore.app/), which gives you an email through which you can subscribe to content. (I learned this tip from Leo Laporte on This Week in Tech, TWIT.) I haven't become a regular Omnivore user, but it's nice to shift email and feed content into a different space that I can switch into when desired.
+
 Overall, I'm happy with the pull model for news. I don't want people pushing their news at me all the time, prompting me to sift through all the information. I'd much rather go to the websites at my own will and pace. And if I permanently forget to go to a website for their content, it must not have been that important to me. 
 
 In writing this, I feel like a curmudgeon. It may be the case that as I age, I get more curmudgeonly. But the opposite state, where someone subscribes to hundreds of sites and newsletters and then experiences a constant barrage of notifications throughout the day, seems like an insane model to adopt.
@@ -140,7 +144,7 @@ Almost every op-ed in the NY Times seems to have clickbait title now. Other arti
 
 ## Other
 
-**Cameras**. In this series I tried to embrace a DSLR instead of my smartphone camera. I ended up becoming the team photographer for my daughter's soccer team&mdash;an activity that has involved endless taking of photos, followed by processing, uploading, and sharing of the photos. It's been an interesting role and outcome. I like taking pictures, as many do. It's interesting how one goal ends up leading to unintended hobbies and interests. The only drawback is carrying a large camera around. Except for a zoom lens for sports photography, the smartphone camera does a heck of a good job.
+**Cameras**. In this series I tried to embrace a DSLR instead of my smartphone camera. I ended up becoming the team photographer for my daughter's soccer team&mdash;an activity that has involved endless taking of photos, followed by processing, uploading, and sharing of the photos. It's been an interesting role and outcome. I like taking pictures, as many do. It's interesting how one goal ends up leading to unintended hobbies and interests. The only drawback is carrying a large camera around. Except for a zoom lens for sports photography, the smartphone camera does a good job.
 
 **Wayfinding**. In this series I tried to abandoning with GPS apps on my smartphone and instead learn the areas I drive. I still try to navigate without following Google Maps, but whenever I go to an unfamiliar area, I often revert to Google Maps. It takes so much time and preparation to navigate to an unfamiliar area, with little payoff for memorizing the street grid if I won't be returning there for many months or years. I wish I were better about wayfinding on my own, though. Driving is really more enjoyable without using a phone.
 
@@ -150,5 +154,5 @@ Overall, my biggest desire was to continue reading books regularly. Reading slow
 
 Part of the challenge of reading is figuring out a regular habit and pattern. If you can't find a regular time for an activity, it's hard to do it consistently. Usually when I wake up early (against my will), I'll come down to the kitchen table and read. That's my favorite time of day&mdash;while everyone's still asleep and before the day's tasks are coming at me rapid fire. But when I don't wake up early, I miss that opportunity.
 
-Those are all my updates after two years. Life experiments are fun! Now I'm wondering what I should try next.
+Those are all my updates after two years. Life experiments are interesting. Now I'm wondering what I should try next.
 
