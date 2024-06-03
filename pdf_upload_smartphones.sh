@@ -1,6 +1,6 @@
 # Equivalent function
 myvenv() {
-    source /Users/tomjohnson/myvenv/bin/activate
+    source .venv/bin/activate
 }
 myvenv
 

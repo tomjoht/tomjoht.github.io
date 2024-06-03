@@ -68,13 +68,11 @@ topnav_dropdowns:
         - title: "Chapter 17: Additional resources"
           url: /learnapidoc/resources.html
 
-    # - title: Downloads
-    #   folderitems:
-    #     - title: Download PDFs
-    #       url: /learnapidoc/download.html
-    #     - title: Shop
-    #       url: https://www.buymeacoffee.com/learnapidoc/extras
-    #       external: show
+    - title: Shop
+      folderitems:
+        - title: PDFs available
+          url: https://www.buymeacoffee.com/learnapidoc/extras
+          external: show
 
     - title: TW + AI
       folderitems:
@@ -84,6 +82,19 @@ topnav_dropdowns:
           url: /ai/prompt-engineering.html
         - title: AI category posts
           url: /category-ai/
+
+    - title: Series
+      folderitems:
+        - title: Rereading Zen and the Art of Motorcycle Maintenance
+          url: /zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html
+        - title: Journey away from smartphones
+          url: /ai/index.html
+        - title: Trends to follor or forget
+          url: /trends/trends-to-follow-or-forget-intro.html
+        - title: Simplifying complexity
+          url: /simplifying-complexity/index.html
+        - title: Value arguments for tech comm
+          url: /2017/12/28/value-of-tech-comm-in-company-part1/
 
     - title: About
       folderitems:
