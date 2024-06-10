@@ -43,15 +43,15 @@ About three weeks before my college start date, I started my trip. In case you'r
 <figure><img src="{{site.media}}/zamm/motorcycle_field_best2.jpg" alt="My motorcycle during a camp out in Wyoming" />
 <figcaption>Bighorn Mountains, Wyoming. This was my 650cc Yamaha motorcycle that I rode in high school</figcaption></figure>
 
-At 17 years old, I probably shouldn't have gone on this trip alone. I'm not sure how my mother ever let me &mdash; my compromise was that I would wear a neon vest over my leather jacket, which I did. I spent about a week making my way to Galveston. Once there, I stayed with my childhood buddy for a week before circling back up to Colorado for an outdoor camp, then over to Utah where I started college. When I started college, I sensed the winter snow coming and felt I wouldn't need a motorcycle since I was living on campus. So I traded my motorcycle for a computer (my first) and started writing.
+At 17 years old, I probably shouldn't have gone on this trip alone. I'm not sure how my mother ever let me. My compromise was that I would wear a neon vest over my leather jacket, which I did. I spent about a week making my way to Galveston. Once there, I stayed with my childhood buddy for a week before circling back up to Colorado for an outdoor camp, then over to Utah where I started college. When I started college, I sensed the winter snow coming and felt I wouldn't need a motorcycle since I was living on campus. So I traded my motorcycle for a computer (my first) and started writing.
 
-Unlike the narrator in _Zen and the Art of Motorcycle Maintenance_, I didn't have any traveling companions nor deep philosophical musings on my trip, but it was still formative for me. I realized how lonely the road could be and how I preferred more human interaction (especially after camping alone for a week). But I also enjoyed the freedom of the road and autonomy of riding on a motorcycle. There's nothing quite like it&mdash;sitting right on top of an engine, leaning left and right around curves, and feeling immersed in the open elements.
+Unlike the narrator in _Zen and the Art of Motorcycle Maintenance_, I didn't have any traveling companions or deep philosophical musings on my trip, but it was still formative for me. I realized how lonely the road could be and how I preferred more human interaction (especially after camping alone for a week). But I also enjoyed the freedom of the road and autonomy of riding on a motorcycle. There's nothing quite like it&mdash;sitting right on top of an engine, leaning left and right around curves, and feeling immersed in the open elements.
 
 ## Teaching writing and rhetoric 
 
-Besides relating to the motorcycle elements in _Zen and the Art of Motorcycle Maintenance_, I could also relate to the narrator's experiences in teaching writing and rhetoric. In the book, the narrator teaches rhetoric and writing to undergraduates at a college in Montana while also pursuing his own PhD at another campus. During my undergraduate years, I worked as a writing tutor assigned to various literature classes. Then after finishing my undergraduate degree, I began an MFA program in New York, where I taught composition first as a graduate instructor for two years, both to adult first-years and regular first-years. 
+Fast forward 30 years later, as I'm rereading _Zen and the Art of Motorcycle Maintenance_ (ZAMM). Besides relating to the motorcycle elements in ZAMM, I can also relate to the narrator's experiences in teaching writing and rhetoric. In the book, the narrator teaches rhetoric and writing to undergraduates at a college in Montana while also pursuing his own PhD at another campus. During my undergraduate years, I worked as a writing tutor assigned to various literature classes. Then after finishing my undergraduate degree, I began an MFA program in New York, where I taught composition first as a graduate instructor for two years, both to adult first-years and regular first-years. 
 
-After graduating, I spent two years at the American University of Cairo in Egypt teaching similar composition writing courses to first- and second-year Egyptian students. I both loved teaching writing (the classroom discussions) and also disliked it (the grading of essays). Grading essays always made me grumpy, and only a few students actually improved their writing, it seemed. 
+After graduating, I spent two years at the American University of Cairo in Egypt teaching similar composition writing courses to first- and second-year Egyptian students. I loved teaching writing (especially good classroom discussions) but disliked the grading of essays. Grading essays always made me grumpy, and only a few students actually improved their writing, it seemed. 
 
 ## Technical writer
 
@@ -61,39 +61,40 @@ Pirsig was a technical writer back in the 1970s and worked on missile systems ma
 
 ## Non-parallels: mental illness, theories of philosophy, maintenance skills
 
-Despite these parallels with _Zen and the Art of Motorcycle Maintenance_ (abbreviated as "ZAMM"), I've never struggled with mental illness nor have I undergone electroshock therapy, as the ZAMM narrator has. (It's not mentioned explicitly in the book, but it's assumed the narrator had a form of schizophrenia.) 
+Despite these parallels with ZAMM, I've never struggled with mental illness nor undergone electroshock therapy, as the ZAMM narrator has. (It's not mentioned explicitly in the book, but it's assumed the narrator had a form of schizophrenia.) 
 
-I've also never been obsessed with rhetoric versus dialectic or classic versus romantic dualities. These are central themes for the ZAMM narrator. He develops a philosophy theory about Quality over the course of 400 pages. I've never been this philosophically minded or rigorous, nor do I have an IQ of 170.
+I've also never been obsessed with rhetoric versus dialectic or classic versus romantic dualities. These are central themes for the ZAMM narrator. He develops a philosophy theory about Quality over the course of 400 pages. I've never been this philosophically minded or intellectually rigorous, nor do I have an IQ of 170.
 
-Also, I don't know how to do my own motorcycle maintenance. I can barely change the oil in my car, let alone tune a motorcycle. I'm not the type of person who dismantles an engine to see how it works and wonders why everyone around him doesn't fix his own motorcycle, car, or bicycle. I do some basic bike repairs, but nothing noteworthy. I don't have an engineering "knack" for fixing things. About half the things I try to fix become more broken.
+Also, I don't know how to do my own motorcycle maintenance. I can barely change the oil in my car, let alone tune a motorcycle. I'm not the type of person who dismantles an engine to see how it works and wonders why everyone around him doesn't fix his own motorcycle, car, or bicycle. I do some basic bike repairs, but nothing noteworthy. I don't have an engineering "knack" for fixing things. About half the things I try to fix become more broken as a result.
 
 ## Ambivalent relationships with technology
 
 Like the narrator, I've struggled to define my relationship with technology, which you can see in series like [Journey away from smartphones](https://idratherbewriting.com/smartphones/overview.html), in which I stripped back my smartphone in an attempt to regain my attention and focus. I've been to India to present at a conference but haven't studied eastern practices like Zen Buddhism in extended ways. 
 
-Five years ago, I used the Calm Meditation app about ten minutes each day for a stretch of two months before abandoning it. I got a taste of mindfulness but never exceeded short guided meditations, sadly. Even so, I've been wanting to notice more of the missed details around me. I recently read Rob Walker's _[The Art of Noticing](https://www.amazon.com/Art-Noticing-Creativity-Inspiration-Discover/dp/0525521240)_ and have been seeking ways to see more of the unseen perspective. I do like finding new details in previously familiar environments.
+Five years ago, I used the Calm Meditation app about ten minutes each day for a stretch of two months before abandoning it. I got a taste of mindfulness but never exceeded short guided meditations. Even so, I've been wanting to notice more of the missed details around me. I recently read Rob Walker's _[The Art of Noticing](https://www.amazon.com/Art-Noticing-Creativity-Inspiration-Discover/dp/0525521240)_ and have been seeking ways to see more of the unseen perspective. I do like finding new details in previously familiar environments.
 
 {% include ads.html %}
 
 ## Kids and concerns for their well-being
 
-In _Zen and the Art of Motorcycle Maintenance_, the narrator has an 11-year-old son Chris riding on the back of his motorcycle, and he fears that his son might be developing similar mental illness issues as the narrator, which breaks the narrator's heart. 
+In ZAMM, the narrator has an 11-year-old son Chris riding on the back of his motorcycle, and he fears that his son might be developing similar mental illness issues as the narrator, which breaks the narrator's heart. 
 
 I can relate to seeing a child's optimism toward life while also sensing they're unknowingly struggling with some mental/emotional challenges. I have four kids, ranging from ages 13 to 22. They're brilliant; they also have some challenges from ADHD to anxiety.
 
-## Questions to get out of _Zen and the Art of Motorcycle Maintenance_
+## Questions to get out of ZAMM
 
-After listening to Grabski's talk, I started thinking that maybe rereading _Zen and the Art of Motorcycle Maintenance_ would be a good idea. Of course, I'd forgotten almost all the details of the book, having read it 30 years earlier. In re-reading my journal at that time, I realize that I didn't understand much of the book, and I didn't find it particularly enjoyable at the time (the narrator does a lot of philosophizing, which can be hard to follow at times). 
+After listening to Grabski's talk, I started thinking that maybe rereading ZAMM would be a good idea. Of course, I'd forgotten almost all the details of the book, having read it 30 years earlier. In re-reading my journal at that time, I realize that I didn't understand much of the book, and I didn't find it particularly enjoyable at the time (the narrator does a lot of philosophizing, which can be hard to follow at times). 
 
 In rereading the text, I wondered the following:
 
-* How would I interpret _Zen and the Art of Motorcycle Maintenance_ differently now, as a technical writer, than when I was a 17-year-old high school graduate? 
+* How would I interpret ZAMM differently now, as a technical writer, than when I was a 17-year-old high school graduate? 
 * How would my life's experiences change and shape my interpretation of the book? 
 * Could I see the book in a light that others wouldn't see? 
 * Were there clues and themes in the book that perhaps steered my life into technical writing before I was aware that I would go in this direction?
 
-With this backstory, let me jump more into _Zen and the Art of Motorcycle Maintenance_. My takes on the book won't be academic but will be more personal thoughts and applications, related mostly to technical writing.
+With this backstory, let me jump more into ZAMM. My takes on the book won't be academic but will be more personal thoughts and applications, related mostly to technical writing.
 
 <figure><img style="max-width: 600px" src="{{site.media}}/zamm/rereading_zamm_pages_open2.jpg" alt="Re-reading Zen and the Art of Motorcycle Maintenance" />
 <figcaption>Re-reading Zen and the Art of Motorcycle Maintenance</figcaption></figure>
 
+Go to the next post, [Main takeaway: How to incorporate intuitive thinking](incorporating-intuitive-thinking.html).

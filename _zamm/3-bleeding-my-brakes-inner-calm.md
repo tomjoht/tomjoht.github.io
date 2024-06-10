@@ -66,5 +66,5 @@ Even though I hadn't fixed the brake, the ability to continue working towards a 
 This brings me to another key point: removing deadline pressure.
 
 
-
+Continue to the next post, [The importance of using the right tools](/zamm/importance-of-using-right-tools.html).
 
