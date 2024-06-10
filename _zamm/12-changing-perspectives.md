@@ -16,7 +16,7 @@ description: ""
 # series: "Zen and the Art of Motorcycle Maintenance"
 # sidebar: sidebar_zamm
 # weight: 1.X
-published: false
+# published: false
 section: peaceofmind
 path1: smartphones/peaceofmind.html
 ---
