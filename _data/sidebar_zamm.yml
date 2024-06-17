@@ -20,6 +20,9 @@ folders:
   - title: "The importance of using the right tools"
     jurl: /zamm/importance-of-using-right-tools.html
 
+  - title: "Seeing the invisible details of the world around you"
+    jurl: /zamm/seeing-the-invisible
+    
 - title: "Related resources"
   landing: /zamm/resources.html
   type: web

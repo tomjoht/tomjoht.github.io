@@ -76,3 +76,6 @@ folders:
   
   - title: "Using file diffs for better release notes in reference docs"
     jurl: /ai/prompt-engineering-release-notes-reference-docs.html
+
+  - title: "Automating linking with AI"
+    jurl: /ai/automating-linking.html

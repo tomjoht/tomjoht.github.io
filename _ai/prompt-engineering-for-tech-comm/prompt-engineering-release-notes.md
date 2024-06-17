@@ -82,7 +82,7 @@ The diff output uses the following syntax to indicate changes:
 +  private int value = 20;  // This line was changed
 +  public void newValue() { ... } 
  }
- ```
+```
 
 **Explanation:**
 
