@@ -35,7 +35,7 @@ image: newspaperthumbposts2.png
 * While the technical writing profession may evolve due to technological advancements and shifting priorities, its core essence of bridging the gap between technology and people will remain the same.
 * Technical writers seeking career changes should look for opportunities within their current company, while those seeking their first job should focus on selling their skills and adaptability rather than limiting themselves to specific job titles.
 
-**Tom's thoughts:** There are a lot of Reddit posts from people wondering if tech writing is a dying field now that AI can do so much. I’m surprised and relieved that even using AI tools as much as possible, replacement of my tech writing role seems unlikely. I still have a seemingly endless number of tech writing bugs to tackle, and documentation is high-valuable.
+**Tom's thoughts:** There are a lot of Reddit posts from people wondering if tech writing is a dying field now that AI can do so much. I’m surprised and relieved that even using AI tools as much as possible, replacement of my tech writing role seems unlikely. I still have a seemingly endless number of tech writing bugs to tackle, and documentation is highly valuable.
 
 ## LavaCon 2024 to Focus on Content as a Business Asset | XML Press | May 30, 2024 | [LINK](https://xmlpress.net/2024/05/30/lavacon-2024/)
 
