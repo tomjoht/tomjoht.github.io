@@ -1,13 +1,16 @@
-
 ---
-title: "Seeing the invisible details of the world around you"
-permalink: /zamm/seeing-the-invisible
-last-modified: 2024-06-17
+title: "Seeing the invisible details"
+permalink: /zamm/seeing-the-invisible.html
+last-modified: 2024-06-16
 categories:
+# - podcasts
 - technical-writing
 keywords: 
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/importance-of-using-right-tools
 description: "In this section, I explore the idea of seeing the invisible nature of the world around us. I discuss several authors on this topic: Rob Walker, an art critic; Viktor Skhlovsky, Russian formalist literary critic; and Robert Pirsig, a fiction writer who ties in eastern and western themes."
+image: righttypeofconewrench.jpg
+series: "Zen and the Art of Motorcycle Maintenance"
+sidebar: sidebar_zamm
 section: peaceofmind
 path1: smartphones/peaceofmind.html
 ---
@@ -163,3 +166,12 @@ The narrator elaborates:
 Bringing the discussion back to AI, if we troubleshoot using prediction machines, the solutions we conceive of may be cliche, predictable, formulaic. They may be the obvious attempts from mediocre thinking. We end up putting our foot into the same set of footprints to trod the same worn path, leading to the same dead-end destinations.
 
 For many tasks, this might be fine. Let's say you're not a developer, and you want a simple script to achieve some perfunctory task. There's no harm done in having AI create the most predictable, obvious solution. But if you're an expert in your field, looking to innovate, this kind of predictable thinking will only take you so far. You need to clear away assumptions so that you can, as Shklovsky says, trace new paths and be the first to travel them.
+
+## Works cited
+
+
+Pirsig, Robert. [Zen and the Art of Motorcycle Maintenance: An Inquiry into Values](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0688002307. William Morrow & Company, Inc. New York: 1974, 1999. 25th Anniversary Edition.
+
+Shklovsky, Viktor. [Viktor Shklovsky: A Reader](https://edisciplinas.usp.br/pluginfile.php/8092420/mod_resource/content/1/pdfcookie.com_viktor-shklovsky-a-reader-alexandra-berlina-transl-viktor-shklovskypdf.pdf). Bloomsbury Publishing USA, 2017.
+
+Walker, Rob. [*The Art of Noticing: 131 Ways to Spark Creativity, Find Inspiration, and Discovery Joy in the Everyday.*](https://www.amazon.com/The-Art-of-Noticing-Rob-Walker-audiobook/dp/B07PWXYLGW). Alfred A. Knopf, New York, 2019.
