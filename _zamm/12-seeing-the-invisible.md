@@ -170,7 +170,7 @@ For many tasks, this might be fine. Let's say you're not a developer, and you wa
 ## Works cited
 
 
-Pirsig, Robert. [Zen and the Art of Motorcycle Maintenance: An Inquiry into Values](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0688002307. William Morrow & Company, Inc. New York: 1974, 1999. 25th Anniversary Edition.
+Pirsig, Robert. [Zen and the Art of Motorcycle Maintenance: An Inquiry into Values](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0688002307). William Morrow & Company, Inc. New York: 1974, 1999. 25th Anniversary Edition.
 
 Shklovsky, Viktor. [Viktor Shklovsky: A Reader](https://edisciplinas.usp.br/pluginfile.php/8092420/mod_resource/content/1/pdfcookie.com_viktor-shklovsky-a-reader-alexandra-berlina-transl-viktor-shklovskypdf.pdf). Bloomsbury Publishing USA, 2017.
 
