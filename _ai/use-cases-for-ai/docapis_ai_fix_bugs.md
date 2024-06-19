@@ -45,8 +45,6 @@ If this sounds familiar, welcome to the club. Making doc updates from an assortm
 
 Plus, once the engineers have resolved the bug, they've moved on to other work. If you ask them questions, they have to re-familiarize themselves with the bug's context as well. The user who complained was usually notified about the fix, and since no one else is making a fuss about the bug, the priority of the update fizzles. Tech writers also tend to focus most of their energy on documentation for the next release, not on bug fixes for existing code.
 
-{% include random_ad3.html %}
-
 ## Decomposing excellence into a thousand tiny fixes
 
 I'm just as guilty as focusing on docs for the next release as anyone. However, last week I had an interesting thought about bugs. One afternoon I wanted to know what our partner engineers focus on, so I started looking at all the bugs they've had in our ticket system. Reading through the tickets, I found that the partner engineers were mostly loaded with small bugs with the product, investigating causes and fixes. The extent of their workload seemed to consist of troubleshooting and fixing bugs, and being the interface between users and the product teams. 
@@ -75,8 +73,6 @@ If you can [supply a pattern based on the output you want](docapis_pattern_promp
 > A bug related to [X feature] was fixed. Previously, [X feature] was doing [Y]. The [X feature] was updated to produce [Z]. For more details, see [X feature].
 
 I haven't quite nailed the prompt here, as I'm still experimenting, but so far this has been helpful. In my experiences, the AI's summaries and other explanations give me confidence that I'm interpreting the bug correctly. I can also ask for simplified explanations if the AI summaries don't make sense.
-
-{% include random_ad4.html %}
 
 Note that even if AI provides a beautiful summary and resolution in the style of a release note or other format, it will likely need tweaking and adjustment. Plus, you have to figure out where to apply the update in the docs, and then graft in the update smoothly within the context around it. The AI tool won't do that for you. You might need to make updates across the docs on multiple pages. Searching for all the sections that need to be updated can be time consuming, as well as sharing links to previews to all those updated pages in a changelist that you review with developers. 
 

@@ -25,3 +25,7 @@ the scenario:
 - many bugs to sort through. an incoming river of bugs. no time to regularly read them.
 - your value comes when you align needed docs with partner needs. you want to be working on the thing that is highest priority for users
 - 
+
+
+
+{% include ads.html %}

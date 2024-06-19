@@ -63,8 +63,6 @@ After using this prompt, you can just paste in multiple similar-sounding sentenc
 <p>The app shows a screen that says...</p>
 </div>
 
-{% include random_ad3.html %}
-
 <div class="chat">
 <p>The user must opt into the terms...</p>
 
@@ -106,8 +104,6 @@ After using this prompt, you can just paste in multiple similar-sounding sentenc
 
 <p>Many vehicles drive on this road — for example, trucks and RVs.</p>
 </div>
-
-{% include random_ad4.html %}
 
 <div class="chat">
 <p>Enter your desired input into the form.</p>
@@ -196,8 +192,6 @@ After using this prompt, you can just paste in multiple similar-sounding sentenc
     channel button.
 </p>
 </div>
-
-{% include random_ad2.html %}
 
 You can see ChatGPT's responses to a lot of these prompts [here](https://chat.openai.com/share/28bbbc43-3fbc-468c-933d-5a5e8af7befd).
 

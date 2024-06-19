@@ -33,8 +33,6 @@ Glossaries become increasingly important when you have competing terms for the s
 
 In addition to helping users, a glossary can also help align writers with consistent terms. In these cases, the glossary is often called a "Terms list" (part of a style guide) and is light on definitions. Term lists make it easier to write. For example, when you no longer have to decide between "widget" or "component" when composing a sentence, it's easier to write.
 
-{% include random_ad3.html %}
-
 ## Using AIs for glossary work
 
 Given that compiling and maintaining glossaries can be time consuming, can we use AI to help us with glossaries? Maybe. Just as AIs are good at creating summaries, providing definitions might be one of AI's strengths. A definition is just a short summary of a concept. 
@@ -48,8 +46,6 @@ I've already written a couple of posts about using AI tools like ChatGPT to defi
 AI tools seem to excel at definitions because a definition fits the explanatory style these tools provide. Definitions aren't creative blog posts that need a balance of voice, personal experience, and unique argument. Definitions read better as plain, matter-of-fact explanations. 
 
 I also wrote a post titled [Using AI tools to look up words and provide mini-poems to help remember their meaning](https://idratherbewriting.com/2023/04/16/using-ai-tools-for-vocabulary-lookup/#tip-for-constructing-the-prompt). That post included rhyming poems to try to help me remember definitions of more common words. Again, AI tools were great with this. These tools saved me a ton of look-up time, and the poems (as bad as they were) made learning fun. By providing the pattern I wanted it to follow&mdash;a technique I described in [AI document engineering with pattern-based prompts](docapis_pattern_prompts.html)&mdash;ChatGPT populated all new terms into that same pattern and format. In this case, though, all the terms were commonly found in dictionaries. When writing API documentation, however, many of the terms are often specialized and company-specific.
-
-{% include random_ad2.html %}
 
 ## Experimenting with larger glossaries
 
@@ -106,8 +102,6 @@ Claude did an excellent job at the YAML formatting, as has been my experience wi
 After formatting the content in YAML, I replaced my [existing glossary YAML](https://github.com/tomjoht/tomjoht.github.io/blob/main/_data/glossary.yml). 
 
 I already had Liquid code that generates a glossary list from the YAML: [glossary_full.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_full.html). I wrote about my technique using this Liquid code to pull from the YAML source previously in my [API glossary topic](docapis_glossary_section.html), including how to pull the terms into Bootstrap tooltips and popups if desired. You can see the newly generated glossary list here: [Glossary](glossary.html).
-
-{% include random_ad4.html %}
 
 ## Glossary groups
 

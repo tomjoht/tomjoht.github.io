@@ -40,8 +40,6 @@ Summarizing even a 2,000 word topic into 100 words can be mentally taxing, as su
 
 To create summaries, I often make mini-outlines of the topic's key points and then try to integrate the various points into smooth-flowing sentences. It's not an easy task. 
 
-{% include random_ad2.html %}
-
 ## Rich input sources make good summaries possible
 
 Can AI chatbots help with summaries? Yes, AI tools excel at summaries partly because the input source (the content) is provided to the LLM. This makes them less likely to hallucinate. In contrast, when the AI tool has to draw upon its training of patterns across the Internet to create data, the chances of making bogus/spurious connections are much higher. 
@@ -53,8 +51,6 @@ With [Claude.ai](https://claude.ai), the input source length can be much larger 
 There's even a workaround if you have longer content requirements. To summarize lengthier material (> 60k words), chunk it up into pieces, then generate summaries of the pieces, then generate a summary of the summaries.
 
 For example, the comprehensive [PDF of my API course](https://www.buymeacoffee.com/learnapidoc/e/146076) (containing all chapters) is too long for Claude to process, as it's nearly 1,000 pages. Because of this, I've broken this content down into individual chapters, each under 10 MB in length (which is Claude's max PDF size). If you want to summarize all 1,000 pages, you could summarize each individual chapter, compile the chapter summaries, then ask an AI tool to summarize the chapter summaries. (More on this later on in this article.)
-
-{% include random_ad3.html %}
 
 ## Speed reading
 
@@ -92,8 +88,6 @@ Kevin Roose explains how he uses ChatGPT to simplify concepts:
 Kevin Roose and Casey Newton have a tech podcast called [Hard Fork](https://www.nytimes.com/column/hard-fork), which covers AI and other tech topics. It's my favorite podcast to listen to.
 
 Additionally, I often ask AI tools to provide concrete examples as a way of clarifying concepts. Reading 10 concrete examples of any concept usually clears it up. 
-
-{% include random_ad4.html %}
 
 ## Experimenting with summaries
 

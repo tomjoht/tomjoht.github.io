@@ -190,13 +190,9 @@ Here's a screenshot:
 
 Because I'd read the book, I could easily distinguish whether Claude's responses were on target. About 80% of the time or more, it was accurate&mdash;in part because I'd provided the AI with accurate input sources. My approach in compiling the discussion notes was to clarify and articulate the author's main arguments, and AI's responses made this easy.
 
-{% include random_ad3.html %}
-
 Could I do this same task myself, without relying on AI? Sure, in the same way I could calculate long-division by hand. It probably would have exercised more critical muscles in my brain to do so, but again, time is the issue.
 
 Overall, this process allowed me to quickly arrive at a good summary of the book's main arguments. I added some more discussion questions (not using AI) at the end of each section, and I was ready to go. The book club turned out to be one of the best of the year!
-
-{% include random_ad4.html %}
 
 ### Applying least-to-most prompts to thematic groupings
 
@@ -208,8 +204,6 @@ Following up thematic analysis with least-to-most prompts doesn't always make se
 * **FAQs**. You could use AI to synthesize/integrate the FAQ into the relevant topic. For example, ask the AI where the best place to add a detail about, says, service widget limitations would fit into the topic.
 * **Glossary items**. You could use AI to expand definitions of any poorly defined terms.
 * **Bugs**. You could use AI To describe the general bug trends for each high-level grouping, along with noted patterns for the bugs.
-
-{% include random_ad2.html %}
 
 ## Conclusion 
 

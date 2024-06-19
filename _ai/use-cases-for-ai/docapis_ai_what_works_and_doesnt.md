@@ -80,8 +80,6 @@ I've tried to make these use cases specific and concrete. If I could extrapolate
 * General coding
 * General explanations
 
-{% include random_ad3.html %}
-
 ## 10 scenarios where AI tools don't help much
 
 On the flip side, there are also scenarios where AI seems to a poor fit. Here are 10 examples:
@@ -111,8 +109,6 @@ Finally, to expand on the last point, going beyond training data is usually a ne
 
 Although outside the scope of tech writers' work, when it comes to creative content, AI tools also produce below-average content. In my experience, an AI can usually fix a problematic sentence or paragraph, rewriting it with more clarity, or maybe offer an explanation that provides more clarity. However, when you let its writing capabilities loose on a full-length article where personality, voice, and experience are interwoven as a personal essay, the result is subpar. That said, with the right prompting techniques, you can get decent results in places for specific needs. I've used Claude.ai to assist with some of the content in this article.
 
-{% include random_ad2.html %}
-
 ## Caveats and constant tool evolution
 
 It could be that I just haven't landed on the right approach to use AI in many scenarios. Or maybe better techniques will eventually surface in the rapidly evolving AI tools and apps. AI tools are rapidly changing and evolving. What may be true today might not apply tomorrow. 
@@ -132,8 +128,6 @@ When discussing AI with other tech writers, usually topics of copyright and ethi
 No, AI won't go away, and here's why: AI development is unlikely to slow significantly due to competitive pressures. Consider parallels to nuclear arms development. During WWII and the Cold War, the U.S. developed nuclear weapons technology motivated partly by fears of falling behind the nuclear programs of other countries (Germany, Russia). (This theme was partly explored in the recent film *Oppenheimer*.) Even though many physicists didn't want to build the bomb, they knew that if they didn't, another country would, so they had to build it.
 
 Similarly, if the U.S. restricts or slows AI development, they'll fall behind in the AI technology arms race. Imagine if federal regulations banned LLMs like ChatGPT, while China continued forward at breakneck-speed with AI development. A country that foregoes AI development in a competitive digital economy will likely fall behind in scientific, technological, and biological advancements. This is why I think AI is here to stay, despite the ethical questions and potential harm to content creators and copyright.
-
-{% include random_ad4.html %}
 
 ## The obsolescence regime argument
 

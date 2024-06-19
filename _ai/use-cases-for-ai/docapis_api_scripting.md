@@ -79,23 +79,17 @@ Due to the complexity of building and configuring files in reference generation 
 
 However, this puts the reference content in the engineer's domain, removing technical writers from the process. If technical writers don't participate in editing and crafting reference content for an API, they put themselves outside of the perhaps most valuable aspect of API documentation.
 
-{% include random_ad4.html %}
-
 Because reference content is high-value content, I prefer to get my hands dirty with field definitions, cross-references, identifying incomplete definitions, and so on. Here's a little-known secret about API technical writing: you don't have to be a developer to provide valuable input about language-specific API reference documentation, such as for Java or any other language. For the most part, a Java API provides various classes and methods that return data. The developers working with your API are primarily interested in the data that gets returned. Usually, the data in an API is poorly described. I rarely see developer questions about how to use the API's classes and methods; instead, developers ask for more details about the data. 
 
 In fact, with the prevalence of AI tools to explain code, general knowledge about working with a programming language is less needed. What's essential is the clarity of information about what's specific to your API. What's specific is the data the API returns, not the constructs and mechanics of the programming language and usage.
 
 If you want to be a key player with API documentation, you probably need to manage the building and publishing of the reference content. Maybe your company has a push-button system already in place. If so, great. Chances are, however, especially if you're working in a docs-as-code shop, there are probably custom processes all over the place, and scripts that manage it all. By creating your own shell scripts to automate part of the building and publishing of reference docs, you can stay involved as a key player with reference docs without losing bandwidth and energy in library building and publishing tasks.
 
-{% include random_ad3.html %}
-
 ## Another script-building example
 
 I was feeling pretty good about my first advanced shell script, so I started wondering what else I could do. I have another scenario that involves disambiguating between preview API documentation and current release documentation. I'd been generating two reference variants, but they were hard to distinguish in the developer portal. Could I write a script to identify specific pages in the preview (based on a diff of two table of contents), and then insert custom notes on those specific pages, and other notes for the release variant? 
 
 Again, I started proceeding line by line with the logic. It didn't take more than two afternoons before I'd finished the script. This one helped disambiguate the various outputs and insert custom notes. Although I'm sure developers could have done this, they're usually too involved in writing code to focus on the documentation. (In my experience, it's rare for engineers to sink time and energy into anything related to documentation, even if it involves coding build logic.)
-
-{% include random_ad2.html %}
 
 ## Blog example
 

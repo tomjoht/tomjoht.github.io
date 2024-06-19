@@ -31,8 +31,6 @@ As if documenting code for one project weren't enough, API technical writers mus
 
 Fortunately, you can use AI tools to learn code. AI tools can act like a friendly programming buddy who is sitting next to you, ready to explain anything you want, at whatever technical level you need. You can zero in on a specific question or broaden it out to increase your understanding from ground zero.
 
-{% include random_ad4.html %}
-
 ## An example: Learning Javadoc tags
 
 The other week I was trying to refamiliarize myself with all the [Javadoc tags](nativelibraryapis_javadoc_tags.html) I needed to know to make sure the Java project I was documenting was properly tagged. One area I specifically wanted to focus on was the `@link` tag. I prompted AI for a course on Javadoc tags: 
@@ -75,8 +73,6 @@ Again, the AI was able to provide information specific to my documentation-orien
 
 AI explained that field definitions are often encapsulated in another class. Now things were clicking and I started to understand the structure of the code I was documenting better. 
 
-{% include random_ad3.html %}
-
 What I appreciated most about the Javadoc course is that I could customize the content specific to my needs as a technical writer. Almost every book on Java I've ever read has been targeted for developers. There simply aren't books on Java written for technical writers. There might be a brief section on Javadoc nested within a gargantuan book that will take weeks to get through. And after making your way through the thick text or online course, do you ever get the answer to your documentation questions? Often not. Instead, using AI, I could go right to documentation-specific questions:
 
 <div class="chat">
@@ -106,8 +102,6 @@ Overall, this AI-generated Javadoc course probably took me an hour to get throug
 Whether you learn technical topics from AI, online courses, books, or other methods, the larger challenge is simply finding the time to do it. Chances are, you're busy as a technical writer, and you have an endless number of tickets and deadlines. You don't have time to carve out two hours a day for general tech learning. It takes a tremendous amount of discipline and long-term commitment to make your way through any learning endeavor.
 
 The larger skill needed is the long-term, relentless commitment to a learning regiment. If you can set aside even one hour during the day to learn, and do that consistently over not just weeks but months and years, that will help you be a successful technical writer. How exactly do you muster this discipline for learning? What approaches or systems actually work? 
-
-{% include random_ad2.html %}
 
 Here's what I've found that works best:
 

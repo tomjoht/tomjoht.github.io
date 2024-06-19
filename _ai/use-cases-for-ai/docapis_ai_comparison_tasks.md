@@ -416,8 +416,6 @@ Response:
 
 Claude did do a good job at identifying the errors I introduced. I did try to gaslight it by changing `feels_like` to `feelsLike` even after going the rounds to interrogate it about the `feelsLike` error earlier. 
 
-{% include image_ad_right.html %}
-
 Prompt:
 
 <div class="chat">

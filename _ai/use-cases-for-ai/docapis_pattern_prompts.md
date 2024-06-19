@@ -173,8 +173,6 @@ For fun, I also asked ChatGPT to merge the three lists of rules. Here's the outc
 
 Seems pretty good to me. Note that you don't want to be too wordy with the rules because you have limited tokens to pass. The more tokens the rules occupy, the less text you can process. Also, there's a balance between providing too little or too much information&mdash;both extremes can lead to poorer results.
 
-{% include random_ad3.html %}
-
 ### 3. Create a template
 
 The Good Docs Template Suite also has a template that accompanies each topic type (for the how-to, it's `template-how-to.md`). Copy this template into the following prompt to your AI language model:
@@ -230,8 +228,6 @@ Here's a similar template rendered from the [DITA Task topic](https://www.oxygen
 
 Coming up with these rules and templates shouldn't be too hard. The [Good Docs Project](https://thegooddocsproject.dev), DITA OASIS committees, style guides, and other groups have been meeting for years to come up with the rules and templates for technical writing. Plus, you have all the best practices listed in my API doc course (for example, see the [Conceptual documentation section](docconceptual.html)). Now all this hard work can be used to teach machines how to write documentation.
 
-{% include random_ad4.html %}
-
 ### 4. Assemble the instruction for the AI
 
 In this step, you'll pass information into an AI, such as ChatGPT, Bard, Claude, Poe, or another language model. (If you don't want to use ChatGPT or Bard, here's a long list of [alternatives](https://writesonic.com/blog/chatgpt-alternatives/).) 
@@ -264,8 +260,6 @@ To demo this process, let's say you're creating documentation about how to make 
 For this task, I used ChatGPT 4.0. You can [see the response here](https://chat.openai.com/share/2b317b7e-dc67-4906-9144-dcbc0f10d60e). I also pasted it into [Bard](https://bard.google.com/) and received a similar response (but Bard doesn't offer an easy way to share the link to the output).
 
 In looking at the output, I can see that the template might need to be modified in some ways. Also, this how-to task might not be as applicable to API documentation as other types of documentation. That said, the AI language models do a nice job of taking content and fitting into the shape and feel of documentation. Overall, this approach feels like the right way to do AI document engineering. The next steps might be to create rules and templates for all the documentation types listed above, providing them as a ready-made toolkit for writing documentation.
-
-{% include random_ad2.html %}
 
 ## Conclusion
 
