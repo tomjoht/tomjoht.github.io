@@ -58,8 +58,6 @@ I wanted to experiment with comparison tasks around responses to see how useful 
 
 Here is the scenario: as a tech writer, you're working with some API responses and you want to see if the responses match the documentation. Are there responses that you forgot to document, or responses that don't match the casing or spelling in the docs? Are there missing fields in the response that are mentioned in the docs, and which should be marked as optional?
 
-{% include random_ad3.html %}
-
 In this experiment, we'll use the [Forecast API](https://openweathermap.org/forecast16) from OpenWeatherMap, which is an API I've used elsewhere in this course. First, I created a Forecast API response [using Postman](docapis_postman.html). (I went over Postman earlier in the course.) As an alternative to Postman, or if you want to import this command into Postman, here's the [curl](docapis_make_curl_call.html) command to make the same call:
 
 ```
@@ -233,8 +231,6 @@ Response:
 <p>So in summary, some location specific fields under city and some daily temperature fields under list are missing from the actual JSON response when compared to the documentation.</p>
 </div>
 
-{% include random_ad2.html %}
-
 Prompt:
 
 <div class="chat">
@@ -381,8 +377,6 @@ Prompt:
 <div class="chat">
 <p>Now take a look at this new response. [PASTE OF NEW MODIFIED JSON RESPONSE]. Then identify any fields in the response that are inconsistent with the fields in the documentation. Pay attention to capitalization, casing, spelling, etc.</p>
 </div>
-
-{% include random_ad4.html %}
 
 Response:
 

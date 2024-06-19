@@ -41,8 +41,6 @@ The total diff you submit might be just a few changed lines, but here's what the
 * After spending an hour or two deciphering the needed update and interfacing with engineers through chat, the tech writer updates a few lines in the docs and sends the change out for review.
 * There's a bit of back and forth with the review, with engineers correcting and adding to the tech writer's updates before finally approving the updates and publishing the content.
 
-{% include random_ad2.html %}
-
 If this sounds familiar, welcome to the club. Making doc updates from an assortment of bugs isn't at the top of my favorite activities. I can't tell you how many times I've gathered up a long list of doc fixes needed based on bugs only to abandon them after a short while. The work is tedious and often doesn't have hard deadlines. 
 
 Plus, once the engineers have resolved the bug, they've moved on to other work. If you ask them questions, they have to re-familiarize themselves with the bug's context as well. The user who complained was usually notified about the fix, and since no one else is making a fuss about the bug, the priority of the update fizzles. Tech writers also tend to focus most of their energy on documentation for the next release, not on bug fixes for existing code.
