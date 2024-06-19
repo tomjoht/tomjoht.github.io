@@ -50,7 +50,7 @@ Before: `someElementName`
 After: [`someElementName`](/documentation/site/product/someElementName.html)
 ```
 
-Use markdown link syntax and root relative paths, starting with `/documentation/site/product/`.
+Use markdown link syntax and root relative paths, starting with `/`.
 
 Some links might not have direct paths for links. For these types of links, there is likely an ID tag in the table row. Use that ID tag for the link. For example: 
 
@@ -98,3 +98,5 @@ Now here's the HTML you'll need to find the corresponding links to the elements 
 </div>
 
 As you can see with this prompt, I've provided examples clarifying the syntax requirements I want the AI to follow. This level of clear instruction followed by examples tends to work well with prompts. 
+
+{% include ads.html %}

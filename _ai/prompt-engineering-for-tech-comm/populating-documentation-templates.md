@@ -14,8 +14,6 @@ rebrandly: https://idbwrtng.com/populating-documentation-templates
 
 In this tutorial, you'll learn how to use AI to populate documentation templates with information that you've gathered. This technique can be a quick way to get an initial draft of documentation, which you can then edit and review with SMEs.
 
-**Note**: This is a new technique I'm experimenting with. My thoughts and techniques may change over time here.
-
 {% if site.format == "web" %}
 * TOC
 {:toc}
@@ -33,11 +31,14 @@ From the myriad project documents you can find (one-pagers, product definitions,
 
 Most of all, generate the reference documentation for the API and include this in with your other material. Some reference outputs might have dozens of pages, making this complicated. If you have options for a more consolidated output, such as an RPC interface instead of REST, this might work better.
 
-### Documentation templates
+### Documentation templates (optional)
 
-You'll need documentation templates that match your company's existing structure and style. If you're working for a large company with many existing docs, you could follow common patterns in other company docs. If you don't have to match an existing structure and style, you can create your own templates, perhaps leveraging them from the [Good Docs project](https://thegooddocsproject.dev/) or by reverse engineering prompts from examples of good documentation. 
+Optionally, find some documentation templates that match your company's existing structure and style. If you're working for a large company with many existing docs, you could follow common patterns in other company docs. If you don't have to match an existing structure and style, you can create your own templates, perhaps leveraging them from the [Good Docs project](https://thegooddocsproject.dev/) or by reverse engineering prompts from examples of good documentation.
 
 In this tutorial, I'll use a template for an API overview. In addition to template sections, your template should ideally include example content for each section.
+
+{: .note}
+Note that you don't actually need templates. As much as I feel like templates should be a commonly used structure, I find that I rarely use them. Perhaps they're simply more for beginners. Instead, most information has its own, unique shape and sections. I'll share how to proceed with or without templates.
 
 ### A powerful AI tool
 
@@ -258,41 +259,12 @@ Is there any other material in the <span class="pVar">{Source Material}</span> t
 
 ## Verifying accuracy {#verifying_accuracy} 
 
-After you make your way through the entire template, you need to check for accuracy. However, this is the tricky part. How do you know if it's accurate or not? Unless you've read through the source material, you probably won't know. Follow these steps to review the content for accuracy:
+After you make your way through the entire template, you need to check for accuracy. However, this is the tricky part. How do you know if it's accurate or not? Unless you've read through the source material, you probably won't know. 
 
-### 1. Apply an accuracy check with another AI session {#accuracy_check} 
 
-Start a new AI session and use a prompt like this:
+### 1. Error check the output
 
-<div class="chat">
-<div markdown="1">
-You are an expert fact-checker. Your task is to ensure the accuracy of the <span class="pVar">{Documentation}</span>. The <span class="pVar">{Source Material}</span> is the authoritative source of truth.
-
-**Identify Errors:** Carefully compare the <span class="pVar">{Documentation}</span> against <span class="pVar">{Source Material}</span>. Look for the following types of errors:
-- **Factual Errors:** Any statements that contradict information in <span class="pVar">{Source Material}</span>.
-- **Invented Information (Hallucinations):** Details or concepts not explicitly present in <span class="pVar">{Source Material}</span>.
-- **Omissions:** Important information from <span class="pVar">{Source Material}</span> missing from <span class="pVar">{Documentation}</span>.
-- **Logical inconsistencies:** Contradictions or internal inconsistencies within the <span class="pVar">{Documentation}</span>.
-
-**Provide evidence:** For each error you identify, do the following:
-
-- Cite the specific section within <span class="pVar">{Documentation}</span> where the error occurs.
-- If possible, provide a quotation from the <span class="pVar">{Source Material}</span> that either refutes the error or highlights the missing information.
-- Offer a possible correction or suggestion for improved accuracy.
-
-**Example to get you started:**
-
-Let's say the <span class="pVar">{Documentation}</span> includes a statement like "The API supports real-time data streaming." If the <span class="pVar">{Source Material}</span> makes no mention of real-time capabilities, this would be an error (likely a hallucination).
-
-Here's the <span class="pVar">{Documentation}</span>
-
-**[PASTE THE DOCUMENTATION]**
-
-Here's the <span class="pVar">{Source Material}</span>
-
-**[PASTE THE SOURCE MATERIAL]**
-</div>
-</div>
+You can switch hats with the AI and ask it to check for errors. See the section [Error checking the AI output](/ai/prompt-engineering-error-checking.html) for a prompt and details.
 
 Keep in mind that you can't necessarily trust the AI's response. It's like listening to a liar who says he or she isn't lying. For example, if the LLM says that the content is all accurate, do you trust this judgement? Sometimes an LLM might also invent a discrepancy that isn't actually a discrepancy. However, this accuracy check is relatively easy to do and might be a way to flag possible inaccuracies, especially if you want an easy way to highlight potential grey areas for others to focus on.
 

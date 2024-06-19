@@ -178,3 +178,6 @@ As you generate the file diff, note that the AI will only list out the changes, 
 
 Also remember that reference documentation is limited to brief definitions, often written by engineers. If you're launching a new feature, you might need supporting conceptual documentation, code samples, and much more. But the release-notes-diff prompt I shared above will at least help you identify the changes and provide a readable form of a file diff. This can be the starting point for your release notes around which you can fill in more conceptual detail.
 
+## Next steps
+
+After you've generated a draft of your release notes, it's time to link all the code elements to their reference documentation. See [Automating the linking of code elements in documentation](/ai/automating-linking.html).

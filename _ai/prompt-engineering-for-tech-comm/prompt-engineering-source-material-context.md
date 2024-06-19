@@ -93,6 +93,12 @@ Each information deliverable can build on the one before it, allowing you lay th
 
 {% include ads.html %}
 
+### Changelist diffs -- a hidden goldmine for source material
+
+One of the best sources of information are changelist diffs that engineers commit. These can be a hidden source of information that you might skip over unknowingly. For example, let's say you're documenting a new feature. You see that an engineer committed a changelist for the feature that involves about a dozen files, either added, edited, or removed. You can grab the file diff for the commit, feed this into AI for a readable summary, and then add this to your source material. See [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html) for more details.
+
+The file diff will get you a more accurate representation of the code elements actually used. You can then use this file diff in [error checking](/ai/prompt-engineering-error-checking.html). Many internal documents may have preliminary or tentative code names and samples, which could mislead the AI as it writes the documentation. The file diff can provide a more definitive output.
+
 ### Fill in the gaps with meeting notes
 
 Chances are, the source material you gather won't have all the information. This is where you go out and manually gather that information by meeting with engineers. Record, transcript, and clean up the transcriptions with AI, then feed them into your body of source material, preferably near the beginning. Remember that one of the key functions tech writers play is with information gathering. We pull information out of engineers' heads. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](https://idratherbewriting.com/ai/prompt-engineering-summarizing-meeting-notes.html).
