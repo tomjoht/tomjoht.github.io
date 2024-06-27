@@ -13,11 +13,11 @@ The guiding principle when documenting almost any system is to identify the user
 
 Here's a simple example to illustrate. My daughter recently bought a book on drawing simple cartoon characters, and as I watched her draw one of the exercises, I noticed the instructional approach in the book was pretty similar to techniques in documentation.
 
-{% include course_image.html filename="simplifying-complexity/dogman_process" ext_print="jpg" ext_web="jpg" alt="Dogman" caption="Drawing Dogman" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/dogman_process.jpg" alt="Dogman"><figcaption>Drawing Dogman</figcaption></figure>
 
 Here she's learning to draw "Dog Man." To simplify the task of drawing Dog Man, the author has broken the process out into "28 ridiculously easy steps":
 
-{% include course_image.html filename="simplifying-complexity/dogman_instructions" ext_print="jpg" ext_web="jpg" alt="Instructions for drawing Dogman" caption="Instructions for drawing Dogman" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/dogman_instructions.jpg" alt="Instructions for drawing Dogman"><figcaption>Instructions for drawing Dogman</figcaption></figure>
 
 If you were to just show a picture of Dog Man and say, "Here's what you need to draw," the user (in this case, a small child) might get confused. So, to make it easier, we break down the process into little individual steps. Steps are how we initially simplify anything that's complex. Taken as a whole, a system might be impenetrable and confusing. So we break it into smaller components that are more understandable and approachable in scope.
 
@@ -31,7 +31,7 @@ How many steps do we break complex systems down into? Often the more you want to
 
 But this level of granularity wasn't needed here. My daughter was able to successfully follow the steps and draw Dogman:
 
-{% include course_image.html filename="simplifying-complexity/dogman_final_result" ext_print="jpg" ext_web="jpg" alt="Drawing Dogman final result" caption="Drawing Dogman final result" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/dogman_final_result.jpg" alt="Drawing Dogman final result"><figcaption>Drawing Dogman final result</figcaption></figure>
 
 If the procedure weren't broken down into these individual steps, she might not have been as successful. Steps are an ingenious way to take something complicated and make it simpler and more practical. The same process scales to nearly anything.
 
@@ -71,25 +71,25 @@ I imagine each of these tasks has quite a lot of detail, such that each task wou
 
 To link multiple tasks (described on separate pages) together, you can embed a map at the top of each page, like this:
 
-{% include course_image.html filename="simplifying-complexity/simplifying-complexity/simplifying_complexity_bicycleassembly" ext_print="svg" ext_web="svg" alt="Drawing Dogman final result" caption="Drawing Dogman final result" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/simplifying_complexity_bicycleassembly.svg" alt="Drawing Dogman final result"><figcaption>Drawing Dogman final result</figcaption></figure>
 
 Each individual page shows this map, orienting the user in the larger process while also allowing him or her to focus on the specifics of each task.
 
 Here are some example maps in recent projects I've worked on. When creating your Amazon Creator app, you follow these three steps:
 
-{% include course_image.html filename="simplifying-complexity/map-amazon-creator" url="https://creator.amazon.com/documentation/ac/create-your-app.html" ext_print="png" ext_web="png" alt="Amazon Creator Map" caption="Amazon Creator Map" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/map-amazon-creator.png" alt="Amazon Creator Map"><figcaption>Amazon Creator Map</figcaption></figure>
 
 When integrating Login with Amazon into your app, you follow these steps:
 
-{% include course_image.html filename="simplifying-complexity/map-lwa" url="https://developer.amazon.com/docs/login-with-amazon/register-web.html" ext_print="png" ext_web="png" alt="Login with Amazon map" caption="Login with Amazon map" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/map-lwa.png" alt="Login with Amazon map"><figcaption>Login with Amazon map</figcaption></figure>
 
 When submitting an app into the Amazon Appstore, you follow these steps:
 
-{% include course_image.html filename="simplifying-complexity/map-app-submission" url="https://developer.amazon.com/docs/app-submission/publish-app-login-and-add-app.html" ext_print="png" ext_web="png" alt="App Submission map" caption="App Submission map" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/map-app-submission.png" alt="App Submission map"><figcaption>App Submission map</figcaption></figure>
 
 When downloading and configuring Fire App Builder, you follow these steps:
 
-{% include course_image.html filename="simplifying-complexity/map-fire-app-builder" url="https://developer.amazon.com/docs/fire-app-builder/end-to-end-process.html" ext_print="png" ext_web="png" alt="Fire App Builder map" caption="Fire App Builder map" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/map-fire-app-builder.png" alt="Fire App Builder map"><figcaption>Fire App Builder map</figcaption></figure>
 
 {: .tip}
 I'll jump into more technical detail for creating these maps (such as using CSS versus SVG) in a later tutorial. For the simple CSS approach, see [Examples of linear workflow user maps built with JS and CSS](/2016/05/30/building-a-workflow-user-map-with-css-and-js/).
@@ -106,7 +106,7 @@ However, part of the technique of documentation is to create the *illusion of a 
 
 For example, with the Appstore Submission map above, you don't actually have to proceed in that order. After completing the first tab in the submission console, you can complete the other steps in any order you like. Here's what the submission console for the Appstore looks like:
 
-{% include course_image.html filename="simplifying-complexity/submissionconsole" url="https://developer.amazon.com/docs/fire-app-builder/end-to-end-process.html" ext_print="png" ext_web="png" alt="Appstore submission console" caption="Appstore submission console" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/submissionconsole.png" alt="Appstore submission console"><figcaption>Appstore submission console</figcaption></figure>
 
 You could upload your app files first, then complete the content rating, and so on. As long as you complete the required information on each tab, you're fine.
 
@@ -122,11 +122,11 @@ Let's enlarge the scale a bit more. First, we looked at a single task with steps
 
 With the Fire App Builder app, I previously showed the map for downloading and customizing the app. That's only the starting point. Afterwards, there are other maps to follow, such as Configuring Your Feed, Customizing the Appearance, and Adding Components.
 
-{% include course_image.html filename="simplifying-complexity/fab-process-maps" url="https://developer.amazon.com/docs/fire-app-builder/end-to-end-process.html" ext_print="png" ext_web="png" alt="Multiple process maps" caption="Multiple process maps" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/fab-process-maps.png" alt="Multiple process maps"><figcaption>Multiple process maps</figcaption></figure>
 
 Theoretically, I could have made one long, linear map, like this:
 
-{% include course_image.html filename="simplifying-complexity/simplifying_complexity_complextask" ext_print="svg" ext_web="svg" alt="Long linear map" caption="Long linear map" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/simplifying_complexity_complextask.svg" alt="Long linear map"><figcaption>Long linear map</figcaption></figure>
 
 However, while this map might be more accurate, its effect is the same as a single task that has 45 individual steps. Designer Tom Wujec says that when you have too many nodes and links (objects and connections between those objects), you give users a sense of "mapshock." He says the average "systems map" (a drawing that shows nodes and links) has between 4 and 8 nodes:
 
@@ -134,7 +134,7 @@ However, while this map might be more accurate, its effect is the same as a sing
 
 Here's a sample image from Wujec's presentation. He regularly gives groups the exercise of explaining how to make toast.
 
-{% include course_image.html url="https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast#t-134894"  filename="simplifying-complexity/systemsmodel" ext_print="png" ext_web="png" alt="How to make toast" caption="How to make toast" %}
+<figure><img class="docimage 5 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/systemsmodel.png" alt="How to make toast"><figcaption>How to make toast</figcaption></figure>
 
 Wujec believes that groups should collaboratively visualize their processes in a systems design like this (but through sticky notes which can easily be moved around and regrouped). When they do it in an iterative fashion (meaning they adjust and fix and keep moving the notes around during multiple cycles of analysis), they achieve clarity, engagement, and alignment in their process. They might identify problems that were often not previously perceived. (See [An Introduction to Systems Thinking and Wicked Problem Solving™](https://www.drawtoast.com/) for more details.)
 
