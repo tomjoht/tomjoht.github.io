@@ -1,19 +1,18 @@
 ---
-title:  "Automating the linking of code elements in documentation"
+title:  "Automate links in your release notes using AI"
 permalink: ai/automating-linking.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-06-16
+last-modified: 2024-06-25
 rebrandly: https://idbwrtng.com/automating-linking
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-
-The previous post's focus was on creating release notes. See [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html). In this article, I'll explain how to use AI to link all the code elements, often referenced in release notes and other documentation, to their appropriate reference documentation.
+The previous post's focus was on creating release notes. See [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html). In this article, you'll learn how to use AI to link all the code elements, often referenced in release notes and other documentation, to their appropriate reference documentation. The technique basically involves providing your reference documentation in HTML form along with instructions to link all the code elements in Markdown syntax.
 
 ## Why link code elements in release notes?
 
@@ -21,18 +20,18 @@ First, let's provide a few reasons why links to reference material are a good id
 
 * **Provides a check against hallucination.** You can click each link to verify the information. You can toggle between preview/staging sites and production to see if the release notes are accurate.
 * **Links prompt accuracy with code element names.** By going to the code, you can ensure that the link names in the release notes match up with the link names in the docs.
-* **Provides more credibility to the information.** Release notes with links simply look more authoritative. It's like providing citations for the assertions in documentation.
+* **Provides more credibility to the information.** Release notes with links simply look more authoritative. They're like providing citations for the assertions in documentation.
 * **Broken links can indicate change.** Broken links at a later date can give an indication that something has changed. Yes, broken links are annoying. But they're kind of a nice way of surfacing notifications that some undetected change may have occurred.
 * **Links are helpful to users.** Reference information can be hard to navigate as you strive to find the right information. Users can easily click a link for more information, without having to navigate the reference.
 * **Reduces the likelihood of information duplication.** By pointing users to the reference source, you can get comfortable with referring to field definitions in the reference instead of duplicating the same definitions on conceptual pages.
 
 ## Gathering up the HTML source
 
-For AI to find the links, you need to gather up all the HTML references pages relevant for the AI to search through. Collecting this HTML can be tedious for reference documentation that has a lot of pages. If you have an RPC output, the reference is much more consolidated. But if it's a Javadoc, you might have 50-100 pages, which is impractical to collect manually.
+For AI to find the links, you need to gather up all the HTML reference pages relevant for the AI to search through. Collecting this HTML can be tedious for reference documentation that has a lot of pages. If you have an RPC output, the reference is much more consolidated. But if it's a Javadoc, you might have 50-100 pages, which can be tedious to collect manually.
 
 You could write a script (using a language like Python) to gather up all pages within a directory and combine them into a single consolidated file, including the paths and names for each file as well as their URLs. However, scripts can also lead to over-collecting information, which can balloon the token count unnecessarily and potentially include a lot of noise for the AI to sift through.
 
-However, you approach the collection of your reference content, you simply need to do it. Otherwise, the AI won't have a source for finding the links. (Just pointing AI to some web links for the information usually doesn't work.)
+However you approach the collection of your reference content, you simply need to do it. Otherwise, the AI won't have a source for finding the links. (Just pointing AI to some web links for the information usually doesn't work.)
 
 ## Prompt
 
