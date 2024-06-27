@@ -12,7 +12,7 @@ rebrandly: https://idbwrtng.com/automating-linking
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-The previous post's focus was on creating release notes. See [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html). In this article, you'll learn how to use AI to link all the code elements, often referenced in release notes and other documentation, to their appropriate reference documentation. The technique basically involves providing your reference documentation in HTML form along with instructions to link all the code elements in Markdown syntax.
+The previous post's focus was on creating release notes. See [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html). In this article, you'll learn how to use AI to link all the code elements, often referenced in release notes and other documentation, to their appropriate reference page. The technique basically involves providing your reference documentation in HTML form along with instructions to link all the code elements in Markdown syntax.
 
 ## Why link code elements in release notes?
 

@@ -150,6 +150,8 @@ Used as a research tool, AI can point you to larger themes, philosophies, and id
 
 I want to add that I'm referring here to *creative works*, not to expository business writing or technical writing. I work as a technical writer creating API reference documentation. While there can be a sense of fulfillment and purpose in articulating the parameters and responses of an API request, more often than not, this type of writing (creating documentation) is in another genre and category — one where I welcome AI tools.
 
+{% include ads.html %}
+
 ## Pirsig's <i>Zen and the Art of Motorcycle Maintenance</i>
 
 Let's look at one more facet of this idea (unique ways of seeing). This final facet will explain the need to unsee, or rather to see past assumptions and previous training or rationalist thinking, as you solve problems.
