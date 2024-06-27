@@ -1,25 +1,30 @@
 ---
-title: "Seeing the invisible details"
-permalink: /zamm/seeing-the-invisible.html
-last-modified: 2024-06-16
+title: "Seeing invisible details and avoiding predictable, conditioned thought"
+permalink: /zamm/seeing-invisible-details-avoiding-predictable-thought.html
+last-modified: 2024-06-26
 categories:
 # - podcasts
 - technical-writing
 keywords: 
 rebrandly: https://idbwrtng.com/importance-of-using-right-tools
-description: "In this section, I explore the idea of seeing the the unseen aspects of things. I discuss several authors on this topic: Rob Walker, an art critic; Viktor Skhlovsky, Russian formalist literary critic; and Robert Pirsig, a philosophy-minded fiction writer who ties in eastern and western themes."
+description: "In this essay, I explore the idea of seeing the unseen aspects of things. I discuss several authors on this topic: Rob Walker, an art critic; Viktor Shklovsky, Russian formalist literary critic; and Robert Pirsig, author of <i>Zen and the Art of Motorcycle Maintenance</i>. My main point is to avoid predictable, conditioned thought by pausing to ask questions about our experiences and the environment around us. In a world where prediction algorithms constantly direct us toward the most likely next word, pushing back and embracing creative ways of seeing and intepreting the world can inject new ideas and perspectives in ways that rejuvenate us."
 image: righttypeofconewrench.jpg
 series: "Zen and the Art of Motorcycle Maintenance"
 sidebar: sidebar_zamm
 section: peaceofmind
-path1: smartphones/peaceofmind.html
+path1: zamm/peaceofmind.html
 ---
 
-In this chapter, I want to articulate an idea that I've been thinking about for some time. I'm not sure exactly how this idea fits in with zen and being present and mindfulness, but it does. This idea is something that has changed me, including the way I feel, at times, about the things around me, more than almost anything else.
+* TOC
+{:toc}
+
+## Introduction
+
+In this essay, I want to articulate an idea that I've been thinking about for some time. I'm not sure exactly how this idea fits in with zen and being present and mindfulness, but it does. This idea is something that has changed me, including the way I feel, at times, about the things around me, more than almost anything else.
 
 The idea is this: Pause and look at familiar things in unfamiliar ways. I specifically try to find *three* questions I can ask. What I examine could be an experience, something said, my environment, a circumstance, a problem I'm solving, something I see, or experience — any aspect of life. Instead of going with my immediate reaction and response, I stop and ask a few questions about it. The questions will prompt me to pause just enough to start seeing it in an unfamiliar light, sometimes as if seeing it for the first time.
 
-## The Art of Noticing
+## Walker's <i>The Art of Noticing</i>
 
 This technique isn't new. It ties in with a larger act of *noticing,* such as that articulated in Rob Walker's recent book *The Art of Noticing*. The basic idea is to notice what you didn't see before. Give attention to something, even as familiar as it is. When you look at or consider the thing, ask questions. The questions will almost always prompt a different perspective, even on familiar things.
 
@@ -145,7 +150,7 @@ Used as a research tool, AI can point you to larger themes, philosophies, and id
 
 I want to add that I'm referring here to *creative works*, not to expository business writing or technical writing. I work as a technical writer creating API reference documentation. While there can be a sense of fulfillment and purpose in articulating the parameters and responses of an API request, more often than not, this type of writing (creating documentation) is in another genre and category — one where I welcome AI tools.
 
-## Zen and the Art of Motorcycle Maintenance
+## Pirsig's <i>Zen and the Art of Motorcycle Maintenance</i>
 
 Let's look at one more facet of this idea (unique ways of seeing). This final facet will explain the need to unsee, or rather to see past assumptions and previous training or rationalist thinking, as you solve problems.
 
@@ -174,6 +179,12 @@ The narrator elaborates:
 Bringing the discussion back to AI, if we troubleshoot using prediction machines, the solutions we conceive of will be predictable, cliché, and formulaic. They will be the obvious attempts from mediocre thinking. We'll end up putting our foot into the same set of footprints to trod the same worn paths, leading to the same dead-end destinations.
 
 For many tasks, this might be fine. Let's say you're not a developer, and you want a simple script to achieve some perfunctory task. There's no harm in having AI create the most predictable, obvious solution — especially if this solution is foreign to you. But if you're an expert in your field, looking to innovate, this kind of predictable thinking may only lead you to dead ends. You need to clear away assumptions so that you can, as Shklovsky says, trace new paths.
+
+## Conclusion
+
+I know I've covered a lot of ground in this essay. To sum things up, Walker argues that we have to learn to notice our environment using techniques to change our conventional ways of seeing and observing. Shklovsky argues that language becomes dead unless we inject new metaphors and phrases, resurrecting words with new language. Pirsig argues that our many assumptions occlude our understanding of problems we want to solve.
+
+The larger point is that we can change what we see, experience, understand, etc., about the world around us, but doing so isn't easy. We have to pause and ask questions, avoid relying too much on machines that only tell the most predictable answers, and actively work to avoid automatically embracing anticipated, conditioned points of view. As more of our life becomes directed by prediction algorithms, these techniques help us retain what makes us creative humans.
 
 ## Works cited
 
