@@ -79,3 +79,6 @@ folders:
 
   - title: "Automate links in your release notes using AI"
     jurl: /ai/automating-linking.html
+
+  - title: "Using long-token contexts to quality check an entire API doc set"
+    jurl: /ai/prompt-engineering-entire-doc-set-prompts.html
