@@ -126,7 +126,7 @@ Currently, Gemini has the longest context input, allowing 1 million tokens, whic
 
 Given that the output is a massive list of reference material, it might help to provide a high-level map to the AI input as well. Earlier in this series I explained how to create tree diagrams from API reference. You could pass this tree diagram in as well, or you could simply use the “tree” command in your Linux terminal to get a high-level diagram of your content. Or perhaps you could use your table of contents as a way to provide a map. I'm not sure it matters, but a more high-level map for the consolidated reference content could be helpful to assist the AI in understanding your reference content.
 
-## Quality check prompts
+## Quality control prompts
 
 Now that you have an entire reference doc set in one file, you can paste it into an AI tool with long context. Keep in mind a few notes when pasting in long context: 
 
