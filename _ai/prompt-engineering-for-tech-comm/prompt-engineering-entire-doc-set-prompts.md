@@ -139,7 +139,7 @@ Consider that each query in your session will have to look through all tokens yo
 Despite the issues with long-token inputs, the results are phenomenal and game-changing. Let's look at a few scenarios.
 
 {: .note}
-Note: Many of the following prompts are AI-assisted and experimental. I'm still exploring and tweaking these approaches, so let me know if you have feedback on them.
+Many of the following prompts are AI-assisted and experimental. I'm still exploring and tweaking these approaches, so let me know if you have feedback on them.
 Structure these quality controls at release points
 
 Here are 10 quality controls you can implement at each release. One strategy I'm still exploring is whether to examine one user guide topic at a time or multiple or even the whole user guide (that is, all non-reference topics) in a single prompt. I find that for some products, if I pass in both the entire user guide and the entire reference content, I exhaust my word limit. 
@@ -163,7 +163,7 @@ You're a documentation specialist tasked with ensuring consistency between user 
 
 **Output:** 
 
-Provide a detailed report of inconsistencies, indicating what the discrepancy is, where it appears in the user guide, and other relevant details.
+Provide a detailed report of inconsistencies, indicating what the discrepancy is, where it appears in the user guide, and other relevant details. When noting issues, indicate the file names where you find the issues.
 
 **Reference material:** 
 
@@ -201,7 +201,7 @@ Analyze the user guide content and identify any broken or incorrect links that p
 
 **Output:**
 
-Provide a detailed report of any broken or incorrect links. Indicate the user guide link text, the corrected reference link, or other details about the discrepancies.
+Provide a detailed report of any broken or incorrect links. Indicate the user guide link text, the corrected reference link, or other details about the discrepancies. When noting issues, indicate the file names where you find the issues.
 
 **Reference material:** 
 
@@ -244,7 +244,7 @@ Thoroughly examine the provided content for any instances of broken or inconsist
 
 **Output:**
 
-Provide a detailed report of all formatting errors, indicating the error, where the problematic text is, and your suggested fix.
+Provide a detailed report of all formatting errors, indicating the error, where the problematic text is, and your suggested fix. When noting issues, indicate the file names where you find the issues.
 
 **Reference material:** 
 
@@ -273,7 +273,7 @@ Analyze the code samples in the user guide and identify any discrepancies or pot
 
 **Output:**
 
-Provide a detailed report of any discrepancies or potential inaccuracies found in the code samples. Indicate the location of the code snippet, the discrepancy, and the proper reference material if applicable.
+Provide a detailed report of any discrepancies or potential inaccuracies found in the code samples. Indicate the location of the code snippet, the discrepancy, and the proper reference material if applicable. When noting issues, indicate the file names where you find the issues.
 
 **Reference material:** 
 
@@ -309,7 +309,7 @@ Carefully examine the provided tree diagram and compare its structure and elemen
 
 **Output:**
 
-Provide a detailed report of any discrepancies or inaccuracies found in the tree diagram. Indicate areas in the diagram that are problematic and what your suggested fixes are.
+Provide a detailed report of any discrepancies or inaccuracies found in the tree diagram. Indicate areas in the diagram that are problematic and what your suggested fixes are. When noting issues, indicate the file names where you find the issues.
 
 **Reference material:** 
 
@@ -342,7 +342,7 @@ Note: Reference material is the source of truth.  Always defer to the spelling, 
 
 **Output:**
 
-Provide a detailed report of all identified errors, indicating where the problems occur, the problematic text, and your suggested fixes.
+Provide a detailed report of all identified errors, indicating where the problems occur, the problematic text, and your suggested fixes. When noting issues, indicate the file names where you find the issues.
 
 **Reference material:** 
 
