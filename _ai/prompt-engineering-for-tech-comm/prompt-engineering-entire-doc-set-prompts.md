@@ -16,23 +16,27 @@ rebrandly: https://idbwrtng.com/prompt-engineering-entire-doc-set-prompts
 * TOC
 {:toc}
 
-One of the advantages of recent Gen AI updates is the massive token input context. When you can pass in an entire set of documentation as an input, you have a much stronger possibility for powerful prompts. In this article, I'll share some prompts you can use that deal with entire doc sets as inputs.
+One of the advantages of recent Gen AI updates is the massive token input context. When you can pass in an entire set of documentation as an input, you have a much stronger possibility for powerful prompts. In this article, I'll share some prompts you can use that deal with entire doc sets as inputs, as well as explain some of the challenges in passing in an entire doc set.
 
 ## Reference material is the source of truth
 
-The reference docs can serve as a key source of truth in your prompts. User guide content and drift out of date, but a freshly generated reference doc should be accurate to the code base, for the most part. This is why it's vital that you generate the reference material: it gives you a source of truth. From this source of truth, you can do all sorts of things, such as identify outdated content in the user guide, see what's new between outputs, get links in your release notes, and more. For strategies on generating your reference docs, see Creating scripts to automate doc build processes.
+First, let me explain a bit of the strategy. For the best outcomes with AI tools, you need a source of truth. The reference docs can serve as a key source of truth in your prompts, providing a list of classes, methods, etc., against which the AI output can be verified. User guide content and drift out of date, but freshly generated reference documentation should be accurate to the code base, for the most part. This is why it's vital that you generate the reference material: it gives you a source of truth.
+
+From this reference documentation, you can do all sorts of things, such as identify outdated content in the user guide, see what's new between outputs, get links in your release notes, ask AI to fact check your user guide content, and more. For strategies on generating your reference docs, see [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html).
 
 ## Get all your reference docs in a single file
 
-First, you need to develop a script that will get the content from all your reference docs into a single file. For example, let's say you're working with an API that has 100 reference pages. You need to write a script that will go through those 100 files, get the content, and put it into a single output file. You can then pass this output file into your AI tool (assuming it supports long token context for input) and use it as a source of truth for your prompts.
+You could manually gather all your reference content by copying and pasting from each file, but that will likely get tedious quickly. For efficiency, develop a script that will get the content from all your reference docs into a single file in a few clicks. 
 
-Rather than share a specific script to gather all reference content, I'll share a prompt that will likely lead you to developing a script. The language you use, the approach you take, etc., will vary based on your docs.
+For example, let's say you're working with an API that has 100 reference pages. Develop a script that will go through those 100 files, get the content, and put that content into a single output file. You can then pass this output file into your AI tool (assuming it supports long token context for input) and use it as a source of truth for your prompts.
+
+The script you use to gather and consolidate this prompt will vary based on the doc system, capabilities available, environment, folder structure, and more. Rather than share a specific script to gather all reference content, here's a prompt that will likely lead you to developing a script.
 
 <div class="chat">
 <div markdown="1">
 You're designing a shell script for a text file processing system. Your script needs to combine multiple text files from a source directory into a single, large output file. To handle potentially very large files, the script should have the ability to split files into smaller chunks during processing and then merge those chunks into the final output.
 
-Here is the basic structure and comments for the script. Develop this pseudocode into a real script.
+Here's the basic structure and comments for the script. Develop this pseudocode into a real script.
 
 ```bash
 #!/bin/bash
@@ -81,13 +85,13 @@ echo "File processing complete! Please allow a few moments for the final output 
 </div>
 </div>
 
-Test your script against your documentation to make sure it's working. If shell scripting isn't available to you, try Python. If your content is in a database, you'll need to use a database language of some kind. Again, I kept this part generic because there are many different documentation systems and languages. Also, sharing code tends to be more sensitive than sharing prompts.
+Test your script against your documentation to make sure it's working. If shell scripting isn't available to you, try Python. If your content is in a database, you'll need to use a database language of some kind. Again, I kept this part generic because there are many different documentation systems and languages.
 
 ## Variables in your script for other docs
 
-I recommend creating a common base script that can work with various doc sets, with just a few tweaks of some variables. For example, the same core script should be able to consolidate docs for product A, product B, product C, etc, just by changing some variables on the input. This way if you tweak your core logic, you only have a single script to update. 
+I recommend creating a common base script that can work with various doc sets, with just a few tweaks of some variables. For example, the same core script should be able to consolidate docs for product A, product B, product C, etc, in separate files, just by changing some variables on the input. This way if you tweak your core logic, you have only a single script to update. 
 
-For example, suppose you've already developed your core script to get and consolidate file content. Now create a list of different shell scripts to fire off different parameters for different docs. If there are three inputs after the script, so you can run your script like this:
+For example, suppose you've already developed your core script to get and consolidate file content. Now create a list of different shell scripts to fire off different parameters for different docs. If there are three inputs after the script, you can run your script like this:
 
 File name: `productAdocs.sh`
 
@@ -97,10 +101,10 @@ source_dir="path/to/your/doc/sourceA"
 output_dir="path/to/your/doc/outputA"
 output_file="outputfilenameA.html"
 
-bash path/to/your/common/script.sh "$source_dir" "$output_dir” “$output_file"
+bash path/to/your/common/script.sh "$source_dir" "$output_dir" "$output_file"
 ```
 
-Then another shell script, for example, productBdocs.sh could look as follows:
+Then another shell script, for example, `productBdocs.sh`, could look as follows:
 
 File name: `productBdocs.sh`
 
@@ -110,21 +114,31 @@ source_dir="path/to/your/doc/sourceB"
 output_dir="path/to/your/doc/outputB"
 output_file="outputfilenameB.html"
 
-bash path/to/your/common/script.sh "$source_dir" "$output_dir” “$output_file"
+bash path/to/your/common/script.sh "$source_dir" "$output_dir" "$output_file"
 ```
 
-Give permissions to execute the shell scripts with chmod:
+Now if you want to enhance your script, you won't have half a dozen copies to update.
+
+One last detail. Give permissions to execute the shell scripts with `chmod`:
 
 * `chmod +x path/to/your/common/script.sh`
 * `chmod +x /path/to/productBdocs.sh`
 
 ## Running into word limits
 
-Currently, Gemini has the longest context input, allowing 1 million tokens, which works out to about 700,000 words. If your docs are longer than this, you might exceed the token input. Even with a million tokens of input, you will find that a sizable API, along with all the HTML tags, consumes a lot of those tokens, if not all. If you're working with a large API, you might need to break up your output into smaller chunks.
+Currently, Gemini has the longest context input, allowing 1 million tokens, which works out to about 700,000 words. If your docs are longer than this, you might exceed the token input. 
+
+Even with a million tokens of input, you will find that a sizable API, along with all the HTML tags, consumes a lot of those tokens, if not all. If you're working with a large API, you might need to break up your output into smaller chunks.
+
+I thought that for sure, a million tokens would be enough for any API I'm working with. I'm not working with *War and Peace* amounts of content in each API. Yet surprisingly, I find that those tokens get maxed out pretty easily.
 
 ## Supplementing the output with a high-level map
 
-Given that the output is a massive list of reference material, it might help to provide a high-level map to the AI input as well. Earlier in this series I explained how to create tree diagrams from API reference. You could pass this tree diagram in as well, or you could simply use the “tree” command in your Linux terminal to get a high-level diagram of your content. Or perhaps you could use your table of contents as a way to provide a map. I'm not sure it matters, but a more high-level map for the consolidated reference content could be helpful to assist the AI in understanding your reference content.
+Despite the ease of developing a script that gets all your reference material in a few clicks, consider whether AI be able to make sense of the material. Imagine if you gathered up a list of alphabetized pages and passed it to a human to read from start to finish. Chances are, it would be a real challenge for the person to make sense of this content. Just as humans interpret content and surroundings best by starting with a macro view before consuming micro details, AI tools might work the same way.
+
+I say *might* because I'm not entirely sure. In my experience passing in entire reference documentation like this, sometimes the AI seems to process and understand it well, and other times not. It might help to provide a high-level map to the AI input. 
+
+Earlier in this series I explained how to [create tree diagrams from API reference](/ai/prompt-engineering-task-decomposition.html). You could pass this tree diagram in as well the reference, or you could simply use the "tree" command in your Linux terminal to get a high-level diagram of your content. Or perhaps you could use your table of contents as a way to provide a map. I'm not sure it matters, but a more high-level map for the consolidated reference content could be helpful to assist the AI in understanding your reference content.
 
 ## Quality control prompts
 
@@ -136,17 +150,23 @@ Now that you have an entire reference doc set in one file, you can paste it into
 
 Consider that each query in your session will have to look through all tokens you pass on the input with each query &mdash; it's not just a one-time paste of a million tokens, but each question you ask the AI chat in the session will look through the previous input (the million tokens) to formulate the answer. 
 
-Despite the issues with long-token inputs, the results are phenomenal and game-changing. Let's look at a few scenarios.
+Additionally, if you pass in 700,000 tokens of noise and only 10,000 relevant tokens, the AI tool might not find the relevant content as easily, or all the noise might distort the processing and output. Having all your reference docs at your fingertips in one click can seem like it would be an incredible convenience, but the due diligence effort to manually curate the input often forces you to be more selective and precise about the content. So there are tradeoffs. 
+
+Nonetheless, it's so convenient to have all your reference docs in one file, I still recommend this approach. Some of the prompts most suitable could be looking at the content as a whole, especially quality-control prompts.
+
+Let's look at a few scenarios.
 
 {: .note}
 Many of the following prompts are AI-assisted and experimental. I'm still exploring and tweaking these approaches, so let me know if you have feedback on them.
 Structure these quality controls at release points
 
-Here are 10 quality controls you can implement at each release. One strategy I'm still exploring is whether to examine one user guide topic at a time or multiple or even the whole user guide (that is, all non-reference topics) in a single prompt. I find that for some products, if I pass in both the entire user guide and the entire reference content, I exhaust my word limit. 
+Here are 10 quality controls you can implement at each release. 
 
 Also, some content, like older release notes that have a lot of deprecated or changed element names, appear as false positives in the results much more frequently. It's harder to evaluate and deal with long lists of discrepancies across many different files rather than one file at a time. You might have much better results going file by file, focusing on the files that matter to you. However, it could also make sense to group files into sections or groups. I'm still experimenting.
 
 ### 1. Check for inconsistencies between the user guide and reference
+
+A brief note: I'm still exploring whether it's better to examine one user guide topic at a time or  the whole user guide (that is, all non-reference topics) in a single prompt. I find that for some products, if I pass in both the entire user guide and the entire reference content, I exhaust my word limit. If you plan to pass in your entire user guide, you'll likely need to develop a script similar to the one described earlier but which only gets user guide content, excluding your reference.
 
 <div class="chat">
 <div markdown="1">
@@ -461,3 +481,7 @@ Here's the reference material for API doc 2:
 [Paste reference material here]
 </div>
 </div>
+
+## Other scenarios
+
+These prompts are just an idea of how you might use long-token contexts in prompts. I find it invaluable to pass in reference content to assist with whatever documentation I'm writing, particularly using the reference to fact check and make accurate the content I'm working on. Specifically, every time I mention an element from the API, I link to it. This ensures that I'm being accurate with the content I write.
