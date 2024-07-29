@@ -17,6 +17,9 @@ One of the most successful strategies for using AI is to pass in an abundance of
 {% endif %}
 
 {% if site.format == "web" %}
+
+Here's a video version of this content: 
+
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2pdyHO4yag" title="Gather source material to prepare for prompt inputs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

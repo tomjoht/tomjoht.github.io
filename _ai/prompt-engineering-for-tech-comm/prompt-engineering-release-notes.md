@@ -17,6 +17,9 @@ You can use AI prompts when creating biweekly release notes for APIs by leveragi
 {% endif %}
 
 {% if site.format == "web" %}
+
+Here's a video version of this content: 
+
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FO2GAzeV_lg" title="Using file diffs for better release notes in reference docs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

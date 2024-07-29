@@ -19,6 +19,9 @@ This tutorial will help you understand task decomposition by guiding you through
 {% endif %}
 
 {% if site.format == "web" %}
+
+Here's a video version of this content: 
+
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/er8pKg5d31E" title="Uncovering and communicating the value of your tech comm teams' work, with Keren Brown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

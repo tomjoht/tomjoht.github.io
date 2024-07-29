@@ -20,7 +20,10 @@ In this tutorial, you'll learn how to use AI to populate documentation templates
 {% endif %}
 
 {% if site.format == "web" %}
+
 ## Video
+
+Here's a video version of this content: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mEEhk14I2I8" title="Using AI to populate documentation templates with source material" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}

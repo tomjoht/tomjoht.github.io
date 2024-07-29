@@ -20,6 +20,8 @@ For AI tools to generate accurate information for documentation you're writing, 
 
 {% if site.format == "web" %}
 
+Here's a video version of this content: 
+
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SoreYhhCFY8" title="Create high fidelity, thematically organized meeting notes using AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

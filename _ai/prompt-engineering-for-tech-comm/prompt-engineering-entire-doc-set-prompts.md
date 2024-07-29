@@ -21,6 +21,9 @@ One of the advantages of recent Gen AI updates is the massive token input contex
 {% endif %}
 
 {% if site.format == "web" %}
+
+Here's a video version of this content: 
+
 # Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VYwFYkxobDs" title="Use long-token contexts to perform quality checks for your entire API documentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
