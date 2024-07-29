@@ -2,7 +2,7 @@
 title: Advertising
 permalink: /advertising/
 type: page
-last-modified: 2022-05-07
+last-modified: 2024-07-28
 ---
 
 <img style="float:right; padding-left:15px; max-width: 300px;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/youradhere.svg" alt="advertising on I'd Rather Be Writing"/>
@@ -29,11 +29,11 @@ The following sections describe the advertising spaces and options.
     <tbody>
     <tr>
         <td markdown="span">[Inline ads](#inlineads)</td>
-        <td markdown="span">$900/year</td>
+        <td markdown="span">$1200/year</td>
     </tr>
     <tr>
         <td markdown="span">[Sidebar ads](#sidebarads)</td>
-        <td markdown="span">$800/year</td>
+        <td markdown="span">$1000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Getting started tutorials](#getting_started_tutorials)</td>
@@ -41,23 +41,23 @@ The following sections describe the advertising spaces and options.
     </tr>
     <tr>
         <td markdown="span">[Product Q&A post](#product_qa)</td>
-        <td markdown="span">$600/post</td>
+        <td markdown="span">$750/post</td>
     </tr>
     <tr>
         <td markdown="span">[Inline text snippets](#inline_text_snippets)</td>
-        <td markdown="span">$1,200/year</td>
+        <td markdown="span">$1,800/year</td>
     </tr>
     <tr>
     <td markdown="span">[Newsletter summaries](#newsletter_summaries)</td>
-    <td markdown="span">$100/newsletter or $900 for 10 instances</td>
+    <td markdown="span">$150/newsletter</td>
 </tr>
     <tr>
     <td markdown="span">[Newsletter banners](#newsletter_banners)</td>
-    <td markdown="span">$30/newsletter or $250 for 10 instances</td>
+    <td markdown="span">$100/newsletter</td>
 </tr>
 <tr>
 <td markdown="span">[Footer banners](#footer_banner_ads)</td>
-<td markdown="span">$1,200/year</td>
+<td markdown="span">$1,800/year</td>
 </tr>
     </tbody>
 </table>
