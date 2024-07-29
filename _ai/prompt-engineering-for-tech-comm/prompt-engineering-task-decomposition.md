@@ -1,21 +1,27 @@
 ---
-title:  "Task decomposition and complex tree diagrams (prompt engineering)"
+title:  "Task decomposition and complex tree diagrams"
 permalink: ai/prompt-engineering-task-decomposition.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-02-13
+last-modified: 2024-07-28
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-This tutorial will help you understand task decomposition by guiding you through the process of creating a complex tree diagram that's too sophisticated for an AI tool to create at once. 
+This tutorial will help you understand task decomposition by guiding you through the process of creating a complex tree diagram that's too sophisticated for an AI tool to create at once. Whether you're creating tree diagrams or not, it doesn't matter. This is just an example of how to break down complex information into smaller chunks and pass it into AI.
 
 {% if site.format == "web" %}
 * TOC
 {:toc}
+{% endif %}
+
+{% if site.format == "web" %}
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/er8pKg5d31E" title="Uncovering and communicating the value of your tech comm teams' work, with Keren Brown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
 
 ## What is task decomposition?

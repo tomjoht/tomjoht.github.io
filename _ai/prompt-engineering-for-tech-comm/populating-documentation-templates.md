@@ -5,18 +5,24 @@ course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-03-02
+last-modified: 2024-07-28
 rebrandly: https://idbwrtng.com/populating-documentation-templates
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-In this tutorial, you'll learn how to use AI to populate documentation templates with information that you've gathered. This technique can be a quick way to get an initial draft of documentation, which you can then edit and review with SMEs.
+In this tutorial, you'll learn how to use AI to populate documentation templates with the source material you've gathered. For example, API overviews often follow a highly structured template. This technique can be a quick way to get an initial draft of documentation, which you can then edit and review with SMEs.
 
 {% if site.format == "web" %}
 * TOC
 {:toc}
+{% endif %}
+
+{% if site.format == "web" %}
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mEEhk14I2I8" title="Using AI to populate documentation templates with source material" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
 
 ## Prerequisites

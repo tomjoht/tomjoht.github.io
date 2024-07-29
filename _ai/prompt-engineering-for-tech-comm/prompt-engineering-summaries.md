@@ -1,15 +1,31 @@
 ---
-title:  "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
+title: "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
 permalink: ai/prompt-engineering-summarizing-meeting-notes.html
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-02-17
+last-modified: 2024-07-28
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
 {% endcomment %}
+
+For AI tools to generate accurate information for documentation you're writing, you need to pass in source material. This usually means meeting with engineers and product managers to gather information about the product. In this tutorial, I share prompts for turning those meeting transcriptions into organized, readable meeting summaries. These cleaned up summaries can then function as input context for documentation-oriented prompts.
+
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
+
+{% if site.format == "web" %}
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SoreYhhCFY8" title="Create high fidelity, thematically organized meeting notes using AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
+
+## The need for engineering meetings and meeting notes
 
 Before you can use AI tools to generate accurate, relevant content, you need to gather up a source of credible information from which the AI can draw from. For example, if you were to simply ask Gemini, ChatGPT, or another generative AI tool to write an API overview for Product ACME, a proprietary application not even online, without providing a lot of source material about ACME, you can imagine how the output will go &mdash; the AI tools will hallucinate wildly or might refuse the task altogether. 
 
@@ -20,11 +36,6 @@ When you meet with engineers, they often provide a firehose of information, addi
 Fortunately, with the right techniques, you can use AI tools to create a high fidelity, thematically organized writeup about the meeting, with an accuracy that some engineers have told me is "scarily good," "fantastic," and "impressive." I've been using this technique for about a dozen meetings as I've gathered information from numerous teams about a large SDK that I'm documenting. Having a large body of accurate notes from these meetings is a gold mine to feed into AI tools to help with the later generation of documentation.
 
 These notes can also be a way to amplify your visibility across teams, since the high fidelity version of the meeting is often of interest to other stakeholders. I've split this process of summarizing and broadcasting meeting notes up into 4 steps.
-
-{% if site.format == "web" %}
-* TOC
-{:toc}
-{% endif %}
 
 ## Step 1: Transcribe the meeting with AI
 

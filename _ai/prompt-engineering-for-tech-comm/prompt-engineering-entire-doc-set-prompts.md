@@ -5,7 +5,7 @@ course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-07-14
+last-modified: 2024-07-28
 rebrandly: https://idbwrtng.com/prompt-engineering-entire-doc-set-prompts
 ---
 
@@ -13,10 +13,18 @@ rebrandly: https://idbwrtng.com/prompt-engineering-entire-doc-set-prompts
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
+One of the advantages of recent Gen AI updates is the massive token input context. When you can pass in an entire set of documentation as an input, you have a much stronger possibility for powerful prompts. In this tutorial, I share some quality-control prompts you can use that deal with entire doc sets as inputs, as well as explain some of the challenges in passing in an entire doc set.
+
+{% if site.format == "web" %}
 * TOC
 {:toc}
+{% endif %}
 
-One of the advantages of recent Gen AI updates is the massive token input context. When you can pass in an entire set of documentation as an input, you have a much stronger possibility for powerful prompts. In this article, I'll share some prompts you can use that deal with entire doc sets as inputs, as well as explain some of the challenges in passing in an entire doc set.
+{% if site.format == "web" %}
+# Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VYwFYkxobDs" title="Use long-token contexts to perform quality checks for your entire API documentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
 
 ## Reference material is the source of truth
 

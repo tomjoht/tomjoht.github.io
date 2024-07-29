@@ -5,14 +5,22 @@ course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-05-25
+last-modified: 2024-07-28
 rebrandly: https://idbwrtng.com/prompt-engineering-release-notes
 ---
 
 You can use AI prompts when creating biweekly release notes for APIs by leveraging file diffs from regenerated reference documentation. The file diffs from version control tools provide a reliable, precise information source about what's changed in the release.
 
+{% if site.format == "web" %}
 * TOC
 {:toc}
+{% endif %}
+
+{% if site.format == "web" %}
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FO2GAzeV_lg" title="Using file diffs for better release notes in reference docs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
 
 ## The usefulness of file diffs with reference docs 
 

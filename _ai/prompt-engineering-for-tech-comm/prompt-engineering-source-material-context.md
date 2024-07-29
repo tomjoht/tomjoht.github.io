@@ -5,16 +5,29 @@ course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering
 path1: ai/prompt-engineering.html
-last-modified: 2024-03-16
+last-modified: 2024-07-28
 rebrandly: https://idbwrtng.com/prompt-engineering-source-material-context
 ---
+
+One of the most successful strategies for using AI is to pass in an abundance of source material that can augument and inform the AI's responses. In this tutorial, I cover strategies for gathering this material, including what types of documents to look for, optimal ordering, pitfalls to look out for such as outdated or slanted information, and more.
+
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
+
+{% if site.format == "web" %}
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q2pdyHO4yag" title="Gather source material to prepare for prompt inputs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
+
+## Introduction
 
 In a previous article, [Populating documentation templates with AI](/ai/prompt-engineering-populating-documentation-templates.html), I mentioned the strategy of passing in source material before the prompt. This gives the LLM a body of knowledge to draw upon, making its answers much more accurate and useful. With an ever-increasing token limit for LLMs, we can now start including much more context in our prompts. For example, you can gather hundreds of pages of source material and pass this into an AI chat session to ground the output in a source of factual, relevant details.
 
 However, so far I haven't explored best practices for presenting this source material to the LLM. If the time-tested principle of "garbage in, garbage out" holds true for LLMs, how can we optimize the source material so that it's most beneficial to the chat session? In this post, I'll list some considerations for gathering up source material and feeding it into an LLM.
 
-* TOC
-{:toc}
 
 ## The importance of source material
 
