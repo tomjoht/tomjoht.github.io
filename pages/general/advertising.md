@@ -123,9 +123,7 @@ Product Q&A posts are posts where I ask you about 10 questions or so and you ans
 * [Technical writing course Q&A -- 'Become a Technical Writer', with Bobby Kennedy](/blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/). This post received 2,127 page views from the time it was published in 2016 until April 2023.
 * [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](/blog/xeditor-question-and-answer/). This post received 688 page views from the time it was published in 2021 until April 2023.
 
-You can expect a Q&A post to receive anywhere from 1,500 to 3,000 page views on average over the life of the post. As people search for keywords related to your product, these posts can provide valuable, decision-making content.
-
-The cost for a Q&A post is $600. I also include the Q&A post in my newsletter, which I share on Linkedin and Twitter.
+You can expect a Q&A post to receive anywhere from 1,500 to 3,000 page views on average over the life of the post. As people search for keywords related to your product, these posts can provide valuable, decision-making content. I also include the Q&A post in my newsletter, which I share on Linkedin and Twitter.
 
 ### Inline text snippets {#inline_text_snippets}
 
