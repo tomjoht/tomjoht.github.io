@@ -15,15 +15,15 @@ I worked with Aaron while at Amazon. One thing he mentioned to me was that, in m
 
 So I'm glad to see that Aaron has started a series on how to prepare for technical writing jobs and interviews. So far, he has two in-depth articles on how to prepare for technical writing interviews:
 
-* [The technical writing interview – Part 1](https://aaronkredshaw.com/2022/01/16/the-technical-writing-interview-part-1/)
+* [The technical writing interview – Part 1](https://www.aaronkredshaw.com/blog/the-technical-writing-interview-part-1/)
 
-* [The technical writing interview – Part 2](https://aaronkredshaw.com/2022/01/27/the-technical-writing-interview-part-2/)
+* [The technical writing interview – Part 2](https://www.aaronkredshaw.com/blog/the-technical-writing-interview-part-2/)
 
 And another article on how to get experience:
 
-* [Getting experience – Part 1](https://aaronkredshaw.com/2022/03/03/getting-experience-part-1/)
+* [Getting experience – Part 1](https://www.aaronkredshaw.com/blog/getting-experience-part-1/)
 
-It seems that this focus (at least for now) for his [blog](https://aaronkredshaw.com/blog/) is to provide advice on how to [get a job in technical writing](https://aaronkredshaw.com/2022/01/01/what-kind-of-technical-writing-job-should-i-get-into/). This is great because these kinds of questions are among the most commonly asked in many tech writing forums (such as the [/r/technicalwriting](https://www.reddit.com/r/technicalwriting/) subreddit, or on some channels on [Write the Docs Slack](https://www.writethedocs.org/slack/)). I now have some good resources to point writers to.
+It seems that this focus (at least for now) for his [blog](https://aaronkredshaw.com/) is to provide advice on how to [get a job in technical writing](https://aaronkredshaw.com/blog/what-kind-of-technical-writing-job-should-i-get-into/). This is great because these kinds of questions are among the most commonly asked in many tech writing forums (such as the [/r/technicalwriting](https://www.reddit.com/r/technicalwriting/) subreddit, or on some channels on [Write the Docs Slack](https://www.writethedocs.org/slack/)). I now have some good resources to point writers to.
 
 {% include ads.html %}
 
