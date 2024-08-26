@@ -22,6 +22,6 @@ image: promptengvid2-gathersourcematerialthumb.png
 
 For a written version of this video tutorial, see [Gathering source material for context input](/ai/prompt-engineering-source-material-context.html).
 
-To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work,](/blog/value-techcomm-zoomin-podcast).
+To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work](/blog/value-techcomm-zoomin-podcast).
 
 {% include ads.html %}

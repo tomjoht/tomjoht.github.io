@@ -21,7 +21,7 @@ rebrandly: https://idbwrtng.com/podcast-prompt-eng-release-notes-file-diffs
 
 For a written version of this video tutorial, see [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html).
 
-To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work,](/blog/value-techcomm-zoomin-podcast).
+To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work](/blog/value-techcomm-zoomin-podcast).
 
 {% include ads.html %}
 

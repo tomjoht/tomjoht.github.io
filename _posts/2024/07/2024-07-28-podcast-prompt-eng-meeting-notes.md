@@ -21,7 +21,7 @@ rebrandly: https://idbwrtng.com/podcast-prompt-eng-meeting-notes
 
 For a written version of this video tutorial, see [Creating high-fidelity, thematically organized notes from engineering meetings using AI](/ai/prompt-engineering-summarizing-meeting-notes.html).
 
-To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work,](/blog/value-techcomm-zoomin-podcast).
+To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work](/blog/value-techcomm-zoomin-podcast).
 
 {% include ads.html %}
 

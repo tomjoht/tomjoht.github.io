@@ -22,6 +22,6 @@ rebrandly: https://idbwrtng.com/podcast-prompt-eng-doc-templates
 
 For a written version of this video tutorial, see [Populating documentation templates using AI](/ai/prompt-engineering-populating-documentation-templates.html).
 
-To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work,](/blog/value-techcomm-zoomin-podcast).
+To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work](/blog/value-techcomm-zoomin-podcast).
 
 {% include ads.html %}

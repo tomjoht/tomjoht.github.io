@@ -21,6 +21,6 @@ image: promptengvids6-task-decompositionthumb.png
 
 For a written version of this video tutorial, see [Task decomposition and complex tree diagrams](https://idratherbewriting.com/ai/prompt-engineering-task-decomposition.html).
 
-To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work,](/blog/value-techcomm-zoomin-podcast).
+To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work](/blog/value-techcomm-zoomin-podcast).
 
 {% include ads.html %}

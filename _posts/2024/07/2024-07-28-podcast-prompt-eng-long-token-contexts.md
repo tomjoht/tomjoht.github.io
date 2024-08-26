@@ -22,7 +22,7 @@ rebrandly: https://idbwrtng.com/podcast-prompt-eng-long-token-contexts
 
 For a written version of this video tutorial, see [Using long-token contexts to quality check an entire API doc set](/ai/prompt-engineering-entire-doc-set-prompts.html).
 
-To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work,](/blog/value-techcomm-zoomin-podcast).
+To watch more of the Keren Brown Zoomin podcast, see [Uncovering and communicating the value of your tech comm teams' work](/blog/value-techcomm-zoomin-podcast).
 
 {% include ads.html %}
 
