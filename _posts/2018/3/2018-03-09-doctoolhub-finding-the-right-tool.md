@@ -5,6 +5,8 @@ categories:
 keywords:
 description: "Last week I ran across an interesting site called <a href='https://doctoolhub.com'>DocToolHub</a> that classifies hundreds of tech comm authoring and publishing tools. When I <a href='https://twitter.com/tomjohnson/status/963987569431080960'>shared the link on Twitter</a>, it received 38 favorites and 16 retweets, so I assume many others found the site useful as well. I decided to follow up with <a href='https://twitter.com/grbabb'>Greg Babb</a>, the person who created DocToolHub, to find out more details and the story behind DocToolHub. I told Greg I was interested in strategies for tagging and classification, as these strategies apply more generally to documentation as well. The following is a guest post by Greg Babb about DocToolHub."
 bitlink: http://bit.ly/doctoolhubstory
+bio: false
+author: <a href='#greg-babb'>Greg Babb</a>
 ---
 
 * TOC
@@ -155,6 +157,6 @@ Good UX also means not having to wait for server responses, so I went with AWS a
 
 Overall, I hope [DocToolHub](https://doctoolhub.com/) will be useful in terms of getting started with initial research and narrowing down lists of candidate tools.
 
-## About Greg Babb
+## About Greg Babb {:#greg-babb}
 
 [Greg Babb](https://twitter.com/grbabb) is a freelance technical communicator based out of Zurich, Switzerland. During his 15+ year career, he has worked in domains ranging from instructional design to XML-based systems and lately docs like code. He believes there must be an easier and better way to do things, and ultimately wants the same cool gizmos for techcomm that the UX and frontend dev communities have enjoyed for years.
