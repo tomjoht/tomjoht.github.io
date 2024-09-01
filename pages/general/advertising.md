@@ -64,7 +64,9 @@ The following sections describe the advertising spaces and options.
 
 Billing is done through Paypal; it can also be handled through wire transfer or even check. (Even if you use another payment method, I use PayPal to keep track of invoices.) Billing is done prior to any advertising efforts.
 
-### Inline ads {#inlineads}
+<div></div>
+
+## Inline ads {#inlineads}
 
 Inline ads include one 250px x 150px graphic and a link to an article. The inline ad appears directly inline in the post &mdash; sometimes a third of the way down, half way down, or at the bottom of the post (the position is somewhat random). Here's an example:
 
@@ -83,7 +85,7 @@ Here are more details about inline ads:
 
 The cost for an inline ad is $900 per year.
 
-### Sidebar ads {#sidebarads}
+## Sidebar ads {#sidebarads}
 
 Sidebar ads include a 250px x 150px graphic with an article link below the graphic. Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. As with inline ads, there isn't a specific hierarchy to ads in the sidebar.
 
@@ -98,7 +100,7 @@ The sidebar ads appear after any sidebar navigation links. For example, for the 
 
 The cost for sidebar ads is $800 per year.
 
-### Getting started tutorials {#getting_started_tutorials}
+## Getting started tutorials {#getting_started_tutorials}
 
 Getting started tutorials are approximately 2,000 word posts that provide a brief overview of your product and then explain how to get started with it. 
 
@@ -116,7 +118,7 @@ To write this getting started tutorial, I'll need to learn a bit about your prod
 
 The cost for a getting started tutorial is $3,000. If the material is appropriate to be placed in my [API doc course](/learnapidoc), I may choose to add it there. 
 
-### Product Q&A posts {#product_qa}
+## Product Q&A posts {#product_qa}
 
 Product Q&A posts are posts where I ask you about 10 questions or so and you answer them. These Q&A posts are an easy way for you to tell your story, without requiring you to structure and organize content into a coherent article. Here are two examples of Q&A posts:
 
@@ -125,7 +127,7 @@ Product Q&A posts are posts where I ask you about 10 questions or so and you ans
 
 You can expect a Q&A post to receive anywhere from 1,500 to 3,000 page views on average over the life of the post. As people search for keywords related to your product, these posts can provide valuable, decision-making content. I also include the Q&A post in my newsletter, which I share on Linkedin and Twitter.
 
-### Inline text snippets {#inline_text_snippets}
+## Inline text snippets {#inline_text_snippets}
 
 Inline text snippets are short snippets of text, about 2-4 sentences in length, that appear in random positions on every page of my [API documentation course](/learnapidoc/) only. The API doc course is every page with the `idratherbewriting.com/learnapidoc`, which is only about 100+ pages, but these pages account for about 75% of all traffic (see my [site analytics](/analytics/)).
 
@@ -143,7 +145,7 @@ The text snippets are denoted with alert-type formatting, with text that says â€
 
 The cost for inline text snippets to appear on the API doc site is $1,200 per year.
 
-### Newsletter summaries {#newsletter_summaries}
+## Newsletter summaries {#newsletter_summaries}
 
 I sent out two newsletters per month to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 open the email. Here's an example of a newsletter summary:
 
@@ -155,7 +157,7 @@ Each newsletter typically has 4 article summaries + 1 sponsor summary. The spons
 
 Each newsletter summary gets an average of 75 clicks. The cost for a newsletter summary is $100 per newsletter, or 10 newsletter summaries for $900.
 
-### Newsletter banners {#newsletter_banners}
+## Newsletter banners {#newsletter_banners}
 
 The newsletters also feature banner ads that are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
 
@@ -167,7 +169,7 @@ I usually include about 4 banner ads per newsletter, with each banner ad separat
 
 The cost for advertising in the newsletter space is $30 per newsletter, or 10 instances for $250. 
 
-### Footer banner ads {#footer_banner_ads}
+## Footer banner ads {#footer_banner_ads}
 
 The footer banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This  visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
 
