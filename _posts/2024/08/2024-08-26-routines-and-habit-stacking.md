@@ -40,7 +40,7 @@ James Clear, author of the bestselling book Atomic Habits, also talks about habi
 
 By implementation intention, Clear means that carving out a clear plan for when you're going to implement the intention/goal. For example, after X trigger, I will do Y goal. He says this is more powerful than motivation (wanting to do the goal) alone.
 
-In sum, to integrate your habit stacking approach, follow these steps:
+Basically, to integrate your habit stacking approach, follow these steps:
 
 1. Identify the new habits you want to incorporate.
 2. Identify the existing routines you have in your day.
@@ -95,11 +95,11 @@ One habit I'm struggling to integrate is writing more regularly. I seemed to hav
 
 Another habit might be to fix bugs and make other updates to my API doc course. That course is a challenge to keep up to date, and I've fallen pretty far behind in making some needed updates. In short, despite my initial successes with habit stacking, I have plenty more to figure out, and it's not as simple as it sounds.
 
-One thing I'm wary of is stacking my entire day. I want to maintain flexibility to allow me to address unknown issues as well as to keep some spontaneity and freeform in my behavior. I don't want to become a cog in a machine, always turning the same direction and never veering off course. This mentality often leaves me feeling resentful when other people require my attention in ways that deter me from my routine, which isn't healthy.
+One thing I'm wary of is habit-stacking my entire day. I want to maintain flexibility to allow me to address unknown issues as well as to keep some spontaneity and freeform in my behavior. I don't want to become a cog in a machine, always turning the same direction and never veering off course. This mentality often leaves me feeling resentful when other people require my attention in ways that deter me from my routine, which isn't healthy.
 
 
 ## Conclusion
 
-Habit stacking is a powerful technique for implementing goals that seems to work. The idea of piggybacking onto existing routines and using them as triggers for the new goal seems to result in higher success rates than other techniques. However, there's still much to figure out and strategize when it comes to implementing your intentions that proves challenging.
+Habit stacking is a powerful technique for implementing goals that seems to work. The idea of piggybacking onto existing routines and using them as triggers for the new goal seems to result in higher success rates than other techniques. However, there are still many challenges to figure out and strategize when it comes to implementing intentions.
 
 
