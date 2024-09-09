@@ -100,6 +100,6 @@ One thing I'm wary of is habit-stacking my entire day. I want to maintain flexib
 
 ## Conclusion
 
-Habit stacking is a powerful technique for implementing goals that seems to work. The idea of piggybacking onto existing routines and using them as triggers for the new goal seems to result in higher success rates than other techniques. However, there are still many challenges to figure out and strategize when it comes to implementing intentions.
+Habit stacking is a powerful technique for implementing goals that seems to work. The idea of piggybacking onto existing routines and using them as triggers for the new goal seems to result in higher success rates than other techniques. However, there's still much to figure out and strategize when it comes to implementing intentions.
 
 

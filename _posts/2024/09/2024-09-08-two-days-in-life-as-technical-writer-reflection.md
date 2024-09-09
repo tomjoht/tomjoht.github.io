@@ -1,5 +1,5 @@
 ---
-title: "Two days in my life as a technical writer"
+title: "Two days in my life as a technical writer, followed by reflection and analysis of fragmenting microtasks"
 permalink: /blog/two-days-in-life-as-technical-writer-reflection
 date: 2024-09-08
 categories:
