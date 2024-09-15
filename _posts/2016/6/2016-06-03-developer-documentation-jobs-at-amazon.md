@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: Amazon Lab 126, technical writer, jobs, alexa technical writing, amazon documentation
 description: "We're looking to add a couple of technical writers to our Appstore documentation team at Amazon in the Seattle and Sunnyvale locations. If you're interested, contact me. The focus is on developer documentation, so you'll need to be comfortable documenting web services."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/amazonjobs.png
+image: thumbnails/amazonjobs.png
 ---
 
 * TOC

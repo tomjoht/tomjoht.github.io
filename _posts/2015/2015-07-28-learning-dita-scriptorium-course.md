@@ -5,7 +5,7 @@ categories:
 - beginners
 keywords: dita, online resource, darwin information typing architecture, scriptorium
 description: "Learningdita.com is a free online educational resource created by Scriptorium for learning DITA. The initial course on their site, \"Introduction to DITA,\" lasts about an hour and will introduce you to core DITA concepts and techniques."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/learningdita.png
+image: thumbnails/learningdita.png
 ---
 
 * TOC

@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: Write the docs,
 description: "Write the Docs is an informal meetup group whose members have a variety of professional roles. The group values open source principles, has an entirely volunteer, grassroots style of organization, and has more origins with developer documentation. Because Write the Docs is free and open, it is becoming an increasingly attractive alternative to professional associations like the STC that require yearly dues and have a closed system."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdstcthumb.png
+image: thumbnails/wtdstcthumb.png
 published: false
 ---
 

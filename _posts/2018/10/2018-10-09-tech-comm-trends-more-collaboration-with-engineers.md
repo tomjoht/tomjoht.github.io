@@ -52,7 +52,7 @@ Grey’s main argument is that "companies are leaning into good user-interface d
 
 Grey argues that UX design has displaced the need for tech comm in software companies. Instead of hiring a tech writer to provide explanations for confusing interfaces, companies hire UX designers to get the design intuitive from the start.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_design_not_docs.svg"/><figcaption>Grey says the trend, at least for end-user products, is to hire UX designers to create intuitive products that don't need documentation</figcaption></figure>
+<figure><img src="{{site.media}}/generalist_specialist_design_not_docs.svg"/><figcaption>Grey says the trend, at least for end-user products, is to hire UX designers to create intuitive products that don't need documentation</figcaption></figure>
 
 Keep in mind this was a simple blog post. [Grey has noted](/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-2/#comment-4128781619) that he "wasn't trying to write a well-researched article for the ages," and it's not fair to make him the poster child of this argument. This idea has been bandied about by lots of people in a variety of contexts &mdash; I just chose this reference to make the idea more concrete. (Grey explained in a note to me, "I was just trying to make a point that old, traditional, explain-the-UI tech writing appeared to me to be going away, but that a technical communicator can stay employed by pivoting into some related fields.")
 
@@ -80,7 +80,7 @@ Was Grey right or wrong? So far, I haven't presented any data. It's easy to trad
 
 If you look at the latest [STC Salary Database](https://www.stc.org/salary-database/) (based on BLS data), you can see that tech writing jobs have actually grown by about 3,620 jobs in 4 years:
 
-<figure><a href="https://www.stc.org/salary-database/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs.</figcaption></figure>
+<figure><a href="https://www.stc.org/salary-database/"><img src="{{site.media}}/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs.</figcaption></figure>
 
 Overall, in 2016, there were about 50,000 technical writing jobs in the United States. The report notes that technical writing is "the only occupation [among professional writing disciplines] which has seen employment growth in each year since 2011, with an average annual employment increase of 1.9%."
 
@@ -108,7 +108,7 @@ In other words, he says the jobs haven’t disappeared, but the _roles, requirem
 
 > Technical writing jobs haven't diminished, but the profession is evolving.
 
-<a href="https://www.questionpro.com/t/PESakZc1sh"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/surveyrolesevolving.png" /></a>
+<a href="https://www.questionpro.com/t/PESakZc1sh"><img src="{{site.media}}/surveyrolesevolving.png" /></a>
 
 Of the 65 respondents, about 53% of readers agree and 39% strongly agree with this statement (for a total of 92% agreement). But beyond the general role, requirements, and skills, exactly *what* is evolving in tech comm? Are we changing in positive ways to align with tomorrow's needs? More importantly, what kind of data supports this assertion about the evolution of the profession? We need to get much more specific here if our analysis of trends will be useful.
 
@@ -183,7 +183,7 @@ In my recent blog post, [If writing is no longer a marketable skill, what is?](/
 * Technical writer/video producer (3%)
 * Technical writer/DITA specialist (3%)
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/hybridtechcommrole.png" />
+<img src="{{site.media}}/hybridtechcommrole.png" />
 
 Of course, these dual roles are self-defined only. In the HR books, one is usually still classified as a "technical writer," but that's not how we promote ourselves.
 
@@ -213,7 +213,7 @@ How do we know if technology is getting more complex? In [Implications of Tech S
 
 They depict the change as follows:
 
-<figure><a href="https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/techstackcomplexity.png" /></a><figcaption>Image from <a href="https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives">Thoughtworks</a></figcaption></figure>
+<figure><a href="https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives"><img src="{{site.media}}/techstackcomplexity.png" /></a><figcaption>Image from <a href="https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives">Thoughtworks</a></figcaption></figure>
 
 For companies to develop world-class software, the authors explain, finding the IT talent to develop these sophisticated solutions can be a real challenge. The authors say that "not only has the breadth of skills increased, but the depth of skill required (advanced versus basic) has increased also." And given how quickly technologies are changing, you also need people who aren't just locked in the present but who will "quickly acquire" tomorrow's technologies as well.
 
@@ -253,7 +253,7 @@ The level of complexity depends on your audience, but generally technical writer
 
 And for sure, some user interfaces are getting simpler (thanks UX designers!), but the code behind them is also getting more complex. The classic example of this shift towards simple frontends and complex backends is Google’s homepage. On the surface, it looks pretty simple. But go to View > Source and copy the code on that page, and then paste it into Microsoft Word. It’s _73_ pages long!
 
-<figure><a href="https://google.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlehomepagescreenshot.png"/></a><figcaption>Google's home page looks simple on the surface, but the code fills 73 pages </figcaption></figure>
+<figure><a href="https://google.com/"><img src="{{site.media}}/googlehomepagescreenshot.png"/></a><figcaption>Google's home page looks simple on the surface, but the code fills 73 pages </figcaption></figure>
 
 Explaining available search parameters might be easy, but explaining the SEO algorithm behind the search is surely complex. The level of difficulty depends on who you're writing for.
 
@@ -263,7 +263,7 @@ But behind the scenes, making this simple language interaction has an incredible
 
 Technology is like an iceberg &mdash; seemingly simple on the surface for end-users, but with massive amounts of code underneath.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_iceberg.svg" /><figcaption>Technology is often made simple on the surface for end users but is complex below the surface, dependent on a lot of advanced systems interacting with each other.</figcaption></figure>
+<figure><img src="{{site.media}}/generalist_specialist_iceberg.svg" /><figcaption>Technology is often made simple on the surface for end users but is complex below the surface, dependent on a lot of advanced systems interacting with each other.</figcaption></figure>
 
 ## Trying in vain to keep up with the pace of technology
 
@@ -334,7 +334,7 @@ However much I dislike the model where engineers develop content and technical w
 
 The degree to which engineers collaborate in the documentation process falls along a spectrum, for sure. But I don't see how we can accommodate increasing amounts of specialization and complexity in the technology landscape without also incorporating more engineers into the writing process.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_developers_writing.svg" /><figcaption>More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary.</figcaption></figure>
+<figure><img src="{{site.media}}/generalist_specialist_developers_writing.svg" /><figcaption>More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary.</figcaption></figure>
 
 I've found that engineers are actually good at writing certain kinds of docs, and poor at others. Engineers excel at writing reference documentation, especially when there are standards they're writing to (such as the OpenAPI specification). Engineers are also good at commenting on code samples, which is an area where technical writers often fall short. Engineers aren't nearly as good with conceptual documentation and tutorials, in part because they're too close to the material.
 

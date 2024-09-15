@@ -4,7 +4,9 @@ categories:
 - technical-writing
 keywords: casual tone, emotional documentation, rhetoric, persona, conversation, establishing trust, translation
 description: "In this guest post, Lavanya Krishnamurthy explores the use of a casual tone in documentation as a way to give users a sense of having a conversation with the author. She presents several easy techniques for implementing a casual tone, and also notes the potential tradeoffs this approach can have."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/lavanya.png
+image: thumbnails/lavanya.png
+author: Lavanya Krishnamurthy
+bio: false
 ---
 
 * TOC

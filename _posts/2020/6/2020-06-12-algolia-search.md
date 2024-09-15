@@ -57,7 +57,7 @@ I have [Algolia](https://www.algolia.com/) integrated into my blog. Someone from
 
 Here's the search analytics dashboard in Algolia for the past 30 days:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/algoliasearchanalytics.png" alt="Algolia search analytics" />
+<img src="{{site.media}}/algoliasearchanalytics.png" alt="Algolia search analytics" />
 
 Search analytics retention is only 30 days in my plan (and in the community plan, there's no retention at all).
 

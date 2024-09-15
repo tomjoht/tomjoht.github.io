@@ -32,7 +32,7 @@ I found that four hours, divided into one-hour sessions, is about perfect, and i
 
 I use a macOS app called [Focus - Time Management](https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12) for my timer. It works fairly well, but there are dozens of other timers to choose from, including non-app timers as well (e.g., a stopwatch). However, the computer app works well because it appears on my screen in a more prominent way. When I see it counting down, it reminds me to stay on task. It also lets me customize the duration and number of the focus sessions.
 
-<a href="https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/focussessions_app_screenshot.png" alt="Focus Timer" /></a>
+<a href="https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12"><img src="{{site.media}}/focussessions_app_screenshot.png" alt="Focus Timer" /></a>
 
 {% include ads.html %}
 
@@ -54,7 +54,7 @@ One reason I like the four-hour time is that it helps keep time spent on "glue t
 
 Tanya found she was excellent at doing these glue tasks, but they detracted from her coding time. Her calendar started to fill up with glue:
 
-<a href="https://noidea.dog/#/glue/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/how_spending_finite_work_hrs.jpeg" alt="Too busy to code" /></a>
+<a href="https://noidea.dog/#/glue/"><img src="{{site.media}}/how_spending_finite_work_hrs.jpeg" alt="Too busy to code" /></a>
 
 With a calendar like this, how do you find time to code? And if you don't have significant code that you're pushing out, how are you valued, recognized, and promoted?
 

@@ -36,7 +36,7 @@ In fact,
 
 THAT's a GIANT gap.
 
-<figure><a href="https://www.digitalocean.com/currents/october-2018/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/problems-open-source-ankita.png" alt="Lack of proper documentation top reason for not joining open-source projects" /></a><figcaption>"Lack of proper documentation" was the <a href="https://www.digitalocean.com/currents/october-2018/">top reason</a> developers gave for deciding against using an open-source project.</figcaption></figure>
+<figure><a href="https://www.digitalocean.com/currents/october-2018/"><img src="{{site.media}}/problems-open-source-ankita.png" alt="Lack of proper documentation top reason for not joining open-source projects" /></a><figcaption>"Lack of proper documentation" was the <a href="https://www.digitalocean.com/currents/october-2018/">top reason</a> developers gave for deciding against using an open-source project.</figcaption></figure>
 
 This data is probably why the startup I joined and many other large open-source organizations have suffered the wrath of having unpolished and inadequate documentation. The need for structured documentation that could save end-users' time and a painful headache was of utmost importance.
 

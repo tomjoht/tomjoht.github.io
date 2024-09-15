@@ -24,7 +24,7 @@ bitlink: http://bit.ly/genandspecialisttrendspart3
 
 Doc tools and authoring/publishing processes are an area where tech writers can provide significant value. Although tech writers are typically generalists with the subject domain, they tend to be experts with documentation authoring and publishing processes and tooling. Tech writers can transfer the content that specialists write into more advanced tools or processes that allow for content re-use, stylized formatting, professional display, responsive design, and more.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_tools.svg"/><figcaption>From facilitating the review process to designing the layout, publishing to the web, generating a PDF, or doing other tasks, publishing docs is something specialists in other domains usually know very little about.</figcaption></figure>
+<figure><img src="{{site.media}}/generalist_specialist_tools.svg"/><figcaption>From facilitating the review process to designing the layout, publishing to the web, generating a PDF, or doing other tasks, publishing docs is something specialists in other domains usually know very little about.</figcaption></figure>
 
 When I first started working in my group at work, one of my tasks involved transitioning our authoring and publishing process from an outdated web CMS into a docs-as-code solution (using Jekyll) that would build from the command line. To create the Jekyll theme, I used Bootstrap to create the layout and styling of the docs. I also created a number includes (or reusable templates) to facilitate alerts, images, glossary tooltips, and more. I collaborated with other teams to create an end-to-end publishing solution that allowed our tech doc solution to scale. In fact, several other teams use our solution, and authors are able to just plug in and start writing docs without building their own solutions from scratch. For more, see [Case study: Switching tools to docs-as-code](/learnapidoc/pubapis_switching_to_docs_as_code.html).
 
@@ -42,13 +42,13 @@ In his new book on [*Structured Writing: Rhetoric and Process*](https://www.amaz
 
 > The aim [of structured writing] is not to eliminate complexity altogether -- that is impossible -- but to partition it so that each part of that complexity is handled by the person or process with the knowledge, skills, and resources to handle it. (xxi)
 
-<figure style="float: right; padding-left: 10px; max-width: 150px"><a href="https://www.amazon.com/Structured-Writing-Rhetoric-Mark-Baker/dp/1937434567"><img style="max-width: 150px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/structured_writing_rhetoric_and_process.jpg" /></a></figure>In other words, when you separate content out into its own structure, you can then turn up the complexity dial on the display because you're no longer manually coding all the display logic with each page. You're programmatically rendering this display from a simple data source. (Basically, you won't get lost in `div` soup.)
+<figure style="float: right; padding-left: 10px; max-width: 150px"><a href="https://www.amazon.com/Structured-Writing-Rhetoric-Mark-Baker/dp/1937434567"><img style="max-width: 150px" src="{{site.media}}/structured_writing_rhetoric_and_process.jpg" /></a></figure>In other words, when you separate content out into its own structure, you can then turn up the complexity dial on the display because you're no longer manually coding all the display logic with each page. You're programmatically rendering this display from a simple data source. (Basically, you won't get lost in `div` soup.)
 
 For example, one topic in my docs is the [Fire TV device specifications](https://developer.amazon.com/docs/fire-tv/device-specifications.html). This is actually the most viewed page in our entire doc site by a wide margin. Originally, this page was formatted as a table with various columns for the devices.
 
 As the number of devices increased, the table layout no longer worked because I couldn't have 12 columns and require users to scroll horizontally (a design atrocity that is often committed regularly in internal wiki pages).
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/generalist_specialist_table_no_fit.svg"/><figcaption>Tables are usually the go-to format for reference information, but they don't always scale to fit the growing amount of information.</figcaption></figure>
+<figure><img src="{{site.media}}/generalist_specialist_table_no_fit.svg"/><figcaption>Tables are usually the go-to format for reference information, but they don't always scale to fit the growing amount of information.</figcaption></figure>
 
 I decided to extract all the specification information into a YAML file and then create a template that pulls information from the YAML file in programmatic ways. The code loops through each device in the YAML file to populate its own table, and also incorporates show/hide logic with a drop-down selector.
 
@@ -125,7 +125,7 @@ ElementName:
 
 I then stored all the catalog elements into this YAML schema. After that, I created a template to iterate through the information in the YAML file and render it into a display (you can [see the output here](https://developer.amazon.com/docs/catalog/data-format-schema-reference.html).)
 
-<figure><a href="https://developer.amazon.com/docs/catalog/data-format-schema-reference.html#MiniSeriesEpisode"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/miniseriesepisode.png"/></a><figcaption>The display here pulls the data from the YAML schema I developed for this content. Just one template defines the display for all 75+ elements.</figcaption></figure>
+<figure><a href="https://developer.amazon.com/docs/catalog/data-format-schema-reference.html#MiniSeriesEpisode"><img src="{{site.media}}/miniseriesepisode.png"/></a><figcaption>The display here pulls the data from the YAML schema I developed for this content. Just one template defines the display for all 75+ elements.</figcaption></figure>
 
 Again, this approach dramatically simplifies the authoring and editing of catalog information, because I no longer need to worry about the display, having defined it in the template.
 
@@ -137,7 +137,7 @@ When developers create a new API, they often start drafting all the details in a
 
 By understanding this specification and how to implement it with REST APIs, you can provide a number of benefits to specialists. First, you can help them embrace a spec-first design philosophy, where APIs are designed and tested before being coded. Second, you can generate interactive docs that let users try out requests and see responses for their own data, which tends to be more instructive. Finally, you can align the information in an industry-standard presentation that makes sure you cover all the expected areas of documentation and present them in predictable ways.
 
-<figure><a href="https://editor.swagger.io/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swagger_editor_pic.png"/></a><figcaption>You can describe your REST API using a specification. Tools such as Swagger UI can parse the specification document and render interactive docs, unit testing, client SDKs, and more.</figcaption></figure>
+<figure><a href="https://editor.swagger.io/"><img src="{{site.media}}/swagger_editor_pic.png"/></a><figcaption>You can describe your REST API using a specification. Tools such as Swagger UI can parse the specification document and render interactive docs, unit testing, client SDKs, and more.</figcaption></figure>
 
 Even if you’ve simplified your doc authoring and publishing toolchain with more simple formats like Markdown or wikis, you aren’t limited to primitive publishing techniques. You can look for ways to extract the content into helpful structures and specifications that improve the efficiency and use of the information. This is one of the main ways that tech writers can add value in these specialist contexts.
 

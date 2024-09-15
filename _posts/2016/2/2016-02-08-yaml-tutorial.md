@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords:
 description: "YAML is a format that is becoming a common way to store properties for configuring systems. I created a new tutorial on YAML that shows how mappings and lists work, and how you can use Jekyll and Liquid to parse through the YAML content."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/yamltutorial.png
+image: thumbnails/yamltutorial.png
 ---
 
 * TOC

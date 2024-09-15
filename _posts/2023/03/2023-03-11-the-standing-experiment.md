@@ -17,7 +17,7 @@ description: "In the introduction to this series, <a href='/blog/sitting-standin
 
 Although I initially liked the treadmill desk, I've become more fond of the double-roller balance board. I explained how I built this in [Building your own balance board for a standing desk](/blog/build-your-own-standing-desk-standing-office/). By double-roller, I mean I'm using two 4" PVC pipes instead of one under the balance board. Admittedly, it makes it less of a balance board and more of a back-and-forth slider. However, the additional stability makes working on it more practical. There's less pressure on my feet, and I can remain standing for a longer period of time.
 
-<img style="max-width: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance-board-double-roller-dalle.png" alt="double roller options" />
+<img style="max-width: 500px" src="{{site.media}}/balance-board-double-roller-dalle.png" alt="double roller options" />
 
 The double roller addresses the biggest challenging of the standing desk: how to defeat standing fatigue. I've also tried several anti-fatigue mats, but the problem with standing for extended periods of time is the lack of movement. Contrast the stationary mat with something like the [Movemate Active Standing Board](https://www.letsmovemate.com/en-us/products/movemate-active-standing-board) ($359). Notice how with the Active Standing Board, your legs and feet are moving, simulating more of a walking motion? That's the trick to being able to stand for longer periods of time without fatigue (at least for me). I haven't tried the Active Standing Board (because it seems kinda pricey), but I've incorporated the idea of small movements.
 
@@ -39,7 +39,7 @@ The second challenge is getting the angle of the hands on the keyboard right. Wh
 
 I fear that prolonged typing in this position might lead to carpal tunnel or something else harmful. I'm still experimenting with positions and assistive devices (like negative keyboard tilts), so I hope to figure out the right angle soon. In the meantime, I placed a three-ring binder upside down to create an angle. I've heard of other people using doorknobs to get the right negative angle on the keyboard.
 
-<img style="max-width: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/angle-of-hands-dalle.png" alt="Getting the angle of the wrists right" />
+<img style="max-width: 500px" src="{{site.media}}/angle-of-hands-dalle.png" alt="Getting the angle of the wrists right" />
 
 ## My back
 

@@ -48,7 +48,7 @@ Let's look at a product and its workflow in more detail. Suppose you want to imp
 
 <figure><a href="https://y18r6fxgtelv8ls5.developer.blobr.app/catalog/prd_7osv1snb1ehsu91m" rel="nofollow" class="noCrossRef"><img src="{{site.api_media}}/product_description_blobr.png" alt="Blobr product detail page" /></a><figcaption><b>Figure 2.</b> <i>Product detail page.</i>This view describes the product and the workflow to implement it. The details also lists the endpoints used for the product.</figcaption></figure>
 
-In this example, the product description is brief, but a more detailed product could include screenshots and other formatting (see an [example](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/product_description_alt_blobr.png)).
+In this example, the product description is brief, but a more detailed product could include screenshots and other formatting (see an [example]({{site.media}}/api/product_description_alt_blobr.png)).
 
 {% include random_ad3.html %}
 

@@ -21,7 +21,7 @@ Building out the tables reminded me why I like working with Jekyll so much, and 
 
 First, here's [an example](https://developer.amazon.com/docs/video-skills-multimodal-devices/getdisplayableitemsmetadata.html#payload-descriptions-1) of the end goal:
 
-<a href="https://developer.amazon.com/docs/video-skills-multimodal-devices/getdisplayableitemsmetadata.html#payload-descriptions-1"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sampletablejekyll.png" style="max-width: 650px" alt="sample table with lots of field definitions" /></a>
+<a href="https://developer.amazon.com/docs/video-skills-multimodal-devices/getdisplayableitemsmetadata.html#payload-descriptions-1"><img src="{{site.media}}/sampletablejekyll.png" style="max-width: 650px" alt="sample table with lots of field definitions" /></a>
 
 A lot of responses have similar fields, so I needed to re-use these definitions in various places in the docs (after each JSON sample). Also, I didn't want to create a bunch of HTML table code everywhere.
 

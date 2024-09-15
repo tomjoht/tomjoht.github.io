@@ -59,5 +59,5 @@ No doubt different areas of my brain are active during these three separate acti
 We tend to like graphics, so I'll end with a simple graphic here:
 
 <div style="max-width: 600px;">
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/writingtrianglebalance.svg"/>
+<img src="{{site.media}}/writingtrianglebalance.svg"/>
 </div>

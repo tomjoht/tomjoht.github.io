@@ -3,7 +3,7 @@ title: "Recording of STC-SV presentation on the Shape of a Modern Technical Comm
 categories: [general, podcasts]
 keywords: roles, technical writing, tech comm organization, sanborn hodgkins, vmware
 description: "Sanborn Hodgkins gave a presentation to the STC Silicon Valley chapter called <i>Shape of a Modern Technical Communication Organization</i> on April 18. In the presentation, she highlights the variety of roles -- editor, videographer, information architect, content strategist, manager, writer, tools developer, and others -- that tech comm organizations need to thrive."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/shapeorgthumb.png
+image: thumbnails/shapeorgthumb.png
 date: 2016-04-24
 categories:
 - podcasts
@@ -13,7 +13,7 @@ tags:
 - documentation
 - management
 - technical communication
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/sanbornvoiceonly.mp3
 podcast_file_size: 44.2 MB
 podcast_duration: "01:01:14"

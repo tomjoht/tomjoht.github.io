@@ -5,7 +5,7 @@ categories:
 - dita
 keywords: help authoring tools, technical writing trends, tools
 description: "The problem with adopting bleeding-edge tools is that they usually handle only the simplest use cases. When you try to make these bleeding-edge tools handle complex publishing requirements, the simple tools transform into Rube Goldberg machines of sorts. Since engineers usually don't have to solve these complex publishing requirements themselves, they tend to embrace the simple bleeding-edge tools and can't understand why anyone would pursue a more complex route."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/complexityoptions.png
+image: thumbnails/complexityoptions.png
 ---
 
 * TOC

@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "There are a couple of events on API documentation happening this Thursday. First, I'm giving an STC webinar on best practices for REST API documentation at 11am PST. Also, Andrew Fuchs is also presenting on API documentation at a Write the Docs meetup in Redwood City at 6:30pm PST."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcwebinarbestpractrestapisthumb.png
+image: thumbnails/stcwebinarbestpractrestapisthumb.png
 ---
 
 * TOC

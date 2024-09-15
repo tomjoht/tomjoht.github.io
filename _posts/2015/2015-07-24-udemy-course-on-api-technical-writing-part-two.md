@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords: rest APIs, courses Udemy, learn REST API documentation, Peter Gruenbaum
 description: "If you want to learn how to document REST APIs, consider taking Peter Gruenbaum's courses on Udemy. He recently released part 2 of his REST API tech writing course. Part 2 gets into the meat of writing reference documentation for REST APIs."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/udemypeter.png
+image: thumbnails/udemypeter.png
 ---
 
 * TOC

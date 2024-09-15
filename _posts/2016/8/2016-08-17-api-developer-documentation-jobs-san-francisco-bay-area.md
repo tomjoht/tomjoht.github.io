@@ -12,7 +12,7 @@ tags:
 - developer documentation
 - san francisco bay area
 - API documentation jobs
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/huntingdevdoc.mp3
 podcast_file_size: 53.9 MB
 podcast_duration: "01:13:42"

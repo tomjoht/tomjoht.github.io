@@ -28,7 +28,7 @@ I love the Sounder. But getting to the Sounder from my house involves going 6 mi
 I have studied the map of my area for hours looking for safe east/west routes to the train. There are none that look safe.
 
 <figure>
-<a href="https://www.openstreetmap.org/#map=13/47.4364/-122.1826&layers=C"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firstmileproblem.png" alt="First-mile problem" /></a><figcaption>The first-mile problem is how to get from my house to the train station safely. There aren't any east/west cycle routes that provided protected bike paths. All the good trails (highlighted in purple) run north/south.</figcaption></figure>
+<a href="https://www.openstreetmap.org/#map=13/47.4364/-122.1826&layers=C"><img src="{{site.media}}/firstmileproblem.png" alt="First-mile problem" /></a><figcaption>The first-mile problem is how to get from my house to the train station safely. There aren't any east/west cycle routes that provided protected bike paths. All the good trails (highlighted in purple) run north/south.</figcaption></figure>
 
 I even tried riding on the sidewalk for portions of a route &mdash; it didn't take long to realize that sidewalk cycling wasn't going to work. Every interruption in the sidewalk (with an intersecting street) poses high risks because cars don't see bikes on sidewalks, so every time you see a car at a cross street, you have to pretend you're invisible, slowing way down and often going around their rear bumper.
 
@@ -43,7 +43,7 @@ Although there's no direct east/west route in Renton that provides a safe bike r
 The bus lines in the King County Metro are quite impressive. Take a look at this [system map](https://kingcounty.gov/depts/transportation/metro/schedules-maps/maps/system.aspx) with its dizzying sprawl of bus lines and vehicle options.
 
 <figure>
-<a href="https://kingcounty.gov/~/media/depts/metro/maps/system/09212021/pdf/metro-system-map-se"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/buslinesfirstmile.png" alt="Bus lines in southeast King county" /></a><figcaption>Bus lines in southeast King county</figcaption></figure>
+<a href="https://kingcounty.gov/~/media/depts/metro/maps/system/09212021/pdf/metro-system-map-se"><img src="{{site.media}}/buslinesfirstmile.png" alt="Bus lines in southeast King county" /></a><figcaption>Bus lines in southeast King county</figcaption></figure>
 
 I experimented with at least half a dozen bus routes and ways into the city during the past few weeks, often taking two buses to get to my destination. Unfortunately, I found that buses are problematic in several ways:
 
@@ -81,7 +81,7 @@ From 2nd Ave, I cross over on Bell (which is closed to outside traffic because i
 
 Overall, if you find a good connecting street with a protected bike lane (even if it takes you out of your way), hopefully you can get fairly close to your destination in a safe way. Openstreetmap has a good high-level view of the cycle lanes in Seattle:
 
-<figure><a href="https://www.openstreetmap.org/#map=13/47.6108/-122.3155&layers=C"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bike-lanes-seattle.png" alt="Protected cycle lanes in Seattle" /></a><figcaption>Protected cycle lanes in Seattle</figcaption></figure>
+<figure><a href="https://www.openstreetmap.org/#map=13/47.6108/-122.3155&layers=C"><img src="{{site.media}}/bike-lanes-seattle.png" alt="Protected cycle lanes in Seattle" /></a><figcaption>Protected cycle lanes in Seattle</figcaption></figure>
 
 The first time I biked in downtown Seattle, I didn't limit myself to streets with bike lanes, and it was terrifying. I rode in bus lanes and kept checking behind me for buses. (As a heads up, never bike along 3rd Avenue &mdash; this is almost like a freeway for buses going both ways.) Later I learned to plan more carefully and locate these safe routes.
 
@@ -89,7 +89,7 @@ Note that you could also use the bike-share or scooter-share ([Lime](https://www
 
 If you do bring your bike on the Sounder, note that the velcro straps for securing two bikes per car are a poorly thought solution.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/velcrostrapssounder.jpg" alt="Securing your bike on the Sounder with flimsy velcro straps." /><figcaption>Securing your bike on the Sounder with flimsy velcro straps.</figcaption></figure>
+<figure><img src="{{site.media}}/velcrostrapssounder.jpg" alt="Securing your bike on the Sounder with flimsy velcro straps." /><figcaption>Securing your bike on the Sounder with flimsy velcro straps.</figcaption></figure>
 
 (Caltrain in the Bay area has a much better model for transporting bikes.)
 

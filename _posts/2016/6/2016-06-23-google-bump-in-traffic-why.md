@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: google traffic, google analytics, web metrics
 description: "In early 2016 Google updated their search algorithm to reward sites with good content. I benefitted from this update and saw my blog's traffic jump up about 15,000 extra hits per month."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/googlebumpthumb.png
+image: thumbnails/googlebumpthumb.png
 ---
 
 * TOC

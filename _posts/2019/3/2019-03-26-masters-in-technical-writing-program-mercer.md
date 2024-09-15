@@ -19,7 +19,7 @@ Thanks for the opportunity to tell you about our online <a rel="nofollow" href="
 
 Our technical communication program can be completed in two years, and it has been recognized as "one of the most affordable and effective" in the country, and our students speak highly about their experience.
 
-<figure><a href="https://engineering.mercer.edu/ms-tcm"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/masters-in-technical-writing-mercer.png" alt="Masters in technical writing at Mercer"></a><figcaption>If you're thinking about an online masters program in technical communication, consider Mercer's program. The two-year online program is called <a href="https://engineering.mercer.edu/ms-tcm">Master of Science in Technical Communication Management</a>.</figcaption></figure>
+<figure><a href="https://engineering.mercer.edu/ms-tcm"><img src="{{site.media}}/masters-in-technical-writing-mercer.png" alt="Masters in technical writing at Mercer"></a><figcaption>If you're thinking about an online masters program in technical communication, consider Mercer's program. The two-year online program is called <a href="https://engineering.mercer.edu/ms-tcm">Master of Science in Technical Communication Management</a>.</figcaption></figure>
 
 <h3> Can you tell us a little about you? </h3>
 

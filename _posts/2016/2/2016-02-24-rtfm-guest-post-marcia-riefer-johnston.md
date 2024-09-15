@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: RTFM, read the fucking manual, read the fine manual, marcia riefer johnston, larry kunz
 description: "The following is a guest post by <a href='#marcia'>Marcia Riefer Johnston</a> exploring an alternative view towards the RTFM argument. In this post, Marcia argues that it's the writer's care and interest in the product and users that leads to producing help content worth reading versus content that is mechanical, dry, and lifeless."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/marciar.png
+image: thumbnails/marciar.png
 author: Marcia Reifer Johnston
 bio: false
 ---

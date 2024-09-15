@@ -39,7 +39,7 @@ Senge provides a more straightforward description of each archetype in Appendix 
 
 The Limits to Growth archetype shows that growth often slows from initial success to a flatline and later decline because the system compensates or counters with a balancing force. Senge compares the situation to a carpet bubble &mdash; you try to push that bubble out of a carpet, but as you flatten the carpet, you just end up pushing the bubble elsewhere (57). 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_carpet_bulge.png" alt="Carpet bubble" /><figcaption>When you solve a problem that brings you success, you often times you end up pushing the problem elsewhere, like when you try to get a bubble/bulge out of a carpet. When the bubble/bulge appears elsewhere, it's the system countering your initial growth/success.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_carpet_bulge.png" alt="Carpet bubble" /><figcaption>When you solve a problem that brings you success, you often times you end up pushing the problem elsewhere, like when you try to get a bubble/bulge out of a carpet. When the bubble/bulge appears elsewhere, it's the system countering your initial growth/success.</figcaption></figure>
 
 The system compensates for certain gains by countering with other forces, almost like the system is a living organism, actively strategizing countermoves to resist change. Senge defines the Limits to Growth archetype as follows:
 
@@ -47,7 +47,7 @@ The system compensates for certain gains by countering with other forces, almost
 
 As an example, Senge says, "We might 'solve' sudden deadline pressures by working longer hours; eventually, however, the added stress and fatigue slow down our work speed and quality, compensating for the longer hours" (95).
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_limits_to_growth.png" alt="Limits to Growth curve" /><figcaption>With the limits to growth curve, there's an initial success that then flatlines or recedes due to a counterbalancing force.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_limits_to_growth.png" alt="Limits to Growth curve" /><figcaption>With the limits to growth curve, there's an initial success that then flatlines or recedes due to a counterbalancing force.</figcaption></figure>
 
 In another example, Senge describes managers who cut staff to reduce expenses only to find they must now pay contractors more because the same amount of work is expected to get done, or the company must spend more on overtime pay. "*The system has its own agenda*," Senge says. "There is an implicit goal, unspoken but very real &mdash; the amount of work that is expected to get done" (84). If the system can't get the work done through staff that are no longer there, it finds another way: by overworking the staff that remain.
 
@@ -89,7 +89,7 @@ It can be hard to see the causal relationships when groups are siloed from each 
 
 The specialized silos in an organization make it especially difficult to trace causes and effects, since the influences usually spill across department boundaries. Senge says companies break themselves into smaller components, and these siloes make it harder to see cause and effect relationships.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_org_chart_siloes.png" alt="Org siloes and cause relationships" /><figcaption>Organizations are often siloed, with many groups disconnected from each other despite having some influence on each other. Look at ways that one org might have causal relationships with other parts of the org, even when these distinct groups seemed to be walled off from each other.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_org_chart_siloes.png" alt="Org siloes and cause relationships" /><figcaption>Organizations are often siloed, with many groups disconnected from each other despite having some influence on each other. Look at ways that one org might have causal relationships with other parts of the org, even when these distinct groups seemed to be walled off from each other.</figcaption></figure>
 
 Senge explains:
 
@@ -97,17 +97,17 @@ Senge explains:
 
 For example, even if "Alpha" group and "Omega" group work on the same product, if the company componetizes them into distinct groups within the organization, with different reporting chains, all-hands meetings, goals, and other unique fiefdoms, pretty soon they look only within their group rather than at the larger system, even though they're obviously both contributing to the product outcome.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_fiefdoms.png" alt="" /><figcaption>Companies can be like fiefdoms, deceiving themselves about their separate groups when in reality they are much more tightly coupled and have reciprocal influence.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_fiefdoms.png" alt="" /><figcaption>Companies can be like fiefdoms, deceiving themselves about their separate groups when in reality they are much more tightly coupled and have reciprocal influence.</figcaption></figure>
 
 Senge never talks about the Butterfly Effect, where the flapping of a butterfly's wings in one hemisphere might be responsible for hurricanes developing in another, but a systems thinking mindset would consider it. Cause and effect relationships aren't straightforward, and they aren't one-way. "In systems thinking it is an axiom that every influence is both *cause* and *effect*. Nothing is ever influenced in just one direction," Senge says (75). These principles lead to the idea of *mutualism*, which suggests that members of a system influence each other bidirectionally. 
 
 "Reality is made up of circles but we see straight lines," Senge says. "Herein lie the beginnings of our limitation as systems thinkers" (73). 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_straight_lines.png" alt="Linear thinking about cause and effect" /><figcaption>We tend to see linear relationships between cause and effect, when the reality isn't so. Our mind tends to project this pattern because it simplifies the story of what's going on.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_straight_lines.png" alt="Linear thinking about cause and effect" /><figcaption>We tend to see linear relationships between cause and effect, when the reality isn't so. Our mind tends to project this pattern because it simplifies the story of what's going on.</figcaption></figure>
 
 Reality is much more intertwined, with circles showing points of interaction and feedback loops. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_notstraightlines.png" alt="Much more representative of reality" /><figcaption>Reality is much more intertwined, with reciprocal feedback loops, mutual influence, and other complexities.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_notstraightlines.png" alt="Much more representative of reality" /><figcaption>Reality is much more intertwined, with reciprocal feedback loops, mutual influence, and other complexities.</figcaption></figure>
 
 ### Cause and effect with documentation
 
@@ -115,7 +115,7 @@ Let's bring the complex cause and effect pattern to the tools example with docum
 
 At any rate, no matter what the actors are, Senge says, "The key to seeing reality systematically is seeing circles of influence rather than straight lines" (75). Straight lines are much easier to comprehend. They map better with our brain's limited comprehension of the world. But if you read Senge's book, you'll see that it's full of circular diagrams, or figure eights, where the relationships between different components within a system are depicted.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sengebookopen.jpg" alt="Diagrams in Senge's book" /><figcaption>This is a page from Senge's book. Senge thinks beyond linear relationships to see how the many different elements in a system interact.</figcaption></figure>
+<figure><img src="{{site.media}}/sengebookopen.jpg" alt="Diagrams in Senge's book" /><figcaption>This is a page from Senge's book. Senge thinks beyond linear relationships to see how the many different elements in a system interact.</figcaption></figure>
 
 ## Shifting the burden {#shifting_the_burden}
 
@@ -131,7 +131,7 @@ But rather than addressing the fundamental cause (such as formulating strategies
 
 All the while, that original problem keeps building and becoming worse. The workload or marital problems grow more severe. The employment outlook grows less and less likely. As a result, the negative emotions return, but even stronger. So they drink some more to address those symptoms. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/systhinking_addiction_alcohol.png" alt="Addiction cycle" /><figcaption>The addiction cycle is a classic example of shifting the burden. Instead of addressing the real problem, the person shifts the burden to address only the symptoms of the problem.</figcaption></figure>
+<figure><img src="{{site.media}}/systhinking_addiction_alcohol.png" alt="Addiction cycle" /><figcaption>The addiction cycle is a classic example of shifting the burden. Instead of addressing the real problem, the person shifts the burden to address only the symptoms of the problem.</figcaption></figure>
 
 In the case of addiction, a physical addiction soon sets in and makes it even worse because now you have two forces to contend with: the insurmountable problems (workload, marriage, employment) and the physical addiction. Senge explains:
 

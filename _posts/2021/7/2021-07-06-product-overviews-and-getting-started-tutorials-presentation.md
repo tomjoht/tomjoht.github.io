@@ -34,7 +34,7 @@ In general, best practices for documentation would mean accounting for both mind
 
 I'm not alone in my thoughts about the importance of product overviews and getting started tutorials. In a recent blog post, [Balancing action with narration: Creating product overviews and getting started tutorials to satisfy both try-first and read-first learning modes](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/#commento), I floated an idea about presenting on these topics, sharing a similar overview I described as above, and asked my readers to agree or disagree with this statement: "Product overviews and getting started tutorials are essential but often neglected topics in documentation." Here are the results:
 
-<a class="noCrossRef" href="https://www.questionpro.com/t/7Bl4niZmV4G"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/prod_overviews_started_survey.png" alt="Survey about product overviews and getting started tutorials" /></a>
+<a class="noCrossRef" href="https://www.questionpro.com/t/7Bl4niZmV4G"><img src="{{site.media}}/api/prod_overviews_started_survey.png" alt="Survey about product overviews and getting started tutorials" /></a>
 
 Forty people (mostly technical writers) responded. 82% of people either agreed or strongly agreed with the statement, and 12% were neutral. Only 5% either disagreed or strongly disagreed.
 

@@ -5,7 +5,7 @@ type: page
 last-modified: 2024-07-28
 ---
 
-<img style="float:right; padding-left:15px; max-width: 300px;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/youradhere.svg" alt="advertising on I'd Rather Be Writing"/>
+<img style="float:right; padding-left:15px; max-width: 300px;" src="{{site.media}}/youradhere.svg" alt="advertising on I'd Rather Be Writing"/>
 
 I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially [API documentation](/learnapidoc/). I can help increase your product or service's visibility more than any other technical writing site online.
 
@@ -70,7 +70,7 @@ Billing is done through Paypal; it can also be handled through wire transfer or 
 
 Inline ads include one 250px x 150px graphic and a link to an article. The inline ad appears directly inline in the post &mdash; sometimes a third of the way down, half way down, or at the bottom of the post (the position is somewhat random). Here's an example:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/inlineadexample.png" alt="Inline ads" /><figcaption>Inline ads example. These ads blend in with the same style and branding as the content. They appear on nearly every page on my site, directly within the reader's view.</figcaption></figure>
+<figure><img src="{{site.media}}/inlineadexample.png" alt="Inline ads" /><figcaption>Inline ads example. These ads blend in with the same style and branding as the content. They appear on nearly every page on my site, directly within the reader's view.</figcaption></figure>
 
 Here are more details about inline ads:
 
@@ -90,7 +90,7 @@ The cost for an inline ad is $900 per year.
 Sidebar ads include a 250px x 150px graphic with an article link below the graphic. Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. As with inline ads, there isn't a specific hierarchy to ads in the sidebar.
 
 <figure>
-<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="{{site.media}}/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
 
 Sidebar ads have all of the same details as inline ads except they appear in the sidebar rather than inline in the post or page. 
 
@@ -133,7 +133,7 @@ Inline text snippets are short snippets of text, about 2-4 sentences in length, 
 
 You can define up to 5 text snippets with the variety of content and links you want. Here's an example:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/textsnippetexample.png" alt="Text snippet" /><figcaption>Inline text snippet example. These paragraphs can articulate a more detailed message that you want readers to understand. Because they don't have graphics, they aren't subject to the same banner blindness that users can sometimes develop towards ads.</figcaption></figure>
+<figure><img src="{{site.media}}/textsnippetexample.png" alt="Text snippet" /><figcaption>Inline text snippet example. These paragraphs can articulate a more detailed message that you want readers to understand. Because they don't have graphics, they aren't subject to the same banner blindness that users can sometimes develop towards ads.</figcaption></figure>
 
 The text snippet's text changes randomly with each page refresh. Additionally, the location of the snippet is random from page to page. 
 
@@ -149,7 +149,7 @@ The cost for inline text snippets to appear on the API doc site is $1,200 per ye
 
 I sent out two newsletters per month to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 open the email. Here's an example of a newsletter summary:
 
-<figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
+<figure><img style="max-width: 600px" src="{{site.media}}/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
 
 These newsletters contain summaries of my latest posts, plus the latest happenings in tech comm, such as articles, tools, issues, or other matters.  You can see a list of recent newsletters on my [newsletter category](/category-newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
 
@@ -161,7 +161,7 @@ Each newsletter summary gets an average of 75 clicks. The cost for a newsletter 
 
 The newsletters also feature banner ads that are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
 
-<figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletterbanneradsexample.png" alt="Newsletter banner ads" /><figcaption>Newsletter banner ads -- the image receives a visual focus because the newsletter summaries are all text</figcaption></figure>
+<figure><img style="max-width: 600px" src="{{site.media}}/newsletterbanneradsexample.png" alt="Newsletter banner ads" /><figcaption>Newsletter banner ads -- the image receives a visual focus because the newsletter summaries are all text</figcaption></figure>
 
 Newsletter banner ads typically receive about 10 clicks per newsletter. As part of the newsletter, they also receive about 2,200 page views per newsletter.
 
@@ -173,7 +173,7 @@ The cost for advertising in the newsletter space is $30 per newsletter, or 10 in
 
 The footer banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This  visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="Footer banner ad" max-width="550" /> <figcaption>Footer banner ads appear at the bottom of each post</figcaption></figure>
+<figure><img src="{{site.media}}/horizontal_inline_ad-550x331.png" alt="Footer banner ad" max-width="550" /> <figcaption>Footer banner ads appear at the bottom of each post</figcaption></figure>
 
 Footer banner ads can be JPG, PNG, or SVG. Animated GIF is not allowed. Like the sidebar, the position of the horizontal banner ads rotate randomly with each page refresh. There's a limit of 4 horizontal banner post ads that can appear below the post.
 

@@ -5,7 +5,7 @@ categories:
 keywords: circle, wifi router restrictions
 description: "With four kids and a house full of devices, it can be pretty hard to wrangle devices from kids' hands and shut off Internet time. In the past, I tried putting all the kids' devices onto a guest network and all my devices onto a main network. When I wanted to shut off the  kids' access to the Internet, I would log into my router and shut off the guest network. Now I have a new approach that seems to work much better."
 bitlink: http://bit.ly/tomcirclereview
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/circlepicthumb.png
+image: thumbnails/circlepicthumb.png
 ---
 
 * TOC
@@ -19,7 +19,7 @@ This scenario usually ended up with me fishing around in the router cords trying
 
 I'm happy to say, fingers crossed, that these days of online/offline Internet connectivity might be over. My wife purchased a device called [Circle](https://meetcircle.com/), which was about $100. This little box sits between your router and your wifi. All wifi-connected devices go through Circle to get to the router's wifi.
 
-<a href="https://meetcircle.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlerouter.png"/></a>
+<a href="https://meetcircle.com/"><img src="{{site.media}}/circlerouter.png"/></a>
 
 (BTW, this isn't any kind of paid review or sponsored post. I just really like this device.)
 
@@ -35,19 +35,19 @@ Here are a few screenshots from the Circle app:
 }
 </style>
 <div class="circle_screenshots">
-<img class="circle" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlescreenshot7.png"/>
+<img class="circle" src="{{site.media}}/circlescreenshot7.png"/>
 
-<img class="circle" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlescreenshot1.png"/>
+<img class="circle" src="{{site.media}}/circlescreenshot1.png"/>
 
-<img class="circle" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlescreenshot6.png"/>
+<img class="circle" src="{{site.media}}/circlescreenshot6.png"/>
 
 
 <div style="clear: both"></div>
-<img class="circle" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlescreenshot3.png"/>
+<img class="circle" src="{{site.media}}/circlescreenshot3.png"/>
 
-<img class="circle" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlescreenshot4.png"/>
+<img class="circle" src="{{site.media}}/circlescreenshot4.png"/>
 
-<img class="circle" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/circlescreenshot5.png"/>
+<img class="circle" src="{{site.media}}/circlescreenshot5.png"/>
 
 </div>
 

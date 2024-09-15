@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "In 2016, the continued growth of APIs will create a ripple effect across the technical writing community that involves a variety of changes. Some of these changes include an increased adoption of Swagger, Markdown, revision control, learning programming, authentication solutions, Write the Docs meetups, new authoring tools, tutorials, API-based CMSs, and more."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/rippleapi.png
+image: thumbnails/rippleapi.png
 ---
 
 * TOC

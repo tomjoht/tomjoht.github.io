@@ -15,7 +15,7 @@ weight: 2.0
 {% include toc.html %}
 
 <p>In the <a href="https://idratherbewriting.com/2015/03/04/how-to-create-a-help-api/">previous post</a>, I talked about help APIs as a way to deliver help inside applications. In this post, I'll explain how to push your help content into any format.</p>
-<p><figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pushingcontent.png" alt="Pushing content into other formats using Jekyll and for loops" width="562" height="343" class="size-full wp-image-22727" /> <figcaption>Pushing content into other formats using Jekyll and for loops</figcaption></figure></p>
+<p><figure><img src="{{site.media}}/pushingcontent.png" alt="Pushing content into other formats using Jekyll and for loops" width="562" height="343" class="size-full wp-image-22727" /> <figcaption>Pushing content into other formats using Jekyll and for loops</figcaption></figure></p>
 <p>Let's say that you have three different channels where you want to push your help content. Channel one is an S3 bucket in Amazon Web Services (requiring HTML), channel two is a Salesforce Knowledge center (requiring CSV), and channel three is your help API (requiring JSON).</p>
 <p>Jekyll (and probably a lot of static site generators) provide an amazing capability here. With most help authoring tools, you see a list of outputs (e.g., PDF, HTML, Eclipse Help, etc.), and you're pretty much limited to those outputs. Jekyll, however, allows you to define the templates and format that your content is pushed into.</p>
 <p>Let's remember the three different format channels for this scenario:<br />

@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: retrospective, evaluation, best practices, learning
 description: "As I move into my new job, one goal I have is to learn from the experiences at my former job and improve this time around. I want to avoid repeating the same mistakes but also remember to build on those things that worked. This post is a retrospective look at the good and bad of previous experiences."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/retrospectivethumb.png
+image: thumbnails/retrospectivethumb.png
 ---
 
 * TOC

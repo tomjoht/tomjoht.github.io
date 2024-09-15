@@ -25,7 +25,7 @@ In the last article in this series, “From smartphones to Netflix: moving past 
 
 When I couldn’t identify the true source behind distraction (_why do I keep watching TV?),_ I decided that maybe we point the finger too much at social media and other entertainment sites as the culprit behind our concentration failure. Long-form concentration is a difficult skill to develop. As such, I decided to read Cal Newport’s _Deep Work: Rules for Focused Success in a Distracted World_ (which is one of the best business books I’ve read and currently has 17k+ reviews on Amazon with a 4.5 star rating). The book lives up to the ratings: it describes techniques that unlock significant productivity. Fully implementing them, though, still remains a challenge.
 
-<figure><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692"><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newportdeepwork.jpg" alt="Deep Work: Rules for Focused Success in a Distracted World" /></a><figcaption>Cal Newport's <i>Deep Work: Rules for Focused Success in a Distracted World</i> is a highly popular book for a good reason &mdash; it has great advice. This is my personal copy, which I toted around pretty much everywhere while reading it. I also listened to the audio version.</figcaption></figure>
+<figure><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692"><img class="large" src="{{site.media}}/newportdeepwork.jpg" alt="Deep Work: Rules for Focused Success in a Distracted World" /></a><figcaption>Cal Newport's <i>Deep Work: Rules for Focused Success in a Distracted World</i> is a highly popular book for a good reason &mdash; it has great advice. This is my personal copy, which I toted around pretty much everywhere while reading it. I also listened to the audio version.</figcaption></figure>
 
 
 ## The basic idea {#the-basic-idea}
@@ -45,7 +45,7 @@ First, let’s start with some basic definitions. Newport defines deep work as f
 
 Notice that deep work pushes your cognitive capabilities, requiring focus and concentration. It’s usually not something you can do while watching Netflix from the corner of your screen.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/deep-thinking-focus-wall.jpg" alt="Deep work requires concentration and focus" /><figcaption>Deep work is something that usually requires your full concentration and focus. You can't just multitask and watch Netflix out of the corner of your screen while doing deep work, for example.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/deep-thinking-focus-wall.jpg" alt="Deep work requires concentration and focus" /><figcaption>Deep work is something that usually requires your full concentration and focus. You can't just multitask and watch Netflix out of the corner of your screen while doing deep work, for example.</figcaption></figure>
 
 In contrast, shallow work is as follows:
 
@@ -53,7 +53,7 @@ In contrast, shallow work is as follows:
 
 In distinguishing between deep work and shallow work, Newport says to use this test: consider whether the work could be done by a bright, young college graduate. Ask yourself, “How long would it take (in months) to train a smart recent college graduate with no specialized training in my field to complete this task?” (229). If the answer is that the college grad could learn to do this task within a few weeks of training, you're not doing deep work.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shallow-work-staring-at-phone.jpg" alt="Shallow work" /><figcaption>Shallow work might involve tasks that you do on your phone, or tasks that involve social media consumption or even posting. If it's something that a bright young college grad could probably do, with little training, it might be shallow work. This could even include putting together a slide presentation, Newport says.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/shallow-work-staring-at-phone.jpg" alt="Shallow work" /><figcaption>Shallow work might involve tasks that you do on your phone, or tasks that involve social media consumption or even posting. If it's something that a bright young college grad could probably do, with little training, it might be shallow work. This could even include putting together a slide presentation, Newport says.</figcaption></figure>
 
 Shallow work might involve tasks that you do on your phone, or tasks that involve social media consumption or even posting. If it’s something that a bright young college grad could do, with little training, it might be shallow work. This could even include putting together a slide presentation, Newport says.
 
@@ -70,7 +70,7 @@ If we occupy our day with little meaningless tasks, checking our email obsessive
 
 At the extreme, focusing on deep work can lead to states of flow. Quoting psychologist Mihaly Csikszentmihalyi, Newport says, “The best moments usually occur when a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile” (84).
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/old-man-sitting-thinking-gloomy.jpg" alt="rewards from deep work" /><figcaption>Devoting yourself to tasks requiring deep, complex thought tends to be more rewarding. In an ideal outcome, you might slip into states of flow (hyper-focus) where the external world fades away, you lose sense of time, and you become totally engrossed in your current activity. </figcaption></figure>
+<figure><img class="large" src="{{site.media}}/old-man-sitting-thinking-gloomy.jpg" alt="rewards from deep work" /><figcaption>Devoting yourself to tasks requiring deep, complex thought tends to be more rewarding. In an ideal outcome, you might slip into states of flow (hyper-focus) where the external world fades away, you lose sense of time, and you become totally engrossed in your current activity. </figcaption></figure>
 
 Devoting yourself to tasks requiring deep, complex thought is more rewarding. In an ideal outcome, you might slip into states of flow (hyper-focus) where the external world fades away, you lose sense of time, and you become totally engrossed in your current activity.
 
@@ -93,7 +93,7 @@ Newport doesn’t force a one-size-fits-all model for deep work. He cites severa
 
 Newport says that David Dewane, an architecture professor, has a model of a Eudaimonia machine (Greek for “good spirit”) that involves rooms that progress from socially interactive at the outer layer to deeply immersive (like an inner sanctuary) at the inner level. The architecture begins with a gallery and proceeds to a salon, library, office space, and finally inner chambers.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eudaimonia_machine.jpeg
+<figure><img class="large" src="{{site.media}}/eudaimonia_machine.jpeg
 
 " alt="Eudaimonia architecture from David Dewane" /><figcaption>Sample layout for David Dewane's Eudaimonia machine. The architecture progresses to more and more isolated chambers for deeper focus. (Image from <a href="https://blog.fentress.com/blog/the-eudaimonia-machine-a-space-concept-for-the-21st-century">Alan Ruby</a>)</figcaption></figure>
 
@@ -105,7 +105,7 @@ The 90-minute sessions resonate with me because I’ve found focus sessions to w
 
 After reading Newport’s book, I decided to tweak the focus sessions a bit. Instead of pausing when I wanted a break, I tried not to hit pause. I’m not a monster, though. If my wife or kids needed me, or someone interrupted me with an information need, I would attend to it. I didn't ignore everyone around me in off-putting ways. But I’d try not to break the session, especially not to check my email or do some other mental break such as checking the news or sports.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/avoiding-distraction-email-can-wait.jpg" alt="When you sit down to focus, remove all internet and email distractions" /><figcaption>When you sit down and focus on a complex task, you have to avoid distractions from email or the Internet. Even going to retrieve a small bit of information from the Internet, Newport warns, can lead to being sucked down a rabbit hole, as that's what most Internet sites strive to do: hijack your attention. Put the internet, email, chat, and other disruptors on pause for a while.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/avoiding-distraction-email-can-wait.jpg" alt="When you sit down to focus, remove all internet and email distractions" /><figcaption>When you sit down and focus on a complex task, you have to avoid distractions from email or the Internet. Even going to retrieve a small bit of information from the Internet, Newport warns, can lead to being sucked down a rabbit hole, as that's what most Internet sites strive to do: hijack your attention. Put the internet, email, chat, and other disruptors on pause for a while.</figcaption></figure>
 
 When you sit down and focus on a complex task, you must avoid distractions from email or the Internet. Even retrieving a small bit of information from the Internet, Newport warns, can lead to being sucked down a rabbit hole, as that’s what most Internet sites strive to do: hijack your attention. Put the internet, email, chat, and other disruptors on pause for a while.
 
@@ -119,14 +119,14 @@ So I recognize that my general inclination is to break up this 90-minute focus s
 
 Think of concentration as a brain muscle. You have to strengthen your concentration ability to get better at it. Our natural tendency is to stray off task and occupy our attention with easy things. Resist this tendency, and you’ll improve at immersion in deep work.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trainmybrainmuscles.jpg" alt="Train your brain's muscles" /><figcaption>Think of concentration as a brain muscle. You have to strengthen your concentration ability to get better at it. Our natural tendency is to stray off task and occupy our attention with easy things. Resist this tendency, and you'll get better at immersion in deep work.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/trainmybrainmuscles.jpg" alt="Train your brain's muscles" /><figcaption>Think of concentration as a brain muscle. You have to strengthen your concentration ability to get better at it. Our natural tendency is to stray off task and occupy our attention with easy things. Resist this tendency, and you'll get better at immersion in deep work.</figcaption></figure>
 
 
 ## Routines {#routines}
 
 Another technique for carving sustained focus periods is to rely on routines. If you can build structures for your day that encourage deep work habits, you’ll be much more productive. Newport says, “The key to developing a deep work habit is to move beyond good intentions and add _routines_ and _rituals_ to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration” (100).
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/routines-clock-writing.jpg" alt="Routines help you stick with your focus sessions" /><figcaption>Establishing routines can help you stick with your plans for deep work. For example, follow a similar structure at the same hour of the day. Maybe complement your rituals with a specific beverage.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/routines-clock-writing.jpg" alt="Routines help you stick with your focus sessions" /><figcaption>Establishing routines can help you stick with your plans for deep work. For example, follow a similar structure at the same hour of the day. Maybe complement your rituals with a specific beverage.</figcaption></figure>
 
 Establishing routines can help you stick with your plans for deep work. For example, follow a similar structure at the same hour of the day. Maybe complement your rituals with a specific beverage.
 
@@ -136,11 +136,11 @@ These focus sessions can't be a one-off activity every other day. Newport says t
 
 For me, writing during the first hour of the day works best. I often wake up earlier than others (kids and wife are still asleep), so this time of day has fewer distractions. Further, as I get older, I’ve noticed that my brain works best when it’s fresh, during the first hours of the day.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/morning-productivity-sunrise.jpg" alt="Mornings can be productive" /><figcaption>The mornings can be most productive for me, since my brain feels fresh and I'm able to tackle more cognitively demanding tasks such as writing a first draft of something.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/morning-productivity-sunrise.jpg" alt="Mornings can be productive" /><figcaption>The mornings can be most productive for me, since my brain feels fresh and I'm able to tackle more cognitively demanding tasks such as writing a first draft of something.</figcaption></figure>
 
 As the afternoon and evening set in, my brain gets more tired and I have less energy for mentally consuming tasks such as writing. Therefore, if I can get in 1-2 hours of writing in the morning, and then save the later hours of the day for editing or other less cognitively demanding tasks, I’m more productive. By the time evening rolls around, I mostly edit what I wrote earlier.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/morning-coffee-and-writing-session.jpg" alt="Writing routines in the morning" /><figcaption>I follow a routine of using the first 1-2 hours in the morning for writing tasks. That's my most productive time of the day, and there are typically fewer distractions. As the day wears on, I gravitate toward easier tasks, like editing or tracking down missing details.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/morning-coffee-and-writing-session.jpg" alt="Writing routines in the morning" /><figcaption>I follow a routine of using the first 1-2 hours in the morning for writing tasks. That's my most productive time of the day, and there are typically fewer distractions. As the day wears on, I gravitate toward easier tasks, like editing or tracking down missing details.</figcaption></figure>
 
 
 ## Enemies to sustained focus {#enemies-to-sustained-focus}
@@ -155,7 +155,7 @@ In short, carving out several 90-minute sessions a day isn’t easy. It might in
 
 Constant distractions in an open-office, always-connected corporate culture can be an enemy of deep work. The paradox of this culture is that it leads to less productivity, not more, Newport says.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/constant_distraction.jpg" alt="Constant distractions in an open office, always connected corporate culture" /><figcaption>Constant distractions in an open-office, always-connected corporate culture can be an enemy of deep work. The paradox of this culture is that it leads to less productivity, not more.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/constant_distraction.jpg" alt="Constant distractions in an open office, always connected corporate culture" /><figcaption>Constant distractions in an open-office, always-connected corporate culture can be an enemy of deep work. The paradox of this culture is that it leads to less productivity, not more.</figcaption></figure>
 
 The offline behaviors that might seem like you’re not working (_why hasn’t Tom responded to my chat message?_) are the exact behaviors that lead to greater productivity. If it takes you 90 minutes to respond to your manager’s email, it might give the impression that you’re “away” from your desk during work time, maybe running personal errands or going on leisurely walks. Hardly! During this time, you might actually spend the necessary time to get that complex documentation written.
 
@@ -182,10 +182,10 @@ I was still developing my ability to work focused for 90 minutes at a time. It w
 
 Newport devotes a lot of the book to enemies of distraction. Chief among these are social media and email. I’ve purposely downplayed the treatment of social media in my summary here because, in my view, we tend to want a scapegoat for our inability to concentrate. In exaggerated ways, social media becomes that scapegoat. 
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/social-media-destroying-focus.jpg" alt="Social media can destroy your focus" /><figcaption>Social media can disrupt your focus, training your brain to naturally drift toward shallow, fragmented thinking. Staying in this mode too long can make it difficult to sustain your focus when you actually want to get lost in deep work.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/social-media-destroying-focus.jpg" alt="Social media can destroy your focus" /><figcaption>Social media can disrupt your focus, training your brain to naturally drift toward shallow, fragmented thinking. Staying in this mode too long can make it difficult to sustain your focus when you actually want to get lost in deep work.</figcaption></figure>
 
 It is certainly true that social media could interrupt my ability to focus and temporarily short-circuit the wiring in my brain. But based on my experiences, especially how I knocked out the lengthy documentation project in a matter of weeks, I felt that the real key to productivity was not so much to abandon the smartphone but rather to devote 90-minute distraction-free sessions during the day. If I could accomplish these focus sessions, what I did outside of those focus blocks, even if it involved interacting with social media, didn't seem too harmful to me. Newport did caution: “Spend enough time in a state of frenetic shallowness and you permanently reduce your capacity to perform deep work” (7). Again, I didn't think social media permanently rewired our brains. But it might take some re-training to break free of the constant scrolling and skimming habits.
 
 Newport says that in a world increasingly consumed with shallow work, those who can focus on deep work possess a highly valuable skill. The larger hypothesis of his book is that “The ability to perform deep work is becoming increasingly _rare_ at exactly the same time as it is becoming increasingly _valuable_ in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive” (14). Most of us will agree that devoting several sessions of deep focus (whether 90 minutes or another time period) will lead to significant productivity gains. The challenge is finding the right tactics and techniques to make those focus sessions a reality.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/disruptive-email-best-practices2.jpg" alt="Email" /><figcaption>Email can be a major source of frustration and time disruption in the office. You can get ahead of email by requiring the sender to do more work upfront.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/disruptive-email-best-practices2.jpg" alt="Email" /><figcaption>Email can be a major source of frustration and time disruption in the office. You can get ahead of email by requiring the sender to do more work upfront.</figcaption></figure>

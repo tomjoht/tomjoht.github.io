@@ -29,7 +29,7 @@ In this post, I'll explore 5 ways to use the big-picture perspective as a techni
 
 ## Detailed product overviews
 
-<img style="max-width: 375px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/prodoverview-trends.jpg" alt="Product overview" />
+<img style="max-width: 375px; float: right; padding-left: 10px" src="{{site.media}}/prodoverview-trends.jpg" alt="Product overview" />
 
 The easiest way to embrace the big-picture perspective is to create detailed product overviews. Nearly every product has some type of product overview, but there's a huge variability in quality from one overview to another. Have you ever read a product overview with language that read okay, but at the end, you're scratching your head, still wondering what the product is, who it's for, how it differs from other products at the company, how it differs from competitive products, what the use cases are, how you get started, how you get support when needed, what an architectural diagram of the system looks like, how it affects other components, and more? 
 
@@ -39,7 +39,7 @@ I've already written extensively about [product overviews in my API course](/lea
 
 ## Developer journeys
 
-<img style="max-width: 375px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developerjourney-trends.jpg" alt="Developer journey" />
+<img style="max-width: 375px; float: right; padding-left: 10px" src="{{site.media}}/developerjourney-trends.jpg" alt="Developer journey" />
 
 A developer journey describes the end-to-end process that a developer takes through your system. (This assumes that you're writing developer documentation. If you're writing end-user documentation, consider this your user journey.) At Amazon, I once wrote a 30+ page developer journey document that described all the steps developers needed to take to create a streaming media app on Fire TV versus an app on Roku. 
 
@@ -51,7 +51,7 @@ Very few people in the organization understand the developer journey, especially
 
 ## Cross-system workflows
 
-<img style="max-width: 375px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/crosssystemworkflows-trends.jpg" alt="Cross-system workflows" />
+<img style="max-width: 375px; float: right; padding-left: 10px" src="{{site.media}}/crosssystemworkflows-trends.jpg" alt="Cross-system workflows" />
 
 I recently wrote about cross-system workflows, or big-picture narratives, in [Attempting to write a Life of a \[something\] narrative](/trends/writing-a-life-of-a-something-narrative.html). These narratives describe the workflow through multiple systems, or through multiple parts of an organization. I wrote a couple of these end-to-end workflows at Google&mdash;one called "Life of a commute." The document traces the path that information takes when people make a directions request with Google Maps, all the backend systems and processes that the request travels through before that magical route appears on your phone. A second end-to-end workflow describes the workflow of vehicle observations captured through car sensors, and how they are packaged, processed, and delivered.
 
@@ -63,7 +63,7 @@ The other group interested in end-to-end workflows involves senior managers. The
 
 ## Integrated data from multiple APIs
 
-<img style="max-width: 375px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/integratedapidata-trends.jpg" alt="Integrated API data" />
+<img style="max-width: 375px; float: right; padding-left: 10px" src="{{site.media}}/integratedapidata-trends.jpg" alt="Integrated API data" />
 
 Recently I've been working on an experimental project called a "Comprehensive attributes list." It takes the data returned by 4 different APIs and arranges the data in a list. I resisted this project for the past year and a half (despite requests for something similar) because creating this list required me to duplicate the same information from API documentation. Navigating Javadoc outputs for returned data wasn't something that many partners (particularly non-engineers) found easy to do. At any rate, this undertaking had surprising outcomes as well (outcomes that are still in progress).
 
@@ -75,7 +75,7 @@ If you're a tech writer working with APIs, consider the larger API landscape wit
 
 ## Domain knowledge from outside your company
 
-<img style="max-width: 375px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bookclub-trends.jpg" alt="Book club" />
+<img style="max-width: 375px; float: right; padding-left: 10px" src="{{site.media}}/bookclub-trends.jpg" alt="Book club" />
 
 My final technique for advancing big-picture perspectives is to increase your domain knowledge, especially from outside the company, by reading books, articles, and other material. By domain knowledge, I mean knowledge of the product space you're working in, such as the larger industry. 
 

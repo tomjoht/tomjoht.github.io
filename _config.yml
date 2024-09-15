@@ -2,7 +2,6 @@
 title: "I'd Rather Be Writing - Tom Johnson"
 name: "I'd Rather Be Writing Blog"
 description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
-media: https://s3.us-west-1.wasabisys.com/idbwmedia.com/
 host: 127.0.0.1
 port: 4000
 feedback_email: tomjoht@gmail.com

@@ -19,7 +19,7 @@ Here are the highlights that will make technical writers puff up their chests wi
 
 > While the top 3 most important characteristics in an API remained the same year over year, *Accurate and detailed documentation* beat out *Responsiveness/ performance* for the 2nd position with a significant 13% increase. For context, when we asked the same question in 2016, only 25% of respondents selected documentation as a top factor. This year, 63% of respondents chose it.
 
-<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/SmartBear2020mostimportantchars.png" alt="As an API Consumer, what are the top three most important characteristics you need in an API?" /></a>
+<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="{{site.media}}/SmartBear2020mostimportantchars.png" alt="As an API Consumer, what are the top three most important characteristics you need in an API?" /></a>
 
 Not only did documentation remain high on the list of important characteristics &mdash; it actually *shot up 13%* from last year.
 
@@ -29,7 +29,7 @@ I almost feel like including this screenshot in my email signature, or making T-
 
 In other words, for developers consuming the API (*API consumers*), ease of use and accurate docs are the most important, whereas for internal dev teams (*API producers*), performance and uptime/availability are the most important characteristics. Here's what matters to internal teams producing APIs:
 
-<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/SmartBear2020success.png" alt="How do you measure the success of your API?" /></a>
+<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="{{site.media}}/SmartBear2020success.png" alt="How do you measure the success of your API?" /></a>
 
 The juxtaposition of these two graphics say a lot. Why is there misalignment between what's important for API producers and what's important for API consumers? Wasn't the whole point of agile development to help align what dev teams create with what's important for the audience?
 
@@ -47,7 +47,7 @@ In some places, the SmartBear report seems to suggest that generating docs from 
 
 Here's the accompanying graphic:
 
-<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/SmartBear2020howhandledocs.png" alt="Which best describes how your team handles API documentation?" /></a>
+<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="{{site.media}}/SmartBear2020howhandledocs.png" alt="Which best describes how your team handles API documentation?" /></a>
 
 This mention of tech writers always catches me by surprise here. To me, it feels like it portrays tech writers as an antiquated group of crafts-people who are writing documentation laboriously by hand with pencils. In my [survey on dev doc trends](/learnapidoc/docapis_trends.html), most API docs (including reference) are generated as a collaborative effort between tech writers and engineers.
 
@@ -55,7 +55,7 @@ The SmartBear report also finds that most survey respondents feel their docs are
 
 > Documentation is so important to the successful adoption of an API, and yet 43% of survey participants indicated their documentation was poor and needs improvement. Most organizations (52%) rated their API documentation Good to Average. Only 5% of the survey respondents felt their API documentation was Very good.
 
-<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/SmartBear2020howrate.png" alt="How would you rate the documentation your organization provides today?" /></a>
+<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="{{site.media}}/SmartBear2020howrate.png" alt="How would you rate the documentation your organization provides today?" /></a>
 
 I'm curious whether developers would answer the question similarly about their APIs or other code (rating them as poor). Whatever the reason, most people feel that docs need a lot of improvement. Documentation is one of those categories of products that, if it were rated on Amazon, all products in the category would rarely climb above three stars &mdash; very good docs are rare.
 
@@ -65,7 +65,7 @@ The SmartBear report asks respondents which docs have the highest priority based
 
 > Of all the elements that make up successful API documentation, the desire for *Examples* is the top choice for the second year in a row, coming in at 70%. A close tie for the next three spots is Status and errors at 51%, Authentications at 50%, and Error messages at 49% of survey respondents.
 
-<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/SmartBear2020topdocsneeded.png" alt="Please select the top 5 most important things you look for in API documentation." /></a>
+<a href="https://SmartBear.com/resources/ebooks/the-state-of-api-2020-report/"><img src="{{site.media}}/SmartBear2020topdocsneeded.png" alt="Please select the top 5 most important things you look for in API documentation." /></a>
 
 I admit that I'm a little confused at how "examples" differ from "code samples," and the report never explains what examples are. I assume examples refer to sample apps, for the most part, or more extensive, holistic code. Not just a small code snippet but an actual working example of an implemented API.
 

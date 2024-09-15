@@ -16,11 +16,11 @@ Before my planned work-from-the-park day, I knew connectivity would be an issue,
 
 With a folding lawn chair strapped to my back (with backpack straps) and a long extension cord under a cargo net on my bike rack, I biked out about 5 miles out to the Alviso Education Center, which has nice cement picnic tables, shade, and hotspots nearby.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/alvisoextensioncord.jpg" alt="Trying to work at a park - Alviso Education Center" />
+<img src="{{site.media}}/alvisoextensioncord.jpg" alt="Trying to work at a park - Alviso Education Center" />
 
 I set up my virtual outdoor office:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/alvisoeducationcenteroffice.jpg" alt="Working outdoors at Alviso Education Center" />
+<img src="{{site.media}}/alvisoeducationcenteroffice.jpg" alt="Working outdoors at Alviso Education Center" />
 
 However, the power outlets were dead, and the Xfinity hotspots were too weak to provide a signal I could connect to. So I migrated to Baylands Park instead (just 1 mile away).
 
@@ -30,7 +30,7 @@ Anyway, I gave up early on these Xfinity hotspots and decided to tether to a hot
 
 Sitting back in my lawn chair, I toiled away at some small work tasks (fixing doc bugs) for a few hours and was pleased with how well my outdoor office was working out. At times I was a bit cold, so I moved into the sun. Then I struggled to see my screen due to the sun's glare, so I shifted to shade under a tree. That worked better, and because Baylands Park has a remote control airfield, I was right near old guys flying their remote control airplanes (and young guys flying drones), which was mildly entertaining. My time in the shade expired after about 45 minutes because it was too far from a power outlet, and my Macbook battery can barely hold a charge. So I switched back to the picnic tables under the sun.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/parktreesoffice.png" alt="Switching between shade and sun" />
+<img src="{{site.media}}/parktreesoffice.png" alt="Switching between shade and sun" />
 
 Although the weather was near-perfect (70'ish in northern California), after a while my eyes started to hurt from being in the sun. I put on sunglasses, but I still struggled to see my computer screen well (I even have a glare protector on the screen). I shifted from picnic tables to lawn chair a few times for variety and comfort. I packed some meager snacks (dried bananas, seaweed crackers, and an almond butter bar) that I nibbled on, and was surprisingly not starving for most of the day. I found it hard to work on a single small 13" laptop screen. I'm used to my 34" wide-screen Dell monitor with the 13" screen as a second monitor, dragging windows around.
 
@@ -92,11 +92,11 @@ I'm not sure why balance is so hard to achieve, or what the perfect formula is. 
 
 After my park experiment failed, I decided to adjust my model a bit. Rather than leaving all day for another environment, I decided to bookend my day with a simulated commute: a walk in the morning, followed by a bike ride at the end of the day. My wife already has me up and walking/hiking each morning at 6:30 am (usually at Rancho San Antonio).
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ranchomorninghike.jpg" alt="Rancho San Antonio morning hike" />
+<img src="{{site.media}}/ranchomorninghike.jpg" alt="Rancho San Antonio morning hike" />
 
 I love how the sun breaks through the trees at this spot. There are almost always deer by this tree:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ranchomorningdeerlocation.jpg" alt="Rancho San Antonio breaking dawn" />
+<img src="{{site.media}}/ranchomorningdeerlocation.jpg" alt="Rancho San Antonio breaking dawn" />
 
 This is working well as a way to start the day. Then when 5 pm rolls around, I close up my computer and hop on my bike for the "commute home." I bike about 10 miles (out to Baylands and back), and then return home at 6 pm.
 

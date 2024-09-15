@@ -43,11 +43,11 @@ description: "Peter Gruenbaum's API technical writing course on Udemy is an exce
 <h2>How to document JSON</h2>
 <p>Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON response is fine if the response is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data?</p>
 <p>Peter's main approach is to use tables to document responses. For example, here's a sample JSON response (screenshot from the course):</p>
-<p><img style="border: 1px solid #dedede;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jsonresponse-550x291.png" alt="json response" width="550" height="291" class="alignnone size-medium wp-image-22742" /></p>
+<p><img style="border: 1px solid #dedede;" src="{{site.media}}/jsonresponse-550x291.png" alt="json response" width="550" height="291" class="alignnone size-medium wp-image-22742" /></p>
 <p>Objects are set off with curly braces: <code>{</code> and <code>}</code>. Objects have key-value pairs inside them. In this example, <code>song</code> is an object that contains several key-value pairs. The value for <code>musicians</code> is an array, since it uses brackets (<code>[</code> and <code>]</code>) to list out musicians.</p>
 <h2>Using tables for JSON documentation</h2>
 <p>Peter provides this example as a way to describe the JSON response in documentation:</p>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jsontable-550x286.png" alt="table approach to documenting json" width="550" height="286" class="alignnone size-medium wp-image-22743" /></p>
+<p><img src="{{site.media}}/jsontable-550x286.png" alt="table approach to documenting json" width="550" height="286" class="alignnone size-medium wp-image-22743" /></p>
 <p>The top level element cell is merged with its adjacent cell. The key-value pairs inside this top-level are put into the second column. Its items appear indented below the top-level item.</p>
 <p>If you consider how JSON responses can get much more complex than this in their structure, you can see some of the challenges you face in documenting this data.</p>
 <p>(Note that JSON isn't just used as a format for responses. Many times you submit requests using JSON format as well. For example, you may configure a server using YML files that contain their information in JSON format. These YML files can include 100+ key-value pairs and a lot of detail.)</p>
@@ -56,13 +56,13 @@ description: "Peter Gruenbaum's API technical writing course on Udemy is an exce
 <p>If you're using a Word Processing program to manually adjust the table columns, you can perhaps imitate the nesting with the cell merges and indentation. But if you're automating the formatting with HTML, you probably have less control over these column widths.</p>
 <h2>The scrolling-to-definitions approach</h2>
 <p>In my <a href="https://idratherbewriting.com/documentation-theme-jekyll">documentation theme for Jekyll</a>, I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can see it here:</p>
-<p><a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scrollto-550x310.png" alt="scrollto" width="550" height="310" class="alignnone size-medium wp-image-22744" /></a></p>
+<p><a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll"><img src="{{site.media}}/scrollto-550x310.png" alt="scrollto" width="550" height="310" class="alignnone size-medium wp-image-22744" /></a></p>
 <p>When you click on an item in the JSON table, the right-pane scrolls to the item. I like this approach, though I've not really seen it done in other API documentation sites.</p>
 <p>One problem is that you end up with three scroll bars on one page, which isn't the best design. Additionally, the descriptions in this demo are just paragraphs. Usually you structure the information with more detail (e.g., data type, description, notes, etc.).</p>
 <p>Finally, this approach doesn't allow for easy scanning. It's probably a novel idea with no application.</p>
 <h2>The side-by-side approach</h2>
 <p>In Stripe's API documentation, they try to juxtapose the responses in a right side pane with the documentation in the main window.</p>
-<p><a href="https://stripe.com/docs/api#charge_object"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stripe-550x373.png" alt="stripe" width="550" height="373" class="alignnone size-medium wp-image-22745" /></a></p>
+<p><a href="https://stripe.com/docs/api#charge_object"><img src="{{site.media}}/stripe-550x373.png" alt="stripe" width="550" height="373" class="alignnone size-medium wp-image-22745" /></a></p>
 <p>The idea is that you can see both the description and a sample response at the same time, and just scroll down.</p>
 <p>However, the description doesn't always line up with the sample response. (In some places, child attributes are collapsed to save space.) I'm not sure why some items (such as <code>livemode</code>) aren't documented.</p>
 {% include ads.html %}
@@ -71,9 +71,9 @@ description: "Peter Gruenbaum's API technical writing course on Udemy is an exce
 <p>Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. The problem is that lengthy responses increase response times. To reduce the size and increase the speed of the response, developers often resort to shorter terms, sometimes using abbreviations. The shorter the term, the more it needs accompanying documentation.</p>
 <h2>The context-within-tables approach</h2>
 <p>eBay's API takes a little different approach. For each item in the XML response, they give some context about where the item appears.</p>
-<p><a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ebay-550x335.png" alt="ebay" width="550" height="335" class="alignnone size-medium wp-image-22746" /></a></p>
+<p><a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{site.media}}/ebay-550x335.png" alt="ebay" width="550" height="335" class="alignnone size-medium wp-image-22746" /></a></p>
 <p>For example, <code>MinimumAdvertisedPrice</code> is nested inside <code>DiscountPriceInfo</code>, which is nested in <code>Item</code>, which is nested in <code>ItemArray</code>.</p>
-<p><a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nesting.png" alt="nesting" class="alignnone size-full wp-image-22747" /></a></p>
+<p><a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{site.media}}/nesting.png" alt="nesting" class="alignnone size-full wp-image-22747" /></a></p>
 <p>It's also interesting how much detail they include for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.</p>
 <h2>Conclusion</h2>
 <p>You can see that there's a lot of variety in documenting JSON and XML responses. Peter's course helps start the discussion about how to document these types of information.</p>

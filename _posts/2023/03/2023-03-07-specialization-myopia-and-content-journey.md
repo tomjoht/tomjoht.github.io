@@ -42,6 +42,6 @@ Here's the presentation title and description:
 
 ## Slides
 
-<a href="https://idbwrtng.com/tcs_preso"><img style="max-width:500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/spec-myopia-title-slide.png" /></a>
+<a href="https://idbwrtng.com/tcs_preso"><img style="max-width:500px" src="{{site.media}}/spec-myopia-title-slide.png" /></a>
 
 {% include ads.html %}

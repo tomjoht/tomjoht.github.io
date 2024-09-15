@@ -5,7 +5,7 @@ categories:
 - DITA
 keywords: developer documentation, API documentation, interactivity, code, contributions, community, technical writer tooling, DITA
 description: "When deciding on the right tool to use for developer documentation, you have to evaluate just how much developers will be contributing and interacting with the documentation. In some scenarios, it will make sense to use developer tooling for docs to support more developer involvement. In other scenarios, it may be better to simply give developers a space where they can do brain dumps of technical info, but then to have tech writers edit, rewrite, and transition the content into tech writer tooling in order to handle more robust requirements."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/developertoolingmodelthumb.png
+image: thumbnails/developertoolingmodelthumb.png
 ---
 
 * TOC

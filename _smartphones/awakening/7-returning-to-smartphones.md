@@ -59,7 +59,7 @@ When we do share our talents, they often open doors for others. For example, my 
 
 I realized that life was only going to get harder and harder trying to live with a basic phone. You can sort of get by now, in 2022, but what happens in 5-10 years? Technology doesn’t recede. Every year, we accelerate faster and faster. Eventually you have to learn to live with contemporary technology. You can’t run the other way. Better to figure out ways to deal with it sooner rather than later.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/basicphonevssmartphones2.jpg" alt="Returning to smartphones" /><figcaption>Returning to smartphones</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/basicphonevssmartphones2.jpg" alt="Returning to smartphones" /><figcaption>Returning to smartphones</figcaption></figure>
 
 But you don’t have to adopt technology wholesale, especially every app on a smartphone. I think we’re still figuring out smartphones. Many of us are realizing that for as much wonder and awesomeness as it is to hold the internet in our pockets wherever we go, we’ve traded something precious for it: the ability to read long-form. In gaining the smartphone, did we give up the capacity to read books? This is where I was particularly torn, because in my six weeks with no smartphone, I’d consumed more books than years previous. To be specific, I read the following:
 

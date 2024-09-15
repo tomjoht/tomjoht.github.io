@@ -19,14 +19,14 @@ published: true
 <p><a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/docasapi/api/v1/pages.json">https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/docasapi/api/v1/pages.json</a>.</p>
 
 <p>You can see the page content formatted as a JSON file by going to the endpoint:</p>
-<p><a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/docasapi/api/v1/pages.json"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/endpointsample-550x317.png" alt="endpointsample" width="550" height="317" class="alignnone size-medium wp-image-22550" /></a></p>
+<p><a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/docasapi/api/v1/pages.json"><img src="{{site.media}}/endpointsample-550x317.png" alt="endpointsample" width="550" height="317" class="alignnone size-medium wp-image-22550" /></a></p>
 <p>(BTW, it helps to add the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">Chrome JSON formatter extension</a> to format the JSON in your browser.)</p>
 
 {% include ads.html %}
 
 <p>The <a href="https://github.com/18F/jekyll_pages_api">Jekyll Pages API</a> creates a pages.json file when you build your site.</p>
 <p>Here's a sample page showing how one might call the endpoint to retrieve and append the information on a page: <a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/sampledocapicall.html">Sample Doc API Call</a>.</p>
-<p><a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/sampledocapicall.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sampledoccalls-550x374.png" alt="sampledoccalls" width="550" height="374" class="alignnone size-medium wp-image-22551" /></a></p>
+<p><a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/apidemos/sampledocapicall.html"><img src="{{site.media}}/sampledoccalls-550x374.png" alt="sampledoccalls" width="550" height="374" class="alignnone size-medium wp-image-22551" /></a></p>
 <p>Just view the source code on that page for the details. There are four examples. I've copied the code here for convenience:</p>
 
 {% highlight html %}
@@ -113,7 +113,7 @@ published: true
 <p>All you need to do is tell the developer to add unique IDs to each element where you want the context-sensitive help to appear. Then deliver a JavaScript file with a bunch of functions as shown in example 4. The developer would then add this JavaScript file to the <em>same</em> server as the website. And voila -- you have context-sensitive help the modern way.</p>
 <p>Note: If your JavaScript file is called from a different server than your website, you may get cross-original resource sharing warnings.</p>
 <h2>How to replicate the Jekyll site with the JSON API plugin</h2>
-<p>You don't have to know much about Jekyll to get this sample site running. Here are some simple steps to implement it all. You can also download the project here: <a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2015/02/apirubytest.zip">apirubytest</a>.</p>
+<p>You don't have to know much about Jekyll to get this sample site running. Here are some simple steps to implement it all. You can also download the project here: <a href="{{site.media}}/2015/02/apirubytest.zip">apirubytest</a>.</p>
 <p>These instructions assume you're on a Mac. (Sorry PC people -- I will update this one day. The instructions may be highly similar anyway.)</p>
 <ol>
 <li>Make sure you have Ruby. Open Terminal and type <code>which ruby</code>. You should see the version and location listed. If you don't have Ruby, install XCode (it contains a lot of dependencies.)</li>

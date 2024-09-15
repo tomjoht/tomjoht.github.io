@@ -6,6 +6,8 @@ categories:
 keywords:
 description: Techwriter.pl is an online hub of information for technical writers in Poland. Although it's maintained by volunteers, the site continues to thrive from its inception in 2013 up through today. The following is a guest post by Michal Skowron and Jakub Wisniewski, two Poland-based technical writers who helped shape Techwriter.pl and who wanted to tell the story of the site.
 bitlink: http://bit.ly/techwriterplstory
+author: Michal Skowron and Jakub Wisniewski
+bio: false
 ---
 
 * TOC

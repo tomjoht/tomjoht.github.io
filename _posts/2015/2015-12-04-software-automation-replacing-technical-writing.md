@@ -4,7 +4,9 @@ categories:
 - technical-writing
 - writing
 keywords: software automation, careers, AI, robots replacing humans, technical writers outdated
-description: "In this guest post, Robert Desprez looks at the possibility that advanced technology may replace the need for technical writers. Desprez explores a recent book by Martin Ford (<i>Rise of the Robots</i>) on the subject. "
+description: "In this guest post, Robert Desprez looks at the possibility that advanced technology may replace the need for technical writers. Desprez explores a recent book by Martin Ford (<i>Rise of the Robots</i>) on the subject."
+author: Robert Desprez
+bio: false
 ---
 
 * TOC

@@ -4,7 +4,7 @@ categories:
 - dita
 keywords: CMS editor, CCMS editor, editor interfaces for content management systems, easy XML viewers, XML editors
 description: "The following article is a sponsored article I wrote on behalf of Xeditor, which is one of the companies I advertise on my site. Xeditor provides an easy-to-use, Word-like interface for writing XML (either DITA or your own custom schema). You configure Xeditor to work with your CMS or CCMS, allowing authors across your company to contribute, edit, and review content."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/xeditorthumbscreen.png
+image: thumbnails/xeditorthumbscreen.png
 ---
 
 * TOC
@@ -44,7 +44,7 @@ Xeditor hides the code view, but you can still see it as read-only by expanding 
 
 Additionally, an expandable Attributes pane provides a view of the attributes for the element you're working with. In XML, attributes are properties of elements, such as the platform, product, or audience tags that determine how the element gets processed.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/xeditor_attributes.png" alt="Xeditor Attributes pane" /><figcaption>When you click an element, the Attributes pane shows the attributes or properties for those elements.</figcaption></figure>
+<figure><img src="{{site.media}}/xeditor_attributes.png" alt="Xeditor Attributes pane" /><figcaption>When you click an element, the Attributes pane shows the attributes or properties for those elements.</figcaption></figure>
 
 Another handy feature of Xeditor is the comment and review functionality. To comment on any text, just highlight the word and click the Comment button. Add your comment in the Comments pane. Reviewers can accept or reject the changes, and you can even turn on a Track Changes mode.
 

@@ -21,7 +21,7 @@ Through my blog, I receive a lot of questions from users.
 
 I've seen the same questions numerous times, so I've decided to compile a list of answers to those questions and add a link to them on my contact page.
 
-<figure><img alt="Charting your course in technical communication" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sailboat2.png"/><figcaption>Charting your course in technical communication</figcaption></figure>
+<figure><img alt="Charting your course in technical communication" src="{{site.media}}/sailboat2.png"/><figcaption>Charting your course in technical communication</figcaption></figure>
 
 These are the 10 most frequently asked questions about technical writing:
 

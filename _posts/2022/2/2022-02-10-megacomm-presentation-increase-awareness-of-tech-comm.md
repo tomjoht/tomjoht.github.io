@@ -37,7 +37,7 @@ If you just want the audio, here it is:
 
 ## Slides
 
-<a href="https://idratherbewriting.com/slides/workplace_influence.html#/"><img style="max-size:400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/slidethumbworkplaceinfluence.png"></a>
+<a href="https://idratherbewriting.com/slides/workplace_influence.html#/"><img style="max-size:400px; border: 1px solid #dedede" src="{{site.media}}/slidethumbworkplaceinfluence.png"></a>
 
 {% include ads.html %}
 

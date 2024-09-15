@@ -4,7 +4,7 @@ keywords:
 categories:
 - api-doc
 description: "REST APIs use HTTP protocol (or rather, the web) to transport the request and response messages between clients and servers. The client and server can run on any language or platform as long as the request/response is sent via HTTP. To understand REST APIs, it helps to compare them with their predecessor: SOAP APIs. Both SOAP and REST APIs are a kind of web service. "
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/restapithumb.png
+image: thumbnails/restapithumb.png
 ---
 
 * TOC
@@ -46,7 +46,7 @@ Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport pro
 
 Here's the general model of a REST API:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/restapi_restapi.svg" alt="REST API" />
+<img src="{{site.media}}/api/restapi_restapi.svg" alt="REST API" />
 
 ### Any message format can be used
 As an architectural style, you aren't limited to XML as the message format. REST APIs can use any message format the API developers want to use, including XML, JSON, Atom, RSS, CSV, HTML, and more.
@@ -83,7 +83,7 @@ The terminology of URIs and GET requests and message responses transported over 
 
 If you open a browser and go to https://idratherbewriting.com, you're really using HTTP protocol (`http://`)  to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/restapi_www.svg" alt="Web as REST API" />
+<img src="{{site.media}}/api/restapi_www.svg" alt="Web as REST API" />
 
 You can see this response in cURL if you open a Terminal prompt and type `curl https://idratherbewriting.com`. The web itself is an example of RESTful style architecture.
 

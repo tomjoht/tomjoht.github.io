@@ -50,11 +50,11 @@ If you reveal the bulleted list point by point, it has the same effect as flashi
 
 Ideally, I think good slides should be idea diagrams or visual sketch notes that demonstrate your ideas. Some presenters just put photos from Flickr on their slides to generally depict an idea, but I like more purposeful concept diagrams that might have multiple ideas going on. For example, like this:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trends_more_collaboration_engineers_slide1.svg" />
+<img src="{{site.media}}/trends_more_collaboration_engineers_slide1.svg" />
 
 Or like this:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trends_more_collaboration_engineers_slide2.svg" />
+<img src="{{site.media}}/trends_more_collaboration_engineers_slide2.svg" />
 
 Granted, some font on these slides is less than 30 points, but you don't see extensive bulleted lists here.
 

@@ -23,7 +23,7 @@ published: true
 {% include toc.html %}
 
 <p>I've been waiting for tags to come out for a while. Now that WordPress 2.3 (Dexter) is here, I'm trying to integrate them into my site to the fullest extent. The following image shows the new Tag field that appears below posts.</p>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tags1.gif" alt="Tags" /></p>
+<p><img src="{{site.media}}/tags1.gif" alt="Tags" /></p>
 <h3>Tags vs. Categories</h3>
 <p>First, to get the concept of tags right, think of tags as index words, and categories more like chapter headings. <a href="http://lorelle.wordpress.com/2007/09/21/tags-arrive-on-wordpresscom-blogs/" target="_blank">Lorelle</a> explains,</p>
 <blockquote><p>Tags are like your blog's index. They are keywords that represent the micro-categorization of your blog's content. To work effectively, they need to be words that people search for, called search terms.</p></blockquote>
@@ -32,13 +32,13 @@ published: true
 <h3>Tags Are Not Automatic</h3>
 <p>I thought that after upgrading to WordPress 2.3 and adding some tags in the Tag field, they would automatically appear in my post. Actually, tags only appear after you add the tag call (php the_tags) to your singlepost.php page in your theme editor.</p>
 <p><strong>Note:</strong> If your theme uses the old loop, tags won't work at all. So if you add the tag template tag to your singlepost.php page and you still don't see tags, check out your <a href="http://codex.wordpress.org/The_Loop" target="_blank">loop</a>. See this <a href="http://www.twofishcreative.com/michael/blog/2007/09/30/wordpress-23-the-connections-theme-and-tags/" target="_blank">post from echo</a> about resolving this problem.</p>
-<p>Actually many themes and plugins themselves aren't compatible with 2.3. If you encounter a <a href="http://wordpress.org/support/topic/135564" target="_blank">database</a> <a title="error" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2007/10/error.gif">error,</a> you can either start tweaking your theme by examining the code with the latest Kubrick 2.3 version theme, or just look for <a href="http://codex.wordpress.org/Themes/Theme_Compatibility/2.3" target="_blank">themes already compatible with 2.3</a>.</p>
-<p>Since I'd already been looking for a new theme, I used this upgrade as an excuse to implement the <a href="http://www.blogohblog.com/wordpress-theme-limau-orange/" target="_blank">Limau Orange theme</a>. (Do you like it, by the way?)<a title="error" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2007/10/error.gif"><br />
+<p>Actually many themes and plugins themselves aren't compatible with 2.3. If you encounter a <a href="http://wordpress.org/support/topic/135564" target="_blank">database</a> <a title="error" href="{{site.media}}/2007/10/error.gif">error,</a> you can either start tweaking your theme by examining the code with the latest Kubrick 2.3 version theme, or just look for <a href="http://codex.wordpress.org/Themes/Theme_Compatibility/2.3" target="_blank">themes already compatible with 2.3</a>.</p>
+<p>Since I'd already been looking for a new theme, I used this upgrade as an excuse to implement the <a href="http://www.blogohblog.com/wordpress-theme-limau-orange/" target="_blank">Limau Orange theme</a>. (Do you like it, by the way?)<a title="error" href="{{site.media}}/2007/10/error.gif"><br />
 </a></p>
 <h3>Structure Your Tags</h3>
 <p>Once you start applying tags, you'll soon want to bring more structure and order to the tagging experience. You don't want to repeat the same tags with synonyms or altered word spellings. You want to know what tags you've previously applied so your tagging is consistent.</p>
 <p>The <a href="http://poplarware.com/tagplugin.html" target="_blank">Structured Tag Library plugin</a> brings this functionality to WordPress. It shows you all the previous tags you've applied and allows you to apply them to your current post. The following image shows the Advanced Tag Entry functionality this plugin adds.</p>
-<p><a title="Tag entry" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2007/10/tagentry.gif"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tagentry1.gif" alt="Tag entry" /></a></p>
+<p><a title="Tag entry" href="{{site.media}}/2007/10/tagentry.gif"><img src="{{site.media}}/tagentry1.gif" alt="Tag entry" /></a></p>
 <p>As you can see, you can select existing tags from a drop-down list. You can also remove tags from your list.</p>
 <p>The Tag field represents how the tag is displayed, whereas the Slug field is how WordPress stores the tag's name. Tag names can't have spaces in them, so while a tag may be named "WordPress plugins," the slug will read "wordpress-plugins."</p>
 <p>You can manage tags conveniently through the <a href="http://wordpress.org/extend/plugins/tag-managing-thing/" target="_blank">Tag Managing Thing plugin</a>.</p>

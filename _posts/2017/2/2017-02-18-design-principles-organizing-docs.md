@@ -9,7 +9,7 @@ tags:
 - usability
 - design
 - documentation
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/user-centered-doc-organization.mp3
 podcast_file_size: 50.4 MB
 podcast_duration: "57:58"
@@ -42,6 +42,6 @@ If you just want the audio, here it is:
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/files/design-principles-for-organizing-docs/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ucdthumbstctwin.png" style="border: 1px solid gray" /></a>
+<a href="https://idratherbewriting.com/files/design-principles-for-organizing-docs/"><img src="{{site.media}}/ucdthumbstctwin.png" style="border: 1px solid gray" /></a>
 
 {% include ads.html %}

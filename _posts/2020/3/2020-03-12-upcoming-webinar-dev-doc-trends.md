@@ -20,7 +20,7 @@ description: "I recently gave a webinar on trends in developer docs to the STC W
 
 My slides are here:
 
-<a href="https://idratherbewriting.com/slides/devdoctrends.html"><img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/trendstitleslideapidocpreso.png" /></a>
+<a href="https://idratherbewriting.com/slides/devdoctrends.html"><img style="max-width: 400px" src="{{site.media}}/api/trendstitleslideapidocpreso.png" /></a>
 
 ## Webinar recording
 

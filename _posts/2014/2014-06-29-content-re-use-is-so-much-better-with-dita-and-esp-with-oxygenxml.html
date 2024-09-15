@@ -67,11 +67,11 @@ Nothing earth shattering there.</p>
 <li><code>city_slicker_22</code></li>
 <li><code>city_slicker_23</code></li>
 </ul>
-<p>To set up your attributes and values in OxygenXML, enter the Author view and click the<strong> Profiling Attributes</strong> button <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/profiling_conditions.png" alt="profiling_conditions" width="51" height="29" />. Then select <strong>Profiling Settings</strong>.</p>
-<p><img class="alignnone size-full wp-image-20945" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/dita_profiling_settings.png" alt="dita_profiling_settings" width="506" height="336" /></p>
+<p>To set up your attributes and values in OxygenXML, enter the Author view and click the<strong> Profiling Attributes</strong> button <img src="{{site.media}}/profiling_conditions.png" alt="profiling_conditions" width="51" height="29" />. Then select <strong>Profiling Settings</strong>.</p>
+<p><img class="alignnone size-full wp-image-20945" src="{{site.media}}/dita_profiling_settings.png" alt="dita_profiling_settings" width="506" height="336" /></p>
 <p>Alternatively, go to <strong>DITA > Profiling/Conditional Text > Edit Profiling Attributes</strong>.</p>
 <p>In the Profiling Attributes section, edit the values for each of the attributes.</p>
-<p><img class="alignnone size-full wp-image-20944" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/dita_profiling_attributes.png" alt="dita_profiling_attributes" /></p>
+<p><img class="alignnone size-full wp-image-20944" src="{{site.media}}/dita_profiling_attributes.png" alt="dita_profiling_attributes" /></p>
 <p>While you're on the same screen, move to the next section below: <b>Profiling Condition Sets</b>. Here you can define the combinations of the profiling attributes you want for your various targets. In this case, I want the following condition sets:</p>
 <ul>
 <li>Trek 7.1 FX manual => Product: <code>trek</code>, Platform: <code>71_fx</code></li>
@@ -81,7 +81,7 @@ Nothing earth shattering there.</p>
 <li>Gary Fisher City Slicker 2.1 manual => Product: <code>gary_fisher</code>, Platform: <code>city_slicker_21</code></li>
 <li>Gary Fisher City Slicker 2.2 manual => Product: <code>gary_fisher</code>, Platform: <code>city_slicker_22</code></li>
 </ul>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/dita_profile2.png" alt="dita_profile2" width="596" height="338" class="alignnone size-full wp-image-20953" /></p>
+<p><img src="{{site.media}}/dita_profile2.png" alt="dita_profile2" width="596" height="338" class="alignnone size-full wp-image-20953" /></p>
 <p>Now you can start using these attributes almost any DITA element. Suppose you want to apply an attribute to your map so that you can use the same map for each product. You might apply the attributes like this:<br />
 {% highlight xml %}
 <topicref href="maintaining_brakes_71_fx.html" product="trek" platform="71_fx"/><br />
@@ -93,7 +93,7 @@ Nothing earth shattering there.</p>
 {% endhighlight %}
 <p>Now configure your transformation scenarios with the right condition sets:</p>
 <ol>
-<li>Click the <b>Transform Scenarios</b> button <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/transform_scenarios.png" alt="transform_scenarios" width="32" height="32" />.</li>
+<li>Click the <b>Transform Scenarios</b> button <img src="{{site.media}}/transform_scenarios.png" alt="transform_scenarios" width="32" height="32" />.</li>
 <li>Select <b>New</b>.</li>
 <li>Select <b>DITA OT Transformation</b>.</li>
 <li>Select <b>Webhelp</b> and click <b>OK</b>.</li>
@@ -185,7 +185,7 @@ Congratulations on the purchase of your new <keyword keyref="bike_model"/> bike.
 <p>With Oxygen, however, the conditional profiling works more intuitively (similar to Flare, actually). In Oxygen, when you create a condition set that includes certain values, other values not selected from that same attribute are excluded. If you don't apply any attribute to content, everything is included.</p>
 <p>Also, when you're in the Author mode, you can switch to the condition set that you want to see. If you switch to Trek 7.3 FX, only the content that meets that condition set appears in the Author view.</p>
 <p>You can also set it so that the content not included is semi-transparent. This mode makes it easy to edit content that has a myriad of complex conditional profiling. Here's an example. The content with the attribute for <code>gary_fisher</code> is transparent because I've selected to only see the <code>trek</code> content.</p>
-<p><img class="alignnone size-full wp-image-20947" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/dita_hidden_text.png" alt="dita_hidden_text" width="584" height="341" /></p>
+<p><img class="alignnone size-full wp-image-20947" src="{{site.media}}/dita_hidden_text.png" alt="dita_hidden_text" width="584" height="341" /></p>
 <p>I've been using attributes like this for the past week using OxygenXML and can't believe I was trying to hack the same solution in Confluence. It's like moving from the stone age to the modern age.</p>
 <h2>Related links</h2>
 <p>See the <a href="https://idratherbewriting.com/conditional_profiling">Conditional Profiling</a> link in my DITA QRG.</p>

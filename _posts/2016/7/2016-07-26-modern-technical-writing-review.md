@@ -14,7 +14,7 @@ tags:
 - Andrew Etter
 - modern technical writing
 - version control
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/modern-technical-writing-etter.mp3
 podcast_file_size: 8.4 MB
 podcast_duration: "10:24"

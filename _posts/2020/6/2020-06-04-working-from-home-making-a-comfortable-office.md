@@ -15,7 +15,7 @@ description: "We recently moved about a mile away to a larger house (still renti
 
 The office in this house is part of a garage-add-in (meaning, the garage was converted to a living space). Most of the garage is a second family room, while a section of it is an enclosed office. Here's what it looks like:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/officeoverall.jpg" alt="Overall office" />
+<img src="{{site.media}}/officeoverall.jpg" alt="Overall office" />
 
 I have no idea what's inside the office walls, but the office is some kind of Faraday cage that blocks wifi signals. I originally had a [Netgear Nighthawk router](https://www.amazon.com/gp/product/B00KWHMR6G/) with a range of 3,500 sq feet (this house is half that size), but the speeds in my office were a fifth of the speeds elsewhere in the house. Average office speeds were 25-50Mbps (my Comcast promised speed is 175Mbps). (Tip: Use [fast.com](https://fast.com) to make a quick speed test.)
 
@@ -25,21 +25,21 @@ However, the speeds were still only at about 50-75Mbps with the mesh network. I 
 
 I then tried using something called [MoCA adapters](https://www.bestbuy.com/site/actiontec-bonded-moca-2-0-wired-network-adapter-2-pack/6286329.p?skuId=6286329) (multimedia over coax alliance). For some reason, almost every room in the house has a coaxial cable coming out of the wall. I think at some point there was a "DVR in every room" installation by Comcast.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/coaxialcablewall.jpg" alt="Coaxial cable" />
+<img src="{{site.media}}/coaxialcablewall.jpg" alt="Coaxial cable" />
 
 I thought I could tap into one of these coaxial cables and get Ethernet from it through the MoCA adapters, but alas, this didn't work. It turns out that only one coaxial cable actually has Internet connectivity. I think pushing Internet to all the cables in the house would attenuate the signal, so only one coaxial cable actually works, and activating other cables would require a technician and likely an increased cost.
 
 I experimented with connecting and disconnecting different cables coming in from the phone line that connects to a little splitter outside the house, thinking I could shift the active cable to the coaxial cable in my office, but no luck.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cablestangled.jpg" alt="Cables coming in from phone line" />
+<img src="{{site.media}}/cablestangled.jpg" alt="Cables coming in from phone line" />
 
 Finally, I decided to simply buy a 150' Ethernet cable and run it from my office to the active coaxial cable in the living room. It took me about two hours to discreetly tack the cable along wall crevices and doorframes, but it works.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ethernetcord.jpg" alt="Ethernet cord tacked around a doorframe" style="max-width: 550px"/>
+<img src="{{site.media}}/ethernetcord.jpg" alt="Ethernet cord tacked around a doorframe" style="max-width: 550px"/>
 
 Speed is much better, sometimes even around 175Mbps. I positioned one of the Eero routers in my office, and even when not hard-wired in, the wifi signal is sometimes better. I think the signal bounces around inside this office with more strength or something.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eerorouteroffice.jpg" alt="Eero router" />
+<img src="{{site.media}}/eerorouteroffice.jpg" alt="Eero router" />
 
 Even with all this hard-wiring, my speeds will still dip during the day, sometimes down to 65Mbps. In looking at the number of devices connected, there are 22, which includes everything from phones to laptops, printers, Echo devices, Fire TV, and more. To see if I'm actually getting 175Mbps, I'd need to change my network name (or disconnect all the devices), plug in an ethernet cable directly to the cable modem, and test. I've found that any speed over 75Mbps is usually decent, and you only notice issues when uploading or downloading files.
 
@@ -49,7 +49,7 @@ On to another issue: temperature. Last week we had a heat wave in California. Si
 
 I tried positioning fans around the windows but ultimately decided I needed air conditioning. After reading up on how window air conditioning units are so much better than portable air conditioning units, I set about installing a window air conditioning unit. But since my window slides sideways rather than up and down, I had to create a custom board to fit it. I spent a while figuring out the best approach, but at the end of the day, a board like this worked best:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/airconditionercutout.jpg" alt="Air conditioner wood cutout" style="max-width: 550px"/>
+<img src="{{site.media}}/airconditionercutout.jpg" alt="Air conditioner wood cutout" style="max-width: 550px"/>
 
 Basically, it's just a rectangular board with a cutout for the air conditioner to fit through. It's easy to cut this section out with a jigsaw, and using power tools is kind of an adrenaline rush, so I welcomed this task.
 
@@ -57,7 +57,7 @@ This little AC unit ([Toshiba, 5,000 BTU](https://www.homedepot.com/p/Toshiba-5-
 
 Here's what it looks like from the outside:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/airconditioneroutsideview.jpg" alt="Outside view of air conditioner" />
+<img src="{{site.media}}/airconditioneroutsideview.jpg" alt="Outside view of air conditioner" />
 
 {% include ads.html %}
 
@@ -65,7 +65,7 @@ Here's what it looks like from the outside:
 
 After installing the air conditioner and sealing off the window, the air became stuffy in my office. I needed some fresh air. California has more cool days than hot, and on these cool days I like to have fresh air and feel the breeze come in. I didn't want to sacrifice fresh air on a permanent basis. So I repositioned my AC unit installation and made it so that I could slide my window back out a bit. This gave me about half a foot of air and sunlight coming through, which was perfect. To plug the gap, I found a plastic under-wedge door that fits in just perfectly. I also positioned a small fan near this window outlet to pull more air in when I want it.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/windowfanair.jpg" alt="Fan for fresh air" />
+<img src="{{site.media}}/windowfanair.jpg" alt="Fan for fresh air" />
 
 Overall, it works well to cool my office. However, the other day wife started the air fryer in the kitchen, which seems the equivalent of turning on five or six hair dryers and microwaves at once, and it tripped the circuit. I've already rerouted the air fryer's cord to another circuit that supports more watts, but I guess I have more work to do, since now whenever she uses the air fryer I turn off my AC unit. In part, the larger problem is that the original electrical wiring was done to support a house that didn't have this second family living room and office space.
 
@@ -79,13 +79,13 @@ After reading about the health hazards of fluorescent tubes (CFT), I bought some
 
 Because changing this light fixture means twisting live wires together, I turned off all the power to the house before untwisting the wires and retwisting the new ones with the new ballast. I don't often work with electricity, so this was a new process for me. I realize I could have just turned off the circuit to my office, but I wasn't sure which one it was. Here's what the new strip lights look like:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/striplightsbright.jpg" alt="Bright striplights" />
+<img src="{{site.media}}/striplightsbright.jpg" alt="Bright striplights" />
 
 The new strip light with the LED hybrid lights worked well, but then I realized that the new strip light fixture didn't even have a "lens" (the cover that goes over the lights). As a result, even though the lights filled the room with lumens, they hurt my eyes to look at. I needed a lens to diffuse them a bit more. I returned again to Home Depot for a strip light fixture that would include a lens.
 
 The lighting expert at Home Depot talked me into buying a dimmer switch instead. Thinking that it would involve twisting similar wires together as the strip light, I decided to go for it. However, when I pulled out the light switch from the wall, which was a double switch, and I realized it was more complicated than the youtube videos I watched led me to believe.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/lightswitchwiring.jpg" alt="My light switch wiring" style="max-width: 450px"/>
+<img src="{{site.media}}/lightswitchwiring.jpg" alt="My light switch wiring" style="max-width: 450px"/>
 
 There were three main cables with two black wires each, and all the white wires weren't even used but were just bundled together. I made a best guess and added the black wire from the new dimmer switch in with the other black wires tied together, and the red wire to the other white wires, and then the grounding wire to the copper wire. I screwed everything back into the wall and turned the power back on. The light turned on but wouldn't turn off. When I used the dimmer switch, some green sparks jumped from the wall.
 
@@ -99,7 +99,7 @@ I literally spent hours trying different room configurations for the green scree
 
 I finally reduced the width of the hanging structure (what the green screen usually clips onto) and wedged this structure into the room. I removed the tripod from the softbox lights and positioned them on the edges of desks. I opened up the windows more for natural light from the front. Thankfully, this seemed to work. When not in operation, I stored the softbox lights in different corners of the office. I am hesitant to remove the bulbs and collapse the softbox frames because the last time I did that, I didn't re-open the lighting kit for 2+ years. Here's what my setup/arrangement looks like:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/greenscreensetup.jpg" alt="Green screen setup" />
+<img src="{{site.media}}/greenscreensetup.jpg" alt="Green screen setup" />
 
 You can't see the other softbox, but it's similarly positioned on the opposite side, more or less in the door on a tripod stand.
 

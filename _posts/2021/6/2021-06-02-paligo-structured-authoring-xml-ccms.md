@@ -75,7 +75,7 @@ Here are a few sample outputs from Paligo:
 
 {% for item in page.samples %}
 
-<figure><a href="{{item.url}}" target="_blank" rel="nofollow"><img class="recommendedPodcasts" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/{{item.img}}" alt="{{item.title}}"/></a><figcaption>{{item.title}}</figcaption></figure>
+<figure><a href="{{item.url}}" target="_blank" rel="nofollow"><img class="recommendedPodcasts" src="{{site.media}}/{{item.img}}" alt="{{item.title}}"/></a><figcaption>{{item.title}}</figcaption></figure>
 
 {% endfor %}
 

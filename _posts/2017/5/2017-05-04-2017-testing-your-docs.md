@@ -6,7 +6,7 @@ categories:
 keywords: testing docs, qa, environments
 description: "Testing your documentation is such an important part of tech writing that I decided to expand the sections on testing docs in my API doc course. I actually grouped these pages into their own section, amplifying the content with more detail and better organization."
 bitlink: http://bit.ly/testingyourdocsapi
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/testinginlab.png
+image: thumbnails/testinginlab.png
 ---
 
 * TOC

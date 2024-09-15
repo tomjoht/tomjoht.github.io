@@ -26,7 +26,7 @@ On top of that, while setting up a basic documentation site can be done with ope
 
 That’s where the idea for Doctave came. We built the tool we would have wanted to use.
 
-<a href="https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq" class="noCrossRef" ><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doctavescreenshot.png" alt="Doctave: docs-as-code documentation platform" /></a>
+<a href="https://www.doctave.com?utm_source=idratherbewriting&utm_campaign=faq" class="noCrossRef" ><img style="max-width: 600px" src="{{site.media}}/doctavescreenshot.png" alt="Doctave: docs-as-code documentation platform" /></a>
 
 <h3> [Tom] There are many tech comm tools available, especially within the developer docs landscape. What sets Doctave apart from others? </h3>
 

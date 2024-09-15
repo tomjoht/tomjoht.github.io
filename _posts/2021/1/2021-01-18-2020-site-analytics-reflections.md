@@ -84,7 +84,7 @@ In looking at my site analytics, here are some small observations (comparing 201
 
 Nothing major here. Then again, metrics fluctuate a bit, so it's hard to identify what's a trend versus what's just normal variation. The only notable pattern during the past severals years that made me rethink my content was the increased traffic from the API doc content. If you look at traffic from 2014 through 2020, you can see the major increase in traffic due to this shift:
 
-<figure><a href="/analytics/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/historicalgrowthblog2006-2020.png" alt="Traffic in 2014 vs 2020" /></a><figcaption>Traffic growth from 2006 through 2020</figcaption></figure>
+<figure><a href="/analytics/"><img src="{{site.media}}/historicalgrowthblog2006-2020.png" alt="Traffic in 2014 vs 2020" /></a><figcaption>Traffic growth from 2006 through 2020</figcaption></figure>
 
 When I first noticed this trend, I [wondered whether whether more engineers were suddenly writing docs](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site). But over the past few years, I've observed a continual interest from tech writers getting into API documentation. This continued interest in API documentation reinforces the good career direction and decisions I made when I moved to California from Utah back in 2013 and got into API documentation. Since then, I've seen a growing split in the tech comm field between two camps: API doc writers and UX writers.
 

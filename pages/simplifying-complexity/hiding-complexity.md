@@ -13,7 +13,7 @@ This scenario is common in developer docs because you often have multiple langua
 
 In these scenarios, a common approach in documentation is to hide the languages users don't need. As I revised the JSON/XML documentation, I started separating out the languages into navtabs, like this:
 
-<a class="noCrossRef" href="https://developer.amazon.com/docs/fire-app-builder/set-up-recipes-categories.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/navtabsseparatinglangs.png"/></a>
+<a class="noCrossRef" href="https://developer.amazon.com/docs/fire-app-builder/set-up-recipes-categories.html"><img src="{{site.media}}/simplifying-complexity/navtabsseparatinglangs.png"/></a>
 
 Previously, I had these sections stacked on top of each other, which lengthened the page and increased the visual clutter. By incorporating navtabs like this, users who care only about JSON or XML can select the corresponding tab and avoid seeing the irrelevant material.
 

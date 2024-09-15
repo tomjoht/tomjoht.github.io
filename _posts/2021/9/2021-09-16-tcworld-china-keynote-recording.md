@@ -24,7 +24,7 @@ At first, I thought this topic wasn't something I had anything to say about, esp
 
 For more conference details, see [tcworld China 2021](https://www.tcworld-china.cn/en/) and my [presentation](https://www.tcworld-china.cn/en/speaker/tom-johnson/). Here's a photo from the event:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/tcworldchinaphoto.jpg" alt="Photo from the tcworld China 2021 event" />
+<img src="{{site.media}}/api/tcworldchinaphoto.jpg" alt="Photo from the tcworld China 2021 event" />
 
 ## Video
 
@@ -46,7 +46,7 @@ If you want to listen to audio only, here's the file:
 
 Here are my slides:
 
-<a target="_blank" href="https://idratherbewriting.com/slides/techcomm_and_marketing.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/tcworldchinatitleslide.png" alt="Tech comm and marketing slides" /></a>
+<a target="_blank" href="https://idratherbewriting.com/slides/techcomm_and_marketing.html"><img src="{{site.media}}/api/tcworldchinatitleslide.png" alt="Tech comm and marketing slides" /></a>
 
 (I incorporated some tcworld China branding into the slides.)
 
@@ -56,11 +56,11 @@ Here are my notes on the presentation. I spliced in the relevant images from the
 
 <p style="font-weight: 700; font-family: sans-serif; font-size: 22px">Tech comm and marketing: How to make your tech comm group more visible within your company</p>
 
-<img class="slideImage" alt="Tech comm and marketing: How to make your tech comm group more visible within your company" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/tcworldchina_title5.jpg" />
+<img class="slideImage" alt="Tech comm and marketing: How to make your tech comm group more visible within your company" src="{{site.media}}/api/tcworldchina_title5.jpg" />
 
 ### The intersection of docs and marketing
 
-<img class="slideImage" alt="What is the technical writer's role in content marketing?" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/content_mktg_post.png" alt="The intersection of docs and marketing" />
+<img class="slideImage" alt="What is the technical writer's role in content marketing?" src="{{site.media}}/content_mktg_post.png" alt="The intersection of docs and marketing" />
 
 * Asked to speak on a topic in a post I wrote called [What is the technical writer's role in content marketing?](/2016/01/04/content-marketing-to-the-rescue-for-thought-leadership/)
 
@@ -93,7 +93,7 @@ Here's a brief excerpt from the post:
 
 ### The idea of content marketing
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cmi_content.png" alt="Content brings people together" alt="The idea of content marketing" />
+<img class="slideImage" src="{{site.media}}/cmi_content.png" alt="Content brings people together" alt="The idea of content marketing" />
 
 * This focus brings me to the idea of content marketing. The idea of content marketing is that you build relationships with users by providing them with valuable, regular content rather than just trying to pitch them marketing material. Documentation seems like great fodder for content marketing material because by definition, documentation is information rich, instructive, and helpful to people. Documentation doesn't try to sell you anything. Instead, it teaches you something.
 
@@ -101,7 +101,7 @@ Here's a brief excerpt from the post:
 
 ### Engaging users with product stories
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/story_arc_lichaw.png" alt="Engaging users with product stories" />
+<img class="slideImage" src="{{site.media}}/api/story_arc_lichaw.png" alt="Engaging users with product stories" />
 
 * The approach I've always tried to follow in my blog posts is to use story as the basic structure. In corporate storytelling, you want to identify the issues that motivate adoption of your product. In other words, you tell the story of your product. In most cases, a product solves a pain point of some kind. That's the story you want to tell.
 
@@ -121,7 +121,7 @@ Here's a brief excerpt from the post:
 
 ### Example: Independent vs. corporate blogs
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/indiebloggervscorp.png" alt="Example: Independent vs. corporate blogs" />
+<img class="slideImage" src="{{site.media}}/api/indiebloggervscorp.png" alt="Example: Independent vs. corporate blogs" />
 
 * I'm fairly convinced that you can only create engaging content as an independent blogger. A great example with independent blogs versus corporate blogs happened just recently with the recent device release from Amazon. On the one hand you have AFTV News (Elias Saba), writing about Amazon Fire TV devices. It's an amazing blog with interesting perspectives and in-depth expertise. Example AFTV post: [Comparison of specs for the Fire TV Stick 4K vs the new Fire TV Stick 4K Max — Plus why they matter](https://www.aftvnews.com/comparison-of-specs-for-the-fire-tv-stick-4k-vs-the-new-fire-tv-stick-4k-max-plus-why-they-matter/). It has in-depth analytical, honest review type content and gets 70+ comments.
 
@@ -135,7 +135,7 @@ Here's a brief excerpt from the post:
 
 ### Corporate newsletters are links to tech resources
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stripe_developer_digest.jpg" alt="Corporate newsletters are links to tech resources" />
+<img class="slideImage" src="{{site.media}}/api/stripe_developer_digest.jpg" alt="Corporate newsletters are links to tech resources" />
 
 * It seems like most examples of corporate newsletters are just conglomerations of updates, new resources, or other product updates. See [Stripe's Developer Digest newsletter](https://go.stripe.global/dev-digest) as an example (it's as good as it can be). The inevitable focus of a company's blog trends toward a "What's new" type page on a doc portal, just packaged as a newsletter. There could be companies who can do more with blogs beyond announcements and tech tips, but there aren't many around.
 
@@ -145,7 +145,7 @@ Here's a brief excerpt from the post:
 
 ### Docs are at the center of content strategy
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/intersecting_groups_documentation_center.svg" alt="Docs are at the center of content strategy" />
+<img class="slideImage" src="{{site.media}}/intersecting_groups_documentation_center.svg" alt="Docs are at the center of content strategy" />
 
 * If you agree that content should largely exist in the documentation itself, that changes the strategy a bit. Instead of pushing docs out to other groups, you can bring other groups to documentation.
 
@@ -159,13 +159,13 @@ Here's a brief excerpt from the post:
 
 ### Same content in different output formats
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/format_reuse.svg" alt="Same content in different output formats" />
+<img class="slideImage" src="{{site.media}}/api/format_reuse.svg" alt="Same content in different output formats" />
 
 * The traditional idea of enterprise single sourcing looks something like this. You store your content in one system that then generates outputs across all the channels where you need it. This is also the model driving DITA and other content efficiency strategies.
 
 ### Same content in different deliverables?
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/content_reuse2.svg" alt="Same content in different deliverables?" />
+<img class="slideImage" src="{{site.media}}/api/content_reuse2.svg" alt="Same content in different deliverables?" />
 
 * While this model might work in some companies, it doesn't work so well in others. If you're trying to generate different deliverables, not just different formats, you run into a host of challenges. Here are a few examples where reuse is challenging:
 
@@ -187,7 +187,7 @@ Here's a brief excerpt from the post:
 
 ### Single source publishing paradigms
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/single_source_publishing_models.svg" alt="Single source publishing models" />
+<img class="slideImage" src="{{site.media}}/api/single_source_publishing_models.svg" alt="Single source publishing models" />
 
 * With single sourcing strategies, the traditional paradigm is to store content in a central repository and then generate outputs for different channels and users. The idea of creating all these separate deliverables that get pushed out to different groups isn't the only model. In fact, this model seems like a better fit for a print publishing world.
 
@@ -201,7 +201,7 @@ Here's a brief excerpt from the post:
 
 ### Making docs visible to other groups
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/promoting_docs.svg" alt="Making docs visible to other groups" />
+<img class="slideImage" src="{{site.media}}/api/promoting_docs.svg" alt="Making docs visible to other groups" />
 
 * If docs are to be this fundamental repository that drives and empowers other groups, then we have to proactively let these other internal groups know about docs. It makes no sense to put so much effort into docs if they remain invisible to all these other groups that could build on and leverage the content.
 
@@ -217,7 +217,7 @@ Here's a brief excerpt from the post:
 
 ### What I've learned as a blogger about visibility
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/blogger_learnings4.svg" alt="What I've learned as a blogger about visibility" />
+<img class="slideImage" src="{{site.media}}/api/blogger_learnings4.svg" alt="What I've learned as a blogger about visibility" />
 
 * I fell into some marketing activities indirectly as a result of blogging. I started blogging because I liked to write, but I quickly realized that having a successful blog requires you to do marketing.
 
@@ -229,7 +229,7 @@ Here's a brief excerpt from the post:
 
 ### Building visibility through documentation reports
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/documentation_report_graphic2.svg" alt="Building visibility through documentation reports" />
+<img class="slideImage" src="{{site.media}}/api/documentation_report_graphic2.svg" alt="Building visibility through documentation reports" />
 
 * There's a super easy method for internal visibility, but few actually do it. The method is this: Create a monthly doc report and send it to all the relevant people. See [Sending doc status reports -- a tool for visibility and relationship building](/learnapidoc/docapis_status_reports.html).
 
@@ -251,7 +251,7 @@ Here's a brief excerpt from the post:
 
 ## Outcomes of regularly sending docs reports
 
-<img class="slideImage" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/intersecting_groups_documentation_visible.svg" alt="Outcomes of regularly sending docs reports" />
+<img class="slideImage" src="{{site.media}}/api/intersecting_groups_documentation_visible.svg" alt="Outcomes of regularly sending docs reports" />
 
 * What are the outcomes of regularly sending status reports? If you send regular status reports, and the content is insightful and well-presented, you can expect the following to happen:
 

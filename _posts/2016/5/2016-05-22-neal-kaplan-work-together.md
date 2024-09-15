@@ -5,7 +5,7 @@ categories:
 - podcasts
 keywords:
 description: "We recently hosted a Write the Docs meetup in Redwood City with a couple of excellent presenters. Below is the recording of Neal Kaplan's presentation. I also explain a bit about my new lapel mic and recording process."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/writethedocsthumb.png
+image: thumbnails/writethedocsthumb.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3
 redirect_from: 
 - /2016/05/22/bridging-gap-between-docs-and-support/

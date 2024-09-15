@@ -4,7 +4,7 @@ categories:
 - jobs
 keywords:
 description: "I've added a Zip Recruiter job feature on my site to help you more easily find jobs in your area."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jobalerts.png
+image: thumbnails/jobalerts.png
 ---
 
 * TOC

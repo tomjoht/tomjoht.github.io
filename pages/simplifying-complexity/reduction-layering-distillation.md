@@ -14,7 +14,7 @@ In the previous article, [Ensuring information harmony in the larger documentati
 
 Conversely, the opposite activity &mdash; taking an existing body of information and distilling its essence down into a smaller information unit (whether that smaller unit is a title, overview, heading, topic sentence, quick reference guide, or some other compressed form of information) also requires cognitive prowess. Crystalizing large information into a brief distillation that captures the main point in as little a space as possible can be a difficult skill that rivals a poet's astuteness with language and articulation. Despite the difficulty with the task, this distillation is worth it as it can go a long way towards simplifying a complex system.
 
-<figure><img class="medium" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/distillation_and_integration_distillation.svg"/><figcaption>Distilling a summary from a larger body of information requires you to compress a high amount of meaningful information into a small space. </figcaption></figure>
+<figure><img class="medium" src="{{site.media}}/simplifying-complexity/distillation_and_integration_distillation.svg"/><figcaption>Distilling a summary from a larger body of information requires you to compress a high amount of meaningful information into a small space. </figcaption></figure>
 
 ## Reducing information bloat
 
@@ -26,7 +26,7 @@ Maeda isn't specifically focusing on documentation in his book, but rather speak
 
 With documentation, the tech writer's first task is usually to translate descriptive information into concise, actionable steps that align with the user's goals. This work usually involves reducing the amount of information, whittling it down to the bare bonds of actionable steps. Mike Hughes captures this perfectly in this short graphic:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/actionableinformation.png"/><figcaption>Hughes argues that technical writers don't just fix grammar and format information; they actually create new knowledge assets that become the lifeblood of the company's success. Many times, the knowledge assets reduce information bloat from engineers. (See "Moving from Information Transfer to Knowledge Creation" in *Technical Communication*, 2002)</figcaption></figure>
+<figure><img src="{{site.media}}/simplifying-complexity/actionableinformation.png"/><figcaption>Hughes argues that technical writers don't just fix grammar and format information; they actually create new knowledge assets that become the lifeblood of the company's success. Many times, the knowledge assets reduce information bloat from engineers. (See "Moving from Information Transfer to Knowledge Creation" in *Technical Communication*, 2002)</figcaption></figure>
 
 {% include ads.html %}
 
@@ -48,7 +48,7 @@ Rather than delete the extra information, tech writers often shift information a
 
 Perhaps at the end of a topic, users might see a link for more info that takes them to another section where the architectural intricacies are explained, or where they can read the details about the many path options they can take, or maybe they find information for older versions or techniques for older API levels. Commonly, in user interfaces, a tooltip provides some brief detail followed by a Learn more link where the additional information appears. Here's an example from the WordPress UI:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/wordpress_pd.png"/><figcaption>The WordPress UI shows an example of progressive disclosure: The user sees some information in the UI followed by a link for more detail if desired.</figcaption></figure>
+<figure><img src="{{site.media}}/simplifying-complexity/wordpress_pd.png"/><figcaption>The WordPress UI shows an example of progressive disclosure: The user sees some information in the UI followed by a link for more detail if desired.</figcaption></figure>
 
 Web designers often consider progressive information disclosure in deciding how to layer information on a website. A website might begin with a few large category choices on the homepage. At the second level (which appears after users select a homepage category), more information is presented. At the third level, additional information is made available, and so on. But you don't overwhelm the user with all information choices up front. The same layering strategy can be used directly in documentation (not just in user interfaces or commercial sites).
 
@@ -62,7 +62,7 @@ Most tech writers will readily agree with the concept of layering or progressive
 
 What exactly is the purpose of the sidebar navigation? Surprisingly, its job isn't so much to facilitate navigation (users still get to topics via search). Instead, the sidebar serves a psychological / cognitive need. One of the first steps in unraveling complexity is to break complex systems down into a list of numerable parts. The sidebar provides this list of parts that users can view. If there are too many parts listed to be meaningful to users, break up these parts into several distinct sidebars.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/wtd_doc_navigation_listofparts.svg"/><figcaption>Breaking down complex systems into a list of parts helps us understand the complexity better. The sidebar in a doc set essentially acts as a list of parts that help users make sense of a larger, more complex system.</figcaption></figure>
+<figure><img src="{{site.media}}/simplifying-complexity/wtd_doc_navigation_listofparts.svg"/><figcaption>Breaking down complex systems into a list of parts helps us understand the complexity better. The sidebar in a doc set essentially acts as a list of parts that help users make sense of a larger, more complex system.</figcaption></figure>
 
 When the sidebar is consumable at a glance, it helps users understand all the parts that make up a complex system. I typically give each product its own sidebar (usually one product has between 25-75 topics). Below the sidebar, links for related doc sets allows users to select another product and its sidebar. Again, by providing users with information consumable at a glance, they can see the big picture of the system and better understand how each part fits together. Additionally, because the sidebar shows a hierarchical grouping of the parts, the sidebar can help users understand the system as a whole.
 
@@ -96,7 +96,7 @@ The summary provides several sentences that capture the content in the document 
 
 A couple of years ago, while browsing information on [Jakob Nielsen's site](https://www.nngroup.com/articles/), I became converted to the benefit of summaries in content. Seeing this summary allowed me to quickly process whether the article contained the information I was looking for.
 
-<figure><a class="noCrossRef" href="https://www.nngroup.com/articles/moderated-remote-usability-test/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/nielsonsummaryexample.png"></a><figcaption>A good summary lets you know immediately what the content is about and whether it matches your information needs.</figcaption></figure>
+<figure><a class="noCrossRef" href="https://www.nngroup.com/articles/moderated-remote-usability-test/"><img src="{{site.media}}/simplifying-complexity/nielsonsummaryexample.png"></a><figcaption>A good summary lets you know immediately what the content is about and whether it matches your information needs.</figcaption></figure>
 
 In almost all my blog posts, you see a short summary at the top that usually tries to capture the main point of the article. On this Simplifying Complexity site, I've put this information into a "Principle" at the top.
 
@@ -134,7 +134,7 @@ Finally, topic sentences are also an important information usability technique. 
 
 One final, key deliverable for compressing information is the quick reference guide. A quick reference guide provides a 1-2-page guide (in an attractive magazine-style layout) that provides a brief summary of the core tasks and features in the system. Here's an example:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/watershed6101.png"/>
+<img src="{{site.media}}/simplifying-complexity/watershed6101.png"/>
 
 The quick reference guide should provide the user with just enough information to get the gist of what the system is about, how to do key tasks, and get going. Almost invariably, you write the quick reference guide near the end of your documentation project, when you can see the whole and compress it accordingly.
 

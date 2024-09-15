@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "Pull requests are requests to merge edits from a branch back into the master. This workflow facilitates review of technical content on Github, but implementing it has some challenges. Namely, the reviewer would need to be familiar with code syntax, locations, and branching."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/pullrequeststhumb.png
+image: thumbnails/pullrequeststhumb.png
 ---
 
 * TOC
@@ -14,7 +14,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/pullre
 
 The other day I was exploring Github's pull request workflow with more detail. I created a [tutorial for using pull requests here](/learnapidoc/pubapis_github_pull_requests.html).
 
-<a href="https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/github_compare_to.png" alt="Pull request tutorial" /></a>
+<a href="https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests"><img src="{{site.media}}/api/github_compare_to.png" alt="Pull request tutorial" /></a>
 
 ## How pull requests work
 

@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords:
 description: ""
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/
+image: thumbnails/
 published: false
 ---
 

@@ -54,13 +54,13 @@ As I watched her skate down Capitol Hill’s Broadway street, which runs through
 
 From sidewalk to light rail to nearby Boba shop, skateboarding is much more immersive and interactive with the world.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/skateboarding_molly1.jpg" alt="Molly skateboarding" /><figcaption>Molly skateboarding</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/skateboarding_molly1.jpg" alt="Molly skateboarding" /><figcaption>Molly skateboarding</figcaption></figure>
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/skateboarding_molly2.jpg" alt="Molly drinking Boba" /><figcaption>Molly drinking Boba</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/skateboarding_molly2.jpg" alt="Molly drinking Boba" /><figcaption>Molly drinking Boba</figcaption></figure>
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/skateboarding_molly4.jpg" alt="Molly doing pull-ups on the link light rail" /><figcaption>Molly doing pull-ups on the link light rail</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/skateboarding_molly4.jpg" alt="Molly doing pull-ups on the link light rail" /><figcaption>Molly doing pull-ups on the link light rail</figcaption></figure>
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/skateboarding_molly3.jpg" alt="Molly riding the link light rail" /><figcaption>Molly riding the link light rail</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/skateboarding_molly3.jpg" alt="Molly riding the link light rail" /><figcaption>Molly riding the link light rail</figcaption></figure>
 
 This got me thinking more about modes of travel. Not only was the car insulating her from the world, removing her from more direct interaction with the outside, but with this method, she had more freedom. She could express herself a bit as an individual.
 

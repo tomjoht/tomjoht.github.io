@@ -26,7 +26,7 @@ If you're sharing Java files, you need Eclipse and the JDK as well as Git. If yo
 1.  [Create a Github repository](https://help.github.com/articles/create-a-repo/).
 2.  In the right-side of the page, copy the HTTPS clone URL.
 
-![cloneurl](/images/cloneurl.png)
+![cloneurl]({{site.media}}/cloneurl.png)
 
 For example, the Github repo URL for my Java samples is https://github.com/tomjoht/eclipse-java.git.
 
@@ -65,7 +65,7 @@ Participants who want to grab the files from the Github repo follow these steps.
 1.  Browse to the Github repository you want to pull. For example: [https://github.com/tomjoht/eclipse-java.git](https://github.com/tomjoht/eclipse-java.git)
 2.  On the right-side of the page, copy the HTTPS clone URL.
 
-![cloneurl](/images/cloneurl.png)
+![cloneurl]({{site.media}}/cloneurl.png)
 
 For example, my Github repo URL is https://github.com/tomjoht/eclipse-java.git.
 

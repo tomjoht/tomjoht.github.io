@@ -6,13 +6,13 @@ categories:
 - academics-and-practitioners
 keywords: lisa meloncon, podcasts, academics, academic programs, research, paywalls, publications
 description: "In this podcast, I talk with Lisa Meloncon, an associate professor at the University of Cincinnatti, about the academic-practitioner divide."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/microphone.png
+image: thumbnails/microphone.png
 date: 2015-08-10
 tags:
 - academic programs
 - technical writing
 - research
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/lisameloncon.mp3
 podcast_file_size: 61.6 MB
 podcast_duration: "57:01"

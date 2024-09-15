@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "Peter Gruenbaum's third API documentation course is now available on Udemy. This course covers topics in API documentation outside of reference material, such as tutorials and overview sections. This course will expose you to the many different needs in API documentation, and is a course I recommend even though it is briefer than Peter's other courses."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/peterudemycourse3.png
+image: thumbnails/peterudemycourse3.png
 ---
 
 * TOC

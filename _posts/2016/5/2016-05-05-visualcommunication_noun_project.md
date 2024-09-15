@@ -78,7 +78,7 @@ In <a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluat
 
 Here's an image from their book that compares a photograph versus a line drawing in a car guide:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cognitiveload.png" alt="Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual." width="512" height="697" class="size-full wp-image-18761" /> <figcaption>Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual.</figcaption></figure>
+<figure><img src="{{site.media}}/cognitiveload.png" alt="Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual." width="512" height="697" class="size-full wp-image-18761" /> <figcaption>Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual.</figcaption></figure>
 
 Clark and Lyons explain:
 

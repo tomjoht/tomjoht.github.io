@@ -6,7 +6,7 @@ categories:
 keywords:
 description: "If there's been a theme for the past year in tech comm, it's to treat docs like code. Most people get behind this idea with a great amount of enthusiasm. And yet, in many ways, <i>docs are not entirely like code</i>. You can make processes a lot more complicated if you push the docs-as-code idea to the limits. Docs differ significantly from code when it comes to release frequency, release complexity, review processes, and company support."
 bitlink: http://bit.ly/limitstodocsascode
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/docsascodelimits.png
+image: thumbnails/docsascodelimits.png
 ---
 
 * TOC
@@ -26,7 +26,7 @@ Before I draw limits around docs like code, let me briefly describe what "docs a
 
 In short, treating docs like code means to use the same systems, processes, and workflows with docs as you do with programming code.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/limitstodocsascode.png"/>
+<img src="{{site.media}}/limitstodocsascode.png"/>
 
 Few people do all of the above points. For example, it doesn't make sense for me to store my docs in the same repos as code, because most of the code repos are never deployed publically, and even if they were, engineers release much less frequently than tech docs. This brings me to my main point: docs aren't just like code, and we should probably not push this docs-as-code treatment too far.
 

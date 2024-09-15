@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords:
 description: "Maps are an essential tool for helping users navigate unfamiliar territory. Providing maps to users is the 101 of visual communication &mdash; these maps helps guide through the overgrown documentation forest, especially when users are trying to complete procedures that require them to visit multiple pages, or take different paths through the [undergrowth] content. The map is as essential to end-users as it is to hikers on an unfamiliar trail."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/usermapthumb.png
+image: thumbnails/usermapthumb.png
 sidebar: sidebar_visualcommunication
 ---
 

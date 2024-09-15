@@ -225,7 +225,7 @@ In my recent blog post, ["If writing is no longer a marketable skill, what is?"]
 * Technical writer/video producer (3%)
 * Technical writer/DITA specialist (3%)
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/hybridtechcommrole.png" />
+<img src="{{site.media}}/simplifying-complexity/hybridtechcommrole.png" />
 
 Of course, these dual roles are self-defined only. In the HR books, one is usually still classified as a "technical writer," but that's not how we promote ourselves. Just being a "technical writer" isn't nearly sexy enough to sell yourself in the technology marketplace. Technical writing has come to be viewed as wordsmithing only.
 

@@ -10,7 +10,7 @@ tags:
 - technical writing
 - documentation
 - technical communication
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/documentation-avoidance.mp3
 podcast_file_size: 4.7 MB
 podcast_duration: "6:00"

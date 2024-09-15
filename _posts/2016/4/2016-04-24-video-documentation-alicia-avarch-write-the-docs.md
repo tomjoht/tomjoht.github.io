@@ -5,7 +5,7 @@ categories:
 - podcasts
 keywords: video documentation, video tutorials, screencasts, screen recordings, video production
 description: "Alicia Avrach, a content strategist at ThoughtSpot, gave a presentation about video documentation at a recent Write the Docs San Francisco meetup. In this presentation, Alicia covers all the aspects of video production, from scripting to recording, post-processing, publishing, and more."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/videodocthumb.png
+image: thumbnails/videodocthumb.png
 date: 2016-04-24
 categories:
 - podcasts
@@ -14,7 +14,7 @@ tags:
 - video
 - documentation
 - technical communication
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "01:16:37"

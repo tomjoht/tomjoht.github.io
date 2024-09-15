@@ -17,7 +17,7 @@ Here's a description of [The Manuscript](https://open.spotify.com/show/3fxF61LYR
 
 > In The Manuscript, we delve into the intersection of writing and the development of technology products. Every couple of weeks we talk to people making a difference in Technical Writing, Instructional Design, UX Writing, Content Strategy and anywhere else there’s someone thinking about content in digital products and the tech industry.
 
-<a href="https://open.spotify.com/show/3fxF61LYR4BBDAv6YhZV5r"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/the-manuscript-on-spotify.png"/></a>
+<a href="https://open.spotify.com/show/3fxF61LYR4BBDAv6YhZV5r"><img src="{{site.media}}/the-manuscript-on-spotify.png"/></a>
 
 You can subscribe on [Spotify here](https://open.spotify.com/show/3fxF61LYR4BBDAv6YhZV5r). Or you can view episodes on [Breno's website](https://brenobarreto.co/the-manuscript-podcast/). You can learn more about [Breno on Linkedin here](https://www.linkedin.com/in/breno-barreto/).
 

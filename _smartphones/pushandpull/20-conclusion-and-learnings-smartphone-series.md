@@ -27,7 +27,7 @@ The _New York Times_ recently published an article titled “Luddite Teens Don�
 
 > ... [One club member comments:] When I got my flip phone, things instantly changed .... I started using my brain. It made me observe myself as a person. I’ve been trying to write a book, too. It’s like 12 pages now.
 
-<figure><a href="https://www.nytimes.com/2022/12/15/style/teens-social-media.html"><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nytimesarticleludditeteens.jpg" alt="Luddite Teens Don't Want Your Likes" /></a><figcaption>"‘Luddite’ Teens Don’t Want Your Likes" article in the <i>New York Times</i>. This group of teens rejects smartphones.</figcaption></figure>
+<figure><a href="https://www.nytimes.com/2022/12/15/style/teens-social-media.html"><img class="large" src="{{site.media}}/nytimesarticleludditeteens.jpg" alt="Luddite Teens Don't Want Your Likes" /></a><figcaption>"‘Luddite’ Teens Don’t Want Your Likes" article in the <i>New York Times</i>. This group of teens rejects smartphones.</figcaption></figure>
 
 As I read the article, I began to trace back why I returned to using my smartphone and if I should return to living without it. The club founder, Logan Lane, explains how Instagram made her feel bad about herself, so she first deleted the app, then put her phone in a box. With her phone locked away, life opened up all around her. The article explains:
 

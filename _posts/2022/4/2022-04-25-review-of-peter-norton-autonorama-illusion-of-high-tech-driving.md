@@ -23,7 +23,7 @@ Ultimately, AVs don't solve traffic problems; they "offer only high-tech car dep
 
 In Norton's view, there aren't any car dependency models that solve the issues of traffic congestion, safety, and sustainability &mdash; no matter the amount of advanced tech. He wants readers to recognize the illusion and to focus on practical mobility solutions instead, arguing that "our most essential mobility needs can be better met with tools we already have" (21).
 
-<figure style="max-width: 300px"><a href="https://www.amazon.com/Autonorama-Illusory-Promise-High-Tech-Driving/dp/1642832405"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/norton_autonorama.png" /></a><figcaption>Peter Norton's Autonorama: The Illusory Promise of High-Tech Driving</figcaption></figure>
+<figure style="max-width: 300px"><a href="https://www.amazon.com/Autonorama-Illusory-Promise-High-Tech-Driving/dp/1642832405"><img src="{{site.media}}/norton_autonorama.png" /></a><figcaption>Peter Norton's Autonorama: The Illusory Promise of High-Tech Driving</figcaption></figure>
 
 ## What does "autonorama" mean?
 

@@ -93,11 +93,11 @@ It takes about 1-2 days of back and forth emails like this until I zero in on th
 
 After gathering the information (and phrasing it in a similar way across devices), the next step is to display it on a page. For this product set, I decided to divide the specs into various categories based on the Fire TV device type. You can see the division [here](https://developer.amazon.com/docs/fire-tv/device-specifications.html).
 
-<a href="https://developer.amazon.com/docs/fire-tv/device-specifications.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firetvdevicesgrid.png" alt="Fire TV devices" /></a>
+<a href="https://developer.amazon.com/docs/fire-tv/device-specifications.html"><img src="{{site.media}}/firetvdevicesgrid.png" alt="Fire TV devices" /></a>
 
 Then on each page, I added a drop-down menu that lets users choose the device they want to see.
 
-<a href="https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-edition-smart-tv.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firetvdevicelist.png" alt="Fire TV device list" /></a>
+<a href="https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-edition-smart-tv.html"><img src="{{site.media}}/firetvdevicelist.png" alt="Fire TV device list" /></a>
 
 There's a lot of JavaScript behind that page that defines some show/hide properties there that I won't go into here.
 
@@ -171,19 +171,19 @@ At that heart of this information presentation problem isn't something I've even
 
 You see these kinds of comparison tables regularly presented on Amazon retail pages. For example:
 
-<a href="https://www.amazon.com/gp/product/B0791TX5P5/ref=s9_acsd_al_bw_c_x_3_w?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-1&pf_rd_r=SWVCKTHPE937YXECRJHD&pf_rd_t=101&pf_rd_p=3c92a6c5-14aa-404f-9aa3-1759b909e32a&pf_rd_i=8521791011"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firetvcomparisontable.png" /></a>
+<a href="https://www.amazon.com/gp/product/B0791TX5P5/ref=s9_acsd_al_bw_c_x_3_w?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-1&pf_rd_r=SWVCKTHPE937YXECRJHD&pf_rd_t=101&pf_rd_p=3c92a6c5-14aa-404f-9aa3-1759b909e32a&pf_rd_i=8521791011"><img src="{{site.media}}/firetvcomparisontable.png" /></a>
 
 Notice that only relevant products are compared. The retail pages don't try to compare every single Fire TV product against each other, nor do they provide sophisticated JS controls that show/hide select columns, or which scroll horizontally and such. Instead, they choose the most recent and relative products to compare, and usually limit the comparison to 3-4 similar products.
 
 Our Fire Tablet developer specs do have more comparison features:
 
-<a href="https://developer.amazon.com/docs/fire-tablets/ft-specs-custom.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firetabletcomparison2.png"/></a>
+<a href="https://developer.amazon.com/docs/fire-tablets/ft-specs-custom.html"><img src="{{site.media}}/firetabletcomparison2.png"/></a>
 
 The JS logic here works well to let users select up to four check boxes for the devices they want to compare. However, it's not really apparent which devices are most similar to each other and hence merit a comparison. You kind of have to know what each device is before you can know what to select.
 
 In terms of comparison examples elsewhere, I really like Roku's device comparison page:
 
-<a href="https://www.roku.com/products/compare"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/rokucomparisontable2.png"/></a>
+<a href="https://www.roku.com/products/compare"><img src="{{site.media}}/rokucomparisontable2.png"/></a>
 
 Roku's device comparison page looks much more visually attractive and is better organized and presented. Overall, I'm not sure if there are stock JavaScript libraries for comparison scenarios like this, or if this is all custom JS that someone is writing (or heavily customizing from an open source plugin).
 
@@ -197,7 +197,7 @@ Another challenge with spec information is to enable quick searching of informat
 
 And for the video and audio codec properties, I haven't actually sliced and diced them out into their own properties. Instead, they are a free-form list grouped under the general category of audio codecs or video codecs.
 
-<a href="https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-edition-smart-tv.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firetvaudiocodecs.png" /></a>
+<a href="https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-edition-smart-tv.html"><img src="{{site.media}}/firetvaudiocodecs.png" /></a>
 
 This makes it difficult for a user to filter on, say, AAC LC.
 

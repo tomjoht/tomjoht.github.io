@@ -76,9 +76,9 @@ I used [Easy LMS](https://www.easy-lms.com/) to create and administer these test
 
 In case you're interested in seeing the overall scoring results from Easy LMS, I printed out some PDFs below. It shows how many people answered questions correctly as a whole (there is no identifying participant information). However, note that I updated some of the confusing questions mid-way through this test, so the pass/fail rate can't be assessed with any scientific measure. When I realized that some questions were too confusing or nuanced, I made them more straightforward. Most people failed every test, though.
 
-* [Test 1 results - Industry awareness](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/exam1results.pdf)
-* [Test 2 results - Language](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/exam2results.pdf)
-* [Test 3 results - API documentation](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/exam3results.pdf)
-* [Test 4 results - Process and strategies](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/exam4results.pdf)
+* [Test 1 results - Industry awareness]({{site.media}}/exam1results.pdf)
+* [Test 2 results - Language]({{site.media}}/exam2results.pdf)
+* [Test 3 results - API documentation]({{site.media}}/exam3results.pdf)
+* [Test 4 results - Process and strategies]({{site.media}}/exam4results.pdf)
 
 Also, originally I was going to correlate pass/fail rates based on the years of experience from each participant, but since I'm scrapping the tests, I'll pass on this correlation too. Still, I'm making the info in the above PDFs available in case anyone else wants to use these questions as a starting point for some other test.

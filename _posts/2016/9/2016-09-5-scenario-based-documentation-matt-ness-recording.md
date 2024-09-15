@@ -11,7 +11,7 @@ tags:
 - storytelling
 - documentation
 - creativity
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mattness.mp3
 podcast_file_size: 43.6 MB
 podcast_duration: "55:28"

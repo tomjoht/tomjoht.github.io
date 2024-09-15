@@ -7,7 +7,7 @@ keywords: jekyll, documentation, static site generators
 description: "I recently gave a presentation titled Writing tech docs like a hacker with Jekyll to the to the Southern Ontario STC chapter (on Jan 18, 2017). In the presentation, I introduce reasons why we started using Jekyll, how static site generators differ from content management systems, how to get started with Jekyll, and challenges involved in using Jekyll for technical documentation sites."
 bitlink: http://bit.ly/writetechdocshackersoc
 date: 2017-01-18
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/writetechdocshackersoc.mp3
 podcast_file_size: 51.9 MB
 podcast_duration: "59:18"

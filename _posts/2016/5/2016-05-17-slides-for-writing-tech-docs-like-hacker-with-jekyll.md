@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords: jekyll, technical documentation, tech docs, authoring tools, markdown, markdown authoring tools
 description: "Here are the slides for my STC Summit 2016 talk on Writing Tech Docs Like a Hacker with Jekyll presentation. In this presentation, I introduce the tech comm conference attendees to Jekyll and how it can be used for authoring technical documentation. I'll try to demo a few of the tasks I describe."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/techdocslikehackerthumb.png
+image: thumbnails/techdocslikehackerthumb.png
 ---
 
 * TOC

@@ -5,6 +5,8 @@ categories:
 keywords:
 description: "The following is a guest post from <a href='#unacogavin'>Una Cogavin</a>, a certified MadCap Advanced Developer and Flare consultant. In this post, Cogavin reviews Flare 2018 and Central and explains the features she finds most useful in these tools."
 bitlink: http://bit.ly/flarecentralcogavin
+author: Una Cogavin
+bio: false
 ---
 
 * TOC
@@ -30,7 +32,7 @@ You wanted your side navigation back! But you also wanted a modern looking frame
 
 Now you can have HTML5 side navigation within minutes. And you can easily add top navigation too. I achieved this by using the HTML5 left navigation output type and then adding a table to the project's home page that included hyperlinks, drop-downs, proxies, and cross-references.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/HTML5-LeftNav-1.png" style="border: 1px solid #dedede"/>
+<img src="{{site.media}}/HTML5-LeftNav-1.png" style="border: 1px solid #dedede"/>
 
 I added a table with one row to the default Home.htm page, and inserted as many columns as needed. In the first column, I added a hyperlink to an external knowledge base, but it could have easily been a cross reference to an internal topic if the help system included the knowledge base content.
 
@@ -38,7 +40,7 @@ In the second column, I added a drop-down text tag and then inserted cross refer
 
 The end result was a HTML5 left navigation help system that also included top navigation and great search capabilities. I was pretty happy with the output.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/HTML5-LeftNav-2.png" style="border: 1px solid #dedede"/>
+<img src="{{site.media}}/HTML5-LeftNav-2.png" style="border: 1px solid #dedede"/>
 
 But, of course, I would like MadCap to create some new types of TOC proxies that allow me to customize and build this alternate top navigation with the HTML5 side navigation output type.
 
@@ -56,29 +58,29 @@ MadCap Software has launched a new cloud-based, streamlined, contribution and re
 
 To send a file or topic for review, in MadCap Flare, select the Review menu, select one or more files from the content explorer, and click Send for Review. When the Review Wizard appears, choose the Send to MadCap Central option and click Next.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Flare-Author1.png"/>
+<img src="{{site.media}}/Flare-Author1.png"/>
 
 When the Reviewers list appears, select the Central users to whom you want to send the review, then click Send. These are the users that have been invited to your Central license as either Authors or SMEs. Even full authors can review and contribute to files in Central.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Flare-Author2.png"/>
+<img src="{{site.media}}/Flare-Author2.png"/>
 
 The reviewer gets a notification that he or she has content to review and edit. When a subject matter expert signs in to MadCap Central, he or she will see a simple user interface with a list of files to review. The reviewer clicks on a file in the Pending list to open it. The reviewer can directly add content, delete and edit content, or add comments.
 
 The reviewer will see all the other edits that the other reviewers have provided and edits among Authors and Subject Matter Experts can happen simultaneously. When the reviewer is done, he or she clicks Submit. If you submit changes and realize that you have forgotten to add something, then you can view the file in the submitted tab and make more changes.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Editor-SME.png"/>
+<img src="{{site.media}}/Editor-SME.png"/>
 
 Once all the reviewers submit their reviews and contributions, you can view and incorporate the feedback in MadCap Flare. To review the feedback, select the Review menu and then click File Reviews. Select Inbox and a list appears showing all the submitted reviews. (Note that a file only appears here if all reviewers have submitted feedback on the file.)
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Flare-Author3.png" style="border: 1px solid #dedede"/>
+<img src="{{site.media}}/Flare-Author3.png" style="border: 1px solid #dedede"/>
 
 Opening the reviewed file closes the review process in MadCap Central. (The file's status changes to Closed.) You must close the review before you can accept or reject changes and incorporate the feedback into the MadCap Flare source file. (Hint, if you want to just see what reviewers have been saying, then open the file within MadCap Central. As the author you can make edits to your sent files in Central as well, and your changes will be tracked.)
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Flare-Author4.png"/>
+<img src="{{site.media}}/Flare-Author4.png"/>
 
 You can accept and reject changes using the buttons in the Changes section of the Review menu. However, you will not see these changes in the source file until you click the Accept the file button.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Flare-Author5.png"/>
+<img src="{{site.media}}/Flare-Author5.png"/>
 
 MadCap has kept the workflow and user interface simple and intuitive. Reviewers should not have any problems adopting this new review process. I'm delighted with it!
 

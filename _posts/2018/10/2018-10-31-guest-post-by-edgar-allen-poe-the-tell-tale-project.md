@@ -13,7 +13,7 @@ bitlink: http://bit.ly/edgarallenpoeguestpost
 * TOC
 {:toc}
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/edgar-allen-poe.png" style="float: right; padding: 15px;"/>
+<img src="{{site.media}}/edgar-allen-poe.png" style="float: right; padding: 15px;"/>
 
 <h2>The Tell-Tale Project</h2>
 

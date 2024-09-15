@@ -18,7 +18,7 @@ description: "WordPress plugins are scripts you install to extend the functional
 
 <p>The process of discovering new plugins — and suddenly transforming your blog into something more — can be exciting (but also sometimes unclimactic).</p>
 <h3>Rationale Behind Plugins</h3>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pluginscreen1.png" alt="Plugin Management" title="Plugin Management" align="right" hspace="5" vspace="5" />Some blogging platforms already come equipped with the same functionality as some of WordPress's plugins. You may think having to manually add plugins is a pain. Why not just include them all in the core product?</p>
+<p><img src="{{site.media}}/pluginscreen1.png" alt="Plugin Management" title="Plugin Management" align="right" hspace="5" vspace="5" />Some blogging platforms already come equipped with the same functionality as some of WordPress's plugins. You may think having to manually add plugins is a pain. Why not just include them all in the core product?</p>
 <p>Yet this is the very genius of WordPress. The absence of plugins keeps the basic WordPress software simple. Users who need additional functionality can add it. WordPress doesn't burden you with tons of features and options you don't need. WordPress remains simple — yet extensible — through the plugin model.</p>
 <h3>Plugins Are Open Source Contributions</h3>
 <p>Ninety-five percent of WordPress plugins aren't made by the WordPress team (Automattic). They're made by PHP blogging enthusiasts across the globe. WordPress is open source, so programmers can contribute their own additional functionality. Plugins are popping up all the time (on average 3-4 new plugins a week).</p>
@@ -38,7 +38,7 @@ description: "WordPress plugins are scripts you install to extend the functional
 <h3>Installing Plugins: What Authors Assume You Know</h3>
 <p>Most plugins are written by hobby programming enthusiasts. They're not technical writers, and often assume the user knows more than he or she does. Here are three things author sometimes forget to mention:</p>
 <p><strong>1. You must add PHP tags around tags.</strong> Some plugins come with a bit of code you have to insert in a specific file. If an author says <em>the plugin is called using related_posts() </em>-- actually that tag won't call the plugin. You have to surround that tag with php tags, like this:</p>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/code1.png" alt="code" class="noborder" /></p>
+<p><img src="{{site.media}}/code1.png" alt="code" class="noborder" /></p>
 <p>The exception is if the tag already appears between other php tags.</p>
 <p>Why do some authors omit the php tags? If the authors added these surrounding php tags in their explanations, the code would corrupt their page's display, so some authors assume you realize the code must be surrounded by php tags. In contrast, some authors have code formatting plugins that enables them to show code.</p>
 <p><strong>2. PHP code won't run in posts or pages.</strong> PHP code will only run in your theme's core files (such as sidebar.php, page.php, or index.php). You can edit these files by going to <strong>Presentations > Theme Editor</strong> location and adding the script, or by downloading the files and working with them in Notepad or <a href="http://notepad-plus.sourceforge.net/uk/site.htm" target="_blank" title="Notepad++">Notepad++</a>. If you just drop PHP tags in a post or page, it won't work.</p>

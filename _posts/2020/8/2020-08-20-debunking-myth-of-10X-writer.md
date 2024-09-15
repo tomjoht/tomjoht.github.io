@@ -15,7 +15,7 @@ description: "A recent episode of Command Line Heroes explores the negatives of 
 
 One of my favorite podcasts is [Command Line Heroes](https://www.redhat.com/en/command-line-heroes/) by Red Hat. In season 5, episode 3, [What Kind of Coder Will You Become?](https://www.redhat.com/en/command-line-heroes/season-5/what-kind-of-coder-will-you-become) the hosts pick apart the myth of the 10X technical writer.
 
-<a href="https://www.redhat.com/en/command-line-heroes/season-5/what-kind-of-coder-will-you-become"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/commandlineheroes.png" alt="What Kind of Coder Will You Become?" /></a>
+<a href="https://www.redhat.com/en/command-line-heroes/season-5/what-kind-of-coder-will-you-become"><img src="{{site.media}}/commandlineheroes.png" alt="What Kind of Coder Will You Become?" /></a>
 
 This episode prompted me to rethink a post I wrote a while back called [How to become a 10X technical writer in the workplace](/2019/02/07/how-to-become-a-10x-technical-writer-in-the-workplace/), which received a lot of clicks. (Side note: I actually don't have any substantial 10X productivity tips in that post, unfortunately. My best productivity tip is here: [Writing productivity tip: Focus sessions](/blog/writing-productivity-through-focus-sessions/) &mdash; the tip to achieve productivity is to simply spend 4 hours a day writing docs.)
 

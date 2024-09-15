@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords:
 description: "Good documentation is hard to write for a number of reasons -- operating systems, versions, technical abilities, and business scenarios often differ between tech writers and users. Products often evolve after the doc was written, since tech writers aren't always integrated with the team through the life of the product. Support and feedback channels don't usually route to the doc source, crippling the writer from valuable feedback. Finally, steps are often inaccurate, and tutorials are often focused too narrowly on isolated tasks, without addressing more end-to-end scenarios."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/iterativedocfeedbackthumb.png
+image: thumbnails/iterativedocfeedbackthumb.png
 ---
 
 * TOC

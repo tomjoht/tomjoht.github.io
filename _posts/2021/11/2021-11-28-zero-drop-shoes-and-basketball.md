@@ -23,7 +23,7 @@ I tried biking more, and thought perhaps I could replace basketball with cycling
 
 Last month I decided to see a physical therapist (PT) again. I explained that I had three recent calf strains in different parts of my right calf. After some diagnostics, he said I had some anterior pelvic tilt and rib flare, which led to some incorrect posture. He said I had too much curvature in my lower back and needed to push out my lower back more. He said I was overusing my knees rather than relying more on my glutes for power. He identified some weak muscles in my legs and hips that needed strengthening, and gave me daily exercises to do.
 
-<figure><img style="max-width:400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/exercisesfrompt2.png" alt="Recommended exercises from the PT." /><figcaption>Recommended exercises from the PT. This screenshot is from Medbridge, an app many PTs use to prescribe exercises for patients. You can search for these exercise names online and find more details. (SL stands for standing leg, FR stands for foam roller.)</figcaption></figure>
+<figure><img style="max-width:400px; border: 1px solid #dedede" src="{{site.media}}/exercisesfrompt2.png" alt="Recommended exercises from the PT." /><figcaption>Recommended exercises from the PT. This screenshot is from Medbridge, an app many PTs use to prescribe exercises for patients. You can search for these exercise names online and find more details. (SL stands for standing leg, FR stands for foam roller.)</figcaption></figure>
 
 He also recommended that I look into "zero-drop" shoes for basketball. I'd never heard of zero-drop shoes before because I'm not a runner and wasn't familiar with the barefoot running movement. After some initial research, the recommendation for zero-drop shoes set me on course for cult-like education and awakening around a barefoot running like nothing I've ever experienced. Pretty much all I did during Thanksgiving break was read about barefoot shoes. For a primer, see this [Shoespiracy video](https://www.vivobarefoot.com/us/shoespiracy).
 
@@ -32,7 +32,7 @@ He also recommended that I look into "zero-drop" shoes for basketball. I'd never
 Let's dive into the shoe topic in depth. A good deal of your posture issues can be attributed to the shoes you wear. "Zero-drop" refers to the drop in height from the heel to the toe, with zero-drop having no change in height. In contrast, most shoes have a wedged heel, elevating it more than the toe. To try out zero-drop shoes, I ordered a pair of [Prio shoes from Xero shoes](https://xeroshoes.com) and immediately fell in love with them.
 
 <figure>
-<a href="https://xeroshoes.com/shop/activity/performance/prio-men/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/prioshoes.png" alt="Xero shoes, Prio" /></a><figcaption>Zero-drop shoes don't have any change in height from the heel to the toe. This prompts you to use more of your calf muscle. They are also minimalistic, so the soles are thin enough that you actually feel as if you're walking barefoot.</figcaption></figure>
+<a href="https://xeroshoes.com/shop/activity/performance/prio-men/"><img src="{{site.media}}/prioshoes.png" alt="Xero shoes, Prio" /></a><figcaption>Zero-drop shoes don't have any change in height from the heel to the toe. This prompts you to use more of your calf muscle. They are also minimalistic, so the soles are thin enough that you actually feel as if you're walking barefoot.</figcaption></figure>
 
 These shoes belong to a category of barefoot/minimalist shoes (see [more shoe options here](https://obsessedwithbarefootshoes.com/all-the-barefoot-shoe-reviews/)). Not only are barefoot/minimalist shoes zero-drop, they also have wide toe boxes, which gives your toes room to spread. And they also have a minimal sole, allowing your foot to feel the ground. Zero-drop shoes are closely associated with the barefoot running movement, which use minimalist shoes to simulate running barefoot. Barefoot shoes still involves wearing shoes, but while walking around in them, it feels close to being barefoot.
 
@@ -49,7 +49,7 @@ Wearing these shoes for just two weeks has led me to several realizations:
 Wearing the zero-drop shoes, I immediately noticed a change in my posture. Rather than leaning back, I actually started using more correct posture &mdash; straightening up more, with my lower back pushing out &mdash; because of the zero-drop heel. It's difficult to describe, so here's a picture that represents the changes in posture that I feel happened.
 
 <figure>
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/back_curvature.svg" alt="On the left is the elevated heel shoe that tips me forward, requiring me to lean back for balance; on the right is the zero-drop shoe that leads to more correct posture." /><figcaption>On the left is the elevated-heel shoe that tips me forward, requiring me to lean back for balance; on the right is the zero-drop shoe that leads to more correct posture.</figcaption></figure>
+<img src="{{site.media}}/back_curvature.svg" alt="On the left is the elevated heel shoe that tips me forward, requiring me to lean back for balance; on the right is the zero-drop shoe that leads to more correct posture." /><figcaption>On the left is the elevated-heel shoe that tips me forward, requiring me to lean back for balance; on the right is the zero-drop shoe that leads to more correct posture.</figcaption></figure>
 
 Wearing elevated-heel shoes, my hips tilted forward a bit. To offset that forward hip tilt, I think I leaned back a bit for balance. As I leaned back, this created a hyper curvature in my lower back. It's no wonder that standing for long periods of time with elevated-heel shoes would frequently make my lower back hurt. Now the reason seems obvious. I had no idea that elevated-heel shoes affected my posture so much. Other running experts explain the impact of the elevated heel in more detail. John Goldthrop writes:
 
@@ -67,7 +67,7 @@ When I replaced the elevated-heel shoes (in this case, [Hoka Hoka Clifton runnin
 
 Wearing elevated-heel shoes pretty much all my life (not just on the court), my calf muscles shortened and atrophied. When I would play basketball, the jumping and other gameplay movements would at times stress my calf muscles, and because my calf muscles were shortened/atrophied through elevated-heel shoes, my calves couldn't stand the strain. A healthy calf muscle allows a full extension without straining the muscle. The following diagram shows how the elevated-heel shortened and atrophied my calves.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/calf_atrophy.svg" alt="Atrophied calf muscles from elevated-heel shoes" /><figcaption>On the left, the calf shortens and atrophies when using elevated-heel shoes; on the right, with zero-drop shoes, the calf can lengthen properly and remain strong</figcaption></figure>
+<figure><img src="{{site.media}}/calf_atrophy.svg" alt="Atrophied calf muscles from elevated-heel shoes" /><figcaption>On the left, the calf shortens and atrophies when using elevated-heel shoes; on the right, with zero-drop shoes, the calf can lengthen properly and remain strong</figcaption></figure>
 
 As many barefoot enthusiasts say, any time you put a limb in a cast, it weakens the limb, and many shoes are similar to casts, especially if they restrict movement (like the elevated heel). However, my theory isn't entirely sound because I'm only experiencing calf strains in my right calf. I haven't strained my left calf (not for at least three years anyway). Yet it's not as if I'm wearing different shoes (one wedged, one flat) on each foot. I wear the same shoes on each foot, but with different outcomes.
 
@@ -83,7 +83,7 @@ Why is it that as basketball shoes become more high-tech, with better support, c
 
 My third realization was that I run with a heel-striking pattern while playing basketball (running up and down the court, which is the only time I run). I'm not a runner, so the whole language of heel-striking and mid-striking isn't that familiar to me. But as I ran in zero-drop shoes (for short durations &mdash; about 30 seconds to a minute, which is recommended during the transition to barefoot shoes), I realized that my running form changed. I started to naturally prefer more of a mid-strike (landing in the middle of the foot) rather than a heel-strike (landing on the heel). See this video for more detail about heel-striking versus mid-foot striking: [Running Form: The Mid-Foot Strike](https://www.youtube.com/watch?v=PoB0phfNvW0).
 
-<figure><a href="https://www.youtube.com/watch?v=PoB0phfNvW0"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/midfootstrike.png"></a><figcaption>Heel-striking puts a lot of force and impact on your body.</figcaption></figure>
+<figure><a href="https://www.youtube.com/watch?v=PoB0phfNvW0"><img src="{{site.media}}/midfootstrike.png"></a><figcaption>Heel-striking puts a lot of force and impact on your body.</figcaption></figure>
 
 In contrast, when wearing elevated-heel shoes, as I ran I would naturally use more of a heel-strike motion because the wedged heel sticks out more and naturally hits the ground first. (With basketball shoes, because the wedged heel is so pronounced, you have to consciously lift your foot up more to avoid heel-striking.) The heel-strike would send more shockwaves up my knee, which I think contributed to my patellofemoral pain and joint soreness. If you ever look at professional basketball players on the sidelines, they often have massive ice packs wrapped around their knees, even when they're only subbed out temporarily. There's a lot of force that transfers into your knees and other joints. It turns out that simply adjusting to a midstriking gait reduces a lot of the impact.
 
@@ -123,7 +123,7 @@ Playing ball in elevated-heel shoes might be like putting a safety threshold on 
 
 To strengthen my calves and feet, I try to wear barefoot/minimal shoes everywhere I can, even when riding my bike. However, if you've ever tried riding barefoot with spiked pedals, you know how painful this can be. And yet, I didn't want to carry around barefoot shoes only to wear them ocassionaly walking around at work. So I swapped out my pedals for some flat platform city pedals (by [Look](https://www.amazon.com/Look-Geo-City-Grip-Size/dp/B08KGXMQJN/ref=asc_df_B08KGXMQJN/)), and this setup seems to work all right.
 
-<figure><a href="https://www.amazon.com/Look-Geo-City-Grip-Size/dp/B08KGXMQJN/ref=asc_df_B08KGXMQJN/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/look_flat_pedals2.jpg" alt="Flat pedals" /></a><figcaption>These flat pedals work well with minimalist barefoot shoes for casual riding.</figcaption></figure>
+<figure><a href="https://www.amazon.com/Look-Geo-City-Grip-Size/dp/B08KGXMQJN/ref=asc_df_B08KGXMQJN/"><img src="{{site.media}}/look_flat_pedals2.jpg" alt="Flat pedals" /></a><figcaption>These flat pedals work well with minimalist barefoot shoes for casual riding.</figcaption></figure>
 
 I would only recommend using these flat pedals for casual riding, which includes stop-and-go type riding in cities. (Even in the rain, the pedals aren't that slippery.) You do lose power by not having a stiffer shoe, and if you were to ever try mountain biking, you might risk foot injury.
 
@@ -135,7 +135,7 @@ There's one more interesting aspect to barefoot shoes: toe spreading. In my ques
 
 Take a look at how wide the toe boxes are in these Xero Prio shoes:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wide_toe_box.jpg" alt="Wide toe box" /><figcaption>Minimalist barefoot shoes have wide toe boxes</figcaption></figure>
+<figure><img src="{{site.media}}/wide_toe_box.jpg" alt="Wide toe box" /><figcaption>Minimalist barefoot shoes have wide toe boxes</figcaption></figure>
 
 In fact, after wearing the barefoot shoes for a week, when I played basketball in my regular basketball shoes ([Lebron 16 Oreos](https://stockx.com/nike-lebron-16-oreo)), I started getting a blister on my big toe, which wasn't a place callouses existed previously. The blister formed because my toes started to spread a little, I think. (For a before-and-after foot pic of someone's journey to barefoot shoe adoption, see [Being Me: A Journey to Barefoot](https://anyasreviews.com/being-me-a-journey-to-barefoot/) on Anya's reviews. I won't subject anyone to pictures of my bare feet here.)
 

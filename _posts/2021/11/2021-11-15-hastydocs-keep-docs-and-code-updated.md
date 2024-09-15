@@ -35,7 +35,7 @@ To address the problem of keeping docs up-to-date, we designed a new software pr
 
 Here’s a screenshot showing the HastyDocs interface:
 
-<figure><a href="https://www.hastydocs.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/hastydocsui.png" alt="HastyDocs UI" /></a>
+<figure><a href="https://www.hastydocs.com/"><img src="{{site.media}}/hastydocsui.png" alt="HastyDocs UI" /></a>
 <figcaption><b>Figure 1.</b> Two files are open in HastyDocs. On the left is a Markdown file with conceptual content; on the right, the code. HastyDocs allows you to create associations between both files. In this example, the section “2.9 Configuration Files” in the Markdown doc is associated with the highlighted area of the code on the right.</figcaption></figure>
 
 HastyDocs creates links between code and the docs in places that you think will require a review of the docs when the code changes. You can create multiple links to any place in documentation or the code base. (Our assumption is that, besides the most high-level conceptual documentation, most product documentation is based on the features of the product encapsulated in the code base.)
@@ -50,7 +50,7 @@ When you have these links set up, every time parts of the code base change, Hast
 
 The following screenshot shows a split view of the code base pane showing a before and after view so you can see what changed. Based on these changes, you can then evaluate whether the Markdown docs also need to be updated.
 
-<figure><a href="https://www.hastydocs.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/hastydocsdiff2.png" alt="HastyDocs UI showing code diff" /></a><figcaption><b>Figure 2.</b> The codebase pane shows a split view showing the diff of a commit. This lets you see whether the change might require some updates to the documentation.</figcaption></figure>
+<figure><a href="https://www.hastydocs.com/"><img src="{{site.media}}/hastydocsdiff2.png" alt="HastyDocs UI showing code diff" /></a><figcaption><b>Figure 2.</b> The codebase pane shows a split view showing the diff of a commit. This lets you see whether the change might require some updates to the documentation.</figcaption></figure>
 
 Beyond keeping product documentation up to date, HastyDocs could assist onboarding efforts for internal teams as well. For example, to accelerate onboarding, new developers could quickly view and understand the code base as they read the docs.
 

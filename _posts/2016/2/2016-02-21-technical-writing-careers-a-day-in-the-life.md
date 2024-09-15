@@ -4,7 +4,7 @@ categories:
 - beginners
 keywords: how to get started as a technical writer, james gill, getting started, technical writing careers, transition into technical writing
 description: "James Gill is working on the second edition of his book, <i>How to Get Started As a Technical Writer</i>. I contributed a questionnaire for a section that explores a day in the life of a technical writer. In addition to describing common tasks I do as a technical writer, I explain how I got started in technical writing, what I like best about technical writing, challenges and difficulties I face as a technical writer, future directions for technical writing, and more."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jamesgillhowtotechbookthumb.png
+image: thumbnails/jamesgillhowtotechbookthumb.png
 ---
 
 * TOC

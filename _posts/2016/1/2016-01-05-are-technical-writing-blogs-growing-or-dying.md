@@ -5,7 +5,7 @@ categories:
 - writing
 keywords: google seo, dying, blogging, growing, statistics
 description: "To assess whether blogs are growing or dying, I quickly compared metrics for the past 7 years on my blog, looking at the number of sessions per year. I then correlated the sessions with the number of posts that year and the cumulative number of posts on the blog overall. It seems that my blog readership is on a slight decline. This is likely due to the proliferation of online sites, not of blogging in general."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/googletrendsblogstwthumb.png
+image: thumbnails/googletrendsblogstwthumb.png
 ---
 
 * TOC

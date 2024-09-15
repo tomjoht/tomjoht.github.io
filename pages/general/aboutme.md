@@ -3,7 +3,7 @@ title: Tom Johnson
 permalink: /aboutme/
 ---
 
-<figure style="width: 170px; float: right; margin-left: 15px;"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area."/><figcaption>Hi, I&#039;m Tom Johnson, a technical writer based in Seattle</figcaption></figure>
+<figure style="width: 170px; float: right; margin-left: 15px;"><img src="{{site.media}}/tomjohnson_small.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area."/><figcaption>Hi, I&#039;m Tom Johnson, a technical writer based in Seattle</figcaption></figure>
 
 In case you'd like to know a little bit about me, I'm a technical writer currently based in Seattle, working for Google. (Previously, I was at Amazon and a couple of startups in the Bay area.)
 
@@ -44,11 +44,11 @@ My degree in literary nonfiction carries over to the writing style on this blog.
 
 Yes, I'm married and have four children.
 
-[![me and my family](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/familypic2-600x402.jpg)](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2006/12/familypic2.jpg)
+[![me and my family]({{site.media}}/familypic2-600x402.jpg)]({{site.media}}/2006/12/familypic2.jpg)
 
 We like to explore different places, such as this old log cabin in the Redwoods.
 
-![Tom Johnson, log cabin in Redwoods](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/log_cabin.jpg)
+![Tom Johnson, log cabin in Redwoods]({{site.media}}/log_cabin.jpg)
 
 I met my wife Shannon at BYU in the Writing Fellows program &mdash; she was an English major too. (In case you're curious, we used to be Mormon, but we no longer are.)
 

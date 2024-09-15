@@ -19,13 +19,13 @@ Last month my second-oldest child Callie, a senior in high school, came home str
 
 I remember reading *Macbeth* in high school and memorizing the "double, double toil and trouble" passage, but I couldn't recall the plot at all. And as I looked at the *Macbeth* text that Callie had, with its many footnotes and explanations inserted on each page, I could see that reading it from start to finish, as one would normally approach a novel, wouldn't work well. If you have to read a footnote for practically every line in the text, how can you ever make much progress?
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/student-reading-macbeth.jpg" alt="Reading Macbeth" /><figcaption>The Shakespeare text appears on the right, while explanatory notes appear on the left. Practically every line in the text has a corresponding note that explains some language or aspect of the text the student is reading. This granularity makes it extremely tedious to identify larger themes, characters, and story lines.</figcaption></figure>
+<figure><img src="{{site.media}}/student-reading-macbeth.jpg" alt="Reading Macbeth" /><figcaption>The Shakespeare text appears on the right, while explanatory notes appear on the left. Practically every line in the text has a corresponding note that explains some language or aspect of the text the student is reading. This granularity makes it extremely tedious to identify larger themes, characters, and story lines.</figcaption></figure>
 
 Fortunately, my wife (who never neglects to remind me that she took five AP classes in high school and received perfect scores on each of them), told Callie not to start with the original text but rather at a high-level overview. "You don't just start reading Shakespeare," she said. "Start by reading the Wikipedia entry so you get an idea of the plot, the important characters and themes. Or read some high-level *Cliff's Notes*." 
 
 Here's a close-up pic in case you want to try reading a page:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/macbeth-close-up-pic.jpg" alt="Macbeth close-up" /><figcaption>Look at the footnote lines on the left to see which primary text lines have explanatory notes. For example, for line 34, you'll see that "Norweyan lord" means the "King of Norway." Shakespearean English isn't too different from reading computer code. There are lots of places where jargon or unfamiliar code concepts requires some explanation.</figcaption></figure>
+<figure><img src="{{site.media}}/macbeth-close-up-pic.jpg" alt="Macbeth close-up" /><figcaption>Look at the footnote lines on the left to see which primary text lines have explanatory notes. For example, for line 34, you'll see that "Norweyan lord" means the "King of Norway." Shakespearean English isn't too different from reading computer code. There are lots of places where jargon or unfamiliar code concepts requires some explanation.</figcaption></figure>
 
 As we discussed *Cliff's Notes* (apparently not that commonly known among high school students), my wife had a better idea: YouTube. My wife searched YouTube for "macbeth" and in no time we were all watching [Macbeth in 7 minutes](https://youtu.be/4GSCWDa1qcE):
 
@@ -43,7 +43,7 @@ After this night, I never saw any catastrophizing stress over the *Macbeth* assi
 
 This experience confirmed the importance of the high-level overview, but it also illuminated exactly when this overview is needed: in times of complexity and length. In this case, the high-level overview provided a *shortcut for the reader*. Instead of having to slog through 200 pages of Shakespearean English and confusing plot lines, the high-level overview distilled the essential information in consumable, more efficient ways. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/maze_and_shortcut.jpg" alt="Shortcut through a maze" /><figcaption>The high-level overview can be like providing a shortcut through a maze. On the left, the maze presents a complicated journey full of trial and error. On the right, the distilled information presents you with a straight-line path through the confusion. When the high-level overview functions as a distilled summary of the whole, it presents a shortcut for the reader.</figcaption></figure>
+<figure><img src="{{site.media}}/maze_and_shortcut.jpg" alt="Shortcut through a maze" /><figcaption>The high-level overview can be like providing a shortcut through a maze. On the left, the maze presents a complicated journey full of trial and error. On the right, the distilled information presents you with a straight-line path through the confusion. When the high-level overview functions as a distilled summary of the whole, it presents a shortcut for the reader.</figcaption></figure>
 
 For this reason, the high-level overview provided an easier path to the user's end goal. This example stands in contrast to the high-level technical overview that exists as extracurricular reading, more on the periphery of user goals. In Callie's case, the high-level overview functioned more like a [quick reference guide](/trends/trends-to-follow-or-forget-quick-reference-guides.html), which is a genre I've written about previously.
 
@@ -51,7 +51,7 @@ For *Macbeth*, the high-level overview reduced the user's pain by allowing the u
 
 I remember the [first time I'd made a quick reference guide](/2009/04/10/quick-reference-guides-short-and-sweet-documentation/), condensing a 100+ page manual into a two-page guide. It looked something like this:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/watershed6101.png" alt="My first quick reference guide" style="max-width: 400px; border: 1px solid #dedede" /><figcaption>My first quick reference guide. This guide attempted to distill the manual into two pages, like making a poem from a novel.</figcaption></figure>
+<figure><img src="{{site.media}}/watershed6101.png" alt="My first quick reference guide" style="max-width: 400px; border: 1px solid #dedede" /><figcaption>My first quick reference guide. This guide attempted to distill the manual into two pages, like making a poem from a novel.</figcaption></figure>
 
 The program manager came to me one day and said he was so happy that he actually cried. He felt that *finally*, a tech writer understood that people don't like to read long documentation. He loved that the quick reference guide simplified many hours of reading into bare-bones essential information. (And that it also gave the product a user-friendly simplicity to the user.)
 
@@ -67,7 +67,7 @@ Let's move on to the second example: Elon Musk and the Twitter architectural dia
 
 Here's an enlarged view of that high-level diagram:
 
-<a href="https://twitter.com/Michael51090080/status/1594019652601925632"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twitter-musk-high-level-architecture2.jpg" alt="High-level diagram of Twitter's architecture" /></a>
+<a href="https://twitter.com/Michael51090080/status/1594019652601925632"><img src="{{site.media}}/twitter-musk-high-level-architecture2.jpg" alt="High-level diagram of Twitter's architecture" /></a>
 
 Whether this architecture was useful for the new CEO's decision-making, or whether it's real purpose was to project Musk's narcissistic CEO mythology as a tech-savvy leader, this is beside the point. The point is that this high-level architecture is the starting point that Elon Musk felt to be necessary for decision-making. Without it, the lines and lines of programming code, engineering teams, and Twitter functionality had no context or larger meaning. 
 
@@ -91,7 +91,7 @@ If you wanted to provide more detail, the diagram here could provide links to fu
 
 When I was at Amazon, I once documented an XML schema by doing something similar. See [Movie Elements](https://developer.amazon.com/docs/catalog/movie-elements.html), for example: 
 
-<a href="https://developer.amazon.com/docs/catalog/movie-elements.html#Offers"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/catalog-schema-elements.jpg" alt="Catalog schema documentation"/></a>
+<a href="https://developer.amazon.com/docs/catalog/movie-elements.html#Offers"><img src="{{site.media}}/catalog-schema-elements.jpg" alt="Catalog schema documentation"/></a>
 
 I created a tree view of the code, then linked each element in the tree to an explanation below. When you click a link, the explanation scrolls into focus. (I used some scroll-to jQuery plugins for the scrolling effect.) The code wasn't too complicated and could have equally been done through other approaches. But this idea is key: make the code visual and provide links for more detail from that visual diagram. (I'm still proud of this documentation!)
 

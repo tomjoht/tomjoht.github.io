@@ -24,7 +24,7 @@ last-modified: 2022-06-13
 
 When I began the “Book a Week” challenge at work, I came across a page of tips that said to collect a pile of books that you plan to read over the year ahead of time. Otherwise, when you finish one book, you might lose your reading momentum for the next one. Ordering a hardcover or paperback through the mail often took a couple of weeks to arrive. So as I ordered them to queue the books up, I soon had a whole shelf of books waiting to be read.
 
-<figure><img class="large" style="max-width: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/books_read_and_to_read3.jpg" alt="Queuing up books to read (bottom shelf)" /><figcaption>Queuing up books to read (bottom shelf)</figcaption></figure>
+<figure><img class="large" style="max-width: 500px" src="{{site.media}}/books_read_and_to_read3.jpg" alt="Queuing up books to read (bottom shelf)" /><figcaption>Queuing up books to read (bottom shelf)</figcaption></figure>
 
 The problem was that my interests evolved from book to book. I started out reading with a question about how technology affects our attention span and focus, and I also read books related to the auto industry and driving. But sometimes a book ignited or prompted other questions, which then shifted my thinking and interests. For example, I wasn’t so eager to continue reading about how smartphones affect the brain, as I felt I’d read enough material tackling that question (_Shallows_, _Stolen Focus_, _Digital Minimalism_). I still had a few books queued up on that topic (such as _Hooked_ and Irresistible), but I never got to them. My interests shifted to more philosophy-like topics.
 
@@ -40,7 +40,7 @@ Some books on my “To Read” shelf were print versions of audiobooks that I im
 
 I enjoyed writing notes in the margins of all the books I read. Sometimes my notes were high-level summaries of the author’s main point in that section, which maybe just crystallized in my head. I also noted passages and paragraphs I liked. Sometimes I underlined the passages, but mostly I just bracketed them and put checkmarks in the margins. If it was a passage I really connected with, I would draw a star. Multiple stars if I really liked it.
 
-<figure><img class="large" style="max-width: 700px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/annotated_page4.jpg" alt="How I annotate pages in books" /><figcaption>How I annotate pages in books</figcaption></figure>
+<figure><img class="large" style="max-width: 700px" src="{{site.media}}/annotated_page4.jpg" alt="How I annotate pages in books" /><figcaption>How I annotate pages in books</figcaption></figure>
 
 For me, part of the reading experience involved interacting with the book through these annotations. Writing in a book destroyed it for resale, but I considered that part of the cost of reading.
 
@@ -102,7 +102,7 @@ Many months later I actually started a book club at work, called the Auto & Tran
 
 Years of being a technical writer had taught me to prefer simple, easily understood words. As a result, I let my vocabulary stagnate. As I read more books, I noted unfamiliar or interesting words on a piece of bookmark paper as I was reading, along with other random notes.
 
-<figure><img class="large" style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bookmark_and_vocab2.jpg" alt="Writing down interesting or unfamiliar words and other notes" /><figcaption>Writing down interesting or unfamiliar words and other notes</figcaption></figure>
+<figure><img class="large" style="max-width: 400px" src="{{site.media}}/bookmark_and_vocab2.jpg" alt="Writing down interesting or unfamiliar words and other notes" /><figcaption>Writing down interesting or unfamiliar words and other notes</figcaption></figure>
 
 Then eventually, as I grew tired of reading, I’d take an hour or so to look up the words. A few times, I actually paired the vocabulary words with their image equivalents (pulled from an online image search) to cement pictures with words. Looking for supporting images turned out to be fun and helped me remember the words better (such as “anarcho-primitivist”). If language provided the tools for expression, then I felt that increasing the number of tools at my disposal would certainly help me be more articulate.
 

@@ -38,7 +38,7 @@ You can read the event description here: [Remote discussion: Techcomm in the tim
 >
 > Kirk published an article about the tech comm facets of the pandemic that health communicators have been working in or against [https://communicating-about-covid19.weebly.com/](https://communicating-about-covid19.weebly.com/)
 
-<a href="https://www.meetup.com/Write-the-Docs-Australia/events/270641270/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wtdaustraliaeventpandemic.png"/></a>
+<a href="https://www.meetup.com/Write-the-Docs-Australia/events/270641270/"><img src="{{site.media}}/wtdaustraliaeventpandemic.png"/></a>
 
 ## What we chatted about
 

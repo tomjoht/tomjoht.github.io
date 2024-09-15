@@ -50,11 +50,11 @@ What design most closely adheres to the information system Albers describes? Sur
 
 Step outside the documentation scenario for a moment and think of retail sites that contain thousands of products. It's now a common design pattern to provide filters the user can select to dynamically narrow the products. For example, in this shoe site, [sportsshoes.com](https://www.sportsshoes.com/products/shoe/), you can filter by about a dozen product attributes.
 
-<caption><a href="https://www.sportsshoes.com/products/shoe/" class="noExtIcon"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/sportsshoesfacets.png"/></a><figcaption>You can filter by gender, sport, product type, brand, type, size, price range, sport, gender, size, price, color, terrain, and features. Faceted filters have been critical in helping users find and buy the right products.</figcaption></caption>
+<caption><a href="https://www.sportsshoes.com/products/shoe/" class="noExtIcon"><img src="{{site.media}}/simplifying-complexity/sportsshoesfacets.png"/></a><figcaption>You can filter by gender, sport, product type, brand, type, size, price range, sport, gender, size, price, color, terrain, and features. Faceted filters have been critical in helping users find and buy the right products.</figcaption></caption>
 
 You see some faceted filters in documentation websites, but it's not as common. Common filters might be based on versions, languages, or platforms. Here's an [example from Antidot's Fluid Topics platform](https://discover.fluidtopics.com/search/all?query=overview), which provides a robust documentation interface for facets by leveraging attributes related to the content.
 
-<a href="https://discover.fluidtopics.com/search/all?query=overview" class="noExtIcon"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/fluidtopicsdemo.png"/></a>
+<a href="https://discover.fluidtopics.com/search/all?query=overview" class="noExtIcon"><img src="{{site.media}}/simplifying-complexity/fluidtopicsdemo.png"/></a>
 
 I suspect faceted filtering would be more commonly implemented if the tooling were more available. However, beyond the attributes described here (product, version, category, platform, content type, last update), information systems tend to lack clear facets around which you can pivot the information. You mostly end up with keywords and tags.
 
@@ -94,7 +94,7 @@ In order to manipulate your semantically tagged information, you might also need
 
 If you walk along the trails in Moab, Utah, where the sandstone and dirt ground makes it difficult to see a defined path, you'll find many rock piles ("cairns") that act as guide points. The cairns can be stacked and arranged in many ways, in many contexts for different needs and scenarios, because they consist of little chunks of granite.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/cairns.png" alt="cairns" />
+<img src="{{site.media}}/simplifying-complexity/cairns.png" alt="cairns" />
 
 (To read more about chunking, see my earlier post on this: [The importance of chunking for sorting](/2011/04/18/the-importance-of-chunking-for-sorting).)
 
@@ -106,15 +106,15 @@ Today there's a lot of [excitement](http://www.tccamp.org/2017/11/chatbot-worksh
 
 To try out a chatbot, check out Verizon's "digital assistant" on their [Contact page](https://www.verizonwireless.com/support/contact-us/). Ask a question such as "How do I order a sim card"? and you get a response. In the following screenshots, my questions appear in blue, the chatbot's responses in black.
 
-<a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img style="max-width: 300px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/verizondigitalassistant1.png"></a>
+<a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img style="max-width: 300px" src="{{site.media}}/simplifying-complexity/verizondigitalassistant1.png"></a>
 
 Or "How do I activate my phone":
 
-<a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img style="max-width: 300px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/verizondigitalassistant2.png"></a>
+<a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img style="max-width: 300px" src="{{site.media}}/simplifying-complexity/verizondigitalassistant2.png"></a>
 
 Or even something specific to your account, such as "Am I eligible to upgrade"?
 
-<a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img style="max-width: 300px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/verizonchatbot.png"></a>
+<a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img style="max-width: 300px" src="{{site.media}}/simplifying-complexity/verizonchatbot.png"></a>
 
 The chatbot provides conversational AI for your questions. In order for the chatbot to return the right information for your context, your information must be chunked and tagged. The responses are the brief (1-2 sentences) and usually include links for more information.
 
@@ -126,7 +126,7 @@ Chatbots are mostly used in sales or support scenarios, and they provide relativ
 
 Google also seems to be implementing chatbot-like features in their search. For example, after watching some recent SNL skits that included Will Ferrell, I was curious to know how old Ferrell was (he looked older than usual to me). Google not only helped auto-complete my question, it also showed me the answer right in the auto-complete options:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/holdoldiswillferrell.png" class="medium" style="border: 1px solid #dedede;"/>
+<img src="{{site.media}}/simplifying-complexity/holdoldiswillferrell.png" class="medium" style="border: 1px solid #dedede;"/>
 
 The difference between search and a chatbot is somewhat merging here. Perhaps the only difference is that a chatbot provides more interactive, natural language processing (NLP) logic with search.
 

@@ -4,7 +4,7 @@ keywords: vectors, firefox, illustrator, workflow diagrams, concept illustration
 categories:
 - visual-communication
 description: "This past week I was creating some diagrams for a project, and I feel like I've settled into a good workflow for creating high quality diagrams. Here's my process: Create the file in Illustrator, store numerous diagrams on artboards in the same file, save as SVG with outlines, and embed like an image but specifying the max-width."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/vectordiagrams.png
+image: thumbnails/vectordiagrams.png
 ---
 
 * TOC
@@ -90,7 +90,7 @@ In the check boxes, remove the check box from "Use <textpath> element for Text o
 Now it's time to insert the SVG on your page. You can treat it just like an image:
 
 ```
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
+<img src="{{site.media}}/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
 ```
 
 Vector graphics provide a lot of possibilities beyond just simple diagrams here. You can also add animation, link different elements, and do a lot of other things with graphics. However, you can also just create simple workflow diagrams, like I've shown here.

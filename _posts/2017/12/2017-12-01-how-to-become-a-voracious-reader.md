@@ -6,7 +6,7 @@ categories:
 - writing
 - podcasts
 keywords: reading, thinking, engagement
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/voraciousreadinghowto.mp3
 podcast_file_size: 5.4 MB
 podcast_duration: "06:58"

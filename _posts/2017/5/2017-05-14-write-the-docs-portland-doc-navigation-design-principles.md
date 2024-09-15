@@ -6,13 +6,13 @@ categories:
 keywords:
 description: "Slides for my presentation on doc navigation are available below. I'm giving this presentation at Write the Docs Portland on May 15. The presentation is about 20 minutes long."
 bitlink: http://bit.ly/wtdportlandslides
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdportslidethumb.png
+image: thumbnails/wtdportslidethumb.png
 ---
 
 * TOC
 {:toc}
 
-<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wtdpresoportland.png"/></a>
+<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="{{site.media}}/wtdpresoportland.png"/></a>
 
 Here's the [description](http://www.writethedocs.org/conf/na/2017/speakers/#speaker-tom-johnson):
 

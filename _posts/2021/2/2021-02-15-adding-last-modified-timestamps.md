@@ -26,11 +26,11 @@ Although I could use `git log` to check commit history for a file, I found it ea
 
 You can browse to the file in GitHub. You'll then see a new button that says "Open in Git History":
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/githistoryscreenshot2.png" alt="Open in Git History" />
+<img src="{{site.media}}/githistoryscreenshot2.png" alt="Open in Git History" />
 
 Clicking Open in Git History opens the file in a view like this:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/githistoryscreenshot3.png" alt="Browser view of Git history" />
+<img src="{{site.media}}/githistoryscreenshot3.png" alt="Browser view of Git history" />
 
 You can also just go to the file in GitHub and then replace `github.com` with `github.githistory.xyz` in the address bar. This way, you can just update the URL with each page permalink rather than going into the GitHub GUI each time. Either way opens up the same history view.
 
@@ -38,7 +38,7 @@ In the history view, the changed text appears in a bold white font while the unc
 
 You can see different commit histories by selecting a different timestamp at the top. I moved further back along the timeline until I could see changes to the actual content of the page. Back on Aug 4, 2020, I changed the page title. The same date I also added the original page as well.
 
-<img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/githistoryscreenshot1.png" alt="Browser view of Git history" />
+<img style="border: 1px solid #dedede" src="{{site.media}}/githistoryscreenshot1.png" alt="Browser view of Git history" />
 
 So for my `last-modified` timestamp, I chose `2020-08-04`. Unfortunately, when I update the page again, I'll need to manually remember to update this date. But at least now I have a baseline of real last modified dates.
 
@@ -48,7 +48,7 @@ So for my `last-modified` timestamp, I chose `2020-08-04`. Unfortunately, when I
 
 I also added a small GitHub button after the "Last updated" timestamp on pages.
 
-<a href="/learnapidoc/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/github_button_last_modified.png" alt="GitHub button" /></a>
+<a href="/learnapidoc/"><img src="{{site.media}}/github_button_last_modified.png" alt="GitHub button" /></a>
 
 Clicking this button takes you the page in GitHub. Once there, you can click **History** to see the commit history for the page. This way you can more easily see the file's history.
 

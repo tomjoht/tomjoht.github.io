@@ -47,7 +47,7 @@ Sometimes, I’d occasionally pull out my phone without any particular reason, u
 
 Hari’s book opened my eyes to the way smartphones are wrecking our ability to focus. If every idle moment of our day was occupied by the smartphone’s content feeds, social media tidbits, and other news pulling us in, what time did we have for personal thought? For reflection and analysis? For our own directed attention? Very little. 
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/distractionvsclarity6.svg" alt="Distraction versus clarity -- the effect of smartphones on information overload and attention fragmentation" /><figcaption>Distraction versus clarity -- the effect of smartphones on information overload and attention fragmentation</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/distractionvsclarity6.svg" alt="Distraction versus clarity -- the effect of smartphones on information overload and attention fragmentation" /><figcaption>Distraction versus clarity -- the effect of smartphones on information overload and attention fragmentation</figcaption></figure>
 
 Perhaps most frighteningly, if I left my phone somewhere, it would be uncomfortable to be alone with my own thoughts. It was hard to have _nothing_ to look at, to be _left alone in my head_. What would I think about?
 

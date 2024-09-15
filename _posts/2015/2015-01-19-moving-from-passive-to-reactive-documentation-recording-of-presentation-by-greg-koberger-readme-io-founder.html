@@ -20,13 +20,13 @@ podcast_length: 82657722
 
 {% include audio.html %}
 
-<p>You can view the slides <a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2015/01/dynamic-docs.pdf">here</a>.</p>
-<p><a target="_blank" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2015/01/dynamic-docs.pdf"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/dynamicdocs-550x407.png" alt="Dynamic docs" width="550" height="407" class="alignnone size-medium wp-image-22518" /></a></p>
+<p>You can view the slides <a href="{{site.media}}/2015/01/dynamic-docs.pdf">here</a>.</p>
+<p><a target="_blank" href="{{site.media}}/2015/01/dynamic-docs.pdf"><img src="{{site.media}}/dynamicdocs-550x407.png" alt="Dynamic docs" width="550" height="407" class="alignnone size-medium wp-image-22518" /></a></p>
 
 <h2>About Greg Koberger</h2>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/greg-koberger-150x150.jpg" alt="Greg Koberger" width="150" height="150" class="alignleft size-full wp-image-22519" />Gregory Koberger is the founder of <a href="https://readme.com/">ReadMe.com</a>, which provides collaborative developer hubs for companies or projects. He has previously worked at Mozilla, Greylock, and numerous startups. You can learn more about Greg at <a href="http://gkoberger.net">gkoberger.net</a>.</p>
+<p><img src="{{site.media}}/greg-koberger-150x150.jpg" alt="Greg Koberger" width="150" height="150" class="alignleft size-full wp-image-22519" />Gregory Koberger is the founder of <a href="https://readme.com/">ReadMe.com</a>, which provides collaborative developer hubs for companies or projects. He has previously worked at Mozilla, Greylock, and numerous startups. You can learn more about Greg at <a href="http://gkoberger.net">gkoberger.net</a>.</p>
 <p>You can explore ReadMe.com <a href="https://readme.com/">here</a>:</p>
-<p><figure><a href="https://readme.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/readmescreenshot-550x280.png" alt="ReadMe.com" width="550" height="280" class="size-medium wp-image-22520" /></a> <figcaption>ReadMe.com</figcaption></figure></p>
+<p><figure><a href="https://readme.com/"><img src="{{site.media}}/readmescreenshot-550x280.png" alt="ReadMe.com" width="550" height="280" class="size-medium wp-image-22520" /></a> <figcaption>ReadMe.com</figcaption></figure></p>
 <p>Here's my brief summary of the presentation.</p>
 <h2>Overview of doc levels</h2>
 <p>Greg outlined three levels of documentation:</p>
@@ -51,7 +51,7 @@ podcast_length: 82657722
 <p>Error messages are another place to personalize and customize content. The errors themselves can contain variables that are personalized -- for example, instead of "Failed to instantiate module," if your company was ACME, the error message might say, "Failed to instantiate your ACME module." Error messages should also include links to relevant sections in the doc.</p>
 {% include ads.html %}
 <p>Another example of reactive documentation is with <a href="https://stripe.com/docs/api">Stripe's API doc</a>. The API responses (which appear in the right column) are based on your own data. How? To use the Stripe API you must create an application key of some kind. To create this key, you must log in. Therefore when you're logged in, Stripe knows your application key. The API code samples can pass in your authentication key and return your specific data for each of the endpoints.</p>
-<p><figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stripeapidynamic2-550x314.png" alt="The text circled here says, " One of your test API keys has been filled into all the examples on the page, so you can test out any example right away."" width="550" height="360" class="size-medium wp-image-22521" /><figcaption>The text circled here says, "One of your test API keys has been filled into all the examples on the page, so you can test out any example right away."</figcaption></figure></p>
+<p><figure><img src="{{site.media}}/stripeapidynamic2-550x314.png" alt="The text circled here says, " One of your test API keys has been filled into all the examples on the page, so you can test out any example right away."" width="550" height="360" class="size-medium wp-image-22521" /><figcaption>The text circled here says, "One of your test API keys has been filled into all the examples on the page, so you can test out any example right away."</figcaption></figure></p>
 <p>This personalized approach to documentation can make the code samples and information more real, immediate, and understandable. It's one way of further reducing the cognitive strain on your users.</p>
 <p>(If you're not logged in to the site, you'll see generic responses.)</p>
 <h2>Level 3: Proactive documentation</h2>

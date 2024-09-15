@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: Amazon Lab126, Experian, lab126, jobs, transition, technical writer roles
 description: "I'm starting a new job at Amazon Lab126 in Sunnyvale, California this week. This past week I closed out the remaining projects, tasks, and other final details at 41st Parameter / Experian in preparation for the transition. This week I'll be in Seattle (where Amazon's headquarters are located) all week for training."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/amazonlab126screenthumb.png
+image: thumbnails/amazonlab126screenthumb.png
 ---
 
 * TOC

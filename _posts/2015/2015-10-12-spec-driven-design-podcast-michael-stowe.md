@@ -10,7 +10,7 @@ tags:
 - RAML
 - API
 - specifications
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mikestowe.mp3
 podcast_file_size: 76.9 MB
 podcast_duration: "45:48"

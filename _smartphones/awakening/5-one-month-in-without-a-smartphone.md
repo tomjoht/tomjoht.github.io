@@ -23,7 +23,7 @@ last-modified: 2022-05-7
 
 I abandoned my smartphone about a month ago. Not only had I continued to read and enjoy reading, but I had also begun to wonder if perhaps I needed to review each book I read. Earlier, when I finished a book, I thought it was such an achievement that it merited a review. For example, I wrote a massively detailed review of Autonorama. Now I started thinking maybe a few short paragraphs, or maybe not at all? I wanted to retain the information, to remember the arguments and reasons, and so on. But did I need to write a review for that?
 
-<figure><img class="large" style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stillreadingsmartphones.jpg" alt="Still reading" /><figcaption>Still reading</figcaption></figure>
+<figure><img class="large" style="max-width: 800px" src="{{site.media}}/stillreadingsmartphones.jpg" alt="Still reading" /><figcaption>Still reading</figcaption></figure>
 
 In reading more, I had initially thought Kindle would be the way to go, but early on, when I couldn’t get one of the books I wanted on Kindle and so ordered the print version, I realized that consuming print material was 10x more enjoyable for me. In fact, I had grown to hate reading from screens altogether—not just smartphone screens. If someone sent me a long email (e.g., a work-related newsletter), I printed it out. I could focus better, annotate it, and save it when reading in print. I enjoyed reading from paper. It turned out that used books, especially popular books with lots of surplus, were much cheaper than Kindle versions anyway.
 
@@ -57,7 +57,7 @@ The other day at work, there was a micro-mobility fair of sorts, with all the mi
 
 At any rate, I got the waivers completed and rode around on the bikes and scooters. They make it easy to get around, for sure. If you want an electric-powered motion device (such as to replace your car for inner-city travel without sweating), they’re great. But I realized that I really like my 5-mile bike ride in the mornings and afternoons, the way it gets my heart beating and my blood pumping. It’s like a natural caffeine, waking me up and making me feel alive. For someone substituting the ebike/scooter for a car, great. But I already sit on my butt all day long. Do I really need to sit without exercise while commuting? No, I decided, I did not.
 
-<figure><img class="large" style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/micromobilityscene.jpg" alt="Micromobility options" /><figcaption>Micromobility options</figcaption></figure>
+<figure><img class="large" style="max-width: 800px" src="{{site.media}}/micromobilityscene.jpg" alt="Micromobility options" /><figcaption>Micromobility options</figcaption></figure>
 
 I still don’t understand why all micro-mobility options are app-based and electric-powered. The Wheels/Veo option (like a scooter with a seat) literally feels like an electric-assisted shopping cart that you see in grocery stores for people unable to walk.
 
@@ -77,7 +77,7 @@ When I wake up in the morning, my first instinct isn’t usually to check my ema
 
 On my way home, driving from the train station to my house, I noticed, for the first time in years, a CD slot above my car radio.
 
-<figure><img class="large" style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cd_slot.jpg" alt="CD slot" /><figcaption>CD slot</figcaption></figure>
+<figure><img class="large" style="max-width: 800px" src="{{site.media}}/cd_slot.jpg" alt="CD slot" /><figcaption>CD slot</figcaption></figure>
 
 Wouldn’t it be nice, I thought, to have my own classical CDs where I could choose the type of music, and where I wouldn’t have to listen to membership campaign drives? So I ordered a handful of classical CDs. I did not anticipate ordering CDs in 2022.
 
@@ -96,11 +96,11 @@ I printed out the Nikon D60 manual (200 pages long) and started to read it, re-l
 
 Rediscovering my old camera made me think that perhaps those apps on my smartphone that I thought were indispensable—the camera, the mapping application, etc.—might not be so helpful after all. Could life actually be better without them? So far, yes! Taking pictures was fun again. I felt like I was rediscovering photography. Here are some pictures I took with the DSLR.
 
-<figure><img class="large" style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ponyo_chilling.jpg" alt="Ponyo chilling" /><figcaption>My cat Ponyo chillin’</figcaption></figure>
+<figure><img class="large" style="max-width: 800px" src="{{site.media}}/ponyo_chilling.jpg" alt="Ponyo chilling" /><figcaption>My cat Ponyo chillin’</figcaption></figure>
 
-<figure><img class="large" style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannon_lucy.jpg" alt="Shannon and Lucy" /><figcaption>My wife and second youngest daughter</figcaption></figure>
+<figure><img class="large" style="max-width: 800px" src="{{site.media}}/shannon_lucy.jpg" alt="Shannon and Lucy" /><figcaption>My wife and second youngest daughter</figcaption></figure>
 
-<figure><img class="large" style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/molly_shears.jpg" alt="Molly with shears" /><figcaption>My youngest daughter with shears</figcaption></figure>
+<figure><img class="large" style="max-width: 800px" src="{{site.media}}/molly_shears.jpg" alt="Molly with shears" /><figcaption>My youngest daughter with shears</figcaption></figure>
 
 I thought back to the photography classes I took in high school (especially developing photos in the darkroom). I loved those classes! In using a smartphone, I grew to forget how enjoyable it actually was to take pictures—for example, to swap in a 50 mm lens and take closeups so that the background totally blurs out, directing focus to the subject.
 

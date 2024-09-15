@@ -5,7 +5,7 @@ categories:
 - jekyll
 keywords:
 description: "If you want to manage your content in a system and take advantage of more robust documentation management, it seems like your content needs to be in DITA or XML for the system to parse and process it. Almost no component content management systems handle anything like Markdown or other unstructured content. This requirement will likely always push large teams toward DITA/XML."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/ditaxmlccms.png
+image: thumbnails/ditaxmlccms.png
 ---
 
 * TOC

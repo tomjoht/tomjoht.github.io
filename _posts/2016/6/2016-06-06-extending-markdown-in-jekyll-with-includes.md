@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords: markdown, jekyll, includes, transclusion
 description: "Although the basic Markdown syntax can be pretty limiting, you can create more sophisticated HTML syntax and store it in templates. Using include syntax, you can pass parameters into these templates. This allows you to leverage more advanced HTML formatting (or other logic) without having to introduce the same level of complexity into your page authoring."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekyllthumbimage.png
+image: thumbnails/jekyllthumbimage.png
 ---
 
 * TOC

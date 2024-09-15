@@ -166,11 +166,11 @@ In *The User's Journey*, Lichaw first explains the basic structure of story. The
 
 Lichaw shows the typical shape of a usage story as follows:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/lichaw-usage-story.png"/>
+<img src="{{site.media}}/simplifying-complexity/lichaw-usage-story.png"/>
 
 As an example, Lichaw uses the keynote Steve Jobs gave when announcing the first iPhone at an Apple keynote. Steve built up the problem of having separate devices (one device for calling, and one device for web browsing and listening to music), and then presented the iPhone as the solution.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/lichaw-iphone-story.png" style="border: 1px solid #dedede;"/>
+<img src="{{site.media}}/simplifying-complexity/lichaw-iphone-story.png" style="border: 1px solid #dedede;"/>
 
 Lichaw shows how the different types of stories in the workplace &mdash; "concept stories," "origin stories," and "usage stories" &mdash; can incorporate these same basic story principles to engage users.
 

@@ -12,7 +12,7 @@ bitlink: http://bit.ly/stcpambrewervpcandidate
 
 ## In 3-5 sentences, can you describe who you are, what you do, and why are you running?
 
-<figure style="float: right; padding: 0px 20px;"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pambrewer.jpg"><figcaption>Pam Brewer, candidate for STC Vice President</figcaption></figure>
+<figure style="float: right; padding: 0px 20px;"><img src="{{site.media}}/pambrewer.jpg"><figcaption>Pam Brewer, candidate for STC Vice President</figcaption></figure>
 
 I started my career in TC at Cincom Systems and then LexisNexis. I eventually earned my Ph.D. at Texas Tech University and moved into teaching tech comm. I currently teach in the School of Engineering at Mercer University and direct the online Master of Science in Technical Communication Management. I also direct the work in the UX lab and its projects with the Department of Homeland Security. I have served STC for over 25 years because I believe in its service to the field of TC at large, and I want to serve as VP because I believe I can contribute to some significant gains for membership. I am ready to serve in this role!
 

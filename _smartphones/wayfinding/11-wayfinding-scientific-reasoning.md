@@ -57,21 +57,21 @@ We walked first along Stingr trail and then on Beaver Trax, over to Ravensdale L
 
 By trying an unfamiliar route, we were forced into a state of more acute awareness of the environment, especially when we weren’t sure which way to go. This hyper awareness prompted my wife to take more stock of the many types of trees, plants, and other vegetation. At least a half dozen times she paused to use her naturalist app to identify the type of tree/plant/shrub we were passing.
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_1.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_1.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_3.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_3.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_4.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_4.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_5.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_5.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_6.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_6.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_7.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_7.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_10.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_10.jpg" alt="Henry's Ridge" />
 
-<img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_8.jpg" alt="Henry's Ridge" />
+<img class="large" src="{{site.media}}/henrys_ridge_landscape_8.jpg" alt="Henry's Ridge" />
 
 Her awareness and sense of detail were heightened precisely because we’d taken an unfamiliar route in an unfamiliar location. This is my entire point here. When you try new routes and places, your hippocampus wakes up, your spatial senses kick into gear, and your alertness and awareness of everything around you spikes.
 
@@ -80,13 +80,13 @@ Her awareness and sense of detail were heightened precisely because we’d taken
 
 In fact, a few times we could no longer correlate our location on the map. Comparing a map’s drawings with what you see in real life is always a mismatch, which is the whole difficulty of wayfinding. The mismatch reinforces the notion that maps are metaphors for the environment, optimizing for some detail the map maker wanted to emphasize. By definition, maps must be a rudimentary subset of what we actually observe in the environment. This mismatch between the map (what we see on paper) and the world (what we see looking around us) is what forces our brains to make associations, interpretive leaps and to infer conclusions from small details. We interpret a 2D line on paper to represent the trail ahead.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_map.jpg" alt="Henry's Ridge Map" /><figcaption>Henry's Ridge Map</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/henrys_ridge_map.jpg" alt="Henry's Ridge Map" /><figcaption>Henry's Ridge Map</figcaption></figure>
 
 When we're faced with this mismatch, we're forced to use spatial reasoning to make some kind of correlation between a model on paper and a model of reality. When the map doesn’t seem to match reality, that’s when the brain’s spatial powers kick into overdrive. On the map, do we see a bending scribble for this trail fork? But why is only one path shown on the map rather than a fork? What other landmarks can we see to confirm that what we’re looking at is in fact this mark on the map?
 
 Following a trail map is similar to following product instructions to put together some physical product, such as a dresser or, in our latest purchase, a composter. One locates the instructions, looks at the pictures, and then tries to map the how-to guide’s images to the physical pieces, screws, and other unfamiliar gizmos in the box. Then step by step, we correlate the assembly actions with the various pieces strewn all over the floor until we build the object.
 
-<a href="https://secure.img1-ag.wfcdn.com/dm/document/1885d4b5-ee5c-441a-97ff-81dc969b1de7/assembly%20instructions"><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/composterinstructions.jpg" alt="Composter instructions" /></a>
+<a href="https://secure.img1-ag.wfcdn.com/dm/document/1885d4b5-ee5c-441a-97ff-81dc969b1de7/assembly%20instructions"><img class="large" src="{{site.media}}/composterinstructions.jpg" alt="Composter instructions" /></a>
 
 In other words, instructions (especially highly visual ones) are a map that the user must try to follow. It involves a high degree of spatial reasoning, comparing, matching, intuiting, and more. Pieces might look almost similar except for the presence or absence of a single screw hole. Assembling things isn’t something anyone can do without practice. My youngest daughter (11 years old) is a skilled artisan with cardboard, but she flounders when assembling an IKEA desk.
 

@@ -38,7 +38,7 @@ Darnell says most people who survive layoffs think that those people who were la
 
 Darnell says the first red flag is not being strategic:
 
-<a href="https://www.youtube.com/embed/NU82Rd9vc78"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/darnell_strategic.png" /></a>
+<a href="https://www.youtube.com/embed/NU82Rd9vc78"><img src="{{site.media}}/darnell_strategic.png" /></a>
 
 But what does it mean to be strategic? Darnell starts by asking,
 

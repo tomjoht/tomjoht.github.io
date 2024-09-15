@@ -62,6 +62,6 @@ From a monetary perspective, I've had good success with the [advertisements](/ad
 
 If you do browse these [PDF and eBook formats](/learnapidoc/download.html), let me know what you think. If you spot some style or formatting errors, or have other tips, I'd be interested to hear them. I'm also curious to know what eReaders you use, especially if not Kindle. I am tracking clicks to the various links, and so far PDF seems to be the most popular, followed by EPUB.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/clickratesaltformats.png" alt="Click rates on formats" />
+<img src="{{site.media}}/clickratesaltformats.png" alt="Click rates on formats" />
 
 It's interesting to see PDF win out over other formats, but like I said earlier, PDF viewers allow you to highlight and add notes easily to the content, as well as browse through pages more easily than with an ebook. An ebook might be better suited to other types of non-course content.

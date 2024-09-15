@@ -14,7 +14,7 @@ description: "Larry Swanson, a UX content strategist, runs a podcast called <a h
 
 You can listen to the podcast here: [Content Strategy Insights Episode 88 - Tom Johnson: Documenting APIs](https://ellessmedia.com/csi/tom-johnson/). (Larry's site is called Elles Media.)
 
-<a href="https://ellessmedia.com/csi/tom-johnson/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swansonpodcastapis.png" alt="Tom Johnson podcast with Larry Swanson on Content Strategy Insights" /></a>
+<a href="https://ellessmedia.com/csi/tom-johnson/"><img src="{{site.media}}/swansonpodcastapis.png" alt="Tom Johnson podcast with Larry Swanson on Content Strategy Insights" /></a>
 
 Larry described the topics we chat about as follows:
 

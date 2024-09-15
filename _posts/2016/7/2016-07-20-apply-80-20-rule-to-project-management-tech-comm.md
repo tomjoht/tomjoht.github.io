@@ -12,7 +12,7 @@ tags:
 - documentation
 - technical communication
 - project management
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/four-hour-projects.mp3
 podcast_file_size: 7.8 MB
 podcast_duration: "09:34"

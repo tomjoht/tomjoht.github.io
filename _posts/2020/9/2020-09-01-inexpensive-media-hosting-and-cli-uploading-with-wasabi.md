@@ -17,7 +17,7 @@ About six years ago I switched off Bluehost and WordPress over to Jekyll and Git
 
 I shifted all my media over to an S3 bucket, then hooked up the bucket to [CloudFront](https://aws.amazon.com/cloudfront/) for a content distributed network (CDN) and also to [Route 53](https://aws.amazon.com/route53/) with a custom domain. I set the expiring cache on the S3 assets for a lengthy amount of time. I thought this was the way to go, and I especially liked uploading via the command line with the [AWS CLI](https://aws.amazon.com/cli/). But I soon discovered that the bandwidth costs for the web traffic on the media turned out to be way more than I anticipated. Just storing 30 GB of data on S3 doesn't cost much at all (maybe $2/month). But if the files are served up through web requests from a website, look out &mdash; it's a whole different cost tier. My bill was regularly about $30-35 a month.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/awss3bill.png" alt="Sample AWS bill" />
+<img src="{{site.media}}/awss3bill.png" alt="Sample AWS bill" />
 
 I stayed on AWS S3 for about 6 months because moving around 30 GB of media files is not easy, and I didn't have a better solution. (I didn't want to revert to Bluehost, for example.) I told myself that uploading images via the command line was saving me time, etc, and I wanted to become more familiar with the AWS ecosystem, but I knew that $30+/month for media hosting for a blog was not a long-term solution I wanted.
 
@@ -43,13 +43,13 @@ At first, I didn't activate immutability, and then like an idiot I was browsing 
 
 Now to the big question. Is Wasabi cheaper? Maybe. My initial bills were certainly 80% cheaper:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wasabisamplebill.png" alt="Sample Wasabi bill" />
+<img src="{{site.media}}/wasabisamplebill.png" alt="Sample Wasabi bill" />
 
 But as I'll explain later, this might be a temporary anomaly as part of a grace period.
 
 ## Limitations with Wasabi
 
-Note that Wasabi doesn't offer the multitude of other cloud services like AWS. Wasabi just offers the file storage with S3-like functionality, nothing more. You can't even map a custom domain to the bucket (as with Route 53), so my media URLs look like this: `https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/`. Also, all images are served from the us-west-1 location that I chose (I don't believe edge caching for higher-tier performance, as with AWS, is even available).
+Note that Wasabi doesn't offer the multitude of other cloud services like AWS. Wasabi just offers the file storage with S3-like functionality, nothing more. You can't even map a custom domain to the bucket (as with Route 53), so my media URLs look like this: `{{site.media}}/`. Also, all images are served from the us-west-1 location that I chose (I don't believe edge caching for higher-tier performance, as with AWS, is even available).
 
 The loading time, if longer, isn't noticeable to me (after all, it's just a blog, so it's not a huge deal even if it's slightly slower). Additionally, the Wasabi GUI seems less stable and more amateur. (Sometimes I see text that says "Redirect token" when I hit a back button, for example.) Their help docs aren't great either (see this [example](https://wasabi-support.zendesk.com/hc/en-us/articles/115001910791-How-do-I-use-AWS-CLI-with-Wasabi-)).
 
@@ -62,7 +62,7 @@ I like that with Wasabi, I can still use the command line to upload files. (This
 ```sh
 aws s3 cp ~/projects/idratherbewriting/images/$1 s3://idbwmedia.com/images/ --profile wasabi
 
-echo '<a href=""><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/'$1
+echo '<a href=""><img src="{{site.media}}/'$1
 echo '" alt="" /></a>'
 ```
 
@@ -78,7 +78,7 @@ For some reason I had trouble installing Wasabi's required version of Python on 
 myvenv
 aws s3 cp ~/projects/idratherbewriting/images/$1 s3://idbwmedia.com/images/ --profile wasabi
 
-echo '<a href=""><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/'$1
+echo '<a href=""><img src="{{site.media}}/'$1
 echo '" alt="" /></a>'
 deactivate
 ```
@@ -95,7 +95,7 @@ The script then runs `deactivate` when finished. (Really, this virtual environme
 
 The result:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sample_image_cli_upload.png" alt="Sample image upload" />
+<img src="{{site.media}}/sample_image_cli_upload.png" alt="Sample image upload" />
 
 One interesting thing I've noticed, as I examine costs for file hosting, is that the most expensive images on my site are the ad images in my sidebar. Those images get served with each page load, so they end up account for something like 25% of my egress bandwidth. A heavy file there translates into a larger financial impact with hosting (which was much more noticeable with AWS). At some point while on AWS S3, I considered enforcing a smaller file size with advertisers. At any rate, if you do have images that are part of your site's layout (e.g., subscribe buttons or banner images) and which load with each page load, make sure they are highly optimized.
 

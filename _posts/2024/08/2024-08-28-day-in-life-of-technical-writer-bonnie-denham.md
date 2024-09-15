@@ -4,7 +4,6 @@ permalink: /blog/day-in-life-of-technical-writer-bonnie-denham
 date: 2024-08-28
 categories:
 - technical-writing
-- guest posts
 keywords: 
 rebrandly: https://idbwrtng.com/day-in-life-of-technical-writer-bonnie-denham
 description: "The following is a guest post by <a href='#bonnie-denham'>Bonnie Denham</a>. In this post, she responds to one of the most common questions people ask about technical writing careers: what does a typical day look like for a technical writer? I find it interesting to see how the day-to-day tasks differ not only by company and industry, but by software, specializations, and company environments."

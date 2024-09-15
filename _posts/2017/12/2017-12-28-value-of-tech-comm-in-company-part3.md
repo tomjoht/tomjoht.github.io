@@ -68,7 +68,7 @@ So we can build a case for documentation's value by first establishing that **pe
 
 Here's a graphic depicting documentation as a common asset used by all of these groups:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/intersecting_groups_documentation_center.svg"/><figcaption>When I posted this graphic <a href="https://twitter.com/tomjohnson/status/942867105845723136">on Twitter</a>, it received a tremendous response, with about 25 retweets and 50 likes.</figcaption></figure>
+<figure><img src="{{site.media}}/intersecting_groups_documentation_center.svg"/><figcaption>When I posted this graphic <a href="https://twitter.com/tomjohnson/status/942867105845723136">on Twitter</a>, it received a tremendous response, with about 25 retweets and 50 likes.</figcaption></figure>
 
 It's probably unnecessary to go into depth about how each of these groups use documentation, as technical writers are familiar with this area. What's important here is to highlight the many groups that use documentation, since identifying the groups will help us interact with them in more strategic ways. We can interact with them to gather word-of-mouth perceptions about how they use docs, as Carliner et al recommended.
 

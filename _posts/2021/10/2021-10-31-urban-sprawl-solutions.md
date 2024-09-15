@@ -48,7 +48,7 @@ I support city designs and plans that encourage walkability without urban sprawl
 
 I mean, it takes years for cities to create a single new bike path or multi-use trail. For example, in South Seattle, there's a project to create a [new bike trail in Beacon Hill](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/protected-bike-lanes/beacon-hill-bike-route). Here are the timelines for the Beacon Hill bike route:
 
-<a href="https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/protected-bike-lanes/beacon-hill-bike-route"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bicycle-route-beacon-hill.png" alt="Timelines for the Beacon Hill bike route" /></a>
+<a href="https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/protected-bike-lanes/beacon-hill-bike-route"><img src="{{site.media}}/bicycle-route-beacon-hill.png" alt="Timelines for the Beacon Hill bike route" /></a>
 
 It takes three years of planning before construction even begins. In contrast, apparently we have about a seven-year window to avoid disastrous rises in temperature from global warming. [ClimateClock.world](https://climateclock.world/) says:
 
@@ -64,7 +64,7 @@ I bought a car about four months ago, and I really wanted to get an EV, specific
 
 The success of Tesla is encouraging, especially with the recent [Hertz announcement to buy 100,000 Tesla Model 3's](https://www.vox.com/recode/22750807/hertz-tesla-uber-electric-car) by the end of 2022. In many ways, Tesla's success and popularity is driving other car manufacturers to follow suit with EVs. The [adoption rate of EVs](https://www.iea.org/reports/global-ev-outlook-2021/trends-and-developments-in-electric-vehicle-markets) is on an exponential trajectory globally (more so in Europe and China than the US).
 
-<a href="https://www.iea.org/reports/global-ev-outlook-2021/trends-and-developments-in-electric-vehicle-markets"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ev-growth-rate.png" alt="Adoption rate of EVs" /></a>
+<a href="https://www.iea.org/reports/global-ev-outlook-2021/trends-and-developments-in-electric-vehicle-markets"><img src="{{site.media}}/ev-growth-rate.png" alt="Adoption rate of EVs" /></a>
 
 When I test drove an EV, I really liked the responsiveness &mdash; they're zippy, quiet, and feel very modern. I can imagine a world where everyone drives EVs in suburban neighborhoods. And in fact, car dependence in suburbia isn't so bad. These areas aren't as congested as downtown cities at rush hour. Driving your car around (for example, taking your kid to soccer practice across town) is pretty convenient. Granted, this makes it so bicyclists and pedestrians are at risk, and there often aren't safe routes for anything but cars. But this is the infrastructure we built, and if it's the only practical solution, then we could at least reduce the pollution.
 
@@ -101,7 +101,7 @@ Another reason to block off more streets is that it will make biking more access
 
 It's not rocket science, but there are many people for whom biking might pose a lot of learning and familiarization before it could become an option. Think of someone who is completely new to all of this &mdash; just figuring out how to get started is a huge obstacle. To demonstrate, watch some [videos from UpRide](https://upride.cc/incident/74925062/) to see how cyclists have to frequently avoid turning cars or how they deal with other close calls
 
-<a href="https://upride.cc/incident/74925062/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/upride-close-calls.png" alt="Close call videos from UpRide" /></a>
+<a href="https://upride.cc/incident/74925062/"><img src="{{site.media}}/upride-close-calls.png" alt="Close call videos from UpRide" /></a>
 
 The closed streets would provide an easier on-ramp into the biking world for novice riders. When I look at video clips from bike routes in Holland and other areas of the world, I see people of all ages riding on bikes of all kinds. But it's partly because the routes are dedicated to bicycles only and offer wide paths and easy routes. That kind of experience isn't going to happen when bicyclists are limited to small shoulder lanes on the sides of traffic-congested streets where cars dominate. It doesn't take but one close call with a car (whether unintentional or deliberate) to scare people away from biking.
 

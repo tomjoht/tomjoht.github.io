@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords:
 description: "For more complex user process maps, you can group the associated topics into larger collections. When users click a workflow step, you can show them all the relevant topics within that collection. This approach accommodates a more complex user process workflow."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/userprocesscomplexthumb.png
+image: thumbnails/userprocesscomplexthumb.png
 sidebar: sidebar_visualcommunication
 ---
 

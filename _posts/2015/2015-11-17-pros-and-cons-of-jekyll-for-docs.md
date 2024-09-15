@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords:
 description: "As with any help system, there are some pros and cons with using Jekyll for documentation sites. Since I usually emphasize the pros of Jekyll in my posts, I wanted to balance out the perspective a bit by listing 10 cons and 10 pros."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/thumbsupdown_hands.png
+image: thumbnails/thumbsupdown_hands.png
 ---
 
 * TOC

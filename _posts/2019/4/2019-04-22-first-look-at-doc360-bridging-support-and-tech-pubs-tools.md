@@ -21,7 +21,7 @@ Technical writers creating documentation have more robust publishing needs that 
 
 <a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> aims to bridge the gap between these two worlds with a cloud-hosted, robust tool that is convenient enough for support engineers writing KB content but also robust enough  for technical writers with advanced publishing needs.
 
-<figure><a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360homepage.png" alt="Document360 aims to bridge the gap between support and tech docs" /></a><figcaption><a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> aims to bridge the gap between support and tech docs</figcaption></figure>
+<figure><a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'><img src="{{site.media}}/doc360homepage.png" alt="Document360 aims to bridge the gap between support and tech docs" /></a><figcaption><a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> aims to bridge the gap between support and tech docs</figcaption></figure>
 
 ## Highlighted features
 
@@ -31,7 +31,7 @@ To provide a better sense of Document360, I'll show a handful of screenshots and
 
 In Document360, you author content in Markdown. Document360 provides a split-pane editor with Markdown on the left and a preview of the output on the right.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_markdown.png" alt="Writing in Markdown in Document 360" /><figcaption>Writing in Markdown in Document 360</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_markdown.png" alt="Writing in Markdown in Document 360" /><figcaption>Writing in Markdown in Document 360</figcaption></figure>
 
 Document360 also includes some built-in snippets for notes, warnings, or other common formatting. For more, see <a href="https://docs.document360.io/docs/markdown-guide">Markdown Guide</a>.
 
@@ -41,7 +41,7 @@ Document360 also includes some built-in snippets for notes, warnings, or other c
 
 You can create multiple documentation websites for all the products you document. For example, in the following screenshot, all of the tiles represent documentation for different products. This is useful for multi-product companies where content writers need to switch between different knowledge bases.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_docportals.png" alt="Multiple documentation websites" /><figcaption>Multiple documentation websites</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_docportals.png" alt="Multiple documentation websites" /><figcaption>Multiple documentation websites</figcaption></figure>
 
 Additionally, you can create granular permissions for each documentation website. You can make some documentation websites public, others private. You can also configure permissions for team members on a project-by-project basis as well, giving authoring control for some portals, or read-only control for others.
 
@@ -51,7 +51,7 @@ For more, see <a href="https://docs.document360.io/docs/document360-user-website
 
 In addition to providing structure for your knowledge base, Document360 also provides a rich landing page editor. This helps you build custom landing pages (home pages) without any assistance from your developers.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_search.png" alt="Documentation landing page" /><figcaption>Documentation landing page</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_search.png" alt="Documentation landing page" /><figcaption>Documentation landing page</figcaption></figure>
 
 Each of these documentation websites can be consolidated into a larger doc portal.
 
@@ -61,7 +61,7 @@ For more, see <a href="https://docs.document360.io/docs/landing-page-customizati
 
 Each documentation website contains a navigation menu in the sidebar, with multiple levels of hierarchical nesting. This sidebar menu distinguishes documentation sites from KB sites because documentation typically has a larger coherent narrative and structure, while KB articles are often standalone articles grouped by tags. Each folder in the Document360 sidebar is called *category*, its children *subcategories*.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_sampleoutput.png" alt="Sidebar navigation in Document 360" /><figcaption>Sidebar navigation in Document 360</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_sampleoutput.png" alt="Sidebar navigation in Document 360" /><figcaption>Sidebar navigation in Document 360</figcaption></figure>
 
 For more, see [What is Category Manager?](https://docs.document360.io/docs/what-is-category-manager).
 
@@ -69,7 +69,7 @@ For more, see [What is Category Manager?](https://docs.document360.io/docs/what-
 
 You can customize the HTML in each documentation website with unique branding. The following screenshot shows the HTML for the footer, which is fully customizable as well as the header, CSS, and JS. With the control for customization, your documentation can have unique branding to match the look and feel of the corresponding product.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_customhtml.png" alt="Custom headers, footers, and styles in Document 360" /><figcaption>Custom headers, footers, and styles in Document 360</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_customhtml.png" alt="Custom headers, footers, and styles in Document 360" /><figcaption>Custom headers, footers, and styles in Document 360</figcaption></figure>
 
 For more, see <a href="https://docs.document360.io/docs/appearance-general-settings">General Settings</a> and <a href="https://docs.document360.io/docs/custom-css-javascript">Custom CSS & JavaScript</a>.
 
@@ -77,7 +77,7 @@ For more, see <a href="https://docs.document360.io/docs/appearance-general-setti
 
 Each documentation website has its own Algolia-powered search feature, which can also show immediate results as you type. Document360 even keeps track of searches that don't find anything as well.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_immediatesearchresults.png" alt="Algolia-based search results in Document 360" /><figcaption>Algolia-based search results in Document 360</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_immediatesearchresults.png" alt="Algolia-based search results in Document 360" /><figcaption>Algolia-based search results in Document 360</figcaption></figure>
 
 For more, see <a href="https://docs.document360.io/docs/document360-user-website">Search Option</a> in General Settings.
 
@@ -85,7 +85,7 @@ For more, see <a href="https://docs.document360.io/docs/document360-user-website
 
 Document360 has built-in analytics that shows your most popular articles, search queries, comments, and other user traffic.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_builtinanalytics.png" alt="Built-in document analytics in Document 360" /><figcaption>Built-in document analytics in Document 360</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_builtinanalytics.png" alt="Built-in document analytics in Document 360" /><figcaption>Built-in document analytics in Document 360</figcaption></figure>
 
 For more, see <a href="https://docs.document360.io/docs/analytics">Analytics Metrics</a>.
 
@@ -93,7 +93,7 @@ For more, see <a href="https://docs.document360.io/docs/analytics">Analytics Met
 
 Document360 provides version control features for content, in case you need to serve up multiple versions of the same articles. When you create multiple versions, users can select the corresponding version with a selector in the output.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_versioncontrol.png" alt="Version control in Document 360" /><figcaption>Version control in Document 360</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_versioncontrol.png" alt="Version control in Document 360" /><figcaption>Version control in Document 360</figcaption></figure>
 
 For more, see <a href="https://docs.document360.io/docs/article-versioning">Article versioning</a>.
 
@@ -101,7 +101,7 @@ For more, see <a href="https://docs.document360.io/docs/article-versioning">Arti
 
 You can also customize the SEO for content, providing a title and description through a convenient side-pane editor to optimize for search engines. You can also add related articles and tags here to surface similar content.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360_seo_tags_related.png" alt="Customizing articles with SEO information, related articles, and tags" /><figcaption>Customizing articles with SEO information, related articles, and tags</figcaption></figure>
+<figure><img src="{{site.media}}/doc360_seo_tags_related.png" alt="Customizing articles with SEO information, related articles, and tags" /><figcaption>Customizing articles with SEO information, related articles, and tags</figcaption></figure>
 
 For more, see <a href="https://docs.document360.io/docs/article-settings">Article Settings</a>.
 

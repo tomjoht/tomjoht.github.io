@@ -38,7 +38,7 @@ Our pitch was basically this:
 
 Here's the process depicted in a quick graphic:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carlajohnsonworkshop_process.svg" />
+<img src="{{site.media}}/carlajohnsonworkshop_process.svg" />
 
 ## Thoughts
 

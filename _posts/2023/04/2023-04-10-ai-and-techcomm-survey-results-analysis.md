@@ -19,19 +19,19 @@ description: "I recently conducted an informal survey to find out the thoughts a
 * **Survey participant locations:** US: 42%, India: 12%, Canada: 6%, Germany: 4%, Great Britain: 4%
 * **Average time participants spent on the survey:** 6 minutes  
 
-<a href="https://idbwrtng.com/ai-survey-tech-comm-results"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey_people2.png" alt="Survey demographics" /></a>
+<a href="https://idbwrtng.com/ai-survey-tech-comm-results"><img src="{{site.media}}/aitechcommsurvey_people2.png" alt="Survey demographics" /></a>
 
 The survey questions and responses in raw form are [here on QuestionPro](https://idbwrtng.com/ai-survey-tech-comm-results).
 
 <h2>1. Given AI tools' ability to simplify complex content, how worried are you about the future of your job as a technical writer?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey1.png" alt="Question 1" />
+<img src="{{site.media}}/aitechcommsurvey1.png" alt="Question 1" />
 
 With *45% mildly concerned, 22% concerned, and 9% very concerned,* it’s safe to say this is a huge issue in the industry. Not sure if there’s ever been another technology that has made so many in the tech comm industry so concerned. This widespread concern justifies the continued focus on this topic.
 
 <h2>2. If the technical writer role vanishes in a few years, which profession would you most likely transition to (assuming you're a tech writer now)? </h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey2.png" alt="Question 2" />
+<img src="{{site.media}}/aitechcommsurvey2.png" alt="Question 2" />
 
 **Top responses:**
 
@@ -52,7 +52,7 @@ One question is whether these other disciplines are equally at risk. Given that 
 
 <h2>3. Given that writing makes up only a fraction of a technical writer's tasks, how likely is it that AI tools will have a transformative impact on tech comm?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey3.png" alt="Question 3" />
+<img src="{{site.media}}/aitechcommsurvey3.png" alt="Question 3" />
 
 With *42% likely and 23% very likely,* yes most people feel AI will be transformative. These responses are an interesting perspective because they suggest the greatest transformation won’t just be in AI’s ability to write docs. AI has the potential to influence how technical writers go about the non-writing aspects of their role.
 
@@ -60,7 +60,7 @@ With *42% likely and 23% very likely,* yes most people feel AI will be transform
 
 <h2>4. Because AI can read, explain, and generate code pretty well, will developer doc jobs be more impacted than more creative-oriented writing jobs?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey4.png" alt="Question 4" />
+<img src="{{site.media}}/aitechcommsurvey4.png" alt="Question 4" />
 
 With *44% likely and 22% very likely,* it’s clear most respondents feel that the most significant techcomm transformations will occur in API docs. As a result, will we see a shift in writers focusing on more human-written, conceptual documentation? What about all those technical skillsets people have spent so long acquiring? Will that technical depth no longer give you a leg up on other tech writer candidates? What will set one candidate apart from another? 
 
@@ -70,7 +70,7 @@ On the other hand, articles like Kayce Basques’s post on the [role of plugins 
 
 <h2>5. In an AI-driven future, will creating semantic, structured content be needed to optimize large language models' performance with company content?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey5.png" alt="Question 5" />
+<img src="{{site.media}}/aitechcommsurvey5.png" alt="Question 5" />
 
 With *41% likely 41%, 29% very likely*, this seems to be a nod to the DITA CCMS crowd, but some respondents might not have understood what “structured authoring” meant in the question. In the freeform comments, some said “I can’t quite parse this question.” “Question is unclear…” “Not certain if I understood the question…”
 
@@ -82,7 +82,7 @@ Given how language models work (by prediction), certainly metadata could be help
 
 <h2>6. Do you think we'll soon transition from our AI hype cycle to an AI winter?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey6.png" alt="Question 6" />
+<img src="{{site.media}}/aitechcommsurvey6.png" alt="Question 6" />
 
 It seems the audience is split on this one. A colleague asked me the other day, during lunch, if I’d ever seen anything similar to the AI explosion with another technology. I have been in the tech writing business for 18 years. I remember a surge with wikis, and there was a fear that tech writer jobs would become obsolete through crowdsourcing. That never happened because it turns out people dislike writing docs, especially contributing those docs to capitalist corporations. 
 
@@ -94,7 +94,7 @@ Despite previous events, the [Cambrian era of AI](/2023/04/04/tech-comm-links/) 
 
 <h2>7. Given AI's rapid advancements, even if it's not possible today, do you think AI might be capable of writing the bulk of your documentation 12 months from now?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey7.png" alt="Question 7" />
+<img src="{{site.media}}/aitechcommsurvey7.png" alt="Question 7" />
 
 This response is interesting because if AI tools still can’t write documentation a year from now, how will they be the disruptive and transformative engines that tech writers fear? One person said:
 
@@ -106,7 +106,7 @@ Perhaps if one could compile a large doc of all input sources, including product
 
 <h2>8. Do you think existing documentation tools will evolve to include more AI-driven features?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey8.png" alt="Question 8" />
+<img src="{{site.media}}/aitechcommsurvey8.png" alt="Question 8" />
 
 Although respondents answered *61% very likely 61% and 32% likely,* I’m less optimistic about this transformation. Tech comm tool vendors have limited resources and are usually slow to evolve and keep pace with more popular web-based authoring tools. I fear that by the time they evolve, people will have migrated to more modern tools for most authoring.
 
@@ -114,7 +114,7 @@ For example, once Bard in Google Docs and ChatGPT in Microsoft Word and provide 
 
 <h2>8. In the future, will writing become a less valuable skill due to AI's ability to write?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey9.png" alt="Question 9" />
+<img src="{{site.media}}/aitechcommsurvey9.png" alt="Question 9" />
 
 The responses are split on this one: *30% unlikely, 30% likely, 13% very likely, and 16% neutral.*
 
@@ -124,7 +124,7 @@ One commenter notes:
 
 I do agree that creative writing will weather the AI storm better than documentation. ChatGPT continues to tell me it doesn’t have “personal opinions or emotions.” AI rarely expresses an opinion about the value of the content or credibility of the content. For example, ChatGPT doesn't respond well to blatant questions of content worth:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/chatgptfosresponse.png" alt="AI refuses to provide opinions" />
+<img src="{{site.media}}/chatgptfosresponse.png" alt="AI refuses to provide opinions" />
 
 What sort of readers want content devoid of opinion or emotion? The only content left is explanatory/expository content&mdash;the kind you find when you search for to find answers to questions. It’s not the content you read when you want to pick up *The New Yorker* or someone’s blog. 
 
@@ -132,7 +132,7 @@ In writing this post, I see that I’ve let my hair down more and have become mo
 
 <h2>10. How do you think AI tools will write documentation for you?</h2>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey10.png" alt="Question 10" />
+<img src="{{site.media}}/aitechcommsurvey10.png" alt="Question 10" />
 
 There weren’t too many overwhelming trends here. Most people agreed with all the answers (except my fun one about mind reading). My list of options probably gives people a good idea about how AI tools might actually impact tech comm beyond writing documentation. Here are those reasons, listed in order of most common (13%) to least common (9%):
 

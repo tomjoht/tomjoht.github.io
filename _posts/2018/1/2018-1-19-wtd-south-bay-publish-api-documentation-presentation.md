@@ -8,7 +8,7 @@ keywords:
 description: "I recently gave a presentation called \"Publishing tools for API documentation\" to the Write the Docs South Bay meetup group on January 18, 2018. You can view a recording of the presentation, browse the slides, and listen to the audio here."
 bitlink: http://bit.ly/recordingwtdsouthbayapipresopubtools
 keywords: API documentation, developer documentation, readme.com, static site generators, headless cms, hosting and deployment platforms
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/publishing-api-docs-wtdsouthbay.mp3
 podcast_file_size: 48.3 MB
 podcast_duration: "01:05:21"
@@ -22,7 +22,7 @@ podcast_length: 48252845
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/publishing-api-docs/"><img alt="Publishing API documentation" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/publishing-api-docs-thumb.png" /></a>
+<a href="https://idratherbewriting.com/publishing-api-docs/"><img alt="Publishing API documentation" src="{{site.media}}/publishing-api-docs-thumb.png" /></a>
 
 ## Audio
 
@@ -62,7 +62,7 @@ The meetup was held at the Google campus in Mountain View. Details are on the [m
 **Location:** Google Building 1310, 1310 Shorebird Way, Mountain View, CA<br/>
 **Cost:** Free but you must RSVP through [meetup.com](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
 
-<a href="https://www.meetup.com/Write-the-Docs-SF/events/246427319/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wtdsouthbaypubapipres.png" /></a>
+<a href="https://www.meetup.com/Write-the-Docs-SF/events/246427319/"><img src="{{site.media}}/wtdsouthbaypubapipres.png" /></a>
 
 This was the first "South Bay" meeting for the [WTD San Francisco group](https://www.meetup.com/Write-the-Docs-SF). South Bay includes pretty much everywhere from Redwood City down to Morgan Hill.
 

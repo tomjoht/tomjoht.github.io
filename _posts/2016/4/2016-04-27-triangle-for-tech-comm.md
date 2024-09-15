@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: knowledge, success, technical writing, user understanding, technical knowledge
 description: "Today I was thinking about the most important element in a successful technical writing career, and I think it's knowledge. The more you know, the better information you can write. There are at least three main types of knowledge: product knowledge, technical knowledge, and user knowledge. Just knowing one of the three won't provide you with the kind of information you need to write good documentation. "
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/techcommtrianglethumb.png
+image: thumbnails/techcommtrianglethumb.png
 ---
 {% include notes.html %}
 

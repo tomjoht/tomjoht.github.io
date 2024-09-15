@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords:
 description: "I'm going to be giving a workshop on API documentation and a presentation about Jekyll at the STC Summit in Anaheim, California in May."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsummitupcomingpre2016.png
+image: thumbnails/stcsummitupcomingpre2016.png
 ---
 
 * TOC

@@ -41,7 +41,7 @@ Kate shared some examples from her current documentation at Maxar. To view some 
 
 Here's an example:
 
-<figure><a href="http://securewatchdocs.maxar.com/en-us/Resources/Masterpages/SearchResults.htm?q=multispectral"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/multispectralexample.png" alt="Example of a snippet for the term multispectral" /></a><figcaption>Example of a snippet for the term "multispectral"</figcaption></figure>
+<figure><a href="http://securewatchdocs.maxar.com/en-us/Resources/Masterpages/SearchResults.htm?q=multispectral"><img src="{{site.media}}/multispectralexample.png" alt="Example of a snippet for the term multispectral" /></a><figcaption>Example of a snippet for the term "multispectral"</figcaption></figure>
 
 {% include ads.html %}
 

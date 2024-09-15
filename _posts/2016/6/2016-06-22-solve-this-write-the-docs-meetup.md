@@ -3,7 +3,7 @@ title: "Attend the \"Solve This!\" Write the Docs Meetup tomorrow (June 23, 2016
 categories: general
 keywords: write the docs, meetings, creative problem solving
 description: "Tomorrow (June 23, 2016) the Write the Docs meetup group in San Francisco is holding a meetup focused on helping each other solve tech comm problems. The meetup theme is called <i>Solve This!</i>. If you're in the Bay area, definitely check it out."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/writethedocsthumb.png
+image: thumbnails/writethedocsthumb.png
 ---
 
 * TOC

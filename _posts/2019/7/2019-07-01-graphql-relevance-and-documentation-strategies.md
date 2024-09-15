@@ -7,6 +7,8 @@ categories:
 keywords:
 bitlink: https://idratherbewriting.site/graphqlguestpost
 description: "GraphQL, a query language developed by Facebook, is an alternative to REST that is rising in popularity. Exactly how does GraphQL differ from REST, and what documentation strategies and conventions should you follow when documenting a GraphQL project? In this guest post, Casey Armstrong explores GraphQL &mdash; the query language, its use cases, its tools, what developers need from its docs, and whether GraphQL is worth learning. Overall, Casey argues that learning GraphQL is a great way to specialize and stand out as a technical writer, but the technology is not talked about in the tech comm/API writing community as much as it is in the developer community."
+author: <a href='#casey-armstrong'>Casey Armstrong</a>
+bio: false
 ---
 
 * TOC
@@ -14,7 +16,7 @@ description: "GraphQL, a query language developed by Facebook, is an alternative
 
 ## Introduction
 
-<figure><a href="https://unsplash.com/photos/69BTCuFDuDA"><img alt="Photo by Marat Gilyadzinov on Unsplash" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/marat-gilyadzinov-69BTCuFDuDA-unsplash.jpg" alt="Should GraphQL be on your radar?" /></a><figcaption>Should GraphQL be on your radar?</figcaption></figure>
+<figure><a href="https://unsplash.com/photos/69BTCuFDuDA"><img alt="Photo by Marat Gilyadzinov on Unsplash" src="{{site.media}}/marat-gilyadzinov-69BTCuFDuDA-unsplash.jpg" alt="Should GraphQL be on your radar?" /></a><figcaption>Should GraphQL be on your radar?</figcaption></figure>
 
 If you are like me, a budding technical writer, and you are just getting started with writing developer documentation, then you might already feel like you have a full plate in terms of learning new technologies. Alas, the evolving world of developer tools and API related technology has shown that it has absolutely no intention of slowing down for us!
 
@@ -58,19 +60,19 @@ Otherwise, let’s take a look at the basics with a sample query and what comes 
 
 1. Query the object "assistant" and return their name.
 
-   <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/graphqlkcimage3.jpg" />
+   <img src="{{site.media}}/graphqlkcimage3.jpg" />
 
 2. You would get back the name "Siri" as a string.
 
-   <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/graphqlkcimage2.jpg" />
+   <img src="{{site.media}}/graphqlkcimage2.jpg" />
 
 3. Next, looking at a request for related objects, we can request info about Siri’s colleagues:
 
-   <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/graphqlkcimage1.jpg" />
+   <img src="{{site.media}}/graphqlkcimage1.jpg" />
 
 4. We get back an array of Siri’s colleagues.
 
-   <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/graphqlkcimage4.jpg" />
+   <img src="{{site.media}}/graphqlkcimage4.jpg" />
 
 (Note: I modeled this after James Scott’s example in this great talk, [Is GraphQL Really "Self-documenting"?](https://www.youtube.com/watch?v=rKzHc1hozB8&feature=youtu.be&t=579))
 
@@ -179,5 +181,7 @@ While there are a lot of tutorials, blog-posts, and videos out there for GraphQL
 Want to share your own perspective on GraphQL documentation? Please do tell in the comments or tweet at me [@CrowdsourcingKC](https://twitter.com/CrowdsourcingKC).
 
 <hr/>
+
+## About Casey Armstrong (:#casey-armstrong)
 
 Casey Armstrong is a recent graduate from the Masters and Technical Professional Writing program at Portland State University. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC).

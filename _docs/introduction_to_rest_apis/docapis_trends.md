@@ -43,9 +43,9 @@ You can also view a recorded webinar where I talk through the results here:
 
 ## Article
 {% comment %}Don't change the link below to site.api_media. The kindle generator can't resolve the link otherwise. {% endcomment %}
-I wrote an [article for the *Institute of Scientific Technical Communicators* (ISTC) magazine](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/istc2020_devdoctrends.pdf) (Autumn 2020).
+I wrote an [article for the *Institute of Scientific Technical Communicators* (ISTC) magazine]({{site.media}}/api/istc2020_devdoctrends.pdf) (Autumn 2020).
 
-<a class="noCrossRef" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/istc2020_devdoctrends.pdf"><img src="{{site.api_media}}/istccoverthumb2020.png" alt="ISTC article on developer documentation trends" style="border: 1px solid #dedede;"/></a>
+<a class="noCrossRef" href="{{site.media}}/api/istc2020_devdoctrends.pdf"><img src="{{site.api_media}}/istccoverthumb2020.png" alt="ISTC article on developer documentation trends" style="border: 1px solid #dedede;"/></a>
 
 The same content from the PDF is available in HTML below:
 

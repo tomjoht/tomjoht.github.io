@@ -4,7 +4,7 @@ categories:
 - dita
 keywords:
 description: "A recent article in the <i>Technical Communication Journal</i> explores lightweight DITA and the way it removes some of the complexity from the authoring process. Lightweight DITA is still in development, but it holds great promise in simplifying DITA and allowing authors to connect into larger systems for managing doc content without abandoning HTML."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/techcommjonline.png
+image: thumbnails/techcommjonline.png
 ---
 
 * TOC

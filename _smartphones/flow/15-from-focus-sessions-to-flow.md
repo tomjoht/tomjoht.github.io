@@ -43,7 +43,7 @@ I was floored by the productivity of the focus sessions, but something troubled 
 
 During these 90 minutes, to generate a state of flow, I tried not to check my email, chat, or Internet sites (news, sports, etc.). In other words, I tried to reduce all external stimuli. I wasn’t always successful at tuning out the world. I probably check my email 50+ times a day, if I’m being honest. But during the focus sessions, that number was reduced to just a couple of times, if at all.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/focus-sessions-ninety-minutes-c.jpg" alt="90-minute focus sessions seemed highly taxing" /><figcaption>Reducing all distractions and focusing on a single writing task for 90 minutes was extremely strenuous and took some of the fun out of writing (as fun as writing documentation can be).</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/focus-sessions-ninety-minutes-c.jpg" alt="90-minute focus sessions seemed highly taxing" /><figcaption>Reducing all distractions and focusing on a single writing task for 90 minutes was extremely strenuous and took some of the fun out of writing (as fun as writing documentation can be).</figcaption></figure>
 
 External stimuli disrupt the flow and context you generate from focused immersion in a task. When you write, you have many ideas and organizational structures in your head. If you switch contexts, those thoughts and patterns fade, making it harder to do anything. Thus, the whole point of doing a single task for 90 minutes is to get to a certain productive velocity without being sidetracked by another task.
 
@@ -64,14 +64,14 @@ This mental state is what I wanted to achieve with the 90-minute focus sessions.
 
 How could I tweak these ninety-minute sessions to induce more flow? That seemed like the magic formula, because not only would I have the ultimate productivity technique, it wouldn’t come at a huge mental cost. Essentially I’d show up to work, and before I knew it, the day would be over.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/writer-in-flow-c.jpg" alt="Writer in state of flow" /><figcaption>Entering states of flow during 90-minute focus sessions would result in maximum productivity without incurring a huge mental toll.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/writer-in-flow-c.jpg" alt="Writer in state of flow" /><figcaption>Entering states of flow during 90-minute focus sessions would result in maximum productivity without incurring a huge mental toll.</figcaption></figure>
 
 
 ## Conditions for flow {#conditions-for-flow}
 
 Csikszentmihalyi talks extensively about flow conditions. The most common examples of activities that generate flow include sports, music, dancing, sex, and religious experience. However, people can achieve flow through virtually any activity that they pay careful attention to, such as observing art, eating, or looking at landscapes.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow-basketball-c.jpg" alt="Flow from sports" /><figcaption>Sports often give rise to a state of flow, especially when the activity has clearly defined rules and feedback. The activity must also be a good match for your skills &mdash; too easy and boredom takes over, too hard and anxiety gets in the way of flow.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow-basketball-c.jpg" alt="Flow from sports" /><figcaption>Sports often give rise to a state of flow, especially when the activity has clearly defined rules and feedback. The activity must also be a good match for your skills &mdash; too easy and boredom takes over, too hard and anxiety gets in the way of flow.</figcaption></figure>
 
 But before getting into the conditions of flow, let me take a step back and unpack the larger psychology takeaways from Csikszentmihalyi. _Flow_ isn’t a productivity book; it’s a theory about how to achieve more life meaning and satisfaction. Csikszentmihalyi first started thinking about the topic after observing the psychological impact on Europeans during WWII (Steimer). Csikszentmihalyi also recounts an experience as a boy in which he watched the mountain landscape during a trip. He became lost in the experience, and observed how this experience changed his mental state (Bodnar).
 
@@ -88,7 +88,7 @@ I could relate to this. When I tried to fall asleep at night, my mind naturally 
 
 I noticed the same mental chaos in the morning, as I arose from sleep. By the time I woke up, I could tell that my brain had been bouncing around different themes actively, thinking below my consciousness. My mind wasn't turned off at night. It was a chaotic world there sometimes. So yes, from my own experience, psychic entropy described the natural state of the mind.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/psychic_entropy_c.jpg" alt="Psychic entropy" /><figcaption>Psychic entropy refers to a state of mental disorder and chaos. Csikszentmihalyi says our natural mental state is one of entropy rather than order and focus. When left to its own, our mind chases rabbit hole after rabbit hole, often gravitating toward the negative.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/psychic_entropy_c.jpg" alt="Psychic entropy" /><figcaption>Psychic entropy refers to a state of mental disorder and chaos. Csikszentmihalyi says our natural mental state is one of entropy rather than order and focus. When left to its own, our mind chases rabbit hole after rabbit hole, often gravitating toward the negative.</figcaption></figure>
 
 Csikszentmihalyi continues:
 
@@ -107,7 +107,7 @@ Overcoming entropy is less about ditching your smartphone (which will just be re
 
 > The mark of a person who is in control of consciousness is the ability to focus attention at will, to be oblivious to distractions, to concentrate for as long as it takes to achieve a goal, and not longer. And the person who can do this usually enjoys the normal course of everyday life (31).
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/psychic-negentropy-c.jpg" alt="Psychic negentropy" /><figcaption>Psychic negentropy ("negative entropy") is the opposite state of entropy. It's a state in which you're focused and fully engrossed in the activity. This focus brings order and structure to thought. Just as with learning yoga and meditation, it takes a lot of mental training and discipline to become an avid practitioner.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/psychic-negentropy-c.jpg" alt="Psychic negentropy" /><figcaption>Psychic negentropy ("negative entropy") is the opposite state of entropy. It's a state in which you're focused and fully engrossed in the activity. This focus brings order and structure to thought. Just as with learning yoga and meditation, it takes a lot of mental training and discipline to become an avid practitioner.</figcaption></figure>
 
 Learning to control your consciousness is a constant theme in Eastern religions (Csikszentmihalyi spends a few pages comparing yoga with flow). But the larger point is this: Just like yoga, learning to get into a state of flow takes training and practice. It’s unsurprising that my first attempts to sustain my focus for 90 minutes at a time resulted in feeling like I was beating my head against a wall. My experience is analogous to an impatient person trying to meditate—it’s difficult to stop your mind from chasing random thoughts. To focus on breathing in and out, and nothing else, requires tremendous discipline over conscious thought.
 

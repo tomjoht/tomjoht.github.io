@@ -33,14 +33,14 @@ The **Initial Feedback** category represents the initial method of feedback that
 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/10084363-TW5221-FinalReport1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-![alt_text](/images/kavanagh-00.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-00.png "image_tooltip")
 _Figure 1 - Example of an initial feedback option_
 
 **Design Elements** are the various design strategies that are employed to attract the user's eye to the feedback option. 'Contrasting colour' refers to the use of colours that are not applied in the surrounding instructional content, thus highlighting the feedback options. Figure 2 displays the use of contrasting colour (green and red) by Everhour [16]. 'Alignment' refers to the use of a different alignment to what is applied to the rest of the topic. This strategy is also employed in Figure 2 where the feedback feature is centred.
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/10084363-TW5221-FinalReport2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-![alt_text](/images/kavanagh-03.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-03.png "image_tooltip")
 _Figure 2 - Use of colour and alignment in a feedback feature_
 
 The **Feedback Location** records the location of the feedback feature on a typical topic screen in each of the sample texts.
@@ -55,22 +55,22 @@ The **Acknowledgement** category reveals whether the sample texts acknowledge a 
 
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/10084363-TW5221-FinalReport3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-![alt_text](/images/kavanagh-04.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-04.png "image_tooltip")
 _Figure 3 - Acknowledgement of a negative reaction by a user_
 
 The **Further Feedback** category indicates whether the user can provide additional feedback after an initial response. Figure 4 shows how Zoho Sprints [10] prompts the user to submit their email address after the user has provided initial feedback. A third element identifies those online help systems where users are directed to customer support after providing an initial negative response.
 
-![alt_text](/images/kavanagh-05.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-05.png "image_tooltip")
 _Figure 4 - User's email is requested for feedback follow-up_
 
 The **Subsequent Feedback Methods** category captures the methods by which online help systems acquire further feedback from users after they respond to the initial question. For example, Widen Collective [11] display the following options (Figure 5) when a user selects 'No' in response to the opening question 'Did you find it helpful?'
 
-![alt_text](/images/kavanagh-06.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-06.png "image_tooltip")
 _Figure 5 - Acquiring further feedback from the user_
 
 The final category of **Global Approval** lists the online help systems that display how many users have responded positively to the help topic. Figure 6 is an example from Insightly [7].
 
-![alt_text](/images/kavanagh-07.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-07.png "image_tooltip")
 _Figure 6 - Displaying user rating of a help topic_
 
 ## 5. Information Design Categories: Results, Summary and Discussion
@@ -303,7 +303,7 @@ In terms of design elements, spacing is the most common method by which the desi
 
 Ninety per cent of the sampled texts located their feedback feature at the foot of the topic. While this does indicate a level of predictability for users of online help who want to provide feedback, it does not necessarily accord with Brink _et al_'s (2002) principle of navigation, i.e. that the feedback feature is easily found. In many cases, the sample texts contained topics that were very long with many sections dealing with specific user issues. A high probability exists that a user would simply read the relevant section and exit the topic without noticing the feedback area. Widen Collective's [11] sidebar location also fails to avoid this problem as the sidebar is not fixed and disappears as the user scrolls down the screen. Apart from navigation, the location in these instances also fail the principle of ease-of-use and efficiency, as highlighted by Nichols _et al_ (2003) and Kantner _et al_ (2002). Requiring users to scroll down a very long topic is poor usability. The single sample text to emerge well from this category of analysis is Brightpod [18]. Although it acquires the bare minimum of user feedback information, and is otherwise poorly highlighted by its design, the feedback feature is in the topic heading (circled in Figure 7 below) where it will be encountered by most or all visitors to the topic.
 
-![alt_text](/images/kavanagh-08.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-08.png "image_tooltip")
 _Figure 7 - Feedback feature in the topic heading_
 
 ## 6. Content Categories: Results, Summary and Discussion
@@ -578,7 +578,7 @@ _Table 2 - Content Categories and Results_
 
 In all cases, the initial question put to users generates a positive/negative response, or a graded response in the case of Resource Guru [4] (displayed in Figure 8 below), thereby compiling meaningful and quantifiable answers as recommended by Hackos (1994).
 
-![alt_text](/images/kavanagh-00.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-00.png "image_tooltip")
 _Figure 8 - Likert scale for initial feedback question_
 
 However, clarity is a best practice recommended by Kantner _et al_ (2002) and Markel (2012) and this is not displayed in all the initial questions. For example, several of the questions do not explicitly state that the question is about the preceding topic. Questions such as the following are vague, especially for users for whom English is not their first language, or users who have engaged with support on the same screen through a chat option or link:
@@ -602,14 +602,14 @@ Acknowledgement is key to user motivation. When users take part in usability tes
 
 Markel also wrote that content should help users to complete a task. In the case of providing feedback, the task is to provide feedback that accurately conveys their experience of the relevant help topic. Fifty per cent of the sample texts do not provide users with the opportunity to provide further feedback. In other words, users are limited to expressing a positive or negative rating of the topic. As Novick and Ward's (2006) research reveals, user frustrations with online help are varied, and the nature of those frustrations cannot be expressed through an emoticon or by clicking a Yes/No button. However, 20% of the online help systems have no option to submit further feedback but redirect the user to a customer support service. For example, this strategy is applied by Paymo [13] (see Figure 9). It may be the case that the Paymo support team record further details about the user's experience of the help topic. They might subsequently apply this information to improve the topic as authors of the online help or forward it to a technical communication team. This can only be known through further research.
 
-![alt_text](/images/kavanagh-10.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-10.png "image_tooltip")
 _Figure 9  - User redirected to support after providing negative feedback_
 
 ### 6.4. 'Subsequent Feedback Methods' Category
 
 Applied by 40% of sample texts, comment submission is the most common method by which feedback is subsequently acquired from users. While this allows the user to capture in detail their experience of the help topic and is a source of good qualitative information for technical writers, it does not allow for quantitative measurement of how the online help system is performing. Four help systems (20%) display a question with fixed answer options that represent issues that the user may have encountered. This approach tallies with Novick and Ward's (2006) recommendation that users are provided with answer options that generate quantifiable data. However, two of the four sample texts ([4] and [6]) provide radio button (i.e. single-choice) answer options, as displayed in Figure 10 below (taken from Confluence [6]).  This question type limits the ability of the user to accurately report their experience in a quantifiable format. This is less of an issue where a multiple-choice question is posed ([11] and [12]) although answer options still need to capture a user's typical frustrations.
 
-![alt_text](/images/kavanagh-11.png "image_tooltip")
+![alt_text]({{site.media}}/kavanagh-11.png "image_tooltip")
 _Figure 10 - Single choice question in a feedback feature_
 
 ### 6.5. 'Global Approval' Category

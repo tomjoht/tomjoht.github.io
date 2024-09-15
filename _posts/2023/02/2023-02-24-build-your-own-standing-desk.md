@@ -23,15 +23,15 @@ This is the first balance board I've made, so take my approach with a grain of s
 
 Here's what you'll be building:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_set_full.jpg" alt="Full balance board set" />
+<img src="{{site.media}}/balance_board_set_full.jpg" alt="Full balance board set" />
 
 This will give you two options. A single roller option: 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_single_roller.jpg" alt="Single roller option" />
+<img src="{{site.media}}/balance_board_single_roller.jpg" alt="Single roller option" />
 
 And a double roller option: 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_double_roller.jpg" alt="Double roller option" />
+<img src="{{site.media}}/balance_board_double_roller.jpg" alt="Double roller option" />
 
 And here's a demo of how it works:
 
@@ -59,7 +59,7 @@ Here's what you'll need:
 
 Here's a picture of many of these supplies gathered together: 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_tools_needed.jpg" alt="Tools needed to create the balance board" />
+<img src="{{site.media}}/balance_board_tools_needed.jpg" alt="Tools needed to create the balance board" />
 
 ## Buy vs build
 
@@ -81,13 +81,13 @@ Gather the above listed materials. You'll probably need to go to a hardware stor
 
 Here's what ¾ inch Birch wood looks like:
 
-<img style="max-width: 450px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_birch_wood.jpg" alt="Birch wood" />
+<img style="max-width: 450px" src="{{site.media}}/balance_board_birch_wood.jpg" alt="Birch wood" />
 
 You can use other types of wood. In a pinch, you could even look for a wooden shelf around your house that you could experiment with as a first step (this is what I did).
 
 Here's the ¼ base:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_mdf_base2.jpg" alt="MDF base" />
+<img src="{{site.media}}/balance_board_mdf_base2.jpg" alt="MDF base" />
 
 The base material doesn't much matter, but keep in mind that it should be smooth and hardened in some way. You'll be moving this base around (if you switch from standing to sitting frequently), so keep it lightweight. I also cut off about a foot of the length to keep it shorter and easier to move around. 
 
@@ -95,7 +95,7 @@ I place this wood base on top of a [plastic office mat](https://www.amazon.com/g
 
 Here's the 4-inch PVC pipe:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_four_inch_pvc_pipe2.jpg" alt="Four inch PVC pipe" />
+<img src="{{site.media}}/balance_board_four_inch_pvc_pipe2.jpg" alt="Four inch PVC pipe" />
 
 You could also use a 3-inch PVC pipe, which will definitely have less rocking motion and might be more suitable for office standing. The wider the pipe, the more difficult it is to balance. Four-inch pipe seems to be a standard for most balance boards.
 
@@ -111,11 +111,11 @@ As for the shape, you can find some templates [here](https://www.instructables.c
 
 Here's the top of my balance board:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_top.jpg" alt="Top of the balance board" />
+<img src="{{site.media}}/balance_board_top.jpg" alt="Top of the balance board" />
 
 And the bottom: 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/balance_board_bottom.jpg" alt="Bottom of the balance board" />
+<img src="{{site.media}}/balance_board_bottom.jpg" alt="Bottom of the balance board" />
 
 As for the shape, it depends on your purpose. Most balance boards are designed for people to practice their balance (such as to learn surfing). My purpose is mainly to provide alternative standing positions while working at a standing desk. As such, a wider, longer board (more surfboard-like, shaped like the Swell) works well. A bigger board makes it easier to stand on for longer periods of time. With a larger board and a longer roller (2 feet), the roller is less likely to become out of alignment. More surface area means more wiggle room for the roller to move around without becoming misaligned. 
 

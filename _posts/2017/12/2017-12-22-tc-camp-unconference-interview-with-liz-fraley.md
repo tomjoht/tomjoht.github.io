@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: tc camp, unconference, liz fraley, san francisco conferences for technical writers, free
 description: "TC Camp 2018 is just around the corner (Jan 26-27, 2018). Liz Fraley started the TC Camp unconference out of a growing dissatisfaction with other conferences. She modeled TC Camp after another camp that was low-cost, run by a non-profit, and intended to better the community. TC Camp's popularity arises from its unconference format &mdash; it places more focus on the attendees instead of juried presentations. As long as you participate, vote, and interact in the discussions, you're guaranteed to connect."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/tccamp2016thumb.png
+image: thumbnails/tccamp2016thumb.png
 redirect_from:
 - /2016/01/06/tc-camp-unconference-interview-with-liz-fraley/
 bitlink: http://bit.ly/tccamp2018post

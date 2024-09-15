@@ -17,7 +17,7 @@ description: "I recently participated in webinar called <a href='https://www.zoo
 
 You can now view a recording of the webinar [here](https://www.zoominsoftware.com/webinars/optimize-content-development/):
 
-<a href="https://www.zoominsoftware.com/webinars/optimize-content-development/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/webinarrecordingzoominbrighttalk.png" alt="Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team, with Tom Johnson, Paul Gustafson, Megan Gilhooly" /></a>
+<a href="https://www.zoominsoftware.com/webinars/optimize-content-development/"><img src="{{site.media}}/webinarrecordingzoominbrighttalk.png" alt="Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team, with Tom Johnson, Paul Gustafson, Megan Gilhooly" /></a>
 
 ## Webinar details
 

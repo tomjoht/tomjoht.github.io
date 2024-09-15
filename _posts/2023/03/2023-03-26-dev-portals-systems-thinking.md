@@ -39,11 +39,11 @@ Capra and Luisi start their book by explaining the context for more holistic thi
 
 But here’s the problem, Capra and Luisi say. When those parts are combined into a whole, new properties emerge that aren’t observable in any individual part. It’s like when all my family sits down at the dinner table. Individually, alone, each person is mellow and pleasant to talk to.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/alltogetheratdinner.png" alt="Chatting 1:1" /><figcaption>Chatting with any single family member alone is pleasant and easy.</figcaption></figure>
+<figure><img src="{{site.media}}/alltogetheratdinner.png" alt="Chatting 1:1" /><figcaption>Chatting with any single family member alone is pleasant and easy.</figcaption></figure>
 
 When you combine them into a group at the dinner table, however, the conversations are loud and chaotic. There’s an energy they all feed off of, and it’s exhausting. Most of the time, I can’t get a word in.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/loudcaucophonousdinner.png" alt="Chatting many:many" /><figcaption>Chatting as a whole at the dinner table brings a new energy and dynamic to everyone. Where was this energy previously? It's not visible in any single person.</figcaption></figure>
+<figure><img src="{{site.media}}/loudcaucophonousdinner.png" alt="Chatting many:many" /><figcaption>Chatting as a whole at the dinner table brings a new energy and dynamic to everyone. Where was this energy previously? It's not visible in any single person.</figcaption></figure>
 
 Capra and Luisi say that instead of reducing components to their individual parts, we should instead observe how the parts influence each other. We should also observe the properties that surface in the whole, and what patterns emerge in the network of interactions and dynamics. Capra and Luisi explain:
 
@@ -63,11 +63,11 @@ I asked whether the API had any dependencies on other APIs. If each partner used
 
 To demonstrate the type of systems information I was looking for, do this simple experiment. Hold up both of your hands and stretch your fingers out. This is the reductionist view. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/fingersoutstretched.jpg" alt="Parts view (reductionist)" /><figcaption>Parts view (reductionist)</figcaption></figure>
+<figure><img src="{{site.media}}/fingersoutstretched.jpg" alt="Parts view (reductionist)" /><figcaption>Parts view (reductionist)</figcaption></figure>
 
 Now interlock your fingers between your two hands. Feel the warmth and pressure of your fingers interlocking. This warmth and pressure isn't present when each finger is stretched out in isolation. This is the systems view.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/fingersinterlocked.jpg" alt="Systems view (more complex)" /><figcaption>Systems view (more complex)</figcaption></figure>
+<figure><img src="{{site.media}}/fingersinterlocked.jpg" alt="Systems view (more complex)" /><figcaption>Systems view (more complex)</figcaption></figure>
 
 Essentially, I wanted to understand the figurative warmth and pressure of interlocked APIs. Capra and Luisi explain that with Galileo, there was a shift in worldview to a belief that the universe was a machine, consisting of discrete parts rather than a fluid organic whole. That you only study what you can measure. Descartes accelerated this "shift from the organic to the mechanistic worldview." Then later, organismic biologists in the early twentieth century started to look at the natural sciences holistically, such as understanding ecosystems rather than individual inhabitants. 
 
@@ -91,7 +91,7 @@ I’ve always been intrigued by developer portals more than individual APIs. Dev
 
 To use another analogy: Which APIs were the main actors and which were the supporting roles? What did that play look like with all actors on stage? When did each actor enter the stage and why? During which acts of the play? Who was the villain? Did it make sense to approach developer portal documentation like writing a play, with each API as an individual actor?
 
-<figure><a href=""><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/actorsonstagesystemsthinking.jpg" alt="APIs as actors on a stage" /></a><figcaption>Thinkin of APIs as actors on a stage</figcaption></figure>
+<figure><a href=""><img src="{{site.media}}/actorsonstagesystemsthinking.jpg" alt="APIs as actors on a stage" /></a><figcaption>Thinkin of APIs as actors on a stage</figcaption></figure>
 
 Of course, I was not yet at the playwriting stage. I was still drafting a documentation project plan. Only by understanding the larger picture, I argued, could we formulate a publishing plan that made sense. By publishing plan, I mean details like where to publish the material, what conventions to follow, how to brand the content, how to arrange the information flows, and more. Only by understanding the plot of the play could I construct a stage set for it.
 

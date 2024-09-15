@@ -48,17 +48,17 @@ After Alviso, take Guadalupe River Trail south, past the SJC airport, until you 
 
 Here's a short and a few pictures of the ride.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scltrailpics1.jpg" alt="Santa Clara Loop - San Tomas Aquino trail" /><figcation>This is generally what the trail looks like 75% of the time -- a nice multi-path trail with two lanes. This trail isn't as crowded as Sawyer Camp Trail or Saratoga Springs Creek Trail, but there are people to watch out for.</figcation></figure>
+<figure><img src="{{site.media}}/scltrailpics1.jpg" alt="Santa Clara Loop - San Tomas Aquino trail" /><figcation>This is generally what the trail looks like 75% of the time -- a nice multi-path trail with two lanes. This trail isn't as crowded as Sawyer Camp Trail or Saratoga Springs Creek Trail, but there are people to watch out for.</figcation></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scltrailpics2.jpg" alt="Santa Clara Loop - protected wetlands" /><figcation>At the north end of the trail near Baylands park / Alviso, there are protected wetlands, which makes for wide-open vistas like this.</figcation></figure>
+<figure><img src="{{site.media}}/scltrailpics2.jpg" alt="Santa Clara Loop - protected wetlands" /><figcation>At the north end of the trail near Baylands park / Alviso, there are protected wetlands, which makes for wide-open vistas like this.</figcation></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scltrailpics3.jpg" alt="Santa Clara Loop - Bridge near Alviso" /><figcation>When you jog over from San Tomas Aquino Trail to Guadalupe River Trail, you cross this cool bridge.</figcation></figure>
+<figure><img src="{{site.media}}/scltrailpics3.jpg" alt="Santa Clara Loop - Bridge near Alviso" /><figcation>When you jog over from San Tomas Aquino Trail to Guadalupe River Trail, you cross this cool bridge.</figcation></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scltrailpics4.jpg" alt="Santa Clara Loop - Cutover from Sant Tomas Aquino to Guadalupe River Trail" /><figcation>This is part of the trail that goes east from San Tomas Aquino over to Alviso</figcation></figure>
+<figure><img src="{{site.media}}/scltrailpics4.jpg" alt="Santa Clara Loop - Cutover from Sant Tomas Aquino to Guadalupe River Trail" /><figcation>This is part of the trail that goes east from San Tomas Aquino over to Alviso</figcation></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scltrailpics5.jpg" alt="Santa Clara Loop - Baylands Park entrance" /><figcation>If you wanted to go west at the top of San Tomas Aquino Trail instead of east, you'd follow this wider path into Baylands Park.</figcation></figure>
+<figure><img src="{{site.media}}/scltrailpics5.jpg" alt="Santa Clara Loop - Baylands Park entrance" /><figcation>If you wanted to go west at the top of San Tomas Aquino Trail instead of east, you'd follow this wider path into Baylands Park.</figcation></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scltrailpics7.jpg" alt="Santa Clara Loop - Guadalupe River Trail" /><figcation>This is the standard view going down the Guadalupe River Trail. This is one of the most enjoyable trails to ride down.</figcation></figure>
+<figure><img src="{{site.media}}/scltrailpics7.jpg" alt="Santa Clara Loop - Guadalupe River Trail" /><figcation>This is the standard view going down the Guadalupe River Trail. This is one of the most enjoyable trails to ride down.</figcation></figure>
 
 ## Videos
 

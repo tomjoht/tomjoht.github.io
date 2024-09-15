@@ -25,7 +25,7 @@ Since that single-project focus is rarely possible (count yourself lucky if it i
 
 But long-term thinking and strategy is a valid way to tackle the multiple project problem. In my project strategy plan, I have a diagram like this:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/goals_arrows_method.svg" alt="Long-term projects" />
+<img src="{{site.media}}/goals_arrows_method.svg" alt="Long-term projects" />
 
 I identify two main projects at work and at home that I want to do well on. I then try to identify 1-2 tasks per day for each project, writing the task in the dashed square beside the arrow, and then symbolically coloring in a block for completing the task each day. This focus gives me some larger direction and focus and helps me prioritize the work.
 

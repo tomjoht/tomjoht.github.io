@@ -15,15 +15,15 @@ date: 2017-01-17 20:00:00
 
 Here are a couple of screenshots from Google Analytics:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trends2017.png"/><figcaption>The blue line is 2016, the brown is 2015. Page views were 778k for the year, up 24% from 626k the previous year. That's an average of 2k+ page views each day.</figcaption></figure>
+<figure><img src="{{site.media}}/trends2017.png"/><figcaption>The blue line is 2016, the brown is 2015. Page views were 778k for the year, up 24% from 626k the previous year. That's an average of 2k+ page views each day.</figcaption></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sessions2017.png"/><figcaption>Sessions were up 31% for the year, to 497k from 377k the previous year. A session is a single visitor's time on the site, not counting the number of pages the user visits.</figcaption></figure>
+<figure><img src="{{site.media}}/sessions2017.png"/><figcaption>Sessions were up 31% for the year, to 497k from 377k the previous year. A session is a single visitor's time on the site, not counting the number of pages the user visits.</figcaption></figure>
 
 ## Top pages
 
 What pages were users visiting? Here are the top 10:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017toppages.png" style="max-width: 500px;"/><figcaption>Users were looking for information on Swagger!</figcaption></figure>
+<figure><img src="{{site.media}}/2017toppages.png" style="max-width: 500px;"/><figcaption>Users were looking for information on Swagger!</figcaption></figure>
 
 Here are links to pages listed in the above screenshot:
 

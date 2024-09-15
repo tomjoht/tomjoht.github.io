@@ -15,7 +15,7 @@ description: "I recently spoke to some technical writing interns at my work on t
 
 If you're just starting your career as a tech writer, this post is for you. You could be a student just graduating college, or someone who is transitioning from another career. There are many options and challenges at this point in your path.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_intro_journey.png" alt="man in suit walking on twisting winding road side of road with vista in background mountains sunset perspective long walking realistic" /><figcaption>man in suit walking on twisting winding road side of road with vista in background mountains sunset perspective long walking realistic</figcaption></figure>
+<figure><img src="{{site.media}}/advice_intro_journey.png" alt="man in suit walking on twisting winding road side of road with vista in background mountains sunset perspective long walking realistic" /><figcaption>man in suit walking on twisting winding road side of road with vista in background mountains sunset perspective long walking realistic</figcaption></figure>
 
 To kick off this topic, let's start with a question. You've just been assigned a new project, and you have to pick another tech writer to work on it with you. You have two choices:
 
@@ -29,13 +29,13 @@ Of course, these profiles are extremes. And I'm exaggerating the behaviors to ma
 
 To make this discussion more engaging, I've given these two profiles names: Jerry (left) and Jayden (right).
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry_jayden_small.png" alt="character profiles" /><figcaption></figcaption></figure>
+<figure><img src="{{site.media}}/advice_jerry_jayden_small.png" alt="character profiles" /><figcaption></figcaption></figure>
 
 ## Avoid becoming Jerry
 
 Meet Jerry. He has 25 years of experience and has worked at a variety of big companies. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry.png" alt="cynical jaded sarcastic negative grumpy office worker realistic martin shoeller cold" /><figcaption>cynical jaded sarcastic negative grumpy office worker realistic martin shoeller cold</figcaption></figure>
+<figure><img src="{{site.media}}/advice_jerry.png" alt="cynical jaded sarcastic negative grumpy office worker realistic martin shoeller cold" /><figcaption>cynical jaded sarcastic negative grumpy office worker realistic martin shoeller cold</figcaption></figure>
 
 At this point in his career, Jerry has become overwhelmingly negative. What happened during Jerry's 25 years to make him bitter? Fictitious deadlines (for which he busted his butt getting docs ready), inexplicable layoffs (some of which he escaped, but not all), failed projects from poorly researched user needs (which required enormous documentation work only to be canceled at the last minute), CEOs oblivious to engineering best practices (and who never champion docs but rather bounce the tech comm team from group to group), and more. 
 
@@ -49,7 +49,7 @@ In [*The Fifth Discipline: The Art & Practice of The Learning Organization*](htt
 
 > ...many of the more experienced managers at the conference began to see how their past knowledge and accomplishments could actually be an impediment in learning change.... By contrast, the young leaders were able to remain open, and, through their genuine inquiry, often enabled shared understanding and commitment in ways that strong advocacy can impede.... The young people work at remaining unattached to their views. (p. 371)
 
-<figure style="float:right; margin-left: 10px;"><img style="max-width: 150px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_the_fifth_discipline.png" alt="The Fifth Discipline by Peter Senge" /><figcaption></figcaption></figure>
+<figure style="float:right; margin-left: 10px;"><img style="max-width: 150px" src="{{site.media}}/advice_the_fifth_discipline.png" alt="The Fifth Discipline by Peter Senge" /><figcaption></figcaption></figure>
 
 Young leaders are often open to change, are unattached to their views, have genuine inquiry, and share a commitment with others. By contrast, leaders with many years of experience might be more closed off to change (*I've seen this before and it never works*). Their previous experiences might have persuaded them about certain views (*not this again ...*), and they might have little interest in deviating from what they found to work in previous roles (*what's the point of doing it this way? I already know what works*). 
 
@@ -74,7 +74,7 @@ When asked what people do to stay young, the top results (from 140 respondents) 
 3. Constantly read (92)
 4. Question what I think I already know (84)
 
-<figure><a href="https://www.questionpro.com/t/PFd5IZd2F8"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_howtostayyoungsurvey.png" alt="" /></a><figcaption></figcaption></figure>
+<figure><a href="https://www.questionpro.com/t/PFd5IZd2F8"><img src="{{site.media}}/advice_howtostayyoungsurvey.png" alt="" /></a><figcaption></figcaption></figure>
 
 This was just an informal, fun survey to get a general pulse on the topic. (You can see the [full survey results here](https://www.questionpro.com/t/PFd5IZd2F8).)
 
@@ -98,7 +98,7 @@ In reading, focus on high-value content, such as books, journal articles, or oth
 
 Without any incoming information through reading, we continue operating on our existing knowledge and experiences. As such, we'll be more likely to remain fixed and repeat our same approach again and again. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_read.png" alt="old person learning student studying in great library cathedral ceiling" /><figcaption>old person learning student studying in great library cathedral ceiling</figcaption></figure>
+<figure><img src="{{site.media}}/advice_read.png" alt="old person learning student studying in great library cathedral ceiling" /><figcaption>old person learning student studying in great library cathedral ceiling</figcaption></figure>
 
 ### 2. Experiment
 
@@ -110,7 +110,7 @@ In this post, I'm experimenting with a new tool for creating images: [Midjourney
 
 Experimentation should naturally follow from reading. If you're learning new ideas from the content you're consuming, try the ideas out. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_experiment.png" alt="old man conducting experiments in lab with bunson burner and beaker and flame in lab room smoke" /><figcaption>old man conducting experiments in lab with bunson burner and beaker and flame in lab room smoke</figcaption></figure>
+<figure><img src="{{site.media}}/advice_experiment.png" alt="old man conducting experiments in lab with bunson burner and beaker and flame in lab room smoke" /><figcaption>old man conducting experiments in lab with bunson burner and beaker and flame in lab room smoke</figcaption></figure>
 
 ### 3. Ask questions
 
@@ -120,7 +120,7 @@ When we start asking questions, we often come to realize how little we know. The
 
 Asking questions about whether there are "non-trends," or trends that have fizzled, led me to an entire series of posts called [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html). 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_ask_questions.png" alt="old woman sitting on bench with legs crossed and hand in air asking question talking with others in meditative pose city scape in background realistic" /><figcaption>old woman sitting on bench with legs crossed and and hand in air asking question talking with others in meditative pose city scape in background realistic</figcaption></figure>
+<figure><img src="{{site.media}}/advice_ask_questions.png" alt="old woman sitting on bench with legs crossed and hand in air asking question talking with others in meditative pose city scape in background realistic" /><figcaption>old woman sitting on bench with legs crossed and and hand in air asking question talking with others in meditative pose city scape in background realistic</figcaption></figure>
 
 In asking questions, be sure to turn the questions onto yourself as well, interrogating your own assumptions and beliefs. Turning questions onto your own point of view can help you avoid defensiveness and myopia.
 
@@ -137,7 +137,7 @@ Mental models are the stories people tell themselves to make sense of the world.
 
 > Two people with different mental models can observe the same event and describe it differently, because they’ve looked at different details and made different interpretations.” (164)
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_mental_models.png" alt="man seeing the world from behind the head of another man to behold same view and perspective" /><figcaption>man seeing the world from behind the head of another man to behold same view and perspective</figcaption></figure>
+<figure><img src="{{site.media}}/advice_mental_models.png" alt="man seeing the world from behind the head of another man to behold same view and perspective" /><figcaption>man seeing the world from behind the head of another man to behold same view and perspective</figcaption></figure>
 
 I had a recent family experience that reinforced the importance of mental models. One of my daughters had been complaining about another girl at school who was turning others against her. Though she was once a friend, this girl had since become more of an enemy. To my surprise, the girl's mother reached out to us one day to complain that our daughter and others were bullying her daughter. *What?* I wanted to say it was the opposite.
 
@@ -159,7 +159,7 @@ The final recommendation is perhaps the hardest: take risks. I'm a cautious pers
 
 Even though it was uncomfortable, I decided to take a big leap by not only [switching to a new company](/blog/job-transition-from-amazon-to-google/) (Google) but also [relocating to a new state](/blog/seattle-one-year-later) (from California to Washington). We even [bought a house we'd never actually seen in person](/blog/moving-to-seattle-exploring-places-with-vr)! It all worked out, fortunately.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_take_risks.png" alt="old woman wearing cardigan jumping off cliff mountains in distances dark below" /><figcaption>old woman wearing cardigan jumping off cliff mountains in distances dark below</figcaption></figure>
+<figure><img src="{{site.media}}/advice_take_risks.png" alt="old woman wearing cardigan jumping off cliff mountains in distances dark below" /><figcaption>old woman wearing cardigan jumping off cliff mountains in distances dark below</figcaption></figure>
 
 Why does taking risks keep us young? Think of the analogy to company innovation. Clay Christiansen talks about why big companies, thriving and dominant for a time, can suddenly be overtaken by a much smaller company. The reason? The large, established company invests in sustaining innovations (small improvements to their existing technology), while the smaller company operates in stealth mode and takes a swing at disruptive innovations. Eventually, the disruptive innovations hit a maturity point and put the larger company out of business (think about Netflix and Blockbuster). I wrote a series of posts about this here: [Sustaining and disruptive innovations](/2015/02/10/sustaining-and-disruptive-innovations/).
 
@@ -177,7 +177,7 @@ Before finishing this section, I want to conclude with one of my favorite quotes
 
 Meet Jayden! Jayden has two years of experience. He recently graduated from college and even had an internship. He's new, so he's still learning a lot. But in his current state, he needs a lot of hand-holding. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jayden.png" alt="intern young person clueless dumb passive terry richardson real warm natural light office computer doesn't know what to do" /><figcaption>intern young person clueless dumb passive terry richardson real warm natural light office computer doesn't know what to do</figcaption></figure>
+<figure><img src="{{site.media}}/advice_jayden.png" alt="intern young person clueless dumb passive terry richardson real warm natural light office computer doesn't know what to do" /><figcaption>intern young person clueless dumb passive terry richardson real warm natural light office computer doesn't know what to do</figcaption></figure>
 
 Jayden mostly waits for tickets to be assigned to him. If no one assigns him tickets, he doesn't seek out the work. As a junior writer, he mostly operates in listen-only mode. He has good writing skills, but he needs most of the information collected for him. He has a hard time reaching out to different stakeholders to set up meetings and pull information from engineers' heads. Jayden has a fun personality and people enjoy chatting with him, but he requires a lot of management to be productive. Jayden is still operating in novice mode. 
 
@@ -197,7 +197,7 @@ I'll expand on each technique in the sections below.
 
 ### 1. Be proactive rather than reactive
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_proactive.png" alt="woman running with laptop in a busy hallway realistic office" /><figcaption>woman running with laptop in a busy hallway realistic office</figcaption></figure>
+<figure><img src="{{site.media}}/advice_proactive.png" alt="woman running with laptop in a busy hallway realistic office" /><figcaption>woman running with laptop in a busy hallway realistic office</figcaption></figure>
 
 The first strategy is to shift from being reactive to proactive. This shift, I'm convinced, is the core principle of leadership. 
 
@@ -211,7 +211,7 @@ Proactivity extends beyond just discovering the doc work, of course. When you ta
 
 ### 2. Develop the mental skills to focus 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_distractions.png" alt="person distracted by social media and smartphones office realistic buzz notification sounds" /><figcaption>person distracted by social media and smartphones office realistic buzz notification sounds</figcaption></figure>
+<figure><img src="{{site.media}}/advice_distractions.png" alt="person distracted by social media and smartphones office realistic buzz notification sounds" /><figcaption>person distracted by social media and smartphones office realistic buzz notification sounds</figcaption></figure>
 
 Social media, from Slack to Twitter, Reddit, Youtube, and more, makes us feel connected and in step with the latest information and trends. But with that sense of connection comes the risk of attention fragmentation and constant distraction. My entire [series on smartphones](/smartphones/awakening-moment-to-how-smartphones-fragment-our-attention.html) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into deep focus modes that allow for sustained productivity. 
 
@@ -227,7 +227,7 @@ As a beginning writer, I thought I could send an email to a relevant stakeholder
 
 We all need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation we're writing to bring it up to production quality. Rather than ping people to review content asynchronously like I initially did, bake in time for people to read the document *during the review meetings.*
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_doc_reviews.png" alt="meetings time review clock two people reviewing documents office documents casual real" /><figcaption>meetings time review clock two people reviewing documents office documents casual real</figcaption></figure>
+<figure><img src="{{site.media}}/advice_doc_reviews.png" alt="meetings time review clock two people reviewing documents office documents casual real" /><figcaption>meetings time review clock two people reviewing documents office documents casual real</figcaption></figure>
 
 Seriously, when you begin the review meeting, give people the option to silently read the document for the first 20 minutes. Most of the time, reviewers will prefer to comment as they read. If so, I tell reviewers to vocalize their feedback while I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon (see [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details). 
 
@@ -241,7 +241,7 @@ This technique might seem pretty specific, but it connects with a larger princip
 
 As you gain more experience, you'll inevitably gravitate toward some kind of specialization within the tech comm field. This specialization helps you sustain interest in the career long term, and it brands your professional expertise. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_specialization.png" alt="doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic" /><figcaption>doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic</figcaption></figure>
+<figure><img src="{{site.media}}/advice_specialization.png" alt="doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic" /><figcaption>doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic</figcaption></figure>
 
 Some example areas of specialization include the following:
 
@@ -266,7 +266,7 @@ But besides the career benefits of specialization, it just makes the tech comm c
 
 ### 5. Use writing to influence stakeholders
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_influence.png" alt="words in middle of pond with ripples surrounding it concentric circles expanding outward to people looking at side of pond realistic" /><figcaption>words in middle of pond with ripples surrounding it concentric circles expanding outward to people looking at side of pond realistic</figcaption></figure>
+<figure><img src="{{site.media}}/advice_influence.png" alt="words in middle of pond with ripples surrounding it concentric circles expanding outward to people looking at side of pond realistic" /><figcaption>words in middle of pond with ripples surrounding it concentric circles expanding outward to people looking at side of pond realistic</figcaption></figure>
 
 My final tip is to use writing (your superpower) to influence stakeholders. We often don't recognize how influential writing can be, but if I've learned anything from blogging, it's that the formula for influence is rather simple: write and share, repeatedly. 
 
@@ -286,4 +286,4 @@ In the same way, if you're just starting out and barely know how to find the sup
 
 In conclusion, age is neither an asset nor a liability. What matters are the characteristics and behaviors you embrace. Keep these principles in mind whether you're just starting out or whether you're on the last leg of your career journey. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_end_journey.png" alt="man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic" /><figcaption>man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic</figcaption></figure>
+<figure><img src="{{site.media}}/advice_end_journey.png" alt="man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic" /><figcaption>man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic</figcaption></figure>

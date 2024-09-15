@@ -35,7 +35,7 @@ As a researcher whose primary concern is happiness (not productivity), Csikszent
 
 In other words, flow counters the naturally occurring entropy in our conscious minds. Without any activity to focus our attention, our natural mental state is one of entropy—in other words, randomness, disorder, unstructured thinking, and worry, says Csikszentmihalyi.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_psychic_entropy_oct.jpg" alt="Psychic entropy as a natural state of consciousness" /><figcaption>Without any activity to focus our attention, our natural mental state is one of entropy &mdash; in other words, randomness, disorder, unstructured thinking, and worry, says Csikszentmihalyi.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_psychic_entropy_oct.jpg" alt="Psychic entropy as a natural state of consciousness" /><figcaption>Without any activity to focus our attention, our natural mental state is one of entropy &mdash; in other words, randomness, disorder, unstructured thinking, and worry, says Csikszentmihalyi.</figcaption></figure>
 
 Csikszentmihalyi says people tend to experience their most negative experiences when alone, in part because their minds are more free to wander in random, unfocused ways. For those enduring long-term solitude, the time to be alone with their thoughts can be agonizing:
 
@@ -67,7 +67,7 @@ There’s a lot to unpack there, and Csikszentmihalyi elaborates on these traits
 
 This first trait involves striking a balance between tasks that aren’t too hard or easy for your skillset. If it’s too hard, the activity produces anxiety, which removes your flow. If it’s too easy, it doesn’t engage you enough and you become bored. You have to strike a balance between anxiety and boredom such that the activity proves a good match for your skills.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_anxiety_boredom_monster3.jpg" alt="Finding an activity between anxiety and boredom." /><figcaption>If an activity is too hard, it leads to anxiety; too easy, and it leads to boredom. The sweet spot is to find an activity that's just right for your skill set.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_anxiety_boredom_monster3.jpg" alt="Finding an activity between anxiety and boredom." /><figcaption>If an activity is too hard, it leads to anxiety; too easy, and it leads to boredom. The sweet spot is to find an activity that's just right for your skill set.</figcaption></figure>
 
 Csikszentmihalyi says, “Enjoyment appears at the boundary between boredom and anxiety, when the challenges are just balanced with the person’s capacity to act” (52). This balance is common sense: To enjoy almost any game (chess, basketball, tennis), you need people roughly your same level of skill.
 
@@ -84,7 +84,7 @@ At the same time, the focus on the high-level means you won’t get into the nit
 
 Another trait of flow Csikszentmihalyi talks about is effortlessness. When you’re in a state of writing flow, your mind pours words onto the page in effortless ways, as if a muse is speaking to you. Compare the experience to an ice skater who glides effortlessly along the ice, almost like the wind moving across the landscape.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_effortlessness_ice_skater.jpg" alt="Effortlessness, a figure skater" /><figcaption>In states of flow, people appear to do the activity effortlessly, though in reality the activity is fully consuming of the person's intellect and abilities.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_effortlessness_ice_skater.jpg" alt="Effortlessness, a figure skater" /><figcaption>In states of flow, people appear to do the activity effortlessly, though in reality the activity is fully consuming of the person's intellect and abilities.</figcaption></figure>
 
 The effortless and apparent ease may actually be a mirage. Csikszentmihalyi says:
 
@@ -98,7 +98,7 @@ But it doesn’t have to be. With the right technique, you can get past these hu
 
 I was writing about a subject outside my stewardship. As such, I had to read widely and try to gather details about topics I knew little about. My approach involved alternating between reading and writing modes. More specifically, I would read product design documents and other information about a topic, copying and pasting from the material I read whenever I found relevant nuggets of information.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_reading_oct.jpg" alt="Reading is a lost art" /><figcaption>When you don't know what to say, read until you do. The basic pattern of writing is to alternate between reading (information gathering) and writing (information articulation) modes.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_reading_oct.jpg" alt="Reading is a lost art" /><figcaption>When you don't know what to say, read until you do. The basic pattern of writing is to alternate between reading (information gathering) and writing (information articulation) modes.</figcaption></figure>
 
 After I gathered enough information nuggets into a document, I organized them into a logical order (in this case, arranged by steps in a workflow). This phase was the information-gathering phase. Reading leads to information discovery.
 
@@ -106,7 +106,7 @@ After accumulating enough nuggets, I would read through that content and summari
 
 After running out of details, I would revert to the information-gathering phase again (usually reading), in which I would uncover yet more details (finding more nuggets). After weaving the newly discovered information into various sections of my draft (wherever the gaps were), I would return to my writing mode and smooth the information in, like a builder might smooth large rocks into a concrete wall through masonry. I continued alternating between reading and writing until I felt I had enough detail in my document.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_worker_smoothing_wall3.jpg" alt="Analogy of building a rock wall" /><figcaption>After gathering nuggets of information, I smoothed them together like a masonry worker might smooth together rocks in a rock wall.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_worker_smoothing_wall3.jpg" alt="Analogy of building a rock wall" /><figcaption>After gathering nuggets of information, I smoothed them together like a masonry worker might smooth together rocks in a rock wall.</figcaption></figure>
 
 I realized that I had followed the same pattern on my blog. I had written two main essay series that year—“Trends to follow or forget” (idbwrtng.com/trendsseriesintro) and this series, “Journey away from smartphones”—following a similar pattern. Both series had 15+ posts. When I ran out of things to say, I read another book or article about the topic, and it filled me with more ideas and thoughts. I began quoting these authors and responding to their arguments and experiences. In other words, I started conversations with authors.
 
@@ -132,7 +132,7 @@ Csikszentmihalyi says that information discovery often becomes the goal of writi
 
 In other words, if you’re writing a letter or essay, much of the enjoyment comes from discovering some new realization or thought about the topics or events. It’s no fun regurgitating what you already know. A thoughtful post leads you to discover new ideas. That’s always been what captivated me about blogging, and why I feel I will never run out of ideas. When I’m writing a blog post, I’m exploring unfamiliar territory, curious to see what I will find.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_feedback_oct.jpg" alt="A goal helps make the activity more like a game" /><figcaption>The activity needs a clear goal, with rules for engagement. The goal of writing might not be to complete the ticket or fulfill a corporate OKR. Instead, your writing goal might be to discover new information, to unlock understanding about a product, or arrive at some other unknown detail that you didn't know when you started. I consider a good blog post one that leads me to new realizations.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_feedback_oct.jpg" alt="A goal helps make the activity more like a game" /><figcaption>The activity needs a clear goal, with rules for engagement. The goal of writing might not be to complete the ticket or fulfill a corporate OKR. Instead, your writing goal might be to discover new information, to unlock understanding about a product, or arrive at some other unknown detail that you didn't know when you started. I consider a good blog post one that leads me to new realizations.</figcaption></figure>
 
 
 ### Feedback {#feedback}
@@ -141,7 +141,7 @@ Another trait correlated with flow states is feedback. Csikszentmihalyi says, �
 
 However, writing can provide feedback as you examine what you’ve written. Maybe you read over a draft and see that it’s taking shape and starting to feel like an interesting piece. Or maybe you read it and decide it's confusing and scattered. You could even use a rubric to score your draft against various criteria. Consider the analogy to shaping clay on a pottery wheel: as the artist sees the previously formless clay taking on the shape of a pot, that developing shape provides feedback to the artist about their work.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_goals_oct.jpg" alt="Feedback is also necessary for flow" /><figcaption>With writing, you're trying to shape amorphous content into some satisfying structure, such as a narrative structure, developer journey, workflow, or process. When you see that shape starting to form, that feedback pulls you deeper into the task. Seeing shapeless information suddenly form into a captivating story motivates you to keep writing.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_goals_oct.jpg" alt="Feedback is also necessary for flow" /><figcaption>With writing, you're trying to shape amorphous content into some satisfying structure, such as a narrative structure, developer journey, workflow, or process. When you see that shape starting to form, that feedback pulls you deeper into the task. Seeing shapeless information suddenly form into a captivating story motivates you to keep writing.</figcaption></figure>
 
 I’m usually pleased when I read drafts of my work. I see that I’ve created something from nothing. Where there was previously a blank page, now there is a body of knowledge, a story, or some other interesting form. Just because you’re the reader, it doesn’t mean you’re not receiving feedback as you read the draft. The most engaging feedback comes from reading your own content.
 
@@ -150,7 +150,7 @@ I’m usually pleased when I read drafts of my work. I see that I’ve created s
 
 Another trait of flow is concentration. Csikszentmihalyi says, “After choosing a system of action, a person with an autotelic personality grows deeply involved with whatever he is doing.... he invests attention in the task at hand” (210). I’ve spent many posts in this series already arguing for concentration modes. Turning off email, chat notifications, and other disruptions helps you maintain context and velocity in the task.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_concentration_oct.jpg" alt="Concentration is key moving towards flow" /><figcaption>To move towards flow, you need to concentrate fully on the task. This means shutting out both external stimuli as well as internal distractions. The more mental discipline we develop, the more capable we become of long-term concentration.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_concentration_oct.jpg" alt="Concentration is key moving towards flow" /><figcaption>To move towards flow, you need to concentrate fully on the task. This means shutting out both external stimuli as well as internal distractions. The more mental discipline we develop, the more capable we become of long-term concentration.</figcaption></figure>
 
 In contrast, if you’re constantly distracted (by colleagues, social media, or news sites), you probably won’t get into a flow state.
 
@@ -160,9 +160,9 @@ Tuning out all disruptions is easier to say than to do, especially in a busy off
 
 By focusing on minute details, our concentration deepens. Close observation is something you can do with almost any task. For example, the other week I rode my bike through the same 5-mile downtown Seattle stretch that I’ve ridden for nearly a year. But this time, I tried to notice 20 things that I’ve never noticed before. It didn’t take long before I reached 20, and in the process I was engrossed in the ride, not even listening to a podcast. I couldn’t believe all the things I’d been casually passing by. For example, I decided to take a closer look at a hole in the fence. When I peered through the hole, I realized the construction pit was so massive, the workers resembled ants at the bottom.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_construction_gap_oct.jpg" alt="Small gap in the fence" /><figcaption>I ride by this small gap in the fence everyday, and while I knew some construction scene lay on the other side, I hadn't bothered to look through the gap.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_construction_gap_oct.jpg" alt="Small gap in the fence" /><figcaption>I ride by this small gap in the fence everyday, and while I knew some construction scene lay on the other side, I hadn't bothered to look through the gap.</figcaption></figure>
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_construction_view_oct.jpg" alt="The construction scene on the gap's other side" /><figcaption>When I looked through the gap, I saw a huge cavity in the earth, so deep that the construction workers looked like ants at the bottom.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_construction_view_oct.jpg" alt="The construction scene on the gap's other side" /><figcaption>When I looked through the gap, I saw a huge cavity in the earth, so deep that the construction workers looked like ants at the bottom.</figcaption></figure>
 
 When you write, you may pay closer attention to words. Csikszentmihalyi says that word play and investigation can be a source of enjoyment that leads to flow. By examining the word choice in your sentences, maybe looking up words and finding more precise diction, this will pull you deeper into the task.
 
@@ -204,4 +204,4 @@ There are a few more traits of flow I haven’t covered here—time distortion, 
 
 As I experimented with flow techniques, I found my focus sessions more enjoyable and durable. At times, time passed without me noticing. But flow wasn't achievable overnight. It might take many months and potentially years of practice to get to more immersive states of flow, just like yoga and meditation. One doesn’t become a yoga guru overnight.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_boat_fremont.jpg" alt="Smooth flow of a boat" /><figcaption>I ride past the Aurora bridge each morning on my way to work in Fremont, Seattle. Boats glide smoothly along the water, a constant reminder about the idea of flow.</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/flow_boat_fremont.jpg" alt="Smooth flow of a boat" /><figcaption>I ride past the Aurora bridge each morning on my way to work in Fremont, Seattle. Boats glide smoothly along the water, a constant reminder about the idea of flow.</figcaption></figure>

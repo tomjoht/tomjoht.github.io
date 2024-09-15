@@ -7,7 +7,7 @@ categories:
 keywords:
 description: "Although technical writers champion plain language, embracing plain language for many years can cripple your ability to use more eloquent language, like that of a literary author or essayist. There isn't much room for literary play or playful tones in technical documentation. Following the rules of simple language has distorted my ability to read anything that blatantly violates those rules without questioning the author's word choice and sentence construction. Sometimes I feel that simple language has removed my ability to delight more in language and to express myself in more articulate, interesting ways."
 bitlink: http://bit.ly/plainlanguageanddelight
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/plainlanguageanddelight.mp3
 podcast_file_size: 14.3 MB
 podcast_duration: "18:07"

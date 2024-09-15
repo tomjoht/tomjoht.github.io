@@ -14,7 +14,7 @@ tags:
 - docs as code
 - version control systems
 - github
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/docsascodeargument.mp3
 podcast_file_size: 13.5 MB
 podcast_duration: "16:24"

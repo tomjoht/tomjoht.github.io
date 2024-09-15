@@ -16,13 +16,13 @@ If you want to skip over the data details, jump down to the [Conclusions](#concl
 
 From Jan 1, 2017, to Dec 31, 2017, idratherbewriting.com had about 845,000 page views. Here's a chart from Google Analytics.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
+<figure><img src="{{site.media}}/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
 
 (There was a slight dip mid-year because I split out the [API doc site](/learnapidoc/) into a separate Jekyll project and didn't have analytics configured correctly for a couple of months.)
 
 Here's another slice of analytics focusing more on audience:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2018analyticsuseranalysis.png" alt="Breakdown of analytics" /> <figcaption></figcaption></figure>
+<figure><img src="{{site.media}}/2018analyticsuseranalysis.png" alt="Breakdown of analytics" /> <figcaption></figcaption></figure>
 
 {{site.data.alerts.note}} How do "page views" and "sessions" differ? A page view is when the page loads, regardless of whether it's the same visitor or a different visitor. A session refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.58.{{site.data.alerts.end}}
 
@@ -104,7 +104,7 @@ If you would like to advertise your product or service on my site, see my <a hre
 
 How did the metrics compare to the previous year? They're up a bit:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics2017comparison.png" alt="Comparison of metrics with the previous year" /> <figcaption></figcaption></figure>
+<figure><img src="{{site.media}}/googleanalytics2017comparison.png" alt="Comparison of metrics with the previous year" /> <figcaption></figcaption></figure>
 
 There were at least 66,000 more page views in 2017 than in 2016.
 
@@ -274,7 +274,7 @@ Top countries performing searches:
 
 Mid-way through the year, I started tracking hits on my [Jekyll documentation theme](/documentation-theme-jekyll/). There were 73,000 page views.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalyticsjekylltheme.png" />
+<img src="{{site.media}}/googleanalyticsjekylltheme.png" />
 
 However, I'm not sure if these metrics are skewed because the theme gets forked and maybe people leave in the original Google Analytics code? At any rate, I have this analytics code separated out from my main analytics because I don't display ads on this theme. Still, this is a considerable amount of traffic.
 
@@ -341,7 +341,7 @@ I meticulously measured word counts for these more popular posts (1,950 words) a
 
 They depicted this with a graphic:
 
-> <p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/mediumidealblogpostlength.png" alt="Ideal length of a blog post" /></p>
+> <p><img src="{{site.media}}/mediumidealblogpostlength.png" alt="Ideal length of a blog post" /></p>
 
 They followed up this post with another [updated post](https://blog.bufferapp.com/optimal-length-social-media), this one based on [blog content audit of 595 posts](https://blog.bufferapp.com/content-audit). They found:
 
@@ -351,7 +351,7 @@ They followed up this post with another [updated post](https://blog.bufferapp.co
 
 Here's their graphic:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/word-count-social-shares-1024x668.png" /><figcaption>They conclude: "Our posts that exceed 2,500 words receive an average of 6,600 social shares—far and away the most popular post length on the blog."</figcaption></figure>
+<figure><img src="{{site.media}}/word-count-social-shares-1024x668.png" /><figcaption>They conclude: "Our posts that exceed 2,500 words receive an average of 6,600 social shares—far and away the most popular post length on the blog."</figcaption></figure>
 
 A few years ago, I engaged in endless debates about the ideal length of content for documentation. See these posts as examples of the content length debate:
 
@@ -368,7 +368,7 @@ Not yet convinced? You're reading a post that is about 4,500 words long. Let's e
 
 I think in earlier years, I was following the model that online content should be short, but gradually I started writing longer posts. Long-form content (1,200 + words up to 5,000 +) is clearly trending. In [How to Use Long Form Content to Skyrocket Your Search Rankings,](http://www.jeffbullas.com/long-form-content/) the author notes that a study by Backlinko "found that on average, the sites occupying the first page of Google contain about 1,890 words hence." The author cites another study by serpIQ that looked at top results from Google and had similar findings &mdash; "on average, posts with over 2,000 words are ranking much higher than shorter form posts." Here's the author's graph:
 
-<a href="http://www.jeffbullas.com/long-form-content/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/serpoavglength.jpg"/></a>
+<a href="http://www.jeffbullas.com/long-form-content/"><img src="{{site.media}}/serpoavglength.jpg"/></a>
 
 Long-form content trends higher in results because more people link to it (thus driving up the rank and authority of the page in Google). People link to long-form content because they perceive it to have more value. Because long-form content surfaces higher in Google's results, more readers find it and thus promote it more -- and so the cycle continues.
 
@@ -378,17 +378,17 @@ How do we square 1,600 words with the 1.58-minute average reading time (rather t
 
 Despite the buzz that comes from sharing content on social media, traffic from social media accounts for a small percentage of my site visitors (about 3%). Most people arrive at my site through Google organic (unpaid) search (72%).
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/socialanalysisreferral.png"/>
+<img src="{{site.media}}/socialanalysisreferral.png"/>
 
 My newsletter is the tinyletterapp.com source -- it drives 1.75%. "t.co" is Twitter -- it brings in 0.52%. And linkedin.com traffic accounts for 0.51%. Heck, even referrals from duckduckgo.com are nearly the same percentage as those from linkedin.com! But organic search accounts for a whopping 72% of my site's traffic. Even if you were to consider "(direct) / (none)" (which [means Google doesn't know the traffic source](http://www.seperia.com/blog/what-direct-traffic-really-means/)) as coming from social media, that's still a small fraction of the traffic when compared to organic search.
 
 If social media traffic is a pittance compared to organic search, why do we seem to place so much emphasis on social media's likes, shares, and retweets? There's something biologically addictive (endorphin releases?) that happens when you see a retweet or a like on social media, or when you see a post shared so much that an actual fire icon appears in Feedly.
 
-<a href="https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/toptenfeedlyfire.png" /></a>
+<a href="https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/"><img src="{{site.media}}/toptenfeedlyfire.png" /></a>
 
 But is social media overrated as a traffic generator? Perhaps SEO for Google search should be the overriding concern in each article? Should I lace the content with SEO-rich keywords and phrases? Somehow, I tend to snooze on SEO and instead get more excited about shares on social media, even though I know social media accounts for very little overall traffic in comparison to Google's organic search. Perhaps I need to find a way to integrate the same addictive checking behavior with Google analytics reports as I do with social media. Perhaps I could set Google's Real Time traffic report in a more visible space:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlerealtimetraffic.png" />
+<img src="{{site.media}}/googlerealtimetraffic.png" />
 
 I doubt that will happen, though, because as I said earlier, I mostly write for myself.
 

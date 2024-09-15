@@ -34,7 +34,7 @@ img.scaled {
   width: 100%;
 }
 </style>
-<p><figure class="guestBio"><img class="scaled" alt="Matthias Kraus" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/matthias_xpublisher2.jpg" /><figcaption>Matthias Kraus is the founder and managing director of Xpublisher. Since 2001, Matthias has been advising companies in the area of multi-channel publishing and accompanying them on their way to digitization.</figcaption></figure></p>
+<p><figure class="guestBio"><img class="scaled" alt="Matthias Kraus" src="{{site.media}}/matthias_xpublisher2.jpg" /><figcaption>Matthias Kraus is the founder and managing director of Xpublisher. Since 2001, Matthias has been advising companies in the area of multi-channel publishing and accompanying them on their way to digitization.</figcaption></figure></p>
 
 [Xeditor](https://idbwrtng.com/xeditor){:rel="nofollow"} is for anyone who wants to take advantage of structured content &mdash; whether it's an organization that creates technical documentation, produces legal texts, or a publishing house. Even without prior technical knowledge, Xeditor is easy to use. We provide both non-technical and technical authors with a customized interface that they feel at home with. They can choose between an intuitive interface, the tag view mode, or the raw XML mode to work on their documents. And because it's a web-based XML editor, authors can collaborate easily.
 
@@ -46,7 +46,7 @@ We founded the company in 2009 and introduced our online publishing system Xpubl
 
 The main focus of Xeditor is its intuitive usability and the ease of collaboration among authors. With every version, we strengthen and expand that focus. Last year we optimized the collaboration; the first release in 2021 simplifies the handling even further with tag-view-mode, drag-and-drop, as well as improved table editing. Of course, there are more features yet to come in the next months, which we are very excited about. Here's a screenshot showing Xeditor:
 
-<a href="https://idbwrtng.com/xeditor" class="noCrossRef" rel="nofollow"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/xeditor_screenshot_2021v4.png" alt="Xeditor, online XML editor" /></a>
+<a href="https://idbwrtng.com/xeditor" class="noCrossRef" rel="nofollow"><img src="{{site.media}}/xeditor_screenshot_2021v4.png" alt="Xeditor, online XML editor" /></a>
 
 <h2> How does Xeditor differ from tools such as OxygenXML and easyDITA? </h2>
 

@@ -20,12 +20,12 @@ weight: 1.9
 <p>To put things in context, the web is sort of a giant API. Each browser functions as a client that accesses various resources from servers.</p>
 <p>You may be viewing this post on my site. In this case, you used a client (a browser such as Chrome) and entered a URL (such as https://idratherbewriting.com/2015/03/04/how-to-create-a-help-api/) to make a request, and you got back a response (all the content on the page).</p>
 <p>This cartoon from XKCD sums it up well:<br />
-<a href="http://xkcd.com/1481/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/websiteisjustanapi-550x701.png" alt="A website is just an API" width="550" height="701" class="alignnone size-medium wp-image-22611" /></a></p>
+<a href="http://xkcd.com/1481/"><img src="{{site.media}}/websiteisjustanapi-550x701.png" alt="A website is just an API" width="550" height="701" class="alignnone size-medium wp-image-22611" /></a></p>
 <p>Alternatively, you may be using a Feedreader, such as Inoreader. The feedreader makes a request to the server, gets a response, and shows the requested resource to you.</p>
 <h2>Changing paradigms for how we deliver help</h2>
 <p>The idea of me sending you a copy of this post as an attachment to an email is absurd -- and yet this is the same paradigm we sometimes have with help. We send developers help files to integrate into applications. We send users help files with products.</p>
 <p>Here's an idea: we could just put help resources on our server and give developers an "endpoint" to access the site content.</p>
-<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/helpapi_help_api-550x247.png" alt="Help API" width="550" height="247" class="alignnone size-medium wp-image-22615" /></p>
+<p><img src="{{site.media}}/helpapi_help_api-550x247.png" alt="Help API" width="550" height="247" class="alignnone size-medium wp-image-22615" /></p>
 <p>Using the endpoint, developers could pull the help directly into the application. In fact, in some cases with small help files, you might not need a help site at all. You can just have a Help API that applications can call in order to get the information they need.</p>
 <p>With larger projects, though, I doubt you can get away from having a dedicated help site. Still, there's a strong need to pull help into the user's context in an application.</p>
 
@@ -34,7 +34,7 @@ weight: 1.9
 <h2>The most common example: Tooltips</h2>
 <p>As probably the most common use case, let's say you want to add popovers/tooltips next to confusing fields. The developer can merely call the Help API for information related to that field. If you want to add a quick start tutorial, the developer can add a getting-started page in an application and call a Help API endpoint for the right information to populate that modal. And so on.</p>
 <p>For a quick demo of how this might work, see the <a href="http://tomjoht.github.io/documentation-theme-jekyll/tooltip_demo">Tooltip Demo here</a>.</p>
-<p><a href="http://tomjoht.github.io/documentation-theme-jekyll/tooltip_demo"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tooltipdemo.png" style="width:400px;" alt="Tooltip Demo" class="alignnone size-medium wp-image-22612" /></a></p>
+<p><a href="http://tomjoht.github.io/documentation-theme-jekyll/tooltip_demo"><img src="{{site.media}}/tooltipdemo.png" style="width:400px;" alt="Tooltip Demo" class="alignnone size-medium wp-image-22612" /></a></p>
 <p>By using a Help API, you can more fully integrate the help information into the application in all the right places where it should appear -- giving the user the right information at the right time in the right place.</p>
 <p>Users generally dislike leaving the context of their work and going to another site, browsing through the external help site to find the right information. Few people actually consult the help, and even if people do go to the help site, finding the topic may be difficult.</p>
 <p>But even if they find the topic, by now the user is so disconnected with the actual application and context of the problem that the help feels disconnected. Sure, the help may provide some screenshots, and in some scenarios, a video. But it's not quite the same as being in the context of the application where you encountered the problem, and where you must apply the knowledge to solve the problem.</p>

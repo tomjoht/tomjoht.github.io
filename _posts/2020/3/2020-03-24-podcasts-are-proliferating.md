@@ -34,11 +34,11 @@ In addition to the above, you might also enjoy these other tech comm podcasts:
 
 I added a list of these podcasts on a new page on my site called [Technical writing podcasts](/podcasts#recommended):
 
-<a href="/podcasts#recommended"><img style="max-width=500px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/recommendpodcastsscreenshot2.png"/></a>
+<a href="/podcasts#recommended"><img style="max-width=500px; border: 1px solid #dedede" src="{{site.media}}/recommendpodcastsscreenshot2.png"/></a>
 
 Also, on my [Podcasts page](/podcasts/), I added some more subscribe buttons:
 
-<a href="/podcasts/"><img style="max-width=400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/podcasts-subscription-options.png"/></a>
+<a href="/podcasts/"><img style="max-width=400px; border: 1px solid #dedede" src="{{site.media}}/podcasts-subscription-options.png"/></a>
 
 {% include ads.html %}
 

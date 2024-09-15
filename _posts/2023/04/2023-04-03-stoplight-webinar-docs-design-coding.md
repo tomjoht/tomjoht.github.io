@@ -23,7 +23,7 @@ The webinar description is as follows:
 > 
 > We gathered some of the best industry experts across the full spectrum of the API lifecycle for a panel discussion on API trends, insights, and more. Join Stoplight CTO and host Jason Harmon, as he explore some of these trends with experts across the API design and development phase, adoption and consumption, and the API documentation phase. 
 
-<a href="https://stoplight-4892910.hs-sites.com/en/apitrendswebinar"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stoplightwebinarpanel.png" alt="Stoplight API Trends Across the Lifecycle Webinar panel" /></a>
+<a href="https://stoplight-4892910.hs-sites.com/en/apitrendswebinar"><img src="{{site.media}}/stoplightwebinarpanel.png" alt="Stoplight API Trends Across the Lifecycle Webinar panel" /></a>
 
 [**REGISTER HERE**](https://stoplight-4892910.hs-sites.com/en/apitrendswebinar) 
 

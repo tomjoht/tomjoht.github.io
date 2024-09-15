@@ -5,6 +5,8 @@ categories:
 keywords: terminology, comprehension, usability
 description: "From a cognitive perspective, what do we know about the effects of terminology consistency on how our readers understand and 'like' our documentation? In this guest post, Yves Pierrot explores how the cognitive aspects of memory, reading, text comprehension, and search strategies potentially influence reader comprehension in tech docs. He admits that research in this area is lacking, so he pulls on his own experience and background in psychology as he reflects on principles such as priming, polysemy, and more."
 bitlink: http://bit.ly/termconsistencytw
+author: Yves Pierrot
+bio: false
 ---
 
 * TOC

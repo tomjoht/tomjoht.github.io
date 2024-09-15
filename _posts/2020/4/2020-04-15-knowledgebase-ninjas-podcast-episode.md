@@ -17,7 +17,7 @@ description: "I recently appeared on the <a href='https://document360.io/blog/do
 
 You can view the episode details on [Doc360 podcast site](https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/):
 
-<a href="https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/knowledgebase_ninjas_podcast_tom.jpg" /></a>
+<a href="https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/"><img src="{{site.media}}/knowledgebase_ninjas_podcast_tom.jpg" /></a>
 
 You can also listen through the embedded player here:
 
@@ -43,7 +43,7 @@ The podcast covers the following topics:
 
 Here's one takeaway from the metrics discussion:
 
-<a href="https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/kbninjasmathquote.jpg" /></a>
+<a href="https://document360.io/blog/documentation-metrics-dont-work-with-tom-johnson-of-amazon/"><img src="{{site.media}}/kbninjasmathquote.jpg" /></a>
 
 I think I took more of a devil's advocate approach regarding metrics during this podcast because other podcast guests seemed to be more enthusiastic about embracing metrics (for example, listen to the episode with [Gavin Austin](https://document360.io/blog/minimizing-content-with-gavin-austin-of-salesforce/), which I enjoyed). I should have probably acknowledged that metrics are needed to influence decision makers. Also, I should have more advice about which metrics to use for docs. Unfortunately, I don't have good advice for metrics. Everything I have ever tried hasn't really worked.
 

@@ -45,7 +45,7 @@ The Kyocera had a camera but with such poor quality, I avoided using it for anyt
 
 I bought the most compact point-and-shoot I could find. For the alarm clock, I bought a 1980s GE electric alarm clock, just like the one I had growing up. The alarm clock worked great, and I loved rotating the dial to change the FM radio station. The alarm clock was so old that if I unplugged it, there wasn’t even a backup battery.
 
-<figure><img class="large" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gealarmclock.jpg" alt="GE alarm clock" /><figcaption>GE alarm clock</figcaption></figure>
+<figure><img class="large" src="{{site.media}}/gealarmclock.jpg" alt="GE alarm clock" /><figcaption>GE alarm clock</figcaption></figure>
 
 I wasn’t sure what was happening to me, but suddenly I wanted to turn back time and live in the 80s again, or go back to the early days of the internet (90s), when everything was just coming online. I felt like I was going through a serious anti-tech phase. Would it last?
 

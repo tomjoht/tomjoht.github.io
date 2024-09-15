@@ -34,7 +34,7 @@ I recently gave a keynote presentation at the [23rd STC India Annual Conference]
 
 ## Slides
 
-<a href="https://idratherbewriting.com/slides/fizzled_trends.html"><img style="max-width: 450px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trendstofollowslidethumb.png" alt="Trends to follow or forget - STC India 2022 presentation" /></a>
+<a href="https://idratherbewriting.com/slides/fizzled_trends.html"><img style="max-width: 450px" src="{{site.media}}/trendstofollowslidethumb.png" alt="Trends to follow or forget - STC India 2022 presentation" /></a>
 
 ## Audio only
 

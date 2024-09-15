@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: marketing copy, marketing writing, technical writing, plain, concise, clear, plain language
 description: "On a recent trip to Claire's with my three girls, I saw a sign that captured the distinction between marketing writing and technical writing perfectly."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/clairethumb.png
+image: thumbnails/clairethumb.png
 ---
 
 * TOC

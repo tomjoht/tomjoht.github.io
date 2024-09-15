@@ -7,7 +7,7 @@ categories:
 keywords: Stack Overflow, crowdsourcing, documentation
 bitlink: http://bit.ly/stackoverflowdocfail
 description: "Stack Overflow, mostly known as a forum for answering niche software questions, recently tried to launch a Documentation component to their site. The goal of Documentation was to 'do for Documentation what we did for Q&#38;A'. In other words, provide substantial, valuable information that could be the go-to source for tech docs instead of just one-off answers around niche topics. However, the effort failed and now Stack Overflow is sunsetting their Documentation."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/stackoverflowdocfail.mp3
 podcast_file_size: 9.7 MB
 podcast_duration: "12:09"

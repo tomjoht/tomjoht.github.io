@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords:
 description: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues technical writers face when translating images in technical documentation. She outlines the workflows for both text translation and image translation, and the challenges of extracting, translating, and merging text back into images. Image translation is certainly one of the most difficult aspects of tech comm, and for this reason many people avoid it and stick with text only."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jeaninethumb.png
+image: thumbnails/jeaninethumb.png
 bio: false
 sidebar: sidebar_visualcommunication
 ---

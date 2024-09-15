@@ -6,8 +6,8 @@ categories:
 keywords:
 description: "Users turn to documentation when the pain of their ignorance exceeds the pain of learning. Unfortunately, this is the worst state of mind to try to learn anything in. To address this impatient state of mind, we need to write documentation in simpler, easier to digest ways. Task-based documentation gets us part way there. But the varying starting points, unique pathway needs, and messy branching complicate the promised simple linear nature of steps. Overall, we need to increase the simplicity factor in our docs much more than we generally do."
 bitlink: http://bit.ly/painofignorancevspainoflearning
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/painofignorancethumb.png
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: thumbnails/painofignorancethumb.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/painofignorance.mp3
 podcast_file_size: 14.3 MB
 podcast_duration: "17:52"
@@ -37,9 +37,9 @@ In other words, you only turn to the documentation when ignorance is so painful,
 
 We can probably graph this principle fairly easily. When the pain of ignorance is more than the pain of learning, users will choose the lesser pain.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/painofignorance-01.svg"/>
+<img src="{{site.media}}/2017/7/painofignorance-01.svg"/>
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/painofignorance-02.svg"/>
+<img src="{{site.media}}/2017/7/painofignorance-02.svg"/>
 
 At the mention of learning, tech writers' ears perk up, because it's time for their documentation to hit the spotlight. But actually, the ensuing activity doesn't quite play out like we think. At the very time the user is finally prompted to choose the lesser pain of documentation, they're in a state of mind *least conducive to learning.*
 

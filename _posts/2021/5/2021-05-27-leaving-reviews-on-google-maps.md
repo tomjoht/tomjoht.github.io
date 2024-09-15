@@ -15,7 +15,7 @@ The other week I was at Duthie bike park for the first time with a friend who ha
 
 Ever since I started working for Google (in a maps-related group), I wanted to use Google Maps more and so started interacting more in the reviews section. This reviews section is a little hidden, but just scroll down a bit after reading the details for a place, and you'll see a "Write a Review" button.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/addingreviews_google_maps.png" alt="Google Maps Write a Review button" />
+<img src="{{site.media}}/addingreviews_google_maps.png" alt="Google Maps Write a Review button" />
 
 Prior to this, I'd never thought of leaving reviews either. But as I started leaving reviews of the various places I'd visited, I began to realize a couple of things. First, reviewing places is actually fun. Second, I personally rely on reviews a lot, not just within Maps but for products and services I buy as well across the web. Reviews have been a key influence in many of my consumer decisions, from buying socks to cooking new recipes to scheduling car repairs. Just as I read reviews of others, I want to participate in reviewing products and places myself.
 

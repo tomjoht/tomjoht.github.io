@@ -54,7 +54,7 @@ Sounds easy, right? It is, but there are also some considerations for each of th
 
 ### The first-mile (car segment)
 
-<img style="max-size: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/carsegment2.png" alt="car segment" />
+<img style="max-size: 500px" src="{{site.media}}/carsegment2.png" alt="car segment" />
 
 Here are some tips for the car-driving segment:
 
@@ -66,7 +66,7 @@ Here are some tips for the car-driving segment:
 
 ### Public transportation segment (train, light rail, or bus)
 
-<img style="max-size: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trainsegment.png" alt="train segment" />
+<img style="max-size: 500px" src="{{site.media}}/trainsegment.png" alt="train segment" />
 
 Here are some tips for the public transportation segment:
 
@@ -82,7 +82,7 @@ Here are some tips for the public transportation segment:
 
 Here are some tips for the biking segment:
 
-<img style="max-size: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bikesegment2.png" alt="bike segment" />
+<img style="max-size: 500px" src="{{site.media}}/bikesegment2.png" alt="bike segment" />
 
 * **Look for protected bike paths.** Protected bike paths are usually two-way bike paths with some barrier between you and the car lanes, even if it's just a little plastic pole. You can see different bike route options using your city's bike map (for example, see the [Seattle interactive bike map](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-web-map)). Seattle's interactive bike map distinguishes between neighborhood greenways, protected bike lanes, buffered bike lanes, painted bike lanes, climbing lanes, sharrows (shared lanes), paved regional trails, Stay Health Streets, and more. In short, it gives you much finer detail about the route that you won't find on more general-purpose maps. I personally don't feel safe riding for extended periods on shoulder-only routes. You can also use Google Street View to look at the route. You don't want to get caught on a bad road with no shoulder and find yourself trapped in heavy traffic.
 

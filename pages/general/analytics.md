@@ -12,7 +12,7 @@ This page provides site analytics for my site. Each year in January, I gather up
 Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 according to Google Analytics.
 
 <figure>
-   <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pageviewsscreenshotanalytics2023.png" alt="Traffic graph on Idratherbewriting.com" />
+   <img src="{{site.media}}/pageviewsscreenshotanalytics2023.png" alt="Traffic graph on Idratherbewriting.com" />
    <figcaption>I'd Rather Be Writing received 992,255 page views during 2023. This works out to an average of 2,719 page views a day.</figcaption>
 </figure>
 

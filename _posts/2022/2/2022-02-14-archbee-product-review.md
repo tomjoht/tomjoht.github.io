@@ -21,7 +21,7 @@ Check out the more recent podcast I did
 Let's start with the Archbee editor, which is what people love most about Archbee. Archbee uses the concept of “[blocks](https://docs.archbee.io/demo/all-blocks){:rel="nofollow"}” in the interface. When you type “/” (on a new line), you can see all the blocks available to use. These blocks are preformatted widgets that you fill in with content.
 
 <figure>
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/archbee_blocks.png" alt="Type &#8220;/&#8221; to see a list of all blocks you can insert in the Archbee editor" />
+<img src="{{site.media}}/archbee_blocks.png" alt="Type &#8220;/&#8221; to see a list of all blocks you can insert in the Archbee editor" />
 <figcaption>Type &#8220;/&#8221; to see a list of all blocks you can insert in the Archbee editor</figcaption></figure>
 
 The list of blocks includes the following:
@@ -60,7 +60,7 @@ Admittedly, one block that seems to be missing is a content re-use block. The ab
 
 Although the Archbee editor simplifies content authoring, you're not required to use the editor and its available blocks. If you type in Markdown, the editor converts it to the display syntax on the fly. But you can also manage all content as Markdown files stored in a GitHub repository, synced to an Archbee workspace. This would restrict your formatting options to the Markdown syntax, of course. But it would allow you to store your docs with code in a more seamless way.
 
-<figure><img style="max-width: 575px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/archbee_markdown_options.png" alt="Archbee markdown options" /><figcaption>Archbee Markdown options &mdash; you can either write directly in the editor or sync files from GitHub</figcaption></figure>
+<figure><img style="max-width: 575px" src="{{site.media}}/archbee_markdown_options.png" alt="Archbee markdown options" /><figcaption>Archbee Markdown options &mdash; you can either write directly in the editor or sync files from GitHub</figcaption></figure>
 
 When faced with the choice of writing in basic Markdown or using the blocks in the Archbee editor, I'm pretty sure the latter will win out. Having a feature-rich list of pre-built widgets makes it easier to author content. Whether you're inserting an API endpoint, expandable section, code samples, task lists, or more, you can insert these blocks without having to worry about the style or formatting. These widgets abstract away the complexity and let you focus on the content.
 

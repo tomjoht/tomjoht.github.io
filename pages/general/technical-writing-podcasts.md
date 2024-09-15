@@ -10,7 +10,7 @@ Beside [my podcasts](/podcasts/), here are some technical writing podcasts focus
 
 <div class="grid-container-for-podcasts">
 {% for item in site.data.recommended_podcasts.podcasts %}
-<a class="grid-item-for-podcasts" href="{{item.url}}" class="noCrossRef"><img alt="{{item.title}}" class="recommendedPodcasts" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/{{item.img}}" alt="{{item.title}}"/></a>
+<a class="grid-item-for-podcasts" href="{{item.url}}" class="noCrossRef"><img alt="{{item.title}}" class="recommendedPodcasts" src="{{site.media}}/{{item.img}}" alt="{{item.title}}"/></a>
 {% endfor %}
 
 <div style="clear: both;"></div>

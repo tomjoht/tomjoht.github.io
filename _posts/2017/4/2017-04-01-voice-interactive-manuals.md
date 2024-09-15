@@ -6,7 +6,7 @@ categories:
 keywords:
 description: "Amazon's technical writers are taking their manuals to the next level using voice-interactive features with Alexa. The guides are still delivered through traditional means (PDF and web), but these guides now include an additional interactive voice enhancement that users can optionally leverage when they get confused or frustrated."
 bitlink: http://bit.ly/voice-interactive-manuals
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/aprilfoolsalexapostthumb.png
+image: thumbnails/aprilfoolsalexapostthumb.png
 ---
 
 * TOC
@@ -21,7 +21,7 @@ As an example of how voice-interactive manuals work, if a user is unclear about 
 Alexa then responds with additional details. Although writers could provide these additional details embedded in the manual (in expandable sections, for example), interacting with Alexa for the information provides the human touch most users crave when learning or setting up a new technology.
 
 <figure>
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aprilfools-01.png" style="max-width:570px; border: 1px solid #dedede;" />
+<img src="{{site.media}}/aprilfools-01.png" style="max-width:570px; border: 1px solid #dedede;" />
 <figcaption>Voice-interactive manuals let users ask Alexa for additional help when they get stuck.</figcaption></figure>
 
 John Baker, a user who is part of the pilot trial with the voice-interactive manuals, explains:

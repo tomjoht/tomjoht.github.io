@@ -65,7 +65,7 @@ Despite the differences in learning preferences, the researchers found that "the
 
 The authors measured the time users spent in various parts of the documentation:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/percentageoftimespent.png" style="max-width: 500px;"/>
+<img src="{{site.media}}/percentageoftimespent.png" style="max-width: 500px;"/>
 
 Regarding the different information types, the authors say users looked for topics rather than categories of information &mdash; in other words, they didn't necessarily distinguish between Concepts versus Recipes versus Reference information types as they searched for information. As a result, the researchers recommend a more topic-based organization strategy:
 

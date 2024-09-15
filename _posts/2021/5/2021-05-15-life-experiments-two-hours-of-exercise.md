@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/life-experiments-two-hrs-exercise
 description: "Lately I've been trying trying something that I call <i>life experiments</i>. These are goals that I adopt for about 50 days and then evaluate their impact on my life. The reason for 50 days is to give the experiment sufficient time to have had an impact. If I keep an experiment for a week or two only, it's hard to see what change it makes. So far, my first life experiment &mdash; exercising two hours a day &mdash; has been been an interesting one."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlefitthumb.png
+image: googlefitthumb.png
 ---
 
 * TOC
@@ -50,7 +50,7 @@ One option could be to measure **calories burned** through fitness trackers (e.g
 
 I'm still trying to figure out the best tracker. Google Fit's estimations for walking and biking activities seem the most realistic, and it even counts my forays into the supermarket as a calorie-burning activity. Additionally, Google Fit also has another interesting metric: "heart points." You earn heart points when you move more quickly; the points indicate that the exercise is more heart-healthy. For example:
 
-<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlefitpoints.png" alt="Google Fit points" />
+<img style="border:1px solid #dedede; max-width: 350px" src="{{site.media}}/googlefitpoints.png" alt="Google Fit points" />
 
 Notice how that last "Afternoon walk" earned only 1 heart point? That's because it wasn't actually exercise &mdash; it was a stop at Safeway to pick up a few grocery items.
 
@@ -72,13 +72,13 @@ Coming back to the measurement issue, even though I like the idea of points, Goo
 
 Other times, the analytics just seem wacky. For example, here's a biking outing at Duthie, a mountain biking park, where my 82 move minutes resulted in burning 582 calories while going a distance of only .04 miles and racking up 82 points.
 
-<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/duthieride.png" alt="wacky analytics" />
+<img style="border:1px solid #dedede; max-width: 350px" src="{{site.media}}/duthieride.png" alt="wacky analytics" />
 
 I'm not sure what happened there. .04 miles? .03 mph? For some reason, when Google Fit syncs with other apps like MapMyRide, the metrics often get distorted. The biking wasn't intense. The [Duthie bike park](https://www.evergreenmtb.org/trails/duthie-hill) doesn't offer challenging elevation climbs, just trails that loop and snake around with lots of dirt mounds, bridges, sloped corners, and other bike-parky things. Did I really deserve 82 points? However, this instance seems to be an anomoly to the norm.
 
 Here's a normal Google Fit reading for another ride (within [Spring Lake / Lake Desire](https://kingcounty.gov/services/parks-recreation/parks/parks-and-natural-lands/natural-lands/springlake.aspx)) without the sync with another app:
 
-<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/afternoonridev2.png" alt="Google Fit, normal reading" />
+<img style="border:1px solid #dedede; max-width: 350px" src="{{site.media}}/afternoonridev2.png" alt="Google Fit, normal reading" />
 
 This is much more expected and reflective of the ride. Overall, I like the idea of points, as it encourages more active exercise.
 
@@ -86,21 +86,21 @@ Note that the promotion of points instead of calories burned seems similar to th
 
 Whether you measure heart points, steps, or calories burned, it's really challenging to get accurate results. Even among fitness trackers, there's often a strong discrepency. Here's a comparison for a 5 mile walk using both Google Fit:
 
-<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eveningwalkgooglefit.png" alt="Google Fit for five mile walk" />
+<img style="border:1px solid #dedede; max-width: 350px" src="{{site.media}}/eveningwalkgooglefit.png" alt="Google Fit for five mile walk" />
 
 Now here's Strava's tracking of the same activity:
 
-<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eveningwalkstrava.png" alt="Strava for five mile walk" />
+<img style="border:1px solid #dedede; max-width: 350px" src="{{site.media}}/eveningwalkstrava.png" alt="Strava for five mile walk" />
 
 In both cases, the distances measured are about the same. So is the pace (not shown in the Strava screenshot). But for some reason, Strava thinks this activity burns twice as many calories as Google Fit. I'm not sure what's going on with Strava here because other fitness calculators align much more with Google Fit's estimation. If calories vary widely, it might make more sense to use another metric like points instead.
 
 I'm getting lost in the details here. The important thing is exercise, not the exacting measurement of it. Here's a picture of my mountain bike on the Lake Desire trail system:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/mountainbikelakedesire.png" alt="mountain biking on Lake Desire" /><figcaption>My mountain bike next to the trails in the Lake Desire / Spring Lake King County park</figcaption></figure>
+<figure><img src="{{site.media}}/mountainbikelakedesire.png" alt="mountain biking on Lake Desire" /><figcaption>My mountain bike next to the trails in the Lake Desire / Spring Lake King County park</figcaption></figure>
 
 And here's wife and me atop Echo Peak, with Mount Ranier in the distance.
 
-<figure><img style="max-width: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannontommountranierlakedesire.jpg" alt="Echo Peak, with Mount Ranier in the distance" /><figcaption>My wife, Shannon, and me atop Echo Peak, with Mount Ranier in the distance. This is my wife's absolute favorite hiking trail, and she hikes it almost daily</figcaption></figure>
+<figure><img style="max-width: 500px" src="{{site.media}}/shannontommountranierlakedesire.jpg" alt="Echo Peak, with Mount Ranier in the distance" /><figcaption>My wife, Shannon, and me atop Echo Peak, with Mount Ranier in the distance. This is my wife's absolute favorite hiking trail, and she hikes it almost daily</figcaption></figure>
 
 Exercise gets you outdoors. This also has tremendous benefit for tech workers who spend all day inside, staring at a flat screen.
 

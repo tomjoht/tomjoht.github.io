@@ -9,7 +9,7 @@ bitlink: http://bit.ly/stcsfpresononrefapicontentrecording
 categories:
 - api-doc
 - podcasts
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/stcsfpresononref.mp3
 podcast_file_size: 47.7 MB
 podcast_duration: "59:49"
@@ -23,7 +23,7 @@ podcast_length: 47699020
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/nonref-content-api-docs/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nonrefslides.png"/></a>
+<a href="https://idratherbewriting.com/nonref-content-api-docs/"><img src="{{site.media}}/nonrefslides.png"/></a>
 
 ## Audio
 

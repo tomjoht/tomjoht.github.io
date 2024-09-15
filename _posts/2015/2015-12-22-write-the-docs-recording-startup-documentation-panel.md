@@ -6,7 +6,7 @@ categories:
 - podcasts
 keywords:
 description: "The following is a recording of a panel discussion at a Write the Docs San Francisco meetup held Dec 17, 2015. The topic is on creating documentation for startups."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdthumbpanelstartup.png
+image: thumbnails/wtdthumbpanelstartup.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/wtdstartuppanel.mp3
 podcast_length: 68746429
 ---

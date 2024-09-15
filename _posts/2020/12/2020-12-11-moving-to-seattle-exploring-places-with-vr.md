@@ -33,7 +33,7 @@ Browsing Zillow is fun, but it's hard to evaluate a house without knowing how cl
 
 <iframe src="https://www.google.com/maps/d/embed?mid=13y5p7eH25rcvThSGTJJ6FQ9hzmGb32AX" width="640" height="480"></iframe>
 
-(Here's a [static image of the map](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/mapseattlemove.png).)
+(Here's a [static image of the map]({{site.media}}/mapseattlemove.png).)
 
 Commute lines include the Link Light Rail and Sounder, for the most part. (Bus routes are everywhere but too complicated to add.) I also added in bike trails (which I pulled from maps like [Trailfinder](https://gismaps.kingcounty.gov/TrailFinder/)). The soccer clubs are all the "premier" clubs as listed on [Washington Youth Soccer](https://washingtonyouthsoccer.org/find-a-club/#) in the Seattle area.
 

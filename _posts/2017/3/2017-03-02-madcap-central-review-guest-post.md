@@ -5,6 +5,8 @@ categories:
 keywords:
 bitlink: http://bit.ly/madcapcentralguestreview
 description: "The following is a guest post from Michał Skowron and Jakub Wiśniewski, two technical writers working for 3di. 3di is a company providing technical authoring, translation and localization services. In this short review, Skowron and Wiśniewski evaluate MadCap Central, a new product from MadCap Software. MadCap Central is a cloud-based platform where you can host your MadCap Flare projects, manage builds, track tasks, manage users and their permissions, and collaborate with others. The article looks at the product from the perspective of a company delivering tech comm services."
+author: <a href='#skowron-and-wisniewski'>Michał Skowron and Jakub Wiśniewski</a>
+bio: false
 ---
 
 * TOC
@@ -20,7 +22,7 @@ We decided to spend some time with MadCap Central to see if companies providing 
 
 As we would expect, the new platform is designed primarily with Flare projects in mind. MadCap Central integration with Flare works great. You upload and import projects directly from Flare, using the new MadCap Central window. The whole process is quick and intuitive.
 
-![MadCap Central window in Flare](/images/madcap_central_window.png)
+![MadCap Central window in Flare]({{site.media}}/madcap_central_window.png)
 
 At this stage, only MadCap Flare 2016 r2 and 2017 are integrated with MadCap Central, which means you need to consider additional costs and potential issues related to upgrading Flare, unless you're planning to get the new Flare version anyway.
 
@@ -30,7 +32,7 @@ As far as source control goes, MadCap thought of two alternative solutions &mdas
 
 You perform all source control tasks, like push and pull, from Flare. Depending on the chosen model, you use the new MadCap Central window, the Source Control tab, or both. If you used Flare projects bound to source control before, you will be able to quickly start working with MadCap Central-bound projects.
 
-![Source Control tab in Flare](/images/source_control_tab.png)
+![Source Control tab in Flare]({{site.media}}/source_control_tab.png)
 
 Currently, you can't perform source control tasks directly from the MadCap Central portal. We'd certainly welcome such a possibility in upcoming versions.
 
@@ -40,7 +42,7 @@ Currently, you can't perform source control tasks directly from the MadCap Centr
 
 Admin features are simple and intuitive. You can quickly add new users, create teams, assign them to projects and manage their permissions. The possibility to bulk add users using a CSV file will come in handy when setting up MadCap Central for the first time.
 
-![Users screen in MadCap Central](/images/users_screen.png)
+![Users screen in MadCap Central]({{site.media}}/users_screen.png)
 
 All existing features are useful, but the set of permissions could be expanded to make them more robust. For example, allowing users to edit only their own tasks or to change task assignments without the possibility to edit any other information would be a valuable addition to the existing permission set.
 
@@ -48,11 +50,11 @@ All existing features are useful, but the set of permissions could be expanded t
 
 Task management features are helpful and transparent. The calendar view provides a neat look at deadlines while the task board allows you to change task statuses quickly by moving task cards between columns.
 
-![Task Board in MadCap Central](/images/task_board.png)
+![Task Board in MadCap Central]({{site.media}}/task_board.png)
 
 What we found useful are customizable widgets that can be added to MadCap Central dashboards. We really liked the task summary widget that sums up all the work in a sharp-looking doughnut chart. All the widgets can be filtered, which makes them even more useful.
 
-![Task Summary widget in MadCap Central](/images/task_summary_widget.png)
+![Task Summary widget in MadCap Central]({{site.media}}/task_summary_widget.png)
 
 MadCap Central users can collaborate more efficiently while dealing with their tasks thanks to the built-in messaging system. Although it's purely internal (there is no integration with any external messaging systems), the possibility of communicating with your colleagues without the need to leave MadCap Central can definitely speed up the process of resolving tasks.
 
@@ -64,7 +66,7 @@ Apart from managing tasks, MadCap Central also offers some features for managing
 
 Builds can be set as private (to view them only from MadCap Central) or live (to get permanent links for public access). If you don't need all the customization possibilities offered by a traditional hosting service, MadCap Central can be a good candidate for taking over the role of your publishing platform. Even if you already publish your documentation in a hosting service, you can still use MadCap Central as a temporary publishing platform for testing and reviewing purposes. This combo solution will be much easier to implement if in the future MadCap decides to extend MadCap Central with the possibility to publish to external servers.
 
-![Build Management screen in MadCap Central](/images/build_management.png)
+![Build Management screen in MadCap Central]({{site.media}}/build_management.png)
 
 It goes without saying that MadCap Central offers useful build management features, but there are also some limitations that you need to consider. There's no auto-sync of imported files, no support for multilingual output, and you can't automatically get latest files for dual-bound projects. Some output formats cannot be generated from Central (e.g., Adobe FrameMaker) and other output formats cannot be viewed there (e.g., DITA and MS Word). In some scenarios, these limitations may be hard to overcome, but let's keep in mind that this is the first version of MadCap Central. We believe that these obstacles will be tackled in subsequent versions.
 
@@ -84,7 +86,7 @@ If you want to try MadCap Central, visit [https://www.madcapsoftware.com/downloa
 
 <hr/>
 
-### About Michał Skowron
+### About Michał Skowron {:#skowron-and-wisniewski}
 
 Michał is a Senior Technical Writer with over five years of experience, a co-admin of the [techwriter.pl blog](http://techwriter.pl/), and a trainer for ITCQF. Before joining 3di, he worked for Dassault Systèmes and Proximetry creating documentation for a manufacturing operations management (MOM) solution and a management system for wireless networks. He moved to the technical communication field after spending three years in technical support, software implementation, and English teaching. In 2009, he graduated from the University of Silesia in Katowice, specializing in English translation.
 

@@ -5,13 +5,13 @@ categories:
 keywords:
 description: "How big should your documentation repo be, especially if you have multiple products in your documentation? Although you could put all content into the same repo, it might be easier to have lots of little repos. Jekyll accommodates this architecture quite nicely through gem-based themes."
 bitlink: http://bit.ly/sizeofrepos
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/reposizethumb.png
+image: thumbnails/reposizethumb.png
 ---
 
 * TOC
 {:toc}
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reposize.png"/>
+<img src="{{site.media}}/reposize.png"/>
 
 When I set up the Jekyll doc system for our team, I initially started by having team members store content for each product in separate repos. However, updating the documentation theme became problematic because the themes were hard-coded in each repo (rather than distributed via the cloud). Since the theme code was in flux (I was still fine-tuning it every couple of weeks), it was a pain to update the theme across all the different product repos.
 

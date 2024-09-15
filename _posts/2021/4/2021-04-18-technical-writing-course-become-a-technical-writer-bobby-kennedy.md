@@ -13,7 +13,7 @@ description: "Technical writing courses are popular ways for people transitionin
 
 To learn more about the technical writing course, go directly to [Become a Technical Writer](https://idbwrtng.com/btw){:rel="nofollow"}.
 
-<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
+<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img style="border: 1px solid #dedede" src="{{site.media}}/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
 
 *Note: This is a sponsored post.*
 
@@ -120,7 +120,7 @@ You can register for the course, Become a Technical Writer, here: [becometechnic
 For a $50 discount, use the promo code `Idratherbewriting`.
 
 <h3>About Bobby Kennedy</h3>
-<a rel="nofollow" href="https://becomeatechnicalwriter.com/about/"><img style="max-width: 200px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bobby_kennedy.jpeg" alt="Bobby Kennedy" /></a>
+<a rel="nofollow" href="https://becomeatechnicalwriter.com/about/"><img style="max-width: 200px; float: right; padding-left: 10px" src="{{site.media}}/bobby_kennedy.jpeg" alt="Bobby Kennedy" /></a>
 
 Bobby B. Kennedy earned a B.A. in English from St. Joseph's (Philadelphia). He also served in the US Army's 82nd Airborne Division.  A few years later, he moved to Germany. There he taught himself German and passed the German University system's fluency test.
 
@@ -128,6 +128,6 @@ On returning to the US, he worked as a technical writer for blue-chip clients fo
 
 You can learn more about Bobby on the [About page of Become a Technial Writer](https://becomeatechnicalwriter.com/about/){:rel="nofollow"}.
 
-<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter1.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
+<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img src="{{site.media}}/becomeatechnicalwriter1.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
 
 <div style="clear: both"></div>

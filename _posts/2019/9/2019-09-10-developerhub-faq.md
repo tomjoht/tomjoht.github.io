@@ -19,11 +19,11 @@ description: "DeveloperHub is a new publishing platform for API documentation th
 
 Here's a sample page from the DeveloperHub's Getting Started documentation:
 
-<a href="https://docs.developerhub.io/v1.0/support-center/getting-started" rel="nofollow"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developerhubscreenshot1.png" style="border: 1px solid #dedede;" alt="DeveloperHub Published Documentation" /></a>
+<a href="https://docs.developerhub.io/v1.0/support-center/getting-started" rel="nofollow"><img src="{{site.media}}/developerhubscreenshot1.png" style="border: 1px solid #dedede;" alt="DeveloperHub Published Documentation" /></a>
 
 Here is the same page in the Editor view:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developerhubscreenshot2.png" style="border: 1px solid #dedede;" alt="DeveloperHub Editor" />
+<img src="{{site.media}}/developerhubscreenshot2.png" style="border: 1px solid #dedede;" alt="DeveloperHub Editor" />
 
 ### Who is your target audience?
 
@@ -57,7 +57,7 @@ We have support for [OpenAPI 2.0/Swagger specification files](/learnapidoc/pubap
 
 Here's an example of an API reference topic:
 
-<a href="https://docs.developerhub.io/api/ref#getlists-all-project-versions" rel="nofollow"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developerhubscreenshot3.png" style="border: 1px solid #dedede;" alt="DeveloperHub API Reference" /></a>
+<a href="https://docs.developerhub.io/api/ref#getlists-all-project-versions" rel="nofollow"><img src="{{site.media}}/developerhubscreenshot3.png" style="border: 1px solid #dedede;" alt="DeveloperHub API Reference" /></a>
 
 API reference topics should never be separated from user guide topics; thus our lightning-fast search looks through user guides and references in one go.
 

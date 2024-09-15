@@ -14,7 +14,7 @@ description: "I recently wrote an article for the <i>Institute of Scientific Tec
 
 You can read the ISTC article in PDF form here:
 
-<a class="noCrossref" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/istc2020_devdoctrends.pdf"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/istccoverthumb2020.png" alt="ISTC article on developer documentation trends" style="border: 1px solid #dedede;"/></a>
+<a class="noCrossref" href="{{site.media}}/api/istc2020_devdoctrends.pdf"><img src="{{site.media}}/api/istccoverthumb2020.png" alt="ISTC article on developer documentation trends" style="border: 1px solid #dedede;"/></a>
 
 I also added an HTML version on my API doc course here: [Developer documentation trends — survey results](/learnapidoc/docapis_trends.html#developer-documentation-trends-how-developer-documentation-trends-differ-from-general-technical-communication-trends). This writeup is the official presentation and analysis of the data.
 

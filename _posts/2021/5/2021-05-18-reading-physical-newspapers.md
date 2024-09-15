@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/newspaper-experiments
 description: "Lately I've been trying trying something that I call <i>life experiments</i>. These are goals that I adopt for about 50 days and then evaluate their impact on my life. With this experiment, I decided to stop reading the news on my phone and to instead read a physical newspaper delivered to my house each day."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newspaperthumbphysical.png
+image: newspaperthumbphysical.png
 ---
 
 * TOC
@@ -18,7 +18,7 @@ I recently started an experiment of reading print newspapers. I took up a paper 
 
 Now, when I wake up in the morning, rather than click links on my phone for news, I go down and get the paper from my driveway (even at 5:15 am, it's already delivered). I make coffee and sit down at a small table in my kitchen nook to read the paper. I'm only about a week into this experiment so am still evaluating, but I wanted to write a post about it now while the issues are still fresh in my mind.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/readingphysicalnewspaper.jpg" alt="Reading a physical newspaper" />
+<img src="{{site.media}}/readingphysicalnewspaper.jpg" alt="Reading a physical newspaper" />
 
 ## My dissatisfaction with existing news reading habits
 
@@ -75,7 +75,7 @@ At first, I thought, this confirms the bias of social media! In the New York Tim
 
 This made me question the credibility of the New York Times, a [newspaper with Jewish ties](https://www.timesofisrael.com/the-sulzberger-family-a-complicated-jewish-legacy-at-the-new-york-times/), to report objectively on the Israeli-Palestinian conflict. Sure enough, the next morning as I looked at the latest article on this topic, [Mideast violence rages on as Biden Backs a cease-fire](https://static01.nyt.com/images/2021/05/18/nytfrontpage/scan.pdf), I noticed the subtleties of language. Grammatically, it does seem that the articles more explicitly identify Hamas as the actor killing Israelis, but the actor killing Palestinians is more obscured. In the highlighted passages below, who killed the Palestinians?
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nytimesbiasreporting.png" alt="Passive language and obscuring the actor" />
+<img src="{{site.media}}/nytimesbiasreporting.png" alt="Passive language and obscuring the actor" />
 
 Overall, though, I can't say that I've scoured many articles looking at passive voice or actor clarity, as this is somewhat outside my interests. And I realized that my understanding of the Israeli-Palestinian issue was still extremely superficial. Reading print newspaper didn't make me much more informed on the issue; that kind of awareness and erudition about world events isn't going to come from briefly reading a daily print newspaper. It seems one would need to devote a lot more time and study to become informed, which doesn't really fit with my tech career, since I don't have hours to ramp up on world issues/events/history. Instead, I would prefer more information about tech news.
 
@@ -93,7 +93,7 @@ With print media, an editorial board decides what goes on the front page. With o
 
 Here are the most popular articles from my tech feeds in Feedly:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/feedlymostpopulararticles.png" alt="Popular Feedly articles" />
+<img src="{{site.media}}/feedlymostpopulararticles.png" alt="Popular Feedly articles" />
 
 Even with curation by the most popular articles, one still has to do a lot of scanning and quick reading to pick out what's truly noteworthy and relevant. Interestingly, as I write this, the front page tech story on the New York Times, [To Get in China, Apple Swallowed Hard Bargain](https://www.nytimes.com/2021/05/17/technology/apple-china-censorship-data.html), isn't even in my Feedly list of most popular articles.
 

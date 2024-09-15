@@ -21,7 +21,7 @@ The other week my youngest daughter had a soccer game in Mount Vernon, which is 
 
 Driving up to Skagit Valley for the soccer game sent me thinking and reflecting on my childhood. After the soccer game, we drove by the houses where I grew up. This was my first childhood home:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/house-where-i-grew-up.jpg" alt="The house where I grew up" /><figcaption>The house where I grew up between the ages of 0-10</figcaption></figure>
+<figure><img src="{{site.media}}/house-where-i-grew-up.jpg" alt="The house where I grew up" /><figcaption>The house where I grew up between the ages of 0-10</figcaption></figure>
 
 Before the game, I looked up one of my childhood friends on Facebook to see what had become of him, and was surprised to see that he never left the area. We both went to the same K-through-8th school, but after 8th grade, I ended up moving to Tacoma, a much larger city below Seattle, about 1.5 hours south of Burlington. In contrast, he stayed in Burlington, went to college briefly but didn't finish, and then returned to Skagit Valley.
 
@@ -35,15 +35,15 @@ I lived in the house pictured earlier until I was about 10 years old. At that ag
 
 My dad's trailer looked like this (picture it 30 years earlier, though):
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/mydadstrailer.jpg" alt="My dad's trailer"><figcaption>My dad's trailer</figcaption></figure>
+<figure><img src="{{site.media}}/mydadstrailer.jpg" alt="My dad's trailer"><figcaption>My dad's trailer</figcaption></figure>
 
 I lived alone with my dad here. My one sibling, my sister, lived with mom in Tacoma. In driving through this trailer park 30 years later, it seemed depressing and more run-down than I remember. But when I was a kid, it wasn't so bad. All of us neighborhood boys kind of hung out together, often skateboarding on this alley or doing tricks on bikes.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trailer_alley.jpg" alt="My dad's trailer"><figcaption>The trailer alley where we skateboarded all day</figcaption></figure>
+<figure><img src="{{site.media}}/trailer_alley.jpg" alt="My dad's trailer"><figcaption>The trailer alley where we skateboarded all day</figcaption></figure>
 
 Best of all, the trailer park was adjacent to a large field close to the Skagit River. In this picture, beyond the line of distant trees is a levee that runs along the river. My dad bought me a dirt motorcycle, and I would ride all around this area in a free-range, exploratory way.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/field_out_back.jpg" alt="The field out back"><figcaption>The field out back</figcaption></figure>
+<figure><img src="{{site.media}}/field_out_back.jpg" alt="The field out back"><figcaption>The field out back</figcaption></figure>
 
 More than anything about my childhood, I remember the freedom to go where I wanted on my bike, my motorcycle, and on foot. This was a time before social media and the Internet &mdash; you could just roam around places, freely, wherever you wanted to pedal your bike or go. There's an exhilaration as a kid about being free and independent, making your own choices about where you go.
 
@@ -115,7 +115,7 @@ My wife wanted to move to Oregon, where her sister lives, and she envisioned me 
 
 After months of research, we bought a house in Renton (which we'd never seen before purchasing, actually) that turned out to be a great place for us, in a beautiful home overlooking a small creek that flows through the backyard. We're surrounded by green but aren't too far from Seattle to commute in. Here's our house, where we're together all day since all four kids are at home and both my wife and I WFH all day:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/renton_home_pic.jpg" alt="House in Renton"><figcaption>House in Renton</figcaption></figure>
+<figure><img src="{{site.media}}/renton_home_pic.jpg" alt="House in Renton"><figcaption>House in Renton</figcaption></figure>
 
 ## Reflection
 

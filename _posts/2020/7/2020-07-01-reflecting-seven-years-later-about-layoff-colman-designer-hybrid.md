@@ -28,11 +28,11 @@ I want to dive into this topic a bit deeper with some contrasting perspectives. 
 
 Jonathan lists out the problems that result from this multi-project allocation model:
 
-<a href="https://noti.st/jcolman/yI2rEQ/how-we-destroyed-content-design#sF8qV3v"><img style="1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/colman_problems_slide.png" alt="Problems from the distributed models" />
+<a href="https://noti.st/jcolman/yI2rEQ/how-we-destroyed-content-design#sF8qV3v"><img style="1px solid #dedede" src="{{site.media}}/colman_problems_slide.png" alt="Problems from the distributed models" />
 
 In a radical change to this model, Jonathan says they implemented a new change to their way of working at Intercom. As an experiment, they changed the load so that content designers would be “allocated to support no more than 2 product teams each quarter (and usually just 1).” They also switched to “canceling all one-off/ad hoc support mechanisms for other products and teams.” Each content designer would now be “accountable for practicing ‘full-stack content design’ that focuses on systems as well as the surfaces of the products that [they] work on -- and all the fundamentals at every level." Here’s a slide from Jonathon’s presentation showing the change:
 
-<a href="https://noti.st/jcolman/yI2rEQ/how-we-destroyed-content-design#sx3BKKL"><img style="1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reduce_allocation_colman_slide.jpg" alt="Solution" />
+<a href="https://noti.st/jcolman/yI2rEQ/how-we-destroyed-content-design#sx3BKKL"><img style="1px solid #dedede" src="{{site.media}}/reduce_allocation_colman_slide.jpg" alt="Solution" />
 
 Jonathon says they blurred the lines between product design and content design. This means content designers started doing more concept/system design, information architecture, and other tasks, not just UX writing. They had the bandwidth to work more deeply on problems, impact products, set product directions, get involved in roadmaps, and provide more solutions.
 

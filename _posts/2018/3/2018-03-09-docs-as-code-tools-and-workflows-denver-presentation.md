@@ -6,7 +6,7 @@ categories:
 keywords:
 description: "I recently gave presentation to the Rocky Mountain STC on \"Docs-as-code workflows and tools\" on March 9, 2018. The docs-as-code approach is most common in the developer doc space. In this presentation, I explore the upsides and downsides of treating documentation as software code, and what details are involved in adopting engineering tools, workflows, collaborative processes, and other practices. You can view the recording, listen the audio, and browse the slides here."
 bitlink: http://bit.ly/stcrockydocsascode
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/stcrockydocsascode.mp3
 podcast_file_size: 60.2 MB
 podcast_duration: "01:18:09"
@@ -26,7 +26,7 @@ redirect_from:
 
 You can view my slides here:
 
-<a class="noCrossRef" href="https://idratherbewriting.com/docs-as-code-tools-and-workflows"><img style="max-width: 450px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docsascodepresotitle.png"/></a>
+<a class="noCrossRef" href="https://idratherbewriting.com/docs-as-code-tools-and-workflows"><img style="max-width: 450px" src="{{site.media}}/docsascodepresotitle.png"/></a>
 
 ## Audio
 

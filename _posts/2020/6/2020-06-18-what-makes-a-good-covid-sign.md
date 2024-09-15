@@ -13,19 +13,19 @@ description: "Have you noticed lately that there are a million new signs everywh
 
 ## Amount of information to cover
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign1.jpg" alt="Sign 1" />
+<img src="{{site.media}}/covid_sign1.jpg" alt="Sign 1" />
 
 This sign is well-balanced and visually attractive, but there's too much information to take in at a glance, and as a result I don't really absorb anything from it. A sign has at most about 5-10 seconds of attention from those passing by. As a result, signs probably should focus on one brief message and limit the amount of text.
 
 ## Attempts to be nice
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign5.jpg" alt="Sign 5" />
+<img src="{{site.media}}/covid_sign5.jpg" alt="Sign 5" />
 
 Few attempts try to be so polite as this sign, but it comes across as unnecessarily wordy. A simple "Face mask required for entry" would have sufficed. This sign tries to walk the line between being polite and informing people about a county health mandate. Is it the store's "preference" to comply with a county health order?
 
 ## Attempts at humor
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign7.jpg" alt="Sign 7" />
+<img src="{{site.media}}/covid_sign7.jpg" alt="Sign 7" />
 
 This sign prompts people who would normally pause here to look at cows, sheep, and other animals to keep moving, since congregating in one area leads to crowds. Other signs in this farm area are equally humorous -- "Sheep your distance!" and "You goat this!"
 
@@ -35,7 +35,7 @@ That said, it's probably tricky to be funny during a time when thousands of peop
 
 ## Zero visual design skills
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign8.jpg" alt="Sign 8" />
+<img src="{{site.media}}/covid_sign8.jpg" alt="Sign 8" />
 
 This sign's creator had zero visual design skills, and as a result the sign has very little visual appeal. Even the lamination and stapling look done in haste.
 
@@ -45,17 +45,17 @@ Also, the instruction to "Wash your hands frequently" doesn't  apply on a trail 
 
 ## Blocks of information rather than bulleted lists
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign6.jpg" alt="Sign 6" />
+<img src="{{site.media}}/covid_sign6.jpg" alt="Sign 6" />
 
 Similar to the previous sign, this sign doesn't incorporate any visuals except for fancy typography. Clearly someone has skills with chalk. But the long narrative text without any bullet points makes it hard to scan and consume at a glance. This sign appears at the entry of a store, as people are walking in.
 
 ## Clarity and directness without enforcement
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign10.jpg" alt="Sign 10" />
+<img src="{{site.media}}/covid_sign10.jpg" alt="Sign 10" />
 
 I was excited to see park officials re-install basketball rims at the park, but then disappointed to learn that pickup basketball wouldn't be allowed except with my own family. This sign is straightforward and clear, for sure. I thought it cast out all room for misinterpretation. However, glancing at court with people playing ball mocked the notice here. People could freely disregard the policy:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bballcovidgathering.jpg" alt="Bball effect" />
+<img src="{{site.media}}/bballcovidgathering.jpg" alt="Bball effect" />
 
 This leads to another point. It's one thing to put up a sign that clearly states an expected behavior but much more effective to change the environment in a way that enforces the behavior. When the park removed the basketball rims, it was effective in deterring play, but also effective in sending many ballers into states of depression.
 
@@ -63,19 +63,19 @@ This leads to another point. It's one thing to put up a sign that clearly states
 
 With the previous sign that said "Keep mooving!", without the black cloth covering the fences, people would have inevitably stopped and congregated to look at the sheep, goats, cows, etc.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/farmwallscovid.jpg" alt="Walls preventing visibility" />
+<img src="{{site.media}}/farmwallscovid.jpg" alt="Walls preventing visibility" />
 
 With these coverings, there's no point in stopping anymore.
 
 Here's another example where the sign doesn't need to do much because the behavior is enforced. Even if you wanted to drink from the fountain, you would not be able to.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/drinkingfountainsigncovid.jpg" alt="Drinking fountains taped up" />
+<img src="{{site.media}}/drinkingfountainsigncovid.jpg" alt="Drinking fountains taped up" />
 
 ## Combining familiar iconography with new messaging
 
 Now let's look at the approach that I think works best.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign9.jpg" alt="Sign 9" />
+<img src="{{site.media}}/covid_sign9.jpg" alt="Sign 9" />
 
 This is my favorite sign because it combines familiar iconography or symbology ("One Way") with Covid instructions. [Rancho San Antonio](https://www.openspace.org/preserves/rancho-san-antonio) is a system of urban hiking trails, and someone was genius enough to create one-way flows on these trails to eliminate (or at least reduce) two-way traffic. It works extremely well, and even after Covid I would appreciate the same signs because the trail flow is so much better.
 
@@ -83,17 +83,17 @@ The text cascades from large to small, getting more detailed as you keep reading
 
 Here are a few more examples of signs that combine familiar iconography/symbology with Covid instructions:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/donotentercovid.jpg" alt="Familiar symbology" />
+<img src="{{site.media}}/donotentercovid.jpg" alt="Familiar symbology" />
 
 We unconsciously follow this sign because our driving habits have taught us the danger of disobeying Do Not Enter signs.
 
 Here's another Do Not Enter combined with a familiar construction barricade. Using these familiar caution/warning symbols and icons goes a long way toward tapping into our unconscious responses to these signs. Disobeying this sign and walking up this trail would make me feel uncomfortable.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/donotentercovid2.jpg" alt="Familiar symbology/iconography" />
+<img src="{{site.media}}/donotentercovid2.jpg" alt="Familiar symbology/iconography" />
 
 Here's one more. This just works:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/onlycovidsign.jpg" alt="Familiar symbology/iconography" />
+<img src="{{site.media}}/onlycovidsign.jpg" alt="Familiar symbology/iconography" />
 
 You can get the message here at a quick glance, and the instruction is unmistakable.  
 
@@ -101,13 +101,13 @@ Overall, this approach &mdash; combining familiar symbology and iconography with
 
 ## Lumping together groups of people
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign2.jpg" alt="Sign 2" />
+<img src="{{site.media}}/covid_sign2.jpg" alt="Sign 2" />
 
 The sign here lacks visual design (except a yellow color), but it commits another error with "SENIOR/DISABLED" people grouped together. I'm sure that when I'm a senior, I will resent being referred to in this way, just as many are frustrated when people group "women and children" together in the same category. Also, "disabled" is a term that can also offend persons with disabilities.
 
 ## Shouting at people
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign3.jpg" alt="Sign 3" />
+<img src="{{site.media}}/covid_sign3.jpg" alt="Sign 3" />
 
 This sign tries to create visual appeal, but the large "NO" font seems to shout at me without sending a clear message. It's hard to understand at a glance exactly what is prohibited: "reusable or customer's personal bags." That's a mouthful.
 
@@ -117,7 +117,7 @@ I'm not sure how to improve the sign, but it fails for me. Maybe a clever approa
 
 ## Confusing messages
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/covid_sign4.jpg" alt="Sign 4" />
+<img src="{{site.media}}/covid_sign4.jpg" alt="Sign 4" />
 
 If there's one rule for a sign, it's that the text must be clear. I have no idea what "HIKE!!!" means here, yet these signs are read by thousands of people going in and out of Trader Joe's each day. The sign also tries to be preachy without cause, teaching me that "Social distancing is a group effort." Am I to process this instruction about social philosophy as I'm walking past the sign? The last word ("HIKE!!!"), not only in bold but followed by three exclamation marks, leaves me confused. That's the ultimate sin of a sign: confusion. At the very least, a sign should be simple, clear, and direct.
 

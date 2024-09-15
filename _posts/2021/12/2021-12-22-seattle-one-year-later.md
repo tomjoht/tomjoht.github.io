@@ -55,7 +55,7 @@ The Link Light Rail has some advantages over the Sounder train. With the Light R
 
 The bike segment is entirely along a multi-path trail (the Burke Gilman) that follows a large waterway, where boats, kayaks, and others travel. It's very picturesque. Here's the view coming home in the evening at dusk.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/seattle-fremont-trail.png" alt="Burke Gilman trail at dusk in Fremont, Seattle" /><figcaption>Burke Gilman trail at dusk in Fremont, Seattle</figcaption></figure>
+<figure><img src="{{site.media}}/seattle-fremont-trail.png" alt="Burke Gilman trail at dusk in Fremont, Seattle" /><figcaption>Burke Gilman trail at dusk in Fremont, Seattle</figcaption></figure>
 
 The commute still takes about 1 hr and 10 minutes, though, which is not an insignificant amount of time. That's 2 hrs and 20 minutes of my day sitting in a car/light-rail/bike. I find that doing this every weekday is a bit much, so usually 3-4 days a week is enough.
 

@@ -10,7 +10,7 @@ tags:
 - technical writing
 - documentation
 - technical communication
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/transforming-doc-processes.mp3
 podcast_file_size: 8.1 MB
 podcast_duration: "09:56"

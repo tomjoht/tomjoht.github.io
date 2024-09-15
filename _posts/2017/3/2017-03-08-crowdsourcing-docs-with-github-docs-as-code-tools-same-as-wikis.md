@@ -17,7 +17,7 @@ A couple of weeks ago, I thought I was taking a big step forward by putting my d
 
 Here's what my docs look like with the Edit on Github button:
 
-<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/myeditongithubbutton.png" style="max-width:500px;"/></a>
+<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img src="{{site.media}}/myeditongithubbutton.png" style="max-width:500px;"/></a>
 
 When I announced the new Github integration to my project team, the project manager responded enthusiastically about the potential for "crowdsourcing docs."
 
@@ -41,7 +41,7 @@ Putting docs into the same repo as the code might be helpful, but not all docs h
 
 As I was browsing around on some tech comm blogs, I ran across this [slide deck][sarah] from Sarah O'Keefe about her keynote at tcworld India.
 
-<figure><a href="http://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/isitafad.png" style="max-width: 500px;"/></a><figcaption>Slide 29</figcaption></figure>
+<figure><a href="http://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/"><img src="{{site.media}}/isitafad.png" style="max-width: 500px;"/></a><figcaption>Slide 29</figcaption></figure>
 
 Although I don't have more details about this part of her presentation, the word "fad" got me thinking. Is docs as code a fad? How exactly is the docs-as-code trend different from the wiki trend, which peaked about eight years ago and then floundered?
 
@@ -55,7 +55,7 @@ In [My Journey To and From Wikis: Why I Adopted Wikis, Why I Veered Away, and a 
 
 > When the community owns the content, community members can also keep content up to date when the original author flounders. Many times the original author isn't aware of all the places that content is out of date. As community members use the documentation, they often find places that need updating. Because the content is on a wiki, they can quickly and easily make these updates.
 
-![Shared ownership](/images/shared-ownership600.png)
+![Shared ownership]({{site.media}}/shared-ownership600.png)
 
 Additionally, I wanted to iterate continuously on the docs. Wikis removed the need to build, publish, and deploy content. It all happened magically in the browser when you hit save.
 
@@ -82,7 +82,7 @@ One barrier insiders frequently ran up against was the inability to access knowl
 
 In short, they lacked the information, resources, and contacts to actually get the information they needed to write the articles. But if I had to get all this info and somehow transfer it to the volunteer writer, I felt I'd done most of the work already.
 
-![Access to insider knowledge](/images/knowledge-needed600.png)
+![Access to insider knowledge]({{site.media}}/knowledge-needed600.png)
 
 Besides contributing to the blog, some people also made edits to docs on the wiki. But the same problems existed. All contributions happened post-release, so their edits were applied to existing docs. The people who made edits to existing docs usually did so in awkward ways that required fixing or other edits.
 
@@ -108,7 +108,7 @@ To make crowdsourcing work, you have to chunk tasks into a little, almost effort
 
 I compared the crowdsourcing strategy to moving projects. If you put everything in boxes, each volunteer can easily grab and carry a box. But if everything isn't already packed up in easy-to-transport boxes, the volunteers flounder.
 
-![Effortless chunks of content](/images/moving-service-project-600.png)
+![Effortless chunks of content]({{site.media}}/moving-service-project-600.png)
 
 But writing doesn't granularize into little effortless chunks/boxes like that, so these efforts fail. For example, you can't ask 100 people to each write 1 sentence in an article.
 
@@ -138,7 +138,7 @@ Even for non-engineers, giving people a simple tool and publishing workflow can 
 
 Again, forget about crowdsourcing. Docs as code is giving people simple, free, open-source tools to do the writing/publishing tasks they need to do. For that purpose alone, docs as code has the power to move beyond just being a fad. There is real value in empowering common people to author and publish content (without expensive help authoring tools, without knowledge of XML syntax, without years of professional tech writing know-how, etc.).
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifiedauthoringtools-01.png" style="max-width: 600px;"/>
+<img src="{{site.media}}/simplifiedauthoringtools-01.png" style="max-width: 600px;"/>
 
 Simplification of authoring and publishing tools is at the heart of the docs-as-code movement. No more black boxes that handle your content. No more expensive, proprietary systems to submit to. No more impossible-to-adjust-outputs-unless-you-know XSLT/XSFO-XS-whatever to style your output. You can integrate it all simply, easily, and inexpensively. It works with other web tools and other systems too. You can integrate with the latest web technologies and tools. You can leverage help from modern UX devs.
 

@@ -19,7 +19,7 @@ published: false
 Although informative research has been done to gather general tech comm trends, few surveys limit the responses to only those working in the developer doc space. I recently gathered information about dev doc trends from more than 400 respondents specifically working in dev docs (mostly API docs) through a comprehensive 50-question survey. The results, which you can view here (https://www.questionpro.com/t/PGhS9ZgCFE), show that the tools, workflows, and challenges for those working in API docs differ in notable ways from those working with other types of docs. In this presentation, I'll both present the findings of this research and analyze their significance. The survey's results can help orient, direct, and validate the experiences of technical writers working in the dev doc space.
 
 slides: https://idratherbewriting.com/slides/devdoctrends.html#/
-photo: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.jpg
+photo: {{site.media}}/tomjohnson_small.jpg
 
 *About Tom Johnson*
 

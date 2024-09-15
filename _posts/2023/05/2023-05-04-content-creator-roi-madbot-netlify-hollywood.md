@@ -50,7 +50,7 @@ These courses are “lean” and not full of theoretical or abstract knowledge s
 
 Note that the next 8-week Jump School seminar starts May 8, 2023. There's also an open enrollment flex option.
 
-<a href="https://idbwrtng.com/becometechnicalwriter2"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jumpschooloptionsmay8.png" alt="Jump School courses" /></a>
+<a href="https://idbwrtng.com/becometechnicalwriter2"><img src="{{site.media}}/jumpschooloptionsmay8.png" alt="Jump School courses" /></a>
 
 [Learn more >](https://idbwrtng.com/becometechnicalwriter2)
 

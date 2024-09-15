@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "In a presentation to the STC Suncoast chapter, Mark Lewis compares object-oriented design to content re-use. It's an apt comparison that helps illustrate the parallels between programming and single sourcing."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/oodesignthumb.png
+image: thumbnails/oodesignthumb.png
 ---
 
 * TOC

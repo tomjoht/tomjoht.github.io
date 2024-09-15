@@ -36,7 +36,7 @@ Given the 35% drop in page views, I want to explore possible reasons.
 
 I didn't see stark differences that map to these exact timeframes. There's just a general atrophy/dip that starts to happen in July onward. 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pageviewsscreenshotanalytics2023.png" alt="Traffic graph on Idratherbewriting.com" />
+<img src="{{site.media}}/pageviewsscreenshotanalytics2023.png" alt="Traffic graph on Idratherbewriting.com" />
 
 **What about the impact of AI?** Yes, AI tools have grown increasingly stronger in 2023, but it's hard to know if traffic is being diverted to ChatGPT or other sites. It could be that technical writers are more focused on learning AI, and other sites provide better content and training related to AI. In 2023, I added a new section called [AI tools and API documentation](/ai/index.html), but it was difficult to write because the landscape is changing so fast, no one has a handle on the best approaches to use, and it's hard to distill best practices into concrete strategies that people can adopt for different companies, products, and tools. That section didn't become "the go-to-place" for tech comm AI by any means. In contrast, usually when a beginner is looking to learn about API documentation, people often recommend my site.
 

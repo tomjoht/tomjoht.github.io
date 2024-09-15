@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords: jekyll, documentation, creating documentation with jekyll, static site generators for technical writing
 description: "Version 4.0 of the Jekyll Documentation Theme now supports multiple projects inside the same theme. This allows you to use the theme for any number of documentation projects with any number of authors."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekylltheme40thumb.png
+image: thumbnails/jekylltheme40thumb.png
 ---
 
 * TOC

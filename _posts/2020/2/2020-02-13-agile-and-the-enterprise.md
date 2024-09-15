@@ -12,7 +12,7 @@ description: "Agile software development seems to favor independent, autonomous 
 
 {{site.data.alerts.note}} This article  appeared in the <a href='https://www.stc.org/intercom/2020/01/autonomous-agile-teams-and-enterprise-content-strategy-an-impossible-combo/'>November 2019 issue of the <i>STC Intercom</i> magazine</a> (vol 66, issue 7). The original version was a blog post I wrote in mid-2019, which I revised and updated for the <i>Intercom</i> article, with the editorial help and input from <a href='https://simplea.com/Home'>Cruce Sanders at [A]</a>. You can also listen to a related podcast called <a href='https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem'>Unifying Technical Content Sets into a Broader Ecosystem</a>, where Cruce and I talk about these issues. {{site.data.alerts.end}}
 
-<a href="https://www.stc.org/intercom/download/2019/"><img style="max-width: 300px; border: 1px solid gray" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/intercomnov192.png" alt="STC Intercom, Vol 66, Issue 7"/></a>
+<a href="https://www.stc.org/intercom/download/2019/"><img style="max-width: 300px; border: 1px solid gray" src="{{site.media}}/intercomnov192.png" alt="STC Intercom, Vol 66, Issue 7"/></a>
 
 ## Agile versus the enterprise
 
@@ -56,7 +56,7 @@ Style guides for tech docs are similarly helpful, but content by nature is messy
 
 Independent documentation that doesn’t consider anything beyond itself might be acceptable, just as a C or B- might be a passing grade on a test. To increase the quality of documentation, writers have to increase their sense of awareness. The following graphic shows these degrees of awareness:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/awarenesstrianglesimplea2.png" alt="Levels of awareness" />
+<img src="{{site.media}}/awarenesstrianglesimplea2.png" alt="Levels of awareness" />
 
 The first level of awareness is to master your own product. Understanding your product as a SME is practically required to write detailed documentation in the first place.
 

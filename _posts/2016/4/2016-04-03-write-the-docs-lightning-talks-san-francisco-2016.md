@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: write the docs, san francisco wtd meetup, lightning talk recordings, github
 description: "At the last Write the Docs meetup in San Francisco on March 29, we had 11 presenters give lightning talks. This post includes the recordings (audio + slides) of each presenter. There's also a compiled audio file in case you just want to listen to the audio. Lightning talks are a fun format that allows a lot of different members to present their own perspective and learning."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdthumbsflightning.png
+image: thumbnails/wtdthumbsflightning.png
 ---
 
 * TOC

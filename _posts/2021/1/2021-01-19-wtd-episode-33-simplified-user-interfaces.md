@@ -34,13 +34,13 @@ Here's the description of this episode:
 
 Here's a sample simplified user interface:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/episode33-suiexample.png" alt="simplified user interface example" />
+<img src="{{site.media}}/episode33-suiexample.png" alt="simplified user interface example" />
 
 In this case, the shortcut commands are removed because they aren't important for the scenario.
 
 Anton says that predictive eyetracking shows that users will focus on these unimportant areas. Removing them strengthens the focus on what matters.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/episode33-eyetracking.png" alt="predictive eyetracking confirms the focus" />
+<img src="{{site.media}}/episode33-eyetracking.png" alt="predictive eyetracking confirms the focus" />
 
 For more details, see [Snagit Tutorial: How to Simplify Your Screenshots](https://www.techsmith.com/tutorial-snagit-simplify.html).
 

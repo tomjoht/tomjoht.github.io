@@ -6,7 +6,7 @@ categories:
 keywords:
 description: "I recently returned from the 2017 Write the Docs conference in Portland, Oregon. The conference had two days of sessions (Monday and Tuesday), preceded by a day of doc writing sprints and workshops. I also participated in a 5-mile conference hike on Saturday. Although this was the fifth year of the WTD conference (it began in 2013), this was my first time attending. In this post, I'll share my impressions of the conference, contrasting it primarily with other tech comm conferences such as the STC."
 bitlink: "http://bit.ly/wtdconfwriteup"
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdportlandstorm.png
+image: thumbnails/wtdportlandstorm.png
 ---
 
 * TOC
@@ -22,7 +22,7 @@ It wasn't until later that this tribe learned about other documentation tribes a
 
 At the first WTD conference, there were an astounding 250 attendees. This surprised the co-founders and reinforced the need for a documentation community. Now at the fifth year of the WTD conference, the conference sold out with a cap of 600 attendees. They moved into a larger venue, [The Crystal Ballroom](http://www.crystalballroompdx.com/), and have a host of speakers, workshops, unconference sessions, and other activities for 4 days straight.
 
-![Crystal Ballroom](/images/mywritethedocsconferencevenue.png)
+![Crystal Ballroom]({{site.media}}/mywritethedocsconferencevenue.png)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy to be learning at the <a href="https://twitter.com/hashtag/writethedocs?src=hash">#writethedocs</a> conference at the Crystal Ballroom here in Portland! <a href="https://t.co/a4CdpBh0ka">pic.twitter.com/a4CdpBh0ka</a></p>&mdash; Brandon Rhodes (@brandon_rhodes) <a href="https://twitter.com/brandon_rhodes/status/864184264295718912">May 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

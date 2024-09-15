@@ -33,7 +33,7 @@ description: "I recently gave a presentation on technical communication trends t
 
 ## Slides
 
-<a href="https://idratherbewriting.com/slides/trends_stc19/#/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trendsslidesthumb.png" style="max-width: 350px" alt="Tech Comm Trends slides"/></a>
+<a href="https://idratherbewriting.com/slides/trends_stc19/#/"><img src="{{site.media}}/trendsslidesthumb.png" style="max-width: 350px" alt="Tech Comm Trends slides"/></a>
 
 ## Presentation description
 
@@ -51,7 +51,7 @@ description: "I recently gave a presentation on technical communication trends t
 
 ## Venue
 
-<a href="https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcpugetsoundgenspec.png" alt="STC Puget Sound presentation" /></a>
+<a href="https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/"><img src="{{site.media}}/stcpugetsoundgenspec.png" alt="STC Puget Sound presentation" /></a>
 
 Details about the event from STC Puget sound are [here](https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/).
 

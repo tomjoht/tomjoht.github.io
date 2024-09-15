@@ -26,7 +26,7 @@ For a more current article that reflects what many tech firms are currently doin
 
 The current protests and other efforts for reform, along with this article and the tech comm profession's demographics, prompted me to reflect more about ethnic diversity in tech comm. Looking at the demographics of the tech comm profession from [Data USA](https://datausa.io/profile/soc/technical-writers#ethnicity), it shows that 84% of technical writers are White, 7% are Asian, and 6% are Black. This profile is similar to the findings in Saul Carliner's [2018 Tech Comm Census](https://www.stc.org/intercom/2019/01/who-technical-communicators-are-a-summary-of-demographics-backgrounds-and-employment/), where he found that "Diversity appears to be a challenge in technical communication. Eighty-one percent identified as White. Association with other groups ranges from 2 to 5 percent."
 
-<a href="https://www.stc.org/intercom/2019/01/who-technical-communicators-are-a-summary-of-demographics-backgrounds-and-employment/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/racialpercentagesintechcomm.png" alt="Racial percentages for the Tech Comm profession" /></a>
+<a href="https://www.stc.org/intercom/2019/01/who-technical-communicators-are-a-summary-of-demographics-backgrounds-and-employment/"><img src="{{site.media}}/racialpercentagesintechcomm.png" alt="Racial percentages for the Tech Comm profession" /></a>
 
 ## Getting to know you
 

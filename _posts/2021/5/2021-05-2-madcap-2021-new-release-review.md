@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/madcapmarkdownimport
 description: "MadCap Flare’s first major new release of 2021 includes, among other new features, the ability to import Markdown files. There are several workflows where this Markdown import could be useful, most notably in scenarios where tech writers support multiple engineering teams that author READMEs and other how-to content in code repos."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/markdownmadcapflarethumb.png
+image: markdownmadcapflarethumb.png
 ---
 
 * TOC
@@ -18,7 +18,7 @@ _Note: This is a sponsored post._
 
 In the MadCap Flare 2021 release, you can now import Markdown files directly into your Flare projects in a robust, automated way. In the Project > Import menu, “Markdown Documents” now appears as an option:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flaremkimportproject3.png" alt="Markdown file import feature in Flare 2021" /><figcaption>Markdown file import feature in Flare 2021</figcaption></figure>
+<figure><img src="{{site.media}}/flaremkimportproject3.png" alt="Markdown file import feature in Flare 2021" /><figcaption>Markdown file import feature in Flare 2021</figcaption></figure>
 
 Note that the Flare editor doesn’t support native authoring in Markdown directly. Instead, the workflow is one of importing Markdown files (authored elsewhere) into Flare. The supported Markdown flavor is CommonMark Markdown (which is also the standard embraced by OpenAPI).
 
@@ -26,7 +26,7 @@ The scenario MadCap Software envisions for tech writers importing Markdown is as
 
 Admittedly, converting Markdown to HTML is a no-brainer with tools like Pandoc. However, Flare’s Markdown import editor goes beyond just importing Markdown content. With Flare, you can map each of the Markdown elements to CSS elements in your project. The mapped stylesheet can be your main stylesheet in Flare or a special stylesheet you’ve created just for the Markdown import. Here’s what the style mapping dialog box looks like:
 
-<figure><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flaremapcssmarkdown.png" alt="Flare's style mapping options with Markdown file import" /><figcaption>Flare's style mapping options with Markdown file import</figcaption></figure>
+<figure><img style="border: 1px solid #dedede" src="{{site.media}}/flaremapcssmarkdown.png" alt="Flare's style mapping options with Markdown file import" /><figcaption>Flare's style mapping options with Markdown file import</figcaption></figure>
 
 In this example, the CSS shown is just the standard HTML elements, but you could also have specific classes and divs instead.
 
@@ -40,7 +40,7 @@ When you create the import, Flare creates an import file that remembers and stor
 
 The Markdown import options also include a box called “Auto-reimport before generate output”:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flaremarkdownimportreimport.png" alt="Option to auto-reimport before building the output" /><figcaption>Option to auto-reimport before building the output</figcaption></figure>
+<figure><img src="{{site.media}}/flaremarkdownimportreimport.png" alt="Option to auto-reimport before building the output" /><figcaption>Option to auto-reimport before building the output</figcaption></figure>
 
 This setting (which is optional) allows you to reimport the Markdown files in an automated way each time before you build your output in Flare. This treats the import not as a one-time task but rather as part of a regular authoring and publishing workflow. This workflow points to one of the most interesting aspects of the Markdown import. In the import workflow, you opt to essentially turn Flare off as an editor and instead use Flare as a publishing engine for the content. (Note that importing Markdown files bypasses the content management features you might use in Flare, such as snippets, variables, and conditional tagging.)
 

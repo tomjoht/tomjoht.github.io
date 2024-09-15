@@ -12,17 +12,17 @@ description: "AI topics have saturated online posts <i>ad nauseam</i>, and I wou
 * TOC
 {:toc}
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docwebsitetochatinterface.png" alt="AI chat becomes the new interface for reading docs" />
+<img src="{{site.media}}/docwebsitetochatinterface.png" alt="AI chat becomes the new interface for reading docs" />
 
 ## My moment of epiphany
 
 Last week I tried to write a shell script to handle a documentation generation and publishing workflow. I have a limited understanding of shell scripts and so relied on AI chat to help me with some basic concepts. My chat proceeded like this:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shellscriptchat1.png" alt="Asking AI questions about shell scripts" />
+<img src="{{site.media}}/shellscriptchat1.png" alt="Asking AI questions about shell scripts" />
 
 And more basic questions: 
 
-<a href="https://phind.com"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shellscriptchat2.png" alt="Asking AI questions about shell scripts" />
+<a href="https://phind.com"><img src="{{site.media}}/shellscriptchat2.png" alt="Asking AI questions about shell scripts" />
 
 Instead of looking for an answer on Stack Overflow, I asked ChatGPT, and it provided a decent answer. When the code didn’t work or I needed some adjustment, I told the chat. Each time it responded just like I had a real, live developer friend on a message chat, ready to answer my questions.
 
@@ -43,7 +43,7 @@ By user interface, I mean the documentation web page and platform the user inter
 
 To illustrate, copy the URL in the address bar and ask Bard to summarize this article. It will return a few paragraphs summarizing the ideas. In this case, the AI chat becomes the interface for the information. That’s the gist of my point, except the AI is smart enough to synthesize and learn from thousands of sources to get the information.
 
-<a href="https://google.com/bard"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bardsummarizeme.png" alt="AI summarizing the information and thus becoming the interface for consuming the documentation" /></a>
+<a href="https://google.com/bard"><img src="{{site.media}}/bardsummarizeme.png" alt="AI summarizing the information and thus becoming the interface for consuming the documentation" /></a>
 
 This idea of chat becoming the primary user interface for documentation is profound. It means that there's less emphasis on having a cool, professional site for your docs. You could probably discard minimalism or worries about information architecture flow and user experience. Discard all those high-end graphics too. What does documentation become? The source that powers the AI chat interface. As such, documentation must be written for machine consumption. What matters isn’t so much the UX of your doc site, but the UX of the AI chat based on the information it consumed from your documentation.
 
@@ -65,7 +65,7 @@ For popular tools that already have countless tutorials and documentation online
 
 I observed this point about AI needing sources while using [Phind.com](https://phind.com), a new GPT-powered search for developers. The right sidebar shows the sources of the chat’s responses. This makes it clear that the AI isn’t just writing out of thin air but learning from sources. Remove those sources, and the AI becomes dumb.
 
-<a href="https://phind.com"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/phindscreenshotsources.png" alt="Phind screenshot showing sources that contribute to the AI response" /></a>
+<a href="https://phind.com"><img src="{{site.media}}/phindscreenshotsources.png" alt="Phind screenshot showing sources that contribute to the AI response" /></a>
 
 Why not go to the original sources first? For the most part, through the chat interface, users can get the specific information they need, asking questions and receiving answers. They won’t have to slog through an extensive site page by page looking for answers. Who wouldn’t prefer the more immediate experience?
 

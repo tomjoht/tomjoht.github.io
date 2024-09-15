@@ -6,7 +6,7 @@ categories:
 keywords: usability, twilio, user experience
 description: "In this podcast, I chat with Professor <a href='#kirk_st_amant'>Kirk St. Amant</a> about the relationship between practitioners and academics. Kirk recently co-authored an article about research as a unifying focus to bring academics and practitioners together. Using this article as the basis for discussion, we dive into origins of the divide, why both practitioners and academics of the same field need each other, potential solutions, and more."
 bitlink: http://bit.ly/practitioneracademicrelationships
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+image: idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/researchkirkstamantpodcast.mp3
 podcast_file_size:  50 MB
 podcast_duration: "56:22"

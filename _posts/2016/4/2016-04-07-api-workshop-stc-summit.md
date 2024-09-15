@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "If you're planning to go to the STC Summit this year, or you're looking to get more information on API documentation, check out my pre-conference Summit workshop. I'm teaching a half-day workshop on REST API documentation. This will take place Sunday, May 15 from 8:30am to noon."
-image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsummitanaheimworkshopthumb.png
+image: thumbnails/stcsummitanaheimworkshopthumb.png
 ---
 
 * TOC

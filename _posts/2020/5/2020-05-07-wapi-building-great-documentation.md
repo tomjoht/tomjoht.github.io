@@ -18,7 +18,7 @@ description: "I recently participated in an online radio-style chat about docume
 
 The <a href="https://wapi.fm/">WAPI.fm</a> site lists the available episodes (three so far):
 
-<a href="https://wapi.fm/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wapiradio.png" alt="WAPI radio" /></a>
+<a href="https://wapi.fm/"><img src="{{site.media}}/wapiradio.png" alt="WAPI radio" /></a>
 
 Here's the episode with Andrew and me:  
 
