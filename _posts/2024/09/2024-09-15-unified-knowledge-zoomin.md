@@ -1,13 +1,12 @@
 ---
-title: "Unified Knowledge powered by Zoomin Software -- Q&A with Paul Maass"
+title: "Unified Knowledge powered by Zoomin -- Q&A with Paul Maass"
 permalink: /blog/unified-knowledge-zoomin
 date: 2024-09-15
 categories:
 - technical-writing
-- ai
-keywords: unified knowledge, Zoomin, Paul Maas
+keywords: unified knowledge, Zoomin, Paul Maass
 rebrandly: https://idbwrtng.com/unified-knowledge-zoomin
-description: "The following is a Q&A post with Paul Maas of Zoomin Software about Unified Knowledge. Paul says Unified Knowledge integrates diverse content sources to improve AI-powered service interfaces and customer support. He explains the challenges of content management, the role of AI in technical documentation, and gives insights into preparing for knowledge systems driven by AI."
+description: "The following is a Q&A post with Paul Maass of Zoomin about Unified Knowledge. Paul says Unified Knowledge integrates diverse content sources to improve AI-powered service interfaces and customer support. He explains the challenges of content management, the role of AI in technical documentation, and gives insights into preparing for knowledge systems driven by AI."
 image: paul_maas.jpg
 ---
 
