@@ -82,3 +82,6 @@ folders:
 
   - title: "Using long-token contexts to quality check an entire API doc set"
     jurl: /ai/prompt-engineering-entire-doc-set-prompts.html
+
+  - title: "Using AI to jump-start code samples"
+    jurl: /ai/prompt-engineering-code-samples.html
