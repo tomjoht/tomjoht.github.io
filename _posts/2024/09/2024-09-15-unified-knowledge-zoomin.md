@@ -116,10 +116,8 @@ If your company is concerned about using GPT with your content for public consum
 To learn more about Unified Knowledge and get a personalized demo, visit [The future of generative AI starts with
 Unified Knowledge](https://www.zoominsoftware.com/unified-knowledge).
 
-## About Paul Maass, VP Global Account Management, Zoomin {:#paul-maas}
+## About Paul Maass, VP Global Account Management, Zoomin {:#paul-maass}
 
 <figure style="float: left; margin-right: 15px; margin-top: -2px; max-width: 200px;"><a class="noCrossRef" href="https://www.zoominsoftware.com/unified-knowledge"><img src="{{site.media}}/paul_maas.jpg" alt="Paul Maas" /></a></figure>
 
 Since joining Zoomin in 2020, Paul Maass has worked with the world's leading organizations on self-service initiatives and methods to better leverage knowledge. He has helped companies leverage the full corpus of product information created by organizations to delight customers, empower them to self-serve, and reduce unnecessary support costs. Prior to his time at Zoomin, he spent time as Head of Sales and Account Management in organizations focused on content personalization and content delivery on mobile devices for customers on the go.
-
-
