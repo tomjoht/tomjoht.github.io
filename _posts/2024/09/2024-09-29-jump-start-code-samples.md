@@ -1,7 +1,7 @@
 ---
 title: "Using AI to jump-start code samples"
 permalink: /blog/prompt-eng-jump-start-code-samples
-date: 2024-09-30
+date: 2024-09-29
 categories:
 - technical-writing
 - ai
