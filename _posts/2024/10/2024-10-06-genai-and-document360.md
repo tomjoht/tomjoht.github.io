@@ -53,6 +53,19 @@ Here's a bullet list of topics covered in the transcript:
 
 {% include ads.html %}
 
+## Links
+
+* [Document360](https://document360.com)
+* [Kovai.co](https://www.kovai.co/)
+* [Saravana Kumar (Linkedin)](https://www.linkedin.com/in/saravanamv/)
+* [Midjourney's documentation](https://docs.midjourney.com/)
+
+## Previous posts on Document360
+
+* [How does Document360 handle challenges with API documentation?](/blog/document-360-review/)
+* [The story behind Document360 -- podcast with founder Saravana Kumar](/blog/document-360-podcast-saravana-kumar-founder)
+* [First look at Document360 -- an authoring/publishing tool that satisfies both KB and tech pubs needs](/blog/document360-hybrid-between-tech-docs-and-support-tools/)
+
 ## Transcript
 
 Here's a transcript of the podcast. (This was cleaned up a bit by AI to make it more readable.)
@@ -63,7 +76,7 @@ Saravana, we had a [podcast a few years back](https://idratherbewriting.com/blog
 
 **Saravana Kumar:** Sure. First of all, thank you very much, Tom, for having me on the show. I've been reading about your stuff for a very long time. To give you a brief about myself, my name is Saravana. I'm the founder of a company called Kovai.co, which is the umbrella company. Under the company, we have three different products. Two of them are more in the Microsoft ecosystem, and that's how the company got started. Document360 is our third product.
 
-We started Document360 back in 2017-2018. It came out of pure accident, I would say. While writing documentation for our other two products, which are more in the enterprise space and require a lot of documentation - when you're dealing with customers like Boeing and IKEA, it's quite a complex product and requires extensive documentation - that's when I identified a gap in the market. 
+We started Document360 back in 2017-2018. It came out of pure accident, I would say. While writing documentation for our other two products, which are more in the enterprise space and require a lot of documentation&mdash;when you're dealing with customers like Boeing and IKEA, it's quite a complex product and requires extensive documentation&mdash;that's when I identified a gap in the market. 
 
 On one side, the market was dominated by typical customer support products like Zendesk, Freshdesk, and ServiceNow. They have some kind of documentation module. On the other side, you have really complicated or legacy systems. I won't say legacy, but more complex, like component-based content management systems or headless CMS. People go to extreme lengths to have documentation for their product. That's when we saw something in the middle and started the company.
 
@@ -75,11 +88,11 @@ This must be a very interesting time to be developing software tools during this
 
 **Saravana Kumar:** I'll say I put myself more in the enthusiast category. If you look at it, when this Gen AI stuff started coming around 12-15 months ago, the whole industry shifted. Today, everybody just adds AI to whatever they're doing. Every website you go to says "AI-powered." Sometimes I feel like they're trying to put lipstick on it. Probably the product itself is not really suitable for anything to do with AI or Gen AI, but everybody claims they're an AI company or an AI-first company. 
 
-But in our case, it's one of those products - and I'm not saying this just because I'm the founder of Document360 - it's one of the products where it naturally fits into the transition of generative AI. Because today, every company realizes that for Gen AI to work properly, you need to sort out your underlying knowledge base and documentation. Everything needs to be in order. That's the shift that happened immediately.
+But in our case, it's one of those products&mdash;and I'm not saying this just because I'm the founder of Document360&mdash;it's one of the products where it naturally fits into the transition of generative AI. Because today, every company realizes that for Gen AI to work properly, you need to sort out your underlying knowledge base and documentation. Everything needs to be in order. That's the shift that happened immediately.
 
 Today, the reason for our growth is also contributed to some of these elements. I think we saw two phases which helped us in the growth. One, even COVID helped us because when remote working and people not coming to the office happened, people realized how important it is to have documentation. People didn't document things, and they're just jumping and finding a documentation product. That was the first wave. 
 
-The second wave is this whole AI stuff. Everybody thinks, "Now having structured data and having something centralized is very important for any AI stuff to work on top of it." That's why I'm super enthusiastic. Even though I mentioned I have three products, the top priority for us is Document360 now. Over 60% of the company - close to 170 people - work in Document360 today, and I spend nearly 70% of my time on Document360. 
+The second wave is this whole AI stuff. Everybody thinks, "Now having structured data and having something centralized is very important for any AI stuff to work on top of it." That's why I'm super enthusiastic. Even though I mentioned I have three products, the top priority for us is Document360 now. Over 60% of the company&mdash;close to 170 people&mdash;work in Document360 today, and I spend nearly 70% of my time on Document360. 
 
 I'm super excited about the landscape, where we are, and where it will go. It's all super exciting for us. I keep seeing a lot of young startups coming into that space, but a lot of them, I feel, are like small features that should be part of a product like ours. They're trying to build a startup out of it. So that is all exciting. We are spinning up teams to address those kinds of new innovative ideas. 
 
@@ -99,7 +112,7 @@ But today, if you go and do the search on Document360, on any site powered by Do
 
 This time, what happens is it analyzes all the articles and gives you precisely the answer you're looking for that will solve the problem. At the bottom, we'll show you the seven references we used. Previously, we would have listed these and said, "Hey, these are the seven articles we referenced." Now, we derive this answer for you, and that gives you a precise answer.
 
-We also now have citations. When there is context, we'll say, because a single sentence could have come from two different articles. That's the power of Gen AI - it could have stitched those two articles and put together a sentence, and we give a citation. This particular sentence came from articles one and two. Now you get a precise answer, and it really empowers the user much more. 
+We also now have citations. When there is context, we'll say, because a single sentence could have come from two different articles. That's the power of Gen AI&mdash;it could have stitched those two articles and put together a sentence, and we give a citation. This particular sentence came from articles one and two. Now you get a precise answer, and it really empowers the user much more. 
 
 From a customer side, you can imagine how much this impacts two factors. One, it reduces your support tickets. Because if you don't answer the question correctly, the immediate next step would have been the customer sending an email to support@xyz.com, and then the whole chain of conversations around that thing. You've solved that problem. 
 
@@ -161,7 +174,7 @@ For example, in our case, we have an article which is performing very well. It's
 
 So SEO becomes so important. We have a feature, for example, where with the click of a button, it will automatically say, "What is the best title you can have for this article? What is the best meta description you can have for this article?" And you can also do it at scale. We have customers who maybe never looked at it in the past, and they have like 500 articles where nobody really cared about putting those meta descriptions and titles. You can click a button and say, "Hey, can you go and fix it across my entire knowledge base?" It just does it for you.
 
-Another interesting thing is glossary. I'm sure you've come across glossary maintenance - it's a really complicated thing, right? If you are a product like Stripe, you need to explain what is CAC (Customer Acquisition Cost), what is Annual Recurring Revenue (ARR), Monthly Recurring Revenue (MRR), MQL, PQL, SQL, all these terminologies. The technical writer needs to keep up and maintain the glossary.
+Another interesting thing is glossary. I'm sure you've come across glossary maintenance&mdash;it's a really complicated thing, right? If you are a product like Stripe, you need to explain what is CAC (Customer Acquisition Cost), what is Annual Recurring Revenue (ARR), Monthly Recurring Revenue (MRR), MQL, PQL, SQL, all these terminologies. The technical writer needs to keep up and maintain the glossary.
 
 Today, we can actually say, "Did you detect any glossary terms in my article?" Click a button, and it'll tell you, "Hey, these are the glossaries you can pick up." You can also do it at scale again across the entire knowledge base. The entire glossary can be automatically maintained, and it will give you suggestions. We don't really, you know, the technical author still needs to go and say, "Okay, this is good, this is good," and then it goes public, but it helps a lot.
 
