@@ -8,6 +8,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/notebooklm-podcasts-and-technical-writing
 description: "<a href='https://notebooklm.google.com/'>NotebookLM</a> can automatically generate podcasts about any content you provide. In exploring these podcasts this week, I think these podcasts might complete a piece that was missing from the GenAI picture with tech comm: these podcasts can help you understand and learn the content you're working on, even when other AI techniques might shortcut that knowledge."
+image: conversationainotebook.png
 ---
 
 * TOC
