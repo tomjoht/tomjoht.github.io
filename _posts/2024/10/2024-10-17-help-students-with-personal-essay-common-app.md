@@ -7,7 +7,6 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/help-students-with-personal-essay-common-app
 description: "There are common milestones that most parents are familiar with — helping your child learn to ride a bike, drive a car, to get their first job. But there's one not many think of, yet is equally important: helping your child write the personal essay that's part of the college application. As I have two kids already in college, I've helped them complete this last step. Another one is currently a senior in high school, and the last is just starting high school. Helping your child/student with the personal essay is a topic that deserves some consideration and explanation in its own right as a topic."
-published: false
 # thumb: 
 ---
 
