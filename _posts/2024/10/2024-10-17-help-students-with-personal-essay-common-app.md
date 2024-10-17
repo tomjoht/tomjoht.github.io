@@ -38,7 +38,7 @@ I've found the same body doubling technique necessary with my other kids. If lef
 
 ## Have a conversation, then brainstorm an outline
 
-To help the student figure out what to write, I'll start chatting with them, almost like an interview. For example, I'll start asking them various questions to see what catches their interest, and then go deeper in that topic. Those conversations and notes often become the outline that the student uses to write a first draft. Sometimes an idea *I *have in mind isn't what the student finds interesting. To use a fishing analogy, you have to drop a line in the water and see where the fish bites; when you feel the bite, reel in that direction.
+To help the student figure out what to write, I'll start chatting with them, almost like an interview. For example, I'll start asking them various questions to see what catches their interest, and then go deeper in that topic. Those conversations and notes often become the outline that the student uses to write a first draft. Sometimes an idea *I* have in mind isn't what the student finds interesting. To use a fishing analogy, you have to drop a line in the water and see where the fish bites; when you feel the bite, reel in that direction.
 
 Once a student has a draft of something, it's easy to provide feedback on it — for example, to highlight those areas that are interesting and those that aren't. Then I ask a few questions about those interesting parts the student has written as a way to help them expand the details and ideas. In short, you want to zero-in on those areas that are interesting and expand them.
 
@@ -90,9 +90,9 @@ There's a lot more I could say about this topic. Even after helping two children
 
 If you're a parent, whether your child is nearing the college application phase or not, keep this personal essay milestone in mind. It's one of the more rewarding milestones as a parent. Before you know it, your student will be sitting down to write, probably hit a snag at the blank page. It will be your turn to go into action and help.
 
-## Applying the personal essay question to tech writing
+## Applying the personal essay question to tech writing?
 
-I've been thinking a lot about UW's personal essay question, "Tell a story from your life, describing an experience that either demonstrates your character or helped to shape it." And I've wondered how I would respond to this. How could I adapt this to the technical writing slant of my blog and address this question: Tell a story from your life, describing an experience that either demonstrates your profession as a technical writer or helped to shape it." What would I write? Say? I have 650 words to do so. Maybe stay tuned for an upcoming post on this topic.
+I've been thinking a lot about UW's personal essay question, "Tell a story from your life, describing an experience that either demonstrates your character or helped to shape it." And I've wondered how I would respond to this. How could I adapt this to the technical writing slant of my blog and address this question: *Tell a story from your life, describing an experience that either demonstrates your profession as a technical writer or helped to shape it.* What would I write? Say? I have 650 words to do so. Maybe stay tuned for an upcoming post on this topic.
 
 
 {% include ads.html %}
