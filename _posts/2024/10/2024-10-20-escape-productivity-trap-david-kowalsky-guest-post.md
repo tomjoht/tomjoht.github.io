@@ -9,7 +9,6 @@ rebrandly: https://idbwrtng.com/escape-productivity-trap-david-kowalsky-guest-po
 description: "The following is a guest post by <a href='#david_kowalsky'>David Kowalsky</a> exploring some productivity and time management topics based on his reading and experiences with Oliver Burkeman's *Four Thousand Weeks*. The book encourages you to escape the efficiency trap and focus on what really matters in your limited time."
 bio: false
 author: <a href='#david_kowalsky'>David Kowalsky</a>
-published: false
 ---
 
 * TOC
@@ -62,9 +61,9 @@ Burkeman says to focus on one big project at a time and see it through to comple
 
 ### Keep a done list {#done_list}
 
-For people that like to make daily lists, it is easy to get discouraged by not finishing everything by the end of the day. As an alternative, start first thing in the morning with an empty list. Throughout the day, add to the list all the things you've accomplished. The idea is to feel better ("small wins") by recognizing everything you have got done. Focus on the positive ("Look at all I got done today") and not the negative ("I hardly got anything done today").
+For people that like to make daily lists, it's easy to get discouraged by not finishing everything by the end of the day. As an alternative, start first thing in the morning with an empty list. Throughout the day, add to the list all the things you've accomplished. The idea is to feel better ("small wins") by recognizing everything you have got done. Focus on the positive ("Look at all I got done today") and not the negative ("I hardly got anything done today").
 
-**My experience:** It wasn't hard to start keeping a done list because for me it was just another page in my notebook that I mentioned earlier. A thing I really like about the done list is that by including a date and notes, it's something I can refer back to over time. It also has meant that the open and closed lists are "cleaner"&mdash;not so cluttered with lots of extra comments.
+**My experience:** It wasn't hard to start keeping a done list because for me it was just another page in my notebook that I mentioned earlier. What I really like about the done list is that by including a date and notes, it's something I can refer back to over time. It also has meant that the open and closed lists are "cleaner"&mdash;not so cluttered with lots of extra comments.
 
 ## Conclusion
 
@@ -76,8 +75,4 @@ I also plan to start trying [Capacities](https://capacities.io/), which was intr
 
 ## About David Kowalsky {#david_kowalsky}
 
-<figure><img style="max-width:150px; float: left; margin-right: 10px" src="{{site.media}}/kowalsky.jpg" alt="David Kowalsky" /></figure> David Kowalsky has been a technical writer for 15+ years. After completing an MA in East Asian Studies, he got his start working in technology as a software test engineer. After eight years, he switched to being a technical writer. In June 2024, David was part of the first group of students to complete the Specialization in API Documentation course from the University of Washington Professional & Continuing Education. Follow David on [LinkedIn](https://www.linkedin.com/in/davidkowalsky).
-
-
-
-
+<figure><img style="max-width:140px; float: left; margin-right: 10px" src="{{site.media}}/kowalsky.jpg" alt="David Kowalsky" /></figure> David Kowalsky has been a technical writer for 15+ years. After completing an MA in East Asian Studies, he got his start working in technology as a software test engineer. After eight years, he switched to being a technical writer. In June 2024, David was part of the first group of students to complete the [Specialization in API Documentation course](https://www.pce.uw.edu/specializations/api-documentation) from the University of Washington Professional & Continuing Education. Follow David on [LinkedIn](https://www.linkedin.com/in/davidkowalsky).
