@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords: 
 rebrandly: https://idbwrtng.com/escape-productivity-trap-david-kowalsky-guest-post
-description: "The following is a guest post by <a href='#david_kowalsky'>David Kowalsky</a> exploring some productivity and time management topics based on his reading and experiences with Oliver Burkeman's *Four Thousand Weeks*. The book encourages you to escape the efficiency trap and focus on what really matters in your limited time."
+description: "The following is a guest post by <a href='#david_kowalsky'>David Kowalsky</a> exploring some productivity and time management topics based on his reading and experiences with Oliver Burkeman's <i>Four Thousand Weeks</i>. The book encourages you to escape the efficiency trap and focus on what really matters in your limited time."
 bio: false
 author: <a href='#david_kowalsky'>David Kowalsky</a>
 ---
