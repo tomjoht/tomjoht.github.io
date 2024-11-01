@@ -1,7 +1,7 @@
 ---
 title: "Approaching the college personal essay: Tips as a parent helping your student write a compelling essay"
 permalink: /blog/help-students-with-personal-essay-common-app
-date: 2024-10-17
+date: 2023-10-17
 categories:
 - writing
 keywords: 
