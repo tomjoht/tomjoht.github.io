@@ -85,3 +85,6 @@ folders:
 
   - title: "Using AI to jump-start code samples"
     jurl: /ai/prompt-engineering-code-samples.html
+
+  - title: "From engineer interviews to written draft, with chain of thought reasoning"
+    jurl: /ai/prompt-engineering-iterative-chain-of-thought.html
