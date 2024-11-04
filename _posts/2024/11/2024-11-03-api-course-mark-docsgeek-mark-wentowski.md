@@ -22,7 +22,9 @@ More granular topics are broken out across six separate days:
 * Day #5: API reference, concepts and onboarding
 * Day #6: Error handling, code samples, and recipes
 
-It looks like a great course! I interacted with Mark last year in a Coffee and Content webinar titled [Let's talk API docs](/blog/webinar-lets-talk-api-docs). I'm always looking to promote educational resources for API documentation and wish there were many more courses, books, webinars, and other resources for writers. The more tech writers who can execute well in this space, the better it will be for the tech comm industry as a whole. With more knowledge of best practices and techniques, we can reduce the idea that you need to be an engineer to operate successfully with API docs. You may remember my post promoting the [University of Washington's API documentation course](/blog/api-documentation-course-uw-bob-watson) as well.
+It looks like a great course! I interacted with Mark last year in a Coffee and Content webinar titled [Let's talk API docs](/blog/webinar-lets-talk-api-docs). Mark also has a number of [articles about API documentation](https://document360.com/blog/author/mawentowskigmail-com/) on the Document260 site. 
+
+I'm always looking to promote educational resources for API documentation and wish there were many more courses, books, webinars, and other resources for writers. The more tech writers who can execute well in this space, the better it will be for the tech comm industry as a whole. With more knowledge of best practices and techniques, we can reduce the idea that you need to be an engineer to operate successfully with API docs. You may remember my post promoting the [University of Washington's API documentation course](/blog/api-documentation-course-uw-bob-watson) as well.
 
 {% include ads.html %}
 
