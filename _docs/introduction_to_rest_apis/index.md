@@ -6,7 +6,7 @@ type: homepage
 path: Introduction to REST APIs
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
-weight: 1.01
+weight: 1.00
 redirect_from:
 - /learnapidoc/introtoapis.html
 last-modified: 2023-04-18
@@ -151,13 +151,13 @@ If you're a teacher at a college or university (or high school) and are trying t
 
 ## Is this course really free?
 
-Yes, this course is entirely free. Advertising helps make this content free, so you will see little text snippets and other ads on the course pages promoting links to API service providers. Sometimes I also include sponsored pages as well to highlight a vendor's particular offerings. Whenever content is sponsored, I note that on the page. I also wouldn't include any content in the course that didn't meet my standards or which I wouldn't recommend.
+Yes, this course is entirely free. I only charge for the PDF. [Advertising](https://idratherbewriting.com/advertising) also helps make this content free, so you will see little text snippets and other ads on the course pages promoting links to API service providers. Sometimes I also include sponsored pages as well to highlight a vendor's particular offerings. Whenever content is sponsored, I note that on the page. I also wouldn't include any content in the course that didn't meet my standards or which I wouldn't recommend.
 
-If you'd like to give back, feel free to buy me coffee by clicking the [Buy me a coffee](https://www.buymeacoffee.com/learnapidoc) button on the bottom of each page or by [buying the PDF of the course](https://www.buymeacoffee.com/learnapidoc/e/146076). I'm grateful to see many people who find enough value in the course to contribute back. Seeing contributions helps me feel in a more immediate way how much the content helps people.
+If you'd like to give back, feel support me by [buying the PDF of the course](https://www.buymeacoffee.com/learnapidoc/e/146076). I'm grateful to see many people who find enough value in the course to contribute back.
 
-## PDF and Kindle/eBook formats
+## PDF format
 
-To read the same content in PDF or Kindle/eBook formats, see [PDF and eBook formats](download.html). You can print out the section you want, or load it into a PDF reader to highlight/annotate content. Or if you prefer Kindle or another eReader, download the content in ebook format and load it onto your device.
+To read the same content in PDF format, see [Download PDFs](https://buymeacoffee.com/learnapidoc/e/146076). You can print out the section you want, or load it into a PDF reader to highlight/annotate content. You can also upload chapters into your favorite AI tool and interface with the content that way.
 
 ## Let me know if any content is out of date
 
@@ -165,41 +165,40 @@ One of the challenges in any technical course is ensuring the content stays up t
 
 ## Stay updated
 
-If you're following this course, you most likely want to learn more about APIs. I publish regular articles that talk about APIs and strategies for documenting them. You can stay updated about these posts by subscribing to my free newsletter through the form below. My newsletter, branded as the I'd Rather Be Writing newsletter, helps you stay updated about everything going on in the techcomm world, with a special emphasis on API documentation, docs-as-code tools, and lately AI.
+If you're following this course, you most likely want to learn more about APIs. I publish regular articles that talk about APIs and strategies for documenting them. You can stay updated about these posts by [subscribing to my free newsletter](https://idratherbewriting.com/newsletter) through the form below. My newsletter, branded as the I'd Rather Be Writing newsletter, helps you stay updated about everything going on in the techcomm world, with a special emphasis on API documentation, docs-as-code tools, and lately AI.
 
 ## Other resources
 
 If you've looking for additional resources to learn API documentation as well as tech writing best practices, check out the following:
 
+* [Mark Wentowski's Mastering API documentation course](https://www.docsgeek.io/mastering-api-documentation-course), a 6-week bi-weekly course online.
+
 * [Cherryleaf's API documentation training course](https://www.cherryleaf.com/training-courses/documenting-apis-training-course/), by Ellis Pratt. (See a [preview here](https://cherryleaf.teachable.com/courses/advanced-technical-communication/lectures/37419185).)
 
 * [Peter Gruenbaum's API doc courses on Udemy](https://www.udemy.com/user/petergruenbaum/), by Peter Gruenbaum of [SDK Bridge](https://sdkbridge.com/). (He has multiple Udemy courses on API docs, Swagger, Git, and more.)
 
-* [Docs Like Code](https://www.amazon.com/Docs-Like-Code-Anne-Gentle/dp/1365816079), by Anne Gentle
+* [*Technical writing for software developers*](https://chrischinchilla.com/books/#technical-writing-for-software-developers), by Chris Ward
 
-* [The Design of Web APIs](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108), by Arnaud Lauret
+* [*Docs Like Code: Write, review, test, merge, build, deploy, repeat*](https://www.amazon.com/Docs-Like-Code-Anne-Gentle/dp/1365816079), by Anne Gentle
 
-* [Docs for Developers: An Engineer’s Field Guide to Technical Writing](https://www.apress.com/gp/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
+* [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108), by Arnaud Lauret
 
-* [Standards and Guidelines for API Documentation: For Technical Writers, Software Developers, Information and Software Architects](https://www.google.com/books/edition/Standards_and_Guidelines_for_API_Documen/B7LDzQEACAAJ?hl=en), by Anne Tarnoruder
+* [*Docs for Developers: An Engineer’s Field Guide to Technical Writing*](https://www.apress.com/gp/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
+
+* [*Standards and Guidelines for API Documentation: For Technical Writers, Software Developers, Information and Software Architects*](https://www.google.com/books/edition/Standards_and_Guidelines_for_API_Documen/B7LDzQEACAAJ?hl=en), by Anne Tarnoruder
 
 These resources aren't API-specific but are still relevant:
 
-* [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter
+* [*Modern Technical Writing: An Introduction to Software Documentation*](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter
 
-* [Documentation Guide -- Write the Docs Community](https://www.writethedocs.org/guide/index.html)
+* [*Documentation Guide -- Write the Docs Community*](https://www.writethedocs.org/guide/index.html)
 
-* [Every Page Is Page One: Topic-Based Writing for Technical Communication and the Web](https://www.amazon.com/Every-Page-One-Topic-Based-Communication/dp/1937434281), by Mark Baker
+* [*Every Page Is Page One: Topic-Based Writing for Technical Communication and the Web*](https://www.amazon.com/Every-Page-One-Topic-Based-Communication/dp/1937434281), by Mark Baker
 
-* [The Product is Docs: Writing technical documentation in a product development group](https://www.amazon.com/Product-Docs-technical-documentation-development/dp/1973589400), by Christopher Gales and Splunk Documentation Team
+* [*The Product is Docs: Writing technical documentation in a product development group*](https://www.amazon.com/Product-Docs-technical-documentation-development/dp/1973589400), by Christopher Gales and Splunk Documentation Team
 
-* [The Good Docs Project: Best practice templates and writing instructions for documenting open source software](https://thegooddocsproject.dev/)
+* [*The Good Docs Project: Best practice templates and writing instructions for documenting open source software*](https://thegooddocsproject.dev/)
 
 * [Google's technical writing courses for engineers](https://developers.google.com/tech-writing)
 
 For even more books, see [Relevant Books](https://www.writethedocs.org/books/) from the Write the Docs site.
-
-{% comment %}
-images outside of the _docs directory. keep this reference so the image isn't deleted by the image_purge_output.sh script, which looks for image file references in the _docs and slides directories.
-restapi_kindletitle.png
-{% endcomment %}

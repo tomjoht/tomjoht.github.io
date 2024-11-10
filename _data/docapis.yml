@@ -8,13 +8,12 @@ folders:
   description: >
     REST APIs consist of requests and responses between clients and servers over the web. Although there are many types of APIs, REST APIs are flourishing, and there's a strong need for API documentation at almost every company that provides an API. Technical writers can apply their skills to fill this gap in highly valuable ways. This introduction discusses different types of APIs, reasons for API growth, and why docs are critical for REST APIs. It outlines course contents, prerequisites, goals, and target audiences. The introduction sets the stage for learning API documentation through the hands-on activities in the course.
   folderitems:
-
-  - title: "Overview" 
-    jurl: /learnapidoc/docapis_introtoapis.html
-    type: web
-
   - title: Course Overview
     jurl: /learnapidoc/index.html
+
+  - title: "Chapter 1 Overview" 
+    jurl: /learnapidoc/docapis_introtoapis.html
+    type: web
 
   - title: "What's new"
     jurl: /learnapidoc/docapis_whats_new.html
