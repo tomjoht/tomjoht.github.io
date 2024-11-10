@@ -30,14 +30,15 @@ I worked as a traditional technical writer for some years, mostly documenting ap
 
 I started documenting my first API at a gamification startup and then transitioned to another semi-startup to continue with more API documentation. I was no longer working with applications that had user interfaces, and the audiences for my docs were primarily developers. Developer doc was a new landscape to navigate, with different tools, expectations, goals, and deliverables.
 
-{: .note}
-If you want to read more personal details, see [My life story, or reflections on what shaped my life’s career trajectory](https://idratherbewriting.com/blog/life-story-what-shapes-your-lifes-trajectory/).
-
 Although I didn't have a programming background, I've always been somewhat technical. As a teacher, I created my own interactive website. As a traditional technical writer, I often set up or hacked the authoring tools and outputs. I like learning and experimenting with new technologies. The developer documentation landscape suits me well, and I enjoy it.
 
 {% include random_ad3.html %}
 
 Still, I'm by no means a programmer. As a technical writer, in-depth technical knowledge is helpful but not always essential, as it tends to be too specialized and comes at the expense of other skills and knowledge. What matters most is the ability to learn something new, across a lot of different domains and products, even if it's challenging at first. And then to articulate the knowledge in easy-to-consume ways. The [writing process](docapis_writing_process_overview.html) is still just as relevant when writing API docs as other forms of docs.
+
+{: .note}
+If you want to read more personal details, see [My life story, or reflections on what shaped my life’s career trajectory](https://idratherbewriting.com/blog/life-story-what-shapes-your-lifes-trajectory/).
+
 
 You're probably taking this course because you want to develop your skills and knowledge to increase your capabilities at work, to enhance your skillset's marketability, or maybe figure out how to document the new API your company is rolling out.
 
