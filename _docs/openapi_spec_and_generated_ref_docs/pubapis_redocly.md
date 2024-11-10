@@ -500,7 +500,6 @@ We've covered the basics in earlier steps. Now let's explore some more advanced 
 
     # Get weather by coordinates
     curl api.openweathermap.org/data/2.5/weather?lat=35&lon=139
-    ```
     </PullRight>
     ```
 
