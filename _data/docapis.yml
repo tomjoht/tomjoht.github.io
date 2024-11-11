@@ -2,15 +2,18 @@ sidebartitle: Documenting APIs
 folders:
 
 - title: "Course overview"
-  landing: /learnapidoc/index.html
-  section: one
+  landing: /learnapidoc/docapis_overview.html
+  section: zero
   class: first
   description: >
-    High-level, detailed overview for the API documentation course.
+    This section provides a high-level, detailed overview for the API documentation course. I introduce the goals of the course, explain why I developed it, tell you a bit about myself, provide some recordings, slides, and more.
   folderitems:
-  - title: "Course overview" 
-    jurl: /learnapidoc/index.html
+  - title: Overview
+    jurl: /learnapidoc/docapis_overview.html
     type: web
+
+  - title: "Course introduction" 
+    jurl: /learnapidoc/index.html
 
   - title: Why I developed this course
     jurl: /learnapidoc/docapis_foreword.html

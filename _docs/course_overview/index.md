@@ -5,14 +5,10 @@ sidebar: docapis
 type: homepage
 path: Introduction to REST APIs
 section: introtoapis
-path1: learnapidoc/docapis_introtoapis.html
+path1: learnapidoc/docapis_overview.html
 weight: 0.0
-redirect_from:
-- /learnapidoc/introtoapis.html
 last-modified: 2023-04-18
 ---
-
-{% include coffeeshopbook.html %}
 
 In this course on writing documentation for APIs, instead of just talking about abstract concepts, I contextualize APIs with a direct, hands-on approach. You'll first learn about API documentation by using a simple weather API to put a weather forecast on your site.
 

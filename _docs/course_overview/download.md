@@ -4,7 +4,7 @@ permalink: learnapidoc/download.html
 course: "Documenting REST APIs"
 sidebar: docapis
 section: introtoapis
-path1: learnapidoc/docapis_introtoapis.html
+path1: learnapidoc/docapis_overview.html
 weight: 0.3
 last-modified: 2024-10-10
 ---
