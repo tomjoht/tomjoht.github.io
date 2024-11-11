@@ -7,7 +7,7 @@ path: Introduction to REST APIs
 section: introtoapis
 path1: learnapidoc/docapis_overview.html
 weight: 0.0
-last-modified: 2023-04-18
+last-modified: 2024-11-10
 ---
 
 In this course on writing documentation for APIs, instead of just talking about abstract concepts, I contextualize APIs with a direct, hands-on approach. You'll first learn about API documentation by using a simple weather API to put a weather forecast on your site.

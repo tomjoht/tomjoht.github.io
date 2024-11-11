@@ -14,7 +14,7 @@ topnav_dropdowns:
 
     - title: API doc course
       folderitems:
-        - title: Course home
+        - title: "Course overview"
           url: /learnapidoc/
 
         - title: "Chapter 1: Introduction to REST APIs"
