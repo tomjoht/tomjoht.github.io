@@ -45,7 +45,7 @@ If the output doesn't have the referenced pages, the cross reference will say 0.
 Run this script:
 
 ```
-./pdf_build.sh
+./pdf_build_docapis_all.sh
 ```
 
 This script builds each of the 15 outputs and stores them in the `pdf` folder.
@@ -55,7 +55,7 @@ This script builds each of the 15 outputs and stores them in the `pdf` folder.
 Run this script:
 
 ```
-./pdf_upload.sh
+./pdf_upload_docapis.sh
 ```
 
 ## Update the Download the PDFs page

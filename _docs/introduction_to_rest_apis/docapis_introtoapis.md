@@ -5,7 +5,7 @@ sidebar: docapis
 path1: learnapidoc/docapis_introtoapis.html
 redirect_from:
 - /docapis_intro_to_rest_api_doc/
-weight: 1.01
+weight: 1.0
 class: first
 last-modified: 2023-05-28
 ---

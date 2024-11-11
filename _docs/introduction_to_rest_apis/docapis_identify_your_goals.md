@@ -2,7 +2,7 @@
 title: "Activity 1a: Identify your goals"
 permalink: learnapidoc/docapis_identify_your_goals.html
 course: "Documenting REST APIs"
-weight: 1.8
+weight: 1.3
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html

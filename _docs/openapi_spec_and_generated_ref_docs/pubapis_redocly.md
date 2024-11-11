@@ -354,7 +354,7 @@ Redocly CLI includes a documentation preview server that automatically rebuilds 
 
 2.  Open [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser to see your API documentation:
 
-    <img src="{{site.media}}/redoclypreviewdocsv2.jpg" style="border: 1px solid #dedede" alt="Redocly preview" />
+    <img src="{{site.api_media}}/redoclypreviewdocsv2.jpg" style="border: 1px solid #dedede" alt="Redocly preview" />
 
 3.  Test the auto-regeneration feature:
     - Open `openapi/components/parameters/lat.yaml`

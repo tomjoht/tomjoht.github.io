@@ -5,7 +5,7 @@ course: "Documenting REST APIs"
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
-weight: 1.2
+weight: 0.4
 last-modified: 2020-07-25
 ---
 

@@ -1,0 +1,75 @@
+scope: individual
+section: one
+title: Documenting REST APIs
+subtitle: "Course overview"
+api_media: /Users/tomjohnson/projects/idratherbewriting/images/api
+# cover: true
+# if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
+cover_image: images/ebook_cover.png
+type: pdf
+sidebar: docapis
+baseurl: /Users/tomjohnson/projects/idratherbewriting/_site
+
+language: english
+format: print
+
+destination: _site
+port: 4000
+highlighter: rouge
+exclude:
+  - ebooks
+  - pdf
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  docs:
+    output: true
+  smartphones:
+    output: false
+  zamm:
+    output: false
+  ai:
+    output: false
+  voiceovertechniques:
+    output: false
+  visualcommunication:
+    output: false
+  podcasts:
+    output: false
+  youngadultnovel:
+    output: false
+  user_centered_doc:
+    output: false
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: printpdf
+      published: false
+
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: printpdf
+      published: true
+  -
+    scope:
+      path: _docs/course_overview
+      type: docs
+    values:
+      layout: printpdf
+      published: true

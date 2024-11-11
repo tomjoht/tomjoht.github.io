@@ -3,7 +3,7 @@ title: "Developer documentation trends &mdash; survey results"
 permalink: learnapidoc/docapis_trends.html
 keywords:
 course: "Documenting REST APIs"
-weight: 1.9
+weight: 1.3
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html

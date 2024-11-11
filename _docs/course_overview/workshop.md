@@ -2,7 +2,7 @@
 title: Workshop -- agenda, slides, activities
 permalink: learnapidoc/workshop.html
 course: "Documenting REST APIs"
-weight: 1.3
+weight: 0.5
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
