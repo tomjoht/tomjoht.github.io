@@ -16,7 +16,7 @@ redirect_from:
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-In this series on [AI tools and APIs](ai.html), the question I keep asking is this: how can we use AI for practical tasks with API documentation? Specifically, how can we leverage generative AI tools to do API documentation work faster, easier, and better? My goal is to assemble about a dozen solid ways that we can use AI with API docs. In this topic, I'll explore potentially using AI for glossary definitions.
+In this series on [AI tools and APIs](/ai.html), the question I keep asking is this: how can we use AI for practical tasks with API documentation? Specifically, how can we leverage generative AI tools to do API documentation work faster, easier, and better? My goal is to assemble about a dozen solid ways that we can use AI with API docs. In this topic, I'll explore potentially using AI for glossary definitions.
 
 {% if site.format == "web" %}
 * TOC
@@ -49,7 +49,7 @@ I also wrote a post titled [Using AI tools to look up words and provide mini-poe
 
 ## Experimenting with larger glossaries
 
-To experiment with a larger glossary effort, I decided to work with the glossary in my API course. My API doc course also already has an [API glossary](glossary.html) with about 70 terms. I compiled the glossary in the early days of this course but haven't added to it since then, in part because I almost never see feedback about it. In this experiment, I wanted to refresh, expand, and integrate the glossary better.
+To experiment with a larger glossary effort, I decided to work with the glossary in my API course. My API doc course also already has an [API glossary](/learnapidoc/glossary_overview.html) with about 70 terms. I compiled the glossary in the early days of this course but haven't added to it since then, in part because I almost never see feedback about it. In this experiment, I wanted to refresh, expand, and integrate the glossary better.
 
 For this experiment, I mostly used [Claude.ai](https://claude.ai) since it allows for much better context windows. You can upload PDFs (less than 10 MB in size) to Claude, and the chat sessions maintain a context window (total word count for the chat session) up to 100k tokens. This allowed me to upload several PDFs per Claude chat session before maxing out the tokens. I also used ChatGPT in places because I felt that for shorter content, its outputs were better.
 
@@ -67,7 +67,7 @@ With each PDF, I asked Claude the following:
 
 Claude looked through the content and provided a list of definitions. The definitions looked all right—fairly representative of the chapter content. Some of my chapters cover a lot of different topics, making it difficult to select a coherent set of terms.
 
-Note that because I'm not on a paid Claude plan (paid plans haven't been released yet), the number of queries is limited. When you exceed the allowed query limit (which seemed to be about 10 glossary-related queries for me), you have to wait several hours to use Claude again. So uploading the PDFs and getting vocab lists took a day of making queries at different times. 
+Note that queries to Claude can be limited, especially if you're not on a paid plan. (Paid plans hadn't been released yet at the time I wrote this article.) When you exceed the allowed query limit (which seemed to be about 10 glossary-related queries for me), you have to wait several hours to use Claude again. So uploading the PDFs and getting vocab lists took a day of making queries at different times. 
 
 Also, each chat session could only provide terms for 3 chapters before the chat session's context window maxed out and I had to create a new chat session. Even so, the ability to work with much longer input sources in an AI tool is immensely appealing.
 
@@ -101,7 +101,7 @@ Claude did an excellent job at the YAML formatting, as has been my experience wi
 
 After formatting the content in YAML, I replaced my [existing glossary YAML](https://github.com/tomjoht/tomjoht.github.io/blob/main/_data/glossary.yml). 
 
-I already had Liquid code that generates a glossary list from the YAML: [glossary_full.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_full.html). I wrote about my technique using this Liquid code to pull from the YAML source previously in my [API glossary topic](docapis_glossary_section.html), including how to pull the terms into Bootstrap tooltips and popups if desired. You can see the newly generated glossary list here: [Glossary](glossary.html).
+I already had Liquid code that generates a glossary list from the YAML: [glossary_full.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_full.html). I wrote about my technique using this Liquid code to pull from the YAML source previously in my [API glossary topic](docapis_glossary_section.html), including how to pull the terms into Bootstrap tooltips and popups if desired. You can see the newly generated glossary list here: [Glossary](/learnapidoc/glossary.html).
 
 ## Glossary groups
 
@@ -141,7 +141,7 @@ Also, note that AI tools are extremely convincing in their apologies and fixes (
 
 ## Includes for the glossary groups
 
-After I finished sorting, I needed to get the glossary groups on a page. I modified my [glossary_limited.html include](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_limited.html) into a new include called [glossary_group.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_group.html). Because I'm lazy, I asked ChatGPT for help on including Bootstrap v.3 expandable buttons along with a counter to make these simple modifications to the glossary_limited.html include. I also had ChatGPT render the syntax for the include on the page based on an existing pattern (see [glossary.html source](https://github.com/tomjoht/tomjoht.github.io/blob/main/_docs/glossary/glossary_groups.md)). The output is here: [Glossary groups](glossary_groups.html).
+After I finished sorting, I needed to get the glossary groups on a page. I modified my [glossary_limited.html include](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_limited.html) into a new include called [glossary_group.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_group.html). Because I'm lazy, I asked ChatGPT for help on including Bootstrap v.3 expandable buttons along with a counter to make these simple modifications to the glossary_limited.html include. I also had ChatGPT render the syntax for the include on the page based on an existing pattern (see [glossary.html source](https://github.com/tomjoht/tomjoht.github.io/blob/main/_docs/glossary/glossary_groups.md)). The output is here: [Glossary groups](/learnapidoc/glossary_groups.html).
 
 ## Expanding the glossary groups
 
