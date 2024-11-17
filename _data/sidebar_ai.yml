@@ -88,3 +88,6 @@ folders:
 
   - title: "From engineer interviews to written draft, with chain of thought reasoning"
     jurl: /ai/prompt-engineering-iterative-chain-of-thought.html
+
+  - title: "Using AI to design landing pages"
+    jurl: /ai/prompt-engineering-landing-pages.html
