@@ -1,5 +1,5 @@
 ---
-title: "Using AI to design pages (prompt engineering series)"
+title: "Using AI to design landing pages (prompt engineering series)"
 permalink: /blog/prompt-eng-landing-pages
 date: 2024-11-17
 categories:
