@@ -62,7 +62,7 @@ The following sections describe a step-by-step process for approaching landing p
 You probably don't need to figure out your product story on your own. Business development and marketing groups already did this in a pitch deck. Any product that's mature enough that you're actually building a landing page for it most likely has slides that someone created to tell the product's story. Find these slides and use the story told as the outline. You can print the slide deck to PDF and feed it into your AI tool. Most tools support PDF uploads now. Because the story is key to a coherent message on the landing page, use a prompt like this:
 
 <div class="chat">
-Based on these slides, identify what the product story is. A product story typically solves a business pain point in a unique, compelling way. Help articulate what the story is.
+<p>Based on these slides, identify what the product story is. A product story typically solves a business pain point in a unique, compelling way. Help articulate what the story is.</p>
 </div>
 
 If your product doesn't have a pitch deck, marketing site, or other assets, consider sitting down with the product manager and interviewing them about it.
@@ -78,7 +78,7 @@ A prompt like this will work:
 <p>The following is the source code for a landing page. This landing page is for another product. I want you to use this same syntax to build out the landing page for my product…</p>
 </div>
 
-The approach can be as simple as customizing the existing layout bit by bit. Many landing pages in docs-as-code system format the code in a YAML file that scripts iterate through to produce an HTML output. This hides the technical complexity &mdash; you just have to study the YAML syntax rules, not write HTML and CSS code.
+The approach can be as simple as customizing the existing content bit by bit. Many landing pages in docs-as-code system format the code in a YAML file that scripts iterate through to produce an HTML output. This hides the technical complexity &mdash; you just have to study the YAML syntax rules, not write HTML and CSS code.
 
 If you don't have any good landing pages in your developer portal, look at company documentation you admire and take inspiration from landing pages you like. Most landing pages involve multi-column layouts, alternating sections with different background colors, hero banners, card layouts, graphics-heavy layouts, and more. Google, Microsoft, Amazon, and other big tech companies have some good landing pages. Here are a few links for examples:
 
@@ -96,11 +96,11 @@ If you don't have any good landing pages in your developer portal, look at compa
 * [Shutterstock](https://www.shutterstock.com/developers/documentation)
 * [Nylas documentation](https://developer.nylas.com/)
 
-Note that there are different types of landing pages. Some landing pages function as the landing page for dozens of different products. Other landing pages are for one specific product only. Other landing pages are subject-based, such as AI tool documentation or Auto-related documentation. 
+Note that there are different types of landing pages. Some landing pages function as the landing page for dozens of different products. Other landing pages are for one specific product only. Other landing pages are subject-based, such as AI or automotive.
 
 ## Step 3: Populate a foundation draft
 
-You have a couple of paths you can take here. You can try to get an initial draft of the entire landing page at once, just to see how it might turn out. Or you can just go section by section from the beginning.
+You have a couple of paths you can take to get an initial foundation. You can try to get an initial draft of the entire landing page at once, just to see how it might turn out. Or you can just go section by section from the beginning.
 
 To experiment with a foundation draft for the entire landing page, feed the pitch deck, product overview, sample YAML syntax, and other high-level assets into your AI tool and ask it to create a first draft of a landing page with the new content. Prioritize the pitch deck for the key points and structure.
 
@@ -110,7 +110,7 @@ The result will probably be poor, but it will give you something to look at. Som
 <p>Keep in mind the high-level product story. [PASTE IN THE STORY] Considering that product story along with the pitch deck and other overviews, customize the YAML syntax with landing page information for the product.</p>
 </div>
 
-Alternatively, if that attempt yields garbage, go section by section. Start with the banner area, then proceed section by section through the entire landing page.
+Alternatively, if that attempt yields garbage, go section by section. Start with the banner area, then proceed section by section through the entire landing page. Course correct each response to improve the next one. For example, if the AI generates marketingesque, salesy language, tell it to be more matter-of-fact and to avoid adjectives and adverbs.
 
 ## Step 4: Make decisions about each section
 
@@ -124,13 +124,13 @@ As I mentioned in the techniques section, the key is to go section by section. W
 
 ## Step 5: Find graphics
 
-There's no easy way to use AI for graphics. Although you could ask AI to create one-off graphics, it's not easy to use AI to generate a set of icon-like graphics and images that match the visual style guide in cohesive, unifying ways.
+There's no easy way to use AI for graphics. Although you could ask AI to create one-off graphics, using AI to generate icon-like graphics and images that match your visual style guide in cohesive, unifying ways is challenging.
 
-I briefly experimented with the AI generation tool in Adobe Illustrator, which can impressively generate vector graphics. However, I still have a lot to learn before I can use those systems in a controlled way to get consistent results.
+I briefly experimented with the AI generation tool in Adobe Illustrator, which can impressively generate vector graphics. However, I still have a lot to learn before I can use those systems in a controlled way to get consistent results. Perhaps a graphic designer would have an easier time with this &mdash; I'm still figuring this out.
 
-Most likely if you have a visual style guide, you have a collection of approved assets (like a sticker sheet) that you can use. The problem is that these graphics, being general for many different use cases, are probably hopelessly cliché. 
+Most likely if you have a visual style guide, you have a collection of approved assets (like a sticker sheet) that you can use. The problem is that these graphics, being general for many different use cases, are probably hopelessly cliché (for example, a magnifying glass, an upward trending arrow, a puzzle piece, two gear cogs, a checkmark, and so on). 
 
-They can be the equivalent of giving a writer a bunch of stock phrases to describe their product and then expecting the result to be engaging. Imagine providing a stock-phrase set for technical writers and requiring them to stick with these phrases in describing their product:
+General, multi-purpose graphic assets can be the equivalent of giving a writer a bunch of stock phrases to describe their product and then expecting the result to be engaging. Imagine providing a stock-phrase set for technical writers and requiring them to stick with these phrases in describing their product:
 
 > 1. "Use [API Name] to [Action] and [Action]."
 > 2. "The [API Name] provides [Key Feature] for [Specific Use Case]."
@@ -141,11 +141,11 @@ They can be the equivalent of giving a writer a bunch of stock phrases to descri
 > 7. "Access [Data/Resource] via [API Name] using [Protocol]."
 > 8. "[API Name] simplifies [Complex Task] by providing [Specific Functionality]."
 
-If images are the same way, the landing page might look generic and cookie cutter. With this in mind, don't get too fixated on your landing page graphics. Unless you have dedicated resources for creating custom graphic assets, the most you can hope for your graphics is that they don't distract in embarrassing ways. Try to use screenshots from your product if possible — at least they'll be unique. If you can put unique screenshots inside generic frames (like a computer monitor or screen in a car, etc.), it can help offset the generic elements with unique features.
+If images are the same way, the landing page might look generic and cookie cutter. With this in mind, don't get too fixated on your landing page graphics. Unless you have dedicated resources for creating custom graphic assets, the most you can hope for your graphics is that they don't distract in embarrassing ways. Try to use screenshots from your product if possible — at least they'll be unique. If you can put unique screenshots inside visually interesting frames (like a computer monitor or screen in a car, etc.), it can help offset the generic elements with unique features.
 
 ## Step 6: Link all the sections to the documentation
 
-If there's one defining characteristic of a landing page, it's that it serves as a jumping off point for the most important documentation on your site. As such, the landing page should be dripping with links to everything. It functions mostly as a routing page, helping users discover and quickly get to other pages. 
+If there's one defining characteristic of a landing page, it's that it serves as a jumping off point for the most important documentation on your site. As such, the landing page should be dripping with links to everything. It functions mostly as a routing page, helping users discover and quickly get to other pages. Given that purpose, it's probably not as important or critical as it might initially seem. It's a page people start out on their way to the real content. Perhaps you can briefly tell the product's story on that page, or perhaps you link out to a more developed narrative.
 
 ## Related reading
 
