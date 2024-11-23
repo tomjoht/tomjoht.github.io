@@ -27,9 +27,6 @@ Now [Bluesky](https://bsky.app/) seems to be trending and offers a fresh start. 
 I might! Or might not. Maybe I’ll explore whether I dismissed the medium too early. But the topic of Bluesky and whether one should join it got me thinking about other spaces where tech writers interact online. Let’s take a tour through them here.
 
 
----
-
-
 ## WTD Slack
 
 One of the most active spaces is the [Write the Docs Slack community](https://www.writethedocs.org/slack/). What’s nice about this community is the interactive, conversational threads that allow you to chat back and forth. If you’re trying to work through a problem, you can tap into the collective knowledge of many experienced tech writers. You aren’t limited to small, clever posts—you can have conversations that allow you to clarify and work through issues.
@@ -49,10 +46,6 @@ Another interesting online space is Reddit, specifically the [techwriting subred
 For the most part, Reddit users who post are often new technical writers looking for advice, though responses indicate that veteran tech writers with deep experience also participate. Some threads focus on salaries, with users trying to gauge how their salary compares with others’. These threads make me feel sorry for hard-working, skilled tech writers who are clearly underpaid. I’m also amazed at how much salaries vary by industry and region.
 
 Despite many novice topics, some Reddit conversations feel refreshingly honest. I remember one thread about tech writing podcasts. Someone asked if tech writing podcasts exist, and another replied that if they did, they’d be the most boring podcasts in the world. That kind of raw honesty is common on Reddit. Having both listened to and produced many tech writing podcasts, I have to admit there’s some truth in that observation.
-
-
----
-
 
 ## LinkedIn
 
@@ -78,12 +71,6 @@ This reminded me of an experience with my youngest daughter, who has ADHD. She h
 
 In retrospect, I shouldn’t have helped her this way. But the incident underscores a broader problem: kids’ and adults’ declining ability to read long-form material. Is social media partly to blame? I think so.
 
-
----
-
-
 ## Conclusion
 
 So, should you join Bluesky or another social media platform? Honestly, I think the world is tired of the social media format but hasn’t found anything better to replace it. We want online spaces to interact, but most platforms lead to endless scrolling, often with junk-food-like content. If I do start micro-posting again, I’ll likely just share my blog posts.
-
-
