@@ -14,15 +14,15 @@ description: "We frequently hear about AI freeing up bandwidth so we can focus o
 {:toc}
 
 
-## Sample landing pages
-
-For a sense of a landing page, see this [Develop for Android](https://developer.android.com/develop) landing page, or the [Android Health & Fitness](https://developer.android.com/health-and-fitness) landing page, or the [Gemini API](https://ai.google.dev/gemini-api/docs) landing page. I don't work in those areas, but they provide good examples of the types of landing pages I'm referring to.
+## About landing pages
 
 A landing page usually has some graphic elements, even if they're only decorative. The layout is often more sophisticated, switching from right to left sides in a graphics-heavy format, and also including sections with multi-column layouts and cards. If you have to build the layout yourself with CSS and HTML, it will require web design skills. But even if you already have a pre-built template to populate, the color, graphics, and layout choices require you to think in different ways than most of the text-heavy documentation pages.
 
+For some examples of landing pages, see this [Develop for Android](https://developer.android.com/develop) landing page, or the [Android Health & Fitness](https://developer.android.com/health-and-fitness) landing page, or the [Gemini API](https://ai.google.dev/gemini-api/docs) landing page. I don't work in those areas, but they provide good examples of the types of landing pages I'm referring to.
+
 ## Content decisions
 
-Where do you start with the content? One helpful strategy in figuring out landing page content is to find a slide deck for your product, and then use it as a general structure and content source for the landing page. In my group, business development people commonly use product pitch decks for partners. These pitch decks can be a gold mine for landing page content, even providing some visual assets. They call out the most important features of the product and structure the story in a way that's somewhat easy to imitate on a landing page.
+Where do you start with the content for a landing page? One helpful strategy is to find a slide deck for your product, and then use it as a general structure and content source for the landing page. In my group, business development people commonly use product pitch decks for partners. These pitch decks can be a gold mine for landing page content, even providing some visual assets. They call out the most important features of the product and structure the story in a way that's somewhat easy to imitate on a landing page.
 
 {% include ads.html %}
 
