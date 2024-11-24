@@ -612,7 +612,7 @@ The `schema` object in 3.0 differs slightly from the schema object in 2.0 &mdash
 
 ## A way to cheat -- automatically generate the schema from JSON using Stoplight
 
-Describing a JSON response can be complicated and confusing. Fortunately, there's a somewhat easy workaround. To be honest, this is the approach I use when I'm documenting JSON responses. With the Stoplight Studio Editor, you can automatically generate the specification schema syntax from a sample response. See this section in the Stoplight getting started tutorial: [Step 5: Enter the responses and response schema information](pubapis_openapis_quickstart_stoplight.html#responses).
+Describing a JSON response can be complicated and confusing. Fortunately, there's a somewhat easy workaround. To be honest, this is the approach I use when I'm documenting JSON responses. With the Stoplight Editor, you can automatically generate the specification schema syntax from a sample response. See this section in the Stoplight getting started tutorial: [Step 5: Enter the responses and response schema information](pubapis_openapis_quickstart_stoplight.html#responses).
 
 ## Using GUI editors to work with the specification code
 

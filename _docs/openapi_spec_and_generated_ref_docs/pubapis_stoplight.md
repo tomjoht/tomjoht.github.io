@@ -11,7 +11,7 @@ last-modified: 2020-06-27
 
 {% include coffeeshopbook.html %}
 
-Before jumping into the [tutorial for creating an OpenAPI spec using Stoplight](pubapis_openapis_quickstart_stoplight.html), let me introduce Stoplight a bit more conceptually. As a GUI editor for creating an OpenAPI, Stoplight Studio simplifies the authoring of a highly technical syntax that is often challenging to make valid.
+Before jumping into the [tutorial for creating an OpenAPI spec using Stoplight](pubapis_openapis_quickstart_stoplight.html), let me introduce Stoplight a bit more conceptually. As a GUI editor for creating an OpenAPI, Stoplight simplifies the authoring of a highly technical syntax that is often challenging to make valid.
 
 {% include random_ad4.html %}
 
@@ -139,4 +139,4 @@ You can learn more about hosting your documentation with Stoplight here: [Create
 
 ## Stoplight tutorial
 
-For an in-depth tutorial for using Stoplight to create an OpenAPI specification, including sample content and values, see [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html).
+For an in-depth tutorial for using Stoplight to create an OpenAPI specification, including sample content and values, see [Getting started tutorial: Using Stoplight to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html).

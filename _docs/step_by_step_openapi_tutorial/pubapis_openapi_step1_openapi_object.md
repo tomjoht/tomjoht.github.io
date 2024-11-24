@@ -55,7 +55,7 @@ The whole document (the object that contains these eight root-level objects) is 
 
 {% include ads.html %}
 
-Although one could approach the assembly of an OpenAPI document in many ways, I've decided to structure each step in this tutorial based on each of these root-level objects. You'll see two approaches: one using Swagger working at a code-level, and another using Stoplight Studio working in a user interface.
+Although one could approach the assembly of an OpenAPI document in many ways, I've decided to structure each step in this tutorial based on each of these root-level objects. You'll see two approaches: one using Swagger working at a code-level, and another using Stoplight working in a user interface.
 
 ## Swagger
 

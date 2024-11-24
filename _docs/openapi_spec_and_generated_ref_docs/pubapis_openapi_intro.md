@@ -22,7 +22,7 @@ last-modified: 2020-07-27
 With OpenAPI, instead of XML elements, you have a set of JSON objects, with a specific schema that defines their naming, order, and contents. This JSON file (often expressed in YAML instead of JSON) describes each part of your API. By describing your API in a standard format, publishing tools can programmatically parse the information about your API and display each component in a stylized, interactive display.
 
 {: .tip}
-If you want to jump straight into a step-by-step tutorial for creating the OpenAPI specification document, see [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html), or to code it manually, see the [OpenAPI tutorial using Swagger Editor and Swagger UI -- overview](pubapis_openapi_tutorial_overview.html).
+If you want to jump straight into a step-by-step tutorial for creating the OpenAPI specification document, see [Getting started tutorial: Using Stoplight to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html), or to code it manually, see the [OpenAPI tutorial using Swagger Editor and Swagger UI -- overview](pubapis_openapi_tutorial_overview.html).
 
 * TOC
 {:toc}
@@ -84,7 +84,7 @@ Here's what these objects mean:
 *  `200` is the HTTP status code.
 *  `$ref` is a reference to another part of your implementation where the response is defined (in `components`). OpenAPI has a lot of `$ref` markers like this to keep your code clean and to facilitate re-use.
 
-Learning the OpenAPI spec and constructing the YAML or JSON code by hand the first time, when you're also trying to sort out what the values should be, can be daunting. It might be easier to start in a visual editor like Stoplight and then, if desired, transition into more of a direct code-based approach. For this reason I have arranged the sequence of this course to start out first in the visual editor, with [Create an OpenAPI document using a visual editor (Stoplight Studio)](pubapis_stoplight.html), and then later in the course provide an [OpenAPI tutorial overview using Swagger Editor and Swagger UI](pubapis_openapi_tutorial_overview.html). However, you can probably do most everything from within the visual editor.
+Learning the OpenAPI spec and constructing the YAML or JSON code by hand the first time, when you're also trying to sort out what the values should be, can be daunting. It might be easier to start in a visual editor like Stoplight and then, if desired, transition into more of a direct code-based approach. For this reason I have arranged the sequence of this course to start out first in the visual editor, with [Create an OpenAPI document using a visual editor (Stoplight)](pubapis_stoplight.html), and then later in the course provide an [OpenAPI tutorial overview using Swagger Editor and Swagger UI](pubapis_openapi_tutorial_overview.html). However, you can probably do most everything from within the visual editor.
 
 {% include ads.html %}
 

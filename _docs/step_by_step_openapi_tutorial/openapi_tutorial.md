@@ -14,7 +14,7 @@ last-modified: 2023-05-28
 {% include chapter_description.html %}
 
 {: .tip}
-If you're a beginner or want a visual editor, check out the [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html) instead.
+If you're a beginner or want a visual editor, check out the [Getting started tutorial: Using Stoplight to create an OpenAPI specification document](pubapis_openapis_quickstart_stoplight.html) instead.
 
 
 

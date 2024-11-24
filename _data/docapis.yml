@@ -162,7 +162,7 @@ folders:
   - title: "Stoplight: Visual modeling tools for creating your spec"
     jurl: /learnapidoc/pubapis_stoplight.html
 
-  - title: "Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document"
+  - title: "Getting started tutorial: Using Stoplight to create an OpenAPI specification document"
     jurl: /learnapidoc/pubapis_openapis_quickstart_stoplight.html
 
   - title: "Swagger UI tutorial"

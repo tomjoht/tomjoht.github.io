@@ -75,7 +75,7 @@ Break time
 
 [Activity: Explore Swagger UI through the Petstore Demo](pubapis_openapi_intro.html#explore_swagger_through_petstore_demo)
 
-[Activity: Create an OpenAPI specification using Stoplight Studio](pubapis_openapis_quickstart_stoplight.html)
+[Activity: Create an OpenAPI specification using Stoplight](pubapis_openapis_quickstart_stoplight.html)
 
 ## 12:30 - 1:30pm: Lunch
 
