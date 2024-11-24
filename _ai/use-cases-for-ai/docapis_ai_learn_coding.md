@@ -16,7 +16,7 @@ redirect_from:
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-One challenge API technical writers face is [understanding developer code and tools](jobapis_learning_code.html). This is by far the most intimidating aspect of being an API technical writer. Fortunately, AI tools can be a great learning aid for programming topics, with the option to design custom courses tailored around topics you specifically want to learn.
+One challenge API technical writers face is [understanding developer code and tools](/learnapidoc/jobapis_learning_code.html). This is by far the most intimidating aspect of being an API technical writer. Fortunately, AI tools can be a great learning aid for programming topics, with the option to design custom courses tailored around topics you specifically want to learn.
 
 {% if site.format == "web" %}
 * TOC

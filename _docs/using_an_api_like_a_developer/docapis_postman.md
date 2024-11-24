@@ -9,7 +9,7 @@ weight: 2.2
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2019-11-18
+last-modified: 2024-11-24
 ---
 
 {% include coffeeshopbook.html %}
@@ -53,14 +53,14 @@ In this exercise, you'll use Postman to make a request using OpenWeatherMap's [c
 
 1.  If you haven't already done so, download and install the Postman app at [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/). (Make sure you download the app and not the deprecated Chrome extension.)
 2.  Start the Postman app and sign in when prompted. Close any welcome screens so you can make a request.
-3.  Insert the following endpoint into the box next to **GET**: `https://api.openweathermap.org/data/2.5/weather`
+3.  Click the **+** tab to create a new tab. Insert the following endpoint into the box next to **GET**: `https://api.openweathermap.org/data/2.5/weather`
 4.  Click the **Params** tab (below the box where you inserted the endpoint) and then add the following three parameters in the **key** and **value** rows:
 
     * key: `zip` / value: `95050`
     * key: `units` / value: `imperial`
     * key: `appid`/ value: &lt;insert your own API key&gt;
 
-    For the value for `appid`, use your own API key. Your Postman UI should look like this:
+    For the value for `appid`, use your own API key (see [Get authorization keys](docapis_get_auth_keys.html)). Your Postman UI should look like this:
 
     <img src="{{site.api_media}}/postmanopenweatherapi3.png" class="medium"/>
 
@@ -123,13 +123,9 @@ Postman has a lot of other functionality you can use. We'll revisit Postman late
 
 {% include random_ad3.html %}
 
-## Same request but in Paw instead of Postman
+## Other REST clients
 
-Although Postman is a popular REST client, you can also use others, such as Paw. The following image shows the same current weather API request made in [Paw (for Mac)](https://paw.cloud/):
-
-<img src="{{site.api_media}}/pawexample.png" alt="Paw" />
-
-Like Postman, Paw also allows you to easily see the request headers, response headers, URL parameters, and other data. I like that Paw shows the response in an expandable/collapsible way. The expand/collapse feature can make it easier to explore the response. Note that Paw is specific to Mac only, and like most products for Mac users, costs money.
+Although Postman is a popular REST client, you can also use others, such as [Insomnia](https://insomnia.rest/), [RapidAPI for Mac](https://paw.cloud/), and [Hoppscotch](https://hoppscotch.io/).
 
 ## <i class="fa fa-user-circle"></i> Enter several requests for the Aeris API into Postman
 
@@ -226,4 +222,4 @@ If this button doesn't work for you, copy this [import link](https://www.getpost
 Clicking the Run in Postman buttons should automatically prompt you to import the collections into Postman. If it doesn't work, copy the import link address and, in Postman, click **Import** in the upper-left corner. Then click the **Import From Link** tab, paste in the address and click **Import**.
 
 {: .tip}
-If you'd like to learn more about Postman, listen to this [interview with the Postman founder](https://idratherbewriting.com/208/01/22/postman-for-docs-podcast/). We recorded this as part of the [Write the Docs podcast](http://podcast.writethedocs.org/) and focused on the documentation features within Postman. For more information on creating the Run in Postman buttons, see the [Run in Postman button](docapis_doc_getting_started_section.html#runinpostmanbutton) section in the [Getting started tutorial](docapis_doc_getting_started_section.html).
+If you'd like to learn more about Postman, listen to this [interview with the Postman founder](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). We recorded this as part of the [Write the Docs podcast](http://podcast.writethedocs.org/) and focused on the documentation features within Postman. For more information on creating the Run in Postman buttons, see the [Run in Postman button](docapis_doc_getting_started_section.html#runinpostmanbutton) section in the [Getting started tutorial](docapis_doc_getting_started_section.html).
