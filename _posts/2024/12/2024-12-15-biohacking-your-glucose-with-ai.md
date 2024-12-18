@@ -1,12 +1,14 @@
 ---
-title: "Using AI for personal optimization: biohacking and stream journaling"
-permalink: /blog/ai-biohacking-and-stream-journaling
-date: 2024-12-15
+title: "Biohacking your glucose with AI"
+permalink: /blog/biohacking-your-glucose-with-ai
+date: 2024-12-17
 categories:
 - ai
-keywords: biohacking, bullet journal, stream journal, glucose, cgm, nutrition
+keywords: biohacking, glucose, cgm, nutrition
 rebrandly: https://idbwrtng.com/ai-biohacking-and-stream-journaling
-description: "In this post, I stray slightly outside my normal tech comm focus to explore strategies for personal optimization, specifically with biohacking and stream journaling. Some of these techniques could apply to tech comm, such as in analyzing user analytics, but that isn't something I've tackled yet. In short, I'm experimenting with using AI tools to adopt healthier habits and organize my stream of tasks, thoughts, and other notes during the day."
+description: "In this post, I stray slightly outside my normal tech comm focus to explore strategies for personal optimization, specifically with biohacking your glucose with AI. Some of these techniques could apply to tech comm, such as in analyzing user analytics, but that isn't something I've tackled yet. In short, I'm experimenting with using AI tools to adopt healthier habits so that I feel better and am more productive throughout the day."
+redirect_from:
+- /blog/ai-biohacking-and-stream-journaling
 ---
 
 * TOC
@@ -16,8 +18,7 @@ description: "In this post, I stray slightly outside my normal tech comm focus t
 
 "Biohacking" might be a pretentious cyber term for what is otherwise a straightforward experiment. For 10 days, I tracked my food and exercise levels while also wearing a continuous glucose monitor (CGM) to track my glucose levels. I then used AI to pair up the food + exercise with the glucose readings and perform an analysis about triggers for glucose spikes and recommendations to avoid them.
 
-
-### What prompted this experiment? 
+## What prompted this experiment? 
 
 A few months ago I read a book called *[The Case Against Sugar](https://www.amazon.com/Case-Against-Sugar-Gary-Taubes/dp/0307701646)* by Gary Taubes. Afterwards, I decided to give up "added sugar." The first month, I saw positive health benefits. But after a while, my body wised up and found a sugar workaround: I began eating more fruit than I've ever eaten in my life, believing that "natural sugar" in fruit was perfectly fine without moderation. Well, after 3 months of this, my A1C levels jumped up way more than I anticipated, which scared me. So I decided to start wearing, with the recommendation of a nutritionist, a CGM. I bought a $89 [Dexcom Stelo](https://www.stelo.com/) (the kind you can get without a prescription) to track what might be contributing to the glucose spikes. 
 
@@ -25,7 +26,7 @@ It only took a day to realize that natural sugars in fruits could lead to glucos
 
 So I started keeping a detailed log of my day's events&mdash;what I ate, any exercise, and general energy levels. I noted the tracking through ongoing AI sessions. I started a new AI session and labeled it "Daily log" (customizing it with the date), and I starred it so I could easily find it. Then throughout the day, when I ate something or exercised, etc., I opened the AI session on my app and made a quick note&mdash;for example, 6:30am, drank protein shake with 1 banana, 2 scoops of protein. Or 8:00-8:50 am, did fitness class focusing on body strengthening. Or "2:30pm feeling hungry, ate protein bar." You get the idea.
 
-### Prompt to start the AI session
+## Prompt to start the AI session
 
 I started my AI session with a prompt like this: 
 
@@ -91,6 +92,7 @@ The resulting tables were pretty good. I'm hesitant to share one here due to the
 | 6:15-7:00 PM | Exercise: 45-min brisk walk | 162 → 121 | Excellent glucose lowering effect (-41). The post-dinner walk significantly helped moderate what could have been a larger spike. |
 
 Key Recommendations for Tomorrow:
+
 1. Maintain the post-meal walking habit - it's clearly effective at managing glucose spikes
 2. Consider these meal timing adjustments:
    - Eat protein before carbs when having mixed meals
@@ -113,7 +115,7 @@ Note that I've tried this with Claude, Gemini, and ChatGPT. Claude performed the
 
 {% include ads.html %}
 
-### What did I learn?
+## What did I learn?
 
 This approach helped me understand a lot about the food I was eating and the impact. Here are a few things I realized:
 
@@ -135,99 +137,6 @@ The AI tools did frequently make mistakes, so if anything doesn't look right, sp
 
 Finally, I should note that there's a lot of different opinions about glucose spikes and blood sugar tracking, with many people saying spikes aren't necessarily bad (they're the body's normal response) and that constantly checking your glucose levels might lead to obsessive behavior and avoiding healthy foods. This is likely just an experiment I'll do for 1-2 months while I get a solid grounding on more healthy habits. It seems like eating more salads, going on postprandial walks, and avoiding foods with lots of sugar and carbs will likely be the main takeaways. My next project might be sleep tracking.
 
-## AI stream journaling experiment
+<hr/>
 
-While I was logging my day's events in an AI session, I had another thought: what if I didn't just log food + exercise + energy levels, etc., but also tasks, thoughts, observations, or other notes? I learned that this kind of all-in-one journal is often called a "bullet journal"&mdash;which is an officially trademarked term for [Ryder Carroll's bullet journaling methodology](https://bulletjournal.com/), often shortened to "Bujo." Carroll has detailed methodologies for organizing, tagging, and managing information in a journal that's far beyond the scope for how I'm using the term. So to avoid conflating my approach with bullet journaling, I'm calling my technique here an "AI stream journal."
-
-Mainly, I just wanted a single place where I could jot down the stream of information flowing through my mind and have AI sort and organize it for me.
-
-### The experiment
-
-During the day, I opened an AI session and named it "stream journal." As I was looking through my email, working on tasks, responding to co-workers, texts, etc., I made notes in the stream journal. 
-
-For example, "work task: respond to the email titled ‘such and such'." / "work task: Set up new bug templates for release notes specific to different teams." / "work task: Figure out this warning message is appearing in the logs." "work task: Correct this misspelling on this page of the reference docs." / "home task: Submit something for an HSA reimbursement." / "Thought: Working hard makes tech comm more interesting." / "home task: Prepare food items for soccer potluck." / "home task: Get your wife something for Christmas, etc." / "home task: Plan travel for upcoming soccer tournaments." Thought: "What happened to keeping a noticing journal?" And so on.
-
-During the day, we're bombarded with dozens of random to-do's, thoughts, observations, and notes. I usually just write them down on paper, which I eventually lose or sometimes review later. But having a running AI session to note the stream of information has several advantages:
-
-* AI will clean up my notes and make them more readable.
-* AI can sort content with different tags. For example, all work tasks in one group, home tasks in another, ideas in another. I don't have to think about categories&mdash;I just make quick notes.
-* Digital formats are more flexible and easier to work with than pen and paper.
-* AI can export the content as a CSV to make it easy to import into other systems.
-
-I found that dumping all these ideas into an AI session allowed me to maintain better focus on my current task. I wasn't worried that I would forget or lose track of some important task&mdash;it would be noted in my AI stream journal and would be curated and organized at the end of the day. With this method, I was able to better focus on my task at hand.
-
-Sometimes people try to act on everything in the moment it comes to mind, whether responding to an email or doing some quick task. For example, yesterday morning as the sun was creeping through our study's windows and making me squint, my wife suggested I move the darker curtains from the dining room to the study. I said "That's a good idea&mdash;I'll do it later." Then my wife immediately started making the curtain change, explaining that "If I don't do it in the moment I think of it, I'll forget about it." 
-
-This makes sense, and I definitely like the darker curtain now in the study. She's awesome to help out in the moment. But much of her day and my day is often spent like this, moving from task to task as they come to us, without a ton of preplanning or thought. How often have we received an email and thought, if I don't respond now, I'll completely forget about it? Then we start responding to the email, and before we know it we forgot what we were doing previously. In my experience, this do-it-now approach often leads to a fragmented, scattered day. It can be exhausting moving from task to task like this.
-
-The AI stream journal gives me the ability to stop worrying about these other tasks and to instead concentrate on what I'm working on in a more immersive way, without the fear of forgetting a task entirely.
-
-### AI stream prompt
-
-Here's my AI stream prompt:
-
-<div class="chat">
-<div markdown="1">
-I want you to act as my AI stream journal (similar to a bullet journal), for the day. In this chat session, I'll log all kinds of notes: work tasks, home tasks, thoughts and ideas, and food and exercise. The point is to have an easy way to dump all the scattered information in my head into a central log that you organize and analyze on my behalf. 
-
-**Tasks**
-
-Tasks will be prefaced with the word "work task" or "home task." This is a way for me to get all the random, scattered to-do's and reminders out of my head so that I can more fully focus on the task at hand.
-
-**Thoughts**
-
-Thoughts and ideas will be prefaced with the word "thoughts." These are just random ideas that pop into my head about anything. Feel feel to comment on any of the thoughts/ideas I jot down. Again, I just want to make a note of these ideas to potentially return to them later.
-
-**Observations (mindfulness noticing)**
-
-Sometimes I want to note my mindfulness observations and "noticings." These are details that I'm observing about the environment around me, taking in some detail that I might not have noticed before. It could be a small facet of a place or an activity or person that I hadn't noticed before. I want to zero in on this detail and really take it in, like observing it for the first time, as a way to increase my presence in the moment. For these entries, I'll preface it with the word "observation."
-
-**Food and exercise**
-
-For the food and exercise notes, I'll add details about the times and details of when and what I'm eating, and also the when and what of exercise. The notes will say "food log + time," such as "food log: 6am, drank protein shake." Or "exercise log: 11am, walked for 20 minutes." I may also note energy levels or other moods. I'm also wearing a CGM throughout the day that tracks my glucose levels. I'll provide CGM data at the end of the day. With both the food + exercise + glucose logs, you will then analyze food-glucose correlations (considering a ~30-minute delay for digestion), the impact of timing and food combinations, patterns and trends, and general recommendations for improvement to minimize glucose spikes.
-
-When I log an entry about food or exercise, just acknowledge each entry briefly. Save your more detailed analyses for later, after I supply you with the glucose logs at the end of the day.
-
-At the end of the day, I'll also ask you to provide me with an organized list of tasks, sorted by work tasks and home tasks, and a list of my ideas.
-
-Sound good? Are you ready to be my AI stream journal?
-</div>
-</div>
-
-### Issues to solve
-
-In my first experiments, I ran into a few issues. Mixing work and personal tasks/notes in an AI session was a little tough. I didn't want to put confidential material in an AI that wasn't inside my company's firewall, but if I couldn't access that AI reliably on my phone without authenticating with a token every time, it was hard to use it. My AI stream journal needed to be available to me via my smartphone wherever and whenever I was during the day. So I used more publicly available AI tools and made any work tasks phrased general enough that they wouldn't contain confidential information.
-
-It was also somewhat fragmenting to have so many AI sessions open. I starred or favorited the current sessions, but because this was a daily task (unstarring the old sessions, creating and starring new ones), it was hard to keep track of the right AI session.
-
-I also needed to store my prompt in an easily accessible place so that I could just kick off the AI stream journaling session without retyping the whole prompt. I decided to put this prompt as a separate "Document tab" in a Google Doc where I also store my food/exercise/glucose logs.
-
-### Results
-
-I haven't experimented with AI stream journals nearly as much as the food+exercise+glucose journal. However, so far it's been good. I like having a single journal where I note the stream of details each day. As I said earlier, it allows me to better focus on the task at hand without worrying about losing track of other need-to-do tasks. If this method leads to greater focus and concentration, more in-the-moment engagement, that's a worthwhile productivity technique. 
-
-Even better is the calmness that comes from living an *organized life*. By this I mean working on those tasks that are the highest priority so that I finish them well ahead of the needed timelines. When I organize my day like this, working on the highest priority tasks at the right times, I'm much less stressed and perform better all around. 
-
-For example, when one of my daughters was applying to college, we proceeded through all phases of the application process months ahead of time, finishing several days before the earliest deadlines. There wasn't a late-night, last-minute crunch to crank out that personal essay, running against the clock and hyped up on caffeine to meet the deadline. It felt great.
-
-At work, I dislike writing release docs at the last minute and pinging people over chat to do same-day reviews. It's so much better to prioritize the right things in the right order&mdash;knocking out release notes a week ahead of time so that I can request engineering reviews with ample time, giving them 3-4 days to review and approve the changelists.
-
-The "organized life" isn't something that can be achieved through a simple AI stream journal&mdash;but maybe the stream journal can be one component of a larger system. There's also a need to process the tasks at the end of the day, to export the content and import it into other systems, and then incorporate planning sessions with each day to identify the highest priority tasks. These additional components are something I'm still working on incorporating. (If I can attach them to an existing routine&mdash;something I wrote about in [Routines and habit stacking](/blog/routines-and-habit-stacking), I'll have better chances of success.)
-
-### Exporting from AI into Todoist
-
-The tasks and other notes should be transferred from the AI session into a better system. For example, work tasks can be transferred into an issue tracking system at work (within a specific component and tags). Home tasks can be transferred into a home issue tracking system&mdash;the one I use is [Todoist](https://www.todoist.com). Then more immersive planning can be done through these issue tracking systems. 
-
-To import items into Todoist, there's a [specific CSV template](https://get.todoist.help/hc/article_attachments/11984456882588) to follow, as described in [Format a CSV file to import into Todoist](https://todoist.com/help/articles/format-a-csv-file-to-import-into-todoist-UVUXTmm6). The AI tool can put the tasks into this CSV structure, facilitating the export and import. 
-
-Here's a sample prompt for curating the personal tasks and exporting them in a Todoist CSV format:
-
-<div class="chat">
-<div markdown="1">
-I'm done for the day. Now can you list all my personal tasks? Additionally, will you please structure those tasks in a CSV format following the example in this Todoist CSV template I just uploaded? This will allow me to import them into my Todoist app.
-</div>
-</div>
-
-## Conclusion
-
-There are countless ways to organize your tasks and be more productive. My stream journal is merely a tool for capturing all of these items, acting as a blank notebook, rather than performing an analysis. In that respect, it's like using a Ferrari to drive to the mailbox&mdash;there isn't a sophisticated analysis to perform with all the data. I'm not sure what that analysis would be, except perhaps to help organize and optimize the day. But if this technique can clear my mind and allow me to focus on the task at hand, that's enough for now.
+For additional reading, see [AI stream journaling experiment](/blog/ai-stream-journaling-experiment).
