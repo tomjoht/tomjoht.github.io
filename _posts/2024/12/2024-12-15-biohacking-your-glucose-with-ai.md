@@ -52,6 +52,9 @@ When I log an entry, just acknowledge each entry briefly. Save your in-depth ana
 </div>
 </div>
 
+{:.note}
+For another prompt with a more expanded scope, see the one in [AI stream journaling experiment](/blog/ai-stream-journaling-experiment).
+
 I found that logging events in an ongoing AI session like this was easy. Of course, I could have equally just noted these things in a Google Doc, but why not leverage AI for this? AI could clean up the notes, allowing me to quickly dictate half-intelligible logs on the go and keep track of everything for me in an easy way.
 
 At the end of the day, I exported the glucose logs as a CSV file (from [https://clarity.dexcom.com/](https://clarity.dexcom.com/)), cleaned up irrelevant noise in the exported content (via Google Sheets), then downloaded the cleaned up CSV file with just two columns: time and glucose level. 
