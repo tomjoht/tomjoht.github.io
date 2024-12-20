@@ -127,3 +127,7 @@ As a final step, after you've got a working script, document it. You probably wo
 <div class="chat"><p>Can you document this code at a high level, explaining how it works?</p></div>
 
 You can also just add documentation comments inline, which might be even better.
+
+## Additional reading
+
+See [Using AI to mine log messages from reference doc builds](/ai/prompt-engineering-mine-log-messages.html).

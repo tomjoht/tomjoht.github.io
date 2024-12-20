@@ -91,3 +91,6 @@ folders:
 
   - title: "Using AI to design landing pages"
     jurl: /ai/prompt-engineering-landing-pages.html
+
+  - title: "Using AI to mine log messages from reference doc builds"
+    jurl: /ai/prompt-engineering-mine-log-messages.html
