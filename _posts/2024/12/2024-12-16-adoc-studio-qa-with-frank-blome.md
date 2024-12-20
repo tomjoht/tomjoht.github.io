@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords: 
 rebrandly: https://idbwrtng.com/adoc-studio-qa-with-frank-blome
-description: "In this Q&A about <a href='https://idbwrtng.com/adoc-studio'>adoc Studio</a>, co-founder <a href='#frank-blome'>Frank Blome</a> shares the origin story behind this new documentation tool called adoc Studio, their target audience and use cases, why they chose AsciiDoc as their markup language, reasons for the Mac-specific platform, how the tool streamlines documentation workflows with unified stylesheets, and more."
+description: "In this Q&A post, <a href='#frank-blome'>Frank Blome</a>, co-founder of <a href='https://idbwrtng.com/adoc-studio'>adoc Studio</a>, discusses this new Mac-based documentation tool designed for technical writers. Learn about their choice of AsciiDoc markup, the native Apple platform strategy, unified stylesheet publishing workflow, and how the tool aims to simplify documentation processes for both docs-as-code and topic-based writers. adoc Studio is one of the latest authoring tools to emerge on the tech comm landscape."
 ---
 
 *Note: This is a sponsored post.*
