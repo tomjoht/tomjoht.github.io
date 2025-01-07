@@ -1,5 +1,5 @@
 ---
-title: "My 2025 trends predictions"
+title: "My 2025 trends predictions for tech comm"
 permalink: /blog/trends-predictions-2025-tech-comm
 date: 2025-01-05
 categories:
