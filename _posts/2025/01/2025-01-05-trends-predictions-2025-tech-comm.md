@@ -4,10 +4,19 @@ permalink: /blog/trends-predictions-2025-tech-comm
 date: 2025-01-05
 categories:
 - ai
+- podcasts
 keywords: AI, API, trends, predictions, apathy, productivity
 rebrandly: https://idbwrtng.com/trends-predictions-2025-tech-comm
 description: "It's that time of year again when we take to analyzing trends. If you know me, you're probably gearing up for a load of AI-optimistic predictions because, as I've noted in previous posts like <a href='/blog/unpacking-issues-from-ai-porter-benedetti-posts'>Unpacking the issues from AI</a>, I'm an AI optimist. However, my AI optimism isn't based on hype or the current tech zeitgeist. Rather, I'm an AI optimist because my daily experiences using AI for technical documentation, especially API docs, throughout 2024 has shown it to be invaluable."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/notebooklm_2025trends.mp3
+podcast_file_size: 12.9
+podcast_duration: "21:17"
+podcast_length: 12776196
 ---
+
+This post is also available as an AI-generated podcast from [NotebookLM](https://notebooklm.google.com):
+
+{% include audio.html %}
 
 * TOC
 {:toc}
