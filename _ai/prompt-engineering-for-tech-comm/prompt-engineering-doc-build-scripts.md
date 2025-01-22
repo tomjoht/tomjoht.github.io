@@ -120,7 +120,7 @@ Here are a few ways you could try to overcome a snag. These aren't necessarily A
 * **Take a break and come back to it later.** Usually when I'm banging my head troubleshooting an error, I'm not in a problem-solving state. Robert Pirsig has tremendous advice for troubleshooting in _Zen and the Art of Motorcycle Maintenance_. First, slow down your internal state so you're not all balled up and frustrated inside. Stop rapidly trying different commands and combinations of commands like a monkey typing on a typewriter. Meditate, then slow down enough to patiently learn. Empty your mind of assumptions, and listen to your inner guiding voice, or Quality, about what's wrong. Solutions are often obvious in hindsight. I wrote about some of these techniques in my [Zen and the Art of Motorcycle maintenance series here](/zamm/bleeding-my-brakes-inner-calm.html).
 * **Approach the problem in another way.** If all else fails, try skinning the cat another way. There are usually half a dozen or more valid approaches through the same problem. Try another path.
 
-## Documentation your script
+## Document your script
 
 As a final step, after you've got a working script, document it. You probably won't need to explain much on your own&mdash;you can likely just ask AI to document it for you. You'll need this documentation when you want to enhance or fix the script next year, and you'll have completely forgotten how it works. Use a prompt like this:
 
