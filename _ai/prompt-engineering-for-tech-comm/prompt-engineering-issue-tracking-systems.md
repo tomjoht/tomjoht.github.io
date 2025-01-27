@@ -31,16 +31,16 @@ Given the importance of issue tracking systems, what opportunities are there to 
 
 ## 1. Require abundant context for documentation intake requests
 
-The first strategy is to make the documentation intake (presumably using the same issue tracking system as other bugs) as full of contextual information as possible. In your documentation intake request, try to extract as much detail as you can from the person filing the bug. Reason being, you can feed this context into AI systems to get a better handle on the bug, resolution, and needed doc update.
+The first strategy is to make your documentation intake (presumably using the same issue tracking system as other bugs) pull as much contextual information as possible. In your documentation intake request, try to extract an abundance of detail from the person filing the bug. Reason being, you can feed this context into AI systems to get a better handle on the bug, resolution, and needed doc update.
 
-Think about how many bugs are likely sitting in your queue for months on end because the bugs are vague, require information you don't have, or are missing other contextual details. If bugs don't include enough information, they aren't actionable for tech writers. As such, although it might seem painful to ask so much information from requesters, the pain required up front will lead to a much more actionable task for the tech writer.
+Think about how many bugs are likely sitting in your queue for months on end because the bugs are vague, require information you don't have, or are missing other contextual details. If bugs don't include enough information, they aren't actionable for tech writers. As such, although it might seem painful to ask so much information from requesters, the pain required up front will lead to a much more actionable task for the tech writer. And the requester will have a better experience overall if their bug is quickly fixed with the needed doc update.
 
-For example, if engineers fixed a bug, they should include the associated changelist (aka pull request) with the doc bug request. With the changelist, you can run a git diff command to get a file diff of the changes, and then pass those changes into AI for a summary of the bug. This technique works tremendously well when writing release notes—extend the same principle when working on tickets outside of release notes. But if engineers don't include the related changelists in requests, it puts much more work onto the technical writer.
+For example, if engineers fixed an engineering issue, they should include the associated changelist (aka pull request) with their documentation bug request. With the changelist, you can run a git diff command to get a file diff of the changes, and then pass those changes into AI for a summary of the bug. This technique works tremendously well when writing release notes&mdash;extend the same principle when working on tickets outside of release notes. On the other hand, if engineers don't include the related changelists in requests, it puts much more work onto the technical writer and slows the pace at which you can resolve bugs.
 
 Here's a generalized version of my documentation intake:
 
-Please provide answers to all questions below. The more info you provide, the less outreach is needed. You don't have to elaborate much in this bug -- just provide links to everything where we can get the details. If the question doesn't apply for the bug you're filing, skip it.
-
+> Please provide answers to all questions below. The more info you provide, the less outreach is needed. You don't have to elaborate much in this bug&mdash;just provide links to everything where we can get the details. If the question doesn't apply for the bug you're filing, skip it.
+>
 > 1. Which release is this for?
 >
 >    [ ] Release 1 <br/>
@@ -130,15 +130,13 @@ Find those documentation bugs that correspond with some user bugs or issues. Ind
 </div>
 </div>
 
-AI tools do a great job combing through massive amounts of information and finding themes. They can summarize bugs in rapid fire and quickly point you towards bugs you should focus on.
+AI tools do a great job combing through massive amounts of information and finding issues. They can summarize bugs in rapid fire and quickly point you towards bugs you should focus on.
 
 Note that this approach might only be necessary if your technical program managers don't do a good job of tagging and routing documentation-specific bugs your way. Ideally, you shouldn't have to go spelunking in other bug components to see if there are documentation requests in bugs. All the documentation-related bugs should be routed your way due to good processes and awareness from other teams.
 
-Thus, this effort might only be worthwhile if your own bug queue is somewhat sparse, or if users are dissatisfied and you don't know exactly why, but perhaps you suspect that their issues aren't being properly routed to you.
-
 ## 4. Identify user profiles from the bugs users file
 
-Another potential application with issue tracking systems is to use them as a window into the user experience. I don't interact with our users directly, so I'm always curious whether the documentation I write actually meets their needs. I only hear feedback secondhand through our partner engineers and other interfacing teams. But when users file bugs, they're giving us a glimpse into their world.
+Another potential AI application with issue tracking systems is to use them as a window into the user experience. I don't interact with our users directly, so I'm always curious whether the documentation I write actually meets their needs. I only hear feedback secondhand through our partner engineers and other interfacing teams. But when users file bugs, they're giving us a glimpse into their world.
 
 Bugs can reveal more than just problems users are having. They could also reveal how the users are testing a system (such as through a simulator). They reveal what users care about and don't care about (certain endpoints more than others, for example). They reveal the tasks that users are trying to perform, as well as the business use cases.
 
@@ -146,7 +144,7 @@ All of this information could be leveraged to assemble a user profile or persona
 
 <div class="chat">
 <div markdown="1">
-Attached is a CSV of a list of bugs that partners have filed. Our partners are developers using APIs to [explain common use cases]. I want you to look through these bugs and gather patterns and observations enough to describe a typical user persona. The user persona (or persona) should describe typical tasks users try to do, their tools, the APIs and workflows they use, their business use cases, and more. 
+Attached is a CSV of a list of bugs that usrs have filed over the past couple of years. Our users are developers using APIs to [explain common use cases]. I want you to look through these bugs and gather patterns and observations enough to describe a typical user profile or persona. The user profile/persona should describe typical tasks users try to do, their tools, the APIs and workflows they use, their business use cases, and more. 
 
 Try to discern all of this by reading through the many bugs that the users are filing. Extrapolate a picture of a typical user, contextualizing them within an environment and business case and painting a picture that helps us understand them more. By understanding user persona, we can be more strategic with our decisions around documentation and product priorities.
 </div>
@@ -156,20 +154,24 @@ Try to discern all of this by reading through the many bugs that the users are f
 
 Finally, you can use bugs to identify the types of documentation that users want. As you comb through bugs that users file, try to determine what sort of information they want: are they asking for code examples? Do they struggle to understand how to use the mechanics of the API? Do they want richer, more detailed descriptions of the data returned by the API? Do they want reference content, conceptual material, how-to material, tutorials, or other types of information? 
 
-We hear about different topic types through DITA, Diataxis, and other information models. Here's your chance to figure out exactly what your users want, related to a specific API product. For example, although I regularly see code examples flagged as a top priority in API docs, for the APIs I document, most of the user questions are related to the fields returned by the API. It seems most users are seasoned engineers who don't need examples of how to use the API; they want better descriptions of both the data and the quality of the data.
+We hear about different topic types through DITA, Diátaxis, and other information models. Here's your chance to figure out exactly what your users want, related to a specific API product. For example, although I regularly see code examples identified as a top priority in API docs, for the APIs I document, most of the user questions are related to the fields returned by the API. It seems most users are seasoned engineers who don't need code examples for how to use the API. They want better descriptions of both the data and the quality of the data.
 
 Other questions you could explore: Are users looking for more information about specific features or parts of the system? Maybe your API has 5 endpoints, but 80% of the questions are about 1 specific endpoint. That 1 endpoint might account for most of the product usage (following the 80/20 rule).
+
+Here's a sample prompt:
+
+> I'm a technical writer documenting APIs for [describe your most common business case and user]. I've uploaded a CSV of all the bugs that partners have filed over the past couple of years. I want you to review the bugs and let me know from a general, high-level perspective what "type" of documentation users mostly want. Are they looking for code samples that show how to use the API? Are they looking for better reference documentation? Are they looking for more complete and thorough descriptions of field definitions from the API? Are they looking for more step-by-step tutorials? Are they looking for troubleshooting information? Are they looking for something else entirely? Tech writers tend to produce several core types of information: conceptual docs, task-based docs, reference docs, and tutorial docs. What insight can you provide about the type of documentation users want, based on the issues you're seeing here?
 
 {% include ads.html %}
 
 ## A few notes of caution
 
-Finally, I want to include a few notes of caution. It's easy to spend more time wandering around in issue tracking systems than actually fixing bugs. In other words, it can be an incredible time sink.
+Finally, I want to include a few notes of caution. It's easy to spend more time wandering around in issue tracking systems than actually fixing bugs. In other words, it can be a time sink. 
 
-You might already have an abundance of documentation-related bugs in your own component queue. Why exactly hunt around for more? This might be the task for other roles, triaging incoming bugs and routing them your way. You might make better use of your time simply focusing on the existing bugs already assigned to you. If that's the case, feel free to ignore many of the applications in this article.
+You might already have an abundance of documentation-related bugs in your own component queue. Why exactly hunt around for more? This might be the task for other roles, triaging incoming bugs and routing them your way. You might make better use of your time simply focusing on the existing bugs already assigned to you.
 
 ## Conclusion
 
 The techniques I explored show how AI can help you navigate the frequently overwhelming number of issues within an issue tracking system. While a full queue of bugs might seem overwhelming, remember that each bug represents a user's interaction with your product. By leveraging AI to analyze these interactions, we can move beyond simply fixing documentation errors to building a more comprehensive picture of user needs, pain points, and motivations. 
 
-This deeper understanding allows us to make more strategic decisions about documentation not just with the bugs we fix, but in other areas of the documentation we work on as well, including how we prioritize issues, the types of information we create, how we organize user flows, and more.
+This deeper understanding allows us to make more strategic decisions about documentation not just with the bugs we fix, but in other areas of the documentation we work on as well, including how we prioritize issues, the types of information we create, how we organize the information in documentation portals, and more.
