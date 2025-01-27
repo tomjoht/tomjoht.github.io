@@ -160,7 +160,11 @@ Other questions you could explore: Are users looking for more information about 
 
 Here's a sample prompt:
 
-> I'm a technical writer documenting APIs for [describe your most common business case and user]. I've uploaded a CSV of all the bugs that partners have filed over the past couple of years. I want you to review the bugs and let me know from a general, high-level perspective what "type" of documentation users mostly want. Are they looking for code samples that show how to use the API? Are they looking for better reference documentation? Are they looking for more complete and thorough descriptions of field definitions from the API? Are they looking for more step-by-step tutorials? Are they looking for troubleshooting information? Are they looking for something else entirely? Tech writers tend to produce several core types of information: conceptual docs, task-based docs, reference docs, and tutorial docs. What insight can you provide about the type of documentation users want, based on the issues you're seeing here?
+<div class="chat">
+<div markdown="1">
+I'm a technical writer documenting APIs for [describe your most common business case and user]. I've uploaded a CSV of all the bugs that partners have filed over the past couple of years. I want you to review the bugs and let me know from a general, high-level perspective what "type" of documentation users mostly want. Are they looking for code samples that show how to use the API? Are they looking for better reference documentation? Are they looking for more complete and thorough descriptions of field definitions from the API? Are they looking for more step-by-step tutorials? Are they looking for troubleshooting information? Are they looking for something else entirely? Tech writers tend to produce several core types of information: conceptual docs, task-based docs, reference docs, and tutorial docs. What insight can you provide about the type of documentation users want, based on the issues you're seeing here?
+</div>
+</div>
 
 {% include ads.html %}
 
