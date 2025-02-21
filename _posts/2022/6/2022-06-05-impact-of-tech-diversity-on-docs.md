@@ -45,19 +45,19 @@ Yesterday my daughter asked me to take her to IKEA to get a new dresser that wou
 }
 </style>
 <div id="ikeaPics">
-<img src="{{site.media}}images/ikeafrontroom1.jpg" alt="IKEA front room" />
+<img src="{{site.media}}/images/ikeafrontroom1.jpg" alt="IKEA front room" />
 
-<img src="{{site.media}}images/ikeakitchen1.jpg" alt="IKEA demo kitchen" />
+<img src="{{site.media}}/images/ikeakitchen1.jpg" alt="IKEA demo kitchen" />
 
-<img src="{{site.media}}images/ikeakitchenstudio1.jpg" alt="IKEA studio" />
+<img src="{{site.media}}/images/ikeakitchenstudio1.jpg" alt="IKEA studio" />
 
-<img src="{{site.media}}images/ikealivingroom1.jpg" alt="IKEA living room" />
+<img src="{{site.media}}/images/ikealivingroom1.jpg" alt="IKEA living room" />
 
-<img src="{{site.media}}images/ikeapatio1.jpg" alt="IKEA patio" />
+<img src="{{site.media}}/images/ikeapatio1.jpg" alt="IKEA patio" />
 
-<img src="{{site.media}}images/ikeastudio1.jpg" alt="IKEA living area" />
+<img src="{{site.media}}/images/ikeastudio1.jpg" alt="IKEA living area" />
 
-<img src="{{site.media}}images/ikeastudy1.jpg" alt="IKEA study" />
+<img src="{{site.media}}/images/ikeastudy1.jpg" alt="IKEA study" />
 
 </div>
 
@@ -67,13 +67,13 @@ In some cases, to demonstrate a room, IKEA designers have built pseudo staircase
 
 You can also see how much all products in a sample room cost. Granted, it's not as if anyone chooses an entire living room set, but it's still cool to see the total cost of these collective items.
 
-<img style="max-width: 300px" src="{{site.media}}images/ikeacompletelivingroom.jpg" alt="Complete living room set price" />
+<img style="max-width: 300px" src="{{site.media}}/images/ikeacompletelivingroom.jpg" alt="Complete living room set price" />
 
 What's interesting is to see the vision of how everything normally sold as a separate item fits together into one larger story.
 
 IKEA also gives you arrows to follow through their store, like a user on a journey, giving you the sense that you're making your way through the store along a logical path.
 
-<img style="max-width: 400px" src="{{site.media}}images/ikeaarrow.jpg" alt="IKEA arrow" />
+<img style="max-width: 400px" src="{{site.media}}/images/ikeaarrow.jpg" alt="IKEA arrow" />
 
 In the same way, documentation should structure content along user journeys and show furnished rooms rather than merely shelves of API endpoints.
 
@@ -86,7 +86,7 @@ Creating full-picture documentation (*showroom documentation*?) isn't necessaril
 
 For example, in an effort to teach users how to use Illustrator, some tutorials take you through the making of a cat's face, which involves using many different tools and techniques:
 
-<a href="/2011/05/25/where-topic-based-authoring-fails/"><img src="{{site.media}}images/blackcatutorial.png" alt="Black cat tutorial"/></a>
+<a href="/2011/05/25/where-topic-based-authoring-fails/"><img src="{{site.media}}/images/blackcatutorial.png" alt="Black cat tutorial"/></a>
 
 The problem with this approach is that it might come across as irrelevant for anyone not wanting to draw a black cat. For example, maybe I just want to create the white reflection in the eye pupils. Must I watch an entire video tutorial spanning 10+ techniques to get to the part I need? This bursting of long, sequential material into individual, modular topics was heralded as one of the advancements of tech comm. This modularity allowed users to jump to the exact task or topic they wanted to learn about.
 
