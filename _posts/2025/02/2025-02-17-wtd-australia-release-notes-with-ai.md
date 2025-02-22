@@ -10,7 +10,7 @@ categories:
 - podcasts
 keywords: AI, release notes, isolation
 rebrandly: https://idbwrtng.com/wtd-australia-release-notes-with-ai
-description: "I gave a presentation to the <a href='https://www.meetup.com/write-the-docs-australia/'>Write the Docs Australia group</a> on using AI to write release notes using file diffs, on Feb 16, 2025. Here's the recording, presentation description, and transcript."
+description: "I gave a presentation to the Write the Docs Australia group on using AI to write release notes using file diffs, on Feb 16, 2025. Here's the recording, presentation description, and transcript."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/wtdaustraliareleasenotesaipreso.mp3
 podcast_file_size: 41.3
 podcast_duration: "56:52"
@@ -41,6 +41,8 @@ Here's the presentation title and description:
 > * AI tools are good at translating file diffs into clear information. This makes file diffs a valuable resource, not just for release notes, but also for documenting any changes engineers make.
 >
 >In this presentation, Tom will show his approach to creating release notes using file diffs and AI. You’ll learn how to use AI tools to change your approach to documentation.
+
+See the [WTD Australia Meetup event](https://www.meetup.com/write-the-docs-australia/events/305581219/) for more details.
 
 
 ## Article version
