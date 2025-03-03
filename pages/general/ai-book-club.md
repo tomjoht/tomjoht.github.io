@@ -10,9 +10,11 @@ last-modified: 2025-03-02
 
 ## About the AI Book Club
 
-The AI Book Club for technical writers focuses on reading and discussing books about AI, with an occasional emphasis on techcomm because many book club members are technical writers. Although the news in this space seems to change daily, giving the impression that books are too slow to keep up, actually the core issues and themes have much more longevity. Books elevate our thinking and engagement with these more timeworn topics &mdash; beyond the latest model release, news-grabbing headlines, or shocking turn of events.
+The AI Book Club for technical writers focuses on reading and discussing books about AI, with an occasional emphasis on techcomm because many book club members are technical writers. 
 
-The reading pace is one book a month, as listed in the table and schedule below. This accelerated pace ensures that engaging in this club will likely pull you away from social media and require you to spend time on the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
+The reading pace is one book a month, as listed in the table and schedule below. This accelerated pace ensures that engaging in this club will likely pull you away from the minutiae of life and require you to spend time on the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
+
+Although AI news seems to change daily, giving the impression that books are too slow to keep up, actually the core issues and themes have much more longevity. Books elevate our thinking and engagement with these more timeworn topics &mdash; beyond the latest model release, news-grabbing headlines, or shocking turn of events.
 
 There's no cost to join, and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. 
 
@@ -178,12 +180,6 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). Links 
 **How did you come up with the book list?**
 : I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and and average at least 4 stars. 
 
-**Isn't this field changing too fast for books?**
-: Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. 
-
-**I'm not sure if I have time to read books.**
-: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world saturated in short-form content and fragmented attention spans.
-
 **What are the meetings like?**
 : The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarizes  the book's themes and also presents some questions for discussion. 
 
@@ -191,7 +187,13 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). Links 
 : Sure, send your book recommendations either to the [aibookclubtechcomm](https://aibookclubtechcomm.slack.com) or to me directly via the [contact form here](/contact).
 
 **I'm not a technical writer -- can I still join?**
-: Sure, you don't need to be a technical writer. I only added this facet to try to ground what is a broad domain (AI) with something more immediate and practical.
+: Sure, you don't need to be a technical writer. I only added this facet to try to ground what is a broad domain (AI) with a more immediate and practical perspective.
+
+**Isn't this field changing too fast for books?**
+: Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. 
+
+**I'm not sure if I have time to read books.**
+: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world saturated in short-form content and fragmented attention spans.
 
 <style>
 
