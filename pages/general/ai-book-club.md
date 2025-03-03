@@ -1,5 +1,5 @@
 ---
-title: AI Book Club (with an emphasis on techcomm)
+title: AI Book Club
 permalink: /ai-book-club/
 type: page
 last-modified: 2025-03-02
@@ -10,15 +10,15 @@ last-modified: 2025-03-02
 
 ## About the AI Book Club
 
-The AI Book Club (with an emphasis on techcomm) focuses on reading and discussing books about AI. Why the "emphasis on techcomm"? While the AI Book Club is open to anyone, many members are working in techcomm professions, so the discussions will likely emphasize techcomm scenarios and applications. 
-
-There's no cost to join, and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. 
+The AI Book Club focuses on reading and discussing books about AI, with a possible emphasis on techcomm. Why the techcomm emphasis? While the AI Book Club is open to anyone, many members are working in techcomm professions, so the discussions will likely emphasize techcomm scenarios and applications. 
 
 The reading pace is one book a month, as listed in the table and schedule below. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
 
+There's no cost to join, and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. 
+
 ## Reading schedule
 
-Note that links for the notes/discussion and Google Meet will be added as the meeting date approaches.
+The following table lists the reading schedule. Links for the notes/discussion and Google Meet will be added as the meeting date approaches.
 
 <table>
    <thead>
@@ -30,81 +30,121 @@ Note that links for the notes/discussion and Google Meet will be added as the me
    </thead>
    <tbody>
       <tr>
-         <td><b>April 20</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
+         <td>
+            <b>April 20</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><i>More Than Words: How to Think About Writing in the Age of AI</i></a> by John Warner
+             <p class="book-summary">Warner argues that writing is a form of thinking and feeling that cannot be replaced by AI. He explores the implications of AI-generated content and emphasizes the enduring importance of human creativity in writing.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>May 18</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
+         <td>
+            <b>May 18</b>
+             <figure><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari
+             <p class="book-summary">Harari explores how information networks—from ancient storytelling to modern AI—have shaped human history. He discusses the risks posed by current technological advancements and emphasizes the critical decisions humanity faces to safeguard information, power, order, and truth.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>June 22</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
+         <td>
+            <b>June 22</b>
+             <figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman
+             <p class="book-summary">Coleman examines the collaborative potential between humans and AI in professional and personal contexts. He provides strategies for effectively integrating AI tools into daily workflows and discusses the ethical considerations of coexisting with intelligent machines.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>July 20</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
+         <td>
+           <b>July 20</b>
+           <figure><a class="noCrossRef" href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><i>Supremacy: AI, ChatGPT, and the Race that Will Change the World</i></a> by Parmy Olson
+            <p class="book-summary">Olson provides an in-depth exploration of the rivalry between AI firms OpenAI and DeepMind, focusing on their respective leaders, Sam Altman and Demis Hassabis. The book describes into their ambitions to develop artificial general intelligence (AGI) and the ethical considerations surrounding AI's rapid advancement.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>August 17</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers" /></a></figure>
-            <a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a> by Kai-Fu Lee</span>
+         <td>
+           <b>August 17</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers" /></a></figure>
+         </td>
+         <td>
+            <a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a> by Kai-Fu Lee
+             <p class="book-summary">Lee argues that China has emerged as an equal, if not leading, power in the field of AI. He analyzes the unique strengths of both China and the United States in AI development, including data advantages, entrepreneurial culture, and government support. Lee also explores how AI will impact jobs, industries, and the future of humanity, emphasizing the need for new economic and social paradigms to address AI's transformative effects.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>September 21</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Code-Dependent-Living-Shadow-Madhumita-Murgia/dp/1250867398"><img src="{{site.media}}/codedependent_aibookclub.png" alt="Code Dependent" /></a></figure>
+         <td>
+            <b>September 21</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/Code-Dependent-Living-Shadow-Madhumita-Murgia/dp/1250867398"><img src="{{site.media}}/codedependent_aibookclub.png" alt="Code Dependent" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/Code-Dependent-Living-Shadow-Madhumita-Murgia/dp/1250867398"><i>Code Dependent: Living in the Shadow of AI</i></a> by Madhumita Murgia
+            <p class="book-summary">Murgia examines how AI algorithms influence various aspects of daily life, from social interactions to decision-making processes. She sheds light on the pervasive presence of AI and discusses the societal implications of living under algorithmic influence.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>October 19</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="" /></a></figure>
+         <td>
+           <b>October 19</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman
+            <p class="book-summary">Suleyman explores the transformative potential and risks of artificial intelligence in reshaping society. He describes the ethical implications of AI and advocates for responsible development and governance to harness its benefits while mitigating associated challenges.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>November 16</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><img src="{{site.media}}/godhuman_aibookclub.png" alt="God Human Animal Machine" /></a></figure>
+         <td>
+           <b>November 16</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><img src="{{site.media}}/godhuman_aibookclub.png" alt="God Human Animal Machine" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><i>God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning</i></a> by Meghan O'Gieblyn
+            <p class="book-summary">O'Gieblyn explores the intersections of technology, theology, and philosophy, examining how metaphors shape our understanding of consciousness, identity, and the evolving relationship between humans and machines.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>December 21</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><img src="{{site.media}}/2041_aibookclub.png" alt="AI 2041" /></a></figure>
+         <td>
+           <b>December 21</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><img src="{{site.media}}/2041_aibookclub.png" alt="AI 2041" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><i>AI 2041: Ten Visions for Our Future</i></a> by Kai-Fu Lee and Chen Qiufan
+            <p class="book-summary">Lee and Qiufan present ten futuristic scenarios exploring how AI will transform various aspects of human life by 2041. Each scenario combines imaginative storytelling with scientific analysis, offering insights into the potential benefits and challenges of AI integration into society.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
-         <td><b>January 18</b></td>
-         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity" /></a></figure>
+         <td>
+            <b>January 18</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity" /></a></figure>
+         </td>
+         <td>
             <a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><i>The Singularity Is Nearer: When We Merge with AI</i></a> by Ray Kurzweil
+            <p class="book-summary">As a sequel to "The Singularity Is Near," Kurzweil discusses the imminent convergence of human and artificial intelligence. He provides updated predictions on technological advancements and explores how this merger could enhance human capabilities and transform society.</p>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
@@ -158,23 +198,25 @@ table img {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate; /* Changed from collapse to separate */
+  border-spacing: 0px; /* added border-spacing */
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   background-color: white;
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 30px; /* added margin-bottom*/
 }
 
 th {
   background-color: var(--primary-color);
   color: white;
   text-align: left;
-  padding: 16px;
+  padding: 15px; /* increased padding */
   font-weight: 500;
 }
 
 td {
-  padding: 14px 16px;
+  padding: 15px; /* Increased padding */
   border-bottom: 1px solid var(--border-color);
   vertical-align: top;
 }
@@ -192,6 +234,12 @@ tr:hover {
   font-style: italic;
   margin-top: 5px;
   display: block;
+}
+
+.book-summary {
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: #555;
 }
 
 @media (max-width: 768px) {
