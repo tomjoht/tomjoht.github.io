@@ -31,7 +31,7 @@ Note that links for the notes/discussion and Google Meet will be added as the me
    <tbody>
       <tr>
          <td><b>April 20</b></td>
-         <td>
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
             <a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><i>More Than Words: How to Think About Writing in the Age of AI</i></a> by John Warner
          </td>
          <td>Notes and discussion<br/>
@@ -39,23 +39,23 @@ Note that links for the notes/discussion and Google Meet will be added as the me
       </tr>
       <tr>
          <td><b>May 18</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/Nexus-History-Information-Networks-Stone/dp/0593734224"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>June 22</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-David-Coleman/dp/0262046005"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>July 20</b></td>
-         <td>
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
             <a class="noCrossRef" href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><i>Supremacy: AI, ChatGPT, and the Race that Will Change the World</i></a> by Parmy Olson
          </td>
          <td>Notes and discussion<br/>
@@ -63,49 +63,48 @@ Note that links for the notes/discussion and Google Meet will be added as the me
       </tr>
       <tr>
          <td><b>August 17</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a>
-            <span class="author">by Kai-Fu Lee</span>
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a> by Kai-Fu Lee</span>
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>September 21</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/Code-Dependent-Living-Shadow-AI/dp/1984825643"><i>Code Dependent: Living in the Shadow of AI</i></a> by Madhumita Murgia
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Code-Dependent-Living-Shadow-Madhumita-Murgia/dp/1250867398"><img src="{{site.media}}/codedependent_aibookclub.png" alt="Code Dependent" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/Code-Dependent-Living-Shadow-Madhumita-Murgia/dp/1250867398"><i>Code Dependent: Living in the Shadow of AI</i></a> by Madhumita Murgia
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>October 19</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Centurys-Greatest/dp/0593238650"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>November 16</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0385543823"><i>God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning</i></a> by Meghan O'Gieblyn
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><img src="{{site.media}}/godhuman_aibookclub.png" alt="God Human Animal Machine" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><i>God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning</i></a> by Meghan O'Gieblyn
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>December 21</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238294"><i>AI 2041: Ten Visions for Our Future</i></a> by Kai-Fu Lee and Chen Qiufan
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><img src="{{site.media}}/2041_aibookclub.png" alt="AI 2041" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><i>AI 2041: Ten Visions for Our Future</i></a> by Kai-Fu Lee and Chen Qiufan
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
       </tr>
       <tr>
          <td><b>January 18</b></td>
-         <td>
-            <a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-When-Merge/dp/0399562767"><i>The Singularity Is Nearer: When We Merge with AI</i></a> by Ray Kurzweil
+         <td><figure><a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity" /></a></figure>
+            <a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><i>The Singularity Is Nearer: When We Merge with AI</i></a> by Ray Kurzweil
          </td>
          <td>Notes and discussion<br/>
              Google Meet link</td>
@@ -136,26 +135,26 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). Links 
 ## FAQ
 
 **How did you come up with the book list?**
-
-I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and and average at least 4 stars. I don't want to spend time reading poorly written or uninformative books, given our limited reading time. 
+: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and and average at least 4 stars. I don't want to spend time reading poorly written or uninformative books, given our limited reading time. 
 
 **Isn't this field changing too fast for books?**
-
-Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. 
+: Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. 
 
 **I'm not sure if I have time to read books.**
-
-There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience. It takes time to read a 300-page book. That reading patience provides an offset to a world saturated in short-form content and fragmented attention spans.
+: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience. It takes time to read a 300-page book. That reading patience provides an offset to a world saturated in short-form content and fragmented attention spans.
 
 **What are the meetings like?**
-
-The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarize some of the book's themes and also presents some questions for discussion. 
+: The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarize some of the book's themes and also presents some questions for discussion. 
 
 **Can I recommend a book?**
-
-Sure, send your book recommendations either to the [aibookclubtechcomm](https://aibookclubtechcomm.slack.com) or to me directly via the [contact form here](/contact).
+: Sure, send your book recommendations either to the [aibookclubtechcomm](https://aibookclubtechcomm.slack.com) or to me directly via the [contact form here](/contact).
 
 <style>
+
+table img {
+    max-width: 150px !important;
+    display: inline-flex;
+}
 
 table {
   width: 100%;
