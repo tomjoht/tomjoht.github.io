@@ -76,6 +76,8 @@ topnav_dropdowns:
 
     - title: TW + AI
       folderitems:
+        - title: AI Book Club
+          url: /ai-book-club
         - title: Use cases for AI
           url: /ai/index.html
         - title: Prompt engineering for TW scenarios
