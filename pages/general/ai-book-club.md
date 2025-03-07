@@ -1,5 +1,5 @@
 ---
-title: AI Book Club for technical writers
+title: "AI Book Club: A Tech Writer in the Loop"
 permalink: /ai-book-club/
 type: page
 last-modified: 2025-03-02
@@ -10,7 +10,7 @@ last-modified: 2025-03-02
 
 ## About the AI Book Club
 
-The AI Book Club for technical writers focuses on reading and discussing books about AI, with an occasional emphasis on techcomm because many book club members are technical writers. 
+**AI Book Club: A Tech Writer in the Loop** focuses on reading and discussing books about AI, with an emphasis on how tech writers might steer and guide AI systems toward the outcomes they want.
 
 The reading pace is one book a month, as listed in the table and schedule below. This accelerated pace ensures that engaging in this club will likely pull you away from the minutiae of life and require you to spend time on the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
 
