@@ -22,7 +22,7 @@ The reading pace is one book a month, as listed in the schedule below. This acce
 
 Although AI news seems to change daily, giving the impression that books are too slow to keep up, actually the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to engage beyond just keeping up with the latest model release or newsy headlines.
 
-There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. The meetings take place on third Sunday of each month at 2pm Pacific Time.
+There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. The meetings take place on third Sunday of each month at 10am Pacific Time.
 
 ## Reading schedule {#schedule}
 
@@ -163,7 +163,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
 
 ## Monthly meetings {#_meetings}
 
-The meetings are usually the *third Sunday of the month at 2pm Pacific Time*. Some of the dates might shift due to unpredictable schedules.
+The meetings are usually the *third Sunday of the month at 10am Pacific Time*. Some of the dates might shift due to unpredictable schedules.
 
 ## Slack online discussion forum {#slack}
 
