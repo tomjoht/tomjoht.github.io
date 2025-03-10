@@ -1,5 +1,5 @@
 ---
-title: "Superintelligent docs?"
+title: "Countering AGI with Superintelligent docs?"
 permalink: /blog/superintelligent-docs
 date: 2025-03-09
 categories:
