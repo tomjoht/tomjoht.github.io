@@ -49,16 +49,16 @@ The following table lists the reading schedule. The descriptions are extracts fr
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1VE6qosoIHChM8fwpyp5OhinFvF72yGVStU6kKDzJ12Q/">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr>
-      <tr>
+            <tr>
          <td>
-            <b>May 18, 2025</b>
-             <figure><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
+           <b>May 18, 2025</b>
+            <figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
          </td>
          <td>
-            <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari</p>
-             <p class="book-summary">"<i>Nexus</i> looks through the long lens of human history to consider how the flow of information has shaped us, and our world. Taking us from the Stone Age, through the canonization of the Bible, early modern witch-hunts, Stalinism, Nazism, and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems throughout history have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence."</p>
+            <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman</p>
+            <p class="book-summary">"In <i>The Coming Wave</i>, Suleyman shows how these forces will create immense prosperity but also threaten the nation-state, the foundation of global order. As our fragile governments sleepwalk into disaster, we face an existential dilemma: unprecedented harms on one side, the threat of overbearing surveillance on the other. / How do we ensure the flourishing of humankind? How do we maintain control? ... / This groundbreaking book from the ultimate AI insider establishes 'the containment problem'&mdash;the task of maintaining control over powerful technologies&mdash;as the essential challenge of our age."</p>
          </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit">Notes and discussion</a><br/>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1D8TZggSo1k7bNuq5f5DF6gi0gHR6ViSy9U50D_Hl-eE">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr>
             <tr>
@@ -111,14 +111,14 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-           <b>October 19, 2025</b>
-            <figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
+            <b>Oct 19, 2025</b>
+             <figure><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
          </td>
          <td>
-            <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman</p>
-            <p class="book-summary">"In <i>The Coming Wave</i>, Suleyman shows how these forces will create immense prosperity but also threaten the nation-state, the foundation of global order. As our fragile governments sleepwalk into disaster, we face an existential dilemma: unprecedented harms on one side, the threat of overbearing surveillance on the other. / How do we ensure the flourishing of humankind? How do we maintain control? ... / This groundbreaking book from the ultimate AI insider establishes 'the containment problem'&mdash;the task of maintaining control over powerful technologies&mdash;as the essential challenge of our age."</p>
+            <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari</p>
+             <p class="book-summary">"<i>Nexus</i> looks through the long lens of human history to consider how the flow of information has shaped us, and our world. Taking us from the Stone Age, through the canonization of the Bible, early modern witch-hunts, Stalinism, Nazism, and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems throughout history have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence."</p>
          </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1D8TZggSo1k7bNuq5f5DF6gi0gHR6ViSy9U50D_Hl-eE">Notes and discussion</a><br/>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr>
       <tr>
