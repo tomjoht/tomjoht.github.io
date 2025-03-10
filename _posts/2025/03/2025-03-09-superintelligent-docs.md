@@ -1,12 +1,12 @@
 ---
-title: "Countering AGI with Superintelligent docs?"
+title: "Countering AGI with superintelligent docs?"
 permalink: /blog/superintelligent-docs
 date: 2025-03-09
 categories:
 - ai
 keywords: superintelligent documentation, tech writing, AI, AGI, ASI
 rebrandly: https://idbwrtng.com/superintelligent-docs
-description: "While AGI refers to performing tasks at a human level, Superintelligence refers to performing tasks that <i>exceed</i> human capabilities. If tech writers want to survive the AI apocalypse, we'll have to go beyond mere AGI levels of competence and tread water within the Superintelligent space.<br/><br/>Reason being, AI will eventually replace most of what we do, making it such that when AGI is reached, job displacement for tech writers will be more common because AGI will perform the same tasks, only cheaper. But the likelihood of AGI progressing to Superintelligence seems less likely to me (in the same way that moving from assisted driving to fully autonomous driving is so much harder than anyone anticipated). Striving for Superintelligent docs seems like the most logical counter-move against AI's encroachment on tech writer territory."
+description: "While AGI refers to performing tasks at a human level, superintelligence refers to performing tasks that <i>exceed</i> human capabilities. If tech writers want to survive the AI apocalypse, we'll have to go beyond mere AGI levels of competence and tread water within the superintelligent space.<br/><br/>Reason being, AI will eventually replace most of what we do, making it such that when AGI is reached, job displacement for tech writers will be more common because AGI will perform the same tasks, only cheaper. But the likelihood of AGI progressing to Superintelligence seems less likely to me (in the same way that moving from assisted driving to fully autonomous driving is so much harder than anyone anticipated). Striving for superintelligent docs seems like the most logical counter-move against AI's encroachment on tech writer territory."
 ---
 
 
@@ -25,11 +25,11 @@ The human barista can't possibly remember the details of so many hundreds of peo
 
 Now technical writers might need to do the same when it comes to documentation. Our docs have to be better than what can be performed by AI operating at an AGI level. 
 
-## What do Superintelligent docs look like?
+## What do superintelligent docs look like?
 
-How do you define Superintelligent docs? While various definitions could fit this bill, such as automated documentation that predicts topics based on user behavior or errors, or documentation that dynamically writes itself around the user's specific situation and needs, those imagined experiences are a bit too futuristic for me. 
+How do you define superintelligent docs? While various definitions could fit this bill, such as automated documentation that predicts topics based on user behavior or errors, or documentation that dynamically writes itself around the user's specific situation and needs, those imagined experiences are a bit too futuristic for me. 
 
-More realistically, Superintelligent docs solve wicked problems. Wicked problems are so massive, gnarly, multifaceted, and hard to tackle &mdash; for example, they include variables that are constantly changing based on recurring feedback loops, etc. &mash; that they are beyong merely complicated problems; they are *complex problems*. Solving them seems beyond human capabilities.
+More realistically, superintelligent docs solve wicked problems. Wicked problems are so massive, gnarly, multifaceted, and hard to tackle &mdash; for example, they include variables that are constantly changing based on recurring feedback loops, etc. &mash; that they are beyong merely complicated problems; they are *complex problems*. Solving them seems beyond human capabilities.
 
 ## Wicked problems in the tech comm space
 
@@ -60,5 +60,5 @@ This is the conundrum of focusing on wicked problems: no one specifically owns t
 
 ## Conclusion
 
-What do you think? Do tech writers need to tackle wicked problems and deliver Superintelligent docs to stave off job displacement from AI tools? Or is this scenario too far into the future to be real? Whether the AI trajectories are bogus or not, setting our sights on wicked/complex problems seems like a noteworthy goal. As a profession, we could stand to be a bit more ambitious. With AI at our disposal, we might have the tools we need to be successful.
+What do you think? Do tech writers need to tackle wicked problems and deliver superintelligent docs to stave off job displacement from AI tools? Or is this scenario too far into the future to be real? Whether the AI trajectories are bogus or not, setting our sights on wicked/complex problems seems like a noteworthy goal. As a profession, we could stand to be a bit more ambitious. With AI at our disposal, we might have the tools we need to be successful.
 
