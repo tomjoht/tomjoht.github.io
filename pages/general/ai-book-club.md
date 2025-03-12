@@ -7,7 +7,7 @@ last-modified: 2025-03-02
 
 ## About the AI Book Club {#about}
 
-**AI Book Club: A Human in the Loop** focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
+AI Book Club: A Human in the Loop focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
 
 The reading covers general books on AI, not necessarily books oriented towards tech comm, or engineering-heavy books, or even books specifically focusing on this "human in the loop" theme. As you can see from the reading schedule below, the books are generally popular books on AI targeting a general interest audience. 
 
@@ -26,7 +26,7 @@ There's no cost to join the book club (except buying the books), and you can att
 
 ## Reading schedule {#schedule}
 
-The following table lists the reading schedule. The descriptions are extracts from the book's summary on Amazon. Links for the notes/discussion and Google Meet will be added as the meeting date approaches. *Note: These dates and times are tentative. They may need to be adjusted due to unanticipated conflicts and events.*
+The following table lists the reading schedule. The descriptions are extracts from the book's summary on Amazon. More details for the notes and discussion links will be added as the meeting date approaches. *Note: These dates and times are tentative. They may need to be adjusted due to unanticipated conflicts and events.*
 
 <table>
    <thead>
@@ -39,7 +39,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
    <tbody>
       <tr>
          <td>
-            <b>April 20, 2025</b>
+            <b>April 20, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
          <td>
@@ -51,7 +51,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
             <tr>
          <td>
-           <b>May 18, 2025</b>
+           <b>May 18, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
          </td>
          <td>
@@ -63,7 +63,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
             <tr>
          <td>
-            <b>June 15, 2025</b>
+            <b>June 15, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity" /></a></figure>
          </td>
          <td>
@@ -75,7 +75,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-           <b>July 20, 2025</b>
+           <b>July 20, 2025<br/>10am PT</b>
            <figure><a class="noCrossRef" href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
          </td>
          <td>
@@ -87,7 +87,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-           <b>August 17, 2025</b>
+           <b>August 17, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers" /></a></figure>
          </td>
          <td>
@@ -99,7 +99,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-            <b>September 21, 2025</b>
+            <b>September 21, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><img src="{{site.media}}/handsonllms.png" alt="Hands-on LLMs" /></a></figure>
          </td>
          <td>
@@ -111,7 +111,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-            <b>Oct 19, 2025</b>
+            <b>Oct 19, 2025<br/>10am PT</b>
              <figure><a class="noCrossRef" href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
          </td>
          <td>
@@ -123,7 +123,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-           <b>November 16, 2025</b>
+           <b>November 16, 2025<br/>10am PT</b>
            <figure><a class="noCrossRef" href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><img src="{{site.media}}/godhuman_aibookclub.png" alt="God Human Animal Machine" /></a></figure>
          </td>
          <td>
@@ -135,7 +135,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-           <b>December 21, 2025</b>
+           <b>December 21, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><img src="{{site.media}}/2041_aibookclub.png" alt="AI 2041" /></a></figure>
          </td>
          <td>
@@ -147,7 +147,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
       </tr>
             <tr>
          <td>
-            <b>Jan 18, 2025</b>
+            <b>Jan 18, 2025<br/>10am PT</b>
              <figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
          </td>
          <td>
@@ -163,11 +163,11 @@ The following table lists the reading schedule. The descriptions are extracts fr
 
 ## Monthly meetings {#_meetings}
 
-The meetings are usually the *third Sunday of the month at 10am Pacific Time*. Some of the dates might shift due to unpredictable schedules.
+The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I realize that meeting on a Sunday might not work for many people; that's okay. This is a book club, not a tech comm webinar. The main focus will be the substance of these books. Only those who truly want to engage in the reading and discuss these topics will likely join, and that's fine.
 
 ## Slack online discussion forum {#slack}
 
-There's a Slack workspace set up for online discussion here: [aibookclubtechcomm](https://aibookclubtechcomm.slack.com). The Slack workspace is used to chat, share info or other thoughts, etc. However, the main interaction will be with the monthly meetings.
+There's a Slack workspace set up for online discussion here: [aibookclubtechcomm](https://aibookclubtechcomm.slack.com). The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
 
 ## Email list {#emaillist}
 
@@ -182,8 +182,6 @@ In addition to Slack, there's an email list you can join to receive announcement
 For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings should automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
 
 <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&amp;tmsrc=tomjoht%40gmail.com&amp;scp=ALL"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
-
-(There's a 100-person limit to the meetings, but I doubt we'll hit this limit.)
 
 ## How do I join and get started? 
 
