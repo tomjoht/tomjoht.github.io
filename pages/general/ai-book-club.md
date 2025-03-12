@@ -5,11 +5,11 @@ type: page
 last-modified: 2025-03-02
 ---
 
-AI Book Club: A Human in the Loop focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
+**AI Book Club: A Human in the Loop** focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
 
 The reading covers general books on AI, not necessarily books oriented towards tech comm, or engineering-heavy books, or even books specifically focusing on this "human in the loop" theme. As you can see from the reading schedule below, the books are generally popular books on AI targeting a general interest audience. 
 
-However, I think these books will be a good catalyst for thinking about AI in general, and there might be many themes and takeaways that will likely apply to what you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
+However, I think these books will be a good catalyst for thinking about AI, and there might be many themes and takeaways that will likely apply to whatever you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
 
 * TOC
 {:toc}
