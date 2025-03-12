@@ -5,13 +5,11 @@ type: page
 last-modified: 2025-03-02
 ---
 
-## About the AI Book Club {#about}
-
 AI Book Club: A Human in the Loop focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
 
 The reading covers general books on AI, not necessarily books oriented towards tech comm, or engineering-heavy books, or even books specifically focusing on this "human in the loop" theme. As you can see from the reading schedule below, the books are generally popular books on AI targeting a general interest audience. 
 
-However, I think these books will be a good catalyst for thinking about AI, and there might be many themes and takeaways that will likely apply to what you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
+However, I think these books will be a good catalyst for thinking about AI in general, and there might be many themes and takeaways that will likely apply to what you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
 
 * TOC
 {:toc}
@@ -26,7 +24,7 @@ There's no cost to join the book club (except buying the books), and you can att
 
 ## Reading schedule {#schedule}
 
-The following table lists the reading schedule. The descriptions are extracts from the book's summary on Amazon. More details for the notes and discussion links will be added as the meeting date approaches. *Note: These dates and times are tentative. They may need to be adjusted due to unanticipated conflicts and events.*
+The following table lists the reading schedule. The descriptions are extracts from the book summaries on Amazon. More details for the notes and discussion links will be added as the meeting date approaches. *Note: These dates and times are tentative. They may need to be adjusted due to unanticipated conflicts and events.*
 
 <table>
    <thead>
@@ -163,7 +161,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
 
 ## Monthly meetings {#_meetings}
 
-The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I realize that meeting on a Sunday might not work for many people; that's okay. This is a book club, not a tech comm webinar. The main focus will be the substance of these books. Only those who truly want to engage in the reading and discuss these topics will likely join, and that's fine.
+The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I realize that meeting on a Sunday might not work for many people &mdash; that's okay. This is a book club, not a tech comm webinar. The main focus will be the substance of these books. Only those who truly want to engage in the reading and discuss these topics will likely join, and that's all right.
 
 ## Slack online discussion forum {#slack}
 
@@ -211,7 +209,7 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you
 : Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. 
 
 **I'm not sure if I have time to read books.**
-: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world saturated in short-form content and fragmented attention spans.
+: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world where we're saturated with short-form content that reduces and fragments our attention spans.
 
 <style>
 
