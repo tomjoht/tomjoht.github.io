@@ -29,7 +29,7 @@ Now technical writers might need to do the same when it comes to documentation. 
 
 How do you define superintelligent docs? While various definitions could fit this bill, such as automated documentation that predicts topics based on user behavior or errors, or documentation that dynamically writes itself around the user's specific situation and needs, those imagined experiences are a bit too futuristic for me. 
 
-More realistically, superintelligent docs solve wicked problems. Wicked problems are so massive, gnarly, multifaceted, and hard to tackle &mdash; for example, they include variables that are constantly changing based on recurring feedback loops, etc. &mash; that they are beyong merely complicated problems; they are *complex problems*. Solving them seems beyond human capabilities.
+More realistically, superintelligent docs solve wicked problems. Wicked problems are so massive, gnarly, multifaceted, and hard to tackle &mdash; for example, they include variables that are constantly changing based on recurring feedback loops, etc. &mdash; that they are beyong merely complicated problems; they are *complex problems*. Solving them seems beyond human capabilities.
 
 ## Wicked problems in the tech comm space
 
