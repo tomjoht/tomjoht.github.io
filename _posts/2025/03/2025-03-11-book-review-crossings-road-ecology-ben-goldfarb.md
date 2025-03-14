@@ -6,7 +6,7 @@ categories:
 - book-reviews
 keywords: 
 rebrandly: https://idbwrtng.com/book-review-crossings-ben-goldfarb
-description: "<a href='https://www.amazon.com/Crossings-Ecology-Shaping-Future-Planet/dp/1324086319'><i>Crossings: How Road Ecology is Shaping the Future of Our Planet</i></a>, by Ben Goldfarb, is a richly descriptive work of investigative journalism exploring the topic of road ecology, which explores how roads impact their surrounding environment. More specifically, road ecology is \"'the study of how 'life change[s] for plants and animals with a road and traffic nearby'\" (6)."
+description: "<a href='https://www.amazon.com/Crossings-Ecology-Shaping-Future-Planet/dp/1324086319'><i>Crossings: How Road Ecology is Shaping the Future of Our Planet</i></a>, by Ben Goldfarb, is a richly descriptive work of investigative journalism exploring the topic of road ecology, which looks at how roads impact their surrounding environment. More specifically, road ecology is \"'the study of how 'life change[s] for plants and animals with a road and traffic nearby'\" (6)."
 ---
 
 Although I don't work in road ecology or traffic engineering, the author somehow pulled me through 300 pages on this topic. He managed this not just through vivid language and diction, but by personally visiting places and telling stories about the specific challenges that animals, "carers," forest service workers, and others faced as freeways and highways bisected and dissected their environments.
