@@ -167,7 +167,7 @@ The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I
 
 There's a Slack workspace set up for online discussion here: [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-30y1hym03-KpzEIZKjG2wE~0DyBDYPdg).
 
-The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings. Join the Slack group by clicking this [Join](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-30y1hym03-KpzEIZKjG2wE~0DyBDYPd) link.
+The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings. Join the Slack group by clicking this [Join](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-30y1hym03-KpzEIZKjG2wE~0DyBDYPdg) link.
 
 ## Email list {#emaillist}
 
