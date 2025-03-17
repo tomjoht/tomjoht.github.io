@@ -149,7 +149,7 @@ The following table lists the reading schedule. The descriptions are extracts fr
              <figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
          </td>
          <td>
-            <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman</p>
+            <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by Ethan Mollick</p>
              <p class="book-summary">"In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."</p>
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE">Notes and discussion</a><br/>
