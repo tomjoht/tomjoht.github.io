@@ -1,5 +1,5 @@
 ---
-title: "Book review of Jonathan Warner's book, More Than Words: How to think about writing in the age of AI"
+title: "Book review of Jonathan Warner's book <i>More Than Words: How to think about writing in the age of AI</i>"
 permalink: /blog/jonathan-warner-more-than-words-book-review
 date: 2025-03-20
 categories:
