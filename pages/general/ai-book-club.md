@@ -37,7 +37,8 @@ The following table lists the reading schedule. The descriptions are extracts fr
    <tbody>
       <tr>
          <td>
-            <b>April 20, 2025<br/>10am PT</b>
+            <p><b>April 20, 2025: 5pm PT<br/></b></p>
+            <p><b>April 19, 2025: 8pm PT</b></p>
             <figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
          <td>
