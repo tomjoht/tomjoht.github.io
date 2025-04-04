@@ -38,7 +38,8 @@ The following table lists the reading schedule. The descriptions are extracts fr
       <tr>
          <td>
             <p><b>April 19, 2025: 8pm PT</b></p>
-            <p><b>April 20, 2025: 10am PT<br/></b></p>
+            <p><b>April 20, 2025: 5pm PT<br/></b><br/>
+            (Time change due to Easter)</p>
             <figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
          <td>
@@ -167,9 +168,10 @@ Some possible additional books we might add to the schedule include the followin
 * [The Atomic Human: What Makes Us Unique in the Age of AI](https://www.amazon.com/Atomic-Human-What-Makes-Unique/dp/1541705122), by Neil D. Lawrence
 * [Empire of AI](https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500), by Karen Hao
 * [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace), by Dario Amodei
-* [Superagency: What Could Possibly Go Right with Our AI Future], by Reid Hoffman and Greg Beato
+* [Superagency: What Could Possibly Go Right with Our AI Future](https://www.amazon.com/Superagency-Could-Possibly-Right-Future/dp/B0D5WMKV9H), by Reid Hoffman and Greg Beato
 
 These are books that have been recommended by members. If you have a book to recommend, add it in the #recommend-books channel in Slack.
+
 ## Monthly meetings {#meetings}
 
 The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I realize that meeting on a Sunday might not work for many people &mdash; that's okay. This is a book club, not a tech comm webinar. The main focus will be the substance of these books. Only those who truly want to engage in the reading and discuss these topics will likely join, and that's all right.
