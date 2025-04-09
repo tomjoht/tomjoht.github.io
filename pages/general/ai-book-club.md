@@ -26,6 +26,9 @@ There's no cost to join the book club (except buying the books), and you can att
 
 The following table lists the reading schedule. The descriptions are extracts from the book summaries on Amazon. More details for the notes and discussion links will be added as the meeting date approaches. *Note: These dates and times are tentative. They may need to be adjusted due to unanticipated conflicts and events.*
 
+{: .note}
+The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an additional time/date (April 19, 8pm) for people in Australia time zones who might want to join. You can attend either session.
+
 <table>
    <thead>
       <tr>
@@ -178,9 +181,12 @@ The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I
 
 ## Slack online discussion forum {#slack}
 
-There's a Slack workspace set up for online discussion here: [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-3367yuo37-flOHtDxhKXVHHkap97Hdrg).
+There's a Slack workspace set up for online discussion. Go to one of these links:
 
-The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings. Join the Slack group by clicking this [Join](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-30y1hym03-KpzEIZKjG2wE~0DyBDYPdg) link.
+* Already a workspace member? Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
+* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-3367yuo37-flOHtDxhKXVHHkap97Hdrg).
+
+The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
 
 ## Email list {#emaillist}
 
