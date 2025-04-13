@@ -20,7 +20,7 @@ For a higher-level introduction to the OpenAPI specification, see [Introduction 
 * TOC
 {:toc}
 
-# Using a visual editor
+## Using a visual editor
 
 Before we get started, let's address an initial question about the approach we're taking. When creating your OpenAPI specification document, why should you use a visual/GUI editor, which hides the code (unless you toggle the view open) instead of coding every detail of the spec by hand?
 
@@ -30,7 +30,7 @@ Using an editor helps you avoid these errors and focus instead on the content. T
 
 As a technical writer who likes working in Markdown and other raw formats, I can see the appeal of working directly in the code. But the OpenAPI syntax is quite complex, and YAML is fussy. I'd rather be worrying more about the content than addressing syntax issues. But even so, Stoplight lets you switch into the code view to work in that mode when you want, and switch back into the visual view when you want. Changes you make in one mode sync to the other. This gives you the best of both worlds.
 
-# Before we begin
+## Before we begin
 
 Before we begin the tutorial, note the following:
 
@@ -42,9 +42,9 @@ Before we begin the tutorial, note the following:
   
 * This tutorial should take about 30 minutes to an hour. No special technical knowledge is required.
 
-**Disclaimer:** Stoplight is one of the sponsors of my site.
+*Note: Stoplight is one of the sponsors of this site.*
 
-# What you'll build
+## What you'll build
 
 In this tutorial, we'll use sample information from the [OpenWeatherMap API](https://openweathermap.org/api) (more specifically, the [Current weather data endpoint](https://openweathermap.org/current)), which is the same API we've been using in other tutorials, such as the [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html).
 
@@ -66,7 +66,7 @@ Here's the [documentation output](https://idratherbewriting.stoplight.io/docs/op
 
 Stoplight provides a variety of options for working with projects &mdash; desktop editor versus web editor, and syncing from GitHub or saving directly to a Stoplight workspace. In this tutorial, I take the simplest path: using the web editor and saving to the Stoplight workspace. But recognize that you have more options for how you approach projects. See [Add Projects](https://docs.stoplight.io/docs/platform/projects/add-projects) for more details.
 
-# Step 1: Set up a project in Stoplight {#setup}
+## Step 1: Set up a project in Stoplight {#setup}
 
 1.  Go to [https://stoplight.io/welcome](https://stoplight.io/welcome) and create a workspace. See [Create a workspace](https://docs.stoplight.io/docs/platform/204f944cbb829-creating-a-workspace) for details.
 2. Log in to your workspace. See [Log in to Stoplight](https://docs.stoplight.io/docs/platform/1e9fae1085c67-log-in-to-stoplight) for details.
@@ -94,7 +94,7 @@ Stoplight provides a variety of options for working with projects &mdash; deskto
 
 7.  You can seamlessly switch between Form and Code views. Try adding a word in the Form view, switch to the Code view and find it, then remove it from the Code view and see how it updates in the Form view.
 
-# Step 2: Enter the API overview information {#overview}
+## Step 2: Enter the API overview information {#overview}
 
 In this section, you will populate the fields in the API Overview section, which include the version, name, description, security, contact, license, and other general details. For this tutorial, I've prepared sample information for you to easily insert into the Stoplight Editor. (Note: In the sample information in the orange expandable buttons, for fields that don't have names, I put the assumed titles of these fields in brackets.)
 
@@ -168,7 +168,7 @@ To populate the API overview:
 
 {% include random_ad3.html %}
 
-# Step 3: Enter the path and parameter information {#endpoints}
+## Step 3: Enter the path and parameter information {#endpoints}
 
 Now enter the path and parameter information:
 
@@ -297,7 +297,7 @@ Now enter the path and parameter information:
 
 {% include ads.html %}
 
-# Step 4: Learn how to re-use parameters {#reuse}
+## Step 4: Learn how to re-use parameters {#reuse}
 
 The OpenAPI spec allows to re-use parameters by storing the information in the [`components`](pubapis_openapi_step5_components_object.html) property. In the Stoplight editor, you reuse parameters by entering the parameter information in the Parameters section in the sidebar. (In the code behind the scenes, this information gets stored in `components`.)
 
@@ -334,7 +334,7 @@ To re-use a parameter:
 
 {% include image_ad_right.html %}
 
-# Step 5: Enter the responses and response schema information {#responses}
+## Step 5: Enter the responses and response schema information {#responses}
 
 As a final step for this endpoint, you need to enter the response information. The response includes not only an example response but also the schema describing the response. The schema describes all possible values in the response, their data types, and whether the values are required.
 
@@ -553,7 +553,7 @@ To preview the responses output, click **Preview**. See my [example here](https:
 
 {% include random_ad2.html %}
 
-# Step 6: Preview, test, and publish the output {#preview}
+## Step 6: Preview, test, and publish the output {#preview}
 
 You've finished creating your OpenAPI spec, so let's preview, test, and publish test the documentation:
 
@@ -594,5 +594,4 @@ dl {font-size: 18px !important;}
   padding: 15px;
   margin-bottom: 20px;
 }
-
 </style>

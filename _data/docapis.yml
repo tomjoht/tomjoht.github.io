@@ -183,6 +183,9 @@ folders:
   - title: "Redoc Community Edition Basic Demo"
     jurl: /learnapidoc/pubapis_redoc.html
 
+  - title: "Document360 for API docs"
+    jurl: /learnapidoc/pubapis_document360.html
+
 - title: "Chapter 5: Step-by-step OpenAPI code tutorial"
   landing: /learnapidoc/openapi_tutorial.html
   section: five
