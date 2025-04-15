@@ -13,7 +13,7 @@ last-modified: 2025-04-12
 
 Building an API reference documentation output directly from an OpenAPI specification is a significant technical hurdle, even for an engineering-savvy UX designer. Consequently, most technical writers use specialized tools for API reference, making the quality of the output dependent on the chosen platform. The question then becomes, which tool provides the most compelling developer experience for API reference? 
 
-In this article, I'll evaluate [Document360](https://idbwrtng.com/document360-api-doc-course-article), including several example API documentation sites. Document360 supports your regular documentation and knowledge-base content, but also allows you to publish your API documentation, bringing all content into the same documentation portal seamlessly. For API documentation, Document360 supports REST API documentation in the form of an OpenAPI specification file that you can import, upload, or continuously pull in. 
+In this article, I'll evaluate [Document360](https://document360.com), including several example API documentation sites. Document360 supports your regular documentation and knowledge-base content, but also allows you to publish your API documentation, bringing all content into the same documentation portal seamlessly. For API documentation, Document360 supports REST API documentation in the form of an OpenAPI specification file that you can import, upload, or continuously pull in. 
 
 * TOC
 {:toc}
@@ -24,9 +24,9 @@ In this article, I'll evaluate [Document360](https://idbwrtng.com/document360-ap
 
 You can add your API reference documentation to Document360 in several ways. You can upload an OpenAPI file directly (as JSON or YAML), provide a URL to your hosted specification file, integrate the file via a CI/CD flow for continuous updates, or upload a Postman Collections file. 
 
-While the platform supports these different methods, for the sake of simplicity, let's walk through that wizard process to quickly see the output. To help users quickly explore the [API documentation features](https://idbwrtng.com/document360-api-doc-course-article/solutions/api-documentation/), Document360 also provides a sample Petstore API file. To get started:
+While the platform supports these different methods, for the sake of simplicity, let's walk through that wizard process to quickly see the output. To help users quickly explore the [API documentation features](https://document360.com/solutions/api-documentation/), Document360 also provides a sample Petstore API file. To get started:
 
-1. Go to [Document360.com](https://idbwrtng.com/document360-api-doc-course-article) and sign up for a free trial. Follow the welcome prompts. When you reach "1. Welcome to Document360":
+1. Go to [Document360.com](https://document360.com) and sign up for a free trial. Follow the welcome prompts. When you reach "1. Welcome to Document360":
 * Click the **Get started** button in the API documentation section.
 2. **"Select a method to create an API reference":
 * Choose **Try sample pet store API file** for this demo. (You could select "Upload API definition" or "Create from URL" if you have your own spec file ready.)
@@ -113,7 +113,7 @@ This last part is worth emphasizing&mdash;if, as a technical writer, you find yo
 
 ## Conclusion
 
-As I browsed through the dozen sample sites showcasing [API documentation](https://idbwrtng.com/document360-api-doc-course-article/blog/api-documentation/) using Document360, it made me think about how the API landscape has matured. When I first created my API documentation course (back around ~ 2016), it wasn't clear if Swagger, RAML, or Blueprint would be the dominant format. Swagger UI's interactive "Try it!” options to execute real requests connected with the developer imagination, especially given how developers lean towards experiential, exploratory learning. Seeing code samples in a variety of languages&mdash;another common design pattern&mdash;was also compelling, along with more diagrammed views of inputs and responses, common in Redocly's API output.
+As I browsed through the dozen sample sites showcasing [API documentation](https://document360.com/blog/api-documentation/) using Document360, it made me think about how the API landscape has matured. When I first created my API documentation course (back around ~ 2016), it wasn't clear if Swagger, RAML, or Blueprint would be the dominant format. Swagger UI's interactive "Try it!” options to execute real requests connected with the developer imagination, especially given how developers lean towards experiential, exploratory learning. Seeing code samples in a variety of languages&mdash;another common design pattern&mdash;was also compelling, along with more diagrammed views of inputs and responses, common in Redocly's API output.
 
 Now that at least a decade has passed, the various outputs have settled on a more or less expected feature set of API best practices and layouts. The tri-column layout, with collapsible sections, interactive explorers, and other styling (like colorful shading for operations, such as "POST”) dominate the landscape. Documentation that *doesn't* have an API Explorer (e.g., "Try It!”) feature now seems incomplete.
 
