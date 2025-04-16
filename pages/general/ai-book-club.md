@@ -49,7 +49,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
             <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><i>More Than Words: How to Think About Writing in the Age of AI</i></a> by John Warner</p>
              <p class="book-summary">"<i>More Than Words</i> argues that generative AI programs like ChatGPT not only can kill the student essay but should, since these assignments don't challenge students to do the real work of writing. To Warner, writing is thinking—discovering your ideas while trying to capture them on a page—and feeling—grappling with what it fundamentally means to be human. The fact that we ask students to complete so many assignments that a machine could do is a sign that something has gone very wrong with writing instruction. More Than Words calls for us to use AI as an opportunity to reckon with how we work with words—and how all of us should rethink our relationship with writing."</p>
          </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1VE6qosoIHChM8fwpyp5OhinFvF72yGVStU6kKDzJ12Q/">Notes and discussion</a><br/>
+         <td><p class="notes-links"><a href="https://idratherbewriting.com/blog/warner-book-more-than-words-notes">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr>
             <tr>
