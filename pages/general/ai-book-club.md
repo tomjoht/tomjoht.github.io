@@ -28,7 +28,6 @@ The following table lists the reading schedule. The descriptions are extracts fr
 
 {: .note}
 The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an additional time/date (April 19, 8pm) for people in Australia time zones who might want to join. You can attend either session.
-
 <table>
    <thead>
       <tr>
@@ -40,19 +39,17 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
    <tbody>
       <tr>
          <td>
-            <p><b>April 19, 2025: 8pm PT</b></p>
-            <p><b>April 20, 2025: 5pm PT<br/></b><br/>
-            (Time change due to Easter)</p>
+            <p><b>April 19, 2025<br/>8pm PT <br/><a class="noCrossRef" href="https://meet.google.com/jma-dkea-wty">Google Meet link</a></b></p>
+            <p><b>April 20, 2025<br/>5pm PT <br/><a class="noCrossRef" href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></b></p>
             <figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
          <td>
             <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><i>More Than Words: How to Think About Writing in the Age of AI</i></a> by John Warner</p>
              <p class="book-summary">"<i>More Than Words</i> argues that generative AI programs like ChatGPT not only can kill the student essay but should, since these assignments don't challenge students to do the real work of writing. To Warner, writing is thinking—discovering your ideas while trying to capture them on a page—and feeling—grappling with what it fundamentally means to be human. The fact that we ask students to complete so many assignments that a machine could do is a sign that something has gone very wrong with writing instruction. More Than Words calls for us to use AI as an opportunity to reckon with how we work with words—and how all of us should rethink our relationship with writing."</p>
          </td>
-         <td><p class="notes-links"><a href="https://idratherbewriting.com/blog/warner-book-more-than-words-notes">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
-            <tr>
+         <td><p class="notes-links"><a href="https://idratherbewriting.com/blog/warner-book-more-than-words-notes">Notes and discussion</a></p></td>
+      </tr> 
+      <tr>
          <td>
            <b>May 18, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
@@ -63,8 +60,8 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1D8TZggSo1k7bNuq5f5DF6gi0gHR6ViSy9U50D_Hl-eE">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
-            <tr>
+      </tr> 
+      <tr>
          <td>
             <b>June 15, 2025<br/>10am PT</b>
             <figure><a class="noCrossRef" href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity" /></a></figure>
@@ -75,7 +72,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1U0iWGMxomyAuheMgRRTt5sN43EuDgICReqJdu8f_v4g">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
+      </tr> 
       <tr>
          <td>
            <b>July 20, 2025<br/>10am PT</b>
@@ -87,7 +84,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
+      </tr> 
       <tr>
          <td>
            <b>August 17, 2025<br/>10am PT</b>
@@ -99,7 +96,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1UotIlSUFJz8S2BL3r2vQfVP3MGeH8hA0EhfrGdTRlp0">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
+      </tr> 
       <tr>
          <td>
             <b>September 21, 2025<br/>10am PT</b>
@@ -111,7 +108,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1COqjriSvHpX8nvtae33MyOXDG82dH-wwHtmFeF5N4HA">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
+      </tr> 
       <tr>
          <td>
             <b>Oct 19, 2025<br/>10am PT</b>
@@ -147,8 +144,8 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1zjRk9SiFKBTpttPFNldJLAUSKHkYMMWYnAsDumQAwPE/">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
-            <tr>
+      </tr> 
+      <tr>
          <td>
             <b>Jan 18, 2025<br/>10am PT</b>
              <figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
@@ -159,10 +156,10 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
-
+      </tr> 
    </tbody>
 </table>
+
 
 ## Possible additional books {#additional_books}
 
