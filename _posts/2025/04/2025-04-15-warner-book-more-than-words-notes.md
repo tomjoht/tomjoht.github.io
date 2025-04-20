@@ -13,8 +13,6 @@ description: "This post has notes and questions for discussion for <em><a href='
 * TOC
 {:toc}
 
-This post has notes and questions for discussion for *[More Than Words: How to Think About Writing in the Age of AI](https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500)*, by Jonathan Warner, published in February 2025. This book, which explores what we lose when we outsource writing to AI, is the first book in my [AI Book Club](https://idratherbewriting.com/ai-book-club/).
-
 ## Questions for discussion
 
 * What types of content are worth writing with AI and not writing with AI?
