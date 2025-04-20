@@ -10,15 +10,16 @@ rebrandly: https://idbwrtng.com/jonathan-warner-more-than-words-book-review
 description: "Jonathan Warner's book <a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'><i>More Than Words: How to Think about Writing in the Age of AI</i></a> is a spirited defense about the value and humanity of writing without AI at a time when AI promises to replace many writing activities. Warner argues that writing involves thinking and feeling, and as we grapple with ways to identify, express, and articulate our ideas in writing, it's an experience that changes who we are."
 ---
 
+* TOC
+{:toc}
+
+## Writing as a tool for thinking
+
 Warner writes, "Writing is thinking. Writing involves both the expression and exploration of an idea, meaning that even as we're trying to capture the idea on the page, the idea may change based on our attempts to capture it. Removing thinking from writing renders an act *not* writing" (11). Because writing involves thinking and reflecting, our engagement in writing changes us. Warner says, "If writing is thinking &mdash; and it is &mdash; then it must be viewed as an act of our own becoming" (73).
 
 Many of the arguments in Warner's book will resonate with anyone who sees value in writing, especially if you studied or taught writing or humanities subjects. I've always felt that writing is a tool for thinking, and the best essays are those that show the mind in motion, thinking through difficult problems in Montaignesque ways.
 
 However, reading Warner's book from the perspective of a *technical writer* was much more challenging. At times, I wondered how to assess my use of AI at work. When I'm performing the tasks of a technical writer, am I actually "writing"? Warner's view of writing seems mostly focused on expressive writing, the kind a student, essayist, academic, columnist, or book author would engage in. There's not much treatment about writing that falls outside these boundaries. As such, I was left trying to figure out how AI fits into the writing of technical documentation. 
-
-* TOC
-{:toc}
-
 
 ## Technical writing example to examine
 
@@ -86,7 +87,7 @@ And yet, to reject AI tools while embracing a more manual way isn't a solution e
 
 ## The solution: focus freed-up time on complex, thought-intensive tasks
 
-I think the only solution is to focus our freed-up time on those complex tasks that are beyond the simple push-button outputs of AI, as I argued in [Countering AGI with superintelligent docs?](https://idratherbewriting.com/blog/superintelligent-docs) If we focus on those complex problems we're trying to solve, the wicked problems in our organization, while allowing AI to knock out the smaller, more mindless bugs here and there, I think we can preserve our tech-writer value and our critical thinking skills. In short, we have to move on to our Calculus of documentation tasks. Not just providing updates here and there, but refactoring content models, identifying trends through bug analysis, or tackling big-picture workflows. 
+I think the only solution is to focus our freed-up time on those complex tasks that are beyond the simple push-button outputs of AI, as I argued in [Countering AGI with superintelligent docs?](https://idratherbewriting.com/blog/superintelligent-docs) If we focus on those complex problems we're trying to solve, the wicked problems in our organization, while allowing AI to knock out the smaller, more mindless bugs here and there, I think we can preserve our tech-writer value and our critical thinking skills. In short, we have to move on to the Calculus of our documentation tasks. Not just providing updates here and there, but refactoring content models, identifying trends through bug analysis, or tackling big-picture workflows. 
 
 Focusing at times on these complex problems and other times outsourcing thinking to AI models aligns with what Warner refers to as embracing a "biliterate brain." With a biliterate brain, one brain mode is used for fast skimming and reading articles online, and another brain mode is used for deep, immersive engagement in long-form content.
 
