@@ -24,6 +24,8 @@ Here's a recording of the book club meeting, held April 20, 2025.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vUUQ6j7rNTo?si=INE-lDW8TrknT_Dm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+For a transcript of the book club meeting, see [Meeting transcripts](#meeting-transcripts) below.
+
 If you just want the audio, here it is:
 
 {% include audio.html %}
@@ -92,7 +94,7 @@ If you just want the audio, here it is:
 
 [Ethics is dismissed in the name of necessary progress.]
 
-[We were getting along fine before ChatGPT — why waste all our water on it now? There’s an irony about using AI to solve climate change while the energy required to power AI hastens climate destruction.]
+[We were getting along fine before ChatGPT &mdash; why waste all our water on it now? There’s an irony about using AI to solve climate change while the energy required to power AI hastens climate destruction.]
 
 Alignment = "making sure the interests of the sentient and fully agented AGI are aligned with the interests of humanity." 37
 
@@ -213,3 +215,89 @@ In his classes he tries to make sure that his students "are engaged in a ‘shar
 "Our individual ends are assured, but along the way to that inevitability, we should at the very least give ourselves the best chance possible to *live.*"* 280
 
 
+## Meeting transcript
+
+Here's a transcript of the book club meeting. (Note: This transcript was cleaned up and made more readable with AI.)
+
+**Attendees:** Tom (Host), Meta, Superja, Sherry, Amy, Daniel, Frank, Molly, Peg
+
+* **Tom:** Let me briefly introduce the book club before we dive into the discussion. I've been running book clubs at work for a few years on different topics, mainly automotive and transportation, which is my documentation domain. I've found that reading has a positive effect, helping me engage at a deeper level and pulling me away from the ubiquitous short-form content, allowing for more thoughtful consideration.
+* AI is everywhere now, saturating conversations, but finding material that goes deep can be challenging. Much of the news focuses on company announcements or new models. I wanted to find books exploring AI in depth. We started with Jonathan Warner's book because it was one of the few directly addressing *writing*, although much of it isn't technical writing. Even so, it touches on aspects relevant to us as writers. Any high-level questions about the book club before we begin?
+* I'm based in Seattle, been here four years, previously in Santa Clara for about eight. I work at Google now, before that Amazon and some startups. While we might frame discussion around technical communication, feel free to bring in any angle you find interesting.
+
+**(Initial Reactions to the Book)**
+
+* **Tom:** To kick off, what were your high-level thoughts on the book? Did you like it, dislike it, and why?
+* **Meta:** I thought it discussed *how people learn to write*, which makes sense given Warner's background in education. He made good points about that and the potential impact of AI. Where it felt lacking, likely intentionally, was its discussion of technical communications and business writing. He lumps these under the term "content," seemingly derisively, distinguishing it from what he considers "true writing"—writing with expression, feeling, and human thought. He relegates "content" to a bin that doesn't require feeling and implies AI can handle it, though he didn't elaborate much. I was looking for that discussion and didn't find it, but I still enjoyed his points, especially on critical thinking.
+* **Tom:** That's an astute comment. He does seem to pigeonhole "writing" as primarily expressive, emotional, argumentative work. Yet, much writing—business, technical, policies, procedures, Wikipedia articles—isn't that. Expressive writing might even be a minority. A lot of paid writing is informational and factual. (Notes a chat comment agreeing with Meta).
+* **Daniel:** I really enjoyed reading it and was generally sympathetic to his views. As someone who has taught college English, I know how difficult it is to teach writing to young adults, and I've seen the decrease in students wanting to engage with reading and writing, especially post-pandemic. I believe this fuels his anxiety. He touches on the difference between an experienced writer using AI versus students who haven't learned to write yet, highlighting the risk of "deskilling," which I found poignant. I agree he doesn't cover procedural or technical writing much. I'm interested in what others think he gets *wrong* about AI, not just what he missed.
+* **Tom:** It's valuable that you have empathy for his anxieties from your teaching background. We'll come back to your great question: What does he get wrong about AI?
+* **Frank:** I have contradictory feelings. I enjoyed the book but was often irritated by it. The irritation often came from a "slippage" in terms, especially "writing." I wasn't always sure what type of writing he meant, as it seemed to shift. The book felt a bit scattershot, despite the complexity of the topic. The inclusion of many personal anecdotes made it feel somewhat like a memoir, perhaps padded out—it could have been a long article. Especially in the first half, I found it hard to pin down his exact arguments or definitions (of AI, of writing). Sometimes his point that "ChatGPT can't write like a writer" felt obvious and repetitive. It's funny because I sound critical, but I actually enjoyed it and generally agreed with him—he was preaching to the choir. Yet, I felt the argument sometimes went in circles.
+* **Tom:** Great insights. Many technical writers have both creative and business writing sides. Warner's arguments might speak more to the creative side. The lack of a clear definition for "writing" does make his points feel slippery.
+* **Amy:** Having also taught in higher education, I felt Warner was very clear about who he is and his perspective—an academic. Tom, you were also clear: this book isn't about industry writing. Warner highlights the academia-industry divide. Many PhDs entering industry face a shock regarding the pace; the "romantic idea of writing" Warner discusses thrives in academia's luxury of time, whereas industry demands delivery "yesterday" with "good enough" sentences. I had no expectation he'd cover industry writing.
+* I thought he clearly articulated that these AIs (LLMs) don't *write* in the human sense; they generate text based on probabilities. His central idea&mdash;writing is thinking, and AI doesn't think&mdash;is a powerful point, a "sword" we can use to articulate our value and argue against being replaced by AI agents.
+* He also raised another crucial point: we all honed our skills through labor ("sharpened our knives on the rod of labor"). If students no longer learn to write manually, who will replace us when we retire? Will the next generation have the necessary skills? As an educator responsible for supplying future hires, he asks an interesting question. This felt like the bridge between his concerns and ours in the industry. Those were my two big takeaways.
+
+**(Writing as Thinking & AI's Role)**
+
+* **Tom:** Excellent points from everyone. Let's explore the "writing is thinking" idea, stemming perhaps from Montaigne using writing to test ideas. When using AI for work, like documentation, are you still "thinking"? For me, it *is* thinking, but different&mdash;less rigorous, more "meta-thinking" about accuracy, structure, relevance. It's not as taxing as writing from scratch. What are your experiences?
+* *(Meta experiences brief audio issues)*
+* **Molly:** I feel they are different. My thinking when writing without AI is more "primordial and ugly," but potentially more powerful. When I use AI, maybe for polishing, it's more high-level judgment, like "rubber ducking."
+* **Daniel:** I agree thinking happens when using AI. Creating a draft with AI doesn't necessarily save time, but it saves "cognitive bandwidth"&mdash;it feels easier. Writing from scratch feels more rigorous. When experimenting with AI for creative writing, the output often feels "flattened" and uninteresting to me. Warner emphasizes intentionality and agency, which AI lacks. So yes, thinking occurs with AI use, but it's not the same kind.
+* **Tom:** You phrased it well: saving "cognitive bandwidth." It's less rigorous, less "primordial." We're approving, editing, making judgments, rather than the taxing effort of articulating fuzzy ideas into language from scratch, which requires more intentionality.
+
+**(What Does Warner Get Wrong? Inevitability Debate)**
+
+* **Tom:** Let's return to Daniel's question: What does Warner get wrong about AI? We just discussed whether he's wrong about thinking not occurring with AI use. Any other disagreements?
+* **Daniel:** I didn't have strong disagreements; I thought he got a lot right. I was more curious how people who are *pro*-AI would argue against his points about exploitation, climate impact, etc., or even the nuts and bolts of using ChatGPT.
+* **Tom:** This connects to the industry pace versus academia. Warner argues against the inevitability of AI adoption at the end of the book, suggesting we can curtail technologies, citing examples like nuclear weapons. I tend to disagree here. I think the adoption of powerful technologies *is* often inevitable. The next book we're reading, "The Coming Wave," explores this. My prediction is that technical writers who reject AI won't remain competitive in terms of speed, accuracy, and possibly long-term quality. I lean towards the inevitability camp.
+* **Amy (Relaying Meta's Chat Comment):** Meta pointed out in the chat that Warner *does* acknowledge AI's potential for rapid improvement, suggesting current awkwardness might be temporary. Meta also brought up genetics as an area where society *has* exercised restraint ("just because we can, doesn't mean we should").
+* **Amy:** I don't see it as purely binary&mdash;either reject AI completely or embrace it for everything. I appreciate Warner prompting critical thought: *Do* we need AI for this specific task? Is it the best tool? Is the cost (e.g., environmental impact, like water usage in Kenya) worth it? He asks us to think critically about *when* and *how* we use it. A handwritten letter can have more impact than an email. Critical thought belongs to us, not the AI.
+* **Tom:** Caveat: While I use AI heavily for technical docs, I agree it doesn't work well for my creative writing attempts (like blog posts).
+* **Amy:** Right. As Meta noted, he doesn't fully address our industry realm. This book serves more as an existential conversation starter. But his call to think critically about *when* AI is needed is valuable.
+* **Sherry:** This reminds me of the internet's rise in the 90s. Once novel, now indispensable for writers and non-writers alike. AI seems headed in that direction. It will do some things well (speed) and others poorly. The point is to use it wisely for tasks it's suited for, recognizing that other tasks require human capabilities. We need the wisdom to know the difference and use it as an appropriate tool.
+
+**(Reading vs. Skimming & Content Generation)**
+
+* **Superja:** He discussed *reading*, distinguishing quick reads/skimming from deep reading. He mused about using AI to outsource "short reading." This reminded me of Tom's point about using AI for simpler *writing* to save time for complex tasks. He hinted at a similar analogy, but applied it to reading.
+* **Tom:** His points on reading as an act of thinking and feeling were unique. It contrasts sharply with trends like the Sam Bankman-Fried quote about the "bullet pointification of books"&mdash;a startling push towards summaries over engagement.
+* **Frank:** I haven't needed AI for work tasks yet. Personally, I use it sometimes for research&mdash;getting quick summaries on unfamiliar topics for blog posts, but I always rewrite heavily. I encountered a "chilling" YouTube video demonstrating a workflow: generate a post with ChatGPT, use "Humanize AI Pro" to make it sound less robotic, then use "Quillbot" (an AI detector) to ensure it passes as human. Using multiple AIs to essentially fool readers seemed "crazy," though I understand the pressure for freelancers to generate content quickly (the video claimed "blog post in 20 minutes"). It was a frightening wakeup call that these tools exist.
+* **Molly:** That's fascinating. I don't know how I could do that; I wouldn't feel I understood the content enough to stand behind it. Maybe I'm just a "bad bullshitter." It's amazing how people carry that off.
+* **Tom:** This connects back to Warner's negative association with "content"&mdash;not thoughtful writing, but mass-produced material. It's ironic because "content" is often used neutrally or positively in tech comm (content strategy). Now it risks being associated with low-quality, generated writing.
+
+**(AI, Language & Cultural Considerations)**
+
+* **Amy:** Yes, I was surprised by his bitterness towards the word "content." Picking up on a chat comment (from Sherry?) about preferences for audiovisual content, and Frank's point: Warner's book is very Anglocentric. I wonder how many of his students are non-native English speakers. For people I work with who aren't English-dominant, these AI tools are incredibly helpful for clearer communication and collaboration. Why wouldn't we take advantage of that? This angle was missing. Also, the AI detection tools Frank mentioned seem part of a possibly misguided battle in higher ed, missing the point about multicultural teams and effective communication.
+* **Tom:** Teachers face immense difficulty now&mdash;how to allow helpful AI use (like language smoothing) without students bypassing learning? Lack of clear solutions leads many to ban tools, even as things like Grammarly become more AI-powered. I agree with Amy's point on English dominance; AI making non-native English sound fluent *could* be a threat to native English writers (outsourcing), though we haven't seen that widely yet.
+
+**(The Next Generation of Writers & Deskilling)**
+
+* **Tom:** Let's revisit Amy's point: Will the next generation, raised on AI, lack fundamental writing skills? Or will they be "digital natives" amplified by these tools?
+* **Daniel:** Deskilling students isn't good, but they *will* become proficient users of AI for writing tasks. My anxiety isn't just about skill loss, but that *culture will change*, devaluing writing itself. Visual culture (TikTok, social media) might become dominant, similar to how visual iconography served pre-literate societies. I fear a broader, potentially "bleak" or "dystopian" cultural shift more than a simple skills gap.
+* **Amy:** Daniel's point about cultural shift is compelling. In the near term (next 5 years), we already see generational clashes (Gen Z vs. others). We're responsible for hiring and nurturing the next wave, who may have different training and standards. Can they meet our current job descriptions? Do we *want* them to replicate our skills, or overhaul them completely? How do we navigate this if their fundamental training differs?
+* **Tom:** I confess I haven't thought deeply about training the next generation. I see anxiety from early-career writers (on Reddit, etc.) questioning the career's future. Will tech writing exist in 5 years? There's also the "steeper entry point" issue: AI might automate junior tasks (e.g., glossaries), requiring new hires to handle senior-level work immediately, bypassing the traditional learning curve. Maybe I'm overly influenced by "accelerationists," but the change feels rapid.
+
+**(AI Use at Work & Augmentation)**
+
+* **Tom:** How many people have access to AI tools at work? (Most indicate yes). Daniel, you asked about my work: AI use isn't mandated from management. There's a subgroup of enthusiasts (we have a study group), but many other tech writers might be apathetic, lack time, or use tools quietly. I need to survey to get a real sense. I'm personally a "maximum user," partly because I enjoy experimenting.
+* Tying back to Warner: I think he overlooks AI's potential for *augmentation*. Much discussion focuses on automating existing tasks, not enough on enabling *new*, more complex work, which is where I try to focus my AI use&mdash;tackling things I couldn't do before.
+* **Daniel:** I agree. In Warner's "resist, renew, explore" framework, "explore" seems limited to *talking about* AI publicly, not *exploring its use* in writing practice. This creates tension for those who sympathize with his concerns but also want to use AI productively.
+* **Tom:** That tension is part of the book's value, starting with a somewhat anti-AI text forces us to confront how AI challenges our skills and authority&mdash;a long-standing issue in tech comm intensified now.
+* **Molly:** Picking up on "resist"&mdash;Warner suggests resisting the "economic model of thinking." How can professional writers realistically do that when writing is their livelihood?
+
+**(Economics, Creative Spirit & Warner's Practice)**
+
+* **Tom:** Warner paints a bleak picture of creative writing economics (newsletters being key, books not paying). Yet, people write creatively regardless of pay, driven by an innate desire. I think this creative spirit will persist. Warner's own Substack ("Biblioracle") shows him practicing intentional, thoughtful writing. I firmly believe writing is a tool for thinking (my blogging experience confirms this: ideas flow when writing is exploration). I want to preserve that aspect personally, while using AI pragmatically for work where needed, still applying strategic thought.
+
+**(Logistics & Next Book)**
+
+* **Tom:** Quick logistics check: Preferred time on Sundays? 10 am or 5 pm PST?
+* **Amy:** Just stick to your plan; people will come if they can. You having the whole year planned is impressive!
+* **Tom:** Okay, I'll likely stick to 10 am PST, as I'm fresher then. I'll probably drop the separate Australia time slot.
+* Speaking of planning, the next book is "The Coming Wave" by Mustafa Suleyman. He co-founded DeepMind. It's well-written, very thought-provoking, and relevant. It's generally pro-AI but focuses heavily on containment issues.
+* **Amy:** My spouse read it and thought it was great, a "regular person's endorsement." He found it connects AI to many facets of life.
+* **Tom:** Yes, books like these often go much deeper than online articles. It seems we'll have a good discussion about this broader phenomenon.
+
+**(Conclusion)**
+
+* **Tom:** Okay, let's wrap up. Thanks again for coming, everyone, it was great meeting you all. The discussion quality was fantastic. I'll post the recording link on the book club page. Have a great rest of your evening!
