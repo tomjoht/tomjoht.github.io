@@ -5,13 +5,30 @@ date: 2025-04-15
 categories:
 - ai
 - writing
-keywords: 
+- podcasts
+keywords: ai book club, warner, ai
 rebrandly: https://idbwrtng.com/warner-book-more-than-words-notes
 description: "This post has notes and questions for discussion for <em><a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'>More Than Words: How to Think About Writing in the Age of AI</a></em>, published in February 2025 by Jonathan Warner. Warner's book, which explores what we lose when we outsource writing to AI, is the first book in the <a href='https://idratherbewriting.com/ai-book-club/'>AI Book Club: A Human in the Loop</a>."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/warner_more_than_words.mp3
+podcast_file_size: 51.7
+podcast_duration: "59:40"
+podcast_length: 51663964
 ---
 
 * TOC
 {:toc}
+
+## Meeting recording
+
+Here's a recording of the book club meeting, held April 20, 2025. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vUUQ6j7rNTo?si=INE-lDW8TrknT_Dm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+If you just want the audio, here it is:
+
+{% include audio.html %}
+
+(One video not enough? Here's the [recording of a smaller second session](https://drive.google.com/file/d/1HFSwEX2NhsvcQVEOsxoN__3rp29PG5q4/view), with only 3 people total.)
 
 ## Questions for discussion
 
