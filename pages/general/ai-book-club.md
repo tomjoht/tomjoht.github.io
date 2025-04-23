@@ -39,8 +39,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
    <tbody>
       <tr>
          <td>
-            <p><b>April 19, 2025<br/>8pm PT <br/><a class="noCrossRef" href="https://meet.google.com/jma-dkea-wty">Google Meet link</a></b></p>
-            <p><b>April 20, 2025<br/>5pm PT <br/><a class="noCrossRef" href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></b></p>
+            <p><b>April 20, 2025<br/>5pm PT <br/><a class="noCrossRef" href="https://youtu.be/vUUQ6j7rNTo">Meeting recording</a></b></p>
             <figure><a class="noCrossRef" href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
          <td>
