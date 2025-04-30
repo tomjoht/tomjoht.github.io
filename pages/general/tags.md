@@ -7,6 +7,8 @@ mytags:
   url: /category-academics-and-practitioners/
 - title: AI
   url: /category-ai/
+- title: AI Book Club
+  url: /category-ai-book-club
 - title: API documentation
   url: /category-api-doc/
 - title: API doc site updates

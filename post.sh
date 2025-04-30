@@ -32,6 +32,7 @@ date: $DATE
 categories:
 - academics-and-practitioners
 - ai
+- ai-book-club
 - api-doc
 - api-doc-site-updates
 - beginners

@@ -4,6 +4,7 @@ permalink: /blog/warner-book-more-than-words-notes
 date: 2025-04-15
 categories:
 - ai
+- ai-book-club
 - writing
 - podcasts
 keywords: ai book club, warner, ai

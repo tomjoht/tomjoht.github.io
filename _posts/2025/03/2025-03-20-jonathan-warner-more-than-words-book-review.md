@@ -5,6 +5,7 @@ date: 2025-03-20
 categories:
 - ai
 - writing
+- ai-book-club
 keywords: 
 rebrandly: https://idbwrtng.com/jonathan-warner-more-than-words-book-review
 description: "Jonathan Warner's book <a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'><i>More Than Words: How to Think about Writing in the Age of AI</i></a> is a spirited defense about the value and humanity of writing without AI at a time when AI promises to replace many writing activities. Warner argues that writing involves thinking and feeling, and as we grapple with ways to identify, express, and articulate our ideas in writing, it's an experience that changes who we are."
