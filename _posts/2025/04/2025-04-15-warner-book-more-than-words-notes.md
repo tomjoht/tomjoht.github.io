@@ -169,7 +169,7 @@ Effective altruism = "artificial intelligence is the greatest threat to humanity
 
 Qtd from George Saunders: "I think that what any of us pays for when entering into a reading experience is that feeling of seeing another mind at work, and not at work in a rational way. There’s something thrilling about seeing this other mind at work in this blissful and private and self-referential way, and then suddenly your mind joins it." 115
 
-"...[quoting Sam Bankman-Friend] if you wrote a book, you fucked up, and it should have been a six-paragraph blog post." 119 
+"...[quoting Sam Bankman-Fried] if you wrote a book, you fucked up, and it should have been a six-paragraph blog post." 119 
 
 ["bulletpointification of books", from Maris Kreizman’s term] 119
 
