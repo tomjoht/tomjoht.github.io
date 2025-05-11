@@ -117,3 +117,8 @@ For CCMS users, adoc Studio provides a lightweight and cost-effective alternativ
 <hr/>
 
 {% include ads.html %}
+
+<style>
+#content h3 {color: #d4811c}
+#content p, #content li {margin-left: 25px;}
+</style>
