@@ -360,7 +360,7 @@
 
 {% include sidebar_comics.html %}
 
-<!--Recent posts on ZAMM-->
+<!--Recent posts on ZAMM
 {% unless site.type=="pdf" %}
 <div class="recent-posts">
   <h3>Recent posts from Zen and the Art of Motorcycle Maintenance series</h3>
@@ -374,8 +374,9 @@
     </ul>
   </div>
   {% endunless %}
+-->
 
-  <!--Recent posts on Prompt Engineering-->
+  <!--Recent posts on Prompt Engineering
   {% unless site.type=="pdf" %}
 <div class="recent-posts">
   <h3>Recent posts from my AI tech comm series</h3>
@@ -389,12 +390,13 @@
     </ul>
   </div>
   {% endunless %}
+  -->
 
   <!-- recent blog posts in sidebar -->
 <div class="recent-posts">
 <h3>Recent blog posts</h3>
   <ul>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:20 %}
       <li>
         <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b %-d, %Y" }})</span>
       </li>
@@ -406,6 +408,8 @@
 <div class="recent-posts">
   <h3>Popular series</h3>
   <ul>
+      <li><a href="/ai/prompt-engineering.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Prompt engineering for tech comm</a></li>
+      <li><a href="/ai/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Use cases for AI</a></li>
       <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle Maintenance</a></li>
       <li><a href="/smartphones/overview.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Journey away from smartphones</a></li>
       <li><a href="/trends/trends-to-follow-or-forget-intro.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Trends to follow or forget</a></li>
@@ -419,6 +423,7 @@
 <!-- archives in sidebar -->
 <div class="recent-posts">
 <h3>Archives</h3>
+<a href="/archives-2025/" class="noCrossRef">2025</a> &bull;  
 <a href="/archives-2024/" class="noCrossRef">2024</a> &bull;  
 <a href="/archives-2023/" class="noCrossRef">2023</a> &bull;  
 <a href="/archives-2022/" class="noCrossRef">2022</a> &bull; 
@@ -438,8 +443,14 @@
 <a href="/archives-2008/" class="noCrossRef">2008</a> &bull; 
 <a href="/archives-2007/" class="noCrossRef">2007</a> &bull; 
 <a href="/archives-2006/" class="noCrossRef">2006</a> &bull; 
-<a href="/tags/" class="noCrossRef">Posts by tag</a> &bull; 
-<a href="/all/">See all posts by year</a>
+<a href="/all/">Browse posts by year</a>
+</div>
+<!-- end archives in sidebar -->
+
+<!-- start tag-based section in sidebar -->
+<div class="recent-posts">
+  <h3>Browse by tag</h3>
+<a href="/tags/" class="noCrossRef">Browse posts by tag</a>
 </div>
 <!-- end recent posts in sidebar -->
 

@@ -1,0 +1,18 @@
+---
+title: 2025 archives
+permalink: /archives-2025/
+keywords: archives by date
+year: 2025
+---
+
+<ol reversed="true">
+{% for post in site.posts %}
+{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+{% if year == "2025" %}
+<li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></li>
+{% endif %}
+{% endfor %}
+</ol>
+
+
+{% include ads.html %}
