@@ -28,7 +28,7 @@ While the platform supports these different methods, for the sake of simplicity,
 
 1. Go to [Document360.com](https://document360.com) and sign up for a free trial. Follow the welcome prompts. When you reach "1. Welcome to Document360":
 * Click the **Get started** button in the API documentation section.
-2. **"Select a method to create an API reference":
+2. "Select a method to create an API reference":
 * Choose **Try sample pet store API file** for this demo. (You could select "Upload API definition" or "Create from URL" if you have your own spec file ready.)
 3. "Personalize your Knowledge Base"**:
 * Skip the "Provide your website URL (optional)” field, or add your site.
