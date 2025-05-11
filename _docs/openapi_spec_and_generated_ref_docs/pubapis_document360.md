@@ -30,9 +30,9 @@ While the platform supports these different methods, for the sake of simplicity,
 * Click the **Get started** button in the API documentation section.
 2. "Select a method to create an API reference":
 * Choose **Try sample pet store API file** for this demo. (You could select "Upload API definition" or "Create from URL" if you have your own spec file ready.)
-3. "Personalize your Knowledge Base"**:
+3. "Personalize your Knowledge Base":
 * Skip the "Provide your website URL (optional)” field, or add your site.
-4. "Brand guidelines"**:
+4. "Brand guidelines":
 * Customize the **Project name** as desired.
 5. "Set the privacy of your documentation":
 * Select **Public** for easy viewing.
