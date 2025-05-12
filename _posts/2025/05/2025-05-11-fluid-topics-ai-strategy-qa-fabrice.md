@@ -67,7 +67,7 @@ description: "In this Q&A with Fabrice Lacroix, founder of <a href='https://www.
     </li>
 </ul>
 
-<p style="margin-left: 0px"><small><i>Note: This is a sponsored post.</i></small></p>
+<p><small><i>Note: This is a sponsored post.</i></small></p>
 
 ### Tom: In your article [Rethinking product information: The evolving role of tech writers](https://www.tcworld.info/e-magazine/technical-writing/reassessing-the-use-of-product-information-and-the-role-of-the-tech-writers), you describe a system that ingests all the company's content, crawls and structures it, and then serves up that ingested content as APIs for consumer apps to call. Consumer apps call these APIs to get the information they need to publish at their various touchpoints. Did I understand this correctly? Can you expand on this model with more detail? {#article_opening_question}
 
@@ -89,7 +89,7 @@ But this is changing. Companies have started to understand the value of content 
 
 Initially, Fluid Topics was very much used for and focused on technical documentation: structured (think DITA, Markdown, etc.) and unstructured (legacy Word files, PDFs, etc.). Over time, our customers started adding more diverse content types: API documentation, parts catalogs, data sheets, knowledge bases, past cases from their help desks, and anything else that could help users, support agents, and technicians be more efficient.
 
-However, the more diverse the content types we were able to manage, the more we felt that the term *CDP* didn't reflect the full capability of the solution, as CDP is very much understood as *"for tech doc"*. 
+However, the more diverse the content types we were able to manage, the more we felt that the term *CDP* didn't reflect the full capability of the solution, as CDP is very much understood as *"for tech doc."* 
 
 Also, our vision has evolved since the inception of Fluid Topics. Today, our customers are facing many new challenges, meaning they need more capabilities, and we see more opportunities. It goes mainly in two directions: Generative AI and User interactions.
 
@@ -156,7 +156,7 @@ How do we get to this point? I don't know. But one thing is for sure: it will re
 
 ### About Fabrice Lacroix {#fabrice}
 
-<figure style="margin-right: 15px; max-width: 150px; float: left; margin-top:-10px;"><img src="{{site.media}}/fabrice-lacroix.jpg" alt="Fabrice Lacroix" /></figure>[Fabrice Lacroix](https://www.linkedin.com/in/fabrice-lacroix/) is a serial entrepreneur and a web pioneer. He has been working for 25 years on the development of innovative solutions around search technology, content enrichment and AI. He is the founder of Fluid Topics, the leading Content Delivery Platform that reinvents how users search, read and interact with technical documentation. 
+<figure style="margin-right: 15px; max-width: 130px; float: left; margin-top:-10px;"><img src="{{site.media}}/fabrice-lacroix.jpg" alt="Fabrice Lacroix" /></figure>[Fabrice Lacroix](https://www.linkedin.com/in/fabrice-lacroix/) is a serial entrepreneur and a web pioneer. He has been working for 25 years on the development of innovative solutions around search technology, content enrichment and AI. He is the founder of Fluid Topics, the leading Content Delivery Platform that reinvents how users search, read and interact with technical documentation. 
 
 <hr />
 
@@ -164,5 +164,4 @@ How do we get to this point? I don't know. But one thing is for sure: it will re
 
 <style>
 #content h3 {color: #d4811c}
-#content p, #content li {margin-left: 25px;}
 </style>
