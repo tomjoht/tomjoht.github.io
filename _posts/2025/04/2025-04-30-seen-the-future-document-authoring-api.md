@@ -6,12 +6,12 @@ categories:
 - ai
 keywords: 
 rebrandly: https://idbwrtng.com/seen-the-future-document-authoring-api
-description: "Today was one of those days where I felt like I've seen the future. In about a day, I used AI to create 8 different tree diagrams for APIs in an SDK I support. Each tree diagram has varying numbers of elements (from 50 to 350+). The tree diagrams visually depict the API structure and hierarchy, showing the data type, required/optional status, and sometimes other details. Each element links to its specific section in the reference documentation."
+description: "Today was one of those days where I felt like I've seen the future. In about a day and a half, I used AI to create 8 different tree diagrams for APIs in an SDK I support. Each tree diagram has varying numbers of elements (from 50 to 350+). The tree diagrams visually depict the API structure and hierarchy, showing the data type, required/optional status, and sometimes other details. Each element links to its specific section in the reference documentation."
 ---
 
 What blows me away is how easy the tree diagrams were to create. I'm using Gemini Pro 2.5 integrated into my VS-Code-based IDE (Google's homegrown IDE), with the ability to easily drag reference documentation, proto file sources, and other files into Gemini's context. Gemini was able to quickly interpret the API and render the tree diagrams, include the appropriate links, and more. It even created a list of bullets describing the diagram conventions and notation. 
 
-Although I modeled these tree diagrams on some others I'd already created, Gemini enabled me to do this in an extraordinarily fast time &mdash; about a day, that's all. This task would have taken me a month if done manually, and it would be prone to many errors. Gemini Pro 2.5 is at the top of leaderboards like [Chatbot Arena](https://lmarena.ai/). (Maybe a year ago, Google's AI models lagged behind others, but now, Gemini is what I prefer both at work and home.)
+Although I modeled these tree diagrams on some others I'd already created, Gemini enabled me to do this in an extraordinarily fast time &mdash; about a day and a half, that's all. This task would have taken me a month if done manually, and it would be prone to many errors. Gemini Pro 2.5 is at the top of leaderboards like [Chatbot Arena](https://lmarena.ai/). (Maybe a year ago, Google's AI models lagged behind others, but now, Gemini is what I prefer both at work and home.)
 
 I'm kind of shaking my head at what AI has enabled me to do this week. On Monday I wrote a substantial landing page for one of our products, essentially converting information from a product slide deck and other information sources into a coherent flowing narrative that orients users and summarizes key parts of the product. This also took me about a day. For that effort, I actually used the Gemini web app, which has canvas functionality. 
 

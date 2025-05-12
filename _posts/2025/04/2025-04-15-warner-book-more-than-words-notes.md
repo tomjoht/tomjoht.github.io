@@ -1,5 +1,5 @@
 ---
-title: "Notes and discussion for Jonathan Warner's <i>More Than Words: How to Think About Writing in the Age of AI</i>"
+title: "Notes and discussion for Jonathan Warner's <i>More Than Words: How to Think About Writing in the Age of AI</i> + AI Book Club recording"
 permalink: /blog/warner-book-more-than-words-notes
 date: 2025-04-15
 categories:

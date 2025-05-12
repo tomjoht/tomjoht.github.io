@@ -6,7 +6,7 @@ categories:
 - ai
 keywords: Fluid Topics, AI content management
 rebrandly: https://idbwrtng.com/fluid-topics-ai-strategy-qa-fabrice
-description: "In this Q&A with Fabrice Lacroix, founder of <a href='https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting'>Fluid Topics</a>, I ask him questions about a recent tcworld article he authored that puts forward his innovative, advanced model for Enterprise Knowledge Platforms (EKPs) acting as a central AI-powered brain for all company content, delivered via APIs. Fabrice also outlines a future where tech writers become information architects, governing vast knowledge ecosystems and coaching diverse content contributors."
+description: "In this Q&A with Fabrice Lacroix, founder of <a href='https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting'>Fluid Topics</a>, I ask him questions about his recent tcworld article, in which he argues for an innovative, advanced model for Enterprise Knowledge Platforms (EKPs) acting as a central AI-powered brain for all company content, delivered via APIs. Fabrice also outlines a future where tech writers become information architects, governing vast knowledge ecosystems and coaching diverse content contributors."
 ---
 
 <ul id="markdown-toc">
@@ -67,7 +67,7 @@ description: "In this Q&A with Fabrice Lacroix, founder of <a href='https://www.
     </li>
 </ul>
 
-<small><i>Note: This is a sponsored post.</i></small>
+<p style="margin-left: 0px"><small><i>Note: This is a sponsored post.</i></small></p>
 
 ### Tom: In your article [Rethinking product information: The evolving role of tech writers](https://www.tcworld.info/e-magazine/technical-writing/reassessing-the-use-of-product-information-and-the-role-of-the-tech-writers), you describe a system that ingests all the company's content, crawls and structures it, and then serves up that ingested content as APIs for consumer apps to call. Consumer apps call these APIs to get the information they need to publish at their various touchpoints. Did I understand this correctly? Can you expand on this model with more detail? {#article_opening_question}
 
