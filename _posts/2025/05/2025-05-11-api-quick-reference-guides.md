@@ -45,15 +45,17 @@ I'm tackling a couple of ideas in this presentation: first, to share the success
 
 First, I think these quick reference diagrams, which I'd previously referred to as [tree diagrams](/ai/prompt-engineering-task-decomposition.html), are an interesting spinoff or augmentation of API reference documentation. They've been a hit among both PMs and users for the past two years. I find them immediately valuable and plan to expand the number of diagrams for all the APIs I support. Here's a sample (using Jabberwocky filler):
 
-<figure><img style="max-width: 450px" src="{{site.media}}/sampleapiquickreference.png" alt="Quick reference diagrams represent the hierarchy of your API" /><figcaption>Quick reference diagrams represent the hierarchy of your API, with each element linked to its documentation.</figcaption></figure>
+<figure><img style="max-width: 450px" src="{{site.media}}/sampleapiquickreference.png" alt="Quick reference diagrams represent the hierarchy of your API" /><figcaption>Quick reference diagrams represent the hierarchy of your API, with each element linked to its documentation. This sample shows a highlight only; the full quick reference could contain hundreds of elements, depending on the size of your API.</figcaption></figure>
 
-Why create these? Aren't they redundant with the reference docs? Javadoc is one of the most unfriendly documentation interfaces for non-engineers. It's almost impossible to find what you're looking for in a Javadoc unless you know the packages and classes you're looking for so you can drill down through the right page pathways. The API quick reference, shown as a visual tree diagram with links, lets users see the shape of the API at once and invites them to jump into the docs they want more details about. (I wish I could share all the API quick reference guides I'm creating at work, but they're access controlled.)
+Why create these quick reference diagrams? Aren't they redundant with the reference docs? Javadoc (used for generating Java API reference) is one of the most unfriendly documentation interfaces for non-engineers. It's almost impossible to find what you're looking for in a Javadoc unless you know the packages and classes you're looking for so you can drill down through the right page pathways. The API quick reference, shown as a visual tree diagram with links, lets users see the shape of the API at once and invites them to jump into the docs they want more details about.
 
 While REST APIs are more straightforward and typically list all the elements on the same page, even REST API reference docs default to a list of stacked tables. The tables often represent nested items, so if you have an object in one table, its members might have their definition in the next table below it, and their members might be defined in the next table, etc. You end up with a flat list of tables that's difficult to read. You don't get an immediate sense of the hierarchy of the API at all. This approach to reference documentation is hard to follow. You end up visually scanning a bunch of tables. Here's what I mean:
 
 <figure><img style="max-width: 600px" src="{{site.media}}/ref-doc-deep-nesting-issues.png" alt="Hard to grok the hierarchy from a list of tables" /><figcaption>In the display of most reference docs, objects are deeply nested, but the docs describe the objects in separate tables, without hierarchy. As a result, it's hard to visualize the structure and get a clear mental model.</figcaption></figure>
 
-Finally, the API quick reference links to each element in the API. This allows users to go straight to the relevant part of the documentation. As a bonus, for tech writers, you now have all links to every API at your fingertips. You can pass this source into an AI chat session if you want to automatically link any code element. Linking code elements not only reduces hallucination, it gives your docs more authority and specificity. 
+Finally, the API quick reference links each API element to its corresponding reference documentation. This allows users to go straight to the documentation or interesting most relevant to them.
+
+As a bonus, for tech writers, you now have all links to every API at your fingertips. You can pass this source into an AI chat session if you want to automatically link any code element. Linking code elements not only reduces hallucination, it gives your docs more authority and specificity. 
 
 ### Helpful RAG-like context for AI
 
@@ -61,7 +63,7 @@ The second purpose of these API quick reference diagrams is for enhancing AI cha
 
 It's actually quite difficult to gather up your entire API reference and pass it into an AI chat session. First, there are token limits:
 
-* **[Gemini Pro 2.5](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro )** has an input of about 1 million tokens and an output of 65k tokens. (This is the model I usually use and love.)
+* **[Gemini Pro 2.5](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro )** has an input of about 1 million tokens and an output of 65k tokens. (By the way, this is the model I regularly use and love.)
 * **[Gemini Pro 1.5](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro)** has about a 2 million token input and an output limit of 8k tokens.
 
 Gemini has the highest token limit support for input. [ChatGPT 4o](https://platform.openai.com/docs/models/gpt-4o) supports a 128k context window, with about 16k output tokens. [Claude Pro](https://support.anthropic.com/en/articles/7996856-what-is-the-maximum-prompt-length) has about a 200k context window. The 200k context window is estimated to be 500 pages of text or 100 images. One wouldn't think a medium-sized API reference would exceed 500 pages, but it does—easily. When you include all the HTML characters and other content from a web page, it adds up surprisingly fast. A medium-sized API reference doc is about a million tokens, I've found. 
