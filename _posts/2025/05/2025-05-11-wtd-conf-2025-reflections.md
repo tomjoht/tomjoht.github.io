@@ -23,18 +23,27 @@ I didn't present (which is what I usually do when going to conferences). But I s
 
 It was great connecting with the tech comm community. I chatted with more people over the course of two days than I've spoken with for the past six months. Some presenters were particularly engaging and delivered highly polished, interesting presentations. In particular, I was riveted by two talks: 
 
-* Alex Garnett, Docs AI Tooling is Better (and Better for Us) than You Think
-* Ravind Kumar, Embracing the Kraken : How to build a docs-toolchain monster and why it's OK
+**Alex Garnett, Docs AI Tooling is Better (and Better for Us) than You Think**:
 
-Watch these talks (when they become available on the [WTD Youtube channel](https://www.youtube.com/channel/UCr019846MitZUEhc6apDdcQ)). But the others were good as well&mdash;for example, Rachel Rigdon's "Quest for the Holy Grail: Turning User Feedback into Meaningful Change" and Janine Chan's "Seven habits of increasingly technical technical writers." (You can read the speaker talks and descriptions [here](https://www.writethedocs.org/conf/portland/2025/speakers/).)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6p6LttjaSNM?si=TRlWuRwBVxGow0ia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Ravind Kumar, Embracing the Kraken : How to build a docs-toolchain monster and why it's OK**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/etEZhIjoumc?si=SrJkqeb4sfplmgmF&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+But the others were good as well&mdash;for example, Rachel Rigdon's [Quest for the Holy Grail: Turning User Feedback into Meaningful Change](https://www.youtube.com/watch?v=-1n2DEkN6Mk&t=1s) and Janine Chan's [Seven habits of increasingly technical technical writers](https://www.youtube.com/watch?v=SkpXpvTk6iU). (You can read the speaker talks and descriptions [here](https://www.writethedocs.org/conf/portland/2025/speakers/). and view the talks on the [WTD YouTube channel here](https://www.youtube.com/channel/UCr019846MitZUEhc6apDdcQ)).
 
 Honestly, I was blown away by the quality of the presentations. I seemed to remember previous WTD conferences (I've been to two total) in which some talks were lightweight and mostly basic common sense. But either I've matured or the speaker/presentation quality has gone way up. This year was different.
 
-## Unconference
+## The Unconference
 
 Before the conference, I was thinking about the unconference sessions, and how I'd been drawn to this format so much in previous years, almost unexpectedly. I remember my first WTD unconference experience: I was fully engaged by the more free-form discussion that I could participate in, steer, and interact with. So on my Amtrak ride down, I had a few unconference topics I was thinking about doing.
 
+<!--
 <figure><a href="https://www.flickr.com/photos/writethedocs/54495525352/in/album-72177720325861452/"><img  style="max-width: 600px" src="{{site.media}}/unconf-sessions-portland-wtd-2025.jpg" alt="Unconference sessions board and signup" /></a><figcaption>Unconference sessions are listed on a whiteboard with sticky notes. <i>Photo from Flickr by <a href="https://www.flickr.com/photos/writethedocs/54495525352/in/album-72177720325861452/">writethedocs</a></i></figcaption></figure>
+-->
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/writethedocs/54495525352/in/album-72177720325861452" title="Writing Day schedule"><img src="https://live.staticflickr.com/65535/54495525352_9b578c4c5e_z.jpg" width="640" height="574" alt="Writing Day schedule"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 In the end, I alternated between the talks and the unconference. If I didn't perceive a topic to be all that relevant, I'd go to the unconference. And when I wanted a more substantial, less interactive experience, I watched the formal presentations. During the two days, I led three unconference sessions. My pre-session unconference notes on these topics are here (in Google Docs):
 
@@ -76,18 +85,26 @@ Though often random and unpredictable, the unconference sessions have the intrig
 
 Enough on the unconference. I also gave a 5-minute lightning talk on [API quick reference diagrams](https://docs.google.com/presentation/d/1-9DxdLyyAYKBdAeSYDW6HeJm5_I8MQNJvBPw9I7DkrY/). (In case you haven't realized it yet, I like to participate. If I wasn't speaking formally at the conference, I at least wanted to lead some unconference sessions and give a lightning talk. Because I find it boring to sit there and listen to others all day.)
 
+<!--
 <figure><a href="https://www.flickr.com/photos/writethedocs/54496386531/in/album-72177720325861452"><img  style="max-width: 600px" src="{{site.media}}/lightning-talk-wtd-portland-2025.jpg" alt="Lightning talks sign up" /></a><figcaption>Lightning talks sign up table. <i>Photo from Flickr by <a href="https://www.flickr.com/photos/writethedocs/54496386531/in/album-72177720325861452">writethedocs</a></i></figcaption></figure>
+-->
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/writethedocs/54496386531/in/album-72177720325861452" title="Get your lightning talk submissions in!"><img src="https://live.staticflickr.com/65535/54496386531_851ec9433a_z.jpg" width="640" height="427" alt="Get your lightning talk submissions in!"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 I underestimated the lightning talk difficulty. I'm used to being next to other speakers who are basically introverted, shy tech writers, but some of the lightning talk presenters were clearly experienced presenters who could maybe excel at improv or theater. One talk I particularly enjoyed was one on Haunted Docs, in which the speaker talked about tech writers following unwritten conventions that don't make much sense&mdash;like their actions are guided by unseen forces, haunted. She even paraphrased Derrida!
 
 I actually have a lot of thoughts about API quick reference diagrams, but I failed to convey the significance of them in a 5-minute talk. These are one of the coolest ways to augment API reference docs, and the fact that you can use AI tools to crunch through an entire reference doc set and create them is staggeringly impressive. I'm planning to give some other talks on this topic at length, so hopefully I'll be able to expand and deepen my thinking about the topic to provide a better presentation. In hindsight, I realized I prefer longer presentation times. Five minutes is hardly enough time to build up momentum and rhythm. The five-minute duration is a deceptively difficult format to master.
 
-In signing up for the lightning talk, part of me wanted to demo what we can do with AI. We can reinvent reference documentation through AI, for example. AI tools are *transformation engines* that take an input and transform it into an output based on your instruction. But this point didn't resonate. My time was up.
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/writethedocs/54516482717/in/album-72177720325861452" title="Tom Johnson - Lightning Talks - API quick reference diagrams"><img src="https://live.staticflickr.com/65535/54516482717_6059d01658_z.jpg" width="427" height="640" alt="Tom Johnson - Lightning Talks - API quick reference diagrams"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-<figure><img  style="max-width: 600px" src="{{site.media}}/tom-giving-lightning-talk-wtd-2025.jpg" alt="Tom presenting a lightning talk at WTD" /></a><figcaption>This is me presenting a lightning talk at WTD. Thanks Suzanne for the photo.</figcaption></figure>
+In signing up for the lightning talk, part of me wanted to demo what we can do with AI. We can reinvent reference documentation through AI, for example. AI tools are *transformation engines* that take an input and transform it into an output based on your instruction. But this point didn't resonate. My time was up. 
+
+You can view my lightning talk here&mdash;it's the last one on Day One in this grouping of five:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWLHKnbdkBA?si=okiyhShahaeC7PNl;start=1350s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Conclusion
 
 I could probably write a dozen posts on different aspects of the conference. Overall, any conference that allows participants to engage as much as they want (leading their own unconference sessions, giving lightning talks, chatting with others during many social events, and interacting with sponsors at booths) is a great formula for a conference. I also like the single track for the presentations, with the presenters on a center stage. I'm not sure why I haven't been going to WTD every year, but I think I'll become more of a regular.
 
-<figure><img style="max-width: 400px" src="{{site.media}}/tom-wtd-badge-portland-2025.jpg" alt="" /><figcaption>My WTD badge</figcaption></figure>
+<figure><img style="max-width: 400px" src="{{site.media}}/tom-wtd-badge-portland-2025.jpg" alt="My WTD Conference badge" /><figcaption>My WTD badge</figcaption></figure>
