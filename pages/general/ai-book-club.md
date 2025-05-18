@@ -57,7 +57,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
             <p class="book-summary-top"><a class="noCrossRef" href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman</p>
             <p class="book-summary">"In <i>The Coming Wave</i>, Suleyman shows how these forces will create immense prosperity but also threaten the nation-state, the foundation of global order. As our fragile governments sleepwalk into disaster, we face an existential dilemma: unprecedented harms on one side, the threat of overbearing surveillance on the other. / How do we ensure the flourishing of humankind? How do we maintain control? ... / This groundbreaking book from the ultimate AI insider establishes 'the containment problem'&mdash;the task of maintaining control over powerful technologies&mdash;as the essential challenge of our age."</p>
          </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1D8TZggSo1k7bNuq5f5DF6gi0gHR6ViSy9U50D_Hl-eE">Notes and discussion</a><br/>
+         <td><p class="notes-links"><a href="/blog/suleyman-the-coming-wave-notes">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr> 
       <tr>
