@@ -5,15 +5,30 @@ date: 2025-05-17
 categories:
 - ai-book-club
 - ai
+- podcasts
 keywords: 
 rebrandly: https://idbwrtng.com/suleyman-the-coming-wave-notes
-description: "This post describes the key arguments and themes in <i><a href='https://www.amazon.com/Coming-Wave-Power-Our-Future/dp/0593593979'>The Coming Wave: AI, Power, and Our Future</a></i>, by Mustafa Suleyman, as preparation for the <a href='/ai-book-club'>AI Book Club</a> discussion. This article not only breaks down the logic but also jumps off into some themes (beyond the book) that might be more tech-writer relevant, such as potential future job titles, areas of focus for tech writers to thrive now, questions for discussion, and more."
+description: "This post describes the key arguments and themes in <i><a href='https://www.amazon.com/Coming-Wave-Power-Our-Future/dp/0593593979'>The Coming Wave: AI, Power, and Our Future</a></i>, by Mustafa Suleyman, for the <a href='/ai-book-club'>AI Book Club: A Human in the Loop</a>. This post not only breaks down the logic but also jumps off into some themes (beyond the book) that might be more tech-writer relevant, such as potential future job titles, areas of focus for tech writers to thrive now, questions for discussion, and more. It also contains the book club recording."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aibookclub-thecomingwave.mp3
+podcast_file_size: 47.2
+podcast_duration: "59:33"
+podcast_length: 46378158
 ---
 
 *Note: This content is entirely AI-generated, but with steering and shaping from me.*
 
 * TOC
 {:toc}
+
+## Book club meeting recording
+
+Here's a recording of the book club meeting, held May 18, 2025. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xEFxmkCCXfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+If you just want the audio, here it is:
+
+{% include audio.html %}
 
 ## Suleyman's main argument
 
