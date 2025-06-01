@@ -15,7 +15,7 @@ description: "This post captures some of my reflections on attending the 2025 Wr
 
 ## First in-person conference I've attended in years
 
-I recently attended the [Write the Docs (WTD) conference](https://www.writethedocs.org/conf/portland/2025/), held May 4-6, 2025, in Portland. Although I can hardly believe it, this was the first in-person, external conference I've attended since the pandemic. I do present regularly at various events, including tech writing conferences at Google, and webinars or virtual sessions at conferences, but I hadn't been to a real in-person conference (outside of Google or Amazon) for years. It was a last minute decision to go, partly based on feeling an increased sense of isolation in my role and a desire to connect more with the community around me.
+I recently attended the [Write the Docs (WTD) conference](https://www.writethedocs.org/conf/portland/2025/), held May 4-6, 2025, in Portland. Although I can hardly believe it, this was the first in-person, external conference I've attended since the pandemic. I present regularly at various events, including tech writing conferences at Google, and webinars or virtual sessions at conferences, but I hadn't been to a real in-person conference (outside of Google or Amazon) for years. It was a last minute decision to go, partly based on feeling an increased sense of isolation in my role and a desire to connect more with the community around me.
 
 <figure><img style="max-width: 400px" src="{{site.media}}/tom-at-wtd-portland-2025.jpg" alt="Me outside the entrance to the WTD venue" /></a><figcaption>WTD Portland 2025 was held at Revolution Hall in Portland, Oregon</figcaption></figure>
 

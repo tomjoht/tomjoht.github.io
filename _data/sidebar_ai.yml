@@ -97,3 +97,6 @@ folders:
 
   - title: "Using AI with issue tracking systems"
     jurl: /ai/prompt-engineering-issue-tracking-systems.html
+
+  - title:  "API quick reference guides"
+    jurl: /ai/prompt-eng-api-qrgs.html

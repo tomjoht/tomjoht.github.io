@@ -13,6 +13,9 @@ last-modified: 2024-07-28
 
 This tutorial will help you understand task decomposition by guiding you through the process of creating a complex tree diagram that's too sophisticated for an AI tool to create at once. Whether you're creating tree diagrams or not, it doesn't matter. This is just an example of how to break down complex information into smaller chunks and pass it into AI.
 
+{: .note}
+For another post about creating tree diagrams, which I'm calling API quick reference guides, see <a href="/ai/prompt-eng-api-qrgs.html">API quick reference guides</a>.
+
 {% if site.format == "web" %}
 * TOC
 {:toc}
@@ -300,16 +303,16 @@ The response will look like this:
 <div class="response">
 <pre class="highlight">
 root 
-   └─ WonderWhizzleSnacker
-       └─ FluffPrep []
-           └─ PufTwiz {}
-               ├─ WhipFlavor {}
-               │   ├─ FlimEssence (string)
-               │   ├─ SpinRefine (number)
-               │   └─ SnigDust (boolean)
-               └─ GlimPolish {}
-                   ├─ PixieShine (number)
-                   └─ FrumBuff (string) 
+   ├─ WonderWhizzleSnacker
+   │   └─ FluffPrep []
+   │       └─ PufTwiz {}
+   │           ├─ WhipFlavor {}
+   │           │   ├─ FlimEssence (string)
+   │           │   ├─ SpinRefine (number)
+   │           │   └─ SnigDust (boolean)
+   │           └─ GlimPolish {}
+   │               ├─ PixieShine (number)
+   │               └─ FrumBuff (string) 
    └─ RootGet []
        ├─ BumpExped {} 
        │   ├─ GinProv []
@@ -373,38 +376,38 @@ Here's what our diagram looks like now:
 <div class="response">
 <pre class="highlight">
 root 
-   └─ WonderWhizzleSnacker
-       └─ FluffPrep []
-           └─ PufTwiz {}
-               ├─ WhipFlavor {}
-               │   ├─ FlimEssence (string)
-               │   ├─ SpinRefine (number)
-               │   └─ SnigDust (boolean)
-               └─ GlimPolish {}
-                   ├─ PixieShine (number)
-                   └─ FrumBuff (string) 
-   └─ RootGet []
-       ├─ BumpExped {} 
-       │   ├─ GinProv []
-       │   │   ├─ 987 (number)  // PogBake
-       │   │   └─ FlibBrew (string)
-       │   └─ SnorgNav {}
-       │       ├─ FlutRefuel (number)
-       │       └─ HobEcho (boolean)
-       ├─ RootSort (string) 
-       └─ FabPick {}
-           ├─ WhifOrch {}
-           │   ├─ BanLull []
-           │   │   ├─ 111 (number) // HumpHarm
-           │   │   └─ FluffTease (string) 
-           │   └─ FlufUntang (boolean)
-           └─ TwitGrove {}
-               └─ GrifDistract (number) 
+   ├─ WonderWhizzleSnacker
+   │   └─ FluffPrep []
+   │       └─ PufTwiz {}
+   │           ├─ WhipFlavor {}
+   │           │   ├─ FlimEssence (string)
+   │           │   ├─ SpinRefine (number)
+   │           │   └─ SnigDust (boolean)
+   │           └─ GlimPolish {}
+   │               ├─ PixieShine (number)
+   │               └─ FrumBuff (string) 
+   ├─ RootGet []
+   │   ├─ BumpExped {} 
+   │   │   ├─ GinProv []
+   │   │   │   ├─ 987 (number)  // PogBake
+   │   │   │   └─ FlibBrew (string)
+   │   │   └─ SnorgNav {}
+   │   │       ├─ FlutRefuel (number)
+   │   │       └─ HobEcho (boolean)
+   │   ├─ RootSort (string) 
+   │   └─ FabPick {}
+   │       ├─ WhifOrch {}
+   │       │   ├─ BanLull []
+   │       │   │   ├─ 111 (number) // HumpHarm
+   │       │   │   └─ FluffTease (string) 
+   │       │   └─ FlufUntang (boolean)
+   │       └─ TwitGrove {}
+   │           └─ GrifDistract (number) 
    └─ WhizgigBuild {}
        ├─ FidFrame []
        │   └─ SnurdJig {}
-       │         ├─ FizWrang (string)
-       │         └─ KlopAppease (boolean)
+       │   │     ├─ FizWrang (string)
+       │   │     └─ KlopAppease (boolean)
        │   └─ QuigWeld {}
        │        └─ SnizRust (number)
        ├─ SpinSprock {}
@@ -455,48 +458,48 @@ Result:
 <div class="response">
 <pre class="highlight">
 root 
-   └─ WonderWhizzleSnacker
-       └─ FluffPrep []
-           └─ PufTwiz {}
-               ├─ WhipFlavor {}
-               │   ├─ FlimEssence (string)
-               │   ├─ SpinRefine (number)
-               │   └─ SnigDust (boolean)
-               └─ GlimPolish {}
-                   ├─ PixieShine (number)
-                   └─ FrumBuff (string) 
-   └─ RootGet []
-       ├─ BumpExped {} 
-       │   ├─ GinProv []
-       │   │   ├─ 987 (number)  // PogBake
-       │   │   └─ FlibBrew (string)
-       │   └─ SnorgNav {}
-       │       ├─ FlutRefuel (number)
-       │       └─ HobEcho (boolean)
-       ├─ RootSort (string) 
-       └─ FabPick {}
-           ├─ WhifOrch {}
-           │   ├─ BanLull []
-           │   │   ├─ 111 (number) // HumpHarm
-           │   │   └─ FluffTease (string) 
-           │   └─ FlufUntang (boolean)
-           └─ TwitGrove {}
-               └─ GrifDistract (number) 
-   └─ WhizgigBuild {}
-       ├─ FidFrame []
-       │   └─ SnurdJig {}
-       │         ├─ FizWrang (string)
-       │         └─ KlopAppease (boolean)
-       │   └─ QuigWeld {}
-       │        └─ SnizRust (number)
-       ├─ SpinSprock {}
-       │   ├─ WhipTight (string)
-       │   └─ WigCal (number)
-       └─ FizPow {}
-           ├─ Sparkle (boolean)
-           ├─ FizzMon {}
-           │   └─ BlipTrack (string)
-           └─ DingPrevent {}
+   ├─ WonderWhizzleSnacker
+   │   └─ FluffPrep []
+   │       └─ PufTwiz {}
+   │           ├─ WhipFlavor {}
+   │           │   ├─ FlimEssence (string)
+   │           │   ├─ SpinRefine (number)
+   │           │   └─ SnigDust (boolean)
+   │           └─ GlimPolish {}
+   │               ├─ PixieShine (number)
+   │               └─ FrumBuff (string) 
+   ├─ RootGet []
+   │   ├─ BumpExped {} 
+   │   │   ├─ GinProv []
+   │   │   │   ├─ 987 (number)  // PogBake
+   │   │   │   └─ FlibBrew (string)
+   │   │   └─ SnorgNav {}
+   │   │       ├─ FlutRefuel (number)
+   │   │       └─ HobEcho (boolean)
+   │   ├─ RootSort (string) 
+   │   └─ FabPick {}
+   │       ├─ WhifOrch {}
+   │       │   ├─ BanLull []
+   │       │   │   ├─ 111 (number) // HumpHarm
+   │       │   │   └─ FluffTease (string) 
+   │       │   └─ FlufUntang (boolean)
+   │       └─ TwitGrove {}
+   │           └─ GrifDistract (number) 
+   ├─  WhizgigBuild {}
+   │   ├─ FidFrame []
+   │   │   ├─ SnurdJig {}
+   │   │   │     ├─ FizWrang (string)
+   │   │   │     └─ KlopAppease (boolean)
+   │   │   └─ QuigWeld {}
+   │   │        └─ SnizRust (number)
+   │   ├─ SpinSprock {}
+   │   │   ├─ WhipTight (string)
+   │   │   └─ WigCal (number)
+   │   └─ FizPow {}
+   │       ├─ Sparkle (boolean)
+   │       ├─ FizzMon {}
+   │       │   └─ BlipTrack (string)
+   │       └─ DingPrevent {}
    └─ OpWozzle {}    
        ├─ KnobTune {}
        │   └─ SnarfCalc (number)
