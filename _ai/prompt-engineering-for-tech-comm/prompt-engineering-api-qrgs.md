@@ -98,9 +98,9 @@ Following this emphasis on clarity of thought, let's break down the building of 
 
 {% include ads.html %}
 
-## Demo
+## Sample prompt
 
-The previous section helped clarify our approach. Now let's translate these steps into a comprehensive prompt for an AI agent.
+The previous section helped clarify our approach. Now let's translate these steps into a sample prompt for an AI agent. (If you don't have access to an AI agent, just break this prompt up into multiple mini-prompts.)
 
 While you might need to make some adjustments and iterate on fixes, an agent can typically complete this task in minutes. This is still about 100x faster than constructing it all by hand.
 
