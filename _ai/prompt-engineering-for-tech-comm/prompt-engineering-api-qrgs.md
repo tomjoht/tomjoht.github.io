@@ -13,10 +13,6 @@ rebrandly: https://idbwrtng.com/api-qrg-challenges-of-long-content
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-Navigating complex APIs with sprawling reference documentation can leave developers frustrated and unable to quickly find the information they need. A couple of years ago, we faced this exact challenge: partners struggled with Javadoc-style outputs, desperate for an easier way to browse API attributes. My solution was to create API Quick Reference Guides (QRGs) – comprehensive tree diagrams that list all API elements with links to their definitions. 
-
-These QRGs dramatically improved usability and, as I later discovered, are surprisingly straightforward to generate and maintain with AI. Beyond just aiding developers, these AI-crafted diagrams also serve as helpful, concise summaries for augmenting AI chat sessions. This article will walk you through the process of using AI to create these QRGs.
-
 {% if site.format == "web" %}
 * TOC
 {:toc}
@@ -24,13 +20,13 @@ These QRGs dramatically improved usability and, as I later discovered, are surpr
 
 ## Introduction
 
-A couple of years ago at work, some product managers complained about the inability for partners to find details about the data returned by our APIs in our reference documentation. Product teams would meet with partners and talk to them about various attributes available through our APIs, but the partners only had a Javadoc (or similar reference output) to navigate. There wasn't an easy list of attributes to browse. Partners were constantly frustrated at not being able to find the information they needed. 
+A couple of years ago, we had a problem in my organization. Product teams would meet with partners and talk to them about various geo attributes available through our APIs, but the partners only had a Javadoc (or Google's reference output) to navigate. There wasn't an easy list of attributes to browse. Partners were constantly frustrated at not being able to find the info they needed. 
 
-After some trial and error around other solutions, I came up with a comprehensive, linked tree diagram as a solution. Listing hundreds of different elements, the diagram allowed product teams to easily communicate the attributes delivered by the various APIs. They could go directly to the reference doc source by clicking element links. It solved the problem pretty well.
+After some trial and error around other solutions, I came up with a comprehensive tree diagram. Listing hundreds of different elements (each linked to its respective reference docs), it allowed product teams to easily communicate the attributes delivered by the various APIs. They could go directly to the reference doc source by clicking element links. This actually solved the problem.
 
-The diagrams were a pain to maintain, though, since the APIs kept changing and evolving. But because the diagrams were so popular (both internally and externally), I kept updating them with each release. They became a source of truth for many other documentation questions I had. One engineer even said she used the diagrams to understand one of the more complex objects in the API.
+The diagrams were a pain to maintain, since the APIs kept changing and evolving. But because the diagrams were so popular (both internally and externally), I kept them updated. They became a source of truth for many other documentation questions I had. One engineer even said she used the diagrams to understand one of the API objects (one that has such a complex structure, it defies human comprehension).
 
-As AI tools became more capable, I realized that generating these diagrams wasn't so hard. AI tools are actually great at creating tree diagrams, which reduces the effort around both authoring and maintenance. I now have quick reference diagrams for every one of the APIs I support. These QRGs don't just provide documentation usability; they augment AI chat sessions in helpful ways, especially when you don't have infinite token availability in your context sessions. 
+As AI tools became more capable, I realized that generating these diagrams wasn't so hard. AI tools are actually great at creating them, which reduces the effort around both authoring and maintenance. I now have quick reference diagrams for every one of the APIs I support. These QRGs don't just provide documentation usability; they augment AI chat sessions in helpful ways, especially when you don't have infinite token availability in your context sessions. 
 
 In this article, I'll walk through the actual process of using AI to create a quick reference diagram. I'll share my thought processes behind the approach, how AI tools are used, and other decision-making. I'll also show how to provide instruction to an agent to build everything in a single instruction.
 

@@ -100,3 +100,13 @@ folders:
 
   - title:  "API quick reference guides"
     jurl: /ai/prompt-eng-api-qrgs.html
+
+- title: "AI experiments"
+  landing: /ai/experiments.html
+  section: one
+  description: >
+    This section contains posts about my experiments with AI.
+  folderitems:
+
+  - title:  "My first vibecoding project"
+    jurl: /ai/my-first-vibecoding-project.html

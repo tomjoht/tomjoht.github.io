@@ -82,6 +82,8 @@ topnav_dropdowns:
           url: /ai/index.html
         - title: Prompt engineering for TW scenarios
           url: /ai/prompt-engineering.html
+        - title: AI experiments
+          url: /ai/experiments.html
         - title: AI category posts
           url: /category-ai/
 

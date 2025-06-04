@@ -117,4 +117,6 @@ if [ "$answer" = "y" ]; then
 fi
 
 # Open the file in Visual Studio Code
-code $FILENAME
+# code $FILENAME
+# Open the file in Cursor
+osascript -e "tell application \"Cursor\" to open POSIX file \"$PWD/$FILENAME\""
