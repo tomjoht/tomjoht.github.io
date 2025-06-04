@@ -145,7 +145,7 @@ The first session has a 5pm Sunday time (April 20) to accommodate Easter, and an
       </tr> 
       <tr>
          <td>
-            <b>Jan 18, 2025<br/>10am PT</b>
+            <b>Jan 18, 2026<br/>10am PT</b>
              <figure><a class="noCrossRef" href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
          </td>
          <td>
