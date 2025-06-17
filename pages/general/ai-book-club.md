@@ -16,7 +16,7 @@ However, I think these books will be a good catalyst for thinking about AI, and 
 
 ## Reading pace {#readingpace}
 
-The reading pace is one book a month, as listed in the schedule below. This accelerated pace ensures that engaging in this club will likely pull you away from the minutiae of life and require you to spend time on the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
+The reading pace is one book a month, as listed in the schedule below. This accelerated pace ensures that engaging in this club will likely pull you away from the minutiae of life and require you to spend time on the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a  workspace for online chat, and an email group for announcements.
 
 Although AI news seems to change daily, giving the impression that books are too slow to keep up, actually the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to engage beyond just keeping up with the latest model release or newsy headlines.
 
@@ -197,7 +197,7 @@ The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I
 There's a Slack workspace set up for online discussion. Go to one of these links:
 
 * Already a workspace member? Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
-* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-37j3eznz6-t3hDMVvRbiGQtbU_uHB08w).
+* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-37j3eznz6-t3hDMVvRbiGQtbU_uHB08w)
 
 The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
 
