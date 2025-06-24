@@ -20,11 +20,11 @@ rebrandly: https://idbwrtng.com/api-qrg-challenges-of-long-content
 
 ## Introduction
 
-A couple of years ago, we had a problem in my organization. Product teams would meet with partners and talk to them about various geo attributes available through our APIs, but the partners only had a Javadoc (or Google's reference output) to navigate. There wasn't an easy list of attributes to browse. Partners were constantly frustrated at not being able to find the info they needed. 
+A couple of years ago, we had a problem we were trying to solve with our reference docs. Product taems would meet with users and talk to them about various geo attributes available through our APIs, but the users only had a Javadoc (or similar) to navigate. There wasn't an easy list of attributes to browse, and consequently some users couldn't find the info they needed and were frustrated.
 
-After some trial and error around other solutions, I came up with a comprehensive tree diagram. Listing hundreds of different elements, the diagram allowed product teams to easily communicate the attributes delivered by the various APIs. They could go directly to the reference doc source by clicking element links. This actually solved the problem.
+After some trial and error around other solutions, we came up with a solution: comprehensive tree diagrams. Listing hundreds of different elements, the diagrams allowed product teams to easily communicate the attributes delivered by the various APIs. Users could go directly to the reference doc source by clicking element links. This solved the findability problem from a usability perspective.
 
-The diagrams were a pain to maintain, since the APIs kept changing and evolving. But because the diagrams were so popular (both internally and externally), I kept them updated. They became a source of truth for many other documentation questions I had. One engineer even said she used the diagrams to understand one of our more complex API object (one so complicated, it almost defies human comprehension).
+However, the diagrams were a pain to maintain, since the APIs kept changing and evolving. But because the diagrams were so popular (both internally and externally), we kept them updated. They became a source of truth for many other documentation questions, even internal ones that we had as technical writers. One engineer even said she used the diagrams to understand one of our more complex API object (one so complicated, it almost defies human comprehension).
 
 As AI tools became more capable, I realized that generating these diagrams wasn't so hard. AI tools are actually great at creating them, which reduces the effort around both authoring and maintenance. I now have quick reference diagrams for every one of the APIs I support. These QRGs don't just provide documentation usability; they augment AI chat sessions in helpful ways, especially when you don't have infinite token availability in your context sessions. 
 
@@ -53,9 +53,9 @@ There's a reason this deliverable isn't usually provided by tech writers: it's a
 
 ## The first step: Achieve clarity of thought
 
-The first step in any complex AI-assisted task involves trying to get clarity of thought. Complexity by definition pushes against clarity of thought (as there tends to be a lot of unknowns), but it's important to have a general strategy for tackling complex tasks like this one.
+The first step in any complex AI-assisted task involves trying to get clarity of thought. Complexity by definition makes it more challenging to have clear paths and thoughts (as there tends to be a lot of unknowns), but it's important to have a general strategy for tackling complex tasks like this one.
 
-My general strategy is to start simple and layer in the complexity. Imagine trying to build a skyscraper. You wouldn't start by building the entire edifice floor by floor, finishing everything as you go. Instead, you would approach it in stages: starting with preparing the foundation, laying the frame and scaffolding, then doing the interior framing, the plumbing, the electrical, the exterior, the windows, and so on. 
+Here's my general strategy: start simple and layer in the complexity. Imagine trying to build a skyscraper. You wouldn't start by building the entire edifice floor by floor, finishing everything as you go. Instead, you would approach it in stages: starting with preparing the foundation, laying the frame and scaffolding, then doing the interior framing, the plumbing, the electrical, the exterior, the windows, and so on. 
 
 Complex documentation projects move forward in a similar way: you proceed in stages through a series of layers, adding in more complexity each time. To do this layered approach, you have to organize the project clearly in your mind first, often with a general outline.
 
@@ -63,7 +63,7 @@ Just like writing long-form content, though, the outline might not be the actual
 
 ## The outline of steps
 
-Following this emphasis on clarity of thought, let's break down the building of our API QRG into an outline of steps. Since I've created about 10 of these tree diagrams already and have been working with them for a while, I already have a good idea of the steps. More realistically, for a complex project we might not have this clear of an idea about what all the steps are. 
+Following this emphasis on clarity of thought, let's break down the building of our API QRG into an outline of steps. (Since I've created about 10 of these tree diagrams already and have been working with them for a while, I already have a good idea of the steps. More realistically, for a complex project we might not have this clear of an idea about what all the steps are.)
 
 1. **We need a sample tree diagram that can serve as a pattern for the AI to follow.** Tree diagrams could be interpreted in many different ways. The example will make clear to the AI what we mean and want. Fortunately, I already have an example of one of these trees that I can copy. This post, [Task decomposition and complex tree diagrams](/ai/prompt-engineering-task-decomposition.html), has a good example (albeit with fake content).
 
