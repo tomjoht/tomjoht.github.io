@@ -15,7 +15,7 @@ description: "To use AI for fact checking, AI tools might do better with a compl
 
 ## How single sourcing makes AI verification problematic
 
-This is an idea I'm experimenting with and haven't fully vetted, so bear with me. Let me explain a scenario that recently reshaped my thinking on single-sourcing. I have two sets of docs for two different APIs &mdash; API A and API B. Both APIs supposedly use the same underlying data model. A couple of years ago, I decided to create a central library (like a wikipedia site) where users could read about these data concepts, which would mostly apply regardless of the API they were using because the data model was supposedly the same.
+This is an idea I'm experimenting with and haven't fully vetted, so bear with me. Let me explain a scenario that recently reshaped my thinking on single-sourcing. I have two sets of docs for two different APIs &mdash; API A and API B. Both APIs supposedly use the same underlying data model. A couple of years ago, I decided to create a central library (like a Wikipedia site) where users could read about these data concepts, which would mostly apply regardless of the API they were using because the data model was supposedly the same.
 
 Well, it turned out that the APIs didn't quite implement the data model in the same way. There were enough small differences here and there to frustrate the project. Not only differences in the API language (Java vs. REST, which led to differences between nouns, such as `SomeElement` and verbs, such as `getSomeElement`), but also a lack of feature parity. Some APIs had some attributes that others didn't (yet), and so on.
 
@@ -65,7 +65,7 @@ It would be even more challenging to pass in the second single-sourcing example,
 
 If I have agentic workflows in which the agent automatically updates the documentation content, I have to hope that the AI leaves the conditional tags for, say, API B alone and focuses only on API A.
 
-Overall, I think it's easier to fact check content when you have fully intact documents that you can easily pass to an AI. That is, if you have a single, whole document that you can point an AI tool and say, "Verify every statement in this doc against this API reference to see if it's factually accurate based on the elements and logic in the API," I think the verification effort will go more smoothly. 
+Overall, I think it's easier to fact check content when you have fully intact documents that you can easily pass to an AI. That is, if you have a single, whole document that you can point an AI tool at and say, "Verify every statement in this doc against this API reference to see if it's factually accurate based on the elements and logic in the API," I think the verification effort will go more smoothly. 
 
 Plus, what's really the downside now in having duplicate instances of highly similar content? Previously, keeping multiple copies of information in sync was prone to error and led to drift and inconsistencies. But my hunch is that AI is pretty good at syncing documents and handling update tasks across multiple files. For example, I could make a variety of changes to the docs for API A, get a file diff of the changelist committed, and use that file diff to provide instruction to Gemini to update API B in similar ways.
 
@@ -79,7 +79,7 @@ My rule is that any time a code element is mentioned, it must be linked to its r
 
 After modifying the links and content, I then put the API reference material in context and asked Gemini to fact check all the assertions in the conceptual content against the reference content. I also passed in an [API quick reference tree diagram](/ai/prompt-eng-api-qrgs.html) to provide even clearer context about the API's structure and elements. 
 
-Overall, this fact-checking approach works pretty well. It's not perfect, but I'm persuaded by a a couple of principles: 
+Overall, this fact-checking approach works pretty well. It's not perfect, but I'm persuaded by a couple of principles: 
 
 1. The API reference is one of the best sources for fact checking a user guide (aka conceptual content) for an API. Admittedly, there are some details that can't be verified by the API reference, but I think the reference grounds everything in some factual basis. It's often the best source of truth available.
 
