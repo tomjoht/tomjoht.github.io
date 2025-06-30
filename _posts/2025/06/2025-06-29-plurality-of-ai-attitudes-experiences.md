@@ -18,7 +18,10 @@ podcast_length: 6514104
 
 If you'd like to listen to this post as a NotebookLM podcast, you can listen here:
 
-{% include audio.html %}
+<div class="audioControls">
+<p><b>Listen here:</b></p>
+<p><audio controls="" src="https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/reasons-for-diverse-ai-views.mp3" type="audio/mpeg"></audio></p>
+</div>
 
 ## Plurality of AI attitudes and experiences
 
