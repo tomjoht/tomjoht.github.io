@@ -22,7 +22,7 @@ If words are inescapable, you can often get away with replacing these with numbe
 
 The problem is that some image types are meaningless when the text is removed. Think of graphs without labelled axes, or, even worse, flowcharts with just numbers in all the boxes.
 
-<figure><a href="https://idratherbewriting.com"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gensetsequence.svg" | prepend: site.baseurl }}"/></a><figcaption>Flowchart with numbers for a genset start sequence</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{site.media}}/gensetsequence.svg"/></a><figcaption>Flowchart with numbers for a genset start sequence</figcaption></figure>
 
 ## 2. Text in the image?
 
@@ -58,7 +58,7 @@ For text without images that need translation, a modern translation workflow can
     If possible, use automatic formatting during publication.
     The style sheet should be designed so that it has flexibility to accommodate different text lengths.
 
-<figure><a href="https://idratherbewriting.com"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/translationworkflowimages.svg" | prepend: site.baseurl }}"/></a><figcaption>Text translation workflow</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{site.media}}/translationworkflowimages.svg"/></a><figcaption>Text translation workflow</figcaption></figure>
 
 For simplicity, I've left out the quality control loops. For example, depending on the method/tool that you use, you may need to check that the fragments are put back in the right places. Native speakers should also check the translated publication. They can see errors that you didn't even know could arise. For example, Chinese has rules about the minimum number of characters on a line.
 
@@ -90,7 +90,7 @@ If there are images that need translation, in addition to the above, a person or
     * The image links are not normally sent for translation. That means that for the translated content, until you do something, the image links still refer to the original images in the master language.
     * You'll want to design the image storage and naming so that you either don't have to update these links, or at least can do it easily.
 
-<figure><a href="https://idratherbewriting.com"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/imagetranslationworkflow.svg" | prepend: site.baseurl }}"/></a><figcaption> Image translation workflow</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{site.media}}/imagetranslationworkflow.svg"/></a><figcaption> Image translation workflow</figcaption></figure>
 
 For simplicity, I've left out quality control loops again, even though they are important. And someone has to combine and coordinate this workflow with the text translation workflow.
 
@@ -120,6 +120,6 @@ What's your experience with images and translation in technical documentation? W
 
 ## About Jeanine Shepstone
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jeanine.jpg" | prepend: site.baseurl }}" alt="Jeanine" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Jeanine Shepstone writes user information for generator control systems. There are plenty of images to contend with.
+<img src="{{site.media}}/jeanine.jpg" alt="Jeanine" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Jeanine Shepstone writes user information for generator control systems. There are plenty of images to contend with.
 
 <div style="clear: both;"></div>

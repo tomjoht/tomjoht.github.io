@@ -13,6 +13,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 47.2
 podcast_duration: "59:33"
 podcast_length: 46378158
+image: suleymanbookclubthumb.png
 ---
 
 *Note: This content is entirely AI-generated, but with steering and shaping from me.*

@@ -8,6 +8,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/is-single-sourcing-over
 description: "To use AI for fact checking, AI tools might do better with a complete, self-contained set of documentation to check against a reference. Single-sourcing, with its conditional and fragmented content, complicates this model."
+image: includesonlyproblemsthumbv2.png
 ---
 
 * TOC
@@ -15,11 +16,11 @@ description: "To use AI for fact checking, AI tools might do better with a compl
 
 ## How single sourcing makes AI verification problematic
 
-This is an idea I'm experimenting with and haven't fully vetted, so bear with me. Let me explain a scenario that recently reshaped my thinking on single-sourcing. I have two sets of docs for two different APIs &mdash; API A and API B. Both APIs supposedly use the same underlying data model. A couple of years ago, I decided to create a central library (like a Wikipedia site) where users could read about these data concepts, which would mostly apply regardless of the API they were using because the data model was supposedly the same.
+This is an idea I'm experimenting with and haven't fully vetted, so bear with me. Let me explain a scenario that recently reshaped my thinking on single-sourcing. I have two sets of docs for two different APIs — API A and API B. Both APIs supposedly use the same underlying data model. A couple of years ago, I decided to create a central library (like a Wikipedia site) where users could read about these data concepts, which would mostly apply regardless of the API they were using because the data model was supposedly the same.
 
 Well, it turned out that the APIs didn't quite implement the data model in the same way. There were enough small differences here and there to frustrate the project. Not only differences in the API language (Java vs. REST, which led to differences between nouns, such as `SomeElement` and verbs, such as `getSomeElement`), but also a lack of feature parity. Some APIs had some attributes that others didn't (yet), and so on.
 
-I also couldn't easily link the mentioned elements to their reference documentation, because links would force me to choose whether to link to API A or API B. For example, consider a statement like, "This API provides `SomeElement`...." &mdash; do you link to API A, or do you recast it as "This API provides `getSomeElement` for info about ..." and link it to API B? Or do you not link to any reference?
+I also couldn't easily link the mentioned elements to their reference documentation, because links would force me to choose whether to link to API A or API B. For example, consider a statement like, "This API provides `SomeElement`..." — do you link to API A, or do you recast it as "This API provides `getSomeElement` for info about..." and link it to API B? Or do you not link to any reference?
 
 Additionally, the library pages were siloed from the API's documentation, creating a less usable experience due to the changing navigation. For example, one minute the user would be reading a data concept with one sidebar, and as soon as they clicked a reference element, it would switch them back into the API reference sidebar. This is because the data concepts, being centralized, had their own navigation context.
 
@@ -57,7 +58,9 @@ A CCMS would even slice up all the pieces into small chunks and allow me to asse
 {% endraw %}
 ```
 
-While these approaches can work, here's now the problem. Let's say I want to fact check Concept 1 against API A to see if everything is accurate. To do this, I start by priming the AI session with the reference documentation as the source of truth. Then I add Concept 1 topic into the context and ask Gemini to verify every assertion in the conceptual documentation against the reference.
+<figure><img src="{{site.media}}/includesonlyproblemsthumb.png" alt="A document consisting entirely of different includes" /></a><figcaption>A document consisting entirely of different includes</figcaption></figure>
+
+While these approaches can work, here's the problem. Let's say I want to fact check Concept 1 against API A to see if everything is accurate. To do this, I start by priming the AI session with the reference documentation as the source of truth. Then I add Concept 1 topic into the context and ask Gemini to verify every assertion in the conceptual documentation against the reference.
 
 This is where the single-sourcing model breaks down for AI verification. Assume the content is littered with conditional tags. While one could theoretically instruct the AI to process the content for a specific instance (e.g., "process this for API_A and ignore API_B conditionals"), this approach seems susceptible to error. It adds a complex layer of instruction that can easily be misinterpreted. The AI would need to not only understand the content but also correctly parse the surrounding conditional logic. 
 
@@ -67,7 +70,7 @@ If I have agentic workflows in which the agent automatically updates the documen
 
 Overall, I think it's easier to fact check content when you have fully intact documents that you can easily pass to an AI. That is, if you have a single, whole document that you can point an AI tool at and say, "Verify every statement in this doc against this API reference to see if it's factually accurate based on the elements and logic in the API," I think the verification effort will go more smoothly. 
 
-Plus, what's really the downside now in having duplicate instances of highly similar content? Previously, keeping multiple copies of information in sync was prone to error and led to drift and inconsistencies. But my hunch is that AI is pretty good at syncing documents and handling update tasks across multiple files. For example, I could make a variety of changes to the docs for API A, get a file diff of the changelist committed, and use that file diff to provide instruction to Gemini to update API B in similar ways.
+Plus, what's really the downside now of having duplicate instances of highly similar content? Previously, keeping multiple copies of information in sync was prone to error and led to drift and inconsistencies. But my hunch is that AI is pretty good at syncing documents and handling update tasks across multiple files. For example, I could make a variety of changes to the docs for API A, get a file diff of the changelist committed, and use that file diff to provide instruction to Gemini to update API B in similar ways.
 
 {% include ads.html %}
 
@@ -75,7 +78,7 @@ Plus, what's really the downside now in having duplicate instances of highly sim
 
 Based on the above rationale, I started a project to de-single-source my library content. (There are only about a dozen pages in the library, so it's not much content.) I duplicated my conceptual pages into each discrete doc set. Then I started adapting and modifying the content so that it was specific to each API. I made sure all the links pointed to the correct API reference content. 
 
-My rule is that any time a code element is mentioned, it must be linked to its reference page. This verifies that the element exists and forces me to use the correct spelling and casing of the reference element. If I can't link the element to anything in the reference docs, it often means that the element isn't supported by that API (one of those small differences I noted earlier). As I encountered sections of the doc that only applied to the other API, I removed those sections from the existing doc. And vice versa.
+My rule is that any time a code element is mentioned, it must be linked to its reference page. This verifies that the element exists and forces me to use the correct spelling and casing of the reference element. If I can't link the element to anything in the reference docs, it often means that the element isn't supported by that API (one of those small differences I noted earlier). As I encountered sections of the doc that only applied to the other API, I removed those sections from the existing doc, and vice versa.
 
 After modifying the links and content, I then put the API reference material in context and asked Gemini to fact check all the assertions in the conceptual content against the reference content. I also passed in an [API quick reference tree diagram](/ai/prompt-eng-api-qrgs.html) to provide even clearer context about the API's structure and elements. 
 

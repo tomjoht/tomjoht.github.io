@@ -12,7 +12,7 @@ image: thumbnails/techdocslikehackerthumb.png
 
 My slides are linked below (format is RevealJS):
 
-<a href="https://idratherbewriting.com/files/jekyllwritetechdocslikehackerstc/index.html#/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/techdocslikehackerslides.png" | prepend: site.baseurl }}"/></a>
+<a href="https://idratherbewriting.com/files/jekyllwritetechdocslikehackerstc/index.html#/"><img src="{{site.media}}/techdocslikehackerslides.png"/></a>
 
 Here's the description of my Jekyll presentation:
 

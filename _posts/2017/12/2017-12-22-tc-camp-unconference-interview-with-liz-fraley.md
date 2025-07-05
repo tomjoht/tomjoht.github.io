@@ -19,7 +19,7 @@ bitlink: http://bit.ly/tccamp2018post
 
 The [2018 TC Camp](http://www.tccamp.org/2017/09/unconference-tc-camp-2018/) is just around the corner. Held January 26-27, 2018, in Santa Clara, California, this conference has been growing in popularity due to its unique unconference format.
 
-<a href="http://www.tccamp.org/2017/09/unconference-tc-camp-2018/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/header-post-register-1.png" | prepend: site.baseurl }}" alt="TC Camp Santa Clara" /></a>
+<a href="http://www.tccamp.org/2017/09/unconference-tc-camp-2018/"><img src="{{site.media}}/header-post-register-1.png" alt="TC Camp Santa Clara" /></a>
 
 The TC Camp Unconference doesn't include any pre-scheduled sessions or speakers. (Although there are some morning workshops available, these aren't part of the unconference format.)
 

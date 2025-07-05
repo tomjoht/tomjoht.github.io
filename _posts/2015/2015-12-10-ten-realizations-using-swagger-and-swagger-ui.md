@@ -56,7 +56,7 @@ The Model Schema shows a sample of the syntax along with examples. When you clic
 ```
 Now click **Model** (the grayed out text) and look at the view.
 
-<a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swaggersubtlemodellink.png" | prepend: site.baseurl }}" alt="Swagger Model" /></a>
+<a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{site.media}}/swaggersubtlemodellink.png" alt="Swagger Model" /></a>
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
@@ -83,7 +83,7 @@ The Petstore spec doesn't actually include many parameter descriptions in the Mo
 
 In this view, when there's a nested object, like `category`, it has a reference to another part of the model. You have to look at "Category" for details about category and look at "Tag" for details about tags.
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swagger-model.png" | prepend: site.baseurl }}" alt="Model versus Model Schema" />
+<img src="{{site.media}}/swagger-model.png" alt="Model versus Model Schema" />
 
 **Update: The new version of the Swagger UI displays the model as expandable/collapsible sections, which fixes the usability issues described here.**
 
@@ -221,7 +221,7 @@ Interestingly, although you can add a security object to your Swagger spec and s
 
 The [Swagger spec](https://github.com/swagger-api/swagger-spec), [Swagger UI](https://github.com/swagger-api/swagger-ui), and [Swagger editor](http://editor.swagger.io/#/) projects are apparently independent. The right-pane display that the Swagger editor shows is entirely unique. I'm not sure if there is any UI platform that actually shows that display.
 
-<a href="http://editor.swagger.io/#/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swaggereditorpane.png" | prepend: site.baseurl }}" alt="Swagger editor" /></a>
+<a href="http://editor.swagger.io/#/"><img src="{{site.media}}/swaggereditorpane.png" alt="Swagger editor" /></a>
 
 I wish there were a UI that resembled the editor's display, because the editor's display uses expandable sections in the Model view.
 

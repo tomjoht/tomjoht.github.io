@@ -15,7 +15,7 @@ image: thumbnails/learningdita.png
 
 One common question I receive from people on this site is how they can learn DITA. [Scriptorium](http://scriptorium.com) has published a new online course (their first, I think) called [LearningDITA.com](http://www.learningdita.com/). The first course available is "Introduction to DITA."
 
-<figure><a href="http://www.learningdita.com/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learningdita.png" | prepend: site.baseurl }}" alt="" /></a><figcaption>Learningdita.com is a free online resource created by Scriptorium for learning DITA</figcaption></figure>
+<figure><a href="http://www.learningdita.com/"><img src="{{site.media}}/learningdita.png" alt="" /></a><figcaption>Learningdita.com is a free online resource created by Scriptorium for learning DITA</figcaption></figure>
 
 ## About the course
 

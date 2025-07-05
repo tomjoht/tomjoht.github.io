@@ -71,6 +71,6 @@ I do value simplicity and strive to use the easiest solution possible. If a proj
 
 Regardless of the route you take, in the end, you're not going to escape the complexity inherent in the solution, no matter which route you take.
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/complexity-01.svg" | prepend: site.baseurl }}" alt="Complexity options" />
+<img src="{{site.media}}/complexity-01.svg" alt="Complexity options" />
 
 If you create your own custom solutions, you have much more flexibility to do what you want &mdash; you just need the right skills. If you plug into standardized complexity (like DITA), you can buy systems and platforms that remove some of the complexity for you and put it behind a closed door. However, making any modifications to some of these pre-built systems will certainly be daunting.

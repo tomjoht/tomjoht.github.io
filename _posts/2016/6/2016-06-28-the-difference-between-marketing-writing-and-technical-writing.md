@@ -10,7 +10,7 @@ image: thumbnails/clairethumb.png
 * TOC
 {:toc}
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/clairessale.JPG" | prepend: site.baseurl }}" alt="The difference between marketing writing and technical writing" />
+<img src="{{site.media}}/clairessale.JPG" alt="The difference between marketing writing and technical writing" />
 
 I love communicating information in a clear, easy-to-understand way, which is why I become a technical writer. Prior to working as a technical writer, I did work as a copywriter for a health and nutrition company. I spent endless amounts of time trying to persuade people to buy protein pills that they probably didn't need.
 

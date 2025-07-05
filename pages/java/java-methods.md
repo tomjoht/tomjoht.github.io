@@ -66,7 +66,7 @@ public class App {
 | **void** | returns nothing |
 | **String** | returns a string |
 
-For a description of the access specifiers (e.g., public, private, protected), see <a href="{{ "/java-access-modifiers" | prepend: site.baseurl }}">Access Specifiers </a>.
+For a description of the access specifiers (e.g., public, private, protected), see <a href="{{site.media}}/java-access-modifiers">Access Specifiers </a>.
 
 ## Getter and setter methods
 

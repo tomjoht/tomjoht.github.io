@@ -9,7 +9,7 @@ description: "If you want to influence developers to make changes to code (such 
 * TOC
 {:toc}
 
-<img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scrum.png" | prepend: site.baseurl }}" alt="Scrum, by Jeff Sutherland" />
+<img class="alignright" src="{{site.media}}/scrum.png" alt="Scrum, by Jeff Sutherland" />
 [Scrum: The Art of Doing Twice the Work in Half the Time](http://www.audible.com/pd/Business/Scrum-Audiobook/B00NJ3WS9G/ref=a_search_c4_1_1_srTtl?qid=1445953702&sr=1-1) is one of the best books I've listened to in a long time. Although I've worked in agile environments for the last decade, I don't think I fully understood the way agile is supposed to work until listening to this book.
 
 This book should be standard reading material for any technical writer, because it will orient you about how to operate successfully in an agile environment (which is a framework that almost all software development shops follow now).

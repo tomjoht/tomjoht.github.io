@@ -23,7 +23,7 @@ bitlink: http://bit.ly/interactiveapidocsmikestowe
 
 {{note}} If you're in the Bay area, come listen to Michael Stowe speak tonight (Monday, Oct 12) at the STC Silicon Valley chapter in Santa Clara. See the <a href="http://stcsiliconvalley.com//2014/10/09/october-12-2015-spec-driven-development-raml-api-documentation/">meeting details here</a>.{{end}}
 
-<a href="http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1"><img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/undisturbed_rest_mike_stowe.png" | prepend: site.baseurl }}" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe" /></a>
+<a href="http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1"><img class="alignright" src="{{site.media}}/undisturbed_rest_mike_stowe.png" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe" /></a>
 
 In this episode, I interview Michael Stowe, author of [Undisturbed REST: The guide to designing the perfect API](http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1), about spec-driven design for REST APIs. The podcast has an emphasis on RAML as the specification format, but the discussion goes beyond a particulate specification to discuss development approaches that focus on creating a specification file (which acts like a contract) before coding the API.
 

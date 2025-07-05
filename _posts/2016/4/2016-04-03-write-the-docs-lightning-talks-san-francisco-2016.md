@@ -28,7 +28,7 @@ Below are the lightning talks from the March 29 [Write the Docs San Francisco Me
 
 ## The easiest way to create professional-looking illustrations and diagrams, by Tom Johnson
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Thpq3kryvhQ?list=PLNKYtCgtBp2jIrXdnGrf48pMEqiU3aB6D" frameborder="0" allowfullscreen></iframe>
-<a href="https://idratherbewriting.com/files/professionalgraphics">&nbsp;&nbsp;&nbsp;&mdash;> view the slides</a> and <a href="{{ "/visualcommunication_noun_project/" | prepend: site.baseurl }}">detailed notes</a>
+<a href="https://idratherbewriting.com/files/professionalgraphics">&nbsp;&nbsp;&nbsp;&mdash;> view the slides</a> and <a href="/2016/05/05/visualcommunication_noun_project/">detailed notes</a>
 
 ## “Storycraft in SDK documentation” or “A Writer’s Theory of Everything”, by Elisa Sawyer
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mAzR0GVP-Ag?list=PLNKYtCgtBp2jIrXdnGrf48pMEqiU3aB6D" frameborder="0" allowfullscreen></iframe>

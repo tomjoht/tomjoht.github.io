@@ -17,7 +17,7 @@ Every so often someone either proclaims that [blogging is dead](https://www.goog
 ## Google trends
 First, take a look at this Google Trends graph looking at blogging and technical writing.
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googletrendsblogstw.png" | prepend: site.baseurl }}" alt="Google Trends graph" />
+<img src="{{site.media}}/googletrendsblogstw.png" alt="Google Trends graph" />
 
 Looking at these trends, you might assume that a blog &mdash; particularly a blog on technical writing &mdash; is sliding into oblivion. Is it? Let's look back at site stats for the past 7 years to see if we can note any trends in traffic.
 
@@ -32,25 +32,25 @@ A single session is basically a visit &mdash; it can consist of multiple pagevie
 In each of the following graphs, I compare the sessions during 2015 to a different year. Following the graphs is my explanation and analysis.
 
 ## 2015 vs 2014
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2014.png" | prepend: site.baseurl }}" alt="2015 vs 2014" />
+<img src="{{site.media}}/twblogs2014.png" alt="2015 vs 2014" />
 
 ## 2015 vs 2013
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2013.png" | prepend: site.baseurl }}" alt="2015 vs 2013" />
+<img src="{{site.media}}/twblogs2013.png" alt="2015 vs 2013" />
 
 ## 2015 vs 2012
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2012.png" | prepend: site.baseurl }}" alt="2015 vs 2012" />
+<img src="{{site.media}}/twblogs2012.png" alt="2015 vs 2012" />
 
 ## 2015 vs 2011
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2011.png" | prepend: site.baseurl }}" alt=" 2015 vs 2011" />
+<img src="{{site.media}}/twblogs2011.png" alt=" 2015 vs 2011" />
 
 ## 2015 vs 2010
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2010.png" | prepend: site.baseurl }}" alt="2015 vs 2010" />
+<img src="{{site.media}}/twblogs2010.png" alt="2015 vs 2010" />
 
 ## 2015 vs 2009
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2009.png" | prepend: site.baseurl }}" alt="2015 vs 2009" />
+<img src="{{site.media}}/twblogs2009.png" alt="2015 vs 2009" />
 
 ## 2015 vs 2008
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2008.png" | prepend: site.baseurl }}" alt="2015 vs 2008" />
+<img src="{{site.media}}/twblogs2008.png" alt="2015 vs 2008" />
 
 (Although I started the blog in 2006, I didn't actively start tracking it with Google Analytics until late 2007.)
 

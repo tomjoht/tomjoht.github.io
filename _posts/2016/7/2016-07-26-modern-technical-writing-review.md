@@ -35,7 +35,7 @@ Recently to try to get better sleep, I switched from reading my iPhone at night 
 
 While reading on my Kindle, I stumbled across a book called [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter, published in 2016. It's is actually a short book (10,000 words), and you can read it about a half hour.
 
-<figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
+<figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{site.media}}/modern-technical-writing-by-andrew-etter.png" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
 
 
 

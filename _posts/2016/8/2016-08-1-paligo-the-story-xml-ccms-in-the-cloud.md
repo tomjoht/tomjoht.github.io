@@ -42,7 +42,7 @@ They teamed up and, starting with the existing foundation code base that Arensme
 
 <a href="http://paligo.net/" rel="nofollow">Paligo</a> is an XML-based component content management system (CCMS) that users access entirely in the cloud. Paligo's team built on top of a custom topic-based version of Docbook XML to create a number of user-friendly features.
 
-<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Dashboard3-2280-fixed-languages-checkout.png" | prepend: site.baseurl }}"/><figcaption>Paligo's user interace</figcaption></figure>
+<figure><img src="{{site.media}}/Dashboard3-2280-fixed-languages-checkout.png"/><figcaption>Paligo's user interace</figcaption></figure>
 
 With Paligo, you can do the following:
 
@@ -118,31 +118,31 @@ To explore Paligo with a free trial, click **Get Started** in the upper-right co
 The following are some screenshots of Paligo that give you a better sense of the user interface and functionality.
 
 **Structure view**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/StructureView-2280.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/StructureView-2280.png""/>
 
 **Overview of resources, such as image assets**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ResourceOverview.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/ResourceOverview.png""/>
 
 **Searching for content based on keywords and elements**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Search-1549.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/Search-1549.png""/>
 
 **Selecting variables**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/SelectVariable2.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/SelectVariable2.png""/>
 
 **Drag and drop widget structure**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/DragAndDropWidgetStructure.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/DragAndDropWidgetStructure.png""/>
 
 **Viewing statistics about re-use**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/statisticsview.jpg" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/statisticsview.jpg""/>
 
 **Tags for taxonomy**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/TaxonomyColors.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/TaxonomyColors.png""/>
 
 **Translation management and status**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/TranslationStatus-1549.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/TranslationStatus-1549.png""/>
 
 **Workflow for documents**
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Workflow5.png" | prepend: site.baseurl }}"/>
+<img src="{{site.media}}/Workflow5.png""/>
 
 ## Additional reading
 

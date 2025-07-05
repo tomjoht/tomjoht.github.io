@@ -26,7 +26,7 @@ bitlink: http://bit.ly/udemypodcasttechwriting
 
 Recently Alex Bankoff from Udemy interviewed me for a podcast on technical writing. He and his team also created an infographic based on the podcast as well. You can check out both the [podcast and infographic here](https://www.udemy.com/technical-writing-and-editing/#interview):
 
-<a href="https://www.udemy.com/technical-writing-and-editing/#interview"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/udemypodcast.png" | prepend: site.baseurl }}" alt="Udemy podcast and infographic on technical writing" /></a>
+<a href="https://www.udemy.com/technical-writing-and-editing/#interview"><img src="{{site.media}}/udemypodcast.png" alt="Udemy podcast and infographic on technical writing" /></a>
 
 The infographic adds visual appeal and provides a nice summary for the podcast.
 

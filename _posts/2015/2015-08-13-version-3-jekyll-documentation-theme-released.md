@@ -21,11 +21,11 @@ Here's an example output: [https://idratherbewriting.com/documentation-theme-jek
 
 The theme is built for single sourcing, so the default theme has a couple of outputs: Designers and Writers. The Designers output has detailed instructions for working with the theme.
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
+<img src="{{site.media}}/jekyllthemescreenshot.png" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
 The Writers output is a slightly scaled back version of the same content (eliminating some explanations of how the theme works), with another theme applied.
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
+<img src="{{site.media}}/jekyllthemewriters.png" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
 {% include ads.html %}
 

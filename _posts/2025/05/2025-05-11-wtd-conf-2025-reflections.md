@@ -8,6 +8,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/wtd-conf-2025-reflections
 description: "This post captures some of my reflections on attending the 2025 Write the Docs conference in Portland. Some themes I discuss include the paradox of AI fatigue, the delight and difficulty of unconference sessions, why lightning talk formats are so challenging, and more."
+image: wtdportbadgethumb.png
 ---
 
 * TOC

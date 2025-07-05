@@ -29,7 +29,7 @@ In this trends post, I'll try to avoid both of these pitfalls. I want to start w
 
 Based on this core trend, I'll then extrapolate all the ripple effects of the trend on the technical writing community. Basically, as the following diagram illustrates, the ripple effect of API growth will affect technical writers in a variety of ways.
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apiripple.svg" | prepend: site.baseurl }}" alt="The ripple effect of APIs on the technical writers" />
+<img src="{{site.media}}/apiripple.svg" alt="The ripple effect of APIs on the technical writers" />
 
 ## The starting point: APIs, endpoints, device meshes grow in popularity
 

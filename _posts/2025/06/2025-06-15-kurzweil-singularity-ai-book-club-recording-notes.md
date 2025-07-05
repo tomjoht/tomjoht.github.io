@@ -13,6 +13,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 43.7
 podcast_duration: "55:53"
 podcast_length: 502,079
+image: bookclubsingularitythumb.png
 ---
 
 * TOC

@@ -29,12 +29,12 @@ The games they create through Stencyl are fully functional 2D games. However, th
 
 The funding for the project was boosted by [Kickstarter](https://www.kickstarter.com/projects/2020158234/girls-make-games-grand-prize-winner), where "1,617 backers pledged $31,136 to help bring this project to life." The girls each get a share of the revenue for the games.
 
-<a href="https://www.kickstarter.com/projects/2020158234/girls-make-games-grand-prize-winner"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/hole_story.png" | prepend: site.baseurl }}" alt="Kickstarter" /></a>.
+<a href="https://www.kickstarter.com/projects/2020158234/girls-make-games-grand-prize-winner"><img src="{{site.media}}/hole_story.png" alt="Kickstarter" /></a>.
 
 ## Game launch day for "The Hole Story"
 Avery's game -- called "The Hole Story" -- launched last week. You can <a href="http://girlsmakegames.itch.io/the-hole-story">download it from itch.io here</a>:
 
-<a href="http://girlsmakegames.itch.io/the-hole-story"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/theholestory.png" | prepend: site.baseurl }}" alt="The Hole Story, Girls Make Games" /></a>
+<a href="http://girlsmakegames.itch.io/the-hole-story"><img src="{{site.media}}/theholestory.png" alt="The Hole Story, Girls Make Games" /></a>
 
 {% include ads.html %}
 

@@ -14,7 +14,7 @@ You can view the [Android Vocabulary Glossary here](https://developers.google.co
 
 For example, check out the [Setter Method](https://google-developers.appspot.com/android/for-all/vocab-words/index_0172fb7b3e434aea701aa821ef43d5df.frame?card=setter-method#).
 
-<figure><a href="https://developers.google.com/android/for-all/vocab-words/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gettersettermethods.png" | prepend: site.baseurl }}"/></a><figcaption>Visual communication in developer doc</figcaption></figure>
+<figure><a href="https://developers.google.com/android/for-all/vocab-words/"><img src="{{site.media}}/gettersettermethods.png"/></a><figcaption>Visual communication in developer doc</figcaption></figure>
 
 {% include ads.html %}
 

@@ -43,7 +43,7 @@ The diagram provides a visual shape to your API, allowing developers to quickly 
 
 Quick reference diagrams represent the hierarchy of your API, with each element linked to its documentation.
 
-<figure><img style="max-width: 700px" src="{{site.media}}/sampletreediagramjabberwocky.png" alt="Example of an API quick reference tree diagram showing hierarchical relationships between API elements." /><figcaption>This sample tree diagram visually represents the hierarchical structure of an API, making it easier for developers to understand relationships between objects, methods, and fields at a glance.</figcaption></figure>
+<figure><img style="max-width: 700px" src="{{site.media}}/apiquickrefguidesv2.png" alt="Example of an API quick reference tree diagram showing hierarchical relationships between API elements." /><figcaption>This sample tree diagram visually represents the hierarchical structure of an API, making it easier for developers to understand relationships between objects, methods, and fields at a glance.</figcaption></figure>
 
 ## Example doc scenario: Build an API quick reference
 

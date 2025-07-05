@@ -11,6 +11,7 @@ podcast_link: "https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/i
 podcast_file_size: 6.7
 podcast_duration: "10:34"
 podcast_length: 6514104
+image: experiencesaidifferthumb.png
 ---
 
 * TOC

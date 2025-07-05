@@ -34,7 +34,7 @@ Riona started the panel by posing the problem that started her documentation tra
 
 Riona said the survey's findings closely paralleled those from the [2016 Developer Survey on Stack Overflow](https://stackoverflow.com/research/developer-survey-2016#work-challenges-at-work), which found that poor documentation was one of the greatest challenges in the workplace:
 
-<figure><a href="https://stackoverflow.com/research/developer-survey-2016#work-challenges-at-work"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docsurveystackoverflow.png" | prepend: site.baseurl }}"/></a><figcaption>According to the 2016 Developer Survey on Stack Overflow, the second greatest challenge in the workplace is poor documentation.</figcaption></figure>
+<figure><a href="https://stackoverflow.com/research/developer-survey-2016#work-challenges-at-work"><img src="{{site.media}}/docsurveystackoverflow.png"/></a><figcaption>According to the 2016 Developer Survey on Stack Overflow, the second greatest challenge in the workplace is poor documentation.</figcaption></figure>
 
 *50,000* developers took the survey on Stack Overflow. Even if the sample is biased toward people who are inclined to value good documentation (and hence provide informaton / survey responses on Stack Overflow), it's hard to dismiss the results about the importance of documentation to developers.
 
@@ -42,7 +42,7 @@ Riona said the survey's findings closely paralleled those from the [2016 Develop
 
 As more support for the value of docs, a 2013 survey conducted by [Programmableweb](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07) (which included about 250 developers) also found that "complete and accurate documentation" was the most important factor in an API:
 
-<figure><a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/progwebdoc.png" | prepend: site.baseurl }}"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
+<figure><a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{site.media}}/progwebdoc.png"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
 
 (As exciting as it is to find these surveys, don't get too excited -- few people seem to take them seriously, as evidenced by the [steady decline or flatlining of employed tech writers](/innovation/#/8/2). But let's not dwell on that.)
 

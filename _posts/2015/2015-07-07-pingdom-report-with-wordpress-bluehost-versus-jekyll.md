@@ -13,11 +13,11 @@ description: "My blog is both faster and more stable with Jekyll on Github than 
 
 When my blog was on WordPress, hosted on Bluehost and using MaxCDN (a CDN network), here were the average response times:
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bluehostpingdom.png" | prepend: site.baseurl }}" alt="WordPress on Bluehost with MaxCDN" />
+<img src="{{site.media}}/bluehostpingdom.png" alt="WordPress on Bluehost with MaxCDN" />
 
 After moving my blog to Jekyll and hosting on Github, here are the average response times:
 
-<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/githubpingdom.png" | prepend: site.baseurl }}" alt="Jekyll on Github" />
+<img src="{{site.media}}/githubpingdom.png" alt="Jekyll on Github" />
 
 I could integrate MaxCDN with Jekyll, but I'm not sure if there would be much benefit, since MaxCDN just creates static files cached in different regions of the world to speed download time. Jekyll already creates static files, and I guess I'm not that convinced that download times vary so much in different parts of the world.
 

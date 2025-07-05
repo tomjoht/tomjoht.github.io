@@ -53,7 +53,7 @@ Here's the video recording (slides + audio):
 
 Here are the slides. The slides have detailed speaker notes, so be sure to check those out too.
 
-<a href="http://bit.ly/2b4ep9V"><img style="border: 1px solid gray;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/devdochuntslide.png" | prepend: site.baseurl }}" alt="API documentation jobs San Francisco Bay area" /></a>
+<a href="http://bit.ly/2b4ep9V"><img style="border: 1px solid gray;" src="{{site.media}}/devdochuntslide.png" alt="API documentation jobs San Francisco Bay area" /></a>
 
 ## Audio
 
@@ -63,7 +63,7 @@ Just want the audio? Play it here:
 
 ## About Andrew Davis
 
-<img style="float:left; margin-right:10px;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/andrewdavisthumb.png" | prepend: site.baseurl}}" alt="Andrew Davis" />Andrew Davis has recruited technical content developers in the SF Bay Area since 1995. He is a former software industry Technical Writer and has a reputation for both understanding and championing the role of content development.
+<img style="float:left; margin-right:10px;" src="{{site.media}}/andrewdavisthumb.png" alt="Andrew Davis" />Andrew Davis has recruited technical content developers in the SF Bay Area since 1995. He is a former software industry Technical Writer and has a reputation for both understanding and championing the role of content development.
 
 {% include ads.html %}
 

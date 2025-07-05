@@ -13,7 +13,7 @@ I'm growing increasingly nervous by the number of studies that show how sitting 
 
 I decided to download [Break Time](http://breaktimeapp.com/) from the App store.
 
-<a href="http://breaktimeapp.com/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/breaktime.png" | prepend: site.baseurl }}" alt="Break Time" /></a>
+<a href="http://breaktimeapp.com/"><img src="{{site.media}}/breaktime.png" alt="Break Time" /></a>
 
 {% include ads.html %}
 

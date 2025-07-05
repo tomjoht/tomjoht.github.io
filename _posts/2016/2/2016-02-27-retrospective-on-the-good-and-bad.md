@@ -16,7 +16,7 @@ Of course I can't go into too many details here, and I want to acknowledge that 
 
 <div style="max-width:500px;">
 <figure>
-<object type="image/svg+xml" data="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object><figcaption>The purpose of this retrospective is to look back at previous experiences in order to move forward more productively in the future.</figcaption></figure>
+<object type="image/svg+xml" data="{{site.media}}/retrospective.svg">Your browser does not support SVG</object><figcaption>The purpose of this retrospective is to look back at previous experiences in order to move forward more productively in the future.</figcaption></figure>
 </div>
 
 {% include ads.html %}
