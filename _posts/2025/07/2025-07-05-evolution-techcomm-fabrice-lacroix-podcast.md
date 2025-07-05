@@ -15,7 +15,7 @@ podcast_length: 34681490
 image: fabriceagentsthumb.png
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_gR0QZi7P0" title="Uncovering and communicating the value of your tech comm teams' work, with Keren Brown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_gR0QZi7P0" title="Will your next user be an AI agent? The future of content delivery with Fabrice Lacroix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include audio.html %}
 
@@ -25,34 +25,34 @@ image: fabriceagentsthumb.png
 <p><small><i>This podcast was sponsored by <a href="https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting">Fluid Topics</a>.</i></small></p>
 
 {:.note}
-See the related blog post I wrote titled [AI-powered Enterprise Knowledge Platforms: Fluid Topics Q&A with Fabrice Lacroix](/blog/fluid-topics-ai-strategy-qa-fabrice).
+Related to this podcast's topic, I also published a Q&A article titled [AI-powered Enterprise Knowledge Platforms: Fluid Topics Q&A with Fabrice Lacroix](/blog/fluid-topics-ai-strategy-qa-fabrice).
 
 ## Takeaways from the podcast
 
 * Technical communication has evolved from delivering static PDFs to using Content Delivery Platforms (CDPs) that serve granular, topic-based answers, reducing the user's cognitive load.
-* The next step is the Enterprise Knowledge Platform (EKP), which breaks down information silos by unifying all product-related content (tech docs, knowledge base articles, support cases, etc.) into one searchable place.
-* To be effective, a platform must understand the specific *semantics* of product content—like versions, product lines, and applicability—not just process it as generic text.
+* The next step (after CDPs) is the Enterprise Knowledge Platform (EKP), which breaks down information silos by unifying all product-related content (tech docs, knowledge base articles, support cases, etc.) into one searchable place.
+* To be effective, a platform must understand the specific *semantics* of product content—like versions, product lines, and applicability&mdash;not just process it as generic text.
 * The next primary consumer of technical documentation is shifting from a human reader to an AI agent that will use the content to perform actions.
-* Writing for AI agents requires a new approach. Concepts like minimalism may be insufficient, as implicit knowledge (what we assume human experts know) must be made explicit for machines to understand.
+* Writing for AI agents requires a new approach. Concepts like minimalism might be insufficient, as implicit knowledge (what we assume human experts know) must be made explicit for machines to understand.
 * The technical writer's role is expanding from pure authoring to orchestrating and curating knowledge from many different sources for ingestion into a central system.
-* AI agents will use your documentation to automate complex, multi-system workflows, such as diagnosing a problem, ordering a part, and scheduling a technician automatically.
-* Technologies like MCP (Model-Context-Protocol) are being built directly into platforms, allowing content to be easily consumed by AI agents without a massive engineering effort.
+* AI agents will use documentation to automate complex, multi-system workflows, such as diagnosing a problem, ordering a part, and scheduling a technician automatically.
+* Technologies like MCP (Model-Context-Protocol) are being built directly into platforms (like https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting), allowing content to be easily consumed by AI agents without a massive engineering effort.
 * Agents can perform advanced quality control, such as comparing Jira development tasks against your documentation in seconds to find gaps and inaccuracies.
 * The mindset is shifting from simply writing documentation to engineering a knowledge base that can be reliably used by both humans and intelligent machines.
 
 ## Podcast timestamps
 
-* 00:00 Introduction to Fluid Topics and AI in Tech Writing
+* 00:00 Introduction to Fluid Topics and AI in tech writing
 * 03:01 Content Delivery Platforms vs. Enterprise Knowledge Platforms
-* 06:14 The Evolution of Technical Writing
-* 08:56 Dynamic Content Delivery and User Experience
-* 12:02 Unifying Disparate Knowledge in Organizations
-* 14:56 AI and the Future of Technical Writing
-* 17:58 The Role of Semantics in Product Knowledge
-* 20:51 Challenges in Metadata Extraction
-* 24:07 The Impact of AI on Technical Writers
-* 26:53 Fluid Topics and MCP Servers
-* 30:06 Conclusion and Future Directions
+* 06:14 The evolution of technical writing
+* 08:56 Dynamic content delivery and user experience
+* 12:02 Unifying disparate knowledge in organizations
+* 14:56 AI and the tuture of technical writing
+* 17:58 The role of semantics in product knowledge
+* 20:51 Challenges in metadata extraction
+* 24:07 The impact of AI on technical writers
+* 26:53 Fluid Topics and MCP servers
+* 30:06 Conclusion and future directions
 
 ## Transcript
 
@@ -196,9 +196,9 @@ It took like **30 seconds**. It read 200 Jira tasks and 500 pages of documentati
 
 ## Links
 
-* [Fabrice Lacroix on LInkedin](https://www.linkedin.com/in/fabrice-lacroix)
-* [Fluid Topics](https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting).
-[AI-powered Enterprise Knowledge Platforms: Fluid Topics Q&A with Fabrice Lacroix](/blog/fluid-topics-ai-strategy-qa-fabrice)
+* [Fabrice Lacroix on LinkedIn](https://www.linkedin.com/in/fabrice-lacroix)
+* [Fluid Topics](https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting)
+* [AI-powered Enterprise Knowledge Platforms: Fluid Topics Q&A with Fabrice Lacroix](/blog/fluid-topics-ai-strategy-qa-fabrice)
 * [Rethinking product information: The evolving role of tech writers](https://www.tcworld.info/e-magazine/technical-writing/reassessing-the-use-of-product-information-and-the-role-of-the-tech-writers) (*tcworld* article by Fabrice)
 
 {% include ads.html %}
