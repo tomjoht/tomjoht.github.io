@@ -127,7 +127,7 @@ John Musser, one of the founders of Programmableweb.com (a site that's now retir
 
 Despite what might seem like a clear mandate for excellent API docs,  technical writers aren't always leveraged for these doc efforts. [*The 2019 State of API*](https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf) report found the following:
 
-> Automation is playing a major role in how organizations document their APIs. 43% of respondents said they leverage an API standard, like the OpenAPI Specification, to generate API docs. One quarter of respondents are using a “code-first” approach, where developers are responsible for adding annotations to the API code to generate docs. Only 15% of participants are investing in technical writers to help with documenting APIs.
+> Automation is playing a major role in how organizations document their APIs. 43% of respondents said they leverage an API standard, like the OpenAPI Specification, to generate API docs. One quarter of respondents are using a "code-first" approach, where developers are responsible for adding annotations to the API code to generate docs. Only 15% of participants are investing in technical writers to help with documenting APIs.
 
 <figure><a target="_blank" class="noExtIcon" href="https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf"><img class="docimage medium" src="{{site.api_media}}/howteamsarehandlingdocs.png" alt="How teams are handling docs, The State of API 2019, p.42" /></a><figcaption>How teams are handling docs, The State of API 2019, p.42</figcaption></figure>
 
@@ -140,7 +140,7 @@ Thus, the connotation with this survey question misunderstands and distorts the 
 > Nearly 75% of API providers have a formal API developer
 documentation process, but only 45.6% say that it is a priority for their team.
 > A quarter of API providers (25.3%) say they either do not
-have, or are unaware of their team’s API developer documentation process.
+have, or are unaware of their team's API developer documentation process.
 
 Again, the question here is a bit vague. Exactly what is a "formal documentation process"? Given that one of Smartbear's key products is [SwaggerHub](pubapis_swaggerhub_smartbear.html), which auto-generates reference documentation from the OpenAPI spec, a "formal documentation process" might mean generating docs from the OpenAPI spec.
 

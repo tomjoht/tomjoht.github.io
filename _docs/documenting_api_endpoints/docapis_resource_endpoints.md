@@ -27,7 +27,7 @@ last-modified: 2019-06-09
 
 ## Examples of endpoints
 
-Here's an example of the endpoints for the Relationships resource in the Instagram API:
+Here's an example of the endpoints for the relationships resource in the Instagram API:
 
 <a class="noExtIcon" href="https://www.instagram.com/developer/endpoints/relationships/"><img src="{{site.api_media}}/instagramurlexample.png" /></a>
 
@@ -35,7 +35,7 @@ The endpoint is usually set off in a stylized way that gives it more visual atte
 
 {% include image_ad_right.html %}
 
-The endpoint is arguably the most important aspect of API documentation because this is what developers will implement to make their requests.
+The endpoint is arguably the most important aspect of API documentation, as it defines what developers will use to make their requests.
 
 ## Represent path parameters with curly braces
 
@@ -45,7 +45,7 @@ If you have [path parameters](docapis_doc_parameters.html#path_parameters) in yo
 /campaigns/{campaign_id}/actions/send
 ```
 
-If you can, put the path parameter in another color to set it off:
+If possible, use a different color to highlight the path parameter:
 
 <pre>
 /campaigns/<span class="orange">{campaign_id}</span>/actions/send
@@ -63,13 +63,13 @@ Path parameters aren't always set off with a unique color (for example, some pre
 
 ## You can list the method next to the endpoint
 
-It's common to list the method (GET, POST, and so on) next to the endpoint. The method defines the operation with the resource. Briefly, each method is as follows:
+It's common to list the method (get, post, and so on) next to the endpoint. The method defines the operation with the resource. Briefly, each method is as follows:
 
-* GET: Retrieves a resource
-* POST: Creates a resource
-* PUT: Updates or creates within an existing resource
-* PATCH: Partially modifies an existing resource
-* DELETE: Removes the resource
+* GET: Retrieve a resource
+* POST: Create a resource
+* PUT: Update or create within an existing resource
+* PATCH: Partially modify an existing resource
+* DELETE: Remove the resource
 
 See [Request methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) in Wikipedia's article on HTTP for more details. (There are some additional methods, but they're rarely used.)
 
@@ -98,20 +98,20 @@ In our sample API scenario, the endpoint is just `/surfreport/{beachId}`. You do
 
 Another consideration in documenting endpoints and methods is how to group and list the endpoints, particularly if you have a lot of endpoints for the same resource. In [Examples of resource descriptions](docapis_resource_descriptions.html#examples), we looked at a variety of APIs. Many doc sites provide different designs for grouping or listing each endpoint for the resource, so I won't revisit all the same examples. Group the endpoints in some way that makes sense, such as by method or by the type of information returned.
 
-For example, suppose you have three GET endpoints and one POST endpoint, all of which relate to the same resource. Some doc sites might list all the endpoints for the same resource on the same page. Others might break them into separate pages. Others might create one group for the GET endpoints and another for the POST endpoints. It depends how much you have to say about each endpoint.
+For example, suppose you have three get endpoints and one post endpoint, all of which relate to the same resource. Some doc sites might list all the endpoints for the same resource on the same page. Others might break them into separate pages. Others might create one group for the get endpoints and another for the post endpoints. It depends how much you have to say about each endpoint.
 
 If the endpoints are mostly the same, consolidating them on a single page could make sense. But if they're substantially unique (with different responses, parameters, and error messages), separating them onto different pages is probably better (and easier to manage). Then again, with a more sophisticated website design, you can make lengthy information navigable on the same page.
 
 {: .tip}
-In a later section on [design patterns](pubapis_design_patterns.html), I explain that [long pages](pubapis_design_patterns.html#longish_pages) are common pattern with developer docs, in part because they make content easily findable for developers using Ctrl + F.
+In a later section on [design patterns](pubapis_design_patterns.html), I explain that [long pages](pubapis_design_patterns.html#longish_pages) are a common pattern with developer docs, in part because they make content easily findable for developers using Ctrl + F.
 
 ## How to refer to endpoints in tutorials
 
-In tutorials and other conceptual content, how do you refer to the endpoints within an API reference topic? Referring to the "`/aqi` endpoint" or to the "`/weatherdata`" endpoint doesn't make a huge difference. But with more complex APIs, using the endpoint to talk about the resource can be tricky.
+In tutorials and other conceptual content, how do you refer to the endpoints within an API reference topic? Referring to the "/aqi" endpoint or to the "/weatherdata" endpoint doesn't make a huge difference. But with more complex APIs, using the endpoint to talk about the resource can be tricky.
 
 {% include random_ad2.html %}
 
-At one company I worked at, our URLs for the Rewards endpoints looked like this:
+At one company I worked at, our URLs for the rewards endpoints looked like this:
 
 <pre>
 /rewards
@@ -123,25 +123,25 @@ At one company I worked at, our URLs for the Rewards endpoints looked like this:
 /users/<span class="orange">{userId}</span>/rewards/<span class="orange">{rewardId}</span>
 </pre>
 
-And rewards in context of Missions looked like this:
+And rewards in context of missions looked like this:
 
 <pre>
 /users/<span class="orange">{userId}</span>/rewards/<span class="orange">{missionId}</span>
 
-/missions/<span class="orange">{missionid}</span>/rewards
+/missions/<span class="orange">{missionId}</span>/rewards
 </pre>
 
 To say that you could use the rewards resource wasn't always specific enough, because there were multiple rewards and missions endpoints.
 
 {% include random_ad4.html %}
 
-It can get awkward referring to the endpoint. For example, you might have a sentence like this: "When you call `/users/{userId}/rewards/`, you get a list of all rewards. To get a specific reward for a specific mission for a specific user, the `/users/{userId}/rewards/{missionId}` endpoint takes several parameters..."
+Referring to endpoints can sometimes be awkward. For example, you might have a sentence like this: "When you call `/users/{userId}/rewards/`, you get a list of all rewards. To get a specific reward for a specific mission for a specific user, the `/users/{userId}/rewards/{missionId}` endpoint takes several parameters..."
 
-The longer the endpoint, the more cumbersome the reference becomes. These kinds of descriptions are more common in the [conceptual sections](docconceptual.html) of your documentation. Generally, there's not a clear convention about how to refer to cumbersome endpoints. Adopt an approach that makes the most sense for your API.
+The longer the endpoint, the more cumbersome the reference becomes, especially in [conceptual sections](docconceptual.html) of your documentation. There is no universal convention for referring to complex endpoints, so adopt an approach that best fits your API and audience.
 
 ## Endpoint for surfreport API
 
-Let's create the Endpoints and methods section for our [fictitious surfreport API](docapis_new_endpoint_to_doc.html). Here's my approach:
+Let's create the endpoints and methods section for our [fictitious surfreport API](docapis_new_endpoint_to_doc.html). Here's my approach:
 
 <div class="docSample">
 {% include_relative surfreport_endpoint.html %}

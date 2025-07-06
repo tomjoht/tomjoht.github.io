@@ -7,7 +7,7 @@ path: Introduction to REST APIs
 section: introtoapis
 path1: learnapidoc/docapis_overview.html
 weight: 0.0
-last-modified: 2024-11-10
+last-modified: 2025-01-07
 ---
 
 In this course on writing documentation for APIs, instead of just talking about abstract concepts, I contextualize APIs with a direct, hands-on approach. You'll first learn about API documentation by using a simple weather API to put a weather forecast on your site.
@@ -112,21 +112,24 @@ JavaScript is one of the most useful and easy languages to become familiar with,
 Here are a few tools you'll need to do the activities in this course:
 
 * **Computer.** You need a computer (if attending the live workshop, a laptop and charging cord), as there are many activities to work through.
-* **Text editor**. If you don't already have a favorite text editor, download [Sublime Text](http://www.sublimetext.com/), as it works well on both Mac and Windows and is free. If you have another text editor you prefer (e.g., [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), or even [Notepad++](https://notepad-plus-plus.org/)), that will work too. Just make sure you can write code in plain text.
-* **Chrome browser**. [Chrome](https://www.google.com/chrome/browser/desktop/index.html) provides a Javascript Console that works well for inspecting JSON, so we'll be using Chrome. Also, in order to read JSON responses more easily in the browser, install the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) Chrome extension.
-* **Postman**. [Postman](http://www.getpostman.com/) is an app that allows you to make requests and see responses through a visual client. *Make sure you download the app and not the Chrome extension.*
-* **curl**. [curl](http://curl.haxx.se/) is essential for making requests to endpoints from the command line. Mac already has curl built-in, but it might not be available by default on Windows. (Some Windows 10 builds already have it in Powershell.) On Windows, open a Command Prompt and type `curl -V`. If it's not installed, go to [confusedbycode.com/curl](http://confusedbycode.com/curl) and install a version (usually "With Administrator Privileges (free), 64-bit"). Close and re-open your Command Prompt and try typing `curl -V` again.
+* **Text editor**. If you don't already have a favorite text editor, download [Sublime Text](http://www.sublimetext.com/), as it works well on both Mac and Windows and is free. If you have another text editor you prefer (e.g., [Visual Studio Code](https://code.visualstudio.com/), or even [Notepad++](https://notepad-plus-plus.org/)), that will work too. Just make sure you can write code in plain text.
+* **Chrome browser**. [Chrome](https://www.google.com/chrome/) provides a Javascript Console that works well for inspecting JSON, so we'll be using Chrome. Also, in order to read JSON responses more easily in the browser, install the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) Chrome extension.
+* **Postman**. [Postman](https://www.postman.com/) is an app that allows you to make requests and see responses through a visual client. *Make sure you download the app and not the Chrome extension.*
+* **curl**. [curl](https://curl.se/) is essential for making requests to endpoints from the command line. Mac already has curl built-in, but it might not be available by default on Windows. (Some Windows 10 builds already have it in Powershell.) On Windows, open a Command Prompt and type `curl -V`. If it's not installed, go to [https://curl.se/windows/](https://curl.se/windows/) and install a version. Close and re-open your Command Prompt and try typing `curl -V` again.
 * **Git**. [Git](https://git-scm.com/) is a version control tool developers often use to collaborate on code. For Windows, see [https://gitforwindows.org/](https://gitforwindows.org/) to set up Git and the Git BASH terminal emulator. For Mac, see [Downloading Git](https://git-scm.com/download/mac).
 * **GitHub account**. [GitHub](https://github.com) will be used for various activities, sometimes to demonstrate the Git workflow and other times as an authentication service for developer tools. If you don't already have a GitHub account, sign up for one.
-* **Stoplight Editor**. When working with the OpenAPI specification, we'll use the Stoplight Editor. Stoplight provides visual modeling tools for working with the OpenAPI specification. Stoplight offers both a web browser and standalone app versions of the editor. We'll be using the web browser version because it provides more complete functionality (such as trying out requests). Go to [https://stoplight.io/welcome](https://stoplight.io/welcome), create a Stoplight account, and sign in.
-* **OpenWeatherMap API key**. We’ll be using the OpenWeatherMap API for some exercises. It takes a couple of hours for the OpenWeatherMap API key to become active, so it's best if you get the API key ahead of time &mdash; then when you get to the OpenWeatherMap API activities, you’ll be all set. To get your (free) OpenWeatherMap API key, go to [https://openweathermap.org/](https://openweathermap.org/). Click Sign Up in the top nav bar and create an account. After you sign up, OpenWeatherMap sends you an API key to your email. you can also find it when you log in and click the API Keys tab from the dashboard. Copy the key into a place you can easily find it.
+* **OpenAPI Editor**. When working with the OpenAPI specification, we'll use an OpenAPI editor. You can use [Swagger Editor](https://editor.swagger.io/) (free, web-based), [Visual Studio Code with OpenAPI extensions](https://marketplace.visualstudio.com/search?term=openapi&target=VSCode&category=All%20categories&sortBy=Relevance), or [Postman's API Builder](https://www.postman.com/product/api-builder/) (which includes OpenAPI support). These tools provide visual modeling capabilities for working with the OpenAPI specification.
+* **OpenWeatherMap API key**. We'll be using the OpenWeatherMap API for some exercises. It takes a couple of hours for the OpenWeatherMap API key to become active, so it's best if you get the API key ahead of time &mdash; then when you get to the OpenWeatherMap API activities, you'll be all set. To get your (free) OpenWeatherMap API key, go to [https://openweathermap.org/](https://openweathermap.org/). Click Sign Up in the top nav bar and create an account. After you sign up, OpenWeatherMap sends you an API key to your email. you can also find it when you log in and click the API Keys tab from the dashboard. Copy the key into a place you can easily find it.
+
+{: .note}
+**Modern Tools Note**: While this course focuses on fundamental concepts, you may also encounter modern tools like GitHub Copilot, VS Code extensions, and AI-powered documentation tools. These can enhance your workflow but aren't required for the core learning objectives.
 
 ## Testing Your Setup
 
 In the past, people have asked for some tests to check whether their laptops are correctly set up.
 
-* If you want to test whether Postman works, open up the Postman app and paste this into the GET box: `https://api.openweathermap.org/data/2.5/weather?zip=95050&units=imperial&appid=126cac1a482f51de0f1287b45ae2bf9a`. Then click **Send**. If you get a response, it's working correctly. (In rare cases, sometimes people have security restrictions on their computers that block all network access.)
-* If you want to test whether curl is installed, open Terminal (on Mac) or Command Prompt (on Windows) and paste in `curl --get "https://api.openweathermap.org/data/2.5/weather?zip=95050&units=imperial&appid=126cac1a482f51de0f1287b45ae2bf9a"`. If you get a JSON response, you're good.
+* If you want to test whether Postman works, open up the Postman app and paste this into the GET box: `https://api.openweathermap.org/data/2.5/weather?zip=95050&units=imperial&appid=YOUR_API_KEY`. Then click **Send**. If you get a response, it's working correctly. (In rare cases, sometimes people have security restrictions on their computers that block all network access.)
+* If you want to test whether curl is installed, open Terminal (on Mac) or Command Prompt (on Windows) and paste in `curl --get "https://api.openweathermap.org/data/2.5/weather?zip=95050&units=imperial&appid=YOUR_API_KEY"`. If you get a JSON response, you're good.
 * To check whether Git is installed, open up Terminal (on Mac) or Command Prompt (on Windows) and type `git --version`. If it's installed, you'll see the version.
 
 ## Video recordings
@@ -179,7 +182,7 @@ If you've looking for additional resources to learn API documentation as well as
 
 * [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108), by Arnaud Lauret
 
-* [*Docs for Developers: An Engineer’s Field Guide to Technical Writing*](https://www.apress.com/gp/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
+* [*Docs for Developers: An Engineer's Field Guide to Technical Writing*](https://www.apress.com/gp/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
 
 * [*Standards and Guidelines for API Documentation: For Technical Writers, Software Developers, Information and Software Architects*](https://www.google.com/books/edition/Standards_and_Guidelines_for_API_Documen/B7LDzQEACAAJ?hl=en), by Anne Tarnoruder
 

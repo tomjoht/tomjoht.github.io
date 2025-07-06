@@ -34,12 +34,28 @@ With a GUI REST client, you won't have to worry about getting curl syntax right 
 
 Some popular GUI clients include the following:
 
-* [Postman](http://www.getpostman.com/)
+* [Postman](https://www.postman.com/)
 * [Insomnia](https://insomnia.rest/)
 * [Paw](https://luckymarmot.com/paw)
 * [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension)
 
 Of the various GUI clients available, Postman is probably the best option, since it allows you to save both calls and responses, is free, works on both Mac and PC, and is easy to configure.
+
+## Current Postman Features
+
+Postman has evolved significantly and now offers many advanced features beyond basic API testing:
+
+* **Postman Flows** - Visual API workflow tool for creating complex API workflows
+* **Spec Hub** - Centralized API specification management and governance
+* **Postbot** - AI-powered assistance for API development and testing
+* **VS Code Extension** - Seamless Postman integration within VS Code
+* **Postman CLI** - Command-line interface for automation and CI/CD integration
+* **Workspaces** - Team collaboration features for sharing collections and environments
+* **Environment Variables** - Secure management of API keys and configuration
+* **Monitors** - Automated API testing and monitoring
+* **Mock Servers** - Create mock APIs for development and testing
+
+For comprehensive learning resources, visit the [official Postman documentation](https://learning.postman.com/).
 
 {: .note}
 A lot of times, abstract concepts don't make sense until you can contextualize them with an action. In this course, I'm following more of an "experience-first" methodology. After you do an activity, we'll explore the concepts in more depth. So if it seems like I'm glossing over concepts now, such as what a GET method is or an endpoint, hang in there. When we deep dive into these points in [Documenting API endpoints](docendpoints.html), these concepts will be a lot clearer.
@@ -51,7 +67,7 @@ A lot of times, abstract concepts don't make sense until you can contextualize t
 
 In this exercise, you'll use Postman to make a request using OpenWeatherMap's [current weather data API endpoint](https://openweathermap.org/current). To make the request:
 
-1.  If you haven't already done so, download and install the Postman app at [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/). (Make sure you download the app and not the deprecated Chrome extension.)
+1.  If you haven't already done so, download and install the Postman app at [https://www.postman.com/downloads/](https://www.postman.com/downloads/). (Make sure you download the app and not the deprecated Chrome extension.)
 2.  Start the Postman app and sign in when prompted. Close any welcome screens so you can make a request.
 3.  Click the **+** tab to create a new tab. Insert the following endpoint into the box next to **GET**: `https://api.openweathermap.org/data/2.5/weather`
 4.  Click the **Params** tab (below the box where you inserted the endpoint) and then add the following three parameters in the **key** and **value** rows:
@@ -68,6 +84,20 @@ In this exercise, you'll use Postman to make a request using OpenWeatherMap's [c
 
     Note that many APIs pass the API key in the header rather than as a query string parameter in the request URL. (If that were the case, you would click the **Headers** tab and insert the required key-value pairs in the header. But OpenWeatherMap passes the API key as a query string parameter.)
 
+### Modern Authentication Methods
+
+Postman supports various modern authentication methods:
+
+* **API Key** - Passed in headers or query parameters (as shown above)
+* **Bearer Token** - Used in Authorization header for OAuth 2.0 and JWT tokens
+* **OAuth 2.0** - Complete OAuth flows with automatic token management
+* **Basic Auth** - Username/password authentication
+* **Digest Auth** - Challenge-response authentication
+* **AWS Signature** - For AWS API authentication
+* **NTLM Authentication** - Windows authentication
+
+For sensitive data like API keys, use Postman's **Environment Variables** feature to store them securely and avoid hardcoding them in your requests.
+
 5.  Click **Send**.
 
 	  The response appears in the lower pane. For example:
@@ -79,9 +109,9 @@ In this exercise, you'll use Postman to make a request using OpenWeatherMap's [c
 1.  In Postman, click the **Save** button (above Send). The Save Request dialog box appears.
 1.  In the **Request name** box, type a friendly name for the request, such as "OpenWeatherMap Current API."
 1.  In the **Request description (Optional)** field, type a description such as "gets the current weather for 95050 in imperial units."
-3.  Scroll down a bit and click **New Collection** to create a folder to save the request in. Name your new collection (e.g., "OpenWeatherMap") and click the orange check mark. Then select the new collection you just created.
+3.  Scroll down a bit and click **New Collection** to create a folder to save the request in. Name your new collection (e.g., "OpenWeatherMap") and click the check mark or **Create** button. Then select the new collection you just created.
 
-    After you create the collection, the Save button will be enabled. Your Postman collection should look something like this:
+    After you create the collection, the Save button will be enabled. Your Postman collection dialog should look something like this:
 
     <figure><img class="docimage small" src="{{site.api_media}}/postmancollectiondialog2.png" alt="Collection dialog box" /><figcaption>Collection dialog box</figcaption></figure>
 
@@ -196,7 +226,7 @@ data-postman-var-1="abd0d0741e8206266958"></div>
   }(window, document, "\_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
 </script>
 
-If this button doesn't work for you, copy this [import link](https://www.getpostman.com/collections/abd0d0741e8206266958).
+If this button doesn't work for you, copy this [import link](https://www.postman.com/collections/abd0d0741e8206266958).
 
 ### Xweather API collection
 
@@ -223,5 +253,10 @@ If this button doesn't work for you, copy this [import link](https://www.postman
 
 Clicking the Run in Postman buttons should automatically prompt you to import the collections into Postman. If it doesn't work, copy the import link address and, in Postman, click **Import** in the upper-left corner. Then click the **Import From Link** tab, paste in the address and click **Import**.
 
+{: .note}
+**Note**: The Postman interface may vary slightly depending on your version. If you encounter any issues with the import process, refer to the [official Postman documentation](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/importing-data/) for the most current instructions.
+
 {: .tip}
 If you'd like to learn more about Postman, listen to this [interview with the Postman founder](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). We recorded this as part of the [Write the Docs podcast](http://podcast.writethedocs.org/) and focused on the documentation features within Postman. For more information on creating the Run in Postman buttons, see the [Run in Postman button](docapis_doc_getting_started_section.html#runinpostmanbutton) section in the [Getting started tutorial](docapis_doc_getting_started_section.html).
+
+For the most current Postman documentation and tutorials, visit [learning.postman.com](https://learning.postman.com/).

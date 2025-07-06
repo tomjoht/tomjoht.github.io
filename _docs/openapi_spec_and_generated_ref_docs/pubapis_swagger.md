@@ -39,21 +39,21 @@ For definitions of common terms, see [Key terms](#key_terms) at the end of this 
 
 ## <i class="fa fa-user-circle"></i> Get familiar with Swagger UI through the Petstore demo
 
-To get a better understanding of Swagger UI, let's explore the <a href="http://petstore.swagger.io/">Swagger Petstore example</a>. In the Petstore example, the site is generated using [Swagger UI](https://github.com/swagger-api/swagger-ui).
+To get a better understanding of Swagger UI, let's explore the <a href="https://petstore.swagger.io/">Swagger Petstore example</a>. In the Petstore example, the site is generated using [Swagger UI](https://github.com/swagger-api/swagger-ui).
 
-<a href="http://petstore.swagger.io/" class="noExtIcon"><img src="{{site.api_media}}/swaggerpetstoreui.png" alt="Petstore UI" /></a>
+<a href="https://petstore.swagger.io/" class="noExtIcon"><img src="{{site.api_media}}/swaggerpetstoreui.png" alt="Petstore UI" /></a>
 
 The endpoints are grouped as follows:
 
-* [pet](http://petstore.swagger.io/#/pet)
-* [store](http://petstore.swagger.io/#/store)
-* [user](http://petstore.swagger.io/#/user).
+* [pet](https://petstore.swagger.io/#/pet)
+* [store](https://petstore.swagger.io/#/store)
+* [user](https://petstore.swagger.io/#/user).
 
 ### Authorize your requests
 
 Before making any requests, you would normally authorize your session by clicking the **Authorize** button and completing the information required in the Authorization modal pictured below:
 
-<a href="http://petstore.swagger.io/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/swaggerui_authorize.png" alt="Authorization modal in Swagger UI" /></a>
+<a href="https://petstore.swagger.io/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/swaggerui_authorize.png" alt="Authorization modal in Swagger UI" /></a>
 
 The Petstore example has an OAuth 2.0 security model. However, the authorization code is just for demonstration purposes. There isn't any real logic authorizing those requests, so you can simply close the Authorization modal.
 
@@ -63,27 +63,27 @@ The Petstore example has an OAuth 2.0 security model. However, the authorization
 
 Now let's make a request:
 
-1.  Expand the [**POST Pet** endpoint](http://petstore.swagger.io/#/pet/addPet).
+1.  Expand the [**POST Pet** endpoint](https://petstore.swagger.io/#/pet/addPet).
 2.  Click **Try it out**.
 
-    <a href="http://petstore.swagger.io/" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_petendpoint.png" alt="Try it out button in Swagger UI" /></a>
+    <a href="https://petstore.swagger.io/" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_petendpoint.png" alt="Try it out button in Swagger UI" /></a>
 
     After you click Try it out, the example value in the Request Body field becomes editable.
 
 3.  In the Example Value field, change the first `id` value to a random integer, such as `193844`. Change the second `name` value to something you'd recognize (your pet's name).
 4.  Click **Execute**.
 
-    <figure><a target="_blank" class="noExtIcon" href="http://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_execute.png" alt="Executing a sample Petstore request" /></a><figcaption>Executing a sample Petstore request</figcaption></figure>
+    <figure><a target="_blank" class="noExtIcon" href="https://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_execute.png" alt="Executing a sample Petstore request" /></a><figcaption>Executing a sample Petstore request</figcaption></figure>
 
     Swagger UI submits the request and shows the [curl](docapis_make_curl_call.html)  that was submitted. The Responses section shows the [response](docapis_doc_sample_responses_and_schema.html). (If you select JSON rather than XML in the "Response content type" drop-down box, the response's format will be shown in JSON.)
 
-    <a href="http://petstore.swagger.io/" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_response.png" alt="Response from Swagger Petstore get pet request" /></a>
+    <a href="https://petstore.swagger.io/" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_response.png" alt="Response from Swagger Petstore get pet request" /></a>
 
     {% include important.html content="The Petstore is a functioning API, and you have actually created a pet. You now need to take responsibility for your pet and begin feeding and caring for it! All joking aside, most users don't realize they're playing with real data when they execute responses in an API (especially when using their own API key). This test data may be something you have to wipe clean when you transition from exploring and learning about the API to eventually using the API for production use." %}
 
 ### Verify that your pet was created
 
-1.  Expand the [**GET /pet/{petId}** endpoint](http://petstore.swagger.io/#/pet/getPetById).
+1.  Expand the [**GET /pet/{petId}** endpoint](https://petstore.swagger.io/#/pet/getPetById).
 2.  Click **Try it out**.
 3.  Enter the pet ID you used in the previous operation. (If you forgot it, look back in the **POST Pet** endpoint to check the value.)
 4.  Click **Execute**. You should see your pet's name returned in the Response section.
@@ -139,7 +139,7 @@ First, you'll make sure you can view Swagger locally. Then you'll switch the Pet
     When you're ready to publish your Swagger UI file, you just upload the `dist` folder (or whatever you want to call it) to a web server and go to the `index.html` file. For example, if you called your directory `dist` (leaving it unchanged), you would go to `http://myserver.com/dist/`.
 
     {: .tip}
-    For more instructions in working with Swagger UI, see the [Swagger.io docs](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/).
+    For more instructions in working with Swagger UI, see the [Swagger documentation](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/).
 
 ## <i class="fa fa-user-circle"></i> Activity: View local OpenAPI file in Swagger UI {#view_local_openapi_swaggerui}
 
@@ -152,9 +152,9 @@ You can create a local web server running on your computer through [Python's Sim
 1.  Download and install [Python 3x](https://www.python.org/downloads/).
 
     {: .warning}
-    When you install Python, be sure to select the check box that says "Add Python 3.7 to PATH." *This check box isn't selected by default. If you don't select it, your command prompt won't recognize the word "python".*
+    When you install Python, be sure to select the check box that says "Add Python to PATH." *This check box isn't selected by default. If you don't select it, your command prompt won't recognize the word "python".*
 
-    <figure><img class="docimage medium" src="{{site.api_media}}/pythonscreenshot2.png" alt="Installing Python to PATH" /><figcaption>Add Python 3.7 to PATH</figcaption></figure>
+    <figure><img class="docimage medium" src="{{site.api_media}}/pythonscreenshot2.png" alt="Installing Python to PATH" /><figcaption>Add Python to PATH</figcaption></figure>
 
 2.  After installing Python, close your command prompt and reopen it.
 3.  In your command prompt, browse to the Swagger UI `dist` directory.
@@ -253,10 +253,10 @@ By default, SwaggerUI has the Petstore OpenAPI document configured in the `url` 
 4.  Look for the following code:
 
     ```js
-    url: "http://petstore.swagger.io/v2/swagger.json",
+    url: "https://petstore.swagger.io/v2/swagger.json",
     ```
 
-5.  Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to a relative path to your YAML file, and then save the file. For example:
+5.  Change the `url` value from `https://petstore.swagger.io/v2/swagger.json` to a relative path to your YAML file, and then save the file. For example:
 
     ```js
     url: "openapi_openweathermap.yml",

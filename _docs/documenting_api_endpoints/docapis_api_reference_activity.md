@@ -31,7 +31,7 @@ In this activity, you'll review API reference documentation and identify the com
     *  [Nexmo API reference](https://developer.nexmo.com/api)
     *  [Twitter API reference](https://developer.twitter.com/en/docs/api-reference-index)
     *  [Stripe API reference](https://stripe.com/docs/api)
-    *  [Azure API reference](https://docs.microsoft.com/en-us/rest/api/advisor/)
+    *  [Azure API reference](https://learn.microsoft.com/en-us/rest/api/advisor/)
     *  [Flickr API reference](https://www.flickr.com/services/api/)
     *  [YouTube API reference](https://developers.google.com/youtube/v3/docs)
     *  [Splunk API reference](https://docs.splunk.com/Documentation/Splunk/8.0.0/RESTREF/RESTlist)

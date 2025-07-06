@@ -90,7 +90,7 @@ APIs may not process the parameter correctly if it's the wrong data type or wron
 These data types are the most common with REST APIs:
 
 * **string**: An alphanumeric sequence of letters and/or numbers
-* **integer**: A whole number &mdash; can be positive or negative
+* **integer**: A whole number — can be positive or negative
 * **boolean**: True or false value
 * **object**: Key-value pairs in JSON format
 * **array**: A list of values
