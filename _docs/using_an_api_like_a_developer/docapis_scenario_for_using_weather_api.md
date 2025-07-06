@@ -9,7 +9,7 @@ weight: 2.01
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2021-12-13
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -72,20 +72,20 @@ Let's explore the basic sections in the [OpenWeatherMap API](https://openweather
     * How many endpoints does the API have?
     * What authorization credentials are required to get a response?
 
-## Explore the Aeris Weather API {#aeris}
+## Explore the Xweather API {#xweather}
 
-Before diving too far down in the OpenWeatherMap API, let's look at another weather API for contrast. In contrast to the OpenWeatherMap API, the [Aeris Weather API](http://www.aerisweather.com/) is a bit more robust and extensive. Explore the Aeris Weather API by doing the following:
+Before diving too far down in the OpenWeatherMap API, let's look at another weather API for contrast. In contrast to the OpenWeatherMap API, the [Xweather API](http://www.xweather.com/) is a bit more robust and extensive. Explore the Xweather API by doing the following:
 
-1. Go to [www.aerisweather.com](http://www.aerisweather.com).
-2. Click **Documentation** on the top navigation bar. Then click **API Documentation**.
-3. In the left sidebar, under Reference, click **Endpoints**. Select the **All** tab to show all endpoints, and then scroll down a bit and click **[observations](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/)**.
+1. Go to [www.xweather.com](http://www.xweather.com).
+2. Go to **Developer > Documentation** on the top navigation bar. Then click [**Weather API**](https://www.xweather.com/docs/weather-api).
+3. In the left sidebar, click **Endpoints**. Select the **All** tab to show all endpoints, and then scroll down a bit and click **[/observations](https://www.xweather.com/docs/weather-api/endpoints/observations)**.
 
-	<a class="noCrossRef" href="https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/aerisweather3.png" alt="Aeris Endpoints" /></a>
+	<a class="noCrossRef" href="https://www.xweather.com/docs/weather-api/endpoints/observations" class="noExtIcon"><img class="medium" src="{{site.api_media}}/xweather_observations.png" alt="Xweather Endpoints" /></a>
 
 4. Browse the type of information that is available through this endpoint. Does this endpoint provide information about wind and temperature that would work for our sample development scenario?
 
 {: .tip}
-Here's the Aeris weather forecast API in action making mostly the same calls as I showed earlier with OpenWeatherMap: <a href="https://idratherbewriting.com/assets/files/wind-aeris.html" alt="Aeris example">idratherbewriting.com/assets/files/wind-aeris.html</a>. (Note: If this returns `[Object][Object]`, it's because my API key expired. You can view the page source to see how the call is constructed.)
+Here's the Xweather forecast API in action making mostly the same calls as I showed earlier with OpenWeatherMap: <a href="https://idratherbewriting.com/assets/files/wind-xweather.html" alt="Xweather example">idratherbewriting.com/assets/files/wind-xweather.html</a>. (Note: If this returns `[Object][Object]`, it's because my API key expired. You can view the page source to see how the call is constructed.)
 
 For our development scenario (showing weather on a website), there are dozens of different weather APIs we could use. As you create your API documentation, think about how your users might have to make the same decisions in choosing APIs. Are there several APIs that provide similar information? What will make your API stand out more? Although you probably can't pick and choose what information your API returns, you might at least argue that the docs for your API will be superior!
 
@@ -97,7 +97,7 @@ APIs differ considerably in their design, presentation, responses, and other det
 
 * [Accuweather API](https://developer.accuweather.com/)
 * [Weatherbit API](https://www.weatherbit.io/api)
-* [ClimaCell's Weather API](https://www.climacell.co/weather-api/)
+* [Tomorrow.io Weather API](https://www.tomorrow.io/weather-api/)
 
 Each weather API has an entirely different approach to documentation. As you'll see going through this course, the variety and uniqueness of each API doc site (even when approaching the same topic &mdash; a weather forecast) presents a lot of challenges to tech writing teams. Not only do website styles vary but also API terminology and other vocabulary to describe similar concepts.
 

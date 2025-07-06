@@ -9,7 +9,7 @@ weight: 2.9
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2020-06-27
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -289,4 +289,4 @@ If you'd like to follow some more exercises that involve calling REST APIs, acce
 
 * [Get event information using the Eventbrite API](docapis_eventbrite_example.html)
 * [Flickr example: Retrieve a Flickr gallery](docapis_flickr_example.html)
-* [Get wind speed using the Aeris Weather API](docapis_aerisweather_example.html)
+* [Get wind speed using the Xweather API](docapis_xweather_example.html)

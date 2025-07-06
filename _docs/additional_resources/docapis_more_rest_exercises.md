@@ -6,7 +6,7 @@ weight: 16.1
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2019-11-17
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -28,7 +28,7 @@ In these examples, I usually just print the code to a web page to visualize the 
 
 * [Get event information using the Eventbrite API](docapis_eventbrite_example.html)
 * [Flickr example: Retrieve a Flickr gallery](docapis_flickr_example.html)
-* [Get wind speed using the Aeris Weather API](docapis_aerisweather_example.html)
+* [Get wind speed using the Xweather API](docapis_xweather_example.html)
 
 ## Shortcuts for API keys
 

@@ -9,7 +9,7 @@ weight: 2.2
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2024-11-24
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -127,45 +127,45 @@ Postman has a lot of other functionality you can use. We'll revisit Postman late
 
 Although Postman is a popular REST client, you can also use others, such as [Insomnia](https://insomnia.rest/), [RapidAPI for Mac](https://paw.cloud/), and [Hoppscotch](https://hoppscotch.io/).
 
-## <i class="fa fa-user-circle"></i> Enter several requests for the Aeris API into Postman
+## <i class="fa fa-user-circle"></i> Enter several requests for the Xweather API into Postman
 
-Now let's switch APIs a bit and see some weather information from the [Aeris Weather API](https://www.aerisweather.com/), which you explored a bit in [Scenarios for using a weather API](docapis_scenario_for_using_weather_api.html#aeris). Constructing the endpoints for the Aeris Weather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint.
+Now let's switch APIs a bit and see some weather information from the [Xweather API](https://www.xweather.com/), which you explored a bit in [Scenarios for using a weather API](docapis_scenario_for_using_weather_api.html#xweather). Constructing the endpoints for the Xweather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint.
 
 {% include ads.html %}
 
-Here are a few pre-configured requests to configure for Aeris. You can paste the requests directly into the URL request box in Postman (after customizing the `CLIENTID` AND `CLIENTSECRET` values), and the parameters will auto-populate in the parameter fields.
+Here are a few pre-configured requests to configure for Xweather. You can paste the requests directly into the URL request box in Postman (after customizing the `CLIENTID` AND `CLIENTSECRET` values), and the parameters will auto-populate in the parameter fields.
 
-As with the OpenWeather Map API, the Aeris API doesn't use a Header field to pass the API keys &mdash; the key and secret are passed directly in the request URL as part of the query string.
+As with the OpenWeather Map API, the Xweather API doesn't use a Header field to pass the API keys &mdash; the key and secret are passed directly in the request URL as part of the query string.
 
 {: .note}
-When you make the following requests, insert your own values for the <code>CLIENTID</code> and <code>CLIENTSECRET</code> (assuming you retrieved them in [Get the authorization keys](docapis_get_auth_keys.html#aeris_weather_apikey)).
+When you make the following requests, insert your own values for the <code>CLIENTID</code> and <code>CLIENTSECRET</code> (assuming you retrieved them in [Get the authorization keys](docapis_get_auth_keys.html#xweather_apikey)).
 
-Get the weather forecast for your area using the [observations endpoint](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/):
+Get the weather forecast for your area using the [observations endpoint](https://www.xweather.com/docs/weather-api/endpoints/observations/):
 
 ```
-http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
+http://data.api.xweather.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
-Get the weather from a city on the equator &mdash; Chimborazo, Ecuador using the same [observations endpoint](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/):
+Get the weather from a city on the equator &mdash; Chimborazo, Ecuador using the same [observations endpoint](http://data.api.xweather.com/observations/):
 
 ```bash
-http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
+http://data.api.xweather.com/observationsChimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
-Find out if all the country music in Knoxville, Tennessee is giving people migraines using the [indices endpoint](https://www.aerisweather.com/support/docs/api/reference/endpoints/indices/):
+Find out if all the country music in Knoxville, Tennessee is giving people migraines using the [indices endpoint](https://www.xweather.com/docs/weather-api/endpoints/indices/):
 
 ```bash
-http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
+http://data.api.xweather.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
 ```
 
-You're thinking of moving to Arizona, but you want to find a place that's cool. Use the [normals endpoint](https://www.aerisweather.com/support/docs/api/reference/endpoints/normals/):
+You're thinking of moving to Arizona, but you want to find a place that's cool. Use the [normals endpoint](https://www.xweather.com/docs/weather-api/endpoints/normals/):
 
 ```bash
-http://api.aerisapi.com/normals/flagstaff,az?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=5&filter=hassnow
+http://data.api.xweather.com/normals/flagstaff,az?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=5&filter=hassnow
 ```
 
 {: .tip}
-With both the OpenWeatherMap and Aeris Weather API, you can also make these requests by simply going to the URL in your address bar (because the API keys are passed in the query string rather than the header). If so, use the [JSON Formatter extension for Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) to automatically format the JSON response in the browser view.
+With both the OpenWeatherMap and Xweather API, you can also make these requests by simply going to the URL in your address bar (because the API keys are passed in the query string rather than the header). If so, use the [JSON Formatter extension for Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) to automatically format the JSON response in the browser view.
 
 By looking at these two different weather APIs, you can see some differences in the way the information is called and returned. However, fundamentally both APIs have endpoints that you can configure with parameters. When you make requests with the endpoints, you get responses that contain information, often in JSON format. This is the core of how REST APIs work &mdash; you send a request and get a response.
 
@@ -198,11 +198,13 @@ data-postman-var-1="abd0d0741e8206266958"></div>
 
 If this button doesn't work for you, copy this [import link](https://www.getpostman.com/collections/abd0d0741e8206266958).
 
-### Aeris Weather API collection
+### Xweather API collection
 
 <div class="postman-run-button"
-data-postman-action="collection/import"
-data-postman-var-1="65dcddab41ff7a773bb1"></div>
+data-postman-action="collection/fork"
+data-postman-visibility="public"
+data-postman-var-1="3578416-3a4406a9-ac44-40ed-a055-5eea38f0f541"
+data-postman-collection-url="entityId=3578416-3a4406a9-ac44-40ed-a055-5eea38f0f541&entityType=collection&workspaceId=73810636-a2b3-4f75-8a12-ac06e8424d8b"></div>
 <script type="text/javascript">
   (function (p,o,s,t,m,a,n) {
     !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
@@ -210,10 +212,10 @@ data-postman-var-1="65dcddab41ff7a773bb1"></div>
       (n = o.createElement("script")),
       (n.id = s+t), (n.async = 1), (n.src = m), n
     ));
-  }(window, document, "\_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
 </script>
 
-If this button doesn't work for you, copy this [import link](https://www.getpostman.com/collections/65dcddab41ff7a773bb1).
+If this button doesn't work for you, copy this [import link](https://www.postman.com/tomjoht/workspace/xweather/request/3578416-5a7aa9d4-3eee-4977-a18b-98e53c665246?action=share&creator=3578416&ctx=documentation).
 
 {% endif %}
 

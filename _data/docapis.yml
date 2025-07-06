@@ -623,8 +623,8 @@ folders:
   - title: "Activity: Retrieve a gallery using the Flickr API"
     jurl: /learnapidoc/docapis_flickr_example.html
 
-  - title: "Activity: Get wind speed using the Aeris Weather API"
-    jurl: /learnapidoc/docapis_aerisweather_example.html
+  - title: "Activity: Get wind speed using the Xweather API"
+    jurl: /learnapidoc/docapis_xweather_example.html
 
   - title: "RAML tutorial"
     jurl: /learnapidoc/pubapis_raml.html

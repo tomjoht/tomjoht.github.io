@@ -1,47 +1,49 @@
 ---
-title: 'Get wind speed using the Aeris Weather API'
-permalink: learnapidoc/docapis_aerisweather_example.html
+title: 'Get wind speed using the Xweather API'
+permalink: learnapidoc/docapis_xweather_example.html
 course: "Documenting REST APIs"
 weight: 16.31
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2019-11-17
+last-modified: 2025-07-05
+redirect_from:
+- learnapidoc/docapis_aerisweather_example.html
 ---
 
 {% include coffeeshopbook.html %}
 
-In this activity, you'll use the Aeris Weather API to get the wind speed for a specific place (your choice). You'll then display the wind speed on a web page based on some conditional logic about the wind speed's value.
+In this activity, you'll use the Xweather API to get the wind speed for a specific place (your choice). You'll then display the wind speed on a web page based on some conditional logic about the wind speed's value.
 
 {% if site.format == "web" %}
 * TOC
 {:toc}
 {% endif %}
 
-## The Aeris Weather API
+## The Xweather API
 
 {% include image_ad_right.html %}
 
-In earlier tutorials, you integrated information from the [OpenWeatherMap API](https://openweathermap.org/api). It's probably a good idea to compare this OpenWeatherMap API with another weather API. The [Aeris Weather API](http://www.aerisweather.com/support/docs/api/) is one of the most interesting, well-documented and powerful weather APIs I've encountered.
+In earlier tutorials, you integrated information from the [OpenWeatherMap API](https://openweathermap.org/api). It's probably a good idea to compare this OpenWeatherMap API with another weather API. The [Xweather API](https://www.xweather.com/docs/weather-api) (formerly Aeris Weather API) is an interesting, well-documented and powerful weather APIs I've encountered.
 
 {% include random_ad3.html %}
 
 ## 1. Get the API keys
 
-See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-started/) page for information on how to register and get API keys. (Get the free version of the keys available to development projects.) You will need both the ID and secret to make API calls. See [Get the Aeris Weather API secret and ID](docapis_get_auth_keys.html#aeris_weather_apikey) for more detail.
+See the [Getting Started](http://www.xweather.com/docs/weather-api/getting-started/) page for information on how to register and get API keys. (You'll need to register for a trial developer version in order to authenticate to the API.) You will need both the ID and secret to make API calls. See [Get the Xweather API secret and ID](docapis_get_auth_keys.html#xweather_apikey) for more detail.
 
 ## 2. Construct the request
 
-Browse through the [available endpoints](http://www.aerisweather.com/support/docs/api/reference/endpoints/) in the Weather API and look for one that would give you the wind speed. The [`observations`](https://www.aerisweather.com/support/docs/api/reference/endpoints/observations/) endpoint provides information about wind speed, as does [`forecasts`](http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/). The response from `observations` looks a little simpler, so let's use that endpoint.
+Browse through the [available endpoints](https://www.xweather.com/docs/weather-api/endpoints) in the Weather API and look for one that would give you the wind speed. The [`observations`](https://www.xweather.com/docs/weather-api/endpoints/observations/) endpoint provides information about wind speed, as does [`/forecasts`](http://www.xweather.com/docs/weather-api/endpoints/forecasts/). The response from `observations` looks a little simpler, so let's use that endpoint.
 
-<a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/observations/" class="noExtIcon"><img src="{{site.api_media}}/aerisobservations.png" alt="Aeris Weather observations resource" /></a>
+<a href="http://www.xweather.com/docs/weather-api/endpoints/observations/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/xweather_obs_endpoint.png" alt="Xweather observations resource" /></a>
 
 {% include random_ad2.html %}
 
 To get the forecast details for Santa Clara, California, add `santa%20clara,ca` after `/observations`, like this:
 
 ```
-http://api.aerisapi.com/observations/santa%20clara,ca?client_id=CLIENT_ID&client_secret=CLIENT_SECRET
+http://data.api.xweather.com/observations/santa%20clara,ca?client_id=CLIENT_ID&client_secret=CLIENT_SECRET
 ```
 
 {: .note}
@@ -49,7 +51,7 @@ You will need to swap in your own client ID and secret in place of `CLIENT_ID` a
 
 ## 3. Analyze the response
 
-Here's the response from [the request](http://api.aerisapi.com/observations/santa%20clara,ca?client_id=ByruDorHEne2JB64BhP1k&client_secret=Jp4xullRcy6DXTPSTKBGXAvGGTaT04iiUQXPj0ob):
+Here's the response from [the request](http://data.api.xweather.com/observations/santa%20clara,ca?client_id=ByruDorHEne2JB64BhP1k&client_secret=Jp4xullRcy6DXTPSTKBGXAvGGTaT04iiUQXPj0ob):
 
 ```json
 {
@@ -167,7 +169,7 @@ To add a little variety to the code samples, let's add some conditional logic in
       <script>
 
          jQuery.ajax({
-             url: "http://api.aerisapi.com/observations/santa%20clara,ca",
+             url: "http://data.api.xweather.com/observations/santa%20clara,ca",
              type: "GET",
              data: {
                  "client_id": "CLIENTID",
@@ -201,8 +203,8 @@ To add a little variety to the code samples, let's add some conditional logic in
 </html>
 ```
 
-Here's the <a href="https://idratherbewriting.com/assets/files/aeris-observations.html">result</a>:
+Here's the <a href="https://idratherbewriting.com/assets/files/xweather-observations.html">result</a>:
 
-<figure><a href="https://idratherbewriting.com/assets/files/aeris-observations.html" class="noCrossRef"><img src="{{site.api_media}}/notthatwindy.png" alt="Aeris Weather example" class="large" /></a><figcaption>Aeris Weather example</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/assets/files/xweather-observations.html" class="noCrossRef"><img src="{{site.api_media}}/notthatwindy.png" alt="Xweather example" class="large" /></a><figcaption>Xweather example</figcaption></figure>
 
 For fun, change the value from `15` to `1` in the code and refresh the page. It will probably say "Yes, it's too windy." JavaScript is fun because it's easy to adjust some parameters and see the results through your browser. With other programming languages, you would likely need to compile or run the code in an IDE to see the result. In both cases, always test out the code and make it run yourself.

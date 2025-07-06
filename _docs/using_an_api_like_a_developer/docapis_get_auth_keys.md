@@ -7,7 +7,7 @@ weight: 2.1
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2021-12-28
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -45,23 +45,23 @@ To get an API key for the OpenWeatherMap API:
 
 (Note: It can take an hour or so for a new OpenWeatherMap API key to activate.)
 
-## Get the Aeris Weather API secret and ID {#aeris_weather_apikey}
+## Get the Xweather API secret and ID {#xweather_apikey}
 
 {% include random_ad4.html %}
 
-Now for contrast, let's get the keys for the Aeris Weather API, using a free developer account. The Aeris Weather API requires both a secret and ID to make requests.
+Now for contrast, let's get the keys for the Xweather API, using a trial developer account. The Xweather API requires both a secret and ID to make requests.
 
-1.  Go to [https://www.aerisweather.com/develop/api/](http://www.aerisweather.com) and click **Free Trial**.
-2.  Click **Sign Up for Developer**. (The free developer version limits the number of requests you can make and expires in 30 days.)
+1.  Go to [https://www.xweather.com](http://www.xweather.com) and click **Developer > Free developer trial**.
+2.  Click **Sign Up For Free Trial**. (The free developer version limits the number of requests you can make and expires in 30 days.)
 3.  Complete the required fields to sign in. Click the activation email as well.
-4.  After you sign up for an account, sign in and go to your [Dashboard](https://account.aerisweather.com/account/member).
-5.  Click **Apps**, and then click **New Application**.
+4.  After you sign up for an account, sign in and go to your [Dashboard](https://account.xweather.com/account/member).
+5.  Click **Apps.** By default, you probably already have a Demo App. If not, click **Apps**, and then click **New Application**.
 6.  In the Add a New Application dialog box, enter the following:
     * **Application Name**: My biking app (or something)
-    * **Application Namespace**: localhost
-7.  Click **Save App**.  
+    * **Application Namespace**: *
+7.  Click **Create App**.  
 
-After registering your app, you should see an ID, secret, and namespace for the app. Copy this information into a place you can easily access since you'll need it to make requests.
+After registering your app, you should see an ID and secret for the app. Copy this information into a place you can easily access since you'll need it to make requests.
 
 {: .tip}
 Keep in mind how users authorize calls with an API &mdash; this is something you usually cover in API documentation. Later in the course, we will dive into [authorization methods](docapis_more_about_authorization.html) in more detail.
@@ -72,13 +72,11 @@ Keep in mind how users authorize calls with an API &mdash; this is something you
 
 {% include image_ad_right.html %} In the upcoming activities, you'll work with code in a text file. When you're working with code, you use a text editor (to work in plain text) instead of a rich text editor (which would provide a WYSIWYG interface). Here are a few choices for text editors:
 
+* [Cursor AI](https://cursor.com)
+* [Windsurf](https://windsurf.com/editor)
 * [Visual Studio Code](https://code.visualstudio.com/) (Mac or PC). *(I recommend this editor the most.)*
 * [Sublime Text](http://www.sublimetext.com/) (Mac or PC)
-* [TextWrangler](http://www.barebones.com/products/textwrangler/) or [BBEdit](http://www.barebones.com/products/bbedit/) (Mac)
-* [WebStorm](https://www.jetbrains.com/webstorm/) (Mac or PC)
-* [Notepad++](https://notepad-plus-plus.org/) (PC)
 * [Atom](https://atom.io/) (Mac or Windows)
-* [Komodo Edit](http://komodoide.com/komodo-edit/) (Mac or PC)
 * [Coda](https://panic.com/coda/) (Mac)
 
 These editors provide features that let you better manage the text. Choose the one you want. (My preference is to use Sublime Text when I'm working with independent code samples, and Atom when I'm working with Jekyll projects.) Avoid using TextEdit since it adds some formatting behind the scenes that can corrupt your content.

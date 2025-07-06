@@ -7,7 +7,7 @@ weight: 7.2
 sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
-last-modified: 2021-09-17
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -158,11 +158,11 @@ The Parse Server tutorial provides a fair amount of detail and handholding throu
 
 The Adsense tutorial separates out some foundational prerequisites for getting started on the platform. After you get set up, it then provides a "quick start tutorial." The tutorial walks users through a simple scenario from end to end, helping them get a sense of the product and its capabilities.
 
-### Aeris
+### Xweather
 
-<figure><a target="_blank" class="noExtIcon" href="http://www.aerisweather.com/support/docs/api/getting-started/"><img class="docimage" src="{{site.api_media}}/aerisgettingstarted.png" alt="Aeris getting started tutorial" /></a><figcaption>Aeris getting started tutorial</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="http://www.xweather.com/docs/weather-api/getting-started/"><img class="docimage" src="{{site.api_media}}/xweathergettingstarted.png" alt="Xweather getting started tutorial" /></a><figcaption>Xweather getting started tutorial</figcaption></figure>
 
-The Aeris weather getting started provides information for setting up an application and then making a request in one of several popular languages. While showing code in specific languages is undoubtedly more helpful for programmers coding in those languages, the code samples might be irrelevant to other users (e.g., Java devs might find the Python code irrelevant and vice versa). Focusing in a specific language is often a tradeoff.
+The Xweather getting started provides information for setting up an application and then making a request in one of several popular languages. While showing code in specific languages is undoubtedly more helpful for programmers coding in those languages, the code samples might be irrelevant to other users (e.g., Java devs might find the Python code irrelevant and vice versa). Focusing in a specific language is often a tradeoff.
 
 ### Watson and IBM Cloud
 

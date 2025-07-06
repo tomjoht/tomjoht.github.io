@@ -321,7 +321,7 @@ If the requests aren't working, open your browser's JavaScript console when you 
 
 **Host URL issues:**
 
-The host for your test server might be another reason that requests are rejected. Some APIs (like Aeris Weather) require you to create an App ID that is based on the host URL where you'll be executing requests. If the host URL you registered is `http://mysite.com`, but you're submitting the test from `https://editor.swagger.io/`, the API server will reject the requests.
+The host for your test server might be another reason that requests are rejected. Some APIs (like Xweather) require you to create an App ID that is based on the host URL where you'll be executing requests. If the host URL you registered is `http://mysite.com`, but you're submitting the test from `https://editor.swagger.io/`, the API server will reject the requests.
 
 If you need help, the [Swagger Google Group](https://groups.google.com/forum/#!forum/swagger-swaggersocket) is a helpful resource for troubleshooting.
 

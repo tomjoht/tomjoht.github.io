@@ -15,17 +15,6 @@ secret: c9da662b86becdd4
 ## Klout
 key: u4r7nd3r7bj9ksxfx3cuy6hw
 
-## Aeris API
-ID: ByruDorHEne2JB64BhP1k 
-secret: uBDNO535gYHULH8mqx3skZmU13EV4nIf4GvB6jhY 
-
-FTP
-
-host: learnapidoc.com
-protocol: ftp
-user: learnapidoc@idratherbewriting.com
-pass: iloveapidoc2015
-
-screenshot: http://learnapidoc.com/ftpsettings.png
-
-This account will connect you into this directory: http://learnapidoc.com/swagger
+## Xweather API
+ID: 2ISH7rggGo1N3a67f0skW 
+secret: KtDMl5RJOs0RCBPugEXOGbRATnqqqv4t06KKKZ7a 
