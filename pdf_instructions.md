@@ -48,7 +48,75 @@ Run this script:
 ./pdf_build_docapis_all.sh
 ```
 
-This script builds each of the 15 outputs and stores them in the `pdf` folder.
+This script builds a comprehensive PDF and then splits it into individual chapter PDFs.
+
+### Important: Update page ranges before splitting
+
+The script uses `pdftk` to split the comprehensive PDF into individual chapters. **You need to run the script twice** to get the correct chapter splits.
+
+1. **First run:** Execute the script to build the comprehensive PDF:
+   ```
+   ./pdf_build_docapis_all.sh
+   ```
+   This will create `pdf/docapis_all_chapters.pdf` and attempt to split it (though the splits may be incorrect).
+
+2. **Check the table of contents:** Open `pdf/docapis_all_chapters.pdf` and look at the frontmatter/table of contents to identify the correct page numbers where each chapter starts and ends.
+
+3. **Update the page ranges:** Edit the `pdftk` commands in `pdf_build_docapis_all.sh` with the correct page ranges. For example:
+   ```bash
+   pdftk $LOCATION/docapis_all_chapters.pdf cat 1-8 output $LOCATION/frontmatter.pdf
+   pdftk $LOCATION/docapis_all_chapters.pdf cat 9-33 output $LOCATION/chapter0_course_overview.pdf
+   # ... update all other chapter ranges
+   ```
+
+4. **Second run:** Execute the script again to create the correctly split chapter PDFs:
+   ```
+   ./pdf_build_docapis_all.sh
+   ```
+
+**Note:** The page ranges should capture all content for each chapter. If ranges are incorrect, chapters may be missing content or include content from other chapters.
+
+### Optional: AI-assisted page range updates
+
+Instead of manually updating the page ranges, you can use AI to help determine the correct `pdftk` commands. Here's a prompt you can use with an AI assistant:
+
+```
+I have a comprehensive PDF with multiple chapters and need to split it into individual chapter PDFs using pdftk. 
+
+Here's the table of contents from the PDF frontmatter showing chapter titles and their page numbers:
+[Paste the table of contents here]
+
+Here are the current pdftk commands from my script that need to be updated with the correct page ranges:
+
+pdftk $LOCATION/docapis_all_chapters.pdf cat 1-8 output $LOCATION/frontmatter.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 9-33 output $LOCATION/chapter0_course_overview.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 34-67 output $LOCATION/chapter1_introduction_to_rest_apis.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 68-117 output $LOCATION/chapter2_using_an_api_like_a_developer.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 118-177 output $LOCATION/chapter3_documenting_api_endpoints.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 178-269 output $LOCATION/chapter4_openapi_spec_and_generated_reference_docs.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 270-341 output $LOCATION/chapter5_step_by_step_openapi_code_tutorial.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 342-360 output $LOCATION/chapter6_testing_api_docs.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 361-434 output $LOCATION/chapter7_conceptual_topics_in_api_docs.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 435-505 output $LOCATION/chapter8_code_tutorials.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 506-535 output $LOCATION/chapter9_the_writing_process.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 536-602 output $LOCATION/chapter10_publishing_api_docs.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 603-669 output $LOCATION/chapter11_publishing_tools.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 670-701 output $LOCATION/chapter12_thriving_in_the_api_doc_space.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 702-739 output $LOCATION/chapter13_native_library_apis.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 740-821 output $LOCATION/chapter14_processes_and_methodology.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 822-849 output $LOCATION/chapter15_metrics_and_measurement.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 850-888 output $LOCATION/chapter16_glossary.pdf
+pdftk $LOCATION/docapis_all_chapters.pdf cat 889-950 output $LOCATION/chapter17_additional_resources.pdf
+
+Please update the page ranges in these pdftk commands based on the table of contents. The page ranges should:
+1. Start on the page where each chapter actually begins.
+2. End 1 page before where the NEXT chapter begins (this ensures no overlap and captures all content for the current chapter)
+3. For the last chapter, end at the last page of the PDF
+
+**Example logic:** If Chapter 1 starts on page 34 and Chapter 2 starts on page 68, then Chapter 1 should be `cat 34-67` (ending 1 page before Chapter 2).
+
+Return only the updated pdftk commands with the corrected page ranges.
+```
 
 ## Upload the PDFs to Wasabi
 
