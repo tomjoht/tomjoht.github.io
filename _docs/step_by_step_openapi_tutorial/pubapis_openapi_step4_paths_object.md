@@ -233,7 +233,8 @@ responses:
         schema:
           title: Weather not found
           type: string
-          example: Not found
+          examples: 
+            - "Not found"
 ```
 
 Note that HTTP status codes are enclosed in single quotes (e.g., `'200'`) to ensure they are treated as strings, which is a YAML best practice.
@@ -330,7 +331,8 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                example: Not found
+                examples: 
+                  - "Not found"
 ```
 
 ## <i class="fa fa-user-circle"></i> View the Appearance in Swagger UI

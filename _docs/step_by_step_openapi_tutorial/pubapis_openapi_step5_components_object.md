@@ -102,7 +102,8 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                example: Not found
+                examples:
+                  - "Not found"
 
 components:
 
@@ -209,7 +210,8 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                example: Not found
+                examples:
+                  - "Not found"
 ```
 
 Now let's move the `schema` description for the `200` response into the `components` object:
@@ -247,7 +249,8 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                example: Not found
+                examples:
+                  - "Not found"
 ```
 
 Then in `components/schemas`, we'll define the `SuccessfulResponse` schema.
@@ -347,7 +350,8 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                example: Not found
+                examples:
+                  - "Not found"
 
 components:
 
@@ -370,13 +374,15 @@ components:
         base:
           type: string
           description: Internal parameter
-          example: stations
+          examples:
+            - "stations"
         main:
           $ref: '#/components/schemas/Main'
         visibility:
           type: integer
           description: Visibility, meter
-          example: 10000
+          examples:
+            - 10000
         wind:
           $ref: '#/components/schemas/Wind'
         clouds:
@@ -389,22 +395,26 @@ components:
           type: integer
           description: Time of data calculation, unix, UTC
           format: int32
-          example: 1485789600
+          examples:
+            - 1485789600
         sys:
           $ref: '#/components/schemas/Sys'
         id:
           type: integer
           description: City ID
           format: int32
-          example: 2172797
+          examples:
+            - 2172797
         name:
           type: string
-          example: Cairns
+          examples:
+            - "Cairns"
         cod:
           type: integer
           description: Internal parameter
           format: int32
-          example: 200
+          examples:
+            - 200
     Coord:
       title: Coord
       type: object
@@ -412,11 +422,13 @@ components:
         lon:
           type: number
           description: City geo location, longitude
-          example: 145.77
+          examples:
+            - 145.77
         lat:
           type: number
           description: City geo location, latitude
-          example: -16.92
+          examples:
+            - -16.92
     Weather:
       title: Weather
       type: object
@@ -425,19 +437,23 @@ components:
           type: integer
           description: Weather condition id
           format: int32
-          example: 803
+          examples:
+            - 803
         main:
           type: string
           description: Group of weather parameters (Rain, Snow, Extreme etc.)
-          example: Clouds
+          examples:
+            - "Clouds"
         description:
           type: string
           description: Weather condition within the group
-          example: broken clouds
+          examples:
+            - "broken clouds"
         icon:
           type: string
           description: Weather icon id
-          example: 04n
+          examples:
+            - "04n"
     Main:
       title: Main
       type: object
@@ -445,33 +461,40 @@ components:
         temp:
           type: number
           description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          example: 293.25
+          examples:
+            - 293.25
         pressure:
           type: integer
           description: Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
           format: int32
-          example: 1019
+          examples:
+            - 1019
         humidity:
           type: integer
           description: Humidity, %
           format: int32
-          example: 83
+          examples:
+            - 83
         temp_min:
           type: number
           description: 'Minimum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          example: 289.82
+          examples:
+            - 289.82
         temp_max:
           type: number
           description: 'Maximum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          example: 295.37
+          examples:
+            - 295.37
         sea_level:
           type: number
           description: Atmospheric pressure on the sea level, hPa
-          example: 1019
+          examples:
+            - 1019
         grnd_level:
           type: number
           description: Atmospheric pressure on the ground level, hPa
-          example: 1019
+          examples:
+            - 1019
     Wind:
       title: Wind
       type: object
@@ -479,12 +502,14 @@ components:
         speed:
           type: number
           description: 'Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
-          example: 5.1
+          examples:
+            - 5.1
         deg:
           type: integer
           description: Wind direction, degrees (meteorological)
           format: int32
-          example: 150
+          examples:
+            - 150
     Clouds:
       title: Clouds
       type: object
@@ -493,7 +518,8 @@ components:
           type: integer
           description: Cloudiness, %
           format: int32
-          example: 75
+          examples:
+            - 75
     Rain:
       title: Rain
       type: object
@@ -502,7 +528,8 @@ components:
           type: integer
           description: Rain volume for the last 3 hours
           format: int32
-          example: 3
+          examples:
+            - 3
     Snow:
       title: Snow
       type: object
@@ -510,7 +537,8 @@ components:
         '3h':
           type: number
           description: Snow volume for the last 3 hours
-          example: 6
+          examples:
+            - 6
     Sys:
       title: Sys
       type: object
@@ -519,36 +547,42 @@ components:
           type: integer
           description: Internal parameter
           format: int32
-          example: 1
+          examples:
+            - 1
         id:
           type: integer
           description: Internal parameter
           format: int32
-          example: 8166
+          examples:
+            - 8166
         message:
           type: number
           description: Internal parameter
-          example: 0.0166
+          examples:
+            - 0.0166
         country:
           type: string
           description: Country code (GB, JP etc.)
-          example: AU
+          examples:
+            - "AU"
         sunrise:
           type: integer
           description: Sunrise time, unix, UTC
           format: int32
-          example: 1435610796
+          examples:
+            - 1435610796
         sunset:
           type: integer
           description: Sunset time, unix, UTC
           format: int32
-          example: 1435650870
+          examples:
+            - 1435650870
 ```
 
 I'll explain a bit more in the next sections how to describe the response. In looking at the above code, you may have noticed that not only can you use `$ref` properties in other parts of your spec but also within `components` too.
 
 {: .tip}
-Notice how the schema definition includes an `example` property for each element? Swagger UI will take this `example` and use it to dynamically build a full code sample in the Responses section in the Swagger UI output. Thus, you don't need big chunks of code for the sample responses in your spec. Instead, these sample responses get built automatically from the schema. It's one of the neat things about Swagger UI. This way, your schema documentation and sample response remain consistent.
+Notice how the schema definition includes an `examples` array for each element? Swagger UI will take the first value from this `examples` array and use it to dynamically build a full code sample in the Responses section in the Swagger UI output. Thus, you don't need big chunks of code for the sample responses in your spec. Instead, these sample responses get built automatically from the schema. It's one of the neat things about Swagger UI. This way, your schema documentation and sample response remain consistent.
 
 ## Describing a schema
 
@@ -647,7 +681,8 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                example: Not found
+                examples:
+                  - "Not found"
 
 components:
 
@@ -728,13 +763,15 @@ components:
         base:
           type: string
           description: Internal parameter
-          example: stations
+          examples:
+            - "stations"
         main:
           $ref: '#/components/schemas/Main'
         visibility:
           type: integer
           description: Visibility, meter
-          example: 10000
+          examples:
+            - 10000
         wind:
           $ref: '#/components/schemas/Wind'
         clouds:
@@ -747,22 +784,26 @@ components:
           type: integer
           description: Time of data calculation, unix, UTC
           format: int32
-          example: 1485789600
+          examples:
+            - 1485789600
         sys:
           $ref: '#/components/schemas/Sys'
         id:
           type: integer
           description: City ID
           format: int32
-          example: 2172797
+          examples:
+            - 2172797
         name:
           type: string
-          example: Cairns
+          examples:
+            - "Cairns"
         cod:
           type: integer
           description: Internal parameter
           format: int32
-          example: 200
+          examples:
+            - 200
     Coord:
       title: Coord
       type: object
@@ -770,11 +811,13 @@ components:
         lon:
           type: number
           description: City geo location, longitude
-          example: 145.77
+          examples:
+            - 145.77
         lat:
           type: number
           description: City geo location, latitude
-          example: -16.92
+          examples:
+            - -16.92
     Weather:
       title: Weather
       type: object
@@ -783,19 +826,23 @@ components:
           type: integer
           description: Weather condition id
           format: int32
-          example: 803
+          examples:
+            - 803
         main:
           type: string
           description: Group of weather parameters (Rain, Snow, Extreme etc.)
-          example: Clouds
+          examples:
+            - "Clouds"
         description:
           type: string
           description: Weather condition within the group
-          example: broken clouds
+          examples:
+            - "broken clouds"
         icon:
           type: string
           description: Weather icon id
-          example: 04n
+          examples:
+            - "04n"
     Main:
       title: Main
       type: object
@@ -803,33 +850,40 @@ components:
         temp:
           type: number
           description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          example: 293.25
+          examples:
+            - 293.25
         pressure:
           type: integer
           description: Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
           format: int32
-          example: 1019
+          examples:
+            - 1019
         humidity:
           type: integer
           description: Humidity, %
           format: int32
-          example: 83
+          examples:
+            - 83
         temp_min:
           type: number
           description: 'Minimum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          example: 289.82
+          examples:
+            - 289.82
         temp_max:
           type: number
           description: 'Maximum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          example: 295.37
+          examples:
+            - 295.37
         sea_level:
           type: number
           description: Atmospheric pressure on the sea level, hPa
-          example: 1019
+          examples:
+            - 1019
         grnd_level:
           type: number
           description: Atmospheric pressure on the ground level, hPa
-          example: 1019
+          examples:
+            - 1019
     Wind:
       title: Wind
       type: object
@@ -837,12 +891,14 @@ components:
         speed:
           type: number
           description: 'Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
-          example: 5.1
+          examples:
+            - 5.1
         deg:
           type: integer
           description: Wind direction, degrees (meteorological)
           format: int32
-          example: 150
+          examples:
+            - 150
     Clouds:
       title: Clouds
       type: object
@@ -851,7 +907,8 @@ components:
           type: integer
           description: Cloudiness, %
           format: int32
-          example: 75
+          examples:
+            - 75
     Rain:
       title: Rain
       type: object
@@ -860,7 +917,8 @@ components:
           type: integer
           description: Rain volume for the last 3 hours
           format: int32
-          example: 3
+          examples:
+            - 3
     Snow:
       title: Snow
       type: object
@@ -868,7 +926,8 @@ components:
         '3h':
           type: number
           description: Snow volume for the last 3 hours
-          example: 6
+          examples:
+            - 6
     Sys:
       title: Sys
       type: object
@@ -877,30 +936,36 @@ components:
           type: integer
           description: Internal parameter
           format: int32
-          example: 1
+          examples:
+            - 1
         id:
           type: integer
           description: Internal parameter
           format: int32
-          example: 8166
+          examples:
+            - 8166
         message:
           type: number
           description: Internal parameter
-          example: 0.0166
+          examples:
+            - 0.0166
         country:
           type: string
           description: Country code (GB, JP etc.)
-          example: AU
+          examples:
+            - "AU"
         sunrise:
           type: integer
           description: Sunrise time, unix, UTC
           format: int32
-          example: 1435610796
+          examples:
+            - 1435610796
         sunset:
           type: integer
           description: Sunset time, unix, UTC
           format: int32
-          example: 1435650870
+          examples:
+            - 1435650870
 
   securitySchemes:
     app_id:
@@ -914,7 +979,7 @@ You should see the following populate in the Swagger UI display:
 
 <figure><img class="docimage" src="{{site.api_media}}/step5_bswaggeruiprogress.png" alt="Responses object defined in components" /><figcaption>Responses object defined in components</figcaption></figure>
 
-In the Response section, observe how the Example Value code has been dynamically built from the `example` values in the schema to show a sample response.
+In the Response section, observe how the Example Value code has been dynamically built from the `examples` values in the schema to show a sample response.
 
 Also, click the **Model** link to see how the descriptions of each element appear in an expandable/collapsible way:
 
