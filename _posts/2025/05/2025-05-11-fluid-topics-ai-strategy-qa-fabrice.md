@@ -11,7 +11,7 @@ image: tcworldfabricearticlethumb.png
 ---
 
 {:.note}
-See this podcast I recorded with Fabrice here: [Will your next user be an AI agent? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics](/blog/evolution-techcomm-fabrice-lacroix-podcast).
+See this podcast I recorded with Fabrice here: [Will our next users be AI agents? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics](/blog/evolution-techcomm-fabrice-lacroix-podcast).
 
 <ul id="markdown-toc">
     <li>

@@ -1,5 +1,5 @@
 ---
-title: "Will your next user be an AI agent? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics"
+title: "Will our next users be AI agents? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics"
 permalink: /blog/evolution-techcomm-fabrice-lacroix-podcast
 date: 2025-07-05
 categories:
@@ -7,7 +7,7 @@ categories:
 - podcasts
 keywords: Fluid Topics, AI, technical writing, content delivery platforms, enterprise knowledge platforms, metadata, MCP servers, technical documentation, knowledge management, content strategy
 rebrandly: https://idbwrtng.com/evolution-techcomm-fabrice-lacroix-podcast
-description: "In this podcast, I chat with Fabrice Lacroix, founder of Fluid Topics, about the evolution of technical communication. Fabrice describes the industry's progression from delivering static, monolithic PDFs to using Content Delivery Platforms (CDPs) that provide dynamic, topic-based information directly to users, to then engineering content not just for human consumption, but for AI agents that will use this knowledge to automate complex tasks and workflows."
+description: "In this podcast, I chat with Fabrice Lacroix, founder of Fluid Topics, about the evolution of technical communication. Fabrice describes the industry's progression from (1) delivering static, monolithic PDFs to (2) using Content Delivery Platforms (CDPs) that provide dynamic, topic-based information directly to users to (3) developing content not just for human consumption, but for AI agents that will use this knowledge to automate complex tasks and workflows."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/evolution-of-techcomm-fabrice-fluid-topics.mp3
 podcast_file_size: "35.6"
 podcast_duration: "44:5"
@@ -15,7 +15,7 @@ podcast_length: 34681490
 image: fabriceagentsthumb.png
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_gR0QZi7P0" title="Will your next user be an AI agent? The future of content delivery with Fabrice Lacroix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_gR0QZi7P0" title="Will our next users be AI agents? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include audio.html %}
 
