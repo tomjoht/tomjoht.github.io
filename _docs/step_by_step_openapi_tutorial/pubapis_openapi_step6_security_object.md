@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 6
   definition: content/openapi_tutorial_map.html
-last-modified: 2020-09-07
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2020-09-07
 <img src="{{site.api_media}}/openapistep6.png"/>
 {% endif %}
 
-Swagger UI provides a "Try it out" feature that lets users submit actual requests. To submit requests that are authorized by your API server, the spec must contain security information that will authorize the request. The [`security` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securityRequirementObject) specifies the security or authorization protocol used when submitting requests.
+Swagger UI provides a "Try it out" feature that lets users submit actual requests. To submit requests that are authorized by your API server, the spec must contain security information that will authorize the request. The [`security` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#securityRequirementObject) specifies the security or authorization protocol used when submitting requests.
 
 {% if site.format == "web" %}
 * TOC
@@ -27,14 +27,15 @@ Swagger UI provides a "Try it out" feature that lets users submit actual request
 
 ## Which security scheme?
 
-REST APIs can use different security approaches to authorize requests. I explored the most common authorization methods in [Authentication and authorization requirements](docapis_more_about_authorization.html). Swagger UI supports four authorization schemes:
+REST APIs can use different security approaches to authorize requests. I explored the most common authorization methods in [Authentication and authorization requirements](docapis_more_about_authorization.html). OpenAPI 3.1 supports several authorization schemes:
 
-* API key
-* HTTP
-* OAuth 2.0
-* Open ID Connect
+* API key (`apiKey`)
+* HTTP (`http`) - for Basic, Bearer, and other HTTP authentication schemes.
+* OAuth 2.0 (`oauth2`)
+* OpenID Connect (`openIdConnect`)
+* Mutual TLS (`mutualTLS`)
 
-In this step of the OpenAPI tutorial, we'll use the API key approach, since this is what the OpenWeatherMap API uses. If your API uses [OAuth 2.0](docapis_more_about_authorization.html#oauth) or another method, you'll need to read the [Security Scheme information](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#security-scheme-object) for details on how to configure it. However, all the security methods mostly follow the same pattern.
+In this step of the OpenAPI tutorial, we'll use the API key approach, since this is what the OpenWeatherMap API uses. If your API uses [OAuth 2.0](docapis_more_about_authorization.html#oauth) or another method, you'll need to read the [Security Scheme Object documentation](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#security-scheme-object) for details on how to configure it. However, all the security methods mostly follow the same pattern.
 
 {% include ads.html %}
 
@@ -51,12 +52,12 @@ security:
 - app_id: []
 ```
 
-`app_id` is the arbitrary name we gave to this security scheme in our `securitySchemes` object. We could have named it anything. We'll define `app_id` in `components`.
+`app_id` is the arbitrary name we gave to this security scheme in our `securitySchemes` object. We could have named it anything. We'll define `app_id` in `components`. The empty array `[]` indicates that no OAuth 2.0 scopes are required for this security scheme.
 
 All paths will use the `app_id` security method by default unless it's overridden by a value at the [`path` object level](pubapis_openapi_step4_paths_object.html). For example, at the path level, we could overwrite the global security method as follows:
 
 ```yaml
-/current:
+/weather:
   get:
     ...
     security:
@@ -69,7 +70,7 @@ Then the `weather` path would use the `some_other_key` security method, while al
 
 ## Referencing the security scheme in components
 
-In the [`components` object](pubapis_openapi_step5_components_object.html), add a [`securitySchemes` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securitySchemeObject) that defines details about the security scheme the API uses:
+In the [`components` object](pubapis_openapi_step5_components_object.html), add a [`securitySchemes` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#securitySchemeObject) that defines details about the security scheme the API uses:
 
 ```yaml
 components:
@@ -85,14 +86,14 @@ components:
 
 Properties you can use for each item in the `securitySchemes` object include the following:
 
-* `type`: The authorization protocol &mdash; `apiKey`, `http`, `oauth2`, or `openIdConnect`.
+* `type`: The authorization protocol &mdash; `apiKey`, `http`, `oauth2`, `openIdConnect`, or `mutualTLS`.
 * `description`: A description of your security method. In Swagger UI, this description appears in the Authorization modal (see the screenshot below). CommonMark Markdown is allowed.
-* `name`: The name of the header value submitted in the request. Used only for `apiKey` type security.
+* `name`: The name of the header, query, or cookie parameter to be used. Used only for `apiKey` type security.
 * `in`: Specifies where the security key is applied. Options are `query`, `header` or `cookie`. Used only for `apiKey` type security.
-* `scheme`. Used with `http` type authorization.
-* `bearerFormat`. Used with `http` type authorization.
-* [`flows`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#oauthFlowsObject) (object): Used with `oauth2` type authorization.
-* `openIdConnectUrl`: Used with `openIdConnect` type authorization.
+* `scheme`: The name of the HTTP Authentication scheme. Used with `type: http`.
+* `bearerFormat`: A hint to the client to identify how the bearer token is formatted. Used with `type: http`.
+* [`flows`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#oauthFlowsObject) (object): Configuration information for the flow types supported. Used with `type: oauth2`.
+* `openIdConnectUrl`: A URL to discover the OpenID Connect provider's configuration. Used with `type: openIdConnect`.
 
 {% include random_ad2.html %}
 
@@ -105,13 +106,13 @@ security:
 - app_id: []
 ```
 
-And insert the `securitySchemes` object into `components` (indented at the same level as `parameters` and `responses`):
+And insert the `securitySchemes` object into `components` (indented at the same level as `parameters` and `schemas`):
 
 ```yaml
 components:
   parameters:
   ...
-  responses:
+  schemas:
   ...
 
   securitySchemes:
@@ -140,12 +141,12 @@ Now that we've added authorization, let's try making an actual API request. In t
 
 {% include random_ad4.html %}
 
-In the Current Weather Data section, expand the **GET weather** endpoint and click **Try it out**. In the **zip** field, enter your zip code and country abbreviation (such as `95050,us`), and then click **Execute**.
+In the Current Weather Data section, expand the **GET /weather** endpoint and click **Try it out**. In the **zip** field, enter your zip code and country abbreviation (such as `95050,us`), and then click **Execute**.
 
 When you execute the request, Swagger UI shows you the [curl request](docapis_make_curl_call.html) submitted. For example, after executing a weather request, the curl is as follows:
 
 ```bash
-curl -X GET "https://api.openweathermap.org/data/2.5/weather?zip=95050%2Cus&units=imperial&lang=en&mode=json&appid=APIKEY" -H "accept: application/json"
+curl -X GET "[https://api.openweathermap.org/data/2.5/weather?zip=95050%2Cus&units=imperial&lang=en&mode=json&appid=APIKEY](https://api.openweathermap.org/data/2.5/weather?zip=95050%2Cus&units=imperial&lang=en&mode=json&appid=APIKEY)" -H "accept: application/json"
 ```
 
 (Replace APIKEY with your actual API key.)

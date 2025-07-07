@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 5.2
 section: openapitutorial
 path1: learnapidoc/restapispecifications.html
-last-modified: 2020-09-07
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -28,7 +28,7 @@ YAML is easier to work with because it removes the brackets, curly braces, and c
 
 YAML is an attempt to create a more human-readable data exchange format. It's similar to JSON (which is actually a subset of YAML) but uses spaces, colons, and hyphens to indicate the structure.
 
-Many computers ingest data in a YAML or JSON format. It's a syntax commonly used in configuration files and an increasing number of platforms (like Jekyll), so it's a good idea to become familiar with it.
+Many computers ingest data in a YAML or JSON format. It's a syntax commonly used in configuration files and an increasing number of platforms, so it's a good idea to become familiar with it.
 
 {% include ads.html %}
 
@@ -51,7 +51,7 @@ Each new level is an object. In this example, the `level1` object contains the `
 {: .note}
 With YAML, you generally don't use tabs (since tab spacing is non-standard). Instead, you space twice.
 
-Each level can contain either a single key-value pair (also referred to as a *dictionary* in YAML lingo) or a *sequence* (a list of hyphens):
+Each level can contain either a single key-value pair (also referred to as a *mapping* in YAML lingo) or a *sequence* (a list of items preceded by hyphens):
 
 ```yaml
 level3:
@@ -150,7 +150,7 @@ Here's the same array containing objects converted to YAML:
 ```yaml
 -
   name: Tom
-  age: 42
+  age: 43
 -
   name: Shannon
   age: 41
@@ -183,9 +183,9 @@ YAML is also used with [Jekyll](pubapis_jekyll.html). See my [YAML tutorial in t
 
 ## JSON versus YAML for the spec format
 
-Let's clear up some additional descriptors around JSON and YAML as well. The specification document in my OpenAPI tutorial uses YAML (which I introduced briefly [here](pubapis_yaml.html)), but it could also be expressed in JSON. JSON is a subset of YAML, so the two are practically interchangeable formats (for the data structures we're using). Ultimately, though, the OpenAPI spec is a JSON object. The specification notes:
+Let's clear up some additional details around JSON and YAML in the context of the OpenAPI specification. The specification document in my OpenAPI tutorial uses YAML, but it could also be expressed in JSON. JSON is a subset of YAML, so the two are practically interchangeable formats (for the data structures we're using). Ultimately, though, the OpenAPI spec is a JSON object. The specification notes:
 
->An OpenAPI document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#format))
+>An OpenAPI document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#format))
 
 In other words, the OpenAPI document you create is a JSON object, but you have the option of expressing the JSON using either JSON or YAML syntax. YAML is more readable and is a more common format (see API Handyman's take on [JSON vs YAML](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/#json-vs-yaml) for more discussion), so I've used YAML exclusively in code samples here. You will see that the OpenAPI specification documentation on GitHub always shows both the JSON and YAML syntax when showing specification formats. (For a more detailed comparison of YAML versus JSON, see "Relation to JSON" in the [YAML spec](http://www.yaml.org/spec/1.2/spec.html).)
 
@@ -253,3 +253,5 @@ Hopefully, those brief examples will help align us with the terminology used in 
 ## Let's get started
 
 With that information about YAML, hopefully the upcoming step-by-step sections that walk through each section in the OpenAPI spec, using YAML as the primary format, will make more sense. Let's get started with [Step 1: The openapi object (OpenAPI tutorial)](pubapis_openapi_step1_openapi_object.html).
+
+{% include ads.html %}

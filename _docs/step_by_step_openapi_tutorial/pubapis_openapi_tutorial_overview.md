@@ -16,7 +16,7 @@ In the previous section, I explained how to create the OpenAPI spec [using a vis
 In this tutorial, we'll dive deeply into the OpenAPI specification. We'll use the same [OpenWeatherMap API](https://openweathermap.org/current) that we've been using throughout other parts of this course as the content for our OpenAPI document. Using this API, we'll create a valid OpenAPI specification document and then render it using Swagger UI.
 
 {: .tip }
-To see a presentation that covers the same concepts in this article, see [https://goo.gl/n4Hvtq](https://goo.gl/n4Hvtq).
+To see a presentation that covers the same concepts in this article, see this YouTube video: [Swagger tutorial -- How to add Swagger OpenAPI to your REST API documentation](https://goo.gl/n4Hvtq).
 
 * TOC
 {:toc}
@@ -47,12 +47,12 @@ Learning the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specificatio
 
 As you learn the OpenAPI specification, use the following resources:
 
-* [Sample OpenAPI specification documents](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v3.0). These sample specification documents provide a good starting point as a basis for your specification document. They give you a big picture of the general shape of a specification document.
+* [Example API Descriptions](https://learn.openapis.org/examples/). These sample specifications might help provide starting points for different scenarios you're working on.
 * [Swagger user guide](https://swagger.io/docs/specification/about/). The Swagger user guide is more friendly, conceptual, and easy to follow. It doesn't have the detail and exactness of the specification documentation on GitHub, but in many ways, it's clearer and contains more examples.
 * [OpenAPI specification documentation](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md). The specification documentation is technical and takes a little getting used to, but you'll no doubt consult it frequently when describing your API. It's a long, single page document to facilitate findability through Ctrl+F.
 
 {: .note}
-There are other Swagger/OpenAPI tutorials online, but make sure you follow tutorials for the [3.0 version of the API](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md) rather than [2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Version 3.0 was [released in July 2017](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#appendix-a-revision-history). 3.0 is substantially different from 2.0. ([Version 3.0.2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md) was released in December 2017 and makes minor improvements to 3.0. Note that whenever I refer to 3.0, I'm referring to 3.x, meaning any incremental dot release from the 3.0 line.)
+There are other Swagger/OpenAPI tutorials online, but make sure you follow tutorials for the [3.x.x. version of the API](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md) rather than [2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Version 3.0 was [released in 2017](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#appendix-a-revision-history). 3.0 is substantially different from 2.0. ([Version 3.1.1](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md) was released in 2024 and makes minor improvements to 3.0. Note that whenever I refer to 3.0, I'm referring to 3.x, meaning any incremental dot release from the 3.0 line.)
 
 ## How my OpenAPI/Swagger tutorial is different
 
@@ -62,11 +62,9 @@ Many other display frameworks besides [Swagger UI](https://github.com/swagger-ap
 
 {% include random_ad2.html %}
 
-[Swagger UI](https://github.com/swagger-api/swagger-ui) is sponsored by [Smartbear](https://smartbear.com/), the same company that is heavily invested in the [OpenAPI initiative](https://www.openapis.org/) and which develops [SwaggerHub](pubapis_swaggerhub_smartbear.html) (the premium version of Swagger UI) and drives other Swagger tooling (including Swagger Editor, Swagger UI, Swagger Codegen, and others). Note that SmartBear does not own the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification/), as the Linux Foundation drives this [initiative](https://www.openapis.org/). The OpenAPI spec's development is driven by [many companies and organizations](https://www.openapis.org/membership/members).
+(To briefly clarify some of the terminology: [Swagger UI](https://github.com/swagger-api/swagger-ui) is sponsored by [Smartbear](https://smartbear.com/), the same company that is heavily invested in the [OpenAPI initiative](https://www.openapis.org/) and which develops [SwaggerHub](pubapis_swaggerhub_smartbear.html) (the premium version of Swagger UI) and drives other Swagger tooling (including Swagger Editor, Swagger UI, Swagger Codegen, and others). Note that SmartBear does not own the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification/), as the Linux Foundation drives this [initiative](https://www.openapis.org/). The OpenAPI spec's development is driven by [many companies and organizations](https://www.openapis.org/membership/members).)
 
-By showing you how the fields in the spec appear in the Swagger UI output, I hope the specification objects and properties will take on more relevance and meaning.
-
-*Note that SmartBear is one of the sponsors of this site.*
+By showing you how the fields in the spec appear in the Swagger UI output, the specification objects and properties will take on more relevance and meaning.
 
 ## Terminology for Swagger and OpenAPI
 
@@ -88,11 +86,11 @@ Beyond these simple modifications, however, it takes a bit of web-developer prow
 
 ## Start by looking at the big picture
 
-If you would like to get a big picture of the specification document, take a look at the [3.0 examples here](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v3.0), specifically the [Petstore OpenAPI specification document](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml). It probably won't mean much at first, but try to get a sense of the whole before we dive into the details. Look at some of the other samples in the v.3.0 folder as well.
+If you would like to get a big picture of the specification document, take a look at the [Petstore example here](https://learn.openapis.org/examples/v3.0/petstore.html). It probably won't mean much at first, but try to get a sense of the whole before we dive into the details.
 
 ## Follow the OpenAPI tutorial
 
-The OpenAPI tutorial has a brief into to YAML followed by eight steps. Each step corresponds with one of the root-level objects in the OpenAPI document.
+The OpenAPI tutorial has a brief into to YAML followed by a series of 9 steps. Each step corresponds with one of the root-level objects in the OpenAPI document.
 
 * [Working in YAML](pubapis_yaml.html)
 * [Step 1: The openapi object](pubapis_openapi_step1_openapi_object.html)
@@ -103,6 +101,8 @@ The OpenAPI tutorial has a brief into to YAML followed by eight steps. Each step
 * [Step 6: security object](pubapis_openapi_step6_security_object.html)
 * [Step 7: The tags object](pubapis_openapi_step7_tags_object.html)
 * [Step 8: The externalDocs object](pubapis_openapi_step8_externaldocs_object.html)
+* [Step 9: Other elements: webhooks and jsonSchemaDialect](pubapis_openapi_step8_externaldocs_object.html)
+
 
 You don't have to create the specification document in this order; I've merely chosen this order to provide more of a specific path and series of steps to the process.
 
@@ -123,9 +123,5 @@ Later, when I talk more about publishing, I'll explain how to configure Swagger 
 If you have an existing specification document that validates against version OpenAPI 2.0 and you want to convert it to OpenAPI 3.0 (or vice versa), you can use [APIMATIC's Transformer](https://apimatic.io/transformer) to convert it automatically. (You can also use APIMATIC to transform your specification document into many other outputs, such as [RAML](pubapis_raml.html), [API Blueprint](pubapis_api_blueprint.html), or [Postman](docapis_postman.html).)
 
 To see the difference between the 2.0 and the 3.0 code, you can copy these code samples to separate files and then use an application like [Diffmerge](https://sourcegear.com/diffmerge/) to highlight the differences. The Readme.com blog has a nice post that provides [A Visual Guide to What's New in Swagger 3.0](https://blog.readme.com/an-example-filled-guide-to-swagger-3-2/).
-
-## Helpful resources
-
-As you embark on creating an OpenAPI specification file, you might find the recording of [Peter Gruenbaum's Swagger/OpenAPI presentation](http://www.stc-psc.org/event/documenting-web-apis-with-swagger-free-webinar/) to the STC Puget Sound chapter helpful, as well as his [Udemy course](https://www.udemy.com/learn-swagger-and-the-open-api-specification/).
 
 Brace yourself &mdash; this is where you'll find out if you're cut out for API technical writing.

@@ -1,4 +1,4 @@
-openapi: "3.1.1"
+openapi: "3.0.2"
 info:
   title: "OpenWeatherMap API"
   description: "Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
@@ -47,8 +47,7 @@ paths:
               schema:
                 title: Weather not found
                 type: string
-                examples:
-                  - "Not found"
+                example: Not found
 security:
 - app_id: []
 
@@ -139,15 +138,13 @@ components:
         base:
           type: string
           description: Internal parameter
-          examples:
-            - "cmc stations"
+          example: cmc stations
         main:
           $ref: '#/components/schemas/Main'
         visibility:
           type: integer
           description: Visibility, meter
-          examples:
-            - 16093
+          example: 16093
         wind:
           $ref: '#/components/schemas/Wind'
         clouds:
@@ -160,26 +157,22 @@ components:
           type: integer
           description: Time of data calculation, unix, UTC
           format: int32
-          examples:
-            - 1435658272
+          example: 1435658272
         sys:
           $ref: '#/components/schemas/Sys'
         id:
           type: integer
           description: City ID
           format: int32
-          examples:
-            - 2172797
+          example: 2172797
         name:
           type: string
-          examples:
-            - "Cairns"
+          example: Cairns
         cod:
           type: integer
           description: Internal parameter
           format: int32
-          examples:
-            - 200
+          example: 200
     Coord:
       title: Coord
       type: object
@@ -187,13 +180,11 @@ components:
         lon:
           type: number
           description: City geo location, longitude
-          examples:
-            - 145.77000000000001
+          example: 145.77000000000001
         lat:
           type: number
           description: City geo location, latitude
-          examples:
-            - -16.920000000000002
+          example: -16.920000000000002
     Weather:
       title: Weather
       type: object
@@ -202,23 +193,19 @@ components:
           type: integer
           description: Weather condition id
           format: int32
-          examples:
-            - 803
+          example: 803
         main:
           type: string
           description: Group of weather parameters (Rain, Snow, Extreme etc.)
-          examples:
-            - "Clouds"
+          example: Clouds
         description:
           type: string
           description: Weather condition within the group
-          examples:
-            - "broken clouds"
+          example: broken clouds
         icon:
           type: string
           description: Weather icon id
-          examples:
-            - "04n"
+          example: 04n
     Main:
       title: Main
       type: object
@@ -226,40 +213,33 @@ components:
         temp:
           type: number
           description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          examples:
-            - 293.25
+          example: 293.25
         pressure:
           type: integer
           description: Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
           format: int32
-          examples:
-            - 1019
+          example: 1019
         humidity:
           type: integer
           description: Humidity, %
           format: int32
-          examples:
-            - 83
+          example: 83
         temp_min:
           type: number
           description: 'Minimum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          examples:
-            - 289.81999999999999
+          example: 289.81999999999999
         temp_max:
           type: number
           description: 'Maximum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
-          examples:
-            - 295.37
+          example: 295.37
         sea_level:
           type: number
           description: Atmospheric pressure on the sea level, hPa
-          examples:
-            - 984
+          example: 984
         grnd_level:
           type: number
           description: Atmospheric pressure on the ground level, hPa
-          examples:
-            - 990
+          example: 990
     Wind:
       title: Wind
       type: object
@@ -267,14 +247,12 @@ components:
         speed:
           type: number
           description: 'Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
-          examples:
-            - 5.0999999999999996
+          example: 5.0999999999999996
         deg:
           type: integer
           description: Wind direction, degrees (meteorological)
           format: int32
-          examples:
-            - 150
+          example: 150
     Clouds:
       title: Clouds
       type: object
@@ -283,8 +261,7 @@ components:
           type: integer
           description: Cloudiness, %
           format: int32
-          examples:
-            - 75
+          example: 75
     Rain:
       title: Rain
       type: object
@@ -293,8 +270,7 @@ components:
           type: integer
           description: Rain volume for the last 3 hours
           format: int32
-          examples:
-            - 3
+          example: 3
     Snow:
       title: Snow
       type: object
@@ -302,8 +278,7 @@ components:
         3h:
           type: number
           description: Snow volume for the last 3 hours
-          examples:
-            - 6
+          example: 6
     Sys:
       title: Sys
       type: object
@@ -312,36 +287,30 @@ components:
           type: integer
           description: Internal parameter
           format: int32
-          examples:
-            - 1
+          example: 1
         id:
           type: integer
           description: Internal parameter
           format: int32
-          examples:
-            - 8166
+          example: 8166
         message:
           type: number
           description: Internal parameter
-          examples:
-            - 0.0166
+          example: 0.0166
         country:
           type: string
           description: Country code (GB, JP etc.)
-          examples:
-            - "AU"
+          example: AU
         sunrise:
           type: integer
           description: Sunrise time, unix, UTC
           format: int32
-          examples:
-            - 1435610796
+          example: 1435610796
         sunset:
           type: integer
           description: Sunset time, unix, UTC
           format: int32
-          examples:
-            - 1435650870
+          example: 1435650870
 
   securitySchemes:
     app_id:

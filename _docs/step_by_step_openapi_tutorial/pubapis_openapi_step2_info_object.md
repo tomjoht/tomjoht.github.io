@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 2
   definition: content/openapi_tutorial_map.html
-last-modified: 2020-06-25
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2020-06-25
 <img src="{{site.api_media}}/openapistep2.png"/>
 {% endif %}
 
-The [info object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#infoObject) contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
+The [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#infoObject) contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
 
 {% if site.format == "web" %}
 * TOC
@@ -32,21 +32,24 @@ The [info object](https://github.com/OAI/OpenAPI-Specification/blob/master/versi
 Here's an example of the `info` object and its properties. (The `openapi` object and the empty `paths` object are commented out to maintain the focus on the `info` object.)
 
 ```yaml
-# openapi: 3.0.2
+# openapi: 3.1.1
 info:
   title: "OpenWeatherMap API"
   description: "Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
   version: "2.5"
-  termsOfService: "https://openweathermap.org/terms"
+  termsOfService: "[https://openweathermap.org/terms](https://openweathermap.org/terms)"
   contact:
     name: "OpenWeatherMap API"
-    url: "https://openweathermap.org/api"
+    url: "[https://openweathermap.org/api](https://openweathermap.org/api)"
     email: "some_email@gmail.com"
   license:
     name: "CC Attribution-ShareAlike 4.0 (CC BY-SA 4.0)"
-    url: "https://openweathermap.org/price"
+    identifier: "CC-BY-SA-4.0"
 # paths: {}
 ```
+
+{: .note}
+The `license` object also supports an `identifier` field for an [SPDX license identifier](https://spdx.org/licenses/). Using `identifier` is preferred over `url` when possible.
 
 {% include content/troubleshooting_spec_tip.md %}
 

@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 3
   definition: content/openapi_tutorial_map.html
-last-modified: 2020-09-07
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2020-09-07
 <img src="{{site.api_media}}/openapistep3.png"/>
 {% endif %}
 
-In the [`servers` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#serverObject), you specify the basepath used in your API requests. The basepath is the part of the URL that appears before the endpoint.
+In the [`servers` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#serverObject), you specify the base URL used in your API requests. The base URL is the part of the URL that appears before the endpoint path.
 
 {% if site.format == "web" %}
 * TOC
@@ -31,10 +31,10 @@ The following is a sample `servers` object:
 
 ```yaml
 servers:
-- url: https://api.openweathermap.org/data/2.5/
+- url: [https://api.openweathermap.org/data/2.5](https://api.openweathermap.org/data/2.5)
 ```
 
-Each of your endpoints (called "paths" in the spec) will be appended to the server URL when users make "Try it out" requests. For example, if one of the paths is `/weather`, when Swagger UI submits the request, it will submit the path to `{server URL}{path}` or `https://api.openweathermap.org/data/2.5/weather`.
+Each of your endpoints (called "paths" in the spec) will be appended to the server URL to construct the full request URL. For example, if one of the paths is `/weather`, when Swagger UI submits the request, it will submit it to `{server URL}{path}` which resolves to `https://api.openweathermap.org/data/2.5/weather`.
 
 ## Options with the server URL
 
@@ -44,11 +44,11 @@ You have some flexibility and configuration options for your server URL. You can
 
 ```yaml
 servers:
-- url: https://api.openweathermap.org/data/2.5/
+- url: [https://api.openweathermap.org/data/2.5](https://api.openweathermap.org/data/2.5)
   description: Production server
-- url: http://beta.api.openweathermap.org/data/2.5/
+- url: [http://beta.api.openweathermap.org/data/2.5](http://beta.api.openweathermap.org/data/2.5)
   description: Beta server
-- url: http://some-other.api.openweathermap.org/data/2.5/
+- url: [http://some-other.api.openweathermap.org/data/2.5](http://some-other.api.openweathermap.org/data/2.5)
   description: Some other server
 ```
 

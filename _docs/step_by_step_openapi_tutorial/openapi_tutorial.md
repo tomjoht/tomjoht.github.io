@@ -4,9 +4,9 @@ permalink: learnapidoc/openapi_tutorial.html
 course: "Documenting REST APIs"
 sidebar: docapis
 weight: 5.0
-section: restapispecifications
+section: openapitutorial
 path1: learnapidoc/restapispecifications.html
-last-modified: 2023-05-28
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}

@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 7
   definition: content/openapi_tutorial_map.html
-last-modified: 2020-09-07
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -29,7 +29,7 @@ The `tags` object allows you to arrange the `paths` (endpoints) into named group
 
 {% include image_ad_right.html %}
 
-At the root level, the [`tags` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#tagObject) lists all the tags that are used in the [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#operationObject) (which appear within the `paths` object, as explained in [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)). Here's an example of the `tags` object for our OpenWeatherMap API:
+At the root level, the [`tags` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#tagObject) lists all the tags that are used in the [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#operationObject) (which appear within the `paths` object, as explained in [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)). Here's an example of the `tags` object for our OpenWeatherMap API:
 
 ```yaml
 tags:
@@ -48,7 +48,7 @@ The `tags` object at the root level should list all tags (groups) that you want 
 {: .note}
 By "root level," I mean the first level in the OpenAPI document. This level is also referred to as the global level because some object properties declared here (namely servers and security) are applied to each of the operation objects unless overridden at a lower level.
 
-For example, in the operations object for the `/current` path, we used the tag `Current Weather Data`:
+For example, in the operations object for the `/weather` path, we used the tag `Current Weather Data`:
 
 ```yaml
 paths:
@@ -82,7 +82,7 @@ All paths that have the same tag are grouped together in the display. For exampl
 
 {% include random_ad4.html %}
 
-The order of the tags in the `tags` object at the root level determines their order in Swagger UI. Additionally, the `descriptions` appear to the right of the tag name.
+The order of the tags in the `tags` object at the root level determines their order in Swagger UI. Additionally, the `description` appears to the right of the tag name.
 
 {% include random_ad2.html %}
 

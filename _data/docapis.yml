@@ -227,6 +227,9 @@ folders:
   - title: "Step 8: The externalDocs object"
     jurl: /learnapidoc/pubapis_openapi_step8_externaldocs_object.html
 
+  - title: "Step 9: Other elements: webhooks and jsonSchemaDialect"
+    jurl: /learnapidoc/pubapis_openapi_step9_other_elements.html
+
   - title: "Activity: Create an OpenAPI specification document"
     jurl: /learnapidoc/pubapis_openapi_activity.html
 

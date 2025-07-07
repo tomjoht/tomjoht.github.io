@@ -86,7 +86,7 @@ window.onload = function() {
 
 // Build a system
 const ui = SwaggerUIBundle({
-url: "https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml",
+url: "https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermapv3.yml",
 // url: "http://petstore.swagger.io/v2/swagger.json",
 dom_id: '#swagger-ui',
 defaultModelsExpandDepth: -1,

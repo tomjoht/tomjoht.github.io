@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 8
   definition: content/openapi_tutorial_map.html
-last-modified: 2020-09-07
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2020-09-07
 <img src="{{site.api_media}}/openapistep8.png"/>
 {% endif %}
 
-The [`externalDocs` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#external-documentation-object) lets you link to external documentation. You can also provide links to external docs in the `paths` object.
+The [`externalDocs` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#externalDocumentationObject) lets you link to external documentation. You can also provide links to external docs in the `paths` object.
 
 {% if site.format == "web" %}
 * TOC
@@ -33,13 +33,13 @@ Here's an example of an `externalDocs` object:
 
 ```yaml
 externalDocs:
-  description: API Documentation
-  url: https://openweathermap.org/api
+  description: Find out more about OpenWeatherMap API
+  url: [https://openweathermap.org/api](https://openweathermap.org/api)
 ```
 
 {% include random_ad3.html %}
 
-Note that this documentation should relate to the API as a whole. To link a specific parameter to more documentation, you can add an `externalDocs` object to the operation object, as noted in [Operation objects](pubapis_openapi_step4_paths_object.html#operation-objects) section in Step 4: The paths object.
+Note that this documentation should relate to the API as a whole. To link a specific operation to more documentation, you can add an `externalDocs` object to the operation object, as noted in the [Operation objects](pubapis_openapi_step4_paths_object.html#operation-objects) section in Step 4: The paths object.
 
 {% include content/troubleshooting_spec_tip.md %}
 

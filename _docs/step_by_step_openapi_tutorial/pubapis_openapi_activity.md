@@ -4,14 +4,14 @@ permalink: learnapidoc/pubapis_openapi_activity.html
 course: "Documenting REST APIs"
 sidebar: docapis
 weight: 5.92
-section: restapispecifications
+section: openapitutorial
 path1: learnapidoc/restapispecifications.html
-last-modified: 2019-01-05
+last-modified: 2025-07-05
 ---
 
 {% include coffeeshopbook.html %}
 
-The [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html) walked you through 8 steps in building the OpenAPI specification document. Now it's your turn to practice first editing and then creating an OpenAPI specification document.
+The [OpenAPI tutorial](pubapis_yaml.html) walked you through multiple steps in building the OpenAPI specification document. Now it's your turn to practice first editing and then creating an OpenAPI specification document.
 
 * TOC
 {:toc}
@@ -20,19 +20,21 @@ The [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html) walked you throug
 
 {% include image_ad_right.html %}
 
-Use this simple [Sunrise and sunset times API](https://sunrise-sunset.org/api) to get more familiar with the process of creating an OpenAPI specification file. This Sunrise and sunset times API doesn't require authentication with requests, so it removes some of the more complicated authentication workflows (the spec file doesn't require the [security object]({{site.rooturl}}pubapis_openapi_step6_security_object.html)). In this activity, you'll edit some of the existing values in an OpenAPI specification document that's already written.
+Use this simple [Sunrise and sunset times API](https://sunrise-sunset.org/api) to get more familiar with the process of creating an OpenAPI specification file. This Sunrise and sunset times API doesn't require authentication with requests, so it removes some of the more complicated authentication workflows (the spec file doesn't require the [security object](pubapis_openapi_step6_security_object.html)). In this activity, you'll edit some of the existing values in an OpenAPI specification document that's already written.
 
 To edit the OpenAPI specification file:
 
 1.  Copy the code from this [pre-built OpenAPI specification](https://idratherbewriting.com/assets/files/swagger-sunrise-sunset/openapi_sunrise_sunset.yml).
 2.  Paste the YAML content into the [Swagger Editor](https://editor.swagger.io/).
 3.  Identify each of the root-level objects of the OpenAPI spec:
-    * [Step 1: The openapi object]({{site.rooturl}}pubapis_openapi_step1_openapi_object.html)
-    * [Step 2: The info object]({{site.rooturl}}pubapis_openapi_step2_info_object.html)
-    * [Step 3: The servers object]({{site.rooturl}}pubapis_openapi_step3_servers_object.html)
-    * [Step 4: The paths object]({{site.rooturl}}pubapis_openapi_step4_paths_object.html)
-    * [Step 5: The components object]({{site.rooturl}}pubapis_openapi_step5_components_object.html)
-    * [Step 8: The externalDocs object]({{site.rooturl}}pubapis_openapi_step8_externaldocs_object.html)
+    * [Step 1: The openapi object](pubapis_openapi_step1_openapi_object.html)
+    * [Step 2: The info object](pubapis_openapi_step2_info_object.html)
+    * [Step 3: The servers object](pubapis_openapi_step3_servers_object.html)
+    * [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)
+    * [Step 5: The components object](pubapis_openapi_step5_components_object.html)
+    * [Step 6: The security object](pubapis_openapi_step6_security_object.html)
+    * [Step 7: The tags object](pubapis_openapi_step7_tags_object.html)
+    * [Step 8: The externalDocs object](pubapis_openapi_step8_externaldocs_object.html)
 
 4.  In the `info` object (near the top), make some changes to the `description` property and see how the visual display in the right column gets updated.
 5.  In the `parameters` object, make some changes to one of the `description` properties and see how the visual editor gets updated.
@@ -59,10 +61,10 @@ Go through each step of the OpenAPI specification tutorial to build out the spec
 * [Step 3: The servers object](pubapis_openapi_step3_servers_object.html)
 * [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)
 * [Step 5: The components object](pubapis_openapi_step5_components_object.html)
-* [Step 6: security object](pubapis_openapi_step6_security_object.html)
+* [Step 6: The security object](pubapis_openapi_step6_security_object.html)
 * [Step 7: The tags object](pubapis_openapi_step7_tags_object.html)
 * [Step 8: The externalDocs object](pubapis_openapi_step8_externaldocs_object.html)
 
-Validate your specification document in the [Swagger Editor](https://swagger.io/swagger-editor/). Execute a request to make sure it's working correctly.
+Validate your specification document in the [Swagger Editor](https://editor.swagger.io/). Execute a request to make sure it's working correctly.
 
 {% include random_ad2.html %}
