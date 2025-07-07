@@ -63,25 +63,25 @@ Although one could approach the assembly of an OpenAPI document in many ways, I'
 
 Before we jump into coding, let's first talk about where you'll write the code and what your options are.
 
-The easiest option is to use the online [Swagger Editor@5](https://editor-next.swagger.io/) (the "@5" refers to version 5). All versions of the Swagger Editor provide a split view: on the left where you write your spec code, and on the right, you see a fully functional Swagger UI display. You can even submit requests from the Swagger UI display in this editor.
+The easiest option is to use the online [Swagger Editor v5](https://editor-next.swagger.io/) (the "@5" refers to version 5). All versions of the Swagger Editor provide a split view: on the left where you write your spec code, and on the right, you see a fully functional Swagger UI display. You can even submit requests from the Swagger UI display in this editor.
 
 {% include image_ad_right.html %}
 
 The Swagger Editor will validate your content in real-time, and you will see validation errors until you finish coding the specification document. Don't worry about the errors unless you see X marks in the code you're working on.
 
-I usually keep a local text file (using a text editor such as Cursor, VS Code, or Sublime Text) where I keep the specification document offline, but I work with the document's content in the online [Swagger Editor@5](https://editor-next.swagger.io/). When I'm done working for the day, I copy and save the content back to my local file. Even so, the Swagger Editor caches the content quite well (just don't clear your browser's cache), so you probably won't need your local file as a backup.
+I usually keep a local text file (using a text editor such as Cursor, VS Code, or Sublime Text) where I keep the specification document offline, but I work with the document's content in the online [Swagger Editor v5](https://editor-next.swagger.io/). When I'm done working for the day, I copy and save the content back to my local file. Even so, the Swagger Editor caches the content quite well (just don't clear your browser's cache), so you probably won't need your local file as a backup.
 
 If you want to purchase a subscription to [SwaggerHub](https://www.google.com/search?q=pubapis_swaggerhub_smartbear.html), you could keep your spec content in the cloud (SwaggerHub has an editor almost identical to Swagger UI) associated with your personal login. SwaggerHub is the premium tooling for the open-source and free Swagger Editor.
 
 Another option to work locally is to use [Visual Studio Code](https://code.visualstudio.com/) with two extensions: [openapi-lint](https://marketplace.visualstudio.com/items?itemName=mermade.openapi-lint) and [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer). These extensions let you work locally and preview a live version of Swagger. You can also download and run the [Swagger Editor locally](https://swagger.io/tools/swagger-editor/).
 
-For the sake of simplicity, for the Swagger sections in this tutorial, we'll just use the [online Swagger Editor@5](https://editor-next.swagger.io/).
+For the sake of simplicity, for the Swagger sections in this tutorial, we'll just use the [online Swagger Editor v5](https://editor-next.swagger.io/).
 
-From the [Swagger Editor@5](https://editor-next.swagger.io/) and go to **File > Clear editor**. Keep this tab open throughout the OpenAPI tutorial, as you'll be adding to your specification document with each step.
+From the [Swagger Editor v5](https://editor-next.swagger.io/) and go to **File > Clear editor**. Keep this tab open throughout the OpenAPI tutorial, as you'll be adding to your specification document with each step.
 
 Add the first root-level property for the specification document: `openapi`. In the [openapi](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#oasObject) object, indicate the version of the OpenAPI spec to validate against. The latest version is `3.1.1`, and this is what I've used, along with the more updated syntax for `examples`.
 
-A quick note on Swagger Editor versions: The older Swagger Editor v4 (at [https://editor.swagger.io/](https://editor.swagger.io/)) doesn't support OpenAPI 3.1.x. Since this tutorial uses version 3.1.1, you **must use the newer Swagger Editor v5**, which is available at [https://editor-next.swagger.io/](https://editor-next.swagger.io/). Using the older editor will result in validation errors because it does not recognize the `3.1.1` version or the updated `examples` syntax.
+A quick note on Swagger Editor versions: The older Swagger Editor v4 (at [https://editor.swagger.io/](https://editor.swagger.io/)) doesn't support OpenAPI 3.1.x. See the comparison chart at [Download Swagger Editor](https://swagger.io/tools/swagger-editor/download/) for more details. Since this tutorial uses version 3.1.1, you **must use the newer Swagger Editor v5**, which is available at [https://editor-next.swagger.io/](https://editor-next.swagger.io/). Using the older editor will result in validation errors because it does not recognize the `3.1.1` version or the updated `examples` syntax.
 
 ### Add the openapi object
 
