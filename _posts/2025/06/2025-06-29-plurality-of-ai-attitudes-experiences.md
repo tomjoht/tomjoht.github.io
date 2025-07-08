@@ -6,7 +6,7 @@ categories:
 - ai
 keywords: 
 rebrandly: https://idbwrtng.com/plurality-of-ai-attitudes-experiences
-description: "Technical writers' attitudes toward AI can be all over the map, from enthusiastic early adoption to cautiously optimistic to complete rejection. In this post, I try to unpack the reasons that lead some writers to believe what they do about AI. Using research from several articles, I look at AI's <i>jagged frontier,</i>, the impact of domain expertise, and interaction modes as ways of understanding the influences that lead to different attitudes."
+description: "Technical writers' attitudes toward AI can be all over the map, from enthusiastic early adoption to cautiously optimistic to complete rejection. In this post, I try to unpack the reasons that lead some writers to believe what they do about AI. Using research from several articles, I look at AI's <i>jagged frontier,</i> the impact of domain expertise, and interaction modes as ways of understanding the influences that lead to different attitudes."
 podcast_link: "https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/reasons-for-diverse-ai-views.mp3"
 podcast_file_size: 6.7
 podcast_duration: "10:34"

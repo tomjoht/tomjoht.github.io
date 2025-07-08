@@ -1,5 +1,5 @@
 ---
-title: "Will our next users be AI agents? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics"
+title: "Will our next users be AI agents? The future of content delivery with Fabrice Lacroix, founder of Fluid Topics (podcast)"
 permalink: /blog/evolution-techcomm-fabrice-lacroix-podcast
 date: 2025-07-05
 categories:

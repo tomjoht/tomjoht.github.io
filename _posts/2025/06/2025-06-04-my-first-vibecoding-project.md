@@ -1,5 +1,5 @@
 ---
-title: "My first vibecoding project (AI experiments))"
+title: "My first vibecoding project (AI experiments)"
 permalink: /blog/my-first-vibecoding-project
 date: 2025-06-04
 categories:
