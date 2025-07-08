@@ -1,5 +1,5 @@
 ---
-title: "The allure of the loop (AI experiments)"
+title: "The allure of iterative improvement loops (AI experiments)"
 permalink: /blog/allure-of-the-loop
 date: 2025-06-05
 categories:
