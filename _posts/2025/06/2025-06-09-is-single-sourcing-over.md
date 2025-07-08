@@ -42,7 +42,7 @@ Then on the target pages where the single-sourced concept gets included, it migh
 
 ```jinja
 {% raw %}
-{% include /path/to/somefile.md %}
+{% include path/to/somefile.md %}
 {% setvar instance == "API_A" %}
 {% endraw %}
 ```
@@ -51,14 +51,14 @@ A CCMS would even slice up all the pieces into small chunks and allow me to asse
 
 ```jinja
 {% raw %}
-{% include /path/to/chunk_a.md %}
-{% include /path/to/chunk_n.md %}
-{% include /path/to/chunk_r.md %}
-{% include /path/to/chunk_z.md %}
+{% include path/to/chunk_a.md %}
+{% include path/to/chunk_n.md %}
+{% include path/to/chunk_r.md %}
+{% include path/to/chunk_z.md %}
 {% endraw %}
 ```
 
-<figure><img src="{{site.media}}/includesonlyproblemsthumb.png" alt="A document consisting entirely of different includes" /></a><figcaption>A document consisting entirely of different includes</figcaption></figure>
+<figure><img style="max-width: 400px" src="{{site.media}}/includesonlyproblemsthumb.png" alt="A document consisting entirely of different includes" /><figcaption>A document consisting entirely of various includes</figcaption></figure>
 
 While these approaches can work, here's the problem. Let's say I want to fact check Concept 1 against API A to see if everything is accurate. To do this, I start by priming the AI session with the reference documentation as the source of truth. Then I add Concept 1 topic into the context and ask Gemini to verify every assertion in the conceptual documentation against the reference.
 
