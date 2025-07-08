@@ -17,7 +17,7 @@ In playing around with agents, I've become curious about the idea of the loop. W
 
 I asked AI (Gemini) to read the article and consider how it could be improved. Then implement the improvements. Read the new version of the article and consider how this version could be improved. Then implement the improvements. And so on through 10 iterations. I was excited to see how great the post would be after 10 rounds of this. 
 
-<figure><a href=""><img src="{{site.media}}/recursiveloopaiexperiment.png" alt="Recursive loop toward content improvement" /></a><figcaption>Trying to initiate a recursive loop toward content improvement</figcaption></figure>
+<figure><a href=""><img style="max-width: 600px" src="{{site.media}}/recursiveloopaiexperiment.png" alt="Recursive loop toward content improvement" /></a><figcaption>Trying to initiate a recursive loop toward content improvement</figcaption></figure>
 
 Unfortunately, this didn't result in exponentially better content. I'm not entirely sure why, but the AI seems to lack some judgment, especially regarding its own writing. The resulting article ended up with pretentious and awkward diction. While some places did show improvement, overall it felt subpar and I threw it out, reverting to my original draft.
 
