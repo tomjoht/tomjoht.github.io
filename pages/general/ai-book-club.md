@@ -64,6 +64,18 @@ The following tables list the reading schedule. The descriptions are extracts fr
       <tr>
          <td>
             <b>September 21, 2025<br/>10am PT</b>
+            <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i></a> by Karen Hao</p>
+            <p class="book-summary">"[Hao] realized that the core truth of this massively disruptive sector is that its vision of success requires an almost unprecedented amount of resources: the “compute” power of high-end chips and the processing capacity to create massive large language models, the sheer volume of data that needs to be amassed at scale, the humans “cleaning up” that data for sweatshop wages throughout the Global South, and a truly alarming spike in the usage of energy and water underlying it all. The truth is that we have entered a new and ominous age of empire: only a small handful of globally scaled companies can even enter the field of play. At the head of the pack with its ChatGPT breakthrough, how would OpenAI resist such temptations?"</p>
+         </td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1tAqsTZn7w9Dgti1KGj9g-poj33uwhXngDTagBnY0TuY">Notes and discussion</a><br/>
+             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
+      </tr>
+      <tr>
+         <td>
+            <b>October 19, 2025<br/>10am PT</b>
             <figure><a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><img src="{{site.media}}/handsonllms.png" alt="Hands-on LLMs" /></a></figure>
          </td>
          <td>
@@ -75,7 +87,7 @@ The following tables list the reading schedule. The descriptions are extracts fr
       </tr> 
       <tr>
          <td>
-            <b>Oct 19, 2025<br/>10am PT</b>
+            <b>November 16, 2025<br/>10am PT</b>
              <figure><a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
          </td>
          <td>
@@ -85,9 +97,21 @@ The following tables list the reading schedule. The descriptions are extracts fr
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr>
+            <tr>
+         <td>
+            <b>December 21, 2025<br/>10am PT</b>
+             <figure><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman</p>
+             <p class="book-summary">"In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."</p>
+         </td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE">Notes and discussion</a><br/>
+             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
+      </tr> 
       <tr>
          <td>
-           <b>November 16, 2025<br/>10am PT</b>
+           <b>Jan 18, 2026<br/>10am PT</b>
            <figure><a href="https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"><img src="{{site.media}}/godhuman_aibookclub.png" alt="God Human Animal Machine" /></a></figure>
          </td>
          <td>
@@ -99,7 +123,7 @@ The following tables list the reading schedule. The descriptions are extracts fr
       </tr>
       <tr>
          <td>
-           <b>December 21, 2025<br/>10am PT</b>
+           <b>February 22, 2026<br/>10am PT</b>
             <figure><a href="https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"><img src="{{site.media}}/2041_aibookclub.png" alt="AI 2041" /></a></figure>
          </td>
          <td>
@@ -107,18 +131,6 @@ The following tables list the reading schedule. The descriptions are extracts fr
             <p class="book-summary">"Long before the advent of ChatGPT, Kai-Fu Lee and Chen Qiufan understood the enormous potential of artificial intelligence to transform our daily lives. But even as the world wakes up to the power of AI, many of us still fail to grasp the big picture. Chatbots and large language models are only the beginning. / ... Lee and Chen join forces to imagine our world in 2041 and how it will be shaped by AI. In ten gripping, globe-spanning short stories and accompanying commentary, their book introduces readers to an array of eye-opening settings and characters grappling with the new abundance and potential harms of AI technologies like deep learning, mixed reality, robotics, artificial general intelligence, and autonomous weapons."</p>
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1zjRk9SiFKBTpttPFNldJLAUSKHkYMMWYnAsDumQAwPE/">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr> 
-      <tr>
-         <td>
-            <b>Jan 18, 2026<br/>10am PT</b>
-             <figure><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman</p>
-             <p class="book-summary">"In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."</p>
-         </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE">Notes and discussion</a><br/>
              <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
       </tr> 
    </tbody>
@@ -197,7 +209,7 @@ The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I
 There's a Slack workspace set up for online discussion. Go to one of these links:
 
 * Already a workspace member? Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
-* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-37j3eznz6-t3hDMVvRbiGQtbU_uHB08w)
+* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-39vzdyzi9-MinrAVuVtCObhFIrpXdZBg)
 
 The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
 
