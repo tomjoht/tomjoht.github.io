@@ -2,7 +2,7 @@
 title: "AI Book Club: A Human in the Loop"
 permalink: /ai-book-club/
 type: page
-last-modified: 2025-03-02
+last-modified: 2025-07-19
 ---
 
 **AI Book Club: A Human in the Loop** focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
