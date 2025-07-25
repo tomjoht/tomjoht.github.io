@@ -39,18 +39,6 @@ The following tables list the reading schedule. The descriptions are extracts fr
    <tbody>
       <tr>
          <td>
-           <b>July 20, 2025<br/>10am PT</b>
-           <figure><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><i>Supremacy: AI, ChatGPT, and the Race that Will Change the World</i></a> by Parmy Olson</p>
-            <p class="book-summary">"In <i>Supremacy</i>, Olson, tech writer at Bloomberg, tells the astonishing story of the battle between these two AI firms [ OpenAI and DeepMind], their struggles to use their tech for good, and the hazardous direction they could go as they serve two tech Goliaths whose power is unprecedented in history. The story focuses on the continuing rivalry of two key CEOs at the center of it all, who cultivated a religion around their mission to build god-like super intelligent machines: Sam Altman, CEO of OpenAI, and Demis Hassabis, the CEO of DeepMind."</p>
-         </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr> 
-      <tr>
-         <td>
            <b>August 17, 2025<br/>10am PT</b>
             <figure><a href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers" /></a></figure>
          </td>
@@ -150,6 +138,19 @@ The previous meetings include recordings, notes, and other resources. They're li
    </thead>
    <tbody>
          <tr>
+         <td>
+           <p><b>July 20, 2025<br/>10am PT</b><br/>
+            <a href="https://youtu.be/?">MEETING RECORDING</a></p>
+           <figure><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><i>Supremacy: AI, ChatGPT, and the Race that Will Change the World</i></a> by Parmy Olson</p>
+            <p class="book-summary">"In <i>Supremacy</i>, Olson, tech writer at Bloomberg, tells the astonishing story of the battle between these two AI firms [ OpenAI and DeepMind], their struggles to use their tech for good, and the hazardous direction they could go as they serve two tech Goliaths whose power is unprecedented in history. The story focuses on the continuing rivalry of two key CEOs at the center of it all, who cultivated a religion around their mission to build god-like super intelligent machines: Sam Altman, CEO of OpenAI, and Demis Hassabis, the CEO of DeepMind."</p>
+         </td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a><br/>
+             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
+      </tr> 
+      <tr>
          <td>
             <p><b>June 15, 2025<br/>10am PT</b><br/>
             <a href="https://youtu.be/d6yxqpb3jao"><b>MEETING RECORDING</b></a></p>

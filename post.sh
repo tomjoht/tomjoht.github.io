@@ -116,7 +116,9 @@ if [ "$answer" = "y" ]; then
     echo "Response:" $response
 fi
 
-# Open the file in Visual Studio Code
+# Open the file in Windsurf
 # code $FILENAME
-# Open the file in Cursor
-osascript -e "tell application \"Cursor\" to open POSIX file \"$PWD/$FILENAME\""
+open -a Windsurf $FILENAME
+# Open the file in Windsurf
+# open -a Windsurf $FILENAME
+osascript -e "tell application \"Windsurf IDE\" to open POSIX file \"$PWD/$FILENAME\""
