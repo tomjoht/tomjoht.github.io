@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords: 
 rebrandly: https://idbwrtng.com/kowalsky-productivity-experiments-advice
-description: "The following is a guest post by <a href='#david_kowalsky'>David Kowalsky</a> continuing his exploration of productivity and time management topics. This post covers his experiences with Cal Newport's <i>Slow Productivity</i> and Oliver Burkeman's <i>Meditations for Mortals</i>, along with practical experiments and advice for technical writers."
+description: "The following is a guest post by <a href='#david_kowalsky'>David Kowalsky</a> continuing his exploration of productivity and time management topics. This post covers his experiences with Cal Newport's <i>Slow Productivity</i> and Oliver Burkeman's <i>Meditations for Mortals</i>, along with practical experiments and advice for technical writers. Kowalsky considers how these philosophies can help technical writers find more sustainable, meaningful approaches to their work."
 bio: false
 author: <a href='#david_kowalsky'>David Kowalsky</a>
 image: kowalsky-thumb.jpg

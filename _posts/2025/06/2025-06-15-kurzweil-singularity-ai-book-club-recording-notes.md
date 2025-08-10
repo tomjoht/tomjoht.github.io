@@ -12,7 +12,7 @@ description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aibookclubthesingularity.mp3
 podcast_file_size: 43.7
 podcast_duration: "55:53"
-podcast_length: 502,079
+podcast_length: 502079
 image: bookclubsingularitythumb.png
 ---
 
