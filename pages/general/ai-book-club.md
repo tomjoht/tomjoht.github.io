@@ -39,18 +39,6 @@ The following tables list the reading schedule. The descriptions are extracts fr
    <tbody>
       <tr>
          <td>
-           <b>August 17, 2025<br/>10am PT</b>
-            <figure><a href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a> by Kai-Fu Lee</p>
-             <p class="book-summary">"...Lee argues powerfully that because of the unprecedented developments in AI, dramatic changes will be happening much sooner than many of us expected.... Most experts already say that AI will have a devastating impact on blue-collar jobs. But Lee predicts that Chinese and American AI will have a strong impact on white-collar jobs as well. Is universal basic income the solution? In Lee's opinion, probably not. But he provides a clear description of which jobs will be affected and how soon, which jobs can be enhanced with AI, and most importantly, how we can provide solutions to some of the most profound changes in the future of human history."</p>
-         </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1UotIlSUFJz8S2BL3r2vQfVP3MGeH8hA0EhfrGdTRlp0">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr> 
-      <tr>
-         <td>
             <b>September 21, 2025<br/>10am PT</b>
             <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
          </td>
@@ -137,65 +125,89 @@ The previous meetings include recordings, notes, and other resources. They're li
       </tr>
    </thead>
    <tbody>
-         <tr>
+      <tr>
          <td>
-           <p><b>July 20, 2025<br/>10am PT</b><br/>
-            <a href="https://youtu.be/?">MEETING RECORDING</a></p>
-           <figure><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
+            <p><b>August 17, 2025<br/></b><br/>
+               <a href="https://youtu.be/4xhTY_N2s98"><b>MEETING RECORDING</b></a>
+            </p>
+            <figure><a href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers: China, Silicon Valley, and the New World Order" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a> by Kai-Fu Lee</p>
+            <p class="book-summary">"...Lee argues powerfully that because of the unprecedented developments in AI, dramatic changes will be happening much sooner than many of us expected.... Most experts already say that AI will have a devastating impact on blue-collar jobs. But Lee predicts that Chinese and American AI will have a strong impact on white-collar jobs as well. Is universal basic income the solution? In Lee's opinion, probably not. But he provides a clear description of which jobs will be affected and how soon, which jobs can be enhanced with AI, and most importantly, how we can provide solutions to some of the most profound changes in the future of human history."</p>
+         </td>
+         <td>
+            <p class="notes-links"><a href="https://docs.google.com/document/d/1UotIlSUFJz8S2BL3r2vQfVP3MGeH8hA0EhfrGdTRlp0">Notes and discussion</a></p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p><b>July 20, 2025<br/></b><br/>NO RECORDING</p>
+            <figure><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
          </td>
          <td>
             <p class="book-summary-top"><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><i>Supremacy: AI, ChatGPT, and the Race that Will Change the World</i></a> by Parmy Olson</p>
             <p class="book-summary">"In <i>Supremacy</i>, Olson, tech writer at Bloomberg, tells the astonishing story of the battle between these two AI firms [ OpenAI and DeepMind], their struggles to use their tech for good, and the hazardous direction they could go as they serve two tech Goliaths whose power is unprecedented in history. The story focuses on the continuing rivalry of two key CEOs at the center of it all, who cultivated a religion around their mission to build god-like super intelligent machines: Sam Altman, CEO of OpenAI, and Demis Hassabis, the CEO of DeepMind."</p>
          </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr> 
+         <td>
+            <p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a><br/>
+               <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a>
+            </p>
+         </td>
+      </tr>
       <tr>
          <td>
-            <p><b>June 15, 2025<br/>10am PT</b><br/>
-            <a href="https://youtu.be/d6yxqpb3jao"><b>MEETING RECORDING</b></a></p>
+            <p><b>June 15, 2025<br/></b><br/>
+               <a href="https://youtu.be/d6yxqpb3jao"><b>MEETING RECORDING</b></a>
+            </p>
             <figure><a href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity Is Nearer" /></a></figure>
          </td>
          <td>
             <p class="book-summary-top"><a href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><i>The Singularity Is Nearer: When We Merge with AI</i></a> by Ray Kurzweil</p>
-            <p class="book-summary">"Kurzweil brings a fresh perspective to advances toward the Singularity &mdash; assessing his 1999 prediction that AI will reach human level intelligence by 2029 and examining the exponential growth of technology &mdash; that, in the near future, will expand human intelligence a millionfold and change human life forever. Among the topics he discusses are rebuilding the world, atom by atom with devices like nanobots; radical life extension beyond the current age limit of 120; reinventing intelligence by connecting our brains to the cloud; ... and the growth of renewable energy and 3-D printing."</p>
+            <p class="book-summary">"Kurzweil brings a fresh perspective to advances toward the Singularity — assessing his 1999 prediction that AI will reach human level intelligence by 2029 and examining the exponential growth of technology — that, in the near future, will expand human intelligence a millionfold and change human life forever. Among the topics he discusses are rebuilding the world, atom by atom with devices like nanobots; radical life extension beyond the current age limit of 120; reinventing intelligence by connecting our brains to the cloud; ... and the growth of renewable energy and 3-D printing."</p>
          </td>
-         <td><p class="notes-links"><a href="/blog/kurzweil-singularity-ai-book-club-recording-notes">Notes and discussion</a></p></td>
-      </tr> 
+         <td>
+            <p class="notes-links"><a href="/blog/kurzweil-singularity-ai-book-club-recording-notes">Notes and discussion</a></p>
+         </td>
+      </tr>
       <tr>
          <td>
-           <p><b>May 18, 2025<br/>10am PT <br/>
-           <a href="https://youtu.be/xEFxmkCCXfg">MEETING RECORDING</a></b></p>
+            <p><b>May 18, 2025<br/><br/>
+                  <a href="https://youtu.be/xEFxmkCCXfg">MEETING RECORDING</a></b>
+            </p>
             <figure><a href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
          </td>
          <td>
             <p class="book-summary-top"><a href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><i>The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma</i></a> by Mustafa Suleyman</p>
-            <p class="book-summary">"In <i>The Coming Wave</i>, Suleyman shows how these forces will create immense prosperity but also threaten the nation-state, the foundation of global order. As our fragile governments sleepwalk into disaster, we face an existential dilemma: unprecedented harms on one side, the threat of overbearing surveillance on the other. / How do we ensure the flourishing of humankind? How do we maintain control? ... / This groundbreaking book from the ultimate AI insider establishes 'the containment problem'&mdash;the task of maintaining control over powerful technologies&mdash;as the essential challenge of our age."</p>
+            <p class="book-summary">"In <i>The Coming Wave</i>, Suleyman shows how these forces will create immense prosperity but also threaten the nation-state, the foundation of global order. As our fragile governments sleepwalk into disaster, we face an existential dilemma: unprecedented harms on one side, the threat of overbearing surveillance on the other. / How do we ensure the flourishing of humankind? How do we maintain control? ... / This groundbreaking book from the ultimate AI insider establishes 'the containment problem'—the task of maintaining control over powerful technologies—as the essential challenge of our age."</p>
          </td>
-         <td><p class="notes-links"><a href="/blog/suleyman-the-coming-wave-notes">Notes and discussion</a></p></td>
-      </tr> 
+         <td>
+            <p class="notes-links"><a href="/blog/suleyman-the-coming-wave-notes">Notes and discussion</a></p>
+         </td>
+      </tr>
       <tr>
          <td>
-            <p><b>April 20, 2025<br/>5pm PT <br/>
-            <a href="https://youtu.be/vUUQ6j7rNTo">MEETING RECORDING</a></b></p>
+            <p><b>April 20, 2025<br/><br/>
+                  <a href="https://youtu.be/vUUQ6j7rNTo">MEETING RECORDING</a></b>
+            </p>
             <figure><a href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
          <td>
             <p class="book-summary-top"><a href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><i>More Than Words: How to Think About Writing in the Age of AI</i></a> by John Warner</p>
-             <p class="book-summary">"<i>More Than Words</i> argues that generative AI programs like ChatGPT not only can kill the student essay but should, since these assignments don't challenge students to do the real work of writing. To Warner, writing is thinking—discovering your ideas while trying to capture them on a page—and feeling—grappling with what it fundamentally means to be human. The fact that we ask students to complete so many assignments that a machine could do is a sign that something has gone very wrong with writing instruction. More Than Words calls for us to use AI as an opportunity to reckon with how we work with words—and how all of us should rethink our relationship with writing."</p>
+            <p class="book-summary">"<i>More Than Words</i> argues that generative AI programs like ChatGPT not only can kill the student essay but should, since these assignments don't challenge students to do the real work of writing. To Warner, writing is thinking—discovering your ideas while trying to capture them on a page—and feeling—grappling with what it fundamentally means to be human. The fact that we ask students to complete so many assignments that a machine could do is a sign that something has gone very wrong with writing instruction. More Than Words calls for us to use AI as an opportunity to reckon with how we work with words—and how all of us should rethink our relationship with writing."</p>
          </td>
-         <td><p class="notes-links"><a href="https://idratherbewriting.com/blog/warner-book-more-than-words-notes">Notes and discussion</a></p></td>
-      </tr> 
+         <td>
+            <p class="notes-links"><a href="https://idratherbewriting.com/blog/warner-book-more-than-words-notes">Notes and discussion</a></p>
+         </td>
+      </tr>
    </tbody>
 </table>
-
 
 ## Possible additional books {#additional_books}
 
 Some possible additional books we might add to the schedule include the following:
 
 * [The Atomic Human: What Makes Us Unique in the Age of AI](https://www.amazon.com/Atomic-Human-What-Makes-Unique/dp/1541705122), by Neil D. Lawrence
-* [Empire of AI](https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500), by Karen Hao
 * [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace), by Dario Amodei
 * [Superagency: What Could Possibly Go Right with Our AI Future](https://www.amazon.com/Superagency-Could-Possibly-Right-Future/dp/B0D5WMKV9H), by Reid Hoffman and Greg Beato
 
