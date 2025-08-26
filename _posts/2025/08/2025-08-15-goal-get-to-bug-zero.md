@@ -123,3 +123,7 @@ Now let's return to the problem of getting to bug zero. Part of the issue is tha
 *   **Non-actionable bugs**: Move these out of your active queue by assigning them a clear status like "On Hold" or "Awaiting Input." A term like "Backlog" can be misleading, as it often implies the work is ready to be started. The key is to have a separate, clearly named queue for items that are currently blocked.
 
 *   **Wrong-owner bugs**: Your role here is to be a facilitator, not to take on the work yourself. Identify the correct team or individual who should own the task and reassign the bug to them, adding a comment that explains the rationale. This reinforces proper roles and responsibilities and ensures the right experts are doing the work.
+
+## Next post in series
+
+Continue reading the next post in this series: [Defining bug zero and two obstacles: Reducing review time and gathering context](/blog/defining-bug-zero-and-obstacles).
