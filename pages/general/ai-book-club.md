@@ -39,7 +39,7 @@ The following tables list the reading schedule. The descriptions are extracts fr
    <tbody>
       <tr>
          <td>
-            <b>September 21, 2025<br/>10am PT</b>
+            <b>September 21, 2025<br/>9am PT</b>
             <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
          </td>
          <td>
