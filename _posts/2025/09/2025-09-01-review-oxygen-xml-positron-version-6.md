@@ -1,13 +1,14 @@
 ---
 title: "Review of Oxygen XML's AI Positron Assistant 6.0"
 permalink: /blog/review-oxygen-xml-positron-version-6
-date: 2024-09-01
+date: 2025-09-01
 categories:
 - ai
 keywords: oxygen xml, syncro soft, AI editors, windsurf, cursor
 rebrandly: https://idbwrtng.com/review-oxygen-xml-positron-version-6
 description: "Two years ago, I wrote a review of Oxygen XML's AI Positron Assistant, which had just recently launched at the time (see <a href='/blog/first-look-at-oxygen-xml-positron-assistant'>First look at the OxygenXML's AI Positron Assistant</a>). In 2023, generative AI was just coming onto the scene and companies were trying to integrate AI features into their products. I've always been impressed at the speed in which the Oxygen XML's engineering teams enhance their editors with new features, including AI. The other week the team reached out to see if I would write another review based on the many updates to the AI Positron Assistant since that initial version. I agreed, interested to see how the tool had evolved, especially given how much my own AI-assisted writing workflows have changed over the past two years."
-# image: 
+image: positronthumbv6.png
+published: false
 ---
 
 * TOC
