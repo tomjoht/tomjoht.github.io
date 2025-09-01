@@ -82,7 +82,7 @@ Another common workflow I use is to drag multiple files into the Positron Assist
 
 The context worked and Positron listed all the grammar errors in the files in the chat pane. But then I couldn't figure out how to apply the updates back to the multiple files. I tried typing “Apply the updates to the files” as a prompt but got an error when Positron tried writing to the files. Also, the diff button didn't seem smart enough to apply different updates to different parts of the files.
 
-I think I'd need to selectively copy and paste from the chat pane back into the editor as I saw fit. This is fine, but it doesn't showcase the a more automated agent workflow. A helpful doc agent can perform multiple actions across multiple files.
+I think I'd need to selectively copy and paste from the chat pane back into the editor as I saw fit. This is fine, but it doesn't showcase the more automated agent workflow. A helpful doc agent can perform multiple actions across multiple files.
 
 In looking more closely at Positron's option, I realized that the intended workflow for this multi-file operation is designed a bit differently. I should select multiple files, right-click, and then choose **Refactoring > AI Positron Refactoring**. 
 
@@ -92,7 +92,7 @@ From there you can select from a list of quick actions like inserting short desc
 
 <figure><img class="oxygenScreenshot" style="max-width:400px" src="{{site.media}}/refactoringdialogboxoxygen.png" alt="Refactoring dialog box" /><figcaption>Options in the refactoring dialog box</figcaption></figure>
 
-This workflow then applies the file updates to the correct files, without the need to manually copy them in. This example reinforces the idea that it simply takes time to become familiar with the intended workflows, available right-click menus, and others AI features available in an editor. This is something I would quickly pick up if using Oxygen XML on a daily basis for writing docs.
+This workflow then applies the file updates to the correct files, without the need to manually copy them in. This example reinforces the idea that it simply takes time to become familiar with the intended workflows, available right-click menus, and other AI features available in an editor. This is something I would quickly pick up if using Oxygen XML on a daily basis for writing docs.
 
 ### Scenario 4: Ask AI to update the selected content
 
@@ -118,7 +118,7 @@ One powerful feature in an upcoming version of Oxygen XML is the Model Context P
 
 In this case, the DITA-OT MCP seems to have the whole DITA spec and documentation available. By connecting the Positron AI to this DITA-OT MCP, it will make Positron much smarter and more capable in performing DITA-specific actions. In the demo, the presenter typed "read the wiki for DITA-OT and tell me how to install it." The response was then specifically drew from the DITA-OT information:
 
-<figure><img style="max-width: 500px" class="oxygenScreenshot" src="{{site.media}}/mcpintegrationoxygen.png" alt="MCP integration" /><figcaption>MCP integration allows the AI responses to be more informed and capable.</figcaption></figure>
+<figure><img class="oxygenScreenshot" src="{{site.media}}/mcpintegrationoxygen.png" alt="MCP integration" /><figcaption>MCP integration allows the AI responses to be more informed and capable.</figcaption></figure>
 
 I wondered if other editors like Cursor AI would become DITA-smart by connecting to the same DITA-OT MCP. At any rate, now you can ask Positron more DITA-specific questions, and the agent can both provide more accurate responses and actions.
 
