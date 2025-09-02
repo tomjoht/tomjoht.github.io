@@ -51,11 +51,11 @@ But as I've tried to use AI tools to write blog posts, brainstorm, upgrade my si
 
 My general strategy for using AI is as follows: In which tasks do AI tools excel, but which humans perform poorly? Those are the tasks to use AI. 
 
-To determine what works and doesn't, I try AI tools out in real tech comm scenarios. Nothing moves you past the hype cycle's peak more than actually trying AI out in documentation-related tasks. Although full access to tool usage for corporate documentation is still heavily restricted, I've often resorted to using the tools on my API course content, blog, and elsewhere. I've found the following 10 scenarios to work well.
+To determine what works and doesn't, I try AI tools out in real tech comm scenarios. Nothing moves you past the hype cycle's peak more than actually trying AI out in documentation-related tasks. Although full access to tool usage for corporate documentation is still heavily restricted, I've often resorted to using the tools on my API course content, blog, and elsewhere. I've found the following 9 scenarios to work well.
 
-## 10 tech comm use cases for AI
+## 9 tech comm use cases for AI
 
-The following are 10 scenarios where AI works well:
+The following are 9 scenarios where AI works well:
 
 * [Develop build and publishing scripts](ai-tools-build-publish-api-docs.html)
 * [Understand the meaning of code](docapis_ai_learn_coding.html)
