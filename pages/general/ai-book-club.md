@@ -9,7 +9,7 @@ last-modified: 2025-07-19
 
 The reading covers general books on AI, not necessarily books oriented towards tech comm, or engineering-heavy books, or even books specifically focusing on this "human in the loop" theme. As you can see from the reading schedule below, the books are generally popular books on AI targeting a general interest audience. 
 
-However, I think these books will be a good catalyst for thinking about AI, and there might be many themes and takeaways that will likely apply to whatever you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
+However, these books are a good catalyst for thinking about AI, and there might be many themes and takeaways that will likely apply to whatever you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
 
 * TOC
 {:toc}
@@ -21,6 +21,13 @@ The reading pace is one book a month, as listed in the schedule below. This acce
 Although AI news seems to change daily, giving the impression that books are too slow to keep up, actually the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to engage beyond just keeping up with the latest model release or newsy headlines.
 
 There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. The meetings take place on third Sunday of each month at 10am Pacific Time.
+
+## Recordings
+
+Each book club is recorded, using Google Meet as the platform. The recordings are uploaded to YouTube and shared on this site. See the MEETING RECORDING links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
+
+{:.note}
+If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you do need me to edit out out part of the conversation, though, let me know and I will gladly make the edit.
 
 ## Reading schedule {#schedule}
 
@@ -37,18 +44,6 @@ The following tables list the reading schedule. The descriptions are extracts fr
       </tr>
    </thead>
    <tbody>
-      <tr>
-         <td>
-            <b>September 21, 2025<br/>9am PT</b>
-            <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i></a> by Karen Hao</p>
-            <p class="book-summary">"[Hao] realized that the core truth of this massively disruptive sector is that its vision of success requires an almost unprecedented amount of resources: the “compute” power of high-end chips and the processing capacity to create massive large language models, the sheer volume of data that needs to be amassed at scale, the humans “cleaning up” that data for sweatshop wages throughout the Global South, and a truly alarming spike in the usage of energy and water underlying it all. The truth is that we have entered a new and ominous age of empire: only a small handful of globally scaled companies can even enter the field of play. At the head of the pack with its ChatGPT breakthrough, how would OpenAI resist such temptations?"</p>
-         </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1tAqsTZn7w9Dgti1KGj9g-poj33uwhXngDTagBnY0TuY">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
       <tr>
          <td>
             <b>October 19, 2025<br/>10am PT</b>
@@ -125,6 +120,19 @@ The previous meetings include recordings, notes, and other resources. They're li
       </tr>
    </thead>
    <tbody>
+         <tr>
+         <td>
+            <b>September 21, 2025<br/></b><br/>
+               <a href="/blog/book-club-empire-of-ai"><b>MEETING RECORDING</b></a>
+            <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i></a> by Karen Hao</p>
+            <p class="book-summary">"[Hao] realized that the core truth of this massively disruptive sector is that its vision of success requires an almost unprecedented amount of resources: the “compute” power of high-end chips and the processing capacity to create massive large language models, the sheer volume of data that needs to be amassed at scale, the humans “cleaning up” that data for sweatshop wages throughout the Global South, and a truly alarming spike in the usage of energy and water underlying it all. The truth is that we have entered a new and ominous age of empire: only a small handful of globally scaled companies can even enter the field of play. At the head of the pack with its ChatGPT breakthrough, how would OpenAI resist such temptations?"</p>
+         </td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1tAqsTZn7w9Dgti1KGj9g-poj33uwhXngDTagBnY0TuY/edit?tab=t.0#heading=h.9fjjlshp70zh">Notes and discussion</a><br/>
+             </p></td>
+      </tr>
       <tr>
          <td>
             <p><b>August 17, 2025<br/></b><br/>
