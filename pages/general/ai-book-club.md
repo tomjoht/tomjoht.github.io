@@ -123,7 +123,7 @@ The previous meetings include recordings, notes, and other resources. They're li
          <tr>
          <td>
             <b>September 21, 2025<br/></b><br/>
-               <a href="/blog/book-club-empire-of-ai"><b>MEETING RECORDING</b></a>
+               <a href="/blog/book-club-empire-of-ai"><b>MEETING RECORDING</b></a><a href="/blog/book-review-empire-of-ai-karen-hao">MY BOOK REVIEW</a>
             <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
          </td>
          <td>
@@ -136,7 +136,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       <tr>
          <td>
             <p><b>August 17, 2025<br/></b><br/>
-               <a href="https://youtu.be/4xhTY_N2s98"><b>MEETING RECORDING</b></a>
+               <a href="/blog/book-club-lee-ai-superpowers"><b>MEETING RECORDING</b></a>
             </p>
             <figure><a href="https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"><img src="{{site.media}}/aisuperpowers_aibookclub.png" alt="AI Superpowers: China, Silicon Valley, and the New World Order" /></a></figure>
          </td>
@@ -150,7 +150,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       </tr>
       <tr>
          <td>
-            <p><b>July 20, 2025<br/></b><br/>NO RECORDING</p>
+            <p><b>July 20, 2025<br/></b><br/>NO RECORDING</p><br/><a href="/blog/olson-supremacy-dreams-capitalism">MY BOOK REVIEW</a>
             <figure><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
          </td>
          <td>
@@ -196,7 +196,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       <tr>
          <td>
             <p><b>April 20, 2025<br/><br/>
-                  <a href="https://youtu.be/vUUQ6j7rNTo">MEETING RECORDING</a></b>
+                  <a href="https://youtu.be/vUUQ6j7rNTo">MEETING RECORDING</a></b><br/><a href="/blog/jonathan-warner-more-than-words-book-review">MY BOOK REVIEW</a>
             </p>
             <figure><a href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
