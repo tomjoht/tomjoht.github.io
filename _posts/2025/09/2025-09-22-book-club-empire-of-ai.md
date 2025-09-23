@@ -1,5 +1,5 @@
 ---
-title: "Recording of AI Book Club discussion for Karen Hao's Empire of AI"
+title: "Recording of AI Book Club discussion of Karen Hao's Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI"
 permalink: /blog/book-club-empire-of-ai
 date: 2025-09-22
 categories:
@@ -7,7 +7,7 @@ categories:
 - ai-book-club
 keywords: 
 rebrandly: https://idbwrtng.com/book-club-empire-of-ai
-description: "This is a recording of the AI Book Club discussion about Karen Hao's <i>Empire of AI: Dreams and nightmares in Sam Altman's AI</i>. The discussion is an informal, casual discussion with about half a dozen people online through Google Meet. You can also read a transcript and other details about the book here."
+description: "This is a recording of the AI Book Club discussion about Karen Hao's <i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i>. The discussion is an informal, casual discussion with about half a dozen people online through Google Meet. You can also read a transcript and other details about the book here."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/empireofaibookclubdiscussion.mp3
 podcast_file_size: 43.8
 podcast_duration: "58:31"
@@ -21,9 +21,9 @@ image: empireofaithumbimage.png
 
 ## Book club meeting recording
 
-Here's a recording of the discussion:
+Here's a recording of the discussion of Hao's *Empire of AI*:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ep4oEUBO9yU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ep4oEUBO9yU" title="Book Club discussion of Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Audio only
 

@@ -1,5 +1,5 @@
 ---
-title: "Book review of Empire of AI: Dreams and nightmares in Sam Altman's AI, by Karen Hao"
+title: "Book review of <i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i> by Karen Hao"
 permalink: /blog/book-review-empire-of-ai-karen-hao
 date: 2025-09-22
 categories:
