@@ -30,6 +30,8 @@ This worries me for several reasons. First, I have pretty advanced AI tools at n
 
 Because I've been unable to achieve bug zero, it makes me think that maybe I've overestimated AI's potential to impact workforce velocity. Some hard limits seem to be in place around the review process and information gathering. I'll explore each of these issues in detail.
 
+{% include ads.html %}
+
 ## Review times
 
 Even if AI writes the bug update for me, I still want to review the update to make sure it makes sense and seems accurate. I often want to fact-check the update against the API reference to make sure I'm not submitting bogus changelists to engineers for review. I feel uncomfortable having AI make the update and submitting the change to engineers for review without first reviewing it myself. Even if it's a cursory review, I still want and need to review the output from AI. This review time puts the brakes on what might otherwise be faster acceleration from AI.
@@ -66,7 +68,4 @@ I mean, if engineers are actually going to contribute docs in a helpful way, the
 ## Continuing this series
 
 This post on bug zero is part of an ongoing series I'm writing, so this is just one of many posts to come. This series is all about figuring out how to get past the obstacles that are preventing bug zero. The solutions aren't easy, so I might just hit a wall on many attempts. Even so, I think this is a noteworthy goal and one that requires me to explore and investigate different AI solutions to achieve it.
-
-
-{% include ads.html %}
 
