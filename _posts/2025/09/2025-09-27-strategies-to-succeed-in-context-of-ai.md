@@ -18,9 +18,7 @@ About a month ago, I had coffee with a friend who teaches technical writing at a
 
 But first, a little more background about the current environment and AI context. Just last week at my work, we wrapped up an internal conference for tech writers, where there were nearly 20 talks on AI. Post conference, we had a 15+ person discussion reflecting on the conference's AI themes and the larger takeaways. It was one of the most lively and well-attended group discussions we've had. To prepare for this discussion (which I facilitated), I ingested all the AI-themed talks through NotebookLMs (something I'll expand on later) and then looked at salient themes.
 
-The signs are everywhere, and there's real anxiety about how this all plays out in five years. For example, this morning I opened the WSJ to see this article: [Walmart CEO Issues Wake-Up Call: ‘AI Is Going to Change Literally Every Job'](https://www.wsj.com/tech/ai/walmart-ceo-doug-mcmillon-ai-job-losses-dbaca3aa). The article doesn't leave you feeling good about the future. 
-
-In this post, I'll tackle this question: What strategy should we follow to land safely on the other side? More specifically, as our role changes from writer to director, what characteristics will be most helpful to thrive?
+The signs are everywhere, and there's real anxiety about how this all plays out in five years. In this post, I'll tackle this question: What strategy should we follow to land safely on the other side? More specifically, as our role changes from writer to director, what skills will be most helpful to thrive?
 
 First, I should acknowledge, in the spirit of humility, that no one knows the future, and if the past provides any lessons, it's that the future usually surprises us. I don't pretend to have certainty about how to safely navigate job erosion amid growing AI. What works for one might not make sense for another, especially across different specializations and domains. But I have tried to sort and organize my thoughts on the topic, and would like to share them here, if only for myself.
 
@@ -30,7 +28,7 @@ The most salient theme of our internal tech comm conference was that the role of
 
 In our new role as content editors and directors, what skills will help us excel? There are probably many relevant ones, but rather than provide a laundry list, I'll focus on the most important two: developing subject matter expertise and tool expertise.
 
-Before jumping into these two areas, though, let me acknowledge and address some other skills. These might be considered foundational skills. They're still important, but they aren't going to be the killer skills.
+Before jumping into these two areas, though, let me acknowledge and address some other skills. These might be considered foundational skills. They're still important, but they aren't going to be the standout skills.
 
 **Editorial judgment**
 
