@@ -5,6 +5,7 @@ date: 2025-09-22
 categories:
 - ai
 - ai-book-club
+- podcasts
 keywords: 
 rebrandly: https://idbwrtng.com/book-club-empire-of-ai
 description: "This is a recording of the AI Book Club discussion about Karen Hao's <i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i>. The discussion is an informal, casual discussion with about half a dozen people online through Google Meet. You can also read a transcript and other details about the book here."
