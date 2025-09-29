@@ -1,5 +1,5 @@
 ---
-title: "How AI is changing the role of technical writers to 'context curators' and 'content directors'"
+title: "How AI is changing the role of technical writers to context curators and content directors"
 permalink: /blog/podcast-fabri-tom-sept-episode-1
 date: 2025-09-28
 categories:
@@ -7,7 +7,7 @@ categories:
 - podcasts
 keywords: AI, technical writing, documentation, career validation, content curation, agent markdown files, technical communication, writer anxiety, evolving roles, community collaboration
 rebrandly: https://idbwrtng.com/podcast-ai-sept-fabri-discussion
-description: "In this conversational podcast, Fabrizio Ferri Benedetti (<a href='https://passo.uno'>Passo.uno</a>) and I talk about the impact of AI on the technical writing profession. We tackle the anxiety, seen and felt almost everywhere, but especially on Reddit, within the community about job security and analyze the evolution of the technical writer's role into a more strategic context curator or content director. We also cover practical applications of AI, such as using agents markdown files to guide language models (with style overrides or API reference contexts), and the role documentation plays in improving AI's outputs (Fabri's phrase 'AI must RTFM')."
+description: "In this conversational podcast, Fabrizio Ferri Benedetti (<a href='https://passo.uno'>Passo.uno</a>) and I talk about the impact of AI on the technical writing profession. We tackle the anxiety, seen and felt almost everywhere, but especially on Reddit, within the community about job security and analyze the evolution of the technical writer's role into a more strategic context curator or content director. We also cover practical applications of AI, such as using agents markdown files to guide language models (with style overrides or API reference contexts), and the role documentation plays in improving AI's outputs (Fabri's phrase <i>AI must RTFM</i>)."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/fabritomroletechwriterepisode1
 podcast_file_size: 46.4
 podcast_duration: "53:53"
@@ -26,13 +26,15 @@ If you prefer to only listen to the audio:
 
 ## Articles discussed
 
-Here are the three articles we discussed during the episode. The first two are from Fabrizio's site, [Passo.uno](https://passo.uno), the last one from mine:
+Here are the three articles we discussed during the episode. The first two are from Fabrizio's site, [Passo.uno](https://passo.uno), the last from mine:
 
 * [AI must RTFM: Why technical writers are becoming context curators](https://passo.uno/from-tech-writers-to-ai-context-curators/), by Fabrizio Ferri Benedetti
 * [The future is open: Answering the most common tech writing worries](https://passo.uno/tech-writing-optimism-reddit/), by Fabrizio Ferri Benedetti
 * [Two strategies to succeed when AI seems to be eroding jobs around you](/blog/strategies-to-succeed-in-context-of-ai), by Tom Johnson
 
 ## Takeaways 
+
+The following are some high-level takeaways from this podcast:
 
 * AI is reshaping the role of technical writers, but it won't replace them.
 * Technical writing serves as a gateway to other roles in tech.
@@ -49,67 +51,69 @@ Here are the three articles we discussed during the episode. The first two are f
 
 To record this interview, we used [Riverside.fm](https://riverside.fm/), which also auto-generates some shorts from the longer video. I included these shorts here. 
 
-<iframe width="315" height="560" src="https://www.youtube.com/embed/8xhi1lI-vyA" title="AI tools: try before you judge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="158" height="281" src="https://www.youtube.com/embed/8xhi1lI-vyA" title="AI tools: try before you judge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/0tWp4IbK4m8"
 title="AI minions for tech writers"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/4PbdHb5xeD4"
 title="AI as an inevitable ship"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/QoVl0jJ4hBA"
 title="Tech writers not obsolete in AI era"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/s4Ct8Z-gU-8"
 title="AI and the double edged sword"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/xPL-gFSVwEE"
 title="Doc-driven development: LLMs need good context"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/PpIKuGqpgvI"
 title="AI in tech docs as a mixed bag"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/9lLmaIzGUOg"
 title="AI's impact on tech creation and continual need for docs"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="315" height="560"
+<iframe width="158" height="281"
 src="https://www.youtube.com/embed/sKcZi9ViDtk"
 title="Will tech writers survive the future of technology"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M2nfigIKTkU" title="AI's productivity paradox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/M2nfigIKTkU" title="AI's productivity paradox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Chapters
+
+For specific timestamps in the video, see the following:
 
 * 00:00 Introduction to the Podcast and Hosts
 * 03:02 The Impact of AI on Technical Writing
