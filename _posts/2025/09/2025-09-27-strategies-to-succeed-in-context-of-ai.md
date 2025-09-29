@@ -106,7 +106,7 @@ Finally, competition is also contributing to the acceleration. Consider this exa
 
 Note that I said I'm optimistic *about the need for tech writers* in the future, not about a utopian future itself. It's good that technology is expanding and proliferating at an accelerated pace if you're in the business of documenting said technology. But the future might be entirely dystopian. We could be mired in AI drone wars, massive cyberattacks, delusional chat spirals, manipulation and disinformation campaigns, social upheaval due to unemployment waves, and more. We might hate our technology-saturated future, but it's likely that we may keep our tech writing jobs.
 
-### Another argument for the relevance of tech comm
+## Another argument for the relevance of tech comm
 
 Finally, I haven't even pitched the strongest argument for why technical writers and documentation will continue to be relevant in the future: AI tools are terrible without good documentation. In the same way that you need valid, accurate context when using AI tools to create documentation, AI tools need an accurate body of documentation to produce useful, hallucination-free outputs. Informal tests by my colleagues show that AI outputs improve by orders of magnitude when trained on more abundant and accurate documentation.
 
