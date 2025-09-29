@@ -8,7 +8,7 @@ categories:
 keywords: AI, technical writing, documentation, career validation, content curation, agent markdown files, technical communication, writer anxiety, evolving roles, community collaboration
 rebrandly: https://idbwrtng.com/podcast-ai-sept-fabri-discussion
 description: "In this conversational podcast, Fabrizio Ferri Benedetti (<a href='https://passo.uno'>Passo.uno</a>) and I talk about the impact of AI on the technical writing profession. We tackle the anxiety, seen and felt almost everywhere, but especially on Reddit, within the community about job security and analyze the evolution of the technical writer's role into a more strategic context curator or content director. We also cover practical applications of AI, such as using agents markdown files to guide language models (with style overrides or API reference contexts), and the role documentation plays in improving AI's outputs (Fabri's phrase <i>AI must RTFM</i>)."
-podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/fabritomroletechwriterepisode1
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/fabritomroletechwriterepisode1.mp3
 podcast_file_size: 46.4
 podcast_duration: "53:53"
 podcast_length: 45761778
