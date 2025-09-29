@@ -142,7 +142,7 @@ The following is a transcript of the podcast, with the grammar slightly cleaned 
 
 So just a quick intro. I'm based in Seattle. I've been a technical writer for about 20 years. My original background isn't in engineering; it's more in creative writing and English—the humanities. But I've focused on tech for so many years that those are sort of long echoes of my past. Anyway, Fabrizio, do you want to introduce yourself a little bit for people? Tell them about what you're focused on or where you're based.
 
-**Fabrizio** Sure, sure. Good day, Tom. First of all, I'm happy to be here. I think this is going to be exciting. I'm Fabrizio. You can call me Fabri; it's way easier that way. I'm based in Barcelona, Spain—sunny Barcelona, as they always present it in job offers. I've been a tech writer, with different roles, job descriptions, and positions, for about 15 years.
+**Fabrizio:** Sure, sure. Good day, Tom. First of all, I'm happy to be here. I think this is going to be exciting. I'm Fabrizio. You can call me Fabri; it's way easier that way. I'm based in Barcelona, Spain—sunny Barcelona, as they always present it in job offers. I've been a tech writer, with different roles, job descriptions, and positions, for about 15 years.
 
 So a little less than you, but I'm really enjoying this line of work. I've been getting more and more technical over the years, and I really like developer documentation, for example. AI has been all the rage lately, so I'm very curious to see where our conversations go. Maybe we can find something interesting for the folks listening to us.
 
@@ -156,15 +156,15 @@ First of all, I have to say, I love your blog. You've got a really nice writing 
 
 ### The Pervasive Anxiety in Technical Writing
 
-**Fabrizio** Maybe we could start from "The future is open" blog post for a reason. I think one of the reasons we are doing this today is that we feel compelled to find answers to what is a real anxiety that writers have. I think tech writers have been very worried since the beginning, two or three years ago, when the first news of ChatGPT appeared and the first notions that it could replace writers everywhere.
+**Fabrizio:** Maybe we could start from "The future is open" blog post for a reason. I think one of the reasons we are doing this today is that we feel compelled to find answers to what is a real anxiety that writers have. I think tech writers have been very worried since the beginning, two or three years ago, when the first news of ChatGPT appeared and the first notions that it could replace writers everywhere.
 
 Two or three years in, we see that this is not the case yet. At least not at the level where we're moving, because we are two senior writers. I don't know about junior positions. It's true that I've seen fewer junior positions opening, but it's also true that the market has shrunk a bit after the pandemic. So I don't know what the cause is. It's very complex, but I do recognize a lot of anxiety. From time to time, I get into Reddit. There's a technical writing community there, and man, every time I scroll the latest posts, there's always someone saying, "I need advice, please help me. What should I do? Should I start a career? Should I pivot?" It's a recurring theme, and it's okay. People have questions. They're new to the field, they use communities like that, and I try to address some of those concerns. A big one is AI. I think we are also here to try to provide some pointers. What do you think?
 
 **Tom:** Yeah, I like your approach. You've downplayed this a bit in your description of that post, but I really like your approach to probing Reddit here. You wrote a script that went and gathered 200 posts from Reddit and analyzed them for common themes. I think that's pretty cool.
 
-**Fabrizio** Using AI, of course.
+**Fabrizio:** Using AI, of course.
 
-**Tom:** I browse Reddit a lot too. If listeners don't know which one we're talking about, it's reddit.com/r/technicalwriting. The technical writing subreddit. And yeah, Reddit is interesting because it's so raw. Since people can post anonymously, you really do get these raw takes of people expressing anxiety that you wouldn't otherwise see.
+**Tom:** I browse Reddit a lot too. If listeners don't know which one we're talking about, it's [reddit.com/r/technicalwriting](https://reddit.com/r/technicalwriting). The technical writing subreddit. And yeah, Reddit is interesting because it's so raw. Since people can post anonymously, you really do get these raw takes of people expressing anxiety that you wouldn't otherwise see.
 
 It's entertaining in some ways and disheartening in others. The themes recur, you're right. Every so often you see something that says, "Hey, I'm in a terrible workplace. My employer's asking me to do these things and I don't have the bandwidth. Is this even feasible?" Or, as you say, people questioning their capabilities, saying, "I don't know if I can cut it. This is so hard and I feel like an imposter." And other people who are like, "Hey, what are you all being paid? Am I being underpaid? This role is offering me 40 bucks an hour. Should I take it?" It's all over the place, but I love surfing Reddit.
 
@@ -172,7 +172,7 @@ In your post, you talked about four different salient themes. The first one was 
 
 **Technical Writing as a Launching Pad**
 
-**Fabrizio** I always see technical writing as a landing pad. If you manage to get your foot in the door of a tech company, that's already half of the job. You get in, you learn about the stack, you learn about the processes of the company, and you start contributing. How you contribute might evolve over time. You write documentation, but I've seen technical writers transitioning to software development or product management.
+**Fabrizio:** I always see technical writing as a landing pad. If you manage to get your foot in the door of a tech company, that's already half of the job. You get in, you learn about the stack, you learn about the processes of the company, and you start contributing. How you contribute might evolve over time. You write documentation, but I've seen technical writers transitioning to software development or product management.
 
 Those things happen because, in the end, technical writers are like chroniclers of a product. They are also the first users of a product. Other writers I know have been doing quality assurance testing on the side, and they grew to like it. So you can move horizontally quite a bit from a technical writing position if you play your cards well and the company allows for it. I think it's always a good choice to be there. If you can get into a company you like and you think the environment is positive, then you can maybe grow into some other role or continue doing tech writing. For me, you cannot know if it's going to be a good choice unless you're on the inside. The question is, "Where can I go from here? I landed as a tech writer, what's next? Or should I continue doing this?" But you're already in.
 
@@ -186,7 +186,7 @@ Technology has become so integral to our lives. This particular day and age with
 
 It's a paradox that people develop new AI tools but then have the worst documentation for them. It's opaque about how it works or how to use it. It's like, use the same tools to document what you just created! Anyway, I see a more optimistic future. I should note that I don't want to paint that future as utopian, because more tech could lead to a dystopian future, but there will probably still be jobs for tech writers, in my opinion.
 
-**Fabrizio** Yeah, there's an opportunity, and there's also risk, like with any big change. The big opportunity I see is that we could get to do less repetitive work and focus on what really matters. Tech writers are almost always overworked, and tech writing teams are almost always understaffed. That's the reality of our job. Maybe we serve five teams at a typical tech company.
+**Fabrizio:** Yeah, there's an opportunity, and there's also risk, like with any big change. The big opportunity I see is that we could get to do less repetitive work and focus on what really matters. Tech writers are almost always overworked, and tech writing teams are almost always understaffed. That's the reality of our job. Maybe we serve five teams at a typical tech company.
 
 Suddenly, we will see developers starting to produce more documentation thanks to LLMs. The opportunity is that if we are there and we can somehow steer or control the production of that documentation, it will be beneficial. If we don't control the process a bit—and by control, I mean as a curator or an editor-in-chief—we risk becoming what Cory Doctorow defined as "accountability sinks." We don't want to be a cog in the machine that just posts content from AI and is responsible for what LLMs produce without having much say in it. We want to guide the LLMs, shepherd them, and have them produce the kind of content we would like to produce ourselves. Then we can put our seal of approval on it.
 
@@ -194,17 +194,17 @@ Suddenly, we will see developers starting to produce more documentation thanks t
 
 **Tom:** Yeah, you're arguing that we should move towards more strategic roles and not just be handling mundane, repetitive tasks. We don't want to be just plugging stuff into an AI tool, grabbing the output, pasting it in, and having SMEs review it for us.
 
-**Fabrizio** Exactly. We can start thinking more about things like style, or having a more editorial approach. I know many writers majored in English literature, for example. As an English major, you probably have deeper views than developers on things like communication patterns or style, or how you would like the documentation to look if it were a book. We have always lived in a state of frustration as tech writers because we couldn't really get to that point of refinement where we wanted a greater degree of control over docs as a product, even a literary product. But if we have these AI minions at our service, writing according to our vision... if that works, it would be fantastic. The question is still open, though.
+**Fabrizio:** Exactly. We can start thinking more about things like style, or having a more editorial approach. I know many writers majored in English literature, for example. As an English major, you probably have deeper views than developers on things like communication patterns or style, or how you would like the documentation to look if it were a book. We have always lived in a state of frustration as tech writers because we couldn't really get to that point of refinement where we wanted a greater degree of control over docs as a product, even a literary product. But if we have these AI minions at our service, writing according to our vision... if that works, it would be fantastic. The question is still open, though.
 
 **Tom:** I definitely agree with that move. I had an experience last month that sort of disillusioned me about some of the promises AI is making. Most people promote AI's value by saying, "This will free you up from mundane tasks so you can focus on more strategic, impactful work." In my head, I thought, "I'll finish my work by early afternoon and have several hours to tinker with a hobby project or focus on larger matters." So I set myself this goal of getting my bug count—my issue count of all the doc tasks—down to zero.
 
 The more I tried, the more elusive it became. I never got close to "bug zero." I usually have around 50 issues in my queue, and I got it down to 35 at one point before it went back up. Eventually, my pace became frenetic. I stopped writing on my blog, I stopped exercising—terrible stuff. My mental health went downhill because I was so fixated on it.
 
-**Fabrizio** An obsession.
+**Fabrizio:** An obsession.
 
 **Tom:** Yes, I got obsessed with it. I thought, "AI should be enabling me to do this." Meanwhile, my productivity has always been pretty high. I came to the conclusion, after giving up on bug zero, that AI isn't going to free up a bunch of time for us. The pace is just accelerating all around us. Everybody is using AI, coding twice as much, and flinging more doc requests at us at an accelerated pace. As a result, I'm just busier. I don't want to spend all my time just treading water doing what I consider not very challenging work.
 
-**Fabrizio** I've had that feeling too. For example, AI at work opened up lots of opportunities for me to contribute code to our tools, which is work we're not normally expected to do. So it's more work added on top of existing work. Productivity improvements should be measured against what you intended to do in the first place, not what you *can* do in total, because there's no limit. If you can do more work, you'll end up doing more work. What's setting the boundary? Where do you draw the line? I haven't figured out the answer yet. It's about being very intentional about your work and saying, "Okay, this is done. I'm done for the day." But with AI, it's difficult because you can always do that one extra thing.
+**Fabrizio:** I've had that feeling too. For example, AI at work opened up lots of opportunities for me to contribute code to our tools, which is work we're not normally expected to do. So it's more work added on top of existing work. Productivity improvements should be measured against what you intended to do in the first place, not what you *can* do in total, because there's no limit. If you can do more work, you'll end up doing more work. What's setting the boundary? Where do you draw the line? I haven't figured out the answer yet. It's about being very intentional about your work and saying, "Okay, this is done. I'm done for the day." But with AI, it's difficult because you can always do that one extra thing.
 
 **From Writer to Context Curator and Content Director**
 
@@ -212,17 +212,17 @@ The more I tried, the more elusive it became. I never got close to "bug zero." I
 
 So I started a "to read" document. Every time something comes across my inbox that I should check out, I put it in this document. Then, when I have the mental space, I either read it or I've been putting it into NotebookLM and having it create video explainers or podcasts. That has been quite transformative this past week. I feel like I'm engaging with my subject matter domain on a deeper level, which will hopefully translate into better capabilities when I'm working on docs.
 
-**Fabrizio** But with increased capabilities, you'll cover even more surface and might end up getting even more work. That's when we need to ask for more writers.
+**Fabrizio:** But with increased capabilities, you'll cover even more surface and might end up getting even more work. That's when we need to ask for more writers.
 
 **Tom:** Yeah, about the "more writers" thing, I still see employers embracing this mindset of keeping hiring flat. Even when people leave, they're often not backfilled, forcing writers to rely on AI just to tread water. But as you said, if you're always just able to keep up even when you're not resourced enough, it's a recipe for burnout.
 
-**Fabrizio** The other day I was talking to a friend of mine who works as a proofreader. She's getting even more work, unlike translators, who are in a dire situation right now due to LLMs. You might have read articles about freelance programmers getting tons of gigs to fix LLM code because many projects end up as spaghetti code.
+**Fabrizio:** The other day I was talking to a friend of mine who works as a proofreader. She's getting even more work, unlike translators, who are in a dire situation right now due to LLMs. You might have read articles about freelance programmers getting tons of gigs to fix LLM code because many projects end up as spaghetti code.
 
 I guess there's an opportunity for tech writers to do two things. Okay, a company wants to automate most of its docs. Fine. But tech writers can set up the initial information architecture, set the guidelines, and even write context agent instructions. They can write the core of the documentation. Then, I guess automation could kick in, with agents writing the rest of the docs in a derivative way, with frequent checks by the writer. Even if a company wants to leverage full automation, there's room for people who can jump in and fix things.
 
 **Tom:** I didn't know that proofreaders were in increasing demand. Even if you use AI to write something, there's usually at least 5% of the language that is just not right. I'm sure it's way worse with code. I look at generated code and think, "Hey, it works," but I'm sure an expert would find issues.
 
-**Fabrizio** By now, you've probably detected typical AI writing patterns, like the word "crucial" or the overuse of dashes. I feel sorry for the users of dashes! I like them too, but they've become an AI pattern. People are starting to want writing that doesn't sound like AI. There's a market there for proofreaders, for sure.
+**Fabrizio:** By now, you've probably detected typical AI writing patterns, like the word "crucial" or the overuse of dashes. I feel sorry for the users of dashes! I like them too, but they've become an AI pattern. People are starting to want writing that doesn't sound like AI. There's a market there for proofreaders, for sure.
 
 **Tom:** Yeah, it's an interesting space where suddenly you have to throw in some errors or wording that isn't smooth just to make it sound human.
 
@@ -230,11 +230,11 @@ I guess there's an opportunity for tech writers to do two things. Okay, a compan
 
 **Tom:** The word "crucial"—this is one of my pet peeves. "Crucial," "delve," "leverage," "harness"... all this buzzwordy stuff that screams AI. What I did is create an internal file that overrides the AI's response with additional instructions. I think it's similar to the claude.md file you were writing about. This is one of those little tips for getting rid of AI language. I also have rules like "use sentence case capitalization," and a list of words it's never allowed to use.
 
-**Fabrizio** Yeah, and the emojis! They love emojis.
+**Fabrizio:** Yeah, and the emojis! They love emojis.
 
 **Tom:** Really? Tell me more about your use of this claude.md file. What is it? How do you use it?
 
-**Fabrizio** For a while now, there have been these LLM instructions files. Copilot called them "agent instructions." Now there's a trend to call them agents.md, which you can leave in the root of a repo if you're doing docs-as-code. Some LLM code editors, like Cursor or even Cody, support instructions per folder. You can have instruction files in each subfolder for specific rules, like "these are the dev docs, so these rules apply." Usually, they say for context reasons it should be no more than 500 lines of text, so you have to keep it short.
+**Fabrizio:** For a while now, there have been these LLM instructions files. Copilot called them "agent instructions." Now there's a trend to call them agents.md, which you can leave in the root of a repo if you're doing docs-as-code. Some LLM code editors, like Cursor or even Cody, support instructions per folder. You can have instruction files in each subfolder for specific rules, like "these are the dev docs, so these rules apply." Usually, they say for context reasons it should be no more than 500 lines of text, so you have to keep it short.
 
 It's pretty useful for providing minimum directions. I've created such a file at work for things like our extended Markdown macros. I explain how to use those macros, when to use them, what the top priorities are when creating a new file, some versioning information, etc. It's proving quite useful so far. The docs read less alien when the editor uses that file.
 
@@ -244,7 +244,7 @@ I see these files as even more useful for humans sometimes. If you promote it in
 
 But yeah, other tech writers were really pitching this idea. You construct this context in these agent files that have links to all the relevant docs, your style rules, and other considerations. Do you have different agent files in different directories, or one master file?
 
-**Fabrizio** Not yet. For now, I'm just experimenting with a common one. But we might specialize it for the most complex docs scenarios. For example, if release notes are consistently in a subfolder, we can have an agents.md file just for that folder explaining the context and formatting.
+**Fabrizio:** Not yet. For now, I'm just experimenting with a common one. But we might specialize it for the most complex docs scenarios. For example, if release notes are consistently in a subfolder, we can have an agents.md file just for that folder explaining the context and formatting.
 
 But the thing is, I don't always trust they are going to follow the rules 100% of the time. Human review is always necessary. And good old deterministic linting is not going to go away. Developers will tell you the same. The best auto-coding happens when you have a very strong test suite ready in the repo to make sure whatever code is coming out conforms to the specs. In our case, linters like Vale are still so useful. You can create a Vale rule for "crucial" and "delve," and it will flag that, even if the LLM doesn't or a human overlooks it. It's a safety net we always need.
 
@@ -252,7 +252,7 @@ But the thing is, I don't always trust they are going to follow the rules 100% o
 
 **Tom:** To connect this to a larger theme, you mentioned in your post that you see the technical writer role moving to more of a "context curator." With these agent files, you're constructing a context so that if an engineer tries to write, they have support and safety nets. But it seems like "context curator" applies to a lot of different aspects. You also have the role of someone adding documentation into the language model training via RAG or some other technique so that external users can get accurate information. And as a writer, you're figuring out the right context to generate documentation accurately. Do you want to talk more about being a context curator?
 
-**Fabrizio** LLMs right now need very good context to output decent code. Context can be code samples, but most of the time it's documentation. I've noticed a trend of developers starting a project from the docs. It's doc-driven development. Finally! We're seeing developers starting from a PR-FAQ, some user stories, or a fake README file for code that doesn't exist yet. Then they feed that to the LLM.
+**Fabrizio:** LLMs right now need very good context to output decent code. Context can be code samples, but most of the time it's documentation. I've noticed a trend of developers starting a project from the docs. It's doc-driven development. Finally! We're seeing developers starting from a PR-FAQ, some user stories, or a fake README file for code that doesn't exist yet. Then they feed that to the LLM.
 
 Technical writers are so well-positioned to curate this context. Who else, if not writers, can make the best of this? It's about owning the words that are going to be fed to the LLM. It's also about making it easier for that documentation to be continuously fed to LLMs. That can take the form of llms.txt files, for example. Years ago, we were talking about robots.txt for SEO. Now we have llms.txt for AI to consume content from your doc site. It's a bit like creating this cartridge that you plug into an LLM that contains the best documentation in the best form. I think we can be there. That's the editorial work for me. It's like the comeback of good old manuals. We're not editing physical books, but we can edit documentation sets.
 
@@ -264,13 +264,13 @@ As you point out in your article "AI must RTFM," this is a good reason for peopl
 
 **Tom:** I've certainly run into many detractors, people who just don't see the point and are going along with the AI train reluctantly. Sometimes they say, "I try to use AI and it just doesn't do anything for me," or "It takes longer to fix than it helps." They just aren't getting that conversion moment. I'm never quite sure how to react because it's so difficult to know if they're using the tools in the right way.
 
-**Fabrizio** The moment you tell them, "Try it out," they think you're trying to sell it to them. That's the trap. But I've seen folks postpone the moment of trying these tools. Maybe they've started reading lots of books on the topic, which is fine, but a bit of practice is also necessary. You have to get a feeling for how these tools interact with your work. Otherwise, it's hard to form an opinion.
+**Fabrizio:** The moment you tell them, "Try it out," they think you're trying to sell it to them. That's the trap. But I've seen folks postpone the moment of trying these tools. Maybe they've started reading lots of books on the topic, which is fine, but a bit of practice is also necessary. You have to get a feeling for how these tools interact with your work. Otherwise, it's hard to form an opinion.
 
 **Tom:** I agree. I'm surrounded by people who really dislike AI. My wife hates the topic. My kids have been taught that it's cheating or that it's destroying the environment. Even my academic friends say the general vibe in universities is to not endorse AI because it short-changes the learning process, which is why people go to college. At the same time, they're trying to prepare people for the workplace, so they're caught between a rock and a hard place.
 
 That conversion moment has to come from people experimenting and finding a place where it actually works. I really tried to make AI work more with my blog initially and eventually gave up. I realized my posts were better if I just wrote them myself. I'll still use it to fact-check and proofread, but the blog comes across much better when I write everything myself. But for tech docs at work, for some reason, nobody cares. I just generate them and make sure they look like Wikipedia articles—dry.
 
-**Fabrizio** Well, it's less about authorship and more about structure and patterns. It's a bit more like code. Even then, I wouldn't recommend that LLMs create narrative documentation entirely. But they're good for short-distance runs, like a subsection or a code sample. Tab auto-completion saves a lot of work, especially when making lots of corrections across a document.
+**Fabrizio:** Well, it's less about authorship and more about structure and patterns. It's a bit more like code. Even then, I wouldn't recommend that LLMs create narrative documentation entirely. But they're good for short-distance runs, like a subsection or a code sample. Tab auto-completion saves a lot of work, especially when making lots of corrections across a document.
 
 It's interesting, your feeling of isolation, but I think that opposition is good. It will help shape these tools even better. That's my hope. They will have to get better at what they're trying to do.
 
@@ -280,12 +280,12 @@ It's interesting, your feeling of isolation, but I think that opposition is good
 
 **Tom:** Hey, we've been chatting for quite a while and covered a lot of territory. I would really love to hear feedback from any listeners about whether they like this format. It's much more conversational. If you enjoyed this, let us know what feedback you have, and any other questions or thoughts.
 
-**Fabrizio** Yeah, or if you'd like us to talk about a specific topic or comment on something that came out, that's also very valid feedback.
+**Fabrizio:** Yeah, or if you'd like us to talk about a specific topic or comment on something that came out, that's also very valid feedback.
 
 **Tom:** And if you want to read more of these posts, we'll add them in the show notes. You can go to Fabrizio's blog at [passo.uno](https://passo.uno) and my blog, [idratherbewriting.com](https://idratherbewriting.com). You should be able to listen to this podcast on your favorite platform, as well as on YouTube. Any last thoughts, Fabri, before we wrap things up?
 
-**Fabrizio** I'm sure we will have lots of ideas for the next episode. This is moving so fast, right? I'd love to have more guests we can talk to. I think that would make it very interactive. But in general, it's good that we are here shaking the trees, trying to make some noise. We need to think more about our practice. Looking forward to our next chat.
+**Fabrizio:** I'm sure we will have lots of ideas for the next episode. This is moving so fast, right? I'd love to have more guests we can talk to. I think that would make it very interactive. But in general, it's good that we are here shaking the trees, trying to make some noise. We need to think more about our practice. Looking forward to our next chat.
 
 **Tom:** All right, thank you Fabri. Let's close it off here and we'll see you next time.
 
-**Fabrizio** See you.
+**Fabrizio:** See you.
