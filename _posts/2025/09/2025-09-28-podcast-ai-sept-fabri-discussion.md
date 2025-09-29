@@ -1,5 +1,5 @@
 ---
-title: "How AI is changing the role of technical writers to context curators and content directors"
+title: "Podcast: How AI is changing the role of technical writers to context curators and content directors"
 permalink: /blog/podcast-fabri-tom-sept-episode-1
 date: 2025-09-28
 categories:
