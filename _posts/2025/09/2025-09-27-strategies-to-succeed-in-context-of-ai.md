@@ -34,7 +34,7 @@ Before jumping into these two areas, though, let me acknowledge and address some
 
 **Editorial judgment**
 
-Editorial judgment is a skill that many seasoned writers already possess, but it's usually forgotten or overlooked. Your editorial judgment allows you to evaluate when AI's output is good or bad, and how to adjust content to fit into a larger landscape of information. This is basic writer awareness, which shouldn't be minimized. I'm frequently reminded of my editorial judgment when I see engineer struggle to understand how to evaluate content and add it to larger body of information.
+Editorial judgment is a skill that many seasoned writers already possess, but it's usually forgotten or overlooked. Your editorial judgment allows you to evaluate when AI's output is good or bad, and how to adjust content to fit into a larger landscape of information. This is basic writer awareness, which shouldn't be minimized. I'm frequently reminded of my editorial judgment when I see engineers struggle to understand how to evaluate content and add it to a larger body of information.
 
 Many of us already have writer's instincts that help us evaluate content as an editor and publisher, so I won't dwell on this here. I'd say, listen to your instincts about content. Not just about language, but about the overall quality, shape, and arrangement of information. Trust your writer's intuition. I like to think of this editorial judgment as being similar to that of a New York publishing house editor. I'm able to focus on content areas that need improvement while recognizing other parts of writing that are working well.
 
@@ -84,7 +84,7 @@ This was super helpful because it means I can keep my IDE context for the AI wor
 
 Even understanding the different tools available with different AI modes is important. For example, in chat mode, certain tools are available to read bugs and threads, but not in other modes. This is helpful to know if you're trying to collect a list of bug fixes for release notes, and so on. 
 
-I'm now experimenting with Gemini integration on the command line ([Gemini CLI](https://geminicli.com/)) and trying to better understand the tools and capabilities available there that aren't available elsewhere, such as MCP server access, larger token limits, command-line capabilities like running build commands, and more. The Gemini CLI lets you extends its capabilities through extensions, which are wired up through MCP servers. There's so much going on right now, it's hard to keep up. But if you don't keep up, you might miss out on tools that could transform your existing work processes and outputs.
+I'm now experimenting with Gemini integration on the command line ([Gemini CLI](https://geminicli.com/)) and trying to better understand the tools and capabilities available there that aren't available elsewhere, such as MCP server access, larger token limits, command-line capabilities like running build commands, and more. The Gemini CLI lets you extend its capabilities through extensions, which are wired up through MCP servers. There's so much going on right now, it's hard to keep up. But if you don't keep up, you might miss out on tools that could transform your existing work processes and outputs.
 
 ## An argument for future optimism
 
@@ -98,7 +98,7 @@ If there's one trajectory to bet on, it's this: **the future will have more tech
 
 We're living in a technology-saturated world that is only on pace to be more and more technology-dense. In this future, it seems unlikely that technical writers will become obsolete. Even with all the AI tools being developed at my work, which might be like a microcosm of the future, there's still a strong need for documentation. For example, as powerful as the Gemini command-line tool is, its documentation is among the worst, with many tech writers taking up the charge to fill in the gaps. 
 
-Sure, robots will do some of the technology work, but new tech work will sprout everywhere, in the form of new platforms, new apps, new analytic tools, and more. The tech jobs that are automated will be offset by a growing number of non-automatable tech jobs, as companies compete at a faster and faster pace, poushing out so many tools and updates that the world will feel inundated and overwhelmed by the breathless pace.
+Sure, robots will do some of the technology work, but new tech work will sprout everywhere, in the form of new platforms, new apps, new analytic tools, and more. The tech jobs that are automated will be offset by a growing number of non-automatable tech jobs, as companies compete at a faster and faster pace, pushing out so many tools and updates that the world will feel inundated and overwhelmed by the breathless pace.
 
 We often hear that AI will free us up from mundane tasks to focus on more strategic work. When I hear this, in my mind I picture someone who has finished their work by early afternoon and is now reading or tinkering on some hobby project. This image couldn't be further from reality. AI is accelerating everyone around us, so now, instead of 5 incoming bugs a day, you might be receiving 10. And next year, 15, and the year after, 20. Meanwhile, hiring stays flat. Because AI is accelerating everything, it's making us busier, not enabling blocks of free time on our calendars.
 
