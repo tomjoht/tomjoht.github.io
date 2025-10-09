@@ -7,6 +7,7 @@ categories:
 - api-doc
 - technical-writing
 keywords: 
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-jump-start-code-samples-activity-7246959051304026112-YKJx
 rebrandly: https://idbwrtng.com/code-samples-might-not-be-needed-anymore
 description: "Although code samples have long been a staple in API documentation, I'm not sure users need them that much. Many developers now use AI tools that can generate the same basic code samples that are commonly provided in documentation. If these same developers pass in either the source files or reference documentation, AI tools can generate the code samples they need in the language they want, and better yet, tailored to their project and business context."
 ---

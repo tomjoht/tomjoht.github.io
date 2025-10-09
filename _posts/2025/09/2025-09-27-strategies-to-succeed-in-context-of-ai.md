@@ -5,6 +5,7 @@ date: 2025-09-27
 categories:
 - ai
 keywords: 
+linkedin: https://www.linkedin.com/posts/tomjoht_two-strategies-to-succeed-when-ai-seems-to-activity-7381907957594128384-0Vk7
 rebrandly: https://idbwrtng.com/strategies-to-succeed-in-context-of-ai
 description: "This past year in the tech comm community, there's been a lot of angst about job security with AI. In this post, I argue that our roles are shifting from writers to content directors. In this new role, the skills we need for success are two-fold. I propose that we focus on developing (1) deep subject matter expertise and (2) tools expertise. I also share my optimistic view about why technical writers will remain essential in a future with ever-expanding technology. The tldr for that argument is that even as AI might remove some jobs, the exponential growth of tech will create more opportunities and needs for documentation. Additionally, the accuracy of AI tools highly depends on the quality of the documentation."
 ---

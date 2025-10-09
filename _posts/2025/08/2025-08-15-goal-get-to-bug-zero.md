@@ -5,6 +5,7 @@ date: 2025-08-15
 categories:
 - technical-writing
 keywords: 
+linkedin: https://www.linkedin.com/posts/tomjoht_strategies-for-making-doc-bugs-actionable-activity-7254916865846624258-34_e
 rebrandly: https://idbwrtng.com/goal-get-to-bug-zero
 description: "In the pursuit of <i>bug zero</i>, it helps to identify different types of bugs and the right strategies for dealing with each of them. In this post, I explore four common types of complex bugs I've encountered: Russian-doll bugs, scope-creep bugs, non-actionable bugs, and wrong-owner bugs."
 image: bugstrategiesthumb.png

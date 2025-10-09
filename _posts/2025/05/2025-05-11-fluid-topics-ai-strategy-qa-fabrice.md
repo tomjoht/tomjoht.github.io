@@ -5,6 +5,7 @@ date: 2025-05-11
 categories:
 - ai
 keywords: Fluid Topics, AI content management
+linkedin: https://www.linkedin.com/posts/tomjoht_integrating-ai-with-your-content-delivery-activity-7176222703207526401-wpUH
 rebrandly: https://idbwrtng.com/fluid-topics-ai-strategy-qa-fabrice
 description: "In this Q&A with Fabrice Lacroix, founder of <a href='https://www.fluidtopics.com/?utm_medium=referral&utm_source=idratherbewriting&utm_campaign=blog_idratherbewriting'>Fluid Topics</a>, I ask him questions about his recent tcworld article in which he argues for an innovative, advanced model for Enterprise Knowledge Platforms (EKPs) acting as a central AI-powered brain for all company content, delivered via APIs. Fabrice also outlines a future where tech writers become information architects, governing vast knowledge ecosystems and coaching diverse content contributors."
 image: tcworldfabricearticlethumb.png

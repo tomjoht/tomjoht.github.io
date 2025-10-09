@@ -6,6 +6,7 @@ categories:
 - ai
 - ai-book-club
 keywords: 
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-book-review-of-empire-of-ai-dreams-activity-7377354221630828544-5lSo
 rebrandly: https://idbwrtng.com/book-review-empire-of-ai-karen-hao
 description: "<p>In my <a href='/ai-book-club/'>AI Book Club</a>, we recently read <em><a href='https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500'><i>Empire of AI: Dreams and nightmares in Sam Altman's OpenAI, by Karen Hao</i></a></em>. In this post, I'll briefly share some of my reactions to the book. The main focus in my review is to analyze Hao's treatment of the mission-driven ideology around AGI that explains many of the motivations for the workers at OpenAI and similar AI companies.</p>"
 image: empireofaithumbbookcover.png

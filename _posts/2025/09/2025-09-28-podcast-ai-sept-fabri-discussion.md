@@ -6,6 +6,7 @@ categories:
 - ai
 - podcasts
 keywords: AI, technical writing, documentation, career validation, content curation, agent markdown files, technical communication, writer anxiety, evolving roles, community collaboration
+linkedin: https://www.linkedin.com/posts/tomjoht_podcast-how-ai-is-changing-the-role-of-technical-activity-7378419745928351745-fyoN
 rebrandly: https://idbwrtng.com/podcast-ai-sept-fabri-discussion
 description: "In this conversational podcast, Fabrizio Ferri Benedetti (<a href='https://passo.uno'>Passo.uno</a>) and I talk about the impact of AI on the technical writing profession. We tackle the anxiety, seen and felt almost everywhere, but especially on Reddit, within the community about job security and analyze the evolution of the technical writer's role into a more strategic context curator or content director. We also cover practical applications of AI, such as using agents markdown files to guide language models (with style overrides or API reference contexts), and the role documentation plays in improving AI's outputs (Fabri's phrase <i>AI must RTFM</i>)."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/fabritomroletechwriterepisode1.mp3
@@ -154,7 +155,7 @@ So a little less than you, but I'm really enjoying this line of work. I've been 
 
 First of all, I have to say, I love your blog. You've got a really nice writing style. You put a lot of thought behind your sentences and your meaning. It's really enjoyable to read. Where do you want to jump in?
 
-### The Pervasive Anxiety in Technical Writing
+**The Pervasive Anxiety in Technical Writing**
 
 **Fabrizio:** Maybe we could start from "The future is open" blog post for a reason. I think one of the reasons we are doing this today is that we feel compelled to find answers to what is a real anxiety that writers have. I think tech writers have been very worried since the beginning, two or three years ago, when the first news of ChatGPT appeared and the first notions that it could replace writers everywhere.
 

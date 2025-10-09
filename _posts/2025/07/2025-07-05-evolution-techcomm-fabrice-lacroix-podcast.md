@@ -6,6 +6,7 @@ categories:
 - ai
 - podcasts
 keywords: Fluid Topics, AI, technical writing, content delivery platforms, enterprise knowledge platforms, metadata, MCP servers, technical documentation, knowledge management, content strategy
+linkedin: https://www.linkedin.com/posts/tomjoht_will-our-next-users-be-ai-agents-the-future-activity-7348341636621324289-Twck
 rebrandly: https://idbwrtng.com/evolution-techcomm-fabrice-lacroix-podcast
 description: "In this podcast, I chat with Fabrice Lacroix, founder of Fluid Topics, about the evolution of technical communication. Fabrice describes the industry's progression from (1) delivering static, monolithic PDFs to (2) using Content Delivery Platforms (CDPs) that provide dynamic, topic-based information directly to users to (3) developing content not just for human consumption, but for AI agents that will use this knowledge to automate complex tasks and workflows."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/evolution-of-techcomm-fabrice-fluid-topics.mp3

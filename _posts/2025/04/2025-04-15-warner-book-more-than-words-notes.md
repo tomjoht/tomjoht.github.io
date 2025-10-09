@@ -8,6 +8,7 @@ categories:
 - writing
 - podcasts
 keywords: ai book club, warner, ai
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-techcomm-technicalwriting-activity-7188934644409470976-pSfM
 rebrandly: https://idbwrtng.com/warner-book-more-than-words-notes
 description: "This post has notes and questions for discussion for <em><a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'>More Than Words: How to Think About Writing in the Age of AI</a></em>, published in February 2025 by Jonathan Warner. Warner's book, which explores what we lose when we outsource writing to AI, is the first book in the <a href='https://idratherbewriting.com/ai-book-club/'>AI Book Club: A Human in the Loop</a>."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/warner_more_than_words.mp3

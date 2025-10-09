@@ -1,0 +1,39 @@
+{% if include.url %}
+<style>
+.linkedin-button {
+  background-color: #0077B5;
+  color: white !important;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: inline-flex; /* Use flexbox for alignment */
+  align-items: center;   /* Vertically center items */
+  border: 1px solid #0077B5;
+  font-size: 14px;
+}
+
+.linkedin-button:hover {
+    background-color: #005582;
+    border-color: #005582;
+    text-decoration: none;
+}
+
+.linkedin-button .fa-linkedin {
+    background-color: white;
+    color: #0077B5;
+    border-radius: 3px;
+    padding: 2px;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 16px; /* Adjust for vertical centering */
+}
+</style>
+
+<p>
+<a href="{{ include.url }}" class="linkedin-button" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i>Comment on LinkedIn</a>
+</p>
+{% endif %}
