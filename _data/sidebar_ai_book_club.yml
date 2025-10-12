@@ -1,0 +1,24 @@
+sidebartitle: "AI Book Club"
+
+folders:
+- title: "Pages in this series"
+  jurl: /category-ai-book-club/
+  section: one
+  class: first
+  folderitems:
+  - title: "Book review of \"Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI\" by Karen Hao"
+    jurl: "/blog/book-review-empire-of-ai-karen-hao"
+  - title: "Recording of AI Book Club discussion about Kai-fu Lee's \"AI Superpowers\""
+    jurl: "/blog/book-club-lee-ai-superpowers"
+  - title: "Review of Parmy Olson's \"Supremacy -- and the futility of chasing non-capitalist dreams\""
+    jurl: "/blog/olson-supremacy-dreams-capitalism"
+  - title: "AI Book Club recording and notes for \"The Singularity is Nearer,\" by Ray Kurzweil"
+    jurl: "/blog/kurzweil-singularity-ai-book-club-recording-notes"
+  - title: "Notes and discussion for Suleyman's \"The Coming Wave: AI, Power, and Our Future\" + AI Book Club recording and transcript"
+    jurl: "/blog/suleyman-the-coming-wave-notes"
+  - title: "Notes and discussion for Jonathan Warner's \"More Than Words: How to Think About Writing in the Age of AI\" + AI Book Club recording"
+    jurl: "/blog/warner-book-more-than-words-notes"
+  - title: "Book review of Jonathan Warner's book \"More Than Words: How to think about writing in the age of AI\""
+    jurl: "/blog/jonathan-warner-more-than-words-book-review"
+  - title: "I'm starting an AI Book Club"
+    jurl: "/blog/ai-book-club-human-in-the-loop"

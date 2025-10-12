@@ -6,6 +6,7 @@ categories:
 - ai-book-club
 - writing
 keywords: 
+sidebar: sidebar_ai_book_club
 rebrandly: https://idbwrtng.com/olson-supremacy-dreams-capitalism
 description: "This post is my review of Parmy Olson's <i>Supremacy: AI, ChatGPT, and the Race That Will Change the World</i>. Among many possible AI topics, I focus on the sellout aspect of the book, comparing the AI entrepreneurs' sellouts to big tech to fund their massive compute needs to the sellout decisions that creative writers make to tech companies in exchange for liveable salaries."
 image: parmy-olson-supremacy2thumb.png

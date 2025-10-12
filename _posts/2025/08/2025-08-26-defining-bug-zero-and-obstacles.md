@@ -5,6 +5,7 @@ date: 2025-08-26
 categories:
 - ai
 keywords: 
+sidebar: sidebar_bug_zero
 rebrandly: https://idbwrtng.com/defining-bug-zero-and-obstacles
 description: "In my <a href='/blog/goal-get-to-bug-zero'>previous post about achieving bug zero</a>, I introduced the goal and some motivations for it, but I didn't fully articulate the whole connection to AI. I also didn't explain much of what a doc bug queue is in my context, or why it even matters. In this post, I'll define doc bugs in more depth and explore two major obstacles to accelerating documentation work: review time and context gathering."
 ---

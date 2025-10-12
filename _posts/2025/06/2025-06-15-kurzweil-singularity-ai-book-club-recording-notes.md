@@ -7,6 +7,7 @@ categories:
 - ai-book-club
 - podcasts
 keywords: AI, book club, kurzweil, singularity, nanobots
+sidebar: sidebar_ai_book_club
 rebrandly: https://idbwrtng.com/kurzweil-singularity-ai-book-club-recording-notes
 description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a> session discussing Ray Kurzweil's <a href='https://www.amazon.com/Singularity-Nearer-When-We-Merge/dp/1847928307'><i>The Singularity is Nearer podcast: When We Merge With AI</i></a>. You can watch the recording on YouTube, listen to the audio file, read some summary notes, browse discussion questions, and even listen to a NotebookLM podcast (based on the summary). There are 5 people in this book club discussion, and we focus a lot on the topics of acceleration, especially as we see it happening in the workplace. We also weigh in on Kurzweil's techno utopianism and how persuaded we are by the arguments about AGI landing in 2029, the likelihood of machine and biology merging (through nanobots), and more."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aibookclubthesingularity.mp3

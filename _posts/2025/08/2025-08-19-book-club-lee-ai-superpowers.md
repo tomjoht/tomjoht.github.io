@@ -7,6 +7,7 @@ categories:
 - ai-book-club
 - podcasts
 keywords: 
+sidebar: sidebar_ai_book_club
 rebrandly: https://idbwrtng.com/book-club-lee-ai-superpowers
 description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a> session discussing Kai-Fu Lee's <a href='https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X'><i>AI Superpowers: China, Silicon Valley, and the New World Order</i></a>. There are 4 people in this book club discussion, and our conversation focuses on the emerging AI duopoly between the US and China. We share our own US-centric blind spots and weigh the political and cultural implications of China potentially winning the AI race. We also talk about Kai-Fu Lee's prediction of mass job displacement and his proposed <i>social investment stipend</i>, questioning both its feasibility and its potential drawbacks. The discussion also explores how our own professional roles, particularly in tech comm, might evolve to manage and direct AI rather than be replaced by it, and how surprisingly relevant the book feels today despite being published in 2018."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aisuperpowersbook_audio.mp3

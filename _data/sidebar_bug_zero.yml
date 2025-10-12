@@ -1,0 +1,12 @@
+sidebartitle: "Getting to doc bug zero"
+
+folders:
+- title: "Pages in this series"
+  jurl: /category-ai-book-club/
+  section: one
+  class: first
+  folderitems:
+  - title: "Why getting to bug zero is so hard"
+    jurl: "/blog/goal-get-to-bug-zero"
+  - title: "Defining bug zero and two obstacles: Reducing review time and gathering context"
+    jurl: "/blog/defining-bug-zero-and-obstacles"
