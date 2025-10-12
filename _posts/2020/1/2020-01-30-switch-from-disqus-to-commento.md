@@ -12,6 +12,8 @@ description: "I recently switched the commenting service on this blog from Disqu
 * TOC
 {:toc}
 
+**Update Oct 12, 2025**: I decided to remove the Commento form from my site. Reason: Almost no one uses it. Readers instead prefer to use LinkedIn. Also, 99% of the comments from Commento are spam, and the controls for managing and approving Commento's comments are non-existent. There's been almost no development on the Commento platform for the past 5 years or more. It seems to be a keep-the-lights-on only service.
+
 About six years ago, when I switched from WordPress to Jekyll as the platform for this site, I implemented [Disqus](https://disqus.com/) for comments. However, I've disliked Disqus for a long time, especially when I look at all the scripts and other bloat this commenting service ads on my site. For more complaints about Disqus, see [Why you should remove Disqus from your site](https://markosaric.com/remove-disqus/). Disqus doesn't align with modern web practices and privacy, frankly. When you look at everything that loads with Disqus, it's kind of startling.
 
 [Commento](https://commento.io/) is lightweight, privacy friendly, and seems to work well even it's missing some features. For example, it doesn't let me aggregate the latest comments in a single list, nor does it surface related posts. It also looks like a one-person shop created by a student. However, it's $5 a month instead of $9, was trivial to integrate, and offered an import from Disqus. Managing comments is easy, and so far even by allowing anonymous comments, I haven't received much spam.

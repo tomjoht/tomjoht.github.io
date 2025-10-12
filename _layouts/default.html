@@ -483,7 +483,7 @@
 <!-- post metadata: byline, post date, github button -->
 <p class="page-meta">
   {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a> <a href="{{ post.url }}#commento"></a></i><br/>
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a> {% if post.linkedin %}<a href="{{ post.linkedin }}{% endif %}"></a></i><br/>
   {% endunless %}
 <!-- end post metdata -->
 
@@ -598,13 +598,17 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 {% include single_post_comics.html %}
 <!-- end ad block -->
 
-<!-- commento form-->
+{% comment %}
+<!-- commento form. Note: I decided to get rid of Commento -- almost no one uses it. Leaving this here in case 
+ I regret the decision and want to revert. -->
 {% unless page.focus == "noform" %}
 
 <div id="commento"></div>
 <script src="https://cdn.commento.io/js/commento.js"></script>
 <noscript>Please enable JavaScript to load the comments.</noscript>
 {% endunless %}
+{% endcomment %}
+
               </div>
 
 

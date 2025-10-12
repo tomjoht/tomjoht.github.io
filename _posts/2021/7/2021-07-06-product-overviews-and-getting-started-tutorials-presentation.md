@@ -32,7 +32,7 @@ In general, best practices for documentation would mean accounting for both mind
 
 ## Others' experiences
 
-I'm not alone in my thoughts about the importance of product overviews and getting started tutorials. In a recent blog post, [Balancing action with narration: Creating product overviews and getting started tutorials to satisfy both try-first and read-first learning modes](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/#commento), I floated an idea about presenting on these topics, sharing a similar overview I described as above, and asked my readers to agree or disagree with this statement: "Product overviews and getting started tutorials are essential but often neglected topics in documentation." Here are the results:
+I'm not alone in my thoughts about the importance of product overviews and getting started tutorials. In a recent blog post, [Balancing action with narration: Creating product overviews and getting started tutorials to satisfy both try-first and read-first learning modes](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic), I floated an idea about presenting on these topics, sharing a similar overview I described as above, and asked my readers to agree or disagree with this statement: "Product overviews and getting started tutorials are essential but often neglected topics in documentation." Here are the results:
 
 <a class="noCrossRef" href="https://www.questionpro.com/t/7Bl4niZmV4G"><img src="{{site.media}}/api/prod_overviews_started_survey.png" alt="Survey about product overviews and getting started tutorials" /></a>
 
@@ -52,7 +52,7 @@ In the survey feedback, some people said the following to elaborate:
 
 In other words, assumptions about overview content already being consumed in pre-sales scenarios by some readers doesn't account for the engineers implementing the features.
 
-Others left direct comments on the [the post](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/#commento).
+Others left direct comments on the [the post](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic).
 
 Katya said:
 
