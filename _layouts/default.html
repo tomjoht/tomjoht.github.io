@@ -483,7 +483,8 @@
 <!-- post metadata: byline, post date, github button -->
 <p class="page-meta">
   {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a> {% if post.linkedin %}<a href="{{ post.linkedin }}{% endif %}"></a></i><br/>
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: 'https://github.com/tomjoht/tomjoht.github.io/blob/main/'}}"><i class="fa fa-github fa-lg"></i></a> 
+{% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br/>
   {% endunless %}
 <!-- end post metdata -->
 
@@ -560,6 +561,7 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 
 <!-- linkedin comment button -->
 {% if page.linkedin %}
+<a id="comments"> </a>
   {% include linkedin_comment.html url=page.linkedin %}
 {% endif %}
 <!-- end linkedin comment button -->
