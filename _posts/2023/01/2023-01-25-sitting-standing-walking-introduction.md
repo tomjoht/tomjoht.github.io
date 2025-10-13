@@ -131,7 +131,7 @@ A lot of colleagues at work don't realize I'm standing on a balance board. For e
 
 ## Yoga ball
 
-I initially started switching between sitting in my chair and standing on the balance board, but before long, I ditched my chair in favor of a yoga ball (at least a thome). I'd had the yoga ball for a couple of years, purchased during some previous therapy effort to strengthen my lower back. But at the time, I couldn't entirely adopt the yoga ball full-time, so I abandoned it. Now I found a new use for it. The yoga ball (mine is wrapped in a leather covering) provides a nice alternative to standing. The yoga ball allows me to move my hips around a bit more, and sometimes, when I'm feeling playful, even bounce up and down a bit. 
+I initially started switching between sitting in my chair and standing on the balance board, but before long, I ditched my chair in favor of a yoga ball (at least at home). I'd had the yoga ball for a couple of years, purchased during some previous therapy effort to strengthen my lower back. But at the time, I couldn't entirely adopt the yoga ball full-time, so I abandoned it. Now I found a new use for it. The yoga ball (mine is wrapped in a leather covering) provides a nice alternative to standing. The yoga ball allows me to move my hips around a bit more, and sometimes, when I'm feeling playful, even bounce up and down a bit. 
 
 Sitting on the yoga ball differs from sitting in a chair because it allows more hip and pelvic movement and forces me to straighten my lower back more (rather than relying on the back of a chair), but it also isn't comfortable long-term. After 20 minutes of sitting on the yoga ball, I'm ready to switch to standing. And vice versa. 
 

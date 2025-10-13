@@ -91,7 +91,7 @@ I’ve always been intrigued by developer portals more than individual APIs. Dev
 
 To use another analogy: Which APIs were the main actors and which were the supporting roles? What did that play look like with all actors on stage? When did each actor enter the stage and why? During which acts of the play? Who was the villain? Did it make sense to approach developer portal documentation like writing a play, with each API as an individual actor?
 
-<figure><a href=""><img src="{{site.media}}/actorsonstagesystemsthinking.jpg" alt="APIs as actors on a stage" /></a><figcaption>Thinkin of APIs as actors on a stage</figcaption></figure>
+<figure><a href=""><img src="{{site.media}}/actorsonstagesystemsthinking.jpg" alt="APIs as actors on a stage" /></a><figcaption>Thinking of APIs as actors on a stage</figcaption></figure>
 
 Of course, I was not yet at the playwriting stage. I was still drafting a documentation project plan. Only by understanding the larger picture, I argued, could we formulate a publishing plan that made sense. By publishing plan, I mean details like where to publish the material, what conventions to follow, how to brand the content, how to arrange the information flows, and more. Only by understanding the plot of the play could I construct a stage set for it.
 
