@@ -23,7 +23,7 @@ Even so, there were more sessions this year than the previous two years: 1,207,2
 
 Traffic to the API doc site has remained strong, accounting for 76% of site traffic.
 
-In social, YouTube has become a growing contributor to traffic origination. YouTube's percentage of social traffic has grown from 8% (2019) -> 13 % (2020) -> 19% (2021).
+In social, YouTube has become a growing contributor to traffic origination. YouTube's percentage of social traffic has grown from 8% (2019) -> 13% (2020) -> 19% (2021).
 
 <img src="{{site.media}}/youtubereferral_origination.png" alt="YouTube origination" />
 
@@ -47,7 +47,7 @@ The data is further complicated by introducing "New Visitor" and "Returning Visi
 
 <img src="{{site.media}}/usersgraphs2021confusing2.png" alt="Confusing user data" />
 
-If Users and New Users are about the same, how can the average Number of Sessions per User be 1.29? Wouldn't those additional .29 sessions be counted as "returning users/visitors"? If so, assuming 982,313 total users, that would mean about 285,000 returning users.
+If Users and New Users are about the same, how can the average number of sessions per user be 1.29? Wouldn't those additional .29 sessions be counted as "returning users/visitors"? If so, assuming 982,313 total users, that would mean about 285,000 returning users.
 
 At this point, I sort of shrug my shoulders and wonder if pursuing the answer, no doubt convoluted, is worth it. I'm sure the real answer is complex.
 

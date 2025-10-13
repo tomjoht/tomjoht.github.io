@@ -22,7 +22,7 @@ date: 2022-01-25 03:00:000000000 -07:00
 
 One of the first steps toward running a successful website is to build an audience. There's a common belief that the internet is so vast and wide, it doesn't matter what you write about &mdash; the right audience will eventually find you and you'll build a community around common interests.
 
-Well, sometimes it's hard for the right audience to locate the right content creator. The audience doesn't magically materialize when you publish a post. You have to help this audience find you, and that connection requires content creators to follow several best practices: build an engaging website, share your content on social media, infuse your content with SEO, capture subscribers, and analyze your analytics. These principles sound basic, and they are, but they are the fundamental way that influence on the web works. Let's look at each of these principles as well as patterns in the workplace differ.
+Well, sometimes it's hard for the right audience to locate the right content creator. The audience doesn't magically materialize when you publish a post. You have to help this audience find you, and that connection requires content creators to follow several best practices: build an engaging website, share your content on social media, infuse your content with SEO, capture subscribers, and analyze your analytics. These principles sound basic, and they are, but they are the fundamental way that influence on the web works. Let's look at each of these principles as well as how patterns in the workplace differ.
 
 ### Principle 1: Build an engaging website
 
@@ -30,13 +30,13 @@ The first step is usually to build a website. You need a home for your content -
 
 Some content creators might use subsites within existing platforms (for example, YouTube channels or Instagram accounts, or even Medium for writers), but that still requires customization and branding. Having an engaging space communicates your content's focus and makes it easy for users to subscribe (whether to RSS, a podcast feed, a newsletter, follow button, or other). Having a home on the web is key to growing an audience and establishing an online presence. If you don't have a website, it becomes much more difficult to attract an audience.
 
-Not having a dedicated online site is a major problem with the email approach I had been following (described in [Part 2: Initial attempts and failures with workplace content](/web-and-workplace-influence/part2-failure-with-initial-attempts.html)). Having a website seems like one of the most foundational principles on the web for building anything. It gives you space to build your your information architecture, to be discovered, to bring visitors, and more.
+Not having a dedicated online site is a major problem with the email approach I had been following (described in [Part 2: Initial attempts and failures with workplace content](/web-and-workplace-influence/part2-failure-with-initial-attempts.html)). Having a website seems like one of the most foundational principles on the web for building anything. It gives you space to build your information architecture, to be discovered, to bring visitors, and more.
 
 ### Principle 2: Share content on social media
 
 Another step toward visibility is to broadcast your content on the right channels. Sharing your content on Twitter, Linkedin, YouTube, Reddit, Slack, and other social circles (if appropriate) builds awareness for the content.
 
-It's somewhat uncomfortable to broadcast new posts on these social channels (and sometimes it's inappropriate to do so, especially if it comes across as a one-way megaphone), but online influencers need to be unabashed about sharing their content. I share links to posts on Twitter and Linkedin (and videos on YouTube), as well as podcasts on iTunes and other channels. I also send posts to newsletter subscribers (currently 6,100 people!). I should probably share my content across more channels, but doing so feels a bit spammy.
+It's somewhat uncomfortable to broadcast new posts on these social channels (and sometimes it's inappropriate to do so, especially if it comes across as a one-way megaphone), but online influencers need to be unabashed about sharing their content. I share links to posts on Twitter and LinkedIn (and videos on YouTube), as well as podcasts on iTunes and other channels. I also send posts to newsletter subscribers (currently 6,100 people!). I should probably share my content across more channels, but doing so feels a bit spammy.
 
 In general, use the social forums that are appropriate for the type of content you create, and don't be afraid to share your content with others. In the workplace, you don't often have social media channels, but you do have many groups that you can simply hijack into your distribution. In this way, the workplace allows you to reach an instant audience that you don't build from scratch. There's an expectation that these channels will receive certain communications, and as long as your content aligns with that general focus, you have permission to broadcast it.
 
@@ -46,7 +46,7 @@ Even so, many tech writers prefer to stay in the shadows, to not share out what 
 
 ### Principle 3: Infuse content with SEO
 
-SEO also plays another role, often underplayed, in helping the audience find your content. Ninety percent of the traffic on my site comes from organic SEO (meaning, not ads) from Google. To infuse your content with the right keywords, you need to understand the basics of SEO, which is sometimes treated as a dark-arts practice but is likely the most powerful way to attract people to your site.
+SEO also plays another role, often underplayed, in helping the audience find your content. 90% of the traffic on my site comes from organic SEO (meaning, not ads) from Google. To infuse your content with the right keywords, you need to understand the basics of SEO, which is sometimes treated as a dark-arts practice but is likely the most powerful way to attract people to your site.
 
 When I look at my [site analytics](/blog/2021-site-analytics-reflections), it appears (bewilderingly so) that most users are first-time visitors, brought to my site by their searches on Google. When you create content online, you should be aware of keywords and phrases that people search for related to your site, build landing pages around those keywords, and leverage other trends you observe from analytics.
 

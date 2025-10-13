@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/workplaceinfluence5
-description: "In the <a href='/web-and-workplace-influence/part4-creating-engaging-content.html'>previous post</a>, I debated about the type of content that engages an audience versus the type of content that engages the writer. I said  the thinking/writing process is probably more valuable than the subject, but also that the subject should be something you, the writer, should be naturally drawn to because you'll be most productive being in that space. At the same time, if you want to engage a particular audience, you need to find topics that both you and the audience resonate with, which might be challenging. In this section, I'll get a little more down-to-earth about my audience and focus."
+description: "In the <a href='/web-and-workplace-influence/part4-creating-engaging-content.html'>previous post</a>, I debated about the type of content that engages an audience versus the type of content that engages the writer. I said the thinking/writing process is probably more valuable than the subject but also that the subject should be something you, the writer, should be naturally drawn to because you'll be most productive being in that space. At the same time, if you want to engage a particular audience, you need to find topics that both you and the audience resonate with, which might be challenging. In this section, I'll get a little more down-to-earth about my audience and focus."
 weight: 5
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
@@ -20,7 +20,7 @@ date: 2022-01-27 03:00:000000000 -07:00
 
 ## Audience and focus
 
-On the web, for this blog (idratherbewriting.com), my audience consists of other technical writers. In the workplace, I'm not interested in interacting with other tech writers across the org (they can already read my blog if they want); I'd rather interact with people within my organizational unit. And the people within my organizational unit consist of product owners, developer relations, support, engineers, project leads, tech leads, quality assurance, senior executives, instructional designers, other technical writers, and more. At least, this is the audience I want to engage with, rather than other tech writers beyond my group at work.
+On the web, for this blog (idratherbewriting.com), my audience consists of other technical writers. In the workplace, I'm not interested in interacting with other tech writers across the org (they can already read my blog if they want); I'd rather interact with people within my organizational unit. And the people within my organizational unit consist of product owners, developer relations, support, engineers, project leads, tech leads, quality assurance, senior executives, instructional designers, other technical writers, and more. At least, this is the audience I want to engage with rather than other tech writers beyond my group at work.
 
 The diversity of roles in this audience makes a huge difference. As a tech writer, I can share an experience related to writing docs, or a doc-related tool, etc., and other tech writers can often relate to the experience. We build on this common ground.
 
@@ -34,7 +34,7 @@ This makes it more challenging to connect with this diverse group. What content 
 
 * **User experiences and pain points.** For example, where are users getting stuck and why?
 * **Tech news/trends within the business domain itself.** For example, what advancements and other new tech trends are occurring in this space?
-* **Comparisons to competitors**. For example, how does our product and terminology differ from our competitors?
+* **Comparisons to competitors.** For example, how does our product and terminology differ from our competitors?
 
 These topics seem worthwhile and might have broad interest despite the person's role. The focus on user experience and pain points is more germane to documentation, but the other topics could also work well. Let's explore each of these topics a bit more.
 
@@ -66,7 +66,7 @@ A focus on competitor offerings, techniques, and content and how it might compar
 
 ### Let themes surface naturally
 
-Generally, if you're on the lookout for potential newsletter topics, they surface naturally. It could be that I've been blogging for so long that I've learned to develop an ongoing awareness, always on the back-burner of my mind, for potential topics to write about. But I think any writer who is paying some attention to potential article topics will find ideas trickling in.
+Generally, if you're on the lookout for potential newsletter topics, they surface naturally. It could be that I've been blogging for so long that I've learned to develop an ongoing awareness, always on the backburner of my mind, for potential topics to write about. But I think any writer who is paying some attention to potential article topics will find ideas trickling in.
 
 My recommendation is to heed these ideas when they surface and note them somewhere. The more you write down the potential ideas, the more you train your brain to keep generating ideas. It's like keeping a dream journal. If you start writing down your dreams, you begin to remember them more &mdash; you've trained your brain to watch for the dreams and remember them. This phenomenon is also why it's easier to write regularly rather than infrequently. If you write regularly, you train your brain to look constantly for ideas, and the ideas start to flow.
 

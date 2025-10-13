@@ -20,7 +20,7 @@ date: 2022-01-26 03:00:000000000 -07:00
 
 ## Create engaging content
 
-The time-worn wisdom for content creation on the web is to create content you find engaging and let that audience who is also engaged by the same content naturally find you. Charles Lawrence pointed this principle out [on a recent Linkedin thread](https://www.linkedin.com/feed/update/urn:li:activity:6884191526428250114?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6884191526428250114%2C6884200424472109056%29) from a post I shared. Charles says,
+The time-worn wisdom for content creation on the web is to create content you find engaging and let that audience who is also engaged by the same content naturally find you. Charles Lawrence pointed this principle out [on a recent LinkedIn thread](https://www.linkedin.com/feed/update/urn:li:activity:6884191526428250114?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6884191526428250114%2C6884200424472109056%29) from a post I shared. Charles says,
 
 > In considering whether you should write more for yourself, rather than for your established audience, maybe consider yourself a member of a new audience that you have yet to discover as you expand into other subjects.
 >
@@ -36,7 +36,7 @@ As I [said previously](/web-and-workplace-influence/part1-introduction-to-influe
 
 If these patterns are true on the web, would these patterns likewise be true in the workplace? What if my natural content direction isn't toward writing about a particular product domain? What if I more naturally connect with other tech writers in the workplace, even though these connections will have little impact on my role and docs within my business group? Or what if my natural focus is even more niche, more irrelevant to any specific business application or knowledge, such as fascination with fonts, or file-naming patterns, or in bringing back the semicolon?
 
-There's a real risk that any efforts to influence or interact with a certain group of people &mdash; by writing about topics you think they'll find relevant &mdash; might backfire. You might discover that these topics don't interest them, don't interest you, and ultimately aren't worth spending time writing about. If you're working all day in documentation, the topics you naturally write about will be documentation-related, right? And if this group of people at work aren't interested in documentation, are you doomed to having only .01% of people at work read the content? Is that .01% worth it? I'm not sure.
+There's a real risk that any efforts to influence or interact with a certain group of people &mdash; by writing about topics you think they'll find relevant &mdash; might backfire. You might discover that these topics don't interest them, don't interest you, and ultimately aren't worth spending time writing about. If you're working all day in documentation the topics you naturally write about will be documentation-related, right? And if this group of people at work aren't interested in documentation, are you doomed to having only .01% of people at work read the content? Is that .01% worth it? I'm not sure.
 
 {% include ads.html %}
 
