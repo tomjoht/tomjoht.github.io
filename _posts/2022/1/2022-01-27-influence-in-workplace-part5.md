@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/workplaceinfluence5
-description: "In the <a href='/web-and-workplace-influence/part4-creating-engaging-content.html'>previous post</a>, I debated about the type of content that engages an audience versus the type of content engages the writer. I said  the thinking/writing process is probably more valuable than the subject, but also that the subject should be something you, the writer, should be naturally drawn to because you'll be most productive being in that space. At the same time, if you want to engage a particular audience, you need to find topics that both you and the audience resonate with, which might be challenging. In this section, I'll get a little more down-to-earth about my audience and focus."
+description: "In the <a href='/web-and-workplace-influence/part4-creating-engaging-content.html'>previous post</a>, I debated about the type of content that engages an audience versus the type of content that engages the writer. I said  the thinking/writing process is probably more valuable than the subject, but also that the subject should be something you, the writer, should be naturally drawn to because you'll be most productive being in that space. At the same time, if you want to engage a particular audience, you need to find topics that both you and the audience resonate with, which might be challenging. In this section, I'll get a little more down-to-earth about my audience and focus."
 weight: 5
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
@@ -50,7 +50,7 @@ Instead, it's more natural to focus on documentation for an upcoming release. Re
 
 If tech writers are focused on what's coming rather than the current user experience, this makes it difficult to focus on current user pain points. However, pushing tech writers to focus more on the current experience would be beneficial, so it might be a good focus anyway. The tech writer's interpretation of user pain points will inevitably connect to documentation needs or efforts.
 
-Another issue with focusing on the curernt user experience is that, sadly, tech writers tend to be disconnected from users. It's not as if you're chatting regularly with users during meetings and other events. I wrote about this challenge here: [Principle 6: Reconstruct the absent user](/simplifying-complexity/reconstructing-the-absent-user.html). The main challenge of technical writing is that you're writing for an audience that's mostly absent and disconnected from the writer.
+Another issue with focusing on the current user experience is that, sadly, tech writers tend to be disconnected from users. It's not as if you're chatting regularly with users during meetings and other events. I wrote about this challenge here: [Principle 6: Reconstruct the absent user](/simplifying-complexity/reconstructing-the-absent-user.html). The main challenge of technical writing is that you're writing for an audience that's mostly absent and disconnected from the writer.
 
 ### Tech news/trends within the business domain itself
 
