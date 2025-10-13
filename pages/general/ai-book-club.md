@@ -6,7 +6,7 @@ type: page
 last-modified: 2025-07-19
 ---
 
-**AI Book Club: A Human in the Loop** focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
+This book club focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
 
 The reading covers general books on AI, not necessarily books oriented towards tech comm, or engineering-heavy books, or even books specifically focusing on this "human in the loop" theme. As you can see from the reading schedule below, the books are generally popular books on AI targeting a general interest audience. 
 
@@ -19,16 +19,16 @@ However, these books are a good catalyst for thinking about AI, and there might 
 
 The reading pace is one book a month, as listed in the schedule below. This accelerated pace ensures that engaging in this club will likely pull you away from the minutiae of life and require you to spend time on the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a  workspace for online chat, and an email group for announcements.
 
-Although AI news seems to change daily, giving the impression that books are too slow to keep up, actually the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to engage beyond just keeping up with the latest model release or newsy headlines.
+Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to engage beyond just keeping up with the latest model release or newsy headlines.
 
-There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read part of all of the books, and participate as much or little as you like. The meetings take place on third Sunday of each month at 10am Pacific Time.
+There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read part or all of the books, and participate as much or little as you like. The meetings take place on the third Sunday of each month at 10am Pacific Time.
 
 ## Recordings
 
 Each book club is recorded, using Google Meet as the platform. The recordings are uploaded to YouTube and shared on this site. See the MEETING RECORDING links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
 
 {:.note}
-If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you do need me to edit out out part of the conversation, though, let me know and I will gladly make the edit.
+If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you do need me to edit out part of the conversation, though, let me know and I will gladly make the edit.
 
 ## Reading schedule {#schedule}
 
@@ -75,7 +75,7 @@ The following tables list the reading schedule. The descriptions are extracts fr
              <figure><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><img src="{{site.media}}/cointelligence_aibookclub.png" alt="Co-intelligence" /></a></figure>
          </td>
          <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by David Coleman</p>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"><i>Co-Intelligence: Living and Working with AI</i></a> by Ethan Mollick</p>
              <p class="book-summary">"In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."</p>
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE">Notes and discussion</a><br/>
@@ -262,7 +262,7 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you
 : Mostly people working in tech comm who want to deepen and broaden their knowledge of AI, but who aren't looking to dive into the technical details of AI as an engineer might. These books fall more within a general interest category for technology and AI.
 
 **How did you come up with the book list?**
-: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and and average at least 4 stars. 
+: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and average at least 4 stars. 
 
 **What are the meetings like?**
 : The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarizes the book's themes and also presents some questions for discussion. 
@@ -277,7 +277,7 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you
 : Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. 
 
 **I'm not sure if I have time to read books.**
-: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world where we're saturated with short-form content that reduces and fragments our attention spans.
+: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and a more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world where we're saturated with short-form content that reduces and fragments our attention spans.
 
 ## Glossary of key terms
 

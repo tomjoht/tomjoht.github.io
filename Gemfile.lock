@@ -281,6 +281,7 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.13.0)
@@ -331,6 +332,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo
   jekyll-seo-tag
+  ostruct
   webrick
 
 BUNDLED WITH
