@@ -1,6 +1,7 @@
 ---
 title: "Etto, a new AI co-pilot for Heretto — Q&A with Casey Jordan"
 permalink: /blog/heretto-etto-question-and-answer-with-casey-jordan
+linkedin: https://www.linkedin.com/posts/tomjoht_techcomm-ai-technicalwriting-activity-7142917162850992128-tG7g
 date: 2023-12-18
 categories:
 - ai

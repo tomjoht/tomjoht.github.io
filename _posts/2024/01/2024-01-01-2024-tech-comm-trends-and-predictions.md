@@ -1,6 +1,7 @@
 ---
 title: "My 2024 technical writing trends and predictions"
 permalink: /blog/2024-tech-comm-trends-and-predictions
+linkedin: https://www.linkedin.com/posts/tomjoht_techcomm-technicalwriting-documentation-activity-7148013152415145984-B5I9
 date: 2024-01-01
 categories:
 - ai

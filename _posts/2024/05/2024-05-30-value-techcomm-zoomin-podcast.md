@@ -1,6 +1,7 @@
 ---
 title: "[Podcast] Uncovering and communicating the value of your tech comm teams' work, with Keren Brown"
 permalink: /blog/value-techcomm-zoomin-podcast
+linkedin: https://www.linkedin.com/posts/tomjoht_podcast-uncovering-and-communicating-the-activity-7201995649582592000-zdsD
 date: 2024-05-30
 categories:
 - ai

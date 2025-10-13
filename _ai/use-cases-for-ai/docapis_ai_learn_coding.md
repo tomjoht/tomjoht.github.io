@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Understand the meaning of code"
 permalink: ai/docapis_ai_learn_coding.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-learn-coding-activity-7090008623644372993-pse1
 keywords:
 course: "AI-powered API documentation"
 weight: 14.3

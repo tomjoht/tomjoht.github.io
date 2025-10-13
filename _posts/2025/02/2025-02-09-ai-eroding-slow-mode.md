@@ -8,6 +8,8 @@ categories:
 keywords: 
 linkedin: https://www.linkedin.com/posts/tomjoht_is-ai-eroding-slow-mode-push-button-solutions-activity-7294756440060108801-vbXE
 rebrandly: https://idbwrtng.com/ai-eroding-slow-mode
+linkedin: https://www.linkedin.com/posts/tomjoht_is-ai-eroding-slow-mode-push-button-solutions-activity-7294756440060108801-vbXE
+rebrandly: https://idbwrtng.com/ai-eroding-slow-mode
 description: "This week's post on AI and tech comm includes a collection of related topics: Is AI eroding slow mode? Push-button solutions versus thought partners, and strategies for challenging writing tasks"
 ---
 

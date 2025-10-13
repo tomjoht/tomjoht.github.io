@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Create glossary definitions"
 permalink: ai/docapis_ai_glossary_definitions.html
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-glossaries-technicaldocumentation-activity-7105566686069620736-sS_i
 keywords:
 course: "AI-powered API documentation"
 weight: 14.91

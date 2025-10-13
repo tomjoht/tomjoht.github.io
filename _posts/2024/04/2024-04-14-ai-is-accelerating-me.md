@@ -1,6 +1,7 @@
 ---
 title: "AI is accelerating my technical writing output, and other observations"
 permalink: /blog/ai-is-accelerating-me
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-ai-is-accelerating-my-technical-activity-7186017628992212992-yXo4
 date: 2024-04-14
 categories:
 - ai

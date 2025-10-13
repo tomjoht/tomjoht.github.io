@@ -1,6 +1,7 @@
 ---
 title: "Strategies for making doc bugs actionable"
 permalink: /blog/make-documentation-bugs-actionable
+linkedin: https://www.linkedin.com/posts/tomjoht_strategies-for-making-doc-bugs-actionable-activity-7254916865846624258-34_e
 date: 2024-10-20
 categories:
 - technical-writing

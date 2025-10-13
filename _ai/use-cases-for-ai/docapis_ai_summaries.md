@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Summarize long content"
 permalink: ai/docapis_ai_summaries.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-summaries-activity-7105928075112050689-qkqU
 course: "AI-powered API documentation"
 weight: 14.5
 sidebar: sidebar_ai

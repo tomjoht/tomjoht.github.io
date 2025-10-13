@@ -1,6 +1,7 @@
 ---
 title:  "Populating documentation templates using AI"
 permalink: ai/prompt-engineering-populating-documentation-templates.html
+linkedin: https://www.linkedin.com/posts/tomjoht_populating-documentation-templates-using-activity-7171876009745575936-6w5_
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

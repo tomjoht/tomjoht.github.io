@@ -1,6 +1,7 @@
 ---
 title: "Escaping the Productivity Trap: Experiments with Burkeman's Four Thousand Weeks — guest post by David Kowalsky"
 permalink: /blog/escape-productivity-trap-david-kowalsky-guest-post
+linkedin: https://www.linkedin.com/posts/tomjoht_escaping-the-productivity-trap-experiments-activity-7254254037896712194-SeW_
 date: 2024-10-20
 categories:
 - technical-writing

@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Compare API responses to identify discrepancies"
 permalink: ai/docapis_ai_comparison_tasks.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-comparison-tasks-with-api-responses-activity-7103102631509708800-HHEY
 keywords:
 course: "AI-powered API documentation"
 weight: 14.9

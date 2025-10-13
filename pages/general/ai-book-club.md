@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club: A Human in the Loop"
 permalink: /ai-book-club/
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-book-club-a-human-in-the-loop-activity-7305637955602157569-3Oh3
 type: page
 last-modified: 2025-07-19
 ---

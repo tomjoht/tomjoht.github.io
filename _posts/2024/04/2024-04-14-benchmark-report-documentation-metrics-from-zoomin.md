@@ -1,6 +1,7 @@
 ---
 title: "What should your documentation metrics look like? Q&A with Zoomin about their 2024 Technical Content Benchmark Report"
 permalink: /blog/benchmark-report-documentation-metrics-from-zoomin
+linkedin: https://www.linkedin.com/posts/tomjoht_documentation-metrics-analytics-activity-7188161962340429824-GBD6
 date: 2024-04-14
 categories:
 - ai

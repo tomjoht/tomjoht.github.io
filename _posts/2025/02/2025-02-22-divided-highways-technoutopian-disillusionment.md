@@ -1,6 +1,7 @@
 ---
 title: "Review of Divided Highways, by Tom Lewis &mdash; and some thoughts on techno-utopian disillusionment"
 permalink: /blog/divided-highways-technoutopian-disillusionment
+linkedin: https://www.linkedin.com/posts/tomjoht_fixing-bugs-without-thinking-recursive-self-improvement-activity-7301298058972012544-wle0
 date: 2025-02-22
 categories:
 - ai

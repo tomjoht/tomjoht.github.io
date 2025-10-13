@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Seek advice on grammar and style"
 permalink: ai/docapis_ai_language_advice.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-language-advice-activity-7095404320443039744-IEyF
 keywords:
 course: "AI-powered API documentation"
 weight: 14.6

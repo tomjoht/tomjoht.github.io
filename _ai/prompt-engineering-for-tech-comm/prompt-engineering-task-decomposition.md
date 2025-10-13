@@ -1,6 +1,7 @@
 ---
 title:  "Task decomposition and complex tree diagrams"
 permalink: ai/prompt-engineering-task-decomposition.html
+linkedin: https://www.linkedin.com/posts/tomjoht_task-decomposition-and-complex-tree-diagrams-activity-7166141068185464833-dGYT
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

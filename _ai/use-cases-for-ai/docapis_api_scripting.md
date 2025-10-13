@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Develop build and publishing scripts"
 permalink: ai/ai-tools-build-publish-api-docs.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-tools-to-build-stage-and-publish-activity-7087431231818137600-8x-X
 keywords:
 course: "AI-powered API documentation"
 weight: 14.2

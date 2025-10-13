@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Distill needed updates from bug threads"
 permalink: ai/docapis_ai_fix_bugs.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-create-doc-updates-based-on-bugs-activity-7097680099608563712-rRif
 keywords:
 course: "AI-powered API documentation"
 weight: 14.4

@@ -483,9 +483,10 @@
 <!-- post metadata: byline, post date, github button -->
 <p class="page-meta">
   {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: 'https://github.com/tomjoht/tomjoht.github.io/blob/main/'}}"><i class="fa fa-github fa-lg"></i></a> 
-{% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br/>
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} 
   {% endunless %}
+  <a class="noCrossRef" style="color: black" href="{{page.path | prepend: 'https://github.com/tomjoht/tomjoht.github.io/blob/main/'}}"><i class="fa fa-github fa-lg"></i></a> 
+{% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br/>
 <!-- end post metdata -->
 
 <!-- post categories -->
@@ -503,13 +504,13 @@
 
 
 <!-- start metadata for docs collection type -->
-{% if page.collection == "docs" or "smartphones" %}
+{% if page.collection == "docs" or "smartphones" or "ai" %}
 
 <!-- docs page metadata: last-modified data, github url -->
 {% unless page.last-modified == null %}
 <div class="lastModifiedDate">
 Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a>
-
+{% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br/>
 </div>
 {% endunless %}
 <!-- end docs page metadata -->

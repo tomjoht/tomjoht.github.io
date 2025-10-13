@@ -1,6 +1,7 @@
 ---
 title: "Gathering source material for context input"
 permalink: ai/prompt-engineering-source-material-context.html
+linkedin: https://www.linkedin.com/posts/tomjoht_gathering-source-material-for-context-input-activity-7176992514174849026-xMOp
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

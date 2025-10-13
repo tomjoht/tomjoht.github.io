@@ -1,6 +1,7 @@
 ---
 title: "Coffee Chat recording: Ask Me Anything about Managing API documentation projects"
 permalink: /blog/ama-managing-api-documentation-projects
+linkedin: https://www.linkedin.com/posts/tomjoht_join-me-for-the-next-episode-of-coffee-and-activity-7150266088197345280-FQzH
 date: 2024-01-08
 categories:
 - api-doc

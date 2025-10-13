@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Synthesize insights from granular data"
 permalink: ai/docapis_thematic_analysis.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-thematic-analysis-activity-7101974028793384960-8ODf
 keywords:
 course: "AI-powered API documentation"
 weight: 14.5

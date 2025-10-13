@@ -1,6 +1,7 @@
 ---
 title: "Seeing invisible details and avoiding predictable, conditioned thought"
 permalink: /zamm/seeing-invisible-details-avoiding-predictable-thought.html
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-writing-creativity-activity-7212128358665527299-rs0o
 last-modified: 2024-06-26
 categories:
 # - podcasts

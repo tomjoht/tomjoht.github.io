@@ -1,6 +1,7 @@
 ---
 title: "Survey on the impact of AI on tech comm"
 permalink: /blog/survey-ai-impact-on-tech-comm/
+linkedin: https://www.linkedin.com/posts/tomjoht_survey-on-the-impact-of-ai-on-tech-comm-activity-7049480614655262721-2-6D
 categories:
 - ai
 keywords:

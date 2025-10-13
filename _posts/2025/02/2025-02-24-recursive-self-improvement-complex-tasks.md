@@ -1,6 +1,7 @@
 ---
 title: "Fixing bugs without thinking, Recursive Self-Improvement, and the shift towards more complex tech comm tasks"
 permalink: /blog/recursive-self-improvement-complex-tasks
+linkedin: https://www.linkedin.com/posts/tomjoht_fixing-bugs-without-thinking-recursive-self-improvement-activity-7301298058972012544-wle0
 date: 2025-02-24
 categories:
 - ai

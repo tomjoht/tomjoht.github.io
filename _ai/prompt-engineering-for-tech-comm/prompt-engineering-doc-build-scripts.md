@@ -1,6 +1,7 @@
 ---
 title:  "Creating scripts to automate doc build processes"
 permalink: ai/prompt-engineering-doc-build-scripts.html
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-techcomm-technicalwriting-activity-7188934644409470976-pSfM
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

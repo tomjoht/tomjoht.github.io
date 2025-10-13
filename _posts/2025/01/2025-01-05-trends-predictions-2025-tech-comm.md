@@ -1,6 +1,7 @@
 ---
 title: "My 2025 trends predictions for tech comm"
 permalink: /blog/trends-predictions-2025-tech-comm
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-techcomm-activity-7282489098148237314-Zm7E
 date: 2025-01-05
 categories:
 - ai

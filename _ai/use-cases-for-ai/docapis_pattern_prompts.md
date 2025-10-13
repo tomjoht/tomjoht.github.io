@@ -1,6 +1,7 @@
 ---
 title:  "Use cases for AI: Arrange content into information type patterns"
 permalink: ai/docapis_pattern_prompts.html
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-document-engineering-with-pattern-based-activity-7082763876441751552-6lD-
 keywords:
 course: "AI-powered API documentation"
 weight: 14.8

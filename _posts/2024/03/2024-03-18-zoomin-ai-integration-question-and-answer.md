@@ -1,6 +1,7 @@
 ---
 title: "Integrating AI with your content delivery platform and documentation: Zoomin Q&A with Keren Brown"
 permalink: /blog/zoomin-ai-integration-question-and-answer
+linkedin: https://www.linkedin.com/posts/tomjoht_integrating-ai-with-your-content-delivery-activity-7176222703207526401-wpUH
 date: 2024-03-18
 categories:
 - ai

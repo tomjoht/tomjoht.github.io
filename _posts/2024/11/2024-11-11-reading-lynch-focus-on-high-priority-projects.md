@@ -1,6 +1,7 @@
 ---
 title: "To establish value, focus more on high priority projects: Reading Michael Lynch's post on why he quit Google to work for himself"
 permalink: /blog/reading-lynch-focus-on-high-priority-projects
+linkedin: https://www.linkedin.com/posts/tomjoht_to-establish-value-focus-more-on-high-priority-activity-7266873711675269122-Yj26
 date: 2024-11-11
 categories:
 - technical-writing

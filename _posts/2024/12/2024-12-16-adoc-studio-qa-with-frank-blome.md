@@ -1,6 +1,7 @@
 ---
 title: "Q&A about adoc Studio, with Frank Blome"
 permalink: /blog/adoc-studio-qa-with-frank-blome
+linkedin: https://www.linkedin.com/posts/tomjoht_adoc-studio-for-mac-ipad-technical-writings-activity-7275751894248013826-ennf
 date: 2024-12-16
 categories:
 - technical-writing

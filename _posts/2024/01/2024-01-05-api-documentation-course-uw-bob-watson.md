@@ -1,6 +1,7 @@
 ---
 title: "[Podcast] Breaking ground: New API documentation course at UW, with Bob Watson"
 permalink: /blog/api-documentation-course-uw-bob-watson
+linkedin: https://www.linkedin.com/posts/tomjoht_api-ai-documentation-activity-7150568114995236864-bylD
 date: 2024-01-05
 categories:
 - academics-and-practitioners

@@ -1,6 +1,7 @@
 ---
 title: "Using long-token contexts to quality check an entire API doc set"
 permalink: ai/prompt-engineering-entire-doc-set-prompts.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-long-token-contexts-to-quality-check-activity-7222253656274878465-jtGB
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

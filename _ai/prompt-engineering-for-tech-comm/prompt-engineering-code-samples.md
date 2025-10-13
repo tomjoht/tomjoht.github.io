@@ -1,6 +1,7 @@
 ---
 title:  "Using AI to jump-start code samples"
 permalink: ai/prompt-engineering-code-samples.html
+linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-jump-start-code-samples-activity-7246959051304026112-YKJx
 course: "AI-powered API documentation"
 sidebar: sidebar_ai
 section: prompt-engineering

@@ -1,6 +1,7 @@
 ---
 title: "NotebookLM podcasts -- the missing piece in the GenAI puzzle?"
 permalink: /blog/notebooklm-podcasts-and-technical-writing
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-genai-activity-7249498897109147650-tyhL?utm_source=share
 date: 2024-10-06
 categories:
 - ai

@@ -1,6 +1,7 @@
 ---
 title: "[Podcast] GenAI and Document360: Conversation with Saravana Kumar"
 permalink: /blog/genai-and-document360
+linkedin: https://www.linkedin.com/posts/tomjoht_leading-enterprise-software-saas-company-activity-7250346773976604673-BHLQ
 date: 2024-10-06
 categories:
 - ai
