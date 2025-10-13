@@ -63,7 +63,7 @@ With a Master's degree in Educational Psychology, I enjoy implementing scientifi
 
 1. Look at the company-wide goals &mdash; what are they about? Bringing new revenue? Improving customer satisfaction and self-service? Anything else? 
 2. How can this be translated into your goals? Let's take "Bring new revenue" as an example, which for documentation teams may mean "support marketing content / ungate site or some of the materials."
-3. Which metrics support this? How can you measure success or failure? In our example with new revenue, metrics might to track your page views, compare your metrics with those of non-gates sites and see what is lacking. Examine search metrics, click-through rate, and bounce rate. 
+3. Which metrics support this? How can you measure success or failure? In our example with new revenue, metrics might be to track your page views, compare your metrics with those of non-gates sites and see what is lacking. Examine search metrics, click-through rate, and bounce rate. 
 4. Choose around 3 metrics that would be the northern star for your goal and guide your content strategy for the next year. 
 5. In addition to the benchmark analysis, track your core metrics performance over time to see whether you go in the right direction; keep track of any changes to the UX and content structure that you are making and how these are influencing these metrics. 
 

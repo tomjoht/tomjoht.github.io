@@ -11,7 +11,7 @@ description: "I recently moved the AI section from my <a href='/learnapidoc/'>AP
 image: aithedocstopnavbarthumb.png
 ---
 
-The API documentation course is already more than 900 pages when <a href='https://www.buymeacoffee.com/learnapidoc/e/146076'>printed as a PDF</a>, and I didn't want to expand the PDF beyond this already length. By putting the AI content into its own space, it will be easier for readers to find and navigate the content. The highest interest right now for many tech writers is to understand how to apply AI to documentation techniques, workflows, and processes.
+The API documentation course is already more than 900 pages when <a href='https://www.buymeacoffee.com/learnapidoc/e/146076'>printed as a PDF</a>, and I didn't want to expand the PDF beyond this length. By putting the AI content into its own space, it will be easier for readers to find and navigate the content. The highest interest right now for many tech writers is to understand how to apply AI to documentation techniques, workflows, and processes.
 
 <figure><img style="max-width:500px" src="{{site.media}}/ainavigationnew.png" alt="AI section for content" /><figcaption>I moved the AI content into its own section and added links to the top navigation</figcaption></figure>
  

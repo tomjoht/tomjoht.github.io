@@ -29,7 +29,7 @@ The second highlight from this post is Lynch's attempt to contribute to an impac
 
 > "To continue advancing my career, I'd need projects that were even larger in scope and involved collaboration with more partner teams." 
 
-If you work on projects no one cares about, it's also hard to get promoted. Many of his projects were canceled six months in. I think one reason I was successful in my promotion effort is because of the business group I'm in. The products are a profit center with many high-profile partners and impact. It matters a lot to people in the organization, and I'm the only tech writer for these efforts. In contrast, if I were working on a product that was much less significant to the company's business interests, no matter how  awesome the documentation I created, it wouldn't matter much because the product area wouldn't be significant to the company. 
+If you work on projects no one cares about, it's also hard to get promoted. Many of his projects were canceled six months in. I think one reason I was successful in my promotion effort is because of the business group I'm in. The products are a profit center with many high-profile partners and impact. It matters a lot to people in the organization, and I'm the only tech writer for these efforts. In contrast, if I were working on a product that was much less significant to the company's business interests, no matter how awesome the documentation I created, it wouldn't matter much because the product area wouldn't be significant to the company. 
 
 {% include ads.html %}
 

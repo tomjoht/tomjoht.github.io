@@ -7,7 +7,7 @@ categories:
 - api-doc
 keywords: 
 rebrandly: https://idbwrtng.com/ama-managing-api-documentation-projects
-description: "I recently participated in a Coffee and Content chat titled 'Ask Me Anything: Managing API Documenation Projects', with Patrick Bosek and Scott Abel, sponsored by Heretto. This was an 'Ask me anything' style chat, though the audience could only participate through chat on Brighttalk's platform. The coffee chat took place on Thursday, Jan 11, 2024."
+description: "I recently participated in a Coffee and Content chat titled 'Ask Me Anything: Managing API Documentation Projects', with Patrick Bosek and Scott Abel, sponsored by Heretto. This was an 'Ask me anything' style chat, though the audience could only participate through chat on Brighttalk's platform. The coffee chat took place on Thursday, Jan 11, 2024."
 image: ama-mging-doc-projects-heretto-thumb.jpg
 ---
 

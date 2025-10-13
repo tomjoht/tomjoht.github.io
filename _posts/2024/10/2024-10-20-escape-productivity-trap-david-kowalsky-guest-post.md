@@ -39,7 +39,7 @@ The other concept, "when I finally," refers to being able to relax and enjoy lif
 
 ## Applying Four Thousand Weeks
 
-What have I applied from *Four Thousands Weeks* to my own life, and how is it going? The following are the practical ideas from the book (listed in the appendix) that I've been experimenting with:
+What have I applied from *Four Thousand Weeks* to my own life, and how is it going? The following are the practical ideas from the book (listed in the appendix) that I've been experimenting with:
 
 * [Keep two to-do lists, one open and one closed](#two_lists)
 * [Focus on one big project at a time](#one_project)

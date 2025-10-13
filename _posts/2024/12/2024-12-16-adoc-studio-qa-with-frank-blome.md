@@ -87,7 +87,7 @@ Docs-as-code writers, who treat documentation like software development, find As
 
 Topic-based writers benefit from AsciiDoc's modularity, allowing them to create reusable content pieces without the steep learning curve of XML. adoc Studio makes it easy to centralize and manage these content chunks while enabling quick updates and seamless integration across projects.
 
-### Tom: How easy is it to get content in and out of adoc Studio in order to experiment with your platform? That seems to be one of the biggest challenges&mdash;migrating from one tool to another is a really tedious. {#content-migration}
+### Tom: How easy is it to get content in and out of adoc Studio in order to experiment with your platform? That seems to be one of the biggest challenges&mdash;migrating from one tool to another is really tedious. {#content-migration}
 
 **Frank:** With adoc Studio, the transition is painless. All content is stored in plain UTF8 text. Copy-pasting works, and tools like Pandoc can convert other formats to AsciiDoc. For those new to the syntax, our adoc Coach acts as a guide. It explains the syntax right at your cursor so you can focus on writing instead of troubleshooting.
 

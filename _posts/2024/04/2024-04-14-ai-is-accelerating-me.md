@@ -62,7 +62,7 @@ Tech writers will become skilled prompt engineers for producing docs in ways tha
 
 ## Observation 3: Documentation is more within AI's sights than creative content  
 
-Another observation I've had is that documentation is much more within AI's sights than creative content. I'm writing the first draft of blog post manually, not yet using AI tools. This is partly because it can sometimes take longer to fix the creative output from Claude, Gemini, or ChatGPT, than to simply write the blog post myself. Experience-driven, opinion-based blog posts like this one are much harder to pull off using an AI tool (but not impossible, as I explained [here](/blog/writing-full-length-articles-with-claude-ai)). But documentation is in a totally different category.
+Another observation I've had is that documentation is much more within AI's sights than creative content. I'm writing the first draft of this blog post manually, not yet using AI tools. This is partly because it can sometimes take longer to fix the creative output from Claude, Gemini, or ChatGPT, than to simply write the blog post myself. Experience-driven, opinion-based blog posts like this one are much harder to pull off using an AI tool (but not impossible, as I explained [here](/blog/writing-full-length-articles-with-claude-ai)). But documentation is in a totally different category.
 
 Documentation doesn't usually have a byline. It doesn't typically use first person or draw upon personal experiences. Documentation (the kind produced by paying corporations) is usually voiceless and explanatory. AI tools do a much better job with documentation than with creative content. 
 
