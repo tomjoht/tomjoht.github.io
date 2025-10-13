@@ -4,12 +4,13 @@ permalink: /blog/disabled-commento-service-uselinkedin-instead
 date: 2025-10-12
 categories:
 - technical-writing
+linkedin: https://www.linkedin.com/posts/tomjoht_switching-from-commento-to-linkedin-for-blog-activity-7383329000540229632-Le1N
 keywords: 
 rebrandly: https://idbwrtng.com/disabled-commento-service-uselinkedin-instead
-description: "After using the <a href='https://commento.io'>Commento commenting service</a> on my blog for about 5 years, I've decided to remove it. The vast majority of comments were already happening on LinkedIn, so I'm embracing that platform for discussions going forward."
+description: "After using the <a href='https://commento.io'>Commento</a> commenting service on my blog for about 5 years, I've decided to remove it. The vast majority of comments were already happening on LinkedIn, so I'm embracing that platform for discussions going forward."
 ---
 
-It was always odd to me that comments would appear on LinkedIn (in the post where I shared the blog title and summary) rather than directly below the post, in the Comments section, where there was more explicit context. But this is a trend that's been going on for years. Discussions are simply better on LinkedIn because you have more of a sense of the person behind the comment.
+It was always odd to me that comments would appear on LinkedIn (in the post where I shared the blog title and summary) rather than directly below my blog post, in the Comments section, where there was more explicit context. But this is a trend that's been going on for years. Discussions are simply better on LinkedIn because you have more of a sense of the person behind the comment.
 
 Using Commento, about 95% of the comments were spam. Each morning I would spend 30 seconds deleting the spam comments&mdash;a task that became tedious and cluttered my inbox with daily spam. Additionally, Commento doesn't offer a comment management dashboard (to approve or delete comments), and many times legitimate comments would simply disappear from my site. Finally, there's been zero updates on the Commento platform for about 5 years. The project seems to be a bare-bones, keep-the-lights-on only service. So I removed Commento and instead added a "Comment on LinkedIn" button.
 
