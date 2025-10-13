@@ -6,7 +6,7 @@ folders:
   section: one
   class: first
   folderitems:
-  - title: "Why getting to bug zero is so hard"
-    jurl: "/blog/goal-get-to-bug-zero"
   - title: "Defining bug zero and two obstacles: Reducing review time and gathering context"
     jurl: "/blog/defining-bug-zero-and-obstacles"
+  - title: "Why getting to bug zero is so hard"
+    jurl: "/blog/goal-get-to-bug-zero"

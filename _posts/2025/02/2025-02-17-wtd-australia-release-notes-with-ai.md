@@ -161,7 +161,7 @@ Okay, I, I don't know where that came out of. That was a little bit of a tangent
 
 That's all good.
 
-Okay, "I've often found that release notes are a bit of hit and miss. Some software companies are really into them, while others are not that fussed." I love that word, "fussed." Okay. "I actually like release notes. They can be simple and not need a lot of texts." Yeah, yeah.
+Okay, "I've often found that release notes are a bit of hit and miss. Some software companies are really into them, while others are not that fussed." I love that word, "fussed." Okay. "I actually like release notes. They can be simple and not need a lot of text." Yeah, yeah.
 
 Um, I, I sometimes get fussy people who are, who basically say, "Hey, look, I want to know every little thing that changes, like, no matter how small." Like, "You want me to tell you when I fix a broken link?" They're like, "No, no, but material, material changes." And, uh, they want very granular details. I work for, like, APIs in the automotive industry, so you can imagine that people who are building, like, APIs into cars want to know when you change something. So they really appreciate the, the detail. Yeah, and, and I, I really get very specific. But if you're in other scenarios, it might be overkill.
 

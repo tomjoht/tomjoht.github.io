@@ -38,7 +38,7 @@ If you just want the audio, here it is:
 
 Mustafa Suleyman's *The Coming Wave* constructs a compelling, if unsettling, argument about humanity's trajectory in the face of unprecedented technological advancement. The argument can be distilled as follows:
 
-1. **Assertion: Technology's inherent proliferation:** Foundational technologies, particularly general-purpose technologies that have transformative impact across domains (like the combusion engine or Internet), possess an intrinsic tendency towards widespread global proliferation. This spread isn't accidental but is driven by powerful and enduring human, economic, and geopolitical incentives.  
+1. **Assertion: Technology's inherent proliferation:** Foundational technologies, particularly general-purpose technologies that have transformative impact across domains (like the combustion engine or Internet), possess an intrinsic tendency towards widespread global proliferation. This spread isn't accidental but is driven by powerful and enduring human, economic, and geopolitical incentives.  
 2. **Assertion:** **The unprecedented nature of the "coming wave":** The current technological wave, primarily centered on Artificial Intelligence (AI &mdash; the engineering of intelligence) and Synthetic Biology (SynBio &mdash; the engineering of life), is qualitatively different and more potent than previous waves. These technologies, along with their accelerators like robotics and quantum computing, exhibit unique characteristics that amplify their impact:  
    * **Asymmetry:** Small actors can wield disproportionate power.  
    * **Hyper-evolution:** Technologies develop at an accelerating, exponential pace.  

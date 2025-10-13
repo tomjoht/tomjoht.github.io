@@ -109,7 +109,7 @@ What's really going on here? How can an AI session always come up with potential
 
 Another more promising technique is to insert a human in the loop. Instead of having the AI self-identify areas for improvement, you wear the editor's hat and identify those areas for improvement with each iteration. The only problem is that this requires you to read and evaluate each draft &mdash; which, if you have to do, requires a lot of time and effort, such that writing it yourself might be easier. The task becomes akin to getting your young child to successfully mow your lawn &mdash; something that's much easier to do yourself.
 
-The best use of AI for writing an essay, I found, is to prompt it to integrate various in-text citations from a list of supplied quotations to support the arguments that you write. This way, AI isn't contamining your essay with its *blah, general* language and comments. It's incorporating other voices.
+The best use of AI for writing an essay, I found, is to prompt it to integrate various in-text citations from a list of supplied quotations to support the arguments that you write. This way, AI isn't contaminating your essay with its *blah, general* language and comments. It's incorporating other voices.
 
 ## Recursive Self Improvement
 
@@ -133,7 +133,7 @@ I suspect it's the same for AI &mdash; you can get some improvement to help wigg
 
 ## Why AI still sucks for more creative writing
 
-During my book review experiment with the iterative prompting, I had some other thoughts on why AI fails for more creative writing. (Creating writing can include a nonfiction book review in a blog post, not just fiction or poetry.) 
+During my book review experiment with the iterative prompting, I had some other thoughts on why AI fails for more creative writing. (Creative writing can include a nonfiction book review in a blog post, not just fiction or poetry.) 
 
 * **Atrophy of articulation.** The core element of writing is a cognitive task in which you carefully and thoughtfully formulate word combinations based on ideas you're trying to articulate (clarify, sharpen, tease out, etc.), which become a first draft. That process of articulating an often fuzzy idea into language is what it means to write (in my opinion). After that initial draft, adjusting and shaping those ideas is much less taxing (this is editing). Using AI tools, you might offload that initial task of writing some vague idea into language to AI. But if you do, it will weaken and atrophy that ability to communicate ideas into language, making you increasingly dependent on AI to write.
 * **No intellectual motion.** There's often a motion that starts in your head when you're writing; the mental flywheel starts turning due to the process of articulation, and even in the back of your mind, you're still thinking about topics and working them out in your head. You might suddenly have epiphanies because your mind is in motion. That kind of intellectual motion doesn't happen if you offload that task to an AI to work an idea out.
@@ -148,4 +148,4 @@ For documentation content, so many of the same elements aren't present. There's 
 
 Let's end on some AI news. After the DeepSeek upheaval the other week, it seems that some AI tools are shifting from a focus on foundation models to real-time thinking logic in the app. See these articles:
 
-* ["Why AI Spending Isn't Slowing Down"](https://www.wsj.com/tech/ai/ai-chatgpt-chips-infrastructure-openai-81cf4d40) (Wall Street Journal, by Christopher Mims, Feb 212, 2025) and [OpenAI is an App Company Now](https://www.bigtechnology.com/p/openai-is-an-app-company-now) (Big Technology, by Alex Kantrowitz, Jan 31, 2025). Basically, big tech is shifting from developing foundation models, which can easily be replicated, distilled, copied, etc., to thinking models (that is, apps and interfaces to the models), which use a ton of computing power in the session to do real-time thinking. Nvidia chips are still critical for this.
+* ["Why AI Spending Isn't Slowing Down"](https://www.wsj.com/tech/ai/ai-chatgpt-chips-infrastructure-openai-81cf4d40) (Wall Street Journal, by Christopher Mims, Feb 21, 2025) and [OpenAI is an App Company Now](https://www.bigtechnology.com/p/openai-is-an-app-company-now) (Big Technology, by Alex Kantrowitz, Jan 31, 2025). Basically, big tech is shifting from developing foundation models, which can easily be replicated, distilled, copied, etc., to thinking models (that is, apps and interfaces to the models), which use a ton of computing power in the session to do real-time thinking. Nvidia chips are still critical for this.

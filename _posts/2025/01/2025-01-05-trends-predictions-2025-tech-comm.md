@@ -170,7 +170,7 @@ Is it apathy or something else? It's hard to interpret the absence of participat
 > 
 > Throughout my interviews I discovered that although executives acknowledged the need to adopt AI eventually, three main obstacles held them back: (1) they were too busy with all the existing demands of the business; (2) they didn't understand what AI was or how it could help them; (3) no one had shown them the simple path to go from zero to one with AI in a way that would create value for them.
 
-In other words, it might not be apathy about AI but rather the fact that tech writers are too busy to figure it out. If I surveyed tech writers about their attitudes towards API, maybe 100% would believe it's the future and that they'll adopt it, but perhaps only 5% have doing any serious experimentation or learning. Incorporating AI into existing tech comm workflows isn't straightforward or intuitive. Woods continues:
+In other words, it might not be apathy about AI but rather the fact that tech writers are too busy to figure it out. If I surveyed tech writers about their attitudes towards API, maybe 100% would believe it's the future and that they'll adopt it, but perhaps only 5% have done any serious experimentation or learning. Incorporating AI into existing tech comm workflows isn't straightforward or intuitive. Woods continues:
 
 > I realized the simple path to go from zero to one with AI wasn't weaving it into products or services or boosting operational efficiency. It was putting AI into the hands of leaders so they can experience its incredible value firsthand. Once a leader believes in AI's potential, then they can drive it through their company. This would not come from showing them how to write a better email. That is not what drives business value.
 

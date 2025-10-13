@@ -17,7 +17,7 @@ description: "While AGI refers to performing tasks at a human level, superintell
 
 To use an analogy, suppose you're a barista making espresso coffee. An AGI-capable robot trained as a barista is able to make all the coffee that a regular barista can make but twice as fast. Further, the Android barista can create exquisite espresso art in any shape that humans request, wowing them and making the experience novel. Soon the human barista is replaced. After all, the paying customer would rather pay $2.50 for a robot to make a latte instead of $5.00, especially when it tastes the same.
 
-If the human barista wants to stay employed, he or she has to go above and beyond what the robot barista can do. The human barista needs to think more expansively to uplevel their service and delivery to exeed the robot's. The human barista needs to break through another barrier toward superintelligent barista'ing. What might this entail? 
+If the human barista wants to stay employed, he or she has to go above and beyond what the robot barista can do. The human barista needs to think more expansively to uplevel their service and delivery to exceed the robot's. The human barista needs to break through another barrier toward superintelligent barista'ing. What might this entail? 
 
 This barista might decide to become a socially aware, hyper-pleasant presence &mdash; remembering the names, orders, and past conversations of each person who comes into the coffee shop. Going into the cafe to get a latte becomes more than just fulfilling a caffeine addiction; it becomes a social experience, almost like walking into the Cheers bar where everyone knows you and you feel like you belong and have a place. The barista makes you feel warm inside, recognized and appreciated, listened to. The barista's face lights up when they see you, and they know your name.
 
@@ -29,7 +29,7 @@ Now technical writers might need to do the same when it comes to documentation. 
 
 How do you define superintelligent docs? While various definitions could fit this bill, such as automated documentation that predicts topics based on user behavior or errors, or documentation that dynamically writes itself around the user's specific situation and needs, those imagined experiences are a bit too futuristic for me. 
 
-More realistically, superintelligent docs solve wicked problems. Wicked problems are so massive, gnarly, multifaceted, and hard to tackle &mdash; for example, they include variables that are constantly changing based on recurring feedback loops, etc. &mdash; that they are beyong merely complicated problems; they are *complex problems*. Solving them seems beyond human capabilities.
+More realistically, superintelligent docs solve wicked problems. Wicked problems are so massive, gnarly, multifaceted, and hard to tackle &mdash; for example, they include variables that are constantly changing based on recurring feedback loops, etc. &mdash; that they are beyond merely complicated problems; they are *complex problems*. Solving them seems beyond human capabilities.
 
 ## Wicked problems in the tech comm space
 

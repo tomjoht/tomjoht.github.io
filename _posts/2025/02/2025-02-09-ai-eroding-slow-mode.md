@@ -112,7 +112,7 @@ And about half a dozen more items!
 Then, I started a conversation with AI about these topics. It didn't take long before I began to see each of these negatives in a different light. For example:
 
 * AI stock threatened by DeepSeek → *If distillation makes the AI momentum fizzle, won't that be great for writers anyway?*
-* Tariffs risk economic chaos → *We'll finally see if tariffs work, and if they don't, political leaders will stop threatening everyone with them; they'll have to political collaboration and compromise.*
+* Tariffs risk economic chaos → *We'll finally see if tariffs work, and if they don't, political leaders will stop threatening everyone with them; they'll have to turn to political collaboration and compromise.*
 * Feeling physically sick and congested → *This is an opportunity to see life from a different angle, to step back and experience the same events but another point of view, like taking off a mask.*
 
 I don't need to get into the details. It's something you can try. Think of something troubling you or something you're depressed or upset about. Use it as a starting point for the dialogue. AI will transform into something much more than a copyediting intern for you.
@@ -149,4 +149,4 @@ When the content is 90% finalized, I recommend linking all the code elements to 
 
 ## Conclusion
 
-Granted, this last section seems to forget everthing I just argued about AI eroding slow mode. It's like wait a minute, wasn't Tom just arguing for doing things, such as writing and reading, the manual way as a strategy for recapturing slowness into his life? Well, yes, but I'm not ready to embrace slow mode with documentation. I'm not entirely sure why. It could be that I care very little about the ACME method&mdash;the faster I get done with writing about the ACME method, the more quickly I can return to my decelerated activities.
+Granted, this last section seems to forget everything I just argued about AI eroding slow mode. It's like wait a minute, wasn't Tom just arguing for doing things, such as writing and reading, the manual way as a strategy for recapturing slowness into his life? Well, yes, but I'm not ready to embrace slow mode with documentation. I'm not entirely sure why. It could be that I care very little about the ACME method&mdash;the faster I get done with writing about the ACME method, the more quickly I can return to my decelerated activities.

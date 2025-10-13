@@ -28,7 +28,7 @@ However, reading Warner's book from the perspective of a *technical writer* was 
 
 Because specific scenarios help clarify abstracts, let's start with this example: the technical writing task of preparing release notes for some new fields in an API. These release notes might be 500 words or so, describing the new fields, some deprecated fields, indicating some bugs and maybe some documentation updates. This kind of writing isn't expressive. I'm not thinking through ideas and finding arguments, nor am I confronting an emotion. The writing is perfunctory and perfectly capable of being replaced by AI, without much care by anyone. 
 
-Release notes don't have a byline; they don't have a voice. They don't contain an arguable assertion. About the only value they possess is their readability. The technical writer's job isn't to express an idea. It's usually to translate some engineering gobbley-gook into human-understandable sentences that can be understood by global English speakers. If you've achieved that clarity, task done.
+Release notes don't have a byline; they don't have a voice. They don't contain an arguable assertion. About the only value they possess is their readability. The technical writer's job isn't to express an idea. It's usually to translate some engineering gobbledygook into human-understandable sentences that can be understood by global English speakers. If you've achieved that clarity, task done.
 
 Is this completed task, then, *writing*? Am I using my brain to think through something? Am I reflecting or feeling anything? If I'm not thinking, then what am I doing and why am I being paid so much? 
 
