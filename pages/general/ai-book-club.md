@@ -47,18 +47,6 @@ The following tables list the reading schedule. The descriptions are extracts fr
    <tbody>
       <tr>
          <td>
-            <b>October 19, 2025<br/>10am PT</b>
-            <figure><a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><img src="{{site.media}}/handsonllms.png" alt="Hands-on LLMs" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><i>Hands-On Large Language Models: Language Understanding and Generation</i></a> by Jay Alammar and Maarten Grootendorst</p>
-            <p class="book-summary">"AI has acquired startling new language capabilities in just the past few years. Driven by rapid advances in deep learning, language AI systems are able to write and understand text better than ever before. This trend is enabling new features, products, and entire industries. Through this book's visually educational nature, readers will learn practical tools and concepts they need to use these capabilities today. / You'll understand how to use pretrained large language models for use cases like copywriting and summarization; create semantic search systems that go beyond keyword matching; and use existing libraries and pretrained models for text classification, search, and clusterings."</p>
-         </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1COqjriSvHpX8nvtae33MyOXDG82dH-wwHtmFeF5N4HA">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr> 
-      <tr>
-         <td>
             <b>November 16, 2025<br/>10am PT</b>
              <figure><a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
          </td>
@@ -121,6 +109,20 @@ The previous meetings include recordings, notes, and other resources. They're li
       </tr>
    </thead>
    <tbody>
+         <tr>
+         <td>
+            <p><b>October 19, 2025<br/></b><br/>
+               <a href="/blog/book-club-hands-on-llms"><b>MEETING RECORDING</b></a>
+            </p>
+            <figure><a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><img src="{{site.media}}/handsonllms.png" alt="Hands-on LLMs" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><i>Hands-On Large Language Models: Language Understanding and Generation</i></a> by Jay Alammar and Maarten Grootendorst</p>
+            <p class="book-summary">"AI has acquired startling new language capabilities in just the past few years. Driven by rapid advances in deep learning, language AI systems are able to write and understand text better than ever before. This trend is enabling new features, products, and entire industries. Through this book's visually educational nature, readers will learn practical tools and concepts they need to use these capabilities today. / You'll understand how to use pretrained large language models for use cases like copywriting and summarization; create semantic search systems that go beyond keyword matching; and use existing libraries and pretrained models for text classification, search, and clusterings."</p>
+         </td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1COqjriSvHpX8nvtae33MyOXDG82dH-wwHtmFeF5N4HA">Notes and discussion</a><br/>
+             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
+      </tr> 
          <tr>
          <td>
             <b>September 21, 2025<br/></b><br/>
