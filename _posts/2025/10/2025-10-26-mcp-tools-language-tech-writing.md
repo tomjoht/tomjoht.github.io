@@ -58,19 +58,116 @@ Here are 10 key takeaways (AI-generated) from the podcast conversation:
 
 {% include ads.html %}
 
-{% comment %}
 ## Shorts
 
 Here are some shorts pulled from the longer video.
 
 <iframe width="158" height="281"
-src="https://www.youtube.com/embed/0tWp4IbK4m8"
+src="https://www.youtube.com/embed/ms9iSqvo_nU"
 title="AI minions for tech writers"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
 
-{% endcomment %}
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/Lvd9zcVtcZg"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/CDqENQrlk8g"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/P56JlheOzFE"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/Qu_aMBJnbIg"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/mHay91zl9EI"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/T7GryXOnb5s"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/07FzQ-5mnRo"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/EHRbWIWL_ig"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/nB1oFWYZmoQ"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/KsRwstJaiAM"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/fib-Yj3jXog"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/UEZJfrUhz2k"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+## Segments
+
+The following are several "segments" from the longer video. They're longer than shorts (3-5 minutes) but still just highlights from the full video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4_dpDpovJk?si=D8GPV5pV_Fxzeoui" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k_WIweHns40?si=OOb-GjMpbjjgdb_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4612Wiho-hw?si=WGSyf3YSNY6ATP0S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q48XxtsWkHo?si=wHuFNMONKWLG8tTm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8KGOu8esJU?si=wCDZVkcpL-cdQGHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p5iZ5DKAGkA?si=LNMBOjFc61Y0xduZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Transcript
 

@@ -16,7 +16,7 @@ description: "In this post, I argue that technical writers should actively chall
 
 One of the tenets I'm trying to develop as a technical writer, and I know this is kind of crass and brazen to say, is to call out bullshit when I see it, or even to raise questions when I sense something wrong. Or more professionally, to voice dissent when I feel uneasy or disagree with a position being advanced.
 
-We often hear that tech writers are the "first users" of a system that our feedback parallels real user feedback. Yes, but expressing concerns is more than just relaying a first-user's perspective. I want to be in tune with my intuition as a writer and call out problematic ideas and wonky directions when I sense them, and not be shy about turning off my mute button and speaking up, even in large groups where dissent feels uncomfortable.
+We often hear that tech writers are the "first users" of a system, that our feedback parallels real user feedback. Yes, but expressing concerns is more than just relaying a first-user's perspective. I want to be in tune with my intuition as a writer and call out problematic ideas and wonky directions when I sense them, and not be shy about turning off my mute button and speaking up, even in large groups where dissent feels uncomfortable.
 
 As technical writers, our role is often assumed to be one who simply takes requests from others and carries them out, polishing up the language and publishing the content. That's actually a disservice to the companies we work for. I didn't fully realize this until reading Jonathan Rauch's *[The Constitution of Knowledge: A Defense of Truth](https://www.amazon.com/Constitution-Knowledge-Jonathan-Rauch/dp/0815738862)*.
 
