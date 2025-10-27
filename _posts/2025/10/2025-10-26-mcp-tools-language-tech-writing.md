@@ -9,7 +9,6 @@ keywords: MCP, technical writing, API design, documentation, AI, evaluation, wri
 rebrandly: https://idbwrtng.com/mcp-tools-language-tech-writing
 description: "In this podcast episode, Fabrizio Ferri Benedetti and I chat with guest Anandi Knuppel about MCP servers and the role that technical writers can play in shaping AI capabilities and outcomes. Anandi shares insights on how writers can optimize documentation for LLM performance and expands on opportunities to collaborate with developers around AI tools. Our discussion also touches on ways to automate style consistency in docs, and the future directions of technical writing given the abundance of AI tools, MCP servers, and the central role that language plays in it all."
 published: true
-image: 
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/fabrizio_anandi_tom_mcp_servers_episode2.mp3
 podcast_file_size: 50.4
 podcast_duration: "01:02:03"
