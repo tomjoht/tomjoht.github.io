@@ -14,6 +14,7 @@ podcast_file_size: 50.4
 podcast_duration: "01:02:03"
 podcast_length: 50401668
 image: thumbtrioframedepisode2.png
+linkedin: https://www.linkedin.com/posts/tomjoht_podcast-ai-technicalwriting-activity-7388380456704069632-naDZ
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZSK6y1-yvg?si=qEeM4yMke9Evb3nj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
