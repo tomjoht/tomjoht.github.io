@@ -14,6 +14,7 @@ podcast_file_size: 46.4
 podcast_duration: "59:33"
 podcast_length: 46,378,158
 image: handsonllmsthumb3.png
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-book-club-a-human-in-the-loop-activity-7389293727149899776-G3Xo
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HlqfvvUzzYs?si=GaQqVZFgIXozJP_5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
