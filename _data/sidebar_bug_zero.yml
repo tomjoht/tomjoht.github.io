@@ -10,3 +10,5 @@ folders:
     jurl: "/blog/defining-bug-zero-and-obstacles"
   - title: "Why getting to bug zero is so hard"
     jurl: "/blog/goal-get-to-bug-zero"
+  - title: "Making it easy for people to review your changelists"
+    jurl: /blog/make-easy-to-review-changelists

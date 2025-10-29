@@ -10,6 +10,7 @@ rebrandly: https://idbwrtng.com/make-easy-to-review-changelists
 description: "The basic idea of doc bug zero, as I explained in <a href='/blog/defining-bug-zero-and-obstacles'>Defining bug zero</a>, is to clear out all the tickets in the doc issue queue, essentially to finish all your documentation work. Doing so would be the ultimate statement about the productivity gains from AI. Despite my attempts to get to bug zero, it still eludes me. I’m realizing that there’s an art to working through a bug queue, and AI can only take me so far. Good project skills are also needed. One of those skills, which I’ll address in this post, is making it easy for people to review the changelists, or pull requests. (The terminology used in my area of doc work is changelists, or CLs, so that’s how I’ll refer to them here.)"
 # image: 
 sidebar: sidebar_bug_zero
+linkedin: https://www.linkedin.com/posts/tomjoht_making-it-easy-for-people-to-review-your-activity-7389299440139939840-RnZg
 ---
 
 * TOC
