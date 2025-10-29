@@ -233,7 +233,7 @@ The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I
 There's a Slack workspace set up for online discussion. Go to one of these links:
 
 * Already a workspace member? Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
-* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-39vzdyzi9-MinrAVuVtCObhFIrpXdZBg)
+* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-3hdnn35w0-nZd1HFUtIF38BgVfXBKGpQ)
 
 The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
 
@@ -247,7 +247,7 @@ In addition to Slack, there's an email list you can join to receive announcement
 
 ## Google Meet for the meetings {#googlemeet}
 
-For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings should automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
+For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings should automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTExMTZUMTgwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
 
 <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&amp;tmsrc=tomjoht%40gmail.com&amp;scp=ALL"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
 
