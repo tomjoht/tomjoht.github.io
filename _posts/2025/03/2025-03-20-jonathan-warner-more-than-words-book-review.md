@@ -1,5 +1,5 @@
 ---
-title: "Book review of Jonathan Warner's book <i>More Than Words: How to think about writing in the age of AI</i>"
+title: "Book review of Jonathan Warner's book 'More Than Words: How to think about writing in the age of AI'"
 permalink: /blog/jonathan-warner-more-than-words-book-review
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-writing-technicalwriting-activity-7308890988062588929-MDna
 date: 2025-03-20
