@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/stubblebine-how-ai-is-changing-writing
 description: "I recently listened to <a href='https://podcasts.apple.com/us/podcast/how-ai-is-changing-writing-with-tony-stubblebine/id1522960417?i=1000734040477'>How AI Is Changing Writing &mdash; with Tony Stubblebine</a> from the Big Technology podcast, hosted by Alex Kantrowitz. This was one of the more interesting and relevant episodes for me. I embedded the interview below and also added my own summary of the important points and my analysis."
 image: kantrowitz-and-stubblebine.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_medium-ceo-explains-how-ai-is-changing-writing-activity-7389885450032898048-1Jn7
 ---
 
 * TOC
