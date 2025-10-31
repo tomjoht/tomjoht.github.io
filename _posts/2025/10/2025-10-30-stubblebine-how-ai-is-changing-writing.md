@@ -41,21 +41,23 @@ Stubblebine argues that there's great value in people sharing experiences from t
 
 I agree. Although I've had ads on my blog for at least a decade or longer, the revenue has only been pocket change. I'd still blog without any monetary incentives, for the same reason people write novels without doing it solely in hope of a future windfall. It's wonderful to write something and find that other people find value/relevance in what you've written, and share their feedback.
 
-Writers on Medium are sharing life lessons. "This thing happened to me and I want to share it with you" (28:54), Stubblebine says. He sees great value in sharing your life's experiences and lessons learned with others, and I completely agree. This has been the motive behind so much of my writing. *Is AI and the abundance of content slop threatening to upend that connection and experience-sharing with readers?*
+## Sharing your life's experiences
+
+Writers on Medium, many of them amateur writers but working professionals, are sharing experiences and lessons learned from their work lives. "This thing happened to me and I want to share it with you" (28:54), Stubblebine says. There's great value in this type of sharing, and it's been the motive behind so much of my writing. *Is AI and the abundance of content slop threatening to upend that connection and experience-sharing with readers?*
 
 Stubblebine says Google's great invention with the Internet was to allow anyone to start writing about a topic and find readers. "The idea that you can just write something on the internet and traffic will just show up out of the blue," he said, "That's kind of like... Google made the public internet" (29:36). But now with AI chat, many of those readers never fully go to your site. He said the traffic trade-off is devastating, estimating that "we lose about a hundred clicks from traditional Google search for every one click we get back from a Gemini summary" (43:33). 
 
-As someone who's been blogging for nearly 20 years, I owe a debt of gratitude to Google, as it's allowed me to write and be discovered and gain readership for my content in ways that weren't possible previously. Is that model going away? Will you find that you're writing in a vacuum, writing for the machine to consume your content and spit it out in unrecognizable ways? That's hardly incentivizing.
+As someone who's been blogging for nearly 20 years, I owe a debt of gratitude to Google, as it's allowed me to write and be discovered and gain readership for my content in ways that weren't possible previously. Is that model going away? Will you find that you're writing in a vacuum, writing for the machine to consume your content and spit it out in unrecognizable ways? That's hardly incentivizing. I doubt the experience will go away. People will continue to write, and readers will look for human-authored content with voice and soul.
 
 ## Pushing back
 
-Stubblebine also argues that Medium provides so much content to AI companies, they have the potential to poison the well if they wanted. He made a fascinating claim about the em dash:
+Stubblebine also argues that Medium provides so much content to AI companies that they have the potential to poison the well if they wanted. He made a fascinating claim about the em dash:
 
 > **Stubblebine:** "...we learned really early on that medium is a big enough corpus of data that we can poison the... results of any large language model... the Medium training... is so heavy on em dashes... so when you hear oh this must have been written by AI because it's got so many em dashes it's because the AI is trained on Medium..." (16:18, 16:57).
 
 > **Kantrowitz:** "Wait, this is why ChatGPT writes with em dashes?" (17:14).
 
-I actually wasn't that aware that AI has a strong preference for em dashes, but yeah, they appear semi-frequently. Is this because of an abundance of em dashes on Medium? I doubt it. Is Medium also taking credit for other aspects of AI writing, such as excessive amounts of adjectives, flowery and overblown descriptions, and inserting "crucial" and "delve" everywhere? Do all posts on Medium insist on titlecase headings?
+I actually wasn't that aware that AI has a strong preference for em dashes, but yeah, they appear semi-frequently. Is this because of an abundance of em dashes on Medium? I doubt it. Is Medium also taking credit for other aspects of AI writing, such as excessive amounts of adjectives, flowery and overblown descriptions, and inserting "crucial" and "delve" everywhere? Do all posts on Medium insist on titlecased headings?
 
 ## Reconciling two facets of writing
 
@@ -72,6 +74,8 @@ Stubblebine also welcomes other supporting uses of AI, such as for ensuring accu
 There's one especially good use of AI that few people realize: identifying and splicing in quotes. For this post, I initially described each of these points from memory on the same day I listened to the podcast. A few days later, Kantrowitz [posted the interview on YouTube](https://www.youtube.com/watch?v=sf0SHZ7zujs), which provides a transcript for the content. I copied the transcript into Gemini along with a draft of my post, and asked Gemini to verify the accuracy of my post against the transcript.
 
 But I also wanted to pepper in some quotes from the interview, essentially implementing a kind of *diglossia* technique in my writing. Weaving together multiple voices (even if podcast quotes, which aren't always grammatical) makes writing more interesting. AI does an excellent job at this, and I don't think readers will feel that the post has lost some of its "soul" because I used AI to do this.
+
+I occasionally insert brief ummaries into my posts as well. If you're writing about a topic, drawing upon your experiences and other perspectives, and you want to summarize some external research or other info in an informative, Wikipedia-like way, AI can be helpful in doing this without removing your own voice and authority/ownership with the content.
 
 ## Conclusion
 
