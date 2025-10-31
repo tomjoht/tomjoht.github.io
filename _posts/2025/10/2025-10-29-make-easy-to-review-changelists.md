@@ -11,6 +11,7 @@ description: "The basic idea of doc bug zero, as I explained in <a href='/blog/d
 # image: 
 sidebar: sidebar_bug_zero
 linkedin: https://www.linkedin.com/posts/tomjoht_making-it-easy-for-people-to-review-your-activity-7389299440139939840-RnZg
+image: scopecreepthumb.png
 ---
 
 * TOC

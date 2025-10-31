@@ -7,7 +7,7 @@ categories:
 - writing
 keywords: 
 rebrandly: https://idbwrtng.com/stubblebine-how-ai-is-changing-writing
-description: "I listened to <a href='https://podcasts.apple.com/us/podcast/how-ai-is-changing-writing-with-tony-stubblebine/id1522960417?i=1000734040477'>How AI Is Changing Writing &mdash; with Tony Stubblebine</a> from the Big Technology podcast today, hosted by Alex Kantrowitz. This was one of the more interesting and relevant episodes for me. I embedded the interview below and also added my own summary of the important points and my analysis."
+description: "I recently listened to <a href='https://podcasts.apple.com/us/podcast/how-ai-is-changing-writing-with-tony-stubblebine/id1522960417?i=1000734040477'>How AI Is Changing Writing &mdash; with Tony Stubblebine</a> from the Big Technology podcast, hosted by Alex Kantrowitz. This was one of the more interesting and relevant episodes for me. I embedded the interview below and also added my own summary of the important points and my analysis."
 image: kantrowitz-and-stubblebine.jpg
 ---
 
@@ -60,7 +60,7 @@ I actually wasn't that aware that AI has a strong preference for em dashes, but 
 
 Despite the threats AI poses to readership, Stubblebine isn't against using AI as a tool in the writing process. He sees AI as a "second brain" tool, similar to personal knowledge management tools. He described a new app concept they're working on, where you can quickly get any content out of your bucket without spending time organizing it.
 
-    "...we've been using the word bucket for a while, which is just the idea of what does it take for you to feel safe, to think like this is a bucket that I can throw anything into it and I don't have to spend time organizing it and I know I'll be able to get it out when I need to" (23:19).
+> "...we've been using the word bucket for a while, which is just the idea of what does it take for you to feel safe, to think like this is a bucket that I can throw anything into it and I don't have to spend time organizing it and I know I'll be able to get it out when I need to" (23:19).
 
 For example, in writing this post, I might want to quote from Warner's book. I can't remember those quotes, but a second-brain AI that holds everything I've ever written might be useful.
 
