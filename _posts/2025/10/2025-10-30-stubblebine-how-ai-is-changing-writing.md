@@ -7,7 +7,7 @@ categories:
 - writing
 keywords: 
 rebrandly: https://idbwrtng.com/stubblebine-how-ai-is-changing-writing
-description: "I recently listened to <a href='https://podcasts.apple.com/us/podcast/how-ai-is-changing-writing-with-tony-stubblebine/id1522960417?i=1000734040477'>How AI Is Changing Writing &mdash; with Tony Stubblebine</a> from the Big Technology podcast, hosted by Alex Kantrowitz. This was one of the more interesting and relevant episodes for me. I embedded the interview below and also added my own summary of the important points and my analysis."
+description: "I recently listened to <a href='https://podcasts.apple.com/us/podcast/how-ai-is-changing-writing-with-tony-stubblebine/id1522960417?i=1000734040477'>How AI Is Changing Writing &mdash; with Tony Stubblebine</a> from the <a href='https://www.linkedin.com/newsletters/6901970121829801984/'>Big Technology podcast</a>, hosted by Alex Kantrowitz. This was one of the more interesting and relevant episodes for me. I embedded the interview below and also added my own summary of the important points and my analysis."
 image: kantrowitz-and-stubblebine.jpg
 linkedin: https://www.linkedin.com/posts/tomjoht_medium-ceo-explains-how-ai-is-changing-writing-activity-7389885450032898048-1Jn7
 ---
@@ -15,11 +15,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_medium-ceo-explains-how-ai-is-c
 * TOC
 {:toc}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf0SHZ7zujs?si=h3dopSN-kGDhERD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Deliberations over AI slop
 
-Tony Stubblebine is the CEO of [Medium.com](https://medium.com), which is a popular platform for people to write content. Personally, I've never been a huge fan of Medium because it presents a paywall to read the content. Additionally, many Medium authors seem invisible to me as real people, so I've always been a bit suspicious of the platform. However, listening to Stubblebine on this episode changed my mind a bit. Stubblebine is smart and insightful, and some of his points resonated with me, especially how he sees writing as a tool for thinking, and the value in sharing your life's experiences &mdash; points I'll touch upon later.
+[Tony Stubblebine](https://www.linkedin.com/in/tonystubblebine/) is the CEO of [Medium.com](https://medium.com), which is a popular platform for people to write content. Personally, I've never been a huge fan of Medium because it presents a paywall to read the content. Additionally, many Medium authors seem invisible to me as real people, so I've always been a bit suspicious of the platform. However, listening to Stubblebine on this episode from [Alex Kantrowitz](https://www.linkedin.com/in/alexkantrowitz/) changed my mind a bit. Stubblebine is smart and insightful, and some of his points resonated with me, especially how he sees writing as a tool for thinking, and the value in sharing your life's experiences &mdash; points I'll touch upon later.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sf0SHZ7zujs?si=h3dopSN-kGDhERD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Stubblebine and Kantrowitz talk generally about AI slop and how sites like Medium can avoid promoting it, as well as how to avoid the general disincentivization of writing on the internet. Stubblebine's main point about slop was that the *existence* of it isn't the real issue, it's whether readers see it. "Does it matter how much slop is on Medium," he asked, "or does it matter... how much slop our readers are seeing which is the question I'm asking?" (3:42) This is an interesting distinction and shows the ways platforms can make AI slop less visible without enforcing draconian security measures up front.
 
@@ -41,7 +41,7 @@ Stubblebine argues that there's great value in people sharing experiences from t
 
 I agree. Although I've had ads on my blog for at least a decade or longer, the revenue has only been pocket change. I'd still blog without any monetary incentives, for the same reason people write novels without doing it solely in hope of a future windfall. It's wonderful to write something and find that other people find value/relevance in what you've written, and share their feedback.
 
-Writers on Medium are sharing life lessons. "This thing happened to me and I want to share it with you" (28:54), Stubblebine says. He sees great value in sharing your life's experiences and lessons learned with others, and I completely agree. This has been the motive behind so much of my writing. *Is AI and the abundance of content slop threatening to upend that connection and experience sharing with readers?*
+Writers on Medium are sharing life lessons. "This thing happened to me and I want to share it with you" (28:54), Stubblebine says. He sees great value in sharing your life's experiences and lessons learned with others, and I completely agree. This has been the motive behind so much of my writing. *Is AI and the abundance of content slop threatening to upend that connection and experience-sharing with readers?*
 
 Stubblebine says Google's great invention with the Internet was to allow anyone to start writing about a topic and find readers. "The idea that you can just write something on the internet and traffic will just show up out of the blue," he said, "That's kind of like... Google made the public internet" (29:36). But now with AI chat, many of those readers never fully go to your site. He said the traffic trade-off is devastating, estimating that "we lose about a hundred clicks from traditional Google search for every one click we get back from a Gemini summary" (43:33). 
 
