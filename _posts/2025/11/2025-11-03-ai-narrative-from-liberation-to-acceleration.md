@@ -7,6 +7,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/ai-narrative-from-liberation-to-acceleration
 description: "In this post, I explain why the AI narrative needs to change from one of liberation (freeing us up from tedious work) to acceleration (allowing us to speed up). The liberation narrative can potentially lead to worker replacement based on the flawed assumption of a static workload. I argue that AI's true effect is to accelerate the entire competitive landscape, increasing the pace of work for everyone. In this new, sped-up world, companies that sacrifice their human validators for short-term gains may find themselves falling behind."
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-changing-the-ai-narrative-from-activity-7391127331223830528-uYmW
 ---
 
 * TOC
