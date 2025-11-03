@@ -75,7 +75,7 @@ There's one especially good use of AI that few people realize: identifying and s
 
 But I also wanted to pepper in some quotes from the interview, essentially implementing a kind of *diglossia* technique in my writing. Weaving together multiple voices (even if podcast quotes, which aren't always grammatical) makes writing more interesting. AI does an excellent job at this, and I don't think readers will feel that the post has lost some of its "soul" because I used AI to do this.
 
-I occasionally insert brief ummaries into my posts as well. If you're writing about a topic, drawing upon your experiences and other perspectives, and you want to summarize some external research or other info in an informative, Wikipedia-like way, AI can be helpful in doing this without removing your own voice and authority/ownership with the content.
+I occasionally insert brief summaries into my posts as well. If you're writing about a topic, drawing upon your experiences and other perspectives, and you want to summarize some external research or other info in an informative, Wikipedia-like way, AI can be helpful in doing this without removing your own voice and authority/ownership with the content.
 
 ## Conclusion
 
