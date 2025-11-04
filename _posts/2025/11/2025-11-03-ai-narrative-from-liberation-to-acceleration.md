@@ -6,7 +6,7 @@ categories:
 - ai
 keywords: 
 rebrandly: https://idbwrtng.com/ai-narrative-from-liberation-to-acceleration
-description: "In this post, I explain why the AI narrative needs to change from one of liberation (freeing us up from tedious work) to acceleration (allowing us to speed up). The liberation narrative can potentially lead to worker replacement based on the flawed assumption of a static workload. I argue that AI's true effect is to accelerate the entire competitive landscape, increasing the pace of work for everyone. In this new, sped-up world, companies that sacrifice their human validators for short-term gains may find themselves falling behind."
+description: "The most frequent story told about AI is that it will free us up from mundane tasks and allow us to focus on more impactful, strategic work. But the liberation part of that story might be misleading. In this post, I argue that AI's true effect is to accelerate the entire competitive landscape, increasing the pace of work for everyone. In this new, sped-up world, companies that replace human workers with AI for short-term gains, assuming that the pace of change is static, may find themselves falling behind in the long term."
 ---
 
 * TOC
@@ -15,13 +15,13 @@ description: "In this post, I explain why the AI narrative needs to change from 
 ## Introduction
 
 There's a pretty depressing post on the techwriting subreddit right now: [AWS tech writers majorly impacted by today's layoffs](https://www.reddit.com/r/technicalwriting/comments/1oicnxi/aws_tech_writers_majorly_impacted_by_todays/)
-... with nearly 964 likes and 93 comments to date. In the post, one of the former AWS tech writers writes:
+... with nearly 968 likes and 94 comments to date. In the post, one of the former AWS tech writers writes:
 
-> …it doesn't matter that AI can't do everything we do. It doesn't matter that the quality is noticeably worse than our writing. It doesn't matter that it doesn't know all the overhead and confusing internal systems that we use to get our docs out the door. <i>Corporate leadership <b>doesn't care</b> about any of those things</i>. They will give you AI tools, train "you" to use them (it's really the other way around - you're training *it*), tell you that it'll make your life easier, and still let you go in the end.
+> ... it doesn't matter that AI can't do everything we do. It doesn't matter that the quality is noticeably worse than our writing. It doesn't matter that it doesn't know all the overhead and confusing internal systems that we use to get our docs out the door. <i>Corporate leadership <b>doesn't care</b> about any of those things</i>. They will give you AI tools, train "you" to use them (it's really the other way around - you're training *it*), tell you that it'll make your life easier, and still let you go in the end.
 
-It's a sobering thread that has many in the industry upset, and understandably so. The post prompted me to think about the larger AI narrative that often gets told, and how that narrative is not just misleading, but harmful. The current AI story is only partly true, and damaging in the way it can mislead.
+It's a sobering thread that has many in the industry upset, and understandably so. The post prompted me to think about the larger AI narrative that often gets told, and how that narrative might be misleading. The current AI story is only partly true, and damaging in the way it can mislead.
 
-Laying off employees in response to AI is a short-sighted strategy based on a static pace fallacy, an assumption that the amount of work is fixed. In reality, AI accelerates the entire competitive landscape, which increases the overall pace of work. Moreover, AI shifts the bottleneck from content generation to human validation. Companies will need their human workers, augmented by AI, to manage this new, higher-volume validation bottleneck and keep from falling behind.
+Laying off employees in response to AI could be a short-sighted strategy based on a static pace fallacy, which is the assumption that the amount of work is fixed. In reality, AI accelerates the entire competitive landscape, increasing the overall pace of work. Moreover, AI shifts the bottleneck from content generation to human validation. Companies will need their human workers, augmented by AI, to manage this new, higher-volume validation bottleneck and keep from falling behind.
 
 
 ## The AI narrative
@@ -32,9 +32,9 @@ The AI narrative, if there is a general one, goes something like this:
 
 I frequently hear professionals noting how AI allowed them to do tasks that might normally take a long afternoon of tedious work.
 
-CEOs hear this and think *AI will allow us to do the same with one third the number of employees*. As a result, you've seen the flat hiring and the increased pace at which tech writers are working. However, this thinking (reducing employees because AI can do their work) commits the *static pace fallacy* &mdash; the assumption that the total volume of work and competitive expectations are fixed, rather than dynamic and accelerating.
+CEOs probably hear this and think *AI will allow us to do the same with one third the number of employees*. As a result, you've seen the flat hiring and the increased pace at which tech writers are working. However, this thinking (reducing employees because AI can do their work) commits the *static pace fallacy* &mdash; the assumption that the total volume of work and competitive expectations are fixed, rather than dynamic and accelerating.
 
-Here's what most people overlook in the AI liberation narrative: **if AI speeds up your productivity, it speeds up the productivity of everyone around you too.** And every company in your domain. So those other companies will also deliver faster, with higher quality, and more prolifically if they're also using AI.
+Here's what most people overlook in the AI liberation narrative: **If AI speeds up your productivity, it speeds up the productivity of everyone around you too.** And every company in your domain. And companies abroad. So those other companies will also deliver faster, with higher quality, and more prolifically if they're also using AI.
 
 Here's an analogy for this argument. Consider the computer's effect on writing. Let's say you, a tech writer working in 1990, get a computer, learn to type, and realize that you can write a lot faster and easier using this tool. It even doubles your productivity versus writing by longhand with a pen. It's amazing. For the first few months, your productivity soars because not many other writers have computers, and it's become your secret weapon. Whereas with pen and paper you might have written 1 document a week, with a computer you now produce 3 documents a week.
 
@@ -141,5 +141,3 @@ it could be:
 > AI provides tools to speed up your work in a constantly accelerating environment. 
 
 But no one likes acceleration as a goal here. We're all accelerating and reeling from its effects. The idea of AI as liberation &mdash; liberation from all the tedious and time-consuming tasks you have to do &mdash; sounds much more appealing. But that liberation is a false narrative. AI isn't liberating us. It's speeding up the race. And we're out of breath.
-
-
