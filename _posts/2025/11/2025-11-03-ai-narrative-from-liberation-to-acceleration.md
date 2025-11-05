@@ -23,6 +23,9 @@ It's a sobering thread that has many in the industry upset, and understandably s
 
 Laying off employees in response to AI could be a short-sighted strategy based on a static pace fallacy, which is the assumption that the amount of work is fixed. In reality, AI accelerates the entire competitive landscape, increasing the overall pace of work. Moreover, AI shifts the bottleneck from content generation to human validation. Companies will need their human workers, augmented by AI, to manage this new, higher-volume validation bottleneck and keep from falling behind.
 
+{:.note}
+For a short video (7 min.) of this post, see this [NotebookLM video](https://notebooklm.google.com/notebook/85f08982-97f9-4846-b256-56759993ff11).
+
 
 ## The AI narrative
 
