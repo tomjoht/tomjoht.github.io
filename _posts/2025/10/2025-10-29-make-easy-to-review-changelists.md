@@ -29,7 +29,7 @@ Scope creep is a common phenomenon when making doc updates. You receive a ticket
 * You notice other updates that need to be made to the surrounding content, so you make them. (AI makes it increasingly easy to make many updates across an entire directory of topics.)
 * The reviewer starts expanding the scope with additional requests and threads, growing the initial changelist.
 
-Scope creep trajectories are bad news because as the size of a changelist grows, it becomes harder to get reviewers to approve it. And this is really the strategy that you have to consider if you want to reduce your queue of doc bugs: *Is the changelist something that a reviewer can easily approve? *
+Scope creep trajectories are bad news because as the size of a changelist grows, it becomes harder to get reviewers to approve it. And this is really the strategy that you have to consider if you want to reduce your queue of doc bugs: *Is the changelist something that a reviewer can easily approve?*
 
 A reviewer will find a changelist with a single line change fairly simply to review and approve, but when there are dozens of changes across multiple files, including some changes that might have expanded beyond the original reviewer’s area of expertise, you’re setting yourself up for a hard-to-review changelist. And because it’s hard to review, the reviewer postpones it, tries to put it off. The changelist sits in your queue, growing moss with each day that passes without action. 
 
@@ -39,7 +39,7 @@ When you ping the reviewers periodically to encourage their review, you might on
 
 To avoid this scenario, keep the changes small and easy to review. Break large changes up into multiple changelists so that they can more easily be reviewed, and so that you can build on the momentum (it feels good to submit a CL). Few scenarios are as demotivating as having a dozen changelists that no one is reviewing.
 
-<figure><img style="max-width: 570px" src="{{site.media}}/make-easy-changelists.jpg" alt=">Scope creep, large CLs, and poor descriptions" /></a><figcaption>Scope creep, large CLs, and poor descriptions can slow down the velocity of the review process</figcaption></figure>
+<figure><img style="max-width: 570px" src="{{site.media}}/make-easy-changelists.jpg" alt=">Scope creep, large CLs, and poor descriptions" /><figcaption>Scope creep, large CLs, and poor descriptions can slow down the velocity of the review process</figcaption></figure>
 
 ## 2. CL is too big
 
