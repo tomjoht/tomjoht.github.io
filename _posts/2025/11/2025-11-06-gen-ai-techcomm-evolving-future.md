@@ -8,7 +8,7 @@ categories:
 - technical-writing
 keywords: 
 rebrandly: https://idbwrtng.com/gen-ai-techcomm-evolving-future
-description: "In this thoughtful guest post, <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an assistant professor at James Madison University, wrestles with generative AI and its impact on the technical writing profession. Jeremy examines risks such as decisions being made by leaders who don't understand the variety and complexity of the tech writer role, or the perceived slow out from human writers compared to the scale out of output from LLMs. Overall, Jeremy argues that Gen AI is another point on a long tech writer timeline of adapting to evolving tools and strategies (posssibly now context engineering), and he's confident tech writers will also adapt and continue on as a profession."
+description: "In this thoughtful guest post, <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an assistant professor at James Madison University, wrestles with generative AI and its impact on the technical writing profession. Jeremy examines risks such as decisions being made by leaders who don't understand the variety and complexity of the tech writer role, or the perceived slowness of output from human writers compared to the scale of output from LLMs. Overall, Jeremy argues that Gen AI is another point on a long timeline of tech writers adapting to evolving tools and strategies (possibly now emphasizing <i>context engineering</i>), and he's confident tech writers will also adapt and continue as a profession."
 author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
 bio: false
 ---
