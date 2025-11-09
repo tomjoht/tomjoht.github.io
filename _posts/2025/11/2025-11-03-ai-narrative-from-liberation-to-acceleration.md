@@ -25,9 +25,7 @@ Even if the layoffs are primarily about reallocating funds, the move still refle
 Laying off employees in response to AI could be a short-sighted strategy based on a static pace fallacy, which is the assumption that the amount of work is fixed. In reality, AI accelerates the entire competitive landscape, increasing the overall pace of work. Moreover, AI shifts the bottleneck from content generation to human validation. Companies will need their human workers, augmented by AI, to manage this new, higher-volume validation bottleneck and keep from falling behind.
 
 {:.note}
-
-For a short video (7 min.) of this post, see this NotebookLM video. The images in this post are from the NotebookLM slides.
-
+For a short video (7 min.) of this post, see this [NotebookLM video](https://notebooklm.google.com/notebook/85f08982-97f9-4846-b256-56759993ff11). The images in this post are from the NotebookLM slides.
 
 ## The AI narrative
 
@@ -159,12 +157,12 @@ Returning to the original idea of this post, what should the AI narrative be? In
 
 > AI does the tedious tasks so you focus on more strategic work.
 
-<figure><img src="{{site.media}}/old-story-vs-new-reality.png" alt="A split diagram showing 'The Old Story' (a man relaxing in a hammock) vs. 'The New Reality' (a woman running on a treadmill)." /><figcaption>The AI narrative needs to shift from "liberation" to "acceleration."</figcaption></figure>
-
 it could be:
 
 
 > AI provides tools to speed up your work in a constantly accelerating environment.
+
+<figure><img src="{{site.media}}/old-story-vs-new-reality.png" alt="A split diagram showing 'The Old Story' (a man relaxing in a hammock) vs. 'The New Reality' (a woman running on a treadmill)." /><figcaption>The AI narrative needs to shift from "liberation" to "acceleration."</figcaption></figure>
 
 But no one likes acceleration as a goal here. We're all accelerating and reeling from its effects. The idea of AI as liberation&mdash;liberation from all the tedious and time-consuming tasks you have to do&mdash;sounds much more appealing. But that liberation is a false narrative. AI isn't liberating us. It's speeding up the race. And we're out of breath.
 
