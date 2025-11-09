@@ -48,7 +48,7 @@ The famous comment that Altman was "not consistently candid" (made during Altman
 
 Hao shows how Altman plays the right ideology cards related to AGI to advance his agenda. For example, as Altman testifies before the Senate and answers questions, he focuses on the long-term existential risks of AI, the potential threatening scenarios if an authoritarian state like China develops AGI first, and more. In so doing, he deflects attention from the immediate damages OpenAI is creating, with natural resource extraction, human labor exploitation, consolidation of knowledge assets, and more. This insight about how to manipulate people around their AGI alignment (fears, fascination, or other attractions) proves to be a point Hao returns to frequently in the book.
 
-Hao's depiction of Altman is harsh and unforgiving, and in our book club we wondered whether it was fair. It's hard to know. Olson's portrayal in *Supremacy* wasn't this negative. Although Hao needs a supervillain her empire argument, she does base Altman's characterization on a compelling body of factual events, including more recent information than in Olson's book.
+Hao's depiction of Altman is harsh and unforgiving, and in our book club we wondered whether it was fair. It's hard to know. Olson's portrayal in *Supremacy* wasn't this negative. Although Hao needs a supervillain for her empire argument, she does base Altman's characterization on a compelling body of factual events, including more recent information than in Olson's book.
 
 ## The empire argument
 
@@ -129,4 +129,4 @@ Anthropic, despite its emphasis on safety and alignment, seems to follow the tra
 
 ## Conclusion
 
-Overall, Hao's book is well worth reading. It's not a book that will leave you with warm fuzzies about the AI industry or suggest that infinite possibilities are ready to be unlocked (cures for cancer, climate change solutions, etc.). But her book will ground you in the real concerns about AI's potentially damaging impact on the many societies and environments outside of Silicon Valley&mdash;the same societies and environments provide the support and resources needed for its development.
+Overall, Hao's book is well worth reading. It's not a book that will leave you with warm fuzzies about the AI industry or suggest that infinite possibilities are ready to be unlocked (cures for cancer, climate change solutions, etc.). But her book will ground you in the real concerns about AI's potentially damaging impact on the many societies and environments outside of Silicon Valley&mdash;the same societies and environments that provide the support and resources needed for its development.
