@@ -1,5 +1,5 @@
 ---
-title: "Why long-running tasks carried out by agentic AI aren't the future of doc work, and might just be an illusion"
+title: "Why long-running tasks autonomously carried out by agentic AI aren't the future of doc work, and might just be an illusion"
 permalink: /blog/collaborative-thought-partner-not-autonomous
 date: 2025-11-08
 categories:
