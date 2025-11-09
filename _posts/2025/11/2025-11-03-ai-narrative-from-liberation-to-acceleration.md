@@ -7,6 +7,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/ai-narrative-from-liberation-to-acceleration
 description: "The most frequent story told about AI is that it will free us up from mundane tasks and allow us to focus on more impactful, strategic work. But the liberation part of that story might be misleading. In this post, I argue that AI's true effect is to accelerate the entire competitive landscape, increasing the pace of work for everyone. In this new, sped-up world, companies that replace human workers with AI for short-term gains, assuming that the pace of change is static, may find themselves falling behind in the long term."
+image: changeainarrativethumb.png
 ---
 
 * TOC
@@ -30,7 +31,6 @@ For a short video (7 min.) of this post, see this [NotebookLM video](https://not
 ## The AI narrative
 
 The AI narrative, if there is a general one, goes something like this:
-
 
 > AI is going to make you so productive, you can do 3x as much and free up time for more strategic, important tasks that AI can't do.
 
