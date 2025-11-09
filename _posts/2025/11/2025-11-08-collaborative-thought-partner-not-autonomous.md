@@ -17,11 +17,11 @@ image: twistsandturnsthumb.png
 {:.note}
 For a short video (7 min.) of this post, see this [NotebookLM video](https://notebooklm.google.com/notebook/f0cb5d57-41ec-4cbc-86de-591a8baa2083). The images in this post are from the NotebookLM slides.
 
-As agentic assistants get more capable, I'm seeing more emphasis on long-running tasks. These are tasks that require less human intervention and give more autonomy to the agents to make decisions along the way to achieve the task's goal. In some ways, it seems like core activity for future tech comm work might involve carefully crafting long-running prompts that allow a technical writer to fully automate a task. The tech writer's role then becomes focusing on designing prompts, instructions, and skills that highly capable autonomous agents can follow to complete the doc-related tasks. The more complex the task, the more complex the prompt.
+As agentic assistants get more capable, I'm seeing more emphasis on long-running tasks. These are tasks that require less human intervention and give more autonomy to the agents to make decisions along the way to achieve the task's goal. In some ways, it seems like a primary activity for future tech comm work might involve carefully crafting long-running prompts that allow a technical writer to fully automate a task. The tech writer's role then becomes focusing on designing prompts, instructions, and skills that highly capable autonomous agents can follow to complete the doc-related tasks. The more complex the task, the more complex the prompt.
 
-However, I think this idea seems appealing in theory only. In reality, long-running tasks have limited application and aren't representative of 90% of the documentation tasks I do. Most documentation tasks involve iterative decision-making along the way based on feedback loops. Although many people would like tech writers to automate their tasks, the reality is that most doc scenarios are one-offs and not repeatable in a prompt that would apply to future doc tasks.
+However, I think this idea seems appealing *in theory only*. In reality, long-running tasks have limited application and aren't representative of 90% of the documentation tasks I do. Most documentation tasks involve iterative decision-making along the way based on feedback loops. Although many people would like tech writers to automate their tasks, the reality is that most doc scenarios are one-offs and not repeatable in a prompt that would apply to future doc tasks.
 
-Based on the need for the human-in-the-loop to steer, provide feedback, course correct, and apply judgment all along the way of a process&mdash;in constant *conversation* with an AI agent **acting as a thought partner** rather than a wholly autonomous agent&mdash;I don't foresee long-running tasks being all that important for tech comm work.
+Based on the need for the human-in-the-loop to steer, provide feedback, course correct, and apply judgment all along the way of a process&mdash;in **constant conversation with an AI agent acting as a thought partner** rather than a wholly autonomous agent&mdash;I don't foresee long-running tasks being all that important for tech comm work.
 
 <figure><img src="{{site.media}}/thoughtpartner-better-model-as-thought-partner.png" alt="Comparison of two AI interaction models: autonomous agent shows a person giving a task to a robot for solo processing, while thought partner shows two people collaborating at a table with gears representing a collaborative process" /><figcaption>The thought partner model emphasizes conversation and collaborative discovery rather than autonomous task execution</figcaption></figure>
 
@@ -52,21 +52,21 @@ These tasks are probably ones that few human tech writers could do without becom
 
 ## Results of trying these long-running prompts
 
-I've only actually tried a couple of these prompts: the grammar/style fix and the link fix. In both cases, the agents caught and fixed an impressive number of errors. Looking at all the fixes, I thought, geez, I'm really more of a sloppy writer than I realized. Glad no one seemed to notice a lot of these issues. In about an hour or two, I'd fixed 70+ issues in my docs.
+I've only actually tried a couple of these prompts: the grammar/style fix and the link fix. In both cases, the agents caught and fixed an impressive number of errors. Looking at all the fixes, I thought, geez, I'm really more of a sloppy writer than I realized. Glad no one seemed to notice a lot of these issues. In about an hour or two, I'd fixed 70+ minor cosmetic issues in my docs.
 
 It's safe to assume that most tech writers feel embarrassed about grammar errors and broken links in docs, and any process that can easily fix them is welcomed with open arms. It could be worthwhile to run most of the above prompts on a regular basis to catch quality issues.
 
-But like I said, this isn't what 90% or more of documentation work involves. Most doc requests require a lot more complex decision-making along the way. Instead of allowing the agent to work autonomously, the doc issues encourage more of a thought-partner relationship with the AI, where you have conversations that lead to mutual decision-making.
+But like I said, this isn't what most documentation work involves. Most doc requests require a lot more complex decision-making along the way. Instead of allowing the agent to work autonomously, the documentation projects require a thought-partner relationship with the AI, where you have conversations that lead to mutual decision-making.
 
 <figure><img src="{{site.media}}/thoughtpartner-actual-twists-and-turns.png" alt="Illustration showing a straight dotted line from point A to point B contrasted with a complex, tangled orange path below filled with question marks, arrows, and light bulb moments" /><figcaption>The reality of documentation work: a winding path of discovery rather than a straight line from prompt to result</figcaption></figure>
 
 ## Tasks that involve iterative decision-making based on feedback loops
 
-So many doc tasks involve interactive decision-making—such as choosing to emphasize a certain detail, validate some other section, or reorganize content for flow—based on emerging information or other dynamic details that they defy pre-made prompts.
+So many doc tasks involve interactive decision-making, such as choosing to emphasize a certain detail, validate some other section, or reorganize content for flow—based on emerging information or other dynamic details, that they defy pre-made prompts.
 
-I'm like a chef in a kitchen tasting the soup and deciding to sprinkle in some spices, then tasting it again and making other ingredient decisions. *Needs more salt, sprinkle some in. Re-taste. No, that wasn't quite what was missing. Maybe a bit of garlic salt? Yes, getting closer. Wait, did we forget the bay leaf? No wonder. Let's add one in. But wait, we only have half a bay leaf; what can substitute for the other half? Will basil leaves work? Yes, let's try some. Oh yeah, getting there. Maybe a touch of oregano and we'll have it! Re-taste? Now how is it?*
+Writers are like a chef in a kitchen tasting the soup and deciding to sprinkle in some spices, then tasting it again and making other ingredient decisions. *Needs more salt, sprinkle some in. Re-taste. No, that wasn't quite what was missing. Maybe a bit of garlic salt? Yes, getting closer. Wait, did we forget the bay leaf? No wonder. Let's add one in. But wait, we only have half a bay leaf; what can substitute for the other half? Will basil leaves work? Yes, let's try some. Oh yeah, getting there. Maybe a touch of oregano and we'll have it! Re-taste? Now how is it?*
 
-This is figuratively how many technical writers operate. Complex tasks&mdash;those with unclear inputs and outputs, vague owners, or other challenges&mdash;constitute the core work we do all day, at least for senior tech writers. We're not just making words pretty and publishing them.
+This is figuratively how many technical writers operate. Complex tasks&mdash;those with unclear inputs and outputs, vague owners, or other challenges&mdash;constitute the core work many of us do all day as tech writers. We're not just making words pretty and publishing them.
 
 ## Example of iterative feedback loops
 
@@ -128,7 +128,7 @@ This is how many documentation updates tend to go. It's a back-and-forth convers
 
 If your doc queue mostly consists of these issues, the idea of scripting long-running doc prompts seems less likely. This is probably the reason why, despite using AI heavily for 2+ years, I don't have a prompt library I'm drawing upon. Most of the time, I write custom prompts for the situation at hand.
 
-However, I want to stay open to the idea of long-running prompts for situations that make sense, like the sample tasks I listed earlier. Agentic tools have become quite impressive. When you see an agent running for 10+ minutes working its way through something, it makes me wonder if I'm doing too much up-front steering and handholding and setup.
+However, I want to stay open to the idea of long-running prompts for situations that make sense, like the sample tasks I listed earlier. Agentic tools have become quite impressive. When you see an agent running for 5+ minutes working its way through something, it makes me wonder if I'm doing too much up-front steering and handholding and setup.
 
 To this end, I've created a prompt to end every conversation. I baked this into my agent markdown file (equivalent to `GEMINI.md`) to be invoked with the word **{% raw %}{{end}}{% endraw %}**.
 
@@ -139,8 +139,6 @@ To this end, I've created a prompt to end every conversation. I baked this into 
 > 2. Then package this prompt into an instruction that can be used with an AI in a future session for a similar task.
 
 However, when I do this after a long conversation, the prompts only confirm my conclusion that most of these collaborative interactions aren't scriptable as autonomous prompts. Just like a human conversation that has dynamic directions based on feedback coming from both conversation partners, conversations with AI agents have similar dynamic directions.
-
-<figure><img src="{{site.media}}/thoughtpartner-autonomy-an-illusion.png" alt="Human engineer and robot collaborating on building blueprints and architectural models together, symbolizing partnership rather than automation" /><figcaption>Autonomy in complex documentation tasks remains largely an illusion&mdash;successful outcomes depend on human-AI collaboration</figcaption></figure>
 
 ## Additional challenges for long-running agents
 
@@ -174,4 +172,4 @@ I acknowledge that I'm likely biased and am not eager to see an alternative real
 
 <hr/>
 
-<small><i>Note:</i> True to my argument in this post, I collaborated with AI on parts of this content.</small>
+<small>Note: Similar to my argument in this post, I collaborated with AI on parts of this content.</small>
