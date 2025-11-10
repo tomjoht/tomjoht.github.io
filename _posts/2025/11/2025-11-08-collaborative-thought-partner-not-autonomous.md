@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/collaborative-thought-partner-not-autonomous
 description: "As AI agents become more capable, there's growing eagerness to develop long-running tasks that operate autonomously with minimal human intervention. However, my experience suggests this fully autonomous mode doesn't apply to most documentation work. Most of my doc tasks, when I engage with AI, require constant iterative decision-making, course corrections, and collaborative problem-solving&mdash;more like a winding conversation with a thought partner than a straight-line prompt-to-result process. This human-in-the-loop requirement is why AI augments rather than replaces technical writers."
 image: twistsandturnsthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_why-long-running-tasks-autonomously-carried-activity-7393657802839355392--DYP
 ---
 
 * TOC
