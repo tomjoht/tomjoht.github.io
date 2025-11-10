@@ -23,7 +23,7 @@ However, I think this idea seems appealing *in theory only*. In reality, long-ru
 
 Based on the need for the human-in-the-loop to steer, provide feedback, course correct, and apply judgment all along the way of a process&mdash;in **constant conversation with an AI agent acting as a thought partner** rather than a wholly autonomous agent&mdash;I don't foresee long-running tasks being all that important for tech comm work.
 
-<figure><img src="{{site.media}}/thoughtpartner-better-model-as-thought-partner.png" alt="Comparison of two AI interaction models: autonomous agent shows a person giving a task to a robot for solo processing, while thought partner shows two people collaborating at a table with gears representing a collaborative process" /><figcaption>The thought partner model emphasizes conversation and collaborative discovery rather than autonomous task execution</figcaption></figure>
+<figure><img src="{{site.media}}/thoughtpartner-better-model-as-thought-partner.png" alt="Comparison of two AI interaction models: autonomous agent shows a person giving a task to a robot for solo processing, while thought partner shows two people collaborating at a table with gears representing a collaborative process" /><figcaption>On the left, AI acts as a servant that executes tasks autonomously; on the right, AI acts as a thought partner that you collaborate on tasks with.</figcaption></figure>
 
 For example, how many people have large prompt libraries full of ready-to-go prompts for all the incoming doc tasks they have to perform? I see prompt libraries surface regularly as popular features to add to sites providing AI guidance, yet I myself don't have a personal prompt library.
 
@@ -58,7 +58,7 @@ It's safe to assume that most tech writers feel embarrassed about grammar errors
 
 But like I said, this isn't what most documentation work involves. Most doc requests require a lot more complex decision-making along the way. Instead of allowing the agent to work autonomously, the documentation projects require a thought-partner relationship with the AI, where you have conversations that lead to mutual decision-making.
 
-<figure><img src="{{site.media}}/thoughtpartner-actual-twists-and-turns.png" alt="Illustration showing a straight dotted line from point A to point B contrasted with a complex, tangled orange path below filled with question marks, arrows, and light bulb moments" /><figcaption>The reality of documentation work: a winding path of discovery rather than a straight line from prompt to result</figcaption></figure>
+<figure><img src="{{site.media}}/thoughtpartner-actual-twists-and-turns.png" alt="Illustration showing a straight dotted line from point A to point B contrasted with a complex, tangled orange path below filled with question marks, arrows, and light bulb moments" /><figcaption>Most doc tasks have unique paths that can't easily scripted into predefined prompts; you take a lot of directions dynamically based on feedback that emerges along the way.</figcaption></figure>
 
 ## Tasks that involve iterative decision-making based on feedback loops
 
@@ -74,7 +74,7 @@ It's hard to provide a full example of what I mean without getting detailed and 
 
 My main point is to demonstrate how the collaboration with the AI is more than just prompt input. It's often a process of discovery and realization that surfaces during the conversation. The solution is one we discover together through collaboration rather than produced in a single step from one prompt.
 
-<figure><img src="{{site.media}}/thoughtpartner-collaboration.png" alt="Human and robot working together to assemble a puzzle with a lightbulb in the center, symbolizing collaborative problem-solving" /><figcaption>AI as thought partner: assembling solutions together through iterative collaboration</figcaption></figure>
+<figure><img src="{{site.media}}/thoughtpartner-collaboration.png" alt="Human and robot working together to assemble a puzzle with a lightbulb in the center, symbolizing collaborative problem-solving" /><figcaption>Working with AI as a thought partner, you collaborate on documentation solutions together.</figcaption></figure>
 
 Here's a general summary of the twists and turns in our conversation. This doc task involves updating a page with info from a similar (but different) API.
 
@@ -144,7 +144,7 @@ However, when I do this after a long conversation, the prompts only confirm my c
 
 Besides the need for iterative decision-making, there are some additional challenges for long-running tasks.
 
-<figure><img src="{{site.media}}/thoughtpartner-risks-of-autonomy.png" alt="Three connected panels showing practical hurdles: limited capabilities with a confused robot, compounding errors showing propagation of mistakes, and unsupervised risks showing unintended consequences" /><figcaption>Practical hurdles that limit long-running autonomous agents: limited capabilities, compounding errors, and unsupervised risks</figcaption></figure>
+<figure><img src="{{site.media}}/thoughtpartner-risks-of-autonomy.png" alt="Three connected panels showing practical hurdles: limited capabilities with a confused robot, compounding errors showing propagation of mistakes, and unsupervised risks showing unintended consequences" /><figcaption>Some additional hurdles pose challenges to autonomous agents.</figcaption></figure>
 
 ### Capabilities available to the tool
 
@@ -164,12 +164,8 @@ It could be that the only feasible long-running tasks are validation tasks—tho
 
 ## Conclusion
 
-I find this post very reaffirming because if I'm right, if AI tools work as collaboration partners and require a human in the loop, then it's less likely that humans will be replaced.
+I find this post reaffirming because if I'm right, if AI tools work as collaboration partners and require a human in the loop, then it's less likely that humans will be replaced.
 
-<figure><img src="{{site.media}}/thoughtpartner-most-tasks-collaborative.png" alt="Bar chart showing a small percentage for autonomous tasks versus a much larger percentage for collaborative tasks, with accompanying text stating the vast majority of knowledge work requires collaborative, not autonomous, AI" /><figcaption>The distribution of documentation work favors collaborative AI interactions over autonomous task execution</figcaption></figure>
+<figure><img src="{{site.media}}/thoughtpartner-most-tasks-collaborative.png" alt="Bar chart showing a small percentage for autonomous tasks versus a much larger percentage for collaborative tasks, with accompanying text stating the vast majority of knowledge work requires collaborative, not autonomous, AI" /><figcaption>Most doc work involves collaborative-style tasks in which AI augments human workers; there aren't many tasks that can be fully automated from the start.</figcaption></figure>
 
 I acknowledge that I'm likely biased and am not eager to see an alternative reality, in which autonomous agents somehow do most of the documentation work on their own. But given that I'm not experiencing this nor hearing any feedback from other tech writers about it, I'm confident that yes, we need a human in the loop collaborating with the AI for the outcomes to be productive. Industry leaders should see AI as collaborative thought partners, not as replacements for humans.
-
-<hr/>
-
-<small>Note: Similar to my argument in this post, I collaborated with AI on parts of this content.</small>
