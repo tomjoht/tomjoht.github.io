@@ -136,7 +136,7 @@ To this end, I've created a prompt to end every conversation. I baked this into 
 > **Reverse engineering the prompts**
 > 
 > When I type **{% raw %}{{end}}{% endraw %}** in a prompt, this means our conversation is over about this topic. When this happens, do the following:
-> 1. Look back over the thread and comes up with a prompt that can be used for future interactions that have the same intent. 
+> 1. Look back over the thread and come up with a prompt that can be used for future interactions that have the same intent. 
 > 2. Then package this prompt into an instruction that can be used with an AI in a future session for a similar task.
 
 However, when I do this after a long conversation, the prompts only confirm my conclusion that most of these collaborative interactions aren't scriptable as autonomous prompts. Just like a human conversation that has dynamic directions based on feedback coming from both conversation partners, conversations with AI agents have similar dynamic directions.
