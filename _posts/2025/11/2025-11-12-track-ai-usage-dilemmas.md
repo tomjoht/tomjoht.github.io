@@ -7,6 +7,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/track-ai-usage-dilemmas
 description: "Tracking and communicating AI usage in docs turns out to be not only challenging technically, but also potentially full of interpretive pitfalls. There seems to be a double-edged sword at work. On the one hand, we want to track the degree to which AI is being used in doc work so we can quantify, measure, and evaluate the impact of AI. On the other hand, if a tech writer calls out that they used AI for a documentation changelist, it might falsely create the impression that AI did all the work, reducing the value of including the human at all. In this post, I'll explore these dilemmas."
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-the-difficulty-of-tracking-and-activity-7394844031010234368-OfnT
 ---
 
 * TOC
