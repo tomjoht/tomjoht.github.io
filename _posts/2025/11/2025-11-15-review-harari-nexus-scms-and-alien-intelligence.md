@@ -5,10 +5,11 @@ date: 2025-11-15
 categories:
 - ai
 - ai-book-club
-keywords: 
+keywords: Harari, Nexus, alien intelligence, algorithm, black box, dehumanization
 rebrandly: https://idbwrtng.com/review-harari-nexus-scms-and-alien-intelligence
 description: "I just finished Yuval Noah Harari's <a href='https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X'><i>Nexus: A Brief History of Information Networks from the Stone Age</i></a>. The book provides a high-level analysis of information systems throughout history, with some warnings about the dangers of AI on today's systems. It's a remarkable book with many historical insights and interpretations that made history click for me. But the central idea of the book focuses on <i>self-correcting mechanisms</i> (SCMs) and how these SCMs are the linchpin of thriving democracies, so that's what I'll focus on in my review. The book also argues that AI is a form of alien intelligence that might incorrectly execute goals we don't want it to follow."
-image: 
+image: nexus-book-thumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_review-of-yuval-noah-hararis-nexus-and-activity-7395563415647223808-ww9W
 ---
 
 * TOC
