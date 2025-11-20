@@ -8,6 +8,7 @@ categories:
 keywords: troubleshooting, build scripts, API documentation, reference documentation, automation, AI-assisted troubleshooting, build logs, error debugging, documentation workflows, proto files, Gemini AI, script automation, technical writing processes
 rebrandly: https://idbwrtng.com/troubleshoot-build-processes-fixit-mind
 description: "One of the things I'm doing this week, which has thrown me off my content productivity track, is trying to fix some errors in build logs for my reference docs. I have an SDK that has 8 different proto-based APIs; each API has its own reference documentation. The build script I run (to generate the reference docs) takes about 20 minutes and creates the HTML reference documentation for each API. The only problem is that I recently realized that the build script has some errors."
+linkedin: https://www.linkedin.com/posts/tomjoht_troubleshooting-build-processes-and-other-activity-7397290946536665088-klYe
 ---
 
 * TOC
