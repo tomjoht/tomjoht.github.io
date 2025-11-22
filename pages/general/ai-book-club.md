@@ -45,18 +45,7 @@ The following tables list the reading schedule. The descriptions are extracts fr
       </tr>
    </thead>
    <tbody>
-      <tr>
-         <td>
-            <b>November 16, 2025<br/>10am PT</b>
-             <figure><a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari</p>
-             <p class="book-summary">"<i>Nexus</i> looks through the long lens of human history to consider how the flow of information has shaped us, and our world. Taking us from the Stone Age, through the canonization of the Bible, early modern witch-hunts, Stalinism, Nazism, and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems throughout history have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence."</p>
-         </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
-      </tr>
+
             <tr>
          <td>
             <b>December 21, 2025<br/>10am PT</b>
@@ -109,6 +98,21 @@ The previous meetings include recordings, notes, and other resources. They're li
       </tr>
    </thead>
    <tbody>
+      <tr>
+         <td>
+            <p><b>November 16, 2025<br/></b><br/>
+               <a href="/blog/nexus-harari-ai-book-club"><b>MEETING RECORDING</b></a>
+            </p>
+             <figure><a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><img src="{{site.media}}/nexus_aibookclub.png" alt="Nexus" /></a></figure>
+         </td>
+         <td>
+            <p class="book-summary-top"><a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"><i>Nexus: A Brief History of Information Networks from the Stone Age to AI</i></a> by Yuval Noah Harari</p>
+             <p class="book-summary">"<i>Nexus</i> looks through the long lens of human history to consider how the flow of information has shaped us, and our world. Taking us from the Stone Age, through the canonization of the Bible, early modern witch-hunts, Stalinism, Nazism, and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems throughout history have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence."</p>
+         </td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit">Notes and discussion</a><br/>
+             </p>
+             <p class="notes-links"><a href="/blog/review-harari-nexus-scms-and-alien-intelligence">Review of Yuval Noah Harari's "Nexus" — and why we don't need self-correcting mechanisms for "alien intelligence"</a></p></td>
+      </tr>
          <tr>
          <td>
             <p><b>October 19, 2025<br/></b><br/>
@@ -121,20 +125,21 @@ The previous meetings include recordings, notes, and other resources. They're li
             <p class="book-summary">"AI has acquired startling new language capabilities in just the past few years. Driven by rapid advances in deep learning, language AI systems are able to write and understand text better than ever before. This trend is enabling new features, products, and entire industries. Through this book's visually educational nature, readers will learn practical tools and concepts they need to use these capabilities today. / You'll understand how to use pretrained large language models for use cases like copywriting and summarization; create semantic search systems that go beyond keyword matching; and use existing libraries and pretrained models for text classification, search, and clusterings."</p>
          </td>
          <td><p class="notes-links"><a href="https://docs.google.com/document/d/1COqjriSvHpX8nvtae33MyOXDG82dH-wwHtmFeF5N4HA">Notes and discussion</a><br/>
-             <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a></p></td>
+             </p></td>
       </tr> 
          <tr>
          <td>
             <b>September 21, 2025<br/></b><br/>
-               <a href="/blog/book-club-empire-of-ai"><b>MEETING RECORDING</b></a><a href="/blog/book-review-empire-of-ai-karen-hao">MY BOOK REVIEW</a>
-            <figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure>
+              <p><a href="/blog/book-club-empire-of-ai"><b>MEETING RECORDING</b></a></p>
+            <p><figure><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><img src="{{site.media}}/empireofaithumb.png" alt="Empire of AI" /></a></figure></p>
          </td>
          <td>
             <p class="book-summary-top"><a href="https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"><i>Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI</i></a> by Karen Hao</p>
             <p class="book-summary">"[Hao] realized that the core truth of this massively disruptive sector is that its vision of success requires an almost unprecedented amount of resources: the “compute” power of high-end chips and the processing capacity to create massive large language models, the sheer volume of data that needs to be amassed at scale, the humans “cleaning up” that data for sweatshop wages throughout the Global South, and a truly alarming spike in the usage of energy and water underlying it all. The truth is that we have entered a new and ominous age of empire: only a small handful of globally scaled companies can even enter the field of play. At the head of the pack with its ChatGPT breakthrough, how would OpenAI resist such temptations?"</p>
          </td>
-         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1tAqsTZn7w9Dgti1KGj9g-poj33uwhXngDTagBnY0TuY/edit?tab=t.0#heading=h.9fjjlshp70zh">Notes and discussion</a><br/>
-             </p></td>
+         <td><p class="notes-links"><a href="https://docs.google.com/document/d/1tAqsTZn7w9Dgti1KGj9g-poj33uwhXngDTagBnY0TuY/edit?tab=t.0#heading=h.9fjjlshp70zh">Notes and discussion</a></p>
+         <p class="notes-links"><a href="/blog/book-review-empire-of-ai-karen-hao">Book review of 'Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI' by Karen Hao</a></p>
+         </td>
       </tr>
       <tr>
          <td>
@@ -153,7 +158,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       </tr>
       <tr>
          <td>
-            <p><b>July 20, 2025<br/></b><br/>NO RECORDING</p><br/><a href="/blog/olson-supremacy-dreams-capitalism">MY BOOK REVIEW</a>
+            <p><b>July 20, 2025<br/></b><br/>NO RECORDING</p><br/>
             <figure><a href="https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"><img src="{{site.media}}/supremacy_aibookclub.png" alt="AI Supremacy" /></a></figure>
          </td>
          <td>
@@ -161,9 +166,8 @@ The previous meetings include recordings, notes, and other resources. They're li
             <p class="book-summary">"In <i>Supremacy</i>, Olson, tech writer at Bloomberg, tells the astonishing story of the battle between these two AI firms [ OpenAI and DeepMind], their struggles to use their tech for good, and the hazardous direction they could go as they serve two tech Goliaths whose power is unprecedented in history. The story focuses on the continuing rivalry of two key CEOs at the center of it all, who cultivated a religion around their mission to build god-like super intelligent machines: Sam Altman, CEO of OpenAI, and Demis Hassabis, the CEO of DeepMind."</p>
          </td>
          <td>
-            <p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a><br/>
-               <a href="https://meet.google.com/nax-bwut-sja">Google Meet link</a>
-            </p>
+            <p class="notes-links"><a href="https://docs.google.com/document/d/11iJWFvXL2q4FEGYiQ4UGYN2u6X0lSshqIUmnv03Mg3U/">Notes and discussion</a></p>
+            <p class="notes-links"><a href="/blog/olson-supremacy-dreams-capitalism">Review of Parmy Olson's Supremacy — and the futility of chasing non-capitalist dreams</a></p>
          </td>
       </tr>
       <tr>
@@ -209,6 +213,7 @@ The previous meetings include recordings, notes, and other resources. They're li
          </td>
          <td>
             <p class="notes-links"><a href="https://idratherbewriting.com/blog/warner-book-more-than-words-notes">Notes and discussion</a></p>
+            <p class="notes-links"><a href="/blog/jonathan-warner-more-than-words-book-review">Book review of Jonathan Warner's book 'More Than Words: How to think about writing in the age of AI'</a></p>
          </td>
       </tr>
    </tbody>
