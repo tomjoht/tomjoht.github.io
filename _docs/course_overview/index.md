@@ -152,7 +152,7 @@ If you're a teacher at a college or university (or high school) and are trying t
 
 Yes, this course is entirely free. I only charge for the PDF. [Advertising](https://idratherbewriting.com/advertising) also helps make this content free, so you will see little text snippets and other ads on the course pages promoting links to API service providers. Sometimes I also include sponsored pages as well to highlight a vendor's particular offerings. Whenever content is sponsored, I note that on the page. I also wouldn't include any content in the course that didn't meet my standards or which I wouldn't recommend.
 
-If you'd like to give back, feel free tosupport me by [buying the PDF of the course](https://www.buymeacoffee.com/learnapidoc/e/146076). I'm grateful to see many people who find enough value in the course to contribute back.
+If you'd like to give back, feel free to support me by [buying the PDF of the course](https://www.buymeacoffee.com/learnapidoc/e/146076). I'm grateful to see many people who find enough value in the course to contribute back.
 
 ## PDF format
 
