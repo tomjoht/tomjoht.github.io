@@ -1,5 +1,5 @@
 ---
-title: "Is AI an alien intelligence? AI Book Club discussion on Yuval Noah Harari's Nexus"
+title: "Recording of AI Book Club discussion on Yuval Noah Harari's Nexus: A Brief History of Information Networks from the Stone Age to AI"
 permalink: /blog/nexus-harari-ai-book-club
 date: 2025-11-22
 categories:
