@@ -1,5 +1,5 @@
 ---
-title: "Recording of AI Book Club discussion on Yuval Noah Harari's Nexus: A Brief History of Information Networks from the Stone Age to AI"
+title: "Recording, transcript, and notes for AI Book Club discussion of Yuval Noah Harari's Nexus."
 permalink: /blog/nexus-harari-ai-book-club
 date: 2025-11-22
 categories:
