@@ -358,14 +358,14 @@ The following is a list of key terms and definitions covered in the book. The fo
 
 24. **Benevolent Duty** is a concept discussed in the book in two contrasting contexts, highlighting the tension between the wise and unwise use of power:
 
-    * ***Historical Justification for Imperialism:** Imperialist thinkers used the phrase **"A 'Benevolent Duty'"** to claim that acquiring colonies was beneficial for humanity. This was used to justify the spread of modern technologies and imperialism to the "so-called undeveloped world" by asserting that empires alone could disseminate the "**blessings of the new technologies**".
+    * **Historical Justification for Imperialism:** Imperialist thinkers used the phrase **"A 'Benevolent Duty'"** to claim that acquiring colonies was beneficial for humanity. This was used to justify the spread of modern technologies and imperialism to the "so-called undeveloped world" by asserting that empires alone could disseminate the "**blessings of the new technologies**".
 
     * **Modern Ethical Principle for AI Regulation:** In the context of democratic self-correction and surveillance, the book proposes **"benevolence"** as the **"first principle"** that computer networks must follow. This principle mandates that when a network collects information on an individual, that information **"should be used to help me rather than manipulate me"**. It is likened to a **fiduciary duty to act in our best interests**, similar to a physician or lawyer, ensuring that the immense power acquired (whether by a state or a corporation) is used wisely as an **instrument of benevolence**.
 
 ## Notes and discussion doc
 
-For some questions and other info, see this [Notes and discussion doc](https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit?tab=t.0#heading=h.9fjjlshp70zh).
+For some questions and other info, see this [Notes and discussion doc](https://docs.google.com/document/d/1u_L8oI9oL_c6u-DZK6XkZHU19NAUn74lV6sBkZJLsZc/edit?tab=t.0#heading=h.9fjjlshp70zh). (This post actually reproduces most of the content from this doc.)
 
 ## NotebookLM 
 
-Here’s a [NotebookLM with the Nexus PDF of the book](https://notebooklm.google.com/notebook/358b0d01-fbbf-4ace-946f-8cc4d3b2731b) and some notes. 
+Here’s a [NotebookLM with the Nexus PDF of the book](https://notebooklm.google.com/notebook/358b0d01-fbbf-4ace-946f-8cc4d3b2731b) and some notes. Because the book PDF is available online, it makes this notebook much more capable and accurate.
