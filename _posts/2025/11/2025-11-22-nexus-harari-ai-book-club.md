@@ -14,6 +14,7 @@ podcast_file_size: 43.7
 podcast_duration: "58:39"
 podcast_length: 43718937
 image: bookclubnexusthumbsmall.png
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-recording-transcript-and-notes-activity-7399443720254976000-outS
 ---
 
 * TOC
