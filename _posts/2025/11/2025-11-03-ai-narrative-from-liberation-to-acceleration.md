@@ -86,6 +86,7 @@ How will companies keep up? If a small, nimble company can release a disruptive 
 
 <figure><img src="{{site.media}}/bigger-engine-race-ai.png" alt="A large blue race car with a rocket engine (AI) speeds past a small orange car whose driver is surrendering." /><figcaption>In an accelerating race, companies that don't adopt AI (the bigger engine) risk being left behind.</figcaption></figure>
 
+Even tech leaders are openly acknowledging this acceleration reality. Nvidia CEO Jensen Huang, speaking at the US-Saudi Investment Forum in November 2025, directly contradicted the liberation narrative when he said: "I would say that there's every evidence that we will be more productive and yet still be busier because we have so many ideas." Huang pointed to radiologists as an example, noting they're now processing more scans than ever before thanks to AI&mdash;not fewer. As he put it, "everyone's jobs will be different" as AI creates more business concepts and projects to pursue. Rather than freeing up time, increased productivity simply generates more work to fill the new capacity. ([Nvidia CEO Says Instead of Taking Your Job, AI Will Force You to Work Even Harder](https://futurism.com/future-society/nvidia-ceo-ai-work-harder))
 
 ## Hard limits to velocity
 
