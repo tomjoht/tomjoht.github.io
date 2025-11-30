@@ -223,6 +223,7 @@ tr:hover {
   padding: 15px;
   padding-bottom: 5px;
   font-weight: bold;
+  padding-left: 3px;
 }
 
 .notes-links {
