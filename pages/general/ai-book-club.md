@@ -38,7 +38,7 @@ The following tables list the upcoming reading schedule. The descriptions are ex
             <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a> by {{ meeting.book.author }}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
-         <td><p class="notes-links">{% if meeting.notes_url %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a>{% else %}<i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion{% endif %}<br/><br/>
+         <td><p class="notes-links">{% if meeting.notes_url != "" %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>{% endif %}
              <a href="{{ meeting.meet_url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> Google Meet link</a></p></td>
       </tr> 
       {% endfor %}
