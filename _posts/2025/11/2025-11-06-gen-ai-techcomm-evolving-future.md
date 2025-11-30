@@ -24,7 +24,7 @@ Generative artificial intelligence is a relatively new technology that can "thin
 As it relates to technical writing, I'm going to give some perspective on these questions: *What is the relationship between GAI and technical writing today? How can and do these technologies&mdash;particularly large language models (LLMs) like ChatGPT and Claude&mdash;affect technical writing as a field, and what might the future look like?*
 
 {:.note}
-Check out this [NotebookLM video](https://www.google.com/url?q=https://notebooklm.google.com/notebook/7ccc04f7-ed06-48e6-b9c8-978e73757133&sa=D&source=docs&ust=1762350756081763&usg=AOvVaw3guO0NqOOEWiMCoqMU_W2I) if you'd like an interactive summary of this post.
+Check out this [NotebookLM video](https://notebooklm.google.com/notebook/7ccc04f7-ed06-48e6-b9c8-978e73757133) if you'd like an interactive summary of this post.
 
 
 ## Where is this conversation now?
