@@ -1,366 +1,426 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   {% include google_analytics.html %}
-    <meta charset="utf-8">
-    <title>{{page.title}} | {{site.title}}</title>
-    <meta name="description" content="{% if page.content %}{{ page.content | truncatewords: 30 | strip_html }} {% else %}{{site.uistring.description}}{% endif %}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google" value="notranslate">
-    <link rel="icon"  type="image/x-icon" href="/favicon.ico">
+  <meta charset="utf-8">
+  <title>{{page.title}} | {{site.title}}</title>
+  <meta name="description"
+    content="{% if page.content %}{{ page.content | truncatewords: 30 | strip_html }} {% else %}{{site.uistring.description}}{% endif %}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" value="notranslate">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-    <!-- FontAwesome -->
-   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <!-- jQuery cookie -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
-    <!-- Navgoco -->
-    <script type="text/javascript" src="/assets/js/jquery.navgoco.min.js"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <!-- jQuery cookie -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  <!-- Navgoco -->
+  <script type="text/javascript" src="/assets/js/jquery.navgoco.min.js"></script>
 
-    <!-- Algolia -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-    <!-- end Algolia -->
+  <!-- Algolia -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+  <!-- end Algolia -->
 
-    <!-- Anchor JS -->
-    {% unless page.layout == "homepage" %}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"></script>
-        <script>
-        $( document ).ready(function() {
-            anchors.add('h2,h3,h4,h5');
-        });
-        </script>
-    {% endunless %}
+  <!-- Anchor JS -->
+  {% unless page.layout == "homepage" %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      anchors.add('h2,h3,h4,h5');
+    });
+  </script>
+  {% endunless %}
 
-    <script>
-        $( document ).ready(function() {
-            $("#docnavsidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'open', // open
-                save: true,
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 300,
-                    easing: 'swing'
-                }
-            });
-            $("#collapseAll").click(function(e) {
-                e.preventDefault();
-                $("#docnavsidebar").navgoco('toggle', false);
-            });
+  <script>
+    $(document).ready(function () {
+      $("#docnavsidebar").navgoco({
+        caretHtml: '',
+        accordion: true,
+        openClass: 'open', // open
+        save: true,
+        cookie: {
+          name: 'navgoco',
+          expires: false,
+          path: '/'
+        },
+        slide: {
+          duration: 300,
+          easing: 'swing'
+        }
+      });
+      $("#collapseAll").click(function (e) {
+        e.preventDefault();
+        $("#docnavsidebar").navgoco('toggle', false);
+      });
 
-            $("#expandAll").click(function(e) {
-                e.preventDefault();
-                $("#docnavsidebar").navgoco('toggle', true);
-            });
-        });
+      $("#expandAll").click(function (e) {
+        e.preventDefault();
+        $("#docnavsidebar").navgoco('toggle', true);
+      });
+    });
 
-    </script>
+  </script>
 
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle=offcanvas]').click(function() {
-                $('.row-offcanvas').toggleClass('active');
-            });
-        });
-    </script>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle=offcanvas]').click(function () {
+        $('.row-offcanvas').toggleClass('active');
+      });
+    });
+  </script>
 
 
-    <!--Bootstrap -->
+  <!--Bootstrap -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    {% seo %}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  {% seo %}
 </head>
+
 <body class="{{page.layout}}">
-<div class="page-container">
+  <div class="page-container">
 
 
     <!-- Top Navigation -->
     <nav class="navbar navbar-default navbar">
-        <div class="container topnavlinks">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="fa fa-bars fa-2x"></span>
-                </button>
-                <button type="button" class="navbar-toggle toggle-sidebar-button"  data-toggle="offcanvas" data-target=".sidebar-nav">
-                    <span class="sidebarToggle fa fa-columns fa-2x"></span>
-                </button>
-              <a class="navbar-brand noCrossRef" href="{{site.url}}{{site.baseurl}}/">
-                    
-{% if page.collection == "docs" %}
-<div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom" src="{{site.media}}/bloglogo_apidoclogo.svg"/></div>
+      <div class="container topnavlinks">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1">
+            <span class="fa fa-bars fa-2x"></span>
+          </button>
+          <button type="button" class="navbar-toggle toggle-sidebar-button" data-toggle="offcanvas"
+            data-target=".sidebar-nav">
+            <span class="sidebarToggle fa fa-columns fa-2x"></span>
+          </button>
+          <a class="navbar-brand noCrossRef" href="{{site.url}}{{site.baseurl}}/">
 
-{% else %}
-<div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom" src="{{site.media}}/bloglogo_bloglogo.svg"/></div>
-{% endif %}
+            {% if page.collection == "docs" %}
+            <div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom"
+                src="{{site.media}}/bloglogo_apidoclogo.svg" /></div>
 
-                  </a>
-            </div>
+            {% else %}
+            <div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom"
+                src="{{site.media}}/bloglogo_bloglogo.svg" /></div>
+            {% endif %}
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-
-                  <!-- single item nav items appear here -->
-                    {% assign topnav = site.data[page.topnav] %}
-<li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/">Blog</a></li>
-<li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/podcasts">Podcast</a></li>
-                    {% for entry in topnav.navbar_singleitems %}
-                    {% for item in entry.items %}
-                    {% if page.url contains item.url %}
-                    <li class="active"><a href="{{item.url}}">{{item.title}}</a></li>
-                    {% elsif item.github_icon == "show" %}
-                    <li><a data="github" href="{{item.url}}"> {{item.title}}</a></li>
-                    {% elsif item.external == "show" %}
-                    <li><a class="external" href="{{item.url}}"> {{item.title}}</a></li>
-                    {% else %}
-                    <li><a href="{{item.url}}" class="noCrossRef"> {{item.title}}</a></li>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-
-                    <!-- drop-down nav items appear here -->
-
-                    {% for entry in topnav.topnav_dropdowns %}
-                    {% for folder in entry.folders %}
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            {% for folderitem in folder.folderitems %}
-
-                            {% if page.url contains folderitem.url %}
-                            <li class="active"><a href="{{folderitem.url}}">{{folderitem.title}}</a></li>
-                            {% elsif folderitem.github_icon == "show" %}
-                            <li><a class="noCrossRef" href="{{folderitem.url}}"> {{folderitem.title}} <i class="fa fa-github" aria-hidden="true"></i></a></li>
-                            {% elsif folderitem.external == "show" %}
-                            <li><a class="external" href="{{folderitem.url}}"> {{folderitem.title}}</a></li>
-                            {% else %}
-                            <li><a href="{{folderitem.url}}" class="noCrossRef"> {{folderitem.title}}</a></li>
-                            {% endif %}
-
-                            {% endfor %}
-                        </ul>
-                    </li>
-
-                    {% endfor %}{% endfor %}
-
-
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-
-                  <figure class="topComic">
-                      {% include topComic.html %}
-                  </figure>
-
-                    <li>
-                    </li>
-                </ul>
-            </div>
-
+          </a>
         </div>
 
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
 
-        <!-- /.container -->
+            <!-- single item nav items appear here -->
+            {% assign topnav = site.data[page.topnav] %}
+            <li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/">Blog</a></li>
+            <li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/podcasts">Podcast</a></li>
+            {% for entry in topnav.navbar_singleitems %}
+            {% for item in entry.items %}
+            {% if page.url contains item.url %}
+            <li class="active"><a href="{{item.url}}">{{item.title}}</a></li>
+            {% elsif item.github_icon == "show" %}
+            <li><a data="github" href="{{item.url}}"> {{item.title}}</a></li>
+            {% elsif item.external == "show" %}
+            <li><a class="external" href="{{item.url}}"> {{item.title}}</a></li>
+            {% else %}
+            <li><a href="{{item.url}}" class="noCrossRef"> {{item.title}}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+
+            <!-- drop-down nav items appear here -->
+
+            {% for entry in topnav.topnav_dropdowns %}
+            {% for folder in entry.folders %}
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                {% for folderitem in folder.folderitems %}
+
+                {% if page.url contains folderitem.url %}
+                <li class="active"><a href="{{folderitem.url}}">{{folderitem.title}}</a></li>
+                {% elsif folderitem.github_icon == "show" %}
+                <li><a class="noCrossRef" href="{{folderitem.url}}"> {{folderitem.title}} <i class="fa fa-github"
+                      aria-hidden="true"></i></a></li>
+                {% elsif folderitem.external == "show" %}
+                <li><a class="external" href="{{folderitem.url}}"> {{folderitem.title}}</a></li>
+                {% else %}
+                <li><a href="{{folderitem.url}}" class="noCrossRef"> {{folderitem.title}}</a></li>
+                {% endif %}
+
+                {% endfor %}
+              </ul>
+            </li>
+
+            {% endfor %}{% endfor %}
+
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+
+            <figure class="topComic">
+              {% include topComic.html %}
+            </figure>
+
+            <li>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+
+      <!-- /.container -->
     </nav>
 
 
-<div class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-left">
 
-            <!-- sidebar -->
-            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 
-<!-- start sidebar -->
-{% assign sidebar = site.data[page.sidebar] %}
-<div class="mydocsidebar">
-<div class="sidebar-inner">
+          <!-- start sidebar -->
+          {% assign sidebar = site.data[page.sidebar] %}
+          <div class="mydocsidebar">
+            <div class="sidebar-inner">
 
-<div id="search-searchbar"></div>
+              <div id="search-searchbar"></div>
 
-<div id="socialMediaIcons">
-<!-- social_media_icons.html -->
-<a class="noCrossRef" href="https://feeds.feedburner.com/TomJohnson">
-    <div class="srssfeed"></div>
-</a>
-<a class="noCrossRef" href="https://twitter.com/tomjohnson">
-    <div class="stwitter"></div>
-</a>
+              <div id="socialMediaIcons">
+                <!-- social_media_icons.html -->
 
-<a class="noCrossRef" href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">
-    <div class="situnes"></div>
-</a>
+                <a class="noCrossRef" href="https://www.linkedin.com/in/tomjoht">
+                  <div class="slinkedin"></div>
+                </a>
 
-<a class="noCrossRef" href="https://www.linkedin.com/in/tomjoht">
-    <div class="slinkedin"></div>
-</a>
+                <a class="noCrossRef" href="https://feeds.feedburner.com/TomJohnson">
+                  <div class="srssfeed"></div>
+                </a>
 
-<a class="noCrossRef" href="https://github.com/tomjoht/">
-    <div class="sgithub"></div>
-</a>
+                <a class="noCrossRef"
+                  href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">
+                  <div class="situnes"></div>
+                </a>
 
-<div style="clear:both"></div>
-</div>
-<!-- end social_media_icons.html -->
+                <a class="noCrossRef" href="https://github.com/tomjoht/">
+                  <div class="sgithub"></div>
+                </a>
 
-<!-- start mailjet modal in sidebar -->
-<div style="margin-top: 30px; margin-bottom: 30px">
-<h3>Email Newsletter</h3>
- <div style="margin-top:20px">
+                <div style="clear:both"></div>
+              </div>
+              <!-- end social_media_icons.html -->
 
-<button type="button" class="btn btn-primary mynewsletter" data-toggle="modal" data-target="#newsletterModal">
-  <i class="fa fa-envelope"></i> 
-</button>
+              <!-- start mailjet modal in sidebar -->
+              <div class="recent-posts" style="margin-top: 30px; margin-bottom: 30px">
+                <h3>Email newsletter</h3>
+                <p>Get the latest posts delivered right to your inbox</p>
+                <div style="margin-top:20px">
 
-<!-- Modal -->
-<div class="modal fade custom-modal" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="newsletterModalLabel">Newsletter signup</h5>
-      </div>
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        {% include mailjet_embedded.html %}
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+                  <button type="button" class="btn btn-primary mynewsletter" data-toggle="modal"
+                    data-target="#newsletterModal">
+                    <i class="fa fa-envelope"></i>
+                  </button>
 
-</div>
-<!-- end mailjet modal in sidebar -->
+                  <!-- Modal -->
+                  <div class="modal fade custom-modal" id="newsletterModal" tabindex="-1" role="dialog"
+                    aria-labelledby="newsletterModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="newsletterModalLabel">Newsletter signup</h5>
+                        </div>
+                        <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          {% include mailjet_embedded.html %}
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-{% unless page.sidebar == null %}
-<div class="productTitle">{{sidebar.sidebartitle}}</div>
+              </div>
+              <!-- end mailjet modal in sidebar -->
 
-<p class="external">
-    <a href="#" id="collapseAll">{{site.uistring.collapseall}}</a> | <a href="#" id="expandAll">{{site.uistring.expandall}}</a>
-</p>
+              <!-- start AI Book Club-->
+              <div class="recent-posts">
+                <h3><img src="{{site.media}}/ai-book-club-icon-site.png"
+                    style="width: 30px; vertical-align: middle; margin-right: 5px;"> AI Book Club</h3>
+                <p>Join us for the AI Book Club, where we discuss popular books about AI and the human-in-the-loop
+                  perspective.</p>
 
-{% endunless %}
-
-<ul id="docnavsidebar" class="docnav">
-{% for folder in sidebar.folders %}
-{% unless folder.type == "print" %}
-{% if page.url == folder.url %}
-<li class="level1 folderTitle current open"><a  class="subfoldersTitle" href="{{folder.jurl | prepend: site.baseurl }}">{{ folder.title }}</a>
-  {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://"  %}
-  <li class="level1 folderTitle"><a  class="subfoldersTitle" href="{{ folder.jurl }}">{{ folder.title }}</a>
-{% else %}
-        <li class="level1 folderTitle"><a href="{{folder.jurl | prepend: site.baseurl }}">{{folder.title}}</a>
-  {% endif %}
-{% endunless %}
-    <ul>
-        {% for folderitem in folder.folderitems %}
-
-        {% if folderitem.title %}
-        {% unless folderitem.type == "print" %}
-        {% assign pageUrl = page.url %}
-        {% if pageUrl contains folderitem.jurl %}
-        <li class="level1items open"><a href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
-        {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
-        <li class="level1items"><a  href="{{folderitem.jurl}}">{{folderitem.title}}</a></li>
-        {% else %}
-        <li class="level1items"><a href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
-        {% endif %}
-        {% endunless %}
-        {% endif %}
-
-        {% for subfolder in folderitem.subfolders %}
-        {% assign pageUrl = page.url %}
-        {% if pageUrl contains subfolder.jurl %}
-        <li class="level2 folderTitle current open"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
-          {% else %}
-          <li class="level2 folderTitle"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
-        {% endif %}
-            <ul style="display:none;">
-                {% for subfolderitem in subfolder.subfolderitems %}
-
-                {% if subfolderitem.title %}
-                {% unless subfolderitem.type == "print" %}
-                {% assign pageUrl = page.url %}
-                {% if pageUrl contains subfolderitem.jurl %}
-                <li class="level2items open"><a href="{{subfolderitem.jurl | prepend: site.baseurl }}">{{subfolderitem.title}}</a></li>
-                {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
-                <li class="level2items"><a  href="{{subfolderitem.jurl }}">{{subfolderitem.title}}</a></li>
-                {% else %}
-                <li class="level2items"><a href="{{subfolderitem.jurl | prepend: "/" | prepend: site.baseurl  }}">{{subfolderitem.title}}</a></li>
+                {% assign next_book = site.data.ai_book_club.upcoming[0] %}
+                {% if next_book %}
+                <div style="margin-top: 10px;">
+                  <p><b>Next meeting:</b> {{ next_book.date }}</p>
+                  <div style="display: flex; align-items: start; gap: 10px;">
+                    <a href="{{ next_book.book.url }}">
+                      <img src="{{site.media}}/{{ next_book.book.image }}" alt="{{ next_book.book.title }}"
+                        style="width: 60px; border: 1px solid #ddd;">
+                    </a>
+                    <div>
+                      <p style="margin: 0; font-size: 0.9em; line-height: 1.3;"><a href="{{ next_book.book.url }}">{{
+                          next_book.book.title }}</a></p>
+                      <a href="/ai-book-club/" class="btn btn-primary btn-xs aibookclub-btn"
+                        style="margin-top: 5px;">Join us
+                        &raquo;</a>
+                    </div>
+                  </div>
+                </div>
                 {% endif %}
-                {% endunless %}
-                {% endif %}
+              </div>
+              <!-- end AI Book Club-->
 
-                {% for subsubfolder in subfolderitem.subsubfolders %}
-                {% assign pageUrl = page.url %}
-                {% if pageUrl contains subsubfolder.jurl %}
-                <li class="level3 folderTitle current open"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+              {% unless page.sidebar == null %}
+              <div class="productTitle">{{sidebar.sidebartitle}}</div>
+
+              <p class="external">
+                <a href="#" id="collapseAll">{{site.uistring.collapseall}}</a> | <a href="#"
+                  id="expandAll">{{site.uistring.expandall}}</a>
+              </p>
+
+              {% endunless %}
+
+              <ul id="docnavsidebar" class="docnav">
+                {% for folder in sidebar.folders %}
+                {% unless folder.type == "print" %}
+                {% if page.url == folder.url %}
+                <li class="level1 folderTitle current open"><a class="subfoldersTitle"
+                    href="{{folder.jurl | prepend: site.baseurl }}">{{ folder.title }}</a>
+                  {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+                <li class="level1 folderTitle"><a class="subfoldersTitle" href="{{ folder.jurl }}">{{ folder.title
+                    }}</a>
                   {% else %}
-                  <li class="level3 folderTitle"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
-                   {% endif %}
-                    <ul style="display:none;">
-                        {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+                <li class="level1 folderTitle"><a href="{{folder.jurl | prepend: site.baseurl }}">{{folder.title}}</a>
+                  {% endif %}
+                  {% endunless %}
+                  <ul>
+                    {% for folderitem in folder.folderitems %}
 
-                        {% if subsubfolderitem.title %}
-                        {% unless subsubfolderitem.type == "print" %}
+                    {% if folderitem.title %}
+                    {% unless folderitem.type == "print" %}
+                    {% assign pageUrl = page.url %}
+                    {% if pageUrl contains folderitem.jurl %}
+                    <li class="level1items open"><a
+                        href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+                    {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+                    <li class="level1items"><a href="{{folderitem.jurl}}">{{folderitem.title}}</a></li>
+                    {% else %}
+                    <li class="level1items"><a
+                        href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+                    {% endif %}
+                    {% endunless %}
+                    {% endif %}
+
+                    {% for subfolder in folderitem.subfolders %}
+                    {% assign pageUrl = page.url %}
+                    {% if pageUrl contains subfolder.jurl %}
+                    <li class="level2 folderTitle current open"><a class="subfoldersTitle"
+                        href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+                      {% else %}
+                    <li class="level2 folderTitle"><a class="subfoldersTitle"
+                        href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+                      {% endif %}
+                      <ul style="display:none;">
+                        {% for subfolderitem in subfolder.subfolderitems %}
+
+                        {% if subfolderitem.title %}
+                        {% unless subfolderitem.type == "print" %}
                         {% assign pageUrl = page.url %}
-                        {% if pageUrl == subsubfolderitem.jurl %}
-                        <li class="level3items open"><a href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        {% if pageUrl contains subfolderitem.jurl %}
+                        <li class="level2items open"><a
+                            href="{{subfolderitem.jurl | prepend: site.baseurl }}">{{subfolderitem.title}}</a></li>
                         {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
-                        <li class="level3items"><a href="{{subsubfolderitem.jurl }}">{{subsubfolderitem.title}}</a></li>
+                        <li class="level2items"><a href="{{subfolderitem.jurl }}">{{subfolderitem.title}}</a></li>
                         {% else %}
-                        <li class="level3items"><a href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        <li class="level2items"><a href="{{subfolderitem.jurl | prepend: " /" | prepend: site.baseurl
+                            }}">{{subfolderitem.title}}</a></li>
                         {% endif %}
                         {% endunless %}
                         {% endif %}
 
+                        {% for subsubfolder in subfolderitem.subsubfolders %}
+                        {% assign pageUrl = page.url %}
+                        {% if pageUrl contains subsubfolder.jurl %}
+                        <li class="level3 folderTitle current open"><a class="subfoldersTitle"
+                            href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                          {% else %}
+                        <li class="level3 folderTitle"><a class="subfoldersTitle"
+                            href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                          {% endif %}
+                          <ul style="display:none;">
+                            {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+
+                            {% if subsubfolderitem.title %}
+                            {% unless subsubfolderitem.type == "print" %}
+                            {% assign pageUrl = page.url %}
+                            {% if pageUrl == subsubfolderitem.jurl %}
+                            <li class="level3items open"><a
+                                href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a>
+                            </li>
+                            {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+                            <li class="level3items"><a href="{{subsubfolderitem.jurl }}">{{subsubfolderitem.title}}</a>
+                            </li>
+                            {% else %}
+                            <li class="level3items"><a
+                                href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a>
+                            </li>
+                            {% endif %}
+                            {% endunless %}
+                            {% endif %}
+
+                            {% endfor %}
+                          </ul>
+                        </li>
+
                         {% endfor %}
-                    </ul>
+
+                        {% endfor %}
+                      </ul>
+                    </li>
+
+                    {% endfor %}
+
+                    {% endfor %}
+                  </ul>
+                  {% endfor %}
+
                 </li>
+              </ul>
 
+              {% if sidebar.related_resources_title %}
+              <hr class="resourceSeparator">
+              </hr>
+              {% endif %}
+              <div class="relatedResources">{{sidebar.related_resources_title}}</div>
+              <ul id="entrypages">
+                {% for item in sidebar.related_resources_list %}
+                <li><a class="noCrossRef" href="{{item.jurl }}">{{item.title}}</a></li>
                 {% endfor %}
-
-                {% endfor %}
-            </ul>
-        </li>
-
-        {% endfor %}
-
-        {% endfor %}
-    </ul>
-    {% endfor %}
-
-</li>
-</ul>
-
-{% if sidebar.related_resources_title %}
-<hr class="resourceSeparator"></hr>
-{% endif %}
-<div class="relatedResources">{{sidebar.related_resources_title}}</div>
-<ul id="entrypages">
-        {% for item in sidebar.related_resources_list %}
-        <li><a class="noCrossRef" href="{{item.jurl }}">{{item.title}}</a></li>
-        {% endfor %}
-    </li>
-</ul>
-</div>
-</div>
-<script>$("li.open").parents('li').toggleClass("open");</script>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <script>$("li.open").parents('li').toggleClass("open");</script>
 
 
-{% include sidebar_comics.html %}
+          {% include sidebar_comics.html %}
 
-<!--Recent posts on ZAMM
+          <!--Recent posts on ZAMM
 {% unless site.type=="pdf" %}
 <div class="recent-posts">
   <h3>Recent posts from Zen and the Art of Motorcycle Maintenance series</h3>
@@ -376,7 +436,7 @@
   {% endunless %}
 -->
 
-  <!--Recent posts on Prompt Engineering
+          <!--Recent posts on Prompt Engineering
   {% unless site.type=="pdf" %}
 <div class="recent-posts">
   <h3>Recent posts from my AI tech comm series</h3>
@@ -392,312 +452,340 @@
   {% endunless %}
   -->
 
-  <!-- recent blog posts in sidebar -->
-<div class="recent-posts">
-<h3>Recent blog posts</h3>
-  <ul>
-    {% for post in site.posts limit:20 %}
-      <li>
-       <div><a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b %-d, %Y" }})</span></div>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+          <!-- recent blog posts in sidebar -->
+          <div class="recent-posts">
+            <h3>Recent blog posts</h3>
+            <ul>
+              {% for post in site.posts limit:20 %}
+              <li>
+                <div><a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o"
+                      aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b
+                    %-d, %Y" }})</span></div>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
 
-<!-- popular series in sidebar -->
-<div class="recent-posts">
-  <h3>Popular series</h3>
-  <ul>
-      <li><a href="/ai/prompt-engineering.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Prompt engineering for tech comm</a></li>
-      <li><a href="/ai/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Use cases for AI</a></li>
-      <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle Maintenance</a></li>
-      <li><a href="/smartphones/overview.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Journey away from smartphones</a></li>
-      <li><a href="/trends/trends-to-follow-or-forget-intro.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Trends to follow or forget</a></li>
-      <li><a href="/simplifying-complexity/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Simplifying complexity</a></li>
-      <li><a href="/2017/12/28/value-of-tech-comm-in-company-part1/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Value arguments for docs and tech comm</a></li>
-      <li><a href="/series/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> See all series</a></li>
-  </ul>
-</div>
-<!-- end popular series in sidebar -->
-    
-<!-- archives in sidebar -->
-<div class="recent-posts">
-<h3>Archives</h3>
-<a href="/archives-2025/" class="noCrossRef">2025</a> &bull;  
-<a href="/archives-2024/" class="noCrossRef">2024</a> &bull;  
-<a href="/archives-2023/" class="noCrossRef">2023</a> &bull;  
-<a href="/archives-2022/" class="noCrossRef">2022</a> &bull; 
-<a href="/archives-2021/" class="noCrossRef">2021</a> &bull; 
-<a href="/archives-2020/" class="noCrossRef">2020</a> &bull; 
-<a href="/archives-2019/" class="noCrossRef">2019</a> &bull; 
-<a href="/archives-2018/" class="noCrossRef">2018</a> &bull; 
-<a href="/archives-2017/" class="noCrossRef">2017</a> &bull; 
-<a href="/archives-2016/" class="noCrossRef">2016</a> &bull; 
-<a href="/archives-2015/" class="noCrossRef">2015</a> &bull; 
-<a href="/archives-2014/" class="noCrossRef">2014</a> &bull; 
-<a href="/archives-2013/" class="noCrossRef">2013</a> &bull; 
-<a href="/archives-2012/" class="noCrossRef">2012</a> &bull; 
-<a href="/archives-2011/" class="noCrossRef">2011</a> &bull; 
-<a href="/archives-2010/" class="noCrossRef">2010</a> &bull; 
-<a href="/archives-2009/" class="noCrossRef">2009</a> &bull; 
-<a href="/archives-2008/" class="noCrossRef">2008</a> &bull; 
-<a href="/archives-2007/" class="noCrossRef">2007</a> &bull; 
-<a href="/archives-2006/" class="noCrossRef">2006</a> &bull; 
-<a href="/all/">Browse posts by year</a>
-</div>
-<!-- end archives in sidebar -->
+          <!-- popular series in sidebar -->
+          <div class="recent-posts">
+            <h3>Popular series</h3>
+            <ul>
+              <li><a href="/ai/prompt-engineering.html" class="noCrossRef"><i class="fa fa-file-text-o"
+                    aria-hidden="true"></i> Prompt engineering for tech comm</a></li>
+              <li><a href="/ai/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Use
+                  cases for AI</a></li>
+              <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i
+                    class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle
+                  Maintenance</a></li>
+              <li><a href="/smartphones/overview.html" class="noCrossRef"><i class="fa fa-file-text-o"
+                    aria-hidden="true"></i> Journey away from smartphones</a></li>
+              <li><a href="/trends/trends-to-follow-or-forget-intro.html" class="noCrossRef"><i
+                    class="fa fa-file-text-o" aria-hidden="true"></i> Trends to follow or forget</a></li>
+              <li><a href="/simplifying-complexity/index.html" class="noCrossRef"><i class="fa fa-file-text-o"
+                    aria-hidden="true"></i> Simplifying complexity</a></li>
+              <li><a href="/2017/12/28/value-of-tech-comm-in-company-part1/" class="noCrossRef"><i
+                    class="fa fa-file-text-o" aria-hidden="true"></i> Value arguments for docs and tech comm</a></li>
+              <li><a href="/series/" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> See all
+                  series</a></li>
+            </ul>
+          </div>
+          <!-- end popular series in sidebar -->
 
-<!-- start tag-based section in sidebar -->
-<div class="recent-posts">
-  <h3>Browse by tag</h3>
-<a href="/tags/" class="noCrossRef">Browse posts by tag</a>
-</div>
-<!-- end recent posts in sidebar -->
+          <!-- archives in sidebar -->
+          <div class="recent-posts">
+            <h3>Archives</h3>
+            <a href="/archives-2025/" class="noCrossRef">2025</a> &bull;
+            <a href="/archives-2024/" class="noCrossRef">2024</a> &bull;
+            <a href="/archives-2023/" class="noCrossRef">2023</a> &bull;
+            <a href="/archives-2022/" class="noCrossRef">2022</a> &bull;
+            <a href="/archives-2021/" class="noCrossRef">2021</a> &bull;
+            <a href="/archives-2020/" class="noCrossRef">2020</a> &bull;
+            <a href="/archives-2019/" class="noCrossRef">2019</a> &bull;
+            <a href="/archives-2018/" class="noCrossRef">2018</a> &bull;
+            <a href="/archives-2017/" class="noCrossRef">2017</a> &bull;
+            <a href="/archives-2016/" class="noCrossRef">2016</a> &bull;
+            <a href="/archives-2015/" class="noCrossRef">2015</a> &bull;
+            <a href="/archives-2014/" class="noCrossRef">2014</a> &bull;
+            <a href="/archives-2013/" class="noCrossRef">2013</a> &bull;
+            <a href="/archives-2012/" class="noCrossRef">2012</a> &bull;
+            <a href="/archives-2011/" class="noCrossRef">2011</a> &bull;
+            <a href="/archives-2010/" class="noCrossRef">2010</a> &bull;
+            <a href="/archives-2009/" class="noCrossRef">2009</a> &bull;
+            <a href="/archives-2008/" class="noCrossRef">2008</a> &bull;
+            <a href="/archives-2007/" class="noCrossRef">2007</a> &bull;
+            <a href="/archives-2006/" class="noCrossRef">2006</a> &bull;
+            <a href="/all/">Browse posts by year</a>
+          </div>
+          <!-- end archives in sidebar -->
 
+          <!-- start tag-based section in sidebar -->
+          <div class="recent-posts">
+            <h3>Browse by tag</h3>
+            <a href="/tags/" class="noCrossRef">Browse posts by tag</a>
+          </div>
+          <!-- end recent posts in sidebar -->
+
+        </div>
+
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-9 main">
+
+          <!-- algolia -->
+          {% include search_results.html %}
+          <!-- end algolia -->
+
+          <div id="content">
+
+            <!-- page breadcrumb for docs collection type -->
+            {% include breadcrumb.html %}
+            <!-- end page breadcrumb -->
+
+            <!-- page title -->
+            <h1>{{page.title}}</h1>
+            <!-- end page title -->
+
+            <!-- start metadata for posts collection type -->
+            {% if page.collection == "posts" %}
+
+            <!-- post series subtitle -->
+            {% if page.series %}<div class="subheading">Series: {{page.series}}</div>{% endif %}
+            <!-- end post series subtitle -->
+
+            <!-- post metadata: byline, post date, github button -->
+            <p class="page-meta">
+              {% unless page.byline == false %}
+              <i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }}
+                {% endunless %}
+                <a class="noCrossRef" style="color: black"
+                  href="{{page.path | prepend: 'https://github.com/tomjoht/tomjoht.github.io/blob/main/'}}"><i
+                    class="fa fa-github fa-lg"></i></a>
+                {% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br />
+              <!-- end post metdata -->
+
+              <!-- post categories -->
+              {% if page.categories %}
+              <span id="pageCategories">
+                categories: {% for cat in page.categories %}
+                <a href="{{ " /category-" | prepend: site.baseurl | append: cat }}">{{cat}}</a>{% unless forloop.last %}
+                &bull; {% endunless%}
+              </span>
+              {% endfor %}
+              {% endif %}
+              <!-- end post categories -->
+
+              {% endif %}
+              <!-- end metadata for posts collection type-->
+
+
+              <!-- start metadata for docs collection type -->
+              {% if page.collection == "docs" or "smartphones" or "ai" %}
+
+              <!-- docs page metadata: last-modified data, github url -->
+              {% unless page.last-modified == null %}
+            <div class="lastModifiedDate">
+              Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black"
+                href="{{page.path | prepend: " https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i
+                  class="fa fa-github fa-lg"></i></a>
+              {% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br />
             </div>
+            {% endunless %}
+            <!-- end docs page metadata -->
 
-            <!-- main area -->
-            <div class="col-xs-12 col-sm-9 main">
+            {% endif %}
+            <!-- end metadata for docs collection type -->
+            <!-- page/post description property for summary -->
+            {% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
+            <!-- end page/post description property -->
 
-            <!-- algolia -->
-              {% include search_results.html %}
-             <!-- end algolia -->
-
- <div id="content">
-
-<!-- page breadcrumb for docs collection type -->
-{% include breadcrumb.html %}
-<!-- end page breadcrumb -->
-
-<!-- page title -->
-<h1>{{page.title}}</h1>
-<!-- end page title -->
-
-<!-- start metadata for posts collection type -->
-{% if page.collection == "posts" %}
-
-<!-- post series subtitle -->
-{% if page.series %}<div class="subheading">Series: {{page.series}}</div>{% endif %}
-<!-- end post series subtitle -->
-
-<!-- post metadata: byline, post date, github button -->
-<p class="page-meta">
-  {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} 
-  {% endunless %}
-  <a class="noCrossRef" style="color: black" href="{{page.path | prepend: 'https://github.com/tomjoht/tomjoht.github.io/blob/main/'}}"><i class="fa fa-github fa-lg"></i></a> 
-{% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br/>
-<!-- end post metdata -->
-
-<!-- post categories -->
-{% if page.categories %}
-<span id="pageCategories">
- categories: {% for cat in page.categories %}
-<a href="{{ "/category-" | prepend: site.baseurl | append: cat }}">{{cat}}</a>{% unless forloop.last %} &bull; {% endunless%}
-</span>
-{% endfor %}
-{% endif %}
-<!-- end post categories -->
-
-{% endif %}
-<!-- end metadata for posts collection type-->
-
-
-<!-- start metadata for docs collection type -->
-{% if page.collection == "docs" or "smartphones" or "ai" %}
-
-<!-- docs page metadata: last-modified data, github url -->
-{% unless page.last-modified == null %}
-<div class="lastModifiedDate">
-Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a>
-{% if page.linkedin %}<a href="#comments">comments</a>{% endif %}</i><br/>
-</div>
-{% endunless %}
-<!-- end docs page metadata -->
-
-{% endif %}
-<!-- end metadata for docs collection type -->
-<!-- page/post description property for summary -->
-{% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
-<!-- end page/post description property -->
-
-<!-- versions dropdown selector -->
-{% if page.collection == "docs" %}
-{% if page.versions %}
-{% assign versionsList = page.versions %}
-<div class="versionsMenu">
-<div class="btn-group">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-  {% for singleVersion in versionsList %}
-  {% assign linkUrl = singleVersion.link | remove_first: "../" %}
-  {% assign pageUrl = page.permalink %}
-  {% if linkUrl == pageUrl %}
-    <li class="currentPage">{{singleVersion.title}}</li>
-    {% else %}
-    <li><a href="{{singleVersion.link}}">{{singleVersion.title}}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
-</div>
-{% endif %}
-{% endif %}
-<!-- end versions dropdown selector -->
-
-{% if page.github_url %} {% include github_button.html %}  {% endif %}
-
-<!-- workflow map-->
-{% if page.map %}
-{% assign mapStep = page.map.step %}{% assign mapDefinition = page.map.definition %}{% include workflow_map.html step=mapStep map=mapDefinition %}
-{% endif %}
-<!-- end workflow map-->
-
-
-<!-- page/post content -->
-{{content}}
-<!-- end page/post content -->
-
-<!-- linkedin comment button -->
-{% if page.linkedin %}
-<a id="comments"> </a>
-  {% include linkedin_comment.html url=page.linkedin %}
-{% endif %}
-<!-- end linkedin comment button -->
-
-<!-- bio -->
-{% if page.bio != false %}
-{% include mybio.html %}
-{% endif %}
-
-<!-- mailjet newsletter signup form -->
-<div class="newsletterSignUpForm">
-<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://0gj01.mjt.lu/wgt/0gj01/5st/form?c=f9b08f11" width="100%"></iframe>
-
-<style>
-#successMessageDiv p {
-    padding-bottom: 50px !important;
-}
-</style>
-</div>
-<!-- end newsletter signup form -->
-
-
-
-<!-- next/progress buttons -->
-{% if page.collection == "docs" %}
-{% unless page.type == 404 %}
-
-{% include progress.html %}
-{% include next.html %}
-
-{% endunless %}
-{% endif %}
-<!-- end next/progress buttons-->
-
-<!-- include single post ad horizontal at bottom of post -->
-{% include single_post_comics.html %}
-<!-- end ad block -->
-
-{% comment %}
-<!-- commento form. Note: I decided to get rid of Commento -- almost no one uses it. Leaving this here in case 
- I regret the decision and want to revert. -->
-{% unless page.focus == "noform" %}
-
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
-<noscript>Please enable JavaScript to load the comments.</noscript>
-{% endunless %}
-{% endcomment %}
-
+            <!-- versions dropdown selector -->
+            {% if page.collection == "docs" %}
+            {% if page.versions %}
+            {% assign versionsList = page.versions %}
+            <div class="versionsMenu">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  {% for singleVersion in versionsList %}
+                  {% assign linkUrl = singleVersion.link | remove_first: "../" %}
+                  {% assign pageUrl = page.permalink %}
+                  {% if linkUrl == pageUrl %}
+                  <li class="currentPage">{{singleVersion.title}}</li>
+                  {% else %}
+                  <li><a href="{{singleVersion.link}}">{{singleVersion.title}}</a></li>
+                  {% endif %}
+                  {% endfor %}
+                </ul>
               </div>
-
-
-
             </div>
-        </div><!--/.container-->
+            {% endif %}
+            {% endif %}
+            <!-- end versions dropdown selector -->
+
+            {% if page.github_url %} {% include github_button.html %} {% endif %}
+
+            <!-- workflow map-->
+            {% if page.map %}
+            {% assign mapStep = page.map.step %}{% assign mapDefinition = page.map.definition %}{% include
+            workflow_map.html step=mapStep map=mapDefinition %}
+            {% endif %}
+            <!-- end workflow map-->
+
+
+            <!-- page/post content -->
+            {{content}}
+            <!-- end page/post content -->
+
+            <!-- linkedin comment button -->
+            {% if page.linkedin %}
+            <a id="comments"> </a>
+            {% include linkedin_comment.html url=page.linkedin %}
+            {% endif %}
+            <!-- end linkedin comment button -->
+
+            <!-- bio -->
+            {% if page.bio != false %}
+            {% include mybio.html %}
+            {% endif %}
+
+            <!-- mailjet newsletter signup form -->
+            <div class="newsletterSignUpForm">
+              <iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://0gj01.mjt.lu/wgt/0gj01/5st/form?c=f9b08f11" width="100%"></iframe>
+
+              <style>
+                #successMessageDiv p {
+                  padding-bottom: 50px !important;
+                }
+              </style>
+            </div>
+            <!-- end newsletter signup form -->
+
+
+
+            <!-- next/progress buttons -->
+            {% if page.collection == "docs" %}
+            {% unless page.type == 404 %}
+
+            {% include progress.html %}
+            {% include next.html %}
+
+            {% endunless %}
+            {% endif %}
+            <!-- end next/progress buttons-->
+
+            <!-- include single post ad horizontal at bottom of post -->
+            {% include single_post_comics.html %}
+            <!-- end ad block -->
+
+            {% comment %}
+            <!-- commento form. Note: I decided to get rid of Commento -- almost no one uses it. Leaving this here in case 
+ I regret the decision and want to revert. -->
+            {% unless page.focus == "noform" %}
+
+            <div id="commento"></div>
+            <script src="https://cdn.commento.io/js/commento.js"></script>
+            <noscript>Please enable JavaScript to load the comments.</noscript>
+            {% endunless %}
+            {% endcomment %}
+
+          </div>
+
+
+
+        </div>
+      </div><!--/.container-->
 
     </div><!-- /content-->
     <!-- footer-->
-</div></div></div></div></div></div>
-<div class="footertop">
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="footertop">
     <div class="container">
-        <div class="col-md-6">
-            <p></p>
-        </div>
-        <div class="col-md-6">
-            <ul class="bottom_ul">
-        </div>
+      <div class="col-md-6">
+        <p></p>
+      </div>
+      <div class="col-md-6">
+        <ul class="bottom_ul">
+      </div>
     </div>
-</div>
+  </div>
 
-<footer>
+  <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 footerleft ">
-                <div class="logofooter"> About idratherbewriting.com</div>
-                <p>Technical writing blog and API documentation course by <a style="color: white; text-decoration: underline;" href="/aboutme/">Tom Johnson</a>.  </p>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 footerleft ">
+          <div class="logofooter"> About idratherbewriting.com</div>
+          <p>Technical writing blog and API documentation course by <a style="color: white; text-decoration: underline;"
+              href="/aboutme/">Tom Johnson</a>. </p>
 
-            </div>
-            <div class="col-md-2 col-sm-6 paddingtop-bottom">
-                <h6 class="heading7">Links</h6>
-                <ul class="footer-ul">
-                  <li><a class="noCrossRef" href="https://idratherbewriting.com"> Blog</a></li>
-                  <li><a class="noCrossRef" href="https://idratherbewriting.com/learnapidoc">API doc course</a></li>
-                  <li><a class="noCrossRef" href="https://idratherbewriting.com/contact/">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 col-sm-6 paddingtop-bottom">
-                <h6 class="heading7">Tom on social media</h6>
-                <ul class="footer-ul">
-                    <li><a class="noCrossRef" href="https://writethedocs.slack.com/team/tomjohnson"> WTD Slack</a></li>
-                    <li><a class="noCrossRef" href="http://twitter.com/tomjohnson"> Twitter</a></li>
-                    <li><a class="noCrossRef" href="https://www.linkedin.com/in/tomjoht/"> Linkedin</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 col-sm-6 paddingtop-bottom">
-                <h6 class="heading7">GitHub</h6>
-                <ul class="footer-ul">
-                  <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/">GitHub repo</a></li>
-                  <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/issues/new">Log an issue</a></li>
-                  <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/pulls?q=is%3Apr+is%3Aclosed">Closed issues</a></li>
-                </ul>
         </div>
-    </div>
-    </div>
-</footer>
-<!--subfooter start from here -->
+        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+          <h6 class="heading7">Links</h6>
+          <ul class="footer-ul">
+            <li><a class="noCrossRef" href="https://idratherbewriting.com"> Blog</a></li>
+            <li><a class="noCrossRef" href="https://idratherbewriting.com/learnapidoc">API doc course</a></li>
+            <li><a class="noCrossRef" href="https://idratherbewriting.com/contact/">Contact</a></li>
+          </ul>
+        </div>
 
-<div class="copyright">
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+          <h6 class="heading7">Tom on social media</h6>
+          <ul class="footer-ul">
+            <li><a class="noCrossRef" href="https://writethedocs.slack.com/team/tomjohnson"> WTD Slack</a></li>
+            <li><a class="noCrossRef" href="http://twitter.com/tomjohnson"> Twitter</a></li>
+            <li><a class="noCrossRef" href="https://www.linkedin.com/in/tomjoht/"> Linkedin</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+          <h6 class="heading7">GitHub</h6>
+          <ul class="footer-ul">
+            <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/">GitHub repo</a>
+            </li>
+            <li><a data="github" class="noCrossRef" href="https://github.com/tomjoht/tomjoht.github.io/issues/new">Log
+                an issue</a></li>
+            <li><a data="github" class="noCrossRef"
+                href="https://github.com/tomjoht/tomjoht.github.io/pulls?q=is%3Apr+is%3Aclosed">Closed issues</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--subfooter start from here -->
+
+  <div class="copyright">
     <div class="container">
-        <div class="col-md-12">
-            <p>© 2025 Tom Johnson</p>
-        </div>
+      <div class="col-md-12">
+        <p>© 2025 Tom Johnson</p>
+      </div>
     </div>
-</div>
+  </div>
 
-<!-- end footer -->
-    <!--scripts loaded here-->
+  <!-- end footer -->
+  <!--scripts loaded here-->
 
-<!-- Bootstrap -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Algolia -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
-<!-- Mailjet -->
-<script type="text/javascript" src="/assets/js/pas-nc-embedded-v1.js"></script>
-<!-- for TOC for posts in html pre 2016-->
-<script src="{{ "/assets/js/toc.js" }}"></script>
-<!-- Bootstrap tooltips and popovers activateion -->
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-  $('[data-toggle="popover"]').popover();
-});
-</script>
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Algolia -->
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+  <!-- Mailjet -->
+  <script type="text/javascript" src="/assets/js/pas-nc-embedded-v1.js"></script>
+  <!-- for TOC for posts in html pre 2016-->
+  <script src="{{ " /assets/js/toc.js" }}"></script>
+  <!-- Bootstrap tooltips and popovers activateion -->
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
 
 </body>
 
