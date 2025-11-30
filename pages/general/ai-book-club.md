@@ -15,21 +15,6 @@ However, regardless of their popular focus, these books are a good catalyst for 
 * TOC
 {:toc}
 
-## Reading pace {#readingpace}
-
-We read one book a month, as listed in the schedule below. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
-
-Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to explore them in depth rather than just keeping up with the latest model release or news headlines.
-
-There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read (or listen to) part or all of the books, and participate as much or little as you like. The meetings take place online on the third Sunday of each month at 10am Pacific Time.
-
-## Recordings
-
-Each book club is recorded, using Google Meet as the platform. The recordings are uploaded to YouTube and shared on this site. See the *Meeting Recording* links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
-
-{:.note}
-If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you need me to edit out part of the conversation, though, let me know and I will try to make the edit. In general, avoid saying things you don't want recorded.
-
 ## Upcoming reading schedule {#schedule}
 
 The following tables list the upcoming reading schedule. The descriptions are extracts from the book summaries on Amazon. More details for the notes and discussion links will be added as the meeting date approaches.
@@ -53,14 +38,14 @@ The following tables list the upcoming reading schedule. The descriptions are ex
             <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a> by {{ meeting.book.author }}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
-         <td><p class="notes-links">{% if meeting.notes_url %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a>{% else %}<i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion{% endif %}<br/>
+         <td><p class="notes-links">{% if meeting.notes_url %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a>{% else %}<i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion{% endif %}<br/><br/>
              <a href="{{ meeting.meet_url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> Google Meet link</a></p></td>
       </tr> 
       {% endfor %}
    </tbody>
 </table>
 
-## Previous meetings {#previous}
+## Previous meetings and recordings {#previous}
 
 The previous meetings include recordings, notes, and other resources. They're listed in order of most recently completed meetings.
 
@@ -85,35 +70,56 @@ The previous meetings include recordings, notes, and other resources. They're li
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
          <td>
+            <p class="notes-links">
             {% if meeting.recording.url %}
-               <p class="notes-links"><a href="{{ meeting.recording.url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> {{ meeting.recording.text }}</a></p>
+               <a href="{{ meeting.recording.url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> {{ meeting.recording.text }}</a><br/><br/>
                {% endif %}
-            <p class="notes-links"><a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a></p>
+            <a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>
             {% if meeting.review %}
-            <p class="notes-links"><a href="{{ meeting.review.url }}"><i class="fa fa-comment-o" aria-hidden="true"></i> {{ meeting.review.text }}</a></p>
+            <a href="{{ meeting.review.url }}"><i class="fa fa-comment-o" aria-hidden="true"></i> {{ meeting.review.text }}</a>
             {% endif %}
+            </p>
          </td>
       </tr>
       {% endfor %}
    </tbody>
 </table>
 
-## Monthly meetings {#meetings}
+## Book club details {#details}
+
+The following sections provide more detail about how the book club works. 
+
+### Reading pace {#readingpace}
+
+We read one book a month, as listed in the schedule below. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
+
+Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to explore them in depth rather than just keeping up with the latest model release or news headlines.
+
+There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read (or listen to) part or all of the books, and participate as much or little as you like. The meetings take place online on the third Sunday of each month at 10am Pacific Time.
+
+### Recording
+
+Each book club is recorded, using Google Meet as the platform. The recordings are uploaded to YouTube and shared on this site. See the *Meeting Recording* links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
+
+{:.note}
+If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you need me to edit out part of the conversation, though, let me know and I will try to make the edit. In general, avoid saying things you don't want recorded.
+
+### Monthly meeting days and times {#meetings}
 
 The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I realize that meeting on a Sunday might not work for many people &mdash; that's okay. This is a book club, not a work webinar. The primary discussion focuses on the substance of these books. Falling on a Sunday, only those who truly want to engage in the reading and discuss these topics will likely join, and that's all right. If you can't join the meetings, you can watch or listen to the recordings.
 
-## Slack online discussion forum {#slack}
+### Slack forum for online discussion {#slack}
 
 A Slack workspace is set up for online discussion. Go to one of these links:
 
-* Already a workspace member? Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
-* Need to join the workspace? Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-3hdnn35w0-nZd1HFUtIF38BgVfXBKGpQ)
+* **Already a workspace member?** Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
+* **Need to join the workspace?** Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-3hdnn35w0-nZd1HFUtIF38BgVfXBKGpQ)
 
 The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
 
 Note that the Slack workspace resets every 30 days. Unfortunately, the costs to maintain messages beyond the 30-day window are astronomical. So if you don't see many Slack discussions, it doesn't mean the group is inactive. It just means the messages have reset.
 
-## Email list {#emaillist}
+### Email list for notifications {#emaillist}
 
 In addition to Slack, there's an email list you can join to receive announcements, information, and other details. I post the same info on Slack, but email can be easier for many people to receive info.
 
@@ -121,20 +127,20 @@ In addition to Slack, there's an email list you can join to receive announcement
 
 <script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
 
-## Google Meet for the meetings {#googlemeet}
+### Google Meet for the meetings {#googlemeet}
 
 For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings should automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTExMTZUMTgwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
 
 <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&amp;tmsrc=tomjoht%40gmail.com&amp;scp=ALL"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
 
-## How do I join the book club and get started? 
+### How do I join the book club and get started? {#join}
 
 1. Join the [email list](#emaillist).
 2. Join the [Slack group](#slack).
 3. Join the [Google Group](#googlemeet) or manually add the event to your calendar.
 4. Order the books and start reading.
 
-## FAQ
+### FAQ {#faq}
 
 **Who's the audience for this book club?**
 : Mostly people working in tech comm who want to deepen and broaden their knowledge of AI, but who aren't looking to dive into the technical details of AI as an engineer might. These books fall more within a general interest category for technology and AI.
