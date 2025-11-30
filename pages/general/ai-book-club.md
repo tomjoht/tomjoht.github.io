@@ -173,7 +173,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       <tr>
          <td>
             <p><b>June 15, 2025<br/></b><br/>
-               <a href="https://youtu.be/d6yxqpb3jao"><b>MEETING RECORDING</b></a>
+               <a href="/blog/kurzweil-singularity-ai-book-club-recording-notes#book-club-meeting-recording"><b>MEETING RECORDING</b></a>
             </p>
             <figure><a href="https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"><img src="{{site.media}}/singularity_aibookclub.png" alt="Singularity Is Nearer" /></a></figure>
          </td>
@@ -188,7 +188,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       <tr>
          <td>
             <p><b>May 18, 2025<br/><br/>
-                  <a href="https://youtu.be/xEFxmkCCXfg">MEETING RECORDING</a></b>
+                  <a href="/blog/suleyman-the-coming-wave-notes">MEETING RECORDING</a></b>
             </p>
             <figure><a href="https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"><img src="{{site.media}}/comingwave_aibookclub.png" alt="The Coming Wave" /></a></figure>
          </td>
@@ -203,7 +203,7 @@ The previous meetings include recordings, notes, and other resources. They're li
       <tr>
          <td>
             <p><b>April 20, 2025<br/><br/>
-                  <a href="https://youtu.be/vUUQ6j7rNTo">MEETING RECORDING</a></b><br/><a href="/blog/jonathan-warner-more-than-words-book-review">MY BOOK REVIEW</a>
+                  <a href="/blog/warner-book-more-than-words-notes">MEETING RECORDING</a></b>
             </p>
             <figure><a href="https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"><img src="{{site.media}}/morethanwords_aibookclub.png" alt="More than words" /></a></figure>
          </td>
