@@ -1,5 +1,5 @@
 ---
-title: "Episode 3: Documentation theater and the acceleration paradox (Podcast with Fabrizio Ferri Benedetti and Tom Johnson)"
+title: "Documentation theater and the acceleration paradox -- podcast episode 3 with Fabrizio Ferri Benedetti"
 permalink: /blog/podcast-episode-3-documentation-theater-acceleration-paradox
 date: 2025-11-30
 categories:
