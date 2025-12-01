@@ -1,5 +1,5 @@
 ---
-title: "Documentation theater and the acceleration paradox -- podcast episode 3 with Fabrizio Ferri Benedetti"
+title: "Documentation theater and the acceleration paradox -- podcast episode 3 with Fabrizio Ferri-Benedetti"
 permalink: /blog/podcast-episode-3-documentation-theater-acceleration-paradox
 date: 2025-11-30
 categories:
@@ -7,7 +7,7 @@ categories:
 - podcasts
 keywords: AI, technical writing, documentation, productivity, tools, writing process, tech communication, LLMs, automation, editing
 rebrandly: https://idbwrtng.com/podcast-episode-3-ai-and-docs-strategies
-description: "In this episode, Fabrizio Ferri Benedetti (from <a href='https://passo.uno'>Passo Uno</a>) and I discuss the concept of documentation theater with auto-generated wikis, why visual IDEs like Antigravity beat CLIs for writing, and the liberation vs. acceleration paradox where AI speeds up work but creates review bottlenecks. We also explore the dilemmas of labeling AI usage, why AI needs a good base of existing docs to function well, and how technical writers can stop doing <i>plumbing work</i> and start focusing on more challenging, high-value strategic initiatives instead, which might push the limits of what AI can even do."
+description: "In this episode, Fabrizio Ferri-Benedetti (from <a href='https://passo.uno'>Passo Uno</a>) and I discuss the concept of documentation theater with auto-generated wikis, why visual IDEs like Antigravity beat CLIs for writing, and the liberation vs. acceleration paradox where AI speeds up work but creates review bottlenecks. We also explore the dilemmas of labeling AI usage, why AI needs a good base of existing docs to function well, and how technical writers can stop doing <i>plumbing work</i> and start focusing on more challenging, high-value strategic initiatives instead, which might push the limits of what AI can even do."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/episode3_doc_theater_and_acceleration.mp3
 podcast_file_size: 41
 podcast_duration: "59:47"
@@ -30,13 +30,13 @@ If you just prefer the audio version:
 
 These are some articles we discussed in this episode.
 
-* **[Code wikis are documentation theater as a service](https://passo.uno/ai-wikis-docs-teather-as-a-service/)** (Fabrizio Ferri Benedetti): AI tools claiming to fully automate docs produce "documentation theater"—inferior byproducts that check a box but lack content integrity and the "why," and should never be shipped to users without human curation.
+* **[Code wikis are documentation theater as a service](https://passo.uno/ai-wikis-docs-teather-as-a-service/)** (Fabrizio Ferri-Benedetti): AI tools claiming to fully automate docs produce "documentation theater"—inferior byproducts that check a box but lack content integrity and the "why," and should never be shipped to users without human curation.
 
 * **[AI hype (Reddit Thread)](https://www.reddit.com/r/technicalwriting/comments/1p12v7u/ai_hype/)**: The author argues that AI can't replace jobs because it only performs discrete tasks, not holistic roles, and that the real threat is C-suite executives believing the hype rather than the technology itself.
 
 * **[Changing the AI narrative from liberation to acceleration](https://idratherbewriting.com/blog/ai-narrative-from-liberation-to-acceleration)** (Tom Johnson): The "liberation" narrative is misleading; AI actually accelerates the pace of work (rather than freeing up time), increasing expectations for volume while creating a high-risk bottleneck in content validation and review.
 
-* **[You need an AI policy for your docs](https://passo.uno/ai-docs-policy-contributions/)** (Fabrizio Ferri Benedetti): Instead of banning AI, technical writers should create policies that manage its inevitable use, emphasizing human accountability, rigorous testing (linters), and voluntary disclosure to foster learning.
+* **[You need an AI policy for your docs](https://passo.uno/ai-docs-policy-contributions/)** (Fabrizio Ferri-Benedetti): Instead of banning AI, technical writers should create policies that manage its inevitable use, emphasizing human accountability, rigorous testing (linters), and voluntary disclosure to foster learning.
 
 * **[Developing an AI strategy for documentation](https://thisisimportant.net/posts/ai-strategy-for-documentation/)** (Sarah Moir): Writers should partner with product teams to feed authoritative docs into native AI agents, optimize content for "machine readers" (AEO), and use AI for internal chores rather than just generating text.
 
@@ -44,7 +44,7 @@ These are some articles we discussed in this episode.
 
 * **[Why long-running tasks autonomously carried out by agentic AI aren't the future of doc work](https://idratherbewriting.com/blog/collaborative-thought-partner-not-autonomous)** (Tom Johnson): Autonomous AI agents struggle with the "winding conversation" of documentation work; instead, AI is best used as a collaborative "thought partner."
 
-* **[Slack thread from Fabrizio about using AI](https://writethedocs.slack.com/archives/C1NEAD7D4/p1764177561805699)** (Fabrizio Ferri Benedetti): The discussion highlights a shift from writing to "directing" LLMs, noting that success depends heavily on having high-quality foundational documentation to seed the model; otherwise, writers must still draft from scratch to establish this foundation.
+* **[Slack thread from Fabrizio about using AI](https://writethedocs.slack.com/archives/C1NEAD7D4/p1764177561805699)** (Fabrizio Ferri-Benedetti): The discussion highlights a shift from writing to "directing" LLMs, noting that success depends heavily on having high-quality foundational documentation to seed the model; otherwise, writers must still draft from scratch to establish this foundation.
 
 {% include ads.html %}
 
@@ -150,6 +150,28 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Segments
+
+The following are short 3-5 minute segments excerpted from the full-length episode.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FP1_veDlERI?si=SWN6amAEkig0QTiJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYOWF2PJEZQ?si=ZByjmp3CyIJ3V5-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AiL1S9r1-ks?si=h4b0irfasm8xU4Hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u7qgY2Q6i7A?si=9Fx9jRmamul3N784" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1t9wwm72h_Q?si=hDSnvcMn_cPTYF-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h0TREOCiYAI?si=HpdMnTC2IJ_dC09v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jlsy22vJzvg?si=kBb_aXf97zLhi5pT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b9XFFoAEbFI?si=DCDHqWR03u1BLc9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XovxzYbIXYk?si=L7HDNf313TC3YmX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Chapters
 
 Here are some timecodes for the podcast:
@@ -175,7 +197,7 @@ Here are some timecodes for the podcast:
 
 ## Transcript
 
-**Tom:** Welcome to another episode of this joint podcast between Fabrizio Ferri Benedetti and me, Tom Johnson. Today we will be discussing a number of articles and topics, just kind of going over the latest happenings, news goings on, going on in the tech comm space, especially related to AI documentation. That is the focus here, AI and tech writing. So Fabrizio, I know you're under the weather a bit there, but I appreciate you joining and powering through. Do you have anything you want to say as opening words to people?
+**Tom:** Welcome to another episode of this joint podcast between Fabrizio Ferri-Benedetti and me, Tom Johnson. Today we will be discussing a number of articles and topics, just kind of going over the latest happenings, news goings on, going on in the tech comm space, especially related to AI documentation. That is the focus here, AI and tech writing. So Fabrizio, I know you're under the weather a bit there, but I appreciate you joining and powering through. Do you have anything you want to say as opening words to people?
 
 **Fabrizio:** Yeah, well, no, you know, just sometimes life happens. I kind of envy the LLMs I work with because they don't go through this or DL every time, but it really makes you feel like very organic, but otherwise I'm well.
 

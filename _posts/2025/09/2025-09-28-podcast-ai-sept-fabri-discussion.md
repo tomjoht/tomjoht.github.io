@@ -8,7 +8,7 @@ categories:
 keywords: AI, technical writing, documentation, career validation, content curation, agent markdown files, technical communication, writer anxiety, evolving roles, community collaboration
 linkedin: https://www.linkedin.com/posts/tomjoht_podcast-how-ai-is-changing-the-role-of-technical-activity-7378419745928351745-fyoN
 rebrandly: https://idbwrtng.com/podcast-ai-sept-fabri-discussion
-description: "In this conversational podcast, Fabrizio Ferri Benedetti (<a href='https://passo.uno'>Passo.uno</a>) and I talk about the impact of AI on the technical writing profession. We tackle the anxiety, seen and felt almost everywhere, but especially on Reddit, within the community about job security and analyze the evolution of the technical writer's role into a more strategic context curator or content director. We also cover practical applications of AI, such as using agents markdown files to guide language models (with style overrides or API reference contexts), and the role documentation plays in improving AI's outputs (Fabri's phrase <i>AI must RTFM</i>)."
+description: "In this conversational podcast, Fabrizio Ferri-Benedetti (<a href='https://passo.uno'>Passo.uno</a>) and I talk about the impact of AI on the technical writing profession. We tackle the anxiety, seen and felt almost everywhere, but especially on Reddit, within the community about job security and analyze the evolution of the technical writer's role into a more strategic context curator or content director. We also cover practical applications of AI, such as using agents markdown files to guide language models (with style overrides or API reference contexts), and the role documentation plays in improving AI's outputs (Fabri's phrase <i>AI must RTFM</i>)."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/fabritomroletechwriterepisode1.mp3
 podcast_file_size: 46.4
 podcast_duration: "53:53"
@@ -29,8 +29,8 @@ If you prefer to only listen to the audio:
 
 Here are the three articles we discussed during the episode. The first two are from Fabrizio's site, [Passo.uno](https://passo.uno), the last from mine:
 
-* [AI must RTFM: Why technical writers are becoming context curators](https://passo.uno/from-tech-writers-to-ai-context-curators/), by Fabrizio Ferri Benedetti
-* [The future is open: Answering the most common tech writing worries](https://passo.uno/tech-writing-optimism-reddit/), by Fabrizio Ferri Benedetti
+* [AI must RTFM: Why technical writers are becoming context curators](https://passo.uno/from-tech-writers-to-ai-context-curators/), by Fabrizio Ferri-Benedetti
+* [The future is open: Answering the most common tech writing worries](https://passo.uno/tech-writing-optimism-reddit/), by Fabrizio Ferri-Benedetti
 * [Two strategies to succeed when AI seems to be eroding jobs around you](/blog/strategies-to-succeed-in-context-of-ai), by Tom Johnson
 
 ## Takeaways 
@@ -139,7 +139,7 @@ The following is a transcript of the podcast, with the grammar slightly cleaned 
 
 **Introduction**
 
-**Tom:** All right, welcome to the first joint podcast between Fabrizio Ferri Benedetti and me, your co-host, Tom Johnson. Fabrizio has a blog, [Passo Uno](https://passo.uno/), that you've probably read and come across, and I have a blog, [I'd Rather Be Writing](https://idratherbewriting.com). We decided it would be fun to get together and do joint podcasts about the topic that is so prominent these days: AI and tech docs, and the kind of changing role and all the issues surrounding AI for a technical writer these days.
+**Tom:** All right, welcome to the first joint podcast between Fabrizio Ferri-Benedetti and me, your co-host, Tom Johnson. Fabrizio has a blog, [Passo Uno](https://passo.uno/), that you've probably read and come across, and I have a blog, [I'd Rather Be Writing](https://idratherbewriting.com). We decided it would be fun to get together and do joint podcasts about the topic that is so prominent these days: AI and tech docs, and the kind of changing role and all the issues surrounding AI for a technical writer these days.
 
 So just a quick intro. I'm based in Seattle. I've been a technical writer for about 20 years. My original background isn't in engineering; it's more in creative writing and English—the humanities. But I've focused on tech for so many years that those are sort of long echoes of my past. Anyway, Fabrizio, do you want to introduce yourself a little bit for people? Tell them about what you're focused on or where you're based.
 

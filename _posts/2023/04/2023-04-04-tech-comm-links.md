@@ -18,9 +18,9 @@ Ryan Peterman says that as he moved up to a mid-level engineer role, he started 
 
 <a href="https://www.developing.dev/p/why-engineers-need-to-write"><button type="button" class="btn btn-info">Read more &raquo;</button></a>
 
-## We need more technical writing in popular culture, by Fabrizio Ferri Benedetti
+## We need more technical writing in popular culture, by Fabrizio Ferri-Benedetti
 
-Fabrizio Ferri Benedetti has a thought-provoking post about the absence of technical writer roles in media. TV shows are full of doctors, lawyers, and other professionals, but tech writers, if ever present, seem to be oddballs. Their absence in mainstream media only furthers confusion and lack of understanding of the tech writer role. No one quite grasps what we do. Perhaps with more media representation, the story could change. 
+Fabrizio Ferri-Benedetti has a thought-provoking post about the absence of technical writer roles in media. TV shows are full of doctors, lawyers, and other professionals, but tech writers, if ever present, seem to be oddballs. Their absence in mainstream media only furthers confusion and lack of understanding of the tech writer role. No one quite grasps what we do. Perhaps with more media representation, the story could change. 
 
 <a href="https://passo.uno/tech-writers-pop-culture/"><button type="button" class="btn btn-info">Read more &raquo;</button></a>
 

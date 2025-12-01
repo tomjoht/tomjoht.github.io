@@ -111,9 +111,9 @@ Note that I said I'm optimistic *about the need for tech writers* in the future,
 
 Finally, I haven't even pitched the strongest argument for why technical writers and documentation will continue to be relevant in the future: AI tools are terrible without good documentation. In the same way that you need valid, accurate context when using AI tools to create documentation, AI tools need an accurate body of documentation to produce useful, hallucination-free outputs. Informal tests by my colleagues show that AI outputs improve by orders of magnitude when trained on more abundant and accurate documentation.
 
-Fabrizio Ferri Benedetti makes this argument in his post, [AI must RTFM: Why technical writers are becoming context curators](https://passo.uno/from-tech-writers-to-ai-context-curators/). He says developers are starting to write more documentation because "AI must RTFM now." This new "docs-driven development" approach means technical writers should "seriously start thinking about becoming context writers and maintainers." 
+Fabrizio Ferri-Benedetti makes this argument in his post, [AI must RTFM: Why technical writers are becoming context curators](https://passo.uno/from-tech-writers-to-ai-context-curators/). He says developers are starting to write more documentation because "AI must RTFM now." This new "docs-driven development" approach means technical writers should "seriously start thinking about becoming context writers and maintainers." 
  
-Ferri Benedetti defines this role as follows:
+Ferri-Benedetti defines this role as follows:
 
 > A context curator, in this sense, is a technical writer who is able to orchestrate and execute a content strategy around both human and AI needs, or even focused on AI alone. Context is so much better than content (a much abused word that means little) because it's tied to meaning. Context is situational, relevant, necessarily limited. AI needs context to shape its thoughts.
 

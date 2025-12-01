@@ -7,7 +7,7 @@ categories:
 - podcast-guest
 keywords: 
 rebrandly: https://idbwrtng.com/whats-wrong-ai-webinar-recording
-description: "I recently appeared on the Coffee and Content episode, hosted by Scott Abel, with another guest, Fabrizio Ferri Benedetti, who writes a blog at Passo (<a href='https://passo.uno'>passo.uno</a>). The episode theme comes from a post Fabrizio wrote titled <a href='https://passo.uno/whats-wrong-ai-generated-docs/'>What's wrong with AI-generated docs</a>, but the episode didn't focus exclusively on AI's problems and gotchas so much as AI strategies with documentation in general. This post provides a recording and transcript of the episode."
+description: "I recently appeared on the Coffee and Content episode, hosted by Scott Abel, with another guest, Fabrizio Ferri-Benedetti, who writes a blog at Passo (<a href='https://passo.uno'>passo.uno</a>). The episode theme comes from a post Fabrizio wrote titled <a href='https://passo.uno/whats-wrong-ai-generated-docs/'>What's wrong with AI-generated docs</a>, but the episode didn't focus exclusively on AI's problems and gotchas so much as AI strategies with documentation in general. This post provides a recording and transcript of the episode."
 image: whatwrongwebinarthumb.png
 ---
 
