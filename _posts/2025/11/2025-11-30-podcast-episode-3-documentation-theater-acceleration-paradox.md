@@ -136,6 +136,20 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/jgUw_oBi6Ek"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/hWXwsDYKgqI"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Chapters
 
 Here are some timecodes for the podcast:
