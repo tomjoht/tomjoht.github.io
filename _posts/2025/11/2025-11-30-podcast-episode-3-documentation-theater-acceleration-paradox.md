@@ -155,39 +155,39 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The following are short 3-5 minute segments excerpted from the full video.
 
-#### Redefining productivity metrics in the age of AI
+<h4>Redefining productivity metrics in the age of AI</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/FP1_veDlERI?si=SWN6amAEkig0QTiJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Breaking the bottleneck of the review process with AI
+<h4>Breaking the bottleneck of the review process with AI</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/ZYOWF2PJEZQ?si=ZByjmp3CyIJ3V5-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Trusting intuition and maintaining pull request hygiene with AI content
+<h4>Trusting intuition and maintaining pull request hygiene with AI content</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/AiL1S9r1-ks?si=h4b0irfasm8xU4Hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Unblocking technical writers and verifying accuracy with AI
+<h4>Unblocking technical writers and verifying accuracy with AI</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/u7qgY2Q6i7A?si=9Fx9jRmamul3N784" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### The dilemma of disclosing AI usage in technical writing
+<h4>The dilemma of disclosing AI usage in technical writing</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/1t9wwm72h_Q?si=hDSnvcMn_cPTYF-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Communicating the value of technical writing to the C-suite in the AI era
+<h4>Communicating the value of technical writing to the C-suite in the AI era</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/h0TREOCiYAI?si=HpdMnTC2IJ_dC09v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### The "good enough" trap of AI-generated documentation
+<h4>The "good enough" trap of AI-generated documentation</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/jlsy22vJzvg?si=kBb_aXf97zLhi5pT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### AI writing: starting from a good documentation base
+<h4>AI writing: starting from a good documentation base</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/b9XFFoAEbFI?si=DCDHqWR03u1BLc9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Why AI can't replace the holistic technical writer
+<h4>Why AI can't replace the holistic technical writer</h4>
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/XovxzYbIXYk?si=L7HDNf313TC3YmX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

@@ -14,7 +14,7 @@ For most questions, instead of reaching out to me, try these two channels first:
 * **[Reddit Technical Writing subreddit](https://www.reddit.com/r/technicalwriting/)**. This is a great space to ask beginner questions. You can also ask anonymous questions if you want.
 * **[Write the Docs Slack](https://www.writethedocs.org/slack/)**. This is a popular space where a lot of technical writers interact, with many different channels. Here's a [direct link to Slack](https://writethedocs.slack.com).
 
-On Write the Docs Slack, you can direct message me at my username, ["Tom Johnson"](https://writethedocs.slack.com/team/U0ES12W1F).
+On Write the Docs Slack, you can direct message me at my username, ["tomjohnson."](https://writethedocs.slack.com/team/U0ES12W1F)
 
 If you want to email me, you can do so at <a href="#" id="email-link" data-user="tomjoht" data-domain="gmail.com"></a>.
 <script>
