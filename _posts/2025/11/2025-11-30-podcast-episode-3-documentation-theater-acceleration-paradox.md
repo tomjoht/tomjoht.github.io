@@ -155,23 +155,41 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The following are short 3-5 minute segments excerpted from the full video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FP1_veDlERI?si=SWN6amAEkig0QTiJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#### Redefining productivity metrics in the age of AI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYOWF2PJEZQ?si=ZByjmp3CyIJ3V5-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/FP1_veDlERI?si=SWN6amAEkig0QTiJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AiL1S9r1-ks?si=h4b0irfasm8xU4Hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#### Breaking the bottleneck of the review process with AI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u7qgY2Q6i7A?si=9Fx9jRmamul3N784" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/ZYOWF2PJEZQ?si=ZByjmp3CyIJ3V5-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1t9wwm72h_Q?si=hDSnvcMn_cPTYF-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#### Trusting intuition and maintaining pull request hygiene with AI content
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h0TREOCiYAI?si=HpdMnTC2IJ_dC09v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/AiL1S9r1-ks?si=h4b0irfasm8xU4Hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jlsy22vJzvg?si=kBb_aXf97zLhi5pT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#### Unblocking technical writers and verifying accuracy with AI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b9XFFoAEbFI?si=DCDHqWR03u1BLc9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/u7qgY2Q6i7A?si=9Fx9jRmamul3N784" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XovxzYbIXYk?si=L7HDNf313TC3YmX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#### The dilemma of disclosing AI usage in technical writing
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/1t9wwm72h_Q?si=hDSnvcMn_cPTYF-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Communicating the value of technical writing to the C-suite in the AI era
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/h0TREOCiYAI?si=HpdMnTC2IJ_dC09v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### The "good enough" trap of AI-generated documentation
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/jlsy22vJzvg?si=kBb_aXf97zLhi5pT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### AI writing: starting from a good documentation base
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/b9XFFoAEbFI?si=DCDHqWR03u1BLc9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Why AI can't replace the holistic technical writer
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/XovxzYbIXYk?si=L7HDNf313TC3YmX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Chapters
 
