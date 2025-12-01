@@ -13,6 +13,7 @@ podcast_file_size: 41
 podcast_duration: "59:47"
 podcast_length: 41017426
 image: episode3tomandfabrizio.png
+linkedin: https://www.linkedin.com/posts/tomjoht_documentation-theater-and-the-acceleration-activity-7401119156315729920-jEPR
 ---
 
 * TOC
