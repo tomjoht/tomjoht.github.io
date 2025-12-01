@@ -7,7 +7,7 @@ categories:
 - podcasts
 keywords: AI, technical writing, documentation, productivity, tools, writing process, tech communication, LLMs, automation, editing
 rebrandly: https://idbwrtng.com/podcast-episode-3-ai-and-docs-strategies
-description: "In this episode, Fabrizio Ferri Benedetti and I discuss the concept of documentation theater with auto-generated wikis, why visual IDEs like Antigravity beat CLIs for writing, and the liberation vs. acceleration paradox where AI speeds up work but creates review bottlenecks. We also explore the dilemmas of labeling AI usage, why AI needs a good base of existing docs to function well, and how technical writers can stop doing <i>plumbing work</i> and start focusing on more challenging, high-value strategic initiatives instead, which might push the limits of what AI can even do."
+description: "In this episode, Fabrizio Ferri Benedetti (from <a href='https://passo.uno'>Passo Uno</a>) and I discuss the concept of documentation theater with auto-generated wikis, why visual IDEs like Antigravity beat CLIs for writing, and the liberation vs. acceleration paradox where AI speeds up work but creates review bottlenecks. We also explore the dilemmas of labeling AI usage, why AI needs a good base of existing docs to function well, and how technical writers can stop doing <i>plumbing work</i> and start focusing on more challenging, high-value strategic initiatives instead, which might push the limits of what AI can even do."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/episode3_doc_theater_and_acceleration.mp3
 podcast_file_size: 41
 podcast_duration: "59:47"
@@ -65,14 +65,76 @@ Here are some takeaways from the conversation:
 
 Here are some shorts pulled from the longer video.
 
-Note: I'm posting more shorts soon, so check back...
-
 <iframe width="158" height="281"
 src="https://www.youtube.com/embed/-JTYxM4MWS4"
 title="AI minions for tech writers"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/pRJRGiJlZCo"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/XjOrgGx6nBY"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/KK_nPE_bkGM"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/dpHY--nGS-o"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/IHgXWPLq2NI"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/teYlnVV4WFw"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/Esz_UiZ76k4"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/otylCGyU9O4"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/CzK-XHDnBBE"
+title="AI minions for tech writers"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Chapters
 
