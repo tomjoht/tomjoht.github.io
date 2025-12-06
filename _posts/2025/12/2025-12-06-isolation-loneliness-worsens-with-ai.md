@@ -5,10 +5,11 @@ date: 2025-12-04
 categories:
 - ai
 - technical-writing
-keywords: 
+keywords: isolation, loneliness, artificial intelligence, technical writing, remote work, mental health, future of work
 rebrandly: https://idbwrtng.com/isolation-loneliness-worsens-with-ai
 description: "Isolation is something I've been thinking about lately. Although I have an abundant professional network and support probably 100+ engineers, PMs, and others, at times I do experience a sense of isolation in my role. I'm not sure if it's the holidays, or because now that I'm 50, I'm apparently at the <a href='https://www.washingtonpost.com/health/2025/12/03/loneliest-americans-aarp-survey/'>bottom of the \"U-shaped happiness curve,\"</a> but I'm trying to understand how to navigate a world where my relationships with colleagues are increasingly transactional (purely information-based) and lack more social aspects. There are several reasons for isolation, and good reason to believe that AI will only increase our isolation."
 image: tech-writer-isolation-thumb.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-the-isolation-and-loneliness-of-share-7403166763301060609-e1dW
 ---
 
 * TOC
