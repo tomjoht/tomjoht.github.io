@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/war-on-words-book-review-free-speech-costs
 description: "I recently read <a href='https://www.amazon.com/War-Words-Arguments-Against-Speech/dp/1949846822'><i>The War on Words: 10 Arguments Against Free Speech—And Why They Fail</i></a> by Greg Lukianoff and Nadine Strossen, as part of the <a href='https://www.meetup.com/seattle-intellectual-book-club/'>Seattle Intellectual Book Club</a>. The book counters various arguments against free speech, overall presenting the case that free speech should be protected in most cases except obviously damaging scenarios like defamation, fraud, or immediate physical harm. In this post, I reflect on the costs of speaking openly, especially in the age of cancel culture, where you might not run afoul of the law but can still lose your job or face intense online animosity."
 image: freespeechconseqthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-the-cost-of-speaking-up-thoughts-share-7403814091338854400-SVn6
 ---
 
 * TOC
