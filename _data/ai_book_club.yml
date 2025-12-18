@@ -1,20 +1,4 @@
 upcoming:
-  - date: "Dec 14, 2025"
-    time: "1pm PT"
-    book:
-      title: "Co-Intelligence: Living and Working with AI"
-      author: "Ethan Mollick"
-      url: "https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"
-      image: "cointelligence_aibookclub.png"
-      summary: >
-
-        "In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."
-    
-    notes_url: "https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE"
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-
-
   - date: "Jan 18, 2026"
     time: "10am PT"
     book:
@@ -170,6 +154,24 @@ upcoming:
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
 previous:
+  - date: "Dec 14, 2025"
+    recording:
+      url: "/blog/co-intelligence-mollick-book-club"
+      text: "Meeting recording"
+    book:
+      title: "Co-Intelligence: Living and Working with AI"
+      author: "Ethan Mollick"
+      url: "https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"
+      image: "cointelligence_aibookclub.png"
+      summary: >
+
+        "In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."
+
+    notes_url: "https://docs.google.com/document/d/1Y5bQtvGGnZfTTSFQgvT6gFbHtCOUq9pjQ5hN-VVoJeE"
+    review:
+      url: "/blog/book-review-co-intelligence-mollick"
+      text: "Book review of \"Co-Intelligence: Living and Working with AI\" by Ethan Mollick -- an educator embraces experience-based AI learning"
+
   - date: "Nov 16, 2025"
     recording:
       url: "/blog/nexus-harari-ai-book-club"
