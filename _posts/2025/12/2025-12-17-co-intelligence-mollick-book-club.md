@@ -14,6 +14,7 @@ podcast_file_size: 42
 podcast_duration: "56:55"
 podcast_length: 42010485
 image: bookclubcointelthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_book-review-of-co-intelligence-living-and-share-7407428296637964288-V2H3
 ---
 
 * TOC

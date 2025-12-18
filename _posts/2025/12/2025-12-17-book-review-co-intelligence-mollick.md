@@ -9,6 +9,7 @@ keywords: ai, ethan mollick, book club
 rebrandly: https://idbwrtng.com/book-review-co-intelligence-mollick
 description: "<a href='https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X'><i>Co-Intelligence</i></a> by Ethan Mollick isn't a riveting, controversial book on AI that will ratchet up your p-doom or send your head spinning about misaligned alien intelligences conspiring against humanity. Part of the appeal of the book is that so many of Mollick's observations seem like common sense, as they're born from someone who's working with and using AI on a daily basis for a variety of domain-specific tasks relating to his profession."
 image: cointelthumbpost.png
+linkedin: https://www.linkedin.com/posts/tomjoht_book-review-of-co-intelligence-living-and-share-7407429218558648320-Tda5
 ---
 
 * TOC
