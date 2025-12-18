@@ -54,4 +54,7 @@ I love that idea. In fact, the advice reminds me of a conversation I had with so
 
 The blurring of roles seems to be what Mollick's pushing his students to embrace in the classroom. By asking students to go beyond their comfort zones and tackle a previously impossible task, something within the knowledge domain of some unreachable expertise, they learn to use AI tools to go beyond generating a mediocre essay or summary. Contemplating a future where skillsets and expertise blur across roles and boundaries, allowing us to cross-pollinate and expand ourselves in previously siloed ways, seems like an interesting future. Mollick's book helps move us toward that ideal.
 
+<hr/>
+
+For our AI Book Club discussion of Mollick's book, see [AI Book Club recording, notes, and transcript for Ethan Mollick's Co-Intelligence](/blog/co-intelligence-mollick-book-club).
 
