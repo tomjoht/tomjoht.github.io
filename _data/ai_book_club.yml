@@ -16,15 +16,15 @@ upcoming:
   - date: "Feb 22, 2026"
     time: "10am PT"
     book:
-      title: "AI 2041: Ten Visions for Our Future"
-      author: "Kai-Fu Lee and Chen Qiufan"
-      url: "https://www.amazon.com/AI-2041-Ten-Visions-Future/dp/0593238311"
-      image: "2041_aibookclub.png"
+      title: "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism"
+      author: "Sarah Wynn-Williams"
+      url: "https://www.amazon.com/gp/product/1250391237"
+      image: "careless-people.png"
       summary: >
 
-        "Long before the advent of ChatGPT, Kai-Fu Lee and Chen Qiufan understood the enormous potential of artificial intelligence to transform our daily lives. But even as the world wakes up to the power of AI, many of us still fail to grasp the big picture. Chatbots and large language models are only the beginning. / ... Lee and Chen join forces to imagine our world in 2041 and how it will be shaped by AI. In ten gripping, globe-spanning short stories and accompanying commentary, their book introduces readers to an array of eye-opening settings and characters grappling with the new abundance and potential harms of AI technologies like deep learning, mixed reality, robotics, artificial general intelligence, and autonomous weapons."
+        "Careless People is a deeply personal account of why and how things have gone so horribly wrong in the past decade―told in a sharp, candid, and utterly disarming voice. A deep, unflinching look at the role that social media has assumed in our lives, Careless People reveals the truth about the leaders of Facebook: how the more power they grasp, the less responsible they become and the consequences this has for all of us."
 
-    notes_url: "https://docs.google.com/document/d/1zjRk9SiFKBTpttPFNldJLAUSKHkYMMWYnAsDumQAwPE/"
+    notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "Mar 15, 2026"
@@ -42,20 +42,6 @@ upcoming:
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "Apr 19, 2026"
-    time: "10am PT"
-    book:
-      title: "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism"
-      author: "Sarah Wynn-Williams"
-      url: "https://www.amazon.com/gp/product/1250391237"
-      image: "careless-people.png"
-      summary: >
-
-        "Careless People is a deeply personal account of why and how things have gone so horribly wrong in the past decade―told in a sharp, candid, and utterly disarming voice. A deep, unflinching look at the role that social media has assumed in our lives, Careless People reveals the truth about the leaders of Facebook: how the more power they grasp, the less responsible they become and the consequences this has for all of us."
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "May 17, 2026"
     time: "10am PT"
     book:
       title: "Life 3.0: Being Human in the Age of Artificial Intelligence"
@@ -83,75 +69,6 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jul 19, 2026"
-    time: "10am PT"
-    book:
-      title: "The Sirens' Call: How Attention Became the World's Most Endangered Resource"
-      author: "Chris Hayes"
-      url: "https://www.amazon.com/gp/product/0593653114"
-      image: "sirens-call.png"
-      summary: >
-
-        "Sirens are designed to compel us, and now they are going off in our bedrooms and kitchens at all hours of the day and night, doing the bidding of vast empires, the most valuable companies in history, built on harvesting human attention. As Hayes shares, “Now our deepest neurological structures, human evolution­ary inheritances, and social impulses are in a habitat designed to prey upon, to cultivate, distort, or destroy that which most fundamentally makes us human.”"
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Aug 16, 2026"
-    time: "10am PT"
-    book:
-      title: "Superbloom: How Technologies of Connection Tear Us Apart"
-      author: "Nicholas Carr"
-      url: "https://www.amazon.com/gp/product/1324064617"
-      image: "superbloom.png"
-      summary: >
-
-        "A celebrated commentator on the human consequences of technology, Nicholas Carr reorients the conversation around modern communication, challenging some of our most cherished beliefs about self-expression, free speech, and media democratization. He reveals how messaging apps strip nuance from conversation, how “digital crowding” erodes empathy and triggers aggression, how online political debates narrow our minds and distort our perceptions, and how advances in AI are further blurring the already hazy line between fantasy and reality."
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Sep 20, 2026"
-    time: "10am PT"
-    book:
-      title: "Pure Human: The Hidden Truth of Our Divinity, Power, and Destiny"
-      author: "Gregg Braden"
-      url: "https://www.amazon.com/gp/product/1401949363"
-      image: "pure-human.png"
-      summary: >
-
-        "Scientists, engineers and philosophers alike warn us that without a radical shift in our thinking, we are on track to be the last generation of pure humans that the world will know. Within a single generation we will devolve into a hybrid species of synthetic bodies, Artificial Intelligence (AI), and computer chips that limit our ability to think, to love, and to adapt to the conditions of the emerging world in a healthy way. In doing so we will also lose our capacity for emotion, empathy, intimacy, and forgiveness—the very qualities that we value and cherish in our humanness."
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Oct 18, 2026"
-    time: "10am PT"
-    book:
-      title: "The Age of AI: And Our Human Future"
-      author: "Henry A Kissinger, Eric Schmidt, Daniel Huttenlocher"
-      url: "https://www.amazon.com/gp/product/0316273805"
-      image: "age-of-ai-future.png"
-      summary: >
-
-        "In The Age of AI, three leading thinkers have come together to consider how AI will change our relationships with knowledge, politics, and the societies in which we live. The Age of AI is an essential roadmap to our present and our future, an era unlike any that has come before."
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Nov 15, 2026"
-    time: "10am PT"
-    book:
-      title: "Superagency: What Could Possibly Go Right with Our AI Future"
-      author: "Reid Hoffman, Greg Beato"
-      url: "https://www.amazon.com/gp/product/B0D5WMKV9H"
-      image: "superagency.png"
-      summary: >
-
-        "Superagency offers a roadmap for using AI inclusively and adaptively to improve our lives and create positive change. While acknowledging challenges like disinformation and potential job changes, the book focuses on AI’s immense potential to increase individual agency and create better outcomes for society as a whole."
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
 
 previous:
   - date: "Dec 14, 2025"
