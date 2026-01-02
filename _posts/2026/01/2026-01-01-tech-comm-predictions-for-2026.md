@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/tech-comm-predictions-for-2026
 description: "As we head into the new year, I'd like to make a few tech comm predictions for 2026. I'm focusing my predictions within tech comm and also basing them off my own experience. In this post I also broaden out my scope a bit and comment on some wider issues and trends in a more opinionated way. While I'm basing these ideas on emerging research, this is a blog post, not a peer-reviewed journal article, so my predictions are speculative and based on general vibes."
 image: predictingpathsfuturethumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_12-predictions-for-tech-comm-in-2026-activity-7412910499467718656-mVM9
 ---
 
 <style>
