@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/hodgepodge-of-ideas-in-my-head
 description: "As I sit down to write, I have a hodgepodge of ideas spewing in my head, but none that has taken hold in any immersive way. Usually a blog post has a single topic of focus, and I try to go somewhat deep into it. But this approach can be problematic: If I don't have an idea that catches my attention, I feel I have nothing to write about. Hence, I'll skip my writing time “until the muse strikes” or something. But then days pass without the muse striking, and I start to wonder if I've gone about the creative process all wrong."
 image: hodgepodgeofideasthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_a-hodgepodge-of-ideas-spewing-in-my-head-activity-7412909899661316096-OSz5
 ---
 
 What's wrong with short, hardly developed ideas? Indeed, this seems to be the mode I'm operating in lately. The more I use AI tools to write docs, the more I'm sitting there context-switching as I write prompts, give feedback, provide editorial input, refinement, etc. When tasks involve a significant amount of AI compute cycles, this constant switching breaks up my attention in somewhat fragmenting ways. I can choose to read the “thoughts” of the AI as it progresses through a problem I've given it, trying to follow along. Or I can open up another browser window on a separate screen and work through some other task. I usually opt for the latter. 
