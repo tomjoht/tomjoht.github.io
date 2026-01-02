@@ -147,7 +147,7 @@ Dropping our guardrails on AI might be a strategic miscalculation. Brian Tse not
 
 How will China's AI acceleration affect technical writers? I'm not sure, but perhaps we'll see more AI tools without the guardrails or safety checks. Maybe AI tools will become more dangerous, and the face-to-face confrontation with AI's real dangers will prompt us to take the halting actions that Eliezer Yudkowsky and Nate Soares, persuaded that advanced AI will lead to human annihilation, advocate for in *[If Anyone Builds It, Everyone Dies](https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640)*. 
 
-As tech writers, we might specialize in writing for catastrophe. I'm personally fascinated by end-of-world dystopian scenarios and cataclysmic events (not sure why). Maybe this scenario is something I can write documentation for.
+As tech writers, we might specialize in writing for catastrophes. I'm personally fascinated by end-of-world dystopian scenarios and cataclysmic events (not sure why). Maybe this an interest I can build upon?
 
 ## 11. P(doom) talk shifts from AGI subjugation to bad human actors creating WMDs
 
