@@ -11,6 +11,12 @@ description: "As we head into the new year, I'd like to make a few tech comm pre
 image: predictingpathsfuturethumb.png
 ---
 
+<style>
+ul#markdown-toc, #toc>ul {
+	list-style: none;
+}
+</style>
+
 * TOC
 {:toc}
 
@@ -24,7 +30,7 @@ image: predictingpathsfuturethumb.png
 
 When I look at my own changelist stats for the year, I think I see about a 10% increase from the past year (when I was also heavily using AI), but nothing like the massive bump from my pre-AI time. As imperfect as my changelist stats are (version control is easily distorted by site migrations or new API docs), it's pretty clear that the productivity bump occurred over the *last* two years (when AI hit the scene), and now things are leveling out. It's not an unlimited growth curve, as the validation bottlenecks and other manual process overhead limit velocity. 
 
-Many tech writers are just getting started on their AI journeys. As they gain familiarity with AI tools (like [Antigravity](https://antigravity.google/), [Gemini 3](https://gemini.google/), or [Claude Code](https://claude.ai/)), they'll discover this initial boost. Reports like [Developer Productivity Statistics with AI Tools 2025](https://www.index.dev/blog/developer-productivity-statistics-with-ai-tools) from index.dev provide some quantitative data around the productivity boost, noting that "developers report that AI tools raise productivity by 10 to 30% on average." This aligns (at least conservatively) with my own qualitative experience, though it seems low. 
+Many tech writers are just getting started on their AI journeys. As they gain familiarity with AI tools (like [Antigravity](https://antigravity.google/), [Gemini 3](https://gemini.google/), or [Claude Code](https://claude.ai/)), they'll discover this initial boost. Reports like from index.dev provide some quantitative data around the productivity boost, noting that "developers report that AI tools raise productivity by 10 to 30% on average" ([Developer Productivity Statistics with AI Tools 2025](https://www.index.dev/blog/developer-productivity-statistics-with-ai-tools). This aligns (at least conservatively) with my own qualitative experience, though it seems low. 
 
 The report adds an interesting nuance to this picture, noting that "When tested, the same developers actually took 19% longer to finish their tasks with AI," even though "developers still believed they worked 20% faster with AI." Furthermore, "46% of developers say they don't fully trust AI outputs." This paradox suggests that while the *perception* of velocity is high, the actual output may lag due to the overhead of reviewing and fixing AI generated content. 
 
@@ -32,7 +38,7 @@ Because of the distrust of AI outputs, I see more emphasis on review and validat
 
 ## 2. The virtuous cycle starts to become apparent
 
-**In 2026, we'll start to see the real effects of the "virtuous cycle" of AI adoption.** Higher quality docs lead to better code, which leads to more robust tools, which in turn leads to better products. This cycle is powered by usage data: as people use AI-infused products, that data feeds back into the models to improve them, which drives further usage. As Erik Trautman notes in [The Virtuous Cycle of AI Products](https://eriktrautman.com/posts/the-virtuous-cycle-of-ai-products), this "ever-growing data set" allows the product to pull ahead at an increasing rate. 
+**In 2026, we'll start to see the effects of the virtuous cycle of AI adoption.** Higher quality docs lead to better code, which leads to more robust tools, which in turn leads to better products. This cycle is powered by usage data: as people use AI-infused products, that data feeds back into the models to improve them, which drives further usage. As Erik Trautman notes that this "ever-growing data set" allows the product to pull ahead at an increasing rate ([The Virtuous Cycle of AI Products](https://eriktrautman.com/posts/the-virtuous-cycle-of-ai-products).
 
 Those companies embracing AI will move faster and do more than those that don't. It won't be a rapid trajectory, just a gradual rising of the company's overall economic ocean and flourishing in slow, steady, impossible-to-dismiss ways. But AI-based companies will start to move faster in a noticeable way.
 
@@ -54,7 +60,7 @@ The takeaway for technical writers is that job security might now hinge on speci
 
 I've seen this trend in the precambrian-like prolification of tools in my workplace. There's a palpable fatigue whenever someone announces yet another tool. Recently I was in an AI-focused tech writer meeting where someone was heralding a new AI tool, and a person raised their hand and said (more or less), "Is this *yet another tool* to learn?"
 
-This technology saturation isn't just about more apps; it's about AI becoming invisible infrastructure at every point in the code/content development journey. As Delinea notes in their report [Five identity-driven shifts reshaping enterprise security in 2026](https://www.helpnetsecurity.com/2025/12/24/five-identity-driven-shifts-reshaping-enterprise-security-in-2026/), "AI is now embedded at every layer of the organization, from workflows and applications to customer experience, DevOps, IT automation, and strategic decision making." 
+This technology saturation isn't just about more apps; it's about AI becoming invisible infrastructure at every point in the code/content development journey. As Help Net Security says in a report titled [Five identity-driven shifts reshaping enterprise security in 2026](https://www.helpnetsecurity.com/2025/12/24/five-identity-driven-shifts-reshaping-enterprise-security-in-2026/), "AI is now embedded at every layer of the organization, from workflows and applications to customer experience, DevOps, IT automation, and strategic decision making." 
 
 I see this daily: when I read a bug, AI is there to summarize it. When I create a new CL, AI is there to read my changes and type a description. When I review code, I can prompt AI to look for errors in the changed files. When I browse the code base, AI is there to interpret it. When I write my weekly report, AI is there to help collect all my week's highlights. When I go bed at night, AI is there to tuck me in. The AI infrastructure isn't consolidated in a few apps; it's spread across the entire codebase, creating a dense, interconnected web of automated agents and tools ready to assist us seemingly everywhere.
 
@@ -66,19 +72,19 @@ I see this daily: when I read a bug, AI is there to summarize it. When I create 
 
 This influx of technological development across domains is what will keep the economy from crashing. The other domains will absorb AI-generated technologies like a sponge on a watery counter. Tech will be seen as increasingly essential for flourishing in any field and domain you're in.
 
-Research from Vanguard ([Vanguard Economic and Market Outlook 2026](https://corporate.vanguard.com/content/dam/corp/research/pdf/isg_vemo_2026.pdf)) supports this, noting that AI is poised to become a "transformative economic force" similar to electricity, railroads, and the internet. Their 2026 outlook describes a cycle of "capital deepening"&mdash;where the economy swaps old tools for new ones&mdash;that is still in its early stages. 
+Research from Vanguard supports this, noting that AI is poised to become a "transformative economic force" similar to electricity, railroads, and the internet. Their 2026 outlook describes a cycle of "capital deepening"&mdash;where the economy swaps old tools for new ones&mdash;that is still in its early stages ([Vanguard Economic and Market Outlook 2026](https://corporate.vanguard.com/content/dam/corp/research/pdf/isg_vemo_2026.pdf)). 
 
 However, Vanguard also warns that "muted expected returns for the technology sector are entirely consistent with... an AI-led U.S. economic boom." Why? Because of "creative destruction from new entrants." While the *industry* of AI will drive the economy forward, today's tech giants might face fierce competition from agile startups using the very tools they helped create. So, no crash for the economy, but perhaps a reshuffling of the winners and losers in the stock market.
 
-Data from PwC ([AI Jobs Barometer - PwC](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html)) confirms this cross-domain diffusion, showing that outside of the tech sector, Professional Services and Financial Services now have the highest demand for AI skills.
+Data from PwC confirms this cross-domain diffusion, showing that outside of the tech sector, Professional Services and Financial Services now have the highest demand for AI skills ([AI Jobs Barometer - PwC](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html)).
 
 I'm already seeing AI find its way into non-tech domains in everyday life. For example, I was browsing periodicals in my public library the other day and picked up *Library Journal* (Dec 2025). Immediately I saw an article titled "Kinds of intelligence" focusing on how to make libraries AI-ready.
 
 <figure><img style="max-width: 500px" src="{{site.media}}/ai-ready-library.jpg" alt="Library Journal article on AI-ready libraries" /><figcaption>Library Journal article on AI-ready libraries</figcaption></figure>
  
-This isn't just a random and one-off article; according to a report from Clarivate, "67% of global libraries are now exploring or implementing AI, up from 63% in 2024," with those integrating AI literacy into formal training moving beyond just evaluation. (See [Clarivate Report: 67% of Libraries Are Adopting AI](https://techintelpro.com/news/ai/ai-assistants/clarivate-report-67-of-libraries-are-adopting-ai).)
+This isn't just a random and one-off article; according to a report from Clarivate, "67% of global libraries are now exploring or implementing AI, up from 63% in 2024," with those integrating AI literacy into formal training moving beyond just evaluation ([Clarivate Report: 67% of Libraries Are Adopting AI](https://techintelpro.com/news/ai/ai-assistants/clarivate-report-67-of-libraries-are-adopting-ai)).
 
-The same day I was in Boon Boona Coffee Shop and picked up the *Renton Reporter* while waiting in line for coffee. The front page had a story about police officers incorporating AI that will let them translate languages to better interact with diverse community members. The article explained, "At the Dec. 8 council meeting, RPD Deputy Chief Ryan Rutledge touted the new software to body-worn cameras that would enable real-time translation and transcribing capabilities to all officers." (See [Renton Police Department will get more AI technology](https://www.rentonreporter.com/news/renton-police-department-will-get-more-ai-technology/).)
+The same day I was in Boon Boona Coffee Shop and picked up the *Renton Reporter* while waiting in line for coffee. The front page had a story about police officers incorporating AI that will let them translate languages to better interact with diverse community members. The article explained, "At the Dec. 8 council meeting, RPD Deputy Chief Ryan Rutledge touted the new software to body-worn cameras that would enable real-time translation and transcribing capabilities to all officers" ([Renton Police Department will get more AI technology](https://www.rentonreporter.com/news/renton-police-department-will-get-more-ai-technology/)).
 
 <figure><a href="https://www.rentonreporter.com/news/renton-police-department-will-get-more-ai-technology/" target="_blank"><img style="max-width: 600px; border: 1px solid #dedede;" src="{{site.media}}/renton-reporter-ai.jpg" alt="Renton Reporter article on AI in policing" /></a><figcaption>Renton Reporter article on AI in policing</figcaption></figure>
  
@@ -110,7 +116,7 @@ NotebookLM is a tool with a lot of momentum and features. I expect its number of
 
 To give an example of the ecosystem's advantages, the other day I wanted a new task management app to replace Todoist. Upon realizing that I could interact with [Google Tasks](https://tasks.google.com/) and [Google Keep](https://keep.google.com/) through Gemini (because they're workspace apps), including implementing a [Productivity Planner gem](https://gemini.google.com/gem/productivity-helper) for workflows that draw upon the data, I abandoned any exploration into purchasing Notion or TickTick. It was a no-brainer.
 
-<figure><a class="noCrossRef"href="https://gemini.google/overview/apps/"><img style="max-width: 600px; border: 1px solid #dedede;" src="{{site.media}}/gemini-multiple-apps-at-once.png" alt="Multiple apps working together" /></a><figcaption>Multiple apps working together</figcaption></figure>
+<figure><a class="noCrossRef" href="https://gemini.google/overview/apps/"><img class="noCrossRef" style="max-width: 600px; border: 1px solid #dedede;" src="{{site.media}}/gemini-multiple-apps-at-once.png" alt="Multiple apps working together" /></a><figcaption>Multiple apps working together</figcaption></figure>
 
 The data supports the shift. While Google's integrated ecosystem is driving growth in the broader market, with Gemini's monthly users nearly doubling to 650 million by October ([AI Market Share - ChatGPT's Dominance Is Crumbling](https://xpert.digital/en/ai-market-share/)), OpenAI is facing a threat in the high-value B2B sector. The xpert digital report notes that "in the enterprise segment, Claude has overtaken OpenAI with 32 percent, which has fallen back to 25 percent." While Google has an advantage in breadth and integration, Claude has popularity with more specialized enterprise utility. OpenAI is caught in the middle.
 
@@ -118,7 +124,7 @@ The business models among AI companies are also different. OpenAI has burned thr
 
 Meanwhile, in conversations I have with many non-tech people, it seems that OpenAI risks pulling a bait-and-switch: promising high-minded goals but delivering entertainment instead. Vanessa Wingårdh notes in her YouTube video [AI Was Supposed to Cure Cancer - We Got This Instead](https://www.youtube.com/watch?v=NQEOMgdzBI4&t=257s): "Sam Altman claims he needs $7 trillion to cure cancer. Instead, OpenAI launched Sora - an AI TikTok clone generating fake humans doing fake things while everyday people pay for it through higher electricity bills."
 
-Despite Gemini's upward trajectory and Claude's enterprise win, ChatGPT still benefits from a massive first-mover advantage. Regional data shows that ChatGPT maintains "dominant positions between 78 and 83 percent" in major markets like the US, Germany, and Japan (Konrad Wolfenstein, [AI Market Share - ChatGPT's Dominance Is Crumbling](https://xpert.digital/en/ai-market-share/)). Even in China, where access is restricted, ChatGPT holds a commanding lead of around 79%. So while Google is gaining ground globally and Claude is winning the enterprise, OpenAI remains the default for most of the world.
+Despite Gemini's upward trajectory and Claude's enterprise win, ChatGPT still benefits from a massive first-mover advantage. Regional data shows that ChatGPT maintains "dominant positions between 78 and 83 percent" in major markets like the US, Germany, and Japan ([AI Market Share - ChatGPT's Dominance Is Crumbling](https://xpert.digital/en/ai-market-share/)). Even in China, where access is restricted, ChatGPT holds a commanding lead of around 79%. So while Google is gaining ground globally and Claude is winning the enterprise, OpenAI remains the default for most of the world.
 
 ## 9. Tech writers embrace automation engineering
 
@@ -138,7 +144,7 @@ This narrowing gap creates a perverse incentive structure. As P(doom) concerns a
 
 Dropping our guardrails on AI might be a strategic miscalculation. Brian Tse notes in [China Is Taking AI Safety Seriously. So Must the U.S.](https://time.com/7308857/china-isnt-ignoring-ai-regulation-the-u-s-shouldnt-either/) that Beijing isn't necessarily playing by the "move fast and break things" rulebook when it comes to AI safety. Tse says that Chinese leadership views safety not as a hindrance, but as a foundational requirement for sustainable development. China's top tech official, Ding Xuexiang, said poetically at Davos in January 2025: "If the braking system isn't under control, you can't step on the accelerator with confidence." For Chinese leaders, safety isn't a constraint; it's a prerequisite. If the U.S. abandons its braking system in a panic to accelerate, we might be the ones who crash.
 
-How will China's AI acceleration affect technical writers? I'm not sure, but perhaps we'll see more AI tools without the guardrails or safety checks. Maybe AI tools will become more dangerous, and the face-to-face confrontation with AI's real dangers will prompt us to take the actions that Eliezer Yudkowsky and Nate Soares advocate for in *[If Anyone Builds It, Everyone Dies](https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640)*. 
+How will China's AI acceleration affect technical writers? I'm not sure, but perhaps we'll see more AI tools without the guardrails or safety checks. Maybe AI tools will become more dangerous, and the face-to-face confrontation with AI's real dangers will prompt us to take the halting actions that Eliezer Yudkowsky and Nate Soares, persuaded that advanced AI will lead to human annihilation, advocate for in *[If Anyone Builds It, Everyone Dies](https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640)*. 
 
 As tech writers, we might specialize in writing for catastrophe. I'm personally fascinated by end-of-world dystopian scenarios and cataclysmic events (not sure why). Maybe this scenario is something I can write documentation for.
 
@@ -146,11 +152,11 @@ As tech writers, we might specialize in writing for catastrophe. I'm personally 
 
 **In 2026, the sentient AI P(doom) conversation will shift from fears of sentient AI to fears of bad human actors using AI.** We won't see AI becoming sentient or embracing malicious motives, but the conversation about risk could get serious in a different way. I think the high-percentage "sentient AI" P(doom) talk (that is, probability of doom from sentient AI) will fizzle, as people realize that AI isn't becoming its own conscious, independent actor manipulating its way toward world domination.
 
-This skepticism is shared by experts like philosopher Bernardo Kastrup, who argues in [AI won't be conscious, and here is why](https://www.bernardokastrup.com/2023/01/ai-wont-be-conscious-and-here-is-why.html) that we have no reason to believe silicon computers will ever become conscious. He compares the belief in conscious AI to believing in the "Flying Spaghetti Monster"&mdash;it's logically coherent but lacks any empirical basis. 
+This skepticism is shared by experts like philosopher Bernardo Kastrup, who argues that we have no reason to believe silicon computers will ever become conscious. He compares the belief in conscious AI to believing in the "Flying Spaghetti Monster"&mdash;it's logically coherent but lacks any empirical basis [AI won't be conscious, and here is why](https://www.bernardokastrup.com/2023/01/ai-wont-be-conscious-and-here-is-why.html). 
 
 Kastrup's critique goes deeper than just mocking the idea; he argues that brains and computers are fundamentally different substrates. Brains don't just "run software" on "hardware"; they're a unified physical system where structure and function are inseparable. Believing that a large language model, which is just manipulating symbols, can suddenly "wake up" is, in his view, a category error.
 
-Consequently, the narrative might be shifting. If Kastrup is right, and AI can't become conscious because consciousness is a physical phenomenon, then the "P(doom)" conversation might shift from sci-fi to national security. As Brian Tse argues in [China Is Taking AI Safety Seriously. So Must the U.S.](https://time.com/7308857/china-isnt-ignoring-ai-regulation-the-u-s-shouldnt-either/), the real threat might not be a superintelligent AI subjugating humanity, but rather bad actors using AI to engineer biological or nuclear catastrophes. 
+Consequently, the narrative might be shifting. If Kastrup is right, and AI can't become conscious because consciousness is a physical phenomenon, then the "P(doom)" conversation might shift from sci-fi to national security. Brian Tse argues that the real threat might not be a superintelligent AI subjugating humanity, but rather bad actors using AI to engineer biological or nuclear catastrophes [China Is Taking AI Safety Seriously. So Must the U.S.](https://time.com/7308857/china-isnt-ignoring-ai-regulation-the-u-s-shouldnt-either/).
 
 Tse says that "President Trump's AI Action Plan warns that AI may 'pose novel national security risks in the near future,' specifically in cybersecurity and in chemical, biological, radiological, and nuclear (CBRN) domains." It points out that China is also prioritizing safety standards to address "loss of control risks." In short, as time progresses and we don't see autonomoous, conscious/sentient AI develop, we'll worry less about computers enslaving us, and more about AI allowing humans to exert outsized influence on weapons of mass destruction or other global catastrophes.
 
@@ -177,19 +183,32 @@ Internationally, China will continue its AI acceleration, shifting the P(doom) c
 
 ## Works cited
 
-* Clarivate. [Clarivate Report: 67% of Libraries Are Adopting AI](https://techintelpro.com/news/ai/ai-assistants/clarivate-report-67-of-libraries-are-adopting-ai). TechIntelPro, 31 Oct. 2025.
-* Delinea. [Five identity-driven shifts reshaping enterprise security in 2026](https://www.helpnetsecurity.com/2025/12/24/five-identity-driven-shifts-reshaping-enterprise-security-in-2026/). Help Net Security, 24 Dec. 2025.
-* [Digital Progress and Trends Report 2025](https://openknowledge.worldbank.org/server/api/core/bitstreams/f2509a0f-7153-4f32-b180-bc11e90c4940/content). World Bank, 2025.
-* Harper, Jon. [New Pentagon report on China's military notes Beijing's progress on LLMs](https://defensescoop.com/2025/12/26/dod-report-china-military-and-security-developments-prc-ai-llm/). DefenseScoop, 26 Dec. 2025.
-* Index.dev. [Developer Productivity Statistics with AI Tools 2025](https://www.index.dev/blog/developer-productivity-statistics-with-ai-tools). 24 Nov. 2025.
-* Kastrup, Bernardo. [AI won't be conscious, and here is why](https://www.bernardokastrup.com/2023/01/ai-wont-be-conscious-and-here-is-why.html). 2023.
-* McKinsey Global Institute. [AI: Work partnerships between people, agents, and robots](https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai). 25 Nov. 2025.
-* PwC. [AI Jobs Barometer](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html). 2025.
-* Sheppard, Cameron. [Renton Police Department will get more AI technology](https://www.rentonreporter.com/news/renton-police-department-will-get-more-ai-technology/). Renton Reporter, 12 Dec. 2025.
-* Times of India. [How 2025 is the year Google made up for its '2024 AI mistake'](https://timesofindia.indiatimes.com/technology/tech-news/2025-the-year-google-made-up-for-its-2024-ai-mistake-that-made-ceo-sundar-pichai-say-this-is-not-acceptable/articleshow/126251530.cms). 30 Dec. 2025.
-* Trautman, Erik. [The Virtuous Cycle of AI Products](https://eriktrautman.com/posts/the-virtuous-cycle-of-ai-products). 12 June 2018.
-* Tse, Brian. [China Is Taking AI Safety Seriously. So Must the U.S.](https://time.com/7308857/china-isnt-ignoring-ai-regulation-the-u-s-shouldnt-either/). TIME, 13 Aug. 2025.
-* Vanguard. [Vanguard Economic and Market Outlook 2026](https://corporate.vanguard.com/content/dam/corp/research/pdf/isg_vemo_2026.pdf). Dec. 2025.
-* Wingårdh, Vanessa. [AI Was Supposed to Cure Cancer - We Got This Instead](https://www.youtube.com/watch?v=NQEOMgdzBI4&t=257s). YouTube, 2025.
-* Wolfenstein, Konrad. [AI Market Share - ChatGPT's Dominance Is Crumbling](https://xpert.digital/en/ai-market-share/). Xpert.Digital, 28 Dec. 2025.
-* Zinck, Barb Mosher. [The 4 Biggest Challenges (and Opportunities) for Technical Writers in 2026](https://paligo.net/blog/technical-writing/the-biggest-challenges-for-technical-writers/). Paligo, 12 Nov. 2025.
+Clarivate. [Clarivate Report: 67% of Libraries Are Adopting AI](https://techintelpro.com/news/ai/ai-assistants/clarivate-report-67-of-libraries-are-adopting-ai). TechIntelPro, 31 Oct. 2025.
+
+Delinea. [Five identity-driven shifts reshaping enterprise security in 2026](https://www.helpnetsecurity.com/2025/12/24/five-identity-driven-shifts-reshaping-enterprise-security-in-2026/). Help Net Security, 24 Dec. 2025.
+
+[Digital Progress and Trends Report 2025](https://openknowledge.worldbank.org/server/api/core/bitstreams/f2509a0f-7153-4f32-b180-bc11e90c4940/content). World Bank, 2025.
+
+Harper, Jon. [New Pentagon report on China's military notes Beijing's progress on LLMs](https://defensescoop.com/2025/12/26/dod-report-china-military-and-security-developments-prc-ai-llm/). DefenseScoop, 26 Dec. 2025.
+
+Index.dev. [Developer Productivity Statistics with AI Tools 2025](https://www.index.dev/blog/developer-productivity-statistics-with-ai-tools). 24 Nov. 2025.
+
+Kastrup, Bernardo. [AI won't be conscious, and here is why](https://www.bernardokastrup.com/2023/01/ai-wont-be-conscious-and-here-is-why.html). 2023.
+
+McKinsey Global Institute. [AI: Work partnerships between people, agents, and robots](https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai). 25 Nov. 2025.
+  
+PwC. [AI Jobs Barometer](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html). 2025.
+
+Sheppard, Cameron. [Renton Police Department will get more AI technology](https://www.rentonreporter.com/news/renton-police-department-will-get-more-ai-technology/). Renton Reporter, 12 Dec. 2025.
+
+Times of India. [How 2025 is the year Google made up for its '2024 AI mistake'](https://timesofindia.indiatimes.com/technology/tech-news/2025-the-year-google-made-up-for-its-2024-ai-mistake-that-made-ceo-sundar-pichai-say-this-is-not-acceptable/articleshow/126251530.cms). 30 Dec. 2025.
+
+Trautman, Erik. [The Virtuous Cycle of AI Products](https://eriktrautman.com/posts/the-virtuous-cycle-of-ai-products). 12 June 2018.
+
+Tse, Brian. [China Is Taking AI Safety Seriously. So Must the U.S.](https://time.com/7308857/china-isnt-ignoring-ai-regulation-the-u-s-shouldnt-either/). TIME, 13 Aug. 2025.
+
+Vanguard. [Vanguard Economic and Market Outlook 2026](https://corporate.vanguard.com/content/dam/corp/research/pdf/isg_vemo_2026.pdf). Dec. 2025.
+
+Wingårdh, Vanessa. [AI Was Supposed to Cure Cancer - We Got This Instead](https://www.youtube.com/watch?v=NQEOMgdzBI4). YouTube, 12 Oct. 2025.
+
+Wolfenstein, Konrad. [AI Market Share - ChatGPT's Dominance Is Crumbling](https://xpert.digital/en/ai-market-share/). Xpert.Digital, 28 Dec. 2025.
