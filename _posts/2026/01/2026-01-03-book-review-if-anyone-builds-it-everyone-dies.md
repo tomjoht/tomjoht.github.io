@@ -1,5 +1,5 @@
 ---
-title: 'Book review of "If Anyone Builds It, Everyone Dies"'
+title: "Book review of 'If Anyone Builds It, Everyone Dies'—why AI doom isn't as visceral as nuclear war"
 permalink: /blog/book-review-if-anyone-builds-it-everyone-dies
 date: 2026-01-03
 categories:
@@ -8,7 +8,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/book-review-if-anyone-builds-it-everyone-dies
 description: "In <a href='https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640/'>If Anyone Builds It, Everyone Dies</a>, Eliezer Yudkowsky, founder of the Machine Intelligence Research Institute (MIRI), and Nate Soares, its president, argue that superintelligent AI will lead to humanity's extinction. In the same way that humans used their intelligence to dominate all other forms of life, so too will superintelligent AI surpass and dominate humans. As a dominant entity, AI will likely operate with an alien set of preferences and values, and humans won't be important to superintelligent AI's goals."
-image: if-anyone-builds-it-thumb2.png
+image: if-anyone-builds-it-thumb3.png
 ---
 
 * TOC

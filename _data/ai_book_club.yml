@@ -30,6 +30,20 @@ upcoming:
   - date: "Mar 15, 2026"
     time: "10am PT"
     book:
+      title: "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All"
+      author: "Eliezer Yudkowsky and Nate Soares"
+      url: "https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640"
+      image: "if-anyone-builds-it-book-club.png"
+      summary: >
+
+        "In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next."
+
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Apr 19, 2026"
+    time: "10am PT"
+    book:
       title: "Breakneck: China's Quest to Engineer the Future"
       author: "Dan Wang"
       url: "https://www.amazon.com/dp/1324106034"
@@ -41,7 +55,7 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Apr 19, 2026"
+  - date: "Jun 21, 2026"
     time: "10am PT"
     book:
       title: "Life 3.0: Being Human in the Age of Artificial Intelligence"
@@ -55,7 +69,7 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jun 21, 2026"
+  - date: "Jul 19, 2026"
     time: "10am PT"
     book:
       title: "The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI"
