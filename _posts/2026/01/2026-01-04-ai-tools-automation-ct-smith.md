@@ -9,7 +9,7 @@ categories:
 - podcasts
 keywords: AI, technical writing, automation, tools, documentation, Payabli, Claude, scripting, jobs
 rebrandly: https://idbwrtng.com/ai-tools-automation-ct-smith
-description: "In this episode, Fabrizio (<a href='https://passo.uno'>passo.uno</a>) and I talk with CT Smith, who writes on a blog called <a href='https://docsgoblin.com'>docsgoblin.com</a> and works as a documentation lead for Payabli. Our conversation covers how CT uses AI tools like Claude in her documentation workflow, why she builds tooling that doesn't depend on AI, her many doc-related projects and experiments, and how she balances a tech writing career with an intentionally offline life in rural Tennessee. We also get into reading habits, the fear of skill atrophy from AI reliance, and where the tech writer role might be headed."
+description: "In this episode, Fabrizio (<a href='https://passo.uno'>passo.uno</a>) and I talk with CT Smith, who writes on a blog at <a href='https://docsgoblin.com'>docsgoblin.com</a> and works as a documentation lead for Payabli. Our conversation covers how CT uses AI tools like Claude in her documentation workflow, why she builds tooling that doesn't depend on AI, her many doc-related projects and experiments, and how she balances a tech writing career with an intentionally offline life in rural Tennessee. We also get into reading habits, the fear of skill atrophy from AI reliance, and where the tech writer role might be headed."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ai-docs-reading-ct-smith-tennessee.mp3
 podcast_file_size: 52.6
 podcast_duration: "01:09:49"
