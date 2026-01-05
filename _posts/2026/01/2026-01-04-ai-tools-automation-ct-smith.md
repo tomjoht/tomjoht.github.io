@@ -36,7 +36,7 @@ If you just prefer the audio version:
 - [Passo Uno](https://passo.uno) &mdash; Fabrizio Ferri-Benedetti's blog
 - [12 predictions for tech comm in 2026](/blog/tech-comm-predictions-for-2026) (Tom Johnson)
 - [My day as an augmented technical writer in 2030](https://passo.uno/my-day-tech-writer-2030/) (Fabrizio Ferri-Benedetti)
-- [Tech Writer Web Ring](https://docsgoblin.com/webring) &mdash; A web ring of tech writing resources
+- [Tech Writer Web Ring](https://caseyrfsmith.github.io/webring/) &mdash; A web ring of tech writing resources
 - [Rose Red Homestead (YouTube channel)](https://www.youtube.com/c/RoseRedHomestead)
 
 ## Topics covered
