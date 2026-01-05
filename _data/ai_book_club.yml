@@ -44,18 +44,18 @@ upcoming:
   - date: "Apr 19, 2026"
     time: "10am PT"
     book:
-      title: "Breakneck: China's Quest to Engineer the Future"
-      author: "Dan Wang"
-      url: "https://www.amazon.com/dp/1324106034"
-      image: "breakneck.png"
+      title: "1929: Inside the Greatest Crash in Wall Street History -- and How It Shattered a Nation"
+      author: "Ross Sorkin"
+      url: "https://www.amazon.com/1929-Inside-Greatest-History-Shattered/dp/0593296966"
+      image: "1929bookcover.png"
       summary: >
 
-        "In Breakneck, Wang blends political, economic, and philosophical analysis with reportage to reveal a provocative new framework for understanding China―one that helps us see America more clearly, too. While China is an engineering state, relentlessly pursuing megaprojects, the United States has stalled. America has transformed into a lawyerly society, reflexively blocking everything, good and bad"
+        "In 1929, the world watched in shock as the unstoppable Wall Street bull market went into a freefall, wiping out fortunes and igniting a depression that would reshape a generation. But behind the flashing ticker tapes and panicked traders, another drama unfolded—one of visionaries and fraudsters, titans and dreamers, euphoria and ruin."
 
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jun 21, 2026"
+  - date: "May 17, 2026"
     time: "10am PT"
     book:
       title: "Life 3.0: Being Human in the Age of Artificial Intelligence"
@@ -65,6 +65,20 @@ upcoming:
       summary: >
 
         "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology—and there’s nobody better qualified or situated to explore that future than Max Tegmark, an MIT professor who’s helped mainstream research on how to keep AI beneficial."
+
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Jun 21, 2026"
+    time: "10am PT"
+    book:
+      title: "Breakneck: China's Quest to Engineer the Future"
+      author: "Dan Wang"
+      url: "https://www.amazon.com/dp/1324106034"
+      image: "breakneck.png"
+      summary: >
+
+        "In Breakneck, Wang blends political, economic, and philosophical analysis with reportage to reveal a provocative new framework for understanding China―one that helps us see America more clearly, too. While China is an engineering state, relentlessly pursuing megaprojects, the United States has stalled. America has transformed into a lawyerly society, reflexively blocking everything, good and bad"
 
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
