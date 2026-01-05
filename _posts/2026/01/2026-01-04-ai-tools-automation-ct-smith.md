@@ -33,6 +33,7 @@ If you just prefer the audio version:
 ## Links mentioned
 
 - [Docs Goblin](https://docsgoblin.com) &mdash; CT Smith's blog
+- [CT Smith on Linkedin](https://www.linkedin.com/in/ctsmithdocs/)
 - [Passo Uno](https://passo.uno) &mdash; Fabrizio Ferri-Benedetti's blog
 - [12 predictions for tech comm in 2026](/blog/tech-comm-predictions-for-2026) (Tom Johnson)
 - [My day as an augmented technical writer in 2030](https://passo.uno/my-day-tech-writer-2030/) (Fabrizio Ferri-Benedetti)
