@@ -1,5 +1,5 @@
 ---
-title: "Podcast: Writing is telepathy: AI tools, automation, an intentionally offline life -- conversation with CT Smith"
+title: "Podcast: Writing as telepathy: AI tools, automation, and an intentionally offline life -- conversation with CT Smith"
 permalink: /blog/ai-tools-automation-ct-smith
 date: 2026-01-04
 categories:
