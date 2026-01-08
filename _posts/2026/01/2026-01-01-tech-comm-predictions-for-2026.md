@@ -182,6 +182,11 @@ In sum, in 2026, the AI hype will likely level off, but the virtuous cycle of be
 
 Internationally, China will continue its AI acceleration, shifting the P(doom) conversation toward human-driven WMD risks, and defense will become heavily AI-dependent. It's going to be a year of settling in, specializing, and perhaps finally figuring out how to make all these agents actually work for us. I'm excited and optimistic about 2026. Surprises will surely come, and we're living in such uncertain times that anything seems likely.
 
+## Related posts
+
+* [My 2025 trends predictions for tech comm](/blog/trends-predictions-2025-tech-comm)
+* [My 2024 technical writing trends and predictions](/blog/2024-tech-comm-trends-and-predictions)
+
 ## Works cited
 
 Clarivate. [Clarivate Report: 67% of Libraries Are Adopting AI](https://techintelpro.com/news/ai/ai-assistants/clarivate-report-67-of-libraries-are-adopting-ai). TechIntelPro, 31 Oct. 2025.
