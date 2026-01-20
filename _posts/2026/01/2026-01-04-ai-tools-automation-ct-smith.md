@@ -63,7 +63,6 @@ If you just prefer the audio version:
 
 - **Systems thinking and human context.** Understanding the whole system helps you explain the right parts to users. CT notes that humans know what to leave out (for security, clarity, etc.)—something machines can't judge on their own.
 
-
 {% include ads.html %}
 
 ## Transcript

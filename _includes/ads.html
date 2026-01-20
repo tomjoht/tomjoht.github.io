@@ -1,38 +1,38 @@
 {% if site.format == "web" %}
 <div class="container comicBlock">
-<div class="row inpostComics">
+    <div class="row inpostComics">
 
-    <script>
-        var contents=new Array()
+        <script>
+            var contents = new Array()
 
-        //Paligo
-        //contents[0]='<div class="border col-md-5"><a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/paligosept2024"><img style="border: 1px solid darkgray" src="{{site.media}}/paligo2024.png" alt="Paligo" /></a><div class="comicLink"> <a href="https://idbwrtng.com/paligosept2024">Smart technical documentation with easy content reuse.</a></div></div>'
-        // 3di
-        contents[0]='<div class="border col-md-5"><a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/3di_sep25"><img style="border: 1px solid darkgray" src="{{site.media}}/3di.png" alt="3di - Clear technical documentation, complex translation, and content operations" /></a><div class="comicLink"> <a href="https://idbwrtng.com/3di_sep25">Clear technical documentation, complex translation, and content operations</a></div></div>'
-        //Document360
-       contents[1]='<div class="border col-md-5"><a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/doc360_nov2025"><img style="border: 1px solid lightgray" src="{{site.media}}/doc360_nov2025.jpg" alt="All-in-one platform to create, share, and manage your documentation" /></a> <div class="comicLink"><a href="https://idbwrtng.com/doc360_nov2025">All-in-one platform to create, share, and manage your documentation</a></div></div>'
-      {% comment %}
-      // note: to have 3 ad squares in each row, change col-md-5 to col-md-4 above.
-      {% endcomment %}
-        var i=0
-        //variable used to contain controlled random number
-        var random
-        //while all of array elements haven't been cycled thru
-        while (i<contents.length){
-            //generate random num between 0 and arraylength-1
-            random=Math.floor(Math.random()*contents.length)
-            //if element hasn't been marked as "selected"
-            if (contents[random]!="selected"){
-                document.write(contents[random])
-                //mark element as selected
-                contents[random]="selected"
-                i++
+            Paligo
+            contents[0] = '<div class="border col-md-5"><a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/paligo_jan2026"><img style="border: 1px solid darkgray" src="{{site.media}}/paligo2024.png" alt="Paligo" /></a><div class="comicLink"> <a href="https://idbwrtng.com/paligo_jan2026">Smart technical documentation with easy content reuse.</a></div></div>'
+            // 3di
+            contents[0] = '<div class="border col-md-5"><a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/3di_sep25"><img style="border: 1px solid darkgray" src="{{site.media}}/3di.png" alt="3di - Clear technical documentation, complex translation, and content operations" /></a><div class="comicLink"> <a href="https://idbwrtng.com/3di_sep25">Clear technical documentation, complex translation, and content operations</a></div></div>'
+            //Document360
+            contents[1] = '<div class="border col-md-5"><a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/doc360_nov2025"><img style="border: 1px solid lightgray" src="{{site.media}}/doc360_nov2025.jpg" alt="All-in-one platform to create, share, and manage your documentation" /></a> <div class="comicLink"><a href="https://idbwrtng.com/doc360_nov2025">All-in-one platform to create, share, and manage your documentation</a></div></div>'
+            {% comment %}
+            // note: to have 3 ad squares in each row, change col-md-5 to col-md-4 above.
+            {% endcomment %}
+            var i = 0
+            //variable used to contain controlled random number
+            var random
+            //while all of array elements haven't been cycled thru
+            while (i < contents.length) {
+                //generate random num between 0 and arraylength-1
+                random = Math.floor(Math.random() * contents.length)
+                //if element hasn't been marked as "selected"
+                if (contents[random] != "selected") {
+                    document.write(contents[random])
+                    //mark element as selected
+                    contents[random] = "selected"
+                    i++
+                }
+
             }
+        </script>
 
-        }
-    </script>
-
-</div>
+    </div>
 </div>
 <div style="clear:both;"></div>
 {% endif %}
