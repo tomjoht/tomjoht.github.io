@@ -1,17 +1,4 @@
 upcoming:
-  - date: "Jan 18, 2026"
-    time: "10am PT"
-    book:
-      title: "God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning"
-      author: "Meghan O'Gieblyn"
-      url: "https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"
-      image: "godhuman_aibookclub.png"
-      summary: >
-
-        "For most of human history the world was a magical and enchanted place ruled by forces beyond our understanding. The rise of science and Descartes's division of mind from world made materialism our ruling paradigm, in the process asking whether our own consciousness &mdash; i.e., souls—might be illusions. Now the inexorable rise of technology, with artificial intelligences that surpass our comprehension and control, and the spread of digital metaphors for self-understanding, the core questions of existence—identity, knowledge, the very nature and purpose of life itself—urgently require rethinking."
-
-    notes_url: "https://docs.google.com/document/d/10QcMbyDfCva33CeG0Fs6ZUjpEhj7lEs_v_xMuI-em5o"
-    meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "Feb 22, 2026"
     time: "10am PT"
@@ -99,6 +86,22 @@ upcoming:
 
 
 previous:
+
+  - date: "Jan 18, 2026"
+    recording: 
+      url: "/blog/ai-book-club-god-human-animal-machine"
+      text: "Meeting recording"
+    book:
+      title: "God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning"
+      author: "Meghan O'Gieblyn"
+      url: "https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"
+      image: "godhuman_aibookclub.png"
+      summary: >
+
+        "For most of human history the world was a magical and enchanted place ruled by forces beyond our understanding. The rise of science and Descartes's division of mind from world made materialism our ruling paradigm, in the process asking whether our own consciousness &mdash; i.e., souls—might be illusions. Now the inexorable rise of technology, with artificial intelligences that surpass our comprehension and control, and the spread of digital metaphors for self-understanding, the core questions of existence—identity, knowledge, the very nature and purpose of life itself—urgently require rethinking."
+
+    notes_url: "https://docs.google.com/document/d/10QcMbyDfCva33CeG0Fs6ZUjpEhj7lEs_v_xMuI-em5o"
+
   - date: "Dec 14, 2025"
     recording:
       url: "/blog/co-intelligence-mollick-book-club"
