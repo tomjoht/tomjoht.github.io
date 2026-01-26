@@ -8,12 +8,13 @@ categories:
 - podcasts
 keywords: Meghan O'Gieblyn, God Human Animal Machine, AI Book Club, 
 rebrandly: https://idbwrtng.com/ai-book-club-god-human-animal-machine
-description: "This is a recording of our AI Book Club discussion of <a href='https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710'><i>God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning</i></a>  by Meghan O'Gieblyn, held Jan 18, 2026. Our discussion touches upon a variety of parallels between religion and AI, such as the black box nature of AI and the incomprehensibility of God's will, transhumanism and resurrection, predictive algorithms and free will, and more. This post also provides discussion questions, a transcript, and other resources."
+description: "This post provides a recording of our AI Book Club discussion of <a href='https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710'><i>God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning</i></a>  by Meghan O'Gieblyn, held Jan 18, 2026. Our discussion touches upon a variety of parallels between religion and AI, such as the black box nature of AI and the incomprehensibility of divine will, transhumanism and resurrection, predictive algorithms and free will, and more. This post also provides discussion questions, a transcript, and other resources."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aibookclub-godhumananimalmachinev4.mp3
 podcast_file_size: 45141021
 podcast_duration: "55:39"
 podcast_length: 45.1
 image: godhumananimalmachine.png
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-book-club-a-human-in-the-loop-activity-7421566262851297280-hCHC
 ---
 
 * TOC
