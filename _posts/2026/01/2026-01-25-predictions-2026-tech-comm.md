@@ -24,6 +24,14 @@ image: thumb-fabrizio-tom-episode5.png
 
 {% include audio.html %}
 
+## Resources
+
+- [My day as an augmented technical writer in 2030](https://passo.uno/my-day-tech-writer-2030/)
+- [12 predictions for tech comm in 2026](/blog/tech-comm-predictions-for-2026)
+- [The four modes of AI-augmented technical writing](https://passo.uno/four-modes-ai-augmented-tech-writing/)
+- [To those who fired or didn't hire tech writers because of AI](https://passo.uno/reconsider/) (or see [blog post version](https://passo.uno/letter-those-who-fired-tech-writers-ai/)
+- [Tech writing webring](https://caseyrfsmith.github.io/webring/)
+
 ## Key takeaways
 
 Here are some takeaways (AI-generated) from the podcast:
@@ -39,13 +47,6 @@ Here are some takeaways (AI-generated) from the podcast:
 * **The "Human Certification" need.** As it becomes impossible to distinguish AI text from human text, we may see a rise in demand for "proof of humanity" or certification systems that verify content was actually written by a person, similar to "organic" labels for food.
 
 {% include ads.html %}
-
-## Resources
-
-- [My day as an augmented technical writer in 2030](https://passo.uno/my-day-tech-writer-2030/)
-- [12 predictions for tech comm in 2026](/blog/tech-comm-predictions-for-2026)
-- [The four modes of AI-augmented technical writing](https://passo.uno/four-modes-ai-augmented-tech-writing/)
-- [Tech writing webring](https://caseyrfsmith.github.io/webring/)
 
 ## Transcript
 
