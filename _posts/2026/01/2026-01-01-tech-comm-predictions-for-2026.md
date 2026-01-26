@@ -25,6 +25,9 @@ ul#markdown-toc, #toc>ul {
 
 <figure><img src="{{site.media}}/predictingpathsfuture.jpg" alt="Predicting paths for the future" /><figcaption>Predicting paths for the future</figcaption></figure>
 
+{:.note}
+See also a podcast where I discuss these predictions and others with Fabrizio Ferri-Benedetti: [Podcast: Tech comm predictions for 2026 (Phase One)](/blog/predictions-2026-tech-comm-podcast)
+
 ## 1. AI hype levels off
 
 **In 2026, the hype around AI will level off and a more practical view will take hold.** Productivity gains from AI aren't on an exponential curve. The velocity/productivity boost from AI has a ceiling, and people will start to recognize this. Instead of thinking that entire tech writers can be entirely replaced by AI, companies will adopt a more realistic view that AI, in the hands of a skilled tech writer, can augment their output at most by a factor of 1.5 or so.
@@ -186,6 +189,8 @@ Internationally, China will continue its AI acceleration, shifting the P(doom) c
 
 * [My 2025 trends predictions for tech comm](/blog/trends-predictions-2025-tech-comm)
 * [My 2024 technical writing trends and predictions](/blog/2024-tech-comm-trends-and-predictions)
+
+See also this predictions post from Fabrizio Ferri-Benedetti on Passo.uno: [My day as an augmented technical writer in 2030](https://passo.uno/my-day-tech-writer-2030/)
 
 ## Works cited
 

@@ -53,6 +53,10 @@ See these NotebookLM notebooks:
 
 This slide deck was created by NotebookLM: [Gods and algorithms]({{site.media}}/gods_and_algorithms.pdf).
 
+## Related articles
+
+* [It Makes Sense That People See A.I. as God: A religious fervor surrounds our relationship with technology.](https://www.nytimes.com/2026/01/23/style/ai-algorithm-god-religion.html), by Joseph Bernstein (NY Times, Jan 23, 2026)
+
 ## Transcript
 
 Here's a transcript of the discussion:

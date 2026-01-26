@@ -1,5 +1,5 @@
 ---
-title: "Podcast: Tech comm predictions for 2026 (Phase One - Fabrizio Ferri Benedetti and Tom Johnson)"
+title: "Podcast: Tech comm predictions for 2026 (Phase One)"
 permalink: /blog/predictions-2026-tech-comm-podcast
 date: 2026-01-25
 categories:
