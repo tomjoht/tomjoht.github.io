@@ -13,6 +13,7 @@ podcast_file_size: 56
 podcast_duration: "01:02:04"
 podcast_length: 56038237
 image: thumb-fabrizio-tom-episode5.png
+linkedin: https://www.linkedin.com/posts/tomjoht_podcast-tech-comm-predictions-for-2026-activity-7421567561370333184-r78F
 ---
 
 * TOC
