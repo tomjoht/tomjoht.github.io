@@ -256,35 +256,6 @@
               </div>
               <!-- end mailjet modal in sidebar -->
 
-              <!-- start AI Book Club-->
-              <div class="recent-posts">
-                <h3>{% comment %}<img src="{{site.media}}/ai-book-club-icon-site.png"
-                    style="width: 30px; vertical-align: middle; margin-right: 5px;"> {% endcomment %} AI Book Club</h3>
-                <p>Join us for the AI Book Club, where we discuss popular books about AI and the human-in-the-loop
-                  perspective.</p>
-
-                {% assign next_book = site.data.ai_book_club.upcoming[0] %}
-                {% if next_book %}
-                <div style="margin-top: 10px;">
-                  <p><b>Next meeting:</b> {{ next_book.date }}</p>
-                  <div style="display: flex; align-items: start; gap: 10px;">
-                    <a href="{{ next_book.book.url }}">
-                      <img src="{{site.media}}/{{ next_book.book.image }}" alt="{{ next_book.book.title }}"
-                        style="width: 60px; border: 1px solid #ddd;">
-                    </a>
-                    <div>
-                      <p style="margin: 0; font-size: 0.9em; line-height: 1.3;"><a href="{{ next_book.book.url }}">{{
-                          next_book.book.title }}</a></p>
-                      <a href="/ai-book-club/" class="btn btn-primary btn-xs aibookclub-btn"
-                        style="margin-top: 5px;">Join us
-                        &raquo;</a>
-                    </div>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-              <!-- end AI Book Club-->
-
               {% unless page.sidebar == null %}
               <div class="productTitle">{{sidebar.sidebartitle}}</div>
 
@@ -418,6 +389,34 @@
           <script>$("li.open").parents('li').toggleClass("open");</script>
 
 
+          <!-- start AI Book Club-->
+          <div class="recent-posts">
+            <h3>{% comment %}<img src="{{site.media}}/ai-book-club-icon-site.png"
+                style="width: 30px; vertical-align: middle; margin-right: 5px;"> {% endcomment %} AI Book Club</h3>
+            <p>Join us for the AI Book Club, where we discuss popular books about AI and the human-in-the-loop
+              perspective.</p>
+
+            {% assign next_book = site.data.ai_book_club.upcoming[0] %}
+            {% if next_book %}
+            <div style="margin-top: 10px;">
+              <p><b>Next meeting:</b> {{ next_book.date }}</p>
+              <div style="display: flex; align-items: start; gap: 10px;">
+                <a href="{{ next_book.book.url }}">
+                  <img src="{{site.media}}/{{ next_book.book.image }}" alt="{{ next_book.book.title }}"
+                    style="width: 60px; border: 1px solid #ddd;">
+                </a>
+                <div>
+                  <p style="margin: 0; font-size: 0.9em; line-height: 1.3;"><a href="{{ next_book.book.url }}">{{
+                      next_book.book.title }}</a></p>
+                  <a href="/ai-book-club/" class="btn btn-primary btn-xs aibookclub-btn" style="margin-top: 5px;">Join
+                    us
+                    &raquo;</a>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+          </div>
+          <!-- end AI Book Club-->
           {% include sidebar_comics.html %}
 
           <!--Recent posts on ZAMM
