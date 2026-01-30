@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
 description: "AI model collapse occurs when models trained on their own output lose the creative \"tails\" of data, degrading into a stagnant, monologic average. Embracing \"centrifugal\" edge cases and diverse voices helps keep both writing and AI models alive and coherent."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 *This post is part of a series. See [Part 2: Heteroglossia](/blog/bakhtin-collapse-ai-expressive-writing2) for the previous section.*

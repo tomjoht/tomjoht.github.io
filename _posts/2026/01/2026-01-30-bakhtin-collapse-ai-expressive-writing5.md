@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
 description: "AI can serve as a verification tool to ensure that you're interpreting and representing complex ideas from other authors fairly and accurately. The process of checking drafts against source texts prevents straw man arguments and encourages intellectual honesty in the dialogue."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 *This post is part of a series. See [Part 4: Use AI as a research assistant](/blog/bakhtin-collapse-ai-expressive-writing4) for the previous section.*

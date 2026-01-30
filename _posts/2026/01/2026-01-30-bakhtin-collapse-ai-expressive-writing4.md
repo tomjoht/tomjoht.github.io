@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
 description: "Writers can use AI as a research assistant to discover and integrate diverse sources, adding necessary heteroglossia without losing your own voice. This approach enriches your writing with external perspectives while allowing you to maintain creative control."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 *This post is part of a series. See [Part 3: From Bakhtin's heteroglossia to AI model collapse](/blog/bakhtin-collapse-ai-expressive-writing3) for the previous section.*

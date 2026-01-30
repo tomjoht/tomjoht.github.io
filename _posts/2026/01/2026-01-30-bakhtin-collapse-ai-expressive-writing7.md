@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
 description: "In this conclusionn, I summarize the techniques I've argued for. They allow you to expand the social atmosphere of your text and prompt you to engage with other voices while maintaining your unique, creative identity."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 *This post is part of a series. See [Part 6: Use AI for the alien context](/blog/bakhtin-collapse-ai-expressive-writing6) for the previous section.*

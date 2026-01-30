@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
 description: "Using AI to generate an alien/algorithmic perspective, such as turning a draft into a podcast discussion, helps you view your work with objective distance. This external feedback loop reveals blind spots and allows you to refine your arguments based on how they are understood by others."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 *This post is part of a series. See [Part 5: Use AI for verification](/blog/bakhtin-collapse-ai-expressive-writing5) for the previous section.*

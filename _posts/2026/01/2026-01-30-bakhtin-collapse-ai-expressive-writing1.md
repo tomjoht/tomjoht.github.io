@@ -8,8 +8,9 @@ categories:
 - writing
 keywords: 
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
-description: "In this post, I explore ways to use AI to improve the quality of expressive writing without resulting in AI slop, and without robbing writers of the value of the writing process itself. I use Bakhtin and heteroglossia to argue that incorporating diverse voices into writing (with research help from AI) can help give writing a sense of liveliness and human soul."
+description: "In this post (split into 7 parts for readability), I explore ways to use AI to improve the quality of expressive writing without resulting in AI slop, and without robbing writers of the value of the writing process itself. I use Bakhtin and heteroglossia to argue that incorporating diverse voices into writing (with research help from AI) can help give writing a sense of liveliness and human soul."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 * TOC

@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
 description: "Bakhtin's concept of heteroglossia suggests that weaving multiple voices into writing brings prose to life, creating a dynamic energy often missing in AI-generated text. This \"dialogic\" approach contrasts with \"monologic\" writing and offers a way to give content a sense of human-ness and engagement."
 sidebar: sidebar_bakhtin_collapse
+linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 ---
 
 *This post is part of a series. See [Part 1: Introduction](/blog/bakhtin-collapse-ai-expressive-writing1) for the previous section.*
