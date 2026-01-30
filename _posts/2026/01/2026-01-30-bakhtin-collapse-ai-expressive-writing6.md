@@ -22,7 +22,7 @@ linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and
 
 Finally, there's one more use of AI that's extremely helpful. Ethan Mollick argues in *Co-Intelligence* that the alienness of the AI algorithm can help provide an external perspective that we need, helping us see past our own biases. Mollick explains:
 
-\> "And AI can be very useful. Not just for job tasks, as we will discuss in detail in the coming chapters, but also because an alien perspective can be helpful. Humans are subject to all sorts of biases that impact our decision-making. But many of these biases come from our being stuck in our own minds. Now we have another (strange, artificial) co-intelligence we can turn to for help." (Chapter 3, "Four Rules for Co-Intelligence," under the section for Principle 1:)
+> "And AI can be very useful. Not just for job tasks, as we will discuss in detail in the coming chapters, but also because an alien perspective can be helpful. Humans are subject to all sorts of biases that impact our decision-making. But many of these biases come from our being stuck in our own minds. Now we have another (strange, artificial) co-intelligence we can turn to for help." (Chapter 3, "Four Rules for Co-Intelligence," under the section for Principle 1:)
 
 When writing, we're frequently blinded by assumptions. To get an outside perspective, I take an early draft and upload it into NotebookLM, then make an audio deep dive or video explainer. Then I listen to it and see if the AI gets my point, or what the AI hosts choose to focus on and the directions they take my ideas.
 
