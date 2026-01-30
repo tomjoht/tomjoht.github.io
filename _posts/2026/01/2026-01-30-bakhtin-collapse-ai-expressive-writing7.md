@@ -18,8 +18,6 @@ linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and
 * TOC
 {:toc}
 
-{% include ads.html %}
-
 ## Part 7: Conclusion
 
 In conclusion, I've argued that AI can be helpful to expressive writing in at least three ways:
