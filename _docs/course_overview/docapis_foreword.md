@@ -2,7 +2,7 @@
 title: "Why I developed this course"
 permalink: learnapidoc/docapis_foreword.html
 course: "Documenting REST APIs"
-weight: 0.1
+weight: 0.2
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_overview.html

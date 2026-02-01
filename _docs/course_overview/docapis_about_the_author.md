@@ -2,7 +2,7 @@
 title: About the author
 permalink: learnapidoc/docapis_about_the_author.html
 course: "Documenting REST APIs"
-weight: 0.2
+weight: 0.3
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_overview.html

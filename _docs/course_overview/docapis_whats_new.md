@@ -3,7 +3,7 @@ title: What's new
 permalink: learnapidoc/docapis_whats_new.html
 sidebar: docapis
 path1: learnapidoc/docapis_introtoapis.html
-weight: 0.6
+weight: 0.7
 last-modified: 2023-06-24
 ---
 
