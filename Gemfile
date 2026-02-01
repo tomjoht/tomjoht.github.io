@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+# Compatibility for Ruby 3.0+
 gem 'webrick'
 gem 'ostruct'
+gem 'base64'
+
+# This gem controls the Jekyll version and standard plugins
+gem 'github-pages', group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem 'github-pages'
   gem 'jekyll-algolia'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-seo'
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-seo-tag' # Note: 'jekyll-seo' is usually redundant if you use 'jekyll-seo-tag'
 end

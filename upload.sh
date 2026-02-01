@@ -1,8 +1,11 @@
-myvenv() {
-    source .venv/bin/activate
-}
-myvenv
-aws s3 cp ~/projects/idratherbewriting/images/$1 s3://idbwmedia.com/images/ --profile wasabi
-# to run, store image in project's image folder
-# then type this: . upload.sh image.png
+#!/bin/bash
+# Activate your virtual environment
+source .venv/bin/activate
+
+# Upload with Wasabi-specific flags``
+aws s3 cp images/$1 s3://idbwmedia.com/images/ \
+    --profile wasabi \
+    --endpoint-url=https://s3.us-west-1.wasabisys.com \
+    --checksum-algorithm=CRC32
+
 echo '<figure><a href=""><img src="{{site.media}}/'$1'" alt="" /></a><figcaption>CAPTION</figcaption></figure>'
