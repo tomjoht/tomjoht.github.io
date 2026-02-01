@@ -3,7 +3,7 @@ title: "Activity: Use methods with curl"
 permalink: learnapidoc/docapis_curl_with_petstore.html
 keywords:
 course: "Documenting REST APIs"
-weight: 2.6
+weight: 2.7
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html

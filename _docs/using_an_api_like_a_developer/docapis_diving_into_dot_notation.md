@@ -3,7 +3,7 @@ title: Dive into dot notation
 permalink: learnapidoc/docapis_diving_into_dot_notation.html
 keywords:
 course: "Documenting REST APIs"
-weight: 2.91
+weight: 2.92
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html

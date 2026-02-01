@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords:
 course: "Documenting REST APIs"
-weight: 2.4
+weight: 2.5
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html

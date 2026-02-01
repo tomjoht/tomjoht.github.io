@@ -2,7 +2,7 @@
 title: curl intro and installation
 permalink: learnapidoc/docapis_install_curl.html
 course: "Documenting REST APIs"
-weight: 2.3
+weight: 2.4
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
