@@ -7,7 +7,7 @@ published: true
 ---
 
 {:.note}
-**Jan 31, 2026 update:** I'm in the process of reviving this project. Stay tuned!
+**Jan 31, 2026 update:** I'm in the process of reviving this project. Stay tuned! I'm planning to update this page with the new strategy. The new approach will be to sync regularly with an academic contact point who will suggest several articles each month for practitioners to read and discuss.
 
 ## The need for a bridge
 
