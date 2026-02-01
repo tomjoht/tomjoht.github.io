@@ -7,7 +7,7 @@ published: true
 ---
 
 {:.note}
-This project has been turned down.
+**Jan 31, 2026 update:** I'm in the process of reviving this project. Stay tuned!
 
 ## The need for a bridge
 
