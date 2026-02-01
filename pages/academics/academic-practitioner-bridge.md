@@ -6,6 +6,9 @@ type: page
 published: true
 ---
 
+{:.note}
+This project has been turned down.
+
 ## The need for a bridge
 
 Tech comm practitioners and academics are members of the same profession, yet they often (sadly) operate in independent spheres. This is unfortunate because both sides need each other:
