@@ -16,10 +16,13 @@ These instructions explain how to build the PDF outputs.
 Switch into `myvenv`, then run:
 
 ```
-aws s3 cp s3://idbwmedia.com/images/api/ ~/tomjohnson/projects/idratherbewriting/images/api  --recursive  --profile wasabi
+aws s3 cp s3://idbwmedia.com/images/api/ ~/projects/idratherbewriting/images/api \
+    --recursive \
+    --profile wasabi \
+    --endpoint-url=https://s3.us-west-1.wasabisys.com
 ```
 
-Prince requires image references to be local, absolute paths and will look into this directory for the images.
+Prince requires image references to be local, absolute paths and will look into this directory for the images. Note that the paths to many files in the PDF require the content to be at /Users/tomjohnson/projects/idratherbewriting. So if you reformat your computer and reclone the project, put it at this path (renaming tomjoht.github.io to idratherbewriting, and putting idratherbewriting inside of projects.)
 
 ## Exclude content not suitable for PDF
 
