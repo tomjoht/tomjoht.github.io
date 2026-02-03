@@ -7,7 +7,7 @@ categories:
 - podcasts
 keywords: 
 rebrandly: https://idbwrtng.com/predictions-2026-tech-comm
-description: "In this episode, Fabrizio and I discuss our predictions for tech comm in 2026, focusing on two posts:  Fabrizio's <a href='https://passo.uno/my-day-tech-writer-2030/'>My day as an augmented technical writer in 2030</a> and my <a href='https://idratherbewriting.com/blog/tech-comm-predictions-for-2026/'>12 predictions for tech comm in 2026</a>. Some of the specific topics we cover include the evolution of writers into automation engineers, the increasing necessity of systems thinking, the economic paradox where high tech valuations are contrasting with stagnant hiring, the risk of the Reverse Centaur dynamic (where humans merely approve AI output), and the growing value of authentic human connection and humanity."
+description: "In this episode, Fabrizio and I discuss our predictions for tech comm in 2026, focusing on two posts:  Fabrizio's <a href='https://passo.uno/my-day-tech-writer-2030/'>My day as an augmented technical writer in 2030</a> and my <a href='/blog/tech-comm-predictions-for-2026'>12 predictions for tech comm in 2026</a>. Some of the specific topics we cover include the evolution of writers into automation engineers, the increasing necessity of systems thinking, the economic paradox where high tech valuations are contrasting with stagnant hiring, the risk of the Reverse Centaur dynamic (where humans merely approve AI output), and the growing value of authentic human connection and humanity."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/phase_one_episode5predictions.mp3
 podcast_file_size: 56
 podcast_duration: "01:02:04"

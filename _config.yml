@@ -39,7 +39,7 @@ plugins:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-paginate
-  - jekyll-seo
+  - jekyll-seo-tag
 
 markdown: kramdown
 kramdown:
