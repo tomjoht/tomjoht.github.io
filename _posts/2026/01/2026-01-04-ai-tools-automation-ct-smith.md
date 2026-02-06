@@ -14,7 +14,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 52.6
 podcast_duration: "01:09:49"
 podcast_length: 52613876
-image: podcast-ctsmith-telepathy.png
+image: ctsmithpodcasthumb.png
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-technicalwriting-activity-7413744898295824384-0Qj4
 ---
 
