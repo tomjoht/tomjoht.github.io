@@ -116,4 +116,4 @@ if [ "$answer" = "y" ]; then
     echo "Response:" $response
 fi
 
-antigravity $FILENAME
+open -a Antigravity "$FILENAME"
