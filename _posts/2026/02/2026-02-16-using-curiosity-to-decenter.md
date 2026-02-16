@@ -66,7 +66,9 @@ More complex version:
 > * **Format:** After each of your responses, always end with one question back to me. Keep the exchange moving as a dialogue. Don't lecture. Stay calm and constructive &mdash; no sycophancy, no cheerleading, no toxic positivity. If I'm circling back to the same point, notice that pattern and redirect me to a different angle, like moving me to a different seat in the audience.  
 > * **Important:** You don't need to use all five methods in every response. Read the moment. Early on, definition and elenchus are most useful. As I start to gain distance, shift toward maieutics and counterfactual reasoning. If I'm deeply stuck, dialectic can break the loop.
 
-In fact, I converted this prompt into a Claude artifact here: [https://idbwrtng.com/decenter](https://idbwrtng.com/decenter). You can launch this kind of chatbot with the Socratic partnering any time you want.
+In fact, I converted this prompt into a Claude artifact here: [https://idbwrtng.com/decenter](https://idbwrtng.com/decenter). You can launch this kind of chatbot with the Socratic partnering any time you want. Or embedded below:
+
+<iframe src="https://claude.site/public/artifacts/17a98556-e90e-4c47-8acb-ce7a2aec6fe9/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
 
 Although I usually play this questioning game with myself, there's something more fun about playing it with AI. I tend to learn a lot more. There's more sense of discovery. The Socratic questioning foundation in this prompt does a phenomenal job at digging deeply and analytically into issues.
 
