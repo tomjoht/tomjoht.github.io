@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/using-curiosity-to-decenter
 description: "Although I don't write much about psychology, I've recently become fascinated by a technique I learned, similar to cognitive decentering but with a slight variation. The technique works quite well, though I'm still refining it and understanding it. So this is a brief sketch of the idea. At a future point, I might unpack this in a more researched way, but for now, this is the napkin sketch."
 image: walkingoffstagethumb.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_using-curiosity-to-decenter-activity-7429246546715770880-8-MI
 ---
 
 * TOC
