@@ -31,31 +31,31 @@ If you only want to listen to the audio:
 
 ## Key themes discussed
 
-Based on our discussion, here are 10 key themes that emerged regarding the book *Careless People* and the broader tech industry:
+Based on our discussion, here are 10 key themes that emerged about the book *Careless People* and the broader tech industry:
 
-- **Author complicity vs. bravery:** Whether Sarah Wynn Williams was a brave whistleblower for writing an exposé, or complicit in Facebook's actions by remaining in her role for so long. The group largely dismissed the complicity argument but noted a lack of self-reflection and accountability in the memoir.
+- **Author complicity vs. bravery:** Whether Sarah Wynn Williams was a brave whistleblower for writing an exposé, or complicit in Facebook's actions by remaining in her role for so long. We somewhat dismissed the complicity argument but noted a lack of self-reflection and accountability in the memoir.
 - **The incompatibility of capitalism and mission statements:** The fundamental tension between a company's desire to do good and the systemic pressure to deliver hockey-stick growth to shareholders&mdash;and whether those two goals can ever truly coexist.
 - **Labor market influence on corporate values:** Tech companies' use of mission-driven rhetoric primarily as a recruiting tool when talent was scarce, and how those values fade into the background as the labor market shifts.
 - **The "golden handcuffs" phenomenon:** High salaries, stock options (RSUs), and family obligations like medical bills make it nearly impossible for employees to take the ethical high ground and leave controversial companies.
 - **Ethical blind spots in localization:** Companies often marginalize non-English-speaking communities&mdash;such as those in Myanmar&mdash;because they aren't viewed as significant revenue-generating markets, with real human consequences.
 - **"Enshittification" and service decay:** Cory Doctorow's theory that tech services inevitably degrade as they're overtaken by ads and the constant need for increased revenue, and whether any company has managed to resist this trajectory.
-- **Design ethics and the infinite scroll:** Seemingly innocuous design choices can have devastating, unforeseen impacts on human psychology&mdash;like the addiction fueled by infinite scrolling&mdash;where the ethical implications only become clear in hindsight.
-- **Attention fragmentation:** The TikTok-ification of platforms like YouTube has eroded our capacity for long-form attention, with particular concern about the effects on children who've never known anything different.
+- **Design ethics and the infinite scroll:** Seemingly innocuous design choices can have unforeseen impacts on human psychology&mdash;like the addiction fueled by infinite scrolling&mdash;where the ethical implications only become clear in hindsight.
+- **Attention fragmentation:** The TikTok-ification of video platforms have eroded our capacity for long-form attention, with particular concern about the effects on children who've never known anything different.
 - **Policy as the only effective guardrail:** Tech organizations generally only change course when threatened by actual laws and heavy fines (like GDPR), but the ability of tech companies to influence politicians undermines even that check.
-- **AI's relationship to social media's mistakes:** Whether AI will repeat the same cycle as social media or is fundamentally different&mdash;with less company control over emergent behavior but also more potential beyond just capturing attention.
+- **AI's relationship to social media's mistakes:** Whether AI will repeat the same cycle as social media or whether AI is fundamentally different&mdash;with less company control over emergent behavior but also more potential beyond just capturing attention.
 - **Psychological profiling and mass surveillance:** Concerns that AI memory features and existing data-sharing infrastructures are building deep psychological profiles that could be used for targeted manipulation, echoing social media's earlier trajectory.
 
 ## Discussion questions
 
-Here are some of the [discussion questions](https://docs.google.com/document/d/1aaxtVZb1y0z5o1eoJfdlV6DaPNSuqrHU6R3lx3nKd_8/edit?tab=t.0#heading=h.jvrtfh7e42vx) I prepared ahead of the discussion. (The questions are AI-generated.)
+Here are some of the [discussion questions](https://docs.google.com/document/d/1aaxtVZb1y0z5o1eoJfdlV6DaPNSuqrHU6R3lx3nKd_8/edit?tab=t.0#heading=h.jvrtfh7e42vx) I prepared ahead of the discussion.
 
 ## Transcript
 
 Here's a transcript of the discussion, with some grammar slightly cleaned up by AI:
 
-**Tom:** This is a recording of the AI Book Club that I'm running from my site idratherbewriting.com. Today we are discussing *Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism* by Sarah Win Williams. And this book club discussion took place February 15, 2026. There're just a few people in this discussion, four people including me, so it's pretty good and we talk about a lot of different things in the book. We focus a lot on the AI parallels because it sort of matches the theme of the AI Book Club. But we're all workers in tech, so we debate a lot of the relevance of the ethical situations and what you can do and other kind of themes that resonate with us. 
+**Tom:** This is a recording of the AI Book Club that I'm running from my site idratherbewriting.com. Today we're discussing *Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism* by Sarah Win Williams. This book club discussion took place February 15, 2026. There are just a few people in this discussion, four people including me, so it's pretty good, and we talk about a lot of different things in the book. We focus a lot on the AI parallels because it sort of matches the theme of the AI Book Club. But we're all workers in tech, so we debate a lot of the relevance of the ethical situations and what you can do and other kind of themes that resonate with us. 
 
-If you would like to get involved in this book club, you're free to join, just go to idratherbewriting.com/ai-book-club and you can see the reading schedule. We meet once a month, typically read about a book a month and just have an open discussion about it, and then I record and share these out. So, if you're curious, if you listen but you've never actually joined, consider joining. It's a lot more fun; it's fun to talk about the books that we read. All right, let's get into the discussion.
+If you would like to get involved in this book club, you're free to join, just go to [idratherbewriting.com/ai-book-club](/ai-book-club) and you can see the reading schedule. We meet once a month, typically read about a book a month and just have an open discussion about it, and then I record and share these out. So, if you're curious, if you listen but you've never actually joined, consider joining. It's a lot more fun; it's fun to talk about the books that we read. All right, let's get into the discussion.
 
 **Tom:** Okay, let's shift gears and move into this book. I know Lajay, you said you read it a while ago, and I just recently read it and I'm trying to unpack and process what I think about it. I thought we could start out with just some general thumbs up, thumbs down reactions about the book.
 
@@ -109,7 +109,7 @@ But as you've pointed out, the nature of capitalism is just basic supply and dem
 
 **Molly:** Can't say I'm familiar with their products.
 
-**Molly:** I want to&mdash;I feel like there's a connection between the labor market and the disappearance of these high-minded values. Not the disappearance, but all the tech companies' values kind of faded into the background when there wasn't such a scarcity of tech workers. I'm going out on a limb here, but I feel like there were fewer tech workers maybe 15 years ago, and because they were in such demand, these companies really wanted to win them over by making them believe that they're making the world a better place.
+I want to&mdash;I feel like there's a connection between the labor market and the disappearance of these high-minded values. Not the disappearance, but all the tech companies' values kind of faded into the background when there wasn't such a scarcity of tech workers. I'm going out on a limb here, but I feel like there were fewer tech workers maybe 15 years ago, and because they were in such demand, these companies really wanted to win them over by making them believe that they're making the world a better place.
 
 Like Cory Doctorow&mdash;I'm reading *Enshittification* right now and he talks about "vocational awe," this idea that you're in it because you want to do good things for the world, not because you're trying to make a profit. I don't know where I'm going with this exactly, but I feel like the labor market is maybe playing a role in this shift.
 
@@ -232,3 +232,7 @@ Excited about that one. Thanks again for coming to this book club. I think it wa
 **Molly:** Thank you. Bye!
 
 **Lajay:** Thank you! Bye!
+
+## Getting involved
+
+If you'd like to participate in the next book discussion, see [idratherbewriting.com/ai-book-club](/ai-book-club) for details on the next book. We use Google Meet to record the meetings. When you join the group, the meetings automatically appear on your Google Calendar.
