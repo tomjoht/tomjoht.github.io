@@ -1,19 +1,5 @@
 upcoming:
 
-  - date: "Feb 22, 2026"
-    time: "10am PT"
-    book:
-      title: "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism"
-      author: "Sarah Wynn-Williams"
-      url: "https://www.amazon.com/gp/product/1250391237"
-      image: "careless-people.png"
-      summary: >
-
-        "Careless People is a deeply personal account of why and how things have gone so horribly wrong in the past decade―told in a sharp, candid, and utterly disarming voice. A deep, unflinching look at the role that social media has assumed in our lives, Careless People reveals the truth about the leaders of Facebook: how the more power they grasp, the less responsible they become and the consequences this has for all of us."
-
-    notes_url: "https://docs.google.com/document/d/1aaxtVZb1y0z5o1eoJfdlV6DaPNSuqrHU6R3lx3nKd_8/edit?tab=t.0"
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
   - date: "Mar 15, 2026"
     time: "10am PT"
     book:
@@ -86,6 +72,21 @@ upcoming:
 
 
 previous:
+
+  - date: "Feb 22, 2026"
+    recording:
+      url: "/blog/careless-people-wynn-williams-ai-book-club"
+      text: "Meeting recording"
+    book:
+      title: "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism"
+      author: "Sarah Wynn-Williams"
+      url: "https://www.amazon.com/gp/product/1250391237"
+      image: "careless-people.png"
+      summary: >
+
+        "Careless People is a deeply personal account of why and how things have gone so horribly wrong in the past decade―told in a sharp, candid, and utterly disarming voice. A deep, unflinching look at the role that social media has assumed in our lives, Careless People reveals the truth about the leaders of Facebook: how the more power they grasp, the less responsible they become and the consequences this has for all of us."
+
+    notes_url: "https://docs.google.com/document/d/1aaxtVZb1y0z5o1eoJfdlV6DaPNSuqrHU6R3lx3nKd_8/edit?tab=t.0"
 
   - date: "Jan 18, 2026"
     recording: 

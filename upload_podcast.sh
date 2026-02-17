@@ -1,7 +1,7 @@
 #!/bin/bash
 source .venv/bin/activate
 
-aws s3 cp ~/Documents/videos/$1 s3://idbwmedia.com/podcasts/ \
+aws s3 cp ~/Documents/Videos/$1 s3://idbwmedia.com/podcasts/ \
     --profile wasabi \
     --endpoint-url=https://s3.us-west-1.wasabisys.com \
     --checksum-algorithm=CRC32
