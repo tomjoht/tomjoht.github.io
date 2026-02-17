@@ -12,6 +12,7 @@ description: "In this post, I explore ways to use AI to improve the quality of e
 linkedin: https://www.linkedin.com/posts/tomjoht_part-1-introduction-bakhtin-and-model-collapse-activity-7423049408738680832-AM_k
 redirect_from:
 - /blog/bakhtin-collapse-ai-expressive-writing1
+image: modelcollapsethumbbook.jpg
 ---
 
 * TOC
