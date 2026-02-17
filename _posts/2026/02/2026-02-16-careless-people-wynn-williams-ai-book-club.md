@@ -13,7 +13,8 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 38.7
 podcast_duration: "53:38"
 podcast_length: 38419811
-image: carelesspeoplerecording.png
+image: carelesspeoplediscussionthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-ai-book-club-recording-notes-activity-7429366206588993536--Raz
 ---
 
 * TOC
