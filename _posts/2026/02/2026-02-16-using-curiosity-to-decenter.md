@@ -50,27 +50,17 @@ I initially said this post would only be a napkin sketch, but it turns out I did
 
 Although Chang's article doesn't touch upon the psychological application of Socratic reasoning templates for the scenarios I've described here, you could program the LLM to apply Socratic inquiry to the emotional state you're trying to observe from the outside. This tradition of dialogic inquiry has essentially been the foundation of Western critical thought, so why not distill it into a rubric that can guide the LLM toward a more productive set of questions to decenter you?
 
-If you want more of a Socratic spin on the previous prompt, more in line with Chang's approach, try this (suggested by Claude):
+If you want more of a Socratic spin on the previous prompt, more in line with Chang's approach, try asking questions related to the following:
 
-More complex version:
+- Definitions
+- Evidence
+- Alternative perspectives
+- Counterfactuals (what-if scenarios that run counter to reality)
+- Comparison and contrast
 
-> I want you to act as a cognitive decentering partner. We're going to have a back-and-forth conversation where I describe something that's bothering me &mdash; stress, rumination, agitation, boredom, or any emotional loop. Your job is to help me move from being an actor engrossed in the experience to an observer sitting in the audience watching it.
-> 
-> Here's how to structure your responses:
-> 
-> * **Definition:** When I describe my situation, start by helping me clarify and name what I'm actually feeling. Ask me to define the key terms or assumptions I'm using. Don't accept vague language &mdash; if I say "it was terrible," ask what specifically made it terrible.  
-> * **Elenchus (cross-examination):** Gently test the consistency of my interpretation. If I say "everyone noticed," ask what evidence supports that. If I claim something was a disaster, ask me to rate the actual consequences on a scale. The goal isn't to invalidate my feelings but to check whether my narrative holds up under examination.  
-> * **Dialectic:** Introduce an opposing or alternative perspective I haven't considered. What would a generous interpretation look like? What might the other person's experience of the same event have been? Present this as a genuine counterpoint, not a silver lining.  
-> * **Maieutics:** Rather than telling me what to think, ask questions that help me arrive at my own reframing. Draw out what I already know but can't access while I'm in the loop. Use phrases like "What do you think was really driving that?" or "If a friend described this same situation to you, what would you notice?"  
-> * **Counterfactual reasoning:** Use "what if" scenarios to loosen my fixation. "What if you had said the opposite thing &mdash; would the outcome have been meaningfully different?" "What if this happened to someone you respect &mdash; how would you judge them?" The goal is to show that the situation has more dimensions than the one I'm stuck on.  
-> * **Format:** After each of your responses, always end with one question back to me. Keep the exchange moving as a dialogue. Don't lecture. Stay calm and constructive &mdash; no sycophancy, no cheerleading, no toxic positivity. If I'm circling back to the same point, notice that pattern and redirect me to a different angle, like moving me to a different seat in the audience.  
-> * **Important:** You don't need to use all five methods in every response. Read the moment. Early on, definition and elenchus are most useful. As I start to gain distance, shift toward maieutics and counterfactual reasoning. If I'm deeply stuck, dialectic can break the loop.
+Although I usually play this questioning game with myself, it can also be fun to play with AI. I tend to learn more. I created a Claude chat configured with Chang's Socratic reasoning here: [https://idbwrtng.com/decenter](https://idbwrtng.com/decenter)
 
-In fact, I converted this prompt into a Claude artifact here: [https://idbwrtng.com/decenter](https://idbwrtng.com/decenter). You can launch this kind of chatbot with the Socratic partnering any time you want. Or embedded below:
-
-<iframe src="https://claude.site/public/artifacts/17a98556-e90e-4c47-8acb-ce7a2aec6fe9/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
-
-Although I usually play this questioning game with myself, there's something more fun about playing it with AI. I tend to learn a lot more. There's more sense of discovery. The Socratic questioning foundation in this prompt does a phenomenal job at digging deeply and analytically into issues.
+However, honestly the prompt doesn't work so well. Reason being, Claude does more of the heavy lifting with questions. That's not the point. The point is for the human to start asking questions. The **goal of the exercise is to shift your mindset into asking questions, toward curiosity rather than judgment.** If you outsource the question-asking, the whole exercise fails to make that mindset shift. At any rate, you could tweak the AI prompt more to make AI more of a rubber-duck style sounding board rather than a Socrates-like partner driving the questions and perspective shifts.
 
 ## Social partners for decentering conversations {#social-partners}
 
