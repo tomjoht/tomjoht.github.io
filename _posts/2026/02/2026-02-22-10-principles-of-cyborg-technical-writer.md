@@ -8,6 +8,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/10-principles-of-cyborg-technical-writer
 description: ""
+published: false
 ---
 
 * TOC
