@@ -10,6 +10,7 @@ keywords:
 rebrandly: https://idbwrtng.com/cyborg-model-emerging-talk
 description: "I'm giving a presentation at Louisiana Tech University on March 30, 2026, on what I'm calling the cyborg model of technical writing. The tldr is that I feel the emerging model for tech writing isn't one in which AI replaces tech writers; instead, it's one in which AI <i>augments</i> tech writers. Tech writers interact with AI in a continuous back-and-forth, iterative process, representing the cyborg model."
 image: thecyborgwriternapkinthumb.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_the-emerging-picture-of-a-changed-profession-activity-7431710312594124801-s0D9
 ---
 
 * TOC

@@ -7,8 +7,9 @@ categories:
 - podcast-guest
 keywords: 
 rebrandly: https://idbwrtng.com/world-brain-no-experts-podcast-guest
-description: "I recently appeared as a guest on the World Brain: No Experts podcast, episode 5, titled 'Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones)' We chat about a range of AI-related topics in a fun, conversational way. The podcast tries to answer the question of whether AI is a rough beast, benevolent angel, or boring super appliance. But we also get into capitalism, cognition + judgement, automation reality, the slow movement, and more."
+description: "I recently appeared as a guest on the World Brain: No Experts podcast, episode 5, titled 'Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones).' We chat about a range of AI-related topics in a fun, conversational way. The podcast tries to answer the question of whether AI is a rough beast, benevolent angel, or boring super appliance. But we also get into capitalism, cognition + judgement, automation reality, the slow movement, and more."
 image: worldbrain-noexperts-podcastthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_world-brain-no-experts-podcast-three-tech-activity-7432441693435645952-qMPz
 ---
 
 * TOC

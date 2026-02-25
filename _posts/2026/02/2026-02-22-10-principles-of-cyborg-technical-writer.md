@@ -16,6 +16,9 @@ published: false
 
 {% include ads.html %}
 
+In my post [The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI](https://idratherbewriting.com/blog/cyborg-model-emerging-talk), I mentioned an upcoming presentation I'm giving to students and faculty at Louisiana Tech University at the end of March. I'm arguing that the future of the profession is around the cyborg model of AI, where machines augment our capabilities rather than replace them. This post has some notes about what skills a tech writer would need to learn to thrive in this world of augmentation.
+
+If you have feedback about these skills, let me know. My intent here is to demonstrate what actual skills should be emphasized for those entering the profession, or for those who want to get ahead.
 
 ## 10 principles for the cyborg technical writer {#10-principles-for-the-cyborg-technical-writer}
 
