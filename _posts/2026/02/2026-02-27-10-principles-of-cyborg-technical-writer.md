@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/10-principles-of-cyborg-technical-writer
 description: "In my post <a href='/blog/cyborg-model-emerging-talk'>The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI</a>, I mentioned an upcoming presentation I'm giving to students and faculty. I argue that the future of the profession is the cyborg model, where machines augment our capabilities rather than replace us. In this post, I share notes about what skills a tech writer would need to learn to thrive in this world of augmentation."
 image: cyborgmodelhumanrobotarmsthumb.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-10-principles-of-the-cyborg-technical-activity-7433162697027878913-0CzA
 ---
 
 If you have feedback about these skills, let me know. My intent here is to demonstrate what actual skills should be emphasized for those entering the profession, or for those currently in the profession who want to get ahead with AI. Note that the following sections are mostly bullet points, in the form of notes.
