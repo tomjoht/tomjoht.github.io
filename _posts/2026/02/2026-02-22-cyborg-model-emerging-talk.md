@@ -55,3 +55,9 @@ Until more tech workers have automated complex processes end-to-end, I'd like fo
 This frequent back-and-forth collaboration is exactly the message I want to share with students and faculty: humans aren't being replaced (at least not yet).
 
 The question students and faculty should consider is how to use those machines effectively to augment the work. Leveraging the machine is a huge topic: it's not a push-button process. In fact, I argue that augmenting your work with AI machines requires a sophisticated understanding of models and their behavior, strategic thinking and problem-solving, systems thinking, automation engineering, and more. There are many tech writers who fail with AI and can't figure out how the tools work, how to integrate AI into their workflows, how to become the 3x tech writer using them. If students want to succeed in the workplace, they have to figure out how to better integrate with machines to achieve the cyborg workflow.
+
+## Related resources
+
+* [World Brain: No Experts podcast - Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones)](/blog/world-brain-no-experts-podcast-guest)
+
+* [10 principles of the cyborg technical writer -- brief notes and bullet points on how to use AI to augment your role](/blog/10-principles-of-cyborg-technical-writer)

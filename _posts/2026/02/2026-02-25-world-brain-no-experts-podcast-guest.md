@@ -59,10 +59,18 @@ We chat about a lot of different topics on this podcast in a dynamic, conversati
 - **AI as beast, angel, or boring appliance** — I tried to answer the question of the podcast's framing about whether AI is transformative, destructive, or overhyped; the consensus is that AI is landing on "all of the above simultaneously."
 - **The slow mode / active solitude counterbalance** — Matt explained his analog-first practice of morning handwriting (with a pencil and paper, filling three ... full ... pages) as a deliberate antidote to digital acceleration.
 - **Corporate pressure and the fear of being left behind** — Floyd and Yuri ask me about layoff anxiety, the mandate to adopt AI tools and show productivity gains, and the tension between needing to move fast and wanting to think deeply. We praise the slow movement.
-- **The gap between automation hype and reality** — I share my experience trying to automate tech doc processes and argue that almost nobody has actually automated a repeatable workflow (instead, only granular subtasks can be automated). I promote the ["cyborg" model of constant human-AI collaboration being the real current state](/blog/cyborg-model-emerging-talk).
+- **The gap between automation hype and reality** — I share my experience trying to automate tech doc processes and argue that almost nobody has actually automated a repeatable workflow (instead, only granular subtasks can be automated). I promote the ["cyborg" model of constant human-AI collaboration being the real current state](/blog/cyborg-model-emerging-talk). See also [10 principles of the cyborg technical writer](/blog/10-principles-of-cyborg-technical-writer).
 - **AI's effect on patience, judgment, and cognition** — I explain my loss of patience for long-form reading and writing (*sigh*). Yuri shares his concern about AI eroding his son's ability to form independent judgment and convictions (we seem to ask AI everything now, and are incapable of arriving at our own decisions). I explain a humbling moment with Bakhtin/Gemini at the kitchen in which I realize how feeble, slow, and incapable humans are to grasp and unpack complex information. What takes me hours to absorb and understand, a machine does in a few minutes.
 - **Capitalism as the engine driving AI adoption** — Whether the growth imperative of capitalism is pushing innovation toward a destabilizing tipping point. In short, continued hockey-stick growth requires mass AI adoption to achieve the necessary productivity, but that same widespread AI adoption eventually leads to societal collapse due to unemployment and thus the system's demise. We also discuss whether AI is solving problems people actually have (e.g., curing cancer, scientific breakthroughs) or just generating shareholder value.
 - **Whose perspective is missing** — Yuri made a closing point about the conversation coming from four white American men in a specific historical moment, and how AI looks different through lenses of global equity, democracy, and structural exclusion.
+
+## Related resources
+
+Here are links related to some of the ideas I mentioned in the podcast:
+
+* [The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI](/blog/cyborg-model-emerging-talk)
+
+* [10 principles of the cyborg technical writer -- brief notes and bullet points on how to use AI to augment your role](/blog/10-principles-of-cyborg-technical-writer)
 
 ## More episodes
 

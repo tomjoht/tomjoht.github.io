@@ -123,3 +123,9 @@ Don't let a narrow job description limit you. Use AI in ways that lead to new op
 * **Don't just stick to style updates:** It's easy to get stuck doing small-scale work like grammar fixes. Instead, look for "unlock" opportunities where you can put this massive brainpower to work.  
 * **Step into the engineering realm:** Use AI to fix problems with build tools or submit patches. For example, you might fix build tool issues and fill in missing parameters for dozens of elements in reference docs that would've otherwise stayed empty.  
 * **Go from napkin sketch to deployment:** You can take a faint idea, ask AI to turn it into a detailed prompt, and then use that prompt in another model to execute on the idea. In other words, use the machine to better prompt the machine.
+
+## Related resources
+
+* [The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI](/blog/cyborg-model-emerging-talk)
+
+* [World Brain: No Experts podcast - Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones)](/blog/world-brain-no-experts-podcast-guest)
