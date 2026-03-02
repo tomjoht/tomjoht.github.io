@@ -7,8 +7,9 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/win-at-pickup-basketball-praising-comments
 description: "Combining praise with names can have a powerful effect on performance. On the pickup basketball court, the effect can be transformative, making everyone play their best. But it also creates a transformative effect for the one doing the praising, perhaps because it prompts your mind to filter to see more of the good."
-image: 
+image: goodshot-gus3thumb.jpg
 sidebar: sidebar_basketball
+linkedin: https://www.linkedin.com/posts/tomjoht_good-shot-gus-how-to-win-at-pickup-basketball-activity-7434082663172595713-4tZq
 ---
 
 * TOC
