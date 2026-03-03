@@ -129,3 +129,5 @@ Don't let a narrow job description limit you. Use AI in ways that lead to new op
 * [The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI](/blog/cyborg-model-emerging-talk)
 
 * [World Brain: No Experts podcast - Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones)](/blog/world-brain-no-experts-podcast-guest)
+
+* [New habits for tech writers in the age of LLMs](https://passo.uno/new-habits-tech-writers-ai-age/) by Fabrizio Ferri-Benedetti
