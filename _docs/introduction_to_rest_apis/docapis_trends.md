@@ -162,7 +162,7 @@ Finally, the number of writers generating PDFs surprised me. It's not so easy to
 * **How do you interact with Scrum teams**: 33% participate in limited capacity, 27% participate as full-fledged member, 19% have their own documentation Scrum
 * **How do you review docs**: 25% code review tools, 19% in-person meetings, 14% collaborative annotation tools
 * **How do engineers contribute to docs**: 31% pull requests, 31% wikis or similar, 22% direct repo rights
-* **Do you outsource docs offshore**: 93% yes, 4% no
+* **Do you outsource docs offshore**: 93% no, 4% yes
 * **Do you publish docs with CI/CD**: 48% yes, 33% no, 15% plan to
 * **Do you have a style guide**: 77% yes, 20% no
 
