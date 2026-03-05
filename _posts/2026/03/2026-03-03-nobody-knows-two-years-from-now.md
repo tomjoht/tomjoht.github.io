@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/nobody-knows-two-years-from-now
 description: '<a href="https://leaddev.com/ai/nobody-knows-what-programming-will-look-like-in-two-years">Nobody knows what programming will look like in two years</a> by Charles Humble (published Feb 18, 2026, on LeadDev.com) is an honest, refreshing take from a programmer wrestling with the uncertainty of the future of programming. He looks at historical trends of new technologies (terminals) replacing old ones (punchcards) and grapples with what programming skills are still relevant. The article connects nicely with what I was exploring in <a href="/blog/10-principles-of-cyborg-technical-writer">10 principles of the cyborg technical writer</a>.'
 image: nobody-knows-the-future-article-thumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_nobody-knows-what-it-will-look-like-in-2-activity-7434996176807976960-dFBg
 ---
 
 * TOC
