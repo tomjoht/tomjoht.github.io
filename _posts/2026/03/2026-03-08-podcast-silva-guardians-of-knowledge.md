@@ -5,7 +5,7 @@ date: 2026-03-08
 categories:
 - ai
 - podcasts
-keywords: 
+keywords: Manny Silva, documentation testing, skills files, guardians of knowledge, content curator
 rebrandly: https://idbwrtng.com/podcast-silva-guardians-of-knowledge
 description: "In this podcast, Fabrizio Ferri-Benedetti (<a href='https://passo.uno'>passo.uno</a>) and I chat with Manny Silva (<a href='https://instructionmanuel.com'>instructionmanuel.com</a>), head of documentation at Skyflow and author of <a href='https://www.amazon.com/Docs-Tests-Resilient-Technical-Documentation/dp/0994169361'>Docs as Tests</a>. Manny is working on a follow-up book that incorporates AI, covering validated generation, trusted agents, and self-healing documentation."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/episode5mannysilva.mp3
@@ -15,7 +15,7 @@ podcast_length: 49116684
 image: episode5mannysilvapodcastthumb.png
 ---
 
-Our conversation in this podcast digs into the topics he's exploring: documentation testing (testing docs vs. testing the product), skills files (versus regular markdown files that don't follow the skills spec), the consultant model of docs (and whether this is the future of tech comm in companies), externalizing and sharing skills files (and why one might or might not want to do that), and much more. Throughout, we wrestle with the big question lurking behind all of it: as tech writers pour their expertise into systems that machines can run, are we accelerating ourselves or automating ourselves out of a job?
+Our conversation in this podcast covers some of the topics he's exploring: documentation testing (testing docs vs. testing the product), skills files (versus regular markdown files that don't follow the skills spec), the consultant model of docs (and whether this is the future of tech comm in companies), externalizing and sharing skills files (and why one might or might not want to do that), and much more. Throughout, we wrestle with the big question lurking behind all of it: as tech writers pour their expertise into systems that machines can run, are we accelerating ourselves or automating ourselves out of a job?
 
 * TOC
 {:toc}
@@ -39,7 +39,7 @@ Our conversation in this podcast digs into the topics he's exploring: documentat
 
 ## Topics covered in this podcast
 
-Here's a list of topics we talked about. (The content is AI-generated.)
+Here's a list of topics we talked about. (Note: AI-generated.)
 
 - **Doc testing vs. product testing** — Manny draws a clear line between testing your documentation's accuracy (can a user follow these steps?) and testing the product itself (does the API actually work?). The key takeaway: figure out the minimum viable thing you can test in your docs and let QA be QA.
 
@@ -61,13 +61,85 @@ Here's a list of topics we talked about. (The content is AI-generated.)
 
 - **Manny's book and Write the Docs Portland** — Manny's writing a follow-up to *Docs as Tests* that incorporates AI, evals, agentic workflows, and self-healing documentation systems. He'll also be hosting a writing day table at Write the Docs Portland 2025, where attendees can bring their docs to get tested with Doc Detective.
 
-
-
 <figure><a href="https://www.youtube.com/embed/uCdWqd4zf8s"><img src="{{site.media}}/episode5mannysilvapodcast.png" alt="Podcast: Doc tests, Skills, and the guardians of knowledge -- with Manny Silva" /></a><figcaption>Podcast: Doc tests, Skills, and the guardians of knowledge -- with Manny Silva</figcaption></figure>
+
+## Shorts
+
+Here are some shorts pulled from the longer video.
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/ihvcJTgeJbQ"
+title="Are these release notes accurate?"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/QSwSfa7hf5g"
+title="How do you evaluate AI outputs at scale?"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/3eI2uWnXF0A"
+title="The need for systems thinking tech writers to act as guardians of knowledge "
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/iCc7r7Ln7Ag"
+title="Are tech writers the librarians of old, guarding the quality of documentation?"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/-k7gSiLGqXU"
+title="Evals for docs, and the importance of accuracy and testing"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/7cqJGMfjsig"
+title="Who owns the source of truth in an AI-driven world?"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/NQZFMHG1U2U"
+title="Better docs lead to better AI"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/cjz8ud6lsKE"
+title="Technical writers are the final arbiters of truth"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/QgPFx_FAHUg"
+title="How to test your docs to make sure they're accurate"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+<iframe width="158" height="281"
+src="https://www.youtube.com/embed/e7wYtUb5wOc"
+title="Not just testing documentation's accuracy, but accuracy in how it surfaces in AI tools"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
 
 ## Narrative summary
 
-If the podcast were in the form of an article, this is what it would look like. (The content is AI-generated.)
+If the podcast were in the form of an article, this is what it would look like. (Note: AI-generated.)
 
 ### The Tech Writer's New Job: Building the Machine That Builds the Docs
 
