@@ -13,9 +13,10 @@ podcast_file_size: 49.8
 podcast_duration: "00:59:44"
 podcast_length: 49116684
 image: episode5mannysilvapodcastthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-technicalwriting-activity-7436641187127767041-s08Z
 ---
 
-Our conversation in this podcast covers some of the topics he's exploring: documentation testing (testing docs vs. testing the product), skills files (versus regular markdown files that don't follow the skills spec), the consultant model of docs (and whether this is the future of tech comm in companies), externalizing and sharing skills files (and why one might or might not want to do that), and much more. Throughout, we wrestle with the big question lurking behind all of it: as tech writers pour their expertise into systems that machines can run, are we accelerating ourselves or automating ourselves out of a job?
+Our conversation in this podcast covers some of the topics he's exploring. For example: documentation testing (testing docs vs. testing the product), skills files (versus regular markdown files that don't follow the skills spec), the consultant model of docs (and whether this is the future of tech comm in companies), externalizing and sharing skills files (and why one might or might not want to do that), and much more. Throughout, we wrestle with the big question lurking behind all of it: as tech writers pour their expertise into systems that machines can run, are we accelerating ourselves or automating ourselves out of a job?
 
 * TOC
 {:toc}
