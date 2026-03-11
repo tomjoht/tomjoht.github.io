@@ -17,7 +17,7 @@ linkedin: https://www.linkedin.com/posts/tomjoht_good-shot-gus-how-to-win-at-pic
 
 Every now and then I stumble across a great idea that I get really excited about but others just yawn upon hearing. This post will appeal to the pickup basketball player, of which I think there are about 5 among my audience of readers. If you don't care about pickup bball and want to get back to work, you can stop reading here. However, this technique has been life changing and has applications off the court as well.
 
-The basic technique for pickup basketball is this: praise your teammates throughout the game with comments like "Good shot, Gus!!!" Celebrate their wins enthusiastically. When Johan makes a strong rebound, shout "Great rebound, Johan!" When Eddie starts hitting that three-point shot, shout "Way to drain the three, Eddie!!!" and so on. Do this frequently. You don't need to always praise good play; apparently leave a bit of randomness in the reward, praising 80% of the time or so.
+The basic technique for pickup basketball is this: praise your teammates throughout the game with comments like "Good shot, Gus!!!" Celebrate their wins enthusiastically. When Johan makes a strong rebound, shout "Great rebound, Johan!" When Andre starts hitting that three-point shot, shout "Way to drain the three, Andre!!!" and so on. Do this frequently. You don't need to always praise good play; apparently leave a bit of randomness in the reward, praising 80% of the time or so.
 
 After doing this for about 30 minutes into the game, you'll start to notice several effects. 
 
