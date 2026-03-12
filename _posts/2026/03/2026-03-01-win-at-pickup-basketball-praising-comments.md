@@ -27,7 +27,7 @@ After doing this for about 30 minutes into the game, you'll start to notice seve
 
 When everyone on your team is playing their best, your chances of winning increase significantly. Let me dive into each of these effects.
 
-<figure><img src="{{site.media}}/goodshot-gus3.jpg" alt="Good shot, GUS!!!" /><figcaption>Good Shot, GUS!!!</figcaption></figure>
+<figure><img style="max-width: 650px" src="{{site.media}}/goodshot-gus3.jpg" alt="Good shot, GUS!!!" /><figcaption>Good Shot, GUS!!!</figcaption></figure>
 
 ## Others start playing better
 
