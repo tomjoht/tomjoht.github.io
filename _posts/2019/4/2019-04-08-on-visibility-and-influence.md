@@ -11,6 +11,8 @@ description: "Can the same principles for visibility and influence online lead t
 * TOC
 {:toc}
 
+**March 12, 2026 **update**: See [Cracking the code on corporate visibility](/blog/cracking-the-code-on-corp-visibility) for a more up-to-date take on this topic.
+
 One of the paradoxes of my career is to be recognized as a thought leader and influencer on the web among tech comm circles but to feel relatively insignificant and invisible at my place of work. In other words, to be a blogebrity online among the tech comm crowd, but to just be a nameless commoner at work with everyone else. This year I'd like to fix that ... somehow.
 
 I don't have any solid answers, but here's my hunch on the strategy: Surely the same principles of influence and visibility on the web must apply within corporate walls as well, right? I mean, do corporations function so differently from the web? If not, couldn't I use the same basic principles for influence online to wield more influence and visibility at work?
