@@ -1,0 +1,25 @@
+---
+title: "Automation Engineering 101 for Tech Docs presentation at WTD West Coast Supermeetup"
+permalink: /blog/auto-engineering-101-presentation-wtd
+date: 2026-03-12
+categories:
+- ai
+- technical-writing
+keywords: 
+rebrandly: https://idbwrtng.com/auto-engineering-101-presentation-wtd
+description: "Today I'm giving a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I'm one of two presenters, and there are other activities during the meetup, so this isn't a lengthy presentation. Even so, it should be good!"
+image: wtdwestcoastmeetupthumbmarch.png
+---
+
+<figure><a href="https://www.meetup.com/write-the-docs-seattle/events/313560953/"><img src="{{site.media}}/wtdwestcoastsupermeetup.png" alt="Automation Engineering 101 for Tech Docs" /></a><figcaption>Automation Engineering 101 for Tech Docs at WTD West Coast Supermeetup</figcaption></figure>
+
+**Date:** March 12 <br/>
+**Time:** 6 - 7:30pm PT <br/>
+**Location:** online (Zoom) <br/>
+
+The other presenter is Dave Nunez, who will present on "Falconer: Document your Knowledge and Solve Bigger Problems."
+
+The presentations will be recorded, and I'll circle back after the event and update this post with the recording link. 
+
+{% include ads.html %}
+

@@ -9,6 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/cracking-the-code-on-corp-visibility
 description: "If you create content and share it with people around you, whether it's blog posts and podcasts on the web, or educational offerings internally at your company, you become much more visible to those around you. That visibility can be helpful in opening doors and expanding opportunities."
 image: lunch-and-learn-visibility-thumb.png
+linked: https://www.linkedin.com/posts/tomjoht_cracking-the-code-on-corporate-visibility-activity-7437860588514349056-9H6A
 ---
 
 * TOC
