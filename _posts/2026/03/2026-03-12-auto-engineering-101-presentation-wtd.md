@@ -7,7 +7,7 @@ categories:
 - technical-writing
 keywords: 
 rebrandly: https://idbwrtng.com/auto-engineering-101-presentation-wtd
-description: "Today I'm giving a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I'm one of two presenters, and there are other activities during the meetup, so this isn't a lengthy presentation. Even so, it should be good!"
+description: "Today I'm giving a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I'm one of two presenters, and there are other activities during the meetup, so this isn't a lengthy presentation. Even so, it should be good! This post has links to my slides and will contain the recording as well when available."
 image: wtdwestcoastmeetupthumbmarch.png
 linkedin: https://www.linkedin.com/posts/tomjoht_automation-engineering-101-for-tech-docs-activity-7437862327791644672-wHTZ
 ---
