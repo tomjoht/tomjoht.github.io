@@ -22,5 +22,9 @@ The other presenter is Dave Nunez, who will present on "Falconer: Document your 
 
 The presentations will be recorded, and I'll circle back after the event and update this post with the recording link. 
 
+Here are my slides:
+
+<figure><a href="https://docs.google.com/presentation/d/1XzgTy-4fFTMx2OQYodRuH_vdNCvQSD4xi5GlCdz1bCM/edit?slide=id.g3cf2db857e1_0_0#slide=id.g3cf2db857e1_0_0"><img src="{{site.media}}/autoengslideswtd.png" alt="Automation Engineering 101 for Tech Docs " /></a><figcaption>Automation Engineering 101 for Tech Docs </figcaption></figure>
+
 {% include ads.html %}
 
