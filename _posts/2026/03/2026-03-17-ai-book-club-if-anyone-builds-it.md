@@ -6,7 +6,7 @@ categories:
 - ai
 - ai-book-club
 - podcasts
-keywords: 
+keywords: apocalypse, AGI, superhuman intelligence, end of world scenario
 rebrandly: https://idbwrtng.com/ai-book-club-if-anyone-builds-it
 description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a> discussion of <a href='https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640'><i>If Anyone Builds It, Everyone Dies: Why Superhuman AI Will Kill Us All</i></a> by Nate Soares and Eliezer Yudkowsky, held March 15, 2026. Our discussion touches on a variety of topics, including whether the book's use of parables strengthens or weakens its argument, the question of whether AI can develop genuine intentions, the competitive dynamics that prevent any single company from pumping the brakes, the limits of recursive self-improvement, and what ordinary people should make of wildly conflicting predictions from leading AI thinkers. This post also includes discussion questions, key themes, and a full transcript."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aibookclub-ifanyonebuildsit.mp3
@@ -14,6 +14,7 @@ podcast_file_size: 40.8
 podcast_duration: "55:43"
 podcast_length: 40440471
 image: aibookclubifanyonebuildsit.png
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-ai-book-club-recording-of-if-anyone-activity-7439896631396872193-6MdW
 ---
 
 * TOC
