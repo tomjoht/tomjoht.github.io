@@ -1,19 +1,5 @@
 upcoming:
 
-  - date: "Mar 15, 2026"
-    time: "10am PT"
-    book:
-      title: "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All"
-      author: "Eliezer Yudkowsky and Nate Soares"
-      url: "https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640"
-      image: "if-anyone-builds-it-book-club.png"
-      summary: >
-
-        "In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next."
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
   - date: "Apr 19, 2026"
     time: "10am PT"
     book:
@@ -72,6 +58,26 @@ upcoming:
 
 
 previous:
+
+  - date: "Mar 15, 2026"
+    recording:
+      url: "/blog/ai-book-club-if-anyone-builds-it"
+      text: "Meeting recording"
+    book:
+      title: "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All"
+      author: "Eliezer Yudkowsky and Nate Soares"
+      url: "https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640"
+      image: "if-anyone-builds-it-book-club.png"
+      summary: >
+
+        "In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next."
+
+    notes_url: "https://docs.google.com/document/d/1W2jganl0bXsgP3lSZfSgVyV2bUrXgrgU7J77UqCBLHE"
+
+    review:
+      url: "/blog/book-review-if-anyone-builds-it-everyone-dies"
+      text: "Book review of \"If Anyone Builds It, Everyone Dies\"—why AI doom isn't as visceral as nuclear war"
+
 
   - date: "Feb 15, 2026"
     recording:
