@@ -25,6 +25,8 @@ linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-technicalwriti
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w_jSPUpiDEc?si=6uRop2wee6Pj2pdF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+You can find a [transcript](#transcript) and [narrative summary](#narrative_summary) below.
+
 ## Audio-only version
 
 {% include audio.html %}
@@ -59,7 +61,7 @@ You can view a [NotebookLM podcast and video](https://notebooklm.google.com/note
 
 {% include ads.html %}
 
-## Narrative essay version of the conversation
+## Narrative essay version of the conversation {#narrative_summary}
 
 *If the podcast were an article, this is what it would read like.*
 
@@ -103,7 +105,7 @@ The enrollment numbers will probably recover. They usually do. But the students 
 * [Nupoor Ranade on LinkedIn](https://www.linkedin.com/in/nupoorranade/)
 * [Jeremy Merritt on LinkedIn](https://www.linkedin.com/in/jeremymerritt/)
 
-## Transcript
+## Transcript {#transcript}
 
 **Tom** (00:03) <br>
 Welcome to another podcast. My name is Tom Johnson from I'd Rather Be Writing. And today we have a special focus. We've got two people from the academic world. Jeremy Rosalett Merritt and Nupoor Ranade. They are joining me in this exploration of a lot of really pressing topics. We're going to dig into generative AI, the academic context, all these questions
