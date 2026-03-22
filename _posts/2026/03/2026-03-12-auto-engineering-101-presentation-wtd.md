@@ -1,5 +1,5 @@
 ---
-title: "Automation Engineering 101 for Tech Docs presentation at WTD West Coast Supermeetup"
+title: "Recording of Automation Engineering 101 for Tech Docs presentation at WTD West Coast Supermeetup"
 permalink: /blog/auto-engineering-101-presentation-wtd
 date: 2026-03-12
 categories:
@@ -12,6 +12,8 @@ image: wtdwestcoastmeetupthumbmarch.png
 linkedin: https://www.linkedin.com/posts/tomjoht_automation-engineering-101-for-tech-docs-activity-7437862327791644672-wHTZ
 ---
 
+**March 18, 2026 update:** I added the event recording below.
+
 <figure><a href="https://www.meetup.com/write-the-docs-seattle/events/313560953/"><img src="{{site.media}}/wtdwestcoastsupermeetup.png" alt="Automation Engineering 101 for Tech Docs" /></a><figcaption>Automation Engineering 101 for Tech Docs at WTD West Coast Supermeetup</figcaption></figure>
 
 **Date:** March 12 <br/>
@@ -20,7 +22,13 @@ linkedin: https://www.linkedin.com/posts/tomjoht_automation-engineering-101-for-
 
 The other presenter is Dave Nunez, who will present on "Falconer: Document your Knowledge and Solve Bigger Problems."
 
-The presentations will be recorded, and I'll circle back after the event and update this post with the recording link. 
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X5XMqdxkf-A?si=wH8aQAgtzbwLU-2y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+For my automated engineering session, fast-forward to 25:20 on the timeline.
+
+## Slides
 
 Here are my slides:
 
