@@ -31,6 +31,10 @@ linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-technicalwriti
 
 Note: Most of these shownotes are AI-generated.
 
+## NotebookLM version
+
+You can view a [NotebookLM podcast and video](https://notebooklm.google.com/notebook/802e03a4-ed16-4225-9fb6-940d9a496a5c) (along with other assets) about the material (so it's a machine-generated podcast from a human-created podcast). The NotebookLM podcast version is about 15 min and the video 6 min. There are also slides and other assets.
+
 ## Topics covered in this podcast
 
 - **Dropping enrollments in tech writing programs** — Nupoor reports that some graduate programs have seen enrollment drop by more than half, as students question whether the profession will survive AI. PhD programs, however, are actually growing as students seek deeper research-oriented learning.
