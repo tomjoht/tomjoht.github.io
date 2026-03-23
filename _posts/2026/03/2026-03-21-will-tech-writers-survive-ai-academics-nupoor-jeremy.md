@@ -102,6 +102,8 @@ The enrollment numbers will probably recover. They usually do. But the students 
 * [Academics Need to Wake Up on AI, Part II](https://www.popularbydesign.org/p/academics-need-to-wake-up-on-ai-part) (Alexander Kustov, Popular by Design)
 * [New Habits for Tech Writers in the Age of LLMs](https://passo.uno/new-habits-tech-writers-ai-age/) (Fabrizio Ferri-Benedetti, passo.uno)
 * [Recording of Innovation in Technical Communication Keynote at tcworld India 2015](https://idratherbewriting.com/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/) (I'd Rather Be Writing)
+* [Jeremy's dissertation: Fertile Grounds in Technical and Professional Communication:
+Identity, Legitimacy, Power, and Workplace Practice](https://conservancy.umn.edu/server/api/core/bitstreams/f9367b2c-86c7-4ae4-b625-75dd0a7f00dd/content)
 * [Nupoor Ranade on LinkedIn](https://www.linkedin.com/in/nupoorranade/)
 * [Jeremy Merritt on LinkedIn](https://www.linkedin.com/in/jeremymerritt/)
 
