@@ -7,7 +7,7 @@ categories:
 - technical-writing
 keywords: automation engineering, technical writing, AI, process design, knowledge engineering
 rebrandly: https://idbwrtng.com/auto-engineering-101-presentation-wtd
-description: "I recently gave a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I was one of two presenters. This post has the recording, slides, transcript, and a narrative summary of the talk."
+description: "I recently gave a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I was one of two presenters. The talk covers seven principles for designing repeatable doc processes that AI can execute, using release notes automation as a running example. This post has the recording, slides, transcript, and a narrative summary of the talk."
 image: wtdwestcoastmeetupthumbmarch.png
 linkedin: https://www.linkedin.com/posts/tomjoht_automation-engineering-101-for-tech-docs-activity-7437862327791644672-wHTZ
 ---
