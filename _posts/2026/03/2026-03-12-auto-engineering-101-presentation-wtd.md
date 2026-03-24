@@ -7,20 +7,20 @@ categories:
 - technical-writing
 keywords: automation engineering, technical writing, AI, process design, knowledge engineering
 rebrandly: https://idbwrtng.com/auto-engineering-101-presentation-wtd
-description: "Today I'm giving a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I'm one of two presenters, and there are other activities during the meetup, so this isn't a lengthy presentation. Even so, it should be good! This post has links to my slides and will contain the recording as well when available."
+description: "I recently gave a presentation titled Automation Engineering 101 for Tech Docs at the <a href='https://www.meetup.com/write-the-docs-seattle/events/313560953/'>Write the Docs West Coast Supermeetup</a>. I was one of two presenters. This post has the recording, slides, transcript, and a narrative summary of the talk."
 image: wtdwestcoastmeetupthumbmarch.png
 linkedin: https://www.linkedin.com/posts/tomjoht_automation-engineering-101-for-tech-docs-activity-7437862327791644672-wHTZ
 ---
 
-**March 18, 2026 update:** I added the event recording, transcript, and narrative summary below.
+I gave this presentation on March 12, 2026. Below you'll find the recording, slides, transcript, and a narrative summary.
 
 <figure><a href="https://www.meetup.com/write-the-docs-seattle/events/313560953/"><img src="{{site.media}}/wtdwestcoastsupermeetup.png" alt="Automation Engineering 101 for Tech Docs" /></a><figcaption>Automation Engineering 101 for Tech Docs at WTD West Coast Supermeetup</figcaption></figure>
 
-**Date:** March 12 <br/>
+**Date:** March 12, 2026 <br/>
 **Time:** 6 - 7:30pm PT <br/>
-**Location:** online (Zoom) <br/>
+**Location:** Online (Zoom) <br/>
 
-The other presenter is Dave Nunez, who will present on "Falconer: Document your Knowledge and Solve Bigger Problems."
+The other presenter was Dave Nunez, who presented on "Falconer: Document your Knowledge and Solve Bigger Problems."
 
 ## Recording
 
@@ -183,7 +183,6 @@ I don't want to fall into this trap of suggesting that I have free time freed up
 That's the big lie of AI, right? "Oh, you're going to be freed up, so you'll be able to focus on all these big important questions." Instead, it's like, "No, you just have three times the amount of work."
 
 But let me end on a happier note. Building a system is a new skill. Let's face it — writing tech docs is kind of boring now. You get to design systems that generate things. You're building machines. It's a whole new frontier and territory to explore. I think we should embrace it.
-
 
 ## Narrative summary
 
