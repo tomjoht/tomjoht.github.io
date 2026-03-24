@@ -87,7 +87,7 @@ Where does this leave the profession? Probably in the same place it's always bee
 
 The enrollment numbers will probably recover. They usually do. But the students who come back won't be training for the same job. They'll be training for the one that emerges on the other side of this — whatever it turns out to be.
 
-<figure><a href="https://youtu.be/w_jSPUpiDEc"><img style="max-width: 450px" src="{{site.media}}/podcast-nupoor-jeremy.jpg" alt="Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade and Jeremy Merritt" /></a><figcaption>Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade and Jeremy Merritt</figcaption></figure>
+<figure><a href="https://youtu.be/w_jSPUpiDEc"><img style="max-width: 450px" src="{{site.media}}/podcast-nupoor-jeremy3.jpg" alt="Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade and Jeremy Merritt" /></a><figcaption>Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade and Jeremy Merritt</figcaption></figure>
 
 ## Resources
 
