@@ -15,7 +15,7 @@ podcast_file_size: 59.9
 podcast_duration: "01:18:01"
 podcast_length: 59470383
 image: podcast-nupoor-jeremy.jpg
-linkedin: https://www.linkedin.com/posts/tomjoht_ai-documentation-technicalwriting-activity-7436641187127767041-s08Z
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-technicalwriting-podcasts-share-7442202148269912065-gTwY
 ---
 
 * TOC
