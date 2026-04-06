@@ -34,7 +34,7 @@ If you just want the audio, here it is:
 
 ## Slides
 
-<figure><a href="https://docs.google.com/presentation/d/15u3nIsFqcbdoktUkltEOXLHWOUQ_qiHbVZDOfUl5QDs/edit?usp=sharing"><img src="{{site.media}}/emergingpicprofessionslides.png" alt="" /></a><figcaption>Slides for my talk: The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI</figcaption></figure>
+<figure><a href="https://docs.google.com/presentation/d/15u3nIsFqcbdoktUkltEOXLHWOUQ_qiHbVZDOfUl5QDs/edit?usp=sharing"><img style="max-width=400px" src="{{site.media}}/emergingpicprofessionslides.png" alt="The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI" /></a><figcaption>Slides for my talk: The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI</figcaption></figure>
 
 ## Presentation description
 
