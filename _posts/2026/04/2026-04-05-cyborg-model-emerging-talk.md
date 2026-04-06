@@ -1,24 +1,42 @@
 ---
 title: "The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI"
 permalink: /blog/cyborg-model-emerging-talk
-date: 2026-02-19
+date: 2026-04-05
 categories:
 - ai
 - technical-writing
 - writing
+- podcasts
+- academics-and-practitioners
 keywords: 
 rebrandly: https://idbwrtng.com/cyborg-model-emerging-talk
-description: "I'm giving a presentation at Louisiana Tech University on March 30, 2026, on what I'm calling the cyborg model of technical writing. The tldr is that I feel the emerging model for tech writing isn't one in which AI replaces tech writers; instead, it's one in which AI <i>augments</i> tech writers. Tech writers interact with AI in a continuous back-and-forth, iterative process, representing the cyborg model."
-image: thecyborgwriternapkinthumb.jpg
+description: "I recently gave a presentation to students and faculty in person at Louisiana Tech University on March 30, 2026, focusing on what I call the cyborg model of technical writing. The basic idea is that the emerging model for tech writing isn't one in which AI replaces tech writers but rather one in which AI <i>augments</i> tech writers. Tech writers interact with AI in a continuous back-and-forth, conversational, iterative manner. This post contains the recording, slides, transcript, summary, notes, and more from my presentation."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/latechtalkemergingprofession.mp3
+podcast_file_size: 84.9
+podcast_duration: "01:28:36"
+podcast_length: 70947155 
+image: youtubethumbemergingpicturethumb.png
 linkedin: https://www.linkedin.com/posts/tomjoht_the-emerging-picture-of-a-changed-profession-activity-7431710312594124801-s0D9
 ---
 
 * TOC
 {:toc}
 
-## Presentation details
+## Recording
 
-I'm heading out to Louisiana Tech University on March 30, 2026, to speak to students and faculty there. My presentation is as follows: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nju_MWoWooE?si=x6VddY4kiHfFLR5o" title="Emerging Picture of a Changed Profession: Cyborg Technical Writers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Audio only
+
+If you just want the audio, here it is: 
+
+{% include audio.html %}
+
+## Slides
+
+<figure><a href="https://docs.google.com/presentation/d/15u3nIsFqcbdoktUkltEOXLHWOUQ_qiHbVZDOfUl5QDs/edit?usp=sharing"><img src="{{site.media}}/emergingpicprofessionslides.png" alt="" /></a><figcaption>Slides for my talk: The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI</figcaption></figure>
+
+## Presentation description
 
 > **The Emerging Picture of a Changed Profession: Cyborg Technical Writers — Augmented, Not Replaced, by AI**
 > 
@@ -28,11 +46,13 @@ I'm heading out to Louisiana Tech University on March 30, 2026, to speak to stud
 > 
 > Because of the trends toward augmentation over replacement, technical writers should look to work closely with AI tools to improve the integration. There are at least 10 principles that tech writers can use to augment their roles with AI, working as cyborg technical writers. The principles go far beyond simply operating the machine.
 
-That's what I plan to focus on, but how did I arrive at this? Let me elaborate a bit.
+That's what I focused on, but how did I arrive at this? Let me elaborate a bit.
 
 ## Reasons for arguing for the cyborg model {#reasons}
 
-Ever since I was invited to speak to students and faculty (at the request of Kirk St. Amant, who teaches at Louisiana Tech), I've been mulling over what I should say. I mean, if you were invited to go into a university and help students and faculty understand today's workplace and what skills and concepts students would need to know to succeed, what would you say? 
+*<b>Note:</b> I originally wrote this post before my presentation, so this section provides some pre-presentation thoughts on why I decided to go in the cyborg direction that I did.*
+
+Ever since I was invited to speak to students and faculty (at the request of Kirk St. Amant, who teaches at Louisiana Tech), I'd been mulling over what I should say. I mean, if you were invited to go into a university and help students and faculty understand today's workplace and what skills and concepts students would need to know to succeed, what would you say? 
 
 After deliberation for a few months, I realized what I wanted to say: the model that's emerging is a cyborg model of technical writing, a humans + AI combination. This is in contrast to the many articles, which now seem to come at an even faster pace, saying that AI will replace human labor. I realize there's a lot of opinion on this debate, but I have a strong argument for why the model is humans + AI (cyborgs) rather than replacement: almost no tech writers at my work have automated complex processes using AI. And in my own use of AI over the past few years, the model that's emerged is clearly a close intertwining of machine and human interaction to produce content. 
 
@@ -42,7 +62,7 @@ In my experience, AI can only automate granular subtasks within a larger process
 
 Because I'm not seeing automation of full processes, I find myself a bit frustrated at conversations about replacement. I feel they're not grounded in current reality. The other day I was listening to Hard Fork's episode [‘Something Big Is Happening' + A.I. Rocks the Romance Novel Industry + One Good Thing](https://www.nytimes.com/2026/02/13/podcasts/something-big-is-happening-ai-rocks-the-romance-novel-industry-one-good-thing.html?showTranscript=1). I usually love listening to these hosts, but in this episode, except for a few brief acknowledgments about the uncertainty of future trajectories, the hosts seem to go fully along with the idea that human replacement is on the short horizon. It's unsurprising that they're focusing on software engineers rather than journalists and podcasters being replaced. Isn't it easier to imagine how someone else's job can be automated, but not your own?
 
-But this is what I can't understand: How can the replacement model be viable when automating a single complex process from end-to-end isn't being done, despite many trying? I've sunk a lot of time into trying to automate release notes. I write more than 100 release notes for various products each year. I have a process for automating parts of the release notes, which I described in [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html). I initially tried to create a combination of scripts and prompts that would automate nearly everything, but it failed. One issue is that problems near the start of an instruction, if not caught, corrupt later iterations. You need a human in the loop to verify and check and fix things at each step along the way.
+But this is what I can't understand: How can the replacement model be viable when automating a single complex process from end-to-end isn't being done, despite many trying? I've sunk a lot of time into trying to automate release notes. I write more than 100 release notes for various products each year. I have a process for partially automating parts of the release notes, which I described in [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html). I initially tried to create a combination of scripts and prompts that would automate nearly everything, but it failed. One issue is that problems near the start of an instruction, if not caught, corrupt later iterations. You need a human in the loop to verify and check and fix things at each step along the way.
 
 Consider last week's example. I have a script that gathers file diffs for all changed files in the release. From those changes, an instruction file prompts an AI to create summaries. But what happens if some of the file diffs are incorrect because engineers committed a change to a release stage that they later rolled back? For example, perhaps they removed a release stage label that said a feature was "Launched" in the proto comments, but then decided not to actually launch said feature, but to keep it in preview.
 
@@ -52,9 +72,20 @@ We're at the same point with automation right now as autonomous cars. Autonomous
 
 Until more tech workers have automated complex processes end-to-end, I'd like for the industry to more readily acknowledge a different model that better describes reality: the cyborg model. This cyborg metaphor comes from a research paper called [The Jagged Edge](https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf), which I referenced in my [book review of Co-Intelligence](/blog/book-review-co-intelligence-mollick) and explained in my post [Why attitudes and experiences differ so much with regards to AI among technical writers](/blog/plurality-of-ai-attitudes-experiences). In short, the cyborg model is humans + AI working together. The machine augments, rather than replaces, the human, and vice versa. This cyborg model describes nearly every tech writer who uses AI: there's a frequent back-and-forth collaboration to produce content.
 
-This frequent back-and-forth collaboration is exactly the message I want to share with students and faculty: humans aren't being replaced (at least not yet).
+This frequent back-and-forth collaboration is exactly the message I want to share with students and faculty: humans aren't being replaced (at least not yet). For a great article that articulates this model, see Clive Thomson's [Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html) in the NYTimes (March 12, 2026).
 
 The question students and faculty should consider is how to use those machines effectively to augment the work. Leveraging the machine is a huge topic: it's not a push-button process. In fact, I argue that augmenting your work with AI machines requires a sophisticated understanding of models and their behavior, strategic thinking and problem-solving, systems thinking, automation engineering, and more. There are many tech writers who fail with AI and can't figure out how the tools work, how to integrate AI into their workflows, how to become the 3x tech writer using them. If students want to succeed in the workplace, they have to figure out how to better integrate with machines to achieve the cyborg workflow.
+
+## Key takeaways
+
+Here are 10 key takeaways from my presentation. (Note: AI-generated)
+
+coming soon...
+
+## Transcript
+
+coming soon...
+
 
 ## Related resources
 
