@@ -50,7 +50,7 @@ That's what I focused on, but how did I arrive at this? Let me elaborate a bit.
 
 ## Reasons for arguing for the cyborg model {#reasons}
 
-*<b>Note:</b> I originally wrote this post before my presentation, so this section provides some background on why I took this position. This section provides some pre-presentation thoughts on why I decided to go in the cyborg direction.*
+*<b>Note:</b> I originally wrote this post before my presentation, so this section provides some background on why I took this position. I explore my pre-presentation thoughts on why I decided to go in the cyborg direction.*
 
 Ever since I was invited to speak to students and faculty (at the request of [Kirk St. Amant](https://www.linkedin.com/in/kirk-st-amant-614a272/), who teaches at Louisiana Tech), I'd been mulling over what I should say. I mean, if you were invited to go into a university and help students and faculty understand today's workplace and what skills and concepts students would need to know to succeed, what would you say? 
 
@@ -102,11 +102,53 @@ Here are key takeaways from my presentation. (Note: AI-generated)
 
 - **Think beyond your current role title.** If you can build apps, automate workflows, do QA, and design systems — not just "create documentation" — you become harder to replace and more valuable in a world where role boundaries are blurring.
 
+## Narrative article
+
+*If the podcast were an article, this is what it would read like. Why include this? This section provides more detail than the takeaways above, but not so much detail as the transcript that follows. Transcripts can be hard to read from start to end, so the narrative aricle provides a nice compromise. Note that this article is AI-generated.*
+
+---
+
+### The Technical Writer Isn't Dead — They're Just Half Machine Now
+{:.no_toc}
+
+Here's the strangest thing about being a technical writer in 2026: the most writing you do all day is in chat windows, talking to an AI. Not crafting documentation, not wordsmithing tutorials — just typing instructions into a machine and then spending the next hour telling it everything it got wrong. Twenty years of honing a craft, and the craft has quietly shape-shifted into something nobody put on the job description.
+
+The anxiety in technical writing circles right now is palpable. Layoffs at major tech companies have thinned the ranks by an estimated 30%. Every few months, another headline announces that some company has cut its writing staff, betting that AI can pick up the slack. The tools themselves seem to validate the fear — they can analyze a dense academic PDF in under a minute, generate release notes from code diffs, and produce passable first drafts of API documentation without ever pinging an engineer. If you're a person whose title literally contains the word "writer," watching a machine write faster than you can read is an unsettling experience.
+
+But the panic, it turns out, is running ahead of the reality.
+
+The actual day-to-day of working with AI as a technical writer looks nothing like the frictionless automation that CEOs pitch in earnings calls. It looks like conversation — messy, iterative, demanding conversation. You feed the AI a product requirements doc, an engineering design spec, and a set of code diffs. You ask it to draft release notes. It produces something plausible. Then you notice it invented a package name that doesn't exist. You correct it. It apologizes effusively — these tools are sycophantic by design — and produces a revised draft that skips a critical change buried in the middle of the diff. You catch that too, because you've been generating the reference documentation yourself and you know exactly what changed between releases. Three rounds later, you have something publishable. The machine did the heavy lifting of drafting. You did the heavy lifting of *everything else*.
+
+This is the cyborg model: not replacement, but integration. A tight loop of human judgment and machine output, where neither party is dispensable. The metaphor comes from research on how knowledge workers actually use AI, and it maps cleanly onto what's happening in documentation shops. The writer isn't sitting idle while the robot works. The writer is steering, correcting, verifying, and — critically — deciding what questions to ask in the first place. That last part is what people outside the profession chronically underestimate. Knowing which slice of an API reference to feed into a session, or recognizing that a field in the spec has never actually been populated with real data, requires domain expertise that no prompt can conjure from nothing.
+
+And this is where the value proposition gets interesting. If content generation is effectively instant — if anyone can push a button and get a draft — then the bottleneck moves downstream. It moves to review, to accuracy, to verification. The technical writer's deliverable is no longer the document itself; it's the *trustworthiness* of the document. Every page of documentation is full of assertions that could be tested, and in a world where AI-generated content is flooding every channel, the person who can actually validate those assertions becomes indispensable. There's a reason radiologists haven't been replaced despite years of AI hype in medical imaging: someone has to sign off. Someone has to be responsible.
+
+The role is also expanding in directions that would have seemed foreign five years ago. Technical writers are building automated workflows, writing scripts to generate reference docs from source code, and thinking about how to make documentation machine-consumable so that AI agents can use it accurately. The title "documentation automation engineer" might sound like corporate buzzword soup, but it's a more honest description of the work than "writer" is at this point. The skill set is shifting from prose craftsmanship to systems thinking — and the writers who are thriving are the ones curious enough to keep shifting with it.
+
+None of this means the trajectory is comfortable or guaranteed. There's a genuinely uncomfortable generational question lurking beneath the cyborg model: the current cohort of technical writers was trained pre-AI. They bring rhetorical judgment, editorial instincts, and domain knowledge built up over years of doing the work manually. What happens when that generation ages out and is replaced by workers who've never operated without AI? If the human half of the cyborg was shaped by pre-AI training, does the cyborg survive the loss of that training? The skills atrophy argument is real — we've already lost the ability to navigate without GPS, and most kids can't read a paper map. Dependency deepens quietly.
+
+But here's the counterweight worth sitting with: AI tools are producing more code, more systems, more technology than ever. The world is becoming more code-intense, not less. If even a small greenhouse operation can now run sophisticated analytical software, the demand for people who can make that technology comprehensible — to humans and to machines — isn't shrinking. It's spreading into domains that never needed technical writers before. The door might be changing shape, but it doesn't appear to be closing.
+
+## Related resources
+
+* [Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
+
+* [World Brain: No Experts podcast - Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones)](/blog/world-brain-no-experts-podcast-guest)
+
+* [10 principles of the cyborg technical writer -- brief notes and bullet points on how to use AI to augment your role](/blog/10-principles-of-cyborg-technical-writer)
+
+* [The Jagged Edge](https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf)
+
+* [Book review of Ethan Mollick's *Co-Intelligence*](/blog/book-review-co-intelligence-mollick) 
+
+* [Why attitudes and experiences differ so much with regards to AI among technical writers](/blog/plurality-of-ai-attitudes-experiences)
+
 ## Transcript
 
 Here's a transcript of the presentation.
 
-### Overview
+### Overview 
+{:.no_toc}
 
 Here's what I plan to go through. First, I want to describe what the current landscape looks like — I want to paint a portrait of how things are current day, what it's like to be a technical writer, and some shifts that have been happening. Second, I'll talk through what I've been doing to wrestle with those shifts. Third, the resolution that I've come to about how to make sense of things. And finally, the direction that I think is valid going forward.
 
@@ -114,15 +156,18 @@ Here's what I plan to go through. First, I want to describe what the current lan
 
 ---
 
-### Part 1: The Current Landscape
+### Part 1: The Current Landscape 
+{:.no_toc}
 
 I'm going to talk about conversation shifts, shifts in trust, shifts in tools, shifts in writing, system engineering shifts, brain fry shifts, pace shifts, anxiety, and identity shifts.
 
 #### Shifts in conversation
+{:.no_toc}
 
 I now sit there and talk with computers all day long, with AI all day long. It used to be that I would talk a lot with engineers to gather information or other colleagues. Now it's kind of like, well, I can get the answer by either providing information to the AI and querying it or just having the chat to get the answer. So it's a big shift in how to work. It's more isolating. It's not as tight-knit because we're more independent and autonomous.
 
 #### Shifts in trust
+{:.no_toc}
 
 It used to be that I would go and interview the engineers about what was going into releases — "Hey, what kind of features are we releasing in the next release and in the upcoming roadmap?" Now you don't really have to do that. You can get most of what you need by just looking at the code. You can get file diffs from one release to the next, and from those file diffs you can know exactly what has changed. In some ways it's better this way because the engineers never really gave me the amount of detail that I wanted — it would be very vague, brief notes. But now I know exactly: the API has this new method, this new method has all these fields, and here's the data. So it's a lot more self-sufficient.
 
@@ -131,6 +176,7 @@ I like to discover what's in the releases without people telling me. And that's 
 **[~5:00]**
 
 #### Shifts in writing
+{:.no_toc}
 
 The biggest shift is probably in writing. Gradually — and sadly — the tech writer doesn't do a lot of writing. Instead, you tell an AI what you want to write for the docs, and then you spend the next bit editing it and correcting it and steering and trying to get it to write what you want.
 
@@ -139,6 +185,7 @@ It's just easier cognitively to operate this way. It's debatable whether it's fa
 In general, it's a huge shift to have been working in the writing field for 20 years where you're doing a lot of the writing, to now just telling AI, "Hey, we need this and that — write it."
 
 #### Shifts in tools
+{:.no_toc}
 
 AI tools emerge practically weekly. My favorite anecdote: there was a tech writer who was really championing Gemini CLI — this command line interface that allowed you to use AI tools. She was giving workshops on it, she'd written blog posts on it, given sessions on it — so much energy. Then she went away for three weeks on vacation, came back, and the whole topic had shifted. Now the tool was one called Anti-Gravity. The whole talk of the town was Anti-Gravity this, Anti-Gravity that. She just felt at a loss.
 
@@ -147,30 +194,36 @@ And these are just the authoring tools. There are tools baked into every part of
 **[~10:00]**
 
 #### Shifts toward system engineering
+{:.no_toc}
 
 Instead of working on a doc, we're working on building the systems that write the docs. And that's the hard part. How do you configure a process and a workflow and instructions and scripts that actually result in usable documentation? You're becoming a system engineer, thinking through: what do I need? What is my workflow to get to this getting-started tutorial or API overview or release notes? How can I automate this into some kind of process?
 
 It's very easy for errors at the start to propagate all the way through, and then you end up with hallucinations. Trying to figure out how you build in accuracy verification and resilience through that process is challenging.
 
 #### Brain fry
+{:.no_toc}
 
 This is a term used in a Harvard Business Review article about cognitive overload where you've got multiple processes running at the same time. You've got one agent doing one thing, another agent doing another, but you have to babysit them both. You have to approve implementation plans, review what they've got, and while you're waiting you bounce to another task. This sort of jostling around creates a lot of fragmentation and makes it difficult to focus.
 
 #### Pace
+{:.no_toc}
 
 The pace of things has also picked up. Things are much more accelerated. Part of the acceleration is due to a thinning of the tech writers — maybe 30% fewer than in the past, and you're supporting more teams. But also everybody around you is empowered with AI tools. They're cranking out code and not really providing much documentation to go along with it. The acceleration is maddening. And I think it will only get faster.
 
 #### Anxiety
+{:.no_toc}
 
 There's this constant dread: are we next? You hear about one company laying off writers — whether it's Amazon or Snowflake or Meta — and it creates a real sense of anxiety and powerlessness that permeates things. It used to not be the norm, but it definitely is now.
 
 #### Identity
+{:.no_toc}
 
 There's a sense that if I'm not really writing, why is my title "technical writer"? And if I'm building a workflow that produces a fairly complex and sophisticated output, is that a technical writer? Probably not. But then what am I? Am I just pushing buttons on a machine? Am I doing hard thinking? What's my value? There's a lot of questioning about how we establish our value.
 
 **[~15:00]**
 
 #### Q&A
+{:.no_toc}
 
 *[Audience question about whether tech writers need to know the programming languages they document.]*
 
@@ -195,6 +248,7 @@ It is a lot easier to edit than to write. So I think that's why even if it doesn
 ---
 
 ### Part 2: Wrestling with the Shifts
+{:.no_toc}
 
 My initial instinct was to try to prove my value with productivity — just be the writer they can't afford to cut, cranking out so much. But I don't really think this is all that valuable. I'm not sure that companies actually look at a specific employee's output. It's very hard to judge. But there is that pressure to really produce, to show that you're integral.
 
@@ -205,6 +259,7 @@ I feel extremely plugged in. This is a time that has captured the attention of t
 I've also been trying to keep up with the moving landscape — consuming tech podcasts, trying new things, giving workshops, attending workshops. What you know one month doesn't apply next month. The models change in really interesting ways. When I first started using these tools, they would just sort of spit out an output. Then at some point they started providing a thought log, and you could read the thinking behind the AI. And then they started writing Python scripts — every time you ask it to do something, it finds a way to write a script to do it. These technologies and approaches constantly change, which is really challenging to keep up with.
 
 #### Ratcheting up domain expertise
+{:.no_toc}
 
 I've found that if you want to interact with an AI tool in a conversational way, you have to have knowledge and expertise about the subject matter. Otherwise, you won't know if it's accurate or not.
 
@@ -215,6 +270,7 @@ There have been quite a few studies showing that if you know how to do something
 **[~25:00]**
 
 #### Hot takes and emotional whiplash
+{:.no_toc}
 
 It seems like everybody's got hot takes. In our book club, we read Ray Kurzweil's *The Singularity Is Nearer*, the follow-up to *The Singularity Is Near*. You've got people who are very enthusiastic — futurists predicting AGI in 2029, others predicting 50% of white-collar workers losing employment. Every time I listen to an Anthropic or Dario Amodei interview, it seems like he predicts lots of job loss. But you listen to other people and they're like, "No, this is bringing abundance and we're going to see tech saturate all these other domains where it wasn't." You've got people building whole systems seemingly over the weekend.
 
@@ -223,6 +279,7 @@ It's emotional whiplash. You can read one article and it says one thing. Scan do
 ---
 
 ### Part 3: Resolution — The Cyborg Model
+{:.no_toc}
 
 I do think legitimately AI can augment your role. You really can do superhuman things with AI. I had one of those humbling moments — I was writing a blog post comparing Mikhail Bakhtin, this Russian literary theorist from the 1930s, with model collapse, a research paper I had found. I was an English major as an undergraduate, so I went back and read Bakhtin's writing on heteroglossia. Man, it was so hard to get through — I struggled for about three hours at the kitchen table taking notes on maybe 25–30 pages.
 
@@ -237,6 +294,7 @@ Even if you do create a workflow, there's always some gremlin in there. Somethin
 There was a great meme going around some years ago — "What everybody thinks I do / what I actually do." For tech writers, everyone thinks it's writing all day, but writing is this tiny sliver of what they actually do. Even if you have a robot doing the writing, you've still got so many other things going on that can't really be automated.
 
 #### The cyborg model
+{:.no_toc}
 
 My conclusion is that we're trending toward a cyborg model — half machine, half person. You're collaborating in a more integrated, close-knit way in a loop of inputs, outputs, feedback, and correction. It's not a push-button solution where you watch it finish miraculously on its own.
 
@@ -249,6 +307,7 @@ If I could describe what's happening in the workplace, it's the cyborg model. It
 The biggest shift and the hardest part is not really writing much. The most writing is in chatting with the AI and telling it the back-and-forths. In the same way that people say coding is no longer really the skill, writing is no longer the skill. It's more like a medium. The skill is in everything you're building around it — are you building systems? It's no longer just "this person is a very articulate communicator."
 
 #### Q&A on the cyborg model
+{:.no_toc}
 
 *[Audience comment about the cyborg model having an end date — that the current generation of workers was trained pre-AI with rhetorical and editing skills, and once that generation ages out, the "human" part of the cyborg falls away.]*
 
@@ -283,8 +342,10 @@ It's really hard to know the depth and complexity of what another role does. I s
 ---
 
 ### Part 4: The Direction — Key Skills Going Forward
+{:.no_toc}
 
 #### 1. The jagged frontier
+{:.no_toc}
 
 This idea was made popular in the book *Co-Intelligence* by Ethan Mollick. AI can be really good at some things and really bad at others, but it's not really clear which is which. You can only figure that out if you experiment constantly with the tools and develop a sense of it.
 
@@ -295,6 +356,7 @@ Ethan Mollick's advice is: experiment. Try it with everything and you'll develop
 **[~50:00]**
 
 #### 2. The curious mode
+{:.no_toc}
 
 You are curious about the new technology coming out and you're learning it. You will get the rug pulled out from under you if you sink too much time into your favorite tool and favorite model and process. Things will change.
 
@@ -303,6 +365,7 @@ If you can flip your mind to just ask questions and explore things, it can reduc
 One thread I'm thinking of perfectly captures the antithesis of this mode. A writer said, "Yeah, I tried AI for this and it didn't work." We said, "Well, what else did you try?" The writer said, "No, that's it. I just tried once and it didn't work and I haven't tried again." Yeah — that's not how it works. You've got to try a lot of different things. You can't just give up so easily.
 
 #### 3. Understanding model behavior
+{:.no_toc}
 
 It helps to understand the quirks and patterns of these tools, because my job is becoming a conversation all day with an AI agent tool. For example, these tools want to be helpful. So even if a document is perfect, they feel like they need to make at least one suggestion. And sycophancy — these tools want to tell you, "That's a really keen observation, Tom" or "This is a brilliant insight." You've got to watch out for that. There are stories about people being deluded into believing they invented a new math language or some revolutionary breakthrough.
 
@@ -313,16 +376,19 @@ It's also helpful to know how many tokens these tools have. If you've had the sa
 **[~55:00]**
 
 #### 4. Context engineering
+{:.no_toc}
 
 This is the idea that you figure out what does the AI need to know in order to answer a question accurately. When a task comes in, my first question is: which information is going to be helpful? Do I need the API reference, or actually which parts of it? Maybe it was an update, so I want the change list diff from the code submission. Maybe there's a product requirements doc or engineering doc. I find some kind of source to feed into the AI, and once you have that source, you're much more equipped to get a good output. I almost never start a session without a bunch of context.
 
 This also plays out at larger scale. If you're building a chat interface for your application, your challenge is to get docs ported into the context right next to your interface. People want to make tailored chats that have their own RAG backend with a highly accurate, curated set of documentation. That context is what makes it powerful.
 
 #### 5. Domain expertise
+{:.no_toc}
 
 If you get a response back and you don't know the domain enough to evaluate it, you'll be at a disadvantage — you'll just shrug your shoulders. But when you've got expertise about something, even if it's not deep expertise, it gives you enough to get a sense of topics that might need more verification.
 
 #### 6. Accuracy and verification
+{:.no_toc}
 
 I recently had a podcast with Manny Silva, and he's big on "docs as tests." His idea is that we should be testing our documentation — every page is full of assertions that could be tested. The accuracy of our content is becoming almost my main deliverable. If anybody can push buttons in an AI and get some output, the value gets shifted toward the review.
 
@@ -367,22 +433,26 @@ I absolutely think that in your curriculums you should have a "build an app" typ
 **[~1:15:00]**
 
 #### 7. Agent skills and machine-consumable docs
+{:.no_toc}
 
 This is a whole framework — [agentskills.io](https://agentskills.io) — for how to take your documentation and make it readable by machines. This is probably the most salient takeaway for what a tech writer should focus on. Your job is not so much to write docs for humans, but to write them in a way that they're machine-consumable, so that other people interacting with their agents can get that information.
 
 These skills files are tremendously helpful, but also just trying to understand the pipeline of how you get the docs into the agent, how you evaluate how accurate the AI is with the information, and then build some kind of iterative loop — they call this "eval." If you can tie your value to the accuracy of an LLM's output, that is the golden dream. If you can literally show that hallucination is reduced by X% because of accurate documentation, and users are now making queries and the product is the one recommended — that's a tremendous achievement.
 
 #### 8. Automation engineering
+{:.no_toc}
 
 This is a huge skill — super hard to figure out, but if you can build processes and automate workflows, it's one of those areas that requires deep critical thinking. I think I want to change my title from "technical writer" to "documentation automation engineer" or something. This is the skill set that will be massively appreciated. Problem is, there aren't that many repeatable processes. Most docs are one-off situations.
 
 #### 9. Agent management
+{:.no_toc}
 
 If you set one agent doing something and have to wait two to five minutes, you put yourself into another task. If you can orchestrate multiple agents without having your brain ping-pong around in a crazy way, that's a real skill. Some people hear stories of having swarms of agents. I don't know anybody doing that in my space, especially not technical writers. Many are still trying to figure out how to be successful with one agent, let alone multiple.
 
 **[~1:20:00]**
 
 #### 10. Role blurring
+{:.no_toc}
 
 The final skill is really trying to think beyond your role — to move beyond this idea that a technical writer creates documentation. What if I also build apps? What if I also build products? What if I also do quality assurance? You have to get beyond this limitation in your mind about what you can and cannot do.
 
@@ -391,6 +461,7 @@ One of my colleagues was teaching us how to build an app using Gemini, and he st
 ---
 
 ### Closing
+{:.no_toc}
 
 That's all I have. My blog is [idratherbewriting.com](https://idratherbewriting.com) — I'll post this recording there. Feel free to reach out.
 
@@ -403,44 +474,3 @@ I don't know enough about OpenClaw to really comment. I'm really hesitant to giv
 I definitely agree. The growth is at such a fast scale there's no way it can be sustained. The amount people are spending versus their ROI is another big question. At what point do companies say, "Wait a minute, we spent this many billions and we didn't really get that much in return"?
 
 All right. Well, thank you so much. Really enjoyed chatting with you.
-
-## Narrative article
-
-*If the podcast were an article, this is what it would read like. (Note: AI-generated.)*
-
----
-
-### The Technical Writer Isn't Dead — They're Just Half Machine Now
-
-Here's the strangest thing about being a technical writer in 2026: the most writing you do all day is in chat windows, talking to an AI. Not crafting documentation, not wordsmithing tutorials — just typing instructions into a machine and then spending the next hour telling it everything it got wrong. Twenty years of honing a craft, and the craft has quietly shape-shifted into something nobody put on the job description.
-
-The anxiety in technical writing circles right now is palpable. Layoffs at major tech companies have thinned the ranks by an estimated 30%. Every few months, another headline announces that some company has cut its writing staff, betting that AI can pick up the slack. The tools themselves seem to validate the fear — they can analyze a dense academic PDF in under a minute, generate release notes from code diffs, and produce passable first drafts of API documentation without ever pinging an engineer. If you're a person whose title literally contains the word "writer," watching a machine write faster than you can read is an unsettling experience.
-
-But the panic, it turns out, is running ahead of the reality.
-
-The actual day-to-day of working with AI as a technical writer looks nothing like the frictionless automation that CEOs pitch in earnings calls. It looks like conversation — messy, iterative, demanding conversation. You feed the AI a product requirements doc, an engineering design spec, and a set of code diffs. You ask it to draft release notes. It produces something plausible. Then you notice it invented a package name that doesn't exist. You correct it. It apologizes effusively — these tools are sycophantic by design — and produces a revised draft that skips a critical change buried in the middle of the diff. You catch that too, because you've been generating the reference documentation yourself and you know exactly what changed between releases. Three rounds later, you have something publishable. The machine did the heavy lifting of drafting. You did the heavy lifting of *everything else*.
-
-This is the cyborg model: not replacement, but integration. A tight loop of human judgment and machine output, where neither party is dispensable. The metaphor comes from research on how knowledge workers actually use AI, and it maps cleanly onto what's happening in documentation shops. The writer isn't sitting idle while the robot works. The writer is steering, correcting, verifying, and — critically — deciding what questions to ask in the first place. That last part is what people outside the profession chronically underestimate. Knowing which slice of an API reference to feed into a session, or recognizing that a field in the spec has never actually been populated with real data, requires domain expertise that no prompt can conjure from nothing.
-
-And this is where the value proposition gets interesting. If content generation is effectively instant — if anyone can push a button and get a draft — then the bottleneck moves downstream. It moves to review, to accuracy, to verification. The technical writer's deliverable is no longer the document itself; it's the *trustworthiness* of the document. Every page of documentation is full of assertions that could be tested, and in a world where AI-generated content is flooding every channel, the person who can actually validate those assertions becomes indispensable. There's a reason radiologists haven't been replaced despite years of AI hype in medical imaging: someone has to sign off. Someone has to be responsible.
-
-The role is also expanding in directions that would have seemed foreign five years ago. Technical writers are building automated workflows, writing scripts to generate reference docs from source code, and thinking about how to make documentation machine-consumable so that AI agents can use it accurately. The title "documentation automation engineer" might sound like corporate buzzword soup, but it's a more honest description of the work than "writer" is at this point. The skill set is shifting from prose craftsmanship to systems thinking — and the writers who are thriving are the ones curious enough to keep shifting with it.
-
-None of this means the trajectory is comfortable or guaranteed. There's a genuinely uncomfortable generational question lurking beneath the cyborg model: the current cohort of technical writers was trained pre-AI. They bring rhetorical judgment, editorial instincts, and domain knowledge built up over years of doing the work manually. What happens when that generation ages out and is replaced by workers who've never operated without AI? If the human half of the cyborg was shaped by pre-AI training, does the cyborg survive the loss of that training? The skills atrophy argument is real — we've already lost the ability to navigate without GPS, and most kids can't read a paper map. Dependency deepens quietly.
-
-But here's the counterweight worth sitting with: AI tools are producing more code, more systems, more technology than ever. The world is becoming more code-intense, not less. If even a small greenhouse operation can now run sophisticated analytical software, the demand for people who can make that technology comprehensible — to humans and to machines — isn't shrinking. It's spreading into domains that never needed technical writers before. The door might be changing shape, but it doesn't appear to be closing.
-
-
-## Related resources
-
-* [Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
-
-* [World Brain: No Experts podcast - Three tech writers and a photographer walk into a bar (with Tom Johnson and Floyd Jones)](/blog/world-brain-no-experts-podcast-guest)
-
-* [10 principles of the cyborg technical writer -- brief notes and bullet points on how to use AI to augment your role](/blog/10-principles-of-cyborg-technical-writer)
-
-* [The Jagged Edge](https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf)
-
-* [Book review of Ethan Mollick's *Co-Intelligence*](/blog/book-review-co-intelligence-mollick) 
-
-* [Why attitudes and experiences differ so much with regards to AI among technical writers](/blog/plurality-of-ai-attitudes-experiences)
