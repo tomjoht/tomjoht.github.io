@@ -34,7 +34,7 @@ image: podcastthumblarahfabapril2026thumb.png
 * [GitHub - armstrongl/code-docs: An LLM and human friendly docs framework for code repositories · GitHub](https://github.com/armstrongl/code-docs) (Larah Vasquez)
 * [Overview - Agent Skills](https://agentskills.io/home) (Agent Skills spec)
 * [Extend Claude with skills - Claude Code Docs](https://code.claude.com/docs/en/skills) (Anthropic)
-* [Gemma &mdash; Google DeepMind](https://deepmind.google/models/gemma/) (Open Source models from Google Deep Mind)
+* [Gemma &mdash; Google DeepMind](https://deepmind.google/models/gemma/) (Open Source models from Google DeepMind)
 * [Vale: Your style, our editor](https://vale.sh/) (Vale linter)
 * [Larah Vasquez on LinkedIn](https://www.linkedin.com/in/larahvasquez)
 
@@ -78,7 +78,7 @@ Inside this churn sits the latest object of fascination: *skills*. A skill is a 
 
 The obvious objection is that this is just documentation with extra steps — the same content, reformatted, with front matter. But something subtler is happening. Skills that stay thin and call out to an MCP server for the actual doc content tend to outperform skills that try to cram everything in, and they're easier to keep fresh because the source of truth stays where it always was. That small architectural choice has a large implication: the documentation itself becomes the substrate that every agent in the company runs on. And when engineers start building skills, they discover they have to write down things they'd always kept in their heads. The skill is a forcing function. It turns tacit knowledge into artifact. Tech writers have been begging for that for twenty years.
 
-Which brings up the discomfort. If a tech writer's skill can teach anyone — a PM, an engineer, an AI agent — how to write a release note in the house style, isn't the writer automating themselves out of a role? The honest answer seems to be: only if you wanted the old role. The work is shifting upward, toward architecture and curation. Someone has to decide which skills exist, how they compose, when to use the elephant that remembers everything and when to use the goldfish that comes to every problem fresh. Someone has to notice that a skill is silently degrading model performance because it was written badly. Someone has to keep the house style coherent across two hundred agents that all claim to be following it. That someone looks a lot like a senior technical writer with new tools.
+Which brings up the discomfort. If a tech writer's skill can teach anyone — a PM, an engineer, an AI agent — how to write a release note in the house style, isn't the writer automating themselves out of a role? The honest answer seems to be: only if you wanted the old role. The work is shifting upward, toward architecture and curation. Someone has to decide which skills exist, how they compose, when to lean on accumulated memory and when to start with a blank slate. Someone has to notice that a skill is silently degrading model performance because it was written badly. Someone has to keep the house style coherent across two hundred agents that all claim to be following it. That someone looks a lot like a senior technical writer with new tools.
 
 The tension worth sitting with is memory. Long-term memory in these systems is still broken — corrupted context files, Memento-style sticky notes the model reads every morning and half-believes. Some writers want memory badly; others, having watched a model bias itself into defending yesterday's wrong answer, prefer the amnesia. Skills are partly an answer to that: memory you curate deliberately, in markdown, versioned and reviewed, rather than memory the model builds on its own while you weren't looking. Whether that's a stable equilibrium or a transitional hack is genuinely unclear. The likely next step is bigger packages — skills plus a fine-tuned model plus long-term memory plus a personality, bundled as a branded agent you hand to a new hire on day one.
 
@@ -94,7 +94,7 @@ The defining tension of the AI era might just be our entitlement to seamless per
 
 At the center of this shift is the realization that broad, unfettered AI is computationally expensive, often shallow, and shockingly fast at losing its thread of logic. Unrestrained generative AI tends to explore a vast breadth of disjointed ideas without truly anchoring itself to systemic depth. The most compelling solution isn't necessarily a larger model; instead, it is found in injecting high-quality human signals. When grounded in pre-existing expert materials&mdash;whether that’s a dense style guide, comprehensive system architecture, or carefully authored procedural templates&mdash;AI sheds its superficiality and becomes a surgical instrument. The need for a human in the loop has transformed the task into maintaining a precise feedback cycle, ensuring the system remains on tracks that humans purposefully build.
 
-This need for focus has sparked an evolution in how we structure workflows, moving past clunky, monolithic API integration in favor of modular "skills" and agentic frameworks. The Model Context Protocol (MCP) served as a powerful unifying bridge, acting as an API for LLMs. But when evaluating raw token context, feeding massive libraries through an MCP server can max out limits in seconds. Enter skills: lightweight, token-efficient instruction sets that function as automated blueprints. By distilling workflows&mdash;such as automatically extracting Vale rules from live documents or running continuous drift detection algorithms between code and documentation&mdash;organizations can deploy highly optimized sub-agents to tackle discreet problems independently, avoiding bloated context windows completely.
+This need for focus has sparked an evolution in how we structure workflows, moving past clunky, monolithic API integration in favor of modular "skills" and agentic frameworks. The Model Context Protocol (MCP) served as a powerful unifying bridge, acting as an API for LLMs. But when evaluating raw token context, feeding massive libraries through an MCP server can max out limits in seconds. Enter skills: lightweight, token-efficient instruction sets that function as automated blueprints. By distilling workflows&mdash;such as automatically extracting Vale rules from live documents or running continuous drift detection algorithms between code and documentation&mdash;organizations can deploy highly optimized sub-agents to tackle discrete problems independently, avoiding bloated context windows completely.
 
 But with modular efficiency comes a profound shift in organizational responsibility and individual contribution boundaries. It raises an uncomfortable yet vital question: if anyone can deploy a robust AI skill, do we risk crowdsourcing expert tasks at the cost of the experts themselves? The reality on the ground suggests something entirely different. Developing, deploying, and refining these automated workflows is creating new, more sophisticated forms of documentation that never previously existed. Those who step into this gap are not finding themselves obsolete; they are stepping up into the roles of system-wide curators and automation architects. 
 
@@ -155,7 +155,7 @@ We
 About
 
 **Larah** (03:27) <br>
-Have it E.B. so.
+Have EVs, so.
 
 **Fabrizio** (03:28) <br>
 Spain is that we invested a lot, well, we, I the country, invested a lot in renewable energy. And some days, like 100 % of the production is entirely renewable. I think that the closest in the US is California in terms of renewable energy production. And so that's good. That really put us in a good spot. But I do wonder if, you know, with the rising energy prices, how's that going to affect AI growth? Because it's quite energy intensive. So we'll see.
@@ -173,7 +173,7 @@ No, no, go ahead, go ahead. It will drive us more towards electric vehicles, per
 Probably, yeah.
 
 **Fabrizio** (04:52) <br>
-Yeah, yeah, yeah. I think majority of sales in most of Europe right now is from China. So I hope they have like tech riders over there also to write the manuals for the cars. I actually never dug into it, but sometimes I wonder about like what the profession looked like over there. But yeah, the other thing that I've seen is a shift towards like, well, know, open clock. Have you heard about it? Have you used it or tried it?
+Yeah, yeah, yeah. I think majority of sales in most of Europe right now is from China. So I hope they have like tech riders over there also to write the manuals for the cars. I actually never dug into it, but sometimes I wonder about like what the profession looked like over there. But yeah, the other thing that I've seen is a shift towards like, well, know, OpenClaw. Have you heard about it? Have you used it or tried it?
 
 **Tom** (05:28) <br>
 I have not, I've seen that you've been using it.
@@ -215,7 +215,7 @@ There was kind of a shift in the models we were using internally. it was, yeah, 
 Yeah. Yeah, but it's, yeah, but it's, really one of those things that, we are, you know, at work, I'm thinking about like, an AI tooling strategy. So we are thinking about like the tiers, the kind of tools you're going to use and for what. And Larah has done some very interesting work recently there. And the model of course is part of that calculation, you know, like, like what model I'm going to use and for what task. Like it's overkill to use something like Opus for something like typos, for example, and it's also slower. So there's always that calculation there. And also like, where are you going to run the process? Like, is it going to be in a CI pipeline? It's going to be locally as a skill, maybe both. And it could be both, right? And like you can do the local editing and then the same as you compile things in a, when you, when you open up your locally, you know, can do both things, but Larah tell us about you created these repo with tones of interesting ideas for, things that, you know, AI doing automatic things and automation, like tell us like, How did you get there and what did you get from it?
 
 **Larah** (11:01) <br>
-So you're talking about like the AI project ideas? Oh, okay. Yeah. So we're having a Hack Week at Tailskill next week. And usually the docs teams, in my experience, don't get to fully participate in Hack Week, like other teams like support. But luckily our new product leaders are awesome and they are basically requiring us to participate in Hack Week, which I think is awesome. But we didn't really have a lot of time to brainstorm and come up with ideas, especially the rest of my team.
+So you're talking about like the AI project ideas? Oh, okay. Yeah. So we're having a Hack Week at Tailscale next week. And usually the docs teams, in my experience, don't get to fully participate in Hack Week, like other teams like support. But luckily our new product leaders are awesome and they are basically requiring us to participate in Hack Week, which I think is awesome. But we didn't really have a lot of time to brainstorm and come up with ideas, especially the rest of my team.
 
 **Larah** (11:31) <br>
 I wanted to put something together that kind of helped spark ideas for everyone on the team so they could just really get the most out of Hack Week. And so I'm really, really ADHD. And so as I'm working, I'm constantly having ideas be like, oh, let's do this, let's do this, let's do this. And so I just kind of write those things down throughout the day just to kind of get them out of my head so I can focus. And so I actually had AI go through a big, long collection of ideas over the past like,
@@ -308,7 +308,7 @@ Um, well, the biggest sort of character trait I see in models is the sycophancy 
 Yeah. He
 
 **Tom** (19:22) <br>
-Didn't open AI try to like reduce some of that syco fancy like they had turned up the dial to try to get people that like the models better at one point and then they got their hand slapped for it and so on. But I don't know. I'm not so against that. don't really. Here's a problem with the whole like character thing or whatever you call the personality is that I have to restart the session so much because like I want to wipe clean the context.
+Didn't open AI try to like reduce some of that sycophancy like they had turned up the dial to try to get people that like the models better at one point and then they got their hand slapped for it and so on. But I don't know. I'm not so against that. don't really. Here's a problem with the whole like character thing or whatever you call the personality is that I have to restart the session so much because like I want to wipe clean the context.
 
 **Tom** (19:51) <br>
 I don't really see a lot of like personality in things. And I've also told, the model there or the aid, the, in my agent.md file, my, in this case, like my Gemini dot markdown file that provides high level instruction. say, want it just the facts kind of answer in a lot of cases. I want it to be, I I don't really want to see a lot of adjectives or adverbs and I don't want to see a.
@@ -401,7 +401,7 @@ A work tree is basically a copy of a Git repo that you have locally, but it's th
 I think we call those internally like workspaces or something. I actually don't work with Git at all except for my blog. my work, none of our stuff, like it's all behind the scenes. I'm sure like it's based on Git, but like we don't actually do the Git commands and so on because of other.
 
 **Fabrizio** (28:08) <br>
-Yeah, it's funny. There was someone on Hacker News the other day showing a tool they created to make Git easier to use. And commenters, well, in typical Hacker News fashion, where they were like, well, I mean, what do we need a tool to use Git easier now if LLMs handle all of it? And it's quite, I mean, it was quite a roast, but it's very true. Git was always the barrier to entry for like DOCSIS code sometimes, et cetera. But it's just so easy enough to just tell the LLM, well, know, fix this conflict and then push and open up ER. And sometimes I even asked to reply using the GH command line tool. So.
+Yeah, it's funny. There was someone on Hacker News the other day showing a tool they created to make Git easier to use. And commenters, well, in typical Hacker News fashion, where they were like, well, I mean, what do we need a tool to use Git easier now if LLMs handle all of it? And it's quite, I mean, it was quite a roast, but it's very true. Git was always the barrier to entry for like docs as code sometimes, et cetera. But it's just so easy enough to just tell the LLM, well, know, fix this conflict and then push and open up ER. And sometimes I even asked to reply using the GH command line tool. So.
 
 **Tom** (28:56) <br>
 I have a question coming back to skills for both of you that we haven't really been able to resolve, but I feel like you've done a lot more with skills. So let me see. The question is more around external uses of skills. The skills that I've created are just for my own use for creating release documentation and others like processes I do. but you created, I know for Bricio at least you've created skills that go into your docs to be intended to be used by your developer users.
@@ -470,7 +470,7 @@ And, like it knows what's allowed in the front matter and how to create them. I'
 Yeah. It's interesting that you mentioned the skill creator Meta skill. Like I see lots of potential in Meta skills and one of these skills that we created at Elastic, I made it actually. And there's kind of a, well, it's not a trap, but there's something there that helped the Docs team because what we put into that skill creator skill is that any skill you create,
 
 **Fabrizio** (38:13) <br>
-If it refers to documentation, it has to call our MCP server. You know, like whenever you call docs or you want to retrieve documentation, et cetera, you know, when you create a scale based on things we do first search the docs. And we do that through the MCP server. And it's the MCP server is really one of the best things we have done. I know that some folks are already saying that MCP is dead, whatever.
+If it refers to documentation, it has to call our MCP server. You know, like whenever you call docs or you want to retrieve documentation, et cetera, you know, when you create a skill based on things we do first search the docs. And we do that through the MCP server. And it's the MCP server is really one of the best things we have done. I know that some folks are already saying that MCP is dead, whatever.
 
 **Fabrizio** (38:41) <br>
 I think MCP are just like APIs for LLMs. And having the ability of performing semantic searches in our docs with the MCP server, it has become like the knowledge layer that everything else, every other AI tool is using. So skills are using it, new CLI tools are gonna use them, agentic workflows can also call MCP servers to do things. So we kind of solved the problem of the memory of the documentation through that.
@@ -479,7 +479,7 @@ I think MCP are just like APIs for LLMs. And having the ability of performing se
 Wait, you said something that caught my attention. You said some people say that MCP is dead. I had not heard this, so can you elaborate?
 
 **Fabrizio** (39:22) <br>
-Yeah. Well, I see, I see Lear nodding. Maybe you can, you can tell.
+Yeah. Well, I see, I see Larah nodding. Maybe you can, you can tell.
 
 **Larah** (39:28) <br>
 Yeah. So there was nothing really special about MCP except that it just got people creating integrations and standardized the way LLMs use things. So it was basically API for LLMs. And I think it was fantastic. There's nothing special about it except that it kind of unified people on a standard. But now people are starting to realize that you can actually be a lot more token efficient through other means. So if you ever analyze your context usage through whatever coding agent you use, if you have a lot of MCP servers, it takes up a lot of your context just by default loading the descriptions of every single tool the MCP server has access to. And there are ways to make that better. It just depends on how people design the MCP server, but I don't think they're going anywhere. Like it's, yeah.
@@ -488,7 +488,7 @@ Yeah. So there was nothing really special about MCP except that it just got peop
 Yeah, yeah, we need to like, it's, course, they're not the solution to everything because every time something new comes up in the iWord, well, even outside of the iWord in tech in general, it's like, yeah, we're going to use MCP for everything. It's not like that. it's, and the same will happen with skills. Like we will probably see like a more focused usage as we become like more, more experts at it. So yeah.
 
 **Tom** (40:41) <br>
-Sorry Fabrice, you said, what is the I word? What is that?
+Sorry Fabrizio, you said, what is the I word? What is that?
 
 **Larah** (40:42) <br>
 Think good.
@@ -509,7 +509,7 @@ I'm getting old my yeah, my comprehension is going down you know, I spent I spen
 No worries, no worries. doesn't hurt to... yeah.
 
 **Tom** (41:18) <br>
-Fiddling around with the cruise control in my Jetta and there's this one acronym that bothers me that I couldn't figure out what it is. It says CNL and I push it and I was like, what the hell does this refer to? It refers to the word cancel. I had to like search it. anyway, sorry, Larry, you were gonna say something about Fabrizo back on track. So go ahead.
+Fiddling around with the cruise control in my Jetta and there's this one acronym that bothers me that I couldn't figure out what it is. It says CNL and I push it and I was like, what the hell does this refer to? It refers to the word cancel. I had to like search it. anyway, sorry, Larah, you were gonna say something about Fabrizo back on track. So go ahead.
 
 **Fabrizio** (41:32) <br>
 Hahahaha Yeah.
@@ -593,7 +593,7 @@ Yeah. Yeah. Yeah. Yeah. Mm-hmm.
 And I realized it's actually really hard. Like I was digging through chat rooms. I'm like, I have, most people are complaining about this or all. didn't know about that little tiny widget there, but in general, you mentioned that you and Larah are tinkerers. know Larah, you've got, I don't know how many, GitHub repos for different experiments you've done, but, what's your process for just wanting to learn if you want to, you want to. up level your knowledge of something in AI. What are you doing? What are you building a project? Are you reading something? Are you going through chat rooms?
 
 **Fabrizio** (52:53) <br>
-Lyra?
+Larah?
 
 **Larah** (52:55) <br>
 Okay, I'll go first. It really varies. I've been trying to nail this down. A lot of times it'll start with me reading about what other people have done, about how something works, and I'll kind of go down a rabbit hole. I'll be reading research papers, all sorts of things, and then I'll start experimenting with it. And then usually I have a obsidian journal where I'm just like, I write a lot. lot of times it's nothing that would ever be useful to anyone, but I'll write what I think is the case. And then I'll go through and I'll, I'll learn by seeing where I'm wrong and I'll adjust it and things like that. And I've actually been using AI to help me learn a lot. I'll, I'll have it interview or interrogate me, kind of drill into my ideas. Second guess, my assumptions make me drill deeper. And I found that to be really beneficial also whenever I'm kind of like struggling with an idea or I'm interested in a very specific area, I'll help it search. have it help me search the web for people who are maybe diggering into similar problems. I'll get a lot of inspiration that way. I don't just, really varies.
@@ -617,7 +617,7 @@ Larah, what's your favorite channel for staying plugged in?
 Also, hacker news, I have subscribed to a lot of different blogs of people who are just kind of really active in the space. There a of people on Substack who are like all over every new thing that pops up in the industry that's been cool. There's a lot of just kind of like forums, Discord communities, also subreddits, like all over the place, like you can waste all day.
 
 **Fabrizio** (56:16) <br>
-Yeah. Yeah. Well, we all follow Simon Willis and his Pelican experiments. Yeah, I follow him on Blue Sky too, and it's a way of getting his news. I'm just a little mad at him because one day he said something about redmi powered something, like skills or whatever. And I was like, it's documentation. It's not a redmi. But anyway.
+Yeah. Yeah. Well, we all follow Simon Willison and his Pelican experiments. Yeah, I follow him on Blue Sky too, and it's a way of getting his news. I'm just a little mad at him because one day he said something about readme powered something, like skills or whatever. And I was like, it's documentation. It's not a readme. But anyway.
 
 **Larah** (56:35) <br>
 Yes.
