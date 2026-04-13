@@ -12,6 +12,7 @@ ebooks/docapis.mobi
 ebooks/docapis.epub
 reindex.sh
 images
+_tmp/
 node_modules
 **/audio/
 **/pdf
