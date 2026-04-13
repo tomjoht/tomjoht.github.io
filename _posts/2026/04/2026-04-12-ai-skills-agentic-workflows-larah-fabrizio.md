@@ -46,7 +46,7 @@ Here's a list of topics we talked about. (Note: AI-generated.)
 - **AI tooling strategies** &mdash; Organizations are assessing different tiers of AI tools for specific tasks to optimize performance, token usage, and compute — for example, not wasting Opus on a typo check.
 - **Automating style guides** &mdash; Generative AI can reverse-engineer documentation assets, such as automatically generating Vale rules from an existing style guide site instead of hand-authoring them.
 - **Why AI output starts bad by default** &mdash; Generic AI writing improves substantially only when grounded in high-quality signals, templates, and constraints authored by humans — the case for keeping writers in the loop.
-- **Model personality vs. memory** &mdash; There are real trade-offs between models that remember everything and models that come fresh to each session; sometimes you want the elephant, but often you want the goldfish.
+- **Model personality vs. memory** &mdash; There are real trade-offs between models that remember everything and models that come fresh to each session; sometimes you want the memory, but often you want no memory at all.
 - **The memory problem** &mdash; Long-term memory in LLMs is still unsolved — memory.md files get corrupted, and agents end up rereading their own sticky notes like the protagonist of *Memento*.
 - **Compound engineering** &mdash; A brainstorm → plan → work → compound loop where agents write lessons learned back to disk to improve over time — powerful, but extremely token-hungry.
 - **Token constraints and efficiency** &mdash; Running AI workflows demands careful context management; unchecked configurations pollute the context window and blow through tokens fast.
