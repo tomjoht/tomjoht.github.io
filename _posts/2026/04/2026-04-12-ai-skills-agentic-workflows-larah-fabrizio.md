@@ -13,6 +13,7 @@ podcast_file_size: 62.9
 podcast_duration: "01:05:03"
 podcast_length: 62442309 
 image: podcastthumblarahfabapril2026thumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_podcast-how-valuable-are-agent-skills-conversation-share-7449456209021272064-209n
 ---
 
 * TOC
@@ -62,13 +63,11 @@ Here's a list of topics we talked about. (Note: AI-generated.)
 
 ## Narrative essay version of the conversation
 
-*If the podcast were an article, this is what it would read like. (Note: AI-generated.)*
+*If the podcast were an article, this is what it would read like.*
 
 *This version was generated with Claude 4.6 Opus extended*:
 
-### The Tech Writer as Architect
-
-**Why "skills" are quietly rewiring what documentation is — and who gets to do it**
+**The Tech Writer as Architect: Why "skills" are quietly rewiring what documentation is — and who gets to do it**
 
 The most interesting thing happening in technical writing right now isn't a new authoring tool or a better static site generator. It's the quiet, strange fact that engineers everywhere are suddenly being forced to write documentation they never would have written before — not for humans, but for the language models sitting next to them in the editor. And the people who know how to shape that writing well are, predictably, the same people the industry has spent a decade telling to be worried about their jobs.
 
@@ -86,7 +85,7 @@ The quiet irony is that every writer who has gone deep on this is busier than ev
 
 ---
 
-*This version was generated with Gemini 3.1 (high):*
+*For contrast, here's another version that was generated with Gemini 3.1 (high):*
 
 **Orchestrating the Machine: The Shift from Writer to Automation Architect**
 
