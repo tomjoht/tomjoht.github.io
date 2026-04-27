@@ -3,21 +3,23 @@ title: "AI Book Club: A Human in the Loop"
 permalink: /ai-book-club/
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-book-club-a-human-in-the-loop-activity-7305637955602157569-3Oh3
 type: page
-last-modified: 2025-11-29
+last-modified: 2026-04-27
 ---
 
-This book club focuses on reading and discussing popular books about AI, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
+This book club focuses on reading and discussing popular books about AI and technology, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
 
-The selection covers general interest books on AI rather than engineering-heavy texts or books specifically focused on technical communication. As shown in the schedule below, these are popular titles targeting a broad audience. 
+We don't limit ourselves to AI-only books — that would get tiring. We also read general interest books on technology, since most tech topics connect to AI in some way. We tend to alternate between AI-focused titles and broader technology reads. The selection covers popular, accessible books rather than engineering-heavy texts or books specifically focused on technical communication. 
 
-However, regardless of their popular focus, these books are a good catalyst for thinking about AI, and there might be many themes and takeaways that will likely apply to whatever you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
+Regardless of their popular focus, these books are a good catalyst for thinking about AI, and there are many themes and takeaways that will likely apply to whatever you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
 
 * TOC
 {:toc}
 
 ## Upcoming reading schedule {#schedule}
 
-The following tables list the upcoming reading schedule. The descriptions are extracts from the book summaries on Amazon. More details for the notes and discussion links will be added as the meeting date approaches.
+The following table lists the upcoming reading schedule. The descriptions are extracts from the book summaries on Amazon. More details for the notes and discussion links will be added as the meeting date approaches. 
+
+To see previous recordings and notes, see [Previous meetings and recordings](#previous) below.
 
 <table>
    <thead>
@@ -47,13 +49,13 @@ The following tables list the upcoming reading schedule. The descriptions are ex
 
 ## Reading pace {#readingpace}
 
-We read one book a month, as listed in the schedule below. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
+We read one book a month, as listed in the schedule above. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
 
 Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to explore them in depth rather than just keeping up with the latest model release or news headlines.
 
 There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read (or listen to) part or all of the books, and participate as much or little as you like. The meetings take place online on the third Sunday of each month at 10am Pacific Time.
 
-## Recording
+## Recording and sharing {#recording}
 
 Each book club is recorded, using Google Meet as the platform. The recordings are uploaded to YouTube and shared on this site. See the *Meeting Recording* links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
 
@@ -121,7 +123,7 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you
 
 ## Previous meetings and recordings {#previous}
 
-The previous meetings include recordings, notes, and other resources. They're listed in order of most recently completed meetings.
+Previous meetings are listed below with recordings, notes, and other resources, from most recent to oldest.
 
 <table>
    <thead>
