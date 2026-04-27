@@ -1,19 +1,5 @@
 upcoming:
 
-  - date: "Apr 19, 2026"
-    time: "4pm PT"
-    book:
-      title: "Breakneck: China's Quest to Engineer the Future"
-      author: "Dan Wang"
-      url: "https://www.amazon.com/dp/1324106034"
-      image: "breakneck.png"
-      summary: >
-
-        "In Breakneck, Wang blends political, economic, and philosophical analysis with reportage to reveal a provocative new framework for understanding China―one that helps us see America more clearly, too. While China is an engineering state, relentlessly pursuing megaprojects, the United States has stalled. America has transformed into a lawyerly society, reflexively blocking everything, good and bad"
-
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
   - date: "May 17, 2026"
     time: "10am PT"
     book:
@@ -58,6 +44,22 @@ upcoming:
 
 
 previous:
+
+  - date: "Apr 19, 2026"
+    recording:
+      url: "/blog/book-club-breakneck-china-wang"
+      text: "Meeting recording"
+    book:
+      title: "Breakneck: China's Quest to Engineer the Future"
+      author: "Dan Wang"
+      url: "https://www.amazon.com/dp/1324106034"
+      image: "breakneck.png"
+      summary: >
+
+        "In Breakneck, Wang blends political, economic, and philosophical analysis with reportage to reveal a provocative new framework for understanding China―one that helps us see America more clearly, too. While China is an engineering state, relentlessly pursuing megaprojects, the United States has stalled. America has transformed into a lawyerly society, reflexively blocking everything, good and bad"
+
+    notes_url: "https://docs.google.com/document/d/1U19mfRZk9RDisk3dW7tH6EW7nrlB-jbV4_w92DnRc0w/edit?tab=t.0#heading=h.jmbbv3gj6hwr"
+    meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "Mar 15, 2026"
     recording:

@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# Make sure API key loads from .zshrc file
-source ~/.zshrc
+# Try loading REBRANDLY_API_KEY from common zsh config files
+# Handles variations like: export KEY=value, export KEY="value", KEY=value
+for rc_file in ~/.zshenv ~/.zshrc ~/.zprofile; do
+    if [[ -f "$rc_file" ]]; then
+        eval "$(grep -E '^\s*(export\s+)?REBRANDLY_API_KEY\s*=' "$rc_file" 2>/dev/null | sed 's/^\s*export\s*//' | sed 's/^/export /')"
+    fi
+done
 
 # Get current date, year, and month
 DATE=$(date +"%Y-%m-%d")
@@ -14,9 +19,6 @@ read TITLE
 
 echo "Enter the post slug:"
 read SLUG
-
-# Replace spaces with hyphens and convert to lowercase
-# SLUG=$(echo "$TITLE" | tr "[:upper:]" "[:lower:]" | sed "s/ /-/g")
 
 # Create year and month directories if they don't exist
 mkdir -p _posts/$YEAR/$MONTH
@@ -85,21 +87,21 @@ published: false
 
 EOL
 
-
 # Ask user if they want to create a rebrandly shortlink
 echo "Would you like to create a rebrandly shortlink? (y/n)"
 read answer
 
 if [ "$answer" = "y" ]; then
-    # get API key from .zshrc file
     REBRANDLY_KEY="${REBRANDLY_API_KEY}"
 
-    # make API call to Rebrandly to create shortlink
-    data=$(printf '
-    {
-    "domain": {
-        "fullName": "idbwrtng.com"
-    },
+    # Validate the key was actually loaded
+    if [[ -z "$REBRANDLY_KEY" ]]; then
+        echo "Error: REBRANDLY_API_KEY not found. Check that it's defined in ~/.zshrc or ~/.zshenv."
+        exit 1
+    fi
+
+    data=$(printf '{
+    "domain": { "fullName": "idbwrtng.com" },
     "destination": "https://idratherbewriting.com/blog/%s",
     "slashtag": "%s",
     "title": "%s"
@@ -113,7 +115,7 @@ if [ "$answer" = "y" ]; then
         --data "$data"
     )
 
-    echo "Response:" $response
+    echo "Response: $response"
 fi
 
 open -a Antigravity "$FILENAME"
