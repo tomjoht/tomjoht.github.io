@@ -4,6 +4,7 @@ permalink: /blog/book-club-breakneck-china-wang
 date: 2026-04-26
 categories:
 - ai-book-club
+- podcasts
 keywords: social engineering, AI, china, electric vehicles, energy infrastructure, military, lawyer, engineer, dan wang
 rebrandly: https://idbwrtng.com/book-club-breakneck-china-wang
 description: "This is a recording of the AI Book Club discussion of Dan Wang's <i><a href='https://www.amazon.com/dp/1324106034'>Breakneck: China's Quest to Engineer the Future</a></i>. Our discussion tries to tie some of the book's themes to AI (to align with the book club's theme), but only in places where it makes sense. Some topics we discuss include social engineering, electric vehicles, contrasting energy infrastructures and the ability to power AI compute, mass surveillance networks, the differences between America's lawyerly society and China's engineering state. Fortunately, one of the book club members had recently been to China and could share firsthand experiences and impressions of cities like Shenzhen and Beijing. Among many observations, she describes the tech fatigue of everyday life, where everything (even prices at stores) requires you to use an app."
@@ -12,6 +13,7 @@ podcast_file_size: 44.5
 podcast_duration: "00:58:43"
 podcast_length: 43982391 
 image: bookclubtitlebreakneckwangthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_podcasts-ai-bookclub-share-7454515997069295616-ACzR
 ---
 
 Note that most of these shownotes are AI-generated based on the transcript.
