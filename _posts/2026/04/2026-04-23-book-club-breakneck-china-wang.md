@@ -1,7 +1,7 @@
 ---
 title: "AI Book Club discussion recording of 'Breakneck: China's Quest to Engineer the Future', by Dan Wang"
 permalink: /blog/book-club-breakneck-china-wang
-date: 2026-04-26
+date: 2026-04-23
 categories:
 - ai-book-club
 - podcasts
