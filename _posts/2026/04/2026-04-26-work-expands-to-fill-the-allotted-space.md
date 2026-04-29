@@ -14,7 +14,7 @@ I actually hit a brief moment where I hit bug zero, and I felt pretty accomplish
 
 While I was watching the bug count I'd worked so hard to reduce just refill so easily, I came across this video. It's of a retired gentleman giving advice to someone 20 years younger. 
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/dfNdxB4Giyo?si=_vioT0gK4GSzoF5U](https://www.youtube.com/embed/dfNdxB4Giyo?si=_vioT0gK4GSzoF5U)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dfNdxB4Giyo?si=f5bvQ6YT1A8OO1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The point that resonates most with me is this: work fills any space you give it. The bugs will naturally just fill up in your queue because you're there, as a resource for others. But also, the work will fill all the time you give it as well.
 
