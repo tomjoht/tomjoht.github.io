@@ -18,7 +18,7 @@ While I was watching the bug count I'd worked so hard to reduce just refill so e
 
 The point that resonates most with me is this: work fills any space you give it. The bugs will naturally just fill up in your queue because you're there, as a resource for others. But also, the work will fill all the time you give it as well.
 
-The last couple of weeks I had some late soccer pickups, with my kid having practice until 8:00 pm. I usually pick her up on my way home from work, so I decided to just drive all the way in to work and hang out until about 7:30 pm, then drive to pick her up on my way home.
+The last couple of weeks I had some late soccer pickups, with my kid having practice until 8:00 pm. I usually pick my daughter up on my way home from work, so I decided to just drive all the way in to work and stay there until about 7:30 pm, then drive to pick her up on my way home.
 
 This took me out of my usual schedule, which involves driving to the train (Sounder), taking the train to downtown (King Street Station), and then biking the rest of the way to work (only a few miles to South Lake Union). It turns out that biking to work puts me on a more fixed schedule with the train because the last Sounder train out of the city is at 6:30 pm. I'd somehow forgotten the value of a regular schedule.
 
@@ -34,11 +34,9 @@ Jevons paradox is coming to mind here. If you make a process easier to use, more
 
 It's like adding a new lane on a freeway — the new lane (bandwidth) just gets filled up with more cars (work). AI might have cleared up some new lanes for us, but those new lanes aren't empty. They're full of new cars driving down them. Just as cars expand to fill the space of freeways, so too does work expand to fill the new bandwidth we grant it in our lives.
 
-To use a metaphor, work is like a black vapor that expands into any space it's allowed to move into. Open that door and the black vapor soon fills the entire room. It's like a gas that expands to fill any space homogeneously, spreading its entropy across the universe.
+To use another metaphor, a darker one, work is like a black vapor that expands into any space it's allowed to move into. Open that door and the black vapor soon fills the entire room. It's a gas that expands to fill any space it's allowed to enter homogeneously.
 
-I need to avoid letting work expand like this, mostly by putting fixed guardrails around my time at work. I stopped driving all the way to work and staying late just because of an 8 pm soccer pickup. Instead, I always ride my bike. For extra time, I might wander around the club facility or do other errands or tasks outside of work, or to sit down at a cafe and write. I like the fixed schedule bookended by the Sounder's timetable and sticking more closely to that schedule, letting it structure my life. 
-
-I might also be ending this doc bug zero series too. I'll prioritize my doc work and get through as much as I can, but I'm done opening that after-work door to let the black vapor fill my house and life, or filling my head with ideas of finishing everything in my queue.
+I need to avoid letting work expand like this, mostly by putting fixed guardrails around my time at work. To begin with some guardrails, I stopped driving all the way to work and staying late just because of an 8 pm soccer pickup. Instead, I always ride my bike, even on days I play early morning basketball. With my extra time post-work (before a late soccer pickup), I might wander around the club facility or do other errands or tasks outside of work, or to sit down at a cafe and write. I like the fixed schedule enforced by the Sounder's timetable and sticking more closely to that schedule, letting it structure my life. 
 
 ---
 
