@@ -1,4 +1,3 @@
-{% comment %}
 <!-- sidebar_comics.html -->
 
 <style>
@@ -7,78 +6,78 @@
   }
 
   .inpostComics {
-      padding: 25px;
-      margin-bottom: 10px;
-      border-radius: 7px;
-      max-width: 900px;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    max-width: 900px;
   }
 
   .inpostComics .textLink a {
     font-size: 14px;
     font-family: Arial;
   }
+
   .textLink {
     font-size: 13px;
     font-family: arial;
     margin-bottom: 18px;
-}
+  }
+
   .textLink {
     max-width: 260px;
   }
 
   .inpostComics .textLink {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
+
   /* this part adds an icon after external links, using FontAwesome */
 
-.inpostComics a[href^="http://"]:after,
-.inpostComics a[href^="https://"]:after,
-.sidebarComics a[href^="http://"]:after,
-.sidebarComics a[href^="https://"]:after
- {
-  content: "\f08e";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 3px;
-}
+  .inpostComics a[href^="http://"]:after,
+  .inpostComics a[href^="https://"]:after,
+  .sidebarComics a[href^="http://"]:after,
+  .sidebarComics a[href^="https://"]:after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 3px;
+  }
 
-.inpostComics a[href].noCrossRef::after,
-.sidebarComics a[href].noCrossRef::after
- {
-    content: ""!important;
+  .inpostComics a[href].noCrossRef::after,
+  .sidebarComics a[href].noCrossRef::after {
+    content: "" !important;
     padding-left: 0;
-}
+  }
 </style>
 
 <div class="sidebarComics">
   <h3>Sponsored content</h3>
-    <script>
-        var contents=new Array()
-       //Heretto
-        //contents[0]='<a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/herettoinline_apr24_2022"><img style="border: 1px solid lightgray" src="{{site.media}}/heretto.png" alt="Heretto" /></a> <div class="textLink"><a href="https://idbwrtng.com/herettoinline_apr24_2022">Heretto is an enterprise-grade CCMS for your entire content ecosystem</a></div>'
-         //TWi
-        //contents[1]='<a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/twiinline_apr24_2022"><img style="border: 1px solid lightgray" src="{{site.media}}/technically_write_it.jpg" alt="TWi: Leading Provider of Documentation and Technical Communication Solutions" /></a> <div class="textLink"><a href="https://idbwrtng.com/twiinline_apr24_2022">Which one are you, which one should you be, and why?</a></div>'
-        var i=0
-        //variable used to contain controlled random number
-        var random
-        //while all of array elements haven't been cycled thru
-        while (i<contents.length){
-            //generate random num between 0 and arraylength-1
-            random=Math.floor(Math.random()*contents.length)
-            //if element hasn't been marked as "selected"
-            if (contents[random]!="selected"){
-                document.write(contents[random])
-                //mark element as selected
-                contents[random]="selected"
-                i++
-            }
-        }
-    </script>
+  <script>
+    var contents = new Array()
+    //adoc Studio
+    contents[0] = '<a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/adoc-sidebar-may2-2026"><img style="border: 1px solid lightgray" src="{{site.media}}/irbw2026-2x.png" alt="adoc Studio: text-based authoring for Mac & iPad. PDF/UA in one attribute." /></a> <div class="textLink"><a href="https://idbwrtng.com/adoc-sidebar-may2-2026">adoc Studio: text-based authoring for Mac & iPad. PDF/UA in one attribute.</a></div>'
+    //TWi
+    //contents[1]='<a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/twiinline_apr24_2022"><img style="border: 1px solid lightgray" src="{{site.media}}/technically_write_it.jpg" alt="TWi: Leading Provider of Documentation and Technical Communication Solutions" /></a> <div class="textLink"><a href="https://idbwrtng.com/twiinline_apr24_2022">Which one are you, which one should you be, and why?</a></div>'
+    var i = 0
+    //variable used to contain controlled random number
+    var random
+    //while all of array elements haven't been cycled thru
+    while (i < contents.length) {
+      //generate random num between 0 and arraylength-1
+      random = Math.floor(Math.random() * contents.length)
+      //if element hasn't been marked as "selected"
+      if (contents[random] != "selected") {
+        document.write(contents[random])
+        //mark element as selected
+        contents[random] = "selected"
+        i++
+      }
+    }
+  </script>
 </div> <!-- /sidebarComics -->
 <div style="clear:both;"></div>
 
 <!-- / end sidebar_comics.html -->
-{% endcomment %}
