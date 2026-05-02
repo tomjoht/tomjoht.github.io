@@ -7,7 +7,6 @@ categories:
 - writing
 keywords: frenetic thinking, slow thinking, AI tools, troubleshooting, patience, deliberate practice, instant culture, deep work
 rebrandly: https://idbwrtng.com/frenetic-thinking-vs-careful-measured-analysis
-published: false
 ---
 
 One of the things I dislike about AI is how it takes over everything — every conversation, every process, every tool. But this week I noticed it started taking over my thinking as well.
@@ -30,4 +29,4 @@ I see a lot of value in slow, deliberate thinking. Given that we work with insta
 
 Perhaps we can exert more scrutiny on the instant answers. We can implement more verification workflows to apply to those instant answers before accepting them. 
 
-Additionally, perhaps reading print-form books might be something that works for me, which I emphasize as a deliberate practice in the slow movement to push back against instantaneous everything. Is a print book really the antidote to instant thinking?
+Additionally, perhaps reading print-form books might be something that works for me, which I might emphasize as a deliberate practice in the slow movement to push back against instantaneous everything. Is a print book really the antidote to instant thinking?
