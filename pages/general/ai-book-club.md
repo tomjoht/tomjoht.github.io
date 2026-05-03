@@ -21,6 +21,9 @@ The following table lists the upcoming reading schedule. The descriptions are ex
 
 To see previous recordings and notes, see [Previous meetings and recordings](#previous) below.
 
+{:.note}
+The reading schedule beyond the next month is tentative and subject to change.
+
 <table>
    <thead>
       <tr>
@@ -37,7 +40,8 @@ To see previous recordings and notes, see [Previous meetings and recordings](#pr
              <figure><a href="{{ meeting.book.url }}"><img src="{{site.media}}/{{ meeting.book.image }}" alt="{{ meeting.book.title }}" /></a></figure>
          </td>
          <td>
-            <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a> by {{ meeting.book.author }}</p>
+            <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a></p>
+             <p class="book-author">by {{ meeting.book.author }}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
          <td><p class="notes-links">{% if meeting.notes_url != "" %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>{% endif %}
@@ -142,7 +146,8 @@ Previous meetings are listed below with recordings, notes, and other resources, 
              <figure><a href="{{ meeting.book.url }}"><img src="{{site.media}}/{{ meeting.book.image }}" alt="{{ meeting.book.title }}" /></a></figure>
          </td>
          <td>
-            <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a> by {{ meeting.book.author }}</p>
+            <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a></p>
+             <p class="book-author">by {{ meeting.book.author }}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
          <td>
@@ -164,7 +169,7 @@ Previous meetings are listed below with recordings, notes, and other resources, 
 <style>
 
 table img {
-    max-width: 150px !important;
+    max-width: 125px !important;
     display: inline-flex;
 }
 
@@ -209,7 +214,7 @@ tr:hover {
 }
 
 .book-summary {
-  font-size: 0.9em;
+  font-size: 1.0em;
   color: #555;
   padding: 15px;
   padding-top:0px;
@@ -219,9 +224,16 @@ tr:hover {
   font-size: 1.2em;
   color: #555;
   padding: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   font-weight: bold;
-  padding-left: 3px;
+  margin-bottom: 0;
+}
+
+.book-author {
+  font-size: 0.95em;
+  color: #777;
+  padding: 0 15px 5px 15px;
+  margin-top: 2px;
 }
 
 .notes-links {

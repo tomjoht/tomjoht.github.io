@@ -1,5 +1,4 @@
 upcoming:
-
   - date: "May 17, 2026"
     time: "10am PT"
     book:
@@ -8,40 +7,93 @@ upcoming:
       url: "https://www.amazon.com/dp/1101970316"
       image: "life30thumb.png"
       summary: >
-
-        "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology—and there’s nobody better qualified or situated to explore that future than Max Tegmark, an MIT professor who’s helped mainstream research on how to keep AI beneficial."
-
+        "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology—and there's nobody better qualified or situated to explore that future than Max Tegmark."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "Jun 21, 2026"
     time: "10am PT"
     book:
-      title: "The Fourth Intelligence Revolution: The Future of Espionage and the Battle to Save America."
-      author: "Anthony Vinci"
-      url: "https://www.amazon.com/dp/1250370906"
-      image: "intelligence-revolution-thumb.png"
+      title: "Range: Why Generalists Triumph in a Specialized World"
+      author: "David Epstein"
+      url: "https://www.amazon.com/dp/0735214506"
+      image: "range.jpg"
       summary: >
-
-        "A former senior intelligence officer reveals how espionage is being transformed by a new global intelligence race, driven by AI and competition with China, and how this impacts all of our lives. The new global intelligence competition has brought espionage into our workplaces and our living rooms. Adversaries like China, Iran, and Russia have realized that the human element is the weakest link in our industrial and political infrastructure. As a result, they target all of us―stealing our financial data and medical records, eavesdropping on our conversations, and using platforms like TikTok and Hollywood movies to influence our opinions."
-
+        "Plenty of experts argue that anyone who wants to develop a skill, play an instrument, or lead their field should start early, focus intensely, and rack up as many hours of deliberate practice as possible. But a closer look at research on the world's top performers, from professional athletes to Nobel laureates, shows that early specialization is the exception, not the rule."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jul 19, 2026"
+  - date: "Jul 26, 2026"
     time: "10am PT"
     book:
       title: "The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI"
       author: "Dr. Fei-Fei Li"
-      url: "https://www.amazon.com/gp/product/1250898102"
+      url: "https://www.amazon.com/dp/1250898102"
       image: "worlds-i-see.png"
       summary: >
-
-        "The Worlds I See is a story of science in the first person, documenting one of the century’s defining moments from the inside. It provides a riveting story of a scientist at work and a thrillingly clear explanation of what artificial intelligence actually is―and how it came to be. Emotionally raw and intellectually uncompromising, this book is a testament not only to the passion required for even the most technical scholarship but also to the curiosity forever at its heart."
-
+        "The Worlds I See is a story of science in the first person, documenting one of the century's defining moments from the inside. It provides a riveting story of a scientist at work and a thrillingly clear explanation of what artificial intelligence actually is—and how it came to be."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
+  - date: "Aug 16, 2026"
+    time: "10am PT"
+    book:
+      title: "Algorithms to Live By: The Computer Science of Human Decisions"
+      author: "Brian Christian and Tom Griffiths"
+      url: "https://www.amazon.com/dp/1250118360"
+      image: "algorithms.jpg"
+      summary: >
+        "A fascinating exploration of how insights from computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mind... In a dazzlingly interdisciplinary work, Brian Christian and Tom Griffiths show how algorithms developed for computers also untangle very human questions."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Sep 20, 2026"
+    time: "10am PT"
+    book:
+      title: "Artificial Intelligence: A Guide for Thinking Humans"
+      author: "Melanie Mitchell"
+      url: "https://www.amazon.com/dp/1250404851"
+      image: "ai-mitchell.jpg"
+      summary: >
+        "No recent scientific enterprise has proved as alluring, terrifying, and filled with extravagant promise and frustrating setbacks as artificial intelligence. The award-winning author Melanie Mitchell, a leading computer scientist, now reveals AI’s turbulent history and the recent spate of apparent successes, grand hopes, and emerging fears surrounding it."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Oct 18, 2026"
+    time: "10am PT"
+    book:
+      title: "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"
+      author: "Cory Doctorow"
+      url: "https://www.amazon.com/dp/0374619328"
+      image: "enshittification.jpg"
+      summary: >
+        "Enshittification: It’s not just you―the internet sucks now. It’s been <i>enshittified</i>. That was no accident, and it’s not gonna fix itself. Here’s how we’ll disenshittify it so we can have a new, good internet."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+  
+  - date: "Nov 15, 2026"
+    time: "10am PT"
+    book:
+      title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
+      author: "Sebastian Mallaby"
+      url: "https://www.amazon.com/dp/0593831845"
+      image: "infinity-machine.jpg"
+      summary: >
+        "From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world's most brilliant and driven tech visionaries, and his game-changing company."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Dec 20, 2026"
+    time: "10am PT"
+    book:
+      title: "Blood in the Machine: The Origins of the Rebellion Against Big Tech"
+      author: "Brian Merchant"
+      url: "https://www.amazon.com/dp/0316487740"
+      image: "blood-in-the-machine.jpg"
+      summary: >
+        "The most urgent story in modern tech begins not in Silicon Valley but two hundred years ago in rural England, when workers known as the Luddites rose up rather than starve at the hands of factory owners who were using automated machines to erase their livelihoods."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
 
 previous:
 
