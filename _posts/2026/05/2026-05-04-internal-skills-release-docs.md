@@ -8,6 +8,7 @@ categories:
 keywords: ai skills, release notes, technical writing automation, repeatable processes, agent skills, documentation workflows, ai agents, singularity
 rebrandly: https://idbwrtng.com/internal-skills-release-docs
 description: "My hypothesis this year around AI was that if I develop some agent skills to speed up repeatable processes, it might clear up my bandwidth and free up time for me to work on non-repeatable doc tasks. <i>It appears to be working.</i>"
+linkedin: https://www.linkedin.com/posts/tomjoht_technicalwriting-ai-documentation-share-7457078687893557248-n2xw
 ---
 
 * TOC
