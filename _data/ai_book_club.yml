@@ -11,15 +11,15 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jun 21, 2026"
+  - date: "June 21, 2026"
     time: "10am PT"
     book:
-      title: "Range: Why Generalists Triumph in a Specialized World"
-      author: "David Epstein"
-      url: "https://www.amazon.com/dp/0735214506"
-      image: "range.jpg"
+      title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
+      author: "Sebastian Mallaby"
+      url: "https://www.amazon.com/dp/0593831845"
+      image: "infinity-machine.jpg"
       summary: >
-        "Plenty of experts argue that anyone who wants to develop a skill, play an instrument, or lead their field should start early, focus intensely, and rack up as many hours of deliberate practice as possible. But a closer look at research on the world's top performers, from professional athletes to Nobel laureates, shows that early specialization is the exception, not the rule."
+        "From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world's most brilliant and driven tech visionaries, and his game-changing company."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
@@ -38,18 +38,6 @@ upcoming:
   - date: "Aug 16, 2026"
     time: "10am PT"
     book:
-      title: "Algorithms to Live By: The Computer Science of Human Decisions"
-      author: "Brian Christian and Tom Griffiths"
-      url: "https://www.amazon.com/dp/1250118360"
-      image: "algorithms.jpg"
-      summary: >
-        "A fascinating exploration of how insights from computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mind... In a dazzlingly interdisciplinary work, Brian Christian and Tom Griffiths show how algorithms developed for computers also untangle very human questions."
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Sep 20, 2026"
-    time: "10am PT"
-    book:
       title: "Artificial Intelligence: A Guide for Thinking Humans"
       author: "Melanie Mitchell"
       url: "https://www.amazon.com/dp/1250404851"
@@ -59,31 +47,20 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Oct 18, 2026"
-    time: "10am PT"
-    book:
-      title: "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"
-      author: "Cory Doctorow"
-      url: "https://www.amazon.com/dp/0374619328"
-      image: "enshittification.jpg"
-      summary: >
-        "Enshittification: It’s not just you―the internet sucks now. It’s been <i>enshittified</i>. That was no accident, and it’s not gonna fix itself. Here’s how we’ll disenshittify it so we can have a new, good internet."
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
   
-  - date: "Nov 15, 2026"
+    - date: "Sept 20, 2026"
     time: "10am PT"
     book:
-      title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
-      author: "Sebastian Mallaby"
-      url: "https://www.amazon.com/dp/0593831845"
-      image: "infinity-machine.jpg"
+      title: "I Am Not a Robot: My Year Using AI to Do (Almost) Everything"
+      author: "Joanna Stern"
+      url: "https://www.amazon.com/dp/0063446618"
+      image: ""
       summary: >
-        "From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world's most brilliant and driven tech visionaries, and his game-changing company."
+        "<i>I Am Not a Robot</i> is like a time machine trip to the very near future, where AI promises to be your doctor, chauffeur, teacher, masseuse, coworker, therapist, financial planner, chef, housekeeper, and even . . . romantic partner. Your colleague might be using ChatGPT to write emails at work, but Joanna used AI tools and robots to do household chores, to manage her health, and to transport her family on vacation. If there was a decision to make or a task to do, she let AI go first. Along the way, she conducted exclusive interviews with the tech leaders building this future, then reported back from the front lines as your funny, no-nonsense tour guide."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Dec 20, 2026"
+  - date: "Oct 18, 2026"
     time: "10am PT"
     book:
       title: "Blood in the Machine: The Origins of the Rebellion Against Big Tech"
