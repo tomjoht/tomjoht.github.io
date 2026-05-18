@@ -1,5 +1,5 @@
 ---
-title: "Review of Max Tegmark's Life 3.0: Being Human in the Age of Artificial Intelligence"
+title: "Review of Max Tegmark's 'Life 3.0: Being Human in the Age of Artificial Intelligence'"
 permalink: /blog/book-review-tegmark-life-3-0-ai
 date: 2026-05-17
 categories:
@@ -7,7 +7,8 @@ categories:
 - ai-book-club
 keywords: AI, artificial intelligence, superintelligence, AGI, book review, Max Tegmark, Life 3.0, AI safety, AI alignment, recursive self-improvement, intelligence explosion, Future of Life Institute
 rebrandly: https://idbwrtng.com/book-review-tegmark-life-3-0-ai
-description: "This post is my review of Max Tegmark's <i>Life 3.0</i>, a book we read in the <a href='/ai-book-club'>AI Book Club</a>. Tegmark, an MIT physicist and founder of the Future of Life Institute, says Life 1.0 relies entirely on biological evolution to change its hardware and software, Life 2.0 (humanity) can design its own software (through learning and culture) but is stuck with its evolved hardware, and Life 3.0 is a technological stage where life can design both its software and its physical hardware. Although Tegmark's book was published in 2017 (before ChatGPT), the book's core questions about recursive self-improvement, AI alignment, steering beneficial AI, etc., are still highly relevant today."
+description: "This post is my review of Max Tegmark's <a href='https://www.amazon.com/dp/1101970316'><i>Life 3.0</i></a>, a book we read in the <a href='/ai-book-club'>AI Book Club</a>. Tegmark, an MIT physicist and founder of the Future of Life Institute, says Life 1.0 relies entirely on biological evolution to change its hardware and software, Life 2.0 (humanity) can design its own software (through learning and culture) but is stuck with its evolved hardware, and Life 3.0 is a technological stage where life can design both its software and its physical hardware. Although Tegmark's book was published in 2017 (before ChatGPT), the book's core questions about recursive self-improvement, AI alignment, steering beneficial AI, etc., are still highly relevant today."
+image: life30thumbsmall.png
 ---
 
 
@@ -17,6 +18,8 @@ description: "This post is my review of Max Tegmark's <i>Life 3.0</i>, a book we
 ## Today's AI conversations aren't new
 
 It's interesting to read pre-ChatGPT (~2022) books on AI. On the one hand, yes, they're a bit dated. But they also show that these same conversations have been going on for a long time before the recent developments in AI brought them into the mainstream. We have a tendency to think that contemporary discussions about AGI, Superintelligence, etc., are recent, but they're actually as old as Bostrom's *Superintelligence* (published in 2014) and earlier, even going back to Alan Turing and I.J. Good, who explored superintelligence half a century ago. In fact, Tegmark notes that Good wrote about a recursive "intelligence explosion" leading to superintelligence back in 1965. These terms have now surfaced into mainstream discourse post-ChatGPT, but they aren't new. 
+
+<figure style="float:right; margin-left: 15px;" ><a href="https://www.amazon.com/dp/1101970316"><img src="{{site.media}}/life30thumb.png" style="max-width: 400px"></a><figcaption>Life 3.0 by Max Tegmark</figcaption></figure>
 
 Tegmark defines superintelligence as representing a new stage of life called Life 3.0 that has the ability to redesign its own hardware by manipulating matter at a molecular level. That seems pretty futuristic and science-fiction-like. In today's discussions about AI, people don't talk about superintelligence as much as AI displacing jobs, breaking through security holes, and enabling bad actors with unprecedented military capabilities.
 

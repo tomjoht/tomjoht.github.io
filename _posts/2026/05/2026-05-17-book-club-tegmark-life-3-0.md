@@ -13,6 +13,7 @@ podcast_file_size: 43.8
 podcast_duration: "00:56:41"
 podcast_length: 43115037 
 image: life30bookclubthumb.png
+linkedin: https://www.linkedin.com/posts/tomjoht_ai-book-club-discussion-recording-of-life-share-7461991351958810624-igfh
 ---
 
 Note that most of these shownotes are AI-generated based on the transcript.
