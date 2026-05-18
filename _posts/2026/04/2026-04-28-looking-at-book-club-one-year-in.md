@@ -6,6 +6,7 @@ categories:
 - ai-book-club
 keywords: book club, reading, AI books, one year anniversary, slow reading, forcing function, community, intellectual engagement
 rebrandly: https://idbwrtng.com/looking-at-book-club-one-year-in
+linkedin: https://www.linkedin.com/posts/tomjoht_looking-back-at-the-ai-book-club-one-year-share-7462132691128180736-S4_3
 ---
 
 This month marks the one-year anniversary of the [AI Book Club](/ai-book-club/). We've now read 12 books in the club — see the [list of books](/ai-book-club/#previous). For each session you can view recordings, notes, transcripts, discussion questions, etc.

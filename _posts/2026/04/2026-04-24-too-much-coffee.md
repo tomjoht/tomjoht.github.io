@@ -6,6 +6,7 @@ categories:
 - technical-writing
 keywords: coffee, caffeine, addiction, moderation, alcoholism, family history, all-or-nothing, withdrawal
 rebrandly: https://idbwrtng.com/too-much-coffee
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-too-much-coffee-some-personal-share-7462132144618766336-ricU
 ---
 
 I don't entirely understand my relationship with coffee, but I think I have some character flaws that could be advantageous in some situations and disadvantageous in others. In some areas of my life, I'm an all-or-nothing person. This seems to be true with coffee. When I'm drinking coffee, I can't seem to stop myself from drinking 3-4 cups a day. Before long, I can sense my body basically becoming desiccated (from the way coffee acts as a diuretic). I'm not sure why, but I drink coffee more out of boredom than need. And sometimes I drink it to avoid the caffeine headaches that come if you don't get enough. 
