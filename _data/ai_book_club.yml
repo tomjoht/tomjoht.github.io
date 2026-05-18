@@ -1,15 +1,4 @@
 upcoming:
-  - date: "May 17, 2026"
-    time: "10am PT"
-    book:
-      title: "Life 3.0: Being Human in the Age of Artificial Intelligence"
-      author: "Max Tegmark"
-      url: "https://www.amazon.com/dp/1101970316"
-      image: "life30thumb.png"
-      summary: >
-        "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology—and there's nobody better qualified or situated to explore that future than Max Tegmark."
-    notes_url: "https://docs.google.com/document/d/1poSGDpSzUyx84N2slBMIKw-GtJD8XHk5WWlrcZ8tNsU/edit?tab=t.wqhugxg5svd"
-    meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "June 21, 2026"
     time: "10am PT"
@@ -72,6 +61,23 @@ upcoming:
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
 previous:
+
+  - date: "May 17, 2026"
+    recording:
+      url: /blog/book-club-tegmark-life-3-0
+      text: "Meeting recording"
+    book:
+      title: "Life 3.0: Being Human in the Age of Artificial Intelligence"
+      author: "Max Tegmark"
+      url: "https://www.amazon.com/dp/1101970316"
+      image: "life30thumb.png"
+      summary: >
+        "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology—and there's nobody better qualified or situated to explore that future than Max Tegmark."
+    notes_url: "https://docs.google.com/document/d/1poSGDpSzUyx84N2slBMIKw-GtJD8XHk5WWlrcZ8tNsU/edit?tab=t.wqhugxg5svd"
+    review:
+      url: "/blog/book-review-tegmark-life-3-0-ai"
+      text: "Review of Max Tegmark's Life 3.0: Being Human in the Age of Artificial Intelligence"
+
   - date: "Apr 19, 2026"
     recording:
       url: "/blog/book-club-breakneck-china-wang"

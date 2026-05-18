@@ -102,29 +102,6 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you
 3. Join the [Google Group](#googlemeet) or manually add the event to your calendar.
 4. Order the books and start reading.
 
-## FAQ {#faq}
-
-**Who's the audience for this book club?**
-: Mostly people working in tech comm who want to deepen and broaden their knowledge of AI, but who aren't looking to dive into the technical details of AI as an engineer might. These books fall more within a general interest category for technology and AI.
-
-**How did you come up with the book list?**
-: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and average at least 4 stars. 
-
-**What are the meetings like?**
-: The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarizes the book's themes and also presents some questions for discussion. 
-
-**Can I recommend a book?**
-: Sure, post your book recommendations either to the [Slack group](#slack) or to me directly via the [contact form here](/contact).
-
-**I'm not a technical writer -- can I still join?**
-: Sure, you don't need to be a technical writer. I only added this facet to try to ground what is a broad domain (AI) with a more immediate and practical perspective.
-
-**Isn't this field changing too fast for books?**
-: Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. Additionally, reading gives you space from the chaos and frenetic pace of the Internet news cycles.
-
-**I'm not sure if I have time to read books.**
-: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and a more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world where we're saturated with short-form content that reduces and fragments our attention spans.
-
 ## Previous meetings and recordings {#previous}
 
 Previous meetings are listed below with recordings, notes, and other resources, from most recent to oldest.
@@ -165,6 +142,31 @@ Previous meetings are listed below with recordings, notes, and other resources, 
       {% endfor %}
    </tbody>
 </table>
+
+
+
+## FAQ {#faq}
+
+**Who's the audience for this book club?**
+: Mostly people working in tech comm who want to deepen and broaden their knowledge of AI, but who aren't looking to dive into the technical details of AI as an engineer might. These books fall more within a general interest category for technology and AI.
+
+**How did you come up with the book list?**
+: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and average at least 4 stars. 
+
+**What are the meetings like?**
+: The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarizes the book's themes and also presents some questions for discussion. 
+
+**Can I recommend a book?**
+: Sure, post your book recommendations either to the [Slack group](#slack) or to me directly via the [contact form here](/contact).
+
+**I'm not a technical writer -- can I still join?**
+: Sure, you don't need to be a technical writer. I only added this facet to try to ground what is a broad domain (AI) with a more immediate and practical perspective.
+
+**Isn't this field changing too fast for books?**
+: Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. Additionally, reading gives you space from the chaos and frenetic pace of the Internet news cycles.
+
+**I'm not sure if I have time to read books.**
+: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and a more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world where we're saturated with short-form content that reduces and fragments our attention spans.
 
 <style>
 
