@@ -72,6 +72,10 @@ We tell ourselves stories of control. We imagine air-gapping systems, writing ro
 
 <figure><a href="https://youtu.be/IiZvO9kvVYI"><img style="max-width: 500px" src="{{site.media}}/life30bookclubthumb.png" alt="AI Book Club discussion recording of Life 3.0 by Max Tegmark" /></a><figcaption>AI Book Club discussion recording of Life 3.0 by Max Tegmark</figcaption></figure>
 
+## Notes doc + AI Notebook
+
+The [Notes and discussion questions doc](https://docs.google.com/document/d/1poSGDpSzUyx84N2slBMIKw-GtJD8XHk5WWlrcZ8tNsU/edit?tab=t.0#heading=h.7itp2ymcyaa1) provides sample questions for the book club, along with my notes (which I used in writing my [book review](/blog/book-review-tegmark-life-3-0-ai)). You can also access the [AI Notebook here](https://notebooklm.google.com/notebook/5346d0fd-91bb-43d6-82ff-5d74b55f7c09).
+
 ## Transcript
 
 The following is a near verbatim transcript of the podcast.

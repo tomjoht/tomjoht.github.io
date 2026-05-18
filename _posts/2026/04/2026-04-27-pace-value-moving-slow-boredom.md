@@ -6,6 +6,7 @@ categories:
 - writing
 keywords: work pace, boredom, productivity, engagement, work-life balance, motivation, technical writing, burnout
 rebrandly: https://idbwrtng.com/pace-value-moving-slow-boredom
+linkedin: https://www.linkedin.com/posts/tomjoht_i-wrote-a-few-posts-last-week-and-am-consolidating-share-7462002072150884352-hs67
 ---
 
 After my post about how [work expands to fill the space allotted](/blog/work-expands-to-fill-the-allotted-space), for a few days afterwards, I kind of slipped into the mindset that it didn't matter how hard I worked, since my work and the work of those around me would all be viewed relatively the same, and if it comes time for someone to do massive layoffs (like we see in the news with Meta, Microsoft, Nike, etc.), it'll be someone who doesn't know me, who likely doesn't even consult my manager, who just sees a role and a financial figure and draws a line through it. Hence, why bother to go above and beyond in my role? What's the point?

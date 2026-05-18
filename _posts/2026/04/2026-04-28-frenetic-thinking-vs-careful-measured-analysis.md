@@ -7,6 +7,7 @@ categories:
 - writing
 keywords: frenetic thinking, slow thinking, AI tools, troubleshooting, patience, deliberate practice, instant culture, deep work
 rebrandly: https://idbwrtng.com/frenetic-thinking-vs-careful-measured-analysis
+linkedin: https://www.linkedin.com/posts/tomjoht_i-wrote-a-few-posts-last-week-and-am-consolidating-share-7462002072150884352-hs67
 ---
 
 One of the things I dislike about AI is how it takes over everything — every conversation, every process, every tool. But this week I noticed it started taking over my thinking as well.

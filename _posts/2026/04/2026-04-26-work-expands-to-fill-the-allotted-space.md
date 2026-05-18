@@ -6,6 +6,7 @@ categories:
 - writing
 keywords: Parkinson's law, bug zero, work-life balance, AI productivity, Jevons paradox, workload, time management, guardrails
 rebrandly: https://idbwrtng.com/work-expands-to-fill-the-allotted-space
+linkedin: https://www.linkedin.com/posts/tomjoht_i-wrote-a-few-posts-last-week-and-am-consolidating-share-7462002072150884352-hs67
 ---
 
 Last year I had a goal of [getting down to bug zero](/blog/defining-bug-zero-and-obstacles) and started a whole series on this quest. If this is the first you're hearing of this goal, bug zero really means clearing out all doc requests (~JIRA tickets), finishing them. It's similar to the idea of inbox zero, but with work.
