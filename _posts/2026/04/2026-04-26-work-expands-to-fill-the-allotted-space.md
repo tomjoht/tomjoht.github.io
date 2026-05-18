@@ -18,7 +18,7 @@ While I was watching the bug count I'd worked so hard to reduce just refill so e
 
 The point that resonates most with me is this: work fills any space you give it. The bugs will naturally just fill up in your queue because you're there, as a resource for others. But also, the work will fill all the time you give it as well.
 
-The last couple of weeks I had some late soccer pickups, with my kid having practice until 8:00 pm. I usually pick my daughter up on my way home from work, so I decided to just drive all the way in to work and stay there until about 7:30 pm, then drive to pick her up on my way home.
+The last couple of weeks I had some late soccer pickups, with my kid having practice until 8:00 pm. I usually pick my daughter up on my way home from work at 5:30 pm, so I decided to just drive all the way in to work and stay there until about 7:30 pm, then drive to pick her up on my way home.
 
 This took me out of my usual schedule, which involves driving to the train (Sounder), taking the train to downtown (King Street Station), and then biking the rest of the way to work (only a few miles to South Lake Union). It turns out that biking to work puts me on a more fixed schedule with the train because the last Sounder train out of the city is at 6:30 pm. I'd somehow forgotten the value of a regular schedule.
 
@@ -28,7 +28,7 @@ I thought I could push through all those doc tickets and maybe get to bug zero, 
 
 {% include ads.html %}
 
-This same principle is why the promise of AI freeing up our schedules is an illusion. The idea of using AI to permanently clear out work is flawed, because work just expands to fill the newly available space. We think AI is going to help us finally reach bug zero or give us our afternoons back, but it really just helps us do more work faster.
+This same principle is why the promise of AI freeing up our schedules is an illusion. The idea of using AI to permanently clear out work is flawed, because work just expands to fill the newly available space. We think AI is going to help us finally reach bug zero or give us our afternoons back, but it really just helps us do more endlessly appearing work faster.
 
 Jevons paradox is coming to mind here. If you make a process easier to use, more people will use it. With docs, if you find a way to author content faster, it doesn't mean you'll reduce your workload. Instead, that expanded bandwidth will be consumed by more work that comes to you. Even outside of doc requests, maybe you'll find more issues to address, more errors to fix, more problems to tackle.
 
@@ -38,6 +38,4 @@ To use another metaphor, a darker one, work is like a black vapor that expands i
 
 I need to avoid letting work expand like this, mostly by putting fixed guardrails around my time at work. To begin with some guardrails, I stopped driving all the way to work and staying late just because of an 8 pm soccer pickup. Instead, I always ride my bike, even on days I play early morning basketball. With my extra time post-work (before a late soccer pickup), I might wander around the club facility or do other errands or tasks outside of work, or to sit down at a cafe and write. I like the fixed schedule enforced by the Sounder's timetable and sticking more closely to that schedule, letting it structure my life. 
 
----
-
-See the follow-up to this post, [On pace and value -- why is moving slow boring?](/blog/pace-value-moving-slow-boredom).
+See my follow-up to this post, [On pace and value -- why is moving slow boring?](/blog/pace-value-moving-slow-boredom).
