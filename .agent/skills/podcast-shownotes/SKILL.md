@@ -69,7 +69,7 @@ categories:
 - podcasts
 keywords: [comma-separated relevant keywords, 8-12 terms]
 rebrandly: https://idbwrtng.com/[slug]
-description: "[1-3 sentence HTML description with <a href='...'>guest name</a> links to LinkedIn profiles. Summarize the key themes discussed.]"
+description: "[1-3 sentence HTML description with <a href='...'>guest name</a> links to the guest's blog or website (not LinkedIn). Summarize the key themes discussed.]"
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/[filename].mp3
 podcast_file_size: [size in MB]
 podcast_duration: "[HH:MM:SS]"
@@ -79,25 +79,25 @@ linkedin: [linkedin post URL if available]
 ---
 ```
 
-**Description style**: Start with "In this podcast, I chat with..." followed by guest names as HTML links, then 1-2 sentences summarizing the key themes.
+**Description style**: Start with "In this podcast, I chat with..." followed by guest names as HTML links (linking to the guest's blog or website, not LinkedIn), then 1-2 sentences summarizing the key themes.
 
 ## Step 3: Assemble the post body structure
 
 The body should follow this order:
 
 ```markdown
+Note: These shownotes are AI-generated.
+
 * TOC
 {:toc}
 
-## Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/[VIDEO_ID]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/[VIDEO_ID]" title="[Podcast title]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Audio-only version
 
 {% include audio.html %}
 
-## Resources
+## Links mentioned
 
 [resource links go here]
 
@@ -115,25 +115,29 @@ The body should follow this order:
 
 ## Transcript
 
-The following is a near verbatim transcript of the podcast.
-
 [cleaned transcript goes here]
 ```
 
-## Step 4: Build the Resources section
+**Important**: Place the AI-generated note (`Note: These shownotes are AI-generated.`) once at the very top of the body, before the TOC. Do NOT repeat AI-generated disclaimers on individual sections (Topics, Narrative essay, etc.).
+
+The YouTube embed goes directly before the Audio section — not inside a `## Video` heading. Just place the raw iframe.
+
+## Step 4: Build the Links mentioned section
+
+The section heading is `## Links mentioned` (not "Resources").
 
 For each URL the user provides:
 
 1. Fetch the actual page title from the URL.
 2. Format as: `* [Actual Page Title](URL) (Author/Source — brief context if helpful)`
-3. Put guest LinkedIn profiles at the bottom of the list.
-4. Order: guest-authored content first, then host content, then third-party references, then LinkedIn profiles.
+3. Order: guest-authored content first, then host content, then third-party references.
+4. Do NOT include LinkedIn profiles in this section.
 
 ## Step 5: Write the Topics section
 
 Create exactly 10 key discussion points. Precede the list with:
 
-`Here's a list of topics we talked about. (Note: AI-generated.)`
+`Here's a list of topics we talked about.`
 
 Format each as:
 
@@ -157,14 +161,21 @@ Imagine a journalist listened to the podcast and then wrote a feature article in
 2. **Context/tension** (1-2 paragraphs): Set up the problem or debate. What's at stake?
 3. **Core argument** (3-4 paragraphs): Trace the main thread of ideas. Build logically from one point to the next. Weave in supporting details from different parts of the conversation.
 4. **Counterpoint or nuance** (1-2 paragraphs): Acknowledge complexity. Where does the argument get uncomfortable or uncertain?
-5. **Close** (1 paragraph): End with a forward-looking reflection, not a summary. Leave the reader thinking.
+5. **Close** (1 paragraph): End with a forward-looking reflection, not a summary. Leave the reader thinking. Do NOT circle back to the opening concept — close with a new forward-looking thought rather than a bookend.
 
 ### Formatting rules
 
 - Give it a compelling subtitle formatted as **bold text** (not an H3 heading).
-- Precede it with: `*If the podcast were an article, this is what it would read like. (Note: AI-generated.)*`
+- Precede it with: `*If the podcast were an article, this is what it would read like.*`
 - No speaker attributions. No "In the podcast, they discussed..." framing.
 - Use em dashes, concrete details, and specific examples from the conversation to keep it grounded.
+
+### Content guidelines
+
+- **Focus on main themes, not tangents.** If a topic was a brief aside in the conversation (e.g., local models, a passing mention of a book), don't give it a full paragraph in the essay. Focus on the ideas that drove the conversation.
+- **Be explicit about transitions.** When you write "the shift" or "this change," name what you're referring to (e.g., "this shift from creator to reviewer"). Don't rely on the reader to infer the antecedent across paragraphs.
+- **Avoid referencing internal or confidential work details.** If the podcast casually mentioned something about a specific employer's internal systems, generalize the example in the essay. Use generic technical writing scenarios (e.g., SDK migration guides, configuration parameter docs, API deprecation notices) instead of repeating specific internal examples from the conversation.
+- **Don't bookend with the opening concept.** If the essay opens with a literary reference or specific idea, don't force a callback to it in the closing paragraph. The close should feel like forward motion, not a loop.
 
 ## Step 7: Add the figure image
 
