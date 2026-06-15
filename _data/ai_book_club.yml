@@ -1,6 +1,6 @@
 upcoming:
 
-  - date: "June 21, 2026"
+  - date: "June 28, 2026"
     time: "10am PT"
     book:
       title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
@@ -12,27 +12,15 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jul 26, 2026"
-    time: "10am PT"
-    book:
-      title: "The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI"
-      author: "Dr. Fei-Fei Li"
-      url: "https://www.amazon.com/dp/1250898102"
-      image: "worlds-i-see.png"
-      summary: >
-        "The Worlds I See is a story of science in the first person, documenting one of the century's defining moments from the inside. It provides a riveting story of a scientist at work and a thrillingly clear explanation of what artificial intelligence actually is—and how it came to be."
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
   - date: "Aug 16, 2026"
     time: "10am PT"
     book:
-      title: "Artificial Intelligence: A Guide for Thinking Humans"
-      author: "Melanie Mitchell"
-      url: "https://www.amazon.com/dp/1250404851"
-      image: "ai-mitchell.jpg"
+      title: "The Maniac"
+      author: "Benjamin Labatut"
+      url: "https://www.amazon.com/dp/0593654498"
+      image: "themaniac.jpg"
       summary: >
-        "No recent scientific enterprise has proved as alluring, terrifying, and filled with extravagant promise and frustrating setbacks as artificial intelligence. The award-winning author Melanie Mitchell, a leading computer scientist, now reveals AI’s turbulent history and the recent spate of apparent successes, grand hopes, and emerging fears surrounding it."
+        "A prodigy whose gifts terrified the people around him, John von Neumann transformed every field he touched, inventing game theory and the first programable computer, and pioneering AI, digital life, and cellular automata. Through a chorus of family members, friends, colleagues, and rivals, Labatut shows us the evolution of a mind unmatched and of a body of work that has unmoored the world in its wake."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
@@ -45,18 +33,6 @@ upcoming:
       image: "i-am-robot-book.png"
       summary: >
         "<i>I Am Not a Robot</i> is like a time machine trip to the very near future, where AI promises to be your doctor, chauffeur, teacher, masseuse, coworker, therapist, financial planner, chef, housekeeper, and even . . . romantic partner. Your colleague might be using ChatGPT to write emails at work, but Joanna used AI tools and robots to do household chores, to manage her health, and to transport her family on vacation. If there was a decision to make or a task to do, she let AI go first. Along the way, she conducted exclusive interviews with the tech leaders building this future, then reported back from the front lines as your funny, no-nonsense tour guide."
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Oct 18, 2026"
-    time: "10am PT"
-    book:
-      title: "Blood in the Machine: The Origins of the Rebellion Against Big Tech"
-      author: "Brian Merchant"
-      url: "https://www.amazon.com/dp/0316487740"
-      image: "blood-in-the-machine.jpg"
-      summary: >
-        "The most urgent story in modern tech begins not in Silicon Valley but two hundred years ago in rural England, when workers known as the Luddites rose up rather than starve at the hands of factory owners who were using automated machines to erase their livelihoods."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
