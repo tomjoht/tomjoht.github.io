@@ -9,7 +9,7 @@ categories:
 - technical-writing
 keywords: Italo Calvino, beautiful documentation, lightness, AI fatigue, review fatigue, tool slop, vibe coding, local models, technical writing skills, agent workflows, craft and care
 rebrandly: https://idbwrtng.com/judging-beautiful-docs-ai-fatigue-podcast
-description: "In this podcast, I chat with <a href='https://passo.uno'>Fabrizio Ferri-Benedetti</a> about what makes documentation beautiful &mdash; drawing on Italo Calvino's literary principles of lightness and quickness &mdash; the reality of AI review fatigue versus creator fatigue, why most vibe-coded tools are actually 'tool slop,' developing internal skills for repeatable doc processes, and the emerging future of running local AI models."
+description: "In this podcast, I chat with <a href='https://passo.uno'>Fabrizio Ferri-Benedetti</a> about a variety of topics related to AI and docs, such as applying Italo Calvino's literary principles of lightness and quickness to evaluate docs, the reality of AI review fatigue versus creator fatigue, whether vibe-coded tools are tools slop, developing internal skills for repeatable doc processes, and the utility of running local AI models."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/judging-beautiful-docs.mp3
 podcast_file_size: 27.7
 podcast_duration: "00:57:47"
