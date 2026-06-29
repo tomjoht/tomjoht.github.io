@@ -14,7 +14,7 @@ podcast_file_size: 56.1
 podcast_duration: "00:58:25"
 podcast_length: 56075530
 image: inifinity-machine-slide-thumb.png
-linkedin: 
+linkedin: https://www.linkedin.com/posts/tomjoht_new-post-recording-of-the-ai-book-club-share-7477164153812570113-dujo/
 ---
 
 Note: These shownotes are AI-generated.
