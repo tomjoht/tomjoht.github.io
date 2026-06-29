@@ -1,17 +1,5 @@
 upcoming:
 
-  - date: "June 28, 2026"
-    time: "10am PT"
-    book:
-      title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
-      author: "Sebastian Mallaby"
-      url: "https://www.amazon.com/dp/0593831845"
-      image: "infinity-machine.jpg"
-      summary: >
-        "From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world's most brilliant and driven tech visionaries, and his game-changing company."
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
   - date: "Aug 16, 2026"
     time: "10am PT"
     book:
@@ -37,6 +25,19 @@ upcoming:
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
 previous:
+
+  - date: "June 28, 2026"
+    recording: 
+      url: "/blog/book-club-inifity-machine-mallaby"
+      text: "Meeting recording"
+    book:
+      title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
+      author: "Sebastian Mallaby"
+      url: "https://www.amazon.com/dp/0593831845"
+      image: "infinity-machine.jpg"
+      summary: >
+        "From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world's most brilliant and driven tech visionaries, and his game-changing company."
+    notes_url: "https://docs.google.com/document/d/1zz2UhrVU4vN_oj-O75aXD-yy5Z90BlppdhphakRv32o/edit?tab=t.jwbf9vmsvtg2"
 
   - date: "May 17, 2026"
     recording:
