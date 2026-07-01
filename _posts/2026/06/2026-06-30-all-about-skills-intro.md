@@ -1,5 +1,5 @@
 ---
-title: "Tom's intro to skill building 101"
+title: "Tom's opinionated guide to skill building 101"
 permalink: /blog/all-about-skills-intro
 date: 2026-06-30
 categories:
