@@ -7,6 +7,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/all-about-skills-intro
 description: "The thing I'm most excited about with AI lately is SKILLs. (I have to capitalize the word at first so you know I'm talking about agent skills rather than just general capabilities; however, I'll subsequently just refer to agent skills as skills.) I've now built about 10 skills for various purposes, and I'd like to write a post that shares some of my thoughts around skill building in a more opinionated way."
+linkedin: https://www.linkedin.com/posts/tomjoht_toms-opinionated-guide-to-skill-building-share-7478094875096403968-0jqU
 ---
 
 * TOC
