@@ -1,5 +1,5 @@
 ---
-title: "Judging beautiful docs, AI fatigue, and tool slop"
+title: "Judging beautiful docs, AI fatigue, and tool slop -- podcast with Fabrizio"
 permalink: /blog/judging-beautiful-docs-ai-fatigue-podcast
 date: 2026-05-31
 categories:
