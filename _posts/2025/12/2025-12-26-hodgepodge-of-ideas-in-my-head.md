@@ -20,7 +20,7 @@ This means my attempt at deep work focused on a single task becomes periodically
 
 This whole experience is comically magnified with the addition of caffeine. On days where I need an extra kick, I'll drink a Red Bull and then start pushing Gemini to do some really advanced, complex tasks while also multitasking with other doc tasks, context switching with other tasks but switching back to my in-progress AI session every few minutes to nurse Gemini along with the task or allow it to run some script. The more caffeine, the more parallel-processing I appear to maintain. In some ways, the jittery mental state that caffeine induces can be perfect for this frequent multitasking and responding &mdash; until my heart starts fluttering. But again, I admit this is a ridiculous state to be in.
 
-<figure><img src="{{site.media}}/hodgepodgeofideas.png" alt="Multitasking and vibecoding on caffeeine" /></figure>
+<figure><img src="{{site.media}}/hodgepodgeofideas.png" alt="Multitasking and vibecoding on caffeine" /></figure>
 
 I haven't been a huge "vibecoder," but this past week I started a project that led me into some deep vibecoding sessions. Here's the scenario that started my vibecoding project: All my docs are behind access control lists (ACLs), so I can't push them into public MCP servers that users can integrate. As a result, I've been toying with the idea of putting my documentation into NotebookLM instances and then providing my users with access to the notebooks. I'm still blocked on opening up the notebooks across domains like this, but even so, I haven't refined the process anyway, so I'm still in experimentation mode. Eventually, I'm confident this will be an allowed path.
 

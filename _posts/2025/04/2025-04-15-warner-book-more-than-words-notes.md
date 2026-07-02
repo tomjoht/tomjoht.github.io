@@ -175,7 +175,7 @@ Qtd from George Saunders: "I think that what any of us pays for when entering in
 
 ["bulletpointification of books", from Maris Kreizman’s term] 119
 
-[Warner outsources some of his reading to ChatGPT so he can focus on more deep reading texts. Some researchers refer to a "biliterate" brain, "one that is both capable of the kind of skimming that characterizes reading the internet on screens and the deep reading that helps develop our critical thinking abilities." 120
+[Warner outsources some of his reading to ChatGPT so he can focus on more deep reading texts. Some researchers refer to a "biliterate" brain, "one that is both capable of the kind of skimming that characterizes reading the internet on screens and the deep reading that helps develop our critical thinking abilities."] 120
 
 [AI alters our relationship with the texts we produce.]
 

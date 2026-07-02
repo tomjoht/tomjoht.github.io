@@ -1,5 +1,5 @@
 ---
-title: "MCP servers and the role tech writers can play in shaping AI capabilities and outcomes -- podcast with Fabrizio Ferri Beneditti and Anandi Knuppel"
+title: "MCP servers and the role tech writers can play in shaping AI capabilities and outcomes -- podcast with Fabrizio Ferri-Benedetti and Anandi Knuppel"
 permalink: /blog/mcp-tools-language-tech-writing
 date: 2025-10-26
 categories:

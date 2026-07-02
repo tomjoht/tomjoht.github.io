@@ -21,7 +21,7 @@ If the human barista wants to stay employed, he or she has to go above and beyon
 
 This barista might decide to become a socially aware, hyper-pleasant presence &mdash; remembering the names, orders, and past conversations of each person who comes into the coffee shop. Going into the cafe to get a latte becomes more than just fulfilling a caffeine addiction; it becomes a social experience, almost like walking into the Cheers bar where everyone knows you and you feel like you belong and have a place. The barista makes you feel warm inside, recognized and appreciated, listened to. The barista's face lights up when they see you, and they know your name.
 
-The human barista can't possibly remember the details of so many hundreds of people coming into the cafe. In fact, Starbucks baristas are frequently lampooned for getting the names wrong on cups. To overcome these limitations, the human barista leverages AI to take notes and recall the needed information. They might use other tools and techniques. However, the human barista does it, they have transcended the robot barista's level.
+The human barista can't possibly remember the details of so many hundreds of people coming into the cafe. In fact, Starbucks baristas are frequently lampooned for getting the names wrong on cups. To overcome these limitations, the human barista leverages AI to take notes and recall the needed information. They might use other tools and techniques. However the human barista does it, they have transcended the robot barista's level.
 
 Now technical writers might need to do the same when it comes to documentation. Our docs have to be better than what can be performed by AI operating at an AGI level. 
 

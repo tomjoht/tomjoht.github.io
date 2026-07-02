@@ -31,7 +31,7 @@ Scope creep is a common phenomenon when making doc updates. You receive a ticket
 
 Scope creep trajectories are bad news because as the size of a changelist grows, it becomes harder to get reviewers to approve it. And this is really the strategy that you have to consider if you want to reduce your queue of doc bugs: *Is the changelist something that a reviewer can easily approve?*
 
-A reviewer will find a changelist with a single line change fairly simply to review and approve, but when there are dozens of changes across multiple files, including some changes that might have expanded beyond the original reviewer's area of expertise, you're setting yourself up for a hard-to-review changelist. And because it's hard to review, the reviewer postpones it, tries to put it off. The changelist sits in your queue, growing moss with each day that passes without action. 
+A reviewer will find a changelist with a single line change fairly simple to review and approve, but when there are dozens of changes across multiple files, including some changes that might have expanded beyond the original reviewer's area of expertise, you're setting yourself up for a hard-to-review changelist. And because it's hard to review, the reviewer postpones it, tries to put it off. The changelist sits in your queue, growing moss with each day that passes without action. 
 
 As a worst-case scenario, you might start tackling bugs that require changes to the files already included in the changelist you're waiting on.
 

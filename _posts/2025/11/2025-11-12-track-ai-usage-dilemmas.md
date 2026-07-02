@@ -67,7 +67,7 @@ This label could promote the following erroneous conclusion:
 2. If AI is creating this content, why am I paying a tech writer here? I should instead be buying more AI chips.
 3. Conclusion: Let's reroute the money to AI chips instead of tech writer salaries.
 
-This conclusion is dangerously misleading and false. In worst case scenarios, it could make it easier for leaders to lay off tech writers, as with the recent Amazon layoffs. The justification? "We will need fewer people doing some of the jobs that are being done today," says CEO Andy Jassey. (See [Amazon to Cut 14,000 White-Collar Jobs](https://www.nytimes.com/2024/10/27/technology/amazon-layoffs.html).)
+This conclusion is dangerously misleading and false. In worst case scenarios, it could make it easier for leaders to lay off tech writers, as with the recent Amazon layoffs. The justification? "We will need fewer people doing some of the jobs that are being done today," says CEO Andy Jassy. (See [Amazon to Cut 14,000 White-Collar Jobs](https://www.nytimes.com/2024/10/27/technology/amazon-layoffs.html).)
 
 As I argued in [Why long-running tasks autonomously carried out by agentic AI aren't the future of doc work, and might just be an illusion](https://idratherbewriting.com/blog/collaborative-thought-partner-not-autonomous), tech writers use AI more as a **collaborative thought partner** rather than providing AI with predefined prompts that agents carry out autonomously. If you look at the corresponding [comment thread on Linkedin](https://www.linkedin.com/posts/tomjoht_why-long-running-tasks-autonomously-carried-activity-7393657802839355392--DYP/), other tech writers unanimously agree.
 

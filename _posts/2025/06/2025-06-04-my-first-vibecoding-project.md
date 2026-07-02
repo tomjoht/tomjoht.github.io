@@ -6,7 +6,7 @@ categories:
 - ai
 keywords: 
 rebrandly: https://idbwrtng.com/my-first-vibecoding-project
-description: "I'm starting a new series describing the various AI experiements I do. I've been looking for my next area of focus, and I realized that more than anything else, I like <i>experimenting</i> with new tools, techniqes, ideas, etc. So I'm writing a series of posts called AI experiments."
+description: "I'm starting a new series describing the various AI experiments I do. I've been looking for my next area of focus, and I realized that more than anything else, I like <i>experimenting</i> with new tools, techniques, ideas, etc. So I'm writing a series of posts called AI experiments."
 ---
 
 This week I'm tackling my first "vibecoding" project. I've been reluctant to use the term *vibecoding* because people tend to use it to describe nearly anything AI-generated, but now I get the point of the term. Vibecoding is when you're using AI agents to write a bunch of code that you have little idea about. And that's exactly what I've been doing. 
@@ -29,7 +29,7 @@ For my project, I wanted to automatically get the human-readable diffs of every 
 
 I've become kind of obsessed working on it. I've spent more time working on the project than I have on documentation this week, sadly. I'm using an agent with Gemini for the project, and it's writing in Go (not a language I'm familiar with). But here's what I've realized. Designing a program requires *a lot of thought*. I used to think it was just a matter of technical prowess with a language, but no, although that's certainly part of it. I've found that it's challenging just to name things. 
 
-For example, I've already changed the program's name from "AI snippets" to "AI CLs" to "CL Analyzer" (for "CL" == changelist). This is because snippets actually include to much more than just changelists; there are countless people working outside of version control who don't even have changelists, so using "snippets" is misleading. Anyway, my point is that I expanded the purpose, so I had to change the name too.
+For example, I've already changed the program's name from "AI snippets" to "AI CLs" to "CL Analyzer" (for "CL" == changelist). This is because snippets actually include much more than just changelists; there are countless people working outside of version control who don't even have changelists, so using "snippets" is misleading. Anyway, my point is that I expanded the purpose, so I had to change the name too.
 
 Additionally, instead of just getting my own AI-written changelists, I made it so the tool would get any other user's changelists for the week. And then changelists for an entire group of people (as defined in a yaml file). And another parameter to specify the number of days to look for changelists.
 

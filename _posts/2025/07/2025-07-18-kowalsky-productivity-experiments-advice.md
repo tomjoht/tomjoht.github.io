@@ -111,7 +111,7 @@ As I continue to experiment with what I've learned, I keep finding new productiv
   *Book:* [Deep Work: Rules for Focused Success in a Distracted World](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/0349413681/) (Little Brown)  
   *I'd Rather Be Writing – Tom Johnson’s blog:* [3.2 Techniques for deep work from Cal Newport](/smartphones/newport-deep-work.html)  
 * *The Content Wrangler &mdash; Scott Abel’s Substack:* [Maximizing Productivity: The Neuroscience of Scheduling Tasks Based on Cognitive Energy Levels](https://www.thecontentwrangler.com/p/maximizing-productivity-the-neuroscience)  
-* **The Pomodoro Techni	que**  
+* **The Pomodoro Technique**  
   *Website:* [The Pomodoro Technique](https://www.pomodorotechnique.com/)  
   *Command line timer:* [Pomo](https://www.npmjs.com/package/pomo)  
 * [**Capacities**](https://capacities.io/): A note-taking and knowledge management tool designed to help users organize information more intuitively and creatively. The only item on this list that is not completely new. I mentioned it in the [Conclusion](/blog/escape-productivity-trap-david-kowalsky-guest-post#conclusion) of my first blog post.

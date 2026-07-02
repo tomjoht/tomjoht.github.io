@@ -125,7 +125,7 @@ For more on this, see the [Google Maps Platform Gemini Code Assist toolkit](http
 
 ## Conclusion
 
-In conclusion, there are many strong signs that technical writers and documentation will continue to be relevant in the future. There's no certainty about any course of action, and no single tool or method you can learn that will future-proof your career. My advice to focus on becoming (1) a subject matter expert in your domain and (2) a tools expert. This advice is similar to the timeworn advice that the most valuable takeaway from your education is to learn how to learn.
+In conclusion, there are many strong signs that technical writers and documentation will continue to be relevant in the future. There's no certainty about any course of action, and no single tool or method you can learn that will future-proof your career. My advice is to focus on becoming (1) a subject matter expert in your domain and (2) a tools expert. This advice is similar to the timeworn advice that the most valuable takeaway from your education is to learn how to learn.
 
 So that's what I would encourage students and teachers to focus on: learn how to learn. Does it matter what particular tool or approaches you're learning? Not so much, although one would hope it would be AI-related. But conditioning your brain to continually process new information and to be self-disciplined in a way that you're hungry to keep learning will help you adapt to a constantly changing world where the landscape and dynamics keep evolving.
 

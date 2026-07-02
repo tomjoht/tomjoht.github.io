@@ -53,7 +53,7 @@ While REST APIs are more straightforward and typically list all the elements on 
 
 <figure><img style="max-width: 600px" src="{{site.media}}/ref-doc-deep-nesting-issues.png" alt="Hard to grok the hierarchy from a list of tables" /><figcaption>In the display of most reference docs, objects are deeply nested, but the docs describe the objects in separate tables, without hierarchy. As a result, it's hard to visualize the structure and get a clear mental model.</figcaption></figure>
 
-Finally, the API quick reference links each API element to its corresponding reference documentation. This allows users to go straight to the documentation or interesting most relevant to them.
+Finally, the API quick reference links each API element to its corresponding reference documentation. This allows users to go straight to the documentation or information most relevant to them.
 
 As a bonus, for tech writers, you now have all links to every API at your fingertips. You can pass this source into an AI chat session if you want to automatically link any code element. Linking code elements not only reduces hallucination, it gives your docs more authority and specificity. 
 

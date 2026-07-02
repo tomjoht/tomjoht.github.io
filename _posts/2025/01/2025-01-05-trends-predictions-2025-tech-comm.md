@@ -8,7 +8,7 @@ categories:
 - podcasts
 keywords: AI, API, trends, predictions, apathy, productivity
 rebrandly: https://idbwrtng.com/trends-predictions-2025-tech-comm
-description: "It's that time of year again when we take to analyzing trends. If you know me, you're probably gearing up for a load of AI-optimistic predictions because, as I've noted in previous posts like <a href='/blog/unpacking-issues-from-ai-porter-benedetti-posts'>Unpacking the issues from AI</a>, I'm an AI optimist. However, my AI optimism isn't based on hype or the current tech zeitgeist. Rather, I'm an AI optimist because my daily experiences using AI for technical documentation, especially API docs, throughout 2024 has shown it to be invaluable."
+description: "It's that time of year again when we take to analyzing trends. If you know me, you're probably gearing up for a load of AI-optimistic predictions because, as I've noted in previous posts like <a href='/blog/unpacking-issues-from-ai-porter-benedetti-posts'>Unpacking the issues from AI</a>, I'm an AI optimist. However, my AI optimism isn't based on hype or the current tech zeitgeist. Rather, I'm an AI optimist because my daily experiences using AI for technical documentation, especially API docs, throughout 2024 have shown it to be invaluable."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/notebooklm_2025trends.mp3
 podcast_file_size: 12.9
 podcast_duration: "21:17"
@@ -132,7 +132,7 @@ Let's hope that companies decide to at least keep tech writer numbers minimal ra
 
 ## Trends with APIs
 
-Let's take a break from AI for a moment. Over these past four years, I've also observed a strong shift towards more API-focused work. When I started at Google, most of my documentation efforts focused on a product externally referred to [Google built-in](https://built-in.google/cars/) (or called [Google Automotive Services (GAS)](https://developers.google.com/cars) by developers)&mdash;it's like having Google Maps and other services (Assistant, Play Store) embedded directly in your car's infotainment head unit, with no need to project from a phone. 
+Let's take a break from AI for a moment. Over these past four years, I've also observed a strong shift towards more API-focused work. When I started at Google, most of my documentation efforts focused on a product externally referred to as [Google built-in](https://built-in.google/cars/) (or called [Google Automotive Services (GAS)](https://developers.google.com/cars) by developers)&mdash;it's like having Google Maps and other services (Assistant, Play Store) embedded directly in your car's infotainment head unit, with no need to project from a phone. 
 
 But over the past few years I've seen a constant emphasis on more API-focused products, giving automakers more control and flexibility to design custom implementations based on APIs. Automakers want autonomy to create more unique, seamless, integrated experiences in cars. Especially as cars transition to electric vehicles, the digital experience inside the car takes on added importance. It can become the defining feature of an electric vehicle, given that many EV engines have similar smoothness and rapid acceleration.
 
@@ -219,7 +219,7 @@ I also automated some publishing tasks through more sophisticated scripts (see m
 
 ## Conclusion
 
-I've covered a lot of ground in this post. It's long because I'm thinking through issues and sorting them out in my mind. What can we do to prepare and harness AI in 2025? I'm going to keep the same trajectory as 2024: continuing with my regular prompt engineering for docs study group sessions at work and [blog series ](/ai/prompt-engineering.html), which will drive more posts in this category on my blog. I'll keep experimenting and adding to the workflows where I can incorporate AI. I'll continue tracking and monitoring my CLs and see if my trajectory corresponds with similar trajectories of those in my prompt engineering study group.
+I've covered a lot of ground in this post. It's long because I'm thinking through issues and sorting them out in my mind. What can we do to prepare and harness AI in 2025? I'm going to keep the same trajectory as 2024: continuing with my regular prompt engineering for docs study group sessions at work and [blog series](/ai/prompt-engineering.html), which will drive more posts in this category on my blog. I'll keep experimenting and adding to the workflows where I can incorporate AI. I'll continue tracking and monitoring my CLs and see if my trajectory corresponds with similar trajectories of those in my prompt engineering study group.
 
 
 

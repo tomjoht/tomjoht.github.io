@@ -48,7 +48,7 @@ Related to this podcast's topic, I also published a Q&A article titled [AI-power
 * 06:14 The evolution of technical writing
 * 08:56 Dynamic content delivery and user experience
 * 12:02 Unifying disparate knowledge in organizations
-* 14:56 AI and the tuture of technical writing
+* 14:56 AI and the future of technical writing
 * 17:58 The role of semantics in product knowledge
 * 20:51 Challenges in metadata extraction
 * 24:07 The impact of AI on technical writers
