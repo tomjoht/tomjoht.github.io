@@ -19,7 +19,7 @@ I wanted to make a brief post, though, about my recent tax experience and how AI
 
 Using AI, I figured out the right forms to fill out (Form 8948) and made a case for disagreement with the IRS. A couple of months later, they accepted my disagreement, and I received a small refund for my 2023 tax year. While analyzing those 2023 taxes, I learned that I actually had a huge capital loss that year, one that I could carry over to the next year to reduce my capital gains.
 
-After receiving confirmation that the IRS accepted my disagreement, I then amended my 2024 taxes to carry over the 2023 capital losses and received a a sizable refund 8x the 2023 refund year. Had the IRS not said anything, they would not have had to pay me anything, as my ignorance would have kept me unengaged.
+After receiving confirmation that the IRS accepted my disagreement, I then amended my 2024 taxes to carry over the 2023 capital losses and received a sizable refund 8x the 2023 refund year. Had the IRS not said anything, they would not have had to pay me anything, as my ignorance would have kept me unengaged.
 
 <figure><img style="max-width: 500px" src="{{site.media}}/taxrefundpostimage2.png" alt="Using AI for help with taxes" /><figcaption>Using AI for help with taxes</figcaption></figure>
 
@@ -37,7 +37,7 @@ On the flip side of AI helping users, I'm sure that AI empowers the government t
 
 Pondering my taxes has also made me question this government institution. The IRS reached out when they realized I owed them money; they did not reach out when they realized they owed me money. It seems like an adversarial institution set up to penalize and extract as much money from people as it can, never to help them realize if they're paying too much. I chatted with one of my basketball buddies about this one day (he's a tax accountant), and he agreed — the IRS is not on your team, he said.
 
-As another example of the shadiness of the IRS, as I was helping my kids with their taxes (from summer jobs), they had to decide whether they even needed to file (whether they met the minimum income threshold). Sure, they can choose not to file, but if they paid federal taxes, most likely they can get a full refund on these taxes. When the government says they don't have to file, that's just another subtle encouragement for people to not to file. This means that government will keep money that should be going back to the people.
+As another example of the shadiness of the IRS, as I was helping my kids with their taxes (from summer jobs), they had to decide whether they even needed to file (whether they met the minimum income threshold). Sure, they can choose not to file, but if they paid federal taxes, most likely they can get a full refund on these taxes. When the government says they don't have to file, that's just another subtle encouragement for people not to file. This means that government will keep money that should be going back to the people.
 
 I'm sure that AI is probably not 100% accurate in its tax advice and analyses. This is one domain that I'm an absolute novice in; if I had a CPA, I'd probably find a lot of small errors here and there. But I don't care that much about small discrepancies or occasional errors. If AI can get me most of the way there, that's a lot more than I can get on my own. 
 

@@ -30,7 +30,7 @@ See also a podcast where I discuss these predictions and others with Fabrizio Fe
 
 ## 1. AI hype levels off
 
-**In 2026, the hype around AI will level off and a more practical view will take hold.** Productivity gains from AI aren't on an exponential curve. The velocity/productivity boost from AI has a ceiling, and people will start to recognize this. Instead of thinking that entire tech writers can be entirely replaced by AI, companies will adopt a more realistic view that AI, in the hands of a skilled tech writer, can augment their output at most by a factor of 1.5 or so.
+**In 2026, the hype around AI will level off and a more practical view will take hold.** Productivity gains from AI aren't on an exponential curve. The velocity/productivity boost from AI has a ceiling, and people will start to recognize this. Instead of thinking that tech writers can be entirely replaced by AI, companies will adopt a more realistic view that AI, in the hands of a skilled tech writer, can augment their output at most by a factor of 1.5 or so.
 
 When I look at my own changelist stats for the year, I think I see about a 10% increase from the past year (when I was also heavily using AI), but nothing like the massive bump from my pre-AI time. As imperfect as my changelist stats are (version control is easily distorted by site migrations or new API docs), it's pretty clear that the productivity bump occurred over the *last* two years (when AI hit the scene), and now things are leveling out. It's not an unlimited growth curve, as the validation bottlenecks and other manual process overhead limit velocity. 
 

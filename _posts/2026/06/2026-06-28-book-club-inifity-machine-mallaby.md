@@ -1,6 +1,6 @@
 ---
 title: "AI Book Club discussion of The Infinity Machine by Sebastian Mallaby"
-permalink: /blog/book-club-inifity-machine-mallaby
+permalink: /blog/book-club-infinity-machine-mallaby
 date: 2026-06-28
 categories:
 - ai
@@ -15,6 +15,8 @@ podcast_duration: "00:58:25"
 podcast_length: 56075530
 image: inifinity-machine-slide-thumb.png
 linkedin: https://www.linkedin.com/posts/tomjoht_new-post-recording-of-the-ai-book-club-share-7477164153812570113-dujo/
+redirect_from:
+- /blog/book-club-inifity-machine-mallaby
 ---
 
 Note: These shownotes are AI-generated.

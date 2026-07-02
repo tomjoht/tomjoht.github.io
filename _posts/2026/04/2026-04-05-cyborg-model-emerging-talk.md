@@ -104,7 +104,7 @@ Here are key takeaways from my presentation. (Note: AI-generated)
 
 ## Narrative article
 
-*If the podcast were an article, this is what it would read like. Why include this? This section provides more detail than the takeaways above, but not so much detail as the transcript that follows. Transcripts can be hard to read from start to end, so the narrative aricle provides a nice compromise. Note that this article is AI-generated.*
+*If the podcast were an article, this is what it would read like. Why include this? This section provides more detail than the takeaways above, but not so much detail as the transcript that follows. Transcripts can be hard to read from start to end, so the narrative article provides a nice compromise. Note that this article is AI-generated.*
 
 ---
 
