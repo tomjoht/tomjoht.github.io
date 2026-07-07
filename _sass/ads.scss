@@ -3,62 +3,60 @@
   }
 
   .inpostComics {
-      padding: 10px;
-      margin-bottom: 10px;
-      border-radius: 7px;
-      max-width: 900px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    max-width: 900px;
   }
 
   .inpostComics .comicLink a {
     font-size: 14px;
     font-family: Arial;
   }
+
   .textLink {
     font-size: 13px;
     font-family: arial;
     margin-bottom: 18px;
-}
+  }
+
   .comicLink {
     max-width: 260px;
-    margin-top: 12px;
   }
 
-.container.comicBlock {
-
-}
+  .container.comicBlock {}
 
   .inpostComics .comicLink {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
+
   /* this part adds an icon after external links, using FontAwesome */
 
-.inpostComics a[href^="http://"]:after,
-.inpostComics a[href^="https://"]:after,
-.sidebarComics a[href^="http://"]:after,
-.sidebarComics a[href^="https://"]:after
- {
-  content: "\f08e";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 3px;
-}
+  .inpostComics a[href^="http://"]:after,
+  .inpostComics a[href^="https://"]:after,
+  .sidebarComics a[href^="http://"]:after,
+  .sidebarComics a[href^="https://"]:after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 3px;
+  }
 
-.inpostComics a[href].noCrossRef::after,
-.sidebarComics a[href].noCrossRef::after
- {
-    content: ""!important;
+  .inpostComics a[href].noCrossRef::after,
+  .sidebarComics a[href].noCrossRef::after {
+    content: "" !important;
     padding-left: 0;
-}
+  }
 
-.row.inpostComics {
+  .row.inpostComics {
     margin-right: -40px;
     margin-left: -40px;
     max-width: 850px;
-}
+  }
 
-.inpostComics img {
+  .inpostComics img {
     margin-bottom: 0px;
-}
+  }
