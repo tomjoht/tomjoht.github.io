@@ -52,11 +52,22 @@
   }
 
   .row.inpostComics {
-    margin-right: -40px;
-    margin-left: -40px;
+    margin-right: 0;
+    margin-left: 0;
     max-width: 850px;
   }
 
+  .row.inpostComics>div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .inpostComics img {
-    margin-bottom: 0px;
+    margin-bottom: 6px;
+  }
+
+  @media (min-width: 1200px) {
+    .inpostComics img {
+      margin-bottom: 0px;
+    }
   }
