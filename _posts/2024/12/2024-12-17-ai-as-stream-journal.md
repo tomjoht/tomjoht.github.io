@@ -57,6 +57,8 @@ For the food and exercise notes, I'll add details about the times and details of
 
 I'm also wearing a CGM throughout the day that tracks my glucose levels. I'll provide CGM data at the end of the day. With both the food + exercise events + glucose logs, you will then analyze food-glucose correlations (considering a ~30-minute delay for digestion), the impact of timing and food combinations, patterns and trends, and general recommendations for improvement to minimize glucose spikes. My goal is to do as the Glucose Goddess Jessie Inchauspé says and minimize my glucose spikes, with the larger goal of increasing my energy and sense of well-being.
 
+{% include ads.html %}
+
 When I log an entry about food or exercise, feel free to provide feedback. I really would like to strike a balance with whatever meal or snack I'm eating. My nutritionist says I should try combining various macronutrients with each meal to strive for balance, especially doubling down on fiber at the beginning of meals. So maybe give me some feedback as I log food to tell me if it's a balanced meal/snack, and if not, how to balance it. In general, though, save your more detailed analyses for later, once I supply you with the glucose logs from the CGM at the end of the day.
 
 At the end of the day, I'll also ask you to provide me with an organized list of tasks, sorted by work tasks and home tasks. And a list of my thoughts.

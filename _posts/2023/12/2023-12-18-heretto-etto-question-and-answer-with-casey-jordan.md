@@ -15,6 +15,8 @@ image: ettothumbnail.png
 
 **[Casey]** Etto is a new generative AI copilot created by Heretto. We created Etto for two main reasons: first, to allow more users to harness the power of structured content and, secondly, to accelerate how quickly users can realize and multiply those benefits. Etto is a powerful tool that can significantly reduce the learning curve of structured content and maximize the productivity of existing users. 
 
+{% include ads.html %}
+
 **[Tom] What larger problems are you hoping Etto solves? Will this tool potentially reduce the complexity of XML authoring?**
 
 **[Casey]** The benefits of structured content are immense but you're right that its complexity can often be daunting, especially for new users. Initially, we're hoping to vastly reduce the learning curve of structured content and reduce the complexity of creating and updating structured content. Etto can help with this by analyzing content and providing guidance as well as automating many common but time-consuming tasks, such as semantically enriching, converting or refactoring content.

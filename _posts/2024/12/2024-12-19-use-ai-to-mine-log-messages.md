@@ -11,3 +11,5 @@ description: "I added a new post on my Prompt engineering series about using AI 
 
 Read the post: [Using AI to mine log messages from reference doc builds](/ai/prompt-engineering-mine-log-messages.html).
 
+{% include ads.html %}
+

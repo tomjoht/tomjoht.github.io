@@ -48,6 +48,8 @@ If you just want the audio, here it is:
 
 That's what I focused on, but how did I arrive at this? Let me elaborate a bit.
 
+{% include ads.html %}
+
 ## Reasons for arguing for the cyborg model {#reasons}
 
 *<b>Note:</b> I originally wrote this post before my presentation, so this section provides some background on why I took this position. I explore my pre-presentation thoughts on why I decided to go in the cyborg direction.*

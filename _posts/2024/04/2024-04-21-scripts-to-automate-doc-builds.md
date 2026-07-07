@@ -11,3 +11,5 @@ description: "Documentation scripts perform processes such as building reference
 ---
 
 Read the article here: [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html).
+
+{% include ads.html %}

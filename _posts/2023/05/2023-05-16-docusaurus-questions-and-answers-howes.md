@@ -18,6 +18,8 @@ description: "In this Q&A focused on switching from DITA to docs-as-code tools, 
 
 **Mike**: We had several issues with Antidot Fluid Topics, specifically around performance, lack of current features that you can get for free, such as email alerts (RSS) on changed content, dark mode, syntax highlighting, and so on. Eventually, performance increasingly worsened and we experienced outages (404 errors) at least once per week, which I wouldn’t expect from a paid service and we were paying quite a lot.
 
+{% include ads.html %}
+
 **Tom: You were previously using DITA and switched to Markdown. Why make the switch?**
 
 **Mike**: Our doc team is tiny and we have a huge product portfolio to support. To keep up with the doc updates, we gave SMEs access to the DITA source, but having them work in XML with special tools wasn’t working out. I learned about docs-as-code from a previous job and convinced management at my current job that moving to a docs-as-code workflow would enable collaborative authoring throughout the company, not only engineering. 

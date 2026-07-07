@@ -18,6 +18,8 @@ Inline appear directly within the post body. They also include an article link b
 
 For more details, see [Inline ads](/advertising/#inlineads) on my Advertising info page.
 
+{% include ads.html %}
+
 I introduced this new ad space because I think the sidebar is becoming less noticeable to readers. People tend to see only what's in the post body, so the inline ads are more inline with content. I've had several advertisers who just don't see enough clicks in the sidebar to continue advertising, so I decided to try making ads more visible.
 
 Inserting an ad into the post body required me to manually add a tag to every single post and page on my site, which required quite a bit of time. In my tests last week, the inline ads did perform quite well. However, pricing these ads higher ($1,800/year) turned people off. Most seemed to prefer the sidebar ad only ($1,000/year), presumably for the lower cost.
