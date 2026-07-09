@@ -249,7 +249,7 @@ Wasn't it released to limited companies so they could figure out the exploits an
 **Aaron** <br>
 Yeah, they published like a dozen companies that are involved, and then said there's another 40 or so that have access to it. I think it's much larger than those 40, because once it got out, CEOs got on the phone and started making deals. You follow the money for who's involved with that.
 
-My organization — I work for a large financial services firm — we are systemically critical to not just the states but to the global economy. Not just billions, trillions of dollars are processed every single day by our systems. You want to put a real wrench in global everything, you come after the financial services realm. And I think about your note here about Asilomar and their big push to avoid an arms race for lethal autonomous weapons.
+My organization — I work for a large financial services firm — we're systemically critical to not just the states but to the global economy. Not just billions, trillions of dollars are processed every single day by our systems. You want to put a real wrench in global everything, you come after the financial services realm. And I think about your note here about Asilomar and their big push to avoid an arms race for lethal autonomous weapons.
 
 And the fact that OpenAI is now persona non grata for the federal government because they did not agree to allow their technology to be used for lethal autonomous weapons. We have something that Asilomar wanted to write as a principle, and we're seeing the actual instantiation of that very scenario right now.
 

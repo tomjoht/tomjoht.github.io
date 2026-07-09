@@ -7,23 +7,29 @@ categories:
 - wordpress
 tags: []
 status: publish
-
 published: true
 ---
 
 {% include toc.html %}
 
-<p>I made a few updates to my WordPress site recently. Nothing major, but it might be of interest especially if you're into WordPress.</p>
+<p>I made a few updates to my WordPress site recently. Nothing major, but it might be of interest especially if you're
+  into WordPress.</p>
 <h2>Added dynamic third column</h2>
-<p>I added a third column on the left that contains dynamic content based on what you're viewing. Currently new column shows either a list of categories or a specific page (containing a list of items). Here's how the sidebar changes:</p>
+<p>I added a third column on the left that contains dynamic content based on what you're viewing. Currently new column
+  shows either a list of categories or a specific page (containing a list of items). Here's how the sidebar changes:</p>
 <ul>
-<li>If you're viewing my <a href="https://idratherbewriting.com/ditaqrg/">DITA quick reference guide</a>, the third column shows the DITA TOC page.</li>
-<li>If you're viewing my <a href="https://idratherbewriting.com/javascript/">JavaScript notes</a>, the third column shows the JavaScript TOC page.</li>
-<li>If you're viewing a series article (such as <a href="https://idratherbewriting.com/2014/12/24/authoring-tools-preferred-by-api-doc-writers-in-my-survey/">this one</a>), you see other articles in the series.</li>
-<li>If you're viewing a single post (what you're reading now), you see related posts.</li>
-<li>If you're viewing any other page, you see a list of categories.</li>
+  <li>If you're viewing my <a href="https://idratherbewriting.com/ditaqrg/">DITA quick reference guide</a>, the third
+    column shows the DITA TOC page.</li>
+  <li>If you're viewing my <a href="https://idratherbewriting.com/javascript/">JavaScript notes</a>, the third column
+    shows the JavaScript TOC page.</li>
+  <li>If you're viewing a series article (such as <a
+      href="https://idratherbewriting.com/2014/12/24/authoring-tools-preferred-by-api-doc-writers-in-my-survey/">this
+      one</a>), you see other articles in the series.</li>
+  <li>If you're viewing a single post (what you're reading now), you see related posts.</li>
+  <li>If you're viewing any other page, you see a list of categories.</li>
 </ul>
-<p>The logic controlling the sidebar consists of some <code>if .. else</code> statements I added to my sidebar. Here's the full code of my sidebar:</p>
+<p>The logic controlling the sidebar consists of some <code>if .. else</code> statements I added to my sidebar. Here's
+  the full code of my sidebar:</p>
 
 {% highlight php %}
 <?php<br />
@@ -37,15 +43,27 @@ published: true
  * @since Twenty Twelve 1.0<br />
  */<br />
 ?><br />
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?></p>
-<p>		<div id="secondary" class="widget-area" role="complementary"></p>
-<p>			<?php dynamic_sidebar( 'sidebar-1' ); ?></p>
-<p>		</div></p>
-<p>		<?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?><br />
-	<div id="extra-sidebar" class="widget-area" role="complementary"></p>
-<p><div class="widget"></p>
-<p><?php get_search_form( ); ?><br />
-<?php<br />
+<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+</p>
+<p>
+<div id="secondary" class="widget-area" role="complementary">
+  </p>
+  <p>
+    <?php dynamic_sidebar( 'sidebar-1' ); ?>
+  </p>
+  <p>
+</div>
+</p>
+<p>
+  <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?><br />
+<div id="extra-sidebar" class="widget-area" role="complementary">
+  </p>
+  <p>
+  <div class="widget">
+    </p>
+    <p>
+      <?php get_search_form( ); ?><br />
+      <?php<br />
 wp_reset_query();</p>
 <p>if ( in_category( '2704' ) ) {<br />
     echo '<div class="sidebarTOC">DITA QRG</div>';<br />
@@ -77,22 +95,43 @@ wp_list_categories('orderby=name&amp;show_count=1&amp;exclude=182&amp;title_li=0
 <p>echo '<div class="sidebarTOC">Series</div>';<br />
 wp_list_categories( array( 'taxonomy' => 'series', 'title_li' => false ) );</p>
 <p>} </p>
-<p>?></p>
-<p></div></p>
-<p><!-- Show other sidebar content --></p>
-<p>	<?php dynamic_sidebar( 'sidebar-4' ); ?><br />
-	</div><br />
-<?php endif; ?></p>
-<p>	<?php endif; ?><br />
-{% endhighlight %}
+<p>?>
+    </p>
+    <p>
+  </div>
+  </p>
+  <p><!-- Show other sidebar content --></p>
+  <p>
+    <?php dynamic_sidebar( 'sidebar-4' ); ?><br />
+</div><br />
+<?php endif; ?>
+</p>
+<p>
+  <?php endif; ?><br />
+  {% endhighlight %}
 
-I'll explain a bit more of this code later, but it's not really my intent to provide a detailed WordPress tutorial here. I mainly want to capture this info for later site updates, or for others who are making this same adjustment.</p>
-<p>For the related series posts (which show when you're viewing a series) and the related single posts (which show when you're viewing a single page), I don't have the code in the sidebar. Instead, I'm relying on two widgets: List Series from the <a href="https://wordpress.org/plugins/series/">Series</a> plugin and <a href="https://wordpress.org/plugins/easy-related-posts/">Easy Related Posts</a>. These plugins don't offer manual PHP tags but rather require you to use the widgets.</p>
-<p>By the way, I could have put all of this code into PHP Code widgets, but I feel like code in widgets is less stable. If you make an update and realize it breaks the code, you can't easily undo the update like you can with a text file in an offline editor. Additionally, I might forget what a particular widget is for, drag it out of the active widgets column, and then it will be gone. Not so with hard-coded logic in a theme file.</p>
-<p>Re the styling, I used <a href="http://zeaks.org/2012/twenty-twelve-theme-three-column-layout">this tutorial for adding the third column to my TwentyTwelve WordPress theme</a>. I varied from the tutorial a bit, but it got me 80% of the way there. I wasn't sure why the tutorial wanted me to add code to my functions file. I'm happy to hack the twentytwelve theme's original code instead of making a child theme, because I've already modified so much of the theme that I can't imagine applying a theme update from the original theme designer regularly without breaking something.</p>
+  I'll explain a bit more of this code later, but it's not really my intent to provide a detailed WordPress tutorial
+  here. I mainly want to capture this info for later site updates, or for others who are making this same adjustment.
+</p>
+<p>For the related series posts (which show when you're viewing a series) and the related single posts (which show when
+  you're viewing a single page), I don't have the code in the sidebar. Instead, I'm relying on two widgets: List Series
+  from the <a href="https://wordpress.org/plugins/series/">Series</a> plugin and <a
+    href="https://wordpress.org/plugins/easy-related-posts/">Easy Related Posts</a>. These plugins don't offer manual
+  PHP tags but rather require you to use the widgets.</p>
+<p>By the way, I could have put all of this code into PHP Code widgets, but I feel like code in widgets is less stable.
+  If you make an update and realize it breaks the code, you can't easily undo the update like you can with a text file
+  in an offline editor. Additionally, I might forget what a particular widget is for, drag it out of the active widgets
+  column, and then it will be gone. Not so with hard-coded logic in a theme file.</p>
+<p>Re the styling, I used <a href="http://zeaks.org/2012/twenty-twelve-theme-three-column-layout">this tutorial for
+    adding the third column to my TwentyTwelve WordPress theme</a>. I varied from the tutorial a bit, but it got me 80%
+  of the way there. I wasn't sure why the tutorial wanted me to add code to my functions file. I'm happy to hack the
+  twentytwelve theme's original code instead of making a child theme, because I've already modified so much of the theme
+  that I can't imagine applying a theme update from the original theme designer regularly without breaking something.
+</p>
 <h2>Disappearing menu when you add categories to pages</h2>
 {% include ads.html %}
-<p>With my DITA QRG pages, I needed a simple way to identify the pages in order to run the conditional logic, so I used categories. Here's the logic excerpted from the previous full code sidebar page:</p>
+<p>With my DITA QRG pages, I needed a simple way to identify the pages in order to run the conditional logic, so I used
+  categories. Here's the logic excerpted from the previous full code sidebar page:</p>
 {% highlight php %}
 <?php<br />
 wp_reset_query();</p>
