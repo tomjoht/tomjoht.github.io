@@ -10,6 +10,7 @@ rebrandly: https://idbwrtng.com/gap-between-industry-and-academia-tw-part2
 author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
 bio: false
 description: "This is Part II of a guest post from <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an assistant professor at James Madison University. In this post, Jeremy transitions from describing the reasons for the gap between academics and practitioners (explained in <a href='/blog/gap-between-industry-and-academia-tw-part1'>Part I</a>) to solutions. Some solutions involve increasing the conversations between academics and industry professionals, collaborating more with workplace research, having industry professionals guest speak in academic programs, teaching academics what research methodology is acceptable in the workplace, and more."
+linkedin: https://www.linkedin.com/posts/tomjoht_the-gap-between-academic-and-industry-technical-share-7482424094886404096-u_Ih/
 ---
 
 {:.note}
