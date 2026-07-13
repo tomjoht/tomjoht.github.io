@@ -118,4 +118,4 @@ if [ "$answer" = "y" ]; then
     echo "Response: $response"
 fi
 
-open -a Antigravity "$FILENAME"
+open -a "Antigravity IDE" "$FILENAME"
