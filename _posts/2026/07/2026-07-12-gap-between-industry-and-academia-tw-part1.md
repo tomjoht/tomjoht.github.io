@@ -9,7 +9,7 @@ keywords:
 rebrandly: https://idbwrtng.com/gap-between-industry-and-academia-tw-part1
 author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
 bio: false
-description: This is a guest post from Jeremy Rosselot-Merritt, an assistant professor in the School of Writing, Rhetoric, and Technical Communication at James Madison University. In this post, Jeremy explains why there's such a gap between tech comm practitioners and industry professionals, laying out the case with everything from language, cadence, pressures, motivations, job cycles, promotions, and more, in as clear and straightforward way as possible. This is part I of II.
+description: This is a guest post from Jeremy Rosselot-Merritt, an assistant professor in the School of Writing, Rhetoric, and Technical Communication at James Madison University. In this post, Jeremy explains why there's such a gap between industry practitioners and academics. He lays out the case with everything from language, cadence, pressures, motivations, job cycles, promotions, and more, in as clear and straightforward way as possible. This is part I of II.
 ---
 
 * TOC
