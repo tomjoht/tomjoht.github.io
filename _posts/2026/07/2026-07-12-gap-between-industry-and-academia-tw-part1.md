@@ -134,7 +134,8 @@ Since people make up organizations, this one naturally flows from the "people ar
 
 The divide is real, but so is the common ground. And yet, as a collective field, we still struggle to make the relationship between academic and industry technical communication consistent and mutually reinforcing. In Part II, I'll make the case for why that struggle matters more now than it ever has&mdash;and what we can do about it.
 
-Continue reading the second part of this essay: [The gap between academic and industry technical writing: What it is, why it exists, why it's important, and what we can do about it (Part II)](/blog/gap-between-industry-and-academia-tw-part2)
+{:.note}
+Continue reading the second part of this essay: [The gap between academic and industry technical writing: What it is, why it exists, why it's important, and what we can do about it (Part II)](/blog/gap-between-industry-and-academia-tw-part2).
 
 ## About Jeremy Rosselot-Merritt {#jeremy}
 
