@@ -104,7 +104,7 @@ Now let me touch on an undiscussed aspect of skills I find interesting: skills e
 Some of the steps incorporate healthy habits into docs. For example, in my robust release docs skills, the following steps are followed:
 
 - Analysis of source code comment tags (and any fixes)  
-- Analysis of logs run after the reference docs build to identify elements missing documentation.  
+- Analysis of logs run after the reference docs build to identify elements missing documentation  
 - Analysis as to whether any changes/updates constitute breaking changes  
 - Analysis of documentation corpus to identify needed changes across docs (and any fixes)
 
