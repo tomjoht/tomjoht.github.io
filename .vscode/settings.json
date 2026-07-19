@@ -1,3 +1,5 @@
 {
-    "geminicodeassist.codeGenerationPaneViewEnabled": true
+    "geminicodeassist.codeGenerationPaneViewEnabled": true,
+    "editor.formatOnSave": false,
+    "html.format.wrapLineLength": 0
 }
