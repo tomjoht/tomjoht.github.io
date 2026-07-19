@@ -12,7 +12,41 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Sept 20, 2026"
+  - date: "Sep 20, 2026"
+    time: "10am PT"
+    book:
+      title: "Docs as Tests & AI: A Strategy for Self-Healing Technical Documentation"
+      author: "Manny Silva"
+      url: "https://www.amazon.com/Docs-Tests-Self-Healing-Technical-Documentation/dp/B0H181C5DQ/"
+      image: "manny_silva.png"
+      summary: >
+        "Docs as Tests & AI picks up where Docs as Tests left off. Manny Silva shows how to validate documentation when AI is generating it, consuming it, or both. The book covers territory the original didn't: the difference between deterministic and probabilistic testing, validating the content that feeds AI systems, writing documentation that gives AI agents reliable process knowledge, and building systems that detect and fix errors automatically."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Oct 18, 2026"
+    time: "10am PT"
+    book:
+      title: "The Reverse Centaur's Guide to Life After AI"
+      author: "Cory Doctorow"
+      url: "https://www.amazon.com/Reverse-Centaurs-Guide-Life-After/dp/037462156X"
+      image: "reverse_centaur.png"
+      summary: >
+        "In modern tech parlance, a centaur is a person who is able to use technology to be a better, more productive version of themself. A reverse centaur is a person who is forced by technology to work at an inhuman pace―a driver made to deliver all day long, nonstop; a warehouse worker made to work without food or bathroom breaks; a programmer made to crank out impossible amounts of code."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Nov 15, 2026"
+    time: "10am PT"
+    book:
+      title: "The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence"
+      author: "Kevin Roose"
+      url: "https://www.amazon.com/dp/0374618755"
+      image: "agi_chronicles.png"
+      summary: >
+        "For the last decade, a handful of AI companies have been racing to build the most powerful technology in history: artificial general intelligence, or AGI―a computer system capable of outdoing humans at almost anything. Some of them hoped AGI would cure diseases and heal the planet. Others feared it could kill everyone on Earth. They decided to build it anyway."
+
+  - date: "Dec 20, 2026"
     time: "10am PT"
     book:
       title: "I Am Not a Robot: My Year Using AI to Do (Almost) Everything"

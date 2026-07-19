@@ -80,7 +80,7 @@ topnav_dropdowns:
           url: /ai-book-club
         - title: Skills
           url: /ai/skills
-        - title: Prompt engineering for TW scenarios
+        - title: Prompt engineering
           url: /ai/prompt-engineering.html
         - title: Use cases for AI
           url: /ai/index.html
