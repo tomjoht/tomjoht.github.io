@@ -3,7 +3,7 @@ title: Tom Johnson
 permalink: /aboutme/
 ---
 
-<figure style="width: 170px; float: right; margin-left: 15px;"><img src="{{site.media}}/tomjohnson_small.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area."/><figcaption>Hi, I&#039;m Tom Johnson, a technical writer based in Seattle</figcaption></figure>
+<figure style="width: 270px; float: right; margin-left: 15px;"><img src="{{site.media}}/sunsettom2.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area."/><figcaption>Hi, I&#039;m Tom Johnson, a technical writer based in Seattle</figcaption></figure>
 
 In case you'd like to know a little bit about me, I'm a technical writer currently based in Seattle, working for Google. (Previously, I was at Amazon and a couple of startups in the Bay area.)
 
