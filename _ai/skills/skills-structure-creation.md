@@ -34,3 +34,7 @@ Even with skill creators, it can help to know a few basics about skill structure
 One of my release notes skills has 14 separate steps in the reference folder. Each step is a separate markdown file. My files are numbered to reflect their sequential order. Some skills rely on scripts stored in the scripts folder. And some skills use a template defined in the assets folder. The simplicity of the skill structure is part of the ingenious nature of the skill specification.
 
 AI tools only look at the frontmatter as they scan for relevant skills. This means the rest of your skill isn't loaded into context until it's actually needed, which reduces token consumption and exhaustion.
+
+<hr/>
+
+*Continue to the next topic: [Where to store and invoke skills](/ai/skills-storage-invocation.html)*

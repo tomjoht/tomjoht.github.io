@@ -17,41 +17,61 @@ The patterns in this article are ones I'm still exploring. They push beyond basi
 
 ## Subagent architectures
 
-One pattern in building a skill that I'm just now exploring is using subagents within skills. This isn't obvious when you're interacting with an agent, but an agent has at its command a whole army of subagents that it can invoke. Think of it like the self-replicating Agent Smiths in the Matrix. The agent you're talking to is the main Agent Smith. But if you ask Agent Smith to create a subagent to perform a particular task, Agent Smith can do that. When the subagent finishes, the subagent reports back to Agent Smith and Agent Smith then communicates the outcome to you. In this way, you can potentially create a whole swarm of subagents to tackle a particular task. 
+One pattern I'm just now exploring is using subagents within skills. When you interact with an agent, you're talking to a single agent with a single context window. But that agent can spawn subagents — separate agents with their own fresh contexts — to handle specific tasks. When the subagent finishes, it reports back to the main agent, which synthesizes the results and communicates them to you.
 
-I've only started incorporating subagents into some of my skills, so I'm not entirely sure how useful they'll be. Here's how I implemented one subagent. I asked my agent to create a subagent with a fresh context (no history of the existing edits and changes the main agent has made) and to perform a QA on the job done by this main agent. Creating a subagent that doesn't have the session context is powerful because it sidesteps the bias that the main agent typically has. 
+The most compelling use case I've found so far is **fresh-context QA**. Here's the idea: after your main agent finishes a complex task (like writing release notes), you have it spawn a subagent with a completely clean context — no history of the edits, no memory of the reasoning behind the changes — and ask that subagent to perform quality assurance on the output.
 
-For example, if you ask an agent to write some docs and later to perform some QA on the docs, the agent who did the work typically sees fewer imperfections or issues with the work it performed. But if you invoke a new agent that doesn't have this bias (of preferring its own work, given that it has reasons for why it made the changes it did), then the QA tends to be more objective and rigorous.
+Why does this matter? Because an agent that did the work has an inherent bias toward its own output. It made specific choices and has reasons for each one. When you ask that same agent to review its own work, it tends to see fewer issues. A fresh subagent doesn't carry that bias. It reads the output cold and evaluates it on its merits, which typically produces more rigorous QA.
+
+In a skill, this might look like adding a final step:
+
+> Spawn a subagent with no session history. Provide the subagent with the output files and the original requirements. Ask the subagent to evaluate the output for accuracy, completeness, and adherence to the style guide. Report any issues back.
 
 {% include ads.html %}
 
-I often hear of people using hundreds of agents to tackle particular tasks. When you have many agents working together autonomously, it's called a "swarm." One product manager recently showed me how he's been building out a swarm of agents in his shadow realm to replicate all the agents in the physical world. He has developers, product managers, QA engineers, release managers, UX designers, and more. He showed me an extensive workflow diagram about how they work together. One agent finishes a task and hands it off to another agent, and so on, executing a complex workflow to build a product or feature of some kind. He's trained each agent with the role-specific skills it needs to perform the role, so these aren't just blank agents given a task. These agents have training to perform the role he's assigned them.
+### The swarm concept
 
-I'm still wrapping my head around this use case, but it's an interesting one. As you're designing your skills, keep the subagent architecture in mind. One major reason why it might be useful is that sessions typically degrade as the tokens pile up. When your session has consumed near your token limit, the sessions will often compact the history so that the earlier part of the chat is just a summary, not the actual conversation content. This means that long conversations will have fuzzy memories of the beginnings of the conversations, as the memories are based on summaries passed down only. 
+Taking subagents further, some people are building "swarms" — many agents working together autonomously. I recently saw a demo where a product manager had built agents representing developers, QA engineers, UX designers, and release managers, each trained with role-specific skills. One agent finishes a task and hands it off to the next, executing a complex workflow. 
 
-If your task involves consuming high amounts of tokens and you want to maximize your agent performing at its best, you might not want to construct a lengthy workflow that involves too many tokens before the agent tackles the most important task. Subagents can handle these tasks using their own separate contexts. But like I said, I'm still experimenting with subagents, so most of my discussion here is speculative.
+I'm still wrapping my head around whether swarms make sense for documentation workflows, but the concept is worth tracking. As you design skills, keep the subagent architecture in mind for one practical reason: **sessions degrade as tokens pile up.** When your conversation approaches the token limit, the system compacts earlier history into summaries, meaning the agent has increasingly fuzzy memories of earlier work. For long, multi-step workflows, breaking tasks into subagent calls — each with its own clean context — can keep performance high throughout the process.
 
 ## Recursive subroutines
 
-Another pattern I find interesting is recursive subroutines. A recursive subroutine executes through a series of steps and only finishes after some condition is fulfilled. For example:
+Another pattern I find interesting is recursive subroutines. A recursive subroutine executes through a series of steps and only finishes after some condition is fulfilled:
 
-Complete steps 1 through 3.  
-Check to see if the condition is fulfilled.  
-If so, continue to step 4.   
-If not, repeat steps 1 through 3.
+1. Complete steps 1 through 3.  
+2. Check to see if the condition is fulfilled.  
+3. If so, continue to step 4.   
+4. If not, repeat steps 1 through 3.
 
-The conditional criteria is one that works extremely well for tasks with concrete results, such as winning a game, getting an app to compile, fixing errors, etc. It's much murkier with content that has subjective evaluation. Even so, I keep coming back to the tremendous breakthroughs that AI models have made in learning games like Go. They could keep playing over and over, learning with each iteration, until they finally win a game. What if we could apply something similar to documentation?
+This pattern works best when the success condition is concrete and measurable. For example:
 
-For example, you could check that all links successfully resolve to 200 HTTP response codes. If not, the skill requires that it keep fixing the links and rebuilding the output.
+* **Link validation**: Check that all links resolve to 200 HTTP response codes. If not, fix the broken links, rebuild the output, and check again.
+* **Readability targets**: Check that a document passes a desired Flesch-Kincaid reading level. If not, simplify the language and re-check.
+* **Build errors**: Run a build, check for errors, fix them, and rebuild until the build succeeds.
 
-A skill could check that a document passes a desired Flesch-Kincaid reading level in an output. If not, the skill keeps editing the source content and resubmitting the content to the test over and over.
+The pattern is murkier with subjective evaluation. "Is this document good?" doesn't have a clean pass/fail condition. But you can approximate it by breaking "good" into measurable proxies — link health, reading level, style guide compliance — and looping on each one individually.
+
+In a skill, you might write this as:
+
+> ## Step 5: Validate links
+>
+> Run the link checker against the output directory. If any links return non-200 status codes, fix the source content and re-run the link checker. Repeat until all links resolve successfully, up to a maximum of 3 attempts. If links still fail after 3 attempts, log the failures and continue.
+
+Note the escape hatch: "up to a maximum of 3 attempts." Without a limit, a recursive subroutine can loop indefinitely, burning tokens on a problem it can't solve. Always include a maximum iteration count.
 
 ## Reverse engineering a skill
 
-I've also wondered if I could reverse engineer a skill. For example, how would a setup like this go:
+The last pattern I've been wondering about is reverse engineering. Instead of writing a skill from your knowledge of the process, what if you worked backward from a known-good output?
 
-1. Examine this output. This is the output I want you to achieve.  
+1. Examine this output. This is the result I want you to achieve.  
 2. Now here's the input. This is all you have to go on.  
-3. Create a skill that will transform the input to the output.  
-4. Create a subagent to perform the skill and examine whether the subagent's output resembles the output in step 1. Crucial: The subagent isn't allowed to view the output in step 1 before beginning the task. The subagent must rely entirely on the skill to achieve the result.  
-5. If the subagent's output closely resembles the desired output (based on a subagent acting as a judge to evaluate), you're done. Otherwise, repeat the earlier steps, refining the skill until the subagent's output matches the desired output.
+3. Create a skill that will transform the input into the output.  
+4. Spawn a subagent to perform the skill. The subagent isn't allowed to view the desired output — it must rely entirely on the skill instructions.
+5. Have a third agent (acting as a judge) compare the subagent's output to the desired output.
+6. If the outputs closely match, the skill is good. Otherwise, refine the skill and repeat.
+
+This is essentially test-driven skill development — you define the expected output first, then iterate on the skill until it produces that output reliably. I haven't fully tested this approach, but the logic is sound: if a skill can reliably transform input to output without the agent ever seeing the answer, then the skill itself captures the necessary knowledge.
+
+The approach connects back to [testing](/ai/skills/skills-testing): if you can express your desired output as a set of eval criteria, you have a natural eval suite built into the skill development process itself.
+

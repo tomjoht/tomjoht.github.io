@@ -28,7 +28,7 @@ Additionally, most repeatable tasks fall into the category of mechanical toil th
 
 {% include ads.html %}
 
-## The vision: 100 tech-writer-specific skills
+## The vision: 100 tech-writer-specific skills {#100twskills}
 
 Consider this idea: A company has 100 tech-writer-specific skills that are highly adopted and used across the organization. This collection of skills, focusing on internal authoring skills, has skills for doing virtually anything related to tech writing that you can imagine — fixing a bug, applying a style edit, checking release notes for accuracy, fixing comments in proto styles, and more. The skills don’t do the job entirely themselves but rather act as power tools for the writers, accelerating and amplifying their work.
 
@@ -45,3 +45,11 @@ I've only worked with internal skills for authoring. There's a whole other side 
 However, it's worth noting here that external skills can have tremendous, measurable impact. Some of my colleagues are working on an eval toolchain, and they say that adding skills to the docs has boosted the AI's accuracy on evals by a noticeable margin.
 
 In the articles that follow, I'll cover when to build a skill, how to structure one, where to store it, and how to design skills that are modular, testable, and shareable with others.
+
+## A note on how this course was written
+
+This course is a collaboration between me and AI. I wrote the initial drafts, ideas, and examples from my own experience, then used AI agents to help flesh out the content, fill gaps, and improve clarity. Some sections are mostly mine; others were substantially shaped by the agent. It would be a little ironic to write a course on agent skills without actually using one, right?
+
+<hr/>
+
+*Continue to the next topic: [When to build a skill](/ai/skills-when-to-build.html)*

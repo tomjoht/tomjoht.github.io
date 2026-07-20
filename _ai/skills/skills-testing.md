@@ -219,3 +219,7 @@ The testing specifics depend on the evaluation framework you use. The landscape 
 * **[Braintrust](https://www.braintrust.dev/)** — A managed logging and scoring platform for teams wanting a hosted solution.
 
 Each framework has its own opinions about test file formats, scoring methods, and reporting. Some support ablation-style baseline comparisons out of the box; others focus on scoring individual outputs against rubrics. Pick one that fits your workflow and team's technical comfort level, and don't get too attached — you may need to switch as the space matures.
+
+<hr/>
+
+*Continue to the next topic: [Advanced patterns: subagents, loops, and reverse engineering](/ai/skills-advanced-patterns.html)*
