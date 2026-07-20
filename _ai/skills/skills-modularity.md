@@ -8,6 +8,7 @@ path1: ai/skills.html
 last-modified: 2026-07-17
 ---
 
+{% include_relative draft_notice.html %}
 
 In creating a skill to accomplish a task, it’s tempting to load up the skill with the full lists of subtasks directly in the skill. However, this is a mistake, as this results in megaskills that do 10 things. Megaskills don’t work for other writers because, due to the idiosyncratic nature of tech writing, these other writers don’t have the same set of tasks. Instead, if the tasks might be reused in other skills, you should make each task its own standalone skill. Then reference those tasks as part of the skill.
 
@@ -52,6 +53,8 @@ This means many of the above skills should be packaged as a standalone skill, to
 15. Run this skill: Reflect and improve the skill
 
 Now we end up with a dozen or so standalone skills that can be repurposed into other skills. The release notes skill ends up being more like a routing skill, or an overarching meta. It still might provide its own instruction in places, for areas or tasks that don’t make sense to break out into their own skills. For example, “Run build script to regenerate reference docs” - this is likely a particular configuration and directory unique to these docs. But most of the other skills can be reused.
+
+{% include ads.html %}
 
 By breaking skills down to a single task, this not only unlocks re-use for the author making the skills; it also unlocks re-use for other writers. Whereas the megaskill would have caused many writers to say sorry, this skill doesn’t work for me because of these small points, now the same writers can pick and choose the skills that work for them. Most likely 50-70% of these skills might apply to another writer’s release notes situation, as different as the release notes process might be.
 

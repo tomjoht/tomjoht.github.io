@@ -78,7 +78,7 @@ topnav_dropdowns:
       folderitems:
         - title: AI Book Club
           url: /ai-book-club
-        - title: Skills
+        - title: Agent skills
           url: /ai/skills
         - title: Prompt engineering
           url: /ai/prompt-engineering.html

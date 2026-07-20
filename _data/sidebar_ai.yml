@@ -12,12 +12,38 @@ folders:
     jurl: /ai/skills.html
     type: web
 
-  - title: "Three hurdles preventing skill adoption"
-    jurl: /ai/skills-hurdles-to-adoption.html
+  - title: "When to build a skill"
+    jurl: /ai/skills-when-to-build.html
+
+  - title: "Skill structure and creation"
+    jurl: /ai/skills-structure-creation.html
+
+  - title: "Where to store and invoke skills"
+    jurl: /ai/skills-storage-invocation.html
+
+  - title: "Internal vs. external skills"
+    jurl: /ai/skills-internal-external.html
+
+  - title: "Skills enforce consistent process"
+    jurl: /ai/skills-enforce-process.html
 
   - title: "Modularity of skills"
     jurl: /ai/skills-modularity.html
 
+  - title: "Three hurdles preventing skill adoption"
+    jurl: /ai/skills-hurdles-to-adoption.html
+
+  - title: "Design principles for skills"
+    jurl: /ai/skills-design-principles.html
+
+  - title: "Forking and sharing skills"
+    jurl: /ai/skills-forking-sharing.html
+
+  - title: "Subagent architectures in skills"
+    jurl: /ai/skills-subagent-architectures.html
+
+  - title: "Recursive subroutines and reverse engineering"
+    jurl: /ai/skills-recursive-patterns.html
 
 - title: "Prompt engineering for tech comm scenarios"
   landing: /ai/prompt-engineering.html
