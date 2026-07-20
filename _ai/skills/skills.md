@@ -1,5 +1,5 @@
 ---
-title: "Skills"
+title: "Agent skills"
 permalink: ai/skills.html
 keywords:
 sidebar: sidebar_ai
