@@ -65,7 +65,7 @@ For example, your script might involve a few general sections. Let's continue th
 
 ## Use a blend of natural language and pseudocode
 
-Now that you have the general steps and script logic, flesh out each step with some natural langauge and pseudocode. Pseudocode is just a natural language description of what the code is doing. Natural language communicates the broader objectives and context, while pseudocode provides a structured blueprint for the AI to follow.
+Now that you have the general steps and script logic, flesh out each step with some natural language and pseudocode. Pseudocode is just a natural language description of what the code is doing. Natural language communicates the broader objectives and context, while pseudocode provides a structured blueprint for the AI to follow.
 
 For example, let's write some pseudocode for this first step.
 
@@ -91,7 +91,7 @@ Additionally, echo statements help you identify exactly where the script goes wr
 
 ## Continue building out your script
 
-After verifying the initial section works, move on to the next section and continue as I've demonstrated until you make your way through the entire script. As I mentioned in previous prompt engineering articles, such as this one on [meeting notes](/ai/prompt-engineering-summarizing-meeting-notes.html) the key is to go section by section. Don't try to have the AI write the entire script at once. It'll probably fail at some point, and it will be much harder to troubleshoot if you're building it out section by section.
+After verifying the initial section works, move on to the next section and continue as I've demonstrated until you make your way through the entire script. As I mentioned in previous prompt engineering articles, such as this one on [meeting notes](/ai/prompt-engineering-summarizing-meeting-notes.html), the key is to go section by section. Don't try to have the AI write the entire script at once. It'll probably fail at some point, and it will be much harder to troubleshoot if you're building it out section by section.
 
 ## Layering complexity
 
@@ -99,7 +99,7 @@ As you make your way through to additional sections, your script's complexity wi
 
 One feature you'll probably run into is the AI tool's “laziness.” The AI tool might not rewrite the entire script each time with the added functionality but simply point out what to add/update and where (especially if the script is long). If you want the AI tool to insert those additions or updates and rewrite the entire script, you'll probably need to tell it explicitly to do this. 
 
-Additionally, keep in mind the output constraints of the AI. Most AI tools don't output more than 500-1,000 words at a time, so if you're script is long and complex, you might max out the AI's memory. If that happens, tell the AI to “keep going” or to “continue writing the entire script until finished.” 
+Additionally, keep in mind the output constraints of the AI. Most AI tools don't output more than 500-1,000 words at a time, so if your script is long and complex, you might max out the AI's memory. If that happens, tell the AI to “keep going” or to “continue writing the entire script until finished.” 
 
 It depends how resource-constrained the AI is, but if the AI's truncation/laziness gets really annoying, you might just prefer to add in the newly written sections to the updated script yourself. I often copy the script into another text editor (like Sublime Text) and make updates manually there.
 

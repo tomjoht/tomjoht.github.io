@@ -43,11 +43,11 @@ For more background on API responses, see [Response example and schema](docapis_
 * **schema** - describes all possible fields returned and the rules for which they're returned, as well as definitions of each field. For example, the response includes one of the following: an array of `acme` or `beta` objects.
 * **sample responses** - provides a subset of the total fields described by the schema, often determined by different input parameters. In other words, if you use parameter `foo`, the response includes an array of `acme` objects; but if you use parameter `bar`, the response includes an array of `beta` objects, etc.
 
-It's this relationship between the schema and the sample responses that makes assessing  API responses difficult. Is a sample response missing certain fields because the data didn't include those fields, because of the input parameters used, or due to error? Are there fields the tech writer documented that don't actually align with the API responses? Are there fields present in the response that aren't listed in the documentation? Which fields might be confusing to users?
+It's this relationship between the schema and the sample responses that makes assessing API responses difficult. Is a sample response missing certain fields because the data didn't include those fields, because of the input parameters used, or due to error? Are there fields the tech writer documented that don't actually align with the API responses? Are there fields present in the response that aren't listed in the documentation? Which fields might be confusing to users?
 
-This is exactly the kind of task that robots are better are doing than humans (by robots, I just mean LLMs or AI). We're not great at line by line comparison of hundreds of words to identify the diffs between information objects. But this eye for detail is what we need when we write docs. Exerting this meticulousness can be taxing and cognitively straining.
+This is exactly the kind of task that robots are better at doing than humans (by robots, I just mean LLMs or AI). We're not great at line by line comparison of hundreds of words to identify the diffs between information objects. But this eye for detail is what we need when we write docs. Exerting this meticulousness can be taxing and cognitively straining.
 
-There can also be some drift between engineering specifications that a tech writer might have used in creating the documentation (specifications that likely included the fields and their definitions) and the actual implementation. To identify drift, the tech writer usually [runs some sample tests](testingdocs.html) to confirm that the responses match the documentation. But unless your API has only a simple number of fields in the response, the comparison tasks can be daunting task. The API response might have an array with repeated fields, or it might have deeply nested fields, or other complexities that make it difficult to evaluate. With Java APIs, the reference documentation often names the objects, but those names don't appear as field names in the output. 
+There can also be some drift between engineering specifications that a tech writer might have used in creating the documentation (specifications that likely included the fields and their definitions) and the actual implementation. To identify drift, the tech writer usually [runs some sample tests](testingdocs.html) to confirm that the responses match the documentation. But unless your API has only a simple number of fields in the response, the comparison tasks can be a daunting task. The API response might have an array with repeated fields, or it might have deeply nested fields, or other complexities that make it difficult to evaluate. With Java APIs, the reference documentation often names the objects, but those names don't appear as field names in the output. 
 
 Overall, ensuring the API's responses are accurate is one area prone to error. Here let's see if AI tools can help with the comparative analysis. Using AI tools, we will ask whether the documentation about our API's responses matches the API's actual responses.
 
@@ -67,7 +67,7 @@ curl --location 'https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOUR
 
 Swap in your own [API key](docapis_get_auth_keys.html) for `YOURAPIKEY`.
 
-Or literally just paste in this URL into the browser: `https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY`.`
+Or literally just paste in this URL into the browser: `https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY`.
 
 Here's the response (truncated):
 

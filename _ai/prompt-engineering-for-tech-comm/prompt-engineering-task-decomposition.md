@@ -209,7 +209,7 @@ Important: We're temporarily ignoring the complex substructures underneath each 
 
 ## Step 3: Expand "WonderWhizzleSnacker"
 
-Now let's focus on the "WonderWhizzleSnacker" node. Provide the AI with the following instructions and 
+Now let's focus on the "WonderWhizzleSnacker" node. Provide the AI with the following instructions: 
 
 <div class="chat">
 <p>Expand the "WonderWhizzleSnacker" node within the existing tree diagram using the following JSON. Remember to follow the established style from the initial example.</p>
@@ -530,7 +530,7 @@ The task decomposition strategies used here to build complex tree diagrams are r
 
 As the tree diagram expanded, you broke complex nodes into smaller, more manageable JSON chunks. Similarly, large essay topics can be broken down into subtopics or distinct arguments, making the overall writing process less daunting.
 
-Just as the AI constructed and refined portions of the tree diagram iteratively, a well-written essay evolves through drafts. You might tackle individual paragraphs or specific supporting sections one at a time, rather than writing from start to finish in a single sitting. Writing a robust essay also requires proofreading and editing to catch any misspellings, grammatical inconsistencies, or  errors in logic.
+Just as the AI constructed and refined portions of the tree diagram iteratively, a well-written essay evolves through drafts. You might tackle individual paragraphs or specific supporting sections one at a time, rather than writing from start to finish in a single sitting. Writing a robust essay also requires proofreading and editing to catch any misspellings, grammatical inconsistencies, or errors in logic.
 
 Don't assume that the generated diagram will be completely error-free. As the complexity grows, the chance of misinterpretations or omissions due to memory constraints increases. Carefully review the results and be prepared to iterate on different sections until the entire diagram accurately matches your source JSON.
 

@@ -10,7 +10,7 @@ last-modified: 2024-07-28
 rebrandly: https://idbwrtng.com/prompt-engineering-source-material-context
 ---
 
-One of the most successful strategies for using AI is to pass in an abundance of source material that can augument and inform the AI's responses. In this tutorial, I cover strategies for gathering this material, including what types of documents to look for, optimal ordering, pitfalls to look out for such as outdated or slanted information, and more.
+One of the most successful strategies for using AI is to pass in an abundance of source material that can augment and inform the AI's responses. In this tutorial, I cover strategies for gathering this material, including what types of documents to look for, optimal ordering, pitfalls to look out for such as outdated or slanted information, and more.
 
 {% if site.format == "web" %}
 * TOC
@@ -45,7 +45,7 @@ For example, suppose you're creating a user guide for an API. No user guide exis
 
 In discussions about providing source material as contextual input, I should briefly mention "RAG." RAG stands for "retrieval augmented generation" and refers to supplementing LLM training data with additional, real-time information added in. If you have ChatGPT 4, when you make a query like, "What's the latest news in Haiti?" the AI briefly searches the web, gathers the results, and uses that freshly gathered information to supplement other information in its training data. Behind the scenes, AI interfaces often have APIs acting under the hood to go out and retrieve information. 
 
-As another example, you could ask "What's the weather like tomorrow? I'm planning to bike to work. Services underneath then gather the information from other sources about the weather and augment the LLM's training data with this recent information.
+As another example, you could ask "What's the weather like tomorrow? I'm planning to bike to work." Services underneath then gather the information from other sources about the weather and augment the LLM's training data with this recent information.
 
 While RAG is usually a programmatic augmentation of an existing LLM's training data, the source material technique I'm describing in this article is a manual implementation of the same idea. The LLM has been trained on a great many things, but probably not the project or feature you're documenting, which was just designed and coded within the past couple of months and is confidential and proprietary to your company. That's why you have to manually gather the source material and use it to supplement an LLM's knowledge. 
 
@@ -106,7 +106,7 @@ Consider also that as you start making progress in the documentation project, ea
 * Add in user guide topics.
 * Add some code tutorials.
 
-Each information deliverable can build on the one before it, allowing you lay the foundation to tackle the more advanced topics.
+Each information deliverable can build on the one before it, allowing you to lay the foundation to tackle the more advanced topics.
 
 {% include ads.html %}
 
@@ -118,7 +118,7 @@ The file diff will get you a more accurate representation of the code elements a
 
 ### Fill in the gaps with meeting notes
 
-Chances are, the source material you gather won't have all the information. This is where you go out and manually gather that information by meeting with engineers. Record, transcript, and clean up the transcriptions with AI, then feed them into your body of source material, preferably near the beginning. Remember that one of the key functions tech writers play is with information gathering. We pull information out of engineers' heads. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](https://idratherbewriting.com/ai/prompt-engineering-summarizing-meeting-notes.html).
+Chances are, the source material you gather won't have all the information. This is where you go out and manually gather that information by meeting with engineers. Record, transcribe, and clean up the transcriptions with AI, then feed them into your body of source material, preferably near the beginning. Remember that one of the key functions tech writers play is with information gathering. We pull information out of engineers' heads. See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](https://idratherbewriting.com/ai/prompt-engineering-summarizing-meeting-notes.html).
 
 If you have a clear sense of information gaps, your meetings with engineers could round out the source material with more complete coverage.
 

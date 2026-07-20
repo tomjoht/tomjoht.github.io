@@ -31,7 +31,7 @@ Here's a video version of this content:
 
 Before you can use AI tools to generate accurate, relevant content, you need to gather up a source of credible information from which the AI can draw from. For example, if you were to simply ask Gemini, ChatGPT, or another generative AI tool to write an API overview for Product ACME, a proprietary application not even online, without providing a lot of source material about ACME, you can imagine how the output will go &mdash; the AI tools will hallucinate wildly or might refuse the task altogether. 
 
-AI tools produce the best output when you supply copious input. When you can gather up one-pagers, product definition papers, engineering designs, and other collateral about the product, AI tools can use this input to produce more intelligible outputs. However, many times this source material isn't available. Or if it's available, it might not be fully accurate (some papers might explore various approaches never implemented, for example). Chances are, you'll need to meet with engineers to gather a lot more information about the product, even it's to clarify and validate information in the source material you've gathered.
+AI tools produce the best output when you supply copious input. When you can gather up one-pagers, product definition papers, engineering designs, and other collateral about the product, AI tools can use this input to produce more intelligible outputs. However, many times this source material isn't available. Or if it's available, it might not be fully accurate (some papers might explore various approaches never implemented, for example). Chances are, you'll need to meet with engineers to gather a lot more information about the product, even if it's to clarify and validate information in the source material you've gathered.
 
 When you meet with engineers, they often provide a firehose of information, adding so many details and explanations that it can be overwhelming. Tech writers might record the meetings so re-listen later, or to transcribe them, but the automated transcripts can be chaotic, hard to read, fragmented, and so on. Additionally, transcribing the material manually can take forever.
 
@@ -95,7 +95,7 @@ Before sending out the AI-written transcript to meeting participants, you'll wan
 * If a participant joins from a meeting room (for example, "Central Command" meeting room), the transcript will say "Central Command" instead of the person speaking in that meeting room. Change meeting rooms to people's names where feasible.
 * Names might be spelled phonetically rather than accurately.
 * Links to documents, often pasted into meeting chats, don't find their way into the AI-cleaned-up transcript. Add the links.
-* Action items can be a bit too robust and often need to be paired back.
+* Action items can be a bit too robust and often need to be pared back.
 
 Don't spend too much time editing the transcript. Be sure to put "(AI-written)" after the meeting transcript title. This acknowledgement provides a disclaimer in case something is wrong; it also provides a bit of intrigue.
 

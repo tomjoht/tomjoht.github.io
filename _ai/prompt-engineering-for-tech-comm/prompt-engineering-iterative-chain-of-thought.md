@@ -47,7 +47,7 @@ As I explained in [Gathering source material for context input](/ai/prompt-engin
 
 ## Convert the meeting notes into documentation
 
-Now that I have refined, clean-up meeting notes, I need to transform them into documentation. This means shifting the perspective from an engineer explaining a concept to a direct explanation of the API's functionality.
+Now that I have refined, cleaned-up meeting notes, I need to transform them into documentation. This means shifting the perspective from an engineer explaining a concept to a direct explanation of the API's functionality.
 
 Rather than submitting the entire transcript at once into an AI tool, I work section by section (as explained in [Task decomposition](/ai/prompt-engineering-task-decomposition.html)). I input a section and prompt the AI to rewrite it in a style suitable for API documentation, targeting a developer audience. This section-by-section approach prevents the AI from condensing or omitting important details. It also allows me to address any issues early on, preventing them from recurring later.
 

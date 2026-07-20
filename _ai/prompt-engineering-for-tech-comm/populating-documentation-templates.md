@@ -52,7 +52,7 @@ Note that you don't actually need templates. As much as I feel like templates sh
 
 ### A powerful AI tool
 
-You'll need access to an generative AI tool that accepts a large token input and is fairly powerful. The AI tools available to you vary by company. See the information security policies at your company for which tools you're allowed to use company data with. In general, use LLMs with high token inputs. If you're able to use Gemini, Claude, or ChatGPT for your documentation content, all the better. (In this series on prompt engineering, I've kept things generic rather than tying them to specific AI tools. Most of them work more or less similarly.)
+You'll need access to a generative AI tool that accepts a large token input and is fairly powerful. The AI tools available to you vary by company. See the information security policies at your company for which tools you're allowed to use company data with. In general, use LLMs with high token inputs. If you're able to use Gemini, Claude, or ChatGPT for your documentation content, all the better. (In this series on prompt engineering, I've kept things generic rather than tying them to specific AI tools. Most of them work more or less similarly.)
 
 ## The prompt {#the_prompt}
 
@@ -292,8 +292,8 @@ Note that you can also use AI to incorporate comments from SMEs. For example, su
 
 ## Conclusion
 
-Getting an AI to produce an accurate piece of documentation like an API overview isn't zero-shot prompt. It involves quite a bit of work, but much less work than writing the first draft yourself. By expertly wielding documentation templates against a large body of accurate source material, you can speed your way through writing documentation and arrive at a decent first draft. 
+Getting an AI to produce an accurate piece of documentation like an API overview isn't a zero-shot prompt. It involves quite a bit of work, but much less work than writing the first draft yourself. By expertly wielding documentation templates against a large body of accurate source material, you can speed your way through writing documentation and arrive at a decent first draft. 
 
 Collecting the source material and crafting the documentation prompts is the hard part. Once you've finished that foundational work, you can apply the techniques to your documentation more efficiently. 
 
-You'll notice that I worked in some positive feedback as the prompts go along. This is emotional priming. I'm not sure how effective it is, but the idea is that positive feedback makes the AI better. Even if not, it makes my feel better about my relationship with AI.
+You'll notice that I worked in some positive feedback as the prompts go along. This is emotional priming. I'm not sure how effective it is, but the idea is that positive feedback makes the AI better. Even if not, it makes me feel better about my relationship with AI.

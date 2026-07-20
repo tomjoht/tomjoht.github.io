@@ -281,7 +281,7 @@ Looking great! Now keep going with the last section, "What's Next."
 
 ## Consolidated prompt {#consolidated_prompt}
 
-Now that we've reverse engineered the prompt, let's pull all of this together into a consolidated prompt that we can use. Note that before trying this, gather up as much source material as you can find, as described in the [Prerequisites](/ai/prompt-engineering-populating-documentation-templates.html#prerequisites) in [Populating documentation templates using AI](/ai/prompt-engineering-populating-documentation-templates.html). Without abundant, accurate source material, there's a higher risk that the AI will hallucinate. I've added some additional instructions here to try to keep the AI's content generation rooted in the source material. I've also adjusted some of the reverse engineerined instructions to eliminate minor problems in the prompt and get a better outcome.
+Now that we've reverse engineered the prompt, let's pull all of this together into a consolidated prompt that we can use. Note that before trying this, gather up as much source material as you can find, as described in the [Prerequisites](/ai/prompt-engineering-populating-documentation-templates.html#prerequisites) in [Populating documentation templates using AI](/ai/prompt-engineering-populating-documentation-templates.html). Without abundant, accurate source material, there's a higher risk that the AI will hallucinate. I've added some additional instructions here to try to keep the AI's content generation rooted in the source material. I've also adjusted some of the reverse engineered instructions to eliminate minor problems in the prompt and get a better outcome.
 
 <div class="chat">
     <p>You're a technical writer creating an API overview document for a developer audience. The API overview provides a high-level description of the API and follows a standard template with sections that I'll carefully define for you.</p>
@@ -310,7 +310,7 @@ Now that we've reverse engineered the prompt, let's pull all of this together in
     </ul>
     <p><strong>Style and tone instructions:</strong></p>
     <ul>
-        <li><strong>Technical but Aacessible</strong> &mdash; Avoid overly complex jargon, but ensure accurate technical terminology.</li>
+        <li><strong>Technical but Accessible</strong> &mdash; Avoid overly complex jargon, but ensure accurate technical terminology.</li>
         <li><strong>Concise and informative</strong> &mdash; Every sentence should deliver clear value.</li>
         <li><strong>Active voice and present tense:</strong> Use active voice and write in the present tense.</li>
         <li><strong>Sentence length</strong> &mdash; Aim for sentences between 10-20 words for maximum clarity.</li>
@@ -372,7 +372,7 @@ After the AI responds, follow it with this:
         <li><strong>Informative and inspiring:</strong> Write with an enthusiastic and informative tone, highlighting the API's versatility and potential for innovation.</li>
         <li><strong>Active voice and present tense:</strong> Maintain active voice and present tense for clarity and engagement. Avoid using the word "will" or any future tense.</li>
         <li><strong>Structure and organization:</strong> Employ clear subheading, bullet points, or numbered lists to enhance readability.</li>
-        <li><strong>Examples:</strong>Consider the use of examples to provide context and clarity for each capability.</li>
+        <li><strong>Examples:</strong> Consider the use of examples to provide context and clarity for each capability.</li>
     </ul>
 </div>
 
@@ -509,7 +509,7 @@ In fact, as I've gone the rounds with this template, I now see how some sections
 
 ### Pattern-defying prompts
 
-This prompt follows a highly structured process. This might not work well if the source material doesn't fit well into the template. If that's the case, you'll want to keep things more general. In fact, I'm leaning more toward the idea that a general template would allow the LLM to better fit and shape the source material to the principle of the API overview. I have more experimentating to do to confirm this.
+This prompt follows a highly structured process. This might not work well if the source material doesn't fit well into the template. If that's the case, you'll want to keep things more general. In fact, I'm leaning more toward the idea that a general template would allow the LLM to better fit and shape the source material to the principle of the API overview. I have more experimenting to do to confirm this.
 
 Also, as you can see from this example, this API overview is highly specific to the structure implemented in the Google Maps documentation. It's not the same overview structure as you might find in the Google Cloud docs, or the Amazon Cloud docs, or in the Microsoft Azure docs. You'll want to find your company's own pattern and craft the prompt based on it rather than using another company's documentation. More than any other topic, the API overview content follows a specific and unique pattern, especially when you have many APIs in a developer portal.
 
@@ -527,4 +527,4 @@ If this were an artistic/creative domain, such as reverse engineering a novel or
 
 ### Emotional priming
 
-You've probably noticed the overflowing praise I've peppered in after each response. This emotional priming serves two purpose: First, AI tools do better when they're emotionally primed, for some reason. Pointing out what the AI tool is doing right can help the AI tool make similar good decisions in the upcoming prompts. (Not too unlike human-to-human praise.) Second, it makes me feel better to provide praise like this. If you start pointing out what others are doing right, you might find your brain doing the same for yourself. You'll have a much better experience interacting with AI when you pepper in praise than if you adopt a grumpy, bossy tone.
+You've probably noticed the overflowing praise I've peppered in after each response. This emotional priming serves two purposes: First, AI tools do better when they're emotionally primed, for some reason. Pointing out what the AI tool is doing right can help the AI tool make similar good decisions in the upcoming prompts. (Not too unlike human-to-human praise.) Second, it makes me feel better to provide praise like this. If you start pointing out what others are doing right, you might find your brain doing the same for yourself. You'll have a much better experience interacting with AI when you pepper in praise than if you adopt a grumpy, bossy tone.

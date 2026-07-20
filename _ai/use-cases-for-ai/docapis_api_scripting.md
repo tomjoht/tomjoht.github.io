@@ -118,7 +118,7 @@ Depending on your systems for technical authoring and publishing, you could crea
 * Version content after a release by archiving content and updating file names and directories.
 * Perform post-publishing actions, such as updating a search index, closing bugs, or pinging groups with links to the new docs.
 * Send build notifications to specific groups about the status of docs during build, staging, and publishing to keep groups informed.
-* Script a process that generate bugs for each step of a release.
+* Script a process that generates bugs for each step of a release.
 
 Look for opportunities to automate processes with scripts.
 

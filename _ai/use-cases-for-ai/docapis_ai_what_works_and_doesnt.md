@@ -82,7 +82,7 @@ I've tried to make these use cases specific and concrete. If I could extrapolate
 
 ## 10 scenarios where AI tools don't help much
 
-On the flip side, there are also scenarios where AI seems to a poor fit. Here are 10 examples:
+On the flip side, there are also scenarios where AI seems to be a poor fit. Here are 10 examples:
 
 * Write specialized or creative content (not found on the web)
 * Explain specialized knowledge (not found on the web)

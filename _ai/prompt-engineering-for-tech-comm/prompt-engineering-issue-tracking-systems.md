@@ -25,7 +25,7 @@ Issue tracking systems, also known as bug trackers like JIRA, contain a plethora
 * Bugs indicate the priority and severity of the issue. If they're tagged correctly, they can guide you about what you should be working on.
 * Bug components indicate which team owns the issue. Bugs are often filed into different components owned by specific teams.
 * Bug hotlists indicate how the information is classified (e.g., into component workstreams) or iteration hotlists. A release blocker hotlist, for example, or an iteration hotlist, can help indicate priorities.
-* Bugs can often sometimes function as shadow bugs for internal discussions of externally filed partner bugs. You can glimpse into the world of your users through the bugs they file.
+* Bugs can sometimes function as shadow bugs for internal discussions of externally filed partner bugs. You can glimpse into the world of your users through the bugs they file.
 
 Given the importance of issue tracking systems, what opportunities are there to leverage AI here? In this session, I'll explore 5 ways to use AI with issue tracking systems.
 
@@ -144,7 +144,7 @@ All of this information could be leveraged to assemble a user profile or persona
 
 <div class="chat">
 <div markdown="1">
-Attached is a CSV of a list of bugs that usrs have filed over the past couple of years. Our users are developers using APIs to [explain common use cases]. I want you to look through these bugs and gather patterns and observations enough to describe a typical user profile or persona. The user profile/persona should describe typical tasks users try to do, their tools, the APIs and workflows they use, their business use cases, and more. 
+Attached is a CSV of a list of bugs that users have filed over the past couple of years. Our users are developers using APIs to [explain common use cases]. I want you to look through these bugs and gather patterns and observations enough to describe a typical user profile or persona. The user profile/persona should describe typical tasks users try to do, their tools, the APIs and workflows they use, their business use cases, and more. 
 
 Try to discern all of this by reading through the many bugs that the users are filing. Extrapolate a picture of a typical user, contextualizing them within an environment and business case and painting a picture that helps us understand them more. By understanding user persona, we can be more strategic with our decisions around documentation and product priorities.
 </div>

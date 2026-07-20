@@ -123,7 +123,7 @@ By creating specialized glossaries, you draw attention to related terms and can 
 
 ### Thematic analysis of bugs
 
-In looking for scenarios to apply thematic analysis, who can forget bug lists? Suppose you have 150 bugs in your team's ticket management system (e.g., JIRA). You probably want to group them into different sublists so that you can tackle theme more efficiently. You might want to group all the bugs about the "ACME API" in one list, all the bugs about the "Omega API" in another, all the bugs about the "service widget" in another, and so on. Sorting through the bugs is time consuming and tedious.
+In looking for scenarios to apply thematic analysis, who can forget bug lists? Suppose you have 150 bugs in your team's ticket management system (e.g., JIRA). You probably want to group them into different sublists so that you can tackle them more efficiently. You might want to group all the bugs about the "ACME API" in one list, all the bugs about the "Omega API" in another, all the bugs about the "service widget" in another, and so on. Sorting through the bugs is time consuming and tedious.
 
 To leverage AI, you could first use summaries to generate more appropriate titles for each of the bugs. Then you could export the bugs into a long list. Feed that list into an AI to sort them into thematic groupings. Then from those groupings, apply group tags to the bugs. 
 
@@ -143,7 +143,7 @@ As a technical writer, if you want to get your documentation system's organizati
 
 In this scenario, you could use AI to do two things:
 
-* You could ask an AI to group your topics into the most logical groupings by theme, based on the topic titles. This would at least give you the benefit of another perspective. You could even prime the AI with a specific persona to induce a different perspective (e.g., AI by saying, "You are a new user...", "You are a business executive rather than a coder...." You are an advanced developer...")
+* You could ask an AI to group your topics into the most logical groupings by theme, based on the topic titles. This would at least give you the benefit of another perspective. You could even prime the AI with a specific persona to induce a different perspective (e.g., AI by saying, "You are a new user...", "You are a business executive rather than a coder...." "You are an advanced developer...")
 * Then you could analyze the AI groupings against your own groupings to identify areas that might be less intuitive. If the AI tool predicts that a topic about "API errors" would more logically appear under "Support" than under "API reference," a move might be worth considering.
 
 Each of these scenarios involves sorting and grouping lots of little pieces of information. This is a common cognitive task that we perform countless times in our role as technical writers. (Information synthesis is a topic I wrote about in my series on Simplifying Complexity: [Principle 3: Ensure information harmony in the larger landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html).) We are frequently taking small pieces of information and fitting them into a larger information landscape. Consider using AI tools to assist with these tasks.

@@ -32,7 +32,7 @@ Here's a video version of this content:
 
 ## Reference material is the source of truth
 
-First, let me explain a bit of the strategy. For the best outcomes with AI tools, you need a source of truth. The reference docs can serve as a key source of truth in your prompts, providing a list of classes, methods, etc., against which the AI output can be verified. User guide content and drift out of date, but freshly generated reference documentation should be accurate to the code base, for the most part. This is why it's vital that you generate the reference material: it gives you a source of truth.
+First, let me explain a bit of the strategy. For the best outcomes with AI tools, you need a source of truth. The reference docs can serve as a key source of truth in your prompts, providing a list of classes, methods, etc., against which the AI output can be verified. User guide content can drift out of date, but freshly generated reference documentation should be accurate to the code base, for the most part. This is why it's vital that you generate the reference material: it gives you a source of truth.
 
 From this reference documentation, you can do all sorts of things, such as identify outdated content in the user guide, see what's new between outputs, get links in your release notes, ask AI to fact check your user guide content, and more. For strategies on generating your reference docs, see [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html).
 
@@ -170,7 +170,7 @@ Let's look at a few scenarios.
 
 {: .note}
 Many of the following prompts are AI-assisted and experimental. I'm still exploring and tweaking these approaches, so let me know if you have feedback on them.
-Structure these quality controls at release points
+## Structure these quality controls at release points
 
 Here are 10 quality controls you can implement at each release. 
 

@@ -23,9 +23,9 @@ Technical writers frequently act as editors, whether reviewing content written b
 
 When I first started using AI tools, I tried to get them to write blog posts or other large pieces of content. These efforts almost always failed. The content sounded flat, unassertive, impersonal, boring, and voiceless. For more on why AI can't approximate real human writing, see Lauren Hartenberger's insightful essay [What AI Teaches Us About Good Writing](https://www.noemamag.com/what-ai-teaches-us-about-good-writing/). Hartenberger says that human writers often purposefully deviate from convention or rules as they engage with topics in authentic ways; this makes their writing connect emotionally with readers. 
 
-But even if we don't use AI tools to write content for us, it doesn't mean we have to abandon the language capabilities of AI tools. AI tools actually work great for language advice. One common task I do as a technical writer, on a near daily basis, is review content that others write. When I put on my editor's hat, I want to make precise, knowledgeable comments that reference grammar or stylistic rules rather than just rewriting sentence so they sound better. In particular, I've found that engineers want to know specifically why their sentences are wrong. They frequently reject comments that say "It sounds better this way." Sounds better to whom? To you?
+But even if we don't use AI tools to write content for us, it doesn't mean we have to abandon the language capabilities of AI tools. AI tools actually work great for language advice. One common task I do as a technical writer, on a near daily basis, is review content that others write. When I put on my editor's hat, I want to make precise, knowledgeable comments that reference grammar or stylistic rules rather than just rewriting sentences so they sound better. In particular, I've found that engineers want to know specifically why their sentences are wrong. They frequently reject comments that say "It sounds better this way." Sounds better to whom? To you?
 
-Even 20 years ago, when I was in graduate school teaching first-year composition classes, students wanted precise references to grammar rules. In part this is because writing "awkward construction" or something similar didn't help them understand what was wrong. The composition director required all composition instructors to not only circle every grammar and style error but also to reference rule in a grammar handbook. By the end of the year, the pages of my grammar handbook looked so used, the book resembled someone's favorite novel. (Trust me, it wasn't my favorite book to read.)
+Even 20 years ago, when I was in graduate school teaching first-year composition classes, students wanted precise references to grammar rules. In part this is because writing "awkward construction" or something similar didn't help them understand what was wrong. The composition director required all composition instructors to not only circle every grammar and style error but also to reference a rule in a grammar handbook. By the end of the year, the pages of my grammar handbook looked so used, the book resembled someone's favorite novel. (Trust me, it wasn't my favorite book to read.)
 
 AI tools can do an excellent job at identifying the particular grammar or style rule or reason, and they can provide guidance about why one phrasing is preferable to another. In asserting a preference, AI will often make a convincing argument for one style over another, such as noting that a word could be interpreted in different ways and so is more ambiguous than the other phrasing.
 
@@ -133,9 +133,9 @@ After using this prompt, you can just paste in multiple similar-sounding sentenc
 <div class="chat">
 <p>Enter the input to the widget, for example: "acme" or "beta."</p>
 
-<p>Enter the input to the widget — for example, acme or beta."</p>
+<p>Enter the input to the widget — for example, acme or beta.</p>
 
-<p>Enter the input to the widget; for example, search for acme or beta."</p>
+<p>Enter the input to the widget; for example, search for acme or beta.</p>
 </div>
 
 <div class="chat">

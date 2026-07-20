@@ -27,7 +27,7 @@ In this tutorial, I'll try to break down some strategies and techniques for appr
 
 ## Techniques — go section by section
 
-In earlier sessions, I emphasized how going section by section results in a much better result. Researchers are  similarly finding that if you can let the AI think through a topic in more of a step-by-step fashion, it's much smarter. 
+In earlier sessions, I emphasized how going section by section results in a much better result. Researchers are similarly finding that if you can let the AI think through a topic in more of a step-by-step fashion, it's much smarter. 
 
 In the Big Technology Podcast episode [Is Generative AI Plateauing?](https://podcasts.apple.com/us/podcast/is-generative-ai-plateauing-booming-bluesky-apples/id1522960417?i=1000677128050), Alex Katrowitz explains:
 
@@ -52,7 +52,7 @@ The result might be so poor that you abandon the entire process. Instead, here's
 The right way: 
 
 <div class="chat">
-<p>Let's go through this section by section, step by step. I'll guide you each step of the way. First, based on the product pitch deck, how would define the product's overall story?</p>
+<p>Let's go through this section by section, step by step. I'll guide you each step of the way. First, based on the product pitch deck, how would you define the product's overall story?</p>
 </div>
 
 The following sections describe a step-by-step process for approaching landing pages.

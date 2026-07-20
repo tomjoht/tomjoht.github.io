@@ -196,7 +196,7 @@ Surprisingly, engineers and product managers don't always have a firm grasp of w
 
 Tech writers have known this for years, but it's really true. All kinds of changes constantly slip by. When documentation drifts just 1% with each biweekly release, that adds up to about 25% over a year. Writing release notes based on file diffs puts a stop to that drift. The systematic documentation impact analysis in Step 6 ensures that when a method is deprecated or removed, you find all references to it across your entire documentation set and update them accordingly.
 
-### Realization #3: Tech writers can play a high-value role in the release process.**
+### Realization #3: Tech writers can play a high-value role in the release process
 
 When you fully understand every change going out in a release, your importance in the process increases. Teams need someone who scrutinizes the diff of everything that's changed. When you itemize these changes in minute detail, partners and stakeholders see the increased value in the release notes, and by extension, in your role. Program managers and other leads will look to your release notes to evaluate whether to approve the release.
 

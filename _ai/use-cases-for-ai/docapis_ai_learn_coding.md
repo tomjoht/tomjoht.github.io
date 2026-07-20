@@ -28,7 +28,7 @@ One challenge API technical writers face is [understanding developer code and to
 
 Chances are, you're working with code from various programming languages without a deep understanding of them. Yet your job is to explain to a target audience of developers the purpose of the code and how to use it. At first, this requirement seems like API technical writers would need to be developers themselves to succeed.
 
-As if documenting code for one project weren't enough, API technical writers must also support multiple projects simultaneously, often with different types of code. You might document a Java API for one project, a REST API for another project, some Go code for an SDK, some C++ code for another project, and so on. It can be nearly impossible to be fluent in all of these languages. Even keeping the terminology straight (a "function" in one language, a "class" is another, etc.) can be challenging.
+As if documenting code for one project weren't enough, API technical writers must also support multiple projects simultaneously, often with different types of code. You might document a Java API for one project, a REST API for another project, some Go code for an SDK, some C++ code for another project, and so on. It can be nearly impossible to be fluent in all of these languages. Even keeping the terminology straight (a "function" in one language, a "class" in another, etc.) can be challenging.
 
 Fortunately, you can use AI tools to learn code. AI tools can act like a friendly programming buddy who is sitting next to you, ready to explain anything you want, at whatever technical level you need. You can zero in on a specific question or broaden it out to increase your understanding from ground zero.
 
@@ -46,9 +46,9 @@ You can see ChatGPT's response and my thread [here](https://chat.openai.com/shar
 
 {% include image_ad_right.html %}
 
-If you read my thread, you can see that I got stuck along the way and was able to use ChatGPT to work through issues. For example, I had a [sample Java project](nativelibraryapis_getting_the_source.htm) that I wanted to use to experiment with tags, but I'd forgotten how to generate the [Javadoc](nativelibraryapis_create_javadoc.html). Running the command that AI gave me didn't work and resulted in errors, so I asked it for help in sorting through the errors. In a few minutes, I installed the right VS Code Java extensions and got back on track. 
+If you read my thread, you can see that I got stuck along the way and was able to use ChatGPT to work through issues. For example, I had a [sample Java project](nativelibraryapis_getting_the_source.html) that I wanted to use to experiment with tags, but I'd forgotten how to generate the [Javadoc](nativelibraryapis_create_javadoc.html). Running the command that AI gave me didn't work and resulted in errors, so I asked it for help in sorting through the errors. In a few minutes, I installed the right VS Code Java extensions and got back on track. 
 
-The ability to zoom in on specific issues, work through error messages, and control and pace and direction of the course makes for a phenomenal learning experience. If you're not already an AI enthusiast, using AI to learn a technical topic like this might make you a convert.
+The ability to zoom in on specific issues, work through error messages, and control the pace and direction of the course makes for a phenomenal learning experience. If you're not already an AI enthusiast, using AI to learn a technical topic like this might make you a convert.
 
 During the AI-generated course, I could also ask why my sample code didn't work. For example, as I experimented with the `@return` tag, the Javadoc didn't show the return comment in the output. Why not? 
 
@@ -102,11 +102,11 @@ Overall, this AI-generated Javadoc course probably took me an hour to get throug
 
 Whether you learn technical topics from AI, online courses, books, or other methods, the larger challenge is simply finding the time to do it. Chances are, you're busy as a technical writer, and you have an endless number of tickets and deadlines. You don't have time to carve out two hours a day for general tech learning. It takes a tremendous amount of discipline and long-term commitment to make your way through any learning endeavor.
 
-The larger skill needed is the long-term, relentless commitment to a learning regiment. If you can set aside even one hour during the day to learn, and do that consistently over not just weeks but months and years, that will help you be a successful technical writer. How exactly do you muster this discipline for learning? What approaches or systems actually work? 
+The larger skill needed is the long-term, relentless commitment to a learning regimen. If you can set aside even one hour during the day to learn, and do that consistently over not just weeks but months and years, that will help you be a successful technical writer. How exactly do you muster this discipline for learning? What approaches or systems actually work? 
 
 Here's what I've found that works best:
 
-* Focus on learning code related to the documentation projects you're working on. If someone isn't relevant, it will get deprioritized easily.
+* Focus on learning code related to the documentation projects you're working on. If something isn't relevant, it will get deprioritized easily.
 * Recognize what kind of learning is helpful for documentation tasks. You're a technical writer, not a programmer.
 * Keep plugging away little by little. You'll be surprised the amount you can learn spending just one hour a day for a couple of weeks.
 

@@ -56,7 +56,7 @@ Consider this task the equivalent of sorting laundry. Put each type of clothing 
 
 Because of token limits, each bucket should be relatively short. If you're working with ChatGPT 4.0, consider a max of about 700 words or so. For ChatGPT 3.5, you can use the higher token limit, but the response might not be as good. 
 
-{: note}
+{: .note}
 Admittedly, if you don't have any of this information, the auto-generation of content isn't going to work. I mean, you could still try, but without providing more context to the language model, chances are the model will end up hallucinating or predicting what it thinks the content should/could/might be. You might need to spend a lot of time gathering and reading through this information.
 
 {% include ads.html %}
@@ -234,7 +234,7 @@ Coming up with these rules and templates shouldn't be too hard. The [Good Docs P
 In this step, you'll pass information into an AI, such as ChatGPT, Bard, Claude, Poe, or another language model. (If you don't want to use ChatGPT or Bard, here's a long list of [alternatives](https://writesonic.com/blog/chatgpt-alternatives/).) 
 
 {: .note}
-If you company prohibits you from pasting internal content into third-party AI models like this, you might run into a roadblock here.
+If your company prohibits you from pasting internal content into third-party AI models like this, you might run into a roadblock here.
 
 With your set of rules and template, apply it to the unstructured content in a prompt like this:
 
