@@ -12,28 +12,26 @@ last-modified: 2026-07-19
 
 ## Why test?
 
-It's not enough to make a skill; you should also create a test for it. The blast radius of a bad skill can create a lot of misinformation. Remember, in an ideal world, you're not the only one running the skill. There could be dozens or potentially hundreds of other people running the same skill daily. A flawed skill essentially reprograms the LLM for everyone using it — if the skill is failing or producing wrong outputs, the errors get amplified across your entire organization in a way that's far more damaging than a skill that just fails for you alone.
-
-When a user discovers a shared skill, the first question is always: *How do I know this will actually work? Will it make my content worse?* Without concrete test results, there's no good reason for them to trust it.
+It's not enough to make a skill; you should also create a test for your skill. Reason being, the blast radius of a bad skill can create a lot of misinformation. Remember, in an ideal world, you're not the only one running the skill. There could be dozens or potentially hundreds of other people running the same skill daily. A flawed skill essentially reprograms the LLM for everyone using it — if the skill is failing or producing wrong outputs, the errors get amplified across your organization in a way that's far more damaging than a skill that just fails for you alone.
 
 Beyond validating a skill's current performance, tests serve several other purposes:
 
-* When the models or tools change, you can rerun the tests to see how your skill performs with the new model or tool. A new model may make a previous skill irrelevant, or the tests may suddenly fail in unexpected ways.
-* Tests help you identify weak spots in your skill that might prevent wider adoption.
+* When the models or tools change, you can rerun the tests to see how your skill performs with the new model or tool.
 * Tests that pass give others confidence that a skill is worth using.
+* Tests help you identify weak spots in your skill that might prevent wider adoption.
 * Some validation requirements might require that skills have accompanying tests.
 
 ## Prerequisite: modular skills
 
-Before a skill can be effectively tested, it needs to be properly designed. If a skill tries to do ten things in one massive pipeline, testing becomes extremely difficult — if any single step fails to align with a user's workflow, the entire skill becomes unusable, and you can't pinpoint *which* step caused the failure.
+Before a skill can be effectively tested, it needs to be properly designed. If a skill tries to do ten things in one massive pipeline, testing becomes extremely difficult. If any single step fails to align with a user's workflow, the entire skill becomes unusable, and you can't pinpoint *which* step caused the failure.
 
-I discuss this in more detail in [Modularity of skills](ai/skills-modularity.html), but the short version is: smaller, focused skills that do one thing well are vastly easier to evaluate against specific, measurable criteria. A modular skill that converts headings to sentence case can be tested precisely. A monolithic skill that does sentence casing *and* link checking *and* style editing *and* reference formatting... not so much.
+I discuss this in more detail in [Modularity of skills](ai/skills-modularity.html), but the short version is this: smaller, focused skills that do one thing well are easier to evaluate against specific, measurable criteria. A modular skill that converts headings to sentence case can be tested precisely. A monolithic skill that does sentence casing *and* link checking *and* style editing *and* reference formatting is much harder to test.
 
 ## Anatomy of a test case
 
-From this point on, the testing specifics will depend somewhat on the specific evaluation framework you're using. Most evaluation frameworks share common characteristics, so I'll talk about them in a general way and mention some specific tools at the end.
+From this point on, the testing specifics will depend somewhat on the specific evaluation framework you're using. However, most evaluation frameworks share common characteristics, so I'll talk about them in a general way and mention some specific tools at the end.
 
-A skill evaluation includes a test file (typically in JSON or YAML format) that defines various cases. Each case contains several components:
+A skill evaluation includes a test file that defines various cases. Each case contains several components:
 
 * **Prompt** — the specific task or input provided to the AI.
 * **Expectations** — criteria the AI's resulting output must meet.
@@ -92,7 +90,7 @@ Many evaluation frameworks run what's known as an "ablation" test. Ablation come
 
 An ablation test runs the evaluation's prompts in two states:
 
-1. **Baseline (no skill):** The agent tries to solve the task using only the base model, completely stripped of your custom skill instructions. This establishes the control baseline - what the LLM can already do on its own.
+1. **Baseline (no skill):** The agent tries to solve the task using only the base model, completely stripped of your custom skill instructions. This establishes the control baseline, which is what the LLM can already do on its own.
 2. **Candidate (with skill):** The agent tries to solve the same task with full access to your custom skill instructions. This measures the performance your skill achieves.
 
 If your skill doesn't perform significantly better than the baseline, the skill is redundant — the LLM already knows how to do the task without your help. This is actually useful information. It means you can drop the skill and save on token costs.
@@ -198,9 +196,9 @@ Notice a few details in this report. The skill clearly adds value — a +40% lif
 
 ## Pitfalls: bias and ephemerality
 
-Setting up tests sounds straightforward, but I quickly realized that there's an art to testing and I'm clearly a novice. One of my skills worked great when I used it in actual practice, but when I ran the evaluation, only some of the tests passed. Other tests failed.
+Setting up tests sounds straightforward, but in constructing tests, I quickly realized that there's an art to testing and I'm clearly a novice. One of my skills worked great when I used it in actual practice, but when I ran the evaluation, only some of the tests passed. Other tests failed.
 
-In short, beware of this: a perfectly functional skill might fail its tests if the tests are poorly conceived (and are too hard). Conversely, a non-functional skill might pass its tests if the tests are poorly conceived (and are too easy).
+In short, beware of this trap: a perfectly functional skill might fail its tests if the tests are poorly conceived (and are too hard). Conversely, a non-functional skill might pass its tests if the tests are poorly conceived (and are too easy).
 
 Beyond test quality, there are two other pitfalls to watch out for:
 
