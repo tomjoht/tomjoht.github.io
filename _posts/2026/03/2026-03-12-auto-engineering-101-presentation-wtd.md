@@ -24,7 +24,7 @@ The other presenter was Dave Nunez, who presented on "Falconer: Document your Kn
 
 ## Recording
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X5XMqdxkf-A?si=wH8aQAgtzbwLU-2y" title="Automation Engineering 101 for Tech Docs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X5XMqdxkf-A?si=wH8aQAgtzbwLU-2y&start=1520" title="Automation Engineering 101 for Tech Docs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my automated engineering session, fast-forward to 25:20 on the timeline.
 
