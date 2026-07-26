@@ -71,31 +71,15 @@ Perhaps the biggest use case for this kind of ambient intelligence is with tools
 
 ## Activity: Register the skill and test both invocation modes
 
-In the last activity you ran the skill by dragging `SKILL.md` into context. Now give it a proper home and test whether an agent can find it on its own.
+In the last activity you pointed the agent at the skill manually. Now register it properly and see whether an agent can find it on its own.
 
-**1. Store the skill next to the content it serves.** Move your skill into an `_agents/` folder alongside the practice Java files:
+**1. Ask AI to register it.** Say: *"Register the edit-javadoc-comments skill so this tool can discover it in this workspace. Use whatever convention this tool supports, and tell me what you did."* The agent knows its own discovery mechanism — let it handle the details, but read its explanation so you know where the skill now lives.
 
-```
-javadoc-skill-project/
-├── _agents/
-│   └── skills/
-│       └── edit-javadoc-comments/
-│           └── SKILL.md (plus references/ and scripts/)
-└── src/
-    ├── CoffeeMaker.java
-    ├── MenuService.java
-    └── ...
-```
+**2. Test explicit invocation.** In a fresh session, say: *"Run the edit-javadoc-comments skill on MenuService.java."* Confirm it finds the registered skill without you pointing at the file.
 
-**2. Register it.** Bridge your storage folder to your tool's discovery mechanism, using whichever method your tool supports: copy or symlink the skill into the tool's expected directory (`.gemini/skills/` or `.agents/skills/` for Gemini CLI, `.claude/skills/` for Claude Code), run a linking command like `gemini skills link`, or — if your environment uses a manifest — list the skill's path there. If you're not sure which applies, ask your agent to set up the registration for your environment, and note what it did.
+**3. Test ambient invocation.** This is the interesting one. In another fresh session, *don't name the skill*: *"Can you polish the comments in OrderUtils.java?"* Does the agent discover and use your skill, or does it wing it?
 
-**3. Test explicit invocation.** In a fresh session opened in the project directory, say: "Run the edit-javadoc-comments skill on `MenuService.java`." Confirm the agent finds the registered skill and follows it — watch for signs it loaded the reference files when it hit the syntax fixes.
-
-**4. Test ambient invocation.** This is the interesting one. In another fresh session, *don't name the skill*. Just say: "Can you polish the comments in `OrderUtils.java`?" Does the agent discover and use your skill, or does it wing it?
-
-**5. Iterate on the description.** If the agent didn't pick up the skill, your `description` field didn't match the way the task was phrased. Revise it — add the verbs people would actually use ("polish," "clean up," "edit," "review comments") — and test again. This loop teaches the most practical lesson in this topic: the description isn't documentation, it's the matching algorithm.
-
-**6. Decide your own invocation policy.** Would you want this skill firing automatically whenever anyone in the repo touches a Java file? Write down your answer and why. There's no single right answer — a comment editor is fairly low-stakes, but it does modify files. Your reasoning here previews the trust questions in the forking and sharing topic.
+**4. If it winged it, ask AI to fix the description.** Say: *"I asked you to polish comments and you didn't use the edit-javadoc-comments skill. Rewrite the skill's description so it matches requests phrased like that — polish, clean up, edit, review."* Test once more. This little loop is the most practical lesson in this topic: the description isn't documentation, it's the matching algorithm.
 
 <hr/>
 

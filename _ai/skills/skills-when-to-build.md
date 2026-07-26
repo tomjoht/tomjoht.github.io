@@ -66,13 +66,13 @@ In other words, the skill should make sure that all content across the documenta
 
 ## Activity: Qualify the Javadoc editing task — and find your own candidates
 
-Before you build the [course project skill](/ai/skills.html#courseproject), apply this topic's criteria to it. Then do the same for your own work.
+Five minutes, no Java involved.
 
-**1. Run the qualification test.** Evaluate the Javadoc editing task against the three "when NOT to build" signals — frequency, variability, and one-off context. Write two or three sentences justifying (or rejecting) it as a skill candidate. For instance: how often do you (or would a writer on a Java SDK team) edit source comments? Is the task consistent each time, or does it vary wildly? How much unique context does each run require?
+**1. Gut-check the course project.** Would Javadoc editing pass the three "when NOT to build" tests above — frequency, variability, one-off context? Notice that even if you personally never touch Java files, comment editing is a classic repeatable *subtask*: it shows up inside releases, onboarding, and doc quality passes.
 
-**2. Notice the subtask pattern.** Editing Javadoc comments is rarely a standalone project — it's a subtask that appears inside larger, unique tasks: preparing an SDK release, onboarding a new API, doing a doc quality pass. This makes it a textbook example of the "repeatable subtasks within unique tasks" insight above. See if you can name two or three larger workflows in your own job where comment or code-sample editing shows up as an ingredient.
+**2. Ask AI to find your own candidates.** Paste something like: *"Here's roughly what I did at work over the past two weeks: [describe or paste your task list]. Which of these tasks — or repeatable subtasks inside them — would make good agent skill candidates? Rank the top three and explain why."* If you keep a task log for the next two weeks, you can rerun this prompt with much better input.
 
-**3. Start your own candidate list.** Begin the two-week task log described at the top of this topic — a bullet list at the end of each day is enough. Even before the two weeks are up, draft your top three skill candidates based on what you already suspect. Keep this list somewhere you'll find it again: the final topic of this course ends by sending you back to it.
+**3. Keep the list.** Save your top three candidates somewhere you'll find them again — the final topic of this course sends you back to this list.
 
 <hr/>
 

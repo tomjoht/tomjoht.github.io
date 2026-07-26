@@ -73,9 +73,9 @@ Before building anything, set up the practice environment for the [course projec
 {: .note}
 This activity (and every one that follows) assumes you have an agentic AI environment — an editor or CLI where an agent can read and write local files and run scripts. If you don't have that yet, or you're not sure, read [Getting set up: editor, models, and environment](/ai/skills-setup.html) first and run its smoke test. Then come back here.
 
-**1. Create a project directory.** Something like `javadoc-skill-project/` with a `src/` folder inside. This is your sandbox for the whole course. (If you ran the smoke test in the [setup topic](/ai/skills-setup.html), you already created this folder — just add the `src/` subfolder.)
+One reassurance before you start: **you don't need to know Java.** You'll never write or even read the code — your agent does all the work in this course, and your job is to direct it and review what it reports back. Each activity is a handful of prompts, about five minutes total.
 
-**2. Generate the practice files.** Rather than downloading a starter kit, have your agent generate the files — it takes a minute and gives you a first taste of steering an agent with precise instructions. Paste this prompt:
+**1. Ask AI to generate the practice files.** Open your project folder (the one from the [setup topic](/ai/skills-setup.html) smoke test, or any new folder) and paste this prompt:
 
 ```
 Generate five small Java files (40-60 lines each) for a fictional
@@ -116,11 +116,11 @@ seeded problems, so I have an answer key.
    comment-editing skill.
 ```
 
-**3. Review the generated files.** Check the answer-key comments against the actual seeded problems. Agents sometimes fix the problems they were told to seed. If a file is too clean, regenerate it.
+**2. Ask AI to double-check its work.** Say: *"Compare each file's answer-key comment against the problems actually seeded in the Javadoc, and regenerate any file that's too clean."* (Agents sometimes fix the very problems they were told to seed.)
 
-**4. Capture the baseline.** In a *fresh* agent session (no skill, no extra context), make copies of the first three files and prompt: "Edit the comments in these Java files to improve them." Save the output to a `baseline/` folder.
+**3. Capture the baseline.** In a *fresh* session (no skill, no extra context), say: *"Edit the comments in CoffeeMaker.java, MenuService.java, and OrderUtils.java to improve them. Save the edited copies to a folder called baseline."*
 
-**5. Inspect the damage.** Compare the baseline output against the originals and note what the agent did. Typically it fixes the grammar but misses the Javadoc conventions — or worse, it turns `@param` fragments into full sentences, leaves broken `{@link}` syntax alone, and "helpfully" fixes the typo inside the string literal. Write down three specific problems you find. These gaps are exactly what your skill will close.
+**4. Ask AI to grade the baseline.** Say: *"Compare the files in the baseline folder against the answer-key comments in the originals. Which seeded problems were missed? Was anything changed that shouldn't have been?"* Typically the no-skill agent fixes the grammar but misses the Javadoc conventions — it leaves broken `{@link}` syntax alone and turns `@param` fragments into full sentences. Hold onto this gap list: your skill will close these gaps, and in the [testing topic](/ai/skills-testing.html) you'll measure the improvement.
 
 <hr/>
 

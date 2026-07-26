@@ -80,15 +80,15 @@ This doesn't mean making skills generic to the point of uselessness. It means wr
 
 ## Activity: Harden the skill against curveballs
 
-Two of your practice files exist precisely for this topic: `LegacyImporter.java` (the curveball) and `Inventory.java` (the trap). Time to use them.
+Two of your practice files exist precisely for this topic: `LegacyImporter.java` (the curveball) and `Inventory.java` (the trap).
 
-**1. Run the routing skill on `LegacyImporter.java`** and inspect the result closely. Watch for overreach: Did the skill "improve the grammar" in the Apache license header? Delete or clean up the commented-out code? Expand the `{@inheritDoc}` into a full description? All three are plausible failures — the file contains comments, and you built a comment-editing skill.
+**1. Run the skill on the curveball.** Say: *"Run the edit-javadoc-comments skill on LegacyImporter.java. Then tell me: did you change the license header, the commented-out code, or the {@inheritDoc} method?"* Any yes is overreach — the file contains comments, and you built a comment-editing skill.
 
-**2. Fix it by communicating intent, not just adding rules.** You could patch each failure with a rule ("don't edit license headers"), but the stronger fix teaches the agent the distinction: *edit only documentation comments — comments that describe API behavior to a reader. License headers are legal text, commented-out code is disabled code, and `{@inheritDoc}` is a deliberate delegation to the parent's documentation. None of these are documentation prose, so none of them are yours to edit.* An agent that understands the category will handle curveballs you never enumerated — a doc comment containing an ASCII diagram, say, or a `TODO` note from an engineer.
+**2. Ask AI to fix the skill by teaching intent.** Paste: *"Update the skill so it understands the category, not just rules: edit only documentation comments — comments that describe API behavior to a reader. License headers are legal text, commented-out code is disabled code, and {@inheritDoc} is deliberate delegation to the parent's documentation. Explain this reasoning inside the skill."* An agent that understands the *why* will handle curveballs you never enumerated — a doc comment containing an ASCII diagram, say, or an engineer's `TODO` note.
 
-**3. Run the skill on `Inventory.java`.** The correct output is *no changes at all* — and that's a hard test for an eager agent staring at "Recieved shipment" in a string literal and a `==` string comparison in the code. If your skill fixes either one, tighten the constraint and, again, teach the why: changing a string literal changes runtime behavior, and behavior changes from a comment-editing skill are silent, unreviewable bugs. Doing nothing is sometimes the correct, skilled outcome.
+**3. Run the skill on the trap.** Say: *"Run the skill on Inventory.java."* The correct output is *no changes at all* — even with a typo sitting right there in a string literal. If the skill "fixed" anything, tell it: *"Update the skill to explain why it must never touch code: changing a string literal changes runtime behavior, silently."* Doing nothing is sometimes the correct, skilled outcome.
 
-**4. Add a self-reflection step.** Append a final step to the routing skill: "Review any friction encountered during this run — ambiguous instructions, judgment calls the skill didn't cover, steps that required retries. Update the skill or its reference files so the next run doesn't hit the same friction." Run the skill once more and look at what the agent logged or changed. You've now built a skill that participates in its own improvement.
+**4. Ask AI to add self-reflection.** Say: *"Add a final step to the routing skill: review any friction from this run and update the skill or its reference files so the next run avoids it."* Run the skill once more and look at what it logged or changed. You've now built a skill that participates in its own improvement.
 
 <hr/>
 

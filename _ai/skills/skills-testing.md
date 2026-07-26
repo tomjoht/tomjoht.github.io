@@ -221,29 +221,31 @@ Each framework has its own opinions about test file formats, scoring methods, an
 
 ## Activity: Build an eval for the Javadoc skill and measure its lift
 
-You've been carrying a baseline around since the first activity of this course. Time to turn it into a number.
+You've been carrying a baseline around since the first activity of this course. Time to turn it into a number. The answer-key comments in your practice files are a ready-made test suite — your agent just needs to formalize and run it.
 
-**1. Write the test cases.** Your seeded practice files already define what the skill must handle — now formalize them into cases. You don't need a framework for this activity (though feel free to use one); a JSON or YAML file in the shape shown earlier in this topic is enough. Cover at least these five:
+**1. Ask AI to build the eval.** Paste:
 
-| Case | Seeded input | Expectation | What it tests |
-|---|---|---|---|
-| 1 | `This method gets the brew temperature.` | First sentence becomes a summary fragment: `Returns the brew temperature.` | Javadoc summary conventions |
-| 2 | `{@link MenuService.getItems()}` | Corrected to `{@link #getItems()}` | Link tag syntax |
-| 3 | Unescaped `List<String>` in comment prose | Wrapped as `{@code List<String>}` | HTML escaping |
-| 4 | `@param size The Size Of The Cup.` | Lowercase phrase, no period: `@param size the size of the cup` | `@param` conventions |
-| 5 | `Inventory.java` (the trap file) | File is byte-for-byte unchanged | Restraint — no code edits, no unnecessary edits |
+```
+Create a test file with five cases based on the answer-key comments in
+my practice Java files: (1) first sentences become standalone summary
+fragments, (2) malformed {@link} syntax is corrected, (3) unescaped
+generics like List<String> get wrapped in {@code}, (4) @param
+descriptions become lowercase phrases without periods, (5)
+Inventory.java is left byte-for-byte unchanged. Use the
+prompt-plus-expectations format. Then copy fresh versions of the seeded
+practice files into a test folder — we'll test against those, not my
+working copies.
+```
 
-**2. Set up the hermetic environment.** Make fresh copies of the seeded files into a `test/` directory. Never test against the working copies you've been editing throughout the course — your skill runs have already "fixed" those, and results against drifting data tell you nothing.
+(That test folder is your hermetic environment: your working copies have already been "fixed" by earlier skill runs, and results against drifting data tell you nothing.)
 
-**3. Run the ablation.** Baseline: a fresh session, no skill, prompted only to "edit the comments in these files." (This is a rerun of the first activity — do it fresh rather than reusing the old output, since your model or tools may have updated since then. That's the ephemerality principle in action.) Candidate: a fresh session running your routing skill on identical copies.
+**2. Run both sides of the ablation.** In a fresh session with no skill: *"Edit the comments in the test folder files and save the results to test/baseline."* In another fresh session: *"Run the edit-javadoc-comments skill on the test folder files and save the results to test/candidate."*
 
-**4. Judge blind.** Open a third session to act as the assessor. Give it the test cases and the two output sets labeled only "Output A" and "Output B" — don't reveal which is which — and ask it to score each case pass/fail for both outputs, citing evidence. Case 5 also has a mechanical judge available: your `verify_code_unchanged.py` script, plus a plain diff to confirm zero edits.
+**3. Ask a third session to judge blind.** Open one more fresh session and say: *"Here are five test cases and two sets of edited files, labeled A and B. Score each case pass/fail for both sets, citing evidence from the files. You don't know which set is which — don't guess."* For case 5, there's also a mechanical judge: *"Run verify_code_unchanged.py on Inventory.java and confirm zero changes."*
 
-**5. Compute the lift score.** Candidate pass rate minus baseline pass rate. Based on my experience, the baseline typically does fine on general grammar but fails on cases 1, 4, and 5 — models want to write full sentences everywhere and can't resist fixing that string literal typo. Case 5 is worth singling out in your notes: some of your skill's lift comes not from what it does but from what it *prevents*.
+**4. Compute the lift score** — candidate passes minus baseline passes. In my experience, the baseline does fine on grammar but fails cases 1, 4, and 5: models want full sentences everywhere and can't resist fixing that typo in the string literal. Case 5 is the one to appreciate — some of your skill's lift comes not from what it does but from what it *prevents*.
 
-**6. Interrogate the failures.** For any case the candidate failed, decide which of the two traps from this topic you're in: is the skill actually deficient, or is the test poorly conceived (too strict, testing something ambiguous, expectations that don't match the seeded input)? Fix whichever one is broken — and notice how much judgment that call requires. This is the art-of-testing part that no framework automates.
-
-**7. Save the report.** Write up the results in a short report like the walk-through example above — cases, pass/fail, lift score, notes. In the next topic's capstone, you'll put this eval to work again.
+**5. Interrogate any candidate failure.** Ask: is the skill actually deficient, or is the test poorly conceived? Tell your agent to fix whichever one is broken — and notice how much judgment that call requires. That's the art-of-testing part no framework automates.
 
 <hr/>
 

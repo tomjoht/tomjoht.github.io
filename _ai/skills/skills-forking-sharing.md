@@ -69,17 +69,27 @@ This kind of pattern mining is powerful because it surfaces the collective wisdo
 
 ## Activity: Fork the skill for another language
 
-The best way to feel what forking costs — and what it saves — is to fork your own skill for a related but different task.
+The best way to feel what forking costs — and what it saves — is to have your agent fork your own skill for a related but different task.
 
-**1. Generate a practice file in another language.** Ask your agent for a small Kotlin file with seeded KDoc problems (KDoc is Javadoc's Kotlin cousin — similar spirit, different syntax: `[link]` brackets instead of `{@link}`, Markdown instead of HTML). If you want a bigger jump, use a Python file with seeded docstring problems instead.
+**1. Ask AI to fork the skill.** Paste:
 
-**2. Fork.** Tell your agent: "Create an `edit-kdoc-comments` skill based on `edit-javadoc-comments`, adapted for Kotlin's KDoc conventions." Review what it produces against the KDoc documentation, then run it on the practice file.
+```
+Generate a small Kotlin file with seeded KDoc comment problems and an
+answer-key comment, like the Java files in this project. Then create an
+edit-kdoc-comments skill based on edit-javadoc-comments, adapted for
+Kotlin's KDoc conventions. When you're done, tell me which parts of the
+original skill you reused as-is and which parts you had to rewrite.
+```
 
-**3. Study what carried over.** This is the real lesson of the exercise. Your `edit-comment-language` sub-skill likely survives nearly untouched — summary-first sentences and active voice don't care what language the code is in. But `references/javadoc-tag-syntax.md` had to be completely rewritten. Modularity determined the fork's cost: the concerns you separated cleanly were cheap to fork, and the ones you tangled together weren't. If you find Javadoc-specific rules bleeding into your language sub-skill (or vice versa), that's a modularity bug worth fixing in the original.
+(KDoc is Javadoc's Kotlin cousin — similar spirit, different syntax.)
 
-**4. Add licensing.** Add a `license` field to the frontmatter of both skills and drop a `LICENSE` file in each directory (MIT and Apache-2.0 are the common choices). It feels like overkill for a practice skill — but doing it now means your skills are born shareable, and you'll never have to reconstruct intent later.
+**2. Read that "reused vs. rewritten" answer closely — it's the whole lesson.** The language rules likely survived nearly untouched (summary-first sentences and active voice don't care what programming language the code is in), while the tag-syntax reference got rewritten. Modularity determined the fork's cost: the concerns you separated cleanly were cheap to fork.
 
-**5. If you're doing this course with others, trade skills.** Run a classmate's or colleague's `edit-javadoc-comments` on your practice files and compare its output against yours. Then do a miniature version of the pattern mining described above: across two or three implementations of the same skill, what patterns did everyone converge on independently? What did one person solve that the others missed? That's the 38-release-notes-skills analysis, scaled down to a study group.
+**3. Run it.** Say: *"Run the edit-kdoc-comments skill on the Kotlin file and check the results against its answer key."*
+
+**4. Ask AI to add licensing.** Say: *"Add a license field to the frontmatter of both skills and a LICENSE file (MIT) in each directory."* Overkill for a practice skill? Maybe — but your skills are now born shareable.
+
+**5. If you're doing this course with others, trade skills.** Run a colleague's `edit-javadoc-comments` on your practice files and ask your agent: *"Compare this skill's output to mine — what did each version catch that the other missed? What patterns do both skills share?"* That's the 38-release-notes-skills analysis, scaled down to a study group.
 
 <hr/>
 

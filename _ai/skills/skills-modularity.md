@@ -92,23 +92,26 @@ And here's the real payoff: other writers can use *your* ingredients to create *
 
 ## Activity: Modularize the Javadoc skill
 
-Your `edit-javadoc-comments` skill is currently a mini-megaskill — it fixes syntax, edits language, and checks completeness all in one body. Break it apart.
+Your `edit-javadoc-comments` skill is currently a mini-megaskill — it fixes syntax, edits language, and checks completeness all in one body. Have your agent break it apart.
 
-**1. Split it into three sub-skills**, each in its own directory with its own `SKILL.md`:
+**1. Ask AI to split it.** Paste:
 
-* `fix-javadoc-syntax` — tags, `{@link}` forms, `{@code}` usage, escaping angle brackets. Takes `references/javadoc-tag-syntax.md` with it.
-* `edit-comment-language` — summary fragments, tense, voice, wordiness, typos. Takes `references/comment-style-rules.md` with it.
-* `check-javadoc-completeness` — missing `@param`, `@return`, and `@throws` tags on public members.
+```
+Split the edit-javadoc-comments skill into three sub-skills, each in its
+own directory: fix-javadoc-syntax (tags, links, escaping),
+edit-comment-language (summary fragments, tense, voice, typos), and
+check-javadoc-completeness (missing @param/@return/@throws tags). Move
+the relevant reference files with each. Then rewrite edit-javadoc-comments
+as a routing skill that runs the three in sequence and finishes by running
+scripts/verify_code_unchanged.py. Keep the never-touch-code rule in every
+sub-skill.
+```
 
-You can do the split by hand, or tell your agent: "Split this skill into these three sub-skills, moving the relevant reference files with each." Review what it produces — the split forces you to decide which instructions belong to which concern, and some (like the never-touch-code constraint) belong in *all* of them.
+**2. Re-run it.** In a fresh session: *"Run the edit-javadoc-comments skill on a fresh copy of MenuService.java."* Confirm the results are as good as before the split.
 
-**2. Convert `edit-javadoc-comments` into a routing skill.** Its body becomes a short choreography: run `fix-javadoc-syntax`, then `edit-comment-language`, then `check-javadoc-completeness`, then run the `verify_code_unchanged.py` script. The verification step stays inline in the router — it's the orchestration-level safety check, not a reusable task.
+**3. Prove the reuse claim.** Say: *"Run just the edit-comment-language skill on [any Markdown file or README you have handy]."* The language rules — summary-first sentences, active voice, present tense — travel outside Java entirely. This is the payoff moment: one of your three ingredients already works in recipes it wasn't created for.
 
-**3. Re-run the routing skill** on a fresh copy of `MenuService.java` and confirm the results are as good as the monolith's. If the router loses something in translation (agents sometimes skim sub-skill references), tighten the router's hand-off instructions.
-
-**4. Prove the reuse claim.** Run `edit-comment-language` *by itself* on something that isn't Java at all — a Markdown doc page, a README, an API description in a spec file. The language rules (summary-first sentences, active voice, present tense) travel surprisingly well. This is the payoff moment: one of your three ingredients already works outside the recipe it was created for.
-
-**5. Rate the ingredients.** For each sub-skill, ask: could a writer on a different team, with a different doc set, adopt this as-is? You'll likely find `edit-comment-language` is universally adoptable, `fix-javadoc-syntax` is adoptable by any Java team, and `check-javadoc-completeness` depends on each team's documentation policy. That gradient — from universal to team-specific — is exactly what makes modular skills shareable where megaskills aren't.
+**4. Rate the ingredients.** One question to ponder (or ask your AI to argue): which of the three sub-skills could a writer on a completely different team adopt as-is? You'll likely land on a gradient — `edit-comment-language` is universal, `fix-javadoc-syntax` works for any Java team, `check-javadoc-completeness` depends on team policy. That gradient is exactly what makes modular skills shareable where megaskills aren't.
 
 <hr/>
 

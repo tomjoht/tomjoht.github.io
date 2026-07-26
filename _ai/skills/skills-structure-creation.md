@@ -116,33 +116,38 @@ For the full spec and platform-specific guides, see:
 
 ## Activity: Build version 1 of the Javadoc editing skill
 
-Time to build. You'll create the first working version of `edit-javadoc-comments`, exercising every part of the skill anatomy covered above.
+Time to build — or rather, time to direct your agent to build. You won't hand-write any rules or scripts; the AI drafts everything, and you review the shape of what it makes.
 
-**1. Create the directory structure.** Inside your project folder:
+**1. Ask AI to build the skill.** In your project folder, paste this prompt:
 
 ```
-edit-javadoc-comments/
-├── SKILL.md
-├── references/
-│   ├── javadoc-tag-syntax.md
-│   └── comment-style-rules.md
-└── scripts/
-    └── verify_code_unchanged.py
+Create a skill directory called edit-javadoc-comments containing a
+SKILL.md, a references folder, and a scripts folder. The skill edits
+Javadoc comments in Java files — fixing Javadoc tag syntax, conventions,
+and language quality — but must NEVER change code, string literals,
+license headers, or commented-out code. State that exclusion in the
+frontmatter description too.
+
+Put the Javadoc tag and link rules in references/javadoc-tag-syntax.md
+(correct {@link} forms, {@code} vs. <code>, escaping < and > in prose,
+@param/@return/@throws conventions). Put the language rules in
+references/comment-style-rules.md (first sentence as a standalone summary
+fragment, third-person present tense, active voice, @param descriptions
+as lowercase phrases) — and explain WHY each rule exists, not just what
+it is. Keep the SKILL.md body short and point to the reference files for
+details.
+
+Also write scripts/verify_code_unchanged.py: a script that takes a
+before-file and an after-file, strips the comments from both, and diffs
+the remaining code. A non-empty diff means the skill changed code, which
+is an automatic failure.
 ```
 
-**2. Write the frontmatter.** The `description` is the skill's discovery mechanism, so make it earn its keep. Describe what the skill does, when to use it, and — critically — when *not* to: "Do NOT use this skill to edit code, string literals, license headers, or commented-out code." That exclusion clause will pay off in the design principles topic.
+**2. Skim what it made.** Don't study every rule — just check the shape against what you learned in this topic. Does the frontmatter description say when *not* to use the skill? Does the body stay short and point to the reference files instead of inlining everything? That's progressive disclosure working. (If you're curious whether the AI's Javadoc rules are accurate, my [Javadoc tags](/learnapidoc/nativelibraryapis_javadoc_tags.html) primer is the cross-check.)
 
-**3. Write the body.** Keep it short: the goal, the never-touch-code constraint, and the steps (identify the documentation comments, fix Javadoc syntax, edit the language, verify the code is untouched). Point to the reference files for the detailed rules rather than inlining them — this is progressive disclosure in action.
+**3. Run it.** In a fresh session, point the agent at the skill: *"Run the skill in edit-javadoc-comments on CoffeeMaker.java."* Then ask: *"Compare this result to the baseline folder — what did the skill catch that the baseline run missed?"* The skilled run should nail the summary fragments and conventions the baseline flubbed.
 
-**4. Fill in `references/javadoc-tag-syntax.md`.** This file holds the tag and link rules: `{@link}` forms, `{@code}` vs. `<code>`, escaping `<` and `>`, `@param`/`@return`/`@throws` conventions. You can distill these from my [Javadoc tags](/learnapidoc/nativelibraryapis_javadoc_tags.html) primer, or ask your agent to draft the file and then verify it against that primer. (Verifying AI-drafted reference content against a trusted source is itself a habit worth building.)
-
-**5. Fill in `references/comment-style-rules.md`.** The language rules: first sentence as a standalone summary fragment, third-person present tense ("Returns" not "This method will return"), active voice, `@param` descriptions as lowercase phrases. Include the *why* where you know it — for example, the first sentence rule exists because Javadoc extracts it into class and method summary tables, where a dangling "This method..." reads terribly.
-
-**6. Have the agent write the verification script.** Ask your agent to write `verify_code_unchanged.py`: a script that takes a before-file and an after-file, strips the comments from both, and diffs what remains. If the diff is non-empty, the skill changed code — automatic failure. This gives your skill a mechanical safety check that doesn't depend on anyone's judgment.
-
-**7. Run it.** In a fresh session, drag `SKILL.md` into context (or reference its path) and say: "Run this skill on `CoffeeMaker.java`." Compare the result against your baseline output from the [first activity](/ai/skills.html#courseproject). The skilled run should nail the summary fragments and conventions the baseline missed.
-
-**8. Bonus: compare against a generated skill.** Ask a built-in skill creator to generate a Javadoc-editing skill from a one-paragraph description, and compare its structure to yours. What did it include that you didn't? What did you know to include that it couldn't?
+**4. Bonus.** If your tool has a built-in skill creator (see above), ask it to generate a Javadoc-editing skill from one sentence and compare its structure to yours.
 
 <hr/>
 
