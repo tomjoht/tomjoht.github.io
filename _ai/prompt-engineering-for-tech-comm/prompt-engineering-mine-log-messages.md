@@ -2,10 +2,11 @@
 title: "Using AI to mine log messages from reference doc builds"
 permalink: /ai/prompt-engineering-mine-log-messages.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-12-19
+order: 15
 rebrandly: https://idbwrtng.com/prompt-engineering-mine-log-messages
 ---
 
@@ -70,3 +71,7 @@ The final step, which I'm still working on incorporating, involves creating a bi
 ## Conclusion
 
 Overall, don't ignore log messages when you build reference documentation, especially if those log messages contain meaningful information such as missing documentation. While my multi-script approach might seem over-engineered, it provides organized, reviewable files listing all messages, not just documentation warnings. I could simplify the process by writing the entire log to a single file and using AI to identify missing documentation warnings. However, I have a goal to learn more about different parts of the log messages beyond just missing documentation. Who knows what other interesting information might provide more insight into the API.
+
+<hr/>
+
+*Continue to the next topic: [Using AI with issue tracking systems](/ai/prompt-engineering-issue-tracking-systems.html)*

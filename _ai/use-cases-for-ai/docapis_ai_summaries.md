@@ -4,10 +4,11 @@ permalink: ai/docapis_ai_summaries.html
 linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-summaries-activity-7105928075112050689-qkqU
 course: "AI-powered API documentation"
 weight: 14.5
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-09-06
+order: 6
 redirect_from:
 - /learnapidoc/docapis_ai_summaries.html
 ---
@@ -450,3 +451,7 @@ As you can see, this isn't actual content. This is why I haven't recommended usi
 Also, note that although Claude can take a large input, its outputs tend to be brief. If you really wanted to try generating content based on an outline, it would be better to the approach it as I described in [Step 2: Expansion of detail](docapis_thematic_analysis#expansion_of_detail) in the thematic analysis chapter. This approach involves asking for a high-level outline, then proceeding through each of the points with detailed requests rather than requesting the entire content in one response.
 
 Despite how poor the content generation is here, starting a draft this way can give you a lot of ideas and something to work with. But don't expect much of the AI-written chapter. In sum, AI chatbots are decent at summarizing content you provide it, but not so much at creating original content.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Synthesize insights from granular data](/ai/docapis_thematic_analysis.html)*

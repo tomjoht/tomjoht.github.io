@@ -3,10 +3,11 @@ title:  "Task decomposition and complex tree diagrams"
 permalink: ai/prompt-engineering-task-decomposition.html
 linkedin: https://www.linkedin.com/posts/tomjoht_task-decomposition-and-complex-tree-diagrams-activity-7166141068185464833-dGYT
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-07-28
+order: 2
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
@@ -547,5 +548,7 @@ Some researchers test an AI's memory through needle-in-a-haystack experiments, s
 Input limits and context memory are rapidly evolving. The limits we experience today might not pose significant limitations weeks or months from now. For example, Gemini 1.5 will support a million token context window. At that point, it might no longer be necessary to chunk complex tasks. Even so, perhaps the tasks we attempt to perform with million-token context windows will be multitudes more complex.
 
 <hr/>
+
+*Continue to the next topic: [Creating high-fidelity, thematically organized notes from engineering meetings using AI](/ai/prompt-engineering-summarizing-meeting-notes.html)*
 
 *This content was AI-assisted.*

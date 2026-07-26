@@ -3,10 +3,11 @@ title: "Using long-token contexts to quality check an entire API doc set"
 permalink: ai/prompt-engineering-entire-doc-set-prompts.html
 linkedin: https://www.linkedin.com/posts/tomjoht_using-long-token-contexts-to-quality-check-activity-7222253656274878465-jtGB
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-07-28
+order: 11
 rebrandly: https://idbwrtng.com/prompt-engineering-entire-doc-set-prompts
 ---
 
@@ -497,3 +498,7 @@ Here's the reference material for API doc 2:
 ## Other scenarios
 
 These prompts are just an idea of how you might use long-token contexts in prompts. I find it invaluable to pass in reference content to assist with whatever documentation I'm writing, particularly using the reference to fact check and make accurate the content I'm working on. Specifically, every time I mention an element from the API, I link to it. This ensures that I'm being accurate with the content I write.
+
+<hr/>
+
+*Continue to the next topic: [Using AI to jump-start code samples](/ai/prompt-engineering-code-samples.html)*

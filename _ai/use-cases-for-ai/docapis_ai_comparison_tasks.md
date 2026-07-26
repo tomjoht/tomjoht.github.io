@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-comparison-tasks-w
 keywords:
 course: "AI-powered API documentation"
 weight: 14.9
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-08-28
+order: 10
 redirect_from:
 - /learnapidoc/docapis_ai_comparison_tasks.html
 ---
@@ -458,3 +459,7 @@ If this were an actual API I was documenting, I would examine each of these fiel
 Hopefully you get the point of these sample prompts and responses. You can use AI tools to check for inconsistencies. It's too early to tell from my brief experiment how useful the comparison tasks are, whether you end up spending time chasing errors or not, but it does seem like these comparison tasks could be a good way to use AI tools in API documentation workflows. Even if the error rate is 20% or so, perhaps the 80% of actual errors caught could prove useful.
 
 If you have more use cases where you compare two sets of information, I'd love to hear about them.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Create glossary definitions](/ai/docapis_ai_glossary_definitions.html)*

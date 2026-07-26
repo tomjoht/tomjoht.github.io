@@ -3,10 +3,11 @@ title: "Gathering source material for context input"
 permalink: ai/prompt-engineering-source-material-context.html
 linkedin: https://www.linkedin.com/posts/tomjoht_gathering-source-material-for-context-input-activity-7176992514174849026-xMOp
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-07-28
+order: 6
 rebrandly: https://idbwrtng.com/prompt-engineering-source-material-context
 ---
 
@@ -142,3 +143,6 @@ I don't know, but I'll be tackling this scenario soon.
 
 I tried to provide best practices for source material in this article. Whenever I have a writing project. I'm always on the lookout for project-related documents that might be useful. In my doc plan, I usually collect these links and continue adding to them. You never know when a document might contain a goldmine of information that an LLM can leverage as you write documentation.
 
+<hr/>
+
+*Continue to the next topic: [Error checking the AI output](/ai/prompt-engineering-error-checking.html)*

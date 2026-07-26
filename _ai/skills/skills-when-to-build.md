@@ -2,7 +2,7 @@
 title: "When to build a skill"
 permalink: ai/skills-when-to-build.html
 keywords:
-sidebar: sidebar_ai
+sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19

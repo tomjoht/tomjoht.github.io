@@ -2,10 +2,11 @@
 title:  "Automate links in your release notes using AI"
 permalink: ai/automating-linking.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-06-25
+order: 10
 rebrandly: https://idbwrtng.com/automating-linking
 ---
 {% comment %}
@@ -99,3 +100,7 @@ Now here's the HTML you'll need to find the corresponding links to the elements 
 As you can see with this prompt, I've provided examples clarifying the syntax requirements I want the AI to follow. This level of clear instruction followed by examples tends to work well with prompts. 
 
 {% include ads.html %}
+
+<hr/>
+
+*Continue to the next topic: [Using long-token contexts to quality check an entire API doc set](/ai/prompt-engineering-entire-doc-set-prompts.html)*

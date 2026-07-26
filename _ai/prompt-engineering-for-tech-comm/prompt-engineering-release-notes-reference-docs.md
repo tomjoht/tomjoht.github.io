@@ -2,10 +2,11 @@
 title: "Using file diffs for better release notes in reference docs"
 permalink: ai/prompt-engineering-release-notes-reference-docs.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2025-02-12
+order: 9
 rebrandly: https://idbwrtng.com/prompt-engineering-release-notes
 ---
 
@@ -212,3 +213,7 @@ Here's a video of an earlier version of this content:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FO2GAzeV_lg" title="Using file diffs for better release notes in reference docs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
+
+<hr/>
+
+*Continue to the next topic: [Automate links in your release notes using AI](/ai/automating-linking.html)*

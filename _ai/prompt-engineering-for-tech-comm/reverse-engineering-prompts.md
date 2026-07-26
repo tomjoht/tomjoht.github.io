@@ -2,10 +2,11 @@
 title:  "Reverse engineering the recipe for excellent documentation"
 permalink: ai/reverse-engineering-prompts.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-03-07
+order: 5
 rebrandly: https://idbwrtng.com/reverse-engineering-prompts
 ---
 {% comment %}
@@ -528,3 +529,7 @@ If this were an artistic/creative domain, such as reverse engineering a novel or
 ### Emotional priming
 
 You've probably noticed the overflowing praise I've peppered in after each response. This emotional priming serves two purposes: First, AI tools do better when they're emotionally primed, for some reason. Pointing out what the AI tool is doing right can help the AI tool make similar good decisions in the upcoming prompts. (Not too unlike human-to-human praise.) Second, it makes me feel better to provide praise like this. If you start pointing out what others are doing right, you might find your brain doing the same for yourself. You'll have a much better experience interacting with AI when you pepper in praise than if you adopt a grumpy, bossy tone.
+
+<hr/>
+
+*Continue to the next topic: [Gathering source material for context input](/ai/prompt-engineering-source-material-context.html)*

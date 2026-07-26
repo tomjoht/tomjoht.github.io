@@ -2,7 +2,7 @@
 title: "Skill structure and creation"
 permalink: ai/skills-structure-creation.html
 keywords:
-sidebar: sidebar_ai
+sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19
@@ -121,8 +121,12 @@ Time to build — or rather, time to direct your agent to build. You won't hand-
 **1. Ask AI to build the skill.** In your project folder, paste this prompt:
 
 ```
-Create a skill directory called edit-javadoc-comments containing a
-SKILL.md, a references folder, and a scripts folder. The skill edits
+Create a skill directory called edit-javadoc-comments inside this tool's
+designated skills folder for this workspace (for example, .agents/skills/
+in Antigravity or Gemini CLI, or .claude/skills/ in Claude Code). Create
+the skill in exactly one location — not at the project root. The skill
+directory should contain a SKILL.md, a references folder, and a scripts
+folder. The skill edits
 Javadoc comments in Java files — fixing Javadoc tag syntax, conventions,
 and language quality — but must NEVER change code, string literals,
 license headers, or commented-out code. State that exclusion in the
@@ -142,6 +146,9 @@ before-file and an after-file, strips the comments from both, and diffs
 the remaining code. A non-empty diff means the skill changed code, which
 is an automatic failure.
 ```
+
+{: .note}
+A word about placement: different tools discover skills in specific hidden directories — Antigravity and Gemini CLI look in `.agents/skills/`, while Claude Code looks in `.claude/skills/`. The prompt above spells this out because, without it, agents sometimes create the skill folder at the project root, or even create duplicate copies in two locations (this happened to me in testing). If you end up with duplicates anyway, keep the copy in your tool's designated skills folder and delete the stray — otherwise auto-discovery won't work cleanly. The [next topic](/ai/skills-storage-invocation.html) covers storage locations in depth.
 
 **2. Skim what it made.** Don't study every rule — just check the shape against what you learned in this topic. Does the frontmatter description say when *not* to use the skill? Does the body stay short and point to the reference files instead of inlining everything? That's progressive disclosure working. (If you're curious whether the AI's Javadoc rules are accurate, my [Javadoc tags](/learnapidoc/nativelibraryapis_javadoc_tags.html) primer is the cross-check.)
 

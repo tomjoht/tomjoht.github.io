@@ -470,7 +470,7 @@
             <ul>
               <li><a href="/ai/prompt-engineering.html" class="noCrossRef"><i class="fa fa-file-text-o"
                     aria-hidden="true"></i> Prompt engineering for tech comm</a></li>
-              <li><a href="/ai/index.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Use
+              <li><a href="/ai/use-cases.html" class="noCrossRef"><i class="fa fa-file-text-o" aria-hidden="true"></i> Use
                   cases for AI</a></li>
               <li><a href="/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html" class="noCrossRef"><i
                     class="fa fa-file-text-o" aria-hidden="true"></i> Reflections on Zen and the Art of Motorcycle
@@ -563,6 +563,10 @@
             <!-- page title -->
             <h1>{{page.title}}</h1>
             <!-- end page title -->
+
+            <!-- gamified course progress bar -->
+            {% include course_progress.html %}
+            <!-- end gamified course progress bar -->
 
             <!-- start metadata for posts collection type -->
             {% if page.collection == "posts" %}

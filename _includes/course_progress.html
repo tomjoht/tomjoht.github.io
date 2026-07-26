@@ -1,0 +1,135 @@
+{% comment %}
+Course progress bar (gamified).
+
+Standalone widget — unrelated to progress.html, which serves the docs collection.
+
+The lesson sequence comes from the page's own sidebar data file, so each course
+tracks progress independently and new lessons are picked up automatically. To
+enable the bar for a course, add `progress: true` (and optionally
+`progresslabel:`) to the top of that course's sidebar YAML.
+
+Set `course_progress: false` in a page's frontmatter to suppress the bar there.
+{% endcomment %}
+
+{% assign sidebarData = site.data[page.sidebar] %}
+
+{% if site.format == "web" and page.course_progress != false and sidebarData.progress %}
+
+{% comment %} Pass 1: count the lessons and locate the current one. {% endcomment %}
+{% assign totalLessons = 0 %}
+{% assign currentIndex = 0 %}
+{% for folder in sidebarData.folders %}
+  {% for item in folder.folderitems %}
+    {% if item.title and item.type != "print" %}
+      {% assign totalLessons = totalLessons | plus: 1 %}
+      {% if item.jurl == page.url %}
+        {% assign currentIndex = totalLessons %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if currentIndex > 0 and totalLessons > 1 %}
+{% assign startPercent = currentIndex | times: 100 | divided_by: totalLessons %}
+{% assign courseLabel = sidebarData.progresslabel | default: sidebarData.sidebartitle %}
+
+<div class="courseProgress" data-course="{{ page.sidebar | slugify }}" data-total="{{ totalLessons }}" data-current="{{ currentIndex }}">
+
+  <div class="courseProgress-head">
+    <span class="courseProgress-title">{{ courseLabel }}</span>
+    <span class="courseProgress-percent"><span class="js-cp-percent">{{ startPercent }}</span>% complete</span>
+  </div>
+
+  <div class="courseProgress-track" role="progressbar" aria-valuenow="{{ startPercent }}" aria-valuemin="0" aria-valuemax="100" aria-label="Your progress through {{ courseLabel }}">
+    <div class="courseProgress-fill js-cp-fill" style="width: {{ startPercent }}%"></div>
+  </div>
+
+  {% comment %} Pass 2: one dot per lesson, in sidebar order. {% endcomment %}
+  <ol class="courseProgress-steps">
+    {% assign lessonNumber = 0 %}
+    {% for folder in sidebarData.folders %}
+      {% for item in folder.folderitems %}
+        {% if item.title and item.type != "print" %}
+          {% assign lessonNumber = lessonNumber | plus: 1 %}
+    <li class="courseProgress-step{% if lessonNumber == currentIndex %} is-current{% endif %}{% if lessonNumber <= currentIndex %} is-done{% endif %}" data-index="{{ lessonNumber }}">
+      <a class="noCrossRef noExtIcon" href="{{ site.baseurl }}{{ item.jurl }}" title="{{ lessonNumber }}. {{ item.title }}"><span class="sr-only">{{ item.title }}</span><span aria-hidden="true">{{ lessonNumber }}</span></a>
+    </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ol>
+
+  <p class="courseProgress-status js-cp-status">Lesson {{ currentIndex }} of {{ totalLessons }}</p>
+
+</div>
+
+<script>
+(function () {
+  var el = document.querySelector('.courseProgress');
+  if (!el) { return; }
+
+  var total   = parseInt(el.getAttribute('data-total'), 10);
+  var current = parseInt(el.getAttribute('data-current'), 10);
+  var key     = 'courseProgress:' + el.getAttribute('data-course');
+
+  var fill    = el.querySelector('.js-cp-fill');
+  var percent = el.querySelector('.js-cp-percent');
+  var status  = el.querySelector('.js-cp-status');
+  var steps   = el.querySelectorAll('.courseProgress-step');
+
+  // Lessons you've actually opened, not just your position in the sequence.
+  // Falls back to position-based progress wherever storage is unavailable.
+  var visited = [];
+
+  try {
+    var stored = window.localStorage.getItem(key);
+    visited = stored ? JSON.parse(stored) : [];
+    if (!Array.isArray(visited)) { visited = []; }
+  } catch (e) {
+    visited = [];
+  }
+
+  // Drop anything past the end, in case the course shrank since the last visit.
+  visited = visited.filter(function (n) { return n >= 1 && n <= total; });
+
+  var previous = Math.round((visited.length / total) * 100);
+
+  if (visited.indexOf(current) === -1) {
+    visited.push(current);
+  }
+
+  try { window.localStorage.setItem(key, JSON.stringify(visited)); } catch (e) {}
+
+  var count = visited.length;
+  var pct = Math.round((count / total) * 100);
+
+  for (var i = 0; i < steps.length; i++) {
+    var index = parseInt(steps[i].getAttribute('data-index'), 10);
+    steps[i].classList.toggle('is-done', visited.indexOf(index) !== -1);
+    steps[i].classList.toggle('is-current', index === current);
+  }
+
+  percent.textContent = pct;
+  el.querySelector('.courseProgress-track').setAttribute('aria-valuenow', pct);
+
+  if (count >= total) {
+    el.classList.add('is-complete');
+    status.textContent = 'You’ve read all ' + total + ' lessons. Nicely done.';
+  } else {
+    status.textContent = 'Lesson ' + current + ' of ' + total + ' · ' +
+      count + ' read, ' + (total - count) + ' to go';
+  }
+
+  // Animate up from where the reader left off, so forward movement is visible.
+  fill.style.width = previous + '%';
+  window.requestAnimationFrame(function () {
+    window.requestAnimationFrame(function () {
+      el.classList.add('is-animating');
+      fill.style.width = pct + '%';
+    });
+  });
+}());
+</script>
+
+{% endif %}
+{% endif %}

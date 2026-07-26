@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-language-advice-ac
 keywords:
 course: "AI-powered API documentation"
 weight: 14.6
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-08-04
+order: 8
 redirect_from:
 - /learnapidoc/docapis_ai_language_advice.html
 ---
@@ -212,3 +213,7 @@ Do you remember what grammar rule this comma usage relates to? Rather than just 
 By the way, once you provide the initial prompt as I indicated above, your future grammar questions can simply provide the pairs of similar sounding sentences. AI will understand your intent from the context. You could even bookmark the thread so that with future questions, you just paste in the two sentences without having to re-establish the question.
 
 Update: Since I wrote this post, there's now a [grammar check](https://indianexpress.com/article/technology/artificial-intelligence/google-search-grammar-check-ai-feature-8882140/) feature soon to be added into Google Search. The Grammar Check is in Bard now. For any problematic sentence, try typing "grammar check" and then paste the sentence into [Bard](https://bard.google.com). The response explains any grammar issues, related rules, and suggested changes for the sentence. It's pretty nifty.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Arrange content into information type patterns](/ai/docapis_pattern_prompts.html)*

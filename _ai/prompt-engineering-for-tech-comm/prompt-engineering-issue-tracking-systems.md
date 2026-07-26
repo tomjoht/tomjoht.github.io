@@ -2,10 +2,11 @@
 title: "Using AI with issue tracking systems"
 permalink: ai/prompt-engineering-issue-tracking-systems.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2025-01-26
+order: 16
 rebrandly: https://idbwrtng.com/prompt-engineering-issue-tracking-systems
 ---
 
@@ -179,3 +180,7 @@ You might already have an abundance of documentation-related bugs in your own co
 The techniques I explored show how AI can help you navigate the frequently overwhelming number of issues within an issue tracking system. While a full queue of bugs might seem overwhelming, remember that each bug represents a user's interaction with your product. By leveraging AI to analyze these interactions, we can move beyond simply fixing documentation errors to building a more comprehensive picture of user needs, pain points, and motivations. 
 
 This deeper understanding allows us to make more strategic decisions about documentation not just with the bugs we fix, but in other areas of the documentation we work on as well, including how we prioritize issues, the types of information we create, how we organize the information in documentation portals, and more.
+
+<hr/>
+
+*Continue to the next topic: [API quick reference guides](/ai/prompt-eng-api-qrgs.html)*

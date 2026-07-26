@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-for-thematic-analysis-
 keywords:
 course: "AI-powered API documentation"
 weight: 14.5
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-08-27
+order: 7
 redirect_from:
 - /learnapidoc/docapis_thematic_analysis.html
 ---
@@ -214,3 +215,7 @@ In general, the direction we've followed is like this:
 * After arriving at the larger themes, we zoomed into each theme to provide more detail.
 
 These are flows of information that usually take place unconsciously in our minds as we think through problems. I've simply made them explicit here because AI tends to be good at performing these tasks.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Seek advice on grammar and style](/ai/docapis_ai_language_advice.html)*

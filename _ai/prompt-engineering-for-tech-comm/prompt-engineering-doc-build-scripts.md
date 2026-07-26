@@ -3,10 +3,11 @@ title:  "Creating scripts to automate doc build processes"
 permalink: ai/prompt-engineering-doc-build-scripts.html
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-techcomm-technicalwriting-activity-7188934644409470976-pSfM
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-03-02
+order: 8
 rebrandly: https://idbwrtng.com/
 ---
 {% comment %}
@@ -132,3 +133,7 @@ You can also just add documentation comments inline, which might be even better.
 ## Additional reading
 
 See [Using AI to mine log messages from reference doc builds](/ai/prompt-engineering-mine-log-messages.html).
+
+<hr/>
+
+*Continue to the next topic: [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html)*

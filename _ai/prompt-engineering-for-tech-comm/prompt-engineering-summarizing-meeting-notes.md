@@ -2,10 +2,11 @@
 title: "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
 permalink: ai/prompt-engineering-summarizing-meeting-notes.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-07-28
+order: 3
 ---
 {% comment %}
 {% include coffeeshopbook.html %}
@@ -149,6 +150,8 @@ Knowing that AIs have a max token output per response, I decided to break up the
 Despite my high hopes for this technique, it didn't work. In other words, the total meeting summary was about the same length as a prompt that asks for the summary all at once. I'm not sure why. One possible reason could be that most current LLM models aren't designed for iterative prompting flows like this. They're more optimized to take in a full prompt, process it, and return the best answer they can generate in a single shot based on that prompt and their training data. Perhaps trying to introduce an unnatural feedback loop likely went against the core design principles and assumptions these models were built upon? I'm not sure.
 
 <hr/>
+
+*Continue to the next topic: [Populating documentation templates using AI](/ai/prompt-engineering-populating-documentation-templates.html)*
 
 *This content was AI-assisted.*
 

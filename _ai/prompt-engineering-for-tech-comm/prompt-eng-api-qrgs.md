@@ -2,10 +2,11 @@
 title:  "API quick reference guides"
 permalink: ai/prompt-eng-api-qrgs.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2025-06-01
+order: 17
 rebrandly: https://idbwrtng.com/api-qrg-challenges-of-long-content
 ---
 

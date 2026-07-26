@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_ai-document-engineering-with-pa
 keywords:
 course: "AI-powered API documentation"
 weight: 14.8
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-07-06
+order: 9
 redirect_from:
 - /learnapidoc/docapis_pattern_prompts.html
 ---
@@ -268,4 +269,8 @@ For each of the topic types, you can assemble a set of rules and a template that
 
 Of course, due to the high degree of errors from AI models, you should review all the documentation with subject matter experts. Recognize the language models have an uncanny ability for sounding correct and authoritative when they are lying.
 
-Like I said in my disclaimer above, this is a method I'm still experimenting with. I won't know how well it all works until I've been able to run an actual project through the process. 
+Like I said in my disclaimer above, this is a method I'm still experimenting with. I won't know how well it all works until I've been able to run an actual project through the process.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Compare API responses to identify discrepancies](/ai/docapis_ai_comparison_tasks.html)*

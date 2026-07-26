@@ -1,0 +1,64 @@
+sidebartitle: Prompt engineering
+progress: true
+progresslabel: Prompt engineering course
+folders:
+
+- title: "Prompt engineering for tech comm scenarios"
+  landing: /ai/prompt-engineering.html
+  section: one
+  class: first
+  description: >
+    Prompt engineering refers to crafting prompts in a way that yields the result you want. Although prompt engineering techniques are fairly intuitive, few people have meticulously applied prompt engineering techniques to scenarios involving tech writers writing documentation.
+  folderitems:
+
+  - title: "Overview"
+    jurl: /ai/prompt-engineering.html
+    type: web
+
+  - title: "Task decomposition and complex tree diagrams"
+    jurl: /ai/prompt-engineering-task-decomposition.html
+
+  - title: "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
+    jurl: /ai/prompt-engineering-summarizing-meeting-notes.html
+
+  - title: "Populating documentation templates using AI"
+    jurl: /ai/prompt-engineering-populating-documentation-templates.html
+
+  - title: "Reverse engineering the recipe for excellent documentation"
+    jurl: /ai/reverse-engineering-prompts.html
+
+  - title: "Gathering source material for context input"
+    jurl: /ai/prompt-engineering-source-material-context.html
+
+  - title: "Error checking the AI output"
+    jurl: /ai/prompt-engineering-error-checking.html
+
+  - title: "Creating scripts to automate doc build processes"
+    jurl: /ai/prompt-engineering-doc-build-scripts.html
+
+  - title: "Using file diffs for better release notes in reference docs"
+    jurl: /ai/prompt-engineering-release-notes-reference-docs.html
+
+  - title: "Automate links in your release notes using AI"
+    jurl: /ai/automating-linking.html
+
+  - title: "Using long-token contexts to quality check an entire API doc set"
+    jurl: /ai/prompt-engineering-entire-doc-set-prompts.html
+
+  - title: "Using AI to jump-start code samples"
+    jurl: /ai/prompt-engineering-code-samples.html
+
+  - title: "From engineer interviews to written draft, with chain of thought reasoning"
+    jurl: /ai/prompt-engineering-iterative-chain-of-thought.html
+
+  - title: "Using AI to design landing pages"
+    jurl: /ai/prompt-engineering-landing-pages.html
+
+  - title: "Using AI to mine log messages from reference doc builds"
+    jurl: /ai/prompt-engineering-mine-log-messages.html
+
+  - title: "Using AI with issue tracking systems"
+    jurl: /ai/prompt-engineering-issue-tracking-systems.html
+
+  - title:  "API quick reference guides"
+    jurl: /ai/prompt-eng-api-qrgs.html

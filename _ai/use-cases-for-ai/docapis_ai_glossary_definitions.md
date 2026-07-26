@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_ai-glossaries-technicaldocument
 keywords:
 course: "AI-powered API documentation"
 weight: 14.91
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-09-04
+order: 11
 redirect_from:
 - /learnapidoc/docapis_ai_glossary_definitions.html
 ---

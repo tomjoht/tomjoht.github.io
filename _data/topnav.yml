@@ -76,14 +76,16 @@ topnav_dropdowns:
 
     - title: AI
       folderitems:
+        - title: AI courses hub
+          url: /ai/index.html
+        - title: "Course: Agent skills"
+          url: /ai/skills.html
+        - title: "Course: Prompt engineering"
+          url: /ai/prompt-engineering.html
+        - title: "Course: Use cases for AI"
+          url: /ai/use-cases.html
         - title: AI Book Club
           url: /ai-book-club
-        - title: Agent skills
-          url: /ai/skills
-        - title: Prompt engineering
-          url: /ai/prompt-engineering.html
-        - title: Use cases for AI
-          url: /ai/index.html
         - title: AI category posts
           url: /category-ai/
 

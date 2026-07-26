@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-create-doc-updates-
 keywords:
 course: "AI-powered API documentation"
 weight: 14.4
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-08-06
+order: 5
 redirect_from:
 - /learnapidoc/docapis_ai_fix_bugs.html
 ---
@@ -168,3 +169,7 @@ From this gathered context, you can copy the information into a single Google do
 ## Conclusion
 
 Although there are many potential issues with using AI, fixing doc bugs is one area that seems ripe to leverage AI tools. I'll continue exploring different techniques, seeing what works and doesn't, and sharing my experiences here.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Summarize long content](/ai/docapis_ai_summaries.html)*

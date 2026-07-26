@@ -2,7 +2,7 @@
 title: "Where to store and invoke skills"
 permalink: ai/skills-storage-invocation.html
 keywords:
-sidebar: sidebar_ai
+sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19

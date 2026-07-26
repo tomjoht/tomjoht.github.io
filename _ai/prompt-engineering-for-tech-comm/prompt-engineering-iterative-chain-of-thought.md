@@ -2,10 +2,11 @@
 title: "From engineer interviews to written draft, with chain of thought reasoning"
 permalink: ai/prompt-engineering-iterative-chain-of-thought.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-11-02
+order: 13
 rebrandly: https://idbwrtng.com/prompt-engineering-iterative-cot
 ---
 
@@ -120,3 +121,7 @@ I've outlined each step of my process to illustrate the iterative nature of work
 Some might argue that this extensive iterative process — with its numerous drafts, prompts, and reviews — negates the time-saving benefits of using AI tools. Why not just write it yourself from scratch? However, I still think writing the draft from scratch would be more time-consuming and be less accurate. Although it seems like a lot of iterative steps, remember that the AI performs each step in a matter of seconds. Additionally, writing sentences from scratch consumes a lot of mental effort, whereas using AI tools is a more mechanical task with only judgement and editorial acumen needed. For instance, I could likely watch a football game or a TV show while guiding the AI through these steps. In contrast, drafting the content manually would likely exhaust me within two hours.
 
 As I've been working with AI through various documentation scenarios, I've grown more comfortable with processes. I know that gathering source material is key, and that recorded one-on-one meetings with engineers produce some of the most beneficial input for AI tools. Using this approach, I was able to finish a conceptual document in about a day. Even if the content has less voice and energy than content I would write manually, I can't help but think that a library of conceptual explanations covering a variety of topics will be more appealing than the one or two conceptual docs I would have time to manually write.
+
+<hr/>
+
+*Continue to the next topic: [Using AI to design landing pages](/ai/prompt-engineering-landing-pages.html)*

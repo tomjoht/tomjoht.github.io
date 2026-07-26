@@ -2,7 +2,7 @@
 title: "Advanced patterns: subagents, loops, and reverse engineering"
 permalink: ai/skills-advanced-patterns.html
 keywords:
-sidebar: sidebar_ai
+sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19

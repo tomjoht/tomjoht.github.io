@@ -2,10 +2,11 @@
 title: "Error checking the AI output"
 permalink: ai/prompt-engineering-error-checking.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-03-02
+order: 7
 rebrandly: https://idbwrtng.com/prompt-engineering-error-checking
 ---
 
@@ -168,3 +169,7 @@ In this review culture, sending a doc with a lot of AI-written sections has a hi
 ## Conclusion
 
 I've been a bit snarky in this article, describing the challenges of SME review. AI tools bring the whole topic of SME review into sharp focus, requiring tech writers who can both tactfully and forcefully identify the right reviewers, and then cultivate effective review processes to quality check their content. Those review processes will never be as speedy as working with an AI tool.
+
+<hr/>
+
+*Continue to the next topic: [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html)*

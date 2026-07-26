@@ -3,10 +3,11 @@ title:  "Using AI to jump-start code samples"
 permalink: ai/prompt-engineering-code-samples.html
 linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-jump-start-code-samples-activity-7246959051304026112-YKJx
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-09-29
+order: 12
 rebrandly: https://idbwrtng.com/prompt-eng-code-samples
 ---
 {% comment %}
@@ -122,3 +123,6 @@ Providing code samples in documentation remains one of the most challenging aspe
 
 However, whether these basic code samples are helpful is another question. They might be mistaken for more valuable application code that would get into the deeper questions about how to design an application and handle the complexities of the developer's specific business logic, along with questions about purpose, rationale, and design patterns.
 
+<hr/>
+
+*Continue to the next topic: [From engineer interviews to written draft, with chain of thought reasoning](/ai/prompt-engineering-iterative-chain-of-thought.html)*

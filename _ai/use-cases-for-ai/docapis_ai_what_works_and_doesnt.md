@@ -3,10 +3,11 @@ title:  "AI and APIs: What works, what doesn't"
 permalink: ai/docapis_ai_what_works_and_doesnt.html
 course: "AI-powered API documentation"
 weight: 14.1
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-09-28
+order: 2
 redirect_from:
 - /learnapidoc/docapis_ai_what_works_and_doesnt.html
 ---
@@ -226,3 +227,7 @@ She advocated for transparency from the AI developers, pushing them to expose mo
 By mastering the latest techniques for guiding and collaborating with AI systems hands-on, Sarah evolved into an expert curator who can oversee, optimize, and enhance the AI's contributions. Her adaptability future-proofed her role. She no longer wrote documentation by hand but instead spent her time working as an AI document engineer, fine tuning the models to work better with her content.
 
 Soon Sarah became invaluable as a producer who knew how to get the best out of the AI tools, combining automated scale with craft and quality oversight. She shifted from just an operator to a documentation engineer collaborating with AI in service of human users' needs. Her adaptability and willingness to evolve made her essential for the company’s success in an AI world.
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Develop build and publishing scripts](/ai/ai-tools-build-publish-api-docs.html)*

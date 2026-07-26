@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-to-learn-coding-activi
 keywords:
 course: "AI-powered API documentation"
 weight: 14.3
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-07-25
+order: 4
 redirect_from:
 - /learnapidoc/docapis_ai_learn_coding.html
 ---
@@ -132,3 +133,7 @@ To put theory to practice, try the following:
 For more resources on this topic, see the following:
 
 * [You're using ChatGPT WRONG: How I would learn to CODE in 2023 with the help of AI](https://www.youtube.com/watch?v=0mSf_2RoWfM)
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Distill needed updates from bug threads](/ai/docapis_ai_fix_bugs.html)*

@@ -2,10 +2,11 @@
 title: "Using AI to design landing pages"
 permalink: ai/prompt-engineering-landing-pages.html
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-11-17
+order: 14
 rebrandly: https://idbwrtng.com/prompt-engineering-landing-pages
 ---
 
@@ -150,3 +151,7 @@ If there's one defining characteristic of a landing page, it's that it serves as
 ## Related reading
 
 * [Why designing landing pages is hard](/blog/designing-landing-pages)
+
+<hr/>
+
+*Continue to the next topic: [Using AI to mine log messages from reference doc builds](/ai/prompt-engineering-mine-log-messages.html)*

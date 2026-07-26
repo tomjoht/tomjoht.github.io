@@ -1,143 +1,33 @@
+# Hub sidebar for AI content that doesn't belong to a single course
+# (currently the AI Book Club posts). Each course has its own sidebar file:
+# sidebar_skills.yml, sidebar_prompt_engineering.yml, sidebar_ai_use_cases.yml.
+# Keep lesson lists in those files only, so they don't drift out of sync here.
+
 sidebartitle: AI-powered documentation
 folders:
 
-- title: "Skills"
-  landing: /ai/skills.html
-  section: one
-  description: >
-    This section explores the idea of creating 100 tech-writer specific skills -- designed so well that they're widely used and integrated by large numbers of tech writers across a company.
-  folderitems:
-
-  - title: "Overview"
-    jurl: /ai/skills.html
-    type: web
-
-  - title: "Getting set up: editor, models, and environment"
-    jurl: /ai/skills-setup.html
-
-  - title: "When to build a skill"
-    jurl: /ai/skills-when-to-build.html
-
-  - title: "Skill structure and creation"
-    jurl: /ai/skills-structure-creation.html
-
-  - title: "Where to store and invoke skills"
-    jurl: /ai/skills-storage-invocation.html
-
-  - title: "Modularity of skills"
-    jurl: /ai/skills-modularity.html
-
-  - title: "Design principles for skills"
-    jurl: /ai/skills-design-principles.html
-
-  - title: "Forking and sharing skills"
-    jurl: /ai/skills-forking-sharing.html
-
-  - title: "Testing a skill"
-    jurl: /ai/skills-testing.html
-
-  - title: "Advanced patterns: subagents, loops, and reverse engineering"
-    jurl: /ai/skills-advanced-patterns.html
-
-- title: "Prompt engineering for tech comm scenarios"
-  landing: /ai/prompt-engineering.html
-  section: one
-  description: >
-    Prompt engineering refers to crafting prompts in a way that yields the result you want. Although prompt engineering techniques are fairly intuitive, few people have meticulously applied prompt engineering techniques to scenarios involving tech writers writing documentation.
-  folderitems:
-
-  - title: "Overview"
-    jurl: /ai/prompt-engineering.html
-    type: web
-
-  - title: "Task decomposition and complex tree diagrams"
-    jurl: /ai/prompt-engineering-task-decomposition.html
-
-  - title: "Creating high-fidelity, thematically organized notes from engineering meetings using AI"
-    jurl: /ai/prompt-engineering-summarizing-meeting-notes.html
-
-  - title: "Populating documentation templates using AI"
-    jurl: /ai/prompt-engineering-populating-documentation-templates.html
-
-  - title: "Reverse engineering the recipe for excellent documentation"
-    jurl: /ai/reverse-engineering-prompts.html
-
-  - title: "Gathering source material for context input"
-    jurl: /ai/prompt-engineering-source-material-context.html
-
-  - title: "Error checking the AI output"
-    jurl: /ai/prompt-engineering-error-checking.html
-
-  - title: "Creating scripts to automate doc build processes"
-    jurl: /ai/prompt-engineering-doc-build-scripts.html
-  
-  - title: "Using file diffs for better release notes in reference docs"
-    jurl: /ai/prompt-engineering-release-notes-reference-docs.html
-
-  - title: "Automate links in your release notes using AI"
-    jurl: /ai/automating-linking.html
-
-  - title: "Using long-token contexts to quality check an entire API doc set"
-    jurl: /ai/prompt-engineering-entire-doc-set-prompts.html
-
-  - title: "Using AI to jump-start code samples"
-    jurl: /ai/prompt-engineering-code-samples.html
-
-  - title: "From engineer interviews to written draft, with chain of thought reasoning"
-    jurl: /ai/prompt-engineering-iterative-chain-of-thought.html
-
-  - title: "Using AI to design landing pages"
-    jurl: /ai/prompt-engineering-landing-pages.html
-
-  - title: "Using AI to mine log messages from reference doc builds"
-    jurl: /ai/prompt-engineering-mine-log-messages.html
-
-  - title: "Using AI with issue tracking systems"
-    jurl: /ai/prompt-engineering-issue-tracking-systems.html
-
-  - title:  "API quick reference guides"
-    jurl: /ai/prompt-eng-api-qrgs.html
-
-- title: "Use cases for AI"
+- title: "Courses and series"
   landing: /ai/index.html
   section: one
   class: first
   description: >
-    LLM-based AI tools, such as ChatGPT, Gemini, and Claude, can help you with documentation-related activities.  You can use AI tools to both learn code and write code yourself. You can use AI tools to get language advice, to identify answers when fixing bugs, to analyze large sets of information from threads, comments, and feedback, to compare API responses with schemas, and more. Using AI tools requires you to provide a lot of direction, review, and guidance, so don't expect too much from them. Still, they can perform some of the documentation work in impressive ways, leading to increased productivity.
+    AI-powered documentation, covering agent skills, prompt engineering for tech comm scenarios, and general use cases for AI in documentation work.
   folderitems:
 
   - title: "Overview"
     jurl: /ai/index.html
-    type: web
 
-  - title: "Using AI in APIs: What works, what doesn't"
-    jurl: /ai/docapis_ai_what_works_and_doesnt.html
+  - title: "Agent skills"
+    jurl: /ai/skills.html
 
-  - title: "Use cases for AI: Develop build and publishing scripts"
-    jurl: /ai/ai-tools-build-publish-api-docs.html
+  - title: "Prompt engineering for tech comm scenarios"
+    jurl: /ai/prompt-engineering.html
 
-  - title: "Use cases for AI: Understand the meaning of code"
-    jurl: /ai/docapis_ai_learn_coding.html
+  - title: "Use cases for AI"
+    jurl: /ai/use-cases.html
 
-  - title: "Use cases for AI: Distill needed updates from bug threads"
-    jurl: /ai/docapis_ai_fix_bugs.html
+  - title: "AI Book Club"
+    jurl: /ai-book-club/
 
-  - title: "Use cases for AI: Summarize long content"
-    jurl: /ai/docapis_ai_summaries.html
-
-  - title: "Use cases for AI: Synthesize insights from granular data"
-    jurl: /ai/docapis_thematic_analysis.html
-
-  - title: "Use cases for AI: Seek advice on grammar and style"
-    jurl: /ai/docapis_ai_language_advice.html
-
-  - title: "Use cases for AI: Arrange content into information type patterns"
-    jurl: /ai/docapis_pattern_prompts.html
-
-  - title: "Use cases for AI: Compare API responses to identify discrepancies"
-    jurl: /ai/docapis_ai_comparison_tasks.html
-
-  - title: "Use cases for AI: Draft glossary definitions"
-    jurl: /ai/docapis_ai_glossary_definitions.html
-
-
+  - title: "AI category posts"
+    jurl: /category-ai/

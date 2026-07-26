@@ -1,0 +1,139 @@
+/* Course tiles and buttons for the AI courses hub (_ai/index.md). */
+
+$hub-accent: #ee7600;
+$hub-accent-dark: #c75f00;
+
+.courseTiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+  margin: 26px 0 34px;
+  padding: 0;
+  list-style: none;
+}
+
+.courseTile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // A square floor rather than a fixed ratio: the grid stretches every tile to
+  // the tallest one, so descriptions of different lengths still line up.
+  min-height: 210px;
+  padding: 18px 16px 14px;
+  background-color: #fffdfa;
+  border: 1px solid #e8ddcd;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+    border-color: $hub-accent;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+    text-decoration: none;
+
+    .courseTile-name {
+      color: $hub-accent-dark;
+    }
+
+    .courseTile-go {
+      transform: translateX(3px);
+    }
+  }
+}
+
+.courseTile-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $hub-accent;
+}
+
+.courseTile-name {
+  display: block;
+  margin: 8px 0 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #333;
+  transition: color 160ms ease;
+}
+
+.courseTile-desc {
+  display: block;
+  margin: 9px 0 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #6b6b6b;
+}
+
+.courseTile-foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.courseTile-count {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.courseTile-go {
+  font-size: 18px;
+  font-weight: 700;
+  color: $hub-accent;
+  transition: transform 160ms ease;
+}
+
+/* Buttons under each course description */
+
+.btn-primary.courseHub-btn {
+  margin: 4px 0 8px;
+  padding: 9px 18px;
+  font-weight: 600;
+  background-color: $hub-accent;
+  border-color: $hub-accent-dark;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $hub-accent-dark;
+    border-color: $hub-accent-dark;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* "10 lessons" meta line above each description */
+
+.courseHub-meta {
+  margin: -6px 0 12px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+}
+
+@media (max-width: 380px) {
+  .courseTiles {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .courseTile-name {
+    font-size: 16px;
+  }
+}
+
+@media print {
+  .courseTiles {
+    display: none;
+  }
+}

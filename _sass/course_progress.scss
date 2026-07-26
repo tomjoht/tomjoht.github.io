@@ -1,0 +1,150 @@
+/* Gamified course progress bar — see _includes/course_progress.html.
+   Namespaced so it stays clear of the Bootstrap .progress styles. */
+
+$cp-accent: #ee7600;
+$cp-accent-dark: #c75f00;
+$cp-muted: #8a8a8a;
+
+.courseProgress {
+  margin: 0 0 28px;
+  padding: 16px 18px 14px;
+  background-color: #fbfbfb;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+}
+
+.courseProgress-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.courseProgress-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.courseProgress-percent {
+  font-size: 13px;
+  color: $cp-muted;
+
+  .js-cp-percent {
+    font-size: 16px;
+    font-weight: 700;
+    color: $cp-accent;
+  }
+}
+
+.courseProgress-track {
+  position: relative;
+  height: 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.courseProgress-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  background-image: linear-gradient(90deg, #f5a623 0%, $cp-accent 60%, $cp-accent-dark 100%);
+}
+
+.courseProgress.is-animating .courseProgress-fill {
+  transition: width 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Lesson dots */
+
+.courseProgress-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.courseProgress-step {
+  margin: 0;
+  padding: 0;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    color: $cp-muted;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 150ms ease, background-color 150ms ease, border-color 150ms ease;
+
+    &:hover,
+    &:focus {
+      transform: translateY(-2px);
+      border-color: $cp-accent;
+      color: $cp-accent;
+      text-decoration: none;
+    }
+  }
+
+  &.is-done a {
+    color: #fff;
+    background-color: $cp-accent;
+    border-color: $cp-accent;
+  }
+
+  &.is-current a {
+    box-shadow: 0 0 0 3px rgba(238, 118, 0, 0.25);
+    border-color: $cp-accent-dark;
+  }
+
+  &.is-current:not(.is-done) a {
+    color: $cp-accent;
+  }
+}
+
+.courseProgress-status {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: $cp-muted;
+}
+
+.courseProgress.is-complete {
+  border-color: rgba(238, 118, 0, 0.45);
+  background-color: #fff8ef;
+
+  .courseProgress-status {
+    font-weight: 600;
+    color: $cp-accent-dark;
+  }
+}
+
+@media (max-width: 480px) {
+  .courseProgress-steps {
+    gap: 5px;
+  }
+
+  .courseProgress-step a {
+    width: 21px;
+    height: 21px;
+    font-size: 10px;
+  }
+}
+
+@media print {
+  .courseProgress {
+    display: none;
+  }
+}

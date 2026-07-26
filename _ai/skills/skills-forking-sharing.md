@@ -2,7 +2,7 @@
 title: "Forking and sharing skills"
 permalink: ai/skills-forking-sharing.html
 keywords:
-sidebar: sidebar_ai
+sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19

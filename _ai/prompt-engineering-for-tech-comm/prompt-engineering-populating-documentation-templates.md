@@ -3,10 +3,11 @@ title:  "Populating documentation templates using AI"
 permalink: ai/prompt-engineering-populating-documentation-templates.html
 linkedin: https://www.linkedin.com/posts/tomjoht_populating-documentation-templates-using-activity-7171876009745575936-6w5_
 course: "AI-powered API documentation"
-sidebar: sidebar_ai
+sidebar: sidebar_prompt_engineering
 section: prompt-engineering
 path1: ai/prompt-engineering.html
 last-modified: 2024-07-28
+order: 4
 rebrandly: https://idbwrtng.com/populating-documentation-templates
 ---
 {% comment %}
@@ -297,3 +298,7 @@ Getting an AI to produce an accurate piece of documentation like an API overview
 Collecting the source material and crafting the documentation prompts is the hard part. Once you've finished that foundational work, you can apply the techniques to your documentation more efficiently. 
 
 You'll notice that I worked in some positive feedback as the prompts go along. This is emotional priming. I'm not sure how effective it is, but the idea is that positive feedback makes the AI better. Even if not, it makes me feel better about my relationship with AI.
+
+<hr/>
+
+*Continue to the next topic: [Reverse engineering the recipe for excellent documentation](/ai/reverse-engineering-prompts.html)*

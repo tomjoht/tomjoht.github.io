@@ -5,10 +5,11 @@ linkedin: https://www.linkedin.com/posts/tomjoht_using-ai-tools-to-build-stage-a
 keywords:
 course: "AI-powered API documentation"
 weight: 14.2
-sidebar: sidebar_ai
+sidebar: sidebar_ai_use_cases
 section: docapisai
-path1: ai/index.html
+path1: ai/use-cases.html
 last-modified: 2023-07-19
+order: 3
 redirect_from:
 - /learnapidoc/ai-tools-build-publish-api-docs.html
 ---
@@ -147,3 +148,7 @@ AI tools empower technical writers with scripting capabilities, whether it be sh
 ## What's next
 
 Continue reading more about this topic here: [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html).
+
+<hr/>
+
+*Continue to the next topic: [Use cases for AI: Understand the meaning of code](/ai/docapis_ai_learn_coding.html)*

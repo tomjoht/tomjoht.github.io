@@ -13,5 +13,13 @@ See my initial skeleton content here: [Agent skills](/ai/skills). I'll be adding
 
 I also plan to add in activities to provide more interactivity. That's coming, in layers and stages. Anyway, stay tuned for more updates. Just like I built out my [API documentation course](/learnapidoc), I plan to approach it post by post, with many iterations and revisions. A project like this gives my blog more focus and direction.
 
+One aspect that's different this time, though, is that AI is incredibly capable at building out many portions of this course. Therefore, much of the course content might be AI-generated. In writing this, it immediately feels like a turnoff. But it shouldn't be, for at least a couple of reasons. 
+
+First, this is how I tend to create documentation now. I direct and steer the AI agent about what to write. I provide feedback on what it's written, iterate on the content, and more.
+
+Second, I want to build out this course to *learn* as much as to disseminate knowledge. In fact, learning is the main reason. Which seems odd because you'd think, why are you building out a course for yourself to learn the material? Don't you want to learn everything first yourself, and then create the course to share that learning?
+
+If that's how my blog worked, it would be a one-sided, boring endeavor. I'm not engaged by knowledge dump posts. By "knowledge dump," I mean posts where I'm just writing down everything I know. I'm much more engaged when the writing process itself constitutes an act of learning and discovery.
+
 {% include ads.html %}
 

@@ -2,7 +2,7 @@
 title: "Modularity of skills"
 permalink: ai/skills-modularity.html
 keywords:
-sidebar: sidebar_ai
+sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-17

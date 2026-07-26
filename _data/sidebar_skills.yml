@@ -1,0 +1,43 @@
+sidebartitle: Agent skills
+progress: true
+progresslabel: Agent skills course
+folders:
+
+- title: "Agent skills"
+  landing: /ai/skills.html
+  section: one
+  class: first
+  description: >
+    This section explores the idea of creating 100 tech-writer specific skills -- designed so well that they're widely used and integrated by large numbers of tech writers across a company.
+  folderitems:
+
+  - title: "Overview"
+    jurl: /ai/skills.html
+    type: web
+
+  - title: "Getting set up: editor, models, and environment"
+    jurl: /ai/skills-setup.html
+
+  - title: "When to build a skill"
+    jurl: /ai/skills-when-to-build.html
+
+  - title: "Skill structure and creation"
+    jurl: /ai/skills-structure-creation.html
+
+  - title: "Where to store and invoke skills"
+    jurl: /ai/skills-storage-invocation.html
+
+  - title: "Modularity of skills"
+    jurl: /ai/skills-modularity.html
+
+  - title: "Design principles for skills"
+    jurl: /ai/skills-design-principles.html
+
+  - title: "Forking and sharing skills"
+    jurl: /ai/skills-forking-sharing.html
+
+  - title: "Testing a skill"
+    jurl: /ai/skills-testing.html
+
+  - title: "Advanced patterns: subagents, loops, and reverse engineering"
+    jurl: /ai/skills-advanced-patterns.html
