@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-17
+order: 6
 redirect_from:
 - /ai/skills-hurdles-to-adoption.html
 ---
@@ -87,7 +88,27 @@ By breaking skills down to a single task, this not only unlocks reuse for you; i
 
 In a modular skill design, skill building becomes an act of recipe creation. You have a cupboard full of ingredients, and as the recipe maker, you pick and choose the combination, order, and sequence. 
 
-And here's the real payoff: other writers can use *your* ingredients to create *their own* recipes. You built a great style-checking skill? Someone on another team can drop it into their tutorial-publishing workflow alongside their own skills that you've never seen. That's the kind of cross-pollination that makes the [100-skills vision](/ai/skills#100twskills) actually work.
+And here's the real payoff: other writers can use *your* ingredients to create *their own* recipes. You built a great style-checking skill? Someone on another team can drop it into their tutorial-publishing workflow alongside their own skills that you've never seen. That's the kind of cross-pollination that makes the [100-skills vision](/ai/skills.html#100twskills) actually work.
+
+## Activity: Modularize the Javadoc skill
+
+Your `edit-javadoc-comments` skill is currently a mini-megaskill — it fixes syntax, edits language, and checks completeness all in one body. Break it apart.
+
+**1. Split it into three sub-skills**, each in its own directory with its own `SKILL.md`:
+
+* `fix-javadoc-syntax` — tags, `{@link}` forms, `{@code}` usage, escaping angle brackets. Takes `references/javadoc-tag-syntax.md` with it.
+* `edit-comment-language` — summary fragments, tense, voice, wordiness, typos. Takes `references/comment-style-rules.md` with it.
+* `check-javadoc-completeness` — missing `@param`, `@return`, and `@throws` tags on public members.
+
+You can do the split by hand, or tell your agent: "Split this skill into these three sub-skills, moving the relevant reference files with each." Review what it produces — the split forces you to decide which instructions belong to which concern, and some (like the never-touch-code constraint) belong in *all* of them.
+
+**2. Convert `edit-javadoc-comments` into a routing skill.** Its body becomes a short choreography: run `fix-javadoc-syntax`, then `edit-comment-language`, then `check-javadoc-completeness`, then run the `verify_code_unchanged.py` script. The verification step stays inline in the router — it's the orchestration-level safety check, not a reusable task.
+
+**3. Re-run the routing skill** on a fresh copy of `MenuService.java` and confirm the results are as good as the monolith's. If the router loses something in translation (agents sometimes skim sub-skill references), tighten the router's hand-off instructions.
+
+**4. Prove the reuse claim.** Run `edit-comment-language` *by itself* on something that isn't Java at all — a Markdown doc page, a README, an API description in a spec file. The language rules (summary-first sentences, active voice, present tense) travel surprisingly well. This is the payoff moment: one of your three ingredients already works outside the recipe it was created for.
+
+**5. Rate the ingredients.** For each sub-skill, ask: could a writer on a different team, with a different doc set, adopt this as-is? You'll likely find `edit-comment-language` is universally adoptable, `fix-javadoc-syntax` is adoptable by any Java team, and `check-javadoc-completeness` depends on each team's documentation policy. That gradient — from universal to team-specific — is exactly what makes modular skills shareable where megaskills aren't.
 
 <hr/>
 

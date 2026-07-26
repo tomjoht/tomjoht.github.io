@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19
+order: 3
 ---
 
 {% include_relative draft_notice.html %}
@@ -35,6 +36,8 @@ For me, the most common recurring task I do is release docs (for which I have fo
 - **Configuring documentation generator** — sets up and runs a documentation generator tool against an API spec, resolving common configuration issues
 - **Linking code elements to reference docs** — scans documentation for code references (classes, methods, fields) and adds hyperlinks to their reference documentation
 
+You'll notice that the [course project](/ai/skills.html#courseproject) — a skill for editing Javadoc comments in source files — fits this same mold: a recurring, well-bounded editing task that shows up as an ingredient inside many larger projects.
+
 {% include ads.html %}
 
 ## Don't overlook subtasks within unique tasks
@@ -60,6 +63,16 @@ The sweet spot is tasks that are frequent enough to justify the investment, cons
 For me, I've focused most of my energy on skills for release documentation, as I have four different products with biweekly releases that consume a lot of my time. Releases are when change gets introduced into the documentation, so this is a ripe opportunity to apply processes to make sure the introduced change is properly handled.
 
 In other words, the skill should make sure that all content across the documentation corpus is appropriately updated to harmonize with the incoming change. That might mean updating code samples, overviews, glossaries, conceptual pages, and more. This is why my release docs skills do much more than just publish release notes; they implement a whole process of handling change to the body of documentation.
+
+## Activity: Qualify the Javadoc editing task — and find your own candidates
+
+Before you build the [course project skill](/ai/skills.html#courseproject), apply this topic's criteria to it. Then do the same for your own work.
+
+**1. Run the qualification test.** Evaluate the Javadoc editing task against the three "when NOT to build" signals — frequency, variability, and one-off context. Write two or three sentences justifying (or rejecting) it as a skill candidate. For instance: how often do you (or would a writer on a Java SDK team) edit source comments? Is the task consistent each time, or does it vary wildly? How much unique context does each run require?
+
+**2. Notice the subtask pattern.** Editing Javadoc comments is rarely a standalone project — it's a subtask that appears inside larger, unique tasks: preparing an SDK release, onboarding a new API, doing a doc quality pass. This makes it a textbook example of the "repeatable subtasks within unique tasks" insight above. See if you can name two or three larger workflows in your own job where comment or code-sample editing shows up as an ingredient.
+
+**3. Start your own candidate list.** Begin the two-week task log described at the top of this topic — a bullet list at the end of each day is enough. Even before the two weeks are up, draft your top three skill candidates based on what you already suspect. Keep this list somewhere you'll find it again: the final topic of this course ends by sending you back to it.
 
 <hr/>
 

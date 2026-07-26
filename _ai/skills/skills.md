@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-17
+order: 1
 redirect_from:
 - /ai/skills-internal-external.html
 ---
@@ -32,7 +33,7 @@ Additionally, most repeatable tasks fall into the category of mechanical toil th
 
 Consider this idea: A company has 100 tech-writer-specific skills that are highly adopted and used across the organization. This collection of skills, focusing on internal authoring skills, has skills for doing virtually anything related to tech writing that you can imagine — fixing a bug, applying a style edit, checking release notes for accuracy, fixing comments in proto styles, and more. The skills don’t do the job entirely themselves but rather act as power tools for the writers, accelerating and amplifying their work.
 
-Not everyone uses all 100 of the tech writer skills. Instead, each tech writer adds the skills most relevant to their tasks in a skills.json file. Some have even created virtual agents that have these skills.
+Not everyone uses all 100 of the tech writer skills. Instead, each tech writer registers the skills most relevant to their tasks in their agent's configuration. Some have even created virtual agents that have these skills.
 
 Is this 100 TW skills idea worthwhile? The merits of the 100 skills idea are questionable; there are many problems associated with it — skills are hard to share because tech writing processes are idiosyncratic, monolithic skills that try to do too much get rejected, and there's a fundamental trust problem when running someone else's skill on your content. And yet, I think the idea could be interesting. We would essentially be externalizing the skills of an entire profession in a way that could be used cross-organizationally, by any role. This is unsettling as it may lead to our irrelevance. But there's also a high possibility of amplification: by externalizing our skills, we build upon each others' strengths. Is it possible to construct skills in such a way that other writers, particularly those who didn't make the skills, find them useful?
 
@@ -46,10 +47,81 @@ However, it's worth noting here that external skills can have tremendous, measur
 
 In the articles that follow, I'll cover when to build a skill, how to structure one, where to store it, and how to design skills that are modular, testable, and shareable with others.
 
+## The course project: a Javadoc editing skill {#courseproject}
+
+Reading about skills will only get you so far — you learn skill building by building one. So this course includes a hands-on project that threads through every topic: a skill called `edit-javadoc-comments` that edits the Javadoc comments in Java source files. The skill fixes tag syntax, corrects link formats, enforces Javadoc conventions, and tightens the language — all without touching the code itself.
+
+Why this particular skill? A few reasons:
+
+* **It's a real tech writer task.** If you work on Java or Android SDK documentation, editing source comments is a recurring request. Engineers write the comments; writers polish them.
+* **The conventions are unfamiliar territory.** Most tech writers can edit prose in their sleep, but Javadoc has its own rules that trip people up: the first sentence must be a standalone summary fragment ("Returns the user name," not "This method returns the user name"), `@param` descriptions are lowercase phrases without periods, links use `{@link ClassName#methodName(ArgType)}` syntax, and unescaped angle brackets like `List<String>` break the build. A skill that encodes these rules is genuinely useful — and building it teaches you how to encode *any* specialized knowledge into a skill.
+* **It's easy to test.** A handful of Java files with deliberately seeded comment problems gives you a complete, self-contained test environment. No live systems, no company-specific tooling.
+* **It has a sharp constraint.** The skill must *never* change code — not a string literal, not an operator, nothing outside the comments. A grammar edit that accidentally "fixes" a typo inside a string literal is a real bug. This constraint makes the project a vivid lesson in blast radius, which comes up again in the testing topic.
+
+Each topic in this course ends with an activity that advances the project. By the end, you'll have a modular, tested, hardened, licensed skill — plus an eval report proving what it does.
+
+If Javadoc is new to you, I cover it in the [Native library APIs chapter](/learnapidoc/nativelibraryapis.html) of my API documentation course. The [Java crash course](/learnapidoc/nativelibraryapis_java_crash_course.html) and [Javadoc tags](/learnapidoc/nativelibraryapis_javadoc_tags.html) topics are the most relevant background reading.
+
 ## A note on how this course was written
 
 This course is a collaboration between me and AI. I wrote the initial drafts, ideas, and examples from my own experience, then used AI agents to help flesh out the content, fill gaps, and improve clarity. Some sections are mostly mine; others were substantially shaped by the agent. It would be a little ironic to write a course on agent skills without actually using one, right?
 
+## Activity: Set up your practice files and capture a baseline
+
+Before building anything, set up the practice environment for the [course project](#courseproject) and capture a baseline of what your AI agent does *without* a skill. This baseline becomes important later — in the [testing topic](/ai/skills-testing.html), you'll measure your skill's improvement against it.
+
+{: .note}
+This activity (and every one that follows) assumes you have an agentic AI environment — an editor or CLI where an agent can read and write local files and run scripts. If you don't have that yet, or you're not sure, read [Getting set up: editor, models, and environment](/ai/skills-setup.html) first and run its smoke test. Then come back here.
+
+**1. Create a project directory.** Something like `javadoc-skill-project/` with a `src/` folder inside. This is your sandbox for the whole course. (If you ran the smoke test in the [setup topic](/ai/skills-setup.html), you already created this folder — just add the `src/` subfolder.)
+
+**2. Generate the practice files.** Rather than downloading a starter kit, have your agent generate the files — it takes a minute and gives you a first taste of steering an agent with precise instructions. Paste this prompt:
+
+```
+Generate five small Java files (40-60 lines each) for a fictional
+coffee shop ordering system. I'm using these files to practice editing
+Javadoc comments, so the code should be simple and plausible, but the
+Javadoc comments must contain deliberately seeded problems. Do not fix
+the problems — seed them exactly as described. At the top of each
+file, add a regular // comment (not Javadoc) listing that file's
+seeded problems, so I have an answer key.
+
+1. CoffeeMaker.java — language problems in the Javadoc: first
+   sentences that aren't summary fragments ("This method gets the brew
+   temperature..."), passive voice, future tense ("will return"),
+   wordiness, and at least one typo.
+
+2. MenuService.java — Javadoc syntax problems: a broken link like
+   {@link MenuService.getItems()} (correct form is {@link
+   #getItems()}), an unescaped generic like List<String> in running
+   text, a <code> tag where {@code} is conventional, and an @param
+   description written as a capitalized full sentence ending in a
+   period.
+
+3. OrderUtils.java — completeness problems: a public method missing
+   an @param tag for one of its parameters, a method with a return
+   value but no @return tag, and a method that throws
+   IllegalArgumentException with no @throws tag.
+
+4. LegacyImporter.java — a curveball file: an Apache 2.0 license
+   header comment with slightly awkward legal phrasing, a block of
+   commented-out code, and an overridden method whose only Javadoc is
+   {@inheritDoc}. Keep the actual Javadoc problems minor — the point
+   of this file is what should NOT be edited.
+
+5. Inventory.java — a trap file: the Javadoc is already correct and
+   conventional, but the code contains a typo inside a string literal
+   ("Recieved shipment") and a suspicious comparison (using == to
+   compare strings). Nothing in this file should be changed by a
+   comment-editing skill.
+```
+
+**3. Review the generated files.** Check the answer-key comments against the actual seeded problems. Agents sometimes fix the problems they were told to seed. If a file is too clean, regenerate it.
+
+**4. Capture the baseline.** In a *fresh* agent session (no skill, no extra context), make copies of the first three files and prompt: "Edit the comments in these Java files to improve them." Save the output to a `baseline/` folder.
+
+**5. Inspect the damage.** Compare the baseline output against the originals and note what the agent did. Typically it fixes the grammar but misses the Javadoc conventions — or worse, it turns `@param` fragments into full sentences, leaves broken `{@link}` syntax alone, and "helpfully" fixes the typo inside the string literal. Write down three specific problems you find. These gaps are exactly what your skill will close.
+
 <hr/>
 
-*Continue to the next topic: [When to build a skill](/ai/skills-when-to-build.html)*
+*Continue to the next topic: [Getting set up: editor, models, and environment](/ai/skills-setup.html)*

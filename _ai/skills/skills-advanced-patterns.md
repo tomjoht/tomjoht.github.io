@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19
+order: 10
 redirect_from:
 - /ai/skills-subagent-architectures.html
 - /ai/skills-recursive-patterns.html
@@ -73,5 +74,21 @@ The last pattern I've been wondering about is reverse engineering. Instead of wr
 
 This is essentially test-driven skill development — you define the expected output first, then iterate on the skill until it produces that output reliably. I haven't fully tested this approach, but the logic is sound: if a skill can reliably transform input to output without the agent ever seeing the answer, then the skill itself captures the necessary knowledge.
 
-The approach connects back to [testing](/ai/skills/skills-testing): if you can express your desired output as a set of eval criteria, you have a natural eval suite built into the skill development process itself.
+The approach connects back to [testing](/ai/skills-testing.html): if you can express your desired output as a set of eval criteria, you have a natural eval suite built into the skill development process itself.
+
+## Activity: Capstone — add an advanced pattern to your skill
+
+For the final project activity, extend your Javadoc editing skill with one (or more) of the three patterns from this topic.
+
+**Option A: Fresh-context QA subagent.** Add a final step to your routing skill: spawn a subagent with a clean context, give it only the edited Java files and your two reference files (`javadoc-tag-syntax.md` and `comment-style-rules.md`), and ask it to audit the edits for convention violations and overreach. Then compare: in the same main session, also ask the agent that *did* the edits to review its own work. Count the issues each reviewer catches. The fresh-context reviewer usually finds more — you're watching the self-review bias from this topic play out on your own skill.
+
+**Option B: Recursive validation loop.** If you have a JDK installed, add a loop step: run `javadoc -Xdoclint:all` on the edited files, fix any warnings it reports, and re-run until the output is clean — maximum 3 attempts, then log remaining failures and stop. Doclint catches real syntax errors (broken `{@link}` references, malformed HTML) with compiler-grade authority, making it an ideal concrete success condition. (If you've never generated a Javadoc, my [activity on generating a Javadoc](/learnapidoc/nativelibraryapis_create_javadoc.html) walks through it.) No JDK? Loop on `verify_code_unchanged.py` instead: verify, and if code changed, restore and re-edit — same pattern, different condition.
+
+**Option C: Reverse engineering.** Work backward from a golden output. First, produce a version of `CoffeeMaker.java` with comments edited to your full satisfaction — run your skill, then hand-polish until it's exactly right. That's the golden file; set it aside. Now spawn a fresh subagent with only the *original* seeded file and your skill — it never sees the golden version — and have a third session judge how closely the subagent's output matches the golden file. Refine the skill and repeat until they converge. If your skill can reliably reproduce output you approved without the agent ever seeing it, the skill has fully captured your editorial judgment.
+
+## Where you've ended up
+
+If you've done every activity in this course, look at what's sitting in your project directory: a routing skill composed of three modular sub-skills, hardened against curveballs and traps, verified by a mechanical safety script, forked once for another language, licensed for sharing, and backed by an eval report with a measured lift score. That's not a toy — it's the full lifecycle of a production-quality skill, and it's the same lifecycle whether the skill edits Javadoc comments or drives your release docs process.
+
+Now go back to the top-three candidate list you drafted in the [when to build a skill](/ai/skills-when-to-build.html) activity. Pick the first one and start building — this time on a task that pays you back every week.
 

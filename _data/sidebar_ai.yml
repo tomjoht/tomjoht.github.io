@@ -12,6 +12,9 @@ folders:
     jurl: /ai/skills.html
     type: web
 
+  - title: "Getting set up: editor, models, and environment"
+    jurl: /ai/skills-setup.html
+
   - title: "When to build a skill"
     jurl: /ai/skills-when-to-build.html
 

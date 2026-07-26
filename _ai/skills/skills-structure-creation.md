@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19
+order: 4
 ---
 
 {% include_relative draft_notice.html %}
@@ -32,12 +33,12 @@ The frontmatter is the most important part of your skill from a discovery standp
 
 | Field | Required | Purpose |
 |---|---|---|
-| `name` | Yes | A short, human-readable name for the skill |
-| `description` | Yes | A paragraph describing what the skill does, when to use it, and when *not* to use it |
+| `name` | Yes | An identifier for the skill: max 64 characters, using only lowercase letters, numbers, and hyphens. It must match the skill's directory name |
+| `description` | Yes | A paragraph (max 1,024 characters) describing what the skill does, when to use it, and when *not* to use it |
 | `license` | No | The license under which the skill is shared (e.g., `MIT`, `Apache-2.0`) |
-| `compatibility` | No | Which AI platforms or tools the skill is designed for |
+| `compatibility` | No | Environment requirements, if any — intended tool, required system packages, network access (most skills don't need this field) |
 | `metadata` | No | Additional key-value metadata (author, version, tags, etc.) |
-| `allowed-tools` | No | Tools the agent is permitted to use when executing this skill |
+| `allowed-tools` | No | Tools the agent is pre-approved to use when executing this skill (experimental — support varies by agent) |
 
 The `name` and `description` are what the agent reads during progressive discovery. Think of them as the skill's elevator pitch — they need to be specific enough for the agent to match the right skill to the right task, and clear enough to exclude tasks the skill *shouldn't* handle.
 
@@ -88,15 +89,17 @@ The `assets/` directory holds templates, data files, configuration files, or any
 
 The simplicity of the skill structure is part of the ingenious nature of the spec. It's designed around a concept the spec calls **[progressive disclosure](https://agentskills.io/specification#progressive-disclosure)** — the agent only loads what it needs, when it needs it:
 
-1. **Discovery**: The agent scans for `SKILL.md` files and reads *only* the frontmatter (`name` and `description`). This is how it decides which skill is relevant to the current task.
-2. **Activation**: After the agent decides a skill matches, it loads the full `SKILL.md` body into its context.
+1. **Discovery**: The agent scans for `SKILL.md` files and reads *only* the frontmatter (`name` and `description`) — roughly 100 tokens per skill. This is how it decides which skill is relevant to the current task.
+2. **Activation**: After the agent decides a skill matches, it loads the full `SKILL.md` body into its context. The spec recommends keeping the body under 5,000 tokens.
 3. **Execution**: As the agent works through the instructions, it loads files from `references/`, `scripts/`, or `assets/` only when referenced.
 
 This layered approach means you can have dozens of skills in your workspace without bloating the agent's context. The agent reads a few lines of frontmatter for each skill, not the entire contents. It's efficient by design.
 
 ## Skills for creating skills
 
-Understanding the spec is useful, but here's the practical shortcut: you don't need to write skill files by hand. Both Claude and Gemini platforms have built-in skill creators. Gemini has a built-in skill called [skill-creator](https://agentskills.io/home). Claude also has a built-in [skill creator](https://claude.ai/customize/skills). Instead of writing and structuring the skill yourself, just ask your AI to build a skill for doing X, and then add in the details. The AI will structure the skill for you. This is a great way to get started, as you can then see the shape of the files and learn first-hand about the specification.
+Understanding the spec is useful, but here's the practical shortcut: you don't need to write skill files by hand. Both Gemini and Claude platforms have built-in skill creators. Gemini CLI includes a [skill-creator](https://geminicli.com/docs/cli/creating-skills/) meta-skill — just ask something like "Create a new skill called code-reviewer that analyzes files for style violations," and it guides you through designing, scaffolding, and validating the skill. Anthropic likewise publishes a [skill-creator skill](https://github.com/anthropics/skills) that works in Claude Code and the [Claude apps](https://claude.ai/customize/skills). Instead of writing and structuring the skill yourself, just ask your AI to build a skill for doing X, and then add in the details. The AI will structure the skill for you. This is a great way to get started, as you can then see the shape of the files and learn first-hand about the specification.
+
+If you want to check your skill against the spec, the agentskills project also provides a [reference validator](https://github.com/agentskills/agentskills/tree/main/skills-ref) (`skills-ref validate ./my-skill`) that verifies your frontmatter and naming conventions.
 
 Even with skill creators, the knowledge above matters. When you understand *why* the description field is critical (it's the only thing the agent reads during discovery), or *why* the `references/` directory exists (to keep the main body concise while supporting complex workflows), you'll write better skills — whether you generate them with an AI tool or write them by hand.
 
@@ -110,6 +113,36 @@ For the full spec and platform-specific guides, see:
 * [Agent skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) (Claude)
 * [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (Claude)
 * [Claude skills course](https://anthropic.skilljar.com/introduction-to-agent-skills)
+
+## Activity: Build version 1 of the Javadoc editing skill
+
+Time to build. You'll create the first working version of `edit-javadoc-comments`, exercising every part of the skill anatomy covered above.
+
+**1. Create the directory structure.** Inside your project folder:
+
+```
+edit-javadoc-comments/
+├── SKILL.md
+├── references/
+│   ├── javadoc-tag-syntax.md
+│   └── comment-style-rules.md
+└── scripts/
+    └── verify_code_unchanged.py
+```
+
+**2. Write the frontmatter.** The `description` is the skill's discovery mechanism, so make it earn its keep. Describe what the skill does, when to use it, and — critically — when *not* to: "Do NOT use this skill to edit code, string literals, license headers, or commented-out code." That exclusion clause will pay off in the design principles topic.
+
+**3. Write the body.** Keep it short: the goal, the never-touch-code constraint, and the steps (identify the documentation comments, fix Javadoc syntax, edit the language, verify the code is untouched). Point to the reference files for the detailed rules rather than inlining them — this is progressive disclosure in action.
+
+**4. Fill in `references/javadoc-tag-syntax.md`.** This file holds the tag and link rules: `{@link}` forms, `{@code}` vs. `<code>`, escaping `<` and `>`, `@param`/`@return`/`@throws` conventions. You can distill these from my [Javadoc tags](/learnapidoc/nativelibraryapis_javadoc_tags.html) primer, or ask your agent to draft the file and then verify it against that primer. (Verifying AI-drafted reference content against a trusted source is itself a habit worth building.)
+
+**5. Fill in `references/comment-style-rules.md`.** The language rules: first sentence as a standalone summary fragment, third-person present tense ("Returns" not "This method will return"), active voice, `@param` descriptions as lowercase phrases. Include the *why* where you know it — for example, the first sentence rule exists because Javadoc extracts it into class and method summary tables, where a dangling "This method..." reads terribly.
+
+**6. Have the agent write the verification script.** Ask your agent to write `verify_code_unchanged.py`: a script that takes a before-file and an after-file, strips the comments from both, and diffs what remains. If the diff is non-empty, the skill changed code — automatic failure. This gives your skill a mechanical safety check that doesn't depend on anyone's judgment.
+
+**7. Run it.** In a fresh session, drag `SKILL.md` into context (or reference its path) and say: "Run this skill on `CoffeeMaker.java`." Compare the result against your baseline output from the [first activity](/ai/skills.html#courseproject). The skilled run should nail the summary fragments and conventions the baseline missed.
+
+**8. Bonus: compare against a generated skill.** Ask a built-in skill creator to generate a Javadoc-editing skill from a one-paragraph description, and compare its structure to yours. What did it include that you didn't? What did you know to include that it couldn't?
 
 <hr/>
 

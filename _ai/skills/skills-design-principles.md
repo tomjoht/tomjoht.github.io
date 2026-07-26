@@ -6,6 +6,7 @@ sidebar: sidebar_ai
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-07-19
+order: 7
 redirect_from:
 - /ai/skills-enforce-process.html
 ---
@@ -14,7 +15,7 @@ redirect_from:
 
 Just as software engineering has design patterns and documentation has information architecture, skill building has its own set of principles that separate a skill that works from a skill that works *well*.
 
-The principles below are general — they apply across skill types, whether you're building a release notes skill, a style-editing skill, or a tool-integration skill. Later in this course, I'll get into task-specific design patterns (for example, common patterns for release notes skills, like separating signal from noise in bug lists, or structuring output into templates with sections for new features, bug fixes, known issues, and doc updates). But first, let's list a few design practices for skills that apply across all types of skills.
+The principles below are general — they apply across skill types, whether you're building a release notes skill, a style-editing skill, or a tool-integration skill. (Task-specific design patterns — for example, common patterns for release notes skills, like separating signal from noise in bug lists, or structuring output into templates with sections for new features, bug fixes, known issues, and doc updates — deserve their own article, which I may write in the future.) For now, let's look at design practices that apply across all types of skills.
 
 ## Balance structure with flexibility
 
@@ -76,6 +77,18 @@ This is the design principle: when you're building a skill, don't just automate 
 Finally, remember that a skill you write today might be run by someone else tomorrow — or by a future version of yourself who's forgotten the context. Write your skills with the same care you'd bring to documentation: clear section headers, explicit assumptions, and enough context that someone unfamiliar with your specific setup can follow along.
 
 This doesn't mean making skills generic to the point of uselessness. It means writing a clear, descriptive `description` field in the skill's frontmatter, noting any prerequisites or required parameters in the body, and explaining any non-obvious decisions. If your skill expects a particular directory structure or file naming convention, say so explicitly rather than assuming the agent will figure it out.
+
+## Activity: Harden the skill against curveballs
+
+Two of your practice files exist precisely for this topic: `LegacyImporter.java` (the curveball) and `Inventory.java` (the trap). Time to use them.
+
+**1. Run the routing skill on `LegacyImporter.java`** and inspect the result closely. Watch for overreach: Did the skill "improve the grammar" in the Apache license header? Delete or clean up the commented-out code? Expand the `{@inheritDoc}` into a full description? All three are plausible failures — the file contains comments, and you built a comment-editing skill.
+
+**2. Fix it by communicating intent, not just adding rules.** You could patch each failure with a rule ("don't edit license headers"), but the stronger fix teaches the agent the distinction: *edit only documentation comments — comments that describe API behavior to a reader. License headers are legal text, commented-out code is disabled code, and `{@inheritDoc}` is a deliberate delegation to the parent's documentation. None of these are documentation prose, so none of them are yours to edit.* An agent that understands the category will handle curveballs you never enumerated — a doc comment containing an ASCII diagram, say, or a `TODO` note from an engineer.
+
+**3. Run the skill on `Inventory.java`.** The correct output is *no changes at all* — and that's a hard test for an eager agent staring at "Recieved shipment" in a string literal and a `==` string comparison in the code. If your skill fixes either one, tighten the constraint and, again, teach the why: changing a string literal changes runtime behavior, and behavior changes from a comment-editing skill are silent, unreviewable bugs. Doing nothing is sometimes the correct, skilled outcome.
+
+**4. Add a self-reflection step.** Append a final step to the routing skill: "Review any friction encountered during this run — ambiguous instructions, judgment calls the skill didn't cover, steps that required retries. Update the skill or its reference files so the next run doesn't hit the same friction." Run the skill once more and look at what the agent logged or changed. You've now built a skill that participates in its own improvement.
 
 <hr/>
 
