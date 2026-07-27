@@ -113,7 +113,7 @@ The SDK needs to include a README file (typically named `README.md`) that provid
 * Version details
 * Release notes link
 
-There's a lot more one could say about Readme files. For example, browse this [curated list of Readme files](https://github.com/matiassingers/awesome-readme) in the Awesome Readme repo. Also see [Write the Readable README](https://www.writethedocs.org/videos/na/2016/write-the-readable-readme-daniel-beck/) by Daniel Beck at the WTD 2016 conference.
+There's a lot more one could say about Readme files. For example, browse this [curated list of Readme files](https://github.com/matiassingers/awesome-readme) in the Awesome Readme repo. Also see [Write the Readable README](https://web.archive.org/web/20260122024123/https://www.writethedocs.org/videos/na/2016/write-the-readable-readme-daniel-beck/) by Daniel Beck at the WTD 2016 conference.
 
 In general, some Readme files might compress a lot of documentation into the Readme. The Readme might provide brief summaries and descriptions but mostly link to the main documentation for this information (e.g, installation, implementation, configuration, etc.).
 

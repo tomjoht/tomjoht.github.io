@@ -94,7 +94,7 @@ You won't find an [interactive API console](pubapis_design_patterns.html#interac
 
 ### 5. With APIs, the doc *is* the product's interface, so it has to be attractive enough to sell the product.
 
-Most outputs from HATs look dated and old. They look like a relic of the pre-2000 Internet era. (For more on the dated display, see [Tripane help and PDF files: past their prime?](http://www.robertdesprez.com/2013/01/18/tripane-help-and-pdfs-time-to-move-on/) from Robert Desprez.)
+Most outputs from HATs look dated and old. They look like a relic of the pre-2000 Internet era. (For more on the dated display, see [Tripane help and PDF files: past their prime?](https://web.archive.org/web/20171030112110/http://www.robertdesprez.com/2013/01/18/tripane-help-and-pdfs-time-to-move-on/) from Robert Desprez.)
 
 With API documentation, often the documentation *is* the product's interface &mdash; there isn't a separate product GUI (graphical user interface) that clients interact with. Because the product's GUI is the documentation, it has to be sexy and attractive.
 

@@ -81,10 +81,10 @@ Even so, the output is sharp, and the talent behind this site is top-notch. The 
 
 Here are a few sample API doc sites built with Readme.com:
 
-* [Validic](https://docs.validic.com/docs/getting-started)
+* Validic
 * [Box API](https://developer.box.com/)
-* [Coinbase API](https://developers.coinbase.com/api/v2#introduction)
-* [Farmbase Software](https://farmbot-software.readme.com/docs)
+* [Coinbase API](https://docs.cdp.coinbase.com/)
+* Farmbase Software
 
 {: .tip}
 Which tool should you use? I provide some more concrete recommendations in [Which tool to choose for API docs -- my recommendations](pubapis_which_tool_to_choose.html).

@@ -135,7 +135,7 @@ For a good article on one of these tools, check out "[GraphiQL: GraphQL’s Kill
 
 It’s not enough to read about GraphQL; it is also worth looking at popular projects, examples, and stories of who is using it and what it can do:
 
-*   [Yelp API docs](https://www.yelp.com/developers/graphql/guides/intro)
+*   [Yelp API docs](https://docs.developer.yelp.com/docs/graphql-intro)
 *   [Paypal: "GraphQL: A success story for PayPal Checkout"](https://medium.com/paypal-engineering/graphql-a-success-story-for-paypal-checkout-3482f724fb53)
 *   [Shopify example](https://help.shopify.com/en/api/getting-started/shopify-and-graphql)
 *   [Pokemon (Demonstration Only)](https://github.com/lucasbento/graphql-pokemon)

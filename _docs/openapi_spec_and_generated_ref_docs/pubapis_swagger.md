@@ -96,7 +96,7 @@ Before we get into this Swagger tutorial with another API (other than the Petsto
 
 * [Reverb](https://reverb.com/swagger#/articles)
 * [VocaDB](https://vocadb.net/swagger/index.html)
-* [IBM Watson IoT Admin REST APIs](https://docs.internetofthings.ibmcloud.com/apis/swagger/v0002/org-admin.html)
+* [IBM Watson IoT Admin REST APIs](https://web.archive.org/web/20220709031241/https://docs.internetofthings.ibmcloud.com/apis/swagger/v0002/org-admin.html)
 * [The Movie Database API](https://developers.themoviedb.org/3/account)
 
 Some of these sites look the same, but others, such as The Movie Database API and Zomato, have been integrated seamlessly into the rest of their documentation website.

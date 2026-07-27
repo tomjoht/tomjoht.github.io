@@ -62,7 +62,7 @@ While user learning types can fall all along this spectrum, from "systematic" (r
 
 The more action-oriented, experiential approach to learning has its roots in a movement called "minimalism" that John Carroll identified long ago. Describing John Carroll's minimalism approach, David Farkas and Thomas Williams write:
 
-> The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done; they want to exercise their problem-solving abilities; and they are apt to utterly reject or diverge from highly constraining instruction such as tutorials. Training material, therefore, must not impede the natural impulses of computer users, as systems approach documentation does. It should be as brief as possible, support the accomplishment of real work, help leaners recognize and recover from errors, and, when possible, permit non-sequential reading. Such documentation cannot be generated mechanically from a theory of instruction but requires careful attention to the needs and behavior of the intended users of the software and reiterative testing of the design. (See [John Carroll's *The Nurnberg Funnel* and Minimalist Documentation](https://www.hcde.washington.edu/files/people/docs/farkaswilliamsonnurnbergfunnel.pdf). *IEEE Transactions on Professional Communication*, Vol. 33, Nov. 4, Dec 1990.)
+> The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done; they want to exercise their problem-solving abilities; and they are apt to utterly reject or diverge from highly constraining instruction such as tutorials. Training material, therefore, must not impede the natural impulses of computer users, as systems approach documentation does. It should be as brief as possible, support the accomplishment of real work, help leaners recognize and recover from errors, and, when possible, permit non-sequential reading. Such documentation cannot be generated mechanically from a theory of instruction but requires careful attention to the needs and behavior of the intended users of the software and reiterative testing of the design. (See [John Carroll's *The Nurnberg Funnel* and Minimalist Documentation](https://web.archive.org/web/20210918202852/https://www.hcde.washington.edu/files/people/docs/farkaswilliamsonnurnbergfunnel.pdf). *IEEE Transactions on Professional Communication*, Vol. 33, Nov. 4, Dec 1990.)
 
 In other words, minimize the amount of explanatory text that you require readers to wade through before getting to a more hands-on activity. Instead of constructing long walls of text, provide activities that get users interacting with the system in a direct way, learning as they go. Integrate some of your instruction within the tutorial. Make the learning action-oriented.
 
@@ -106,11 +106,11 @@ Expand the collection to view the endpoints, and click **Send**. You'll see the 
 
 Now change the `zip` code parameter to your own zip code and click **Send** again. In the response, look for `temp` and see if it matches the weather outside your home right now.
 
-You can see the many [demos of Run in Postman here](https://www.getpostman.com/integrations/run-button). Many of these demos are listed in [Postman's API Network](https://www.getpostman.com/api-network/).
+You can see the many [demos of Run in Postman here](https://learning.postman.com/docs/collections/running-collections/intro-to-collection-runs/). Many of these demos are listed in [Postman's API Network](https://www.getpostman.com/api-network/).
 
 <figure><a target="_blank" class="noExtIcon" href="https://www.getpostman.com/api-network/"><img class="docimage" src="{{site.api_media}}/postmanapinetwork.png" alt="Postman API network" /></a><figcaption>Postman API network</figcaption></figure>
 
-For details on how to share your Postman collections like this, see [Creating Run in Postman buttons](https://learning.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) in the Postman documentation. To try out Run in Postman, you can either [import an OpenAPI spec into Postman](https://www.getpostman.com/docs/postman/collections/data_formats#importing-postman-data) or enter your API information manually.
+For details on how to share your Postman collections like this, see [Creating Run in Postman buttons](https://learning.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) in the Postman documentation. To try out Run in Postman, you can either [import an OpenAPI spec into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) or enter your API information manually.
 
 What's especially good about Postman is that it allows users to customize the API key and parameters and save those values. You can also safely share an API key. Although Postman doesn't provide same direct, in-documentation experience as [Swagger UI](pubapis_swagger_demo.html), in many ways the Postman client is more useful because it lets users configure and save the calls they make. They can easily save many different variations of the same endpoint, with different configurations. Postman is what internal developers often use to save and store API calls as they test and explore the functionality.
 
@@ -178,7 +178,7 @@ For other inspiration with getting started tutorials, explore the links below. M
 
 * [Onfido: Getting started integrating](https://developers.onfido.com/guide/get-started-integrating)
 * [Deutsche Bank: Getting Started Guide](https://developer.db.com/apidocumentation/apigettingstartedguide/introduction)
-* [Yolt Technology Services: Getting started](https://developer.yolt.com/docs/getting-started)
+* [Yolt Technology Services: Getting started](https://web.archive.org/web/20211025194542/https://developer.yolt.com/docs/getting-started)
 * [PlatformOS: Get Started](https://documentation.platformos.com/get-started)
 * [Getting Started with Hazelcast Cloud](https://docs.hazelcast.com/cloud/getting-started)
 * [Seon: Getting started](https://docs.seon.io/getting-started)
@@ -188,7 +188,7 @@ For other inspiration with getting started tutorials, explore the links below. M
 * [Amadeus: Self-Service APIs](https://developers.amadeus.com/get-started/get-started-with-self-service-apis-335)
 * [Tapix](https://developers.tapix.io/sandbox/findByCardTransaction/All)
 * [Thingworx: Getting Started](https://developer.thingworx.com/en/resources/getting-started)
-* [Codat: Getting Started](https://docs.codat.io/docs/get-started)
+* [Codat: Getting Started](https://docs.codat.io/)
 
 ## Summary of best practices for getting started tutorials
 

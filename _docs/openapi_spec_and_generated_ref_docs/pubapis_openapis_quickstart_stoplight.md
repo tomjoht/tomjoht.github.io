@@ -48,9 +48,9 @@ Before we begin the tutorial, note the following:
 
 In this tutorial, we'll use sample information from the [OpenWeatherMap API](https://openweathermap.org/api) (more specifically, the [Current weather data endpoint](https://openweathermap.org/current)), which is the same API we've been using in other tutorials, such as the [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html).
 
-Here's the [documentation output](https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api) that you'll build in this tutorial:
+Here's the [documentation output](https://web.archive.org/web/20240301183425/https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api) that you'll build in this tutorial:
 
-<a class="noCrossRef" href="https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api"><img src="{{site.api_media}}/1-docs-result-stoplightv3.png" alt="Final output from Stoplight tutorial" /></a>
+<a class="noCrossRef" href="https://web.archive.org/web/20240301183425/https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api"><img src="{{site.api_media}}/1-docs-result-stoplightv3.png" alt="Final output from Stoplight tutorial" /></a>
 
 <p>The tutorial has the following steps:</p>
 <ul>
@@ -547,7 +547,7 @@ To enter the response information in Stoplight:
      {% endif %}
 
     
-To preview the responses output, click **Preview**. See my [example here](https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api).
+To preview the responses output, click **Preview**. See my [example here](https://web.archive.org/web/20240301183425/https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api).
 
 <img src="{{site.api_media}}/17-response-preview-stoplight.png" alt="Schema section" />
 
@@ -582,7 +582,7 @@ The screen should look like this:
     For publishing options outside of Stoplight, you can use your OpenAPI definition with [Redocly](https://github.com/Redocly/redoc), [Swagger UI](pubapis_swagger.html), [Spectacle](https://github.com/sourcey/spectacle), [Docsy](https://github.com/google/docsy), and other tools. See [Openapi.tools](https://openapi.tools/#documentation) for a list of possibilities. You can find a [Redoc tutorial in this course here](pubapis_redocly.html).
 
 {: .tip}
-You can view my [OpenWeatherMap API documentation on Stoplight here](https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api). If you got stuck in the tutorial somewhere along the way, you can click Export to download my code and paste it into your code. For various demos of Stoplight with different API docs, see [Stoplight demos](pubapis_stoplight.html#stoplight_demos). 
+You can view my [OpenWeatherMap API documentation on Stoplight here](https://web.archive.org/web/20240301183425/https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api). If you got stuck in the tutorial somewhere along the way, you can click Export to download my code and paste it into your code. For various demos of Stoplight with different API docs, see [Stoplight demos](pubapis_stoplight.html#stoplight_demos). 
 
 For help using Stoplight, see the documentation at [docs.stoplight.io](https://docs.stoplight.io/).
 

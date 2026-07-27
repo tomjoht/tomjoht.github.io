@@ -24,7 +24,7 @@ Both of these articles come from academic journals. It's actually rare to find r
 
 ## When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects
 
-First, let's explore "When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects," by Andrew Head, Caitlin Sadowski, Emerson Murphy-Hill, and Andrea Knight. This article was published in the *2018 ACM/IEEE 40th International Conference on Software Engineering.* (To read the article, see this [ResearchGate link](https://www.researchgate.net/publication/325732077_When_not_to_comment_questions_and_tradeoffs_with_API_documentation_for_C_projects) or go [here](https://people.eecs.berkeley.edu/~andrewhead/pdf/comment.pdf).)
+First, let's explore "When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects," by Andrew Head, Caitlin Sadowski, Emerson Murphy-Hill, and Andrea Knight. This article was published in the *2018 ACM/IEEE 40th International Conference on Software Engineering.* (To read the article, see this [ResearchGate link](https://www.researchgate.net/publication/325732077_When_not_to_comment_questions_and_tradeoffs_with_API_documentation_for_C_projects) or go here.)
 
 This research coordinates efforts among academic researchers, engineers, usability specialists, and members from Google’s Engineering Productivity Research team. Given how important documentation is for understanding code, the researchers want to know the best location for documentation as well as what information engineers want in docs. Specifically, they focused on C++ APIs and asked whether engineers are more inclined to consult the header files (where classes are defined) or the implementation files (where classes are implemented) for the information they need. The following screenshot (from their article) shows the difference between header and implementation files:
 
@@ -225,7 +225,7 @@ more resources
 [Ten Extras for Great API Documentation · An A List Apart Article](https://alistapart.com/article/ten-extras-for-great-api-documentation).
 
 
-[API documentation – What software engineers can teach us](https://www.parson-europe.com/en/blog/440-api-documentation.html)
+[API documentation – What software engineers can teach us](https://web.archive.org/web/20171201174818/https://www.parson-europe.com/en/blog/440-api-documentation.html)
 
 
 “How Software Engineers Use Documentation: The State of the Practice”*

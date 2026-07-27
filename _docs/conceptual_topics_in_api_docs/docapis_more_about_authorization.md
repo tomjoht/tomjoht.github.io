@@ -168,7 +168,7 @@ With Twitter, because the OAuth 2.0 authorization requirements are a bit more in
 
 ### Amazon Web Services
 
-<figure><a target="_blank" class="noExtIcon" href="https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html"><img class="docimage" src="{{site.api_media}}/amazon_authentication.png" alt="Amazon authorization" /></a><figcaption>Amazon authorization</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20191206125623/https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html"><img class="docimage" src="{{site.api_media}}/amazon_authentication.png" alt="Amazon authorization" /></a><figcaption>Amazon authorization</figcaption></figure>
 
 The Amazon example uses HMAC. The process is complex enough that a full-fledged diagram is included to show the steps users need to perform.
 

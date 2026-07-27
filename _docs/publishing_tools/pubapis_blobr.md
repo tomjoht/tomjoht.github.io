@@ -13,7 +13,7 @@ last-modified: 2022-06-01
 
 {{site.data.alerts.warning}}Blobr appears to have shut down &mdash; blobr.io no longer resolves, and the example portal linked below is offline. This topic is kept for the API-portal patterns it illustrates, but you can't follow along with the tool itself.{{site.data.alerts.end}}
 
-With [Blobr](https://www.blobr.io/){: rel="nofollow"}, you can create an API store to launch and grow an API business with different monetization models. In the same Blobr portal, you can also include documentation that describes the precise workflow for each use case, helping API consumers easily onboard with your API. You can also customize your portal's name, logo, colors, domain name, add support chat integration, and more.
+With [Blobr](https://web.archive.org/web/20260510235242/https://www.blobr.io/){: rel="nofollow"}, you can create an API store to launch and grow an API business with different monetization models. In the same Blobr portal, you can also include documentation that describes the precise workflow for each use case, helping API consumers easily onboard with your API. You can also customize your portal's name, logo, colors, domain name, add support chat integration, and more.
 
 *Note: Blobr is one of the sponsors of my site.*
 
@@ -22,9 +22,9 @@ With [Blobr](https://www.blobr.io/){: rel="nofollow"}, you can create an API sto
 
 ## Blobr example {#blobr_example}
 
-Let's walk through a Blobr example. Here's a product catalog for a [Petstore API on Blobr](https://y18r6fxgtelv8ls5.developer.blobr.app/){: rel="nofollow"}:
+Let's walk through a Blobr example. Here's a product catalog for a Petstore API on Blobr:
 
-<figure><a href="https://y18r6fxgtelv8ls5.developer.blobr.app/" rel="nofollow" class="noCrossRef"><img src="{{site.api_media}}/product_catalog_blobr.png" alt="Product catalog overview on the Blobr API portal" /></a><figcaption><b>Figure 1.</b> <i>Product catalog overview on the Blobr API portal</i>. Developers can browse the various ways the API can be used ("products") and then preview or purchase the product they want.</figcaption></figure>
+<figure><img src="{{site.api_media}}/product_catalog_blobr.png" alt="Product catalog overview on the Blobr API portal" /><figcaption><b>Figure 1.</b> <i>Product catalog overview on the Blobr API portal</i>. Developers can browse the various ways the API can be used ("products") and then preview or purchase the product they want.</figcaption></figure>
 
 In this example, the use cases for the Petstore API have been packaged into seven different "products":
 
@@ -48,7 +48,7 @@ Blobr's new approach to organizing, presenting, and monetizing APIs not only sim
 
 Let's look at a product and its workflow in more detail. Suppose you want to implement the use case "Buy a Pet in a Store." You would click this product to see details on the implementation. The product landing page shows an overview of the product, the cost, and the workflow.
 
-<figure><a href="https://y18r6fxgtelv8ls5.developer.blobr.app/catalog/prd_7osv1snb1ehsu91m" rel="nofollow" class="noCrossRef"><img src="{{site.api_media}}/product_description_blobr.png" alt="Blobr product detail page" /></a><figcaption><b>Figure 2.</b> <i>Product detail page.</i>This view describes the product and the workflow to implement it. The details also lists the endpoints used for the product.</figcaption></figure>
+<figure><img src="{{site.api_media}}/product_description_blobr.png" alt="Blobr product detail page" /><figcaption><b>Figure 2.</b> <i>Product detail page.</i>This view describes the product and the workflow to implement it. The details also lists the endpoints used for the product.</figcaption></figure>
 
 In this example, the product description is brief, but a more detailed product could include screenshots and other formatting (see an [example]({{site.media}}/api/product_description_alt_blobr.png)).
 
@@ -56,7 +56,7 @@ In this example, the product description is brief, but a more detailed product c
 
 In addition to a product overview page, documentation appears as workflow steps. The first step in this workflow is to "Retrieve all the pets with the status ‘available'." Clicking this workflow step reveals more detail, as shown below:
 
-<figure><a href="https://y18r6fxgtelv8ls5.developer.blobr.app/catalog/prd_7osv1snb1ehsu91m/workflow/v37tKPbAXi6FnHrQInyMO" rel="nofollow" class="noCrossRef"><img src="{{site.api_media}}/workflow_step_blobr.png" alt="Blobr workflow step detail page" class="noCrossRef" /></a><figcaption><b>Figure 3.</b> <i>Workflow step detail page in Blobr.</i> This view describes a workflow step, including the endpoint used, its parameters, and example response.</figcaption></figure>
+<figure><img src="{{site.api_media}}/workflow_step_blobr.png" alt="Blobr workflow step detail page" class="noCrossRef" /><figcaption><b>Figure 3.</b> <i>Workflow step detail page in Blobr.</i> This view describes a workflow step, including the endpoint used, its parameters, and example response.</figcaption></figure>
 
 The workflow steps usually reference an API endpoint. How do you get your API reference details in there? Although you can enter your API details manually, a more common approach is to upload an [OpenAPI document](pubapis_openapi_intro.html). After uploading your OpenAPI document, you can select the endpoints that apply to the workflow step. (The same endpoint might apply across multiple products in an API, and this approach allows you to single-source your reference documentation.)
 
@@ -114,6 +114,6 @@ The combination of all of these necessary elements, working together on the same
 
 Blobr is named after [the blob](https://en.wikipedia.org/wiki/Physarum_polycephalum) &mdash; a unicellular organism best described as slime mold. Neither plant, animal, or fungus, the blob has some unique properties. If you cut a blob in half, each part continues to grow as a discrete organism. Conversely, if you push two blobs together, they merge into a single blob. The blob's division or unification provides a living example of how APIs can be chunked into separate products, or how the same API endpoint can be merged into multiple products. (Blob's have other unique properties that also make them an appealing metaphor.)
 
-Blobr is in the startup phase. Based in France, Blobr received VC funding and began commercializing operations in January of 2022. As of May 2022, the company already has more than 100 paying customers. To learn more about Blobr, see [https://www.blobr.io/](https://www.blobr.io/){: rel="nofollow"}.
+Blobr is in the startup phase. Based in France, Blobr received VC funding and began commercializing operations in January of 2022. As of May 2022, the company already has more than 100 paying customers. To learn more about Blobr, see [www.blobr.io](https://web.archive.org/web/20260510235242/https://www.blobr.io/){: rel="nofollow"}.
 
 {% include ads.html %}

@@ -125,9 +125,9 @@ Sometimes developers will tell you that code is "self-documenting," meaning it's
 
 ### Eventful
 
-<figure><a target="_blank" class="noExtIcon" href="http://api.eventful.com/tools/tutorials/search"><img class="docimage" src="{{site.api_media}}/eventfulcodesample.png" alt="Eventful code samples" /></a><figcaption>Eventful code samples</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20210121185615/http://api.eventful.com/docs"><img class="docimage" src="{{site.api_media}}/eventfulcodesample.png" alt="Eventful code samples" /></a><figcaption>Eventful code samples</figcaption></figure>
 
-You won't see chunks of code here, but the Eventful docs include various examples about query string parameters for the endpoints. Although these parameters are also defined in their [reference documentation for the search endpoint](http://api.eventful.com/docs/events/search), the tutorial here expands on how to use the parameters in a more friendly, detailed way.
+You won't see chunks of code here, but the Eventful docs include various examples about query string parameters for the endpoints. Although these parameters are also defined in their [reference documentation for the search endpoint](https://web.archive.org/web/20210121185615/http://api.eventful.com/docs), the tutorial here expands on how to use the parameters in a more friendly, detailed way.
 
 I like the Eventful tutorial because it shows how documentation that is usually contained in reference material can be pulled out and explained more narratively with examples. It shows more of the difference between reference and tutorial information.
 

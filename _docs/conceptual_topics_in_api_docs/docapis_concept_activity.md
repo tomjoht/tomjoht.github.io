@@ -44,7 +44,7 @@ The following are 7 common conceptual topics in API documentation. For each topi
 **API authentication and authorization**
 * [Sendgrid](https://sendgrid.com/docs/User_Guide/Settings/api_keys.html)
 * [Twitter](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
-* [AWS](https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html)
+* [AWS](https://web.archive.org/web/20191206125623/https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html)
 
 **API status and error codes**
 * [Clearbit](https://clearbit.com/docs?python#errors-error-types)
@@ -59,14 +59,14 @@ The following are 7 common conceptual topics in API documentation. For each topi
 * [Bitly](http://dev.bitly.com/rate_limiting.html)
 
 **API quick reference**
-* [Eventful](http://api.eventful.com/docs)
+* [Eventful](https://web.archive.org/web/20210121185615/http://api.eventful.com/docs)
 * [Parse](http://docs.parseplatform.org/rest/guide/#quick-reference)
-* [Veracode](https://help.veracode.com/reader/LMv_dtSHyb7iIxAQznC~9w/FhxRdiWf5qejrtajmjGtpw)
+* [Veracode](https://docs.veracode.com/)
 
 **SDKs**
 * [SAP](https://developers.gigya.com/display/GD/APIs+and+SDKs)
 * [PayPal](https://developer.paypal.com/docs/api/quickstart/)
-* [Facebook](https://developers.facebook.com/docs/apis-and-sdks)
+* [Facebook](https://web.archive.org/web/20210728145524/https://developers.facebook.com/docs/apis-and-sdks)
 
 
 {% include random_ad3.html %}

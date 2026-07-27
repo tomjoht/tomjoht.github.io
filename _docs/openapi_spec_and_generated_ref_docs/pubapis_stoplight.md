@@ -117,7 +117,7 @@ If you're documenting an API, [Stoplight](https://stoplight.io) and their [hoste
 
 Here's a short demo of how Stoplight renders the OpenAPIWeatherMap OpenAPI specification. This Stoplight output uses the same API explored earlier in this course. Here's what the weather endpoint looks like in Stoplight:
 
-<a class="noCrossRef" href="https://idratherbewriting.stoplight.io/docs/openweathermap3/reference/openweathermap.v1.yaml/paths/~1weather/get"><img src="{{site.api_media}}/stoplight_tutorial_end_goal.png" alt="Final output from Stoplight tutorial" /></a>
+<a class="noCrossRef" href="https://web.archive.org/web/20220812004349/https://idratherbewriting.stoplight.io/docs/openweathermap3/reference/openweathermap.v1.yaml/paths/~1weather/get"><img src="{{site.api_media}}/stoplight_tutorial_end_goal.png" alt="Final output from Stoplight tutorial" /></a>
 
 Here are a few noteworthy callouts about the output:
 
@@ -128,12 +128,12 @@ Here are a few noteworthy callouts about the output:
 
 This sample API doesn't include many endpoints, so it might be more instructive to see some other samples of Stoplight listed on their [Case Studies page](https://stoplight.io/case-studies/). For direct links to the documentation mentioned in case studies, explore the following:
 
-* [Zoom API docs](https://marketplace.zoom.us/docs/api-reference/zoom-api)
+* [Zoom API docs](https://developers.zoom.us/docs/api/)
 * [Nutanix API docs](https://www.nutanix.dev/api-reference/)
 * [MediaMath API docs](https://apidocs.mediamath.com/)
 * [AppointmentPlus API docs](https://appointmentplus.api-docs.io/v1/overview)
 * [BigCommerce API docs](https://developer.bigcommerce.com/api-docs)
-* [Namely API docs](https://developers.namely.com/1.0/getting-started/introduction)
+* [Namely API docs](https://web.archive.org/web/20210924032811/https://developers.namely.com/1.0/getting-started/introduction)
 
 You can learn more about hosting your documentation with Stoplight here: [Create Hosted API Documentation Online With Our API Docs Generator Tool](https://stoplight.io/documentation/).
 

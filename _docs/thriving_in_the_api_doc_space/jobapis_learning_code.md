@@ -67,7 +67,7 @@ Additionally, while engineers can fill in the deep technical knowledge needed, n
 
 ## Programmers who learned to write
 
-Now let's flip to the other side of the argument. What are the advantages of hiring programmers who learned writing? In contrast to Wood and Rhea, [James Neiman](http://drjamesneiman.com/), an experienced API technical writer, says that tech writers need engineering backgrounds, such as a computer science degree or previous experience as an engineer, to excel in API documentation roles.
+Now let's flip to the other side of the argument. What are the advantages of hiring programmers who learned writing? In contrast to Wood and Rhea, [James Neiman](https://web.archive.org/web/20220809190733/http://www.drjamesneiman.com/), an experienced API technical writer, says that tech writers need engineering backgrounds, such as a computer science degree or previous experience as an engineer, to excel in API documentation roles.
 
 Neiman says tech writers often need to look over a developer's shoulder, watching the developer code, or listen to an engineer's brief 15-minute explanation, and then return to their desks to create the documentation. You might need to take the code examples in Java and produce equivalent samples in another language, such as C++, all on your own. In Neiman's view, API technical writers need significant technical depth to excel in this role.
 
@@ -180,7 +180,7 @@ Also, the information I need to document in the present moment is usually too ad
 
 For example, you might need to document the equivalent of Advanced Calculus concepts. But to ramp up on Advanced Calculus, you need to build a foundation with Trigonometry and Algebra. When you spend time studying Trigonometry and Algebra instead of the Advanced Calculus concepts that you need to document, it can feel like you're not making any progress on your documentation.
 
-One strategy I've found to work well is to divide the learning into "pomodoros" (a technique named after tomato kitchen timers). With the [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique), you set a timer for 20 minutes and focus on your learning task for that chunk of time. You can set a goal to complete as many pomodoros a day as you want. After about 1-2 months of these regular pomodoros, you'll be surprised at your progress. I use the Focus app for my pomodoro timer:
+One strategy I've found to work well is to divide the learning into "pomodoros" (a technique named after tomato kitchen timers). With the [Pomodoro Technique](https://web.archive.org/web/20251109181618/https://francescocirillo.com/pages/pomodoro-technique/), you set a timer for 20 minutes and focus on your learning task for that chunk of time. You can set a goal to complete as many pomodoros a day as you want. After about 1-2 months of these regular pomodoros, you'll be surprised at your progress. I use the Focus app for my pomodoro timer:
 
 <figure><a target="_blank" class="noExtIcon" href="https://itunes.apple.com/us/app/focus-time-manager/id777233759?mt=12"><img class="docimage large" src="{{site.api_media}}/techpomodoro.png" alt="The Focus app lets you define and track pomodoros" /></a><figcaption>The Focus app lets you define and track pomodoros</figcaption></figure>
 

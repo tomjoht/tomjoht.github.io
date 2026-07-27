@@ -287,7 +287,7 @@ Tom Johnson is a senior technical writer for Amazon in Sunnyvale, California. He
 * Johnson, Tom. [Treat code like code and prose like prose](https://idratherbewriting.com/blog/treat-code-like-code-and-prose-like-prose/). Idratherbewriting.com. Jun 16, 2020.
 * Johnson, Tom. [API design and usability](evaluating-api-design.html). Idratherbewriting.com.
 * Lauret, Arnaud. [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108). Manning Publications. 2019.
-* Welinske, Joe. [2014 WritersUA Tools Survey](http://www.welinske.com/2014-writersua-tools-survey/). *WritersUA.* Aug 20, 2015.
+* Welinske, Joe. [2014 WritersUA Tools Survey](https://web.archive.org/web/20221127074141/https://welinske.com/2014-writersua-tools-survey/). *WritersUA.* Aug 20, 2015.
 
 <style>
 .surveySummary {

@@ -193,7 +193,7 @@ The following are sample glossary pages in various APIs.
 
 ### Lyft
 
-<figure><a target="_blank" class="noExtIcon" href="https://developer.lyft.com/docs/glossary"><img class="docimage" src="{{site.api_media}}/glossary_lyft.png" alt="Lyft glossary" /></a><figcaption>Lyft glossary</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20230206181459/https://developer.lyft.com/docs/glossary"><img class="docimage" src="{{site.api_media}}/glossary_lyft.png" alt="Lyft glossary" /></a><figcaption>Lyft glossary</figcaption></figure>
 
 Lyft's glossary doesn't have a ton of terms (there are about 10), but they're specific to the Lyft API world. You see terms such as "Lyft Line," "Lyft Lux," "Lyft Plus," and so on. I like that the developer documentation takes pains to define terms that might frequently be used on Marketing and Sales spaces. Whenever a company includes a glossary, it demonstrates a sensitivity the company has toward users. The company doesn't assume that their users understand all the company's specialized terms and vocabulary.
 

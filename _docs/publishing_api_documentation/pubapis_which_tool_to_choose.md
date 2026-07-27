@@ -100,7 +100,7 @@ I've seen some deeper integrations of Swagger UI into existing websites, and som
 Although this section has focused heavily on tools, I want to emphasize that content always trumps tooling. The content should be your primary focus, not the tools you use to publish the content. After you get the tooling infrastructure in place, it should mostly take a back seat to the daily tasks of content development.
 
 {: .tip}
-For a great article on the importance of content over tools, see [Good API Documentation Is Not About Choosing the Right Tool](https://blog.algolia.com/api-documentation-choosing-right-tool/) from the Algolia blog. The author explains that "a quality README.md stored on GitHub can be far more efficient than over-engineered documentation that is well displayed but has issues with content."
+For a great article on the importance of content over tools, see [Good API Documentation Is Not About Choosing the Right Tool](https://web.archive.org/web/20201109012841/https://blog.algolia.com/api-documentation-choosing-right-tool/) from the Algolia blog. The author explains that "a quality README.md stored on GitHub can be far more efficient than over-engineered documentation that is well displayed but has issues with content."
 
 In some ways, tools are the basketball player's shoes. They matter, for sure. But Michael Jordan wasn't a great basketball player because he wore Nikes, nor was Kobe Bryant great due to his Adidas. You can probably write incredible documentation despite your tooling and platform. Don't let tooling derail your focus on what really matters in your role: the content.
 

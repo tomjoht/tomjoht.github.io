@@ -24,7 +24,7 @@ For an overview of the docs-as-code approach, see [Docs-as-code tools](pubapis_d
 
 ## Previous processes
 
-Previously, our team published content through a content management system called [Hippo](https://www.bloomreach.com/en/products/experience/hippo-cms) (by Bloomreach). Hippo is similar to WordPress or Drupal but is Java-based rather than PHP-based (which made it attractive to a Java-centric enterprise that restricted PHP but still needed a CMS solution for publishing).
+Previously, our team published content through a content management system called [Hippo](https://www.bloomreach.com/) (by Bloomreach). Hippo is similar to WordPress or Drupal but is Java-based rather than PHP-based (which made it attractive to a Java-centric enterprise that restricted PHP but still needed a CMS solution for publishing).
 
 To publish a page of documentation, tech writers had to create a new page in the Hippo CMS and then paste in the HTML for the page (or try to use the WYSIWYG editor in the Hippo CMS). If you had 50 pages of documentation to publish, you would need to paste the HTML into each CMS page one by one. Originally, many writers would use tools such as [Pandoc](https://pandoc.org/) to convert their content to HTML and then paste it into the Hippo CMS. This copy-and-paste approach was tedious, prone to error, and primitive.
 

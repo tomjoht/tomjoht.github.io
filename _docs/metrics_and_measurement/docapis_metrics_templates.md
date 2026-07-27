@@ -93,10 +93,10 @@ The YAML source is stored in the _data folder in this file: [_data/quality_check
 
 {% include ads.html %}
 
-The checklist page retrieves this information using a [Liquid for loop](https://shopify.github.io/liquid/tags/iteration/). See the raw source here: [docapis_metrics_quality_checklist.md](https://raw.githubusercontent.com/tomjoht/learnapidoc/main/_docs/metrics_and_measurement/docapis_metrics_quality_checklist.md). (For some reason, you need to view the "raw" GitHub file to see the  liquid tags here.)
+The checklist page retrieves this information using a [Liquid for loop](https://shopify.github.io/liquid/tags/iteration/). See the raw source here: [docapis_quality_checklist.md](https://raw.githubusercontent.com/tomjoht/learnapidoc/main/_docs/metrics_and_measurement/docapis_quality_checklist.md). (For some reason, you need to view the "raw" GitHub file to see the  liquid tags here.)
 
-The CSV source file is here: [docapis_metrics_quality_checklist_csv.csv](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_metrics_quality_checklist_csv.csv). You can see formulas directly in the content. (This took a bit of trial-and-error with importing the file into Google Docs to get it right.)
+The CSV source file is here: [docapis_quality_checklist_csv.csv](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_quality_checklist_csv.csv). You can see formulas directly in the content. (This took a bit of trial-and-error with importing the file into Google Docs to get it right.)
 
-The Google Doc HTML source file is here: [docapis_metrics_quality_checklist_html.html](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_metrics_quality_checklist_html.html). This is just a simplified HTML page to facilitate copy/paste into other files.
+The Google Doc HTML source file is here: [docapis_quality_checklist_html.html](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_quality_checklist_html.html). This is just a simplified HTML page to facilitate copy/paste into other files.
 
 {% include image_ad_right.html %}

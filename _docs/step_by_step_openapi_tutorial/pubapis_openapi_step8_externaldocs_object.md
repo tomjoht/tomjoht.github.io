@@ -34,7 +34,7 @@ Here's an example of an `externalDocs` object:
 ```yaml
 externalDocs:
   description: Find out more about OpenWeatherMap API
-  url: [https://openweathermap.org/api](https://openweathermap.org/api)
+  url: https://openweathermap.org/api
 ```
 
 {% include random_ad3.html %}

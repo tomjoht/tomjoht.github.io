@@ -31,7 +31,7 @@ The following is a sample `servers` object:
 
 ```yaml
 servers:
-- url: [https://api.openweathermap.org/data/2.5](https://api.openweathermap.org/data/2.5)
+- url: https://api.openweathermap.org/data/2.5
 ```
 
 Each of your endpoints (called "paths" in the spec) will be appended to the server URL to construct the full request URL. For example, if one of the paths is `/weather`, when Swagger UI submits the request, it will submit it to `{server URL}{path}` which resolves to `https://api.openweathermap.org/data/2.5/weather`.
@@ -44,11 +44,11 @@ You have some flexibility and configuration options for your server URL. You can
 
 ```yaml
 servers:
-- url: [https://api.openweathermap.org/data/2.5](https://api.openweathermap.org/data/2.5)
+- url: https://api.openweathermap.org/data/2.5
   description: Production server
-- url: [http://beta.api.openweathermap.org/data/2.5](http://beta.api.openweathermap.org/data/2.5)
+- url: http://beta.api.openweathermap.org/data/2.5
   description: Beta server
-- url: [http://some-other.api.openweathermap.org/data/2.5](http://some-other.api.openweathermap.org/data/2.5)
+- url: http://some-other.api.openweathermap.org/data/2.5
   description: Some other server
 ```
 

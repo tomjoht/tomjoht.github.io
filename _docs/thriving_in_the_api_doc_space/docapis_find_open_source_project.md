@@ -67,7 +67,7 @@ To find an open-source project with API doc needs:
     * [Trending GitHub projects](https://github.com/trending)
     * [Crowdforge](https://crowdforge.io/)
     * [Up for Grabs](http://up-for-grabs.net/#/)
-    * [Bus Factor](https://libraries.io/experiments/bus-factor)
+    * [Bus Factor](https://web.archive.org/web/20201226015741/https://libraries.io/experiments/bus-factor)
     * [Code Triage](https://www.codetriage.com/)
     * [Changelog](https://changelog.com/)
     * [24-hour Pull Requests](https://24pullrequests.com)

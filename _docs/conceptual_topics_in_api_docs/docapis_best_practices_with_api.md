@@ -43,7 +43,7 @@ Mailchimp's API best practices include tips about fault tolerance, using specifi
 
 ### Coinbase
 
-<figure><a target="_blank" class="noExtIcon" href="https://developers.coinbase.com/api/v2#pagination"><img class="docimage" src="{{site.api_media}}/bestpractices_coinbase.png" alt="Coinbase best practices" /></a><figcaption>Mailchimp best practices</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://docs.cdp.coinbase.com/"><img class="docimage" src="{{site.api_media}}/bestpractices_coinbase.png" alt="Coinbase best practices" /></a><figcaption>Mailchimp best practices</figcaption></figure>
 
 Coinbase doesn't specifically refer to these topics as best practices; instead, the navigation shows a laundry list of topics. Pagination is one of these topics worth expanding on here. How does pagination relate to APIs? Suppose your API endpoint returns all items in a user account. There could be thousands of items, and if all items were returned in the same response, it might take a long time for the API to gather and return the large amount of data. As a result, just like with searches on Google, the response returns a limited set, such as the first ten items, and then includes a URL that you can use to go to the next set of responses. Pagination refers to advancing to the next page of responses.
 

@@ -77,7 +77,7 @@ Although I use Jekyll for all my sites, if starting out today, I probably wouldn
 
 ## Hugo {#hugo}
 
-[Hugo](https://gohugo.io/) is a static site generator that is rapidly growing in popularity. Based on the Go language, Hugo builds your site significantly faster than most other static site generators, especially Jekyll. There's an impressive number of [themes](https://themes.gohugo.io/), including some designed for [documentation](https://themes.gohugo.io/tags/documentation/). Specifically, see the [Docsy theme](https://www.docsy.dev/), the [Learn theme](https://themes.gohugo.io/theme/hugo-theme-learn/en) and this [Multilingual API documentation theme](https://github.com/bep/docuapi).
+[Hugo](https://gohugo.io/) is a static site generator that is rapidly growing in popularity. Based on the Go language, Hugo builds your site significantly faster than most other static site generators, especially Jekyll. There's an impressive number of [themes](https://themes.gohugo.io/), including some designed for [documentation](https://themes.gohugo.io/). Specifically, see the [Docsy theme](https://www.docsy.dev/), the [Learn theme](https://themes.gohugo.io/) and this [Multilingual API documentation theme](https://github.com/bep/docuapi).
 
 <a href="https://gohugo.io/" class="noExtIcon"><img src="{{site.api_media}}/hugosite.png"/></a>
 

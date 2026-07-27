@@ -49,7 +49,7 @@ The following are sample tutorials. Pick two tutorials and analyze them to see h
 8. [Create a Custom Map URL](https://learn.microsoft.com/en-us/bingmaps/articles/create-a-custom-map-url)
 9.  [Training Course: How to Build a Multimodal Alexa Skill](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/resources/training-resources/intro-multimodal)
 10. [Introduction to Populating a Website with API Data](https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data)
-11. [Video Skills Kit for Fire TV](https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html#integration_steps)
+11. [Video Skills Kit for Fire TV](https://web.archive.org/web/20200810163744/https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html#integration_steps)
 
 {% include random_ad3.html %}
 

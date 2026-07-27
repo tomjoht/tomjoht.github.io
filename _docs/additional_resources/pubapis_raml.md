@@ -27,7 +27,7 @@ Similar to OpenAPI, after you create a RAML file that describes your API, it can
 
 <figure><img src="{{site.api_media}}/raml-new-console-header.png" alt="Sample API Console output with RAML" class="large" /><figcaption>Sample API Console output with RAML</figcaption></figure>
 
-You can see a demo with the [Google Drive API](https://mulesoft.github.io/api-console/#/docs/summary).
+You can see a demo with the [Google Drive API](https://web.archive.org/web/20190823153712/https://mulesoft.github.io/api-console/).
 
 ## Auto-generating client SDK code
 
@@ -446,11 +446,11 @@ The Anypoint console has a dashboard where you can work on your RAML definition,
 
 Note that you can add additional pages to your documentation in Anypoint. (Kudos to the Mulesoft team for recognizing that API documentation is more than just a set of reference endpoints.)
 
-Here's what the sample OpenWeatherMap API [looks like in Anypoint Exchange](https://anypoint.mulesoft.com/exchange/18a207fd-59c5-4c64-845f-de1568e92fc5/openweathermap/1.0.0/console/types/Coord/):
+Here's what the sample OpenWeatherMap API looks like in Anypoint Exchange:
 
-<figure><a href="https://anypoint.mulesoft.com/exchange/18a207fd-59c5-4c64-845f-de1568e92fc5/openweathermap/1.0.0/console/types/Coord/"><img src="{{site.api_media}}/anypointexchange.png" alt="OpenWeather API documentation in Mulesoft's Anypoint Exchange" /></a><figcaption>OpenWeather API documentation in Mulesoft's Anypoint Exchange</figcaption></figure>
+<figure><img src="{{site.api_media}}/anypointexchange.png" alt="OpenWeather API documentation in Mulesoft's Anypoint Exchange" /><figcaption>OpenWeather API documentation in Mulesoft's Anypoint Exchange</figcaption></figure>
 
-One of the unique options Mulesoft offers is called [API Notebook](https://api-notebook.anypoint.mulesoft.com). This is a unique tool designed by Mulesoft that allows you to provide interactive code examples that leverage your RAML spec.
+One of the unique options Mulesoft offers is called [API Notebook](https://web.archive.org/web/20210416001349/https://api-notebook.anypoint.mulesoft.com/). This is a unique tool designed by Mulesoft that allows you to provide interactive code examples that leverage your RAML spec.
 
 {% include random_ad4.html %}
 
@@ -468,7 +468,7 @@ You can also [embed the API console as an HTML element](https://github.com/mules
 
 ## RAML2HTML project {#raml2html}
 
-Finally, you can also use a tool called [RAML2HTML project](http://raml2html.leanlabs.io/) to generate HTML documentation from a RAML spec. Here's [an example](http://raml2html.leanlabs.io/github) of what the RAML2HTML output looks like. It's a static HTML output without any interactivity. See the [RAML2HTML documentation](http://raml2html.leanlabs.io/documentation) for instructions on generating this output.
+Finally, you can also use a tool called [RAML2HTML project](https://web.archive.org/web/20240229175627/http://raml2html.leanlabs.io/) to generate HTML documentation from a RAML spec. Here's [an example](https://web.archive.org/web/20240229175627/http://raml2html.leanlabs.io/) of what the RAML2HTML output looks like. It's a static HTML output without any interactivity. See the [RAML2HTML documentation](https://web.archive.org/web/20240229175627/http://raml2html.leanlabs.io/) for instructions on generating this output.
 
 ## Conclusion
 

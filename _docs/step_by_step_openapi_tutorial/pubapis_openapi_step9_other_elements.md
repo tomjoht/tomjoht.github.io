@@ -94,7 +94,7 @@ info:
   version: 1.0.0
 # This tells all tools to use the rules from JSON Schema Draft 2020-12 by default
 # for all schemas in this document.
-jsonSchemaDialect: [https://json-schema.org/draft/2020-12/schema](https://json-schema.org/draft/2020-12/schema)
+jsonSchemaDialect: https://json-schema.org/draft/2020-12/schema
 paths:
   # ... rest of your API definition
 ```
@@ -108,7 +108,7 @@ components:
   schemas:
     MyLegacySchema:
       # This specific schema uses an older dialect, overriding the global default.
-      $schema: "[http://json-schema.org/draft-07/schema#](http://json-schema.org/draft-07/schema#)"
+      $schema: "http://json-schema.org/draft-07/schema#"
       type: object
       properties:
         # ...

@@ -63,10 +63,10 @@ To get a sense of Document360's user experience of API documentation, let's look
 
 * [PlainID API Documentation](https://docs.plainid.io/apidocs/policy-management-apis)
 * [PagoNXT API Documentation](https://developer.pagonxtpayments.com/apidocs)
-* [PagoNXT API Reference](https://developer.pagonxtpayments.com/docs/api-reference)
+* PagoNXT API Reference
 * [Torq API documentation](https://developers.torq.io/apidocs)
 * [Fortanix API documentation](https://support.fortanix.com/apidocs)
-* [Britive API documentation](https://docs.britive.com/v1/docs/en/overview-britive-apis)
+* [Britive API documentation](https://web.archive.org/web/20250622024131/https://docs.britive.com/v1/docs/en/overview-britive-apis)
 * [Rocket Chat API documentation](https://developer.rocket.chat/apidocs)
 * [Medallia API documentation](https://developer.medallia.com/medallia-apis/reference/listroles-1)
 * [Bloxs API documentation](https://www.bloxs.io/apidocs/introduction)
