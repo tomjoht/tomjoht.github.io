@@ -34,6 +34,7 @@ folders:
     jurl: /learnapidoc/docapis_whats_new.html
 
 - title: "Chapter 1: Introduction to REST APIs"
+  tiledesc: "What REST APIs are, how they differ from SOAP, and why documentation matters so much here."
   landing: /learnapidoc/docapis_introtoapis.html
   section: one
   description: >
@@ -57,6 +58,7 @@ folders:
     jurl: /learnapidoc/docapis_trends.html
 
 - title: "Chapter 2: Using an API like a developer"
+  tiledesc: "Get API keys, make requests with curl and Postman, and work with the JSON that comes back."
   landing: /learnapidoc/likeadeveloper.html
   section: two
   description: > 
@@ -101,6 +103,7 @@ folders:
     jurl: /learnapidoc/docapis_diving_into_dot_notation.html
 
 - title: "Chapter 3: Documenting API endpoints"
+  tiledesc: "The five sections of reference documentation, from resource descriptions to response schemas."
   landing: /learnapidoc/docendpoints.html
   section: three
   description: > 
@@ -142,6 +145,7 @@ folders:
     jurl: /learnapidoc/docapis_api_reference_activity.html
 
 - title: "Chapter 4: OpenAPI spec and generated reference docs"
+  tiledesc: "Describe your API with OpenAPI, then publish it using Stoplight, Swagger UI, or Redocly."
   landing: /learnapidoc/restapispecifications.html
   section: four
   description: >
@@ -187,6 +191,7 @@ folders:
     jurl: /learnapidoc/pubapis_document360.html
 
 - title: "Chapter 5: Step-by-step OpenAPI code tutorial"
+  tiledesc: "Hand-code an OpenAPI specification object by object, using the Swagger Editor."
   landing: /learnapidoc/openapi_tutorial.html
   section: five
   description: > 
@@ -234,6 +239,7 @@ folders:
     jurl: /learnapidoc/pubapis_openapi_activity.html
 
 - title: "Chapter 6: Testing API docs"
+  tiledesc: "Test your documentation against the real API so the instructions actually work."
   landing: /learnapidoc/testingdocs.html
   section: six
   description: >
@@ -260,6 +266,7 @@ folders:
     jurl: /learnapidoc/testingdocs_activity.html
 
 - title: "Chapter 7: Conceptual topics in API docs"
+  tiledesc: "Overviews, getting-started guides, authentication, status codes, rate limits, and glossaries."
   landing: /learnapidoc/docconceptual.html
   section: seven
   description: >
@@ -304,6 +311,7 @@ folders:
     jurl: /learnapidoc/docapis_concept_activity.html
 
 - title: "Chapter 8: Code tutorials"
+  tiledesc: "Approaches for documenting code samples and tutorials &mdash; the hardest part for non-engineers."
   landing: /learnapidoc/docapiscode.html
   section: eight
   description: >
@@ -342,6 +350,7 @@ folders:
     jurl: /learnapidoc/devx-usability-examples.html
 
 - title: "Chapter 9: The writing process"
+  tiledesc: "Planning, interviewing engineers, drafting, reviewing, and shipping developer documentation."
   landing: /learnapidoc/writing_process.html
   section: nine
   description: > 
@@ -371,6 +380,7 @@ folders:
     jurl: /learnapidoc/docapis_publishing.html
 
 - title: "Chapter 10: Publishing API docs"
+  tiledesc: "Structure, templates, branding, and the conventions that make developers trust your docs."
   landing: /learnapidoc/publishingapis.html
   section: ten
   description: >
@@ -412,6 +422,7 @@ folders:
     jurl: /learnapidoc/pubapis_which_tool_to_choose.html
 
 - title: "Chapter 11: Publishing tools"
+  tiledesc: "Docs-as-code workflows using Git, GitHub, Jekyll, and other publishing toolchains."
   landing: /learnapidoc/publishingtools.html
   section: eleven
   description: > 
@@ -444,6 +455,7 @@ folders:
     jurl: /learnapidoc/docapis_faq_tools.html
 
 - title: "Chapter 12: Thriving in the API doc space"
+  tiledesc: "Getting hired: the coding familiarity, portfolio, and writing samples employers look for."
   landing: /learnapidoc/jobapis.html
   section: twelve
   description: >
@@ -470,6 +482,7 @@ folders:
     jurl: /learnapidoc/docapis_work_on_conceptual_topic.html
 
 - title: "Chapter 13: Library-based APIs"
+  tiledesc: "Documenting Java and C++ libraries that developers compile in rather than call over the web."
   landing: /learnapidoc/nativelibraryapis.html
   section: thirteen
   description: >
@@ -508,6 +521,7 @@ folders:
     jurl: /learnapidoc/nativelibraryapis_nonrefdocs.html
 
 - title: "Chapter 14: Processes and methodology"
+  tiledesc: "Managing doc work with Scrum-like processes, bug tracking, and review workflows."
   landing: /learnapidoc/docapis_managing_doc_processes.html
   section: fourteen
   description: > 
@@ -561,6 +575,7 @@ folders:
     jurl: /learnapidoc/docapis_release_process.html
 
 - title: "Chapter 15: Metrics and measurement"
+  tiledesc: "Measuring documentation quality and tracking improvement in ways management believes."
   landing: /learnapidoc/docapis_metrics_and_measurement.html
   section: fifteen
   description: >
@@ -584,6 +599,7 @@ folders:
     jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
 - title: "Chapter 16: Glossary"
+  tiledesc: "More than 130 defined terms spanning API concepts, tooling, and documentation practice."
   landing: /learnapidoc/glossary_overview.html
   section: seventeen
   description: >
@@ -601,6 +617,7 @@ folders:
     jurl: /learnapidoc/glossary_groups.html
 
 - title: "Chapter 17: Additional resources"
+  tiledesc: "Supplementary material: GraphQL, RAML, API Blueprint, and topics beyond the core course."
   landing: /learnapidoc/resources.html
   section: eighteen
   description: > 

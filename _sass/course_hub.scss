@@ -43,6 +43,50 @@ $hub-accent-dark: #c75f00;
   }
 }
 
+// When tiles are wrapped in <li> the grid stretches the list item, not the
+// anchor inside it, so the tiles in a row end up different heights.
+.courseTile-item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  > .courseTile {
+    flex: 1;
+  }
+}
+
+// Denser variant for courses with many chapters (the API course has 17), where
+// the full-size tiles above would run several screens long.
+.courseTiles.courseTiles-compact {
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  gap: 14px;
+  margin: 22px 0 30px;
+
+  .courseTile {
+    min-height: 168px;
+    padding: 14px 14px 12px;
+  }
+
+  .courseTile-name {
+    font-size: 16px;
+    margin-top: 6px;
+  }
+
+  .courseTile-desc {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .courseTile-count {
+    font-size: 11px;
+  }
+
+  .courseTile-go {
+    font-size: 15px;
+  }
+}
+
 .courseTile-eyebrow {
   font-size: 11px;
   font-weight: 700;
