@@ -100,7 +100,7 @@ You could also get the same definition and insert it into a [Bootstrap tooltip](
 ```js
 <script>
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-bs-toggle="tooltip"]').tooltip()
 })
 </script>
 ```
@@ -108,7 +108,7 @@ $(function () {
 Then populate the tooltip like this to get info from the glossary YAML file:
 
 ```html
-{% raw %}Learning how to document <a href="#" data-toggle="tooltip" title="{{site.data.glossary.api.def}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.{% endraw %}
+{% raw %}Learning how to document <a href="#" data-bs-toggle="tooltip" title="{{site.data.glossary.api.def}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.{% endraw %}
 ```
 
 The result:
@@ -119,7 +119,7 @@ The result:
 
 {% if site.format == "web" %}
 
-<div style="margin: 20px 0px 20px 100px">Learning how to document <a href="javascript://" data-toggle="tooltip" title="{{site.data.glossary.api.def}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.</div>
+<div style="margin: 20px 0px 20px 100px">Learning how to document <a href="javascript://" data-bs-toggle="tooltip" title="{{site.data.glossary.api.def}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.</div>
 
 {% endif %}
 
@@ -128,7 +128,7 @@ Tooltips appear when you mouse over a link and disappear when you move your mous
 ```js
 <script>
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
+    $('[data-bs-toggle="popover"]').popover();   
 });
 </script>
 ```
@@ -136,7 +136,7 @@ $(document).ready(function(){
 You can then populate the popover with info from the glossary YAML file:
 
 ```html
-{% raw %}Learning how to document <a data-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-toggle="popover" data-placement="top" data-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.{% endraw %}
+{% raw %}Learning how to document <a data-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-bs-toggle="popover" data-placement="top" data-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.{% endraw %}
 ```
 
 The result:
@@ -147,7 +147,7 @@ The result:
 
 {% if site.format == "web" %}
 
-<div style="margin: 20px 0px 20px 100px">Learning how to document <a data-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-toggle="popover" data-placement="top" data-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.</div>
+<div style="margin: 20px 0px 20px 100px">Learning how to document <a data-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-bs-toggle="popover" data-placement="top" data-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.</div>
 
 {% endif %}
 
@@ -160,7 +160,7 @@ Notice that I separated out the link into its own property in [_data/glossary.ym
 Finally, to style the link in a distinct way from normal HTML links, add some CSS to links with the `tooltip` and `popover` data attributes:
 
 ```css
-a[data-toggle=tooltip], a[data-toggle=popover] {
+a[data-bs-toggle=tooltip], a[data-bs-toggle=popover] {
     color: cadetblue;
     border-bottom: dashed;
     border-bottom-color: darkgray;
@@ -168,7 +168,7 @@ a[data-toggle=tooltip], a[data-toggle=popover] {
     font-style: italic;
 }
 
-a[data-toggle=tooltip]:hover, a[data-toggle=popover]:hover {
+a[data-bs-toggle=tooltip]:hover, a[data-bs-toggle=popover]:hover {
   border-bottom: solid;
   border-bottom-color: darkgray;
   border-bottom-width: thin;

@@ -5,19 +5,19 @@
 {% if collection_name %}
 
 <ol class="breadcrumb">
-  <li><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
+  <li class="breadcrumb-item"><a class="noExtIcon" href="{{site.url}}">I'd Rather Be Writing</a></li>
   {% if site[collection_name] %}
     {% if collection_name == "ai" %}
-    <li>{{ collection_name | upcase }}</li>
+    <li class="breadcrumb-item">{{ collection_name | upcase }}</li>
     {% else %}
-    <li>{{ collection_name | capitalize }}</li>
+    <li class="breadcrumb-item">{{ collection_name | capitalize }}</li>
     {% endif %}
   {% endif %}
 
   {% for i in (1..3) %}
     {% assign path_var = "path" | append: i %}
     {% if page[path_var] %}
-      <li>
+      <li class="breadcrumb-item">
         {% for pg in site[collection_name] %}
           {% if pg.permalink == page[path_var] %}
             {% if page.url == pg[path_var] %}{{ pg.title }}{% else %}

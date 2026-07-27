@@ -52,7 +52,7 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
         {% if item.title and item.type != "print" %}
           {% assign lessonNumber = lessonNumber | plus: 1 %}
     <li class="courseProgress-step{% if lessonNumber == currentIndex %} is-current{% endif %}{% if lessonNumber <= currentIndex %} is-done{% endif %}" data-index="{{ lessonNumber }}">
-      <a class="noCrossRef noExtIcon" href="{{ site.baseurl }}{{ item.jurl }}" title="{{ lessonNumber }}. {{ item.title }}"><span class="sr-only">{{ item.title }}</span><span aria-hidden="true">{{ lessonNumber }}</span></a>
+      <a class="noCrossRef noExtIcon" href="{{ site.baseurl }}{{ item.jurl }}" title="{{ lessonNumber }}. {{ item.title }}"><span class="visually-hidden">{{ item.title }}</span><span aria-hidden="true">{{ lessonNumber }}</span></a>
     </li>
         {% endif %}
       {% endfor %}

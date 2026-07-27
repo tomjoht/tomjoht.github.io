@@ -1,215 +1,204 @@
-.navbar-default {
+// Top navigation. Rewritten for Bootstrap 5.
+//
+// BS3 keyed everything off `.navbar-default` and the `> li > a` structure; BS5
+// drops both, so these rules target `.navbar` with `.nav-link` / `.dropdown-item`
+// instead. Colors and spacing are unchanged from the BS3 version.
+
+$nav-text: #111111;
+$nav-hover: #ee7600;
+
+.navbar {
   background-color: #ffffff;
-  border-color: #ffffff;
-}
-.navbar-default .navbar-brand {
-  color: #111111;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ee7600;
-}
-.navbar-default .navbar-text {
-  color: #111111;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #111111;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ee7600;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #111111;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #ee7600;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #ee7600;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ee7600;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ee7600;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #111111;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #111111;
-}
-.navbar-default .navbar-link {
-  color: #111111;
-}
-.navbar-default .navbar-link:hover {
-  color: #ee7600;
+  border-bottom: 1px solid #dedede;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 5px; // BS5 navbar sits 5px shorter than BS3 without this
 }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #111111;
+// BS3 sized the logo off .navbar-brand's 50px height + float; BS5's brand is an
+// inline flex item, so the SVG needs an explicit box or it collapses to ~165px.
+.navbar .navbar-brand {
+  color: $nav-text;
+  // The brand is a flex item in BS5 and would otherwise shrink to fit.
+  flex: 0 0 auto;
+  width: 315px; // 300px logo + 15px padding-right (border-box)
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-top: 15px;
+  padding-right: 15px;
+
+  &:hover,
+  &:focus {
+    color: $nav-hover;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ee7600;
+
+  img.navbar-logo {
+    width: 100%;
+    height: auto;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ee7600;
+}
+
+// Leave room for the two toggler buttons on small screens.
+@media (max-width: 575px) {
+  .navbar .navbar-brand {
+    width: 210px;
+  }
+}
+
+.navbar .navbar-text {
+  color: $nav-text;
+}
+
+// BS3's navbar-nav was float-based, so items wrapped to a second line when they
+// ran out of room. BS5's flex row doesn't wrap by default, which pushed the
+// navbar wider than the viewport on narrow desktops.
+.navbar .navbar-collapse,
+.navbar .navbar-nav {
+  flex-wrap: wrap;
+}
+
+// Top-level links. BS3's navbar links had 15px horizontal / 15px vertical
+// padding; BS5's .nav-link defaults are tighter (8px / 8px).
+.navbar .navbar-nav .nav-link {
+  color: $nav-text;
+  font-size: 16px;
+  font-family: Arial;
+  white-space: nowrap;
+  margin-right: 7px;
+  padding: 15px;
+  line-height: 20px;
+
+  &:hover,
+  &:focus {
+    color: $nav-hover;
+    text-decoration: underline;
+  }
+
+  &.active,
+  &.show {
+    color: $nav-hover;
     background-color: #ffffff;
   }
 }
 
-//custom tom
-// this controls the style in the series drop-downs that have a pointer indicating the current topic
-ol.dropdown-menu li.active.pointer {
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-ul.navbar-nav a:hover {
-  text-decoration: underline;
-}
-
-img.navbar-logo {
-
-}
-.navbar-brand {
-  margin-right: 30px;
-  padding-left:0px;
-  padding-top: 15px;
-  padding-right: 15px;
-}
-.navbar {
-  border-bottom: 1px solid #dedede;
+// Dropdown panels
+.navbar .dropdown-menu {
+  background-color: #ffffff;
   font-size: 16px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
 
-@media (min-width: 768px) {
-  .navbar-nav > li {
-    padding-top: 10px;
+  .dropdown-item {
+    color: $nav-text;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+      color: $nav-hover;
+      background-color: #ffffff;
+      text-decoration: underline;
+    }
+
+    // BS5 gives .active a solid blue fill; keep the site's flat white + orange.
+    &.active,
+    &:active {
+      color: $nav-hover;
+      background-color: #ffffff;
+    }
+  }
+
+  .dropdown-divider {
+    border-top-color: #ffffff;
   }
 }
 
-.navbar-default .navbar-nav>li>a {
-  font-size: 16px;
-  font-family: Arial;
+// Hamburger / sidebar toggles
+.navbar .navbar-toggler {
+  border-color: #ffffff;
+  color: $nav-text;
+  padding: 4px 8px;
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    box-shadow: none;
+    outline: none;
+  }
 }
 
-.sidebarToggle.fa.fa-columns.fa-2x {
+// Series drop-downs that mark the current topic with a pointer
+ol.dropdown-menu li.active.pointer {
+  margin-left: 20px;
+  font-weight: bold;
 }
 
-ul.nav.navbar-nav li a {
-  white-space: nowrap;
-  margin-right: 7px;
+@media (min-width: 768px) {
+  .navbar .navbar-nav > li {
+    padding-top: 10px;
+  }
+
+  // BS3 sized this via .container > .navbar-collapse; BS5 has no such wrapper.
+  .navbar > .container {
+    min-height: 80px;
+  }
 }
 
-
-.navbar-brand {
-  margin-right: 0px;
-}
-
+// The comic/ad slot on the right side of the navbar. topComic.html is currently
+// commented out, so this is usually empty — hence max-width rather than width.
+// Under BS3's floats an empty 450px figure was harmless; as a flex item it would
+// force the navbar 450px wider than the viewport.
 figure.topComic {
-    float: right;
-    margin: 0px;
-    width: 450px;
+  margin: 0px;
+  max-width: 450px;
+  min-width: 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 div.topComic {
-    margin-left: 65%;
+  margin-left: 65%;
 }
 
 div.topComic img {
-    border: 1px solid #dedede;
-    width: 100%;
+  border: 1px solid #dedede;
+  width: 100%;
 }
-div#bs-example-navbar-collapse-1 img {
+
+div#topnavCollapse img {
   width: "100%";
   margin-bottom: 20px;
 }
 
-ul.nav.navbar-nav.navbar-right {
-    margin-top: 10px !important;
+.navbar .navbar-nav.ms-auto {
+  margin-top: 10px !important;
 }
-
-@media (min-width: 768px){
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    height: 80px;
-  }
-}
-/* autogenerated from https://work.smarchal.com/twbscolor/ */
 
 // responsive logic
 @media only screen and (max-width:1350px),
 only screen and (max-device-width:1350px) {
-    figure.topComic {
-        width: 450px;
-    }
+  figure.topComic {
+    max-width: 450px;
+  }
 }
 
 @media only screen and (max-width:1250px),
 only screen and (max-device-width:1250px) {
-    figure.topComic {
-        width: 400px;
-    }
+  figure.topComic {
+    max-width: 400px;
+  }
 }
 
 @media only screen and (max-width:1200px),
 only screen and (max-device-width:1200px) {
-    figure.topComic {
-        width: 375px;
-    }
+  figure.topComic {
+    max-width: 375px;
+  }
 }
-//
-// @media only screen and (max-width:1150px),
-// only screen and (max-device-width:1150px) {
-//     figure.topComic {
-//         width: 350px;
-//     }
-// }
-//
-// @media only screen and (max-width:1100px),
-// only screen and (max-device-width:1100px) {
-//     figure.topComic {
-//         width: 325px;
-//     }
-// }
-
-
 
 @media only screen and (max-width:750px),
 only screen and (max-device-width:750px) {
-    figure.topComic {
-        width: 95%;
-    }
+  figure.topComic {
+    max-width: 95%;
+  }
 }

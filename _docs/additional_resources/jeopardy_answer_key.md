@@ -24,7 +24,7 @@ The API Jeopardy questions are in the [Conclusion section of Workshop Activities
 ### Questions (jeopardy answer key)
 
 {% for item in site.data.jeopardy.list %}
-<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#q{{forloop.index}}">{{forloop.index}}</button>
+<button type="button" class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#q{{forloop.index}}">{{forloop.index}}</button>
 
 <div id="q{{forloop.index}}" class="collapse">
 <p>{{item.question}}</p>

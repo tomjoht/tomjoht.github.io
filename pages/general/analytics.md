@@ -31,23 +31,23 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
       </tr>
     </thead>
     <tr>
-      <td><b data-toggle="tooltip" title="The total number of times that all pages on the website have been loaded.">Pageviews</b></td>
+      <td><b data-bs-toggle="tooltip" title="The total number of times that all pages on the website have been loaded.">Pageviews</b></td>
       <td>992,255</td>
     </tr>
     <tr>
-      <td><b data-toggle="tooltip" title="The average duration a user spends actively engaged on a page or set of pages on your website.">Average engagement time</b></td>
+      <td><b data-bs-toggle="tooltip" title="The average duration a user spends actively engaged on a page or set of pages on your website.">Average engagement time</b></td>
       <td>1:18 minutes</td>
     </tr>
     <tr>
-      <td><b data-toggle="tooltip" title="A group of user interactions with your website that take place within a given time frame, typically a single visit">User sessions</b></td>
+      <td><b data-bs-toggle="tooltip" title="A group of user interactions with your website that take place within a given time frame, typically a single visit">User sessions</b></td>
       <td>782,783 </td>
     </tr>
     <tr>
-      <td><b data-toggle="tooltip" title="People who have initiated at least one session on the website during a given time frame.">Users</b></td>
+      <td><b data-bs-toggle="tooltip" title="People who have initiated at least one session on the website during a given time frame.">Users</b></td>
       <td>517,954</td>
     </tr>
     <tr>
-      <td><b data-toggle="tooltip" title="The average number of sessions initiated by each user over a specified period">Sessions per user</b></td>
+      <td><b data-bs-toggle="tooltip" title="The average number of sessions initiated by each user over a specified period">Sessions per user</b></td>
       <td>1.3</td>
     </tr>
 </table>
@@ -451,7 +451,7 @@ About 50% of the traffic goes to my [API doc site](/learnapidoc). Looking at the
   font-size: 0.8em;
 }
 
- [data-toggle="tooltip"] {
+ [data-bs-toggle="tooltip"] {
     font-style: italic;
     border-bottom: 1px dotted;
     color: #444;

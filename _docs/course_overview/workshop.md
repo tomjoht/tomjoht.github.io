@@ -140,7 +140,7 @@ During this time, I'd like to have participants surface specific challenges that
 {% endif %}
 
 {% if site.format == "web" %}
-<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#jeopardy_questions" aria-expanded="false" aria-controls="collapseExample">Jeopardy: Test your knowledge
+<button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#jeopardy_questions" aria-expanded="false" aria-controls="collapseExample">Jeopardy: Test your knowledge
 </button>
 <div class="collapse" id="jeopardy_questions">
 <div class="card card-body" markdown="block">

@@ -50,8 +50,8 @@ info:
 
     <div class="container">
     <div class="apiConfigDetails">
-    <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#demo">
-    <span class="glyphicon glyphicon-collapse-down"></span> See API Configuration Details
+    <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#demo">
+    <span class="fa fa-chevron-down"></span> See API Configuration Details
     </button>
     <div id="demo" class="collapse">
 

@@ -3,7 +3,7 @@ This is a jeopardy game to test your learning. To play jeopardy, you're given an
 **Answers**
 
 {% for item in site.data.jeopardy.list %}
-<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#q{{forloop.index}}">{{forloop.index}}</button>
+<button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#q{{forloop.index}}">{{forloop.index}}</button>
 
 <div id="q{{forloop.index}}" class="collapse">
 <p>{{item.answer}}</p>

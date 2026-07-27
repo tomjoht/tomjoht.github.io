@@ -1,0 +1,146 @@
+// Bootstrap 5 Reboot compatibility layer.
+//
+// BS5's Reboot changes base typography, link decoration, and table/list defaults
+// relative to BS3. These rules pin the pieces this site depended on so the
+// upgrade doesn't quietly restyle 2,600 posts. Each block notes what BS3 did.
+//
+// This is meant to shrink over time: delete a rule, rebuild, and if nothing
+// shifts, it wasn't needed.
+
+// BS3: body { font-size: 14px; line-height: 1.428571429; color: #333 }
+// BS5: 1rem/1.5, color #212529. The site sets its own sizes for p/li/etc., but
+// anything not explicitly styled (dd, figcaption, small, table cells) inherits.
+body {
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+}
+
+// BS3 underlined links only on hover; BS5 underlines them always.
+// BS3's link blue was #337ab7; BS5 uses #0d6efd.
+a {
+  color: #337ab7;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+}
+
+// BS3 container widths (750/970/1170) and 30px gutters. BS5 ships narrower
+// containers (540/720/960/1140/1320) and 24px gutters, which would shave ~20px
+// off the content column on every page.
+.container {
+  --bs-gutter-x: 30px;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+
+@media (min-width: 768px) {
+  .container { max-width: 750px; }
+}
+
+@media (min-width: 992px) {
+  .container { max-width: 970px; }
+}
+
+@media (min-width: 1200px) {
+  .container { max-width: 1170px; }
+}
+
+// BS3 heading sizes (BS5 is noticeably larger: 2.5rem/2rem/1.75rem/...).
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+// BS5 Reboot zeroes the top margin on headings; BS3 kept 20px/10px.
+h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+// BS3 gave paragraphs a 10px bottom margin; BS5 uses 1rem.
+p {
+  margin: 0 0 10px;
+}
+
+// BS5 Reboot removes the top margin from nested lists and changes padding-left
+// from 40px (browser default, kept by BS3) to 2rem.
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+// BS3 styled <dt>/<dd> with a 20px bottom margin on the list.
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+// BS5 Reboot sets `caption-side: bottom` and adds cell padding via CSS vars on
+// .table only; bare tables in old posts lose BS3's inherited line-height.
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  caption-side: top;
+}
+
+// BS3 applied a bottom border + padding to <legend>; BS5 does not.
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+// BS5 Reboot sets `vertical-align: middle` on images inside .figure only; BS3
+// applied it globally through .img-responsive/normalize.
+img {
+  vertical-align: middle;
+}
+
+// BS3's .btn-default was a white/gray button. The site's buttons migrated to
+// .btn-light, which is close but sits on #f8f9fa; restore the bordered look.
+.btn-light {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  color: #333333;
+
+  &:hover,
+  &:focus {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #333333;
+  }
+}

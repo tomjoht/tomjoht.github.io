@@ -167,13 +167,13 @@ Returning to my initial passage for discussion ("This Fire TV Catalog plugin is 
 
 <script>
 $(function () {
-  $('[data-toggle="popover"]').popover()
+  $('[data-bs-toggle="popover"]').popover()
 })
 </script>
 
 I've explored which terms to define, but there are other considerations with glossaries, including technical ones. First, the glossary definition should be stored in a re-usable source so that the definition can be provided in different parts of your documentation.
 
-For example, you'll probably want the definition to appear on a master glossary page as well as embed it on the page in a Background Knowledge section, and maybe embed the definition in <a style="cursor: pointer !important; color: green; text-decoration: underline; text-decoration-style: double;" data-toggle="popover" title="tooltip" data-placement="top" data-html="true" data-content="A tooltip shows a definition or hint for some UI text or other element. Tooltips hide explanations from users who don't need them while providing a way for others to get more detail.">inline tooltips</a>. (By the way, [Jekyll](/documentation-theme-jekyll/mydoc_adding_tooltips.html) is excellent at re-using definitions stored in YAML files.)
+For example, you'll probably want the definition to appear on a master glossary page as well as embed it on the page in a Background Knowledge section, and maybe embed the definition in <a style="cursor: pointer !important; color: green; text-decoration: underline; text-decoration-style: double;" data-bs-toggle="popover" title="tooltip" data-placement="top" data-html="true" data-content="A tooltip shows a definition or hint for some UI text or other element. Tooltips hide explanations from users who don't need them while providing a way for others to get more detail.">inline tooltips</a>. (By the way, [Jekyll](/documentation-theme-jekyll/mydoc_adding_tooltips.html) is excellent at re-using definitions stored in YAML files.)
 
 Further, you might have specialized glossaries for different products, with overlapping terms. For example, a glossary for *Alexa Skills Kit* and *Alexa Voice Service* and *Alexa Auto* (which are all different products with their own documentation) might all define the terms "near field" and "far field." These terms might also appear in the Fire TV glossary. By storing all glossary definitions in one file, and then referencing that definition where needed, you can reduce duplication.
 

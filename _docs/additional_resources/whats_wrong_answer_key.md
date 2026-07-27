@@ -27,7 +27,7 @@ Alternatively, expand the answers below to see how many issues you found. If you
 
 {% if site.format == "web" %}
 
-<button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#answerkey" aria-expanded="false" aria-controls="collapseExample">
+<button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#answerkey" aria-expanded="false" aria-controls="collapseExample">
 Answer key
 </button>
 <div class="collapse" id="answerkey">

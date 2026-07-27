@@ -1,5 +1,5 @@
 <div class="btn-group series">
-    <button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.series}}<span class="caret"></span></button>
+    <button type="button" data-bs-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.series}}</button>
     <ol class="dropdown-menu">
         {% assign series_pages = site.tags.series_value_of_tech_comm | sort: "weight" %}
         {% for p in series_pages %}

@@ -1,7 +1,7 @@
 <h3>Email Newsletter</h3>
  <div style="margin-top:20px">
 
-<button type="button" class="btn btn-primary mynewsletter" data-toggle="modal" data-target="#newsletterModal">
+<button type="button" class="btn btn-primary mynewsletter" data-bs-toggle="modal" data-bs-target="#newsletterModal">
   <i class="fa fa-envelope"></i> Subscribe to my newsletter
 </button>
 
@@ -13,13 +13,11 @@
         <h5 class="modal-title" id="newsletterModalLabel">Newsletter signup</h5>
       </div>
       <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         {% include mailjet_embedded.html %}
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
