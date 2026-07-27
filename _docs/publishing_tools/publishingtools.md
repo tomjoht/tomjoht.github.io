@@ -7,6 +7,9 @@ section: publishingtools
 weight: 9.91
 course: "Documenting REST APIs"
 last-modified: 2023-09-01
+redirect_from:
+- /learnapidoc/pubapis_blobr.html
+- /blog/blobr-api-portal/
 ---
 
 {% include coffeeshopbook.html %}

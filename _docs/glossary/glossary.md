@@ -28,7 +28,6 @@ a:
   - authorization_documentation
 b:
   - backlog
-  - blobr
   - branch
 c:
   - clone

@@ -437,9 +437,6 @@ folders:
   - title: "Using Oxygen XML with docs-as-code workflows"
     jurl: /learnapidoc/pubapis_oxygenxml.html
 
-  - title: "Blobr: An API portal that arranges your API's use cases as individual products"
-    jurl: /learnapidoc/pubapis_blobr.html
-
   - title: "Case study: Switching tools to docs-as-code"
     jurl: /learnapidoc/pubapis_switching_to_docs_as_code.html
 

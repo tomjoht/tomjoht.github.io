@@ -240,7 +240,6 @@ api_tools_and_platforms:
 - apiary
 - apigee
 - apimatic
-- blobr
 - customization
 - mulesoft
 - monetization

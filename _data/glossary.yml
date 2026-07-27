@@ -134,10 +134,6 @@ blame:
   term: blame
   def: "A Git command used to display who made the last modification to each line of a file and what that modification was."
 
-blobr: 
-  term: Blobr
-  def: "A cloud platform for creating API portals that package API use cases into purchasable products with customized documentation. Allows monetizing APIs."
-
 branch: 
   term: branch
   def: "A copy of the Git repository that is often used for developing new features. Usually, you work in branches and then merge the branch into the master branch when you're ready to publish."
@@ -215,7 +211,7 @@ curl:
 
 customization: 
   term: customization
-  def: "Changing the default styling and branding of a platform. Blobr enables customizing the portal name, logo, colors, domain, etc."
+  def: "Changing the default styling and branding of a platform. Most API portal tools let you customize the portal name, logo, colors, domain, and similar details."
 
 daily_standup: 
   term: daily standup
