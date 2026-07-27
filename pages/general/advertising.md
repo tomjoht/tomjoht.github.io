@@ -101,6 +101,8 @@ The cost for sidebar ads is $1,000 per year.
 
 ## Getting started tutorials {#getting_started_tutorials}
 
+{{site.data.alerts.important}}I'm not currently offering these. I no longer have the energy to research and write full product tutorials for companies. If you'd like to write the tutorial yourself and have me publish it, get in touch &mdash; but I'm not taking on the writing.{{site.data.alerts.end}}
+
 Getting started tutorials are approximately 2,000 word posts that provide a brief overview of your product and then explain how to get started with it. 
 
 These posts can provide more visibility than other forms of advertising. A popular getting-started tutorial can receive much more visibility and have more impact than a banner ad.
