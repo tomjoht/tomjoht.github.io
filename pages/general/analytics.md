@@ -628,21 +628,19 @@ Nearly every page declined, but not evenly — and the pattern in *which* pages 
 <ul>
   <li><b>Traffic from everywhere except search.</b> This is the number I'd keep if I could only keep one. It tracks the audience that chose to come here, and it has been climbing.</li>
   <li><b>Destination pages.</b> The blog home page, the course landing page, my author page. When those fall, I have an actual problem.</li>
-  <li><b>Newsletter subscribers.</b> Not on this page, but the most honest measure of an audience that isn't mediated by a platform.</li>
+  <li><b>Newsletter subscribers.</b> Not on this page, but the most honest measure of an audience that isn't mediated by a platform. Currently there are 7,200 subscribers.</li>
   <li><b>Page views per session and sessions per user.</b> Small numbers that tell me whether the people who arrive are engaging or bouncing.</li>
 </ul>
 
 <p>And what I've stopped treating as meaningful: total page views, which now mostly measures Google's product decisions rather than my work; browser and device breakdowns, which have never once changed anything I did; and social referrals, which measure the health of platforms I don't control.</p>
 
-<p>Podcast numbers deserve a mention, because I'd like to include them and can't. My host only exposes 60 days of download data, and the YouTube view counts don't correlate with audio listens at all, so there's no honest annual figure to publish. That gap is itself part of the story: as an audience shifts from search to direct relationships &mdash; podcast, newsletter, book club &mdash; it gets harder to count, not easier.</p>
+<p>Podcast numbers deserve a mention, because I'd like to include them and can't. My host only exposes 60 days of download data, and the YouTube view counts don't correlate with audio listens much, so there's no honest annual figure to publish. That gap is itself part of the story: as an audience shifts from search to direct relationships &mdash; podcast, newsletter, book club &mdash; it gets harder to count, not easier.</p>
 
 <h3>What this means for what I write</h3>
 
 <p>The reference and tutorial material that built this site's traffic is now largely infrastructure that AI reads on my behalf. I don't regret writing it and I'll keep it current, but I've stopped expecting it to bring people here.</p>
 
 <p>What still works is everything that can't be summarized out of existence: opinion, first-hand experience, argument, community. The book club, the podcast, and the agent skills course all fall into that category, which in hindsight looks less like coincidence and more like my instincts arriving ahead of my analytics.</p>
-
-<p>The other thing this changes is how I talk to advertisers. Selling on raw volume made sense when the volume was 2 million page views a year; it doesn't now. A concentrated audience of working technical writers is arguably worth more per impression than diffuse search traffic ever was, and that's the case I should be making.</p>
 
 <h2 id="analytical_posts">Previous posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
