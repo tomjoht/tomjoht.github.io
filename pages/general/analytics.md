@@ -28,34 +28,34 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <thead>
       <tr>
         <th><b>Metric</b></th>
-        <th><b>2024</b></th>
         <th><b>2025</b></th>
-      </tr>
+        <th><b>2024</b></th>
+    </tr>
     </thead>
     <tr>
       <td><b data-bs-toggle="tooltip" title="The total number of times that all pages on the website have been loaded.">Pageviews</b></td>
-      <td>577,097</td>
       <td>454,036 <span class="negative">(-21%)</span></td>
+      <td>577,097</td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="The average duration a user spends actively engaged on a page or set of pages on your website.">Average engagement time</b></td>
-      <td>1:25 minutes</td>
       <td>1:14 minutes <span class="negative">(-13%)</span></td>
+      <td>1:25 minutes</td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="A group of user interactions with your website that take place within a given time frame, typically a single visit">User sessions</b></td>
-      <td>426,021</td>
       <td>339,557 <span class="negative">(-20%)</span></td>
+      <td>426,021</td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="People who have initiated at least one session on the website during a given time frame.">Users</b></td>
-      <td>281,545</td>
       <td>227,470 <span class="negative">(-19%)</span></td>
+      <td>281,545</td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="The average number of sessions initiated by each user over a specified period">Sessions per user</b></td>
-      <td>1.51</td>
       <td>1.49 <span class="negative">(-1%)</span></td>
+      <td>1.51</td>
     </tr>
 </table>
 
@@ -63,82 +63,82 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
 
 <h2 id="trends_over_time">Trends over time (2019 through 2025)</h2>
 
-<p>This section compares the same values across years, providing a sense of trends over time. The percentage change from the previous year is listed in parentheses after the value.
+<p>This section compares the same values across years, providing a sense of trends over time. Years run newest to oldest from left to right, and the percentage in parentheses is the change from the prior year (the column to its right).
 
 <div class="tableScroll">
 <table>
   <thead>
     <tr>
       <th><b>Metric</b></th>
-      <th><b>2019</b></th>
-      <th><b>2020</b></th>
-      <th><b>2021</b></th>
-      <th><b>2022</b></th>
-      <th><b>2023</b></th>
-      <th><b>2024</b></th>
       <th><b>2025</b></th>
+      <th><b>2024</b></th>
+      <th><b>2023</b></th>
+      <th><b>2022</b></th>
+      <th><b>2021</b></th>
+      <th><b>2020</b></th>
+      <th><b>2019</b></th>
     </tr>
   </thead>
   <tr>
     <td><b>Page views</b></td>
-    <td>1,974,524</td>
-    <td>1,814,770 <span class="negative">(-8%)</span></td>
-    <td>1,865,635 <span class="positive">(+3%)</span></td>
-    <td>1,535,622 <span class="negative">(-18%)</span></td>
-    <td>992,255<span class="negative">(-35%)</span></td>
-    <td>577,097 <span class="negative">(-42%)</span></td>
     <td>454,036 <span class="negative">(-21%)</span></td>
-  </tr>
+    <td>577,097 <span class="negative">(-42%)</span></td>
+    <td>992,255<span class="negative">(-35%)</span></td>
+    <td>1,535,622 <span class="negative">(-18%)</span></td>
+    <td>1,865,635 <span class="positive">(+3%)</span></td>
+    <td>1,814,770 <span class="negative">(-8%)</span></td>
+    <td>1,974,524</td>
+    </tr>
   <tr>
     <td>Average page views per day</td>
-    <td>5,409</td>
-    <td>4,971 <span class="negative">(-8%)</span></td>
-    <td>5,111 <span class="positive">(+3%)</span></td>
-    <td>4,207 <span class="negative">(-18%)</span></td>
-    <td>2,719 <span class="negative">(-35%)</span></td>
-    <td>1,577 <span class="negative">(-42%)</span></td>
     <td>1,244 <span class="negative">(-21%)</span></td>
-  </tr>
+    <td>1,577 <span class="negative">(-42%)</span></td>
+    <td>2,719 <span class="negative">(-35%)</span></td>
+    <td>4,207 <span class="negative">(-18%)</span></td>
+    <td>5,111 <span class="positive">(+3%)</span></td>
+    <td>4,971 <span class="negative">(-8%)</span></td>
+    <td>5,409</td>
+    </tr>
   <tr>
     <td>Users</td>
-    <td>909,236</td>
-    <td>916,922 <span class="positive">(+1%)</span></td>
-    <td>982,313 <span class="positive">(+7%)</span></td>
-    <td>820,365 <span class="negative">(-17%)</span></td>
-    <td>517,954 <span class="negative">(-37%)</span></td>
-    <td>281,545 <span class="negative">(-46%)</span></td>
     <td>227,470 <span class="negative">(-19%)</span></td>
-  </tr>
+    <td>281,545 <span class="negative">(-46%)</span></td>
+    <td>517,954 <span class="negative">(-37%)</span></td>
+    <td>820,365 <span class="negative">(-17%)</span></td>
+    <td>982,313 <span class="positive">(+7%)</span></td>
+    <td>916,922 <span class="positive">(+1%)</span></td>
+    <td>909,236</td>
+    </tr>
   <tr>
     <td>Sessions</td>
-    <td>1,207,264</td>
-    <td>1,195,729 <span class="negative">(-1.0%)</span></td>
-    <td>1,266,999 <span class="positive">(+6.0%)</span></td>
-    <td>1,068,404 <span class="negative">(-15.7%)</span></td>
-    <td>782,783  <span class="negative">(-27%)</span></td>
-    <td>426,021 <span class="negative">(-46%)</span></td>
     <td>339,557 <span class="negative">(-20%)</span></td>
-  </tr>
+    <td>426,021 <span class="negative">(-46%)</span></td>
+    <td>782,783  <span class="negative">(-27%)</span></td>
+    <td>1,068,404 <span class="negative">(-15.7%)</span></td>
+    <td>1,266,999 <span class="positive">(+6.0%)</span></td>
+    <td>1,195,729 <span class="negative">(-1.0%)</span></td>
+    <td>1,207,264</td>
+    </tr>
   <tr>
     <td>Average engagement time<sup>*</sup></td>
-    <td>1:41</td>
-    <td>1:25 <span class="negative">(-16%)</span></td>
-    <td>1:19 <span class="negative">(-7%)</span></td>
-    <td>1:16 <span class="negative">(-34%)</span></td>
-    <td>1:18  <span class="positive">(+3%)</span></td>
-    <td>1:25 <span class="positive">(+9%)</span></td>
     <td>1:14 <span class="negative">(-13%)</span></td>
-  </tr>
+    <td>1:25 <span class="positive">(+9%)</span></td>
+    <td>1:18  <span class="positive">(+3%)</span></td>
+    <td>1:16 <span class="negative">(-34%)</span></td>
+    <td>1:19 <span class="negative">(-7%)</span></td>
+    <td>1:25 <span class="negative">(-16%)</span></td>
+    <td>1:41</td>
+    </tr>
   <tr>
     <td>Page views per session</td>
-    <td>1.64</td>
-    <td>1.52 <span class="negative">(-7.3%)</span></td>
-    <td>1.47 <span class="negative">(-3.3%)</span></td>
-    <td>1.44 <span class="negative">(-2.0%)</span></td>
-    <td>1.27 <span class="negative">(-12%)</span></td>
-    <td>1.35 <span class="positive">(+6%)</span></td>
     <td>1.34 <span class="negative">(-0.7%)</span></td>
-  </tr>
+    <td>1.35 <span class="positive">(+6%)</span></td>
+    <td>1.27 <span class="negative">(-12%)</span></td>
+    <td>1.44 <span class="negative">(-2.0%)</span></td>
+    <td>1.47 <span class="negative">(-3.3%)</span></td>
+    <td>1.52 <span class="negative">(-7.3%)</span></td>
+    <td>1.64</td>
+    </tr>
 </table>
 </div>
 
@@ -151,65 +151,65 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
   <thead>
     <tr>
       <th><b>Location</b></th>
-      <th><b>2019</b></th>
-      <th><b>2020</b></th>
-      <th><b>2021</b></th>
-      <th><b>2022</b></th>
-      <th><b>2023</b></th>
-      <th><b>2024</b></th>
       <th><b>2025</b></th>
+      <th><b>2024</b></th>
+      <th><b>2023</b></th>
+      <th><b>2022</b></th>
+      <th><b>2021</b></th>
+      <th><b>2020</b></th>
+      <th><b>2019</b></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>US</td>
-      <td>32%</td>
-      <td>29% <span class="negative">(-9%)</span></td>
-      <td>25% <span class="negative">(-14%)</span></td>
-      <td>28% <span class="positive">(+12%)</span></td>
-      <td>31% <span class="positive">(+11%)</span></td>
-      <td>37.9% <span class="positive">(+22%)</span></td>
       <td>43.3% <span class="positive">(+14%)</span></td>
+      <td>37.9% <span class="positive">(+22%)</span></td>
+      <td>31% <span class="positive">(+11%)</span></td>
+      <td>28% <span class="positive">(+12%)</span></td>
+      <td>25% <span class="negative">(-14%)</span></td>
+      <td>29% <span class="negative">(-9%)</span></td>
+      <td>32%</td>
     </tr>
     <tr>
       <td>China</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>2.6%</td>
       <td>10.7% <span class="positive">(+310%)</span></td>
+      <td>2.6%</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
     </tr>
     <tr>
       <td>India</td>
-      <td>17%</td>
-      <td>19% <span class="positive">(+12%)</span></td>
-      <td>20% <span class="positive">(+5%)</span></td>
-      <td>17% <span class="negative">(-15%)</span></td>
-      <td>15% <span class="negative">(-12%)</span></td>
-      <td>11.3% <span class="negative">(-25%)</span></td>
       <td>7.0% <span class="negative">(-38%)</span></td>
+      <td>11.3% <span class="negative">(-25%)</span></td>
+      <td>15% <span class="negative">(-12%)</span></td>
+      <td>17% <span class="negative">(-15%)</span></td>
+      <td>20% <span class="positive">(+5%)</span></td>
+      <td>19% <span class="positive">(+12%)</span></td>
+      <td>17%</td>
     </tr>
     <tr>
       <td>Canada</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>4.8%</td>
       <td>4.9% <span class="positive">(+3%)</span></td>
+      <td>4.8%</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
     </tr>
     <tr>
       <td>UK</td>
-      <td>5%</td>
-      <td>5% <span class="neutral">(0.0%)</span></td>
-      <td>4% <span class="negative">(-20%)</span></td>
-      <td>4% <span class="neutral">(0%)</span></td>
-      <td>5% <span class="positive">(+25%)</span></td>
-      <td>5.3% <span class="positive">(+6%)</span></td>
       <td>4.2% <span class="negative">(-21%)</span></td>
+      <td>5.3% <span class="positive">(+6%)</span></td>
+      <td>5% <span class="positive">(+25%)</span></td>
+      <td>4% <span class="neutral">(0%)</span></td>
+      <td>4% <span class="negative">(-20%)</span></td>
+      <td>5% <span class="neutral">(0.0%)</span></td>
+      <td>5%</td>
     </tr>
   </tbody>
 </table>
@@ -224,55 +224,55 @@ The biggest shift here is China, which went from 2.6% of users in 2024 to 10.7% 
   <thead>
     <tr>
       <th><b>Browser</b></th>
-      <th><b>2019</b></th>
-      <th><b>2020</b></th>
-      <th><b>2021</b></th>
-      <th><b>2022</b></th>
-      <th><b>2023</b></th>
-      <th><b>2024</b></th>
       <th><b>2025</b></th>
+      <th><b>2024</b></th>
+      <th><b>2023</b></th>
+      <th><b>2022</b></th>
+      <th><b>2021</b></th>
+      <th><b>2020</b></th>
+      <th><b>2019</b></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>Chrome</b></td>
-      <td>76%</td>
-      <td>78% <span class="positive">(+3%)</span></td>
-      <td>77% <span class="negative">(-1%)</span></td>
-      <td>73% <span class="negative">(-5%)</span></td>
-      <td>67% <span class="negative">(-8%)</span></td>
-      <td>70.2% <span class="positive">(+5%)</span></td>
       <td>74.8% <span class="positive">(+7%)</span></td>
+      <td>70.2% <span class="positive">(+5%)</span></td>
+      <td>67% <span class="negative">(-8%)</span></td>
+      <td>73% <span class="negative">(-5%)</span></td>
+      <td>77% <span class="negative">(-1%)</span></td>
+      <td>78% <span class="positive">(+3%)</span></td>
+      <td>76%</td>
     </tr>
     <tr>
       <td><b>Safari</b></td>
-      <td>8%</td>
-      <td>8% <span class="neutral">(0%)</span></td>
-      <td>9% <span class="positive">(+13%)</span></td>
-      <td>12% <span class="positive">(+33%)</span></td>
-      <td>11% <span class="negative">(-8%)</span></td>
-      <td>14.4% <span class="positive">(+31%)</span></td>
       <td>11.4% <span class="negative">(-21%)</span></td>
+      <td>14.4% <span class="positive">(+31%)</span></td>
+      <td>11% <span class="negative">(-8%)</span></td>
+      <td>12% <span class="positive">(+33%)</span></td>
+      <td>9% <span class="positive">(+13%)</span></td>
+      <td>8% <span class="neutral">(0%)</span></td>
+      <td>8%</td>
     </tr>
     <tr>
       <td><b>Edge</b></td>
-      <td>2%</td>
-      <td>3% <span class="positive">(+50%)</span></td>
-      <td>5% <span class="positive">(+67%)</span></td>
-      <td>6% <span class="positive">(+20%)</span></td>
-      <td>6% <span class="neutral">(0%)</span></td>
-      <td>8.1% <span class="positive">(+34%)</span></td>
       <td>6.7% <span class="negative">(-17%)</span></td>
+      <td>8.1% <span class="positive">(+34%)</span></td>
+      <td>6% <span class="neutral">(0%)</span></td>
+      <td>6% <span class="positive">(+20%)</span></td>
+      <td>5% <span class="positive">(+67%)</span></td>
+      <td>3% <span class="positive">(+50%)</span></td>
+      <td>2%</td>
     </tr>
     <tr>
       <td><b>Firefox</b></td>
-      <td>9%</td>
-      <td>8% <span class="negative">(-11%)</span></td>
-      <td>7% <span class="negative">(-13%)</span></td>
-      <td>6% <span class="negative">(-14%)</span></td>
-      <td>5% <span class="negative">(-17%)</span></td>
-      <td>4.5% <span class="negative">(-10%)</span></td>
       <td>5.0% <span class="positive">(+10%)</span></td>
+      <td>4.5% <span class="negative">(-10%)</span></td>
+      <td>5% <span class="negative">(-17%)</span></td>
+      <td>6% <span class="negative">(-14%)</span></td>
+      <td>7% <span class="negative">(-13%)</span></td>
+      <td>8% <span class="negative">(-11%)</span></td>
+      <td>9%</td>
     </tr>
   </tbody>
 </table>
@@ -284,45 +284,45 @@ The biggest shift here is China, which went from 2.6% of users in 2024 to 10.7% 
   <thead>
     <tr>
       <th><b>Device type</b></th>
-      <th><b>2019</b></th>
-      <th><b>2020</b></th>
-      <th><b>2021</b></th>
-      <th><b>2022</b></th>
-      <th><b>2023</b></th>
-      <th><b>2024</b></th>
       <th><b>2025</b></th>
+      <th><b>2024</b></th>
+      <th><b>2023</b></th>
+      <th><b>2022</b></th>
+      <th><b>2021</b></th>
+      <th><b>2020</b></th>
+      <th><b>2019</b></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>Desktop</b></td>
-      <td>88%</td>
-      <td>88%</td>
-      <td>86% <span class="negative">(-2.3%)</span></td>
-      <td>82% <span class="negative">(-4.7%)</span></td>
-      <td>84% <span class="negative">(+2%)</span></td>
-      <td>78.2% <span class="negative">(-7%)</span></td>
       <td>81.7% <span class="positive">(+4%)</span></td>
+      <td>78.2% <span class="negative">(-7%)</span></td>
+      <td>84% <span class="negative">(+2%)</span></td>
+      <td>82% <span class="negative">(-4.7%)</span></td>
+      <td>86% <span class="negative">(-2.3%)</span></td>
+      <td>88%</td>
+      <td>88%</td>
     </tr>
     <tr>
       <td><b>Mobile</b></td>
-      <td>11%</td>
-      <td>12% <span class="positive">(+9.1%)</span></td>
-      <td>14% <span class="positive">(+16.7%)</span></td>
-      <td>18% <span class="positive">(+28.6%)</span></td>
-      <td>16% <span class="positive">(-11%)</span></td>
-      <td>21.2% <span class="positive">(+33%)</span></td>
       <td>17.7% <span class="negative">(-17%)</span></td>
+      <td>21.2% <span class="positive">(+33%)</span></td>
+      <td>16% <span class="positive">(-11%)</span></td>
+      <td>18% <span class="positive">(+28.6%)</span></td>
+      <td>14% <span class="positive">(+16.7%)</span></td>
+      <td>12% <span class="positive">(+9.1%)</span></td>
+      <td>11%</td>
     </tr>
     <tr>
       <td><b>Tablet</b></td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>0.46%</td>
       <td>0.38% <span class="negative">(-17%)</span></td>
+      <td>0.46%</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
     </tr>
   </tbody>
 </table>
@@ -334,45 +334,45 @@ The biggest shift here is China, which went from 2.6% of users in 2024 to 10.7% 
   <thead>
     <tr>
       <th><b>Traffic Origin</b></th>
-      <th>2019</th>
-      <th>2020</th>
-      <th>2021</th>
-      <th>2022</th>
-      <th>2023</th>
-      <th>2024</th>
       <th>2025</th>
+      <th>2024</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>2021</th>
+      <th>2020</th>
+      <th>2019</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>User sessions</b></td>
-      <td>1,207,264</td>
-      <td>1,195,729</td>
-      <td>1,266,999</td>
-      <td>1,068,404</td>
-      <td>782,783</td>
-      <td>426,021</td>
       <td>339,557</td>
+      <td>426,021</td>
+      <td>782,783</td>
+      <td>1,068,404</td>
+      <td>1,266,999</td>
+      <td>1,195,729</td>
+      <td>1,207,264</td>
     </tr>
     <tr>
       <td><b>Organic Search Traffic</b></td>
-      <td>85%</td>
-      <td>89% <span class="positive">(+4.7%)</span></td>
-      <td>90% <span class="positive">(+1.1%)</span></td>
-      <td>81% <span class="negative">(-9.1%)</span></td>
-      <td>72% <span class="negative">(-11%)</span></td>
-      <td>58.4% <span class="negative">(-19%)</span></td>
       <td>39.3% <span class="negative">(-33%)</span></td>
+      <td>58.4% <span class="negative">(-19%)</span></td>
+      <td>72% <span class="negative">(-11%)</span></td>
+      <td>81% <span class="negative">(-9.1%)</span></td>
+      <td>90% <span class="positive">(+1.1%)</span></td>
+      <td>89% <span class="positive">(+4.7%)</span></td>
+      <td>85%</td>
     </tr>
     <tr>
       <td><b>Sessions via Social Referral</b></td>
-      <td>11,163</td>
-      <td>13,840 <span class="positive">(+24%)</span></td>
-      <td>11,346 <span class="positive">(+2%)</span></td>
-      <td>48,018 <span class="positive">(+3,960%)</span></td>
-      <td>56,327 <span class="positive">(17%)</span></td>
-      <td>14,839 <span class="negative">(-74%)</span></td>
       <td>11,939 <span class="negative">(-20%)</span></td>
+      <td>14,839 <span class="negative">(-74%)</span></td>
+      <td>56,327 <span class="positive">(17%)</span></td>
+      <td>48,018 <span class="positive">(+3,960%)</span></td>
+      <td>11,346 <span class="positive">(+2%)</span></td>
+      <td>13,840 <span class="positive">(+24%)</span></td>
+      <td>11,163</td>
     </tr>
   </tbody>
 </table>
@@ -603,6 +603,11 @@ min-width: 80%;
 }
 
 .tableScroll table {
+  /* table.scss sets `table-layout: fixed` globally, which forces every column to
+     the same width and makes cells overlap once there are this many years.
+     Sizing to content instead lets the container scroll. */
+  table-layout: auto;
+  width: max-content;
   min-width: 100%;
   white-space: nowrap;
 }
