@@ -7,6 +7,8 @@ last-modified: 2026-07-26
 
 This page provides site analytics for my site. Each year in January, I gather up these analytics to analyze trends and plan content directions.
 
+I'll admit I skipped this exercise for two years running. Watching the numbers fall after 2023 was demoralizing enough that I didn't want to look, let alone write it up. Having finally sat down with the 2024 and 2025 data, I think the story is more interesting — and honestly more encouraging — than the headline totals suggest. If you only read one part of this page, make it [What I make of the decline](#what_it_means) at the bottom, where I try to work out what actually happened and which of these numbers still mean anything.
+
 {{site.data.alerts.note}}For details about advertising spaces available, see <a href="/advertising">Advertising</a>.{{site.data.alerts.end}}
 
 <h2 id="page_traffic">Overall page traffic</h2>
@@ -76,7 +78,7 @@ This page provides site analytics for my site. Each year in January, I gather up
     <td><b>Page views</b></td>
     <td>454,036 <span class="negative">(-21%)</span></td>
     <td>577,097 <span class="negative">(-42%)</span></td>
-    <td>992,255<span class="negative">(-35%)</span></td>
+    <td>992,255 <span class="negative">(-35%)</span></td>
     <td>1,535,622 <span class="negative">(-18%)</span></td>
     <td>1,865,635 <span class="positive">(+3%)</span></td>
     <td>1,814,770 <span class="negative">(-8%)</span></td>
@@ -106,7 +108,7 @@ This page provides site analytics for my site. Each year in January, I gather up
     <td>Sessions</td>
     <td>339,557 <span class="negative">(-20%)</span></td>
     <td>426,021 <span class="negative">(-46%)</span></td>
-    <td>782,783  <span class="negative">(-27%)</span></td>
+    <td>782,783 <span class="negative">(-27%)</span></td>
     <td>1,068,404 <span class="negative">(-15.7%)</span></td>
     <td>1,266,999 <span class="positive">(+6.0%)</span></td>
     <td>1,195,729 <span class="negative">(-1.0%)</span></td>
@@ -116,7 +118,7 @@ This page provides site analytics for my site. Each year in January, I gather up
     <td>Average engagement time<sup>*</sup></td>
     <td>1:14 <span class="negative">(-13%)</span></td>
     <td>1:25 <span class="positive">(+9%)</span></td>
-    <td>1:18  <span class="positive">(+3%)</span></td>
+    <td>1:18 <span class="positive">(+3%)</span></td>
     <td>1:16 <span class="negative">(-34%)</span></td>
     <td>1:19 <span class="negative">(-7%)</span></td>
     <td>1:25 <span class="negative">(-16%)</span></td>
@@ -136,6 +138,10 @@ This page provides site analytics for my site. Each year in January, I gather up
 </div>
 
 <small>* Previously, this value was "Average sessions per user." With the change in 2023, I think "Average engagement time" most closely maps to this previous value.</small>
+
+<p>Two caveats before anyone reads too much into the cliff. First, Universal Analytics stopped processing data in mid-2023 and GA4 counts users differently &mdash; generally lower &mdash; so part of the 2023 drop is a change in how I'm measuring rather than a change in who's visiting. The 2023 through 2025 numbers are GA4 throughout, so those comparisons are honest ones: page views down 54%, users down 56%.</p>
+
+<p>Second, and more importantly, these totals are the least useful numbers on this page. They lump together two completely different audiences that have moved in opposite directions. The <a href="#traffic_origins">traffic origins</a> section below is where that comes apart.</p>
 
 <h2 id="locations">Locations</h2>
 
@@ -209,6 +215,10 @@ This page provides site analytics for my site. Each year in January, I gather up
 </div>
 
 The biggest shift here is China, which went from 2.6% of users in 2024 to 10.7% in 2025, moving it to second place. Meanwhile India, long my second-largest audience, fell from 11.3% to 7.0%. The US share has grown steadily for three years running.
+
+<p>Because these are percentages of a shrinking pie, the absolute numbers tell a sharper story. Between 2023 and 2025 my US audience fell about 39%, while my India audience fell about 80%. That's a big enough gap to mean something: the readers I lost skewed heavily toward search-driven, mobile, non-US visitors &mdash; which is exactly the profile of someone arriving for a quick answer rather than for me.</p>
+
+<p>The China figure I'd treat with suspicion. Tripling in absolute terms during a year when every other segment halved doesn't look like a sudden surge of Chinese readers; it looks like crawlers or VPN traffic. I'd want to check bot filtering and the engagement time on that segment before believing it.</p>
 
 <h2 id="browsers">Browsers</h2>
 
@@ -371,12 +381,42 @@ The biggest shift here is China, which went from 2.6% of users in 2024 to 10.7% 
 </table>
 </div>
 
+<p>Organic search as a share of sessions is the single most important row on this page. It went from 90% at its peak to 39% in 2025. But percentages of a shrinking total are slippery, so here is the same thing in absolute sessions, split into search traffic and everything else:</p>
+
+<div class="tableScroll wrapText">
+<table>
+  <thead>
+    <tr>
+      <th><b>Year</b></th>
+      <th><b>Total sessions</b></th>
+      <th><b>From organic search</b></th>
+      <th><b>From everywhere else</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>2025</td><td>339,557</td><td>133,276</td><td>206,281</td></tr>
+    <tr><td>2024</td><td>426,021</td><td>248,583</td><td>177,438</td></tr>
+    <tr><td>2023</td><td>782,783</td><td>563,604</td><td>219,179</td></tr>
+    <tr><td>2022</td><td>1,068,404</td><td>865,407</td><td>202,997</td></tr>
+    <tr><td>2021</td><td>1,266,999</td><td>1,140,299</td><td>126,700</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>This is the finding that made me feel better about the whole thing. Organic search is down <b>88%</b> from its 2021 peak. Traffic from everywhere else &mdash; direct visits, newsletter, LinkedIn, other sites linking to me &mdash; is <b>up 63%</b> over the same period, and down only 6% since 2023.</p>
+
+<p>In other words, essentially the entire decline is search. The audience that shows up because they know who I am hasn't gone anywhere; if anything it has grown. What collapsed is the drive-by traffic that arrived from a Google result, read one paragraph, and left. That traffic was always the bulk of the total, which is why losing it looks catastrophic in the charts.</p>
+
+<p>One thing worth separating out: the social referral collapse is not an AI story. Social sessions went from 56,327 in 2023 to 11,939 in 2025, a 79% drop. That's Twitter falling apart and platforms suppressing outbound links. Different cause, different problem, and I shouldn't blame AI for it.</p>
+
 
 <h2 id="top_pages">Top 30 pages</h2>
 
-The API documentation course still dominates the top of the list, even though there are only about 100 course pages against roughly 3,000 blog pages. Nearly every page declined year over year &mdash; the exceptions are the blog home page, which was essentially flat, and my author page.
+The API documentation course still dominates the top of the list, even though there are only about 100 course pages against roughly 3,000 blog pages.
 
-<div class="tableScroll">
+Nearly every page declined, but not evenly — and the pattern in *which* pages fell hardest turned out to be the most useful thing in this year's data. See [the page-type pattern](#what_it_means) below.
+
+<div class="tableScroll wrapText">
 <table>
   <col width="64%">
   <col width="18%">
@@ -543,6 +583,67 @@ The API documentation course still dominates the top of the list, even though th
 </table>
 </div>
 
+<h2 id="what_it_means">What I make of the decline</h2>
+
+<p>Here's my attempt to work out what actually happened between 2023 and 2025, and which of these numbers I should still be paying attention to.</p>
+
+<h3>The pages that lost most are the ones an AI can answer</h3>
+
+<p>I grouped my top 30 pages by what kind of page each one is. The classification is rough and my own judgment, but the gradient is hard to miss:</p>
+
+<table>
+  <col width="55%">
+  <col width="45%">
+  <thead>
+    <tr>
+      <th><b>Type of page</b></th>
+      <th><b>Average change, 2024 to 2025</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Destination pages (blog home, author page, course landing)</td><td><span class="negative">-5%</span></td></tr>
+    <tr><td>Conceptual explainers ("What is a REST API?")</td><td><span class="negative">-32%</span></td></tr>
+    <tr><td>Essays and opinion pieces</td><td><span class="negative">-47%</span></td></tr>
+    <tr><td>Step-by-step how-tos</td><td><span class="negative">-54%</span></td></tr>
+    <tr><td>Pure lookups ("Access and print a specific JSON value")</td><td><span class="negative">-64%</span></td></tr>
+  </tbody>
+</table>
+
+<p>The more a page exists to answer a question someone could just ask a chatbot, the harder it fell. "How do I access a JSON value" and "what's the ideal number of slides for a presentation" are precisely the queries that no longer become clicks. Meanwhile my blog home page actually <i>grew</i> 2.3% in 2025 and my author page was flat, in a year when everything else halved. The pages people navigate to on purpose held up fine.</p>
+
+<h3>The audience that stayed behaves the same as it always did</h3>
+
+<p>If AI were degrading the quality of my remaining traffic, I'd expect people to be reading less per visit. The opposite happened: page views per session went from 1.27 in 2023 to 1.34 in 2025, and sessions per user held steady at about 1.5. Engagement time bounces around within noise.</p>
+
+<p>So I didn't lose readers. I lost searchers. Those are different populations, and I'd been counting them in one bucket for fifteen years.</p>
+
+<h3>The reach I can't measure is probably the largest part now</h3>
+
+<p>My API documentation course is almost certainly part of what these AI assistants learned from, and it gets cited and summarized in conversations I'll never see. That's real reach, and Google Analytics has no way to represent it. The uncomfortable implication is that my influence and my page views have come apart, possibly permanently &mdash; and page views were only ever a proxy for the thing I actually cared about.</p>
+
+<h3>Which numbers I actually watch now</h3>
+
+<p>Given all that, here's how I've reweighted this page:</p>
+
+<ul>
+  <li><b>Traffic from everywhere except search.</b> This is the number I'd keep if I could only keep one. It tracks the audience that chose to come here, and it has been climbing.</li>
+  <li><b>Destination pages.</b> The blog home page, the course landing page, my author page. When those fall, I have an actual problem.</li>
+  <li><b>Newsletter subscribers.</b> Not on this page, but the most honest measure of an audience that isn't mediated by a platform.</li>
+  <li><b>Page views per session and sessions per user.</b> Small numbers that tell me whether the people who arrive are engaging or bouncing.</li>
+</ul>
+
+<p>And what I've stopped treating as meaningful: total page views, which now mostly measures Google's product decisions rather than my work; browser and device breakdowns, which have never once changed anything I did; and social referrals, which measure the health of platforms I don't control.</p>
+
+<p>Podcast numbers deserve a mention, because I'd like to include them and can't. My host only exposes 60 days of download data, and the YouTube view counts don't correlate with audio listens at all, so there's no honest annual figure to publish. That gap is itself part of the story: as an audience shifts from search to direct relationships &mdash; podcast, newsletter, book club &mdash; it gets harder to count, not easier.</p>
+
+<h3>What this means for what I write</h3>
+
+<p>The reference and tutorial material that built this site's traffic is now largely infrastructure that AI reads on my behalf. I don't regret writing it and I'll keep it current, but I've stopped expecting it to bring people here.</p>
+
+<p>What still works is everything that can't be summarized out of existence: opinion, first-hand experience, argument, community. The book club, the podcast, and the agent skills course all fall into that category, which in hindsight looks less like coincidence and more like my instincts arriving ahead of my analytics.</p>
+
+<p>The other thing this changes is how I talk to advertisers. Selling on raw volume made sense when the volume was 2 million page views a year; it doesn't now. A concentrated audience of working technical writers is arguably worth more per impression than diffuse search traffic ever was, and that's the case I should be making.</p>
+
 <h2 id="analytical_posts">Previous posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
 <ul>
@@ -603,6 +704,12 @@ min-width: 80%;
   width: max-content;
   min-width: 100%;
   white-space: nowrap;
+}
+
+/* Page titles need to wrap; only the short year values should stay on one line. */
+.tableScroll.wrapText table {
+  width: 100%;
+  white-space: normal;
 }
 
 </style>
