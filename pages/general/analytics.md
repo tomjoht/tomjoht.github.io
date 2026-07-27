@@ -2,7 +2,7 @@
 title: Site analytics
 permalink: /analytics/
 type: page
-last-modified: 2024-01-07
+last-modified: 2026-07-26
 ---
 
 This page provides site analytics for my site. Each year in January, I gather up these analytics to analyze trends and plan content directions.
@@ -13,51 +13,59 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
 
 <figure>
    <img src="{{site.media}}/pageviewsscreenshotanalytics2023.png" alt="Traffic graph on Idratherbewriting.com" />
-   <figcaption>I'd Rather Be Writing received 992,255 page views during 2023. This works out to an average of 2,719 page views a day.</figcaption>
+   <figcaption>I'd Rather Be Writing received 992,255 page views during 2023. This works out to an average of 2,719 page views a day. (Traffic has declined substantially since — see the tables below for 2024 and 2025.)</figcaption>
 </figure>
 
 <h2 id="page_traffic">Overall page traffic</h2>
 <p>
-   In 2023, idratherbewriting.com had 992,255 page views, or about 2,719 page views a day. More details are in the following table:
+   In 2025, idratherbewriting.com had 454,036 page views, or about 1,244 page views a day. More details are in the following table:
 </p>
 
 <table>
-  <col width="60%">
   <col width="40%">
+  <col width="30%">
+  <col width="30%">
     <thead>
       <tr>
         <th><b>Metric</b></th>
-        <th><b>Value</b></th>
+        <th><b>2024</b></th>
+        <th><b>2025</b></th>
       </tr>
     </thead>
     <tr>
       <td><b data-bs-toggle="tooltip" title="The total number of times that all pages on the website have been loaded.">Pageviews</b></td>
-      <td>992,255</td>
+      <td>577,097</td>
+      <td>454,036 <span class="negative">(-21%)</span></td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="The average duration a user spends actively engaged on a page or set of pages on your website.">Average engagement time</b></td>
-      <td>1:18 minutes</td>
+      <td>1:25 minutes</td>
+      <td>1:14 minutes <span class="negative">(-13%)</span></td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="A group of user interactions with your website that take place within a given time frame, typically a single visit">User sessions</b></td>
-      <td>782,783 </td>
+      <td>426,021</td>
+      <td>339,557 <span class="negative">(-20%)</span></td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="People who have initiated at least one session on the website during a given time frame.">Users</b></td>
-      <td>517,954</td>
+      <td>281,545</td>
+      <td>227,470 <span class="negative">(-19%)</span></td>
     </tr>
     <tr>
       <td><b data-bs-toggle="tooltip" title="The average number of sessions initiated by each user over a specified period">Sessions per user</b></td>
-      <td>1.3</td>
+      <td>1.51</td>
+      <td>1.49 <span class="negative">(-1%)</span></td>
     </tr>
 </table>
 
 <p>A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a unique visit to the site. If the same visitor views 10 pages, it only counts as a single session.</p>
 
-<h2 id="trends_over_time">Trends over time (2019 through 2023)</h2>
+<h2 id="trends_over_time">Trends over time (2019 through 2025)</h2>
 
-<p>This section compares the same values for the past five years, providing a sense of trends over time. The percentage change from the previous year is listed in parentheses after the value.
+<p>This section compares the same values across years, providing a sense of trends over time. The percentage change from the previous year is listed in parentheses after the value.
 
+<div class="tableScroll">
 <table>
   <thead>
     <tr>
@@ -67,6 +75,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
       <th><b>2021</b></th>
       <th><b>2022</b></th>
       <th><b>2023</b></th>
+      <th><b>2024</b></th>
+      <th><b>2025</b></th>
     </tr>
   </thead>
   <tr>
@@ -76,6 +86,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>1,865,635 <span class="positive">(+3%)</span></td>
     <td>1,535,622 <span class="negative">(-18%)</span></td>
     <td>992,255<span class="negative">(-35%)</span></td>
+    <td>577,097 <span class="negative">(-42%)</span></td>
+    <td>454,036 <span class="negative">(-21%)</span></td>
   </tr>
   <tr>
     <td>Average page views per day</td>
@@ -84,6 +96,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>5,111 <span class="positive">(+3%)</span></td>
     <td>4,207 <span class="negative">(-18%)</span></td>
     <td>2,719 <span class="negative">(-35%)</span></td>
+    <td>1,577 <span class="negative">(-42%)</span></td>
+    <td>1,244 <span class="negative">(-21%)</span></td>
   </tr>
   <tr>
     <td>Users</td>
@@ -92,6 +106,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>982,313 <span class="positive">(+7%)</span></td>
     <td>820,365 <span class="negative">(-17%)</span></td>
     <td>517,954 <span class="negative">(-37%)</span></td>
+    <td>281,545 <span class="negative">(-46%)</span></td>
+    <td>227,470 <span class="negative">(-19%)</span></td>
   </tr>
   <tr>
     <td>Sessions</td>
@@ -100,6 +116,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>1,266,999 <span class="positive">(+6.0%)</span></td>
     <td>1,068,404 <span class="negative">(-15.7%)</span></td>
     <td>782,783  <span class="negative">(-27%)</span></td>
+    <td>426,021 <span class="negative">(-46%)</span></td>
+    <td>339,557 <span class="negative">(-20%)</span></td>
   </tr>
   <tr>
     <td>Average engagement time<sup>*</sup></td>
@@ -108,6 +126,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>1:19 <span class="negative">(-7%)</span></td>
     <td>1:16 <span class="negative">(-34%)</span></td>
     <td>1:18  <span class="positive">(+3%)</span></td>
+    <td>1:25 <span class="positive">(+9%)</span></td>
+    <td>1:14 <span class="negative">(-13%)</span></td>
   </tr>
   <tr>
     <td>Page views per session</td>
@@ -116,13 +136,17 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
     <td>1.47 <span class="negative">(-3.3%)</span></td>
     <td>1.44 <span class="negative">(-2.0%)</span></td>
     <td>1.27 <span class="negative">(-12%)</span></td>
+    <td>1.35 <span class="positive">(+6%)</span></td>
+    <td>1.34 <span class="negative">(-0.7%)</span></td>
   </tr>
 </table>
+</div>
 
 <small>* Previously, this value was "Average sessions per user." With the change in 2023, I think "Average engagement time" most closely maps to this previous value.</small>
 
 <h2 id="locations">Locations</h2>
 
+<div class="tableScroll">
 <table>
   <thead>
     <tr>
@@ -132,6 +156,8 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
       <th><b>2021</b></th>
       <th><b>2022</b></th>
       <th><b>2023</b></th>
+      <th><b>2024</b></th>
+      <th><b>2025</b></th>
     </tr>
   </thead>
   <tbody>
@@ -142,6 +168,18 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
       <td>25% <span class="negative">(-14%)</span></td>
       <td>28% <span class="positive">(+12%)</span></td>
       <td>31% <span class="positive">(+11%)</span></td>
+      <td>37.9% <span class="positive">(+22%)</span></td>
+      <td>43.3% <span class="positive">(+14%)</span></td>
+    </tr>
+    <tr>
+      <td>China</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>2.6%</td>
+      <td>10.7% <span class="positive">(+310%)</span></td>
     </tr>
     <tr>
       <td>India</td>
@@ -150,6 +188,18 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
       <td>20% <span class="positive">(+5%)</span></td>
       <td>17% <span class="negative">(-15%)</span></td>
       <td>15% <span class="negative">(-12%)</span></td>
+      <td>11.3% <span class="negative">(-25%)</span></td>
+      <td>7.0% <span class="negative">(-38%)</span></td>
+    </tr>
+    <tr>
+      <td>Canada</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>4.8%</td>
+      <td>4.9% <span class="positive">(+3%)</span></td>
     </tr>
     <tr>
       <td>UK</td>
@@ -158,14 +208,18 @@ Here's a screenshot of site traffic analytics on idratherbewriting.com for 2023 
       <td>4% <span class="negative">(-20%)</span></td>
       <td>4% <span class="neutral">(0%)</span></td>
       <td>5% <span class="positive">(+25%)</span></td>
+      <td>5.3% <span class="positive">(+6%)</span></td>
+      <td>4.2% <span class="negative">(-21%)</span></td>
     </tr>
   </tbody>
 </table>
+</div>
 
-For locations, the next in the list are Germany, Canada, France, Australia, Russia, China, and Brazil.
+The biggest shift here is China, which went from 2.6% of users in 2024 to 10.7% in 2025, moving it to second place. Meanwhile India, long my second-largest audience, fell from 11.3% to 7.0%. The US share has grown steadily for three years running.
 
 <h2 id="browsers">Browsers</h2>
 
+<div class="tableScroll">
 <table>
   <thead>
     <tr>
@@ -175,6 +229,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <th><b>2021</b></th>
       <th><b>2022</b></th>
       <th><b>2023</b></th>
+      <th><b>2024</b></th>
+      <th><b>2025</b></th>
     </tr>
   </thead>
   <tbody>
@@ -185,6 +241,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>77% <span class="negative">(-1%)</span></td>
       <td>73% <span class="negative">(-5%)</span></td>
       <td>67% <span class="negative">(-8%)</span></td>
+      <td>70.2% <span class="positive">(+5%)</span></td>
+      <td>74.8% <span class="positive">(+7%)</span></td>
     </tr>
     <tr>
       <td><b>Safari</b></td>
@@ -193,6 +251,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>9% <span class="positive">(+13%)</span></td>
       <td>12% <span class="positive">(+33%)</span></td>
       <td>11% <span class="negative">(-8%)</span></td>
+      <td>14.4% <span class="positive">(+31%)</span></td>
+      <td>11.4% <span class="negative">(-21%)</span></td>
     </tr>
     <tr>
       <td><b>Edge</b></td>
@@ -201,6 +261,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>5% <span class="positive">(+67%)</span></td>
       <td>6% <span class="positive">(+20%)</span></td>
       <td>6% <span class="neutral">(0%)</span></td>
+      <td>8.1% <span class="positive">(+34%)</span></td>
+      <td>6.7% <span class="negative">(-17%)</span></td>
     </tr>
     <tr>
       <td><b>Firefox</b></td>
@@ -209,11 +271,15 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>7% <span class="negative">(-13%)</span></td>
       <td>6% <span class="negative">(-14%)</span></td>
       <td>5% <span class="negative">(-17%)</span></td>
+      <td>4.5% <span class="negative">(-10%)</span></td>
+      <td>5.0% <span class="positive">(+10%)</span></td>
     </tr>
   </tbody>
 </table>
+</div>
 
 <h2 id="device_types">Device types</h2>
+<div class="tableScroll">
 <table>
   <thead>
     <tr>
@@ -223,6 +289,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <th><b>2021</b></th>
       <th><b>2022</b></th>
       <th><b>2023</b></th>
+      <th><b>2024</b></th>
+      <th><b>2025</b></th>
     </tr>
   </thead>
   <tbody>
@@ -233,6 +301,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>86% <span class="negative">(-2.3%)</span></td>
       <td>82% <span class="negative">(-4.7%)</span></td>
       <td>84% <span class="negative">(+2%)</span></td>
+      <td>78.2% <span class="negative">(-7%)</span></td>
+      <td>81.7% <span class="positive">(+4%)</span></td>
     </tr>
     <tr>
       <td><b>Mobile</b></td>
@@ -241,11 +311,25 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>14% <span class="positive">(+16.7%)</span></td>
       <td>18% <span class="positive">(+28.6%)</span></td>
       <td>16% <span class="positive">(-11%)</span></td>
+      <td>21.2% <span class="positive">(+33%)</span></td>
+      <td>17.7% <span class="negative">(-17%)</span></td>
+    </tr>
+    <tr>
+      <td><b>Tablet</b></td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+      <td>0.46%</td>
+      <td>0.38% <span class="negative">(-17%)</span></td>
     </tr>
   </tbody>
 </table>
+</div>
 
 <h2 id="traffic_origins">Traffic origins — organic and social referrals</h2>
+<div class="tableScroll">
 <table>
   <thead>
     <tr>
@@ -255,6 +339,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <th>2021</th>
       <th>2022</th>
       <th>2023</th>
+      <th>2024</th>
+      <th>2025</th>
     </tr>
   </thead>
   <tbody>
@@ -265,6 +351,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>1,266,999</td>
       <td>1,068,404</td>
       <td>782,783</td>
+      <td>426,021</td>
+      <td>339,557</td>
     </tr>
     <tr>
       <td><b>Organic Search Traffic</b></td>
@@ -273,6 +361,8 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>90% <span class="positive">(+1.1%)</span></td>
       <td>81% <span class="negative">(-9.1%)</span></td>
       <td>72% <span class="negative">(-11%)</span></td>
+      <td>58.4% <span class="negative">(-19%)</span></td>
+      <td>39.3% <span class="negative">(-33%)</span></td>
     </tr>
     <tr>
       <td><b>Sessions via Social Referral</b></td>
@@ -281,143 +371,184 @@ For locations, the next in the list are Germany, Canada, France, Australia, Russ
       <td>11,346 <span class="positive">(+2%)</span></td>
       <td>48,018 <span class="positive">(+3,960%)</span></td>
       <td>56,327 <span class="positive">(17%)</span></td>
+      <td>14,839 <span class="negative">(-74%)</span></td>
+      <td>11,939 <span class="negative">(-20%)</span></td>
     </tr>
   </tbody>
 </table>
+</div>
 
 
 <h2 id="top_pages">Top 30 pages</h2>
 
-About 50% of the traffic goes to my [API doc site](/learnapidoc). Looking at the top 30 pages of my site, the API documentation pages top the list, even though there are about 100 course pages and 3,000 blog pages.
+The API documentation course still dominates the top of the list, even though there are only about 100 course pages against roughly 3,000 blog pages. Nearly every page declined year over year &mdash; the exceptions are the blog home page, which was essentially flat, and my author page.
 
+<div class="tableScroll">
 <table>
-  <col width="60%">
-  <col width="40%">
+  <col width="64%">
+  <col width="18%">
+  <col width="18%">
   <thead>
   <tr>
     <th>Page</th>
-    <th>Page views</th>
+    <th>2025 views</th>
+    <th>Change vs. 2024</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger.html">/learnapidoc/pubapis_swagger.html</a></td>
-    <td>51,863</td>
+    <td><a href="/">I&#x27;d Rather Be Writing blog</a></td>
+    <td>45K</td>
+    <td><span class="positive">+2.3%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/">/learnapidoc/</a></td>
-    <td>45,101</td>
+    <td><a href="/learnapidoc/">Documenting APIs: A guide for technical writers and engineers</a></td>
+    <td>29K</td>
+    <td><span class="negative">-15.6%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html">/learnapidoc/docapis_doc_parameters.html</a></td>
-    <td>44,922</td>
+    <td><a href="/2018/10/15/ideal-number-of-slides-for-an-hour-long-presentations/">The ideal number of slides for an hour-long presentation, and other thoughts on preparing slides</a></td>
+    <td>7.8K</td>
+    <td><span class="negative">-60.9%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_access_json_values.html">/learnapidoc/docapis_access_json_values.html</a></td>
-    <td>36,769</td>
+    <td><a href="/learnapidoc/docapis_access_json_values.html">Access and print a specific JSON value</a></td>
+    <td>5.7K</td>
+    <td><span class="negative">-67.0%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_resource_endpoints.html">/learnapidoc/docapis_resource_endpoints.html</a></td>
-    <td>22,160</td>
+    <td><a href="/learnapidoc/docapis_doc_parameters.html">Step 3: Parameters (API reference tutorial)</a></td>
+    <td>5.6K</td>
+    <td><span class="negative">-61.6%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/2018/10/15/ideal-number-of-slides-for-an-hour-long-presentations">/2018/10/15/ideal-number-of-slides-for-an-hour-long-presentations</a></td>
-    <td>20,779</td>
+    <td><a href="/404.html">Page Not Found</a></td>
+    <td>6.9K</td>
+    <td><span class="negative">-18.8%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_install_curl.html">/learnapidoc/docapis_install_curl.html</a></td>
-    <td>15,741</td>
+    <td><a href="/blog/what-is-diataxis-documentation-framework.html">What is Diátaxis and should you be using it with your documentation?</a></td>
+    <td>4.7K</td>
+    <td><span class="negative">-35.8%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step6_security_object.html">/learnapidoc/pubapis_openapi_step6_security_object.html</a></td>
-    <td>13,939</td>
+    <td><a href="/learnapidoc/docapis_introtoapis.html">Chapter 1: Introduction to REST APIs</a></td>
+    <td>4.2K</td>
+    <td><span class="negative">-41.6%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc_pubapis_yaml.html">/learnapidoc_pubapis_yaml.html</a></td>
-    <td>13,682</td>
+    <td><a href="/quickreferenceguides/">Quick Reference Guide Templates</a></td>
+    <td>4.2K</td>
+    <td><span class="negative">-36.4%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_doc_sample_responses_and_schema.html">/learnapidoc/docapis_doc_sample_responses_and_schema.html</a></td>
-    <td>11,639</td>
+    <td><a href="/learnapidoc/docendpoints.html">Chapter 3: Documenting API endpoints</a></td>
+    <td>4K</td>
+    <td><span class="negative">-36.8%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docendpoints.html">/learnapidoc/docendpoints.html</a></td>
-    <td>11,634</td>
+    <td><a href="/learnapidoc/docapis_resource_endpoints.html">Step 2: Endpoints and methods (API reference tutorial)</a></td>
+    <td>3.9K</td>
+    <td><span class="negative">-55.1%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html">/learnapidoc/docapis_introtoapis.html</a></td>
-    <td>11,175</td>
+    <td><a href="/learnapidoc/docapis_intro_to_rest_api_doc.html">Introduction to REST API documentation</a></td>
+    <td>3.7K</td>
+    <td><span class="negative">-36.7%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step7_tags_object.html">/learnapidoc?pubapis_openapi_step7_tags_object.html</a></td>
-    <td>10,615</td>
+    <td><a href="/learnapidoc/pubapis_openapi_tutorial_overview.html">OpenAPI tutorial using Swagger Editor and Swagger UI: Overview</a></td>
+    <td>3.6K</td>
+    <td><span class="negative">-30.0%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step5_components_oject.html">/learnapidoc/pubapis_openapi_step5_components_oject.html</a></td>
-    <td>10,297</td>
+    <td><a href="/learnapidoc/docapis_what_is_a_rest_api.html">What is a REST API?</a></td>
+    <td>3.5K</td>
+    <td><span class="negative">-11.0%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/nativelibraryapis_create_javadoc.html">/learnapidoc/nativelibraryapis_create_javadoc.html</a></td>
-    <td>9,494</td>
+    <td><a href="/aboutme/">Tom Johnson</a></td>
+    <td>3.3K</td>
+    <td><span class="negative">-2.6%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapis_quickstart_stoplight.html">/learnapidoc/pubapis_openapis_quickstart_stoplight.html</a></td>
-    <td>9,265</td>
+    <td><a href="/blog/ai-is-accelerating-me.html">AI is accelerating my technical writing output, and other observations</a></td>
+    <td>3.1K</td>
+    <td><span class="negative">-34.7%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_morea_about_authorization.html">/learnapidoc/docapis_morea_about_authorization.html</a></td>
-    <td>9,143</td>
+    <td><a href="/learnapidoc/docapis_resource_descriptions.html">Step 1: Resource description (API reference tutorial)</a></td>
+    <td>2.9K</td>
+    <td><span class="negative">-42.8%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html">/learnapidoc/docapis_resource_descriptions.html</a></td>
-    <td>9,057</td>
+    <td><a href="/learnapidoc/pubapis_swagger.html">Swagger UI tutorial</a></td>
+    <td>2.8K</td>
+    <td><span class="negative">-56.8%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html">/learnapidoc/pubapis_openapi_tutorial_overview.html</a></td>
-    <td>8,907</td>
+    <td><a href="/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/">Quick Reference Guides: The Poetry of Technical Writing</a></td>
+    <td>2.4K</td>
+    <td><span class="negative">-45.1%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_combine_swagger_and_guide.html">/learnapidoc/pubapis_combine_swagger_and_guide.html</a></td>
-    <td>8,534</td>
+    <td><a href="/blog/movemate-review-standing-board.html">Movemate standing board review — fixing your back, legs from sedentary decline from a tech job</a></td>
+    <td>2.4K</td>
+    <td><span class="negative">-37.6%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/quickreferenceguides.html">/quickreferenceguides.html</a></td>
-    <td>7,755</td>
+    <td><a href="/learnapidoc/pubapis_redocly.html">Redocly tutorial -- authoring and publishing API docs with Redocly&#x27;s command-line tools</a></td>
+    <td>2.4K</td>
+    <td><span class="negative">-35.2%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_redocly.html">/learnapidoc/pubapis_redocly.html</a></td>
-    <td>7,661</td>
+    <td>Documenting APIs: A guide for technical writers and engineers (PDF)</td>
+    <td>2.3K</td>
+    <td><span class="negative">-45.4%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step3_servers_object.html">/learnapidoc/pubapis_openapi_step3_servers_object.html</a></td>
-    <td>7,411</td>
+    <td><a href="/learnapidoc/docapis_install_curl.html">curl intro and installation</a></td>
+    <td>2.2K</td>
+    <td><span class="negative">-59.9%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_make_curl_call.html">/learnapidoc/docapis_make_curl_call.html</a></td>
-    <td>7,382</td>
+    <td><a href="/learnapidoc/pubapis_yaml.html">Working in YAML (OpenAPI tutorial)</a></td>
+    <td>2.2K</td>
+    <td><span class="negative">-54.5%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/blog/writing-full-length-articles-with-claude-ai.html">/blog/writing-full-length-articles-with-claude-ai.html</a></td>
-    <td>7,217</td>
+    <td><a href="/learnapidoc/docapis_doc_sample_responses_and_schema.html">Step 5: Response example and schema (API reference tutorial)</a></td>
+    <td>2.2K</td>
+    <td><span class="negative">-53.1%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step4_paths_object.html">/learnapidoc/pubapis_openapi_step4_paths_object.html</a></td>
-    <td>6,988</td>
+    <td><a href="/learnapidoc/docapis_make_curl_call.html">Make a curl call</a></td>
+    <td>1.9K</td>
+    <td><span class="negative">-59.0%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_curl_with_petstore.html">/learnapidoc/docapis_curl_with_petstore.html</a></td>
-    <td>6,817</td>
+    <td><a href="/learnapidoc/pubapis_openapi_step7_tags_object.html">Step 7: The tags object (OpenAPI tutorial)</a></td>
+    <td>1.8K</td>
+    <td><span class="negative">-65.9%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html">/learnapidoc/pubapis_openapi_step1_openapi_object.html</a></td>
-    <td>6,513</td>
+    <td><a href="/learnapidoc/nativelibraryapis_create_javadoc.html">Activity: Generate a Javadoc from a sample project</a></td>
+    <td>1.7K</td>
+    <td><span class="negative">-65.2%</span></td>
   </tr>
   <tr>
-    <td><a href="https://idratherbewriting.com/learnapidoc/docapis_doc_sample_requests.html">/learnapidoc/docapis_doc_sample_requests.html</a></td>
-    <td>6,429</td>
+    <td><a href="/blog/writing-full-length-articles-with-claude-ai.html">My experience trying to write original, full-length human-sounding articles using Claude AI</a></td>
+    <td>1.5K</td>
+    <td><span class="negative">-68.7%</span></td>
+  </tr>
+  <tr>
+    <td><a href="/blog/2024-tech-comm-trends-and-predictions.html">My 2024 technical writing trends and predictions</a></td>
+    <td>1.1K</td>
+    <td><span class="negative">-87.4%</span></td>
   </tr>
   </tbody>
 </table>
+</div>
 
 <h2 id="analytical_posts">Previous posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
@@ -463,6 +594,17 @@ text-transform: none;
 
 table {
 min-width: 80%;
+}
+
+/* Seven years of data is wider than the content column on smaller screens. */
+.tableScroll {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.tableScroll table {
+  min-width: 100%;
+  white-space: nowrap;
 }
 
 </style>
