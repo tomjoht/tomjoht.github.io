@@ -1,0 +1,80 @@
+name: Update Algolia index
+
+# Replaces the manual ./reindex.sh run. Same command, same gems — the only
+# difference is where the API key comes from.
+#
+# QUOTA NOTE: every changed record costs an indexing operation, and a full
+# reindex of this site is roughly 6,000 of them. So the push trigger below is
+# deliberately limited to content directories. Editing a layout, include, or
+# stylesheet can also change what gets extracted (`nodes_to_index` reads the
+# rendered HTML), but those edits tend to touch every page at once, which is
+# exactly the expensive case. Theme changes therefore do NOT auto-index — run
+# the workflow manually from the Actions tab when you want that picked up.
+
+on:
+  # Manual runs, for after a theme change or whenever you want a refresh.
+  # Use dry_run first if you want to see the record counts without spending them.
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (report what would change, push nothing)'
+        type: boolean
+        default: false
+
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+      - '_docs/**'
+      - '_ai/**'
+      - '_smartphones/**'
+      - '_zamm/**'
+      - 'pages/**'
+      - '_data/**'
+      - '_config.yml'
+      - '*.md'
+      - '*.html'
+
+# Queue overlapping runs rather than cancelling them. A cancelled run can stop
+# midway through applying its diff, leaving the index short a few records until
+# something triggers it again. Queued runs are cheap: once the first one applies
+# the changes, the next one's diff is nearly empty.
+concurrency:
+  group: algolia-index
+  cancel-in-progress: false
+
+jobs:
+  reindex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Fail early if the API key is missing
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+        run: |
+          if [ -z "$ALGOLIA_API_KEY" ]; then
+            echo "::error::ALGOLIA_API_KEY secret is not set."
+            echo "Add it under Settings > Secrets and variables > Actions."
+            echo "Use the Algolia *Admin* (write) key — the search-only key in"
+            echo "_config.yml cannot write to the index."
+            exit 1
+          fi
+
+      - name: Set up Ruby and install gems
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+
+      - name: Push records to Algolia
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            echo "Dry run — no records will be pushed."
+            bundle exec jekyll algolia --dry-run
+          else
+            bundle exec jekyll algolia
+          fi
