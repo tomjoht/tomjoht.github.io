@@ -19,6 +19,25 @@
     integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
   <!-- jQuery cookie -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  <script>
+    // Navgoco's `save` option persists which sidebar sections are open, but it
+    // calls $.cookie() from the old jQuery Cookie plugin, which this page does
+    // not load. Navgoco checks `$.cookie || (save = false)` and silently stops
+    // saving rather than erroring — so without this adapter the sidebar forgets
+    // its state on every page load. Map the two signatures it uses onto js-cookie.
+    (function ($, Cookies) {
+      if (!$ || !Cookies || $.cookie) { return; }
+      $.cookie = function (name, value, options) {
+        // navgoco reads with $.cookie(name) and writes with (name, value, opts)
+        if (arguments.length === 1) { return Cookies.get(name); }
+        return Cookies.set(name, value, options);
+      };
+      $.removeCookie = function (name, options) {
+        Cookies.remove(name, options);
+        return true;
+      };
+    }(window.jQuery, window.Cookies));
+  </script>
   <!-- Navgoco -->
   <script type="text/javascript" src="/assets/js/jquery.navgoco.min.js"></script>
 
