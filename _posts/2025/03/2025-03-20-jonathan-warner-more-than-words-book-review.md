@@ -1,5 +1,5 @@
 ---
-title: "Book review of Jonathan Warner's book 'More Than Words: How to think about writing in the age of AI'"
+title: "Book review of John Warner's book 'More Than Words: How to think about writing in the age of AI'"
 permalink: /blog/jonathan-warner-more-than-words-book-review
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-writing-technicalwriting-activity-7308890988062588929-MDna
 date: 2025-03-20
@@ -10,7 +10,7 @@ categories:
 keywords: 
 sidebar: sidebar_ai_book_club
 rebrandly: https://idbwrtng.com/jonathan-warner-more-than-words-book-review
-description: "Jonathan Warner's book <a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'><i>More Than Words: How to Think about Writing in the Age of AI</i></a> is a spirited defense about the value and humanity of writing without AI at a time when AI promises to replace many writing activities. Warner argues that writing involves thinking and feeling, and as we grapple with ways to identify, express, and articulate our ideas in writing, it's an experience that changes who we are."
+description: "John Warner's book <a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'><i>More Than Words: How to Think about Writing in the Age of AI</i></a> is a spirited defense about the value and humanity of writing without AI at a time when AI promises to replace many writing activities. Warner argues that writing involves thinking and feeling, and as we grapple with ways to identify, express, and articulate our ideas in writing, it's an experience that changes who we are."
 ---
 
 * TOC

@@ -1,6 +1,7 @@
 ---
 title: "Review of Yuval Noah Harari's \"Nexus\" &mdash; and why we don't need self-correcting mechanisms for \"alien intelligence\""
 permalink: /blog/review-harari-nexus-scms-and-alien-intelligence
+sidebar: sidebar_ai_book_club
 date: 2025-11-15
 categories:
 - ai

@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club discussion recording of 'Life 3.0: Being Human in the Age of Artificial Intelligence', by Max Tegmark"
 permalink: /blog/book-club-tegmark-life-3-0
+sidebar: sidebar_ai_book_club
 date: 2026-05-17
 categories:
 - ai-book-club

@@ -1,6 +1,7 @@
 ---
 title: "Recording of AI book club session of 'Hands-On Large Language Models: Language Understanding and Generation', by Jay Alammar and Maarten Grootendorst"
 permalink: /blog/book-club-hands-on-llms
+sidebar: sidebar_ai_book_club
 date: 2025-10-26
 categories:
 - ai

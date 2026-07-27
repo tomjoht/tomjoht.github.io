@@ -1,6 +1,7 @@
 ---
 title: "Book review of 'If Anyone Builds It, Everyone Dies'—why AI doom isn't as visceral as nuclear war"
 permalink: /blog/book-review-if-anyone-builds-it-everyone-dies
+sidebar: sidebar_ai_book_club
 date: 2026-01-03
 categories:
 - ai

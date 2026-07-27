@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club recording of God, Human, Animal, Machine"
 permalink: /blog/ai-book-club-god-human-animal-machine
+sidebar: sidebar_ai_book_club
 date: 2026-01-24
 categories:
 - ai

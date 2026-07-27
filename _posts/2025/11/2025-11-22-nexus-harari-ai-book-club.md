@@ -1,6 +1,7 @@
 ---
 title: "Recording, transcript, and notes for AI Book Club discussion of Yuval Noah Harari's Nexus"
 permalink: /blog/nexus-harari-ai-book-club
+sidebar: sidebar_ai_book_club
 date: 2025-11-22
 categories:
 - ai

@@ -5,7 +5,6 @@ date: 2025-06-01
 categories:
 - academics-and-practitioners
 - ai
-- ai-book-club
 - api-doc
 - api-doc-site-updates
 - beginners

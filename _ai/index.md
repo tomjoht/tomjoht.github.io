@@ -1,5 +1,5 @@
 ---
-title: "AI-powered documentation"
+title: "AI courses hub"
 permalink: ai/index.html
 keywords:
 sidebar: sidebar_ai
@@ -11,7 +11,7 @@ last-modified: 2026-07-26
 {% assign promptCount = site.data.sidebar_prompt_engineering.folders.first.folderitems | size %}
 {% assign useCasesCount = site.data.sidebar_ai_use_cases.folders.first.folderitems | size %}
 
-This section gathers everything I've written about AI and technical communication, organized into three self-contained courses. They don't build on each other, and none of them assumes you've finished the others — start with whichever matches what you're trying to do right now. Each course tracks your progress as you move through it, so you can leave and pick up where you left off.
+This section gathers what I've written about AI and technical communication, organized into three self-contained courses. They don't build on each other, and none of them assumes you've finished the others — start with whichever matches what you're trying to do right now. Each course tracks your progress as you move through it, so you can leave and pick up where you left off.
 
 <div class="courseTiles">
 

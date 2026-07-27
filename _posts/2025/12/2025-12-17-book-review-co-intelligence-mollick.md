@@ -1,6 +1,7 @@
 ---
 title: 'Book review of "Co-Intelligence: Living and Working with AI" by Ethan Mollick — an educator embraces experience-based AI learning'
 permalink: /blog/book-review-co-intelligence-mollick
+sidebar: sidebar_ai_book_club
 date: 2025-12-17
 categories:
 - ai

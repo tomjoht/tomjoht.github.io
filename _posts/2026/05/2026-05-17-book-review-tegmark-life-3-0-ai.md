@@ -1,6 +1,7 @@
 ---
 title: "Review of Max Tegmark's 'Life 3.0: Being Human in the Age of Artificial Intelligence'"
 permalink: /blog/book-review-tegmark-life-3-0-ai
+sidebar: sidebar_ai_book_club
 date: 2026-05-17
 categories:
 - ai

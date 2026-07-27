@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club recording of 'If Anyone Builds It, Everyone Dies'"
 permalink: /blog/ai-book-club-if-anyone-builds-it
+sidebar: sidebar_ai_book_club
 date: 2026-03-17
 categories:
 - ai

@@ -1,6 +1,7 @@
 ---
 title: "Looking back at the AI Book Club one year in"
 permalink: /blog/looking-at-book-club-one-year-in
+sidebar: sidebar_ai_book_club
 date: 2026-04-28
 categories:
 - ai-book-club

@@ -4,7 +4,6 @@ permalink: /blog/bakhtin-collapse-ai-expressive-writing
 date: 2026-01-30
 categories:
 - ai
-- ai-book-club
 - writing
 keywords: bakhtin, heteroglossia, ai, expressive writing, model collapse
 rebrandly: https://idbwrtng.com/bakhtin-collapse-ai-expressive-writing1
@@ -28,7 +27,7 @@ In brief, I argue that writers can use AI as a research assistant to add additio
 
 ## Writing categories: expressive vs encyclopedic
 
-First, let's acknowledge that "writing" is such a broad category that applying blanket statements about AI and writing without qualifying what type of writing we're talking about is generally misguided. This is a problem I encountered in [Jonathan Warner's *More Than Words*](/blog/jonathan-warner-more-than-words-book-review), which is otherwise an excellent book. Had Warner clarified the type of writing he was analyzing in the context of AI, it would have been easier for me to support his arguments.
+First, let's acknowledge that "writing" is such a broad category that applying blanket statements about AI and writing without qualifying what type of writing we're talking about is generally misguided. This is a problem I encountered in [John Warner's *More Than Words*](/blog/jonathan-warner-more-than-words-book-review), which is otherwise an excellent book. Had Warner clarified the type of writing he was analyzing in the context of AI, it would have been easier for me to support his arguments.
 
 In the corporate enterprise, a lot of writing happens, but very little of it is expressive. Few people care how AI-assisted the enterprise content is, as long as it's accurate and clear. For example, take technical documentation for APIs. In this genre, you're describing an API field, writing code, code comments, or internal procedures. By and large, when you have a scenario that's highly technical and impersonal, with no expectations about arguments and perspectives, AI does a good job at the writing without slipping into soulless superlatives and flowery sentences.
 

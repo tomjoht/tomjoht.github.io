@@ -367,6 +367,30 @@
                     {% endfor %}
 
                     {% endfor %}
+
+                    {% comment %}
+                    Generated folder items. A folder can set `source: ai_book_club`
+                    instead of listing folderitems by hand, and its entries are built
+                    from the `previous` list in _data/ai_book_club.yml. Adding a
+                    session to that file updates the sidebar too. Sessions without a
+                    recording URL are skipped.
+                    {% endcomment %}
+                    {% if folder.source == "ai_book_club" %}
+                    {% for session in site.data.ai_book_club.previous %}
+                    {% if session.recording.url %}
+                    {% assign sessionUrl = session.recording.url | split: "#" | first %}
+                    {% assign sessionTitle = session.book.title | split: ":" | first %}
+                    {% if page.url == sessionUrl %}
+                    <li class="level1items open"><a
+                        href="{{ sessionUrl | prepend: site.baseurl }}">{{ sessionTitle }} ({{ session.book.author }})</a></li>
+                    {% else %}
+                    <li class="level1items"><a
+                        href="{{ sessionUrl | prepend: site.baseurl }}">{{ sessionTitle }} ({{ session.book.author }})</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+
                   </ul>
                   {% endfor %}
 

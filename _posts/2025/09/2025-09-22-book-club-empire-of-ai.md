@@ -1,6 +1,7 @@
 ---
 title: "Recording of AI Book Club discussion of Karen Hao's Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI"
 permalink: /blog/book-club-empire-of-ai
+sidebar: sidebar_ai_book_club
 date: 2025-09-22
 categories:
 - ai

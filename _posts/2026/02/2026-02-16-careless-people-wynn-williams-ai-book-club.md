@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club recording, notes, and transcript for Sarah Wynn-Williams's Careless People"
 permalink: /blog/careless-people-wynn-williams-ai-book-club
+sidebar: sidebar_ai_book_club
 date: 2026-02-16
 categories:
 - ai

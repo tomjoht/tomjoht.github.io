@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club discussion of The Infinity Machine by Sebastian Mallaby"
 permalink: /blog/book-club-infinity-machine-mallaby
+sidebar: sidebar_ai_book_club
 date: 2026-06-28
 categories:
 - ai

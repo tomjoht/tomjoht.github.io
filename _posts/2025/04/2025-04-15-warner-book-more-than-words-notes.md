@@ -1,5 +1,5 @@
 ---
-title: "Notes and discussion for Jonathan Warner's <i>More Than Words: How to Think About Writing in the Age of AI</i> + AI Book Club recording"
+title: "Notes and discussion for John Warner's <i>More Than Words: How to Think About Writing in the Age of AI</i> + AI Book Club recording"
 permalink: /blog/warner-book-more-than-words-notes
 date: 2025-04-15
 categories:
@@ -11,7 +11,7 @@ keywords: ai book club, warner, ai
 sidebar: sidebar_ai_book_club
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-techcomm-technicalwriting-activity-7188934644409470976-pSfM
 rebrandly: https://idbwrtng.com/warner-book-more-than-words-notes
-description: "This post has notes and questions for discussion for <em><a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'>More Than Words: How to Think About Writing in the Age of AI</a></em>, published in February 2025 by Jonathan Warner. Warner's book, which explores what we lose when we outsource writing to AI, is the first book in the <a href='https://idratherbewriting.com/ai-book-club/'>AI Book Club: A Human in the Loop</a>."
+description: "This post has notes and questions for discussion for <em><a href='https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500'>More Than Words: How to Think About Writing in the Age of AI</a></em>, published in February 2025 by John Warner. Warner's book, which explores what we lose when we outsource writing to AI, is the first book in the <a href='https://idratherbewriting.com/ai-book-club/'>AI Book Club: A Human in the Loop</a>."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/warner_more_than_words.mp3
 podcast_file_size: 51.7
 podcast_duration: "59:40"
@@ -48,7 +48,7 @@ If you just want the audio, here it is:
 
 ## Links
 
-* My review: [Book review of Jonathan Warner's book *More Than Words: How to think about writing in the age of AI*](https://idratherbewriting.com/blog/jonathan-warner-more-than-words-book-review)
+* My review: [Book review of John Warner's book *More Than Words: How to think about writing in the age of AI*](https://idratherbewriting.com/blog/jonathan-warner-more-than-words-book-review)
 * Warner's substack blog: [The Biblioracle Recommends](https://biblioracle.substack.com/)
     * [Freedom's just another word](https://biblioracle.substack.com/p/freedoms-just-another-word)
     * [Horrors and Hopes](https://biblioracle.substack.com/p/horrors-and-hopes)
@@ -225,7 +225,7 @@ Here's a transcript of the book club meeting. (Note: This transcript was cleaned
 **Attendees:** Tom (Host), Mette, Superja, Sherry, Amy, Daniel, Frank, Molly, Peg
 
 * **Tom:** Let me briefly introduce the book club before we dive into the discussion. I've been running book clubs at work for a few years on different topics, mainly automotive and transportation, which is my documentation domain. I've found that reading has a positive effect, helping me engage at a deeper level and pulling me away from the ubiquitous short-form content, allowing for more thoughtful consideration.
-* AI is everywhere now, saturating conversations, but finding material that goes deep can be challenging. Much of the news focuses on company announcements or new models. I wanted to find books exploring AI in depth. We started with Jonathan Warner's book because it was one of the few directly addressing *writing*, although much of it isn't technical writing. Even so, it touches on aspects relevant to us as writers. Any high-level questions about the book club before we begin?
+* AI is everywhere now, saturating conversations, but finding material that goes deep can be challenging. Much of the news focuses on company announcements or new models. I wanted to find books exploring AI in depth. We started with John Warner's book because it was one of the few directly addressing *writing*, although much of it isn't technical writing. Even so, it touches on aspects relevant to us as writers. Any high-level questions about the book club before we begin?
 * I'm based in Seattle, been here four years, previously in Santa Clara for about eight. I work at Google now, before that Amazon and some startups. While we might frame discussion around technical communication, feel free to bring in any angle you find interesting.
 
 **(Initial Reactions to the Book)**

@@ -62,7 +62,7 @@ previous:
 
   - date: "June 28, 2026"
     recording: 
-      url: "/blog/book-club-inifity-machine-mallaby"
+      url: "/blog/book-club-infinity-machine-mallaby"
       text: "Meeting recording"
     book:
       title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
@@ -274,4 +274,4 @@ previous:
     notes_url: "https://idratherbewriting.com/blog/warner-book-more-than-words-notes"
     review:
       url: "/blog/jonathan-warner-more-than-words-book-review"
-      text: "Book review of Jonathan Warner's book 'More Than Words: How to think about writing in the age of AI'"
+      text: "Book review of John Warner's book 'More Than Words: How to think about writing in the age of AI'"

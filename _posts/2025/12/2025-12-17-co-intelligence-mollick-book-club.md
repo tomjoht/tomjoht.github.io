@@ -1,6 +1,7 @@
 ---
 title: "AI Book Club recording, notes, and transcript for Ethan Mollick's Co-Intelligence"
 permalink: /blog/co-intelligence-mollick-book-club
+sidebar: sidebar_ai_book_club
 date: 2025-12-17
 categories:
 - ai
