@@ -1,5 +1,10 @@
   .inpostComics img {
+    // Was a flat max-width: 250px, which overflowed the column (columns are
+    // ~227px of content at full width) and overlapped the neighbouring ad on
+    // narrower screens. Scale to the column instead, capped at the original size.
+    width: 100%;
     max-width: 250px;
+    height: auto;
   }
 
   .inpostComics {
@@ -21,7 +26,7 @@
   }
 
   .comicLink {
-    max-width: 260px;
+    max-width: 100%;
   }
 
   .container.comicBlock {}
@@ -58,9 +63,10 @@
   }
 
   .row.inpostComics>div {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
 
   .inpostComics img {
     margin-bottom: 6px;
