@@ -1,4 +1,6 @@
 sidebartitle: Documenting APIs
+progress: true
+progressnoun: Topic
 folders:
 
 - title: "Course overview"

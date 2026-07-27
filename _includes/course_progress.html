@@ -1,12 +1,14 @@
 {% comment %}
 Course progress bar (gamified).
 
-Standalone widget — unrelated to progress.html, which serves the docs collection.
+Scope: progress is tracked per sidebar *folder*, not per sidebar file. For a
+course whose sidebar has one folder (the AI courses) that's the whole course.
+For a multi-chapter course like the API course, each chapter gets its own bar,
+so readers get a finishable goal instead of one bar spanning 168 topics.
 
-The lesson sequence comes from the page's own sidebar data file, so each course
-tracks progress independently and new lessons are picked up automatically. To
-enable the bar for a course, add `progress: true` (and optionally
-`progresslabel:`) to the top of that course's sidebar YAML.
+To enable, add `progress: true` to the course's sidebar YAML. Optional keys:
+  progresslabel: shown as the heading (single-folder sidebars only)
+  progressnoun:  what to call an item, e.g. "Topic". Defaults to "Lesson".
 
 Set `course_progress: false` in a page's frontmatter to suppress the bar there.
 {% endcomment %}
@@ -15,25 +17,50 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
 
 {% if site.format == "web" and page.course_progress != false and sidebarData.progress %}
 
-{% comment %} Pass 1: count the lessons and locate the current one. {% endcomment %}
-{% assign totalLessons = 0 %}
-{% assign currentIndex = 0 %}
+{% comment %} Locate the folder (chapter) that contains this page. {% endcomment %}
+{% assign currentFolderIndex = -1 %}
 {% for folder in sidebarData.folders %}
   {% for item in folder.folderitems %}
-    {% if item.title and item.type != "print" %}
-      {% assign totalLessons = totalLessons | plus: 1 %}
-      {% if item.jurl == page.url %}
-        {% assign currentIndex = totalLessons %}
-      {% endif %}
+    {% if item.jurl == page.url %}
+      {% assign currentFolderIndex = forloop.parentloop.index0 %}
     {% endif %}
   {% endfor %}
 {% endfor %}
 
+{% if currentFolderIndex >= 0 %}
+{% assign currentFolder = sidebarData.folders[currentFolderIndex] %}
+{% assign folderCount = sidebarData.folders | size %}
+
+{% comment %} Count the items in this chapter and find where we are. {% endcomment %}
+{% assign totalLessons = 0 %}
+{% assign currentIndex = 0 %}
+{% for item in currentFolder.folderitems %}
+  {% if item.title and item.type != "print" %}
+    {% assign totalLessons = totalLessons | plus: 1 %}
+    {% if item.jurl == page.url %}
+      {% assign currentIndex = totalLessons %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 {% if currentIndex > 0 and totalLessons > 1 %}
 {% assign startPercent = currentIndex | times: 100 | divided_by: totalLessons %}
-{% assign courseLabel = sidebarData.progresslabel | default: sidebarData.sidebartitle %}
+{% assign progressNoun = sidebarData.progressnoun | default: "Lesson" %}
 
-<div class="courseProgress" data-course="{{ page.sidebar | slugify }}" data-total="{{ totalLessons }}" data-current="{{ currentIndex }}">
+{% comment %}
+Single-folder sidebars keep their original label and storage key so existing
+readers don't lose saved progress. Multi-folder sidebars key per chapter,
+otherwise all 17 chapters would share one bar.
+{% endcomment %}
+{% if folderCount > 1 %}
+  {% assign courseLabel = currentFolder.title %}
+  {% assign storageKey = page.sidebar | append: "-" | append: currentFolder.title | slugify %}
+{% else %}
+  {% assign courseLabel = sidebarData.progresslabel | default: sidebarData.sidebartitle %}
+  {% assign storageKey = page.sidebar | slugify %}
+{% endif %}
+
+<div class="courseProgress" data-course="{{ storageKey }}" data-total="{{ totalLessons }}" data-current="{{ currentIndex }}" data-noun="{{ progressNoun }}">
 
   <div class="courseProgress-head">
     <span class="courseProgress-title">{{ courseLabel }}</span>
@@ -44,22 +71,20 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
     <div class="courseProgress-fill js-cp-fill" style="width: {{ startPercent }}%"></div>
   </div>
 
-  {% comment %} Pass 2: one dot per lesson, in sidebar order. {% endcomment %}
+  {% comment %} One dot per item in this chapter, in sidebar order. {% endcomment %}
   <ol class="courseProgress-steps">
     {% assign lessonNumber = 0 %}
-    {% for folder in sidebarData.folders %}
-      {% for item in folder.folderitems %}
-        {% if item.title and item.type != "print" %}
-          {% assign lessonNumber = lessonNumber | plus: 1 %}
+    {% for item in currentFolder.folderitems %}
+      {% if item.title and item.type != "print" %}
+        {% assign lessonNumber = lessonNumber | plus: 1 %}
     <li class="courseProgress-step{% if lessonNumber == currentIndex %} is-current{% endif %}{% if lessonNumber <= currentIndex %} is-done{% endif %}" data-index="{{ lessonNumber }}">
       <a class="noCrossRef noExtIcon" href="{{ site.baseurl }}{{ item.jurl }}" title="{{ lessonNumber }}. {{ item.title }}"><span class="visually-hidden">{{ item.title }}</span><span aria-hidden="true">{{ lessonNumber }}</span></a>
     </li>
-        {% endif %}
-      {% endfor %}
+      {% endif %}
     {% endfor %}
   </ol>
 
-  <p class="courseProgress-status js-cp-status">Lesson {{ currentIndex }} of {{ totalLessons }}</p>
+  <p class="courseProgress-status js-cp-status">{{ progressNoun }} {{ currentIndex }} of {{ totalLessons }}</p>
 
 </div>
 
@@ -70,6 +95,7 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
 
   var total   = parseInt(el.getAttribute('data-total'), 10);
   var current = parseInt(el.getAttribute('data-current'), 10);
+  var noun    = el.getAttribute('data-noun') || 'Lesson';
   var key     = 'courseProgress:' + el.getAttribute('data-course');
 
   var fill    = el.querySelector('.js-cp-fill');
@@ -77,7 +103,7 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
   var status  = el.querySelector('.js-cp-status');
   var steps   = el.querySelectorAll('.courseProgress-step');
 
-  // Lessons you've actually opened, not just your position in the sequence.
+  // Pages you've actually opened, not just your position in the sequence.
   // Falls back to position-based progress wherever storage is unavailable.
   var visited = [];
 
@@ -89,7 +115,7 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
     visited = [];
   }
 
-  // Drop anything past the end, in case the course shrank since the last visit.
+  // Drop anything past the end, in case the chapter shrank since the last visit.
   visited = visited.filter(function (n) { return n >= 1 && n <= total; });
 
   var previous = Math.round((visited.length / total) * 100);
@@ -114,9 +140,9 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
 
   if (count >= total) {
     el.classList.add('is-complete');
-    status.textContent = 'You’ve read all ' + total + ' lessons. Nicely done.';
+    status.textContent = 'You’ve read all ' + total + ' ' + noun.toLowerCase() + 's here. Nicely done.';
   } else {
-    status.textContent = 'Lesson ' + current + ' of ' + total + ' · ' +
+    status.textContent = noun + ' ' + current + ' of ' + total + ' · ' +
       count + ' read, ' + (total - count) + ' to go';
   }
 
@@ -131,5 +157,6 @@ Set `course_progress: false` in a page's frontmatter to suppress the bar there.
 }());
 </script>
 
+{% endif %}
 {% endif %}
 {% endif %}
