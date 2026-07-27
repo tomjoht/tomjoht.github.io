@@ -109,7 +109,7 @@ Find your pet's name by passing the ID into the `/pet/{petID}` endpoint:
     {"id":51231236,"category":{"id":4,"name":"test"},"name":"mr. fluffernutter","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
     ```
 
-    You can format the JSON by pasting it into a [JSON formatting tool](http://jsonprettyprint.com/):
+    You can format the JSON by pasting it into a [JSON formatting tool](https://jsonformatter.org/json-pretty-print):
 
     ```json
     {
@@ -170,7 +170,7 @@ One concept important to understand with HTTP methods is "idempotency." Roy Fiel
 
 In other words, with idempotent methods, you can run them multiple times without multiplying the results. Idempotent methods include GET, PUT, and DELETE, while POST is not (see [8.1.3](https://tools.ietf.org/html/rfc7231#section-8.1.3) for a more detailed list).
 
-Todd Fredrich explains idempotency by [comparing it to a pregnant cow](http://www.restapitutorial.com/lessons/idempotency.html). Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session.
+Todd Fredrich explains idempotency by [comparing it to a pregnant cow](https://www.restapitutorial.com/introduction/idempotence.html). Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session.
 
 {% include random_ad4.html %}
 

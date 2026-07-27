@@ -46,7 +46,7 @@ You're in the right place. By the time you finish this course, you'll have a sol
 
 {% include random_ad4.html %}
 
-By the way, I keep adding to this course in a [Winchester Mystery House](https://www.winchestermysteryhouse.com/sarahs-story/) way, which means I keep adding rooms and extra hallways and doors, etc. If you were to print it out, the course would be more than 500 pages long. Few people get through the whole of it, and by the time they do, I've usually added a new section. So jump in and read through the topics you find most relevant and interesting. Don't feel compelled to get through it all.
+By the way, I keep adding to this course in a [Winchester Mystery House](https://winchestermysteryhouse.com/) way, which means I keep adding rooms and extra hallways and doors, etc. If you were to print it out, the course would be more than 500 pages long. Few people get through the whole of it, and by the time they do, I've usually added a new section. So jump in and read through the topics you find most relevant and interesting. Don't feel compelled to get through it all.
 
 {% include random_ad2.html %}
 

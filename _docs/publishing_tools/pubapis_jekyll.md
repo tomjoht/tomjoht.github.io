@@ -40,7 +40,7 @@ Static site generators give you a lot of flexibility. They're a good choice if y
 
 One of the questions people ask about authoring content with static site generators is how you see the output and formatting given that you're working strictly in text. For example, how do you see images, links, lists, or other formatting if you're authoring in text?
 
-Here's what the current view of my Jekyll project in [Atom editor](https://atom.io/) looks like:
+Here's what a Jekyll project looks like open in a text editor. (This screenshot is from Atom, which GitHub sunset in 2022 &mdash; I work in [VS Code](https://code.visualstudio.com/) now, but the layout is the same: files on the left, Markdown in the middle.)
 
 <figure><img class="docimage large" src="{{site.api_media}}/writinginjekyll.png" alt="Atom text editor view while working in Jekyll" /><figcaption>Atom text editor view while working in Jekyll</figcaption></figure>
 
@@ -66,7 +66,7 @@ Configuration file: /Users/tomjohnson/projects/learnapidoc/_config.yml
 ```
 
 {: .tip}
-If you use Atom editor, you can use a terminal built directly into Atom (I use the [PlatformIO IDE Terminal](https://atom.io/packages/platformio-ide-terminal) package).
+Most editors have a terminal built in, so you don't have to switch windows to run the build. In [VS Code](https://code.visualstudio.com/), it's **Terminal > New Terminal**.
 
 You then copy the preview server address (in this case, `http://127.0.0.1:4000/learnapidoc/`) and paste it into your browser. This preview server continuously builds your site with each file change you save. I usually view this browser preview side by side with my Atom editor to make sure the formatting and images look right:
 
@@ -96,7 +96,7 @@ In this activity, we'll publish to CloudCanon using the [Documentation Theme for
 
 	 When you fork a project, a copy of the project (using the same name) gets added to your own Github repository. You'll see the project at <code>https://github.com/{your github username}/documentation-theme-jekyll</code>.
 
-	 Sometimes people fork repositories to make changes and then propose pull requests of the fork to the original repo. Other times people fork repositories to create a starting point for a splinter project from the original. Github is all about social coding &mdash; one person's ending point is another person's starting point, and multiple projects can be merged into each other. You can [learn more about forking here](https://help.github.com/articles/fork-a-repo/).
+	 Sometimes people fork repositories to make changes and then propose pull requests of the fork to the original repo. Other times people fork repositories to create a starting point for a splinter project from the original. Github is all about social coding &mdash; one person's ending point is another person's starting point, and multiple projects can be merged into each other. You can [learn more about forking here](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo).
 
 2.  Sign up for a free account at [CloudCannon](https://cloudcannon.com); sign in using your GitHub credentials.
 3.  Once you sign in, click **Create Site** and then give the new site a name. Then press **Enter** to create the site.
@@ -156,7 +156,7 @@ For inspiration, here are some websites using Jekyll:
 *  [Bootstrap](http://getbootstrap.com/)
 *  [Stack Overflow blog](https://blog.stackoverflow.com/)
 *  [RethinkDB](http://rethinkdb.com/docs/)
-*  [Github docs](https://help.github.com/)
+*  [Github docs](https://docs.github.com/)
 *  [Basekit](http://docs.basekit.com/)
 *  [Jekyllrb docs](http://jekyllrb.com/docs/home/)
 *  [SendGrid docs](https://sendgrid.com/docs)

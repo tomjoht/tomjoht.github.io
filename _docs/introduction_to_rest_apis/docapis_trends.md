@@ -65,7 +65,7 @@ Scott's survey does include some API-related information. He found that "Fifty-e
 
 These responses about APIs are more relevant to developer docs, but they don't go far enough. More developer-oriented topics are left out, such as how writers integrate with engineering Scrum teams, how writers interact with engineers on documentation, how writers handle the OpenAPI spec and other reference docs, and more.
 
-Don't get me wrong. I highly value these general surveys and the information they provide. But I was perplexed to see Adobe FrameMaker and Microsoft Word used so prominently. Admittedly, the tools usage reported by these surveys wasn't too far off from previous WritersUA Tools surveys. For example, in 2014, WritersUA found that 52% of writers (199 out of 382 respondents) used FrameMaker ([2014 WritersUA Tools Survey](http://www.welinske.com/2014-writersua-tools-survey/)).
+Don't get me wrong. I highly value these general surveys and the information they provide. But I was perplexed to see Adobe FrameMaker and Microsoft Word used so prominently. Admittedly, the tools usage reported by these surveys wasn't too far off from previous WritersUA Tools surveys. For example, in 2014, WritersUA found that 52% of writers (199 out of 382 respondents) used FrameMaker ([2014 WritersUA Tools Survey](https://web.archive.org/web/20221127074141/https://welinske.com/2014-writersua-tools-survey/)).
 
 Reading these surveys made me wonder &mdash; is it really the case that so many tech writers are still using FrameMaker and Word? That didn't match what I was seeing around me in Silicon Valley. But was I living in a bubble, an anomaly to the rest of the tech comm world? Were trends toward docs-as-code tools much more widespread and common in developer docs? The general tech comm surveys left me with more questions than answers.
 
@@ -120,9 +120,9 @@ Given this workflow, which would you say is the author's "tool"? It's unclear. T
 
 Complicating the tool question even more are writers who don't have any tools outside their IDE, or integrated development environment (for example, IntelliJ IDEA). Some writers, usually engineers who are also writing docs, work only in code annotations and OpenAPI specifications. There is no "authoring tool." For these writers, Markdown is their tool, as they might format annotations with Markdown and use scripts to export the Markdown into different systems. Many systems can import or export Markdown, making it a somewhat standard source format in this space (despite the many variants of Markdown flavors).
 
-For examples of how multiple tools are used together in different combinations and solutions, see [Jamstack examples](https://jamstack.org/examples/). Jamstack refers to serverless websites built with JavaScript, APIs, and Markup and reflects modern web development trends. Jamstack excludes tools such as WordPress or other web apps that would require a heavy backend component on a server to run.
+For examples of how multiple tools are used together in different combinations and solutions, see [Jamstack](https://jamstack.org/). Jamstack refers to serverless websites built with JavaScript, APIs, and Markup and reflects modern web development trends. Jamstack excludes tools such as WordPress or other web apps that would require a heavy backend component on a server to run.
 
-<a class="noExtIcon" href="https://jamstack.org/examples/"><img style="border: 1px solid #dedede" src="{{site.api_media}}/jamestackexamples.png" alt="Jamstack examples" /></a>
+<a class="noExtIcon" href="https://jamstack.org/"><img style="border: 1px solid #dedede" src="{{site.api_media}}/jamestackexamples.png" alt="Jamstack examples" /></a>
 
 Overall, the survey results confirmed the predominance of the docs-as-code approach in the dev docs space. If you're working with developer docs, this approach is trending. However, there's also a decent amount of wikis, Oxygen XML, and MadCap Flare use, probably among those groups that have more robust localization and PDF requirements.
 
@@ -273,7 +273,7 @@ Tom Johnson is a senior technical writer for Amazon in Sunnyvale, California. He
 * [2020 Developer Survey](https://insights.stackoverflow.com/survey/2020). *Stack Overflow.*
 * Abel, Scott. [Slides: The State of Technical Communication: 2019](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf). *The Content Wrangler.*
 * Abel, Scott. [Survey Reveals Top Tools, Trends, and Technologies in Use in Technical Communication Teams](https://www.stc.org/intercom/2019/01/survey-reveals-top-tools-trends-and-technologies-in-use-in-technical-communication-teams/). *STC Intercom*. Dec 2018.
-* Abel, Scott. [Webinar: The State of Technical Communication: 2019](https://www.brighttalk.com/webcast/9273/338293/the-state-of-technical-communication-2019). *The Content Wrangler.* BrightTALK. Dec 13, 2018.
+* Abel, Scott. Webinar: The State of Technical Communication: 2019. *The Content Wrangler.* BrightTALK. Dec 13, 2018. (No longer available online.)
 * Bowles, Nellie. [A New Luxury Retreat Caters to Elderly Workers in Tech (Ages 30 and Up)](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html). *New York Times*. Mar 4, 2019.
 * Carliner, Saul and Chen, Yuan. [Job and Career Satisfaction Among Technical Communicators](https://www.stc.org/intercom/2019/01/job-and-career-satisfaction-among-technical-communicators/). *STC Intercom*. Dec 2018.
 * Carliner, Saul and Chen, Yuan. [Professional Development of Technical Communicators](https://www.stc.org/intercom/2019/01/professional-development-of-technical-communicators/).  *STC Intercom*. Dec 2018.

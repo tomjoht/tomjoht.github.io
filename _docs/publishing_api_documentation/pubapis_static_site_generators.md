@@ -44,7 +44,7 @@ Because you're working with text files, you usually store your project files (bu
 
 When you're ready to publish your site, you can usually build the site directly from your Git repository, rather than building it locally and then uploading the files to a web server. This means your code repository becomes the starting point for your publishing and deployment pipeline. "Continuous delivery," as it's called, eliminates the need to manually build your site and deploy the build. Instead, you just push a commit to your repository, and the continuous delivery mechanism builds and deploys it for you.
 
-Although there are hundreds of static site generators (you can view a comprehensive list at [Staticgen.com](https://www.staticgen.com/)), only a handful of are probably relevant for documentation. I'll consider these several here:
+Although there are hundreds of static site generators (you can view a comprehensive list at [Staticgen.com](https://jamstack.org/generators/)), only a handful of are probably relevant for documentation. I'll consider these several here:
 
 * [Jekyll](#jekyll)
 * [Hugo](#hugo)
@@ -130,15 +130,15 @@ Because Sphinx was designed from the ground up as a documentation tool, not just
 
 For continuous deployment with your hosting, Sphinx can be used with the [readthedocs.com](https://readthedocs.com/) platform. Overall, Sphinx has a passionate fan base among those who use it, especially among the Python community. However, because Sphinx was specifically designed as a documentation tool, the community might not be as large as some of the other static site generator communities (which use the static site generators for building general websites, not just documentation sites).
 
-As of October 2021, [Staticgen.com](https://www.staticgen.com/) shows the number of stars, forks, and issues as follows:
+As of October 2021, [Staticgen.com](https://jamstack.org/generators/) shows the number of stars, forks, and issues as follows:
 
-<figure><a target="_blank" class="noExtIcon" href="https://www.staticgen.com/"><img class="docimage" src="{{site.api_media}}/staticgendisplay4.png" alt="Top static site generators" /></a><figcaption>Top static site generators</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://jamstack.org/generators/"><img class="docimage" src="{{site.api_media}}/staticgendisplay4.png" alt="Top static site generators" /></a><figcaption>Top static site generators</figcaption></figure>
 
 On the Staticgen.com site, the star icon represents the number of users who have "starred" the project (basically followed its activity). The forked icon represents the number of repo clones that exist registered on their platform (GitHub, etc.). The bug icon represents the number of open issues logged against the project. To gauge how active the project is, browse the GitHub source and look to see how regular the commits are.
 
 {% include image_ad_right.html %}
 
-Next, Hugo, and Gatsby are the most common static site generators. If you look at [Staticgen.com](https://www.staticgen.com/), you'll see that between Hugo and Sphinx, there are many other more popular static site generators.  But I called out Sphinx here because of its popularity *among documentation groups* and for its integration with [Read the Docs](pubapis_hosting_and_deployment.html#readthedocs). That's what you have to keep in mind with static site generators &mdash; a particular option might be more popular, but for what purpose? Building general websites, or building documentation websites? Documentation websites tend to have unique needs and requirements (like a robust sidebar), so don't be tricked by merely choosing the most popular options listed in staticgen.com.
+Next, Hugo, and Gatsby are the most common static site generators. If you look at [Staticgen.com](https://jamstack.org/generators/), you'll see that between Hugo and Sphinx, there are many other more popular static site generators.  But I called out Sphinx here because of its popularity *among documentation groups* and for its integration with [Read the Docs](pubapis_hosting_and_deployment.html#readthedocs). That's what you have to keep in mind with static site generators &mdash; a particular option might be more popular, but for what purpose? Building general websites, or building documentation websites? Documentation websites tend to have unique needs and requirements (like a robust sidebar), so don't be tricked by merely choosing the most popular options listed in jamstack.org/generators.
 
 ## Gatsby
 
@@ -146,7 +146,7 @@ Next, Hugo, and Gatsby are the most common static site generators. If you look a
 
 In selecting a static site generator, I don't recommend using an application-based static site generator. You're writing docs and primarily working in Markdown and HTML. You're probably not building more extensive web app logic. You mainly want a tool that will take your Markdown and publish the HTML. Your company might want to create custom pipelines that push the published HTML into some other framework or system, and having a simpler static site generator will be advantageous in these scenarios. In general, stick with simple.
 
-However, if your larger goal is to build a developer portal, with all the internal application logic (for example, API keys and developer profiles) that goes along with a portal, Gatsby might  be the system your UX team chooses to use. Leveraging React components can speed development time, and some tools such as [Redoc](pubapis_redocly.html) offer [developer portals build on Gatsby](https://redoc.ly/developer-portal/). If the rest of your developer portal is built on Gatsby, it might be a sound choice for your docs as well.
+However, if your larger goal is to build a developer portal, with all the internal application logic (for example, API keys and developer profiles) that goes along with a portal, Gatsby might  be the system your UX team chooses to use. Leveraging React components can speed development time, and some tools such as [Redoc](pubapis_redocly.html) offer [developer portals build on Gatsby](https://redocly.com/developer-portal/). If the rest of your developer portal is built on Gatsby, it might be a sound choice for your docs as well.
 
 ## MkDocs {#mkdocs}
 

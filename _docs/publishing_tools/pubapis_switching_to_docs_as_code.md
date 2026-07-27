@@ -230,7 +230,7 @@ Although we were using open source tools, our solution scaled for the enterprise
 
 We already had some engineering teams interacting in the repo. Our goal was to empower lots of engineering teams with the ability to plug into this system and begin authoring. Ideally, we could have dozens of different engineering groups owning and contributing content, with the tech writers acting more like facilitators and editors.
 
-No licenses or seats were required to scale out the authoring. A writer just used Atom editor (or another IDE). The writer would open up the project and work with the text, treating docs like code.
+No licenses or seats were required to scale out the authoring. A writer just used a free text editor such as VS Code (or another IDE). The writer would open up the project and work with the text, treating docs like code.
 
 Within the first few weeks of launching our system, we found that engineers liked to contribute updates using the same code review tools they used with software projects. This use of code review tools simplified the editing workflow. But it also created more learning on our part, because it meant we would need to learn these code review tools, how to push to the code review system, how to merge updates from the reviews, and so forth. Trying to evaluate a doc contribution by looking at a diff file in a code review tool is more annoying than helpful. I prefer to see the content in its whole context, but engineers typically just want to focus in on what has changed.
 

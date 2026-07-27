@@ -11,6 +11,8 @@ last-modified: 2022-06-01
 
 {% include coffeeshopbook.html %}
 
+{{site.data.alerts.warning}}Blobr appears to have shut down &mdash; blobr.io no longer resolves, and the example portal linked below is offline. This topic is kept for the API-portal patterns it illustrates, but you can't follow along with the tool itself.{{site.data.alerts.end}}
+
 With [Blobr](https://www.blobr.io/){: rel="nofollow"}, you can create an API store to launch and grow an API business with different monetization models. In the same Blobr portal, you can also include documentation that describes the precise workflow for each use case, helping API consumers easily onboard with your API. You can also customize your portal's name, logo, colors, domain name, add support chat integration, and more.
 
 *Note: Blobr is one of the sponsors of my site.*

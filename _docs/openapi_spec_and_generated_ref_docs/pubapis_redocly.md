@@ -11,7 +11,7 @@ last-modified: 2024-11-10
 
 {% include coffeeshopbook.html %}
 
-[Redocly](https://redoc.ly/) provides a variety of tools for working with API docs. Using Redocly's command-line tools, you can split the OpenAPI definition into many sub-files, and then later bundle up the discrete files into a single file during the publishing stage. You can generate your docs into one of the most attractive outputs available for REST API docs, including integration with conceptual topics as well. Redocly also offers more robust developer portals and SaaS offerings that cover the full authoring and publishing lifecycle.
+[Redocly](https://redocly.com/) provides a variety of tools for working with API docs. Using Redocly's command-line tools, you can split the OpenAPI definition into many sub-files, and then later bundle up the discrete files into a single file during the publishing stage. You can generate your docs into one of the most attractive outputs available for REST API docs, including integration with conceptual topics as well. Redocly also offers more robust developer portals and SaaS offerings that cover the full authoring and publishing lifecycle.
 
 * TOC
 {:toc}
@@ -89,7 +89,7 @@ Redocly has a variety of products, so let's first clarify these tools before div
  </tbody>
 </table>
 
-This article will focus mostly on the authoring experience working with the OpenAPI definition using the command line tools. For more details about Redocly's Developer Portal and Workflows product, see the Products menu on [Redocly's site](https://redoc.ly). 
+This article will focus mostly on the authoring experience working with the OpenAPI definition using the command line tools. For more details about Redocly's Developer Portal and Workflows product, see the Products menu on [Redocly's site](https://redocly.com). 
 
 ## Redocly CLI Walkthrough tutorial
 
@@ -107,7 +107,7 @@ This tutorial will give you a sense of how the Redocly CLI tools work and how to
 The sections aren't necessarily sequential, but they proceed through Redocly's tools in a logical way to become familiar with different aspects of the products. Also, the tutorial uses a sample OpenAPI definition related to the OpenWeatherMap API (used elsewhere in the course). Also, the instructions were written using a Mac. There might not be any differences with Windows, but note that Windows wasn't used here.
 
 {: .note}
-This tutorial is a brief exposure to Redocly's tools only. For more comprehensive documentation, see [Redocly's documentation](https://redoc.ly/docs/).
+This tutorial is a brief exposure to Redocly's tools only. For more comprehensive documentation, see [Redocly's documentation](https://redocly.com/docs/).
 
 ### 1. Install the prerequisites {#prerequisites}
 
@@ -249,7 +249,7 @@ Redocly lets you run a linter against your OpenAPI definition to check for best 
     This configuration uses Redocly's recommended ruleset for linting. It also points to your main OpenAPI file using the proper structure.
       
     {: .tip}
-    See [Configuration file](https://redoc.ly/docs/cli/configuration/) for more configuration options.
+    See [Configuration file](https://redocly.com/docs/cli/configuration/) for more configuration options.
 
 2.  In a terminal prompt, `cd` to your `redocly_project` folder.
 
@@ -609,4 +609,4 @@ The tool offers several advantages:
 
 While Swagger UI remains popular due to its long history in the API documentation space, Redoc has gained significant adoption due to its modern design and feature set. The CLI-based toolset supports a [docs-as-code workflow](pubapis_docs_as_code.html), making it particularly appealing for teams already using version control and automation in their documentation process.
 
-For organizations looking for additional features and support, [Redocly's platform](https://redoc.ly/) offers enhanced capabilities including hosted documentation, automated builds, and team collaboration features.  You can start a [free trial here](https://app.redoc.ly/org/idratherbewriting/start-trial) or learn more at [Redocly](https://redoc.ly/).
+For organizations looking for additional features and support, [Redocly's platform](https://redocly.com/) offers enhanced capabilities including hosted documentation, automated builds, and team collaboration features.  You can start a [free trial here](https://app.redoc.ly/org/idratherbewriting/start-trial) or learn more at [Redocly](https://redocly.com/).

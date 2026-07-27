@@ -32,7 +32,7 @@ Unlike other wikis, the GitHub wiki you create is its own repository that you ca
 
 {% include image_ad_right.html %}
 
-With GitHub, you write wiki pages in Markdown syntax. There's a special flavor of Markdown syntax for GitHub wikis called [Github-flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), or GFM. The GitHub Flavored Markdown allows you to create tables, add classes to code blocks (for proper syntax highlighting), and more.
+With GitHub, you write wiki pages in Markdown syntax. There's a special flavor of Markdown syntax for GitHub wikis called [Github-flavored Markdown](https://docs.github.com/en/get-started/writing-on-github), or GFM. The GitHub Flavored Markdown allows you to create tables, add classes to code blocks (for proper syntax highlighting), and more.
 
 Because you can work with the wiki files locally, you can leverage other tools (such as static site generators, or even DITA) to generate the Markdown files if desired. Working locally, you can handle all the re-use, conditional filtering, and other logic outside of the GitHub wiki. You can then output your content as Markdown files and commit them to your GitHub repository.
 
@@ -64,7 +64,7 @@ To install Git on a Mac, see [Installing on Mac](https://git-scm.com/download/ma
 
 * Open the default Terminal application by doing to **Applications > Utilities > Terminal**.
 * Install [iTerm](https://www.iterm2.com/), a separate terminal app.
-* Use [PlatformIO IDE Terminal](https://atom.io/packages/platformio-ide-terminal) in [Atom](https://atom.io/) (this is my preferred method when working with projects).
+* Use the terminal built into your editor, such as [VS Code](https://code.visualstudio.com/)'s integrated terminal (this is my preferred method when working with projects).
 
 **Windows**:
 
@@ -82,10 +82,10 @@ git --version
 
 You can configure Git so that when you push changes to GitHub, you won't need to type your username and password each time. See the following topics to set this up:
 
-* [Set up Git](https://help.github.com/articles/set-up-git/).
-* [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-* [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-* [Associating text editors with Git](https://help.github.com/articles/associating-text-editors-with-git/)
+* [Set up Git](https://docs.github.com/en/get-started/git-basics/set-up-git).
+* [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+* [Associating text editors with Git](https://docs.github.com/en/get-started/git-basics/associating-text-editors-with-git)
 
 After you make these configurations, close and re-open your terminal.
 
@@ -223,7 +223,7 @@ To clone the GitHub repo locally:
 
     If you type `git commit` only, you'll be prompted with another window to describe the change. On Windows, this new window will probably be a Notepad window. Describe the change on the top line, and then save and close the Windows file.
 
-    On a Mac, a new window doesn't open. Instead, the [Vim editor](https://en.wikipedia.org/wiki/Vi) mode opens up within the terminal. ("vi" stands for visual and "m" for mode, but it's not a very visual editor.) I don't recommend using Vim. If you get stuck in this mode and need to escape, press your **Escape** key. Then type **q** to quit. (See [Vim commands](http://www.cs.rit.edu/~cslab/vi.html) here.) Normally, you want an external editor such as Sublime Text to open from your terminal. See [Associating text editors with Git](https://help.github.com/articles/associating-text-editors-with-git/) for details.
+    On a Mac, a new window doesn't open. Instead, the [Vim editor](https://en.wikipedia.org/wiki/Vi) mode opens up within the terminal. ("vi" stands for visual and "m" for mode, but it's not a very visual editor.) I don't recommend using Vim. If you get stuck in this mode and need to escape, press your **Escape** key. Then type **q** to quit. (See [Vim commands](https://www.cs.colostate.edu/helpdocs/vi.html) here.) Normally, you want an external editor such as Sublime Text to open from your terminal. See [Associating text editors with Git](https://docs.github.com/en/get-started/git-basics/associating-text-editors-with-git) for details.
 
 6.  Push the changes to your repository:
 
@@ -241,8 +241,8 @@ To clone the GitHub repo locally:
 
 7.  Now verify that your changes took effect. Browse to your GitHub wiki repository, refresh the page, and look to see the changes.
 
-Although there are many options for authoring and publishing tools with developer docs (see [staticgen.com](https://www.staticgen.com/) for common docs-as-code tools), at the core of these tools is usually a Git workflow. The Git workflow can be more powerful and complex than any authoring tool. Interacting with Git might also be key for interacting with engineering repos to make edits to documentation that appears inside code.
+Although there are many options for authoring and publishing tools with developer docs (see [jamstack.org/generators](https://jamstack.org/generators/) for common docs-as-code tools), at the core of these tools is usually a Git workflow. The Git workflow can be more powerful and complex than any authoring tool. Interacting with Git might also be key for interacting with engineering repos to make edits to documentation that appears inside code.
 
 ## Avoiding merge conflicts when editing online and locally
 
-The visual editor on GitHub.com might be an easy way for subject matter experts to contribute, whereas tech writers will probably want to clone the repo and work locally. If some people make edits in the browser while others edit locally, you might encounter merge conflicts. To avoid merge conflicts, always run `git pull` before running `git push`. If two people edit the same content simultaneously between commits, you will likely need to [resolve merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
+The visual editor on GitHub.com might be an easy way for subject matter experts to contribute, whereas tech writers will probably want to clone the repo and work locally. If some people make edits in the browser while others edit locally, you might encounter merge conflicts. To avoid merge conflicts, always run `git pull` before running `git push`. If two people edit the same content simultaneously between commits, you will likely need to [resolve merge conflicts](https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/resolving-a-merge-conflict-using-the-command-line).

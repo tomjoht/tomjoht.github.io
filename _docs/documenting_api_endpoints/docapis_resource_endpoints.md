@@ -55,7 +55,7 @@ Curly braces for path parameters are a convention that users will understand. In
 
 Here's an example from the Facebook API that colors the path parameter in an easily identifiable way:
 
-<a href="https://developers.facebook.com/docs/graph-api/reference/v2.11/achievement/" class="noExtIcon"><img src="{{site.api_media}}/facebookapicolor.png"/></a>
+<a href="https://web.archive.org/web/20190902202700/https://developers.facebook.com/docs/graph-api/reference/v2.11/achievement/" class="noExtIcon"><img src="{{site.api_media}}/facebookapicolor.png"/></a>
 
 When the parameters are described in Facebook's docs, the same green color is used to set off the parameters, which helps users recognize their meaning.
 
@@ -81,7 +81,7 @@ Since there's not much to say about the method itself, it makes sense to group t
 
 And here's an example from the Linkedin API:
 
-<a class="noCrossRef" href="https://developer.linkedin.com/docs/rest-api" class="noExtIcon"><img src="{{site.api_media}}/linkedinexample.png" alt="Linkedin Example" /></a>
+<a class="noCrossRef" href="https://learn.microsoft.com/en-us/linkedin/" class="noExtIcon"><img src="{{site.api_media}}/linkedinexample.png" alt="Linkedin Example" /></a>
 
 {: .tip}
 Sometimes the method is referred to as the "verb." GET, PUT, POST, PATCH, and DELETE are all verbs or actions.

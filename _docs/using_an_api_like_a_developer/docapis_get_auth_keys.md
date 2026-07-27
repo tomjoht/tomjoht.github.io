@@ -72,13 +72,11 @@ Keep in mind how users authorize calls with an API &mdash; this is something you
 
 {% include image_ad_right.html %} In the upcoming activities, you'll work with code in a text file. When you're working with code, you use a text editor (to work in plain text) instead of a rich text editor (which would provide a WYSIWYG interface). Here are a few choices for text editors:
 
-* [Cursor AI](https://cursor.com)
-* [Windsurf](https://windsurf.com/editor)
 * [Visual Studio Code](https://code.visualstudio.com/) (Mac or PC). *(I recommend this editor the most.)*
-* [Sublime Text](http://www.sublimetext.com/) (Mac or PC)
-* [Atom](https://atom.io/) (Mac or Windows)
-* [Coda](https://panic.com/coda/) (Mac)
+* [Cursor](https://cursor.com) (Mac or PC) — a fork of VS Code with AI assistance built in
+* [Sublime Text](https://www.sublimetext.com/) (Mac or PC)
+* [Nova](https://nova.app/) (Mac)
 
-These editors provide features that let you better manage the text. Choose the one you want. (My preference is to use Sublime Text when I'm working with independent code samples, and Atom when I'm working with Jekyll projects.) Avoid using TextEdit since it adds some formatting behind the scenes that can corrupt your content.
+These editors provide features that let you better manage the text. Choose the one you want. My own preference is VS Code for anything project-based, and Sublime Text when I just want to open a single code sample quickly. Avoid using TextEdit since it adds some formatting behind the scenes that can corrupt your content.
 
 {% include random_ad3.html %}

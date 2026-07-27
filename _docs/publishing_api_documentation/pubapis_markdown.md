@@ -46,7 +46,7 @@ Markdown is meant to be kept simple, so there isn't a comprehensive Markdown tag
 
 ## Development by popular demand versus by committee
 
-John Gruber, a blogger, created Markdown as a way to simplify HTML (see his [Markdown documentation here](http://daringfireball.net/projects/markdown/)). Others adopted it, and many made modifications to include the syntax they needed. As a result, there are various "flavors" of Markdown, such as [Github-flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), [Multimarkdown](http://fletcherpenney.net/multimarkdown/), [kramdown](https://kramdown.gettalong.org/), [CommonMark](https://commonmark.org/), and more.
+John Gruber, a blogger, created Markdown as a way to simplify HTML (see his [Markdown documentation here](http://daringfireball.net/projects/markdown/)). Others adopted it, and many made modifications to include the syntax they needed. As a result, there are various "flavors" of Markdown, such as [Github-flavored Markdown](https://docs.github.com/en/get-started/writing-on-github), [Multimarkdown](http://fletcherpenney.net/multimarkdown/), [kramdown](https://kramdown.gettalong.org/), [CommonMark](https://commonmark.org/), and more.
 
 {% include image_ad_right.html %}
 
@@ -56,7 +56,7 @@ In contrast, DITA is a committee-based XML architecture derived from a committee
 
 ## Why developers love Markdown
 
-In many development tools (particularly [static site generators](https://www.staticgen.com/)) that you use for publishing documentation, many of them will use Markdown. For example, Github uses Markdown. If you upload files containing Markdown and use an md file extension, Github will automatically render the Markdown into HTML.
+In many development tools (particularly [static site generators](https://jamstack.org/generators/)) that you use for publishing documentation, many of them will use Markdown. For example, Github uses Markdown. If you upload files containing Markdown and use an md file extension, Github will automatically render the Markdown into HTML.
 
 Markdown has appeal (especially with developers) for various reasons:
 

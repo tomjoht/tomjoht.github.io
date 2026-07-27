@@ -62,15 +62,15 @@ The resource URL includes both the base path and the endpoint. One problem with 
 
 {% include random_ad2.html %}
 
-If you have a lot of parameters, consider including several request examples. In the CityGrid Places API, the [`where` endpoint](http://docs.citygridmedia.com/display/citygridv2/Places+API#PlacesAPI-WhereSearchHTTPSEndpoint) is as follows:
+If you have a lot of parameters, consider including several request examples. In the CityGrid Places API, the [`where` endpoint](https://web.archive.org/web/20180523071336/http://docs.citygridmedia.com/display/citygridv2/Places+API) is as follows:
 
 ```
 https://api.citygridmedia.com/content/places/v2/search/where
 ```
 
-However, there are [literally 17 possible query string parameters](http://docs.citygridmedia.com/display/citygridv2/Places+API#PlacesAPI-WhereSearchRequest) you can use with this endpoint. As a result, the documentation includes several sample requests that show various parameter combinations:
+However, there are [literally 17 possible query string parameters](https://web.archive.org/web/20180523071336/http://docs.citygridmedia.com/display/citygridv2/Places+API) you can use with this endpoint. As a result, the documentation includes several sample requests that show various parameter combinations:
 
-<a href="http://docs.citygridmedia.com/display/citygridv2/Places+API" class="noExtIcon"><img src="{{site.api_media}}/search_usage_examples.png" alt="CityGrid Places API example" /></a>
+<a href="https://web.archive.org/web/20180523071336/http://docs.citygridmedia.com/display/citygridv2/Places+API" class="noExtIcon"><img src="{{site.api_media}}/search_usage_examples.png" alt="CityGrid Places API example" /></a>
 
 Adding multiple request examples makes sense when the parameters wouldn't usually be used together. For example, there are few cases where you might actually include all 17 parameters in the same request, so any sample will be limited in what it can show.
 
@@ -80,7 +80,7 @@ This example shows how to "Find hotels in Boston, viewing results 1-5 in alphabe
 https://api.citygridmedia.com/content/places/v2/search/where?what=hotels&where=boston,ma&page=1&rpp=5&sort=alpha&publisher=test&format=json
 ```
 
-If you [click the link](https://api.citygridmedia.com/content/places/v2/search/where?what=hotels&where=boston,ma&page=1&rpp=5&sort=alpha&publisher=test&format=json), you can see the response directly. In the [responses topic](docapis_doc_sample_responses_and_schema.html#dynamic_responses), I get into more detail about dynamically showing the response when users click a request.
+In the original docs, clicking that link returned the response directly in the browser. (CityGrid has since shut its API down, so the link no longer resolves &mdash; but the technique is what matters here.) In the [responses topic](docapis_doc_sample_responses_and_schema.html#dynamic_responses), I get into more detail about dynamically showing the response when users click a request.
 
 How many different requests and responses should you show? There's probably no easy answer, but probably no more than a few. You decide what makes sense for your API. Users will usually understand the pattern after a few examples.
 
@@ -156,7 +156,7 @@ Flickr's API docs also have a built-in API Explorer:
 
 As does the New York Times API:
 
-<a class="noExtIcon" href="http://developer.nytimes.com/article_search_v2.json#/Console/GET/articlesearch.json"><img src="{{site.api_media}}/nytimesrequestexample.png"/></a>
+<a class="noExtIcon" href="https://web.archive.org/web/20250813161152/https://developer.nytimes.com/article_search_v2.json"><img src="{{site.api_media}}/nytimesrequestexample.png"/></a>
 
 The API Explorer lets you insert your own values, your own API key, and other parameters into a request so you can see the responses directly in the API Explorer. Being able to see your own data makes the response more real and immediate.
 

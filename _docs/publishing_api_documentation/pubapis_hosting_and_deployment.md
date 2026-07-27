@@ -39,9 +39,9 @@ GitHub Pages is free but does have some limitations in scope:
 > * GitHub Pages source repositories have a recommended limit of 1GB.
 > * Published GitHub Pages sites may be no larger than 1 GB.
 > * GitHub Pages sites have a soft bandwidth limit of 100GB per month.
-> * GitHub Pages sites have a soft limit of 10 builds per hour. (See [Usage Limits](https://help.github.com/articles/what-is-github-pages/))
+> * GitHub Pages sites have a soft limit of 10 builds per hour. (See [Usage Limits](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages))
 
-Unlike with other hosting and deployment platforms, GitHub Pages doesn't offer a commercial version that expands these limits. You can learn more about [GitHub Pages here](https://help.github.com/categories/github-pages-basics/).
+Unlike with other hosting and deployment platforms, GitHub Pages doesn't offer a commercial version that expands these limits. You can learn more about [GitHub Pages here](https://docs.github.com/en/pages).
 
 {: .note}
 I build this site and [my blog](https://idratherbewriting.com) using Jekyll and GitHub Pages. They are actually separate Jekyll projects and repos. My blog is in a GitHub repo called [`tomjoht.github.io`](https://github.com/tomjoht/tomjoht.github.io), named after my GitHub username but published using a custom domain `idratherbewriting.com`. (Without the custom domain, it would be available at `http://tomjoht.github.com`.) The API doc site is in a repo called [learnapidoc](https://github.com/tomjoht/learnapidoc). It's available by default at `https://idratherbewriting.com/learnapidoc`. They seem like the same site, but they are really separate projects in separate repos. The fact that each repo in addition to the primary repository (`tomjoht.github.io`) appears as a subdirectory to the primary domain (`idratherbewriting.com`) is pretty cool.

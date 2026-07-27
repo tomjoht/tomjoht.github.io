@@ -29,7 +29,7 @@ APIs are often pulling and pushing data underneath user interfaces. Consider the
 
 {% include random_ad3.html %}
 
-Or consider other similar services. When you see a YouTube video embedded on a site, the site itself doesn't host the video. Instead, the embed code contains API requests that get the video from YouTube's hosting centers. When you embed a Twitter widget on your site, the widget's APIs pull in tweets from a Twitter server onto your site.
+Or consider other similar services. When you see a YouTube video embedded on a site, the site itself doesn't host the video. Instead, the embed code contains API requests that get the video from YouTube's hosting centers. When you embed a social media post or a map on your site, the embed code makes API requests that pull the content in from that service's servers.
 
 Consider another example from Fire TV. Suppose you want to view a pay-per-view event that requires payment. A pop-up dialog might appear letting you enter your credit card details. Your payment gets processed and you receive confirmation about the purchase's success. This payment processing doesn't occur within the app. Instead, the app makes API calls out to payment servers with the needed information, and all that payment processing happens in the cloud. When the processing finishes, the API returns a confirmation response.
 
@@ -63,13 +63,13 @@ SOAP is a standardized protocol that requires XML as the message format for requ
 
 The WSDL file defines the allowed elements and attributes in the message exchanges. The WSDL file is machine readable and used by the servers interacting with each other to facilitate the communication.
 
-SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST 101: Understand The Differences](http://www.soapui.org/testing-dojo/world-of-api-testing/soap-vs--rest-challenges.html).
+SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST APIs](https://www.soapui.org/learn/api/soap-vs-rest-api/).
 
 {% include image_ad_right.html %}
 
 The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where file size and bandwidth are critical. The verbose message format slows processing times, which makes SOAP interactions lethargic.
 
-SOAP is still used in enterprise application scenarios (especially with financial institutions) with server-to-server communication, but in the past five years, SOAP has mostly been replaced by REST, especially for APIs on the open web.
+SOAP is still used in enterprise application scenarios (especially with financial institutions) with server-to-server communication, but REST has long since displaced it for APIs on the open web.
 
 ## REST is a style, not a standard
 
@@ -132,15 +132,17 @@ Because the web itself is an example of RESTful style architecture, the way REST
 
 ### REST APIs are stateless and cacheable {#stateless_and_cacheable}
 
-REST APIs are also stateless and cacheable. Stateless means that each time you access a resource through an endpoint, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each request.
+REST APIs are also stateless and cacheable. Stateless means the server doesn't store any client context between requests. Each request has to carry everything the server needs to fulfill it &mdash; including any authorization credentials &mdash; because the server won't remember anything from your previous call. This is why you pass your API key on every request rather than "logging in" once.
+
+Statelessness is about where the state lives, not about getting identical responses. A request for current weather returns different data as conditions change; what makes it stateless is that the server isn't tracking a session for you between calls.
 
 The responses can also be cached to increase the performance. If the browser's cache already contains the information asked for in the request, the browser can just return the information from the cache instead of getting the resource from the server again.
 
 Caching with REST APIs is similar to caching of web pages. The browser uses the last-modified-time value in the HTTP headers to determine if it needs to get the resource again. If the content hasn't been modified since the last time it was retrieved, the cached copy can be used instead. Caching increases the speed of the response.
 
-REST APIs have other characteristics, which you can dive more deeply into on this [REST API Tutorial](http://www.restapitutorial.com/lessons/whatisrest.html). One of these characteristics includes links in the responses to allow users to page through to additional items. This feature is called HATEOAS, or Hypermedia As The Engine of Application State.
+REST APIs have other characteristics, which you can dive more deeply into on this [REST API Tutorial](https://www.restapitutorial.com/introduction/whatisrest.html). One of these characteristics includes links in the responses to allow users to page through to additional items. This feature is called HATEOAS, or Hypermedia As The Engine of Application State.
 
-Understanding REST at a higher, more theoretical level isn't my goal here, nor is this knowledge necessary to document a REST API. However, there are many technical books, courses, and websites that explore REST API concepts, constraints, and architecture in more depth that you can consult if you want to. For example, check out [Foundations of Programming: Web Services by David Gassner](https://www.lynda.com/Software-Development-tutorials/Foundations-Programming-Web-Services/126131-2.html) on lynda.com.
+Understanding REST at a higher, more theoretical level isn't my goal here, nor is this knowledge necessary to document a REST API. However, there are many technical books, courses, and websites that explore REST API concepts, constraints, and architecture in more depth that you can consult if you want to. For example, check out [Programming Foundations: APIs and Web Services by David Gassner](https://www.linkedin.com/learning/programming-foundations-apis-and-web-services-27993033) on LinkedIn Learning.
 
 ### REST APIs don't use WSDL files, but some specs exist
 
@@ -161,5 +163,5 @@ Overall, REST APIs are more varied and flexible than SOAP APIs, and you almost a
 ## Additional reading
 
 * [REST: a FAQ](https://medium.com/@diogo.lucas/rest-a-faq-b3cd7ed62828), by Diogo Lucas
-* [Learn REST: A RESTful Tutorial](http://www.restapitutorial.com/), by Todd Fredrich
+* [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/), by Todd Fredrich
 * [Understanding RPC Vs REST For HTTP APIs](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/), by Phil Sturgeon

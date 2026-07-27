@@ -127,7 +127,7 @@ Some GraphQL enthusiasts have also claimed that GraphQL APIs require less or no 
 
 ## Tools
 
-Closely associated with GraphQL are the editors and the extensions and packages used in IDE editors (e.g., [VS code](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql), [atom](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword:graphql), [GraphiQL](https://www.gatsbyjs.org/docs/introducing-graphiql/)) for structuring GraphQL queries.
+Closely associated with GraphQL are the editors and the extensions and packages used in IDE editors (e.g., [VS Code](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql), [GraphiQL](https://github.com/graphql/graphiql)) for structuring GraphQL queries.
 
 For a good article on one of these tools, check out "[GraphiQL: GraphQL’s Killer App](https://medium.com/the-graphqlhub/graphiql-graphql-s-killer-app-9896242b2125)."
 

@@ -55,7 +55,7 @@ The following are 7 common conceptual topics in API documentation. For each topi
 
 **API rate limiting and thresholds**
 * [GitHub](https://developer.github.com/v3/rate_limit/)
-* [Linkedin](https://docs.microsoft.com/en-us/linkedin/shared/api-guide/concepts/rate-limits?context=linkedin/consumer/context)
+* [Linkedin](https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts/rate-limits?context=linkedin/consumer/context)
 * [Bitly](http://dev.bitly.com/rate_limiting.html)
 
 **API quick reference**

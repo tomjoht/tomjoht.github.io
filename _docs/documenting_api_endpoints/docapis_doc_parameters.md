@@ -55,7 +55,7 @@ Many times parameters are simply listed in a table or definition list like this:
 
 Here's an example from Yelp's documentation:
 
-<a class="noCrossRef" href="https://www.yelp.com/developers/documentation/v2/search_api" class="noExtIcon"><img src="{{site.api_media}}/yelp_3_17.png" alt="Yelp parameters" /></a>
+<img src="{{site.api_media}}/yelp_3_17.png" alt="Yelp parameters" />
 
 You can format the values in a variety of ways (aside from a table). If you're using a definition list or other non-table format, be sure to develop styles that make the values easily readable.
 
@@ -217,15 +217,15 @@ Tables work all right for documenting JSON, but in a table, it can be hard to di
 
 By all means, if the JSON object is relatively small, a table is probably your best option. But there are other approaches that designers have taken as well.
 
-Take a look at eBay's [findItemsByProduct](http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) resource. Here's the request body (in this case, the format is XML):
+Take a look at eBay's [findItemsByProduct](https://web.archive.org/web/20250122144226/https://www.developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) resource. Here's the request body (in this case, the format is XML):
 
-<a class="noCrossRef" class="noExtIcon" href="http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html"><img src="{{site.api_media}}/ebaysample_3_17.png" alt="eBay parameters" /></a>
+<a class="noCrossRef" class="noExtIcon" href="https://web.archive.org/web/20250122144226/https://www.developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html"><img src="{{site.api_media}}/ebaysample_3_17.png" alt="eBay parameters" /></a>
 
 Below the request body is a table that describes each parameter:
 
-<a class="noCrossRef" class="noExtIcon" href="http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html"><img src="{{site.api_media}}/ebaytable_3_17.png" alt="eBay parameters" /></a>
+<a class="noCrossRef" class="noExtIcon" href="https://web.archive.org/web/20250122144226/https://www.developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html"><img src="{{site.api_media}}/ebaytable_3_17.png" alt="eBay parameters" /></a>
 
-But the sample request also contains links to each of the parameters. When you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [`ItemFilter`](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). The separate page with more detail is likely because the parameter values are more complex and require detailed explanation.
+But the sample request also contains links to each of the parameters. When you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [`ItemFilter`](https://web.archive.org/web/20250124042203/https://developer.ebay.com/devzone/finding/CallRef/types/ItemFilter.html). The separate page with more detail is likely because the parameter values are more complex and require detailed explanation.
 
 The same parameter values might be used in other requests as well, so eBay's approach likely facilitates re-use. Even so, I dislike jumping around to other pages for the information I need.
 

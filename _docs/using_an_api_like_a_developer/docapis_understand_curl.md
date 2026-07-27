@@ -196,7 +196,7 @@ curl has a lot of possible commands, but the following are the most common when 
    </tbody>
 </table>
 
-See the [curl documentation](http://curl.haxx.se/docs/manpage.html) for a comprehensive list of curl commands you can use.
+See the [curl documentation](https://curl.se/docs/manpage.html) for a comprehensive list of curl commands you can use.
 
 ## Example curl command
 

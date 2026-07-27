@@ -30,7 +30,7 @@ Rather than merely completing modules and tracking your progress toward the cour
 
 If you've already got an API project through your work, or if you're an engineer working on an API project, great, just select your existing API for the course activities. However, if you're breaking into API doc or building your API doc skills from the ground up, you'll need to find an open-source API documentation project to contribute to.
 
-Finding the right project can be challenging, but it is critical to your portfolio and your success in breaking into API documentation. Fortunately, almost all open-source projects use GitHub, and GitHub provides various tags for documentation and "help wanted" in order to attract volunteers. (The task is so common, GitHub provides advice for [finding open-source projects](https://help.github.com/articles/finding-open-source-projects-on-github/).)
+Finding the right project can be challenging, but it is critical to your portfolio and your success in breaking into API documentation. Fortunately, almost all open-source projects use GitHub, and GitHub provides various tags for documentation and "help wanted" in order to attract volunteers. (The task is so common, GitHub provides advice for [finding open-source projects](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github).)
 
 {% include random_ad2.html %}
 

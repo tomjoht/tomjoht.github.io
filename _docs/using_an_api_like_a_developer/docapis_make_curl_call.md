@@ -21,7 +21,7 @@ In this section, you'll use curl to make the same weather API requests you made 
 
 ## <i class="fa fa-user-circle"></i> Activity: Make the OpenWeatherAPI request using curl {#make_request_curl}
 
-This activity assumes you have curl installed. curl is available on Mac and some Windows 10 versions by default. If you're on an older Windows machine that doesn't have curl, see [installing curl here](http://www.confusedbycode.com/curl/#downloads) for details. (Most likely, choose "With Administrator Privileges (free)" 64-bit version.) Close and restart your Command Prompt after installing curl.
+This activity assumes you have curl installed. curl ships with macOS and with Windows 10 version 1803 and later, so you probably already have it &mdash; run `curl -V` to check. If you're on an older machine without it, download a build from [curl's download page](https://curl.se/download.html), then close and restart your Command Prompt.
 
 To make a request with curl:
 
@@ -39,7 +39,7 @@ To make a request with curl:
 
     (In the above code, replace `APIKEY` with your actual API key.)
 
-    The [`--location`](https://curl.haxx.se/docs/manpage.html#-L) parameter will prompt curl to submit a new request if the URL is a redirect. The [`--request`](https://curl.haxx.se/docs/manpage.html#-X) parameter specifies the operation for the request.
+    The [`--location`](https://curl.se/docs/manpage.html#-L) parameter will prompt curl to submit a new request if the URL is a redirect. The [`--request`](https://curl.se/docs/manpage.html#-X) parameter specifies the operation for the request.
 
     (Note that previously, Postman would include its own header information, designated with `-H`. If you see these parameters, delete them since they cause issues when submitted outside of Postman.)
 
@@ -62,7 +62,7 @@ To make a request with curl:
     {"coord":{"lon":-121.95,"lat":37.35},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":68.34,"pressure":1014,"humidity":73,"temp_min":63,"temp_max":72},"visibility":16093,"wind":{"speed":3.36},"clouds":{"all":40},"dt":1566664878,"sys":{"type":1,"id":5122,"message":0.0106,"country":"US","sunrise":1566653501,"sunset":1566701346},"timezone":-25200,"id":0,"name":"Santa Clara","cod":200}
     ```
 
-    This response is minified. You can un-minify it by going to a site such as [JSON pretty print](http://jsonprettyprint.com/), or if you have [Python installed](https://www.python.org/downloads/), you can add <code>| python -m json.tool</code> at the end of your cURL request to un-minify the JSON in the response (see [this Stack Overflow thread](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-unix-shell-script) for details).
+    This response is minified. You can un-minify it by going to a site such as [JSON pretty print](https://jsonformatter.org/json-pretty-print/), or if you have [Python installed](https://www.python.org/downloads/), you can add <code>| python -m json.tool</code> at the end of your cURL request to un-minify the JSON in the response (see [this Stack Overflow thread](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-unix-shell-script) for details).
 
 {% include ads.html %}
 

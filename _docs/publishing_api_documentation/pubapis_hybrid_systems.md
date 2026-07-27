@@ -18,7 +18,7 @@ Rounding out the publishing tool options, there is a class of developer doc tool
 
 ## Headless CMS solutions
 
-Just as we have [staticgen.com](https://www.staticgen.com/) that lists common static site generators, there's a similar index of [headless content management systems](https://headlesscms.org/), this one arranged in alphabetical order (rather than ranked by popularity).
+Just as we have [jamstack.org/generators](https://jamstack.org/generators/) that lists common static site generators, there's a similar index of [headless content management systems](https://headlesscms.org/), this one arranged in alphabetical order (rather than ranked by popularity).
 
 <a class="noCrossRef" href="https://headlesscms.org/"><img src="{{site.api_media}}/headlesscms.png"/></a>
 
@@ -61,7 +61,7 @@ Readme.com's emphasis is on providing an interface that helps you more easily wr
 
 <figure><img class="docimage medium border" src="{{site.api_media}}/readmeio_manual_api.png" alt="Readme.com" /><figcaption>Readme.com</figcaption></figure>
 
-Most importantly, Readme.com includes specific features for displaying API documentation content, which puts it into a class of its own. Although you can add your API information manually, you can also import an [OpenAPI specification file](pubapis_openapi_intro.html). You can experiment by choosing one from the [OpenAPI examples](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0/yaml), such as [this one](https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore-expanded.json). Readme.com's integration of OpenAPI along with other doc content helps integrate outputs that are often separated. (This fragmentation is a problem I explore later in [Integrating Swagger UI with the rest of your docs](pubapis_combine_swagger_and_guide.html).)
+Most importantly, Readme.com includes specific features for displaying API documentation content, which puts it into a class of its own. Although you can add your API information manually, you can also import an [OpenAPI specification file](pubapis_openapi_intro.html). You can experiment by choosing one from the [OpenAPI examples](https://github.com/OAI/learn.openapis.org/tree/main/examples/v2.0/yaml), such as [this one](https://raw.githubusercontent.com/OAI/learn.openapis.org/main/examples/v2.0/json/petstore-expanded.json). Readme.com's integration of OpenAPI along with other doc content helps integrate outputs that are often separated. (This fragmentation is a problem I explore later in [Integrating Swagger UI with the rest of your docs](pubapis_combine_swagger_and_guide.html).)
 
 {% include ads.html %}
 

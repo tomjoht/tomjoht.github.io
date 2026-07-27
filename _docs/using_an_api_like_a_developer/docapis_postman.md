@@ -254,7 +254,7 @@ If this button doesn't work for you, copy this [import link](https://www.postman
 Clicking the Run in Postman buttons should automatically prompt you to import the collections into Postman. If it doesn't work, copy the import link address and, in Postman, click **Import** in the upper-left corner. Then click the **Import From Link** tab, paste in the address and click **Import**.
 
 {: .note}
-**Note**: The Postman interface may vary slightly depending on your version. If you encounter any issues with the import process, refer to the [official Postman documentation](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/importing-data/) for the most current instructions.
+**Note**: The Postman interface may vary slightly depending on your version. If you encounter any issues with the import process, refer to the [official Postman documentation](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) for the most current instructions.
 
 {: .tip}
 If you'd like to learn more about Postman, listen to this [interview with the Postman founder](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). We recorded this as part of the [Write the Docs podcast](http://podcast.writethedocs.org/) and focused on the documentation features within Postman. For more information on creating the Run in Postman buttons, see the [Run in Postman button](docapis_doc_getting_started_section.html#runinpostmanbutton) section in the [Getting started tutorial](docapis_doc_getting_started_section.html).

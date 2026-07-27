@@ -634,7 +634,7 @@ The `format` keyword provides more specific detail about the `type`. Common form
 
 When you start documenting your own schema, start by looking in the OpenAPI's [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#schemaObject), and then consult the [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step) documentation if something isn't covered.
 
-Additionally, look at some example schemas. You can view [3.1 examples here](https://github.com/OAI/OpenAPI-Specification/tree/main/examples/v3.1). I usually find a spec that resembles what I'm trying to represent and mimic the same properties and structure.
+Additionally, look at some example schemas. You can view [3.1 examples here](https://github.com/OAI/learn.openapis.org/tree/main/examples/v3.1). I usually find a spec that resembles what I'm trying to represent and mimic the same properties and structure.
 
 ## A way to cheat -- automatically generate the schema from JSON using Stoplight
 

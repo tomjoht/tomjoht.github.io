@@ -212,7 +212,7 @@ Regardless of the format, I'm usually thrilled to see a glossary. All too often,
 * [Squiz](https://docs.squiz.net/matrix/version/latest/glossary/index.html)
 * [AWS glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 * [RapidAPI](https://rapidapi.com/blog/api-glossary/)
-* [Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/glossary)
+* [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/platform/get-started/glossary)
 
 ## <i class="fa fa-user-circle"></i> Activity with glossaries {#activity_with_glossaries}
 

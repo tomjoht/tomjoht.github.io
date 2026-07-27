@@ -53,7 +53,7 @@ GitHub's documentation explains rate limits for authenticated versus unauthentic
 
 ### Linkedin
 
-<figure><a target="_blank" class="noExtIcon" href="https://developer.linkedin.com/docs/rest-api?u=0#"><img class="docimage" src="{{site.api_media}}/dropboxratelimiting.png" alt="Linkedin rate throttling section" /></a><figcaption>Linkedin rate throttling section</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://learn.microsoft.com/en-us/linkedin/"><img class="docimage" src="{{site.api_media}}/dropboxratelimiting.png" alt="Linkedin rate throttling section" /></a><figcaption>Linkedin rate throttling section</figcaption></figure>
 
 Linkedin's rate limiting documentation explains that different API endpoints have different limits. There are three different types of throttling: Application throttling, User throttling, and Developer throttling. Their documentation also explains the time zone used to track the day's beginning and end.
 

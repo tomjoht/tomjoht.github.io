@@ -134,9 +134,9 @@ This approach facilitates scanning, and the popover + collapsible approach allow
 
 ## Embedding dynamic responses {#dynamic_responses}
 
-Sometimes responses are generated dynamically based on API calls to a test system. Or if not generated dynamically, they appear to be dynamic. For example, look at [OpenWeatherMap API](https://openweathermap.org/current) (which we used in earlier activities). When you click a link in the "Examples of API calls" section, such as [http://samples.openweathermap.org/data/2.5/weather?q=London](http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1), you see the response returned in the browser.
+Sometimes responses are generated dynamically based on API calls to a test system. Or if not generated dynamically, they appear to be dynamic. For example, look at [OpenWeatherMap API](https://openweathermap.org/current) (which we used in earlier activities). When you click a link in the "Examples of API calls" section, such as [http://samples.openweathermap.org/data/2.5/weather?q=London](https://web.archive.org/web/20250629232209/https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1), you see the response returned in the browser.
 
-<a href="http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1" class="noExtIcon"><img class="medium" src="{{site.api_media}}/dynamicresponseinbrowser.png"/></a>
+<a href="https://web.archive.org/web/20250629232209/https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1" class="noExtIcon"><img class="medium" src="{{site.api_media}}/dynamicresponseinbrowser.png"/></a>
 
 Actually, the OpenWeatherMap response isn't generated dynamically &mdash; it just looks that way.
 

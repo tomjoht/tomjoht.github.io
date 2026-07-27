@@ -29,40 +29,45 @@ Sometimes curl is written as cURL. It stands for Client URL. "curl" is the more 
 
 ## Installing curl
 
-curl is usually available by default on Macs but requires some installation on Windows. Follow these instructions for installing curl:
+These days curl ships with both macOS and Windows, so in most cases you don't have to install anything. Check first, and only install if the check fails.
 
 {% include random_ad4.html %}
 
-### Install curl on Mac
+### Check for curl on Mac
 
-If you have a Mac, by default, curl is probably already installed. To check:
+curl is included with macOS. To confirm:
 
-1.  Open Terminal (press **Cmd + spacebar** to open Finder, and then type "Terminal").
+1.  Open Terminal (press **Cmd + spacebar** to open Spotlight, and then type "Terminal").
 2.  In Terminal type `curl -V`. The response should look something like this:
 
     ```
-    curl 7.54.0 (x86_64-apple-darwin16.0) libcurl/7.54.0 SecureTransport zlib/1.2.8
-    Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smb smbs smtp smtps telnet tftp Features: AsynchDNS IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz UnixSockets
+    curl 8.7.1 (x86_64-apple-darwin24.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.61.0
+    Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp smb smbs smtp smtps telnet tftp
     ```
 
-If you don't see this, you need to [download and install curl](http://curl.haxx.se/).
+    Your version number will differ &mdash; that's fine. You just need curl to respond.
 
-### Install curl on Windows
+If you don't see this, you can [download and install curl](https://curl.se/).
 
-Installing curl on Windows involves a few more steps. First, determine whether you have 32-bit or 64-bit Windows by right-clicking **Computer** and selecting **Properties.** Then follow the instructions in this [Confused by Code page](http://www.confusedbycode.com/curl/#downloads). Most likely, you'll want to choose the **With Administrator Privileges (free)** installer.
+### Check for curl on Windows
 
-After you install curl, test your version of curl by doing the following:
+curl has been included with Windows since Windows 10 version 1803 (2018), so it's almost certainly already there. To confirm:
 
 1. Open a command prompt by clicking the **Start** button and typing **cmd**.
 2. Type `curl -V`.
 
-The response should be as follows:
+The response should look something like this:
 
 ```
-curl 7.54.0 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
-Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
-Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz
+curl 8.9.1 (Windows) libcurl/8.9.1 Schannel zlib/1.3 WinIDN
+Release-Date: 2024-07-31
+Protocols: dict file ftp ftps http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
 ```
+
+If curl isn't available &mdash; which would mean a fairly old Windows installation &mdash; download a build from [curl's Windows download page](https://curl.se/windows/).
+
+{: .note}
+Windows PowerShell used to alias `curl` to its own `Invoke-WebRequest` cmdlet, which takes different arguments and will make the examples in this course fail. If a curl command behaves strangely in PowerShell, run it from Command Prompt instead, or type `curl.exe` explicitly to bypass the alias.
 
 ## Make a test API call
 
@@ -83,7 +88,7 @@ You should get minified JSON response back like this:
 {% include ads.html %}
 
 {: .note}
-In Windows, Ctrl+ V doesn't work; instead, you right-click and then select **Paste**.
+In older versions of the Windows Command Prompt, Ctrl+V doesn't paste &mdash; right-click and select **Paste** instead. Windows Terminal and current versions of Command Prompt support Ctrl+V normally.
 
 {% include random_ad3.html %}
 

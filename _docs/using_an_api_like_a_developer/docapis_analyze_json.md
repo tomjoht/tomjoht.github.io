@@ -164,4 +164,4 @@ Look at the response from the `weather` endpoint of the OpenWeatherMap weather A
 
 ## More information
 
-For more information on understanding the structure of JSON, see [json.com](https://www.json.com/).
+For more information on understanding the structure of JSON, see [json.org](https://www.json.org/).

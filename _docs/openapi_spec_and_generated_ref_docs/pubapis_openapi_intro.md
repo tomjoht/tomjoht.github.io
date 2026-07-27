@@ -73,7 +73,7 @@ paths:
                 $ref: "#/components/schemas/Error"
 ```
 
-This [YAML code](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml) comes from the [Swagger Petstore demo](http://petstore.swagger.io/).
+This [YAML code](https://github.com/OAI/learn.openapis.org/blob/main/examples/v3.0/petstore.yaml) comes from the [Swagger Petstore demo](http://petstore.swagger.io/).
 
 Here's what these objects mean:
 
@@ -136,7 +136,7 @@ app.get('/users', (req, res) => {
 });
 ```
 
-You can see that the annotations differ by language, mostly following the allowed annotations and traditional syntax for that language. So if you want to go this route, first find out what Swagger Codegen libraries are available for that language. For more information on Codegen, see [Comparison of Automatic API Code Generation Tools For Swagger](https://apievangelist.com/2015/06/06/comparison-of-automatic-api-code-generation-tools-for-swagger/) by Kin Lane, aka the API Evangelist. For additional tools and libraries, see [Swagger services and tools](http://swagger.io/open-source-integrations/) and [Open Source Integrations](https://swagger.io/open-source-integrations/). Note that currently, most of the Codegen libraries only work with version 2.0 of the OpenAPI. Codegen tools have been slow to transition to version 3.0.
+You can see that the annotations differ by language, mostly following the allowed annotations and traditional syntax for that language. So if you want to go this route, first find out what Swagger Codegen libraries are available for that language. For more information on Codegen, see [Comparison of Automatic API Code Generation Tools For Swagger](https://apievangelist.com/2015/06/06/comparison-of-automatic-api-code-generation-tools-for-swagger/) by Kin Lane, aka the API Evangelist. For additional tools and libraries, see [Swagger services and tools](http://swagger.io/open-source-integrations/) and [Open Source Integrations](https://swagger.io/open-source-integrations/). Codegen tooling was slow to move off Swagger 2.0 when OpenAPI 3.0 first landed, but that gap has long since closed: [OpenAPI Generator](https://openapi-generator.tech/) and Swagger Codegen v3 both target 3.x, and 3.1 support is now widespread.
 
 {% include image_ad_right.html %}
 

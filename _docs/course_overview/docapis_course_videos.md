@@ -24,7 +24,7 @@ I've given numerous presentations and workshops on API documentation, and I've r
 
 ## One-hour crash course {#crashcourse}
 
-If you want a condensed version of videos 1-5, see this one-hour version that condenses much of the information from the other videos into one. I recorded this presentation at the [STC Summit 2019](https://summit.stc.org) in Denver.
+If you want a condensed version of videos 1-5, see this one-hour version that condenses much of the information from the other videos into one. I recorded this presentation at the [STC Summit 2019](https://www.stc.org/summit/) in Denver.
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/5pzhtrrtkXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
