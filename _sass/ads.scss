@@ -32,6 +32,7 @@
   .container.comicBlock {}
 
   .inpostComics .comicLink {
+    margin-top: 14px;
     margin-bottom: 20px;
   }
 
@@ -59,21 +60,29 @@
   .row.inpostComics {
     margin-right: 0;
     margin-left: 0;
+    // Horizontal padding here comes straight out of the space the three ads
+    // have to share, which is what pushed them below their promised 250px.
+    padding-left: 0;
+    padding-right: 0;
     max-width: 850px;
   }
 
   .row.inpostComics>div {
+    // Two-across (992-1199px) and stacked (<992px) have room to spare.
     padding-left: 20px;
     padding-right: 20px;
   }
 
-
-  .inpostComics img {
-    margin-bottom: 6px;
+  @media (min-width: 1200px) {
+    // Three 250px ads plus gutters have to fit ~823px, which leaves 24px
+    // between them. Any more and the ads would shrink below their promised size.
+    .row.inpostComics>div {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
   }
 
-  @media (min-width: 1200px) {
-    .inpostComics img {
-      margin-bottom: 0px;
-    }
+
+  .inpostComics img {
+    margin-bottom: 0;
   }
