@@ -1,5 +1,5 @@
 ---
-title: "Orchestrating docs instead of typing them — podcast with Sarah Deaton of Anthropic"
+title: "Orchestrating docs instead of writing them yourself — podcast with Sarah Deaton of Anthropic"
 permalink: /blog/podcast-deaton-anthropic-tw-automation
 date: 2026-08-02
 categories:
@@ -20,7 +20,7 @@ Note: These shownotes are AI-generated.
 * TOC
 {:toc}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4IM15AgdevE" title="Orchestrating docs instead of typing them — podcast with Sarah Deaton of Anthropic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4IM15AgdevE" title="Orchestrating docs instead of writing them yourself — podcast with Sarah Deaton of Anthropic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Audio-only version
 
@@ -92,7 +92,7 @@ All of which leads to the uncomfortable part, which is that automating the draft
 
 The more interesting question is what all that reclaimed capacity is actually for. Right now most of it goes to keeping up with daily releases, triaged feedback, and a backlog of pages someone has wanted to rewrite for months. But if documentation work no longer bottlenecks on producing text, the obvious next move isn't producing more text. It's building the things static pages never could be, like interactive components, in-product education, and experiences tailored to what a specific reader is trying to accomplish. That work sits in the blurry zone between docs, education, and product, and it makes the case for hiring more writers rather than fewer, which is precisely the opposite of what most companies are currently concluding.
 
-<figure><a href="https://youtu.be/4IM15AgdevE"><img src="{{site.media}}/deatonepisodepic.jpg" alt="Orchestrating docs instead of typing them — podcast with Sarah Deaton of Anthropic" /></a><figcaption>Orchestrating docs instead of typing them — podcast with Sarah Deaton of Anthropic</figcaption></figure>
+<figure><a href="https://youtu.be/4IM15AgdevE"><img src="{{site.media}}/deatonepisodepic.jpg" alt="Orchestrating docs instead of writing them yourself — podcast with Sarah Deaton of Anthropic" /></a><figcaption>Orchestrating docs instead of writing them yourself — podcast with Sarah Deaton of Anthropic</figcaption></figure>
 
 ## Transcript
 
