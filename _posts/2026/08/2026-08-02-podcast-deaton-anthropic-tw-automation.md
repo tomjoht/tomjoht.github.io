@@ -13,6 +13,7 @@ podcast_file_size: 41.5
 podcast_duration: "01:07:24"
 podcast_length: 41020065
 image: deatonepisodepicthumb.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_orchestrating-docs-instead-of-writing-them-share-7490038672814178304-0xar/
 ---
 
 Note: These shownotes are AI-generated.
