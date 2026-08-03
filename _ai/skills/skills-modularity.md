@@ -88,7 +88,7 @@ By breaking skills down to a single task, this not only unlocks reuse for you; i
 
 In a modular skill design, skill building becomes an act of recipe creation. You have a cupboard full of ingredients, and as the recipe maker, you pick and choose the combination, order, and sequence. 
 
-And here's the real payoff: other writers can use *your* ingredients to create *their own* recipes. You built a great style-checking skill? Someone on another team can drop it into their tutorial-publishing workflow alongside their own skills that you've never seen. That's the kind of cross-pollination that makes the [100-skills vision](/ai/skills.html#100twskills) actually work.
+And here's the real payoff: other writers can use *your* ingredients to create *their own* recipes. You built a great style-checking skill? Someone on another team can drop it into their tutorial-publishing workflow alongside their own skills that you've never seen. That's the kind of cross-pollination that makes the [100-skills vision](/ai/skills.html#skills100) actually work.
 
 ## Activity: Modularize the Javadoc skill
 

@@ -29,7 +29,7 @@ Two caveats before you extrapolate from these numbers. First, they measure diffe
 
 The Mintlify study also found that Claude Code and Cursor together account for 95.6% of all identified AI agent traffic.
 
-Developers increasingly rely on agentic coding tools such as Claude Code, Cursor, Windsurf, Replit, Lovable, Codex CLI, Antigravity, and Gemini CLI. Developers commonly work in both the terminal and a side pane (often through an extension) in their preferred IDE, such as VS Code.
+Developers increasingly rely on agentic coding tools such as Claude Code, Cursor, Windsurf, Replit, Lovable, Codex CLI, Antigravity, and Gemini CLI. They commonly work in both the terminal and a side pane (often through an extension) in their preferred IDE, such as VS Code.
 
 ## Machine-readable formats
 
@@ -41,7 +41,7 @@ That finding is worth sitting with, because it previews the theme of this whole 
 
 ## The new reader
 
-The most startling change is that nearly half of your developer documentation traffic is an AI coding agent, not a human reader. On the other hand, most of the agentic traffic is directed from human requests. Humans are like the puppetmasters directing the agents with goals, tasks, and other purposes. So it's not as if the agentic traffic constitutes a new, alien intelligence disconnected from any human goals and direction.
+The most startling change is that nearly half of your developer documentation traffic comes from an AI coding agent, not a human reader. On the other hand, most of the agentic traffic is directed from human requests. Humans are like the puppetmasters directing the agents with goals, tasks, and other purposes. So it's not as if the agentic traffic constitutes a new, alien intelligence disconnected from any human goals and direction.
 
 Even so, the non-human agent reader poses a new challenge. How do you optimize your content for AI agent consumption, even if the agent is acting on behalf of the human user many times? The topics in this chapter work through that question — starting with how the industry's answer evolved from MCP servers and `llms.txt` files to product skills.
 

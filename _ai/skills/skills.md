@@ -29,7 +29,7 @@ Additionally, most repeatable tasks fall into the category of mechanical toil th
 
 {% include ads.html %}
 
-## The vision: 100 tech-writer-specific skills {#100twskills}
+## The vision: 100 tech-writer-specific skills {#skills100}
 
 Consider this idea: A company has 100 tech-writer-specific skills that are highly adopted and used across the organization. This collection of skills, focusing on internal authoring skills, has skills for doing virtually anything related to tech writing that you can imagine — fixing a bug, applying a style edit, checking release notes for accuracy, fixing comments in proto styles, and more. The skills don’t do the job entirely themselves but rather act as power tools for the writers, accelerating and amplifying their work.
 

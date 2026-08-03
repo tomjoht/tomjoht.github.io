@@ -23,7 +23,7 @@ However, tech writers need to go beyond just producing the same documentation ex
 
 Browsing the reference documentation for APIs can be tedious and hard to follow, especially if the documentation is scattered across many different pages, or if the documentation consists of a series of stacked tables, with one object defined in the next table down, and its objects defined in the next table down, and so on.
 
-API tree diagrams show all objects in the API at a glance. The diagrams link to each documentation page to provide more detail as well. Overall, the API diagrams provide a quick reference guide to both users and agents. They provide a holistic view of the API and its capabilities while also providing jumping off points to dive more deeply into each element.
+API tree diagrams show all objects in the API at a glance. The diagrams link to each documentation page to provide more detail as well. Overall, the API diagrams provide a quick reference guide to both users and agents. They provide a holistic view of the API and its capabilities while also providing jumping-off points to dive more deeply into each element.
 
 These tree diagrams can be generated through scripts and other tools, but large API diagrams are beyond the capabilities of human creation and maintenance without agent assistance. I've explored this technique before — see [Task decomposition and complex tree diagrams](/ai/prompt-engineering-task-decomposition.html) in the prompt engineering course, and a [worked tree diagram example](/blog/task-decomposition-tree-diagram-example) on my blog.
 
@@ -39,7 +39,7 @@ Tech writers should play key roles in setting up, configuring, and generating re
 
 ## Automating release notes
 
-Another role writers can play to reimagine the documentation experience is to automate the release notes experience. Release notes are where changes are introduced into the documentation corpus. Release cycles are only speeding up, with active products having biweekly or weekly releases. Each release requires tech writers to scan the documentation corpus and identify how the change affects other pages in the documentation. This corpus scanning is too tedious for writers to do regularly, but they can develop skills that instruct agents on the right process to examine all pages that might need to be updated.
+Another role writers can play to reimagine the documentation experience is to automate release notes. Release notes are where changes are introduced into the documentation corpus. Release cycles are only speeding up, with active products having biweekly or weekly releases. Each release requires tech writers to scan the documentation corpus and identify how the change affects other pages in the documentation. This corpus scanning is too tedious for writers to do regularly, but they can develop skills that instruct agents on the right process to examine all pages that might need to be updated.
 
 Tech writers can also use file diffs between releases to identify all the changes that are being made with each release, without having to track down engineers and interview them about the changes being released. When tech writers generate the API documentation, they can easily see diffs in the API documentation that reflect changes in the code. It's extremely unlikely to make changes to an API without affecting how the generated reference documentation appears. Those diffs provide a map for all the changes. (I walk through this diff-based technique in [Using file diffs for better release notes in reference docs](/ai/prompt-engineering-release-notes-reference-docs.html) in the prompt engineering course.)
 
@@ -57,7 +57,7 @@ Writers can also develop personas that embody specific types of users (for examp
 
 ## Cross-product comparisons
 
-Another way tech writers can reimagine documentation is by providing more high-level cross-product comparisons. Have you ever gone to a documentation portal and seen 30 to 50+ different APIs and SDKs, with little explanation about when and why they would use them, or how they might be used together or in particular workflows? The reason is usually because tech writers have specific products they support, and tend to draw a line in the sand around those products.
+Another way tech writers can reimagine documentation is by providing more high-level cross-product comparisons. Have you ever gone to a documentation portal and seen 30 to 50+ different APIs and SDKs, with little explanation about when and why you would use them, or how they might be used together or in particular workflows? The reason is usually that tech writers have specific products they support, and tend to draw a line in the sand around those products.
 
 For example, one writer might document ACME API variant A for a specific industry and use case, and another writer might document ACME API variant B for a different industry and use case, and there is likely no information comparing and contrasting the two variants, presumably because of the walled audiences.
 

@@ -36,19 +36,19 @@ Here's why tech writers should own product skills:
 - Tech writers can assess whether a test's questions and tasks are well suited to the product.
 - Tech writers can assess whether the answers an agent provides to a test align with the documentation's answers.
 
-Also note that the skill isn't a deep dive into any of the product's capabilities, tasks, or information. The skill is high-level and mostly routes to the correct place in the documentation. As I said in the [anatomy discussion](/ai/product-skills-agent-experience.html), a product skill is essentially a quick reference guide for machines — and quick reference guides are a genre tech writers already own. As such, the tech writer is perfectly suited to own the skills for the products they support.
+Also note that the skill isn't a deep dive into any of the product's capabilities, tasks, or information. The skill is high-level and mostly routes to the correct place in the documentation. As I said in the [anatomy discussion](/ai/product-skills-agent-experience.html#anatomy-of-a-product-skill), a product skill is essentially a quick reference guide for machines — and quick reference guides are a genre tech writers already own. As such, the tech writer is perfectly suited to own the skills for the products they support.
 
-A tech writer can use a product skill creator to generate a basic skill, and then look at the output and shape, refine, curate, and adjust the skill as needed to align with a good outcome. The reason tech writers often don't play a more critical role with skills development is the following:
+A tech writer can use a product skill creator to generate a basic skill, and then look at the output and shape, refine, curate, and adjust the skill as needed to align with a good outcome. Tech writers often don't play a more critical role in skills development for the following reasons:
 
 - The skill's format and structure is often unfamiliar.
-- The test cases format and structure is even more unfamiliar.
-- Understanding how to run the test cases using the company's testing framework seems to align more within the QA role.
+- The test case format and structure is even more unfamiliar.
+- Understanding how to run the test cases using the company's testing framework seems to align more with the QA role.
 - Massive numbers of skills need to be generated seemingly all at once.
-- It's unclear how tech writers should take action on low performing eval scores. Is the test bad? Is the content poor?
+- It's unclear how tech writers should take action on low-performing eval scores. Is the test bad? Is the content poor?
 - There doesn't seem to be a clear publishing destination for skills within an existing documentation site, so it doesn't seem to fit or be relevant there.
-- Tech writers have been ingrained to write for human users, not agents. Even analytics don't distinguish between human users and agents, so it's hard for tech writers to recognize the true audience using their documentation.
+- Tech writers have been trained to write for human users, not agents. Even analytics don't distinguish between human users and agents, so it's hard for tech writers to recognize the true audience using their documentation.
 
-Meanwhile, most tech writers are already buried under a mountain of doc requests and issues already in their backlog. When you add an additional set of unfamiliar requirements, it can be overwhelming.
+Meanwhile, most tech writers are already buried under a mountain of doc requests and issues in their backlog. When you add an additional set of unfamiliar requirements, it can be overwhelming.
 
 {% include ads.html %}
 
@@ -56,13 +56,13 @@ Meanwhile, most tech writers are already buried under a mountain of doc requests
 
 Another reason tech writers should be more involved in skill creation is because it will give them more investment in action items from the eval loop.
 
-As soon as we start testing our skills, one outcome will be to improve the skill's score on the tests. If the skill scores poorly on some task that is identified in the product skill, and the evaluation recommendation is to improve some part of the documentation to better improve the agent's performance on the task, the tech writer will be much more invested in actually taking action on the recommended improvement if they're the ones trying to actively raise the scores.
+As soon as we start testing our skills, one outcome will be to improve the skill's score on the tests. If the skill scores poorly on some task that is identified in the product skill, and the evaluation recommendation is to improve some part of the documentation to raise the agent's performance on the task, the tech writer will be much more invested in actually taking action on the recommended improvement if they're the ones trying to actively raise the scores.
 
 In contrast, if an engineering or evaluation team generates an automated pull request (PR) or code change for the tech writer without prior context, it can seem to arrive out of nowhere without a clear sense of user friction, identified error, release change, or other reason. It will simply be a proposed change that materializes out of thin air, with no requester, no audience, and no purpose. In automated documentation pipelines — where machine workflows can propose large volumes of documentation fixes daily — writers need hands-on involvement in evaluation loops to act as effective validation leads and content architects.
 
 ## Roadmap for technical writers
 
-As part of the expectations for technical writers, all tech writers should have the following requirements:
+As part of the expectations for technical writers, all tech writers should meet the following requirements:
 
 - Provide a skill for each product supported.
 - Provide tests for each skill.

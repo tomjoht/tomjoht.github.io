@@ -19,7 +19,7 @@ Let's say a user comes to a documentation site, which has an interactive search 
 
 One caveat before mining these logs: they're user data. Even anonymized sessions can contain pasted code, internal URLs, or personally identifying details, so log access needs the same privacy governance as any analytics pipeline — retention limits, scrubbing, and clarity about what writers can and can't look at. Getting that governance right is part of making the case for access at all.
 
-Tech writers that don't have these logs will be shooting from the dark in terms of identifying documentation issues and gaps. Tech writers can develop skills to look through logs and identify salient gaps, based on comparison with the user's query and existing documentation. From these logs, the skills can suggest the right additions to the documentation to strengthen it for the next interaction. (Note: Some documentation platforms provide built-in access to search and chat interaction logs.)
+Tech writers who don't have these logs will be shooting in the dark in terms of identifying documentation issues and gaps. Tech writers can develop skills to look through logs and identify salient gaps, based on comparison with the user's query and existing documentation. From these logs, the skills can suggest the right additions to the documentation to strengthen it for the next interaction. (Note: Some documentation platforms provide built-in access to search and chat interaction logs.)
 
 AI interfaces on documentation portals provide more info than we've ever had access to previously. Historically, search interfaces provided minimal amounts of information, often showing one or two keywords the user searched for, without much additional information or insight. Having access to entire chat threads provides a level of detail not previously available. It can be like replaying user observation sessions in a transcribed, transparent way.
 
@@ -29,7 +29,7 @@ Tech writers will devote much of their bandwidth to assessing whether the gaps s
 
 ## Documentation forensics to identify causes for errors
 
-Another key role that tech writers will play is to get involved in documentation forensics. Forensics refers to identifying the root cause for hallucinations with assertions made by AI tools. If the AI on the documentation portal provides incorrect information to the user, the tech writer should seek to uncover the reasons for the hallucination.
+Another key role that tech writers will play is to get involved in documentation forensics. Forensics refers to identifying the root cause of hallucinations in assertions made by AI tools. If the AI on the documentation portal provides incorrect information to the user, the tech writer should seek to uncover the reasons for the hallucination.
 
 Uncovering the reasons for the hallucinations or incorrect info means examining the debug trajectories of AI tools to see where things might have gone astray. Was there incorrect information on the site? Was there a gap in information that the AI guessed about? Was the information scattered across many different pages and therefore hard to find?
 
