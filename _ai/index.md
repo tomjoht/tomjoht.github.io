@@ -8,6 +8,8 @@ last-modified: 2026-07-26
 ---
 
 {% assign skillsCount = site.data.sidebar_skills.folders.first.folderitems | size %}
+{% assign productSkillsCount = site.data.sidebar_skills.folders[1].folderitems | size %}
+{% assign skillsTotalCount = skillsCount | plus: productSkillsCount %}
 {% assign promptCount = site.data.sidebar_prompt_engineering.folders.first.folderitems | size %}
 {% assign useCasesCount = site.data.sidebar_ai_use_cases.folders.first.folderitems | size %}
 
@@ -18,9 +20,9 @@ This section gathers what I've written about AI and technical communication, org
   <a class="courseTile" href="/ai/skills.html">
     <span class="courseTile-eyebrow">Course</span>
     <span class="courseTile-name">Agent skills</span>
-    <span class="courseTile-desc">Build reusable instruction files that program an agent to handle the repeatable doc tasks eating your week — the same way every time.</span>
+    <span class="courseTile-desc">Build reusable instruction files that program an agent to handle the repeatable doc tasks eating your week — plus a chapter on product skills, which route AI agents through your docs.</span>
     <span class="courseTile-foot">
-      <span class="courseTile-count">{{ skillsCount }} lessons</span>
+      <span class="courseTile-count">{{ skillsTotalCount }} lessons</span>
       <span class="courseTile-go" aria-hidden="true">&rarr;</span>
     </span>
   </a>
@@ -55,11 +57,13 @@ That progression is worth knowing before you pick a starting point. Read chronol
 
 ## Agent skills
 
-<p class="courseHub-meta">{{ skillsCount }} lessons</p>
+<p class="courseHub-meta">{{ skillsTotalCount }} lessons in two chapters</p>
 
 A skill is a set of structured instructions — a `SKILL.md` file plus supporting resources — that tells an AI agent how to perform a specific task the same way every time. In a sense, skills are a programming language for LLMs: they let you automate the repeatable work that chips away at your week, so you can spend your time on the one-off problems that actually need you.
 
-This course covers when a task is worth turning into a skill, how skill directories are structured, where to store them so your agent discovers them, how to keep them modular, and how to test them. It's built around a hands-on project — a skill that edits Javadoc comments without ever touching code — and finishes with advanced patterns like subagents, loops, and reverse engineering.
+The first chapter covers when a task is worth turning into a skill, how skill directories are structured, where to store them so your agent discovers them, how to keep them modular, and how to test them. It's built around a hands-on project — a skill that edits Javadoc comments without ever touching code — and finishes with advanced patterns like subagents, loops, and reverse engineering.
+
+A second chapter, [Product skills](/ai/product-skills.html), turns outward: with AI coding agents now making up nearly half of documentation traffic, it looks at skills that route agents through your product docs — how the industry arrived at them, their problems, and the roles tech writers should play in creating, testing, and owning them.
 
 <a class="btn btn-primary courseHub-btn noCrossRef" href="/ai/skills.html">Start the Agent skills course &raquo;</a>
 

@@ -41,3 +41,28 @@ folders:
 
   - title: "Advanced patterns: subagents, loops, and reverse engineering"
     jurl: /ai/skills-advanced-patterns.html
+
+- title: "Product skills"
+  landing: /ai/product-skills.html
+  section: two
+  description: >
+    This section turns from internal authoring skills to product skills -- skills that give AI coding agents a routing map to your product documentation. It covers why agents now make up nearly half of documentation traffic, how the industry arrived at skills after MCP servers and llms.txt, the problems with skills, and the roles tech writers should play in creating, testing, and maintaining them.
+  folderitems:
+
+  - title: "Overview"
+    jurl: /ai/product-skills.html
+
+  - title: "From developer experience to agent experience"
+    jurl: /ai/product-skills-agent-experience.html
+
+  - title: "Problems with product skills"
+    jurl: /ai/product-skills-problems.html
+
+  - title: "Roles for tech writers with product skills"
+    jurl: /ai/product-skills-tech-writer-roles.html
+
+  - title: "Mining users' AI chat sessions: gaps and forensics"
+    jurl: /ai/product-skills-chat-analysis.html
+
+  - title: "Reimagining the documentation experience"
+    jurl: /ai/product-skills-reimagining-docs.html

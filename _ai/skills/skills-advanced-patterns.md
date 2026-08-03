@@ -92,3 +92,7 @@ If you've done every activity in this course, look at what's sitting in your pro
 
 Now go back to the top-three candidate list you drafted in the [when to build a skill](/ai/skills-when-to-build.html) activity. Pick the first one and start building — this time on a task that pays you back every week.
 
+<hr/>
+
+*Continue to the next chapter: [Product skills](/ai/product-skills.html) — skills built not for your own authoring tasks, but for the AI agents consuming your documentation.*
+

@@ -20,6 +20,9 @@ folders:
   - title: "Agent skills"
     jurl: /ai/skills.html
 
+  - title: "Product skills"
+    jurl: /ai/product-skills.html
+
   - title: "Prompt engineering for tech comm scenarios"
     jurl: /ai/prompt-engineering.html
 

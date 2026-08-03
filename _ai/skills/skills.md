@@ -41,7 +41,7 @@ In this series, I'll build out these ideas into a course on skills.
 
 ## Scope: internal vs. external skills
 
-I've only worked with internal skills for authoring. There's a whole other side to building skills for *external* users. Some groups that do this often programmatically generate the skills from the docs. The skills are often snapshots of an API's capabilities rather than a task-oriented workflow skill like writing release notes. I'll have more to say about external skills at some point, but for now my focus is on internal skills.
+I've mostly worked with internal skills for authoring. There's a whole other side to building skills for *external* users. Some groups that do this often programmatically generate the skills from the docs. The skills are often snapshots of an API's capabilities rather than a task-oriented workflow skill like writing release notes. This course now covers that external side in its own chapter — [Product skills](/ai/product-skills.html) — but the topics in this first chapter focus on internal skills.
 
 However, it's worth noting here that external skills can have tremendous, measurable impact. Some of my colleagues are working on an eval toolchain, and they say that adding skills to the docs has boosted the AI's accuracy on evals by a noticeable margin.
 
