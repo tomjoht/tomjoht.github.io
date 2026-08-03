@@ -36,7 +36,7 @@ Here's why tech writers should own product skills:
 - Tech writers can assess whether a test's questions and tasks are well suited to the product.
 - Tech writers can assess whether the answers an agent provides to a test align with the documentation's answers.
 
-Also note that the skill isn't a deep dive into any of the product's capabilities, tasks, or information. The skill is high-level and mostly routes to the correct place in the documentation. As I said in the [anatomy discussion](/ai/product-skills-agent-experience.html#anatomy-of-a-product-skill), a product skill is essentially a quick reference guide for machines — and quick reference guides are a genre tech writers already own. As such, the tech writer is perfectly suited to own the skills for the products they support.
+Also note that the skill isn't a deep dive into any of the product's capabilities, tasks, or information. The skill is high-level and mostly routes to the correct place in the documentation. As I said in the [anatomy discussion](/ai/product-skills-agent-experience.html#anatomy-of-a-product-skill), a product skill is essentially a quick reference guide for machines, and quick reference guides are a genre tech writers already own. I wrote a whole series on them years ago, starting with [Quick Reference Guides: The Poetry of Technical Writing](/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/) back in 2008. The constraints that make a good QRG (radical compression, knowing what to leave out, organizing for lookup rather than reading) are the same constraints that make a good product skill. As such, the tech writer is perfectly suited to own the skills for the products they support.
 
 A tech writer can use a product skill creator to generate a basic skill, and then look at the output and shape, refine, curate, and adjust the skill as needed to align with a good outcome. Tech writers often don't play a more critical role in skills development for the following reasons:
 
@@ -62,7 +62,7 @@ In contrast, if an engineering or evaluation team generates an automated pull re
 
 ## Roadmap for technical writers
 
-As part of the expectations for technical writers, all tech writers should meet the following requirements:
+As part of the expectations for technical writers, tech writers should meet the following requirements:
 
 - Provide a skill for each product supported.
 - Provide tests for each skill.
