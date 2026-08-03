@@ -154,6 +154,21 @@ defaults:
       progress: true
       permalink: /docs:path.html
       collection: ai
+
+  # Point every page in the skills courses at a single LinkedIn thread for comments
+  -
+    scope:
+      path: "_ai/skills"
+      type: ai
+    values:
+      linkedin: https://www.linkedin.com/posts/tomjoht_agent-skills-share-7489941426479439872-JJBV/
+  -
+    scope:
+      path: "_ai/product-skills"
+      type: ai
+    values:
+      linkedin: https://www.linkedin.com/posts/tomjoht_agent-skills-share-7489941426479439872-JJBV/
+
   -
     scope:
       path: "images"
