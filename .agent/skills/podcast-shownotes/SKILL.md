@@ -3,14 +3,14 @@ name: podcast-shownotes
 description: Assemble complete podcast shownotes from a raw transcript file. Use when the user has a podcast transcript and needs to build a full blog post with frontmatter, resource links, topic summaries, a narrative essay, and a cleaned-up transcript. Handles transcript cleanup (name fixes, fragment merging, transcription errors), frontmatter population, resource link formatting, topic extraction, and narrative essay writing.
 metadata:
   author: tomjohnson
-  version: "1.0"
+  version: "1.1"
 ---
 
 # Podcast Shownotes Assembly
 
 This skill takes a raw transcript and assembles a complete podcast blog post with shownotes. The user provides inputs; the agent fills in everything else.
 
-**Example to follow**: Read the file `_posts/2026/03/2026-03-21-will-tech-writers-survive-ai-academics-nupoor-jeremy.md` for the target format, structure, and tone of all sections.
+**Example to follow**: Read the file `_posts/2026/08/2026-08-02-podcast-deaton-anthropic-tw-automation.md` for the target format, structure, and tone of all sections. It is the most recent post built with this skill and matches the current structure (`## Links mentioned`, the AI-generated note above the TOC, an essay with no em dashes). `_posts/2026/03/2026-03-21-will-tech-writers-survive-ai-academics-nupoor-jeremy.md` is a good secondary reference for tone, but its headings are from an older version of the format.
 
 ## Required inputs from the user
 
@@ -38,6 +38,34 @@ Transcripts from speech-to-text tools have common problems. Fix these **without 
 - **Remove stray characters**: Clean up `⁓`, stutter duplicates ("that\n\nthat"), and other artifacts.
 
 Work in batches of ~100-150 lines to keep edits manageable and reviewable.
+
+**Do this step even when the user only asks for the topics and essay.** Users often say "I already started it, just write the topics and narrative" while the transcript in the file is still raw. Clean it anyway — it's the part that most needs the work.
+
+### Recurring transcription errors in this podcast's subject matter
+
+Speech-to-text reliably mangles the same AI/docs vocabulary. Search for these:
+
+| Heard as | Should be |
+|---|---|
+| Cloud Code, Clog Code, clot | Claude Code |
+| Claude Tag, clot tag, Cloud Talk | Claude Tag |
+| Mitlifly, Mint Lify, Vinlify, Mint Levi | Mintlify |
+| cash hit rate | cache hit rate |
+| a genetic / Segantic / aging tick | agentic |
+| dogs, docks | docs |
+| deck writing | tech writing |
+| scale (in "product scale") | skill |
+| L L S dot TXT | llms.txt |
+| Bakteen | Bakhtin |
+| anti-gravity | Antigravity |
+
+Product and model names to verify rather than guess: Fable, Sonnet 5, Haiku, Bedrock, GrowthBook, BigQuery, Agent SDK.
+
+**When you can't confidently decode a word, leave it as spoken** rather than inventing a plausible replacement. Flag those spots to the user in your summary instead. Correcting garbled speech is in scope; guessing at facts is not.
+
+### Speaker labels
+
+Use the guest's/host's normal public first name, not whatever nickname the transcription tool produced, and stay consistent with how earlier episodes labeled the same person (for example, the transcript may say "Fabri" but previous posts use `**Fabrizio**`). Check a prior post before deciding.
 
 ### Transcript entry format
 
@@ -80,6 +108,21 @@ linkedin: [linkedin post URL if available]
 ```
 
 **Description style**: Start with "In this podcast, I chat with..." followed by guest names as HTML links (linking to the guest's blog or website, not LinkedIn), then 1-2 sentences summarizing the key themes.
+
+The description renders as a summary block at the top of the published post (see `_layouts/default.html`), so it's the most visible place to credit people. **If the episode has a co-host, name them as co-host in the description with a link to their site** ("In this podcast, co-host <a href='https://passo.uno'>Fabrizio Ferri-Benedetti</a> and I chat with..."), and add their site to the Links mentioned section as well.
+
+### Title guidance
+
+The title is the one thing worth pushing back on. Two failure modes:
+
+- **A striking number or anecdote as the whole title.** It hooks well but promises the wrong episode, and it ages badly in the archive. Prefer a title that names the argument, and let the anecdote do its work in the essay opener, a topic bullet, and the description.
+- **Numbers that overstate what happened.** Verify the claim against the transcript before putting it in a title (for example, "100 PRs in a day" was merging *and closing* a backlog, not authoring 100 docs).
+
+Also check the subtitle for unintended sting given the audience. A phrase like "the writer who stopped writing" lands badly on a blog read by writers.
+
+Use ` -- ` or an em dash as the separator between the topic and the "podcast with X" half, matching earlier posts.
+
+**When the title changes, update it in all four places**: frontmatter `title`, the iframe `title` attribute, and the figure's `alt` and `<figcaption>`. The permalink and rebrandly slug do not need to change.
 
 ## Step 3: Assemble the post body structure
 
@@ -165,10 +208,23 @@ Imagine a journalist listened to the podcast and then wrote a feature article in
 
 ### Formatting rules
 
-- Give it a compelling subtitle formatted as **bold text** (not an H3 heading).
+- Give it a compelling subtitle formatted as **bold text** (not an H3 heading). Check it for unintended sting given the audience (see the title guidance in Step 2).
 - Precede it with: `*If the podcast were an article, this is what it would read like.*`
 - No speaker attributions. No "In the podcast, they discussed..." framing.
-- Use em dashes, concrete details, and specific examples from the conversation to keep it grounded.
+- Use concrete details and specific examples from the conversation to keep it grounded.
+
+### Prose rhythm: no em dashes in the essay
+
+**Do not use em dashes anywhere in the narrative essay.** They read as a tell of AI-written content, and they produce a choppy, staccato rhythm across a long piece. This applies to the essay only — the Topics bullets still use ` — ` as the separator between the bold title and the summary, which is structural rather than prose.
+
+Removing them properly means restructuring, not substituting. Watch for these related tics, which tend to travel with em dashes:
+
+- **The two-beat verdict**: "The words are cheap." / "It's not better prose. It's anchoring." / "Everyone wants them. Nobody has finished building them." Fold these into a longer sentence with a subordinate clause.
+- **Interruptive asides**: "an agent describes the feature — competently, fluently, uselessly — because..." becomes "an agent will describe the feature competently, fluently, and uselessly, because..."
+- **The dash as a lead-in to a list**: use a colon.
+- **The dash as an appositive**: use commas, or recast as a relative clause.
+
+Keep one or two genuinely short sentences where the beat is earned. The problem is the pattern repeating every paragraph, not any single short sentence.
 
 ### Content guidelines
 
@@ -209,6 +265,8 @@ curl -sI "https://www.youtube.com/embed/[VIDEO_ID]" | head -3
 
 Expected: `HTTP/2 200`. If it fails, the video ID is wrong.
 
+**Check for a carried-over video from the previous episode.** Drafts are often started by copying the last podcast post, which leaves the previous episode's video ID and iframe `title` in place. A stale ID returns 200, so the curl check will not catch it — compare the ID and title against the most recent podcast post. If the real ID isn't available yet, put a literal `[VIDEO_ID]` placeholder in both the iframe and the figure link so it fails visibly, and tell the user. Never leave a working link to the wrong video.
+
 ### 8c. Test the thumbnail image
 
 Verify the image is accessible on S3:
@@ -233,7 +291,10 @@ done
 Expected: All return 200. Known exceptions:
 - **LinkedIn** URLs return 999 (blocks automated requests) — this is normal.
 - **ResearchGate** URLs return 403 (blocks bots) — this is normal.
+- The **rebrandly** short link (`idbwrtng.com/[slug]`) returns 404 until the user creates it — expected, but mention it.
 - Any other non-200 code indicates a broken link that needs fixing.
+
+Assets the user prepares separately (thumbnail, audio, video, short link) are frequently not done yet when the shownotes get built. Don't treat a 404 on those as something to fix in the file — verify each one, then list the outstanding items at the end of your summary so the user knows what's blocking publication.
 
 ### 8e. Validate frontmatter
 
@@ -248,12 +309,16 @@ Check these fields in the YAML frontmatter:
 
 ### 8f. Grammar and formatting review
 
-Scan the shownotes (Topics, Narrative essay, and Resources sections — NOT the transcript) for:
+Scan the shownotes (Topics, Narrative essay, and Links mentioned sections — NOT the transcript) for:
 
 - Spelling errors
 - Missing or unclosed markdown formatting (e.g., unclosed `*` for italics, unclosed `**` for bold)
 - Sentence fragments or run-on sentences
-- Inconsistent em dash usage (use ` — ` with spaces, not `--` or `—` without spaces)
+- Inconsistent em dash usage in the Topics bullets (use ` — ` with spaces, not `--` or `—` without spaces). The narrative essay should contain no em dashes at all — see Step 6.
 - Proper capitalization of product names, company names, and university names
 
 Do NOT rewrite for style — only flag clear errors.
+
+### 8g. Check the categories
+
+Categories are often copied from the previous post and may not fit. Verify them against the actual content (for example, `academics-and-practitioners` doesn't apply to an episode with no academics in it).
