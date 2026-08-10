@@ -2,6 +2,8 @@
 # Activate your virtual environment
 source .venv/bin/activate
 
+sips -m "/System/Library/ColorSync/Profiles/sRGB Profile.icc" images/$1
+
 # Upload with Wasabi-specific flags``
 aws s3 cp images/$1 s3://idbwmedia.com/images/ \
     --profile wasabi \
