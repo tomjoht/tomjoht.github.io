@@ -1,0 +1,110 @@
+---
+layout: none
+permalink: /llms.txt
+search: false
+sitemap: false
+---
+{%- assign seriespage = site.pages | where: "permalink", "/series/" | first -%}
+{%- assign docapis = site.data.docapis -%}
+{%- assign skills = site.data.sidebar_skills -%}
+{%- assign prompteng = site.data.sidebar_prompt_engineering -%}
+{%- assign usecases = site.data.sidebar_ai_use_cases -%}
+# I'd Rather Be Writing
+
+> A technical writing blog and course site by Tom Johnson, a technical writer in the Seattle area (currently at Google, previously Amazon). Running since 2006, the site covers technical communication, API documentation, AI-assisted documentation workflows, and the practice and profession of tech comm. It combines a long-running blog ({{ site.posts | size }} posts) with several free, book-length courses.
+
+The site has two kinds of content:
+
+- **Courses** — structured, sequential, book-length material that is revised over time. The API documentation course and the AI courses are the main ones. These are the most substantive and most frequently updated parts of the site.
+- **Blog posts** — dated essays and observations going back to 2006. Older posts reflect the tools and assumptions of their moment; check the date before treating a post as current guidance.
+
+Content is authored in Markdown and published with Jekyll. Everything is free to read. Full text of every page is available at its URL; there is no paywall or login.
+
+## Start here
+
+- [Home / latest blog posts]({{ site.url }}/): Reverse-chronological list of recent posts
+- [About Tom Johnson]({{ site.url }}/aboutme/): Background, career, and what this blog covers
+- [Documenting APIs course]({{ site.url }}/learnapidoc/): A 17-chapter course on writing API documentation, with hands-on activities
+- [AI courses hub]({{ site.url }}/ai/index.html): Three self-contained courses on AI and technical communication
+- [Series index]({{ site.url }}/series/): Multi-part post series grouped by topic
+- [All posts by year]({{ site.url }}/all/): Complete archive of every post
+
+## Documenting APIs course
+
+A free, book-length course on API documentation for technical writers and engineers. Covers REST API concepts, using an API like a developer, documenting endpoints, the OpenAPI specification, testing docs, conceptual topics, code tutorials, publishing, and career topics. Includes hands-on activities against real APIs.
+{% for folder in docapis.folders %}
+- [{{ folder.title }}]({{ folder.landing | prepend: site.url }}): {% if folder.tiledesc %}{{ folder.tiledesc | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "&nbsp;", " " }}{% else %}{{ folder.description | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "&nbsp;", " " | truncate: 220 }}{% endif %}
+{%- endfor %}
+
+## AI and technical communication
+
+Three self-contained courses. They don't build on each other. Written at different times, tracking the field's progression: use cases (2023), prompt engineering (2024), agent skills (2025-2026).
+
+- [AI courses hub]({{ site.url }}/ai/index.html): Overview of all three courses and how they fit together
+- [AI Book Club]({{ site.url }}/ai-book-club/): Notes and discussion on books about AI
+- [All AI-related blog posts]({{ site.url }}/category-ai/): Dated posts on AI and tech comm
+
+### Course: Agent skills
+
+Building reusable instruction files that program an AI agent to handle repeatable documentation tasks. Includes a chapter on product skills — skills that route AI agents through your product's docs.
+{% for folder in skills.folders %}{% for item in folder.folderitems %}
+- [{{ item.title | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' }}]({{ item.jurl | prepend: site.url }})
+{%- endfor %}{% endfor %}
+
+### Course: Prompt engineering for tech comm scenarios
+
+Prompting techniques worked out against scenarios technical writers actually face: meeting notes, release notes, code samples, templates, and more.
+{% for folder in prompteng.folders %}{% for item in folder.folderitems %}
+- [{{ item.title | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' }}]({{ item.jurl | prepend: site.url }})
+{%- endfor %}{% endfor %}
+
+### Course: Use cases for AI
+
+A survey of where AI genuinely helps with documentation work — summarizing, comparing, explaining code — and where it still falls short.
+{% for folder in usecases.folders %}{% for item in folder.folderitems %}
+- [{{ item.title | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' }}]({{ item.jurl | prepend: site.url }})
+{%- endfor %}{% endfor %}
+
+## Post series
+
+Multi-part series written over the years. Each varies in length.
+{% for item in seriespage.myseries %}
+- [{{ item.title }}]({% if item.url contains "http" %}{{ item.url | strip }}{% else %}{{ item.url | strip | prepend: site.url }}{% endif %})
+{%- endfor %}
+
+## Recent blog posts
+{% for post in site.posts limit: 30 %}
+- [{{ post.title }}]({{ post.url | prepend: site.url }}) ({{ post.date | date: "%Y-%m-%d" }}){% if post.description %}: {{ post.description | strip_html | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "&nbsp;", " " | truncate: 200 }}{% endif %}
+{%- endfor %}
+
+## About and contact
+
+- [About me]({{ site.url }}/aboutme/): Bio and background
+- [Contact]({{ site.url }}/contact/): How to reach Tom
+- [Newsletter]({{ site.url }}/newsletter/): Email newsletter signup
+- [Presentations]({{ site.url }}/presentations/): Talks and workshop recordings
+- [Podcast]({{ site.url }}/podcasts/): Podcast episodes and interviews
+- [Advertising]({{ site.url }}/advertising/): Sponsorship information
+- [Copyright and reuse]({{ site.url }}/copyright/): Licensing terms for this content
+
+## Optional
+
+Bulk indexes and archives. Skip these if you need a shorter context.
+
+- [XML sitemap]({{ site.url }}/sitemap.xml): Machine-readable URL list
+- [RSS feed]({{ site.url }}/feed.xml): Latest posts
+- [Podcast RSS feed]({{ site.url }}/itunes.rss): Podcast episodes
+- [All posts by year]({{ site.url }}/all/): Every post, grouped by year
+- [Tags]({{ site.url }}/tags/): Posts grouped by tag
+- [Journey away from smartphones]({{ site.url }}/smartphones/index.html): Series on reducing smartphone dependence
+- [Rereading Zen and the Art of Motorcycle Maintenance]({{ site.url }}/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html): Chapter-by-chapter reflections
+
+### Blog categories
+{% for cat in site.data.tags.categories %}
+- [{{ cat }}]({{ site.url }}/category-{{ cat }}/)
+{%- endfor %}
+
+### Documenting APIs course — all topics
+{% for folder in docapis.folders %}{% for item in folder.folderitems %}
+- [{{ item.title | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' }}]({{ item.jurl | prepend: site.url }})
+{%- endfor %}{% endfor %}
