@@ -8,6 +8,7 @@ keywords:
 rebrandly: https://idbwrtng.com/ai4-conference-reflections-tw
 description: "This week I attended <a href='https://ai4.io/'>Ai4</a>, promoted as the largest AI conference in North America. It was held at The Venetian in Las Vegas and lasted 3 days. The conference had more than 12,000 attendees (from 100 countries), 400 exhibitors/sponsors, 1,000 speakers, 700 sessions, keynotes from luminaries, and more. Needless to say, the sheer size of the conference was overwhelming. In this post, I'll share thoughts about the conference, focusing on a few key things:<ul><li>The overwhelming size of the conference</li><li>The focus on agents and near absence of skills talk </li> <li>The absence of any vendors tackling tech comm solutions  </li><li>Whether conferences are good places to learn</li></ul>"
 image: bannerai4thumb2.png
+linkedin: https://lnkd.in/p/gjZJgnij
 ---
 
 * TOC
