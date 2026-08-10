@@ -95,7 +95,7 @@ Additionally, if you attend the event with your team, it can be morale boosting 
 
 With hundreds of sessions, I spent hours each day just deciding which sessions to attend. Seriously, each day had around 200 sessions, and figuring out which to attend was challenging. Fortunately, Ai4 provides digital recordings of the talks about a month after the event. I hope I'll enjoy the digital versions, as I can layer in the talks during my commute and other times. I might change my mind about the relevance of some sessions, and I might discover some sessions to be more relevant than I initially thought (including those I didn't attend). 
 
-However, coming back to the title of the conference: “Ai4.” The intent behind the “4” is to be cross-domain, so it's *AI for _______________* (you fill in the blank - AI for software engineers, AI for founders, AI for cybersecurity professionals, etc.). Is it also “AI for technical writers?” Not so much.
+However, coming back to the title of the conference: “Ai4.” The intent behind the “4” is to be cross-domain, so it's *AI for ___________* (you fill in the blank - AI for software engineers, AI for founders, AI for cybersecurity professionals, etc.). Is it also “AI for technical writers?” Not so much.
 
 
 

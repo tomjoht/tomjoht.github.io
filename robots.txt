@@ -1,1 +1,5 @@
+User-agent: *
+Allow: /
+
+# LLM-oriented site index: https://idratherbewriting.com/llms.txt
 Sitemap: https://idratherbewriting.com/sitemap.xml
