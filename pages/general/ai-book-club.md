@@ -25,6 +25,8 @@ To see previous recordings and notes, see [Previous meetings and recordings](#pr
 {:.note}
 The reading schedule beyond the next month is tentative and subject to change.
 
+Where a book is available on Audible, the entry includes an Audible link next to the author's name. See [Why the Audible links?](#audible) for why.
+
 <table>
    <thead>
       <tr>
@@ -42,7 +44,7 @@ The reading schedule beyond the next month is tentative and subject to change.
          </td>
          <td>
             <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a></p>
-             <p class="book-author">by {{ meeting.book.author }}</p>
+             <p class="book-author">by {{ meeting.book.author }}{% if meeting.book.audible_url %} &middot; <a href="{{ meeting.book.audible_url }}"><i class="fa fa-headphones" aria-hidden="true"></i> Audible</a>{% endif %}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
          <td><p class="notes-links">{% if meeting.notes_url != "" %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>{% endif %}
@@ -59,6 +61,12 @@ We read one book a month, as listed in the schedule above. This pace ensures tha
 Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to explore them in depth rather than just keeping up with the latest model release or news headlines.
 
 There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read (or listen to) part or all of the books, and participate as much or little as you like. The meetings take place online on the third Sunday of each month at 10am Pacific Time.
+
+## Why the Audible links? {#audible}
+
+Going forward, I'm going to prefer books that are available on Audible. This is simply how I consume most books &mdash; while riding my bike, driving my car, working in the yard, and doing other things that leave my hands busy but my ears free. A book that only exists in print is a book I'm much less likely to finish.
+
+This is a preference, not a hard rule, and it doesn't change anything about how you read (or listen to) the books yourself. But if a title I'm considering has no audiobook, it will probably lose out to one that does. In the schedule above, books with an audiobook include an Audible link next to the author's name. I'm not going back to add these links for previous books, so you'll mainly see them on upcoming titles.
 
 ## Recording and sharing {#recording}
 
@@ -125,7 +133,7 @@ Previous meetings are listed below with recordings, notes, and other resources, 
          </td>
          <td>
             <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a></p>
-             <p class="book-author">by {{ meeting.book.author }}</p>
+             <p class="book-author">by {{ meeting.book.author }}{% if meeting.book.audible_url %} &middot; <a href="{{ meeting.book.audible_url }}"><i class="fa fa-headphones" aria-hidden="true"></i> Audible</a>{% endif %}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
          <td>
@@ -152,7 +160,7 @@ Previous meetings are listed below with recordings, notes, and other resources, 
 : Mostly people working in tech comm who want to deepen and broaden their knowledge of AI, but who aren't looking to dive into the technical details of AI as an engineer might. These books fall more within a general interest category for technology and AI.
 
 **How did you come up with the book list?**
-: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and average at least 4 stars. 
+: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and average at least 4 stars. I also prefer books available on Audible &mdash; see [Why the Audible links?](#audible).
 
 **What are the meetings like?**
 : The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarizes the book's themes and also presents some questions for discussion. 
