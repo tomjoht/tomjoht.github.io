@@ -15,6 +15,7 @@ podcast_file_size: 56.3
 podcast_duration: "00:58:40"
 podcast_length: 56318766
 image: titleslidemaniacthumb.png
+linkedin: https://lnkd.in/p/gG9PESDN
 ---
 
 Note: These shownotes are AI-generated.
