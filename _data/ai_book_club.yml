@@ -1,18 +1,5 @@
 upcoming:
 
-  - date: "Aug 16, 2026"
-    time: "10am PT"
-    book:
-      title: "The Maniac"
-      author: "Benjamin Labatut"
-      url: "https://www.amazon.com/dp/0593654498"
-      audible_url: "https://www.audible.com/pd/The-Maniac-Audiobook/B0BVNYBQ5D"
-      image: "themaniac.jpg"
-      summary: >
-        "A prodigy whose gifts terrified the people around him, John von Neumann transformed every field he touched, inventing game theory and the first programable computer, and pioneering AI, digital life, and cellular automata. Through a chorus of family members, friends, colleagues, and rivals, Labatut shows us the evolution of a mind unmatched and of a body of work that has unmoored the world in its wake."
-    notes_url: "https://docs.google.com/document/d/1J7jUmzaCex2G_2kXn1hpBx9oNdM2K9k2BGRkwoK4MEc/edit?tab=t.0"
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
   - date: "Sep 20, 2026"
     time: "10am PT"
     book:
@@ -79,6 +66,20 @@ upcoming:
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
 previous:
+
+  - date: "Aug 16, 2026"
+    recording:
+      url: "/blog/the-maniac-labatut-ai-book-club"
+      text: "Meeting recording"
+    book:
+      title: "The Maniac"
+      author: "Benjamin Labatut"
+      url: "https://www.amazon.com/dp/0593654498"
+      audible_url: "https://www.audible.com/pd/The-Maniac-Audiobook/B0BVNYBQ5D"
+      image: "themaniac.jpg"
+      summary: >
+        "A prodigy whose gifts terrified the people around him, John von Neumann transformed every field he touched, inventing game theory and the first programable computer, and pioneering AI, digital life, and cellular automata. Through a chorus of family members, friends, colleagues, and rivals, Labatut shows us the evolution of a mind unmatched and of a body of work that has unmoored the world in its wake."
+    notes_url: "https://docs.google.com/document/d/1J7jUmzaCex2G_2kXn1hpBx9oNdM2K9k2BGRkwoK4MEc/edit?tab=t.0"
 
   - date: "June 28, 2026"
     recording: 
