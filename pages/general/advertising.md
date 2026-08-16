@@ -170,7 +170,7 @@ Newsletter banner ads typically receive about 10 clicks per newsletter. As part 
 
 I usually include about 4 banner ads per newsletter, with each banner ad separating the text summary.
 
-The cost for advertising in the newsletter space is $100 per newsletter 
+The cost for advertising in the newsletter space is $100 per newsletter.
 
 ## Footer banner ads {#footer_banner_ads}
 
@@ -182,7 +182,7 @@ Footer banner ads can be JPG, PNG, or SVG. Animated GIF is not allowed. Like the
 
 Footer banner ads typically receive 50 clicks per month.
 
-The cost for a Horizontal banner ad is $1,500 per year.
+The cost for a footer banner ad is $1,500 per year.
 
 ## Taking the next step
 
