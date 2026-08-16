@@ -16,13 +16,12 @@ upcoming:
   - date: "Sep 20, 2026"
     time: "10am PT"
     book:
-      title: "I Am Not a Robot: My Year Using AI to Do (Almost) Everything"
-      author: "Joanna Stern"
-      url: "https://www.amazon.com/dp/0063446618"
-      audible_url: "https://www.audible.com/pd/I-Am-Not-a-Robot-Audiobook/B0FPRNJYV8"
-      image: "i-am-robot-book.png"
+      title: "Docs as Tests & AI: A Strategy for Self-Healing Technical Documentation"
+      author: "Manny Silva"
+      url: "https://www.amazon.com/Docs-Tests-Self-Healing-Technical-Documentation/dp/B0H181C5DQ/"
+      image: "manny_silva.png"
       summary: >
-        "<i>I Am Not a Robot</i> is like a time machine trip to the very near future, where AI promises to be your doctor, chauffeur, teacher, masseuse, coworker, therapist, financial planner, chef, housekeeper, and even . . . romantic partner. Your colleague might be using ChatGPT to write emails at work, but Joanna used AI tools and robots to do household chores, to manage her health, and to transport her family on vacation. If there was a decision to make or a task to do, she let AI go first. Along the way, she conducted exclusive interviews with the tech leaders building this future, then reported back from the front lines as your funny, no-nonsense tour guide."
+        "Docs as Tests & AI picks up where Docs as Tests left off. Manny Silva shows how to validate documentation when AI is generating it, consuming it, or both. The book covers territory the original didn't: the difference between deterministic and probabilistic testing, validating the content that feeds AI systems, writing documentation that gives AI agents reliable process knowledge, and building systems that detect and fix errors automatically."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
@@ -42,6 +41,19 @@ upcoming:
   - date: "Nov 15, 2026"
     time: "10am PT"
     book:
+      title: "I Am Not a Robot: My Year Using AI to Do (Almost) Everything"
+      author: "Joanna Stern"
+      url: "https://www.amazon.com/dp/0063446618"
+      audible_url: "https://www.audible.com/pd/I-Am-Not-a-Robot-Audiobook/B0FPRNJYV8"
+      image: "i-am-robot-book.png"
+      summary: >
+        "<i>I Am Not a Robot</i> is like a time machine trip to the very near future, where AI promises to be your doctor, chauffeur, teacher, masseuse, coworker, therapist, financial planner, chef, housekeeper, and even . . . romantic partner. Your colleague might be using ChatGPT to write emails at work, but Joanna used AI tools and robots to do household chores, to manage her health, and to transport her family on vacation. If there was a decision to make or a task to do, she let AI go first. Along the way, she conducted exclusive interviews with the tech leaders building this future, then reported back from the front lines as your funny, no-nonsense tour guide."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Dec 20, 2026"
+    time: "10am PT"
+    book:
       title: "The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence"
       author: "Kevin Roose"
       url: "https://www.amazon.com/dp/0374618755"
@@ -52,7 +64,7 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Dec 20, 2026"
+  - date: "Jan 17, 2027"
     time: "10am PT"
     book:
       title: "Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI"
@@ -65,7 +77,7 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
-  - date: "Jan 17, 2027"
+  - date: "Feb 21, 2027"
     time: "10am PT"
     book:
       title: "Culpability: A Novel"
