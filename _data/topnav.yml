@@ -87,23 +87,21 @@ topnav_dropdowns:
           url: /ai/prompt-engineering.html
         - title: "Course: Use cases for AI"
           url: /ai/use-cases.html
-        - title: AI Book Club
-          url: /ai-book-club
         - title: AI category posts
           url: /category-ai/
 
-    - title: Series
+    - title: AI Book Club
       folderitems:
-        - title: Rereading Zen and the Art of Motorcycle Maintenance
-          url: /zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html
-        - title: Journey away from smartphones
-          url: /smartphones/index.html
-        - title: Trends to follow or forget
-          url: /trends/trends-to-follow-or-forget-intro.html
-        - title: Simplifying complexity
-          url: /simplifying-complexity/index.html
-        - title: Value arguments for tech comm
-          url: /2017/12/28/value-of-tech-comm-in-company-part1/
+        - title: AI Book Club
+          url: /ai-book-club
+        - title: Upcoming books
+          url: /ai-book-club#schedule
+        - title: Previous books
+          url: /ai-book-club#previous
+        - title: Slack forum
+          url: /ai-book-club/#slack
+        - title: Email list
+          url: /ai-book-club/#emaillist
 
     - title: About
       folderitems:

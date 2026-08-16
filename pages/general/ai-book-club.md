@@ -66,7 +66,7 @@ There's no cost to join the book club (except buying the books), and you can att
 
 Going forward, I'm going to prefer books that are available on Audible. This is simply how I consume most books &mdash; while riding my bike, driving my car, working in the yard, and doing other things that leave my hands busy but my ears free. A book that only exists in print is a book I'm much less likely to finish.
 
-This is a preference, not a hard rule, and it doesn't change anything about how you read (or listen to) the books yourself. But if a title I'm considering has no audiobook, it will probably lose out to one that does. In the schedule above, books with an audiobook include an Audible link next to the author's name. I'm not going back to add these links for previous books, so you'll mainly see them on upcoming titles.
+This is a preference, not a hard rule, and it doesn't change anything about how you read (or listen to) the books yourself. But if a title I'm considering has no audiobook, it will probably lose out to one that does. Books with an audiobook include an Audible link next to the author's name, both in the schedule above and in the list of previous meetings below. As it turns out, every book the club has read so far is available on Audible, so the links are there for the whole back catalog too.
 
 ## Recording and sharing {#recording}
 

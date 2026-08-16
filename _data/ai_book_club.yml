@@ -6,6 +6,7 @@ upcoming:
       title: "The Maniac"
       author: "Benjamin Labatut"
       url: "https://www.amazon.com/dp/0593654498"
+      audible_url: "https://www.audible.com/pd/The-Maniac-Audiobook/B0BVNYBQ5D"
       image: "themaniac.jpg"
       summary: >
         "A prodigy whose gifts terrified the people around him, John von Neumann transformed every field he touched, inventing game theory and the first programable computer, and pioneering AI, digital life, and cellular automata. Through a chorus of family members, friends, colleagues, and rivals, Labatut shows us the evolution of a mind unmatched and of a body of work that has unmoored the world in its wake."
@@ -28,6 +29,19 @@ upcoming:
   - date: "Oct 18, 2026"
     time: "10am PT"
     book:
+      title: "Reboot: AI and the Race to Save Democracy"
+      author: "Beth Simone Noveck"
+      url: "https://www.amazon.com/dp/030027999X"
+      audible_url: "https://www.audible.com/pd/Reboot-Audiobook/B0GXGX7FXX"
+      image: "reboot_noveck.jpg"
+      summary: >
+        "Democracy is in retreat at home and abroad. Our institutions and our politics are more broken than ever. At this delicate moment, artificial intelligence has burst onto the scene, a powerful technology that holds as much potential to bolster democracy as to harm it. ... Many warn that AI will accelerate authoritarianism. In <i>Reboot</i>, Beth Simone Noveck makes a different case. Drawing on decades of work building technology and working inside government, from the White House to 10 Downing Street, she shows how democratic institutions can deliberately design, govern, and invest in AI to strengthen democracy rather than undermine it."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Nov 15, 2026"
+    time: "10am PT"
+    book:
       title: "The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence"
       author: "Kevin Roose"
       url: "https://www.amazon.com/dp/0374618755"
@@ -35,6 +49,32 @@ upcoming:
       image: "agi_chronicles.png"
       summary: >
         "For the last decade, a handful of AI companies have been racing to build the most powerful technology in history: artificial general intelligence, or AGI―a computer system capable of outdoing humans at almost anything. Some of them hoped AGI would cure diseases and heal the planet. Others feared it could kill everyone on Earth. They decided to build it anyway."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Dec 20, 2026"
+    time: "10am PT"
+    book:
+      title: "Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI"
+      author: "Carissa Véliz"
+      url: "https://www.amazon.com/Prophecy-Prediction-Future-Ancient-Oracles/dp/0385550979"
+      audible_url: "https://www.audible.com/pd/Prophecy-Audiobook/B0FKTRGVRN"
+      image: "prophecy_veliz.jpg"
+      summary: >
+        "<i>Prophecy</i> is about how extensive use of predictive analytics is undermining our abilities to defy the odds, making systems unaccountable, and increasing risk in business and society while creating a false sense of security." Véliz traces prediction's role in power across history &mdash; from the oracle at Delphi through the rise of statistics and insurance to the failures of contemporary AI &mdash; and argues that today's tech executives function much as ancient oracles and astrologers once did. Predictions that claim to be objective turn out to be probabilistic judgments that can become self-fulfilling, shaping who gets a job, a loan, or medical care.
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Jan 17, 2027"
+    time: "10am PT"
+    book:
+      title: "Culpability: A Novel"
+      author: "Bruce Holsinger"
+      url: "https://www.amazon.com/Culpability-Novel-Bruce-Holsinger/dp/1954118961"
+      audible_url: "https://www.audible.com/pd/Culpability-Audiobook/B0F33VXBQS"
+      image: "culpability_holsinger.jpg"
+      summary: >
+        "When the Cassidy-Shaws' autonomous minivan collides with an oncoming car, seventeen-year-old Charlie is in the driver's seat, with his father, Noah, riding shotgun. In the back seat, tweens Alice and Izzy are on their phones, while their mother, Lorelei, a world leader in the field of artificial intelligence, is absorbed in her work. Yet each family member harbors a secret, implicating them all in the tragic accident. ... [A] propulsive family drama that is also a fascinating exploration of the moral responsibility and ethical consequences of AI."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
@@ -48,6 +88,7 @@ previous:
       title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
       author: "Sebastian Mallaby"
       url: "https://www.amazon.com/dp/0593831845"
+      audible_url: "https://www.audible.com/pd/The-Infinity-Machine-Audiobook/B0FSST1JRF"
       image: "infinity-machine.jpg"
       summary: >
         "From one of our leading chroniclers of the intersection of innovation and capitalism, a landmark reckoning—based on unprecedented access—with one of the world's most brilliant and driven tech visionaries, and his game-changing company."
@@ -61,6 +102,7 @@ previous:
       title: "Life 3.0: Being Human in the Age of Artificial Intelligence"
       author: "Max Tegmark"
       url: "https://www.amazon.com/dp/1101970316"
+      audible_url: "https://www.audible.com/pd/Life-30-Audiobook/B0742K1G4Q"
       image: "life30thumb.png"
       summary: >
         "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology—and there's nobody better qualified or situated to explore that future than Max Tegmark."
@@ -77,6 +119,7 @@ previous:
       title: "Breakneck: China's Quest to Engineer the Future"
       author: "Dan Wang"
       url: "https://www.amazon.com/dp/1324106034"
+      audible_url: "https://www.audible.com/pd/Breakneck-Audiobook/B0FDH3V8T2"
       image: "breakneck.png"
       summary: >
         "In Breakneck, Wang blends political, economic, and philosophical analysis with reportage to reveal a provocative new framework for understanding China―one that helps us see America more clearly, too. While China is an engineering state, relentlessly pursuing megaprojects, the United States has stalled. America has transformed into a lawyerly society, reflexively blocking everything, good and bad"
@@ -91,6 +134,7 @@ previous:
       title: "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All"
       author: "Eliezer Yudkowsky and Nate Soares"
       url: "https://www.amazon.com/Anyone-Builds-Everyone-Dies-Superhuman/dp/0316595640"
+      audible_url: "https://www.audible.com/pd/If-Anyone-Builds-It-Everyone-Dies-Audiobook/B0F2B8J9H5"
       image: "if-anyone-builds-it-book-club.png"
       summary: >
         "In 2023, hundreds of AI luminaries signed an open letter warning that artificial intelligence poses a serious risk of human extinction. Since then, the AI race has only intensified. Companies and countries are rushing to build machines that will be smarter than any person. And the world is devastatingly unprepared for what would come next."
@@ -107,6 +151,7 @@ previous:
       title: "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism"
       author: "Sarah Wynn-Williams"
       url: "https://www.amazon.com/gp/product/1250391237"
+      audible_url: "https://www.audible.com/pd/Careless-People-Audiobook/B0DZ8PC43P"
       image: "careless-people.png"
       summary: >
         "Careless People is a deeply personal account of why and how things have gone so horribly wrong in the past decade―told in a sharp, candid, and utterly disarming voice. A deep, unflinching look at the role that social media has assumed in our lives, Careless People reveals the truth about the leaders of Facebook: how the more power they grasp, the less responsible they become and the consequences this has for all of us."
@@ -120,6 +165,7 @@ previous:
       title: "God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning"
       author: "Meghan O'Gieblyn"
       url: "https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710"
+      audible_url: "https://www.audible.com/pd/God-Human-Animal-Machine-Audiobook/0593402774"
       image: "godhuman_aibookclub.png"
       summary: >
         "For most of human history the world was a magical and enchanted place ruled by forces beyond our understanding. The rise of science and Descartes's division of mind from world made materialism our ruling paradigm, in the process asking whether our own consciousness &mdash; i.e., souls—might be illusions. Now the inexorable rise of technology, with artificial intelligences that surpass our comprehension and control, and the spread of digital metaphors for self-understanding, the core questions of existence—identity, knowledge, the very nature and purpose of life itself—urgently require rethinking."
@@ -133,6 +179,7 @@ previous:
       title: "Co-Intelligence: Living and Working with AI"
       author: "Ethan Mollick"
       url: "https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X"
+      audible_url: "https://www.audible.com/pd/Co-Intelligence-Audiobook/B0CNFJ1BVP"
       image: "cointelligence_aibookclub.png"
       summary: >
         "In <i>Co-Intelligence</i>, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. / Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era."
@@ -149,6 +196,7 @@ previous:
       title: "Nexus: A Brief History of Information Networks from the Stone Age to AI"
       author: "Yuval Noah Harari"
       url: "https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"
+      audible_url: "https://www.audible.com/pd/Nexus-Audiobook/B0CT49S3V8"
       image: "nexus_aibookclub.png"
       summary: >
         "<i>Nexus</i> looks through the long lens of human history to consider how the flow of information has shaped us, and our world. Taking us from the Stone Age, through the canonization of the Bible, early modern witch-hunts, Stalinism, Nazism, and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems throughout history have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence."
@@ -165,6 +213,7 @@ previous:
       title: "Hands-On Large Language Models: Language Understanding and Generation"
       author: "Jay Alammar and Maarten Grootendorst"
       url: "https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"
+      audible_url: "https://www.audible.com/pd/Hands-On-Large-Language-Models-Audiobook/B0F7JGL61S"
       image: "handsonllms.png"
       summary: >
         "AI has acquired startling new language capabilities in just the past few years. Driven by rapid advances in deep learning, language AI systems are able to write and understand text better than ever before. This trend is enabling new features, products, and entire industries. Through this book's visually educational nature, readers will learn practical tools and concepts they need to use these capabilities today. / You'll understand how to use pretrained large language models for use cases like copywriting and summarization; create semantic search systems that go beyond keyword matching; and use existing libraries and pretrained models for text classification, search, and clusterings."
@@ -178,6 +227,7 @@ previous:
       title: "Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI"
       author: "Karen Hao"
       url: "https://www.amazon.com/Empire-AI-Dreams-Nightmares-Altmans/dp/0593657500"
+      audible_url: "https://www.audible.com/pd/Empire-of-AI-Audiobook/B0DR39GCQZ"
       image: "empireofaithumb.png"
       summary: >
         "[Hao] realized that the core truth of this massively disruptive sector is that its vision of success requires an almost unprecedented amount of resources: the “compute” power of high-end chips and the processing capacity to create massive large language models, the sheer volume of data that needs to be amassed at scale, the humans “cleaning up” that data for sweatshop wages throughout the Global South, and a truly alarming spike in the usage of energy and water underlying it all. The truth is that we have entered a new and ominous age of empire: only a small handful of globally scaled companies can even enter the field of play. At the head of the pack with its ChatGPT breakthrough, how would OpenAI resist such temptations?"
@@ -194,6 +244,7 @@ previous:
       title: "AI Superpowers: China, Silicon Valley, and the New World Order"
       author: "Kai-Fu Lee"
       url: "https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/0358105587"
+      audible_url: "https://www.audible.com/pd/AI-Superpowers-Audiobook/1978632835"
       image: "aisuperpowers_aibookclub.png"
       summary: >
         "...Lee argues powerfully that because of the unprecedented developments in AI, dramatic changes will be happening much sooner than many of us expected.... Most experts already say that AI will have a devastating impact on blue-collar jobs. But Lee predicts that Chinese and American AI will have a strong impact on white-collar jobs as well. Is universal basic income the solution? In Lee's opinion, probably not. But he provides a clear description of which jobs will be affected and how soon, which jobs can be enhanced with AI, and most importantly, how we can provide solutions to some of the most profound changes in the future of human history."
@@ -206,6 +257,7 @@ previous:
       title: "Supremacy: AI, ChatGPT, and the Race that Will Change the World"
       author: "Parmy Olson"
       url: "https://www.amazon.com/Supremacy-ChatGPT-Race-Change-World/dp/1250337747"
+      audible_url: "https://www.audible.com/pd/Supremacy-Audiobook/B0CMK6K13H"
       image: "supremacy_aibookclub.png"
       summary: >
         "In <i>Supremacy</i>, Olson, tech writer at Bloomberg, tells the astonishing story of the battle between these two AI firms [ OpenAI and DeepMind], their struggles to use their tech for good, and the hazardous direction they could go as they serve two tech Goliaths whose power is unprecedented in history. The story focuses on the continuing rivalry of two key CEOs at the center of it all, who cultivated a religion around their mission to build god-like super intelligent machines: Sam Altman, CEO of OpenAI, and Demis Hassabis, the CEO of DeepMind."
@@ -222,6 +274,7 @@ previous:
       title: "The Singularity Is Nearer: When We Merge with AI"
       author: "Ray Kurzweil"
       url: "https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761"
+      audible_url: "https://www.audible.com/pd/The-Singularity-Is-Nearer-Audiobook/0593148916"
       image: "singularity_aibookclub.png"
       summary: >
         "Kurzweil brings a fresh perspective to advances toward the Singularity — assessing his 1999 prediction that AI will reach human level intelligence by 2029 and examining the exponential growth of technology — that, in the near future, will expand human intelligence a millionfold and change human life forever. Among the topics he discusses are rebuilding the world, atom by atom with devices like nanobots; radical life extension beyond the current age limit of 120; reinventing intelligence by connecting our brains to the cloud; ... and the growth of renewable energy and 3-D printing."
@@ -235,6 +288,7 @@ previous:
       title: "The Coming Wave: Technology, Power, and the 21st Century's Greatest Dilemma"
       author: "Mustafa Suleyman"
       url: "https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952"
+      audible_url: "https://www.audible.com/pd/The-Coming-Wave-Audiobook/B0BVSJKM4Z"
       image: "comingwave_aibookclub.png"
       summary: >
         "In <i>The Coming Wave</i>, Suleyman shows how these forces will create immense prosperity but also threaten the nation-state, the foundation of global order. As our fragile governments sleepwalk into disaster, we face an existential dilemma: unprecedented harms on one side, the threat of overbearing surveillance on the other. / How do we ensure the flourishing of humankind? How do we maintain control? ... / This groundbreaking book from the ultimate AI insider establishes 'the containment problem'—the task of maintaining control over powerful technologies—as the essential challenge of our age."
@@ -248,6 +302,7 @@ previous:
       title: "More Than Words: How to Think About Writing in the Age of AI"
       author: "John Warner"
       url: "https://www.amazon.com/More-Than-Words-Think-Writing/dp/1541605500"
+      audible_url: "https://www.audible.com/pd/More-than-Words-Audiobook/B0F498TQ83"
       image: "morethanwords_aibookclub.png"
       summary: >
         "<i>More Than Words</i> argues that generative AI programs like ChatGPT not only can kill the student essay but should, since these assignments don't challenge students to do the real work of writing. To Warner, writing is thinking—discovering your ideas while trying to capture them on a page—and feeling—grappling with what it fundamentally means to be human. The fact that we ask students to complete so many assignments that a machine could do is a sign that something has gone very wrong with writing instruction. More Than Words calls for us to use AI as an opportunity to reckon with how we work with words—and how all of us should rethink our relationship with writing."
