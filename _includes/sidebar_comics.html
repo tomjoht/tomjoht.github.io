@@ -51,6 +51,50 @@
     content: "" !important;
     padding-left: 0;
   }
+
+  /* Sidebar ads: each image + tagline is one card, so the tagline visibly
+     belongs to the image above it rather than floating between two ads. */
+
+  .sidebarComics .sidebarAd {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    padding: 10px 10px 12px;
+    margin-bottom: 24px;
+    max-width: 272px;
+  }
+
+  .sidebarComics .sidebarAd:hover {
+    border-color: #c8c8c8;
+  }
+
+  .sidebarComics .sidebarAd > a {
+    display: block;
+    line-height: 0;
+  }
+
+  .sidebarComics .sidebarAd img {
+    /* overrides the legacy float + 20px bottom margin in custom.scss, which
+       left as much space under the image as between the ads */
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 0 8px 0;
+    border-radius: 3px;
+    // A hairline so a light creative (Mintlify ships a light and a dark
+    // version) still shows its own edge against the white card. Invisible
+    // against the darker, saturated ads.
+    border: 1px solid #d9d9d9;
+  }
+
+  .sidebarComics .sidebarAd .textLink {
+    max-width: 100%;
+    margin-bottom: 0;
+    line-height: 1.35;
+  }
+
 </style>
 
 <div class="sidebarComics">
@@ -58,9 +102,24 @@
   <script>
     var contents = new Array()
     //adoc Studio
-    contents[0] = '<a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/adoc-sidebar-may2-2026"><img style="border: 1px solid lightgray" src="{{site.media}}/irbw2026-2x.png" alt="Text-based authoring for Mac & iPad. PDF/UA built in. 3 months free." /></a> <div class="textLink"><a class="noCrossRef" href="https://idbwrtng.com/adoc-sidebar-may2-2026">Text-based authoring for Mac & iPad. PDF/UA built in. 3 months free →</a></div>'
+    contents[0] = '<div class="sidebarAd"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/adoc-sidebar-may2-2026"><img src="{{site.media}}/irbw2026-2x.png" alt="Text-based authoring for Mac & iPad. PDF/UA built in. 3 months free." /></a> <div class="textLink"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/adoc-sidebar-may2-2026">Text-based authoring for Mac & iPad. PDF/UA built in. 3 months free →</a></div></div>'
     //doc360
-    contents[1] = '<a class="noCrossRef" ref="nofollow" href="https://idbwrtng.com/doc360_july2026"><img style="border: 1px solid lightgray" src="{{site.media}}/api_documentation_360.jpg" alt="Enable auto-sync and your API docs update with every spec change. Try free →" /></a> <div class="textLink"><a class="noCrossRef" href="https://idbwrtng.com/doc360_july2026">Enable auto-sync and your API docs update with every spec change. Try free →</a></div>'
+    contents[1] = '<div class="sidebarAd"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/doc360_july2026"><img src="{{site.media}}/api_documentation_360.jpg" alt="Enable auto-sync and your API docs update with every spec change. Try free →" /></a> <div class="textLink"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/doc360_july2026">Enable auto-sync and your API docs update with every spec change. Try free →</a></div></div>'
+    //mintlify -- one ad slot, two creatives. Mintlify supplied a light and a
+    //dark version, and they carry different headlines, so the tagline has to
+    //travel with the image rather than being fixed for the slot. Putting them
+    //in two array entries wouldn't work: the loop below prints *every* entry,
+    //so that would give Mintlify two of the three sidebar positions (and
+    //assigning both to contents[2] just means the second line wins every time).
+    var mintlifyVariants = [
+      { img: 'mintlifysidebardark.png', text: 'Docs developers & agents love' },
+      { img: 'mintlifysidebarlight.png', text: 'Docs that ship at AI speed. See how →' }
+    ]
+    var mintlify = mintlifyVariants[Math.floor(Math.random() * mintlifyVariants.length)]
+    contents[2] = '<div class="sidebarAd"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/mintlifysidebaraug2026">' +
+      '<img src="{{site.media}}/' + mintlify.img + '" alt="' + mintlify.text + '" /></a>' +
+      ' <div class="textLink"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/mintlifysidebaraug2026">' + mintlify.text + '</a></div></div>'
+
     var i = 0
     //variable used to contain controlled random number
     var random

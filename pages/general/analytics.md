@@ -2,7 +2,7 @@
 title: Site analytics
 permalink: /analytics/
 type: page
-last-modified: 2026-07-26
+last-modified: 2026-08-22
 ---
 
 This page provides site analytics for my site. Each year in January, I gather up these analytics to analyze trends and plan content directions.
@@ -586,6 +586,12 @@ Nearly every page declined, but not evenly — and the pattern in *which* pages 
 <h2 id="what_it_means">What I make of the decline</h2>
 
 <p>Here's my attempt to work out what actually happened between 2023 and 2025, and which of these numbers I should still be paying attention to.</p>
+
+<h3>First, a confounder: I published less</h3>
+
+<p>Before crediting any of this to AI, I should name something simpler. Traffic here has always tracked how often I post more closely than it tracks anything else, and my output did drop: 81 posts in 2023, then 60 in 2024 and 57 in 2025. A quieter year means fewer new pages entering search, fewer newsletter sends, fewer things for other people to link to, and less reason for a regular reader to check back.</p>
+
+<p>But the sizes don't line up. Publishing fell about 26% from 2023 to 2024 while sessions fell 46%; from 2024 to 2025 publishing was nearly flat (-5%) while sessions fell another 20%. So posting less is part of this and I won't pretend otherwise &mdash; but it can't be most of it, and it doesn't explain why pages I wrote years ago lost their search traffic, which is what the rest of this section is about.</p>
 
 <h3>The pages that lost most are the ones an AI can answer</h3>
 

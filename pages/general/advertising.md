@@ -2,14 +2,14 @@
 title: Advertising
 permalink: /advertising/
 type: page
-last-modified: 2024-07-28
+last-modified: 2026-08-22
 ---
 
 <img style="float:right; padding-left:15px; max-width: 300px;" src="{{site.media}}/youradhere.svg" alt="advertising on I'd Rather Be Writing"/>
 
 I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially [API documentation](/learnapidoc/). I can help increase your product or service's visibility more than any other technical writing site online.
 
-During the calendar year of 2022, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. For details about site metrics, audience, and popular content, see <a href="/analytics">Site analytics</a>.
+During the calendar year of 2025, idratherbewriting.com had 454,036 page views, or about 1,244 page views a day. Two things are worth knowing about that number. First, traffic here tracks how often I publish more closely than it tracks anything else, and I posted less in 2025 than in previous years. Second, the decline has been concentrated almost entirely in drive-by organic search; sessions from everywhere else &mdash; direct visits, the newsletter, LinkedIn, and links from other sites &mdash; are up 63% since 2021 and down only 6% since 2023. The readers who show up because they know the site are still here. For details about site metrics, audience, and popular content, see <a href="/analytics">Site analytics</a>.
 
 The following sections describe the advertising spaces and options.
 
@@ -62,7 +62,7 @@ The following sections describe the advertising spaces and options.
     </tbody>
 </table>
 
-Billing is done through Paypal; it can also be handled through wire transfer or even check. (Even if you use another payment method, I use PayPal to keep track of invoices.) Billing is done prior to any advertising efforts.
+Billing is done through Stripe, prior to any advertising efforts. You can pay by credit card, wire transfer, or check &mdash; but even if you use another payment method, I send the invoice through Stripe so that I have one place to track everything. If your finance team has specific invoicing requirements, see [Common questions](#common_questions).
 
 <div></div>
 
@@ -77,9 +77,9 @@ Here are more details about inline ads:
 * Inline ads receive approximately 430 clicks per year. 
 * Each ad block can contain a maximum of six ads. Within the ad block, the ads randomly rotate positions each time the page refreshes. There is no specific hierarchy to ads in the inline ads.
 * Your graphic format can be PNG, JPG, or SVG, but not an animated GIF. 
-* The graphic dimensions must be exactly 250 x 150px pixels in size. (As a tip, keep text readable at a glance, especially this size.) 
+* Send the graphic at 500 x 300 pixels. I constrain it to half that size on the page (250 x 150), but supplying the larger file means the ad stays sharp on high-resolution screens rather than looking soft. (As a tip, keep text readable at a glance, especially at this size.) 
 * You can switch the ad at any time by sending me a new graphic.
-* The ads are prefaced with a subheading that says "Sponsored ads" and the ad links have `ref="nofollow"`. The ads appear on every page of my site &mdash; both the blog and [API course](/learnapidoc/).
+* The ad block is labeled "Sponsored" (the sidebar block is labeled "Sponsored content"), and every ad link &mdash; both the graphic and the text link beneath it &mdash; has `rel="nofollow"`. The ads appear on every page of my site &mdash; both the blog and [API course](/learnapidoc/).
 * The graphics are accompanied by a post that invites users to click the link. The post title should be both relevant and enticing for a tech comm audience. 
 * To track links, I shorten any URLs you provide to me with Rebrandly. This allows me to track link clicks as well.
 
@@ -87,13 +87,13 @@ The cost for an inline ad is $1,200 per year.
 
 ## Sidebar ads {#sidebarads}
 
-Sidebar ads include a 250px x 150px graphic with an article link below the graphic. Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. As with inline ads, there isn't a specific hierarchy to ads in the sidebar.
+Sidebar ads include a graphic sent at 500 x 300px and displayed at 250 x 150px, with an article link below the graphic. Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. As with inline ads, there isn't a specific hierarchy to ads in the sidebar.
 
-<figure><img style="border:1px solid #dedede; max-width: 500px" title="Sidebar ads" src="{{site.media}}/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+<figure><img style="border:1px solid #dedede; max-width: 500px" title="Sidebar ads" src="{{site.media}}/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in a single column in the sidebar. They rotate randomly with each page refresh.</figcaption></figure>
 
 Sidebar ads have all of the same details as inline ads except they appear in the sidebar rather than inline in the post or page. 
 
-Sidebar ads receive approximately 400 clicks per year. 
+Sidebar ads receive approximately 45 clicks per month, or around 540 per year. That figure is measured, not estimated: it comes from a sidebar ad that ran over four months in 2026, which collected 181 clicks. Worth noting that this is *higher* than the click rate I recorded back when the site had roughly three times the page views &mdash; falling page views have not meant falling ad clicks. The visitors who dropped away were mostly one-off search arrivals who read a paragraph and left, rather than the regular readers who actually click on ads. 
 
 The sidebar ads appear after any sidebar navigation links. For example, for the [API doc course](/learnapidoc/), the sidebar ads appear after the page navigation in the left. On the blog, if there's a series, such as this [series on trends](/trends/trends-to-follow-or-forget-intro.html), the sidebar ads appear below the page navigation.
 
@@ -150,7 +150,7 @@ The cost for inline text snippets to appear on the API doc site is $1,800 per ye
 
 ## Newsletter summaries {#newsletter_summaries}
 
-I sent out two newsletters per month to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 open the email. Here's an example of a newsletter summary:
+I sent out two newsletters per month to 7,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 7,200 people who receive the newsletter, about 2,500 open the email. Here's an example of a newsletter summary:
 
 <figure><img style="max-width: 600px" src="{{site.media}}/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
 
@@ -162,11 +162,11 @@ Each newsletter summary gets an average of 75 clicks. The cost for a newsletter 
 
 ## Newsletter banners {#newsletter_banners}
 
-The newsletters also feature banner ads that are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
+The newsletters also feature banner ads that use the same 728 x 90px leaderboard as the footer banner, so one creative covers both spaces. Send it at 1456 x 180 for sharpness. The email column is narrower than the website's, so the banner scales down to about 516px wide in the email. The banner ads intersperse the newsletter summaries as shown in the following image:
 
 <figure><img style="max-width: 600px" src="{{site.media}}/newsletterbanneradsexample.png" alt="Newsletter banner ads" /><figcaption>Newsletter banner ads -- the image receives a visual focus because the newsletter summaries are all text</figcaption></figure>
 
-Newsletter banner ads typically receive about 10 clicks per newsletter. As part of the newsletter, they also receive about 2,200 page views per newsletter.
+Newsletter banner ads typically receive about 10 clicks per newsletter. As part of the newsletter, they also receive about 2,500 page views per newsletter.
 
 I usually include about 4 banner ads per newsletter, with each banner ad separating the text summary.
 
@@ -174,7 +174,7 @@ The cost for advertising in the newsletter space is $100 per newsletter.
 
 ## Footer banner ads {#footer_banner_ads}
 
-The footer banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This  visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
+The footer banner ad space (728 x 90px, the standard IAB leaderboard) appears below each post, right above the comments, in the single post view. Send the graphic at 1456 x 180 so it stays sharp on high-resolution screens. This  visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
 
 <figure><img style="max-width: 600px" src="{{site.media}}/horizontal_inline_ad-550x331.png" alt="Footer banner ad" max-width="550" /> <figcaption>Footer banner ads appear at the bottom of each post</figcaption></figure>
 
@@ -184,9 +184,29 @@ Footer banner ads typically receive 50 clicks per month.
 
 The cost for a footer banner ad is $1,500 per year.
 
+## Common questions {#common_questions}
+
+**How often can I change my creative?**
+
+As often as you like &mdash; just send me a new graphic and I'll swap it in. In practice, most advertisers change their graphics only occasionally, since producing new creative takes more time and effort than people expect.
+
+**How do I track clicks on my ad?**
+
+I shorten every URL you give me with [Rebrandly](https://www.rebrandly.com/), which counts the clicks. You can check the numbers yourself at any time: right-click your ad on my site, copy the link address, add a `+` to the end of it, and open that in your browser. It takes you to a public stats page for your link showing clicks over time. You don't need a Rebrandly account, and you can check as often as you want.
+
+**How much traffic does the site get?**
+
+See [Site analytics](/analytics/) for page views, audience, and the most popular content. Typical click counts for each ad space are listed in the sections above.
+
+**How does billing work?**
+
+I invoice through Stripe, before the advertising starts. You can pay by credit card, wire transfer, or check &mdash; whichever you prefer. Regardless of how you pay, the invoice itself always goes out through Stripe, since that's how I keep track of everything.
+
+If your finance team has specific requirements for the invoice &mdash; a VAT number, a particular legal entity name or billing address, a submission portal, or a specific person the invoice needs to go to &mdash; please send me those details up front. This comes up most often with companies in Europe, and it's much easier to get right on the first invoice than to reissue one later.
+
 ## Taking the next step
 
-If you'd like to advertise on my site, [contact me](/contact). We'll finalize details about the ad spaces you want, and then I'll send you an invoice via PayPal.
+If you'd like to advertise on my site, [contact me](/contact). We'll finalize details about the ad spaces you want, and then I'll send you an invoice via Stripe.
 
 
 <style>

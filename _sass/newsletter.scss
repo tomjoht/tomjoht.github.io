@@ -2,3 +2,12 @@
 margin-top: 20px;
 margin-bottom: 20px
 }
+
+// The form is a Mailjet iframe, so its green panel is painted inside the frame
+// and can't be rounded from here directly -- but a border-radius on the iframe
+// element clips what it renders. overflow: hidden is belt-and-braces for
+// browsers that don't clip replaced elements on their own.
+.newsletterSignUpForm iframe {
+  border-radius: 6px; // matches #myBio and the footer ad card
+  overflow: hidden;
+}

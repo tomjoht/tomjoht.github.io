@@ -1,24 +1,11 @@
-{% comment %}
 {% if site.format == "web" %}<div class="singlePostComics">
     <script>
         var contents = new Array()
-        contents[0] = '<a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/acrolinx_footer"><img style="border: 1px solid lightgray" src="{{site.media}}/acrolinx_long.png" rel="nofollow" alt="Acrolinx: Technical communication at a new level" /></a>'
-        var i = 0
-        //variable used to contain controlled random number
-        var random
-        //while all of array elements haven't been cycled thru
-        while (i < contents.length) {
-            //generate random num between 0 and arraylength-1
-            random = Math.floor(Math.random() * contents.length)
-            //if element hasn't been marked as "selected"
-            if (contents[random] != "selected") {
-                document.write(contents[random])
-                //mark element as selected
-                contents[random] = "selected"
-                i++
-            }
-        }
+        contents[0] = '<div class="footerAd"><p class="sponsoredLabel">Sponsored</p><a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/mintlifyfooteraug2026"><img src="{{site.media}}/mintlifyfooter728x90dark.png" alt="Mintlify: How agent-ready are your docs? Get your Agent Score" /></a><p class="footerAdText">How agent-ready are your docs? <a rel="nofollow" href="https://idbwrtng.com/mintlifyfooteraug2026">Get your Agent Score</a></p></div>'
+        contents[1] = '<div class="footerAd"><p class="sponsoredLabel">Sponsored</p><a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/mintlifyfooteraug2026"><img src="{{site.media}}/mintlifyfooter728x90light.png" alt="Mintlify: How agent-ready are your docs? Get your Agent Score" /></a><p class="footerAdText">How agent-ready are your docs? <a rel="nofollow" href="https://idbwrtng.com/mintlifyfooteraug2026">Get your Agent Score</a></p></div>'
+        // Show one ad per page load, picked at random. (The old loop shuffled the
+        // array but printed every entry, so both Mintlify creatives rendered stacked.)
+        document.write(contents[Math.floor(Math.random() * contents.length)])
     </script>
 </div>
 {% endif %}
-{% endcomment %}

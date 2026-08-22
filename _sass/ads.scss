@@ -86,3 +86,81 @@
   .inpostComics img {
     margin-bottom: 0;
   }
+
+
+  // Footer ad (single_post_comics.html). Same goal as the sidebar cards: tie
+  // the tagline to the image above it so the two read as one ad. The sidebar
+  // could use a white card against its #f7f7f7 panel; here the page is white,
+  // so the card is tinted instead and leans on a border for its edge. The
+  // tinted-panel treatment matches #myBio, which sits directly above it.
+
+  .singlePostComics .footerAd {
+    // Full content-column width, so the card's edges line up with #myBio above
+    // it and the newsletter form below rather than stopping ~65px short.
+    padding: 15px 15px 12px;
+    margin: 30px 0;
+    // Deep enough that a light ad creative (the Mintlify light variant, say)
+    // still shows its own edge against the card instead of dissolving into it.
+    background-color: #f4f4f5;
+    border: 1px solid #e2e2e4;
+    border-radius: 6px;
+  }
+
+  .singlePostComics .footerAd:hover {
+    border-color: #cbcbcf;
+  }
+
+  .singlePostComics .footerAd > a {
+    display: block;
+    line-height: 0;
+  }
+
+  .singlePostComics .footerAd img {
+    // Overrides .main img and .singlePostComics img, which between them gave
+    // the image 10px top / 15px bottom margins -- roughly the same gap above
+    // the tagline as below it, which is what made the pairing ambiguous.
+    display: block;
+    width: 100%;
+    max-width: 100%; // the anchor above it carries the 728px cap
+    height: auto;
+    margin: 0 0 10px 0;
+    border-radius: 3px;
+    // Same hairline as the sidebar cards: gives a light creative its own edge
+    // against the card. Invisible against the dark version.
+    border: 1px solid #d9d9d9;
+  }
+
+  .singlePostComics .footerAd .footerAdText {
+    margin: 0;
+    font-size: 14px; // matches div#myBio p, the other ancillary block down here
+    line-height: 1.4;
+    color: #555;
+  }
+
+  // Sponsorship label. The sidebar block has always had its "Sponsored content"
+  // heading and the text snippets say "Sponsored message", but the inline block
+  // and the footer banner carried nothing -- and those two sit inside the post
+  // body, where the line between editorial and paid is least obvious. Small and
+  // muted: enough to identify the block, not enough to compete with the ad.
+  .sponsoredLabel {
+    margin: 0 0 8px 0;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #8c8c8c;
+  }
+
+  // 728x90 is the IAB leaderboard, which is what advertisers supply. The card
+  // stays full-width so its edges line up with #myBio and the newsletter form;
+  // the ad itself stops short of them rather than being stretched ~9% past the
+  // size it was drawn at. Capping the label, creative and tagline together --
+  // rather than just the image -- keeps all three flush left with each other
+  // instead of leaving the text hanging outside a centred image.
+  .singlePostComics .footerAd .sponsoredLabel,
+  .singlePostComics .footerAd > a,
+  .singlePostComics .footerAd .footerAdText {
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+  }

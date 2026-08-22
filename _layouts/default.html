@@ -115,11 +115,11 @@
         <a class="navbar-brand noCrossRef" href="{{site.url}}{{site.baseurl}}/">
 
           {% if page.collection == "docs" %}
-          <div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom"
+          <div><img class="navbar-logo" style="vertical-align: text-bottom"
               src="{{site.media}}/bloglogo_apidoclogo.svg" /></div>
 
           {% else %}
-          <div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom"
+          <div><img class="navbar-logo" style="vertical-align: text-bottom"
               src="{{site.media}}/bloglogo_bloglogo.svg" /></div>
           {% endif %}
 
@@ -710,6 +710,11 @@
             {% endif %}
             <!-- end linkedin comment button -->
 
+            <!-- include single post ad horizontal at bottom of post -->
+            {% include single_post_comics.html %}
+            <!-- end ad block -->
+
+
             <!-- bio -->
             {% if page.bio != false %}
             {% include mybio.html %}
@@ -739,10 +744,6 @@
             {% endunless %}
             {% endif %}
             <!-- end next buttons-->
-
-            <!-- include single post ad horizontal at bottom of post -->
-            {% include single_post_comics.html %}
-            <!-- end ad block -->
 
           </div>
 

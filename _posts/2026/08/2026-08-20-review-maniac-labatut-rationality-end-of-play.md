@@ -11,6 +11,7 @@ keywords:
 rebrandly: https://idbwrtng.com/review-maniac-labatut-rationality-end-of-play
 description: "We recently read <a href='https://www.amazon.com/MANIAC-Benjamin-Labatut/dp/0593654498/'><i>The MANIAC</i></a>, by Benjamin Labatut in my <a href='/ai-book-club'>AI Book Club</a>. This was our first work of fiction, though much of the text is imagined biography, so not really traditional fiction. It reads more like a collection of short biographical facets, connected thematically but lacking a tighter plot coherence. The last third of the book barely resembles the first two-thirds of the book, mostly in narrative style, as it shifts from von Neumann to Lee Sedol. However, the author is constructing a larger critique about the acceleration of science/logic and AI towards an incomprehensible, horrific end. Despite the lack of a more coherent plot, thematically the book coheres quite well and is thought-provoking and deep. The core idea: Logic pushed to its limits results in madness."
 linkedin: https://lnkd.in/p/gZxe3FcF
+image: themaniacthumblabatut.png
 ---
 
 * TOC

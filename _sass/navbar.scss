@@ -45,6 +45,48 @@ $nav-hover: #ee7600;
   }
 }
 
+// Align the logo with the sidebar below it.
+//
+// Both the navbar and the page body sit in a .container (30px gutter, so 15px
+// of padding each side), and the sidebar is a col-sm-3 inside a .row whose
+// -15px margins pull the column back out to the container's *border* box. So
+// the grey sidebar panel -- the edge the eye actually reads -- spans a full
+// quarter of the row, starting 15px left of where the container's content
+// begins. (The panel's own 15px padding-left is why its text sits inset.)
+//
+// Matching the panel therefore takes two pieces:
+//
+//   width:       0.25 * (containerContent + 30px)  ==  calc(25% + 7.5px)
+//   margin-left: -15px, to reach the container's border box
+//
+// ...where the 25% resolves against the navbar container's content width, the
+// brand's containing block. The extra 15px on the width below re-reserves the
+// brand's padding-right, so the SVG's trailing whitespace has somewhere to sit
+// instead of overlapping the first nav link.
+//
+// Only from 992px up: that's where sidebar.scss puts the sidebar beside the
+// content for good. Below it the column is too narrow to hold a legible logo
+// (180px at a 768px viewport), so the fixed 300px above still applies.
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    width: calc(25% + 22.5px);
+    margin-left: -15px;
+  }
+
+  // Both logo SVGs (bloglogo_bloglogo.svg and bloglogo_apidoclogo.svg) share a
+  // 303.8-unit viewBox but only paint from x=1.6 to x=295.0, so ~3.4% of the
+  // image is transparent margin -- 1.6 units on the left, 8.8 on the right.
+  // Sizing the <img> to the column would therefore leave the artwork visibly
+  // inset. Scale the image up by 303.8/293.4 and pull it left by its own
+  // leading gap, so the *painted* edges land on the column instead of the
+  // image's bounding box. Percentages here resolve against the brand's content
+  // width, which keeps this exact at every container size.
+  .navbar .navbar-brand img.navbar-logo {
+    width: 103.5446%;   // 303.8 / 293.4
+    margin-left: -0.5453%; // 1.6 / 293.4
+  }
+}
+
 .navbar .navbar-text {
   color: $nav-text;
 }
