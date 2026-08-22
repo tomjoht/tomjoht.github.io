@@ -384,7 +384,13 @@
         {% endif %}
     {% endif %}
 {% endfor %}
-
+{% if page.layout == "newsletter" %}<div class="ad_slot">
+<h2>Mastering API Documentation with AI (Sponsor)</h2>
+<a href="https://idbwrtng.com/docsgeekcourse"><img width="516" style="width:100%;max-width:516px;height:auto;display:block;border:0;margin:0 0 14px 0;" src="{{site.media}}/docsgeekcoursebanner.png" alt="Mastering API Documentation with AI, a live course from Mark Wentowski at DocsGeek" /></a>
+<p>Mark Wentowski is teaching his live API documentation course again this fall at docsgeek.io. It is his course, on his own site &mdash; separate from the API doc course here.</p>
+<p>The fall cohort starts October 19: seven 90-minute classes, Mondays 8:00&ndash;9:30am PT, running through November 23. Recordings come with every enrollment if you cannot make a session live. New this time is an optional AI add-on, where you use Claude to draft API flow guides and OpenAPI descriptions, then validate the output against the live API.</p>
+<p>Code <b>TOMAPIS</b> takes $250 off. <a href="https://idbwrtng.com/docsgeekcourse">See the full syllabus and schedule</a>. Enrollments through that code earn me a commission.</p>
+</div>{% endif %}
 {% if page.layout == "newsletter" %}<div class="ad_slot"><a href="https://idbwrtng.com/mintlifynewsletteraug2026"><img width="516" style="width:100%;max-width:516px;height:auto;display:block;border:0;margin:0 0 6px 0;" src="{{site.media}}/mintlifynewsletter540x70dark.png" alt="Mintlify: How agent-ready are your docs? Get your Agent Score" /></a><p>How agent-ready are your docs? <a href="https://idbwrtng.com/mintlifynewsletteraug2026">Get your Agent Score</a></p></div>{% endif %}
 
 
