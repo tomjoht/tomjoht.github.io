@@ -13,6 +13,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: 76.6
 podcast_duration: "00:53:10"
 podcast_length: 76573130
+linkedin: https://lnkd.in/p/gSwrW_kc
 ---
 
 Note: These shownotes are AI-generated.
