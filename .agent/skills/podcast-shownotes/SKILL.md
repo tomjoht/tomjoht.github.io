@@ -14,16 +14,24 @@ This skill takes a raw transcript and assembles a complete podcast blog post wit
 
 ## Required inputs from the user
 
-Before starting, collect these from the user (they may provide them all at once or piecemeal):
+At the start of the session, remind the user of these preparation steps. They often have some done and others pending:
 
-1. **Transcript file path** — the markdown file containing the raw transcript (already in `_posts/`)
-2. **Guest names and LinkedIn URLs**
-3. **YouTube embed URL** (if available)
-4. **Podcast audio filename** (already uploaded to S3 via `./upload_podcast.sh`)
-5. **Podcast metadata**: file size (MB), duration (HH:MM:SS), length (bytes)
-6. **Thumbnail image filename** (already uploaded via `./upload.sh`)
-7. **Any resource links** the user wants included (blog posts, papers, etc.)
-8. **Categories** for the frontmatter
+### Before starting (user does these themselves)
+
+1. **Populate the transcript** — download the transcript from Riverside.fm and paste it into the post file in `_posts/`
+2. **Upload the MP3** — upload via `./upload_podcast.sh`, then update the frontmatter with the correct `podcast_link`, `podcast_file_size`, `podcast_duration`, and `podcast_length`
+3. **Upload the YouTube video** — upload to YouTube and have the video ID ready (the 11-character ID from the URL, e.g., `kHEk5GVMw9o`)
+4. **Create the post file** — run `./post.sh` which auto-creates the rebrandly short link and scaffolds the file
+5. **Upload thumbnail images** — upload via `./upload.sh` (both the `*thumb.jpg` and full `*.jpg` versions)
+
+### During the session (user provides these to the agent)
+
+1. **Guest LinkedIn URL(s)** — for the description HTML link (not included in Links mentioned per Step 4)
+2. **YouTube video ID** — if not already in the file
+3. **Any resource links** to include beyond what's mentioned in the conversation
+4. **Categories** — if different from the defaults (`ai`, `podcasts`)
+
+The user may provide all of these at once, piecemeal, or say "I'll give you that later." If inputs are missing, use `[VIDEO_ID]` or similar placeholders and note them in the final summary. Don't block on missing inputs — build everything you can.
 
 ## Step 1: Clean up the transcript
 
@@ -36,6 +44,7 @@ Transcripts from speech-to-text tools have common problems. Fix these **without 
 - **Add missing punctuation**: Periods, question marks, commas where clearly needed.
 - **Remove filler-only entries**: Delete entries that contain only "Mm-hmm" or similar with no substantive content, but keep them if they're interspersed naturally in conversation flow.
 - **Remove stray characters**: Clean up `⁓`, stutter duplicates ("that\n\nthat"), and other artifacts.
+- **Trim post-recording chatter**: Transcripts sometimes capture conversation after the sign-off ("let's wait for the recording to upload"). Cut everything after the final guest/host farewell.
 
 Work in batches of ~100-150 lines to keep edits manageable and reviewable.
 
@@ -60,6 +69,8 @@ Speech-to-text reliably mangles the same AI/docs vocabulary. Search for these:
 | anti-gravity | Antigravity |
 
 Product and model names to verify rather than guess: Fable, Sonnet 5, Haiku, Bedrock, GrowthBook, BigQuery, Agent SDK.
+
+**Product names are the most commonly garbled words in these transcripts.** The guest's company name, their product names, and any technical standard (like `llms.txt`) will almost certainly be misspelled in multiple different ways. Search aggressively for phonetic variants.
 
 **When you can't confidently decode a word, leave it as spoken** rather than inventing a plausible replacement. Flag those spots to the user in your summary instead. Correcting garbled speech is in scope; guessing at facts is not.
 
@@ -174,7 +185,7 @@ For each URL the user provides:
 1. Fetch the actual page title from the URL.
 2. Format as: `* [Actual Page Title](URL) (Author/Source — brief context if helpful)`
 3. Order: guest-authored content first, then host content, then third-party references.
-4. Do NOT include LinkedIn profiles in this section.
+4. LinkedIn profiles are not included by default, but add them if the user asks.
 
 ## Step 5: Write the Topics section
 
@@ -213,9 +224,9 @@ Imagine a journalist listened to the podcast and then wrote a feature article in
 - No speaker attributions. No "In the podcast, they discussed..." framing.
 - Use concrete details and specific examples from the conversation to keep it grounded.
 
-### Prose rhythm: no em dashes in the essay
+### Prose rhythm: minimize em dashes in the essay
 
-**Do not use em dashes anywhere in the narrative essay.** They read as a tell of AI-written content, and they produce a choppy, staccato rhythm across a long piece. This applies to the essay only — the Topics bullets still use ` — ` as the separator between the bold title and the summary, which is structural rather than prose.
+**Minimize em dashes in the narrative essay.** Overuse reads as a tell of AI-written content and produces a choppy, staccato rhythm. One or two across the whole essay is fine where the beat is genuinely earned; the problem is the pattern repeating every paragraph. This constraint applies to the essay only — the Topics bullets still use ` — ` as the separator between the bold title and the summary, which is structural rather than prose.
 
 Removing them properly means restructuring, not substituting. Watch for these related tics, which tend to travel with em dashes:
 
@@ -302,7 +313,7 @@ Check these fields in the YAML frontmatter:
 
 - `podcast_duration` must be in `HH:MM:SS` format (two digits for each segment, e.g., `"01:18:01"` not `"01:18:1"`)
 - `podcast_file_size` should be a number (MB)
-- `podcast_length` should be a number (bytes) and should match the `Content-Length` returned by the audio link test in 8a
+- `podcast_length` should be a number (bytes) and should match the `Content-Length` header returned by the audio link test in 8a. **If they don't match, the user probably copied metadata from the previous episode.** Trust the S3 `Content-Length` and flag the discrepancy.
 - `description` should contain valid HTML (check that all `<a>` tags have matching closing tags and proper `href` attributes)
 - `image` filename should match the filename tested in 8c
 - `permalink` should start with `/blog/`
@@ -314,7 +325,7 @@ Scan the shownotes (Topics, Narrative essay, and Links mentioned sections — NO
 - Spelling errors
 - Missing or unclosed markdown formatting (e.g., unclosed `*` for italics, unclosed `**` for bold)
 - Sentence fragments or run-on sentences
-- Inconsistent em dash usage in the Topics bullets (use ` — ` with spaces, not `--` or `—` without spaces). The narrative essay should contain no em dashes at all — see Step 6.
+- Inconsistent em dash usage in the Topics bullets (use ` — ` with spaces, not `--` or `—` without spaces). The narrative essay should minimize em dashes (1-2 max) — see Step 6.
 - Proper capitalization of product names, company names, and university names
 
 Do NOT rewrite for style — only flag clear errors.
