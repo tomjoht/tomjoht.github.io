@@ -9,6 +9,7 @@ keywords: bike commuting, Renton, Seattle, multimodal commute, Sounder train, Ki
 rebrandly: https://idbwrtng.com/biking-renton-to-seattle-work-commute-fails
 description: "In an attempt to get to work without a car, I tried three bike + transit routes from the Fairwood area of Renton to South Lake Union in Seattle. Each one took too long (~ 2 hours) and involved too many car-centric stretches. Here's what I learned about why bike commuting fails from Renton, and how my plans evolved."
 image: 140th_and_petro.jpg
+linkedin: https://www.linkedin.com/posts/tomjoht_biking-biketowork-cycling-activity-7502430774923743232-dxqL
 ---
 
 * TOC
