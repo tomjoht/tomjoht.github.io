@@ -7,7 +7,7 @@ categories:
 sidebar: sidebar_biking
 keywords: bike commuting, Renton, Seattle, multimodal commute, Sounder train, King County Metro, bike infrastructure, protected bike lanes, level of traffic stress, Highway 167, Fairwood, South Lake Union, suburban cycling, carless
 rebrandly: https://idbwrtng.com/biking-renton-to-seattle-work-commute-fails
-description: "I tried three bike + transit routes from the Fairwood area of Renton to South Lake Union in Seattle. Each one took too long and involved too many car-centric stretches. Here's what I learned about why bike commuting fails from Renton."
+description: "In an attempt to get to work without a car, I tried three bike + transit routes from the Fairwood area of Renton to South Lake Union in Seattle. Each one took too long (~ 2 hours) and involved too many car-centric stretches. Here's what I learned about why bike commuting fails from Renton, and how my plans evolved."
 image: 140th_and_petro.jpg
 ---
 
