@@ -5,7 +5,11 @@ folders:
   section: one
   class: first
   folderitems:
-  - title: "The most perfect 20-mile biking loop in Santa Clara"
+
+  - title: Why biking to work fails when commuting from Renton to Seattle
+    jurl: /blog/biking-renton-to-seattle-work-commute-fails
+
+  - title: "The most perfect 17-mile biking loop in Santa Clara"
     jurl: /blog/biking-the-santa-clara-loop/
 
   - title: Biking at Alviso County Park
