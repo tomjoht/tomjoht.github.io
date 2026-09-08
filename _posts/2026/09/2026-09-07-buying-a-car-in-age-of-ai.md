@@ -4,7 +4,7 @@ permalink: /blog/buying-a-car-in-age-of-ai
 date: 2026-09-07
 categories:
 - ai
-keywords: 
+keywords: car buying, AI, decision making, paradoxes of choice, Claude, chatbot, consumer reports, carmax, carvana, buying a car, strategies 
 rebrandly: https://idbwrtng.com/buying-a-car-in-age-of-ai
 description: "One thing I'm not great at is buying cars. I'm incredibly indecisive, in part because historically I have regretted some of the cars I've purchased. Hence, I'm afraid of buying the wrong car, and so I vacillate endlessly to an almost neurotic degree. Also, buying cars is tough because you have a limited number of test drives — test drives require visits to dealerships and lots, and you don't have unlimited time and patience at these places."
 image: consumercrthumb.jpg
