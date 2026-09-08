@@ -10,8 +10,6 @@ description: "One thing I'm not great at is buying cars. I'm incredibly indecisi
 image: consumercrthumb.jpg
 ---
 
-One thing I'm not great at is buying cars. I'm incredibly indecisive, in part because historically I have regretted some of the cars I've purchased. Hence, I'm afraid of buying the wrong car, and so I vacillate endlessly to an almost neurotic degree. Also, buying cars is tough because you have a limited number of test drives — test drives require visits to dealerships and lots, and you don't have unlimited time and patience at these places.
-
 Recently I bought a car, and in the process tried to use AI as much as possible to help out. This post shares my learnings and attempts. Note: I'm not an expert car buyer by any means, and this post veers into areas I'm much less knowledgeable about. Take any advice with a grain of salt.
 
 When it comes to using AI for car-buying, I'm not an outlier. [Cox Automotive](https://www.coxautoinc.com/insights/cox-automotive-car-buyer-journey-study-finds-efficiency-digital-tools-and-ai-drive-record-satisfaction/) found that about a quarter of new-vehicle buyers now use AI tools somewhere in the shopping process. In fact, their research found the following:
