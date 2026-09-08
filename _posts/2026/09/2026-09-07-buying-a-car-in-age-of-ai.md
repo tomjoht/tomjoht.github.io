@@ -7,6 +7,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/buying-a-car-in-age-of-ai
 description: "One thing I'm not great at is buying cars. I'm incredibly indecisive, in part because historically I have regretted some of the cars I've purchased. Hence, I'm afraid of buying the wrong car, and so I vacillate endlessly to an almost neurotic degree. Also, buying cars is tough because you have a limited number of test drives — test drives require visits to dealerships and lots, and you don't have unlimited time and patience at these places."
+image: consumercrthumb.jpg
 ---
 
 One thing I'm not great at is buying cars. I'm incredibly indecisive, in part because historically I have regretted some of the cars I've purchased. Hence, I'm afraid of buying the wrong car, and so I vacillate endlessly to an almost neurotic degree. Also, buying cars is tough because you have a limited number of test drives — test drives require visits to dealerships and lots, and you don't have unlimited time and patience at these places.
