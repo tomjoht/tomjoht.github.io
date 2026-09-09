@@ -11,6 +11,7 @@ keywords: tech comm books, technical writing books, docs as tests, docs for deve
 rebrandly: https://idbwrtng.com/new-books-tech-comm-2026
 description: "Six new books have recently been published in tech comm, and I wanted to round them up in case you missed some of them in your news feeds. The books include <i>WTFM</i> by CT Smith, <i>Documentation at Scale</i> by Andrew Etter, the second edition of <i>Docs for Developers</i>, <i>Docs as Tests &amp; AI</i> by Manny Silva, <i>Women in Technical Communication</i> edited by Sharon Burton, and <i>Technical Communication and the Discipline of Content</i> by Rebekka Andersen and Carlos Evia. This post gives some brief factual details about each book, drawing on the jacket copy, with links, covers, and publication details."
 image: allnewbookstechcomm2026thumb.png
+linkedin: https://lnkd.in/p/gPuTNPmi
 ---
 
 * TOC
