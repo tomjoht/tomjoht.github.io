@@ -10,19 +10,19 @@ upcoming:
       image: "i-am-robot-book.png"
       summary: >
         "<i>I Am Not a Robot</i> is like a time machine trip to the very near future, where AI promises to be your doctor, chauffeur, teacher, masseuse, coworker, therapist, financial planner, chef, housekeeper, and even . . . romantic partner. Your colleague might be using ChatGPT to write emails at work, but Joanna used AI tools and robots to do household chores, to manage her health, and to transport her family on vacation. If there was a decision to make or a task to do, she let AI go first. Along the way, she conducted exclusive interviews with the tech leaders building this future, then reported back from the front lines as your funny, no-nonsense tour guide."
-    notes_url: ""
+    notes_url: "https://docs.google.com/document/d/1gnzY4nYqKBO4xZT2L0FhBP1AIyxVML5KPFV4rwaws5Q/edit?tab=t.0"
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
   - date: "Oct 18, 2026"
     time: "10am PT"
     book:
-      title: "Reboot: AI and the Race to Save Democracy"
+      title: "Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare"
       author: "Beth Simone Noveck"
-      url: "https://www.amazon.com/dp/030027999X"
-      audible_url: "https://www.audible.com/pd/Reboot-Audiobook/B0GXGX7FXX"
-      image: "reboot_noveck.jpg"
+      url: "https://www.amazon.com/Project-Maven-Marine-Colonel-Warfare/dp/1324123311"
+      audible_url: "https://www.audible.com/pd/Project-Maven-Audiobook/B0GD8L5JWN"
+      image: "projectmaven.png"
       summary: >
-        "Democracy is in retreat at home and abroad. Our institutions and our politics are more broken than ever. At this delicate moment, artificial intelligence has burst onto the scene, a powerful technology that holds as much potential to bolster democracy as to harm it. ... Many warn that AI will accelerate authoritarianism. In <i>Reboot</i>, Beth Simone Noveck makes a different case. Drawing on decades of work building technology and working inside government, from the White House to 10 Downing Street, she shows how democratic institutions can deliberately design, govern, and invest in AI to strengthen democracy rather than undermine it."
+        "The dramatic story of the secretive decade-long Pentagon campaign to bring AI-powered targeting systems onto the battlefield. In 2017, a small crew gathered in a windowless Pentagon room to put AI at the heart of how America makes war. Led by a Marine Corps colonel haunted by the deaths of US troops and prospect of AI-enhanced rivals, the Project Maven team raced to send AI into combat, igniting controversy and forever changing the US military. Summoning the mayhem of a tech startup, the group wrestled Pentagon bureaucrats and each other, enlisted an initially reluctant Silicon Valley, and convinced US forces to deploy little-tested AI systems in hot wars."
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
