@@ -111,14 +111,18 @@
     //in two array entries wouldn't work: the loop below prints *every* entry,
     //so that would give Mintlify two of the three sidebar positions (and
     //assigning both to contents[2] just means the second line wins every time).
+    //As of Sep 21, 2026 the two creatives also point at different campaigns, so
+    //the url travels with the variant too. To restore the paused dark creative,
+    //swap its line back in for the State of Knowledge one.
     var mintlifyVariants = [
-      { img: 'mintlifysidebardark.png', text: 'Docs developers & agents love' },
-      { img: 'mintlifysidebarlight.png', text: 'Docs that ship at AI speed. See how →' }
+      // { img: 'mintlifysidebardark.png', text: 'Docs developers & agents love', url: 'https://idbwrtng.com/mintlifysidebaraug2026' },
+      { img: 'mintlifystateofknowledgesidebar.png', text: 'Mintlify State of Knowledge Report 2026. Read it →', url: 'https://idbwrtng.com/mintlifystateofknowledgereport_sept2026_sidebar' },
+      { img: 'mintlifysidebarlight.png', text: 'Docs that ship at AI speed. See how →', url: 'https://idbwrtng.com/mintlifysidebaraug2026' }
     ]
     var mintlify = mintlifyVariants[Math.floor(Math.random() * mintlifyVariants.length)]
-    contents[2] = '<div class="sidebarAd"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/mintlifysidebaraug2026">' +
+    contents[2] = '<div class="sidebarAd"><a class="noCrossRef" rel="nofollow" href="' + mintlify.url + '">' +
       '<img src="{{site.media}}/' + mintlify.img + '" alt="' + mintlify.text + '" /></a>' +
-      ' <div class="textLink"><a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/mintlifysidebaraug2026">' + mintlify.text + '</a></div></div>'
+      ' <div class="textLink"><a class="noCrossRef" rel="nofollow" href="' + mintlify.url + '">' + mintlify.text + '</a></div></div>'
 
     var i = 0
     //variable used to contain controlled random number

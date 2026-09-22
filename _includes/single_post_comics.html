@@ -1,11 +1,21 @@
 {% if site.format == "web" %}<div class="singlePostComics">
     <script>
         var contents = new Array()
-        contents[0] = '<div class="footerAd"><p class="sponsoredLabel">Sponsored</p><a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/mintlifyfooteraug2026"><img src="{{site.media}}/mintlifyfooter728x90dark.png" alt="Mintlify: How agent-ready are your docs? Get your Agent Score" /></a><p class="footerAdText">How agent-ready are your docs? <a rel="nofollow" href="https://idbwrtng.com/mintlifyfooteraug2026">Get your Agent Score</a></p></div>'
+        // One ad slot, two creatives, same as the sidebar: the new dark State of
+        // Knowledge creative in contents[3] alternates with the light August one
+        // in contents[1]. contents[0] is the dark August creative it replaced --
+        // paused Sep 21, 2026, and expected back in ~2 months, at which point
+        // swap it in for contents[3].
+        // contents[0] = '<div class="footerAd"><p class="sponsoredLabel">Sponsored</p><a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/mintlifyfooteraug2026"><img src="{{site.media}}/mintlifyfooter728x90dark.png" alt="Mintlify: How agent-ready are your docs? Get your Agent Score" /></a><p class="footerAdText">How agent-ready are your docs? <a rel="nofollow" href="https://idbwrtng.com/mintlifyfooteraug2026">Get your Agent Score</a></p></div>'
         contents[1] = '<div class="footerAd"><p class="sponsoredLabel">Sponsored</p><a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/mintlifyfooteraug2026"><img src="{{site.media}}/mintlifyfooter728x90light.png" alt="Mintlify: How agent-ready are your docs? Get your Agent Score" /></a><p class="footerAdText">How agent-ready are your docs? <a rel="nofollow" href="https://idbwrtng.com/mintlifyfooteraug2026">Get your Agent Score</a></p></div>'
-        // Show one ad per page load, picked at random. (The old loop shuffled the
-        // array but printed every entry, so both Mintlify creatives rendered stacked.)
-        document.write(contents[Math.floor(Math.random() * contents.length)])
+        contents[3] = '<div class="footerAd"><p class="sponsoredLabel">Sponsored</p><a rel="nofollow" class="noCrossRef" href="https://idbwrtng.com/mintlifystateofknowledgesept21_2026"><img src="{{site.media}}/mintlifystateofknowledgefooter.png" alt="Mintlify State of Knowledge Report 2026" /></a><p class="footerAdText">How fast is agent readership growing? <a rel="nofollow" href="https://idbwrtng.com/mintlifystateofknowledgesept21_2026">Read the State of Knowledge Report</a></p></div>'
+        // Show one ad per page load, picked at random from whichever slots are
+        // filled. (The old loop shuffled the array but printed every entry, so
+        // both Mintlify creatives rendered stacked. Filtering first also keeps
+        // commented-out slots from printing "undefined" -- indexing straight
+        // into a sparse array would hit an empty slot most page loads.)
+        var active = contents.filter(function (ad) { return ad })
+        document.write(active[Math.floor(Math.random() * active.length)])
     </script>
 </div>
 {% endif %}
