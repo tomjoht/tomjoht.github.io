@@ -9,12 +9,13 @@ categories:
 - podcasts
 keywords: joanna stern, i am not a robot, ai book club, experience-based writing, ai and medicine, ai tutoring, cognitive outsourcing, moravec's paradox, ai companions, digital skepticism, share of voice, technical writing and ai
 rebrandly: https://idbwrtng.com/book-club-stern-i-am-not-a-robot
-description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a> discussion of <a href='https://www.amazon.com/dp/0063446618'><i>I Am Not a Robot: My Year Using AI to Do (Almost) Everything</i></a> by Joanna Stern, held September 20, 2026. The group gave the book its lowest ratings yet, and much of the discussion is about why: the immersion premise produces stunts as often as insight. We talk about the medical chapter as the book's strongest section, the question of whether you should fix a system before amplifying it, chatbots that give you the candid career advice your friends won't, school policies on AI and who tutoring actually serves, work threads where both sides are pasting from AI, and the line between removing drudgery and giving away the thinking."
+description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a> discussion of <a href='https://www.amazon.com/dp/0063446618'><i>I Am Not a Robot: My Year Using AI to Do (Almost) Everything</i></a> by Joanna Stern, held September 20, 2026. The group gave the book its lowest ratings yet, and much of the discussion is about why: so many of the experiences come across as superficial stunts with AI, rather than true engagement. In our discussion, some found the medical chapter to be the book's strongest section. Other topics: the question of whether you should fix a system before amplifying it, chatbots that give you the candid career advice your friends won't, school policies on AI and who tutoring actually serves, work threads where both sides are pasting from AI, and the line between removing drudgery and giving away the thinking."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/sternusingai_notebookversion.mp3
 podcast_file_size: 32.6
 podcast_duration: "00:34:00"
 podcast_length: 32641082
 image: bookclubsternusingaithumb.png
+linkedin: https://lnkd.in/p/e67vvbYT
 ---
 
 
