@@ -19,9 +19,9 @@ linkedin: https://lnkd.in/p/e67vvbYT
 ---
 
 
-{: .note}
-Note: These shownotes are AI-generated.
+*Note: These shownotes are AI-generated.*
 
+{: .note}
 Also, a heads up about the recording: Google Meet garbled this session's audio beyond recovery, and despite a lot of attempts I couldn't salvage it. So the audio and video here aren't the discussion itself. They're a summary of it generated from the session transcript with Gemini's Notebook (formerly NotebookLM), and it came out pretty good. The transcript at the bottom of this post is from the original discussion. If you'd rather hear the wreckage for yourself, or want to take a crack at repairing it, be my guest: [download the original garbled recording](https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/sternusingai_garbled_recording.mp3) (55 MB, right-click to save it).
 
 * TOC
