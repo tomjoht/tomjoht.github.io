@@ -5,51 +5,47 @@ keywords:
 sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
-last-modified: 2026-08-02
+last-modified: 2026-09-27
 order: 11
 ---
 
 {% include_relative draft_notice.html %}
 
-The first chapter of this course focused on internal skills, the kind you build to automate your own authoring tasks, like editing Javadoc comments or generating release notes. But as I noted in the [scope discussion](/ai/skills.html#scope-internal-vs-external-skills), there's a whole other side to skills: skills built for *external* users of your documentation. This chapter takes up that side. Product skills are quick reference guides for your documentation, written for machine consumption. They give AI coding agents a high-level map of your product and route them to the right places in your docs.
+The first chapter of this course focused on internal skills, the kind you build to automate your own authoring tasks, like editing Javadoc comments or generating release notes. But as I noted in the [scope discussion](/ai/skills.html#scope-internal-vs-external-skills), there's a whole other side to skills, the ones built for *external* users of your documentation. This chapter takes up that side.
 
-Before digging into what product skills look like and what roles tech writers should play with them, it's worth understanding why product skills exist at all. The short answer: a huge share of your documentation traffic is no longer human.
+A product skill is a small package of instructions that you publish alongside your documentation, aimed at the AI coding agents your users run. It tells an agent how to work with your product correctly.
 
-## Documentation traffic from AI agents
+Two things are worth saying up front, because both run against the grain of how the industry currently talks about this. First, your instincts as a tech writer will push you toward coverage that's thorough, complete, and detailed. With product skills, that backfires. A skill built that way overwhelms the model, sends it down rabbit holes it didn't need to go down, and consumes tokens without paying anything back. The benchmark numbers on that are in [What the research says](/ai/product-skills-research.html), and they were the finding I had the hardest time accepting.
 
-Technical documentation is experiencing a structural shift as automated requests become a dominant portion of web traffic. In June 2026, Cloudflare CEO Matthew Prince [shared Cloudflare Radar data](https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year) showing that automated systems now generate 57.5% of HTTP requests to web content, surpassing human traffic at 42.5%. It's the first time since the web opened to the public that machines account for the majority of its requests. The crossover came sooner than even Cloudflare expected. Prince had predicted it wouldn't arrive until 2027, then conceded in his announcement, *"Welp, that happened faster than I predicted."* These automated requests include crawlers ingesting content, monitoring tools, and AI coding agents.
+Second, and this surprised me as I worked through the research, the product skill probably isn't where your leverage is at all. What the content agents need to work with your product correctly is content your documentation should already contain. Writing it into the docs reaches every agent on every platform, plus every human reader, rather than only the users who installed your skill file. In other words, this chapter ends up arguing for a docs-first approach, with the skill as a compressed mirror of that content rather than a separate artifact built for machines.
 
-Looking specifically at developer documentation portals, an April 2026 [Mintlify study](https://www.mintlify.com/blog/state-of-ai) analyzed 790 million requests and found that 45.3% of traffic comes from coding agents, nearly matching human browser requests at 45.8%.
+I should say plainly that I haven't shipped a product skill to external users myself, though I've been part of groups that have built and shipped product skills. My hands-on experience is with the internal authoring skills covered in the first chapter. What follows is my reading of the benchmark research plus a fair amount of reasoning about where documentation work has always been weakest, and I've tried to mark the uncertain parts rather than smooth them over.
 
-Two caveats before you extrapolate from these numbers. First, they measure different things. Cloudflare's 57.5% counts all automated requests across the whole web (crawlers, scrapers, monitoring bots, everything), while Mintlify's 45.3% isolates coding agents on documentation portals specifically. Second, both count *requests*, not readers. Agents are far more request-hungry than humans. Prince's own illustration is that a human shopping for a camera visits five websites, while an agent doing the same task visits 5,000. So the share of your *audience* that is agentic is much smaller than the share of your traffic. The shift is real, but the raw percentages overstate it.
+## Why product skills exist
+
+A large share of the traffic hitting developer documentation is no longer human. In June 2026, Cloudflare CEO Matthew Prince [shared Cloudflare Radar data](https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year) showing that automated systems generate 57.5% of HTTP requests to web content, passing human traffic at 42.5%. Narrowing to developer documentation portals, an April 2026 [Mintlify study](https://www.mintlify.com/blog/state-of-ai) analyzed 790 million requests and found 45.3% came from coding agents, close behind human browser requests at 45.8%. The same study found Claude Code and Cursor account for 95.6% of identified agent traffic.
+
+Treat those percentages carefully. Both count *requests*, not readers, and agents are far more request-hungry than people. Prince's illustration is that a human shopping for a camera visits five websites while an agent doing the same task visits 5,000. The share of your *audience* that is agentic is much smaller than the share of your traffic. The shift is real, but the raw numbers overstate it.
+
+The other thing worth keeping in mind is that agents aren't a separate readership with their own goals. Nearly all agentic traffic traces back to a human request. Someone asked for a feature, and the agent went looking on their behalf. Humans are like puppetmasters here, directing the agents with goals and tasks. So this isn't a new alien intelligence so much as a new intermediary standing between your documentation and the reader you always had.
 
 {% include ads.html %}
 
-## Developer tooling
+## What the agent already knows
 
-The Mintlify study also found that Claude Code and Cursor together account for 95.6% of all identified AI agent traffic.
+The more useful thing to understand about this reader is that it isn't a beginner. An agent arrives already knowing a great deal about your product, and probably more than you think, because your public documentation and everything written about it are already in the training data. Ask a model cold about your authentication flow and you'll usually get an answer that's mostly right, occasionally out of date, and confident throughout.
 
-Developers increasingly rely on agentic coding tools such as Claude Code, Cursor, Windsurf, Replit, Lovable, Codex CLI, Antigravity, and Gemini CLI. They commonly work in both the terminal and a side pane (often through an extension) in their preferred IDE, such as VS Code.
+That changes the job considerably. You aren't filling an empty context so much as correcting an informed one at the specific points where it goes wrong. In other words, most of what you might be tempted to put in a product skill the agent can already supply for itself, and [the research](/ai/product-skills-research.html) shows what happens when you supply it anyway.
 
-## Machine-readable formats
+## What this chapter covers
 
-To serve these machine consumers without token bloat, the industry is standardizing on lightweight, machine-readable Markdown formats such as `/llms.txt` files, `SKILL.md` files, and per-page Markdown mirrors.
+The chapter runs in four movements. The first establishes the ground. [From developer experience to agent experience](/ai/product-skills-agent-experience.html) looks at how agents reach your content today, through MCP, retrieval, Markdown, and `/llms.txt`, and at which problem each layer solves. That matters because it establishes what's left unsolved, which turns out to be narrower than the enthusiasm around skills suggests.
 
-A per-page Markdown mirror is just a plain Markdown copy of a documentation page, served at its own URL alongside the regular HTML version. Usually you get it by adding `.md` to the page's address, so a page at `/guide/authentication` also exists at `/guide/authentication.md`. Same content, no theme. The human browser gets the HTML; the agent fetches the Markdown. Most documentation platforms now generate these automatically, so it's often something you get rather than something you build.
+The second movement examines the product skill on its own terms. [Anatomy and distribution](/ai/product-skills-anatomy.html) covers what the artifact contains and how it reaches users, [What the research says](/ai/product-skills-research.html) covers the benchmark evidence on whether skills help, and [Problems with product skills](/ai/product-skills-problems.html) covers what goes wrong even when the content is good.
 
-The token argument is straightforward. A documentation page's HTML arrives wrapped in navigation, scripts, and styling that an agent pays for in tokens without benefiting from, while clean Markdown delivers the same content at a fraction of the cost. Explicit structure helps too. Headings, lists, and code blocks give agents natural seams for chunking and citing content, compared to fishing meaning out of div-heavy HTML.
+The third movement draws the conclusion. [The docs-first approach](/ai/product-skills-docs-first.html) makes the case I think that evidence supports, along with the narrower situation where a skill still earns its place.
 
-But format alone turns out not to be the fix. Mintlify ran a [2,400-run benchmark](https://www.mintlify.com/blog/llms-txt-agent-benchmark) comparing four ways of serving the same docs: HTML, plain Markdown, Markdown with a link to `/llms.txt`, and Markdown with `/llms.txt` inlined. Plain Markdown was arguably the *worst* performer. Without a map, agents started guessing at `.md` URLs and hit more 404s than they did on HTML. What fixed it was the map. A single link to `/llms.txt` dropped agent 404s to near zero across every model tested, at almost no token cost. (Inlining the full file worked too, but burned more tokens for the same benefit.)
-
-That finding previews the theme of this whole chapter. The hard part of the agent experience isn't the format of your content. It's whether the agent can reliably *find* the right content. Clean Markdown makes each fetch cheap, but something still has to tell the agent which page to fetch.
-
-That's the job product skills do. An `/llms.txt` file is a map of your pages. A product skill goes a step further and tells the agent what your product does, which docs matter for which task, and how to go about the work. The rest of this chapter is about building that kind of map.
-
-## The new reader
-
-The most startling change is that nearly half of your developer documentation traffic comes from an AI coding agent, not a human reader. On the other hand, most of the agentic traffic is directed from human requests. Humans are like the puppetmasters directing the agents with goals, tasks, and other purposes. So it's not as if the agentic traffic constitutes a new, alien intelligence disconnected from any human goals and direction.
-
-Even so, the non-human agent reader poses a new challenge. How do you optimize your content for AI agent consumption, even if the agent is acting on behalf of the human user many times? The topics in this chapter work through that question — starting with how the industry's answer evolved from MCP servers and `llms.txt` files to product skills.
+The last movement is about doing the work. [Roles for tech writers](/ai/product-skills-tech-writer-roles.html) covers who owns it, [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html) covers how you find out what's failing for real users, and [Reimagining the documentation experience](/ai/product-skills-reimagining-docs.html) covers what becomes possible once documentation is the primary artifact.
 
 <hr/>
 

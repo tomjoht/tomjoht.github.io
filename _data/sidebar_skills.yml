@@ -46,7 +46,7 @@ folders:
   landing: /ai/product-skills.html
   section: two
   description: >
-    This section turns from internal authoring skills to product skills -- skills that give AI coding agents a routing map to your product documentation. It covers why agents now make up nearly half of documentation traffic, how the industry arrived at skills after MCP servers and llms.txt, the problems with skills, and the roles tech writers should play in creating, testing, and maintaining them.
+    This section turns from internal authoring skills to product skills -- skills that help AI coding agents work correctly with your product. It covers why agents now make up nearly half of documentation traffic, how agents actually reach your content, why improving the documentation beats building an agent-only file, what a product skill adds on top, and the roles tech writers should play.
   folderitems:
 
   - title: "Overview"
@@ -55,8 +55,17 @@ folders:
   - title: "From developer experience to agent experience"
     jurl: /ai/product-skills-agent-experience.html
 
+  - title: "Anatomy and distribution of a product skill"
+    jurl: /ai/product-skills-anatomy.html
+
+  - title: "What the research says about product skills"
+    jurl: /ai/product-skills-research.html
+
   - title: "Problems with product skills"
     jurl: /ai/product-skills-problems.html
+
+  - title: "The docs-first approach"
+    jurl: /ai/product-skills-docs-first.html
 
   - title: "Roles for tech writers with product skills"
     jurl: /ai/product-skills-tech-writer-roles.html
