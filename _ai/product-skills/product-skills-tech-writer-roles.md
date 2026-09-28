@@ -27,15 +27,17 @@ What role should technical writers play in this lifecycle? Which stages belong w
 
 ## Getting involved in skill creation
 
-It's tempting to delegate skill creation entirely to automated generators. However, the [SkillsBench study](https://arxiv.org/abs/2602.12670) found that models *"cannot reliably author the procedural knowledge they benefit from consuming"*, with self-generated skills offering no measurable benefit on average. As discussed in [What the research says](/ai/product-skills-research.html#self-generated-skills-versus-curated-skills), effectiveness depends on whether a human with domain expertise reviews and validates the instructions.
+It's tempting to delegate skill creation entirely to automated generators. However, the [SkillsBench study](https://arxiv.org/abs/2602.12670) found that models *"cannot reliably author the procedural knowledge they benefit from consuming"*, with self-generated skills offering no measurable benefit on average. As I explained in [What the research says](/ai/product-skills-research.html#self-generated-skills-versus-curated-skills), effectiveness depends on whether a human with domain expertise reviews and validates the instructions.
 
-This argument becomes clearer in a docs-first framework. The cross-cutting guidance agents require—such as determining which API to use under specific conditions—rarely exists in single-product documentation. An automated generator can't infer this guidance because the information is missing from the underlying source material. It typically resides with technical writers, support teams, and developer advocates who observe user friction across product boundaries.
+This argument becomes clearer in a docs-first framework. The cross-cutting guidance that agents require &mdash; such as determining which API to use under specific conditions &mdash; rarely exists in single-product documentation. An automated generator can't infer this guidance because the information is missing from the underlying source material. It typically resides with technical writers, support teams, and developer advocates who observe user friction across product boundaries.
 
 From this perspective, the primary deliverable is the missing comparative documentation rather than a standalone skill file. Updating core documentation serves both human developers and agents directly. A skill file becomes necessary only when evaluations show that documentation alone fails to guide the agent.
 
 ## Why tech writers should own skills for the products they support
 
-Technical writers are well positioned to guide product skills for several reasons:
+Technical writers are well positioned to guide product skills for several reasons. First, they won't fall prey to duplicating their documentation into a secondary artifact (a product skill) &mdash; at least not as easily, as this directly introduces risks for documentation drift. Good tech writers would first seek to single-source the product skill if asked. But a good tech writer would also instinctively choose to improve the documentation rather than creating a one-off skill artifact that lives outside the docs.
+
+If the focus turns to improving docs rather than creating unique skill artifacts, as it should, then a tech writer is absolutely the right role to make the improvements. The reasons why hardly need enumerating:
 
 - Tech writers understand product capabilities across a portfolio.
 - Tech writers know where each capability is documented.
@@ -43,13 +45,11 @@ Technical writers are well positioned to guide product skills for several reason
 - Tech writers can determine whether an agent's answers align with official documentation.
 - Tech writers recognize the seams between products, including recurring user confusion, misdirected support tickets, and workarounds created when APIs overlap.
 
-A product skill isn't an exhaustive reference manual; it's concise, selective, and focused on boundaries. As discussed in [Anatomy and distribution](/ai/product-skills-anatomy.html#a-published-example), a product skill functions much like a quick reference guide. Technical writers already specialize in this format, applying compression and organizing content for lookup.
-
-In practice, a technical writer can use an automated generator to produce an initial draft, then refine and curate the content. The generator provides scaffolding, while the writer ensures accuracy and decides what to omit.
+A product skill isn't an exhaustive reference manual; it's concise, selective, and focused on boundaries, unintuitive gotchas, and high-level judgement. 
 
 ## Why they usually don't
 
-Despite this alignment, technical writers don't always lead skill authoring. Several factors contribute to this:
+Despite this alignment, technical writers don't always lead skill authoring efforts. Several factors contribute to this:
 
 - Skill formats and directory structures are often unfamiliar to writing teams.
 - Evaluation test formats and tooling are often viewed as software QA responsibilities.
@@ -60,13 +60,15 @@ Despite this alignment, technical writers don't always lead skill authoring. Sev
 
 Additionally, technical writers already manage demanding backlogs of documentation requests and bug fixes, making it difficult to absorb new testing workflows without dedicated bandwidth.
 
+My thesis is that if tech writers lead product skill efforts, the attention shifts from the product skill to the documentation, which is where the bulk of the improvements can and should be made.
+
 {% include ads.html %}
 
 ## Investment in the eval loop
 
 Technical writer involvement is also critical for acting on evaluation results. When writers participate in testing, evaluation output directly informs documentation improvements. If an agent fails a benchmark task and the evaluation recommends clarifying specific product boundaries, a writer involved in the process can update the documentation immediately.
 
-In contrast, when an external team sends automated pull requests generated by an evaluation suite, the proposed changes often lack context. Without understanding the user query or test scenario that triggered the change, writers may find it difficult to evaluate the edit. Active participation in evaluation loops gives writers the context needed to review and refine proposed changes effectively.
+In contrast, when an external team sends automated pull requests generated by an evaluation suite, the proposed changes often lack context. Imagine if you're a tech writer and you receive a dozen proposed changes from an automated system. Without understanding the user query or test scenario that triggered the change, writers may find it difficult to evaluate the edit. Active participation in evaluation loops gives writers the context needed to review and refine proposed changes effectively.
 
 ## Roadmap for technical writers
 
