@@ -1,4 +1,6 @@
-# CLAUDE.md
+# Project instructions
+
+These instructions are shared by every coding agent used on this repo. `CLAUDE.md` is the real file, and `GEMINI.md` is a symlink to it, so edit either name and both tools see the change.
 
 Jekyll site for idratherbewriting.com. Courses live in `_ai/`, blog posts in `_posts/`, sidebars in `_data/`.
 
@@ -52,6 +54,34 @@ Things that break the voice: writing about "teams" and "publishers" where he wou
 
 These rules apply to all prose written for this site, including courses, blog posts, and podcast essays. They exist because the default LLM register is recognizable, and content that reads as AI-written undermines the site.
 
+### Write in plain style
+
+Avoid rhetorical flourishes or opinionated statements or punctuation that draws exaggerated attention to certain parts. The content doesn't have to follow simplified technical english (STE) but I do prefer a more plain style over the highly stylized output typically consistent with Claude's writing. Here are some principles to consider. None are hard and fast rules, just recommendations. Always prefer readability and flow over a formal construction.
+
+**One idea per sentence, one topic per paragraph.** STE puts one instruction in one sentence, and the same discipline helps in prose. When a sentence carries two claims stacked on each other, split it into two sentences and link them.
+
+**Keep the vocabulary controlled.** Pick one term for a thing and reuse it. STE's rule is one word, one part of speech, one meaning. Cycling through synonyms for variety is a strong AI tell, and it costs the reader precision, because they can't tell whether the new word means something new. If a skill is a skill, don't rotate through artifact, package, file, and instruction set in the same paragraph.
+
+**Prefer active voice and simple tenses.** STE allows the infinitive, imperative, simple present, simple past, and simple future, and it permits passive voice in descriptive writing only where the agent is unknown. Avoid stacked auxiliaries. A phrase like "would have been able to be configured" almost always shortens to an active verb in a simple tense.
+
+**Don't build long noun strings.** Something like "product skill eval loop coverage target" is six words deep and unparseable on first read. Break it apart with prepositions and articles.
+
+**Don't drop parts of a sentence.** Keep the article, the subject, and the verb. This is the same point as "Don't truncate sentence openers" below, stated more generally.
+
+**Use standard contractions.** Use contractions in standard ways: *do not* becomes *don't*, *is not* becomes *isn't*, *cannot* becomes *can't*, *does not* becomes *doesn't*, and so on. Avoid stiff or overly formal uncontracted phrasing. No need for more extreme contractions.
+
+#### Where plain style collides with the voice rules
+
+Two tensions are worth naming, because a literal reading of STE would flatten the voice described above.
+
+**Short sentences are not the same as choppy ones.** The Voice section says Tom writes longer connected paragraphs, and that a paragraph of three short sentences is probably wrong. Both things hold at once. Cap the sentence, then join it to the next one with *However, Additionally, In other words, For example, As such*. What you want is a long paragraph built from short, clearly linked sentences, not a stack of clipped declaratives. Length comes from the connections between sentences rather than from the sentences themselves.
+
+**Cutting adjectives is not the same as cutting opinion.** STE strips modifiers, while the calibration table above asks for more hedges and more evaluative words than a typical AI draft carries. The thing to cut is the empty intensifier, so *genuinely clever* becomes *clever*. The thing to keep is the stated judgment, as in *it works brilliantly*, *the hardest adjustment*, or *I'm still a bit mixed*. Plain prose can hold a strong opinion. It just states the opinion once and doesn't amplify it.
+
+#### Where the dial sits
+
+Push hardest toward STE in procedures, setup instructions, course steps, troubleshooting, and reference material. A reader there is following along with a keyboard, and any ambiguity costs them time. Relax it in blog narrative, podcast essays, and personal anecdote, where rhythm and digression are part of the point. Even relaxed, the sentence-length cap and the controlled vocabulary should hold, because those two do the most work and cost the least.
+
 ### Don't use rhetorical colons and dashes
 
 The problem isn't the punctuation. It's using a colon or dash to steer emphasis, setting up a short forceful phrase so it lands with extra weight. Grammatically this is fine. But so much AI-written content does it that the pattern now reads as a signature, and the manufactured emphasis gets annoying and distracting over a long piece.
@@ -77,7 +107,7 @@ Rewriting a rhetorical colon usually means splitting the sentence in two or subo
 
 ### Minimize adjectives and adverbs
 
-Prefer a just-the-facts register close to Simplified Technical English. Cut intensifiers that add emphasis but no information.
+This is the highest-frequency piece of the plain style described above. Cut intensifiers that add emphasis but no information.
 
 Common offenders are *genuinely, actually, precisely, exactly, dramatically, startlingly, considerably, substantially, remarkably, notably, arguably, quietly, actively, deeply, incredibly, massively*.
 
@@ -101,21 +131,45 @@ Fragments used as openers are a related AI pattern.
 
 Beyond the rhetorical use above, em dashes read as an AI tell when they recur every paragraph, and they produce a choppy rhythm. One or two in a long piece is fine where the beat is earned.
 
-Remove them by restructuring, not substituting. These related tics travel with em dashes.
+Remove them by restructuring, not substituting. These related tics travel with em dashes. (The two-beat verdict does too, and it's covered in the tic catalog below.)
 
-- **The two-beat verdict.** "It's not better prose. It's anchoring." Fold into a longer sentence with a subordinate clause.
 - **Interruptive asides.** "an agent describes it — competently, fluently, uselessly — because..." becomes "an agent will describe it competently, fluently, and uselessly, because..."
 - **The dash as an appositive.** Use commas, or recast as a relative clause.
 - **The dash as a lead-in to a list.** A colon is correct here.
 
 The podcast shownotes skill scopes its em dash rule to the narrative essay and allows ` — ` as a structural separator in Topics bullets. That exception still holds.
 
-### Other patterns to avoid
+### The tics that give it away
 
-- **Rule of three.** Three parallel items where two would do.
-- **Negation-then-correction.** "It's not X. It's Y." Used once it's fine. Used repeatedly it's a tell.
-- **Bookending.** Don't force a callback to the opening concept in the closing paragraph.
+Everything in this section is one underlying failure, so it's worth naming the mechanism before the list. An AI draft applies emphasis at a constant rate. Every sentence tries to land, every paragraph ends on a beat, and every section announces its own significance. Human prose varies: most sentences are flat and carry information, and the occasional one is shaped for effect, which is what gives the shaped one its force. A draft where every sentence is shaped reads as tic-filled and machine-made even when no single sentence is wrong.
+
+The practical test is to look for the flat sentences. If you can't find a plain, low-stakes, purely informative sentence anywhere on the page, the page is over-emphasized. The most reliable revision pass is to delete every sentence whose only job is to make the previous sentence land harder.
+
+Ranked by how badly each one gives the game away:
+
+- **Rhetorical setup.** Announcing that something is interesting instead of saying it. "Here's a failure mode that gets almost no attention." "Notice what these have in common." "Here's what makes this interesting." Cut the frame and state the thing. If the observation is good, it doesn't need to be introduced as good.
+
+- **Performed hedging.** Hedge the claim, not yourself. A real hedge limits what's being asserted, as in "this probably doesn't scale past thirty products." A performed hedge stages the author's inner state as a credential. "The part that nags at me." "I'd take the messier one every time." "Honestly, I can't construct a version where..." "This was the finding I had the hardest time accepting." Cut the staging and keep the qualification. The calibration table asks for more hedges than a typical AI draft carries, and it means the first kind.
+
+- **Verdict fragments and labels.** "Distilled:" "The short answer:" "The practical upshot is short." A label standing in for a sentence is the rhetorical colon in a different costume. Write the sentence.
+
+- **Narrating the argument instead of making it.** "The chapter runs in four movements." "Having argued the docs case this hard..." "That brings me to the most uncomfortable question in the chapter." This is distinct from the signposting the Voice section asks for. Announcing content is fine and sounds like Tom ("In this section, I'd like to propose a few design principles"). Announcing the drama of the argument, or grading the difficulty of one's own question, is a tic.
+
+- **Extended metaphors, especially ones that come back.** A comparison can appear once where it clarifies something. Don't build a paragraph on it, don't extend it into a second vehicle ("a rudder on a boat that isn't seaworthy"), and don't call back to it in the closing section. Analogies from Tom's own life are welcome, and they're usually one sentence long.
+
+- **Negation-then-correction.** "It's not X. It's Y." Once is fine. Twice on a page is a signature.
+
+- **The two-beat verdict.** Two short sentences where the second delivers judgment on the first, as in "It's not better prose. It's anchoring." Fold into one sentence with a subordinate clause.
+
+- **Rule of three.** Three parallel items where two would do, and three bolded lead-ins built to identical shape.
+
+- **Bookending.** Don't force a callback to the opening concept in the closing paragraph. Endings should land on something concrete, per the Voice section.
+
 - **Vague antecedents.** When writing "this shift" or "that change," name what you mean.
+
+### Invisible style is the goal
+
+For course topics and reference material especially, aim for prose that doesn't call attention to itself. The reader should come away with the information and no impression of the writing at all. A sentence that makes a reader notice the craft is a sentence that stopped them from reading, and the accumulated flourishes are worse than any one of them, because they read as a house style rather than as a person thinking. Judgment and opinion still belong in the prose. State them once, plainly, and move on.
 
 ## Accuracy
 

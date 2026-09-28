@@ -11,56 +11,55 @@ order: 12
 
 {% include_relative draft_notice.html %}
 
-As we look to make content consumable by agents, we shift from the developer experience (DX) to the agent experience (AX). Developers increasingly work through agentic coding tools such as Claude Code, Cursor, Windsurf, Replit, Lovable, Codex CLI, Antigravity, and Gemini CLI, usually in the terminal and in a side pane of their IDE. Those tools are what now stands between your documentation and your reader. I work this way myself most days, which is part of why the shift interests me.
+Making content consumable by AI tools shifts the focus from developer experience (DX) to agent experience (AX). Developers increasingly use agentic coding tools such as Claude Code, Cursor, Windsurf, Replit, and Gemini CLI. These tools run in the terminal or in an IDE pane, acting as intermediaries between the user and the documentation.
 
-Before deciding what a product skill should do, it helps to know what the rest of the stack already does. Agents reach your content through several mechanisms that developed separately and now operate together. Each one solves a specific problem, and a product skill is worth publishing only if it handles something the others leave unhandled. So what does each layer actually cover, and what's left over?
+Before building a product skill, it helps to understand how existing documentation infrastructure already serves agents. Agents reach content through several mechanisms, each addressing a different technical challenge. A product skill is only worth publishing if it solves a problem other layers leave open, so this topic outlines those existing layers first.
 
 ## MCP is the transport layer
 
-The Model Context Protocol (MCP) is how agents connect to external systems, including your documentation. It is current infrastructure rather than a superseded experiment, and it sits underneath most of what follows.
+The Model Context Protocol (MCP) connects agents to external systems, including documentation repositories. MCP has become the standard infrastructure for agentic retrieval.
 
-What caused trouble early on wasn't the protocol. It was a particular pattern of using it called *eager loading*. In a typical setup, every connected server's tool definitions load into the agent's context when the session starts, whether the agent uses them or not. Connect a few servers and you've spent thousands of tokens before the first prompt. Documentation teams that exposed entire doc sets this way made it much worse, since the token bloat raised latency and cost while degrading reasoning, as models struggled to separate relevant instructions from noise.
+Early implementations often suffered from eager loading. In an eager loading configuration, tool definitions from every connected server load into context at session startup. Connecting several servers can consume thousands of tokens before the user enters a prompt. Exposing a full documentation corpus this way causes token bloat, which increases latency and cost while degrading the model's reasoning.
 
-The fix was not to abandon MCP. It was to stop conflating *storage* with *delivery*. In other words, keeping all your documentation available through a server is necessary, but handing all of it to the model at once is destructive.
+Modern MCP implementations separate content storage from delivery to avoid this. Documentation servers provide search tools rather than full text dumps. Under this model, an agent submits a targeted query and retrieves only the relevant excerpts. Mintlify and Context7 both use this on-demand retrieval architecture across large library catalogs, and retrieval over MCP is now a standard method for factual API lookup. A product skill doesn't replace this transport layer; at most, a skill advises the agent on when and how to query it.
 
-Docs MCP servers built around a *search tool* never had this problem. The agent queries, and gets back only the chunks it asked for. That pattern works well and is widely deployed. Mintlify hosts a server per docs site, and tools like Context7 provide on-demand lookup across thousands of libraries. Retrieval over MCP is the standard way agents get factual answers about an API today, and a product skill does not replace it. The skill tells the agent when and why to query. MCP carries the query.
+## Markdown and llms.txt solve format and navigation problems
 
-## Markdown and llms.txt solve the format and navigation problems
+Two more layers optimize how servers deliver documentation to agents: Markdown mirrors and navigation maps.
 
-Two more layers sit alongside retrieval, both concerned with how content is served rather than how it is selected. Neither helps an agent decide what to do, but both make everything else cheaper and more reliable.
+**Per-page Markdown mirrors** provide plain Markdown copies of documentation pages at dedicated URLs. For example, `/guide/authentication` might also resolve at `/guide/authentication.md`. Clean Markdown strips away navigation scripts and HTML styling, delivering identical technical content at a lower token cost. Many documentation platforms now generate these Markdown endpoints automatically.
 
-**Per-page Markdown mirrors** are plain Markdown copies of documentation pages, served at their own URLs. Usually you get one by adding `.md` to a page's address, so `/guide/authentication` also exists at `/guide/authentication.md`. Same content, no theme. The token argument is straightforward. HTML arrives wrapped in navigation, scripts, and styling that an agent pays for without benefiting from, while clean Markdown delivers the same content for a fraction of the cost. Most documentation platforms generate these automatically, so it's usually something you get rather than something you build.
+**The `/llms.txt` file** serves as a structured index. The [llms.txt proposal](https://llmstxt.org/) defines a Markdown file that provides concise background information and links to detailed Markdown files. Some sites also provide a `/llms-full.txt` file that concatenates the entire documentation site into a single file.
 
-**The `/llms.txt` file** is a map. The [llms.txt proposal](https://llmstxt.org/) describes a Markdown file that *"offers brief background information, guidance, and links to detailed markdown files."* The ecosystem then extended the convention, adding a companion `/llms-full.txt` that concatenates the entire documentation corpus.
+A [2,400-run benchmark by Mintlify](https://www.mintlify.com/blog/llms-txt-agent-benchmark) evaluated four documentation delivery formats: HTML, plain Markdown, Markdown linking to `/llms.txt`, and Markdown with `/llms.txt` inlined. The findings showed several consistent patterns:
 
-Mintlify ran a [2,400-run benchmark](https://www.mintlify.com/blog/llms-txt-agent-benchmark) comparing four ways of serving the same docs: HTML, plain Markdown, Markdown linking to `/llms.txt`, and Markdown with `/llms.txt` inlined. The results sort these layers usefully.
+- Plain Markdown without a site map performed worse than HTML. Without an explicit list of pages, agents guessed URLs and hit 404 errors.
+- Adding a link to `/llms.txt` reduced 404 errors to near zero across all tested models, at minimal token cost.
+- Inlining the complete `/llms.txt` content eliminated 404 errors but consumed unnecessary input tokens.
+- Concatenated files such as `/llms-full.txt` showed the same inefficiency as eager-loaded MCP, filling context with unused text.
 
-- Plain Markdown with no map performed *worse* than HTML. Without knowing which pages existed, agents guessed at `.md` URLs and hit more 404s.
-- Adding a single link to `/llms.txt` dropped agent 404s to near zero across every model tested, at almost no token cost.
-- Inlining the full file fixed the same 404s but cost more tokens for the same benefit.
-- The concatenated `/llms-full.txt` dump has the same flaw as eager-loaded MCP, feeding an entire corpus into a context window that can't use most of it.
+Format and navigation, in other words, already have cheap solutions. The most effective approach combines clean Markdown endpoints with a compact index file, both of which involve configuration rather than original authoring.
 
-Well, two things follow from this, and I'd underline both. Format and navigation are close to solved, and they're solved cheaply, by a static file and an extension on a URL. In other words, the winning combination is always *clean content plus a small map*, and never *more content*.
+## Too much context degrades performance
 
-## Too much context makes it worse
+Supplying more documentation to a model doesn't necessarily improve the output. Past a moderate threshold, additional context reduces task performance, because irrelevant detail dilutes the prompt, introduces conflicting instructions, and distracts the model from the objective.
 
-That last point generalizes into the constraint that shapes everything in this chapter. More information does not reliably produce better results, and past a fairly low threshold it produces worse ones. It's the equivalent of giving a plumber who shows up at your door a 1,000-page textbook on hydrodynamics when what the plumber really needs is details about how to fix a leaky faucet. Giving too much information to an AI creates overwhelm, sends it down too many different directions, and paralyzes the analysis so that it's worse than operating without it. I find this counterintuitive every time I run into it, because more context feels like it should help.
-
-This isn't only an observation about documentation dumps. The same effect shows up in the benchmark research on skills themselves, where flooding an agent's context with an exhaustive skill library degraded coding accuracy while selecting a small relevant subset raised pass rates. I cover those numbers in [What the research says](/ai/product-skills-research.html). For now, the discipline of deciding what context an agent actually needs is known as [context engineering](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models), and a product skill is one instrument for practicing it.
+Benchmark research on agent skills confirms this pattern. Flooding an agent with an exhaustive skill catalog degrades coding accuracy, while selecting a small set of task-relevant instructions raises benchmark pass rates. [What the research says](/ai/product-skills-research.html) covers those numbers in detail. Curating the precise context an agent needs is known as [context engineering](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models), and a product skill is one tool for managing it.
 
 {% include ads.html %}
 
-## What none of these layers solve
+## What the existing layers don't solve
 
-Put the stack together and an agent working with your product can find your pages, fetch them cheaply, and query for facts on demand. What it still can't do is choose well. Retrieval returns what matches the query. So if a developer asks for something that two of your products could plausibly handle, a search index will surface chunks from both, because both are genuinely relevant. The comparison that would settle it, if it exists at all, sits on some third page the retrieval never pulled. The agent then picks one and proceeds with total confidence. I've watched this happen, and the output looks so fluent that the mistake is easy to miss.
+Existing retrieval tools let agents discover pages, fetch Markdown text efficiently, and query for specific parameters. What they don't provide is strategic judgment. Search tools return excerpts that match lexical or semantic keywords. When a user request could be served by two overlapping products, search retrieves excerpts from both. The agent then tends to pick one arbitrarily and proceed without weighing the trade-offs.
 
-Each layer handles a different piece, then. Finding content is handled by `/llms.txt`, parsing it by Markdown, and fetching facts by retrieval over MCP. What's left over is judgment about which approach to take in the first place, and that judgment is often the one thing nobody wrote down.
+Each layer has a narrow function. The `/llms.txt` file handles site discovery, Markdown mirrors optimize text processing, and MCP servers handle factual retrieval. None of them decides which architectural pattern or which product a developer should choose.
 
-Two answers to that gap are available, and only one of them gets much attention. The industry's answer is the product skill, a small package of instructions published alongside your documentation that an agent loads when it decides the skill is relevant. It's what most teams are currently building, and it's the reason this chapter exists.
+Organizations generally try to close that gap in one of two ways:
 
-The second answer starts from noticing who else needs that judgment. A human developer choosing between your products needs the same comparison the agent needs, and if it isn't written down anywhere, that's a gap in your documentation before it's a gap in your agent experience. As such, writing it into the docs reaches every agent that fetches a URL, on any platform, rather than only the users who happened to install a file.
+1. **Publish a product skill.** Teams create standalone instruction files that direct agents toward the appropriate product.
+2. **Improve the core documentation.** Teams publish explicit comparison guides and selection criteria in the documentation portal itself.
 
-As the overview said, this chapter ends up arguing for the second answer as the default. That case depends on knowing what a skill actually is, how far one reaches, what the benchmark research says about whether skills help, and what goes wrong even when the content is good, so the next three topics cover that ground first.
+Human developers need the same comparative guidance that agents need, so documenting these product distinctions in the official documentation addresses both audiences at once. Documentation updates also reach every agent that fetches a URL, without requiring users to install a separate skill file. Before evaluating whether to write that guidance into core docs or into a product skill, the next three topics examine what a skill contains, what the benchmarks measure, and which operational problems persist.
 
 <hr/>
 

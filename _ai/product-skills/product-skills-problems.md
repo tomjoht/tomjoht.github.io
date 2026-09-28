@@ -11,97 +11,90 @@ order: 15
 
 {% include_relative draft_notice.html %}
 
-The [previous topic](/ai/product-skills-research.html) covered what the benchmark research says about whether skills help. This one covers what goes wrong even when the content inside the skill is good.
+The [previous topic](/ai/product-skills-research.html) covered what benchmark research reveals about skill effectiveness. This topic examines the operational and architectural problems that arise even when skill content is carefully written.
 
-The problems sort into two groups, and the split matters more than any individual item. The first two are about the content of the skill and how you measure it, so they're problems you can write your way out of. The four after that are costs of publishing a *separate artifact* at all, and no amount of good writing removes them. That distinction turns out to be where this chapter is heading, so it's worth noticing as you go. The last section asks the question all of it builds toward.
+These challenges fall into two categories: content challenges (how skills are written and evaluated) and structural challenges (the overhead of maintaining a separate artifact). While the first two problems can be addressed through disciplined writing, the remaining four stem from publishing a separate file.
 
 ## Greedy descriptions
 
-Here's a failure mode that gets almost no attention, and it follows directly from the selection problem in the previous topic. The `description` field in your skill's frontmatter is the only thing the agent sees until it decides your skill is relevant. That makes it the highest-leverage text in the whole artifact, which creates an incentive to write it as broadly as possible. If the description covers more ground, the skill fires more often, and firing more often feels like winning. Product teams and PMs reinforce this, because a skill that rarely triggers looks like a skill nobody wanted.
+The first problem follows directly from how agents select skills. The `description` field in a skill's frontmatter is the only text an agent reads during startup. Because it determines whether a skill is loaded, authors face an incentive to write descriptions as broadly as possible to maximize trigger rates.
 
-So descriptions get greedy. They accumulate every use case the product might conceivably serve, every synonym a user might conceivably type, until the description is less a description than a claim on territory.
+Consequently, descriptions often become overly broad. Authors accumulate every potential use case and synonym a user might type, attempting to ensure the skill triggers under every possible scenario.
 
-Greedy descriptions tend to fail in two directions at once. The skill loads for tasks it can't help with, spending tokens and attention on irrelevant procedure. And when a company publishes one greedy skill per product, the descriptions start overlapping, so the agent faces a shelf of skills that all sound applicable and no basis for choosing between them. You've reproduced, at the metadata layer, the routing problem the skills were supposed to solve.
+Broad descriptions create two distinct failure modes. First, the skill triggers for tasks it can't meaningfully assist with, wasting tokens and introducing irrelevant instructions. Second, when an organization publishes multiple broad skills across a product line, the descriptions overlap. The agent then faces several applicable-sounding skills without a clear basis for choosing between them, reproducing the disambiguation problem at the metadata level.
 
-The discipline that helps is writing the description to be *exclusionary* as much as inclusive, saying plainly what the skill is not for and which neighboring skill handles that instead. A description that rules things out is doing more work than one that grabs everything.
+To prevent this, descriptions should be written to exclude irrelevant tasks as clearly as they include appropriate ones. Specifying what a skill doesn't cover—and indicating which adjacent tool or skill handles that workflow—improves routing accuracy.
 
-## Evals are not user queries
+## Evaluation suites aren't user queries
 
-The [previous topic](/ai/product-skills-research.html#testing-a-skill) described ablation testing as the way to know whether a skill works. That's right, and I don't want to walk it back. However, there's a failure mode inside eval-driven development that the with-versus-without machinery can't detect, and I think it's the one most likely to bite documentation teams.
+While ablation testing measures whether a skill improves performance on a given test suite, eval-driven development carries a common blind spot for documentation teams.
 
-Evals get written by the same people who wrote the skill, from the same mental model of the product. So the eval prompts tend to use the product's official vocabulary, name features the way the feature matrix names them, and describe tasks the way a product manager would scope them. Then the skill passes, because the skill and the eval are two expressions of one shared understanding. You've built a closed loop and measured the inside of it.
+Evaluation suites are typically written by the authors of the skill, who share the product team's mental model. Consequently, evaluation prompts tend to use official product terminology, cite features as they appear in internal documentation, and structure tasks according to product roadmaps. Under these conditions, the skill passes because both the skill and the test reflect the same internal perspective.
 
-Real user queries don't look like that. They're vaguer, longer, and full of the wrong words. Users describe outcomes rather than capabilities ("I need the app to tell people how far away the driver is"), name your features by whatever they were called three versions ago, blend two products into one request without realizing they're separate, and arrive with unstated constraints, such as that they're prototyping in the browser, that they're on the free tier, or that they've already half-built it a different way. A capability list written by the people who own the capability almost never anticipates this.
+Real user queries rarely match that structure. Users often describe high-level goals rather than product features, use terminology from legacy versions, conflate distinct products into a single request, or operate under unstated environmental constraints (such as running in a browser rather than a server). Internal test suites written from feature specifications rarely anticipate these variations.
 
-The uncomfortable implication, and this is the part that nags at me, is that a skill might score well on its eval suite and still fail most of the traffic that reaches it, simply because the suite never contained a query phrased the way real users phrase things. Worse, the eval scores give you confidence proportional to how artificial your test set is.
+As a result, a skill can achieve high pass rates on an internal test suite while failing to help real users, simply because the tests didn't reflect authentic user behavior. An evaluation corpus drawn from artificial prompts can create false confidence.
 
-The fix isn't to stop running evals, of course. It's to stop sourcing eval cases from your own head. Real user queries exist, and documentation teams increasingly have access to them: docs-site chat logs, support tickets, community forum posts, the search strings that returned nothing. Those are your eval corpus. A test suite built from questions real people actually asked will be messier and harder to score, but it's considerably more honest than one you wrote from the feature list. I'd take the messier one every time. This is a large part of why I think the log-mining work in [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html) is not a side activity but a prerequisite.
+To build meaningful evaluations, teams should source queries from real user interactions. Documentation search logs, support tickets, community forums, and unsuccessful chat queries provide authentic user language. While evaluation sets drawn from real queries are messier to score, they provide a more accurate measure of performance than prompts derived from feature lists. [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html) discusses how to extract this data.
 
 {% include ads.html %}
 
 ## A second source of truth
 
-The two problems above are content problems, and better writing fixes them. The four that follow are different, because they arrive with the file itself. The first of them is the one tech writers will see coming.
+Content challenges can be resolved through better test design and clearer writing. Structural challenges, by contrast, are inherent to maintaining a separate artifact.
 
-Whatever product detail you pack into a skill and its reference folder is a copy of something your documentation already says, and copies drift. The moment a release changes an endpoint or renames a parameter, your skill and your docs can disagree, and the agent may act on whichever it read. Tech writers will recognize this. It's the single-sourcing problem in new clothes.
+Any technical details included in a skill or its reference directory duplicate information already present in documentation. Over time, that duplicated content drifts. When an API update changes a parameter, alters an endpoint, or deprecates a method, the skill and the documentation risk contradicting each other. Agents may then act on outdated guidance depending on which source they consulted. Technical writers will recognize this as a classic single-sourcing problem.
 
-This is the strongest practical argument for keeping skills thin. A skill that mostly *routes*, pointing the agent at canonical docs rather than restating them, has far less surface area to fall out of date. It's also why Elastic's [agent-skills repository](https://github.com/elastic/agent-skills) pairs its skills with automated staging and drift-detection pipelines. At any real scale, keeping skills honest against the docs becomes its own maintenance workload, one you should plan for before publishing skill number one.
+This maintenance overhead is a compelling reason to keep skills concise. A skill that focuses primarily on routing—directing the agent to canonical documentation rather than restating API details—has a smaller surface area for drift. For larger product catalogs, keeping skills synchronized with documentation requires automated drift detection, as implemented in Elastic's [agent-skills repository](https://github.com/elastic/agent-skills).
 
 ## Distribution and discovery
 
-There's also no settled answer yet for how users find your skill in the first place. An [emerging spec](https://agentskills.io/home) covers the skill format, but distribution remains fragmented. The closest thing to an npm for skills, Vercel's [skills.sh](https://www.skills.sh/) registry and its `npx skills` CLI, has momentum, but it's one of several parallel ecosystems. Claude Code plugin marketplaces, Gemini CLI extensions, claude.ai's zip-upload flow, and plain GitHub repos all coexist, and none of them talks to the others. (I walk through these channels in detail in [How product skills reach users](/ai/product-skills-anatomy.html#how-product-skills-reach-users).) A publisher can't yet pick one channel and reach everyone, and a user can't yet look in one place and find everything. Until this consolidates, every vendor is publishing into fragmentation and hoping they've covered the doors their users actually walk through.
+There's currently no unified distribution channel for agent skills. While specification efforts such as [Agent Skills](https://agentskills.io/home) establish file structure conventions, delivery mechanisms remain fragmented. Vercel's [skills.sh](https://www.skills.sh/) registry, package managers like `npx skills`, Claude Code plugin repositories, Gemini CLI extensions, web chat zip uploads, and public GitHub repositories all coexist without shared infrastructure.
 
-This distribution gap has a writer-facing consequence too, which I'll return to in [Roles for tech writers with product skills](/ai/product-skills-tech-writer-roles.html). If there's no obvious publishing destination for a skill, it's hard for anyone, writer or engineer, to feel ownership over shipping one.
+Because distribution is decentralized, authors can't publish to a single registry and reach all users. Similarly, users have no central location to discover available skills. Until distribution consolidates, organizations must support multiple packaging formats or accept that their skills will reach only a fraction of their target audience.
+
+This fragmentation also affects internal workflow ownership, as discussed in [Roles for tech writers with product skills](/ai/product-skills-tech-writer-roles.html). Without an established publishing pipeline, teams often struggle to determine whether technical writers, developer advocates, or engineering teams should own skill releases.
 
 ## Trust and security
 
-Drift and distribution are both problems of getting your skill in front of users accurately. This next one is about whether anyone will let it run at all. Product skills differ from internal skills in one uncomfortable way. You're not the one who bears the risk of a bad skill. Your users are. A product skill is a set of instructions, sometimes with executable scripts in its subfolders, that you're asking *someone else's agent* to ingest and act on. That makes skills a security surface, not just a documentation artifact. A malicious or compromised skill is a prompt injection with distribution. It can steer an agent toward exfiltrating data, running unwanted commands, or recommending the wrong thing. Even a well-intentioned skill with a bundled script is asking users to run your code inside their environment.
+Product skills also introduce security and governance challenges. Unlike internal authoring skills, where the team building the skill assumes any operational risks, product skills execute in external user environments. A product skill provides instructions—and occasionally executable scripts—that run within someone else's agent.
 
-Anthropic's own [documentation on skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) is blunt about this, advising users to install skills only from sources they created themselves or obtained from Anthropic, and to audit anything else thoroughly before use. That's the posture your skill will be met with.
+This makes skills a potential attack surface. Compromised or poorly audited skills can misdirect agents, execute unwanted terminal commands, or expose sensitive project data. Even well-intentioned skills containing helper scripts ask users to run untrusted code locally.
 
-So enterprises are starting to ask the questions you'd expect. Who published this skill? Has it been reviewed? What do its scripts actually do? Should our agents consume third-party skills at all? In the [first chapter](/ai/skills.html#skills100), I noted the fundamental trust problem with running someone else's skill on your content. For external product skills, that problem scales up to every user who installs yours. Until signing, provenance, and review conventions mature, publishers can expect some security-conscious organizations to block third-party skills outright, no matter how good the content is.
+Anthropic's [skills documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) advises users to install skills only from trusted creators or official sources, and to audit third-party skills thoroughly. Many enterprise security policies block external skills entirely until provenance, code signing, and verification standards mature.
 
-For documentation teams, the practical implication is that skills need the same review rigor as code: version control, code review for scripts, and a clear owner. A skill published under your product's name carries your product's credibility with it.
+For documentation teams, this means product skills require the same governance as production code: version control, security reviews for executable scripts, and transparent ownership.
 
 ## Constantly shifting variables
 
-The last of the separate-artifact costs is that evaluating skills is difficult because the variables are constantly shifting across the software industry. Documentation is in a constant state of flux, with new features and functionality regularly being added or modified, often on a biweekly cadence. Just as the documentation is changing, so are the models and their capabilities, as well as the agent harnesses. All of this makes it difficult to know whether a skill is improving or degrading based on changes you might make to the skill content itself.
+Evaluating product skills is further complicated by shifting dependencies across the development stack. Documentation undergoes continuous updates as products evolve. Simultaneously, underlying model architectures, system prompts, and agent harnesses change on rapid release cycles. When an agent's performance shifts, it can be difficult to determine whether the change resulted from skill updates, documentation revisions, model updates, or harness modifications.
 
-The harness variable is worse than it sounds. SkillsBench ran the same skills across multiple model-harness configurations and found that the gains varied widely, from +4.1 points in some setups to +25.7 in others. Even the same model produced noticeably different results depending on which harness it ran in. The skill's benefit depends not just on its content but on how the harness surfaces it, prompts with it, and executes around it.
+Harness behavior varies considerably. Benchmark evaluations in SkillsBench showed that identical skills yielded vastly different improvements depending on the harness used, with gains ranging from +4.1 points to +25.7 points. The same model produced varying results in different environments. Furthermore, some harnesses frequently ignored loaded skills entirely, acknowledging the instructions but generating code independently.
 
-SkillsBench also found that getting the agent to *read* your skill doesn't guarantee anything. Claude Code showed the highest skill utilization, while Codex CLI frequently neglected skills entirely, acknowledging the skill's content and then implementing its own solution anyway. Skills turn out to be portable in format but not in behavior. A `SKILL.md` file loads anywhere, but whether the agent acts on it varies by harness. If your product skill serves users across Claude Code, Cursor, Codex, and Gemini CLI, you'd need to test it in each one, multiplying the eval matrix you have to maintain.
+Because skill execution depends heavily on the harness, verifying a skill across tools like Claude Code, Cursor, Codex, and Gemini CLI requires maintaining a multi-harness evaluation matrix.
 
 ## Does a routing skill earn its keep?
 
-That brings me to the most uncomfortable question in the chapter, which I've saved for last because I don't have a settled answer to it. If a product skill is essentially an index, a curated list of links pointing the agent at the right documentation pages, then what is it actually contributing? A docs search tool exposed over MCP already retrieves relevant chunks on demand. An `/llms.txt` file already supplies a map at near-zero token cost. The model already knows how REST APIs work. So what's left? Against that baseline, an index-shaped skill is paying context rent to duplicate navigation that other layers supply more cheaply.
+If a product skill functions primarily as an index—a curated list of links pointing an agent to documentation pages—it's worth evaluating what unique value it provides. Documentation search tools exposed over MCP already retrieve relevant excerpts on demand. An `/llms.txt` file supplies a navigation map at low token cost. Against that baseline, an index-only skill risks duplicating navigation that other layers provide more efficiently.
 
-My hunch is that a link index alone doesn't justify itself. It might, of course, and the measurement to settle the question is straightforward enough in principle. But I haven't seen it published anywhere, and I'd be pretty cautious of anyone claiming the answer confidently in either direction.
+A skill justifies its token cost when it supplies judgment that the model lacks and retrieval can't assemble at the point of decision. Routing is simply the delivery mechanism for that judgment, not the value itself. If a skill only provides routing links, it assumes navigation is the bottleneck, even though benchmark data suggests navigation can be addressed with static index files.
 
-What seems defensible from the research is narrower. A skill earns its context when it carries judgment the model lacks and retrieval can't assemble at the moment of the decision. Routing is the delivery mechanism for that judgment, not the value itself. A skill that only routes is betting that navigation was the bottleneck, and the Mintlify benchmark suggests navigation was already solved by a static file.
-
-Which leaves a question worth putting plainly. If the judgment is the valuable part, and that judgment would serve human readers too, why is it in a skill rather than in the documentation? For most teams I don't think it should be, and the rest of this chapter follows from that answer.
+This leads to an essential question: if comparative judgment is the most valuable element, and that judgment benefits human readers as well, why place it in an external skill file rather than directly in the documentation? For most organizations, that content belongs in the documentation itself.
 
 ## Summary of the problems
 
-Distilled:
+To summarize:
 
-* **Descriptions grab for too much.** The description field is the only thing the agent reads by default, which tempts publishers to claim as much territory as possible. Greedy descriptions make skills fire on tasks they can't help with, and a shelf of overlapping ones recreates the routing problem at the metadata layer.
+* **Descriptions often claim too much scope.** Overly broad descriptions cause skills to trigger on irrelevant tasks and create conflicts with adjacent skills.
+* **Internal evaluations don't mirror real user queries.** Tests created from product specifications reflect internal naming rather than the ambiguous phrasing used by real developers.
+* **Skills introduce a second source of truth.** Restating API details in a skill creates content drift between the skill and core documentation.
+* **Distribution remains fragmented.** Lack of a central package registry forces teams to maintain multiple distribution formats.
+* **Skills present security risks.** Third-party skills execute instructions and scripts inside user environments, leading security-conscious organizations to restrict their use.
+* **Underlying variables shift constantly.** Frequent updates to documentation, model capabilities, and agent harnesses complicate long-term evaluation.
+* **Purely navigational skills duplicate existing tools.** Link catalogs inside skills offer little advantage over MCP search and `/llms.txt` files.
 
-* **Passing your evals isn't the same as helping your users.** Eval prompts written by the skill's authors inherit the authors' vocabulary and mental model, so the skill and the test agree with each other by construction. Source eval cases from real logs, not from the feature list.
-
-* **Skills become a second source of truth.** Any product detail copied into a skill drifts from your docs.
-
-* **There's no settled distribution channel.** Registries, plugin marketplaces, CLI extensions, and GitHub repos coexist without talking to each other. You can't pick one channel and reach everyone.
-
-* **Skills are a security surface.** You're asking someone else's agent to ingest your instructions and possibly run your scripts. Expect security-conscious organizations to scrutinize or block third-party skills until signing and provenance conventions mature.
-
-* **The ground keeps moving.** Your docs change, the models change, and the harnesses change. The same skill produces different gains depending on where it runs, and agents sometimes read a skill and then ignore it.
-
-* **An index-shaped skill may not earn its context.** If the skill is a list of links, it duplicates what docs search, MCP retrieval, and `/llms.txt` already do more cheaply.
-
-Now notice what these have in common. Drift, distribution fragmentation, security review, harness variance, and the selection problem are all properties of shipping a separate file. None of them is a property of the knowledge itself. They would mostly disappear if the same content lived in documentation that agents fetch directly, which is the argument of the [next topic](/ai/product-skills-docs-first.html).
+Drift, distribution fragmentation, security friction, harness variance, and selection issues are all consequences of maintaining a separate file rather than flaws in the technical knowledge itself. These issues largely disappear when the comparative guidance lives directly within the documentation that agents query, which is the focus of the [next topic](/ai/product-skills-docs-first.html).
 
 <hr/>
 
 *Continue to the next topic: [The docs-first approach](/ai/product-skills-docs-first.html)*
-
