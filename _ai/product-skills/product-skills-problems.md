@@ -11,7 +11,7 @@ order: 15
 
 {% include_relative draft_notice.html %}
 
-The previous topic, [What the research says about product skills](/ai/product-skills-research.html) covered what benchmark research reveals about skill effectiveness. This topic examines the operational and architectural problems that arise even when skill content is carefully written.
+The previous topic, [What the research says about product skills](/ai/product-skills-research.html), covered what benchmark research reveals about skill effectiveness. Here I'll examine the operational and architectural problems that arise even when skill content is carefully written.
 
 These challenges fall into two categories: content challenges (how skills are written and evaluated) and structural challenges (the overhead of maintaining a separate artifact). While the first two problems can be addressed through disciplined writing, the remaining four stem from publishing a separate file.
 
@@ -23,7 +23,7 @@ Consequently, descriptions often become overly broad. Authors accumulate every p
 
 Broad descriptions create two distinct failure modes. First, the skill triggers for tasks it can't meaningfully assist with, wasting tokens and introducing irrelevant instructions. Second, when an organization publishes multiple broad skills across a product line, the descriptions overlap. The agent then faces several applicable-sounding skills without a clear basis for choosing between them, reproducing the disambiguation problem at the metadata level.
 
-To prevent this, descriptions should be written to exclude irrelevant tasks as clearly as they include appropriate ones. Specifying what a skill doesn't cover—and indicating which adjacent tool or skill handles that workflow—improves routing accuracy.
+To prevent this, descriptions should be written to exclude irrelevant tasks as clearly as they include appropriate ones. Specifying what a skill doesn't cover &mdash; and indicating which adjacent tool or skill handles that workflow &mdash; improves routing accuracy.
 
 ## Evaluation suites aren't user queries
 
@@ -41,11 +41,11 @@ To build meaningful evaluations, teams should source queries from real user inte
 
 ## A second source of truth
 
-Content challenges can be resolved through better test design and clearer writing. Structural challenges, by contrast, are inherent to maintaining a separate artifact.
+Content challenges can be resolved through better test design and clearer writing. In contrast, structural challenges inherent to maintaining a separate artifact are harder to fix.
 
-Any technical details included in a skill or its reference directory duplicate information already present in documentation. Over time, that duplicated content drifts. When an API update changes a parameter, alters an endpoint, or deprecates a method, the skill and the documentation risk contradicting each other. Agents might then act on outdated guidance depending on which source they consulted. Technical writers will recognize this as a classic single-sourcing problem.
+Any technical details included in a skill or its reference directory **duplicate** information already present in documentation. Over time, that duplicated content drifts. When an API update changes a parameter, alters an endpoint, or deprecates a method, the skill and the documentation risk contradicting each other. Agents might then act on outdated guidance depending on which source they consulted. Technical writers will recognize this as a classic single-sourcing problem.
 
-This maintenance overhead is a compelling reason to keep skills concise. A skill that focuses primarily on routing &mdash; that is, directing the agent to canonical documentation rather than restating API details &mdash; has a smaller surface area for drift. For larger product catalogs, keeping skills synchronized with documentation requires automated drift detection, as implemented in Elastic's [agent-skills repository](https://github.com/elastic/agent-skills).
+This maintenance overhead is a compelling reason to keep skills concise. A skill that focuses primarily on routing &mdash; that is, on directing the agent to canonical documentation rather than restating API details &mdash; has a smaller surface area for drift. For larger product catalogs, keeping skills synchronized with documentation requires automated drift detection, as implemented in Elastic's [agent-skills repository](https://github.com/elastic/agent-skills).
 
 ## Distribution and discovery
 
@@ -57,7 +57,7 @@ This fragmentation also affects internal workflow ownership, as discussed in [Ro
 
 ## Trust and security
 
-Product skills also introduce security and governance challenges. Unlike internal authoring skills, where the team building the skill assumes any operational risks, product skills execute in external user environments. A product skill provides instructions—and occasionally executable scripts—that run within someone else's agent.
+Product skills also introduce security and governance challenges. Unlike internal authoring skills, where the team building the skill assumes any operational risks, product skills execute in external user environments. A product skill provides instructions, and occasionally executable scripts, that run within someone else's agent.
 
 This makes skills a potential attack surface. Compromised or poorly audited skills can misdirect agents, execute unwanted terminal commands, or expose sensitive project data. Even well-intentioned skills containing helper scripts ask users to run untrusted code locally.
 
@@ -75,11 +75,11 @@ Because skill execution depends heavily on the harness, verifying a skill across
 
 ## Does a routing skill earn its keep?
 
-If a product skill functions primarily as an index &mdash; that is, a curated list of links pointing an agent to documentation pages &mdash; it's worth evaluating what unique value it provides. Documentation search tools exposed over MCP already retrieve relevant excerpts on demand. An `/llms.txt` file supplies a navigation map at low token cost. Against that baseline, an index-only skill risks duplicating navigation that other layers provide more efficiently.
+If a product skill functions primarily as an index &mdash; that is, as a curated list of links pointing an agent to documentation pages &mdash; it's worth evaluating what unique value it provides. Documentation search tools exposed over MCP already retrieve relevant excerpts on demand. An `/llms.txt` file supplies a navigation map at low token cost. Against that baseline, an index-only skill risks duplicating navigation that other layers provide more efficiently.
 
 A skill justifies its token cost when it supplies judgment that the model lacks and retrieval can't assemble at the point of decision. Routing is simply the delivery mechanism for that judgment, not the value itself. If a skill only provides routing links, it assumes navigation is the bottleneck, even though benchmark data suggests navigation can be addressed with static index files.
 
-This leads to an essential question: if comparative judgment is the most valuable element, and that judgment benefits human readers as well, why place it in an external skill file rather than directly in the documentation? For most organizations, that content belongs in the documentation itself.
+This leads to an essential question: if comparative judgment is the most valuable element, and that judgment benefits human readers as well, why place it in an external skill file rather than directly in the documentation? For most organizations, that content belongs in the documentation itself. And if the comparative judgement is available directly from the documentation itself, why do agents need a product skill that repeats the same judgement, in a more condensed, abbreviated form?
 
 ## Summary of the problems
 
