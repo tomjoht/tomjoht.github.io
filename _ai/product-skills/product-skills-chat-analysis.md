@@ -11,9 +11,9 @@ order: 18
 
 {% include_relative draft_notice.html %}
 
-The [previous topic](/ai/product-skills-tech-writer-roles.html) placed identifying agent failures first on the roadmap. This topic covers how to gather that data. If your documentation portal includes an AI chat assistant, interaction logs provide direct evidence of where documentation falls short, revealing content gaps, vocabulary mismatches, and hallucinations in authentic user language.
+The previous topic, [Roles for tech writers with product skills](/ai/product-skills-tech-writer-roles.html), placed identifying agent failures first on the roadmap. This topic covers how to gather that data. If your documentation portal includes an AI chat assistant, interaction logs provide direct evidence of where documentation falls short. The logs can reveal content gaps, vocabulary mismatches, and hallucinations in authentic user language.
 
-As discussed in [Evaluation suites aren't user queries](/ai/product-skills-problems.html#evaluation-suites-arent-user-queries), test suites authored from internal specifications often fail to reflect authentic developer behavior. Chat logs provide the empirical basis for realistic evaluation sets.
+As discussed in [Evaluation suites aren't user queries](/ai/product-skills-problems.html#evaluation-suites-arent-user-queries), test suites authored from internal specifications often fail to reflect authentic developer behavior. Chat logs provide the empirical basis for realistic evaluation sets. Without logs, decisions about product skills are often made in the dark, with eval tests that might provide artificially praising results about their efficacy. You need real data to evaluate whether skills are doing anything, and how to improve your docs.
 
 ## Identifying documentation gaps in chat logs
 
@@ -36,7 +36,7 @@ Session logs highlight the divergence between official product terminology and a
 - Prompts omit critical environmental constraints, such as client-side execution boundaries.
 - Users combine separate products into a single request without realizing they're distinct tools.
 
-Authoring evaluation prompts using internal product terminology tests only whether a model agrees with internal definitions. By contrast, chat logs provide evaluation data free from organizational naming bias.
+Authoring evaluation prompts using internal product terminology tests only whether a model agrees with internal definitions. By contrast, chat logs provide evaluation data free from organizational naming/terminology bias.
 
 This data informs two key documentation areas:
 
