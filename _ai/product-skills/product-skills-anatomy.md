@@ -11,9 +11,9 @@ order: 13
 
 {% include_relative draft_notice.html %}
 
-The previous topic, [developer experience to agent experience](/ai/product-skills-agent-experience.html), identified a gap that none of the delivery layers solves: knowing which of your products to recommend. The industry's answer to that gap is the product skill. This topic covers the practical shape of that artifact, specifically what the file contains and how it reaches users.
+The previous topic, [From developer experience to agent experience](/ai/product-skills-agent-experience.html), identified a gap that none of the delivery layers solves: knowing which of your products to recommend. The industry's answer to that gap is the product skill. This topic covers the practical shape of that artifact, specifically what the file contains and how it reaches users.
 
-This topic begins by describing how teams currently build and distribute product skills. Later topics in this section evaluate whether a separate skill file is the most effective way to deliver this guidance.
+I'll start by describing how teams currently build and distribute product skills. In subsequent topics, I'll evaluate whether a separate skill file is the most effective way to deliver this guidance.
 
 ## Structure of a product skill
 
@@ -25,9 +25,9 @@ Skills also operate on a principle of progressive disclosure, which is [Anthropi
 
 You'll occasionally see this called progressive *discovery* instead. The two phrases describe the same mechanic. Progressive disclosure is the established term borrowed from UX design and used in Anthropic's documentation, while progressive discovery is an informal term used by some developers because the agent searches for relevant tools. Either way, the principle is the same: load only what's relevant to avoid overwhelming the model with too much information.
 
-## Who is publishing them
+## Who is publishing product skills
 
-The following are a few official skills repositories:
+The following are a few official repositories with product skills:
 
 - **Google Cloud:** Published an [official skills repository](https://github.com/google/skills) with specialized product skills for BigQuery, Cloud Run, and Gemini, backed by SkillCreator guidelines and evaluation suites. See [Google's announcement](https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository) for details.
 - **Google Maps Platform:** Released official [agent skills](https://developers.google.com/maps/ai/agent-skills) ([googlemaps/agent-skills](https://github.com/googlemaps/agent-skills)) enabling coding assistants to integrate geolocation and routing APIs zero-shot.
@@ -36,9 +36,9 @@ The following are a few official skills repositories:
 
 {% include ads.html %}
 
-## A published example
+## A published example of a product skill
 
-To see how this works in practice, consider an example from Notion. Notion publishes a set of [skills for Claude](https://app.notion.com/p/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0), including one called `notion-research-documentation`. The following is an abridged version of its `SKILL.md`:
+To see how a product skill works in practice, consider an example from Notion. Notion publishes a set of [skills for Claude](https://app.notion.com/p/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0), including one called `notion-research-documentation`. The following is an abridged version of its `SKILL.md`:
 
 ```
 ---
@@ -102,7 +102,7 @@ After you've authored a product skill, how does it reach users? As of mid-2026, 
 
 **A GitHub repo is the canonical home.** Most official skills publishers, including Google Cloud, Google Maps Platform, Elastic, and Anthropic, host skills in public repositories using conventional directory structures. Installation tooling treats GitHub as the registry, so the repository URL serves as the package identifier.
 
-**A CLI installs from that repo.** Vercel's [skills.sh](https://www.skills.sh/) registry and its open-source [`npx skills` CLI](https://github.com/vercel-labs/skills) function similarly to a package manager. When a user runs `npx skills add googlemaps/agent-skills`, the CLI fetches the skill from GitHub and writes it to the appropriate configuration directory for detected tools, such as Claude Code, Cursor, Windsurf, Copilot, Codex, or Gemini CLI. The site also provides discovery features and install rankings based on anonymous telemetry.
+**A CLI installs from that repo.** Vercel's [skills.sh](https://www.skills.sh/) registry and its open-source [`npx skills` CLI](https://github.com/vercel-labs/skills) function similarly to a package manager. When a user runs `npx skills add googlemaps/agent-skills`, the CLI fetches the skill from GitHub and writes it to the appropriate configuration directory for detected tools, such as Claude Code, Cursor, Windsurf, Codex, or Gemini CLI. The site also provides discovery features and install rankings based on anonymous telemetry.
 
 **Agent-native packaging offers a second route.** Some harnesses provide dedicated packaging systems. For example, Gemini CLI supports extensions installed with `gemini extensions install <repo-url>`. Claude Code reads skills directly from the filesystem (`~/.claude/skills/` for personal skills or `.claude/skills/` within a project), and its plugin system can bundle skills with hooks and MCP configurations. In practice, the plugin or extension is generally a wrapper around a standard `SKILL.md` file.
 
