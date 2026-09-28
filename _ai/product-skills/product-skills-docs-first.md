@@ -11,7 +11,7 @@ order: 16
 
 {% include_relative draft_notice.html %}
 
-The preceding topics highlighted a key challenge: while agents can discover pages, fetch Markdown text efficiently, and query for factual parameters, they struggle to select among overlapping products. The industry often responds by building standalone product skills. However, benchmark research shows that skills provide the smallest gains in software engineering, and the operational overhead of maintaining separate skill files creates drift and distribution challenges.
+The preceding topics highlighted a key challenge: while agents can discover pages, fetch Markdown text efficiently, and query for factual parameters, they struggle to select the right strategy/path/implementation among overlapping products. The industry often responds by building standalone product skills. However, benchmark research shows that skills provide the smallest gains in software engineering, and the operational overhead of maintaining separate skill files creates drift and distribution challenges.
 
 These factors support a docs-first approach. The comparative guidance an agent needs to select the right tool is information your documentation should already contain. Writing that guidance into official documentation reaches every agent and human developer without requiring an installation step. This topic outlines the arguments for this approach, describes what content to write, and examines the specific scenarios where a product skill remains useful.
 

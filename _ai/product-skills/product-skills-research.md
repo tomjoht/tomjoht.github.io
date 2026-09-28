@@ -11,7 +11,7 @@ order: 14
 
 {% include_relative draft_notice.html %}
 
-The [previous topic](/ai/product-skills-anatomy.html) described the structure and distribution of product skills. This topic examines the empirical evidence: benchmark studies that measure whether product skills actually improve agent performance.
+The previous topic, [Anatomy and distribution of a product skill](/ai/product-skills-anatomy.html), described the structure and distribution of product skills. This topic examines the empirical evidence: benchmark studies that measure whether product skills actually improve agent performance.
 
 Three benchmark papers provide data on skill effectiveness: [SkillsBench](https://arxiv.org/abs/2602.12670) from February 2026, and two June 2026 papers on SkillComposer by [Zhao et al.](https://arxiv.org/abs/2606.32025) and [Zhang et al.](https://arxiv.org/abs/2606.06079). [Laurie Voss](https://www.linkedin.com/pulse/how-do-you-write-good-skill-theres-actual-data-now-laurie-voss-hbhdc/) synthesized findings across these studies.
 
@@ -21,7 +21,7 @@ Across all benchmarked tasks, curated skills raised average pass rates from 33.9
 
 Evaluation frameworks use evaluation files (EVAL files) to measure task success with and without a skill. This methodology is known as ablation testing, introduced in [Testing a skill](/ai/skills-testing.html) in the first chapter. In an ablation test, an evaluator runs identical task prompts under two conditions: one with the skill loaded and one without it. A skill is effective only if the agent completes more tasks with the skill enabled.
 
-Subjective inspection isn't a reliable measure of quality. As Voss noted, outputs generated with skills often appear more polished even when they fail objective execution tests. Furthermore, the difficulty of the evaluation suite determines whether benchmark scores are meaningful. Prompts that merely test recall of definitions stated in the skill produce artificially high scores. A rigorous evaluation requires realistic scenarios that test whether the agent produces functional code.
+Subjective inspection isn't a reliable measure of quality. As [Laurie Voss noted](https://www.linkedin.com/pulse/how-do-you-write-good-skill-theres-actual-data-now-laurie-voss-hbhdc/), outputs generated with skills often appear more polished even when they fail objective execution tests. Furthermore, the difficulty of the evaluation suite determines whether benchmark scores are meaningful. Prompts that merely test recall of definitions stated in the skill produce artificially high scores. A rigorous evaluation requires realistic scenarios that test whether the agent produces functional code.
 
 ## Too much information degrades results
 
@@ -41,7 +41,7 @@ Skills add value in software primarily when they avoid restating public API synt
 
 ## Exhaustive skills reduce pass rates
 
-The size and scope of a skill directly affect task success. SkillsBench found that focused skills containing two to three modules consistently outperformed comprehensive documentation. Trying to document an entire API inside a skill can degrade performance: Voss noted that comprehensive skills attempting to cover every feature lowered pass rates below the no-skill baseline, as complete API schemas increase token costs while confusing model reasoning.
+The size and scope of a skill directly affect task success. SkillsBench found that focused skills containing two to three modules consistently outperformed comprehensive documentation. Trying to document an entire API inside a skill can degrade performance. Voss noted that comprehensive skills attempting to cover every feature lowered pass rates below the no-skill baseline, as complete API schemas increase token costs while confusing model reasoning.
 
 In a [podcast discussion on AI automation](https://idratherbewriting.com/blog/podcast-deaton-anthropic-tw-automation), Fabrizio Ferri-Benedetti noted a similar effect with style guides. Rather than embedding an entire style manual, adding a brief instruction to write in Simplified Technical English achieved consistent results. Broad principles rely on knowledge the model already has, whereas long rulebooks increase cognitive load.
 

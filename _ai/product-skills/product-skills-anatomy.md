@@ -11,9 +11,9 @@ order: 13
 
 {% include_relative draft_notice.html %}
 
-The previous topic, [developer experience to agent experience](/ai/product-skills-agent-experience.html), identified a gap that none of the delivery layers solves, which is knowing which of your products to recommend. The industry's answer to that gap is the product skill. This topic covers the practical shape of that artifact: what the file contains and how it reaches users.
+The previous topic, [developer experience to agent experience](/ai/product-skills-agent-experience.html), identified a gap that none of the delivery layers solves: knowing which of your products to recommend. The industry's answer to that gap is the product skill. This topic covers the practical shape of that artifact, specifically what the file contains and how it reaches users.
 
-This topic begins by describing how teams currently build and distribute product skills, before later topics evaluate whether a separate skill file is the most effective way to deliver this guidance.
+This topic begins by describing how teams currently build and distribute product skills. Later topics in this section evaluate whether a separate skill file is the most effective way to deliver this guidance.
 
 ## Structure of a product skill
 
@@ -98,7 +98,7 @@ Both examples organize primarily around product capabilities. Later in this chap
 
 ## How product skills reach users
 
-Once you have authored a product skill, how does it reach users? As of mid-2026, distribution occurs through several parallel channels.
+After you've authored a product skill, how does it reach users? As of mid-2026, distribution occurs through several parallel channels.
 
 **A GitHub repo is the canonical home.** Most official skills publishers, including Google Cloud, Google Maps Platform, Elastic, and Anthropic, host skills in public repositories using conventional directory structures. Installation tooling treats GitHub as the registry, so the repository URL serves as the package identifier.
 

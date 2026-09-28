@@ -11,7 +11,7 @@ order: 15
 
 {% include_relative draft_notice.html %}
 
-The [previous topic](/ai/product-skills-research.html) covered what benchmark research reveals about skill effectiveness. This topic examines the operational and architectural problems that arise even when skill content is carefully written.
+The previous topic, [What the research says about product skills](/ai/product-skills-research.html) covered what benchmark research reveals about skill effectiveness. This topic examines the operational and architectural problems that arise even when skill content is carefully written.
 
 These challenges fall into two categories: content challenges (how skills are written and evaluated) and structural challenges (the overhead of maintaining a separate artifact). While the first two problems can be addressed through disciplined writing, the remaining four stem from publishing a separate file.
 
@@ -43,9 +43,9 @@ To build meaningful evaluations, teams should source queries from real user inte
 
 Content challenges can be resolved through better test design and clearer writing. Structural challenges, by contrast, are inherent to maintaining a separate artifact.
 
-Any technical details included in a skill or its reference directory duplicate information already present in documentation. Over time, that duplicated content drifts. When an API update changes a parameter, alters an endpoint, or deprecates a method, the skill and the documentation risk contradicting each other. Agents may then act on outdated guidance depending on which source they consulted. Technical writers will recognize this as a classic single-sourcing problem.
+Any technical details included in a skill or its reference directory duplicate information already present in documentation. Over time, that duplicated content drifts. When an API update changes a parameter, alters an endpoint, or deprecates a method, the skill and the documentation risk contradicting each other. Agents might then act on outdated guidance depending on which source they consulted. Technical writers will recognize this as a classic single-sourcing problem.
 
-This maintenance overhead is a compelling reason to keep skills concise. A skill that focuses primarily on routing—directing the agent to canonical documentation rather than restating API details—has a smaller surface area for drift. For larger product catalogs, keeping skills synchronized with documentation requires automated drift detection, as implemented in Elastic's [agent-skills repository](https://github.com/elastic/agent-skills).
+This maintenance overhead is a compelling reason to keep skills concise. A skill that focuses primarily on routing &mdash; that is, directing the agent to canonical documentation rather than restating API details &mdash; has a smaller surface area for drift. For larger product catalogs, keeping skills synchronized with documentation requires automated drift detection, as implemented in Elastic's [agent-skills repository](https://github.com/elastic/agent-skills).
 
 ## Distribution and discovery
 
@@ -75,7 +75,7 @@ Because skill execution depends heavily on the harness, verifying a skill across
 
 ## Does a routing skill earn its keep?
 
-If a product skill functions primarily as an index—a curated list of links pointing an agent to documentation pages—it's worth evaluating what unique value it provides. Documentation search tools exposed over MCP already retrieve relevant excerpts on demand. An `/llms.txt` file supplies a navigation map at low token cost. Against that baseline, an index-only skill risks duplicating navigation that other layers provide more efficiently.
+If a product skill functions primarily as an index &mdash; that is, a curated list of links pointing an agent to documentation pages &mdash; it's worth evaluating what unique value it provides. Documentation search tools exposed over MCP already retrieve relevant excerpts on demand. An `/llms.txt` file supplies a navigation map at low token cost. Against that baseline, an index-only skill risks duplicating navigation that other layers provide more efficiently.
 
 A skill justifies its token cost when it supplies judgment that the model lacks and retrieval can't assemble at the point of decision. Routing is simply the delivery mechanism for that judgment, not the value itself. If a skill only provides routing links, it assumes navigation is the bottleneck, even though benchmark data suggests navigation can be addressed with static index files.
 
