@@ -20,6 +20,8 @@ The site has two kinds of content:
 
 Content is authored in Markdown and published with Jekyll. Everything is free to read. Full text of every page is available at its URL; there is no paywall or login.
 
+> **Markdown Endpoints**: Every post and topic has a clean Markdown mirror available by appending `.md` to its URL (for example, `https://idratherbewriting.com/blog/new-books-tech-comm-2026.md`).
+
 ## Start here
 
 - [Home / latest blog posts]({{ site.url }}/): Reverse-chronological list of recent posts
