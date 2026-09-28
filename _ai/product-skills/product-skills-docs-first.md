@@ -59,7 +59,7 @@ Each of these elements serves human readers as well. A developer visiting your d
 
 ## Where to put it so retrieval finds it
 
-Writing the content is essential, but retrieval mechanisms must also be able to find it. Because retrieval tools query excerpts based on specific keywords, a prompt like "build a mapping interface" may match individual product pages while missing a high-level comparison page. Three writing practices help ensure guidance surfaces during retrieval:
+Writing the content is essential, but retrieval mechanisms must also be able to find it. Because retrieval tools query excerpts based on specific keywords, a prompt like "build a mapping interface" might match individual product pages while missing a high-level comparison page. The following writing practices help ensure guidance surfaces during retrieval:
 
 **Repeat boundaries on individual product pages.** In addition to providing a central comparison page, include concise boundary statements on each product's page specifying when to choose an alternative.
 
