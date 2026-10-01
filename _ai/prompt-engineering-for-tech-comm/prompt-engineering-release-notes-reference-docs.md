@@ -22,7 +22,7 @@ The techniques I'll share here have been among my most successful uses of AI in 
 
 The foundation of accurate release notes is understanding exactly what changed in the API. The most reliable method is to compare the generated API reference documentation between the new and previous releases.
 
-1.  **Build the reference docs**: First, regenerate the complete API reference documentation for the new release (a process I described in [Creating scripts to automate doc build processes](/_ai/prompt-engineering-for-tech-comm/prompt-engineering-doc-build-scripts.md)). This gives you ownership of the invaluable file diffs. Even if you work with different types of APIs—cloud, Java, or gRPC—the reference documentation is typically generated as HTML or Markdown. When you regenerate it, you get access to diffs of everything that has changed.
+1.  **Build the reference docs**: First, regenerate the complete API reference documentation for the new release (a process I described in [Creating scripts to automate doc build processes](/ai/prompt-engineering-doc-build-scripts.html)). This gives you ownership of the invaluable file diffs. Even if you work with different types of APIs—cloud, Java, or gRPC—the reference documentation is typically generated as HTML or Markdown. When you regenerate it, you get access to diffs of everything that has changed.
 
     Note: Focus on the *documentation* changelist, not the source code changelists (e.g., Java or proto files). Almost all changes to the source code will eventually impact the generated documentation, and focusing on the doc diffs keeps you centered on what is relevant to external developers.
 

@@ -18,7 +18,7 @@ redirect_from:
 {% include coffeeshopbook.html %}
 {% endcomment %}
 
-In this series on [AI tools and APIs](/ai.html), the question I keep asking is this: how can we use AI for practical tasks with API documentation? Specifically, how can we leverage generative AI tools to do API documentation work faster, easier, and better? My goal is to assemble about a dozen solid ways that we can use AI with API docs. In this topic, I'll explore potentially using AI for glossary definitions.
+In this series on [AI tools and APIs](/ai/use-cases.html), the question I keep asking is this: how can we use AI for practical tasks with API documentation? Specifically, how can we leverage generative AI tools to do API documentation work faster, easier, and better? My goal is to assemble about a dozen solid ways that we can use AI with API docs. In this topic, I'll explore potentially using AI for glossary definitions.
 
 {% if site.format == "web" %}
 * TOC
@@ -27,7 +27,7 @@ In this series on [AI tools and APIs](/ai.html), the question I keep asking is t
 
 ## Background on glossaries
 
-In the Conceptual docs section of this course, I wrote about [glossaries](docapis_glossary_section.html), which provide a list of key terms and definitions. Glossaries are often an overlooked aspect of API docs, a feature that tech writers omit because no one has time to put together a glossary. All the while, unfamiliar terms continue to creep into the tech docs until the language becomes jargon-filled and impenetrable to everyone except the product team.
+In the Conceptual docs section of this course, I wrote about [glossaries](/learnapidoc/docapis_glossary_section.html), which provide a list of key terms and definitions. Glossaries are often an overlooked aspect of API docs, a feature that tech writers omit because no one has time to put together a glossary. All the while, unfamiliar terms continue to creep into the tech docs until the language becomes jargon-filled and impenetrable to everyone except the product team.
 
 I find that my interest in glossaries comes and goes, but it's especially strong when I'm new to a domain and am seeing unfamiliar terms. When I'm in my glossary champion mode, I'll add new terms to glossaries with each new document I write. Most releases seem to introduce at least one or two new terms that require definitions, and those definitions should exist in a glossary (and potentially a style guide).
 
@@ -103,7 +103,7 @@ Claude did an excellent job at the YAML formatting, as has been my experience wi
 
 After formatting the content in YAML, I replaced my [existing glossary YAML](https://github.com/tomjoht/tomjoht.github.io/blob/main/_data/glossary.yml). 
 
-I already had Liquid code that generates a glossary list from the YAML: [glossary_full.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_full.html). I wrote about my technique using this Liquid code to pull from the YAML source previously in my [API glossary topic](docapis_glossary_section.html), including how to pull the terms into Bootstrap tooltips and popups if desired. You can see the newly generated glossary list here: [Glossary](/learnapidoc/glossary.html).
+I already had Liquid code that generates a glossary list from the YAML: [glossary_full.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_full.html). I wrote about my technique using this Liquid code to pull from the YAML source previously in my [API glossary topic](/learnapidoc/docapis_glossary_section.html), including how to pull the terms into Bootstrap tooltips and popups if desired. You can see the newly generated glossary list here: [Glossary](/learnapidoc/glossary.html).
 
 ## Glossary groups
 

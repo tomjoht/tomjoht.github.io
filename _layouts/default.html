@@ -106,6 +106,9 @@
 </head>
 
 <body class="{{page.layout}}">
+  <!-- agent directive, first in the body so it falls near the top of the converted page -->
+  {% include agent_directive.html %}
+  <!-- end agent directive -->
   <div class="page-container">
 
 
@@ -596,14 +599,10 @@
           {% include search_results.html %}
           <!-- end algolia -->
 
-          <!-- agent directive -->
-          {% include agent_directive.html %}
-          <!-- end agent directive -->
-
           <div id="content">
 
             <!-- page breadcrumb for docs collection type -->
-            {% include breadcrumb.html %}
+            <div data-markdown-ignore>{% include breadcrumb.html %}</div>
             <!-- end page breadcrumb -->
 
             <!-- page title -->
@@ -611,7 +610,7 @@
             <!-- end page title -->
 
             <!-- gamified course progress bar -->
-            {% include course_progress.html %}
+            <div data-markdown-ignore>{% include course_progress.html %}</div>
             <!-- end gamified course progress bar -->
 
             <!-- start metadata for posts collection type -->
@@ -622,7 +621,7 @@
             <!-- end post series subtitle -->
 
             <!-- post metadata: byline, post date, github button -->
-            <p class="page-meta">
+            <p class="page-meta" data-markdown-ignore>
               {% unless page.byline == false %}
               <i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }}
                 {% endunless %}
@@ -652,7 +651,7 @@
 
               <!-- docs page metadata: last-modified data, github url -->
               {% unless page.last-modified == null %}
-            <div class="lastModifiedDate">
+            <div class="lastModifiedDate" data-markdown-ignore>
               Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black"
                 href="{{page.path | prepend: " https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i
                   class="fa fa-github fa-lg"></i></a>
@@ -694,7 +693,7 @@
             {% endif %}
             <!-- end versions dropdown selector -->
 
-            {% if page.github_url %} {% include github_button.html %} {% endif %}
+            {% if page.github_url %}<div data-markdown-ignore>{% include github_button.html %}</div>{% endif %}
 
             <!-- workflow map-->
             {% if page.map %}
@@ -711,22 +710,22 @@
             <!-- linkedin comment button -->
             {% if page.linkedin %}
             <a id="comments"> </a>
-            {% include linkedin_comment.html url=page.linkedin %}
+            <div data-markdown-ignore>{% include linkedin_comment.html url=page.linkedin %}</div>
             {% endif %}
             <!-- end linkedin comment button -->
 
             <!-- include single post ad horizontal at bottom of post -->
-            {% include single_post_comics.html %}
+            <div data-markdown-ignore>{% include single_post_comics.html %}</div>
             <!-- end ad block -->
 
 
             <!-- bio -->
             {% if page.bio != false %}
-            {% include mybio.html %}
+            <div data-markdown-ignore>{% include mybio.html %}</div>
             {% endif %}
 
             <!-- mailjet newsletter signup form -->
-            <div class="newsletterSignUpForm">
+            <div class="newsletterSignUpForm" data-markdown-ignore>
               <iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                 src="https://0gj01.mjt.lu/wgt/0gj01/5st/form?c=f9b08f11" width="100%"></iframe>
 
@@ -744,7 +743,7 @@
             {% if page.collection == "docs" %}
             {% unless page.type == 404 %}
 
-            {% include next.html %}
+            <div data-markdown-ignore>{% include next.html %}</div>
 
             {% endunless %}
             {% endif %}
@@ -776,7 +775,7 @@
     </div>
   </div>
 
-  <footer>
+  <footer data-markdown-ignore>
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-6 footerleft ">

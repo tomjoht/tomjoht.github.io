@@ -228,7 +228,7 @@ Here's a similar template rendered from the [DITA Task topic](https://www.oxygen
 </div>
 
 
-Coming up with these rules and templates shouldn't be too hard. The [Good Docs Project](https://thegooddocsproject.dev), DITA OASIS committees, style guides, and other groups have been meeting for years to come up with the rules and templates for technical writing. Plus, you have all the best practices listed in my API doc course (for example, see the [Conceptual documentation section](docconceptual.html)). Now all this hard work can be used to teach machines how to write documentation.
+Coming up with these rules and templates shouldn't be too hard. The [Good Docs Project](https://thegooddocsproject.dev), DITA OASIS committees, style guides, and other groups have been meeting for years to come up with the rules and templates for technical writing. Plus, you have all the best practices listed in my API doc course (for example, see the [Conceptual documentation section](/learnapidoc/docconceptual.html)). Now all this hard work can be used to teach machines how to write documentation.
 
 ### 4. Assemble the instruction for the AI
 

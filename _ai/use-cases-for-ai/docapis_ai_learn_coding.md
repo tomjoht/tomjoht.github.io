@@ -35,7 +35,7 @@ Fortunately, you can use AI tools to learn code. AI tools can act like a friendl
 
 ## An example: Learning Javadoc tags
 
-The other week I was trying to refamiliarize myself with all the [Javadoc tags](nativelibraryapis_javadoc_tags.html) I needed to know to make sure the Java project I was documenting was properly tagged. One area I specifically wanted to focus on was the `@link` tag. I prompted AI for a course on Javadoc tags: 
+The other week I was trying to refamiliarize myself with all the [Javadoc tags](/learnapidoc/nativelibraryapis_javadoc_tags.html) I needed to know to make sure the Java project I was documenting was properly tagged. One area I specifically wanted to focus on was the `@link` tag. I prompted AI for a course on Javadoc tags: 
 
 <div class="chat">
 <p>i'm a technical writer documenting a java api. i want to better understand how
@@ -47,7 +47,7 @@ You can see ChatGPT's response and my thread [here](https://chat.openai.com/shar
 
 {% include image_ad_right.html %}
 
-If you read my thread, you can see that I got stuck along the way and was able to use ChatGPT to work through issues. For example, I had a [sample Java project](nativelibraryapis_getting_the_source.html) that I wanted to use to experiment with tags, but I'd forgotten how to generate the [Javadoc](nativelibraryapis_create_javadoc.html). Running the command that AI gave me didn't work and resulted in errors, so I asked it for help in sorting through the errors. In a few minutes, I installed the right VS Code Java extensions and got back on track. 
+If you read my thread, you can see that I got stuck along the way and was able to use ChatGPT to work through issues. For example, I had a [sample Java project](/learnapidoc/nativelibraryapis_getting_the_source.html) that I wanted to use to experiment with tags, but I'd forgotten how to generate the [Javadoc](/learnapidoc/nativelibraryapis_create_javadoc.html). Running the command that AI gave me didn't work and resulted in errors, so I asked it for help in sorting through the errors. In a few minutes, I installed the right VS Code Java extensions and got back on track. 
 
 The ability to zoom in on specific issues, work through error messages, and control the pace and direction of the course makes for a phenomenal learning experience. If you're not already an AI enthusiast, using AI to learn a technical topic like this might make you a convert.
 

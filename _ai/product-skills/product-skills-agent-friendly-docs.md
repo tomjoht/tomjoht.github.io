@@ -5,7 +5,7 @@ keywords:
 sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
-last-modified: 2026-09-30
+last-modified: 2026-10-01
 order: 17
 ---
 
@@ -13,7 +13,7 @@ order: 17
 
 The docs-first approach rests on an assumption that's easy to skip past. If agents are supposed to get their guidance from your documentation, they have to be able to read it. However, many documentation sites are built in ways that work well in a browser and poorly for an agent. What does an agent actually see when it fetches one of your pages? Does it see the content behind your tabs? Does it get past your bot protection, or does it get a challenge page instead? And if your pages load their content with JavaScript, does the agent see anything at all?
 
-This topic walks through how agents read documentation pages, the ways pages become hard or impossible for agents to read, and what to do about each one. [From developer experience to agent experience](/ai/product-skills-agent-experience.html) introduced Markdown mirrors and `/llms.txt` as delivery layers. This topic covers the practical work of making those layers function, along with the other problems that keep agents from reading a page.
+This topic walks through how agents read documentation pages, the ways pages become hard or impossible for agents to read, and what to do about each one. [From developer experience to agent experience](/ai/product-skills-agent-experience.html) introduced Markdown mirrors and `/llms.txt` as delivery layers. This topic covers the practical work of making those layers function, along with the other problems that keep agents from reading a page. The last section shows how to score a whole site against these problems with AFDocs, an open-source tool built on the Agent-Friendly Documentation Spec.
 
 ## How agents read a page
 
@@ -131,13 +131,67 @@ You can check most of these problems in a few minutes without special tools. Pic
 
 5. Ask your agent to fetch the page and quote its final paragraph, or a sentence from the last tab. Then check the quote against the page. Agents sometimes report that they read a whole page when they didn't.
 
-6. For a fuller report, run `npx afdocs check https://docs.example.com`, which checks a site against the [Agent-Friendly Documentation Spec](https://agentdocsspec.com/). To see how your own agent handles these failures, point it at [agentreadingtest.com](https://agentreadingtest.com/).
+## Score your site with AFDocs
+
+The checks above work well for a handful of pages, but they don't scale to a site with a few hundred. Which pages have the problem? Is it one template or the whole site? And when you fix something, did the fix change anything, or did you just test a different page? For a site-wide view, you can use [AFDocs](https://afdocs.dev/), an open-source command-line tool that scores a documentation site against the [Agent-Friendly Documentation Spec](https://agentdocsspec.com/). The spec grew out of Dachary Carey's research on how agents fetch documentation. It defines 28 checks in seven categories, and they line up closely with the problems in this topic, including client-side rendering, page size, tabbed content, soft 404s, Markdown that drifts from the HTML, and bot protection. AFDocs runs those checks, weights each one by how much it affects agents, and returns a score from 0 to 100 with a letter grade ([AFDocs](https://afdocs.dev/what-is-agent-score)).
+
+AFDocs requires Node.js 22 or later. To score your site, do the following:
+
+1. Run the scorecard against your docs site:
+
+   ```
+   npx afdocs check https://docs.example.com --format scorecard
+   ```
+
+   AFDocs finds pages through your `llms.txt` file and sitemap, samples up to 50 of them, and runs all 28 checks. The scorecard shows an overall score, a score for each category, and a fix suggestion for each check that fails or warns ([AFDocs](https://afdocs.dev/quick-start)). The tool waits between requests and limits how many it sends at once, so it shouldn't put much load on your server.
+
+2. Read the interaction diagnostics before the individual check results. These diagnostics flag problems that come from a combination of checks, such as a site that serves Markdown at `.md` URLs but gives agents no way to find it. Also keep in mind that some failures cap the score no matter how well the rest of the site does. A missing `llms.txt` file caps the score at 59 (D), and a site where three-quarters or more of the sampled pages are empty JavaScript shells caps at 39 (F) ([AFDocs](https://afdocs.dev/agent-score-calculation)). In other words, a low score might mean that one critical thing is wrong rather than many things.
+
+3. List the specific pages behind each problem:
+
+   ```
+   npx afdocs check https://docs.example.com --verbose --fixes
+   ```
+
+   The scorecard summarizes what's wrong, while this output names the pages where each check failed.
+
+4. Fix a problem, and then re-run only the related checks. For example, the first command below rechecks your `llms.txt` file, and the second checks a single page for rendering and size problems:
+
+   ```
+   npx afdocs check https://docs.example.com --checks llms-txt-exists,llms-txt-valid,llms-txt-size
+   npx afdocs check https://docs.example.com/guide/auth --sampling none --checks rendering-strategy,page-size-html
+   ```
+
+   By default, AFDocs samples pages at random, so two runs can test different pages and produce different scores. When you compare a score before and after a fix, add `--sampling deterministic` so that both runs test the same pages.
+
+5. Add AFDocs to your build so that regressions get caught before they ship. The command exits with code `1` when any check fails, and AFDocs includes test helpers for Vitest, so you can run the checks in GitHub Actions or another CI system ([AFDocs](https://afdocs.dev/ci-integration)). If you check a local build rather than the deployed site, skip the checks that only your production server can answer, such as content negotiation and cache headers. The `markdown-content-parity` check, for example, compares the Markdown and HTML versions of each sampled page, which is the same comparison that exposed the ad-block problem on this site.
+
+When I ran the scorecard against the AI course on this site (`https://idratherbewriting.com/ai/`), AFDocs sampled 50 pages, made 588 requests, and returned an overall score of 98 (A). Six of the seven categories scored 98 or higher:
+
+```
+Overall Score: 98 / 100 (A)
+
+Category Scores:
+  Content Discoverability              100 / 100 (A+)
+  Markdown Availability                100 / 100 (A+)
+  Page Size and Truncation Risk        100 / 100 (A+)
+  Content Structure                     98 / 100 (A)
+  URL Stability and Redirects          100 / 100 (A+)
+  Observability and Content Health      76 / 100 (C)
+  Authentication and Access            100 / 100 (A+)
+```
+
+The grade hides two failures, though. The `markdown-content-parity` check found substantive differences between the Markdown and HTML versions of 23 of the 50 pages, with an average of 21% of the HTML content missing from the Markdown. The `markdown-link-portability` check found links in the Markdown of 4 pages that didn't resolve. Both checks carry a medium weight, and AFDocs scores multi-page checks in proportion to how many pages pass, so the failures barely moved the overall score. The scan also warned that the `llms.txt` note on each HTML page appeared past the halfway point of the page rather than near the top, because the sidebar navigation came before the note in the HTML. In other words, the grade is a fair summary of whether agents can reach the content, but the individual check results are where problems like these show up.
+
+An interaction diagnostic grouped the failing pages and traced both symptoms to the Markdown pipeline, which turned out to be only partly right. A comparison of the Markdown and HTML versions of three flagged pages showed that none of the article text was missing. The gap was page chrome, such as the course progress list, the "Last updated" line, the author bio, and the footer, which the Markdown version leaves out. The broken links weren't a pipeline problem either. They were relative links in pages that had moved from the API course into the AI course, so they were broken in the HTML too. Marking the human-only elements with a `data-markdown-ignore` attribute tells AFDocs to leave them out of the parity comparison, and rewriting the links fixed the rest. (A check of every internal link in the course, rather than only the sampled pages, turned up 31 broken links across 6 pages.) As such, the scan is a good pointer to where to look, but the fix usually takes some reading of the actual pages.
+
+There are a few caveats to keep in mind. AFDocs is still in early development (version 0.x), so check names and output formats might change between versions ([AFDocs](https://afdocs.dev/about)). If your docs platform can't support some checks, such as serving Markdown, you can list only the checks you control in a config file so the score reflects what you can act on ([AFDocs](https://afdocs.dev/improve-your-score)). More importantly, the score measures whether agents can reach and read your pages, not whether the content helps them finish a task. A site can score an A and still have a tutorial that skips a prerequisite. To see how your own agent handles the reading failures described in this topic, point it at [agentreadingtest.com](https://agentreadingtest.com/).
 
 ## Where to start
 
 If you can only do a few things, start with the problems that block agents entirely. Make sure your content is in the HTML, and check that bot protection lets agents through, since nothing else matters when an agent gets an empty shell or a challenge page. After that, serve Markdown and check it against the HTML, publish an `/llms.txt` index and point to it from every page, keep pages small, and keep URLs stable.
 
-Most of this work is configuration rather than writing, which makes it some of the cheapest work in this chapter. A reasonable first step is to run the six checks above against your five most-visited pages and note what's missing.
+Most of this work is configuration rather than writing, which makes it some of the cheapest work in this chapter. A reasonable first step is to run the AFDocs scorecard against your site, run the five manual checks against your five most-visited pages, and note what's missing.
 
 <hr/>
 

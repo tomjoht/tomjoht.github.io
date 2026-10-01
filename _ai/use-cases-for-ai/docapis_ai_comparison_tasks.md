@@ -39,7 +39,7 @@ Here's Elliot's prompt:
 
 API responses can have a lot of fields returned in the response, and the fields returned depend on the input parameters and the available data. 
 
-For more background on API responses, see [Response example and schema](docapis_doc_sample_responses_and_schema.html). In short, API responses can be broken down into the following:
+For more background on API responses, see [Response example and schema](/learnapidoc/docapis_doc_sample_responses_and_schema.html). In short, API responses can be broken down into the following:
 
 * **schema** - describes all possible fields returned and the rules for which they're returned, as well as definitions of each field. For example, the response includes one of the following: an array of `acme` or `beta` objects.
 * **sample responses** - provides a subset of the total fields described by the schema, often determined by different input parameters. In other words, if you use parameter `foo`, the response includes an array of `acme` objects; but if you use parameter `bar`, the response includes an array of `beta` objects, etc.
@@ -48,7 +48,7 @@ It's this relationship between the schema and the sample responses that makes as
 
 This is exactly the kind of task that robots are better at doing than humans (by robots, I just mean LLMs or AI). We're not great at line by line comparison of hundreds of words to identify the diffs between information objects. But this eye for detail is what we need when we write docs. Exerting this meticulousness can be taxing and cognitively straining.
 
-There can also be some drift between engineering specifications that a tech writer might have used in creating the documentation (specifications that likely included the fields and their definitions) and the actual implementation. To identify drift, the tech writer usually [runs some sample tests](testingdocs.html) to confirm that the responses match the documentation. But unless your API has only a simple number of fields in the response, the comparison tasks can be a daunting task. The API response might have an array with repeated fields, or it might have deeply nested fields, or other complexities that make it difficult to evaluate. With Java APIs, the reference documentation often names the objects, but those names don't appear as field names in the output. 
+There can also be some drift between engineering specifications that a tech writer might have used in creating the documentation (specifications that likely included the fields and their definitions) and the actual implementation. To identify drift, the tech writer usually [runs some sample tests](/learnapidoc/testingdocs.html) to confirm that the responses match the documentation. But unless your API has only a simple number of fields in the response, the comparison tasks can be a daunting task. The API response might have an array with repeated fields, or it might have deeply nested fields, or other complexities that make it difficult to evaluate. With Java APIs, the reference documentation often names the objects, but those names don't appear as field names in the output. 
 
 Overall, ensuring the API's responses are accurate is one area prone to error. Here let's see if AI tools can help with the comparative analysis. Using AI tools, we will ask whether the documentation about our API's responses matches the API's actual responses.
 
@@ -60,13 +60,13 @@ I wanted to experiment with comparison tasks around responses to see how useful 
 
 Here is the scenario: as a tech writer, you're working with some API responses and you want to see if the responses match the documentation. Are there responses that you forgot to document, or responses that don't match the casing or spelling in the docs? Are there missing fields in the response that are mentioned in the docs, and which should be marked as optional?
 
-In this experiment, we'll use the [Forecast API](https://openweathermap.org/forecast16) from OpenWeatherMap, which is an API I've used elsewhere in this course. First, I created a Forecast API response [using Postman](docapis_postman.html). (I went over Postman earlier in the course.) As an alternative to Postman, or if you want to import this command into Postman, here's the [curl](docapis_make_curl_call.html) command to make the same call:
+In this experiment, we'll use the [Forecast API](https://openweathermap.org/forecast16) from OpenWeatherMap, which is an API I've used elsewhere in this course. First, I created a Forecast API response [using Postman](/learnapidoc/docapis_postman.html). (I went over Postman earlier in the course.) As an alternative to Postman, or if you want to import this command into Postman, here's the [curl](/learnapidoc/docapis_make_curl_call.html) command to make the same call:
 
 ```
 curl --location 'https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY'
 ```
 
-Swap in your own [API key](docapis_get_auth_keys.html) for `YOURAPIKEY`.
+Swap in your own [API key](/learnapidoc/docapis_get_auth_keys.html) for `YOURAPIKEY`.
 
 Or literally just paste in this URL into the browser: `https://api.openweathermap.org/data/2.5/forecast?zip=98058&YOURAPIKEY`.
 
