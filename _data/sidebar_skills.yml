@@ -46,7 +46,7 @@ folders:
   landing: /ai/product-skills.html
   section: two
   description: >
-    This section turns from internal authoring skills to product skills -- skills that help AI coding agents work correctly with your product. It covers why agents now make up nearly half of documentation traffic, how agents actually reach your content, why improving the documentation beats building an agent-only file, what a product skill adds on top, and the roles tech writers should play.
+    This section turns from internal authoring skills to product skills -- skills that help AI coding agents work correctly with your product. It covers why agents now make up nearly half of documentation traffic, how agents actually reach your content, why improving the documentation beats building an agent-only file, how to make that documentation readable for agents, what a product skill adds on top, and the roles tech writers should play.
   folderitems:
 
   - title: "Overview"
@@ -66,6 +66,9 @@ folders:
 
   - title: "The docs-first approach"
     jurl: /ai/product-skills-docs-first.html
+
+  - title: "Making docs accessible to agents"
+    jurl: /ai/product-skills-agent-friendly-docs.html
 
   - title: "Roles for tech writers with product skills"
     jurl: /ai/product-skills-tech-writer-roles.html

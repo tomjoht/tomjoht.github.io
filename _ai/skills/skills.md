@@ -64,9 +64,9 @@ If Javadoc is new to you, I cover it in the [Native library APIs chapter](/learn
 
 ## A note on how this course was written
 
-This course is a collaboration between me and AI. In some places I wrote the initial drafts, ideas, and examples from my own experience, then used AI agents to help flesh out the content, fill in gaps, and improve clarity. Other times I directed the agent about what to write, or asked for help and elaboration. In those cases, I acted more like a backseat driver.
+This course is a collaboration between me and AI. In some places I wrote the initial drafts, ideas, and examples from my own experience, then used AI agents to help flesh out the content, fill in gaps, and improve clarity. Other times I directed the agent about what to write, or asked for help and elaboration. In those cases, I acted more like a director rather than an author. Some pages are much more heavily AI-written (still at my direction and review) than others.
 
-As a result of this collaboration, some sections are more mine, while others were substantially shaped by the agent. It would be a little ironic to write a course on agent skills without actually using one, right? (If this bothers you, at least I'm transparent here.)
+As a result of this collaboration, some sections are more mine, while others were substantially shaped by the agent. It would be a little ironic to write a course on agent skills without actually using one, right? This course is mostly informational, not reflections on my personal experiences. As an information-heavy asset, AI's ability to synthesize, summarize, articulate, and explain is levels above what I can do on my own in the same amount of time.
 
 ## Activity: Set up your practice files and capture a baseline
 

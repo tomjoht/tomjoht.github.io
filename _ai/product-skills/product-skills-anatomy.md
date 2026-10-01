@@ -33,60 +33,122 @@ The following are a few official repositories with product skills:
 - **Google Maps Platform:** Released official [agent skills](https://developers.google.com/maps/ai/agent-skills) ([googlemaps/agent-skills](https://github.com/googlemaps/agent-skills)) enabling coding assistants to integrate geolocation and routing APIs zero-shot.
 - **Elastic:** Open-sourced [elastic/agent-skills](https://github.com/elastic/agent-skills), establishing automated staging and drift-detection pipelines for observability and security detection rules.
 - **Notion and Anthropic:** Published official skill directories ([anthropics/skills](https://github.com/anthropics/skills), Notion Devs skills for Claude) to make their platforms the default recommendation in coding assistants.
+- **Payabli:** Publishes [integration skills](https://github.com/payabli/integration-skills) for its payments API, organized by integration task, such as accepting payments, paying vendor bills, and handling disputes.
 
 {% include ads.html %}
 
 ## A published example of a product skill
 
-To see how a product skill works in practice, consider an example from Notion. Notion publishes a set of [skills for Claude](https://app.notion.com/p/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0), including one called `notion-research-documentation`. The following is an abridged version of its `SKILL.md`:
+To see how a product skill works in practice, consider an example from Payabli, a payments company. [CT Smith](https://docsgoblin.com/), who leads Payabli's documentation team, maintains a set of [integration skills](https://github.com/payabli/integration-skills) for Payabli's API. (CT joined Fabrizio and me on the podcast in January 2026 to talk about [AI tools, automation, and an intentionally offline life](/blog/ai-tools-automation-ct-smith). She's also the author of [*WTFM*](https://wtfmbook.com/), a practical guide to standing up docs at a startup.) One of her skills, `payabli-bills`, helps an agent capture vendor bills and pay them. The following is its complete `SKILL.md` as of September 2026, with line breaks added for readability:
 
 ```
 ---
-name: notion-research-documentation
-description: Searches across your Notion workspace, synthesizes findings
-  from multiple pages, and creates comprehensive research documentation
-  saved as new Notion pages. Turns scattered information into structured
-  reports with proper citations and actionable insights.
+name: payabli-bills
+description: >-
+  Use when building accounts-payable automation on Payabli — capturing vendor
+  bills (manual entry or OCR) and paying them through Pay Out. Distinct from raw
+  payouts (payabli-send-payments): a bill is a captured vendor invoice that you
+  then pay. Reads payabli-integration.md on load if present.
+metadata:
+  author: payabli
+  version: "0.1"
 ---
 
-# Research & Documentation
+# Payabli bills (AP automation)
 
-## Quick Start
+Capture vendor bills and pay them.
 
-When asked to research and document a topic:
+## Load fundamentals first
 
-1. **Search for relevant content**: Use `Notion:notion-search` to find pages
-2. **Fetch detailed information**: Use `Notion:notion-fetch` to read full page content
-3. **Synthesize findings**: Analyze and combine information from multiple sources
-4. **Create structured output**: Use `Notion:notion-create-pages` to write documentation
+If `payabli-fundamentals` is not already loaded, load it now, then
+continue.
 
-## Output Formats
+## On load
 
-Choose the appropriate format based on request:
+If `payabli-integration.md` exists at the repo root, read it; honor its
+`## SDK` value.
 
-**Research Summary**: See [reference/research-summary-format.md]
-**Comprehensive Report**: See [reference/comprehensive-report-format.md]
-**Quick Brief**: See [reference/quick-brief-format.md]
+## Capture a bill
 
-## Common Issues
+Create a bill with `POST /Bill/single/{entry}` — identify the vendor
+with a nested `vendor` object (`vendor: { vendorNumber }`) — a top-level
+`vendorNumber` is rejected. Plus amount, due date, and an optional bill
+image. A bill needs only a top-level `netAmount`; unlike invoices, line
+items aren't required — but if you *do* send `billItems`, their
+`itemTotalAmount` must sum to `netAmount` exactly (the API adds nothing
+on top), or the create fails with `400` ("Sum of BillItems does not
+match Bill TotalAmount"). Bulk-import with
+`POST /Import/billsForm/{entry}`.
+https://docs.payabli.com/guides/pay-out-developer-bills-manage.md
 
-**"No results found"**: Try broader search terms or different teamspaces
-**"Too many results"**: Add filters or search within specific pages
-**"Can't access page"**: User may lack permissions, ask them to verify access
+Set `status: 1` (Active) on create so the bill is immediately
+payout-eligible. `-99` is **Cancelled** — don't use it.
 
-## Examples
+**Bill OCR is a standalone capture path** — Payabli's OCR engine
+extracts bill data (line items, amounts, vendor details) from a PDF or
+image. It is its own feature, not part of vendor enrichment. Extract via
+`POST /Import/ocrDocumentForm/{typeResult}` (multipart) or
+`/Import/ocrDocumentJson/{typeResult}` (base64), with `typeResult` set
+to `bill`. https://docs.payabli.com/guides/pay-ops-developer-ocr-use.md
 
-See [examples/] for complete workflow demonstrations:
-- [examples/market-research.md] - Researching market trends
-- [examples/technical-investigation.md] - Technical deep-dive
+When you create a bill from an OCR result, **build the
+`POST /Bill/single` payload explicitly** from the fields you actually
+need — `billNumber`, `netAmount`, `dueDate` (plus any other dates), the
+nested `vendor: { vendorNumber }`, and `status: 1`. Don't spread the raw
+OCR envelope (`responseData.resultData`, or the full response with
+attachments / `totalAmount` / `discount` / `billItems`) into the create
+call: the shapes don't line up, and you'll get
+`400 "field BillNumber empty"` or
+`400 "The sum of netAmount and discount is more than the total from the original bill"`.
+Map the extracted values onto a clean bill instead, keeping the
+`netAmount == sum(billItems)` rule above.
+
+## List bills
+
+List bills with `GET /Query/bills/{entry}`. Filter by `vendorNumber(eq)`
+or `vendorId(eq)` — **`idVendor(eq)` is silently ignored and returns
+every bill**, so never use it to scope to a vendor. Query basics (filter
+syntax, pagination) → `payabli-reporting`.
+
+## Pay the bill
+
+Bills are paid through Pay Out — see `payabli-send-payments`. One payout
+can pay multiple bills for the same vendor. (A raw payout can skip bill
+creation with `doNotCreateBills: true`.)
+
+## Bills vs. invoices
+
+A **bill** is money **out** (a vendor's invoice that you pay); an
+**invoice** is money **in** (you billing a customer —
+`payabli-invoices`).
+https://docs.payabli.com/guides/platform-bills-vs-invoices.md
+
+## Boundaries
+
+- Payout mechanics, vendors, and vendor enrichment →
+  `payabli-send-payments`
+- Customer-facing invoices → `payabli-invoices`
 ```
 
-Several characteristics stand out in this example:
+The description does more than advertise the skill. Besides saying when to use it, the description says what the skill isn't for and names the sibling skill that handles that case ("Distinct from raw payouts (payabli-send-payments)"). Because the `name` and `description` are all the agent sees until it decides to load the skill, that one clause helps keep the skill out of payout tasks and points the agent somewhere useful. [Greedy descriptions](/ai/product-skills-problems.html#greedy-descriptions) covers why this kind of exclusion matters.
 
-- **The description drives triggering.** The `name` and `description` in the frontmatter are all the agent sees until it decides the skill is relevant. Notion's description mirrors how a user phrases a request ("searches across your Notion workspace," "turns scattered information into structured reports"), which helps the skill trigger appropriately. The description also focuses on a specific workflow rather than claiming every capability Notion offers. Avoiding overly broad triggers is critical; the risks of overreaching descriptions are discussed in [Greedy descriptions](/ai/product-skills-problems.html#greedy-descriptions).
-- **The body outlines a workflow rather than a reference manual.** The Quick Start maps a four-step procedure directly to Notion's MCP tools (`Notion:notion-search`, `Notion:notion-fetch`). The skill orchestrates the underlying tools rather than restating API reference material.
-- **Progressive disclosure is implemented through relative links.** Output formats and worked examples live in `reference/` and `examples/` subfolders. The agent reads them only when the specific task requires them.
-- **The Common Issues section provides targeted edge-case guidance.** Empty search results and permission failures can't easily be inferred by an agent from pretraining data alone. Tech writers routinely gather this kind of troubleshooting insight from support tickets and user feedback.
+### How the skill differs from the docs
+
+The most instructive comparison is with Payabli's documentation for the same task, [Manage bills with the API](https://docs.payabli.com/guides/pay-out-developer-bills-manage). The docs page runs about 3,000 words, and most of that is request and response examples in cURL and eight programming languages. It explains what bills are, which statuses make a bill eligible for payout, how credits and partial payments work, and how to import bills in bulk. The skill covers the same task in about 470 words and has no code blocks at all. What does the skill keep? What does it leave out? And what does it add that a docs page usually doesn't say?
+
+The answers show how differently you write for an agent's reasoning than for a person's understanding:
+
+- **The skill is built around the agent's likely mistakes.** The docs page teaches how bills work and shows a complete, correct request. The skill assumes the agent can already write a request, and it concentrates on the places where a reasonable guess fails. An agent that has seen many payment APIs might put `vendorNumber` at the top level of the payload, assume the API totals the line items for it, or pass an OCR response straight into a create call. Each of those guesses is plausible, and each one fails, so the skill names the guess and the fix together.
+- **Error messages appear verbatim.** The skill quotes the 400 responses word for word, such as "Sum of BillItems does not match Bill TotalAmount." When a request fails, the error text and the skill are both in the agent's context, so a verbatim match lets the agent connect the failure to its fix instead of guessing at a cause.
+- **Silent failures get flagged in advance.** The `idVendor(eq)` filter doesn't return an error. It's silently ignored, and the query returns every bill. A person might notice that the results look wrong, but an agent has little reason to question a successful response, so the skill flags the problem before it happens.
+- **Directives replace explanations.** Where the docs explain what each bill status means, the skill says to set `status: 1` and not to use `-99`. When the skill does explain something, the explanation is short and attached to an action, as in "the shapes don't line up."
+- **The skill directs what the agent reads, and when.** It tells the agent to load a shared `payabli-fundamentals` skill first and to read a `payabli-integration.md` file at the root of the user's repo (if one exists) to find out which SDK to use. It links to the Markdown versions of the docs pages, and it ends by routing payouts and invoices to sibling skills. A docs page can suggest next steps, but it can't tell its reader to check a file in their own project before writing any code. In effect, the docs serve as the skill's reference folder, which may be why the skill gets by without code samples. The project file picks the language, and the docs supply the full examples.
+
+None of this makes the docs page less useful. The page does a job the skill doesn't attempt, which is teaching a person how the bills API works, and it's already pretty well set up for agents. It opens with a note that points agents to Payabli's `llms.txt` index and to Markdown versions of every page, and it ends with an "Often confused with" section that separates bills from invoices. The skill builds on that foundation rather than repeating it. 
+
+In other words, the docs explain how the API works, and the skill tells an agent where it's likely to go wrong. It reads less like a user guide and more like the notes an experienced integrator would pass to a new teammate.
+
+### The Google Maps Platform approach
 
 For contrast, [Google Maps Platform's agent skills](https://github.com/googlemaps/agent-skills) illustrate an alternative architecture at platform scale. The installed `SKILL.md` acts as a thin governance layer containing minimal API detail. Instead, it instructs the agent to fetch a remote skills index (a JSON file listing available sub-skills by name and description), match the user's request against those descriptions, and download only the matched sub-skills. It uses an MCP documentation-retrieval tool as a fallback for anything the sub-skills omit. This approach implements progressive disclosure over HTTP, and it allows the platform team to update sub-skills on the server without requiring users to reinstall anything.
 
@@ -94,7 +156,7 @@ However, deferring content loading doesn't eliminate the need to select the righ
 
 In practice, a product skill is a concise set of instructions and routing guidance designed for an agent. Like a quick reference guide, its effectiveness depends largely on what it omits.
 
-Both examples organize primarily around product capabilities. Later in this chapter, [When a product skill still helps](/ai/product-skills-docs-first.html#when-a-product-skill-still-helps) discusses an alternative approach organized around decisions and boundaries rather than individual capabilities.
+The two examples also organize their content differently. The Payabli skill is organized around a single task and the mistakes agents make while doing it, whereas the Google Maps Platform skills are organized around product capabilities. Payabli's approach is close to what [When a product skill still helps](/ai/product-skills-docs-first.html#when-a-product-skill-still-helps) recommends later in this chapter, which is a skill that sends the agent to the documentation and repeats only the facts that break builds.
 
 ## How product skills reach users
 

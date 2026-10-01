@@ -38,13 +38,13 @@ A [2,400-run benchmark by Mintlify](https://www.mintlify.com/blog/llms-txt-agent
 - Inlining the complete `/llms.txt` content eliminated 404 errors but consumed unnecessary input tokens.
 - Concatenated files such as `/llms-full.txt` showed the same inefficiency as eager-loaded MCP, filling context with unused text.
 
-Format and navigation, in other words, already have cheap solutions. The most effective approach combines clean Markdown endpoints with a compact index file, both of which involve configuration rather than original authoring.
+Format and navigation, in other words, already have cheap solutions. The most effective approach combines clean Markdown endpoints with a compact index file, both of which involve configuration rather than original authoring. [Making docs accessible to agents](/ai/product-skills-agent-friendly-docs.html) walks through that configuration, along with the other problems that keep agents from reading a page.
 
 ## Too much context degrades performance
 
 Supplying more documentation to a model doesn't necessarily improve the output. Past a moderate threshold, additional context reduces task performance, because irrelevant detail dilutes the prompt, introduces conflicting instructions, and distracts the model from the objective.
 
-Benchmark research on agent skills confirms this pattern. Flooding an agent with an exhaustive skill catalog degrades coding accuracy, while selecting a small set of task-relevant instructions raises benchmark pass rates. [What the research says](/ai/product-skills-research.html) covers those numbers in detail. Curating the precise context an agent needs is known as [context engineering](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models), and a product skill is one tool for managing it.
+Benchmark research on agent skills confirms this pattern. Flooding an agent with an exhaustive skill catalog degrades coding accuracy, while selecting a small set of task-relevant instructions raises benchmark pass rates. [What the research says](/ai/product-skills-research.html) covers those numbers in detail. Curating the precise context an agent needs is known as [context engineering](https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/), and a product skill is one tool for managing it.
 
 {% include ads.html %}
 

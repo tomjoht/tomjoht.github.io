@@ -1,0 +1,8 @@
+{% comment %}
+  Agent discovery directive. Bootstrap's visually-hidden class hides it from sighted readers,
+  but it stays in the HTML, so agents that convert the page to Markdown can find llms.txt
+  and the Markdown versions. (Screen readers still announce it.) It sits just outside
+  <div id="content"> so the Cloudflare Markdown mirror worker, which adds its own copy
+  to each Markdown page, doesn't repeat it.
+{% endcomment %}
+<p class="agent-directive visually-hidden">For AI agents: a documentation index is available at https://idratherbewriting.com/llms.txt. Markdown versions of all pages are available by appending .md to any page URL.</p>

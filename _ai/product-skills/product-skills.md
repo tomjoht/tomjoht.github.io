@@ -43,7 +43,7 @@ The topics that follow fall into four groups. The first group establishes the fo
 
 The second group examines the product skill on its own terms. [Anatomy and distribution](/ai/product-skills-anatomy.html) covers what the artifact contains and how it reaches users, [What the research says](/ai/product-skills-research.html) reviews the benchmark evidence on whether skills help, and [Problems with product skills](/ai/product-skills-problems.html) covers what can go wrong even when the skill content is sound.
 
-The third group presents the argument for a docs-first approach. [The docs-first approach](/ai/product-skills-docs-first.html) discusses why updating core documentation is usually more effective than building standalone skills, along with the specific situations where a skill is still useful.
+The third group presents the argument for a docs-first approach. [The docs-first approach](/ai/product-skills-docs-first.html) discusses why updating core documentation is usually more effective than building standalone skills, along with the specific situations where a skill is still useful. [Making docs accessible to agents](/ai/product-skills-agent-friendly-docs.html) then covers the delivery work that lets agents read that documentation in the first place.
 
 The final group focuses on implementation. [Roles for tech writers](/ai/product-skills-tech-writer-roles.html) examines ownership, [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html) covers how to identify real failure points, and [Reimagining the documentation experience](/ai/product-skills-reimagining-docs.html) explores deliverables that become possible when documentation is treated as the primary interface.
 
