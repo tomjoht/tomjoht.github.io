@@ -11,158 +11,122 @@ order: 20
 
 {% include_relative draft_notice.html %}
 
-Suppose you get a large export of logs from people using the AI agent on your docs site. The users were trying to build something with your product, and the logs show how often they succeeded. Your job as a technical writer is to raise that success rate by improving the docs. But where do you start with 10,000 sessions? Do you read them all? Do you hand the whole export to an AI and ask for themes? And once you find problems, which ones do you fix first, and how do you know the fixes worked?
+Suppose you get a large export of logs from people using the AI agent on your docs site. The users were trying to build something with your product, and the logs show how often they succeeded. Your job is to raise that success rate by improving the docs. But where do you start with 10,000 sessions? Do you read them all? Do you hand the export to an AI and ask for themes? And which problems do you fix first?
 
-The previous topic, [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html), covered what logs can reveal, such as content gaps, vocabulary mismatches, and hallucinations. This topic covers what to do once you have the logs in hand. The short version is to narrow the logs to the products you care about, find the patterns that repeat, prioritize the ones that matter to the business, and diagnose why each one failed before you write anything. It's also worth knowing why logs matter so much in the first place. A study of RAG systems in three domains found that "validation of a RAG system is only feasible during operation" ([Barnett et al.](https://arxiv.org/abs/2401.05856)). In other words, you won't know how well your docs serve the agent until real users start asking it questions.
+The previous topic, [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html), covered what logs can reveal. This topic lays out a process for turning a messy export into a short list of doc fixes. Logs are worth this effort because there isn't a substitute for them. A study of RAG systems in three domains found that "validation of a RAG system is only feasible during operation" ([Barnett et al.](https://arxiv.org/abs/2401.05856)). In other words, you won't know how well your docs serve the agent until real users start asking it questions.
 
-## Start with the products in focus
+## The process at a glance
 
-A log export usually covers many products, and a single session might touch several of them. If you analyze everything at once, the sessions about products you don't own can swamp the ones you do. As such, the first step is to filter the export down to the products you're responsible for, or to the products the business is prioritizing right now.
+Work through the logs in this order:
 
-To decide where to focus, a few questions help:
+1. **Filter to one product.** Narrow the export to the sessions about a single product.
+2. **Summarize each session.** Have AI turn every session into a short, structured record.
+3. **Group the goals.** Have AI propose categories of user goals, review them, and then have AI assign each session to a category.
+4. **Rank the patterns.** Sort by failed sessions and business value, and pick the top three.
+5. **Diagnose the cause.** Have AI check each pattern's failed sessions against the docs to work out why they failed.
+6. **Fix and measure.** Set up evals, make the fix, and check the next batch of logs.
+7. **Repeat monthly.** Run the cycle again with new logs.
 
-- Which products have the most sessions?
-- Which products have the lowest success rate?
-- Which products are strategically important even though their volume is low, such as a product that just launched?
+AI does most of the reading in this process. Your job is to set up each step, review what the AI produces, and make the calls that need judgment, such as which categories make sense and which patterns matter to the business. The order matters too. Each step narrows the data for the next one, and skipping ahead tends to produce fixes for the wrong problems. A common mistake is jumping straight to step 6, writing new content before you know why the sessions failed.
 
-If this is your first time working through a log export, it's probably wise to start with just one product. Spreading the analysis across five products at once tends to thin out your effort, and you won't learn as much about what works. Once you have a process that works for one product, you can expand to others.
+## Step 1: Filter to one product
 
-Sessions that span more than one product deserve their own look. A user who mixes two products in one request often doesn't know they're separate tools, or doesn't know which one to pick. These sessions tend to point to missing comparison or integration guidance, which is the kind of content described in [The docs-first approach](/ai/product-skills-docs-first.html).
+Start with one product. A log export usually covers many products, and if you analyze everything at once, the sessions about products you don't own will swamp the ones you do. One product also keeps the docs manageable in Step 5, when the AI has to check failed sessions against your pages. Pick the product that matters most to the business right now, which is usually either the one with the most sessions or a recent launch the company is betting on. Once the process works for one product, you can add more.
 
-## Look for common patterns
+Set aside the sessions that span multiple products rather than discarding them. A user who mixes two products in one request often doesn't know which one to pick. These sessions tend to point to missing comparison or integration guidance, which is the kind of content described in [The docs-first approach](/ai/product-skills-docs-first.html). They're worth a separate pass later.
 
-Once you've narrowed the logs, the next step is to find the issues that keep coming up. Aren't people generally trying to do similar things? Mostly, yes, and the logs let you measure how similar they are.
+## Step 2: Summarize each session
 
-### Fix once, help many
+Don't hand the whole export to an AI tool and ask it to find themes. Given thousands of raw sessions at once, AI tends to produce vague clusters, such as "authentication questions," that don't point to a specific fix. Instead, have the AI work through the sessions in batches and produce the same short record for each one:
 
-The main reason to look for patterns is that a fix to a common issue has a one-to-many effect. If 20% of users run into the same problem, fixing it once improves the outcome for all of them. In contrast, a fix for a one-off issue helps one person, and maybe not even them, since they've probably moved on. Your time is limited, so the patterns are where the payoff is.
+| Field | What the AI records |
+|---|---|
+| Goal | What the user was trying to do, as a short phrase that keeps the user's own words. |
+| Outcome | Succeeded, wrong answer, or gave up. |
+| What went wrong | One sentence describing where the session broke down, if it failed. |
+| Pages fetched | The doc pages the agent retrieved during the session, if the log records them. |
 
-### Build a taxonomy from a sample
+The records turn a pile of transcripts into a table you can sort and count. Don't ask the AI for the failure cause yet. Working out why a session failed means checking the docs, which is slower work, and you only need to do it for the patterns worth fixing.
 
-It might be tempting to give the whole export to an AI tool and ask it to find the themes. Without any guidance, though, the AI tends to produce vague clusters, such as "authentication questions," that don't point to a specific fix. A better approach is to read a sample of sessions yourself first. Read about 50 to 100 sessions, and for each one, note the following:
+Spot-check a dozen or so records against the raw sessions before you move on. You're checking whether the AI kept the user's phrasing and judged the outcome correctly. If it labels sessions as successful when the user gave up partway through, tighten the definitions and run the batch again.
 
-- **The user's goal.** What were they trying to do, in their own words?
-- **The outcome.** Did they succeed, get a wrong answer, or give up?
-- **The failure cause.** If the session failed, why? (The causes are covered in [Diagnose why each session failed](#diagnose-why-each-session-failed) below.)
+## Step 3: Group the goals
 
-After a few dozen sessions, you'll start to see the same goals and causes repeat. Those repeats become your taxonomy, which is a list of categories that fit your users and your docs. Expect to revise the taxonomy as you go, especially early on.
+Next, give the AI the list of goals from the records and ask it to propose categories. Ask for roughly 10 to 20 categories, plus an "other" category, each with a one-sentence definition and a session count. Fewer than that and the categories get too broad to suggest a fix. More than that and the AI will struggle to tell them apart when it assigns sessions.
 
-Before any logs go to an AI tool, redact sensitive content. Users paste code, API keys, internal URLs, and personal information into chat sessions, so the data governance concerns described in [Mining users' AI chat sessions](/ai/product-skills-chat-analysis.html#identifying-documentation-gaps-in-chat-logs) apply here too. Open-source tools such as [Presidio](https://github.com/data-privacy-stack/presidio) can detect and mask personal information automatically.
+This is where your judgment matters most. Review the proposed categories and edit them before anything gets counted. A useful test is whether each category points to a specific area of the docs. If a category is too broad to suggest a fix, split it. If two categories would lead to the same fix, merge them. Reviewing a list of 20 categories takes a lot less time than reading hundreds of sessions, and it's where your knowledge of the product and the docs pays off.
 
-### Use AI to classify the rest
+Once the categories look right, have the AI assign each session to exactly one category. If more than about 10% of sessions land in "other," or the AI keeps forcing sessions into categories that don't fit, add or split categories and run the assignment again.
 
-With a taxonomy in hand, you can give AI a much more specific task. Instead of asking it to find themes, ask it to assign each session to one of your categories. Then count the sessions in each category and sort by frequency. AI is pretty good at this kind of classification, and it can work through thousands of sessions that you'd never have time to read.
+## Step 4: Rank the patterns
 
-Check the AI's work, of course. Spot-check a sample of its classifications against the sessions themselves. If many sessions land in "other," or the AI keeps forcing sessions into categories that don't quite fit, your taxonomy probably needs another category.
+For each goal category, count the total sessions, the failed sessions, and the failure rate. Then sort by the number of failed sessions, not total sessions. A goal that shows up in 2,000 sessions with a 95% success rate isn't a problem. A goal with 400 sessions and a 50% failure rate is. Fixing a common failure has a one-to-many effect, since one fix improves the outcome for everyone who hits it.
 
-### The short head and the long tail
+When you sort, you'll likely see a short head and a long tail. A few goals account for most of the failed sessions, and then a long tail of goals appears only a handful of times each. Focus on the head. Don't write a page for each scenario in the tail, since that buries your docs in narrow pages that few people need. Tail scenarios can still share a root cause, though, such as an undocumented authentication step. You'll catch those when you diagnose causes in Step 5.
 
-When you sort the patterns by frequency, you'll likely see a familiar shape. A small number of goals account for a large share of the sessions. This is the short head, and it's where your highest-leverage fixes are. After that comes a long tail of scenarios that appear only once or twice each.
+### Weigh failures against business value
 
-Don't write a page for each one-off scenario in the long tail. That approach would bury your docs in narrow pages that few people need. However, don't ignore the tail entirely either. Tail items with different topics can still share a root cause, such as a missing concept page, an undocumented authentication step, or a reference table that leaves out a field. When you look at the tail, look for patterns in the causes rather than in the topics. One fix to a shared cause might resolve dozens of scenarios that look unrelated.
+Frequency alone doesn't tell you what to fix first. Rate each pattern in the head as high or low value to the business, and sort it into one of four groups:
 
-{% include ads.html %}
+| Failed sessions | Business value | What to do |
+|---|---|---|
+| Many | High | Fix these first. |
+| Few | High | Fix these next, since the users who hit them are worth the effort. |
+| Many | Low | Make only cheap fixes, such as adding a synonym, a link, or a clarifying sentence. |
+| Few | Low | Skip these. |
 
-## Focus on what matters to the business
-
-Frequency alone doesn't tell you what to fix first. Some frequent scenarios matter a lot to the business, and others barely matter at all. Before you commit your time, think about which scenarios tie to revenue.
+From the first group, pick the top three patterns. Three is enough to make progress in one cycle without spreading yourself thin. If you aren't sure which scenarios are high value, ask your product managers.
 
 ### The Fire App Builder lesson
 
-When I worked at Amazon, I wrote the documentation for Fire App Builder, a starter kit for building streaming media apps for Fire TV ([Amazon](https://developer.amazon.com/docs/fire-app-builder/overview.html)). After the first year, we realized that most of the developers using the kit were building apps that nobody cared about. These were apps like "Bob's vacation journey" or "Sue's journal." My rough guess is that about 90% of the kit's users fell into this group. Meanwhile, the apps that mattered on Fire TV were the big ones, such as Netflix and Hulu, which I'd guess account for 90% or even 99% of the app usage on the platform.
+When I worked at Amazon, I wrote the documentation for Fire App Builder, a starter kit for building streaming media apps for Fire TV ([Amazon](https://developer.amazon.com/docs/fire-app-builder/overview.html)). After the first year, we realized that most of the developers using the kit were building apps that nobody cared about, like "Bob's vacation journey" or "Sue's journal." My rough guess is that about 90% of the kit's users fell into this group. Meanwhile, the apps that mattered on Fire TV were the big ones, such as Netflix and Hulu, which I'd guess account for 90% or even 99% of the app usage on the platform.
 
-Fire App Builder has since reached the end of its standard support, and Amazon open-sourced the code on [GitHub](https://github.com/amzn/fire-app-builder). In my view, it died because it targeted the wrong audience. Supporting a long tail of small developers didn't move the business, no matter how many of them there were. The same thing can happen with log analysis. If most of your sessions come from hobby projects, fixing their issues might raise your success rate without doing much for the business.
+Fire App Builder has since reached the end of its standard support, and Amazon open-sourced the code on [GitHub](https://github.com/amzn/fire-app-builder). In my view, it died because it targeted the wrong audience. The same thing can happen with log analysis. If most of your failed sessions come from hobby projects, fixing them might raise your success rate without doing much for the business.
 
-### Reach versus profitability
+This is also a reason to be careful with the overall success rate as your main metric. It's the number the logs hand you, and it's tempting to report it on its own. However, the overall rate treats every session the same, so a fix for a hobby scenario counts as much as a fix for a high-value one. When budgets tighten, docs work that doesn't tie to business-critical areas is hard to defend, no matter how many users it helped. Report the success rate for your high-value scenarios alongside the overall number.
 
-Some managers argue for reach, meaning you should help as many users as possible. Reach does matter in some situations. Early in a product's life, a broad user base might be the main goal. Free users can also be a funnel that leads to paying customers. And some organizations don't measure their docs by profit at all.
+{% include ads.html %}
 
-Even so, be careful about adopting a reach strategy just because someone persuasive argues for it. When budgets tighten, the areas that aren't business critical tend to be the first ones cut. If your docs serve an area like that, the docs team and the manager who argued for reach can go with it. Before you commit to reach, check whether the business values it. In most cases, focusing on the scenarios that bring in revenue is the safer bet.
+## Step 5: Diagnose the cause
 
-### Weigh frequency against value
+For each pattern you picked, have the AI work through about 10 of its failed sessions and decide why each one failed. Don't skip this step. A failed session can have several causes, and each one needs a different fix. If the doc already exists but the agent didn't find it, for example, writing a new page just adds a duplicate. Research on RAG systems draws the same distinction, separating content that's missing from content that exists but isn't retrieved, and from content that's retrieved but not used in the answer ([Barnett et al.](https://arxiv.org/abs/2401.05856)).
 
-To combine frequency and business value, sort each pattern into one of four groups:
+### Give the AI access to the docs
 
-| Frequency | Business value | What to do |
-|---|---|---|
-| High | High | Fix these first. |
-| Low | High | Fix these too, since the users who hit them are worth the effort. |
-| High | Low | Make only cheap fixes, such as adding a synonym, a link, or a clarifying sentence. |
-| Low | Low | Skip these. |
+Diagnosing a failure means comparing the session with your docs. The AI needs to check whether a page covers the scenario, whether the agent fetched it, and whether its content is correct. For a product with hundreds of pages, you can't paste all of them into a prompt. There are a few ways to keep this manageable:
 
-The "high frequency, low value" group is where the Fire App Builder lesson applies most. These issues show up constantly, so they feel urgent. However, a full rewrite for a low-value scenario takes time away from scenarios that matter more.
+- **Scope to one product.** This is another reason for Step 1. The AI only needs the docs for the product you're working on, not your whole site.
+- **Use the docs source with a coding agent.** If your docs live in a repository, open the product's docs folder in a coding agent such as Claude Code. Coding agents search files and read only the pages that match, so they don't need to load hundreds of pages at once.
+- **Start from the pages fetched.** The records from Step 2 list the pages the agent retrieved. These are the first pages to check, and they often show where the session went off course.
+- **Work one pattern at a time.** Give the AI the failed sessions for a single pattern in each run. Sessions in the same pattern usually involve the same few pages, so the AI searches the docs once rather than once per session.
 
-### Judging value from logs is hard
+The retrieval trace matters here too. As noted in [Documentation forensics](/ai/product-skills-chat-analysis.html#documentation-forensics-and-hallucination-root-causes), platforms that log only the final response show you that an answer was wrong, but not why. Without the list of pages fetched, the AI has to guess at what the agent saw.
 
-The hard part is deciding which sessions are high value. Logs show what users asked, but not who they are or what they're worth to the business. There are some signals you can look for, such as the type of app or integration being built, whether the session involves paid features, and whether the phrasing suggests a production deployment rather than a hobby project. Any of these signals can mislead, though, so treat your value ratings as rough.
+### Check the causes in order
 
-There are a couple of ways to get a better signal. If your organization allows it, you might be able to join the logs with account data, such as the customer's plan tier. You can also ask the people who own the business side, such as product managers, which scenarios matter most. It's usually easier to keep a short list of high-value scenarios that you've agreed on with them than to infer value from each session's text.
+Give the AI the following checklist, and have it stop at the first cause that applies. Then review its verdicts for a few sessions in each pattern before you act on them.
 
-## Diagnose why each session failed
+1. **Could the agent read the page?** If the agent fetched the right URL but got little or no usable text, the problem is technical. JavaScript rendering, bot protection, or page size might be the cause. The docs platform team owns this fix. See [Making docs accessible to agents](/ai/product-skills-agent-friendly-docs.html), and run an [AFDocs scan](/ai/product-skills-agent-friendly-docs.html#score-your-site-with-afdocs).
+2. **Does a page cover this scenario?** If not, check whether the product supports it.
+   - If it's supported, write the missing content.
+   - If it isn't supported, don't write a how-to. State the limitation plainly instead, such as "X isn't supported. To do Y, use Z." When nothing is documented, agents tend to invent a path. The Barnett study notes that "for questions that are related to the content but don't have answers the system could be fooled into giving a response." Also pass the demand to the product team.
+3. **Did the agent retrieve the page?** If the page exists but the agent never fetched it, compare the user's words with the page's headings. If the user used a legacy name, a competitor's term, or a goal instead of a feature name, add their terms to your headings, intros, and glossary. (See [Natural user queries versus product feature lists](/ai/product-skills-chat-analysis.html#natural-user-queries-versus-product-feature-lists).) If the terms match, improve findability with clearer titles, links from related pages, and `llms.txt` entries.
+4. **Was the content correct?** If the agent found the right page and relayed it accurately, but the user still hit an error, the page is probably wrong or outdated. Update it, ideally with a review from an engineer.
+5. **None of the above?** If the user followed correct guidance and still failed, it isn't a docs problem. The cause might be a product bug, a confusing UI, or a model that can't handle a complex task. Route these sessions to the product or engineering team rather than documenting around a broken feature.
 
-Once you've picked the patterns to work on, figure out why the sessions failed before you write anything. A failed session can have several different causes, and each cause needs a different fix. For example, if the doc already exists but the agent didn't find it, writing a new page just adds a duplicate. Research on RAG systems makes a similar point. The study mentioned earlier lists seven failure points, including content that's missing, content that exists but doesn't rank high enough to be retrieved, and content that reaches the model but doesn't get used in the answer ([Barnett et al.](https://arxiv.org/abs/2401.05856)).
+Expect a meaningful share of failed sessions to land in the last category. That's useful to know, because it keeps you from spending time on problems the docs can't solve.
 
-The causes below are listed roughly in the order you'd check them, since an earlier cause often rules out the later ones. To check most of them, you need more than the final answer. You need the retrieval trace, meaning the pages the agent looked up and fetched. As noted in [Documentation forensics](/ai/product-skills-chat-analysis.html#documentation-forensics-and-hallucination-root-causes), platforms that log only the final response let you see that an answer was wrong, but not why.
+## Step 6: Fix and measure
 
-### The agent couldn't read the content
+Set up the test before you make the fix. Take five to ten failed queries from the pattern and add them to your evaluation suite, using the users' exact phrasing. Run the suite to record a baseline, make the fix, and run it again. [Updating evaluation suites and documentation](/ai/product-skills-chat-analysis.html#updating-evaluation-suites-and-documentation) explains why the exact phrasing matters.
 
-Sometimes the content exists, but a technical problem keeps the agent from reading it. The page might build its content with JavaScript, bot protection might block the agent, or the page might be so long that the agent's fetch tool cuts it off. In the logs, this usually looks like an agent that fetched the right URL but got back little or no useful text. This cause is worth checking first, since nothing else matters if the agent can't read the page. [Making docs accessible to agents](/ai/product-skills-agent-friendly-docs.html) covers these problems and how to test for them, including running an [AFDocs scan](/ai/product-skills-agent-friendly-docs.html#score-your-site-with-afdocs).
+Evals only cover the queries you add to them, though. The real test is the next batch of logs. When the next export arrives, check whether the failure rate for each pattern you fixed went down. When you report results, frame them in terms the business cares about, such as the success rate for high-value scenarios.
 
-### The doc should exist but doesn't
+## Step 7: Repeat monthly
 
-In this case, the user tried something the product supports, but no page covers it. Without any content to draw on, the agent might give up, or it might make up an answer that sounds plausible. This is a classic content gap, and the fix is to write the missing content, as long as the scenario passes the business-value check described earlier.
+Improving docs from logs isn't something you finish in a week. Some patterns will take several rounds of fixes before the failure rate drops, and new patterns appear as the product changes. A monthly cycle is a sustainable pace for most teams. Each month, pull new logs, update the categories if new goals appear, and pick the next three patterns. Each cycle also tells you whether the previous cycle's fixes worked.
 
-### The scenario isn't supported
-
-Sometimes there's no doc because the product doesn't support what the user wanted to do. You might think that means there's nothing to fix, but the absence of content causes its own problem. When nothing is documented, agents tend to invent a path that doesn't work. The Barnett study notes this risk, saying that "for questions that are related to the content but don't have answers the system could be fooled into giving a response."
-
-Don't write a how-to for an unsupported scenario. Instead, state the limitation plainly in the docs, such as "X isn't supported. To do Y, use Z instead." A clear statement gives the agent something to say other than a made-up answer. Also pass the demand along to the product team. If many users want something the product can't do, that's useful feedback.
-
-### The agent didn't find the doc
-
-Here, the answer is on a page, but the agent never retrieved it, or it retrieved a different page instead. In the logs, you'll see the agent searching or fetching, but never landing on the right page. The fix is to improve findability. Clearer titles and headings help, as do links from related pages and entries in your `llms.txt` file. In some cases, the relevant content is buried in a long page about something else, and moving it into its own section or page makes it easier to find.
-
-### The user used different terms
-
-This cause overlaps with the previous one. The user described their goal in words that don't match the docs, so the agent's search didn't connect the two. The user might use a legacy product name, describe a goal instead of naming a feature, or use a term from a competitor's product. The fix is to add the user's terms to your headings, intros, and glossary, so that their phrasing leads to the right page. [Natural user queries versus product feature lists](/ai/product-skills-chat-analysis.html#natural-user-queries-versus-product-feature-lists) describes the kinds of mismatches to look for.
-
-### The doc is wrong or outdated
-
-In this case, everything worked except the content itself. The agent found the right page and passed along what it said, but the page had an old parameter, a broken code sample, or a step that no longer applies. The user followed the guidance and hit an error. The fix is a standard doc update, ideally with a review from an engineer who knows the current behavior.
-
-### It isn't a docs problem
-
-Some failures can't be fixed with docs at all. The user might hit a product bug, or a confusing UI that works differently from what the docs describe. The model might also fail on a complex, multi-step problem even with the right content in front of it. It's worth naming this category in your taxonomy, because a meaningful share of failed sessions might land here. Route these sessions to the product or engineering team rather than trying to document around a broken feature.
-
-### Summary of causes and fixes
-
-The following table summarizes the causes, what each one looks like in the logs, and who usually owns the fix:
-
-| Cause | What the log shows | Fix | Who owns it |
-|---|---|---|---|
-| The agent couldn't read the content | The agent fetched the right URL but got little or no usable text. | Fix rendering, bot protection, or page size. | Docs platform |
-| The doc should exist but doesn't | A supported scenario with no page that covers it. | Write the content, if the scenario has business value. | Docs |
-| The scenario isn't supported | The user asked for something the product can't do, and the agent invented a path. | State the limitation, and pass the demand to the product team. | Docs and product |
-| The agent didn't find the doc | The answer exists, but the agent never retrieved it. | Improve titles, headings, links, and `llms.txt` entries. | Docs |
-| The user used different terms | The user's vocabulary doesn't match the docs. | Add the user's terms to headings, intros, and the glossary. | Docs |
-| The doc is wrong or outdated | The agent found the right page, but its content was wrong. | Update the content. | Docs |
-| It isn't a docs problem | The user followed correct guidance but still failed. | Route the session to the product or engineering team. | Product or engineering |
-
-## Measure the improvement
-
-After you fix a pattern, you'll want to know whether the fix worked. The best way is to set up the test before you make the fix. Take a few failed queries from the pattern and add them to your evaluation suite, using the users' exact phrasing. Run the suite to record a baseline, make the fix, and then run it again. [Updating evaluation suites and documentation](/ai/product-skills-chat-analysis.html#updating-evaluation-suites-and-documentation) explains why the exact phrasing matters.
-
-If you want more detail than a pass or fail, evaluation frameworks such as [Ragas](https://arxiv.org/abs/2309.15217) score the retrieval and the generated answer separately, "without having to rely on ground truth human annotations." That separation can tell you whether a fix helped the agent find the right page or only improved the answer.
-
-Evals only cover the queries you add to them, though. The real test is the next batch of logs. When the next month's export arrives, check whether the failure rate for the pattern you fixed went down. When you report results, frame them in terms the business cares about, such as the success rate for the high-value scenarios you prioritized.
-
-## Keep a sustainable pace
-
-Improving docs from logs isn't something you finish in a week. A large export might contain dozens of patterns worth fixing, and some of them will take several rounds of fixes before the failure rate drops. If you try to fix everything at once, you'll probably burn out before you see results.
-
-A regular cadence works better. For example, you might pull a new batch of logs each month, classify the sessions, and pick a few patterns to work on. Each round also gives you data on whether the previous round's fixes worked. Over time, the short head should shrink, and more of your time can go to the high-value scenarios further down the list.
-
-If you're starting today, here's a concrete first step. Pull one month of logs for your most important product. Read 50 sessions and build a rough taxonomy. Then use AI to classify the rest, pick the top three patterns that matter to the business, diagnose why they failed, and fix those.
+You don't need to rebuild the categories from scratch each month. Reuse the previous month's categories, and look at what lands in "other." If a new goal shows up there often, add a category for it. Over time, the failures in the short head should shrink, and more of your time can go to the high-value scenarios further down the list.
 
 <hr/>
 
