@@ -174,7 +174,7 @@ Andrew Davis<br/>
 Other links and resources:
 
 *   [https://techcommtalent.youcanbook.me](https://techcommtalent.youcanbook.me)
-*   [​http://www.linkedin.com/in/synergistech](​http://www.linkedin.com/in/synergistech)
+*   [http://www.linkedin.com/in/synergistech](http://www.linkedin.com/in/synergistech)
 *   [http://www.synergistech.com](http://www.synergistech.com)
 *   [https://angel.co/techcommtalent](https://angel.co/techcommtalent)
 *   [https://www.quora.com/profile/Andrew-Davis-79](https://www.quora.com/profile/Andrew-Davis-79)

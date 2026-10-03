@@ -13,7 +13,7 @@ description: "Jekyll lets you separate out your data from your presentation laye
 
 ## Introduction
 
-I was recently working on defining a lot of response definitions for an API project. Normally I would prefer [OpenAPI](/learnapidoc/pubapis_swagger_intro.html) for defining these fields, but this API doesn't actually have endpoints exposed to the user; it just has extensive JSON inputs and outputs.
+I was recently working on defining a lot of response definitions for an API project. Normally I would prefer [OpenAPI](/learnapidoc/pubapis_swagger.html) for defining these fields, but this API doesn't actually have endpoints exposed to the user; it just has extensive JSON inputs and outputs.
 
 Building out the tables reminded me why I like working with Jekyll so much, and why even after 4+ years of using Jekyll, I'm still pretty content with it.
 

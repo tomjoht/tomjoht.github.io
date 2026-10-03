@@ -140,7 +140,7 @@ clarity:
   description: "Specific steps for completing tasks are described in detail rather than glossed over in general ways &mdash; unless the task is something the audience is already familiar with. Overall, the documentation strikes a balance between providing enough detail for users to get the job done but not including too much detail that the reader is inundated with extraneous information."
 
 - title: Workflow maps connect topics in larger flows
-  description: "Larger tasks that span multiple topics have a <a href='https://idratherbewriting.com/learnapidoc/simplifying-complexity/macro-micro.html'>workflow map</a> (or similar mechanism) that connects the topics together."
+  description: "Larger tasks that span multiple topics have a <a href='https://idratherbewriting.com/simplifying-complexity/macro-micro.html'>workflow map</a> (or similar mechanism) that connects the topics together."
 
 - title: Visuals aid in areas of confusion
   description: "In places that are particularly confusing, appropriate visuals or additional examples have been added to reduce confusion."
@@ -189,7 +189,7 @@ completeness:
   description: "If a feature is available only in certain contexts (locales, languages,  platforms, roles, versions), that information is noted clearly in the feature. For example, an API that is only available for enterprise versions might have a label that says \"Enterprise Version Only,\" or if only available for a particular platform, might say \"Linux Only\" or the equivalent."
 
 - title: Unhappy paths are documented
-  description: "If there are pitfalls or other traps, gaps, and gotchas to avoid, these are noted in the documentation rather than hidden from the user. A section called <a href='https://idratherbewriting.com/learnapidoc/2010/12/16/known-limitations/'>Known Limitations</a> often contains this information. The documentation doesn't lie or mislead the user but rather is <a href='https://idratherbewriting.com/learnapidoc/2017/07/13/transparency-in-documentation/'>transparent, honest, and helpful</a> even if it means exposing the product's warts and revealing problems users will like encounter."
+  description: "If there are pitfalls or other traps, gaps, and gotchas to avoid, these are noted in the documentation rather than hidden from the user. A section called <a href='https://idratherbewriting.com/2010/12/16/known-limitations/'>Known Limitations</a> often contains this information. The documentation doesn't lie or mislead the user but rather is <a href='https://idratherbewriting.com/2017/07/13/transparency-in-documentation/'>transparent, honest, and helpful</a> even if it means exposing the product's warts and revealing problems users will like encounter."
 
 readability:
 

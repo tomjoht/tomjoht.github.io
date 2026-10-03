@@ -55,7 +55,7 @@ Note that this is one instance where survey responses shape and influence my thi
 
 **65% said that when writing documentation, standards such as the OpenAPI specification help guide them in valuable ways.**
 
-I think [OpenAPI specs](/learnapidoc/pubapis_swagger_intro.html) have been quite helpful in providing standards for REST API docs. For more, check out my [OpenAPI tutorial here](/learnapidoc/pubapis_openapi_tutorial_overview.html). Despite the guidance these standards provide, I'm guessing that some find these standards lacking or incomplete for their own [API documentation](/learnapidoc).
+I think [OpenAPI specs](/learnapidoc/pubapis_swagger.html) have been quite helpful in providing standards for REST API docs. For more, check out my [OpenAPI tutorial here](/learnapidoc/pubapis_openapi_tutorial_overview.html). Despite the guidance these standards provide, I'm guessing that some find these standards lacking or incomplete for their own [API documentation](/learnapidoc).
 
 **Only 41% said that although they contribute to documentation, they dislike writing docs and resent that they have to write them (when they could otherwise be coding).**
 

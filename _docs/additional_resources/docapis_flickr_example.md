@@ -215,7 +215,7 @@ A common pattern in programming is to loop through a response. This code example
 
 For more information, see these topics:
 
-* [Inspect the JSON from the response payload[](]()docapis_json_console.html)
+* [Inspect the JSON from the response payload](docapis_json_console.html)
 * [Access and print a specific JSON value](docapis_access_json_values.html)
 * [Dive into dot notation](docapis_diving_into_dot_notation.html)
 

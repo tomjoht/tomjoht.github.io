@@ -63,7 +63,7 @@ On messiness: I have not found a solution to the messy and unpredictable part of
 
 On cost: if your department or institution cannot afford to purchase software, free options will work to teach technological adaptability. Such options are not ideal, since employers will be looking for specific programs. However, you can teach the skill of technological adaptability using any set of programs.
 
-Some free software used for publication include [Gimp](https://www.gimp.org/), [LucidPress](https://www.lucidpress.com/), [Scribus](< https://www.scribus.net/), [Gravit Designer](https://www.designer.io/ ), [Vectr](https://vectr.com/), [Inkscape](https://inkscape.org/en/ ), [Powtoon](< https://www.powtoon.com/home/), etc. Some companies, such as MadCap, will outfit your education labs for free with [Flare](https://www.madcapsoftware.com/products/flare/). Others, such as [Prezi](https://prezi.com/ ), will give students and educators free accounts.
+Some free software used for publication include [Gimp](https://www.gimp.org/), [LucidPress](https://www.lucidpress.com/), [Scribus](https://www.scribus.net/), [Gravit Designer](https://www.designer.io/ ), [Vectr](https://vectr.com/), [Inkscape](https://inkscape.org/en/ ), [Powtoon](https://www.powtoon.com/home/), etc. Some companies, such as MadCap, will outfit your education labs for free with [Flare](https://www.madcapsoftware.com/products/flare/). Others, such as [Prezi](https://prezi.com/ ), will give students and educators free accounts.
 
 I’ve said that we need to be adaptable ourselves if we want to teach technological adaptability. However, becoming technologically adaptable as an established academic can be a herculean task. So, how can we teach a skill we need to develop ourselves?
 

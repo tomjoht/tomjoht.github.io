@@ -28,7 +28,7 @@ You can watch the [Transforming Your Documentation Process](https://www.youtube.
 
 The panelists were Leon Barnard ([@leonbarnard](http://twitter.com/leonbarnard)), Zach Corleissen ([@zachorsarah](http://twitter.com/zachorsarah)), Ted Hudek ([@tedhudek](http://twitter.com/tedhudek)), and John Bulava ([@jbulava](http://twitter.com/jbulava)).
 
-(It's funny that WTD lists the Twitter handle for each participant -- in reality they should list the slack handle of the person on the [WTD Slack channel](slack.writethedocs.org).)
+(It's funny that WTD lists the Twitter handle for each participant -- in reality they should list the slack handle of the person on the [WTD Slack channel](http://slack.writethedocs.org).)
 
 Riona started the panel by posing the problem that started her documentation transformation journey at Google. In internal tech surveys at Google, employees noted that documentation was hard to find. When you did find it, it was often incomplete or inaccurate. As a result, you didn't know if you could trust the documentation (it might be outdated).
 

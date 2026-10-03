@@ -210,7 +210,7 @@ These were the top 10 pages on my [API documentation site](/learnapidoc) during 
 5. [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview) (20,455 views)
 6. [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview.html) (18,970 views)
 7. [Inspect the JSON from the response payload](/learnapidoc/docapis_json_console.html) (18,909 views)
-8. [Introduction to the OpenAPI specification and Swagger](/learnapidoc/pubapis_swagger_intro.html) (18,040 views)
+8. [Introduction to the OpenAPI specification and Swagger](/learnapidoc/pubapis_swagger.html) (18,040 views)
 9. [Step 1: Resource description (API reference tutorial)](/learnapidoc/docapis_resource_descriptions.html) (16,427 views)
 10. [Overview of REST API specification formats](/learnapidoc/pubapis_rest_specification_formats.html) (15,923 views)
 

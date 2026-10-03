@@ -26,7 +26,7 @@ Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/k521UzLkkW)
 * [Slides](/learnapidoc/docapis_course_slides.html)
-* [Workshop activities](/learnapidoc/docapis_workshop_activities.html)
+* Workshop activities
 * [Course material](/learnapidoc/)
 
 {{site.data.alerts.note}}If possible, please prepare beforehand by following the setup in <a href="/learnapidoc/index.html#what-youll-need">What You'll Need</a>.{{site.data.alerts.end}}

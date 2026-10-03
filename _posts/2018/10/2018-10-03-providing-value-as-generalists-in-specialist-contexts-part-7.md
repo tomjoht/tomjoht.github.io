@@ -39,7 +39,7 @@ Within the topic of information usability, I covered 7 principles:
 * Principle 6: Reduce the complexity of technical language
 * Principle 7: Iterate and increment on content following an agile approach
 
-I list some additional information usability principles on my site, [idratherbewriting.com/simplifying-copmlexity](/simplifying-copmlexity), and I'll continue to add to them in the future.
+I list some additional information usability principles on my site, [idratherbewriting.com/simplifying-copmlexity](/simplifying-complexity/), and I'll continue to add to them in the future.
 
 
 

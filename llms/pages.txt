@@ -1,0 +1,43 @@
+---
+layout: none
+permalink: /llms/pages.txt
+search: false
+sitemap: false
+---
+{%- comment -%}
+  Every course topic, series page, and standalone page that isn't a blog post. The root
+  /llms.txt links here so agents (and AFDocs coverage checks) can reach the whole site.
+
+  Left out on purpose: pure listing pages (categories, year archives, /all/, /tags/,
+  homepage pagination) whose content the per-year post indexes already cover, slide decks,
+  print/PDF scaffolding, redirect stubs, and standalone layout:none pages.
+{%- endcomment -%}
+{%- capture skipprefixes -%}/category-|/archives|/all/|/tags/|/slides/|/pdf_|/toc.html|/tocstart.html|/troubleshootfeed/|/newsletter-signup-confirmed|/newslettertemplate/|/success/|/thank-you-for-donating/|/llms|/404{%- endcapture -%}
+{%- assign skipprefixes = skipprefixes | split: "|" -%}
+# I'd Rather Be Writing: courses, series, and pages
+
+> Every course topic, multi-part series page, and standalone page on idratherbewriting.com, grouped by section. Blog posts are listed separately in the per-year indexes linked from {{ site.url }}/llms.txt. Markdown versions of all pages are available by appending .md to any page URL.
+{% assign groups = "docs|Documenting APIs course,ai|AI courses,smartphones|Journey away from smartphones,zamm|Rereading Zen and the Art of Motorcycle Maintenance" | split: "," %}
+{%- for group in groups %}
+{%- assign parts = group | split: "|" %}
+{%- assign coll = site.collections | where: "label", parts[0] | first %}
+{%- assign docs = coll.docs | where_exp: "d", "d.sitemap != false" | sort: "url" %}
+
+## {{ parts[1] }}
+{% for d in docs %}{% unless d.layout == "none" or d.title == nil %}
+- [{{ d.title | strip_html | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "[", "(" | replace: "]", ")" }}]({{ d.url | prepend: site.url }})
+{%- endunless %}{% endfor %}
+{%- endfor %}
+
+## Other pages and series
+{% assign pages = site.html_pages | where_exp: "p", "p.sitemap != false" | sort: "url" %}
+{%- for p in pages %}
+{%- if p.layout == "none" or p.title == nil or p.redirect %}{% continue %}{% endif %}
+{%- assign skip = false %}
+{%- for pre in skipprefixes %}{% assign len = pre | size %}{% assign head = p.url | slice: 0, len %}{% if head == pre %}{% assign skip = true %}{% break %}{% endif %}{% endfor %}
+{%- comment %} jekyll-paginate copies of the homepage (/page2/, /page3/, ...) {% endcomment %}
+{%- assign head = p.url | slice: 0, 5 %}
+{%- if head == "/page" %}{% assign num = p.url | remove_first: "/page" | remove: "/" %}{% assign numcheck = num | plus: 0 | append: "" %}{% if num == numcheck %}{% assign skip = true %}{% endif %}{% endif %}
+{%- if skip %}{% continue %}{% endif %}
+- [{{ p.title | strip_html | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "[", "(" | replace: "]", ")" }}]({{ p.url | replace: "/index.html", "/" | prepend: site.url }})
+{%- endfor %}

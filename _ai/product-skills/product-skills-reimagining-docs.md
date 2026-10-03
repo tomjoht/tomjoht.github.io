@@ -6,7 +6,7 @@ sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-09-27
-order: 20
+order: 21
 ---
 
 {% include_relative draft_notice.html %}

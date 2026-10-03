@@ -38,7 +38,7 @@ In general, learn these four types of tools:
 *   Video recording tools (Camtasia Studio, Screenflow, Captivate)
 *   Page layout tool (InDesign, Word, Framemaker)
 
-{{site.data.alerts.tip}}When learning how to create screencasts and other videos, see my [five-step process for creating video tutorials](/2012/09/27/how-to-create-video-tutorials-a-five-step-process/)." {{site.data.alerts.end}}
+{{site.data.alerts.tip}}When learning how to create screencasts and other videos, see my <a href="/2012/09/27/how-to-create-video-tutorials-a-five-step-process/">five-step process for creating video tutorials</a>." {{site.data.alerts.end}}
 
 {% include ads.html %}
 
@@ -121,7 +121,7 @@ Technical writers do a variety of tasks, including some or all of the following:
 *   Create elearning courses and simulations for users to learn products.
 *   Create technology how-to articles for marketing efforts to increase awareness and adoption of technology products.
 
-{{site.data.alerts.tip}}For a better understanding of what technical writers do, see my [chapter on technical writing in the UX Careers Handbook](/2016/06/21/technical-writing-chapter-in-ux-careers-book/).{{site.data.alerts.end}}
+{{site.data.alerts.tip}}For a better understanding of what technical writers do, see my <a href="/2016/06/21/technical-writing-chapter-in-ux-careers-book/">chapter on technical writing in the UX Careers Handbook</a>.{{site.data.alerts.end}}
 
 ## 9\. I have an assignment to interview a technical writer. Can I send you my list of questions?
 

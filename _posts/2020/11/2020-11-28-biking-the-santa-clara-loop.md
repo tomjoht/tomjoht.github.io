@@ -18,7 +18,7 @@ The Santa Clara loop is basically just a combination of the San Tomas trail with
 
 <iframe src="https://www.google.com/maps/d/embed?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D" width="640" height="480"></iframe>
 
-(Here's a [direct link to the map](https://www.google.com/maps/d/edit?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D&usp=sharing) or the [KML file](Santa_Clara_loop_biking_trail) so you can import it into Google Earth.)
+(Here's a [direct link to the map](https://www.google.com/maps/d/edit?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D&usp=sharing) or the KML file so you can import it into Google Earth.)
 
 ## Route length
 

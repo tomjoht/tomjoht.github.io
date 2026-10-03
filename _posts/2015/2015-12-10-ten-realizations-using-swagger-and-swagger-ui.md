@@ -9,7 +9,7 @@ description: "As I've been configuring the Swagger spec file and UI for one of t
 * TOC
 {:toc}
 
-{{site.data.alerts.note}}The <a href="https://github.com/swagger-api/swagger-ui">new version of Swagger UI</a> fixes many of the issues I noted here. For more up-to-date info on Swagger, see the <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html">Swagger introduction</a> and <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger.html">Swagger tutorial</a> that I created in my <a href="https://idratherbewriting.com/learnapidoc/">API documentation course</a>.{{site.data.alerts.end}}
+{{site.data.alerts.note}}The <a href="https://github.com/swagger-api/swagger-ui">new version of Swagger UI</a> fixes many of the issues I noted here. For more up-to-date info on Swagger, see the <a href="/learnapidoc/pubapis_swagger.html">Swagger introduction</a> and <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger.html">Swagger tutorial</a> that I created in my <a href="https://idratherbewriting.com/learnapidoc/">API documentation course</a>.{{site.data.alerts.end}}
 
 ## Using Swagger
 Although I created a [Swagger tutorial for my REST API course](/learnapidoc/pubapis_swagger.html), the Swagger spec I created was for a simple API that just had a few basic endpoints with several query parameters.

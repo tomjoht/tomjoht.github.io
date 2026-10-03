@@ -169,7 +169,7 @@ To finish, let's return to my colleague's earlier comment:
 
 My colleague expressed a deep truth about documentation and user behavior. It's something I often overlook as I patiently, methodically, and carefully work on content. But it might be good to use documentation in times of frustration, if only to realize how ridiculous it is to learn when we don't want to learn.
 
-[1]: An information retrieval system will tend not to be used whenever it is more painful and troublesome for a customer to have information than for him not to have it.
+[1]: https://idratherbewriting.com/2011/05/09/mooers-law-and-implications-for-findability/
 [2]: https://en.wikipedia.org/wiki/Moore%27s_law
 [3]: https://www.quora.com/Whats-the-best-mindset-for-learning-and-how-do-you-attain-it
 [4]: https://idratherbewriting.com/2009/03/02/emotional-states-of-computer-users-in-times-of-frustration/

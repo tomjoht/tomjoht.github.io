@@ -73,7 +73,7 @@ After joining the group and confirming your email, here's how you work with the 
 * To see and modify all of your groups, go to [https://groups.io](https://groups.io).
 * You can view and search past messages [here](https://groups.io/g/tc-academic-practitioner-bridge/topics).
 * You can subscribe to the group's [RSS feed](https://groups.io/g/tc-academic-practitioner-bridge/rss).
-* To unsubscribe from the group, send an email to[ tc-academic-practitioner-bridge+unsubscribe@groups.io](tc-academic-practitioner-bridge+unsubscribe@groups.io).
+* To unsubscribe from the group, send an email to [tc-academic-practitioner-bridge+unsubscribe@groups.io](mailto:tc-academic-practitioner-bridge+unsubscribe@groups.io).
 
 {% include ads.html %}
 

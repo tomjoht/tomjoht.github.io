@@ -20,7 +20,7 @@ It's been about nine months since I wrote my first guest blog post on productivi
 
 ## Slow Productivity
 
-I'll start first with the book in the [Conclusion](blog/escape-productivity-trap-david-kowalsky-guest-post#conclusion) of the guest blog post that I said I plan to read: [*Slow Productivity: The Lost Art of Accomplishment Without Burnout*](https://www.amazon.com/Slow-Productivity-Accomplishment-Without-Burnout/dp/B0CB96H3M4) by Cal Newport. In the introduction, Newport defines slow productivity as follows:
+I'll start first with the book in the [Conclusion](/blog/escape-productivity-trap-david-kowalsky-guest-post#conclusion) of the guest blog post that I said I plan to read: [*Slow Productivity: The Lost Art of Accomplishment Without Burnout*](https://www.amazon.com/Slow-Productivity-Accomplishment-Without-Burnout/dp/B0CB96H3M4) by Cal Newport. In the introduction, Newport defines slow productivity as follows:
 
 > A philosophy for organizing knowledge work efforts in a sustainable and meaningful manner, based on the following three principles (8):
 > 

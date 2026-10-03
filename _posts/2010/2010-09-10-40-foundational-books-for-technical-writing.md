@@ -35,7 +35,7 @@ I asked my Twitter and blog friends to respond with their recommendations. Here 
 
 [Technical Writing Management: A Practical Guide](https://www.amazon.com/Technical-Writing-Management-Practical-Guide/dp/1456534181/ref=sr_1_3?s=books&ie=UTF8&qid=1518581084&sr=1-3&keywords=Steven+Schwarzman), Steven A. Schwarzman-This book will help veteran technical writers the most. It covers how to interview, hire and manage technical writers, as well how to have a successful freelance career and run a technical writing agency. [Nathaniel Wilson]
 
-[Technical Writing](Technical Writing, by T.A. Rickard), by T.A. Rickard, is a seminal work. You can find it in many academic libraries. You'll be amazed by how the emphasis on fundamental writing skills hasn't changed. \[Mike Frasciello\]
+Technical Writing, by T.A. Rickard, is a seminal work. You can find it in many academic libraries. You'll be amazed by how the emphasis on fundamental writing skills hasn't changed. \[Mike Frasciello\]
 
 [Managing Your Documentation Projects](http://www.amazon.com/Managing-Documentation-Projects-JoAnn-Hackos/dp/0471590991), by JoAnn T. Hackos, while 15 years old, still applies today for most areas of project management for technical communication projects. \[Dave Brock\]
 
@@ -74,7 +74,7 @@ If your reader isn't opposed to buying a “textbook,” [The Essentials of Tech
 
 [Technical writing : a reference for technical writers at all levels](http://www.amazon.com/Kaplan-Technical-Writing-Resource-Writers/dp/1427797218), by Diane Martinez, published by Kaplan Pub. (2008). A new version (updated) is coming out at the end of 2010.   I like this book; it has good information for new writers and for writers who have been in the ‘biz for awhile. \[Adriana Harper\]
 
-[Handbook of Technical Writing (9th Ed.)](Handbook of Technical Writing (9th Ed.) Gerald J. Alred, Charles T. Brusaw, Walter E.Oliu), by Gerald J. Alred, Charles T. Brusaw, Walter E.Oliu. This is a reference book and I find it works nicely side by side with something like The Elements of Style (Strunk and White). \[Adriana Harper\]
+Handbook of Technical Writing (9th Ed.), by Gerald J. Alred, Charles T. Brusaw, Walter E.Oliu. This is a reference book and I find it works nicely side by side with something like The Elements of Style (Strunk and White). \[Adriana Harper\]
 
 [Technical Writing for Dummies](http://www.amazon.co.uk/Technical-Writing-Dummies-Sheryl-Lindsell-Roberts/dp/0764553089/ref=sr_1_1?ie=UTF8&s=books&qid=1283958591&sr=8-1), by Sheryl Lindsell-Roberts. This focuses on the basics.  Great for getting an insight into Technical Writing. \[Anne-Marie Lansley\]
 

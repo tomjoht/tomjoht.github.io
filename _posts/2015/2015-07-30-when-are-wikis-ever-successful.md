@@ -46,4 +46,4 @@ Anyway, this conversation led to my upcoming participation in a roundtable with 
 
 If you can't make it to Petaluma, you can join a Gotomeeting (I'm not sure what their limit is...). At some point, the discussion about wikis took on an API documentation dimension, which actually does fit quite nicely, since you usually empower engineers to contribute in developer documentation environments.
 
-If you're interested in learning more, add the event to your calendar and [join us]([API/Software Authoring Environments](http://www.northbaycommunicators.org/2015/07/august-meeting-apisoftware-authoring-environments/)).
+If you're interested in learning more, add the event to your calendar and [join us](http://www.northbaycommunicators.org/2015/07/august-meeting-apisoftware-authoring-environments/).

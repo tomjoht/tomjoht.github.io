@@ -33,6 +33,7 @@ exclude:
   - vendor
   - _drafts
   - GEMINI.md
+  - CLAUDE.md
 format: web
 
 plugins:
@@ -175,6 +176,34 @@ defaults:
       path: "images"
     values:
       image: true
+
+  # Keep demo output, generated Javadoc, and reveal.js scaffolding out of the sitemap.
+  # These are supporting files for course activities and old slide decks, not pages.
+  -
+    scope:
+      path: "assets/files"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "files"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "_ai/product-skills/draft_notice.html"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "_ai/skills/draft_notice.html"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "titlepage.xhtml"
+    values:
+      sitemap: false
 
 ########## UI text ###############
 

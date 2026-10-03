@@ -31,7 +31,7 @@ If you want to pursue the docs-as-code route, you could use a number of tools be
 
 In this same category of static-site-generator tools, there are also many hosted options for developer docs. [Readthedocs.com](https://readthedocs.com/), [Forestry.io](https://forestry.io/), [CloudCannon](https://cloudcannon.com/) are all excellent choices. Also check out [Readme.com](http://readme.com/). If your company allows you to use third-party hosting for your content and you have budget, I'd recommend this route instead of trying to build your own theme.
 
-If you're documenting REST APIs, definitely check out the [OpenAPI specification](/learnapidoc/pubapis_swagger_intro.html) and [SwaggerHub](/learnapidoc/pubapis_swaggerhub_smartbear.html). Find a doc tool that supports the OpenAPI specification.
+If you're documenting REST APIs, definitely check out the [OpenAPI specification](/learnapidoc/pubapis_swagger.html) and [SwaggerHub](/learnapidoc/pubapis_swaggerhub_smartbear.html). Find a doc tool that supports the OpenAPI specification.
 
 If you have more robust requirements around translation and content re-use, you might want to use a more traditional help authoring tool that excels in this area. Both Madcap Software's Flare and Adobe's Tech Comm Suite are widely used tools in the tech comm industry because they handle just about every tech comm scenario you will encounter. If you're trying to ramp up your tech comm skill set to look attractive to employers, familiarity with these tools will make you better qualified for a broader number of jobs.
 

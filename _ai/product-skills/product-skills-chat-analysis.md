@@ -61,4 +61,4 @@ Chat logs identify where documentation fails real users, and evaluation suites c
 
 <hr/>
 
-*Continue to the next topic: [Reimagining the documentation experience](/ai/product-skills-reimagining-docs.html)*
+*Continue to the next topic: [Making fixes from logs](/ai/product-skills-fixes-from-logs.html)*

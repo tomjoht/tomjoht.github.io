@@ -1,0 +1,50 @@
+---
+layout: none
+permalink: /sitemap.xml
+sitemap: false
+search: false
+---
+{%- comment -%}
+  Replaces the sitemap that jekyll-sitemap would otherwise generate (the plugin steps
+  aside when this file exists). It follows the plugin's template, with one change: it
+  leaves out the jekyll-paginate copies of the homepage (/page2/, /page3/, ...), which
+  are listing pages rather than content. To keep any other page or static file out,
+  set `sitemap: false` in its front matter or in a _config.yml default.
+{%- endcomment -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- assign collections = site.collections | where_exp: 'collection', 'collection.output != false' %}
+  {%- for collection in collections %}
+    {%- assign docs = collection.docs | where_exp: 'doc', 'doc.sitemap != false' %}
+    {%- for doc in docs %}
+  <url>
+    <loc>{{ doc.url | replace: '/index.html', '/' | absolute_url | xml_escape }}</loc>
+    {%- if doc.last_modified_at or doc.date %}
+    <lastmod>{{ doc.last_modified_at | default: doc.date | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+    {%- endfor %}
+  {%- endfor %}
+
+  {%- assign pages = site.html_pages | where_exp: 'doc', 'doc.sitemap != false' | where_exp: 'doc', 'doc.url != "/404.html"' %}
+  {%- for page in pages %}
+    {%- assign head = page.url | slice: 0, 5 %}
+    {%- if head == "/page" %}{% assign num = page.url | remove_first: "/page" | remove: "/" %}{% assign numcheck = num | plus: 0 | append: "" %}{% if num == numcheck %}{% continue %}{% endif %}{% endif %}
+  <url>
+    <loc>{{ page.url | replace: '/index.html', '/' | absolute_url | xml_escape }}</loc>
+    {%- if page.last_modified_at %}
+    <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+  {%- endfor %}
+
+  {%- assign static_files = site.static_files | where_exp: 'file', 'file.sitemap != false' %}
+  {%- for file in static_files %}
+    {%- unless file.extname == ".htm" or file.extname == ".html" or file.extname == ".xhtml" or file.extname == ".pdf" %}{% continue %}{% endunless %}
+    {%- if file.name == "404.html" %}{% continue %}{% endif %}
+  <url>
+    <loc>{{ file.path | replace: '/index.html', '/' | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
+  </url>
+  {%- endfor %}
+</urlset>

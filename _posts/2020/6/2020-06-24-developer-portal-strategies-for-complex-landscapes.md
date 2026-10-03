@@ -52,7 +52,7 @@ Here are some other resources mentioned during the podcast:
 * [A Role for Developer Portals in Digital Transformation,](https://www.youtube.com/watch?v=54VQ3j4f6yA)
 * [DevPortal Awards](https://devportalawards.org/)
 * [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework)
-* [Facilitating Organization Change: Lessons from Complexity Science](Facilitating Organization Change: Lessons from Complexity Science 1st Edition)
+* Facilitating Organization Change: Lessons from Complexity Science
 * [API the Docs virtual series](https://apithedocs.org/virtual)
 * [Developer portals & API docs newsletter](https://pronovix.us6.list-manage.com/subscribe?u=5756ad9696bad5dc41c7b93f9&id=782d338a0b)
 * [The Design of Web APIs](https://www.manning.com/books/the-design-of-web-apis?a_aid=everyday_apis&a_bid=ad5a0fe0) by [API Handyman](https://apihandyman.io/)

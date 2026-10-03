@@ -191,7 +191,7 @@ Here's a transcript of the discussion.
 
 **Shari**: I don't know I think everybody could have um predicted what was going on right now with Trump and Iran and
 
-**Tom**: Yeah yeah... There's a great SNL skit on this... [Mom confession](youtube.com/watch?v=-wQhY5CMMl4)... A lot of people did predict it... I think I need it.
+**Tom**: Yeah yeah... There's a great SNL skit on this... [Mom confession](http://youtube.com/watch?v=-wQhY5CMMl4)... A lot of people did predict it... I think I need it.
 
 **Tom**: Alright well hey thanks for coming everybody. Hope you have a great rest of your weekend. Enjoyable discussion as always. So thank you. Bye everyone. Take care. Bye.
 

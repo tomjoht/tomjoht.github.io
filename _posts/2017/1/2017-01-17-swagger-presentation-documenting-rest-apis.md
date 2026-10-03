@@ -17,7 +17,7 @@ Here's a description of my Swagger presentation, which was titled "Harnessing th
 
 Here are the [slides](/files/swaggerslides/#/) and the recording:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen></iframe>
 
 {% include ads.html %}
 

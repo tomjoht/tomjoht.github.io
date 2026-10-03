@@ -21,14 +21,14 @@ You can view my OpenAPI 3.0 tutorial here: [OpenAPI 3.0 tutorial overview](/lear
 * [Step 5: components object](/learnapidoc/pubapis_openapi_step5_components_object.html)
 * [Step 6: security object](/learnapidoc/pubapis_openapi_step6_security_object.html)
 * [Step 7: tags object](/learnapidoc/pubapis_openapi_step7_tags_object.html)
-* [Step 8: externalDocs object](/learnapidoc/pubapis_openapi_step8_external_docs_object.html)
+* Step 8: externalDocs object
 
 You can read the full [OpenAPI specification here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md).
 
 You can view the sample [Swagger UI](https://github.com/swagger-api/swagger-ui) output from my OpenAPI specification document in a couple of ways:
 
 * [Swagger UI Demo 1 (standalone)](https://idratherbewriting.com/assets/files/swagger/)
-* [Swagger UI Demo 2 (embedded)](/learnapidoc/pubapis_swagger_embedded.html)
+* Swagger UI Demo 2 (embedded)
 
 Previously, I had some tutorials on Swagger, but none that dived into the nuts and bolts of creating a specification document.
 

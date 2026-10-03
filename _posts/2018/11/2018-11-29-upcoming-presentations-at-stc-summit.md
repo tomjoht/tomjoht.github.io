@@ -25,7 +25,7 @@ Here's the presentation I'm giving at the STC Summit:
 
 See the [Full Schedule](https://summit.stc.org/schedule/) for details.
 
-My preconference workshop is on API documentation. See the [Preconference Workshops](API Documentation Workshop, Tom Johnson) for details. The workshop will cover the same topics as in my [API documentation site](/learnapidoc/).
+My preconference workshop is on API documentation. See the Preconference Workshops for details. The workshop will cover the same topics as in my [API documentation site](/learnapidoc/).
 
 You can learn more about the STC Summit here: [https://summit.stc.org/](https://summit.stc.org).
 

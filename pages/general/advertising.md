@@ -154,7 +154,7 @@ I sent out two newsletters per month to 7,200+ email subscribers. I also post th
 
 <figure><img style="max-width: 600px" src="{{site.media}}/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
 
-These newsletters contain summaries of my latest posts, plus the latest happenings in tech comm, such as articles, tools, issues, or other matters.  You can see a list of recent newsletters on my [newsletter category](/category-newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
+These newsletters contain summaries of my latest posts, plus the latest happenings in tech comm, such as articles, tools, issues, or other matters.  You can see a list of recent newsletters on my [newsletter page](/newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
 
 Each newsletter typically has 4 article summaries + 1 sponsor summary. The sponsor summary is a two-paragraph chunk of text that you provide, describing your product, service, event, etc. Whatever you want the tech writer world to know about, you can share it in this summary. I might lightly edit the summary for style to fit the newsletter.
 

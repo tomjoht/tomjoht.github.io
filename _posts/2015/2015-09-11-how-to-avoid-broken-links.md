@@ -61,7 +61,7 @@ For example, if my sidebar navigation says "Config settings," but the page itsel
 
 ## How I'm approaching link management in Jekyll
 
-Here's the approach I've come up with. I'm briefly summarizing it here, but there's more detail on the [links page in my Jekyll theme](/documentation-theme-jekyll/doc_hyperlinks.html) and in the [Links validation](/documentation-theme-jekyll/doc_link_validation.html) topic.
+Here's the approach I've come up with. I'm briefly summarizing it here, but there's more detail on the [links page in my Jekyll theme](/documentation-theme-jekyll/mydoc_hyperlinks.html) and in the Links validation topic.
 
 By the way, this approach doesn't entirely solve the problem. Ideally, you want to maintain page titles and page URLs in just one place and have those titles and URLs propagate throughout the entire help system. (I just don't think this is possible in Jekyll without a custom plugin.)
 
@@ -101,7 +101,7 @@ The only limitation with the title checker is that the URLs in the sidebar have 
 
 I've also found that, contrary to my general disdain for PDF, generating a PDF is a great way to spot broken links. If the PDF has a cross reference that says "page 0" or "see .", then I know there's a broken link somewhere.
 
-However, getting Prince XML (which is [how I generate PDFs](/documentation-theme-jekyll/doc_generating_pdfs.html)) to render cross references only for links pointing to other topics in the help (and not to external websites, navigation tabs, file downloads, or collapsible sections &mdash; all of which incorporate anchor tags) is tricky, and I'm still fine tuning my style sheets.
+However, getting Prince XML (which is [how I generate PDFs](/documentation-theme-jekyll/mydoc_generating_pdfs.html)) to render cross references only for links pointing to other topics in the help (and not to external websites, navigation tabs, file downloads, or collapsible sections &mdash; all of which incorporate anchor tags) is tricky, and I'm still fine tuning my style sheets.
 
 ## Designing a beautiful 404 page
 

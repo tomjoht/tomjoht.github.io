@@ -1,0 +1,21 @@
+{%- comment -%}
+  Body of a per-year llms.txt index (llms/posts-YYYY.txt). The root /llms.txt links to one
+  of these files per year, so agents (and AFDocs coverage checks) can reach every post
+  without the root file growing past a single fetch. Each stub sets `year` in front matter.
+  Years with too many posts for one fetch are split in two, with `half: 1` (January to June)
+  or `half: 2` (July to December). Posts whose URL already contains the date skip the date.
+{%- endcomment -%}
+{%- assign year = include.year | append: "" -%}
+{%- assign half = include.half | plus: 0 -%}
+{%- if half == 1 %}{% assign span = "January to June " | append: year %}{% elsif half == 2 %}{% assign span = "July to December " | append: year %}{% else %}{% assign span = year %}{% endif -%}
+{%- capture yearpath %}/{{ year }}/{% endcapture -%}
+# I'd Rather Be Writing: blog posts from {{ span }}
+
+> Every post published on idratherbewriting.com from {{ span }}, newest first. Posts reflect the tools and assumptions of their moment, so check the date before treating one as current guidance. The site-wide index is at {{ site.url }}/llms.txt. Markdown versions of all pages are available by appending .md to any page URL.
+
+## Posts from {{ span }}
+{% for post in site.posts %}{% assign postyear = post.date | date: "%Y" %}{% assign postmonth = post.date | date: "%m" | plus: 0 %}
+{%- if half == 1 and postmonth > 6 %}{% continue %}{% endif %}{% if half == 2 and postmonth < 7 %}{% continue %}{% endif %}
+{%- if postyear == year and post.sitemap != false %}
+- [{{ post.title | strip_html | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "[", "(" | replace: "]", ")" }}]({{ post.url | prepend: site.url }}){% unless post.url contains yearpath %} ({{ post.date | date: "%Y-%m-%d" }}){% endunless %}
+{%- endif %}{% endfor %}

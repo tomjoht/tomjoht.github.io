@@ -10,7 +10,7 @@ myseries:
 - title: Trends to follow or forget
   url: /trends/trends-to-follow-or-forget-intro.html
 - title: Journey away from smartphones
-  url: /smartphones/overview.html
+  url: /smartphones/index.html
 - title: A hypothesis about influence on the web and the workplace
   url: /web-and-workplace-influence/part1-introduction-to-influencers.html
 - title: Mobility

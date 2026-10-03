@@ -68,7 +68,7 @@ More than anything, I want the collection of essays to provide meaningful change
 
 ## Long-term focus
 
-I recognize that writing a book might be a multi-year battle, and that I can't just knock it out in one round. Sometimes ideas need to percolate on the back burner while I get more distance, maturity, and perspective. This is why I've chosen to rotate between two series. The other series I'm working on is the [fizzled trends series](trends/trends-to-follow-or-forget-intro.html), which morphed into systems thinking. I also hit a roadblock in that series, finding that big picture thinking that crosses multiple organizational groups gets little budgetary support. So I'm working through that problem as well.
+I recognize that writing a book might be a multi-year battle, and that I can't just knock it out in one round. Sometimes ideas need to percolate on the back burner while I get more distance, maturity, and perspective. This is why I've chosen to rotate between two series. The other series I'm working on is the [fizzled trends series](/trends/trends-to-follow-or-forget-intro.html), which morphed into systems thinking. I also hit a roadblock in that series, finding that big picture thinking that crosses multiple organizational groups gets little budgetary support. So I'm working through that problem as well.
 
 ## Conclusion
 

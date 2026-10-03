@@ -14,7 +14,7 @@ weight: 1.3
 
 {% include toc.html %}
 
-<p>This is a post in my on-going <a href="https://idratherbewriting.com/series/user-centered-documentation/">series on user-centered documentation</a>.</p>
+<p>This is a post in my on-going series on user-centered documentation.</p>
 <p>I usually write a series of posts, and then create a slide presentation summarizing my insights at the end. Then I usually give the presentation at some venue.</p>
 <p>Well, I didn't have time to write out the posts before giving the presentation this time, so I actually have the slides already prepared. You can view the user-centered documentation slides here.</p>
 <p><a href="https://idratherbewriting.com/files/user-centered-documentation"><img src="{{site.media}}/ucdthumb.png" alt="user-centered documentation" width="350" height="283" class="alignnone size-full wp-image-22705" /></a></p>

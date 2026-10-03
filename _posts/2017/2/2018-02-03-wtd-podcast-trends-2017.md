@@ -17,7 +17,7 @@ description: "In this episode of the Write the Docs podcast, we discuss top tech
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/aiZTc6dffng" frameborder="0" allowfullscreen></iframe>
 
-To subscribe to the Write the Docs podcast, see [http://podcast.writethedocs.org/](podcast.writethedocs.org/).
+To subscribe to the Write the Docs podcast, see [http://podcast.writethedocs.org/](http://podcast.writethedocs.org/).
 
 {% include ads.html %}
 

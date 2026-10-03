@@ -37,7 +37,7 @@ In an insightful post about 2016 trends, Shaun McCance, who runs [Open Help conf
 
 ### 4. Write the Docs meetup groups proliferate over STC (2016)
 
-[Write the Docs](http://www.writethedocs.org/) continued to gain momentum during 2016. In Eric Holscher's [2016 Year in Review](http://www.writethedocs.org/blog/write-the-docs-2016-year-in-review/), Eric mentions thriving statistics for the conferences, Slack group, meetups, and even [podcast](http://podcast.writethedocs.org]). Write the Docs is on an upward trajectory and will continue to gain popularity, while the paid membership model of the [STC](https://www.stc.org/) remains stagnant.
+[Write the Docs](http://www.writethedocs.org/) continued to gain momentum during 2016. In Eric Holscher's [2016 Year in Review](http://www.writethedocs.org/blog/write-the-docs-2016-year-in-review/), Eric mentions thriving statistics for the conferences, Slack group, meetups, and even [podcast](http://podcast.writethedocs.org). Write the Docs is on an upward trajectory and will continue to gain popularity, while the paid membership model of the [STC](https://www.stc.org/) remains stagnant.
 
 Perhaps most important is the [Write the Docs Slack group](http://slack.writethedocs.org/), which has become the technical writer's watercooler on the Internet, replacing other social media spaces, such as Twitter, for tech writers.
 

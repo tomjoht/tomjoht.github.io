@@ -54,7 +54,7 @@ Someone told me that whenever you introduce metrics, the focus shifts to ways to
 
 But how much weight per criteria, and how do you apply the weight to the score? In my revision, I included weights ranging from 1-3 that get multiplied by the score (0-5). This means that for more important criteria in the docs, their score can be 15, while less important criteria can score only 5. If you need to omit one of the criteria because it doesn't apply, put its weight as 0 in the spreadsheet. This will remove it from the overall score calculations.
 
-Because weighting is a highly subjective area, in [the spreadsheet templates I created for calculating scores](/learnapidoc/docapis_metrics_templates.html), you can easily adjust the weighting as you see fit and the other calculations will follow.
+Because weighting is a highly subjective area, in the spreadsheet templates I created for calculating scores, you can easily adjust the weighting as you see fit and the other calculations will follow.
 
 ## Observation 8: Checklists aren't scannable
 

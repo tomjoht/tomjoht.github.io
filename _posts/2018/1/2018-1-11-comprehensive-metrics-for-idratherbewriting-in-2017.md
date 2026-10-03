@@ -153,7 +153,7 @@ These are the top 10 pages on my [API documentation site](/learnapidoc/).
 * [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (1,954 words, graphics)
 * [Documenting APIs: A guide for technical writers](/learnapidoc/) (1,265 words, graphics)
 * [Submit requests through Postman](/learnapidoc/docapis_postman.html) (1,371 words, graphics)
-* [Introduction to the OpenAPI specification and Swagger](/learnapidoc/pubapis_swagger_intro.html) (3,997 words, graphics)
+* [Introduction to the OpenAPI specification and Swagger](/learnapidoc/pubapis_swagger.html) (3,997 words, graphics)
 * [Overview of REST API specification formats](/learnapidoc/pubapis_rest_specification_formats.html) (566 words)
 * [Use the JSON from the response payload](/learnapidoc/docapis_json_console.html) (1,008 words, graphics)
 * [Flickr example: Retrieve a Flickr gallery](/learnapidoc/docapis_flickr_example.html) (1,256 words, graphics)
@@ -216,7 +216,7 @@ In 2017, my [API documentation site](/learnapidoc/) received 309,000 visits out 
 There are 35,408 backlinks pointing to my site. Pages with the most links pointing to them are as follows:
 
 * [I'd Rather Be Writing (homepage)](/)	(18,876 backlinks, not a post)
-* [Jekyll category](/category-jekyll/	2,466	 backlinks) (not a post)
+* [Jekyll category](/category-jekyll/)	(2,466 backlinks, not a post)
 * [Jekyll Documentation Theme](/documentation-theme-jekyll/)	(1,151 backlinks, 2,576 words)
 * [Misconceptions about Topic-Based Authoring](/2012/07/31/misconceptions-about-topic-based-authoring/)	(703	backlinks, 1,970 words)
 * [Why is TC Camp's unconference format so popular? Interview with Liz Fraley, TC Camp Founder](/2017/12/22/tc-camp-unconference-interview-with-liz-fraley/)	(359 backlinks, 1,739 words)
@@ -298,11 +298,11 @@ These topics seem to matter most to technical communicators:
 
 Why these topics? Maybe just as end-users search for answers related to their "pain points," tech comm readers also search for answers to their pain points. Perhaps we have questions, challenges, or other issues with these topics that make them particularly [painfully] relevant.
 
-[Agile](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) is a hot button for tech writers, probably because of all the problems tech writers face in trying to integrate into the agile flow. [Swagger and OpenAPI specifications](/learnapidoc/pubapis_swagger_intro.html) are hot topics too because they are confusing and difficult to implement. Writers care about [language and simplicity](/2017/09/20/plain-language-ruined-my-delight-in-language/) yet probably struggle to capture the readability they feel capable of achieving. [Topics for beginners](/category-beginners/) are also popular no doubt because of the difficulty of breaking into the field.
+[Agile](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) is a hot button for tech writers, probably because of all the problems tech writers face in trying to integrate into the agile flow. [Swagger and OpenAPI specifications](/learnapidoc/pubapis_swagger.html) are hot topics too because they are confusing and difficult to implement. Writers care about [language and simplicity](/2017/09/20/plain-language-ruined-my-delight-in-language/) yet probably struggle to capture the readability they feel capable of achieving. [Topics for beginners](/category-beginners/) are also popular no doubt because of the difficulty of breaking into the field.
 
 (By the way, analytics data explains "what is," not "why." We supply the reasoning behind the data mostly through speculation.)
 
-Given the popularity of these topics, should I focus my blog more squarely on these topics of high interest? If I wanted to increase site traffic, these techniques might build more readership, more search results clicks, and more overall visits. Throughout 2017, based on [learnings from 2016](/2017/01/17/trends-2017-swagger-all-the-way/), I did massively rewrite and expand on the [Swagger](/learnapidoc/pubapis_swagger_intro.html) and [OpenAPI content](/learnapidoc/pubapis_openapi_tutorial_overview.html) in my API doc site. I focused a bit on [agile](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) and [trends](/2017/01/28/technical-writing-trends-for-2017/) as well in blog posts.
+Given the popularity of these topics, should I focus my blog more squarely on these topics of high interest? If I wanted to increase site traffic, these techniques might build more readership, more search results clicks, and more overall visits. Throughout 2017, based on [learnings from 2016](/2017/01/17/trends-2017-swagger-all-the-way/), I did massively rewrite and expand on the [Swagger](/learnapidoc/pubapis_swagger.html) and [OpenAPI content](/learnapidoc/pubapis_openapi_tutorial_overview.html) in my API doc site. I focused a bit on [agile](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) and [trends](/2017/01/28/technical-writing-trends-for-2017/) as well in blog posts.
 
 But if I only write towards what's popular, the trajectory of my content becomes more like an annoying tennis game where the players move one step closer to each other with each hit. For example, suppose based on my metrics, I write about what gets the most hits &mdash; trends. The new trends post goes viral and drives more traffic. I write another post on trends. Bang, even more hits. Now I'm getting asked to speak on trends and people perceive me as a trends expert. In time, my blog is now reframed as "Technical Writing Trends." When people think of technical writing trends, they think of Tom Johnson. Is that what I want? Which audience am I writing for? And what audience am I missing by not addressing other topics? What about all the readers for, say, science communication?
 

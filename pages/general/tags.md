@@ -46,7 +46,7 @@ mytags:
 - title: Simplifying Complexity
   url: /simplifying-complexity
 - title: Technical writing (general)
-  url: /technical-writing
+  url: /category-technical-writing/
 - title: User-centered documentation
   url: /category-user-centered-documentation/
 - title: Video

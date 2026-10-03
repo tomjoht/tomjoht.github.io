@@ -76,5 +76,8 @@ folders:
   - title: "Mining users' AI chat sessions: gaps and forensics"
     jurl: /ai/product-skills-chat-analysis.html
 
+  - title: "Making fixes from logs"
+    jurl: /ai/product-skills-fixes-from-logs.html
+
   - title: "Reimagining the documentation experience"
     jurl: /ai/product-skills-reimagining-docs.html

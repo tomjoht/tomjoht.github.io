@@ -29,7 +29,7 @@ The Writers output is a slightly scaled back version of the same content (elimin
 
 {% include ads.html %}
 
-The [Getting started page](/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
+The Getting started page in the theme explains how to build the two outputs.
 
 ## Prominent theme features
 
@@ -51,9 +51,9 @@ For a more detailed list of supported features, see [Supported features](https:/
 
 ## Getting started
 
-To get started using the theme, see [Getting started with this theme](/documentation-theme-jekyll/doc_getting_started.html).
+To get started using the theme, see Getting started with this theme.
 
-Then see [Setting configuration options](/documentation-theme-jekyll/doc_configuration_settings.html) and [Customizing the theme](/documentation-theme-jekyll/doc_customizing_the_theme.html).
+Then see Setting configuration options and Customizing the theme.
 
 ## Comparing this Jekyll theme to HATs and DITA
 

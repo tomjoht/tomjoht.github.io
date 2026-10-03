@@ -21,7 +21,7 @@ redirect_from:
 
 ## Workshop activities
 
-The activities we followed in the workshop are listed on the [Workshop activities](/learnapidoc/workshop-activities.html) page in my [API documentation course](/learnapidoc/).
+The activities we followed in the workshop are listed on the Workshop activities page in my [API documentation course](/learnapidoc/).
 
 ## Video recordings
 

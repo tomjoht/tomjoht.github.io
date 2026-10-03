@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: /llms/posts-2016.txt
+search: false
+sitemap: false
+year: "2016"
+---
+{% include llms_posts_year.txt year=page.year %}

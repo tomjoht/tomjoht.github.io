@@ -29,11 +29,10 @@ Content is authored in Markdown and published with Jekyll. Everything is free to
 - [Documenting APIs course]({{ site.url }}/learnapidoc/): A 17-chapter course on writing API documentation, with hands-on activities
 - [AI courses hub]({{ site.url }}/ai/index.html): Three self-contained courses on AI and technical communication
 - [Series index]({{ site.url }}/series/): Multi-part post series grouped by topic
-- [All posts by year]({{ site.url }}/all/): Complete archive of every post
 
 ## Documenting APIs course
 
-A free, book-length course on API documentation for technical writers and engineers. Covers REST API concepts, using an API like a developer, documenting endpoints, the OpenAPI specification, testing docs, conceptual topics, code tutorials, publishing, and career topics. Includes hands-on activities against real APIs.
+A free, book-length course on API documentation for technical writers and engineers. Covers REST API concepts, using an API like a developer, documenting endpoints, the OpenAPI specification, testing docs, conceptual topics, code tutorials, publishing, and career topics. Includes hands-on activities against real APIs. The chapters are listed below, and every individual topic is listed in the courses-and-pages index under Full archive indexes.
 {% for folder in docapis.folders %}
 - [{{ folder.title }}]({{ folder.landing | prepend: site.url }}): {% if folder.tiledesc %}{{ folder.tiledesc | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "&nbsp;", " " }}{% else %}{{ folder.description | strip_newlines | strip | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' | replace: "&nbsp;", " " | truncate: 220 }}{% endif %}
 {%- endfor %}
@@ -89,24 +88,34 @@ Multi-part series written over the years. Each varies in length.
 - [Advertising]({{ site.url }}/advertising/): Sponsorship information
 - [Copyright and reuse]({{ site.url }}/copyright/): Licensing terms for this content
 
+## Full archive indexes
+
+This file lists the courses and recent posts. These secondary indexes list everything else, so together they cover every page on the site. Each one fits in a single fetch.
+
+- [Courses, series, and pages]({{ site.url }}/llms/pages.txt): Every course topic, series page, and standalone page, grouped by section
+{%- comment %}Each year needs a stub file at llms/posts-YYYY.txt. Copy last year's stub when the first post of a new year goes up. Years listed in splityears have two stubs instead (posts-YYYY-1.txt and posts-YYYY-2.txt), because one file would be too long for a single fetch.{% endcomment %}
+{%- assign splityears = "2007,2009" | split: "," %}
+{%- assign newestyear = site.posts.first.date | date: "%Y" | plus: 0 %}
+{%- for y in (2006..newestyear) reversed %}{% assign ys = y | append: "" %}
+{%- if splityears contains ys %}
+- [Blog posts from July to December {{ y }}]({{ site.url }}/llms/posts-{{ y }}-2.txt)
+- [Blog posts from January to June {{ y }}]({{ site.url }}/llms/posts-{{ y }}-1.txt)
+{%- else %}
+- [Blog posts from {{ y }}]({{ site.url }}/llms/posts-{{ y }}.txt)
+{%- endif %}
+{%- endfor %}
+
 ## Optional
 
-Bulk indexes and archives. Skip these if you need a shorter context.
+Bulk indexes and archives. Skip these if you need a shorter context. Machine-readable feeds are also available: the XML sitemap at `{{ site.url }}/sitemap.xml`, the RSS feed at `{{ site.url }}/feed.xml`, and the podcast feed at `{{ site.url }}/itunes.rss`.
 
-- [XML sitemap]({{ site.url }}/sitemap.xml): Machine-readable URL list
-- [RSS feed]({{ site.url }}/feed.xml): Latest posts
-- [Podcast RSS feed]({{ site.url }}/itunes.rss): Podcast episodes
-- [All posts by year]({{ site.url }}/all/): Every post, grouped by year
 - [Tags]({{ site.url }}/tags/): Posts grouped by tag
 - [Journey away from smartphones]({{ site.url }}/smartphones/index.html): Series on reducing smartphone dependence
 - [Rereading Zen and the Art of Motorcycle Maintenance]({{ site.url }}/zamm/why-reread-zen-and-art-of-motorcycle-maintenance.html): Chapter-by-chapter reflections
 
 ### Blog categories
-{% for cat in site.data.tags.categories %}
+{% comment %}podcasts only redirects to /podcasts/, and technical-writing lists over 1,000 posts, which is too long for one fetch. The per-year indexes above cover both.{% endcomment %}
+{%- for cat in site.data.tags.categories %}{% if cat == "podcasts" or cat == "technical-writing" %}{% continue %}{% endif %}
 - [{{ cat }}]({{ site.url }}/category-{{ cat }}/)
 {%- endfor %}
 
-### Documenting APIs course — all topics
-{% for folder in docapis.folders %}{% for item in folder.folderitems %}
-- [{{ item.title | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' }}]({{ item.jurl | prepend: site.url }})
-{%- endfor %}{% endfor %}

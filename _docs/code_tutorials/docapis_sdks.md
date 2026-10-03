@@ -88,7 +88,7 @@ As I mentioned earlier, it's unlikely that you'll be able to contribute signific
 
 If engineers tell you that users should know X, don't just submit to their judgment out of ignorance with the language. Instead, find some developers in that language (even internal engineers in other groups) to test the documentation against. If those users push back and say they need more detail, you can interface with the engineering team to provide it.
 
-Without more familiarity with the language of the SDK, technical writers act more as mediators between the engineering authors and the engineering users. Technical writers identify and fill gaps in the documentation, and they often manage the publishing and distribution of the docs. But the content itself might be too technical for most technical writers to play a content authoring role. (I explored this topic in depth in an essay in my Simplifying Complexity series called [Be both a generalist and specialist through your technical acuity](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html).)
+Without more familiarity with the language of the SDK, technical writers act more as mediators between the engineering authors and the engineering users. Technical writers identify and fill gaps in the documentation, and they often manage the publishing and distribution of the docs. But the content itself might be too technical for most technical writers to play a content authoring role. (I explored this topic in depth in an essay in my Simplifying Complexity series called [Be both a generalist and specialist through your technical acuity](/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html).)
 
 ### Amazon SDK
 

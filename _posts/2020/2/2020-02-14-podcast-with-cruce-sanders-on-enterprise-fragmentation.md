@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/enterprisevsagilepodcast
-description: "Cruce Sanders at <a href='simplea.com'>[A]</a> recently interviewed me for his podcast series <i>Towards a Smarter World</i>. The episode is called <a href='https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem'>Unifying Technical Content Sets into a Broader Ecosystem</a>, and we chat about some issues I wrote in an earlier article about agile teams and enterprise content strategy."
+description: "Cruce Sanders at <a href='http://simplea.com'>[A]</a> recently interviewed me for his podcast series <i>Towards a Smarter World</i>. The episode is called <a href='https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem'>Unifying Technical Content Sets into a Broader Ecosystem</a>, and we chat about some issues I wrote in an earlier article about agile teams and enterprise content strategy."
 ---
 
 * TOC

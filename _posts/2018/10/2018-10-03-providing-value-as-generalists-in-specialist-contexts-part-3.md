@@ -131,7 +131,7 @@ Again, this approach dramatically simplifies the authoring and editing of catalo
 
 ## Using specifications
 
-Specifications are just a structure that has been adopted as a standard. One application particularly relevant to API design is the [OpenAPI specification](/learnapidoc/pubapis_swagger_intro.html) (aka Swagger), which is a standardized way of describing a REST API that follows a specific JSON or YAML structure. Most developers I’ve worked with have little knowledge or understanding of OpenAPI or its benefits.
+Specifications are just a structure that has been adopted as a standard. One application particularly relevant to API design is the [OpenAPI specification](/learnapidoc/pubapis_swagger.html) (aka Swagger), which is a standardized way of describing a REST API that follows a specific JSON or YAML structure. Most developers I’ve worked with have little knowledge or understanding of OpenAPI or its benefits.
 
 When developers create a new API, they often start drafting all the details in a wiki page, often with a massive table that scrolls horizontally in unwieldy ways. Few developers are aware that there’s an entire specification developed for web APIs &mdash; the OpenAPI specification.
 

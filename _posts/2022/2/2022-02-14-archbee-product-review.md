@@ -72,7 +72,7 @@ In contrast, the Archbee editor lets you immerse yourself entirely in the conten
 
 ## Ease of writing allows more to participate {#ease-of-writing-allows-more-to-participate}
 
-The easier it is to write, the more diverse roles will participate in content development and publishing. This is why Archbee would also work well as an internal wiki, knowledgebase, or other enterprise-wide tool. There are a [number of integrations](archbee.io/integrations){:rel="nofollow"} that make it even more suited for internal docs, such as the Jira integration, Trello integration, and Slack integration.
+The easier it is to write, the more diverse roles will participate in content development and publishing. This is why Archbee would also work well as an internal wiki, knowledgebase, or other enterprise-wide tool. There are a [number of integrations](http://archbee.io/integrations){:rel="nofollow"} that make it even more suited for internal docs, such as the Jira integration, Trello integration, and Slack integration.
 
 The social awareness layer to the content in Archbee makes it great for project collaboration. You can tag or mention people in the document (which sends them a notification). You can comment on specific lines, reply to comments, and more. And you can view version history to see all changes over time to content, or see all documents that link to a document (a knowledge graph). You can use a collaborative whiteboard through [Miro](https://docs.archbee.io/demo/miro){:rel="nofollow"} embeds, or draw diagrams in real-time with [native diagrams](https://docs.archbee.io/demo/native-diagrams){:rel="nofollow"}. With these interactive qualities, Archbee has good support for documentation review workflows. It also empowers internal teams to describe and document their products.
 
@@ -100,7 +100,7 @@ If there's a killer feature that will incentivize tech writers to go through the
 
 ## More resources and the story behind the name {#more-resources-and-the-story-behind-the-name}
 
-There are many topics I haven't covered here. To get more info, see the [Archbee documentation](https://docs.archbee.io/){:rel="nofollow"}, which also demonstrates what's possible with the platform. Also, check out [Built with Archbee](archbee.io/built-with-archbee){:rel="nofollow"} to browse many live doc sites built with Archbee.
+There are many topics I haven't covered here. To get more info, see the [Archbee documentation](https://docs.archbee.io/){:rel="nofollow"}, which also demonstrates what's possible with the platform. Also, check out [Built with Archbee](http://archbee.io/built-with-archbee){:rel="nofollow"} to browse many live doc sites built with Archbee.
 
 One detail I forgot to mention &mdash; the story behind the name “Archbee.” The project started as an internal tool to help development groups consolidate and share information for projects (see [Archbee Raises $1 Million To Help Developers Manage Secret Sauce](https://www.forbes.com/sites/davidprosser/2021/07/19/archbee-raises-1m-to-help-developers-manage-secret-sauce/?sh=4b34327e6379)). Some of these assets were architectural diagrams (Archbee has native support to render [Mermaid diagrams](https://docs.archbee.io/mermaid-diagrams){:rel="nofollow"} as well as its own [built-in diagrams](https://docs.archbee.io/native-diagrams){:rel="nofollow"}.) “Architecture” is where the “arch” comes from. The “bee” refers to the collaborative aspect of content creation, where multiple people interact in the same working space. Put _architecture_ and _bee_ together and you have Archbee.
 

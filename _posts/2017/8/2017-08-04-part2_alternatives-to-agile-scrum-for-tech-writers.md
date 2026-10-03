@@ -242,7 +242,7 @@ But if you're going about it all on your own, it will be easy to discard element
 If you'd like to read more about tech comm and Scrum, see the following:
 
 * [Agile and Tech Comm: Writer Challenges in Scrum and Traditional Development Teams](https://techwhirl.com/scrum-and-tech-comm-writer-challenges-development-teams/)
-* [How can technical writers thrive in Scrum environments? Event recording and details](/2016/09/20/thriving-in-Scrum-environments-as-technical-writers/)
+* [How can technical writers thrive in Scrum environments? Event recording and details](/2016/09/20/thriving-in-agile-environments-as-technical-writers/)
 * [Manifesto for Scrum Software Development](http://scrummanifesto.org/)
 [Principles behind the Scrum Manifesto](http://scrummanifesto.org/principles.html)
 * [The Scrum technical writer](https://ffeathers.wordpress.com/2008/01/20/the-Scrum-technical-writer/)

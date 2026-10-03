@@ -115,11 +115,11 @@ Markdown syntax is limiting. Its simplicity is also its strength, since it allow
 
 [2]: http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/
 
-[3]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/
+[3]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts.html
 
-[4]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/#callouts
+[4]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts.html#callouts
 
-[5]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_images/
+[5]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_images.html
 
 [6]: https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/
 

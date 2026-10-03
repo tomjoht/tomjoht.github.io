@@ -53,7 +53,7 @@ It was clear to me then that the problem does not exist only for developer porta
 
 ### Can you import an OpenAPI specification file?
 
-We have support for [OpenAPI 2.0/Swagger specification files](/learnapidoc/pubapis_swagger_intro.html), and OpenAPI 3.0 support is upcoming in early 2020. The [references created by DeveloperHub](https://docs.developerhub.io/support-center/api-references){:rel="nofollow"} are beautiful and the information is laid out clearly in a three-column layout. The third column, for code examples, contains [auto-generated requests](https://docs.developerhub.io/support-center/code-generation){:rel="nofollow"} using different libraries, and auto-generated responses if they were not specified in the spec file.
+We have support for [OpenAPI 2.0/Swagger specification files](/learnapidoc/pubapis_swagger.html), and OpenAPI 3.0 support is upcoming in early 2020. The [references created by DeveloperHub](https://docs.developerhub.io/support-center/api-references){:rel="nofollow"} are beautiful and the information is laid out clearly in a three-column layout. The third column, for code examples, contains [auto-generated requests](https://docs.developerhub.io/support-center/code-generation){:rel="nofollow"} using different libraries, and auto-generated responses if they were not specified in the spec file.
 
 Here's an example of an API reference topic:
 

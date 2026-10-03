@@ -96,7 +96,7 @@ In the same way, if you go into IKEA and you want to buy some cubby bins, the st
 
 In much the same way, there's a sense of dread at having to watch a 20-minute tutorial on how to draw a cat just to get to the 30 seconds of relevant information about how to draw the white reflection in the pupils.
 
-In the [Narrative Workflow Topics](2013/09/12/narrative-workflow-topics-helping-users-connect-the-dots-among-topics/) post, I took the approach of narrating a short story that described the users tasks in sequence, and then linked each of the tasks to the supporting documentation. It was my attempt to balance modularity with more of an end-to-end picture. Granted, each of these links probably distracted users and ruined any sense of reading flow.
+In the [Narrative Workflow Topics](/2013/09/12/narrative-workflow-topics-helping-users-connect-the-dots-among-topics/) post, I took the approach of narrating a short story that described the users tasks in sequence, and then linked each of the tasks to the supporting documentation. It was my attempt to balance modularity with more of an end-to-end picture. Granted, each of these links probably distracted users and ruined any sense of reading flow.
 
 I wrote these posts a decade ago and haven't done much with the ideas since then. Part of the abandonment probably occurred with my shift into API documentation. In API docs, one treats the various endpoints as ingredients in a kitchen that can be used for myriad baking purposes. Hence the idea of a single user journey makes less sense. You can use the APIs in so many different combinations and workflows, it's undesirable to to restrict the creativity and flexibility of how users would implement the API.
 

@@ -25,7 +25,7 @@ For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast,
 * [Transforming Developer and Support Documentation with Docs Like Code](https://blog.rackspace.com/transforming-developer-and-support-documentation-with-docs-like-code)
 * [Announcing: Docs Like Code](https://justwriteclick.com/2017/02/28/announcing-docs-like-code/)
 * [Docs like Code book site](http://docslikecode.com/book/)
-* [Remodeling Documentation](Remodeling documentation)
+* Remodeling Documentation
 
 {% include ads.html %}
 

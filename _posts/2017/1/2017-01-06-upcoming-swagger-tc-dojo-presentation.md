@@ -30,4 +30,4 @@ The TC Dojo presentation is sponsored by [Single-Sourcing Solutions](http://sing
 
 **Jan 10, 2017 update**: If you missed the presentation, you can watch it here:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen></iframe>

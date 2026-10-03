@@ -42,7 +42,7 @@ Converting the Jekyll theme into a multi-author solution is a huge paradigm shif
 
 ## URL generator
 
-There's a URL generator file that makes it easier to create and maintain links to other files. In the generator output, the urls_mydoc.txt file contains code that iterates over the links in the sidebar and top nav, and puts the link formatting into a YAML file. Here's the [result](/documentation-theme-jekyll/urls_mydoc.txt).
+There's a URL generator file that makes it easier to create and maintain links to other files. In the generator output, the urls_mydoc.txt file contains code that iterates over the links in the sidebar and top nav, and puts the link formatting into a YAML file. Here's the result.
 
 Just copy the output from this file into a data file internally in your \_data folder. (I wish I could avoid this step and just generate the YAML directly inside the theme, but I haven't figure out how to do that yet...)
 
@@ -50,7 +50,7 @@ To link to a page, you just reference a YAML value in a data file. You can eithe
 
 ## Title checker
 
-To make sure the titles in the sidebar correspond with page names, there's a title checker in the root directory. In the output, browse to the title-checker.html page in your browser. Here's [an example](/documentation-theme-jekyll/title-checker.html).
+To make sure the titles in the sidebar correspond with page names, there's a title checker in the root directory. In the output, browse to the title-checker.html page in your browser. Here's an example.
 
 If a page name conflicts with the sidebar name in the title, the checker tells you there's an inconsistency. It will say something like this:
 
@@ -74,7 +74,7 @@ Links to external sites have a pop-out icon next to them. This is just a simple 
 
 ## More detailed getting started section
 
-The instructions for getting started are updated. See the [Getting started](/documentation-theme-jekyll/mydoc_getting_started) section.
+The instructions for getting started are updated. See the Getting started section.
 
 ## Syntax highlighting preserved in PDF output
 

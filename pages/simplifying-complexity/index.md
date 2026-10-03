@@ -31,7 +31,7 @@ To get started, you can read the topics in any order, as they are self-contained
 
 ## Who am I?
 
-I'm currently a senior technical writer Amazon in Sunnyvale, California. I'm best known for my blog [https://idratherbewriting.com](https://idratherbewriting.com), where I post regularly on tech comm topics and have one of the largest followings of technical communicators online. Additionally, I've created an extensive [web API documentation course](http:/idratherbewriting.com/learnapidoc/) that has helped hundreds of technical writers transition into API documentation.
+I'm currently a senior technical writer Amazon in Sunnyvale, California. I'm best known for my blog [https://idratherbewriting.com](https://idratherbewriting.com), where I post regularly on tech comm topics and have one of the largest followings of technical communicators online. Additionally, I've created an extensive [web API documentation course](https://idratherbewriting.com/learnapidoc/) that has helped hundreds of technical writers transition into API documentation.
 
 Lately I've been working on a series of essays around Simplifying Complexity &mdash; published on this site &mdash; because I believe this topic is core to increasing value in our discipline. I have given more than [100 presentations](/presentations) over the past decade at various tech comm events. I'm always open to trying new things, and I enjoy exploring and discussing ways to innovate in the tech comm space. Feel free to [contact me](/contact/) with any questions or thoughts.
 

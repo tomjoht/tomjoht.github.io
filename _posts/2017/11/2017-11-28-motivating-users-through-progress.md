@@ -95,7 +95,7 @@ To this end, I recently created several activities more designed for users to bu
 * [Activity: Find an Open Source Project ](/learnapidoc/docapis_find_open_source_project.html)
 * [Activity: Critique or create an API reference topic](/learnapidoc/docapis_api_reference_activity.html)
 * [Activity: Create an OpenAPI specification document](/learnapidoc/pubapis_openapi_activity.html)
-* [Activity: Create your own Swagger UI display](/learnapidoc/pubapis_swagger_ui_activity.html)
+* [Activity: Create your own Swagger UI display](/learnapidoc/pubapis_swagger.html)
 
 With each new piece in their portfolio, users grow one step closer to their goal. The compilation of the portfolio will establish their credibility and marketability. Ultimately, it can help them either move into API doc (or figure out much earlier in the course whether they're suited for this specialization).
 

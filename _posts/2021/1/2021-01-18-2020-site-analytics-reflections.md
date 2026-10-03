@@ -71,7 +71,7 @@ In 2019, traffic to my [API doc site](/learnapidoc/) accounted for 72% of my ove
 
 In 2019, my most popular site was this [Swagger tutorial](/learnapidoc/pubapis_swagger.html). Now it's a page about [Parameters](/learnapidoc/docapis_doc_parameters.html). Overall, the most popular pages in the API doc site involve topics for documenting REST APIs and using related tools. I listed out the [top 10 pages here](/analytics/#top-ten).
 
-In 2020, I added an lengthy section on [documentation processes](/learnapidoc/docapis_managing_doc_processes_and_developer_portals.html). These pages haven't been as popular as the pages about [reference docs](learnapidoc/docendpoints.html) and related tools, but this is expected. Processes are more abstract and high-level, with a lot of differences from company to company about whether they even apply.
+In 2020, I added an lengthy section on [documentation processes](/learnapidoc/docapis_managing_doc_processes.html). These pages haven't been as popular as the pages about [reference docs](/learnapidoc/docendpoints.html) and related tools, but this is expected. Processes are more abstract and high-level, with a lot of differences from company to company about whether they even apply.
 
 ## Any observations about trends?
 
@@ -104,7 +104,7 @@ Also, I've realized that the content basically goes out of date on a yearly basi
 
 ## Site design
 
-Technically, [idratherbewriting.com](/) (aka, "the blog") and [idratherbewriting.com/learnapidoc](/learnapidoc/) (aka, the "API doc site") are two different Jekyll sites (built with [GitHub Pages](https://pages.github.com/)). The former is generated from the [tomjoht.io repo](https://github.com/tomjoht/tomjoht.github.io) while the latter is generated from my [learnapidoc repo](/https://github.com/tomjoht/learnapidoc).
+Technically, [idratherbewriting.com](/) (aka, "the blog") and [idratherbewriting.com/learnapidoc](/learnapidoc/) (aka, the "API doc site") are two different Jekyll sites (built with [GitHub Pages](https://pages.github.com/)). The former is generated from the [tomjoht.io repo](https://github.com/tomjoht/tomjoht.github.io) while the latter is generated from my [learnapidoc repo](https://github.com/tomjoht/learnapidoc).
 
 Even though they're separate repos, Google's search doesn't seem to care or notice (it treats it as one site in analytics analytics anyway), and the two sites are somewhat seamless. Even so, the theme code bases are entirely separate, as are the Algolia search indexes. At one time my [Simplifying Complexity](/simplifying-complexity/) series was its own Jekyll site too, but I grew tired of maintaining three sites and so folded it into the blog. I don't think readers noticed. Github's repo architecture is pretty neat that way. If I were using a Jekyll theme stored in a Ruby gem, I could easily segment my content into many small repos without duplicating theme files. But the themes have too many differences right now to use the same source.
 

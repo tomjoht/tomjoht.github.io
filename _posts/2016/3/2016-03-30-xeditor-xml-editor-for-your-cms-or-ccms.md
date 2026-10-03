@@ -10,7 +10,7 @@ image: thumbnails/xeditorthumbscreen.png
 * TOC
 {:toc}
 
-{{site.data.alerts.tip}} For more up-to-date information about Xeditor, see this 2021 post: [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](/blog/xeditor-question-and-answer/).{{site.data.alerts.end}}
+{{site.data.alerts.tip}} For more up-to-date information about Xeditor, see this 2021 post: <a href="/blog/xeditor-question-and-answer/">Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus</a>.{{site.data.alerts.end}}
 
 ## CMS editors
 

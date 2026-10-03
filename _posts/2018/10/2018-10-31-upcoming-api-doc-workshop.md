@@ -22,7 +22,7 @@ You can learn more about the API documentation workshop on [eventbright here](ht
 
 <a href="https://www.eventbrite.com/e/documenting-rest-apis-a-jumpstart-workshop-for-technical-writers-tickets-49216045517"><img src="{{site.media}}/upcomingapiworkshopmenlopark.jpg" /></a>
 
-The workshop will follow my [API documentation course](/learnapidoc/) closely. In fact, I've been updating my [workshop activities](/learnapidoc/docapis_workshop_activities.html) a bit in preparation for the course.
+The workshop will follow my [API documentation course](/learnapidoc/) closely. In fact, I've been updating my workshop activities a bit in preparation for the course.
 
 If you're interested, be sure to sign up. Let me know if you have any questions.
 

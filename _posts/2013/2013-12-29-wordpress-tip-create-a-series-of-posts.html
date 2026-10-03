@@ -53,7 +53,7 @@ echo '&lt;/div&gt;';<br />
 <p>This code will check to see if the post is in a series, and if so, it will display all the widgets in the "sidebar-2" widget area.</p>
 <p>Again, it would probably be much easier to just drag the "Series: List Related" widget to an existing widget area and style it to stand out when a reader views a series post, but I wanted to highlight the series in a more direct way by putting the series on top of each page.</p>
 <h2>5. Create a custom series archive page</h2>
-<p>I also wanted to create a series archive page that looks really similar to the widget. Here's <a href="https://idratherbewriting.com/series/7-deadly-sins-of-blogging/">an example</a> of what I'm referring to.</p>
+<p>I also wanted to create a series archive page that looks really similar to the widget. Here's an example of what I'm referring to.</p>
 <p>To create an archive of series-only posts, create a file called taxonomy-series.php. Based on WordPress template hierarchy, this file will load, rather than the default archive.php file, when a series is called.</p>
 <p>The following code shows the contents of my taxonomy-series.php file. There are some IDs and classes specific to my twentytwelve theme, so you would need to copy over the PHP code and insert it within your own styles. I added comments in the important places:</p>
 <p>{% highlight html %}<br />

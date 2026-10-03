@@ -33,9 +33,9 @@ However, when I showed this to my wife, she said she didn't like having to scrol
 
 {% include ads.html %}
 
-So I made another version without scrolling, which you can see here: [Sample 1](/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
+So I made another version without scrolling, which you can see here: [Sample 1](/documentation-theme-jekyll/p2_sample1.html). Click through each of the pages in the workflow to see this in action.
 
-<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{site.media}}/usermapdemo.png"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
+<figure><a href="/documentation-theme-jekyll/p2_sample1.html"><img src="{{site.media}}/usermapdemo.png"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
 
 I like this example, so I coded it into my Jekyll documentation theme. You just add some values in the frontmatter like this:
 

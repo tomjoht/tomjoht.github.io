@@ -19,7 +19,7 @@ For detailed notes, see <a href="/learnapidoc">Documenting REST APIs</a>.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/g4K9lnzZhSpxDn" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TomJohnson7/publishing-api-documentation-workshop" title="Publishing API documentation -- Workshop" target="\_blank">Publishing API documentation -- Workshop</a> </strong> from <strong><a href="//www.slideshare.net/TomJohnson7" target="\_blank">Tom Johnson</a></strong> </div>
 
-For detailed notes, see <a href="/publishingapidocs">Publishing API documentation</a>.
+For detailed notes, see <a href="/publishing-api-docs/">Publishing API documentation</a>.
 
 I also gave a presentation that was a shorter version of the Publishing APIs slidedeck:
 
@@ -53,7 +53,7 @@ I also gave a 45 minute presentation that was also part of the virtual track. I 
 
 Because I was in the virtual track, I had to submit my presentation ahead of time and use a dedicated computer running Adobe Connect. I could have browsed online during the presentation, but I would've had to use the screen-sharing options inside of Adobe Connect and also sign into various sites.
 
-The next time I present this information, though, I'll probably show the demos. Because really, the demos that I have prepared are pretty good. I took the same API information from a simple Mashape Weather API and published it across at least 5 different platforms (Github, Apiary, Swagger, Jekyll, and readme.com). Again, detailed notes are here: <a href="https://idratherbewriting.com/publishingapidocs">Publishing API docs</a>.
+The next time I present this information, though, I'll probably show the demos. Because really, the demos that I have prepared are pretty good. I took the same API information from a simple Mashape Weather API and published it across at least 5 different platforms (Github, Apiary, Swagger, Jekyll, and readme.com). Again, detailed notes are here: <a href="/publishing-api-docs/">Publishing API docs</a>.
 
 ## Summit takeaways
 
