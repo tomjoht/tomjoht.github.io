@@ -6,7 +6,7 @@ sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
 last-modified: 2026-09-27
-order: 21
+order: 20
 ---
 
 {% include_relative draft_notice.html %}
@@ -71,4 +71,4 @@ The immediate step for technical writers is straightforward: review the landing 
 
 <hr/>
 
-*This concludes the Product skills chapter. If you haven't worked through the first chapter on building your own [agent skills](/ai/skills.html), start there.*
+*Continue to the next chapter: [From logs to doc improvements](/ai/from-logs-to-improvements.html), which describes a machine for turning AI chat logs into strategic doc improvements.*

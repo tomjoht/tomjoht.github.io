@@ -47,7 +47,7 @@ Three self-contained courses. They don't build on each other. Written at differe
 
 ### Course: Agent skills
 
-Building reusable instruction files that program an AI agent to handle repeatable documentation tasks. Includes a chapter on product skills — skills that route AI agents through your product's docs.
+Building reusable instruction files that program an AI agent to handle repeatable documentation tasks. Includes a chapter on product skills — skills that route AI agents through your product's docs — and a chapter on turning AI chat logs into doc improvements.
 {% for folder in skills.folders %}{% for item in folder.folderitems %}
 - [{{ item.title | replace: "&mdash;", "—" | replace: "&ndash;", "–" | replace: "&amp;", "&" | replace: "&#39;", "'" | replace: "&quot;", '"' }}]({{ item.jurl | prepend: site.url }})
 {%- endfor %}{% endfor %}

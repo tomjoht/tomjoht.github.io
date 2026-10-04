@@ -59,6 +59,8 @@ Session logs directly inform ongoing documentation and skill maintenance. When a
 
 Chat logs identify where documentation fails real users, and evaluation suites confirm whether revisions resolve those failures. Together, they turn documentation maintenance into an empirical, test-driven process.
 
+If you want to turn this analysis into a repeatable process, see the [From logs to doc improvements](/ai/from-logs-to-improvements.html) chapter. It's a blueprint for a machine, built as a skill, that parses a log export, ranks the patterns that fail most, diagnoses why they failed, and drafts the doc fixes.
+
 <hr/>
 
-*Continue to the next topic: [Making fixes from logs](/ai/product-skills-fixes-from-logs.html)*
+*Continue to the next topic: [Reimagining the documentation experience](/ai/product-skills-reimagining-docs.html)*

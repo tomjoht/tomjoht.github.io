@@ -76,8 +76,39 @@ folders:
   - title: "Mining users' AI chat sessions: gaps and forensics"
     jurl: /ai/product-skills-chat-analysis.html
 
-  - title: "Making fixes from logs"
-    jurl: /ai/product-skills-fixes-from-logs.html
-
   - title: "Reimagining the documentation experience"
     jurl: /ai/product-skills-reimagining-docs.html
+
+- title: "From logs to doc improvements"
+  landing: /ai/from-logs-to-improvements.html
+  section: three
+  description: >
+    This section is a blueprint for a machine, built as a skill made up of sub-skills, that turns a messy export of AI chat logs into strategic doc improvements. It covers parsing the logs, triaging the patterns, weighing product priorities, scanning the doc corpus, matching user vocabulary, making the doc updates, testing the results, and improving the machine after each run.
+  folderitems:
+
+  - title: "Overview"
+    jurl: /ai/from-logs-to-improvements.html
+
+  - title: "Stage 1: Parse the logs"
+    jurl: /ai/from-logs-to-improvements-parse.html
+
+  - title: "Stage 2: Triage the patterns"
+    jurl: /ai/from-logs-to-improvements-triage.html
+
+  - title: "Stage 3: Weigh product priorities"
+    jurl: /ai/from-logs-to-improvements-priorities.html
+
+  - title: "Stage 4: Scan the doc corpus"
+    jurl: /ai/from-logs-to-improvements-docs-scan.html
+
+  - title: "Stage 5: Match user vocabulary"
+    jurl: /ai/from-logs-to-improvements-vocabulary.html
+
+  - title: "Stage 6: Make the doc updates"
+    jurl: /ai/from-logs-to-improvements-doc-updates.html
+
+  - title: "Stage 7: Test and close the loop"
+    jurl: /ai/from-logs-to-improvements-evals.html
+
+  - title: "Stage 8: Reflect and improve the machine"
+    jurl: /ai/from-logs-to-improvements-reflect.html

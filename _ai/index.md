@@ -9,7 +9,8 @@ last-modified: 2026-07-26
 
 {% assign skillsCount = site.data.sidebar_skills.folders.first.folderitems | size %}
 {% assign productSkillsCount = site.data.sidebar_skills.folders[1].folderitems | size %}
-{% assign skillsTotalCount = skillsCount | plus: productSkillsCount %}
+{% assign logsCount = site.data.sidebar_skills.folders[2].folderitems | size %}
+{% assign skillsTotalCount = skillsCount | plus: productSkillsCount | plus: logsCount %}
 {% assign promptCount = site.data.sidebar_prompt_engineering.folders.first.folderitems | size %}
 {% assign useCasesCount = site.data.sidebar_ai_use_cases.folders.first.folderitems | size %}
 
@@ -57,13 +58,15 @@ That progression is worth knowing before you pick a starting point. Read chronol
 
 ## Agent skills
 
-<p class="courseHub-meta">{{ skillsTotalCount }} lessons in two chapters</p>
+<p class="courseHub-meta">{{ skillsTotalCount }} lessons in three chapters</p>
 
 A skill is a set of structured instructions — a `SKILL.md` file plus supporting resources — that tells an AI agent how to perform a specific task the same way every time. In a sense, skills are a programming language for LLMs: they let you automate the repeatable work that chips away at your week, so you can spend your time on the one-off problems that actually need you.
 
 The first chapter covers when a task is worth turning into a skill, how skill directories are structured, where to store them so your agent discovers them, how to keep them modular, and how to test them. It's built around a hands-on project — a skill that edits Javadoc comments without ever touching code — and finishes with advanced patterns like subagents, loops, and reverse engineering.
 
 A second chapter, [Product skills](/ai/product-skills.html), turns outward: with AI coding agents now making up nearly half of documentation traffic, it looks at skills that route agents through your product docs — how the industry arrived at them, their problems, and the roles tech writers should play in creating, testing, and owning them.
+
+A third chapter, [From logs to doc improvements](/ai/from-logs-to-improvements.html), is a blueprint for a machine that turns a messy export of AI chat logs into strategic doc improvements. The machine is a skill made up of sub-skills, covering parsing the logs, triaging the patterns, weighing product priorities, scanning the doc corpus, matching user vocabulary, making the doc updates, testing the results, and improving the skill after each run.
 
 <a class="btn btn-primary courseHub-btn noCrossRef" href="/ai/skills.html">Start the Agent skills course &raquo;</a>
 
