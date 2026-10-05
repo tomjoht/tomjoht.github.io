@@ -84,9 +84,9 @@ Push hardest toward STE in procedures, setup instructions, course steps, trouble
 
 ### Don't use rhetorical colons and dashes
 
-The problem isn't the punctuation. It's using a colon or dash to steer emphasis, setting up a short forceful phrase so it lands with extra weight. Grammatically this is fine. But so much AI-written content does it that the pattern now reads as a signature, and the manufactured emphasis gets annoying and distracting over a long piece.
+The problem isn't the punctuation, and it isn't any single use of it. An occasional dash or a sentence built for emphasis is fine, and Tom uses both. The problem is frequency. When these constructions were allowed freely, drafts filled up with them, so treat them as something to use rarely rather than something banned. The rest of this section describes the pattern to keep rare. It's using a colon or dash to steer emphasis, setting up a short forceful phrase so it lands with extra weight. Grammatically this is fine. But so much AI-written content does it that the pattern now reads as a signature, and the manufactured emphasis gets annoying and distracting over a long piece.
 
-Rhetorical, so avoid these:
+Rhetorical, so keep these rare:
 
 - `The short answer: a huge share of your traffic is no longer human.`
 - `For a publisher, the takeaway is blunt: a bigger skill library doesn't help.`
@@ -129,9 +129,9 @@ Fragments used as openers are a related AI pattern.
 
 ### Minimize em dashes
 
-Beyond the rhetorical use above, em dashes read as an AI tell when they recur every paragraph, and they produce a choppy rhythm. One or two in a long piece is fine where the beat is earned.
+Some dashes here and there are fine. Beyond the rhetorical use above, em dashes read as an AI tell when they recur every paragraph, and they produce a choppy rhythm. A few in a long piece is fine where the beat is earned. Leave Tom's own dashes alone when revising his text, since the concern is drafts that lean on them, not the occasional one he writes.
 
-Remove them by restructuring, not substituting. These related tics travel with em dashes. (The two-beat verdict does too, and it's covered in the tic catalog below.)
+When a draft has too many, remove them by restructuring, not substituting. These related tics travel with em dashes. (The two-beat verdict does too, and it's covered in the tic catalog below.)
 
 - **Interruptive asides.** "an agent describes it — competently, fluently, uselessly — because..." becomes "an agent will describe it competently, fluently, and uselessly, because..."
 - **The dash as an appositive.** Use commas, or recast as a relative clause.
