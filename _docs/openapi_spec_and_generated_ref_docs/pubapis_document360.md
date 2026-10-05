@@ -82,10 +82,6 @@ Those tools that do offer GUI-based interfaces for creating the OpenAPI specific
 
 Additionally, Document360 supports multiple versions of API documentation. In short, tech writers won't be frustrated by the lack of more advanced authoring features as a tradeoff for API publishing. 
 
-**See it in action:** Watch this video to see how to publish your API documentation with Document360:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EaMrT3xmNm8?si=MtgplnKv_QwRF-d5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Reader-side rendering and the Try It! console
 
 The reader-facing side is what most technical writers care about most. Document360 renders API references in the tri-column layout that most modern API doc tools have converged on: navigation on the left, endpoint content in the middle, and code samples plus the Try It! panel on the right.
@@ -199,10 +195,6 @@ Document360's Try-it pane and code examples offer a convenient utility for devel
 Here's another example with the Rocket Chat API, this time with the Try-it pane shown by default:
 
 <figure><a class="noCrossRef" href="https://developer.rocket.chat/apidocs/add-all-users-to-a-channel"><img style="max-width:600px" src="{{site.api_media}}/rocket-chat-example.png" alt="Rocket Chat API example"></a><figcaption><b>Figure 6.</b> This Rocket Chat API example illustrates Document360's efficient use of screen real estate. The right pane neatly incorporates toggles for both the interactive "Try It!" console and "Code Samples." Even within this structured layout, the interface provides access to considerable detail through expandable sections and tabbed panes, offering users multiple ways to explore the documentation without feeling constrained. You can even select options to switch between light and dark themes.</figcaption></figure>
-
-**See it in action:** This video walks you through the feature step by step:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VXax89NSV74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Practical takeaways from working with Document360
 
