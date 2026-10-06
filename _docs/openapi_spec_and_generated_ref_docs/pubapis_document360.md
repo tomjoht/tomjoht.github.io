@@ -196,6 +196,10 @@ Here's another example with the Rocket Chat API, this time with the Try-it pane 
 
 <figure><a class="noCrossRef" href="https://developer.rocket.chat/apidocs/add-all-users-to-a-channel"><img style="max-width:600px" src="{{site.api_media}}/rocket-chat-example.png" alt="Rocket Chat API example"></a><figcaption><b>Figure 6.</b> This Rocket Chat API example illustrates Document360's efficient use of screen real estate. The right pane neatly incorporates toggles for both the interactive "Try It!" console and "Code Samples." Even within this structured layout, the interface provides access to considerable detail through expandable sections and tabbed panes, offering users multiple ways to explore the documentation without feeling constrained. You can even select options to switch between light and dark themes.</figcaption></figure>
 
+**See it in action:** This video walks you through the feature step by step:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VXax89NSV74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Practical takeaways from working with Document360
 
 A few observations from evaluating the tool:
