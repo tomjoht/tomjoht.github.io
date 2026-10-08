@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(ruby -ryaml -e ' *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(grep -rn \"\\\\[[A-Z][A-Z ,.'?!:;0-9-]\\\\{8,\\\\}\" _ai/from-logs-to-improvements/)",
+      "Bash(grep -rn \"Make the doc updates\\\\|First message\\\\`\" _ai _data)",
+      "Bash(grep -o \"^[^:]*:[0-9]*:\\\\|stages\\\\? [0-9][^.,\\)]\\\\{0,12\\\\}\")"
     ]
   }
 }

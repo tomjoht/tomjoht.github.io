@@ -5,53 +5,52 @@ keywords:
 sidebar: sidebar_skills
 section: docapisai
 path1: ai/skills.html
-last-modified: 2026-10-04
+last-modified: 2026-10-08
 order: 29
 ---
 
 {% include_relative draft_notice.html %}
 
-The previous topic, [Stage 6: Make the doc updates](/ai/from-logs-to-improvements-doc-updates.html), turned each diagnosis into a doc change, a ticket, or a bug report. This topic covers the seventh stage, which checks whether those fixes worked. Without this stage, you'd know what you changed but not whether it helped. It has two parts. First, add queries from the failed sessions to your evaluation suite and test the fixes. Second, look at the next batch of logs to see whether the same errors keep showing up.
+The previous topic, [Stage 6: Draft bugs proposing doc updates](/ai/from-logs-to-improvements-doc-updates.html), packaged each diagnosis into a self-contained `[Chat Log Bot]` bug proposal for your triage queue. This topic covers the seventh stage, which addresses the question leadership will eventually ask you: *How do you know whether these changes made any difference?*
 
-| Input | Output | Human checkpoint |
+| Input | Output | Post-run review focus |
 |---|---|---|
-| The chosen patterns, their failed sessions, the term map, and the doc changes | Eval results, a short report, and updated inputs for the next run | Read new sessions for each fixed pattern, and decide what goes in the report |
+| Assigned pattern, open and closed `[Chat Log Bot]` bugs, failed `first_message` prompts, and Stage 6 bug proposals | Prior-bug tracking notes (`stage7_pattern_<k>_tracking.md`) and local evaluation queries (`stage7_eval_queries.jsonl`) | Review the **Prior `[Chat Log Bot]` bug tracking** table in the final report to see which patterns are open in triage, awaiting propagation, or dropping in failure rate after fix |
 
-The first chapter of this course has a topic on [Testing a skill](/ai/skills-testing.html), which explains how evaluation frameworks work, including test cases, ablation tests, and LLM judges. This stage applies the same ideas to your docs agent rather than to a skill.
+## Why you shouldn't run a full eval suite inside the weekly log run
 
-## Add the failed queries to your evals
+It might seem natural to have the skill run a live evaluation suite at the end of every run to prove that the fixes worked. However, Stage 6 files `[Chat Log Bot]` bugs for writers to review rather than editing the docs, so no changes have shipped yet when the run finishes. There's nothing new for an evaluation suite to test.
 
-Take the first messages from five to ten failed sessions in each chosen pattern and add them to your evaluation suite. You don't need to run a separate baseline before the fix ships, since the logs already show that these queries failed. After the fix is published, run the suite. If the fix worked, the agent should now find the right page and give a correct answer.
+Instead, separate **per-pull-request testing** from **weekly longitudinal measurement**:
 
-In practice, publishing tends to be continuous, so fixes, other updates, and test runs get mixed together, and it's hard to say exactly which version of the docs a test ran against. If your evaluation framework supports ablation testing, it can help here. As described in [Testing a skill](/ai/skills-testing.html), an ablation test runs the same queries with and without a change. For docs, that might mean giving the agent the old version of a page and then the new one, which isolates the effect of your fix from everything else that changed.
-
-Use the users' exact phrasing in each query. It's tempting to clean up a query like "thingamajig won't connect" before adding it, but that defeats the purpose. Whether the agent finds the right page depends on the exact words in the query, so a cleaned-up query tests a different search than the one that failed. [Updating evaluation suites and documentation](/ai/product-skills-chat-analysis.html#updating-evaluation-suites-and-documentation) covers this point in more detail. This is also why [Stage 1: Parse the logs](/ai/from-logs-to-improvements-parse.html) copies the first message word for word instead of relying on the AI's goal summary. If the eval queries came from the AI's paraphrases, you'd be testing whether the agent can answer the AI's tidy version of the question. Keep any pasted error messages and code in the query too, since they can change what the agent retrieves.
-
-The term map from [Stage 5: Match user vocabulary](/ai/from-logs-to-improvements-vocabulary.html) helps here too, since queries that use the user terms make good test cases.
+- **Save verbatim failed prompts locally for optional pull-request testing.** Have a script pull five to ten verbatim `first_message` prompts for each chosen pattern into a local `stage7_eval_queries.jsonl` file (kept out of broadly visible bug tickets for data privacy). When a writer picks up a product-skill ticket and opens a pull request, those exact user queries—typos, pasted errors, and all—are ready if they want to run a before-and-after ablation test (see [Testing a skill](/ai/skills-testing.html) and [Updating evaluation suites and documentation](/ai/product-skills-chat-analysis.html#updating-evaluation-suites-and-documentation)).
+- **Measure real-world improvement across weekly runs.** Passing a synthetic eval is encouraging, but it's still a test you wrote. The real measure is whether developers stop failing in the same way in future log batches—and you can track that directly from the weekly runs you're already doing, without maintaining a separate evaluation pipeline.
 
 {% include ads.html %}
 
-## Compare errors across runs
+## Compare prior bugs against this week's patterns
 
-Passing an eval is a good sign, but it's still a test you wrote. The real test is whether users stop failing in the same way. Measuring that precisely is probably the messiest part of this whole process, so it's worth keeping the comparison simple.
+Each `[Chat Log Bot]` bug comes from one pattern, which is one category in `goal_taxonomy.json`. Because the taxonomy stays the same from run to run, each new batch of logs gives you a fresh failure count for the category behind every bug you've filed. In other words, each weekly run is also a check on whether your earlier bugs are making a difference.
 
-The skill already saves the patterns and example sessions from each run, along with the tracking bugs from [Stage 6: Make the doc updates](/ai/from-logs-to-improvements-doc-updates.html#explain-the-reasoning-behind-each-change). Those files are your record of previous errors. When the skill runs on new logs, have it compare the new patterns with the ones you've already worked on. Are you seeing the same errors as before, even after the fixes? If so, the fix didn't work, or it hasn't reached the pages the agent uses, or the diagnosis was wrong. If an error you fixed stops showing up, the fix probably worked. If you keep seeing new errors instead of old ones, that's a good sign too, since it means you're working your way through the list.
+On each run, have the skill look up all `[Chat Log Bot]` bugs in your bug tracker, both open and closed. For each bug, it finds the bug's category in this week's ranked list (`stage2_ranked_patterns.json`) and records the category's current failure count. What happens next depends on the bug's status:
 
-Expect progress to look slower than it is. Suppose one run identifies 20 errors worth fixing, and by the next run you've fixed only 5 of them. The next run will still show the other 15, along with any new ones, so the overall picture might barely change. For that reason, compare only the errors you actually fixed, and give the comparison some time. A couple of months of logs probably tells you more than a single week.
+| Bug status | What the skill does |
+|---|---|
+| Open | Adds this week's failure count to the bug, and doesn't file a duplicate bug for the same pattern. |
+| Fixed in the last few weeks | Notes that it's too early to judge, since the fix might not have reached the agent yet. |
+| Fixed more than a few weeks ago | Compares the category's failure rate before and after the fix date. |
 
-Some errors might never go away, no matter how many times you fix the docs. Users might call things "APIs" that are really just methods, or confuse two products that overlap in ways the docs can't untangle, or keep using a name from an earlier version of the product. These are naming and product problems more than doc problems. When an error keeps coming back after a reasonable fix, mark it as a known issue so it doesn't skew the comparison, and pass it to the product team, as described in [Stage 5: Match user vocabulary](/ai/from-logs-to-improvements-vocabulary.html#pass-naming-problems-to-the-product-team).
+The open and recently fixed rows exist because fixes take time. A bug filed in Week 1 might take two or three weeks to get triaged, reviewed by an SME, and published. Without the check, the same pattern would show up in Weeks 2 and 3, and the skill would file a duplicate bug each week. After the fix is published, it still has to reach the agent. A fix to an agent skill (`SKILL.md`) takes effect as soon as the updated skill ships. A fix to a doc page might take days or weeks to show up in documentation search or MCP tools, and months to reach the training data of future models.
 
-## Checkpoint: review the results
+For the last row, compare only the categories that have fixed bugs, not the overall success rate. Suppose one run finds 15 failing categories and writers fix 3 of them. The overall success rate might barely move, because the other 12 categories are still failing. However, if "Authenticate API requests" failed in 48% of sessions when the bug was filed and in 20% of sessions six weeks after the fix, that's a result you can report. Keep tracking a fixed category even after it drops out of the top of the ranking, since dropping out is the result you want.
 
-The comparison comes from the same AI parsing that produced the earlier results, so it shares the same blind spots. Before you write the report, read a few of the new sessions for each pattern you fixed. Are users getting to the right page now? Are they failing somewhere new instead? A handful of sessions won't prove the fix worked, but they'll often show you something the comparison can't. Then decide, for each pattern, whether it's fixed, needs another round, or needs a different diagnosis.
+## Flag persistent product and naming issues
 
-When you report results, lead with the high-value scenarios, as discussed in [Stage 3: Weigh product priorities](/ai/from-logs-to-improvements-priorities.html#dont-rely-on-the-overall-success-rate). A short report works best. List the errors you fixed, which ones stopped showing up, which ones keep coming back, the bug reports you filed, and the patterns you plan to tackle next.
+Some errors won't go away no matter how clearly you rewrite the docs. Users might keep calling a method an "API," confuse two overlapping products, or use a legacy name from years ago. You can spot these when a pattern keeps failing several weeks after its fix has reached the agent, and the retrieval traces show that the agent is reading the updated page or skill. When that happens, mark the category as a known issue in `goal_taxonomy.json` (`"known_issue": true`) so it doesn't skew your doc metrics. Then send the multi-week trend to the product team, as described in [Stage 5: Match user vocabulary](/ai/from-logs-to-improvements-vocabulary.html#pass-naming-problems-to-the-product-team).
 
-## Run the skill regularly
+## Watch the "other" category from run to run
 
-Improving docs from logs isn't something you finish in one pass. Some patterns take several rounds of fixes, and new patterns appear as the product changes. How often to run the skill depends on how many logs you get and how quickly you can make fixes, whether that's weekly or monthly. Each run, the skill pulls new logs, reuses the saved categories and term map, and helps you pick the next patterns to fix.
-
-Watch the "other" category from run to run. If a cluster of new goals starts forming there, especially after a launch, it's an early sign of a new problem area. Add a category for it so the next run counts it properly.
+Improving docs from logs isn't something you finish in one pass. Each weekly or biweekly run reuses your saved `goal_taxonomy.json` and `term_map.json`, checks the status of prior `[Chat Log Bot]` bugs, and proposes tickets for the next two or three patterns. Keep an eye on the "other" category from run to run. When a cluster of new goals starts forming there after a product launch, it's an early signal to add a category so the next run tracks it properly.
 
 ## Beyond product docs
 
