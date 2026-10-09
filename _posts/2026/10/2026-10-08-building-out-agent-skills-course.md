@@ -7,9 +7,8 @@ categories:
 keywords: agent skills, product skills, docs-first, AI agents, documentation, chat logs, AI-assisted writing, tech writers, course updates
 rebrandly: https://idbwrtng.com/building-out-agent-skills-course
 description: "I've been adding to my agent skills course, including a reworked section on product skills that now takes a docs-first stance after I started seeing log data. I've also been leaning on AI more heavily to write the course content, which seems fine for instructional material that's constantly in flux. Writing with AI pushes me toward ideas I hadn't considered, so it's become a way to learn while writing, even if I have to course correct along the way."
+linkedin: https://lnkd.in/p/gFBqrmSu
 ---
-
-{% include ads.html %}
 
 It's been a while since I've posted on my blog. Here's what I've been up to:
 
@@ -25,6 +24,8 @@ It's been a while since I've posted on my blog. Here's what I've been up to:
     * [Reimagining the documentation experience](https://idratherbewriting.com/ai/product-skills-reimagining-docs.html)
 
 This is a section I completely reworked after changing my mind about the value of product skills. A couple of months ago, it seemed like everyone was championing product skills as a key strategy for influencing AI agents. Since we started receiving access to log data at my work, I've rethought some of the rah-rah-rah approach to product skills. Now I'm more of a docs-first person, as I can't think of many things that should be in a product skill that shouldn't already be in the docs. It just seems like a better investment of time to add whatever info might exist in a product skill into the documentation instead.
+
+{% include ads.html %}
 
 I'm not against product skills, as I'm still waiting on more data to fully come to a conclusion. But product skills that do little more than summarize what's already in the docs and what the models are already trained on seem to do little for agents. A product skill could help an agent learn the right terminology and understand how to search the docs, but all of this seems like marginal work for product skill content. A tech writer's time is better invested in improving the docs with this info.
 
