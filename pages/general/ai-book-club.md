@@ -47,8 +47,9 @@ Where a book is available on Audible, the entry includes an Audible link next to
              <p class="book-author">by {{ meeting.book.author }}{% if meeting.book.audible_url %} &middot; <a href="{{ meeting.book.audible_url }}"><i class="fa fa-headphones" aria-hidden="true"></i> Audible</a>{% endif %}</p>
              <p class="book-summary">{{ meeting.book.summary }}</p>
          </td>
-         <td><p class="notes-links">{% if meeting.notes_url != "" %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>{% endif %}
-             <a href="{{ meeting.meet_url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> Google Meet link</a></p></td>
+         <td>{% if meeting.note %}<p class="note">{{ meeting.note }}</p>{% endif %}
+             <p class="notes-links">{% if meeting.notes_url != "" %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>{% endif %}
+             <a href="{{ meeting.meet_url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> {% if meeting.meet_url contains "riverside" %}Riverside link{% else %}Google Meet link{% endif %}</a></p></td>
       </tr> 
       {% endfor %}
    </tbody>
