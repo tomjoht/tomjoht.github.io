@@ -1,7 +1,7 @@
 upcoming:
 
   - date: "Oct 18, 2026"
-    time: "10am PT"
+    time: "11am PT"
     book:
       title: "Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare"
       author: "Beth Simone Noveck"
@@ -13,7 +13,21 @@ upcoming:
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
+
   - date: "Nov 15, 2026"
+    time: "10am PT"
+    book:
+      title: "Co-Existence: The Next Phase of AI"
+      author: "Ethan Mollick"
+      url: "https://www.amazon.com/s?k=9798217181391&i=stripbooks"
+      audible_url: "https://www.audible.com/pd/Co-Existence-Audiobook/B0GK98268H"
+      image: "co_existence.png"
+      summary: >
+        "How do we live alongside machines that are sometimes smarter than us? We are entering a new era. AI systems can already outperform humans in some domains while failing spectacularly in others. They can act as tutors, collaborators, researchers, strategists, and creators…yet they can also produce falsehoods, generate convincing nonsense, and fail unpredictably. The challenge is no longer simply adopting new technology. It is learning how to think, work, and live in a world where machines are sometimes smarter than us."
+    notes_url: ""
+    meet_url: "https://meet.google.com/nax-bwut-sja"
+
+  - date: "Dec 20, 2026"
     time: "10am PT"
     book:
       title: "The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence"
@@ -23,19 +37,6 @@ upcoming:
       image: "agi_chronicles.png"
       summary: >
         "For the last decade, a handful of AI companies have been racing to build the most powerful technology in history: artificial general intelligence, or AGI―a computer system capable of outdoing humans at almost anything. Some of them hoped AGI would cure diseases and heal the planet. Others feared it could kill everyone on Earth. They decided to build it anyway."
-    notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
-
-  - date: "Dec 20, 2026"
-    time: "10am PT"
-    book:
-      title: "Prophecy: Prediction, Power, and the Fight for the Future, from Ancient Oracles to AI"
-      author: "Carissa Véliz"
-      url: "https://www.amazon.com/Prophecy-Prediction-Future-Ancient-Oracles/dp/0385550979"
-      audible_url: "https://www.audible.com/pd/Prophecy-Audiobook/B0FKTRGVRN"
-      image: "prophecy_veliz.jpg"
-      summary: >
-        "<i>Prophecy</i> is about how extensive use of predictive analytics is undermining our abilities to defy the odds, making systems unaccountable, and increasing risk in business and society while creating a false sense of security." Véliz traces prediction's role in power across history &mdash; from the oracle at Delphi through the rise of statistics and insurance to the failures of contemporary AI &mdash; and argues that today's tech executives function much as ancient oracles and astrologers once did. Predictions that claim to be objective turn out to be probabilistic judgments that can become self-fulfilling, shaping who gets a job, a loan, or medical care.
     notes_url: ""
     meet_url: "https://meet.google.com/nax-bwut-sja"
 
