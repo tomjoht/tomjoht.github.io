@@ -6,7 +6,7 @@ weight: 10.2
 sidebar: docapis
 section: jobapis
 path1: learnapidoc/jobapis.html
-last-modified: 2019-11-17
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -19,7 +19,7 @@ With developer documentation roles, some level of coding is required. But you do
 {% endif %}
 
 {: .tip}
-AI tools can help you learn code. See [Using AI to learn coding](docapis_ai_learn_coding.html).
+AI tools can help you learn code. See [Using AI to learn coding](https://idratherbewriting.com/ai/docapis_ai_learn_coding.html).
 
 ## The ideal hybrid: programmer + writer
 
@@ -71,14 +71,14 @@ Now let's flip to the other side of the argument. What are the advantages of hir
 
 Neiman says tech writers often need to look over a developer's shoulder, watching the developer code, or listen to an engineer's brief 15-minute explanation, and then return to their desks to create the documentation. You might need to take the code examples in Java and produce equivalent samples in another language, such as C++, all on your own. In Neiman's view, API technical writers need significant technical depth to excel in this role.
 
-Neiman and [Andrew Davis](http://www.synergistech.com/) (a recruiter for API tech writers in the Bay area) recently gave a presentation titled [Finding the right API Technical Writer](https://youtu.be/lmNHBg20ql0?t=1314) at an API conference in London. Their presentation format includes a Q&A exchange between the two. Scrub to around the 22-minute mark for the relevant part:
+Neiman and [Andrew Davis](http://www.synergistech.com/) (a recruiter for API tech writers in the Bay area) gave a presentation titled [Finding the right API Technical Writer](https://youtu.be/lmNHBg20ql0?t=1314) at an API conference in London. Their presentation format includes a Q&A exchange between the two. Scrub to around the 22-minute mark for the relevant part:
 
 {% if site.format == "web" %}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lmNHBg20ql0?t=1314" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 {% endif %}
 
 {% if site.format == "print" %}
-<figure><a href="https://www.youtube.com/embed/lmNHBg20ql0?t=1314"><img src="{{site.api_media}}/neimanpreso.png" alt="James Neiman on the required technical baseline for API docs" caption="James Neiman on the required technical baseline for API docs" class="large" /></a><figcaption>James Neiman on the required technical baseline for API docs" caption="James Neiman on the required technical baseline for API docs</figcaption></figure>
+<figure><a href="https://www.youtube.com/embed/lmNHBg20ql0?t=1314"><img src="{{site.api_media}}/neimanpreso.png" alt="James Neiman on the required technical baseline for API docs" caption="James Neiman on the required technical baseline for API docs" class="large" /></a><figcaption>James Neiman on the required technical baseline for API docs</figcaption></figure>
 {% endif %}
 
 Here's a transcript of two questions in their exchange (cleaned up a bit for readability):
@@ -152,7 +152,7 @@ Keep in mind that your level of involvement with editing, publishing, and author
 
 <figure><img class="docimage large border" src="{{site.api_media}}/techknowledge.svg" alt="The degree to which you can publish, edit, and author depends on your level of tech knowledge." /><figcaption>The degree to which you can publish, edit, and author depends on your level of tech knowledge.</figcaption></figure>
 
-If you're stuck in the publishing/editing area, you can interview engineers at length about what's going on in the code (record these discussions &mdash; Evernote has a nifty recording feature built-in that I've used multiple times for just this purpose), and then try your best to describe the actions in as clear speech as possible. You can always fall back on the idea that for those users who need Python, the Python code should look somewhat familiar to them. Well-written code should be, in some sense, self-descriptive in what it's doing. Unless there's something odd or non-standard in the approach, engineers fluent in code should be able to get a sense of how the code works.
+If you're stuck in the publishing/editing area, you can interview engineers at length about what's going on in the code (record these discussions &mdash; most meeting tools can record and transcribe a conversation), and then try your best to describe the actions in as clear speech as possible. You can always fall back on the idea that for those users who need Python, the Python code should look somewhat familiar to them. Well-written code should be, in some sense, self-descriptive in what it's doing. You can also ask an AI coding assistant to explain what a code sample does, which can help you form better questions for engineers. Just confirm the explanation with an engineer before you put it in the docs, since AI tools can be confidently wrong about code they haven't seen run. Unless there's something odd or non-standard in the approach, engineers fluent in code should be able to get a sense of how the code works.
 
 In your documentation, you'll need to focus on the higher-level information, the "why" behind the approach, highlighting of any non-standard techniques, and the general strategies behind the code. You can get this *why* by asking developers for the information in informational interviews. The details of *what* will either be apparent in the code or can be minimized. (See [Code samples and tutorials](docapis_codesamples_bestpractices.html) for details.)
 
@@ -164,25 +164,25 @@ There's a reason developer documentation jobs pay more &mdash; the job involves 
 
 ## Techniques for learning code
 
-The diversity and complexity of programming languages is not an easy problem to solve. To be a successful API technical writer, you'll need to incorporate a regular regiment of technical study. You always have to be learning to survive in this field.
+The diversity and complexity of programming languages is not an easy problem to solve. To be a successful API technical writer, you'll need to incorporate a regular regimen of technical study. You always have to be learning to survive in this field.
 
-Fortunately, there are many helpful resources (my favorite being [O'Reilly's Safari Books Online](http://www.safaribooksonline.com/)). If you can work in a couple of hours a day, you'll be surprised at the progress you can make.
+Fortunately, there are many helpful resources (my favorite being the [O'Reilly learning platform](https://www.oreilly.com/), formerly called Safari Books Online). If you can work in a couple of hours a day, you'll be surprised at the progress you can make.
 
 The difficulty of learning programming is probably the most strenuous aspect of API documentation. How much programming do you need to know? How much time do you spend learning to code? How much priority should you spend on learning technology?
 
-For example, do you dedicate two hours a day to learning to code in the particular language of the product you're documenting? Should you carve this time out of your employer's time, or your own, or both? How do you get other doc work done, given that meetings and miscellaneous tasks usually eat up another 2 hours of work time? What strategies should you implement to learn code in a way that sticks? What if what your learning has little connection or relevance with the code you're documenting?
+For example, do you dedicate two hours a day to learning to code in the particular language of the product you're documenting? Should you carve this time out of your employer's time, or your own, or both? How do you get other doc work done, given that meetings and miscellaneous tasks usually eat up another 2 hours of work time? What strategies should you implement to learn code in a way that sticks? What if what you're learning has little connection or relevance with the code you're documenting?
 
-In a post called [Strategies for learning technology -- podcast recommendation and a poll](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/), I linked to a 10-minute Tech Comm podcast with [Amruta Ranade on Learning New Technology](https://www.stitcher.com/podcast/uah-technical-writing/10minute-tech-comm/e/supersized-holiday-spectacular-41636141) and then polled readers to learn a little about their tech learning habits. In the [reader responses](https://www.questionpro.com/t/PEGKEZcj57), most indicated that they *should* spend 30-60 minutes each day learning technology, but most spend between 0-20 min actually doing so. To learn, they use general Google searches. They mostly devote this time to learning tech at work, though some split the time between work at home.
+In a post called [Strategies for learning technology -- podcast recommendation and a poll](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/), I linked to a 10-minute Tech Comm podcast episode with Amruta Ranade on learning new technology and then polled readers to learn a little about their tech learning habits. In the [reader responses](https://www.questionpro.com/t/PEGKEZcj57), most indicated that they *should* spend 30-60 minutes each day learning technology, but most spend between 0-20 min actually doing so. To learn, they use general Google searches. They mostly devote this time to learning tech at work, though some split the time between work at home.
 
 Personally, I think spending 20 minutes a day isn't enough to keep up with the knowledge needs. Sixty minutes is more appropriate, but really, if you want to make progress, you'll need to devote about twice that time. Finding 1-2 hours of time (and motivation) at work to learn it is unlikely. I always feel like I'm not getting enough done as is during work hours &mdash; learning technology often feels like a side activity taking me away from my real duties.
 
-Also, the information I need to document in the present moment is usually too advanced to simply learn from watching tutorials on Safari Books or other sources. But I can't just start out consuming advanced material. I have to ramp up through the foundational topics first, and that slow ramp-up feels like a tangent to the real work that needs to get done.
+Also, the information I need to document in the present moment is usually too advanced to simply learn from watching tutorials on O'Reilly or other sources. But I can't just start out consuming advanced material. I have to ramp up through the foundational topics first, and that slow ramp-up feels like a tangent to the real work that needs to get done.
 
 For example, you might need to document the equivalent of Advanced Calculus concepts. But to ramp up on Advanced Calculus, you need to build a foundation with Trigonometry and Algebra. When you spend time studying Trigonometry and Algebra instead of the Advanced Calculus concepts that you need to document, it can feel like you're not making any progress on your documentation.
 
-One strategy I've found to work well is to divide the learning into "pomodoros" (a technique named after tomato kitchen timers). With the [Pomodoro Technique](https://web.archive.org/web/20251109181618/https://francescocirillo.com/pages/pomodoro-technique/), you set a timer for 20 minutes and focus on your learning task for that chunk of time. You can set a goal to complete as many pomodoros a day as you want. After about 1-2 months of these regular pomodoros, you'll be surprised at your progress. I use the Focus app for my pomodoro timer:
+One strategy I've found to work well is to divide the learning into "pomodoros" (a technique named after tomato kitchen timers). With the [Pomodoro Technique](https://web.archive.org/web/20251109181618/https://francescocirillo.com/pages/pomodoro-technique/), you set a timer (traditionally for 25 minutes) and focus on your learning task for that chunk of time. You can set a goal to complete as many pomodoros a day as you want. After about 1-2 months of these regular pomodoros, you'll be surprised at your progress. I use the Focus app for my pomodoro timer:
 
-<figure><a target="_blank" class="noExtIcon" href="https://itunes.apple.com/us/app/focus-time-manager/id777233759?mt=12"><img class="docimage large" src="{{site.api_media}}/techpomodoro.png" alt="The Focus app lets you define and track pomodoros" /></a><figcaption>The Focus app lets you define and track pomodoros</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://apps.apple.com/us/app/focus-deep-work-timer/id777233759?mt=12"><img class="docimage large" src="{{site.api_media}}/techpomodoro.png" alt="The Focus app lets you define and track pomodoros" /></a><figcaption>The Focus app lets you define and track pomodoros</figcaption></figure>
 
 Additionally, I recommend keeping a list of notes about technical details you struggle with while you're trying to document something, and then during your pomodoros, focus on what's listed in your technical notes.
 
@@ -193,7 +193,7 @@ There are a lot of questions about just how to learn code, and I don't have all 
 *  Developer documentation requires familiarity with code, though exactly how much expertise you need is debatable.
 *  You have to understand explanations from engineers, including the [terms used](docapis_glossary_section.html). The explanations in your documentation should focus on the *why* more than the *how*.
 *  You should be able to [test code](testingdocs_overview.html) from engineers so that you can identify assumptions that engineers are often blind to.
-*  To thrive in an API documentation career, you have to incorporate a regiment of continual learning.
+*  To thrive in an API documentation career, you have to incorporate a regimen of continual learning.
 *  Completing several pomodoros a day over the course of weeks and months can result in significant progress in building your technical understanding.
 
 ## Is being a generalist a career disappointment?

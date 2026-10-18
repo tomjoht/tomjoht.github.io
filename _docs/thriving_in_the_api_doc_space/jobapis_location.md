@@ -6,21 +6,24 @@ path1: learnapidoc/jobapis.html
 weight: 10.3
 course: "Documenting REST APIs"
 section: jobapis
-last-modified: 2019-11-17
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
 You're taking this course most likely because you want to break into API documentation. However, if you live in a place where there aren't many API documentation jobs, it will be difficult to find work. In this topic, I'll explain where the API documentation jobs are.
 
+{: .note}
+I originally wrote this topic in 2018 and 2019, when I lived in Silicon Valley, using 2017 employment data and 2018 job searches. In October 2026, the employment tables were updated with May 2025 data from the U.S. Bureau of Labor Statistics, and a section on remote work was added. The 2018 job search analysis and the personal sections still reflect that earlier time.
+
 * TOC
 {:toc}
 
 ## Where are the API jobs
 
-Where are the best locations for API documentation jobs? The [2017-2018 STC Salary Database](https://www.stc.org/salary-database/) (which is based on [Bureau of Labor Statistics](https://www.bls.gov/) data) provides a lot of research about technical writer employment in different parts of the U.S., but nothing that breaks down the numbers by API documentation opportunities.
+Where are the best locations for API documentation jobs? The U.S. Bureau of Labor Statistics (BLS) publishes employment estimates for technical writers through its [Occupational Employment and Wage Statistics](https://www.bls.gov/oes/) (OEWS) program. As of May 2025, the BLS estimated that about 45,500 technical writers were employed in the U.S., with a median annual wage of $90,390. The data doesn't break down the numbers by API documentation, but it gives a starting point.
 
-As such, we'll have to triangulate a bit and make some best guesses about where the API documentation jobs are. The STC Salary Database information gives us a starting point. Here are the "Ten Largest MSAs [Metropolitan Statistical Areas] by Number of Technical Writers" (based on 2017 data, which is the latest data set available):
+Here are the metropolitan areas with the most technical writers, based on May 2025 data. (BLS publishes estimates for hundreds of metro areas. This list covers the top 10 among 24 large, tech-heavy metro areas that were checked, so a metro area outside that set could be missing.)
 
 <table>
    <colgroup>
@@ -30,56 +33,56 @@ As such, we'll have to triangulate a bit and make some best guesses about where 
    <thead>
       <tr>
          <th markdown="span">Metropolitan Statistical Area (MSA)</th>
-         <th markdown="span">Technical writers employed</th>
+         <th markdown="span">Technical writers employed (May 2025)</th>
       </tr>
    </thead>
    <tbody>
       <tr>
-         <td markdown="span">New York-Newark-Jersey City, NY-NJ-PA </td>
-         <td markdown="span">3,390</td>
+         <td markdown="span">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+         <td markdown="span">2,370</td>
       </tr>
       <tr>
-         <td markdown="span">Los Angeles-Long Beach-Anaheim, CA </td>
-         <td markdown="span">1,730</td>
+         <td markdown="span">New York-Newark-Jersey City, NY-NJ</td>
+         <td markdown="span">2,170</td>
       </tr>
       <tr>
-         <td markdown="span">San Jose-Sunnyvale-Santa Clara, CA </td>
-         <td markdown="span">1,560</td>
+         <td markdown="span">Boston-Cambridge-Newton, MA-NH</td>
+         <td markdown="span">1,590</td>
       </tr>
       <tr>
-         <td markdown="span">Chicago-Naperville-Elgin, IL-IN-WI </td>
+         <td markdown="span">Los Angeles-Long Beach-Anaheim, CA</td>
+         <td markdown="span">1,460</td>
+      </tr>
+      <tr>
+         <td markdown="span">Seattle-Tacoma-Bellevue, WA</td>
          <td markdown="span">1,220</td>
       </tr>
       <tr>
-         <td markdown="span">Houston-The Woodlands-Sugar Land, TX </td>
-         <td markdown="span">1,040</td>
+         <td markdown="span">Dallas-Fort Worth-Arlington, TX</td>
+         <td markdown="span">1,030</td>
       </tr>
       <tr>
-         <td markdown="span">San Diego-Carlsbad, CA </td>
-         <td markdown="span">970</td>
+         <td markdown="span">San Francisco-Oakland-Fremont, CA</td>
+         <td markdown="span">1,020</td>
+      </tr>
+      <tr>
+         <td markdown="span">San Jose-Sunnyvale-Santa Clara, CA</td>
+         <td markdown="span">920</td>
       </tr>
       <tr>
          <td markdown="span">Atlanta-Sandy Springs-Roswell, GA</td>
-         <td markdown="span">930</td>
+         <td markdown="span">890</td>
       </tr>
       <tr>
          <td markdown="span">Baltimore-Columbia-Towson, MD</td>
-         <td markdown="span">910</td>
-      </tr>
-      <tr>
-         <td markdown="span">Minneapolis-St. Paul-Bloomington, MN-WI</td>
-         <td markdown="span">810</td>
-      </tr>
-      <tr>
-         <td markdown="span">Austin-Round Rock, TX / Columbus, OH</td>
-         <td markdown="span">740</td>
+         <td markdown="span">820</td>
       </tr>
    </tbody>
 </table>
 
-"MSA" stands for "metropolitan statistical area." Most of the research in the STC Salary Database focuses on MSAs rather than states. Why look at MSAs rather than states as a whole? While California might rank high in technical writer employment, you would have a tough time finding employment in some remote areas, such as Lone Pine or Corning. Employment measurements are more accurate when they're focused on a specific metropolitan area rather than the state as a whole.
+"MSA" stands for "metropolitan statistical area." Much of the employment data is reported by MSA rather than by state. Why look at MSAs rather than states as a whole? While California might rank high in technical writer employment, you would have a tough time finding employment in some remote areas, such as Lone Pine or Corning. Employment measurements are more accurate when they're focused on a specific metropolitan area rather than the state as a whole.
 
-However, it's hard to filter API data by MSAs, so I'll use states anyway. The top 10 states (rather than MSAs) for technical writer employment (again, according to the STC Salary Database) are as follows:
+Some data is easier to compare by state, though. The top 10 states for technical writer employment (May 2025 BLS data) are as follows:
 
 <table>
    <colgroup>
@@ -89,56 +92,58 @@ However, it's hard to filter API data by MSAs, so I'll use states anyway. The to
    <thead>
       <tr>
          <th markdown="span">State</th>
-         <th markdown="span">Number of Employed Technical Writers</th>
+         <th markdown="span">Number of employed technical writers (May 2025)</th>
       </tr>
    </thead>
    <tbody>
       <tr>
          <td markdown="span">California</td>
-         <td markdown="span">6,340</td>
+         <td markdown="span">5,280</td>
       </tr>
       <tr>
          <td markdown="span">Texas</td>
-         <td markdown="span">4,360</td>
+         <td markdown="span">3,340</td>
       </tr>
       <tr>
-         <td markdown="span">Virginia</td>
-         <td markdown="span">2,840</td>
-      </tr>
-      <tr>
-         <td markdown="span">Massachusetts</td>
-         <td markdown="span">2,450</td>
-      </tr>
-      <tr>
-         <td markdown="span">New York</td>
-         <td markdown="span">2,390</td>
+         <td markdown="span">North Carolina</td>
+         <td markdown="span">2,860</td>
       </tr>
       <tr>
          <td markdown="span">Florida</td>
-         <td markdown="span">2,360</td>
+         <td markdown="span">2,550</td>
+      </tr>
+      <tr>
+         <td markdown="span">Virginia</td>
+         <td markdown="span">2,280</td>
+      </tr>
+      <tr>
+         <td markdown="span">Massachusetts</td>
+         <td markdown="span">1,850</td>
       </tr>
       <tr>
          <td markdown="span">Maryland</td>
-         <td markdown="span">2,180</td>
+         <td markdown="span">1,780</td>
       </tr>
       <tr>
-         <td markdown="span">New Jersey</td>
-         <td markdown="span">1,980</td>
+         <td markdown="span">Georgia</td>
+         <td markdown="span">1,680</td>
       </tr>
       <tr>
-         <td markdown="span">Ohio</td>
-         <td markdown="span">1,770</td>
+         <td markdown="span">Washington</td>
+         <td markdown="span">1,620</td>
       </tr>
       <tr>
-         <td markdown="span">Pennsylvania</td>
-         <td markdown="span">1,540</td>
+         <td markdown="span">New York</td>
+         <td markdown="span">1,610</td>
       </tr>
    </tbody>
 </table>
 
-They aren't too different from the list of MSAs &mdash; California, New York, Texas, New Jersey, Maryland, and Ohio still feature prominently on both lists, so focusing on states probably reflects the MSAs within that state as well.
+The two lists overlap quite a bit. California, Texas, Massachusetts, Washington, Georgia, and New York appear through their metro areas, and Virginia and Maryland appear through the Washington, DC, and Baltimore metro areas. One exception is North Carolina, which ranks third among states but doesn't have a metro area in the top 10. Its technical writers are spread across several metro areas, such as Raleigh (about 630), Charlotte (about 560), and Durham-Chapel Hill (about 390).
 
-To try to determine which states have the most density for API-specific documentation jobs, I searched [Indeed.com](https://indeed.com) for the term ["API"](https://www.indeed.com/jobs?q=API&l=California) and filtered by state (it wasn't possible to filter by MSA). I performed one set of searches on August 12, 2018, and another on December 26, 2018. Then I averaged the two.
+Compared with the 2017 data that this topic originally used, the biggest shift is in the Bay Area. In 2017, the San Jose metro area had about 1,560 technical writers and ranked third among all metro areas. By May 2025, it had about 920.
+
+In 2018, I also tried to estimate where API-specific jobs were concentrated. To determine which states had the most density for API-specific documentation jobs, I searched [Indeed.com](https://www.indeed.com/) for the term ["API"](https://www.indeed.com/jobs?q=API&l=California) and filtered by state (it wasn't possible to filter by MSA). I performed one set of searches on August 12, 2018, and another on December 26, 2018. Then I averaged the two.
 
 I didn't meticulously examine each hit in the Indeed results for "API" to see if the hit actually related to *documentation jobs* with APIs, or even that it related to APIs (though I did spot check). I assume that the number of documentation jobs will be a relative percentage of the API-related jobs overall. For example, suppose a state has 1,000 hits for "API." If we were to examine each job and filter the results down to "technical writer" jobs that mention APIs, we would probably see a relative percentage (e.g., 5 percent) of jobs related to technical writing. Error rates will probably be the same overall as well.
 
@@ -148,15 +153,15 @@ To illustrate some of these issues, suppose the state is small and has only abou
 
 On the other hand, living in a larger tech hub with more variation in the job opportunities and required technical skills might provide more selection and fit for your particular skills. API doc hiring managers usually want candidates familiar with the languages they're targeting, so with more jobs available, you might have a better shot at matching up with one of the roles.
 
-Additionally, just because states have a high employment rate of technical writers doesn't mean it's the best location to find a job. Job growth rates might be a better factor to consider, as it means more new jobs will be available in the area. In the STC Salary Database, high-growth-rate areas are listed in the "Fastest-Growing States for Technical Writers and Export and GDP Performance in 2017" table.
+Additionally, just because states have a high employment rate of technical writers doesn't mean it's the best location to find a job. Job growth rates might be a better factor to consider, as it means more new jobs will be available in the area. (In 2018, the STC Salary Database listed high-growth areas in a "Fastest-Growing States for Technical Writers and Export and GDP Performance in 2017" table.)
 
 Alternatively, we could have examined the top areas based on industry sectors. The [Computer Systems Design and Related Services Industries](https://collegegrad.com/industries/computer-systems-design) employs the most technical writers, but if you're focused on another industry, such as medical, different locations might be more optimal for these other industry sectors. California has a high density of computer-focused companies, while New Jersey has more pharmaceutical companies.
 
 Thus, it's hard to say for sure where the best locations are for API doc jobs, especially as they fit your unique profile. At most, in this topic I indicate where some promising areas appear to be, based on the technical writer employment in the area and the prevalence of "API" as a keyword in job postings in the area.
 
-## API keyword density by state
+## API keyword density by state (2018)
 
-Here's the data from my search for the keyword "API" in job searches on Indeed.com, contextualized with the technical writer employment for the state. I sorted by most API hits (because API frequency is what we're optimizing for). In measuring hits, I took the average of two searches for "API" spread out over about six months. Also, I divided the API hits by the employment to give a percentage hinting at the density of API documentation jobs.
+Here's the data from my 2018 search for the keyword "API" in job searches on Indeed.com, contextualized with the technical writer employment for the state (from the 2017 STC Salary Database). I sorted by most API hits (because API frequency is what we're optimizing for). In measuring hits, I took the average of two searches for "API" spread out over about six months. Also, I divided the API hits by the employment to give a percentage hinting at the density of API documentation jobs.
 
 <table>
 <colgroup>
@@ -603,7 +608,7 @@ If "API" is a more common term for the area, I assume more technical writer jobs
 
 This superficial query doesn't indicate whether there are more tech comm jobs overall for these states. For example, Michigan might have a lot more general tech writing jobs than API doc jobs, even though it ranks far down in the above table.
 
-To get more granular with details, such as job losses or gains, the hottest MSAs for each state, the best industry sectors, the highest salaries, etc., consult the STC Salary Database and mine the data you want.
+To get more granular with details, such as job losses or gains, the hottest MSAs for each state, the best industry sectors, the highest salaries, etc., consult the [BLS OEWS data](https://www.bls.gov/oes/) and mine the data you want.
 
 I want to note some issues. In my initial searches for District of Columbia, I failed to specify "exact location" and as a result, the original hits (which allow a 25-mile radius by default) included many surrounding states such as Virginia, Maryland, and others. I revised the search in January 2019.
 
@@ -615,7 +620,7 @@ At any rate, the top 10 states with the highest percentages (dividing API hits b
 
 ## Should you move to California?
 
-Since I'm currently in California (the "San Jose-Sunnyvale-Santa Clara" MSA), and California frequently appears at the top of these employment and API lists, I'll comment a bit on API jobs in this location. California (specifically Silicon Valley, which roughly spans from San Francisco to San Jose) continues to be a hub (if not *the* hub) for API technical writer jobs.
+When I wrote this section in 2018, I lived in California (the "San Jose-Sunnyvale-Santa Clara" MSA). Since and California frequently appears at the top of these employment and API lists, I'll comment a bit on API jobs in this location. Keep in mind that the following observations are from that time. California (specifically Silicon Valley, which roughly spans from San Francisco to San Jose) continues to be a hub (if not *the* hub) for API technical writer jobs.
 
 The number of tech writers in the area fluctuates quite a bit. Here's the data from the last several Salary Database for San Jose-Sunnyvale-Santa Clara, CA, starting in 2007 (the first year the STC started publishing the report):
 
@@ -683,7 +688,9 @@ The number of tech writers in the area fluctuates quite a bit. Here's the data f
    </tbody>
 </table>
 
-Overall, San Jose-Sunnyvale-Santa Clara is a hot area for tech writer jobs. The employment levels have been relatively flat for the past decade but jumped up 34% this past year. I can certainly see the effects of the job growth in this area. I get emails from recruiters pinging me several times a week, trying to fill positions. At my own company, I've seen how difficult it is to find qualified candidates for developer doc positions. At times, it seems like the candidates just aren't here.
+Overall, San Jose-Sunnyvale-Santa Clara was a hot area for tech writer jobs in 2018. The employment levels had been relatively flat for a decade but jumped up 34% in 2017. I can certainly see the effects of the job growth in this area. I get emails from recruiters pinging me several times a week, trying to fill positions. At my own company, I've seen how difficult it is to find qualified candidates for developer doc positions. At times, it seems like the candidates just aren't here.
+
+Since then, the numbers have dropped. In the May 2025 BLS data, the San Jose metro area had about 920 technical writers, and the San Francisco metro area had about 1,020. The Washington, DC, New York, Boston, Los Angeles, and Seattle metro areas each employed more technical writers than either Bay Area metro.
 
 <figure><img class="docimage large border" src="{{site.api_media}}/californiasanfrancisco.jpg" alt="Should you move to California (or stay here if you're already in California)?" /><figcaption>Should you move to California (or stay here if you're already in California)?</figcaption></figure>
 
@@ -713,7 +720,9 @@ These companies are shaping culture and so many other details of our lives. For 
 
 Before I moved to Santa Clara, I considered two alternatives besides the Bay area: Austin and Seattle. Texas offers a much more affordable housing market and many tech jobs. For 2017, the "Austin-Round Rock, TX" MSA employment numbers jumped up 34.5% (for a total of 740 tech writers) and in "Houston-The Woodlands-Sugar Land, TX," the employment jumped up 9.5% (for a total of 1,040 tech writers).
 
-Seattle (specifically "Seattle-Bellevue-Everett, WA") also has an abundance of jobs (an employment increase of 5.8%, for a total of 910 tech writers). And the real estate market is slightly better than the Bay area but still expensive (food seems to cost more Seattle too).
+Seattle (specifically "Seattle-Bellevue-Everett, WA") also has an abundance of jobs (an employment increase of 5.8%, for a total of 910 tech writers).
+
+By May 2025, the BLS estimated about 1,220 technical writers in the Seattle metro area, about 650 in Austin, and about 660 in Houston. And the real estate market is slightly better than the Bay area but still expensive (food seems to cost more Seattle too).
 
 Traffic in all of these cities is pretty horrible, but you might be able to avoid this by becoming a bicycle commuter (as I have). In the end, I chose California because it seemed like the Ivy League of technology spaces, so I wanted to experience it for myself.
 
@@ -721,7 +730,7 @@ Will I stay here forever? Probably not. I'll probably never be able to afford a 
 
 Overall, tech companies will continue to grow and expand outside of Silicon Valley. There's not enough space in Silicon Valley, and the number of engineers becomes fewer and fewer as companies grow and expand. Many say that Silicon Valley's days are over because it's no longer practical for a startup to launch in the conditions here. So if you want to come to California to work as a technical writer, great. But many other locations might be more ideal.
 
-For ideas on alternative areas, see the "Fastest-Growing States for Technical Writers and Export and GDP Performance in 2017" section of the Salary Database. Michigan had a 28.0% increase in tech writer employment. Georgia had a 19.2% increase. New Mexico had a 23.3% increase.
+For ideas on alternative areas in 2018, I looked at the "Fastest-Growing States for Technical Writers and Export and GDP Performance in 2017" section of the STC Salary Database. Michigan had a 28.0% increase in tech writer employment. Georgia had a 19.2% increase. New Mexico had a 23.3% increase.
 
 {% include random_ad4.html %}
 
@@ -736,9 +745,15 @@ Overall, if you're serious about choosing locations for jobs, consider these fac
 * Health of the state's economy
 * Companies in the area you want to work for
 
+## Remote and hybrid work
+
+The biggest change since I first wrote this topic is remote work. Since 2020, many technical writing jobs, including API documentation roles, have been posted as remote or hybrid. For these roles, where you live matters much less than it used to. However, many large tech companies have since asked employees to return to the office for at least part of the week, and fully remote roles tend to attract applicants from everywhere, which makes them more competitive.
+
+If you're searching for remote roles, use the remote filter on job boards such as LinkedIn and Indeed, and read the fine print. Some "remote" roles are limited to certain states, countries, or time zones, often for tax, legal, or collaboration reasons. Also, the location data in this topic still matters for hybrid roles and for in-person roles, which many companies continue to post.
+
 ## <i class="fa fa-user-circle"></i> How to conduct a simple test
 
-To spot-check the job opportunities in an area, select a few cities where you might like to live, set up some job alerts on [Indeed.com](http://indeed.com) for those areas, and then monitor the frequency of jobs there over the next few months.
+To spot-check the job opportunities in an area, select a few cities where you might like to live, set up some job alerts on [Indeed.com](https://www.indeed.com/) or LinkedIn for those areas, and then monitor the frequency of jobs there over the next few months.
 
 Indeed will send you a daily job alert whenever there are new jobs in that area. Over a period of time, you can consistently see how many new tech writing jobs are popping up in a city. I did this when I was initially considering where to live, and without question, there were about 3-4 times more technical writing jobs appearing in San Jose than Portland, and 2-3 times more than in Seattle.
 
@@ -748,7 +763,7 @@ If you're relocating, let companies know when you'll be in the area. Set up as m
 
 ## Conclusion
 
-Much more could be written about where to live for API tech jobs. Overall, if you want to find a job in API documentation, target these popular areas: California, Texas, Virginia, Massachusetts, New York, Florida, Maryland, New Jersey, Ohio, and Pennsylvania. On the other hand, if you want to start a farm or ranch, move to Wyoming.
+Much more could be written about where to live for API tech jobs. Based on the May 2025 employment data, the states with the most technical writers are California, Texas, North Carolina, Florida, Virginia, Massachusetts, Maryland, Georgia, Washington, and New York. Remote and hybrid roles widen the options further. On the other hand, if you want to start a farm or ranch, move to Wyoming.
 
 
 ## <i class="fa fa-user-circle"></i> Activity: Look at API documentation jobs and requirements

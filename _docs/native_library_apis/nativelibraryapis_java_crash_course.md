@@ -6,14 +6,14 @@ weight: 11.2
 sidebar: docapis
 section: nativelibraryapis
 path1: learnapidoc/nativelibraryapis.html
-last-modified: 2018-12-26
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
 To understand the different components of a Javadoc, first you have to understand a bit about Java. Becoming familiar with the names of the different components of Java will allow you to enter conversations and understand the code at a high level. When you describe various aspects of sample code, knowing when to call something a class, method, parameter, or enum can be critical to your documentation's credibility.
 
-I'll run you through a brief crash course in the basics. Don't worry if this seems like a blur. For more detail about learning Java, I recommend consulting [lynda.com](http://lynda.com) and [safaribooksonline](http://safaribooksonline.com). Below I'll focus on some basic concepts in Java that will be important in understanding the [Javadoc tags and elements](nativelibraryapis_javadoc_tags.html).
+I'll run you through a brief crash course in the basics. Don't worry if this seems like a blur. For more detail about learning Java, see the official [Learn Java](https://dev.java/learn/) tutorials from Oracle, [LinkedIn Learning](https://www.linkedin.com/learning/) (formerly Lynda.com), or the [O'Reilly learning platform](https://www.oreilly.com/) (formerly Safari Books Online). AI coding assistants are also good at explaining Java code line by line. Below I'll focus on some basic concepts in Java that will be important in understanding the [Javadoc tags and elements](nativelibraryapis_javadoc_tags.html).
 
 {% if site.format == "web" %}
 * TOC
@@ -22,24 +22,26 @@ I'll run you through a brief crash course in the basics. Don't worry if this see
 
 ## About Java
 
-Java's flexibility and widespread use make it one of the best programming languages to learn for technical writers. Java isn't tied to a specific language platform. Instead, Java code compiles into byte code. The platform you deploy your code on contains a Java Virtual Machine (JVM) that interprets the byte code. Hence through JVMs, different platforms can interpret and run Java code &mdash; this gives Java more flexibility with different platforms.
+Java's flexibility and widespread use make it one of the best programming languages to learn for technical writers. Java isn't tied to a specific operating system or hardware platform. Instead, Java code compiles into bytecode. The platform you deploy your code on contains a Java Virtual Machine (JVM) that runs the bytecode. Hence through JVMs, different platforms can interpret and run Java code &mdash; this gives Java more flexibility with different platforms.
 
 ## Classes
 
 Classes are templates or blueprints that drive pretty much everything in Java. It's easiest to understand classes through an example. Think of a class like a general blueprint of a "bicycle." There are many different types of bicycles (Trek bikes, Specialized bikes, Giant bikes, Raleigh bikes, etc.). But they're all just different instances of the general class of a bicycle.
 
-In Java, you start by defining classes. Each class is its own file and begins with a capital letter. The file name matches the class name, which means you have just one class per file.
+In Java, you start by defining classes. By convention, class names begin with a capital letter. Each public class goes in its own file, and the file name matches the class name (for example, `Bicycle.java` for the `Bicycle` class).
 
 {% include ads.html %}
 
 Each class can contain some fields (variables for the class) and methods (subroutines the class can do).
 
-Before the class name, an access modifier indicates how the class can be accessed. Several options for access modifiers are as follows:
+Before the class name, an access modifier indicates where the class (or one of its members) can be accessed from. The access modifiers are as follows:
 
-* `public`: Anyone can access
-* `private`: Only other packages can access
-* `static`: No one can change the class
-* `abstract`: The class can't be instantiated, only sub-classed.
+* `public`: Accessible from anywhere.
+* `protected`: Accessible within the same package and from subclasses. (Applies to members, such as fields and methods, not to top-level classes.)
+* No modifier ("package-private"): Accessible only within the same package.
+* `private`: Accessible only within the same class. (Applies to members, not to top-level classes.)
+
+Other modifiers change how a class or member behaves rather than who can access it. For example, `abstract` means the class can't be instantiated, only subclassed. `final` means a class can't be subclassed (or, for a field, that its value can't change after it's set). `static` means a field or method belongs to the class itself rather than to individual objects.
 
 Here's an example of a class:
 
@@ -78,11 +80,11 @@ class Bicycle {
 	// code ...
 	}
 	void pedal(int rotations) {
-	   System.out.println("Your speed is " + rotations + " per minute".);
+	   System.out.println("Your speed is " + rotations + " rotations per minute.");
 	}
 
 	int brake(int force, int weight) {
-  	torque == force * weight;
+  	int torque = force * weight;
   	return torque;
 	}
 }
@@ -109,7 +111,7 @@ Inside the `main` method is where you add your code to make your program run. As
 
 Fields are variables available within the class. A variable is a placeholder that is populated with a different value depending on what the user wants.
 
-Fields indicate their data types because all data in Java is "statically typed" (meaning, its format/length is defined) so that the data doesn't take up more space than it needs. Some data types include `byte`, `short`, `long`, `int`, `float`, or `double`. These are numbers or decimals of different sizes. You can also specify a `char`, `string`, or `boolean`.
+Fields declare their data types because Java is "statically typed," meaning the type of every variable is known when the code compiles. Some data types include `byte`, `short`, `int`, `long`, `float`, and `double`. These are whole numbers or decimals of different sizes. Other common types are `char`, `boolean`, and `String` (which is a class, so it starts with a capital letter).
 
 Here's an example of some fields in class:
 
@@ -122,7 +124,7 @@ class Bicycle {
 
 Many times fields are "encapsulated" with getter-setter methods, which means their values are set in a protected way. Users call one method to set the field's value, and another method to get the field's value. This way you can avoid having users set improper values or incorrect data types for the fields.
 
-Fields that are constant throughout the Java project are called ENUMS. Alternatively, the fields are given `public static final` modifiers.
+Fields whose values never change are called constants. Constants are usually declared with the `static final` modifiers and named in all caps (for example, `public static final int MAX_SPEED = 40;`). A related concept is an *enum*, which is a special type that defines a fixed set of named constants, such as `enum Gear { LOW, MEDIUM, HIGH }`.
 
 ## Objects
 
@@ -141,10 +143,10 @@ The object inherits all of the fields and methods available to the class.
 You can access fields and methods for the object using dot notation, like this:
 
 ```java
-myBicycle Bicycle = new Bicycle();
+Bicycle myBicycle = new Bicycle();
 
 myBicycle.brand = "Trek";
-myBicycle.pedal();
+myBicycle.pedal(60);
 ```
 
 You probably won't see many objects in the native library. Instead, the developers who implement the API will create objects. However, if you have a reference implementation or sample code on how to implement the API, you will see a lot of objects.
@@ -160,10 +162,12 @@ Often classes have constructors that initialize the object with specific values 
 For example, suppose we had a constructor that initialized the object with the brand and size:
 
 ```java
-public class Bicycle{
+public class Bicycle {
+  String brand;
+  int size;
 
   public Bicycle(String brand, int size) {
-  	this.brand = model;
+  	this.brand = brand;
   	this.size = size;
   }
 
@@ -176,7 +180,7 @@ Now you can use this constructor when creating a new `Bicycle` object:
 Bicycle myBicycle = new Bicycle ("Trek", 22);
 ```
 
-It's a best practice to include a constructor even if it's just the default.
+If a class doesn't define any constructor, Java automatically provides a default constructor with no arguments.
 
 ## Packages
 
@@ -185,19 +189,19 @@ Classes are organized into different packages in Java projects. Packages are lik
 When you create your class, if it's in a package called `vehicles`, you list this package at the top of the class:
 
 ```java
-package vehicles
+package vehicles;
 
 public class Bicycle {
 //
 }
 ```
 
-Classes also set boundaries on access based on the package. If the access modifier does not say `public`, the class would only be accessible to members of the same package. If the access modifier is `protected`, the class is only accessible to the class, package, and subclasses.
+Packages also set boundaries on access. If a class doesn't say `public`, it's only accessible to other classes in the same package. If a field or method is `protected`, it's accessible to the same package and to subclasses.
 
-When you want to instantiate the class (and your file is outside the package), you need to import the package into your class, like this:
+When you want to use the class from a file outside the package, you need to import it, like this:
 
 ```java
-import vehicles
+import vehicles.Bicycle;
 
 	public static void main(String[] args) {
 
@@ -207,12 +211,14 @@ import vehicles
 When packages are contained inside other packages, you access the inner packages with a dot, like this:
 
 ```java
-import transportation.motorless.vehicles
+import transportation.motorless.vehicles.*;
 ```
+
+(The `*` imports all the classes in the package.)
 
 Here you would have a transportation package containing a package called motorless containing a package called vehicles. Package naming conventions are like URLs in reverse (com > yoursite > subdomain).
 
-Maven handles package management for Java projects. Maven will automatically go out and get all the package dependencies for a project when you install a Maven project.
+Build tools such as Maven and Gradle manage a project's dependencies, which are the external libraries the project uses. When you build the project, the tool automatically downloads the dependencies it needs.
 
 ## Exceptions
 
@@ -222,15 +228,15 @@ To avoid broken code, developers anticipate potential problems through exception
 
 Different types of errors throw different exceptions. By identifying the type of exception thrown, you can more easily troubleshoot problems when code breaks because you know the specific error that's happening.
 
-You can identify a specific exception the class throws in the class name after the keyword `throws`:
+A method declares the exceptions it might throw after the keyword `throws`:
 
 ```java
-public class Bicycle throws IOException {
+public void ride(int distance) throws IOException {
 
 }
 ```
 
-When you indicate the exception here, you list the type of exception using a specific Javadoc tag.
+When a method declares an exception like this, you document it with the `@throws` Javadoc tag.
 
 ## Inheritance
 
@@ -246,15 +252,15 @@ This code means that `Bicycle` inherits all of the properties of `Vehicle` and t
 
 ## Interfaces
 
-An interface is a class that has methods with no code inside the method. Interfaces are intended to be implemented by another class that will insert their own values for the methods. Interfaces are a way of formalizing a class that will have a lot of subclasses. Interfaces force the subclasses to standardize on common strings and methods.
+An interface is like a contract. It lists methods (usually without any code inside them) that other classes agree to provide. A class that implements an interface must supply the code for each of those methods. Interfaces are a way of making many different classes work the same way. (Since Java 8, interfaces can also include "default" methods that contain code.)
 
 ## JAR files and WAR files
 
-The file extension for a class is `.java`, but when compiled by the Java Development Kit into the Java program, the file becomes `.class`. The `.class` file is binary code, which means only computers (in this case, the Java Virtual Machine, or JVM) can read it.
+The file extension for a class is `.java`, but when compiled by the Java Development Kit into the Java program, the file becomes `.class`. The `.class` file contains bytecode, which only computers (in this case, the Java Virtual Machine, or JVM) can read.
 
 Developers often package up java files into a JAR file, which is like a zip file for Java projects. When you distribute your Java files, you'll likely provide a JAR file that the developer audience will add to their Java projects.
 
-Developers will add their JAR to their class path to make the classes available to their project. To do this, they right-click their project and select **Properties**. In the dialog box, they select **Java Build Path** and then click the **Libraries** tab. They then click **Add JARs** and browse to the JAR.
+Developers add the JAR to their project's class path to make the classes available. In most projects today, they do this by adding the library as a dependency in their Maven or Gradle build file, and the build tool downloads the JAR automatically. In Eclipse, you can also add a JAR manually: right-click the project, select **Properties**, select **Java Build Path**, click the **Libraries** tab, click **Add JARs**, and browse to the JAR.
 
 {% include image_ad_right.html %}
 
@@ -277,7 +283,7 @@ Here's a quick summary of the concepts we talked about:
 * **Constructor**: A method to create an object for a class
 * **Package**: A folder that groups classes
 * **Access modifier** (e.g., `public`): The scope at which a thing can be accessed
-* **Interface**: A skeleton class with empty methods (used for standardizing)
+* **Interface**: A contract listing methods that implementing classes must provide
 * **Enum**: A data type offering predefined constants
 * **Subclass**: A class that inherits the fields + methods of another class
 * **JAR file**: A zip-like file containing Java classes

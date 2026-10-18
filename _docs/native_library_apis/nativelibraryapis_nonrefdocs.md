@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 11.8
 section: nativelibraryapis
 path1: learnapidoc/nativelibraryapis.html
-last-modified: 2018-12-26
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -24,9 +24,9 @@ Engineers will throw a quick description of a class in a file and generate a [Ja
 
 {% include random_ad4.html %}
 
-[Jacob Kaplan Moss says](http://jacobian.org/writing/what-to-write/) that reference docs can be an illusion:
+[Jacob Kaplan-Moss says](https://jacobian.org/2009/nov/10/what-to-write/) that auto-generated reference docs can be an illusion:
 
->… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don't have documentation just admit to it. Maybe a volunteer will offer to write some! But don't lie and give me that auto-documentation crap. – Jacob Kaplan Moss
+>… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don't have documentation just admit to it. Maybe a volunteer will offer to write some! But don't lie and give me that auto-documentation crap. – Jacob Kaplan-Moss
 
 {% include ads.html %}
 

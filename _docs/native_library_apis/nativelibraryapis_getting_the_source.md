@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 11.1
 section: nativelibraryapis
 path1: learnapidoc/nativelibraryapis.html
-last-modified: 2020-12-26
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -44,7 +44,7 @@ One of your immediate challenges to editing Javadoc will be to get the source co
 
 2.  If you haven't already [downloaded and installed Eclipse](nativelibraryapis_overview.html#eclipse), do so.
 3.  Open Eclipse and go to **File > New > Java Project**.
-4.  Clear the **Use default location** check box, and then click **Browse** and select the folder where you cloned the Github project. Click **Open**.
+4.  Clear the **Use default location** check box, and then click **Browse** and select the folder where you cloned the GitHub project. Click **Open**.
 
     <figure><img class="docimage medium border" src="{{site.api_media}}/create-new-java-project.png" alt="Import existing Java project" /><figcaption>Import existing Java project</figcaption></figure>
 
@@ -83,7 +83,7 @@ This Java app doesn't do much. Its only purpose is to create some classes that d
 
     You can view the details of each function by clicking the `ACMESmartphone.java` and `Dynamite.java` class files.
 
-    Then app prints this text to the console:
+    The app prints this text to the console:
 
     ```
     model2.0 now initialized for license 398978fdskj
@@ -97,7 +97,7 @@ This Java app doesn't do much. Its only purpose is to create some classes that d
 
 ## Side Note about Maven projects
 
-Before leaving this intro topic on getting started with a Java project, I'd like to make a note about Maven. Java projects often have a lot of dependencies on packages that are third-party libraries or at least non-standard Java utilities. Rather than requiring users to download these additional packages and add them to their class manually, developers frequently use Maven to manage the packages. (Maven is to Java as Gradle is to Android.)
+Before leaving this intro topic on getting started with a Java project, I'd like to make a note about Maven. Java projects often have a lot of dependencies on packages that are third-party libraries or at least non-standard Java utilities. Rather than requiring users to download these additional packages and add them to their class path manually, developers use a build tool such as Maven or Gradle to manage the dependencies. (Gradle is the standard for Android projects, and both are common for other Java projects.)
 
 {% include random_ad4.html %}
 

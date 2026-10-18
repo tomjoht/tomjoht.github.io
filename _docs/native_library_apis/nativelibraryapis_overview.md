@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 11.01
 section: nativelibraryapis
 path1: learnapidoc/nativelibraryapis.html
-last-modified: 2018-12-26
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -24,7 +24,7 @@ In most of this course, we focused on [REST APIs](docapis_what_is_a_rest_api.htm
 
 {% include random_ad3.html %}
 
-Native library APIs (also called class-based APIs or just APIs) are notably different in the following ways:
+Native library APIs (also called library-based APIs, class-based APIs, or just APIs) are notably different in the following ways:
 
 * **Installed locally**. Native library APIs are installed locally, compiled into the programmer's code as an additional library. The programmer can then use the classes, methods, or other functions available in the library. (The API part refers to the *public* classes the developers use to access the functions in the library. There are probably lots of helper and utility classes in the Java library that aren't public, but users will only interact with the public classes.)
 * **No requests and responses**. The classes in native library APIs don't use HTTP protocol, nor are there requests and responses sent across the web. Native library APIs consist of a collection of classes or functions that enhance your existing project with more capabilities. The APIs are entirely local, with no web communication.
@@ -45,7 +45,7 @@ Even so, you don't need to be a programmer. You just need a minimal understandin
 
 ## My approach to teaching native library API doc
 
-There are many books and online resources you can consult to learn a specific programming language. This section of the course will not try to [teach you Java](nativelibraryapis_java_crash_course.html) in any comprehensive way. However, to understand a bit about Java API documentation (which uses a document generator called [Javadoc](http://www.oracle.com/technetwork/articles/java/index-jsp-135444.html)), you will need some understanding of Java.
+There are many books and online resources you can consult to learn a specific programming language. This section of the course will not try to [teach you Java](nativelibraryapis_java_crash_course.html) in any comprehensive way. However, to understand a bit about Java API documentation (which uses a document generator called [Javadoc](https://docs.oracle.com/en/java/javase/25/docs/specs/man/javadoc.html)), you will need some understanding of Java.
 
 To keep the focus on API documentation, we'll take a documentation-centric approach as we explore Java. You'll learn the various parts of Java by looking at a specific Javadoc file and sorting through the main components.
 
@@ -55,20 +55,17 @@ For this part of the course, you need to install the [Java Development Kit (JDK)
 
 ### Java Development Kit (JDK) {#jdk}
 
-To check whether you have the Java Development Kit installed, do the following:
-
-* On Mac: Open Terminal and type `java -version`.
-* On Windows: Open a Command Prompt and type `where java`.
+To check whether you have the Java Development Kit installed, open Terminal (Mac) or Command Prompt (Windows) and type `java -version`.
 
 If it's installed, you should see a message somewhat like this:
 
 ```
-java version "1.8.0_181"
-Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
-Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+openjdk version "25.0.4.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)
 ```
 
-If it's not installed, you can [download the JDK here](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Click the Java button and then select the appropriate download for your machine.
+If it's not installed, or if your version is old, install a current long-term support (LTS) release, such as Java 25 (released in September 2025). You can download it from [Oracle](https://www.oracle.com/java/technologies/downloads/) or get a free OpenJDK build such as [Eclipse Temurin](https://adoptium.net/). Select the download for your operating system and processor. (On a Mac, check whether you have an Apple silicon or Intel processor.)
 
 {% include random_ad4.html %}
 
@@ -80,10 +77,10 @@ Download and install the [Eclipse IDE for Java Developers](https://www.eclipse.o
 
 Start Eclipse. When prompted to select a workspace, select the default location and click **Launch**. Close the welcome tab.
 
-To make sure Eclipse is configured to use version 1.8, go to **Eclipse > Preferences** and then **Java > Installed JREs**.
+To make sure Eclipse is configured to use the JDK you installed, go to **Eclipse > Settings** (on Windows, **Window > Preferences**) and then **Java > Installed JREs**.
 
 <figure><img class="docimage medium" src="{{site.api_media}}/installed-jre-eclipse.png" alt="Installed JRE settings" /><figcaption>Installed JRE settings</figcaption></figure>
 
-If 1.8 isn't selected, browse to your install directory (on Mac, it's `/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home`) and select it.
+If your JDK isn't listed or selected, click **Add** or **Search** and browse to your install directory. (On a Mac, JDKs are usually installed in `/Library/Java/JavaVirtualMachines/`, in a folder such as `temurin-25.jdk/Contents/Home`.)
 
-(Since we'll just be using Java within the context of Eclipse, Windows users don't need to add Java to their classpath. But if you want to be able to compile Java from the command line, you would also need to do this.)
+(Since we'll just be using Java within the context of Eclipse, you don't need to add Java to your system path. But if you want to compile Java from the command line, you might need to do this. Many installers, including the Temurin installer, can set it up for you.)

@@ -6,7 +6,7 @@ weight: 10.4
 sidebar: docapis
 section: jobapis
 path1: learnapidoc/jobapis.html
-last-modified: 2020-06-27
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -52,7 +52,7 @@ To find an open-source project with API doc needs:
 
     Scroll to the top and notice that `label: "help wanted"` automatically populates in the field.
 
-3.  In this Advanced Search box at the top, add some additional keywords (such as `API documentation`) as well:
+3.  In this Advanced Search box at the top, add some additional keywords (such as `API documentation`) as well. (You can also try other common labels, such as `label:documentation` or `label:"good first issue"`.)
 
     <a class="noCrossRef" href="https://github.com/search?utf8=%E2%9C%93&q=documentation+api+label%3A%22help+wanted%22&type=Issues&ref=advsearch&l=&l="><img src="{{site.api_media}}/githubadvancedsearch2.png"/></a>
 
@@ -65,12 +65,9 @@ To find an open-source project with API doc needs:
 5.  If searching GitHub doesn't yield any appropriate projects, try the following resources:
 
     * [Trending GitHub projects](https://github.com/trending)
-    * [Crowdforge](https://crowdforge.io/)
-    * [Up for Grabs](http://up-for-grabs.net/#/)
-    * [Bus Factor](https://web.archive.org/web/20201226015741/https://libraries.io/experiments/bus-factor)
+    * [Good First Issue](https://goodfirstissue.dev/)
+    * [Up for Grabs](https://up-for-grabs.net/)
     * [Code Triage](https://www.codetriage.com/)
-    * [Changelog](https://changelog.com/)
-    * [24-hour Pull Requests](https://24pullrequests.com)
 
     {% include note.html content="You could spend a long time evaluating and deciding on open-source projects. For this activity, it's okay if you focus on a project that looks only mildly interesting. You don't need to commit to it. You can always change it later." %}
 
@@ -105,9 +102,9 @@ You may think that it's too early to even think about joining let alone contribu
 
 {% include ads.html %}
 
-However, don't undervalue your role as a contributor to documentation (regardless of the contribution). Open-source projects suffer greatly from lousy documentation. In [GitHub Survey: Open Source Is Popular, Plagued by Poor Docs and Rude People](https://adtmag.com/articles/2017/06/05/open-source-survey.aspx), David Ramel summarizes findings from the [2017 GitHub Survey](http://opensourcesurvey.org/2017/):
+However, don't undervalue your role as a contributor to documentation (regardless of the contribution). Open-source projects suffer greatly from lousy documentation. The [2017 GitHub Open Source Survey](https://opensourcesurvey.org/2017/) found the following (see also David Ramel's summary, [GitHub Survey: Open Source Is Popular, Plagued by Poor Docs and Rude People](https://adtmag.com/articles/2017/06/05/open-source-survey.aspx)):
 
-> Incomplete or outdated documentation is a pervasive problem, observed by 93 percent of respondents, yet 60 percent of contributors say they rarely or never contribute to documentation.
+> Incomplete or outdated documentation is a pervasive problem, observed by 93% of respondents, yet 60% of contributors say they rarely or never contribute to documentation.
 
 Also check out [Open source documentation is bad, but proprietary software is worse](https://www.techrepublic.com/article/open-source-documentation-is-bad-but-proprietary-software-is-worse/) by Matt Asay as well. Asay highlights the documentation results from the same GitHub survey:
 

@@ -6,12 +6,12 @@ sidebar: docapis
 weight: 11.6
 section: nativelibraryapis
 path1: learnapidoc/nativelibraryapis.html
-last-modified: 2018-12-26
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
-It's pretty common for developers to add Javadoc tags and brief comments as they're creating Java code. In fact, if they don't add some annotations, the IDE will usually produce a warning error.
+It's pretty common for developers to add Javadoc tags and brief comments as they're creating Java code. In fact, if they don't add doc comments, the IDE or the Javadoc tool will often show warnings.
 
 {% include random_ad4.html %}
 
@@ -30,7 +30,8 @@ When you make edits to Javadoc content, look for the following:
 
 * **Missing doc**. Lots of Javadoc is incomplete. Look for missing documentation.
 * **Consistent style**. See if the existing tags follow [Java's style conventions with annotations](nativelibraryapis_javadoc_tags.html).
-* **Clarity**. Some descriptions are unintelligible due to the curse of knowledge (it might be hard to tell without a stronger grasp of Java)
+* **Clarity**. Some descriptions are unintelligible due to the curse of knowledge. (It might be hard to tell without a stronger grasp of Java.)
+* **Warnings**. Generate the Javadoc and read the warnings in the output. They point to missing `@param`, `@return`, and `@throws` tags and to broken links.
 
 {% include random_ad3.html %}
 

@@ -6,7 +6,7 @@ weight: 11.3
 sidebar: docapis
 section: nativelibraryapis
 path1: learnapidoc/nativelibraryapis.html
-last-modified: 2019-03-30
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -15,14 +15,14 @@ Javadoc is the standard output for Java APIs, and it's somewhat effortless to bu
 
 {% include random_ad3.html %}
 
-Javadoc is supported by Oracle. Developers can integrate the Javadoc output directly into their IDE, which makes the documentation convenient and easily accessible. In fact, Javadoc is often delivered this way rather than deployed and uploaded to a server. Javadoc contains reference documentation only. You can't add any conceptual help files into the output, nor change the layout.
+The Javadoc tool comes with the JDK. Developers can integrate the Javadoc output directly into their IDE, which makes the documentation convenient and easily accessible. In fact, Javadoc is often delivered this way rather than deployed and uploaded to a server. Javadoc is mainly reference documentation. You can add an overview page, package descriptions, and some extra HTML files, but you can't change the layout much or build a full conceptual guide in it.
 
 * TOC
 {:toc}
 
 ## <i class="fa fa-user-circle"></i> Generate a Javadoc
 
-In this activity, you'll generate a Javadoc from the [sample java project](nativelibraryapis_getting_the_source.html) you downloaded earlier. If you want to preview the Javadoc that you're going to build, you can [view the output here](https://idratherbewriting.com/assets/files/javadoc/index.html).
+In this activity, you'll generate a Javadoc from the [sample java project](nativelibraryapis_getting_the_source.html) you downloaded earlier. If you want to preview the Javadoc that you're going to build, you can [view the output here](https://idratherbewriting.com/assets/files/javadoc/index.html). (This sample output was generated with JDK 25. The screenshots on this page are from an older version of Eclipse and Java, so some options might look slightly different.)
 
 1.  In Eclipse, go to **File > Export**.
 2.  Expand **Java** and select **Javadoc.** Then click **Next**.
@@ -48,17 +48,17 @@ In this activity, you'll generate a Javadoc from the [sample java project](nativ
 
     <figure><img class="docimage small_medium" src="{{site.api_media}}/javadocnext1.png" alt="Javadoc next screen"><figcaption>Javadoc next screen</figcaption></figure>
 
-	  Here you can select if you want to omit some tags, such as @author and @deprecated. Generally, you don't include the @author tag, since it may only be important internally, not externally. You can also select different options in the Javadoc frame. If you have a custom stylesheet, you can select it here. Most likely you would only make superficial style changes such as with colors.
+	  Here you can select if you want to omit some tags, such as @author and @deprecated. Generally, you don't include the @author tag, since it may only be important internally, not externally. If you have a custom stylesheet, you can select it here. Most likely you would only make superficial style changes such as with colors.
 
 8.  Click **Next**.
 
     <figure><img class="docimage small_medium" src="{{site.api_media}}/generatejavadocnext2.png" alt="Overview page"><figcaption>Overview page</figcaption></figure>
 
-	  Here you can select an HTML page that you want to be your [overview page in the Javadoc](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html#overviewcomment). You can select any HTML page, and it will be included in the index.
+	  Here you can select an HTML page that you want to be your [overview page in the Javadoc](https://docs.oracle.com/en/java/javase/25/docs/specs/man/javadoc.html). You can select any HTML page, and it will be included in the index.
 
 9.  Click **Finish**.
 
-    If the Finish button isn't available, it might be because Eclipse can't find the right Javadoc executable. You can click **Configure** and browse to the file manually. On a MacBook Pro, the Javadoc file is at `/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/bin/javadoc`.
+    If the Finish button isn't available, it might be because Eclipse can't find the right Javadoc executable. You can click **Configure** and browse to the file manually. On a Mac, the Javadoc executable is in the `bin` folder of your JDK, for example, `/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/javadoc`.
 
     If prompted to update the Javadoc location (which likely differs from your Eclipse workspace location), do so by clicking **Yes to all**.
 
@@ -83,8 +83,18 @@ Try removing a parameter from a method and generate the Javadoc again. Make sure
 
 {% include image_ad_right.html %}
 
+## Generate the Javadoc from the command line
+
+You can also generate the same output from the command line, without Eclipse. From the root of the sample project, run this command:
+
+```bash
+javadoc -d apidocs -public javadoc_tags/ACMESmartphone.java javadoc_tags/Dynamite.java
+```
+
+The `-d` option sets the output folder, and `-public` includes only public classes and members. Open `apidocs/index.html` to view the result.
+
 ## Auto-building the Javadoc
 
-In most development shops, you'll never manually create a Javadoc file as I've explained here. Javadoc allows you to build it from the command line by feeding it a configuration file. Most developers have a build management tool where they can configure outputs from their code, including Javadoc. If developers ask you to build the Javadoc, chances are their build management system might be somewhat primitive. However, it can be helpful to build the Javadoc output yourself (as I've explained here) to test and review the output before generating it through the build management tool.
+In most development shops, you'll never manually create a Javadoc file as I've explained here. Javadoc can run from the command line with whatever options the project needs. Most developers have a build tool, such as Maven or Gradle, where they can configure outputs from their code, including Javadoc. (For example, Gradle's `javadoc` task and Maven's `javadoc:javadoc` goal generate it.) If developers ask you to build the Javadoc, chances are their build management system might be somewhat primitive. However, it can be helpful to build the Javadoc output yourself (as I've explained here) to test and review the output before generating it through the build management tool.
 
 {% include random_ad4.html %}
