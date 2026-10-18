@@ -83,7 +83,7 @@ But as I was writing tech docs for our 1.0 product, I couldn't help but wonder w
 
 I think there's a component to startup success that companies are too frequently overlooking: building a presence in the community, establishing thought leadership and insight, becoming visible online. You achieve a lot of this through content marketing.
 
-For example, one source I frequently turn to is the [ProgrammableWeb.com](http://www.ProgrammableWeb.com/). It's my favorite site to learn about APIs. If I were a venture capitalist, I would probably back any API that ProgrammableWeb said to throw my money behind.
+For example, one source I frequently turn to is the [ProgrammableWeb.com](https://web.archive.org/web/20160104152017/http://www.programmableweb.com/). It's my favorite site to learn about APIs. If I were a venture capitalist, I would probably back any API that ProgrammableWeb said to throw my money behind.
 
 ProgrammableWeb has built up the audience; it has won me over through the worthwhile, insightful content that it has published for years &mdash; content that doesn't end in a pitch for some product. (In fact, I'm not even sure ProgrammableWeb sells anything). It is just awesome content with a specific focus that builds up the ProgrammableWeb brand as a source of expertise and insight in the web API industry.
 

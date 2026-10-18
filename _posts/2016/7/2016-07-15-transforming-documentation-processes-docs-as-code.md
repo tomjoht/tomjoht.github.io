@@ -40,9 +40,9 @@ Riona said the survey's findings closely paralleled those from the [2016 Develop
 
 {% include ads.html %}
 
-As more support for the value of docs, a 2013 survey conducted by [Programmableweb](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07) (which included about 250 developers) also found that "complete and accurate documentation" was the most important factor in an API:
+As more support for the value of docs, a 2013 survey conducted by [Programmableweb](https://web.archive.org/web/20160731024548/http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07) (which included about 250 developers) also found that "complete and accurate documentation" was the most important factor in an API:
 
-<figure><a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{site.media}}/progwebdoc.png"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
+<figure><a href="https://web.archive.org/web/20160731024548/http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{site.media}}/progwebdoc.png"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
 
 (As exciting as it is to find these surveys, don't get too excited -- few people seem to take them seriously, as evidenced by the [steady decline or flatlining of employed tech writers](/innovation/#/8/2). But let's not dwell on that.)
 

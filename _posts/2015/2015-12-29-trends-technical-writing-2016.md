@@ -258,9 +258,9 @@ By storing the content on an API server in the cloud and allowing applications t
 
 I doubt Contentful will gain early traction in the tech comm market any time this year, but the idea of delivering user interface content (such as tooltips or interface tutorials) through a JSON file is something that is going to grow in popularity. I delivered UI content using Jekyll and the method I [described earlier](/documentation-theme-jekyll/mydoc_help_api), and I found it incredibly effective. I was able to single source the definitions from my main documentation help into both the JSON file (used for UI tooltips) and various documentation pages.
 
-Contentful may have slow adoption in the tech comm community, but it's one of the fastest growing APIs. Take a look at this article on Programmableweb.com: [How SDKs and Community Drove Contentful's 2000% Growth In Two Years](http://www.programmableweb.com/news/how-sdks-and-community-drove-contentfuls-2000-growth-two-years/analysis/2015/12/03).
+Contentful may have slow adoption in the tech comm community, but it's one of the fastest growing APIs. Take a look at this article on Programmableweb.com: [How SDKs and Community Drove Contentful's 2000% Growth In Two Years](https://web.archive.org/web/20160106100610/http://www.programmableweb.com/news/how-sdks-and-community-drove-contentfuls-2000-growth-two-years/analysis/2015/12/03).
 
-Contentful's main audience includes [media publishers and digital creative agencies](http://www.programmableweb.com/news/how-sdks-and-community-drove-contentfuls-2000-growth-two-years/analysis/2015/12/03?page=3) but I think this audience may eventually expand into other markets as well.
+Contentful's main audience includes [media publishers and digital creative agencies](https://web.archive.org/web/20151207153919/http://www.programmableweb.com/news/how-sdks-and-community-drove-contentfuls-2000-growth-two-years/analysis/2015/12/03?page=3) but I think this audience may eventually expand into other markets as well.
 
 ## Other trends
 

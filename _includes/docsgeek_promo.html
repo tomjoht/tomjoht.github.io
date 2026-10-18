@@ -1,0 +1,12 @@
+<!-- DocsGeek course promo, Oct 17-19, 2026. The script hides it once the cohort starts; then remove the include in ads.html. -->
+<div class="docsgeekPromo" style="max-width:780px;margin:16px 0 24px 0;padding:18px 22px;background:#f1f5f9;border:1px solid #d5dde6;border-left:5px solid #2b6cb0;border-radius:6px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#333;">
+    <p style="margin:0 0 10px 0;font-size:11px;letter-spacing:0.07em;text-transform:uppercase;color:#8c8c8c;">Sponsored</p>
+    <a class="noCrossRef" rel="nofollow" href="https://idbwrtng.com/docsgeekcourse"><img width="516" style="width:100%;max-width:516px;height:auto;display:block;border:0;margin:0 0 12px 0;" src="{{site.media}}/docsgeekcoursebanner.png" alt="Mastering API Documentation with AI, a live course from Mark Wentowski at DocsGeek" /></a>
+    <p style="margin:0;">Want to level up your API documentation skills? Mark Wentowski is teaching a live API documentation course this fall at <a rel="nofollow" href="https://idbwrtng.com/docsgeekcourse">docsgeek.io</a>. The fall cohort starts October 19 and includes seven 90-minute classes, Mondays 8:00&ndash;9:30am PT, running through November 23. Code <code style="font-family:Menlo,Consolas,monospace;font-size:15px;font-weight:bold;color:#c7254e;background:#fff;border:1px solid #d5dde6;border-radius:4px;padding:2px 6px;">TOMAPIS</code> takes $250 off.</p>
+</div>
+<script>
+    // Hide after the first class ends (Mon Oct 19, 9:30am PT = 16:30 UTC).
+    if (Date.now() > Date.UTC(2026, 9, 19, 16, 30)) {
+        document.querySelectorAll(".docsgeekPromo").forEach(function (el) { el.style.display = "none" })
+    }
+</script>

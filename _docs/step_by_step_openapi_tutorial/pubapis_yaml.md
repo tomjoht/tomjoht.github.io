@@ -254,4 +254,3 @@ Hopefully, those brief examples will help align us with the terminology used in 
 
 With that information about YAML, hopefully the upcoming step-by-step sections that walk through each section in the OpenAPI spec, using YAML as the primary format, will make more sense. Let's get started with [Step 1: The openapi object (OpenAPI tutorial)](pubapis_openapi_step1_openapi_object.html).
 
-{% include ads.html %}
