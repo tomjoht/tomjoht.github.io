@@ -101,7 +101,7 @@ Around the 4:15 mark, Ruthie says,
 
 Why do engineers so frequently say they want code? Code examples show how to implement an abstract, narrative explanation in an actual way. Code shows how to use reference APIs toward some actionable and tangible end. In that sense, code is an extremely powerful tool to help users understand how to use your API.
 
-In fact, in the [2021 State of API report by SmartBear](https://web.archive.org/web/20211006130616/https://smartbear.com/state-of-software-quality/api/documentation/), "examples" are the most desired form of documentation, topping all other documentation types by a wide margin.
+In fact, SmartBear's [State of Software Quality survey on API documentation](https://smartbear.com/state-of-software-quality/api/documentation/) found that examples were the most important aspect of API documentation. When asked to choose their top five aspects, 66% of respondents picked examples, ahead of status and errors (59%), authentication (55%), and parameters (50%).
 
 Despite the importance of code samples, they're often neglected or missing from API docs. After all, it's much easier to just cover reference material and let developers figure out how to actually use it constructively. In this section of my API course, I'll provide concrete strategies for successfully incorporating code samples into your documentation.
 

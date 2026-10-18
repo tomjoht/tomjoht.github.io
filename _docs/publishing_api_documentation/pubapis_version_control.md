@@ -6,7 +6,7 @@ weight: 9.5
 sidebar: docapis
 section: publishingapis
 path1: learnapidoc/publishingapis.html
-last-modified: 2020-01-21
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -30,18 +30,18 @@ If you're working in a text file format, you can integrate your doc authoring an
 
 There are different types of version control systems. A _centralized_ version control system requires everyone to check out or synchronize files with a central repository when editing them. This setup isn't so typical anymore because working with files on a central server tends to be slow.
 
-More commonly, software shops use _distributed_ version control systems. The most common system is Git (probably because GitHub provides Git repositories for free on the web) so we'll be focusing on it here. Other version control systems include Mercurial, Subversion (SVN), and Perforce. Due to Git's popularity, we'll focus on it exclusively here.
+More commonly, software shops use _distributed_ version control systems. The most common system is Git (probably because GitHub provides Git repositories for free on the web) so we'll be focusing on it here. Other version control systems include Mercurial, Subversion (SVN), and Perforce.
 
 {: .note}
 Note that Git is different from GitHub. GitHub provides online repositories and tools for Git. GitHub is a platform for managing Git projects, with a nice GUI for performing some Git tasks such as pull requests.
 
-<figure><a href="http://github.com" class="noExtIcon"><img src="{{site.api_media}}/githubhomepage.png" alt="Github" /></a><figcaption>Github is a site that built tooling around Git.</figcaption></figure>
+<figure><a href="https://github.com" class="noExtIcon"><img src="{{site.api_media}}/githubhomepage.png" alt="GitHub" /></a><figcaption>GitHub is a site that built tooling around Git.</figcaption></figure>
 
-[Bitbucket](https://bitbucket.org/) is Altassian's version of GitHub. Bitbucket lets you use either Git or Mercurial, but most of the Bitbucket projects use Git. Bitbucket tends to only be used by companies already heavily using Atlassian.
+[Bitbucket](https://bitbucket.org/) is Atlassian's version of GitHub. Bitbucket used to support Mercurial as well, but it dropped Mercurial in 2020 and now supports only Git. Bitbucket tends to be used mostly by companies already heavily using Atlassian tools such as Jira. [GitLab](https://gitlab.com/) is another popular alternative to GitHub, especially for companies that want to host their own Git platform.
 
 ## The idea of version control
 
-When you install version control software such as Git and initialize a repository in a folder, an invisible folder gets added to the repository. This invisible folder handles the versioning of the content in that folder. (If you want to move the Git tracking to another folder, you can move the invisible git folder to that other folder.)
+When you install version control software such as Git and initialize a repository in a folder, an invisible folder (`.git`) gets added to the repository. This invisible folder handles the versioning of the content in that folder. (If you want to move the Git tracking to another folder, you can move the `.git` folder to that other folder.)
 
 {% include random_ad2.html %}
 
@@ -58,15 +58,15 @@ Here's the general workflow:
 1. You must first add any files that you want Git to track. Just because the files are in the initialized Git repository doesn't mean that Git is actually tracking and versioning their changes. Only when you officially "add" files to your Git project does Git start tracking changes to that file.
 2. Any modified files that Git is tracking are said to be in a "staging" area.
 3. When you "commit" your files, Git creates a snapshot of the file at that point in time. You can always revert to this snapshot.
-4. After you commit your changes, you can "push" your changes to the master. Once you push your changes to the master, your own working copy and the master branch are back in sync.
+4. After you commit your changes, you can "push" your changes to the remote repository (such as the repo on GitHub). Once you push your changes, your own working copy and the remote branch are back in sync.
 
 ## Branching
 
-Git's default repository is the `master` branch. When collaborating with others on the same project, usually people branch the master, make edits in the branch, and then merge the branch back into the master.
+The primary line of development in a Git repository lives in a default branch, usually called `main`. (GitHub has used `main` as the default branch name for new repositories since 2020. Older repositories often use `master`.) When collaborating with others on the same project, usually people create a branch from `main`, make edits in the branch, and then merge the branch back into `main`.
 
 {% include random_ad4.html %}
 
-If you're editing doc annotations in code files, you'll probably follow this same workflow &mdash; making edits in a particular doc branch. When you're done, you'll create a pull request to have developers merge the doc branch back into the master.
+If you're editing doc annotations in code files, you'll probably follow this same workflow &mdash; making edits in a particular doc branch. When you're done, you'll create a pull request to have developers merge the doc branch back into `main`.
 
 ## Can you collaborate on doc projects in Git with other writers? {#collaborate-in-git}
 
@@ -76,29 +76,29 @@ Collaborating on docs in Git can be a lot more challenging than it initially see
 
 > Hi Tom, do you have a recommended article for how a team of writers collaborate in git? We've made the big switch to our new docs pipeline and the biggest challenge is that we are unable to collaborate in git. A lot of changes and suggestion to technical documentation is hard to resolve in the git workflow. We are now talking about keeping the doc in Google docs and then porting to git after approval from the team and stakeholders. Does that make sense?
 
-It seems that in their switch to Git, they tried to manage all aspects of content development and collaboration through Git. Note that even if you're using Git, there is a good reason for initially developing content in some other platform such as [Google Docs](https://www.google.com/docs/about/) or [Salesforce Quip](https://www.salesforce.com/form/quip/quip-demo-video/). If you're working together in a wiki-like way on the initial version of the content, making edits back and forth while the content is in a high degree of flux, then yes you need a more fluid and flexible platform that won't involve playing tennis with Git with various commits and merges. I consider this wiki stage more of a sandbox platform for early content development, when you're making radical edits in a highly collaborative way. If you try to do this purely in Git, you'll find it stiff and awkward.
+It seems that in their switch to Git, they tried to manage all aspects of content development and collaboration through Git. Note that even if you're using Git, there is a good reason for initially developing content in some other platform such as [Google Docs](https://www.google.com/docs/about/) or Microsoft Word online. If you're working together in a wiki-like way on the initial version of the content, making edits back and forth while the content is in a high degree of flux, then yes you need a more fluid and flexible platform that won't involve playing tennis with Git with various commits and merges. I consider this wiki stage more of a sandbox platform for early content development, when you're making radical edits in a highly collaborative way. If you try to do this purely in Git, you'll find it stiff and awkward.
 
-When working with developers on content, the developers often prefer to draft it on a wiki ("wiki" tends to be the universal name for any collaborative platform, such as Google Docs, Quip, Workdocs, or any other non-published web page platform, regardless of whether it's actually a wiki). These platforms are much faster when you want to develop content with comments and replies, and lots of other back and forth. Developers really aren't accustomed to managing documentation in Git anyway, and will find dumping and editing knowledge on a wiki the most common method.
+When working with developers on content, the developers often prefer to draft it on a wiki ("wiki" tends to be the universal name for any collaborative platform, such as Google Docs, Confluence, Notion, or any other non-published web page platform, regardless of whether it's actually a wiki). These platforms are much faster when you want to develop content with comments and replies, and lots of other back and forth. Developers really aren't accustomed to managing documentation in Git anyway, and will find dumping and editing knowledge on a wiki the most common method.
 
 {% include random_ad3.html %}
 
-But as soon as the content is finalized (for a first draft) and ready to be published as a web page with the rest of the documentation, you can migrate it from the wiki into your doc system. At this point in the process, the writer takes full control of the content. When you want to gather input from others to make changes, you might render the page as a PDF and put it into something like [Workdocs](https://aws.amazon.com/workdocs/) for easy annotations (comments and replies and replies to comments, etc.).
+But as soon as the content is finalized (for a first draft) and ready to be published as a web page with the rest of the documentation, you can migrate it from the wiki into your doc system. At this point in the process, the writer takes full control of the content. When you want to gather input from others to make changes, you might share a preview build of the page or paste the content into Google Docs for easy annotations (comments and replies and replies to comments, etc.). Many hosting platforms, such as Netlify and Vercel, can generate a preview URL for each pull request, which gives reviewers a rendered page without requiring them to use Git.
 
 As the review finishes and the content is merged in with the other sea of documentation topics, you'll probably make your edits directly in the repo, without always pushing the content out for review. At this point, your doc team will need to decide on the right Git workflow for your team.
 
 Note that there are various workflows that teams might adopt (see [5 types of Git workflow that will help you deliver better code](https://buddy.works/blog/5-types-of-git-workflows) for some examples). Different teams adopt processes that fit their needs, which is what's great about Git. Git is flexible enough that it can be used in a dozen different ways all to achieve a similar end.
 
-For example, some teams are strong proponents of following a "rebasing" workflow. Rebasing changes the way Git stores the history of commits by (fictionally) representing the commits as if in chronological order (rather than merged in from various timelines). This makes it easy to roll back catastrophes. (I'm not a fan of rebasing, though, as I think it introduces too much complexity and has some problematic scenarios.)
+For example, some teams are strong proponents of following a "rebasing" workflow. Rebasing rewrites the history of your commits so that they appear in a single straight line on top of the latest changes, rather than merged in from various timelines. This linear history is easier to read and makes it easier to find and roll back problematic commits. (I'm not a fan of rebasing, though, as I think it introduces too much complexity and has some problematic scenarios.)
 
-My personal approach is to leave content in the `master` branch as much as possible. I don't like branching every time I have an update. If I'm working on a new page, I'll set the page as unpublished. If I'm adding a new section, I might surround the new section with comment tags until ready to publish it.
+My personal approach is to leave content in the `main` branch as much as possible. I don't like branching every time I have an update. If I'm working on a new page, I'll set the page as unpublished. If I'm adding a new section, I might surround the new section with comment tags until ready to publish it.
 
-Only if I'm developing an extensive edit to existing content do I create a branch for the new content. I store the content in the branch so that I can switch back to `master` and continue making other updates until I'm ready to go live with the branch content. Otherwise, if I start overhauling a topic (e.g., Topic A) in preparation for an upcoming release two weeks away, but then someone says I need to fix some typos in Topic B immediately, I wouldn't be able to push Topic B's edits live without also pushing the unfinished overhaul of Topic A live as well. To accommodate these scenarios, I store the edits to Topic A in a branch.
+Only if I'm developing an extensive edit to existing content do I create a branch for the new content. I store the content in the branch so that I can switch back to `main` and continue making other updates until I'm ready to go live with the branch content. Otherwise, if I start overhauling a topic (e.g., Topic A) in preparation for an upcoming release two weeks away, but then someone says I need to fix some typos in Topic B immediately, I wouldn't be able to push Topic B's edits live without also pushing the unfinished overhaul of Topic A live as well. To accommodate these scenarios, I store the edits to Topic A in a branch.
 
 With most doc teams, we split the work into different stewardships. For example, John owns Project A, Sally owns Project B, and Kim owns Project C. It's rare that we're each making updates on content that the other owns. When everyone works on different files, merge conflicts rarely happen. In these scenarios of divided stewardship, it's fairly easy to collaborate on docs with your team in Git.
 
 But suppose that you are in fact collaborating with others on the same topics. If John and Sally start making edits to the same topics in Project A on their local machines, as soon as they push their local versions to the remote, one of them (the later one) is bound to receive merge conflicts. Merge conflicts are Git's way of raising a red flag about the merge &mdash; you're asking Git to make contradictory merges. Two writers made conflicting updates to the same lines between commits, and now Git wants you to tell it which changes it should use. You might need to reach out to the other writer to see which updates should be committed.
 
-When merge conflicts happen, Git removes the conflicted files from the staging area and inserts conflict markers (`<<<<<<< HEAD` and `>>>>>>> local commit msg`) in the problematic places in the files. In addition to the conflict markers, Atom editor will also highlight these blocks in visibly distinct ways (blue and purple).
+When merge conflicts happen, Git removes the conflicted files from the staging area and inserts conflict markers (`<<<<<<< HEAD` and `>>>>>>> local commit msg`) in the problematic places in the files. In addition to the conflict markers, editors such as VS Code highlight these blocks in different colors and give you buttons to choose which version to keep.
 
 If you run `git pull` and get a merge conflict, the message from Git looks like this:
 
@@ -119,9 +119,9 @@ At this point you have two options for addressing the merge conflicts.
 
 **Option 1: Ask the responsible author to resolve the merge conflicts (recommended)**
 
-The first option is to identify the author responsible for the merge conflicts and ask him or her to fix them. Use this method if you didn't make changes to any of the problematic files and aren't sure why they are being flagged as having merge conflicts.
+The first option is to identify the author responsible for the merge conflicts and ask that person to fix them. Use this method if you didn't make changes to any of the problematic files and aren't sure why they are being flagged as having merge conflicts.
 
-You can look at the change history of the file using a utility called [gitk](https://git-scm.com/docs/gitk). After you run `git status` to identify the files with conflicts, right-click one of the files with conflicts in Atom's side menu and choose **Copy Project Path**. Then run a command such as this:
+You can look at the change history of the file using a utility called [gitk](https://git-scm.com/docs/gitk). After you run `git status` to identify the files with conflicts, right-click one of the files with conflicts in VS Code's Explorer and choose **Copy Relative Path**. Then run a command such as this:
 
 ```
 gitk some-path/myfile.md
@@ -141,13 +141,13 @@ This rolls back the merge. After the author fixes the merge conflict, push in yo
 
 **Option 2: Resolve the merge conflicts yourself**
 
-You can also resolve the merge conflict yourself. Choose this method if you're implicated in the file's history and might be the one responsible for the conflicts. Open up the conflicted files (cmd + T in Atom) that have the conflict and look for the blue and purple highlighted blocks:
+You can also resolve the merge conflict yourself. Choose this method if you're implicated in the file's history and might be the one responsible for the conflicts. Open the files that have conflicts (in VS Code, the Source Control panel lists them under **Merge Changes**) and look for the highlighted blocks:
 
-<figure><img class="docimage border" src="{{site.api_media}}/conflicting_commit_messages.png" alt="How Atom highlights conflicting commit messages" /><figcaption>How Atom highlights conflicting commit messages</figcaption></figure>
+<figure><img class="docimage border" src="{{site.api_media}}/conflicting_commit_messages.png" alt="How the Atom editor highlighted conflicting commit messages" /><figcaption>How the Atom editor (since discontinued) highlighted conflicting changes. VS Code and other editors use a similar display.</figcaption></figure>
 
-On the right, Atom notes the blue block that is "their changes" and the purple block that is "our changes." In this case, the text "The Pelicans play tonight" is from a commit that someone else made (it's the commit made via the GUI). It's a change we're pulling into our local version; hence, Atom flags it as "HEAD." The "HEAD" is the last commit on the branch that is currently checked out. In contrast, the purple "our changes" block is our local commit. It's the change we made in our commit.
+In a regular merge (such as a plain `git pull`), the block between `<<<<<<< HEAD` and `=======` is the version in your local branch. VS Code labels it "Current Change." The block between `=======` and `>>>>>>>` is the version coming in from the other branch or the remote. VS Code labels it "Incoming Change." (If you pull with rebase, the labels are reversed, which can be confusing.) In the screenshot, the text "The Pelicans play tonight" came from a commit that someone else made through the GitHub interface, and the other block is our local commit.
 
-If you own the file's content, simply select which "Use me" block you want to keep (probably "our changes"). If this isn't a file you own, choose the "Use me" that relates to "their changes" (the HEAD). You might also reach out to the author to confirm that you're selecting the right commit. (You can use gitk to easily see commits on the file.)
+If you own the file's content, you'll probably keep your own version. If this isn't a file you own, keep the other author's version. VS Code lets you click **Accept Current Change**, **Accept Incoming Change**, or **Accept Both Changes** above each conflict. You might also reach out to the author to confirm that you're selecting the right version. (You can use gitk to easily see commits on the file.)
 
 When merge conflicts occur, Git takes the files out of the staging index and requires you to fix the conflict and re-add the file to the staging area. Then you will need to commit the file:
 

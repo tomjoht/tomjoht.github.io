@@ -103,7 +103,7 @@ Another maintenance activity is to look through all the metadata in your pages t
 * Last reviewed
 * Content owner
 
-Unless you're working with a tool that enforces structured metadata, I find that maintaining a long list of custom fields in the header is a real challenge. (At some point, I plan to implement a wrapper like [Netlify CMS](https://www.netlifycms.org/) on my docs so that I'm forced to choose metadata from a structured list, but I haven't yet.)
+Unless you're working with a tool that enforces structured metadata, I find that maintaining a long list of custom fields in the header is a real challenge. (At some point, I plan to implement a wrapper like [Decap CMS](https://decapcms.org/) on my docs so that I'm forced to choose metadata from a structured list, but I haven't yet.)
 
 If you're working in a static site generator, you can easily generate a list of all the metadata for each page in your docs. Although keywords might not be important for Google's search, many times your site search uses keywords. Audit this metadata as a way of performing routine doc repository maintenance.
 

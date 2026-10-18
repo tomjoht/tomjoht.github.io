@@ -116,13 +116,13 @@ I came up with several creative ways to push the theme files out to multiple sma
 
 {% include ads.html %}
 
-It worked well (just as designed). However, it turns out our build management system (an engineering system used to build outputs or other artifacts from code repositories) couldn't build Jekyll from the server using [Bundler](http://bundler.io/), which is what RubyGems required. (Bundler is a tool that automatically gets the right gems for your Jekyll project based on the Jekyll version you are using. Without Bundler, each writer installs the [jekyll gem](https://rubygems.org/gems/jekyll/versions/3.3.1) locally and builds the Jekyll project based on that gem version.)
+It worked well (just as designed). However, it turns out our build management system (an engineering system used to build outputs or other artifacts from code repositories) couldn't build Jekyll from the server using [Bundler](https://bundler.io/), which is what RubyGems required. (Bundler is a tool that automatically gets the right gems for your Jekyll project based on the Jekyll version you are using. Without Bundler, each writer installs the [jekyll gem](https://rubygems.org/gems/jekyll/versions/3.3.1) locally and builds the Jekyll project based on that gem version.)
 
 My understanding of the build management system was limited, so I had to rely on engineers for their assessment. Ultimately, we had to scrap using Bundler and just build using `jekyll serve` because the engineers couldn't make Bundler work with the build system. So I still had the problem of distributing the same theme across multiple repos.
 
 My second attempt was to distribute the theme through [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). This approach involved storing the theme in its own Git repo that other Git repos would pull in. However, our build management system couldn't support Git submodules either, it turned out.
 
-I then came up with a way to distribute the theme through [Git subtrees](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree). Git subtrees worked in our build system (although the commands were strange), and it preserved the short build times. However, when the engineering team started counting up all the separate build pipelines they'd have to create and maintain for each of these separate repos (around 30), they said this wasn't a good idea from a maintenance point of view.
+I then came up with a way to distribute the theme through [Git subtrees](https://www.atlassian.com/git/tutorials/git-subtree). Git subtrees worked in our build system (although the commands were strange), and it preserved the short build times. However, when the engineering team started counting up all the separate build pipelines they'd have to create and maintain for each of these separate repos (around 30), they said this wasn't a good idea from a maintenance point of view.
 
 Not understanding all the work involved around building publishing pipelines for each Git repo, there was quite a bit of frustration here. It seemed like I was going out of my way to accommodate engineering limitations, and I wasn't sure if they were modifying any of their processes to accommodate us. But eventually, we settled on two Git repos and two pipelines. We had to reconsolidate all of our separate repos back into two repos. You can probably guess that moving around all of this content, splitting it out into separate repos and then re-integrating it back into consolidated repos, etc., wasn't a task that the writers welcomed.
 
@@ -258,9 +258,9 @@ For a slide presentation that covers the topics listed in this article, see the 
 
 <a class="noCrossRef" href="https://github.com/tomjoht/docs-as-code-tools-and-workflows"><img src="{{site.api_media}}/docsascodepresotitle.png"/></a>.
 
-Additionally, note that this content was also republished in the [Developer Portals e-Magazine Winter 2018](https://pronovix.com/e-books/developer-portals-e-magazine-winter-2018), by Pronovix:
+Additionally, note that this content was also republished in the [Developer Portals e-Magazine Winter 2018](https://web.archive.org/web/20210120161423/https://pronovix.com/e-books/developer-portals-e-magazine-winter-2018), by Pronovix:
 
-<a href="https://pronovix.com/e-books/developer-portals-e-magazine-winter-2018" class="noCrossRef"><img src="{{site.api_media}}/devportalswinter2018.png" class="small" /></a>
+<a href="https://web.archive.org/web/20210120161423/https://pronovix.com/e-books/developer-portals-e-magazine-winter-2018" class="noCrossRef"><img src="{{site.api_media}}/devportalswinter2018.png" class="small" /></a>
 
 It was also republished in Anne Gentle's [Docs Like Code: Case Studies](https://www.docslikecode.com/articles/change-case-study/):
 

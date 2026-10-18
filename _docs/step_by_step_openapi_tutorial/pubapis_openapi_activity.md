@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 5.92
 section: openapitutorial
 path1: learnapidoc/restapispecifications.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -50,7 +50,7 @@ To edit the OpenAPI specification file:
 
 In an earlier activity, you [found an open-source API project](docapis_find_open_source_project.html) with some documentation needs. Try creating an OpenAPI specification for this API. Depending on the API you choose to work with, you could potentially use this specification document as part of your portfolio.
 
-If your open-source project doesn't have an API, or if its API already has an OpenAPI specification, find another API (perhaps from this [list of 100+ APIs](pubapis_apilist.html)) and create the OpenAPI specification.
+If your open-source project doesn't have an API, or if its API already has an OpenAPI specification, find another API (perhaps from this [list of API doc sites](pubapis_apilist.html)) and create the OpenAPI specification.
 
 {% include ads.html %}
 

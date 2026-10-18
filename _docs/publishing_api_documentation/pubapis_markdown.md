@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 9.4
 section: publishingapis
 path1: learnapidoc/publishingapis.html
-last-modified: 2018-12-25
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -27,7 +27,7 @@ To get a sense of the Markdown syntax, look at this sample:
 
 This is a bulleted list:
 
-* fireStructuredText item
+* first item
 * second item
 * third item
 
@@ -110,7 +110,7 @@ But if you send a developer an XML file, they probably won't be familiar with al
 In contrast, Markdown allows you to easily read it and work with it in a text editor.
 
 {: .tip}
-Most text editors (for example, Sublime Text or Webstorm or Atom) have Markdown plugins/extensions that will create syntax highlighting based on Markdown tags.
+Most text editors (for example, VS Code, Sublime Text, or WebStorm) have Markdown support or extensions that will create syntax highlighting based on Markdown tags.
 
 Another benefit to Markdown (as opposed to binary tools like Word or Framemaker) is that you can package up the Markdown files and run them through the same workflow as code. You can run diffs to see what changed, insert comments, and exert the same control as you do with regular code files. Working with Markdown files comes naturally to developers. (Granted, you can also work with DITA in plain text files and manage the content in Git repositories.)
 
@@ -126,7 +126,7 @@ Markdown does have a few drawbacks:
 
 ## Markdown and complexity
 
-If you need more complexity than what Markdown or HTML offers, a lot of tools will leverage other templating languages, such as [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) or [CoffeeScript](http://coffeescript.org/). Many times these other processing languages (often like a lightweight JavaScript) will fill in the gaps for Markdown and provide you with the ability to create includes, conditional attributes, conditional text, and more.
+If you need more complexity than what Markdown or HTML offers, a lot of tools will leverage templating languages, such as [Liquid](https://shopify.github.io/liquid/) (used in Jekyll), [Jinja](https://jinja.palletsprojects.com/) (used in Sphinx and MkDocs), or Go templates (used in Hugo). Many times these templating languages will fill in the gaps for Markdown and provide you with the ability to create includes, conditional attributes, conditional text, and more.
 
 {% include random_ad2.html %}
 
@@ -193,34 +193,34 @@ second section
 ```
 The content will be processed as two paragraphs rather than one line. See [Syntax](https://kramdown.gettalong.org/syntax.html) in the kramdown documentation for more details.
 
-## What about reStructuredText and Asciidoc? {#rst_and_asciidoc}
+## What about reStructuredText and AsciiDoc? {#rst_and_asciidoc}
 
-If you're using lightweight markup, you might also be interested in exploring [reStructured Text (rST)](http://docutils.sourceforge.net/reStructuredText.html) or [Asciidoc](http://asciidoc.org/). reStructuredText is similar to Markdown, in that it offers lightweight wiki-like syntax for more complex HTML. However, reStructuredText is more semantically rich than Markdown (for example, there's a syntax for notes or warnings, and Python classes).
+If you're using lightweight markup, you might also be interested in exploring [reStructuredText (rST)](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) or [AsciiDoc](https://asciidoc.org/). reStructuredText is similar to Markdown, in that it offers lightweight wiki-like syntax for more complex HTML. However, reStructuredText is more semantically rich than Markdown (for example, there's a syntax for notes or warnings, and Python classes).
 
-reStructuredText can be extended, follows a standard (rather than having many variants), and gives you more features specific to writing technical documentation, such as cross-references. See reStructuredText vs Markdown for documentation for a more detailed comparison. If you're using [Sphinx](http://www.sphinx-doc.org/en/stable/), you'll want to use reStructuredText.
+reStructuredText can be extended, follows a standard (rather than having many variants), and gives you more features specific to writing technical documentation, such as cross-references. If you're using [Sphinx](https://www.sphinx-doc.org/), you'll probably want to use reStructuredText (though Sphinx also supports Markdown through the MyST parser).
 
-[Asciidoc](http://asciidoc.org/) also offers more semantic richness and standardization. Asciidoc provides syntax for tables, footnotes, cross-references, videos, and more. In fact, Asciidoc "was initially designed as a plain-text alternative to the DocBook XML schema" ([asciidoc-vs-markdown.adoc](https://web.archive.org/web/20171208230546/https://github.com/asciidoctor/asciidoctor.org/blob/master/docs/_includes/asciidoc-vs-markdown.adoc)). As with reStructuredText, you don't have the variety of flavors with Markdown, so you can process it more consistently. [Asciidoctor](http://asciidoctor.org/) is one static site generator that uses Asciidoc as the syntax. Both reStructuredText and Asciidoc (and other syntaxes) are [supported on GitHub](https://github.com/github/markup#markups).
+[AsciiDoc](https://asciidoc.org/) also offers more semantic richness and standardization. AsciiDoc provides syntax for tables, footnotes, cross-references, videos, and more. In fact, AsciiDoc "was initially designed as a plain-text alternative to the DocBook XML schema" ([asciidoc-vs-markdown.adoc](https://web.archive.org/web/20171208230546/https://github.com/asciidoctor/asciidoctor.org/blob/master/docs/_includes/asciidoc-vs-markdown.adoc)). As with reStructuredText, you don't have the variety of flavors with Markdown, so you can process it more consistently. [Asciidoctor](https://asciidoctor.org/) is the main processor for converting AsciiDoc to HTML and other formats, and [Antora](https://antora.org/) is a static site generator built specifically for AsciiDoc documentation sites. Both reStructuredText and AsciiDoc (and other syntaxes) are [supported on GitHub](https://github.com/github/markup#markups).
 
 ## Objections to Markdown
 
-Some people object to Markdown due to the inconsistency across Markdown flavors. Given that there are so many varieties of Markdown ([CommonMark](http://commonmark.org/), [kramdown](https://kramdown.gettalong.org/), [Gruber's original Markdown](https://daringfireball.net/projects/markdown/syntax), [Github-flavored Markdown](https://github.github.com/gfm/), [Multimarkdown](http://fletcherpenney.net/multimarkdown/), and more), it's hard to create a tool to process Markdown consistently.
+Some people object to Markdown due to the inconsistency across Markdown flavors. Given that there are so many varieties of Markdown ([CommonMark](https://commonmark.org/), [kramdown](https://kramdown.gettalong.org/), [Gruber's original Markdown](https://daringfireball.net/projects/markdown/syntax), [GitHub Flavored Markdown](https://github.github.com/gfm/), [MultiMarkdown](https://fletcherpenney.net/multimarkdown/), and more), it's hard to create a tool to process Markdown consistently.
 
-Eric Holscher, co-founder of [Write the Docs](http://www.writethedocs.org/) and the [Read the Docs platform](https://readthedocs.org/), argues that Markdown creates lock-in to a specific tool. He says many authors think Markdown is a good choice because many tools support it, and they think they can always migrate their Markdown content to another tool later. However, the differing Markdown flavors make this migration problematic. Eric writes:
+Eric Holscher, co-founder of [Write the Docs](https://www.writethedocs.org/) and the [Read the Docs platform](https://readthedocs.org/), argues that Markdown creates lock-in to a specific tool. He says many authors think Markdown is a good choice because many tools support it, and they think they can always migrate their Markdown content to another tool later. However, the differing Markdown flavors make this migration problematic. Eric writes:
 
 > The explosion of flavors and lack of semantic meaning leads to lock in. Once you’ve built out a large set of Markdown documents, it’s quite hard to migrate them to another tool, even if that tool claims to support Markdown! You have a large set of custom HTML classes and weird flavor extensions that won’t work anywhere but the current set of tools and designs.
 >
-> You also can’t migrate Markdown easily to another markup language (Asciidoc or reStructuredText), because Pandoc and other conversion tools won’t support your flavor’s extensions. ([Why You Shouldn’t Use “Markdown” for Documentation](http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/))
+> You also can’t migrate Markdown easily to another markup language (AsciiDoc or reStructuredText), because Pandoc and other conversion tools won’t support your flavor’s extensions. ([Why You Shouldn’t Use “Markdown” for Documentation](https://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/))
 
 There's merit to the argument, for sure. You might be able to switch Markdown flavors using a tool such as [Pandoc](https://pandoc.org/), or by converting the Markdown to HTML, and then converting the HTML to another Markdown flavor. However, switching tools will likely lead to a headache in updating the syntax in your content.
 
-Here's an example. For many years, Jekyll used [redcarpet](https://github.com/vmg/redcarpet) and [pygments](http://pygments.org/) to process Markdown and apply code syntax highlighting. However, to increase Windows support, Jekyll switched to [kramdown](https://kramdown.gettalong.org/) and [rouge](https://github.com/jneen/rouge) at version 3.0. It was supposed to be a seamless backend switch that wouldn't require any adjustment to your existing Markdown. However, I found that kramdown imposed different requirements around spacing that broke a lot of my content, particularly with lists. I wrote about this issue here: [Updating from redcarpet and Pygments to Kramdown and Rouge on Github Pages](https://idratherbewriting.com/2016/02/21/bug-with-kramdown-and-rouge-with-github-pages/).
+Here's an example. For many years, Jekyll used [redcarpet](https://github.com/vmg/redcarpet) and [Pygments](https://pygments.org/) to process Markdown and apply code syntax highlighting. However, to increase Windows support, Jekyll switched to [kramdown](https://kramdown.gettalong.org/) and [Rouge](https://github.com/rouge-ruby/rouge) at version 3.0. It was supposed to be a seamless backend switch that wouldn't require any adjustment to your existing Markdown. However, I found that kramdown imposed different requirements around spacing that broke a lot of my content, particularly with lists. I wrote about this issue here: [Updating from redcarpet and Pygments to Kramdown and Rouge on Github Pages](https://idratherbewriting.com/2016/02/21/bug-with-kramdown-and-rouge-with-github-pages/).
 
-Despite the variations within Markdown, I'm reluctant to switch to a more semantic lightweight syntax because tool support for Markdown in general, following GitHub-flavored Markdown, is still much more widespread than support for reStructuredText or Asciidoc. kramdown is largely compatible with GitHub-flavored Markdown &mdash; it wouldn't be that difficult to migrate.
+Despite the variations within Markdown, I'm reluctant to switch to a more semantic lightweight syntax because tool support for Markdown in general, following GitHub-flavored Markdown, is still much more widespread than support for reStructuredText or AsciiDoc. kramdown is largely compatible with GitHub-flavored Markdown &mdash; it wouldn't be that difficult to migrate.
 
-Additionally, developers tend to be familiar with Markdown but not reStructuredText or Asciidoc. If you want to encourage collaboration with developers, you might encounter more resistance by forcing them to write in reStructuredText or Asciidoc. Simplicity tends to win out in the end, and Markdown has clear momentum in the lightweight syntax arena. I imagine that in 10 years, reStructuredText and Asciidoc will be dwarfed in the same way that [RAML](pubapis_raml.html) and [API Blueprint](pubapis_api_blueprint.html) were dwarfed by the [OpenAPI spec](pubapis_openapi_intro.html).
+Additionally, developers tend to be familiar with Markdown but not reStructuredText or AsciiDoc. If you want to encourage collaboration with developers, you might encounter more resistance by forcing them to write in reStructuredText or AsciiDoc. Simplicity tends to win out in the end, and Markdown has clear momentum in the lightweight syntax arena. AI tools have added to that momentum. LLMs tend to read and write Markdown by default, and a growing number of doc sites now publish Markdown versions of their pages (or an [llms.txt](https://llmstxt.org/) file that links to them) so that AI tools can consume the content more easily. I imagine that in 10 years, reStructuredText and AsciiDoc will be dwarfed in the same way that [RAML](pubapis_raml.html) and [API Blueprint](pubapis_api_blueprint.html) were dwarfed by the [OpenAPI spec](pubapis_openapi_intro.html).
 
 Further, the OpenAPI spec lets you use [CommonMark Markdown](https://commonmark.org/) in `description` elements, which might make Markdown a better choice for API documentation. As long as you use the Markdown elements that are common across most flavors, migration (should it be required at some point) might not be as painful.
 
-Overall, debates between Markdown, reStructuredText, and Asciidoc are pretty heated. You will find many for-and-against arguments for each lightweight syntax, as well as debates between XML and lightweight syntax.
+Overall, debates between Markdown, reStructuredText, and AsciiDoc are pretty heated. You will find many for-and-against arguments for each lightweight syntax, as well as debates between XML and lightweight syntax.
 
-One problem with lightweight syntax is its incompatibility with larger content management systems. Component content management systems (CCMSs) typically require more structured content such as DITA. The DITA committee recently approved [Lightweight DITA](http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd01/LwDITA-v1.0-cnprd01.html), which will allow you to use GitHub-flavored Markdown and HTML in your DITA projects (assuming tool vendors support it). So we may see more convergence of XML tools and Markdown in the years to come. For more details about Lightweight DITA (LwDITA), see the [interview with Carlos Evia](https://idratherbewriting.com/2018/07/23/adventures-of-techie-academic-conversation-with-carlos-evia/) on my blog. Carlos is co-chair of the OASIS committee for LwDITA.
+One problem with lightweight syntax is its incompatibility with larger content management systems. Component content management systems (CCMSs) typically require more structured content such as DITA. In 2018, the OASIS DITA Technical Committee published [Lightweight DITA](https://docs.oasis-open.org/dita/LwDITA/v1.0/cn02/LwDITA-v1.0-cn02.html) as a committee note. Lightweight DITA (LwDITA) lets you author DITA content in Markdown (MDITA) and HTML (HDITA) as well as XML, assuming your tool vendor supports it. So we may see more convergence of XML tools and Markdown in the years to come. For more details about LwDITA, see the [interview with Carlos Evia](https://idratherbewriting.com/2018/07/23/adventures-of-techie-academic-conversation-with-carlos-evia/) on my blog. At the time, Carlos was co-chair of the OASIS committee for LwDITA.

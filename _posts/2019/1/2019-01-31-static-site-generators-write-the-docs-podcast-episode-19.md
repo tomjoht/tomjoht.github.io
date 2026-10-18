@@ -21,7 +21,7 @@ Links for more information:
 * [Staticgen.com](https://www.staticgen.com/)
 * [Jamstack](https://jamstack.org/)
 * [Netlify](https://www.netlify.com/)
-* [Netlify CMS](https://www.netlifycms.org/)
+* [Netlify CMS](https://decapcms.org/) (now called Decap CMS)
 * [Jamstack templates](https://templates.netlify.com/)
 * [Headless CMS](https://headlesscms.org/)
 * [Strapi](https://strapi.io/)

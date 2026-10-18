@@ -6,12 +6,12 @@ sidebar: docapis
 weight: 9.2
 section: publishingapis
 path1: learnapidoc/publishingapis.html
-last-modified: 2020-09-07
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-In the previous topic, we browsed through a long [survey of API doc sites](pubapis_apilist.html) and looked for similar patterns in their designs. "Design patterns" are common approaches or techniques in the way something is designed. Although one could probably identify many more patterns, the following design patterns are common with API doc sites: structure and templates, single seamless website, abundant code examples, lengthy pages, and interactive API explorers. I explore each of these elements in the following sections.
+In the previous topic, we browsed through a long [survey of API doc sites](pubapis_apilist.html) and looked for similar patterns in their designs. "Design patterns" are common approaches or techniques in the way something is designed. Although one could probably identify many more patterns, the following design patterns are common with API doc sites: structure and templates, single seamless website, abundant code examples, lengthy pages, interactive API explorers, and (more recently) formats for AI tools. I explore each of these elements in the following sections.
 
 {% if site.format == "web" %}
 * TOC
@@ -38,7 +38,7 @@ endpoint: /surfreport
 
 And so on.
 
-You could then use a [`for` loop](https://help.shopify.com/themes/liquid/objects/for-loops) to cycle through each of the items and insert them into your template:
+You could then use a [`for` loop](https://shopify.github.io/liquid/tags/iteration/) to cycle through each of the items and insert them into your template:
 
 ```liquid
 {% raw %}{% for p in site.endpoints %}
@@ -132,7 +132,7 @@ $.post("http://api.myapp.com/books/", {
 {% endfor %}{% endraw %}
 ```
 
-This code uses `for` loops in [Liquid scripting](https://help.shopify.com/themes/liquid/basics) to iterate through the items in the `docs` collection and pushes the content into the HTML styles of the template. The result looks like this:
+This code uses `for` loops in [Liquid scripting](https://shopify.github.io/liquid/basics/introduction/) to iterate through the items in the `docs` collection and pushes the content into the HTML styles of the template. The result looks like this:
 
 <a href="https://tangerine-lemon.cloudvent.net/" class="noExtIcon"><img src="{{site.api_media}}/aviatortheme.png" /></a>
 
@@ -174,19 +174,19 @@ This open invitation to use the tools of the web to construct your API doc site 
 
 ## Pattern 3: Abundant code samples {#abundant_code_examples}
 
-More than anything else, developers love [code examples](docapis_codesamples_bestpractices.html), and the abundance of syntax-highlighted, properly formatted code samples on API doc sites constitutes a design pattern. Usually, the more code you can add to your documentation, the better. Here's an example from Evernote's API:
+More than anything else, developers love [code examples](docapis_codesamples_bestpractices.html), and the abundance of syntax-highlighted, properly formatted code samples on API doc sites constitutes a design pattern. Usually, the more code you can add to your documentation, the better. Here's an example from Evernote's (now legacy) API docs:
 
-<a href="https://dev.evernote.com/doc/articles/note-sharing.php" class="noExtIcon"><img src="{{site.api_media}}/evernotecodesamples.png" alt="Evernote code examples" /></a>
+<a href="https://dev.evernote.com/legacy/doc/articles/note-sharing" class="noExtIcon"><img src="{{site.api_media}}/evernotecodesamples.png" alt="Evernote code examples" /></a>
 
 James Yu at Parse gives the following advice:
 
->Liberally sprinkle real world examples throughout your documentation. No developer will ever complain that there are too many examples. They dramatically reduce the time for developers to understand your product. In fact, we even have example code right on our homepage. ([Designing Great API Docs](https://www.pixelstech.net/article/1331352900-Designing-Great-API-Docs))
+>Liberally sprinkle real world examples throughout your documentation. No developer will ever complain that there are too many examples. They dramatically reduce the time for developers to understand your product. In fact, we even have example code right on our homepage. ([Designing Great API Docs](https://web.archive.org/web/20150417182748/http://blog.parse.com/learn/engineering/designing-great-api-docs/))
 
-For code samples, you'll want to incorporate syntax highlighting. The syntax highlighter colors different elements of the code sample appropriately based on the programming language. There are many syntax highlighters that you can usually incorporate into your platform. For example, Jekyll uses [rouge](https://github.com/jneen/rouge) by default. Another common highlighter is [pygments](http://pygments.org/). These highlighters have stylesheets prepared to highlight languages based on specific syntax.
+For code samples, you'll want to incorporate syntax highlighting. The syntax highlighter colors different elements of the code sample appropriately based on the programming language. There are many syntax highlighters that you can usually incorporate into your platform. For example, Jekyll uses [Rouge](https://github.com/rouge-ruby/rouge) by default. Another common highlighter is [Pygments](https://pygments.org/), which Sphinx uses. Some sites highlight code in the browser instead, with JavaScript libraries such as [Prism](https://prismjs.com/) or [highlight.js](https://highlightjs.org/). These highlighters have stylesheets prepared to highlight languages based on specific syntax.
 
 {% include ads.html %}
 
-Usually, tools that you use for authoring will incorporate highlighting utilities (based on Ruby or Python) into their HTML generation process. You don't normally implement the syntax highlighter as a standalone tool. If you don't have access to a syntax highlighter for your platform, you can [manually add a highlighting using syntax highlighter library](http://code.tutsplus.com/tutorials/quick-tip-how-to-add-syntax-highlighting-to-any-project--net-21099).
+Usually, tools that you use for authoring will incorporate highlighting utilities (based on Ruby or Python) into their HTML generation process. You don't normally implement the syntax highlighter as a standalone tool. If you don't have access to a syntax highlighter for your platform, you can [manually add a highlighting using syntax highlighter library](https://webdesign.tutsplus.com/quick-tip-how-to-add-syntax-highlighting-to-any-project--net-21099t).
 
 Another important element in code samples is to use consistent white space. Use a tool to format the code with the appropriate spacing and line breaks. You'll need to format the code based on the conventions of the programming language. Fortunately, there are many code beautifier tools online to automate that (such as [Code Beautify](https://codebeautify.org/javaviewer)).
 
@@ -196,13 +196,13 @@ Sometimes development shops have an official style guide for formatting code sam
 * Line breaks
 * Inline code comment styles
 
-For example, here's the [Google JavaScript Style Guide](http://google.github.io/styleguide/javascriptguide.xml). If developers don't have an official style guide, ask them to recommend one online, and then compare the code samples against the guidelines in it. I dive more into code samples in [Code samples and tutorials](docapis_codesamples_bestpractices.html).
+For example, here's the [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html). If developers don't have an official style guide, ask them to recommend one online, and then compare the code samples against the guidelines in it. I dive more into code samples in [Code samples and tutorials](docapis_codesamples_bestpractices.html).
 
 ## Pattern 4: Lengthy pages {#longish_pages}
 
-One of the starkest differences between regular end-user documentation and developer documentation is that developer doc pages tend to be much longer. Why are the pages longer? In [How API Documentation Fails](https://ieeexplore.ieee.org/document/7140676/) (published in [*IEEE Software*](https://ieeexplore.ieee.org), Martin Robillard and Gias Uddin looked at common reasons why developers had severe problems with API documentation. In addition to incompleteness, ambiguity, and other reasons, the researchers also found that "fragmentation" was cited as a common issue (which is more related to the presentation of content than the content itself).
+One of the starkest differences between regular end-user documentation and developer documentation is that developer doc pages tend to be much longer. Why are the pages longer? In [How API Documentation Fails](https://ieeexplore.ieee.org/document/7140676/) (published in [*IEEE Software*](https://ieeexplore.ieee.org)), Martin Robillard and Gias Uddin looked at common reasons why developers had severe problems with API documentation. In addition to incompleteness, ambiguity, and other reasons, the researchers also found that "fragmentation" was cited as a common issue (which is more related to the presentation of content than the content itself).
 
-Robillard and Udin explain:
+Robillard and Uddin explain:
 
 > When the respondents had to click through multiple pages of an API document to learn the functionality and use of an API element, they found the separation of the descriptions at such a micro level to be unnecessary.
 
@@ -218,31 +218,31 @@ James Yu at Parse also echoes similar feedback about fragmentation. He says,
 >
 >We're big fans of long single page guides that let users see the big picture with the ability to easily zoom into the details with a persistent navigation bar. This has the great side effect that users can search all the content with an in-page browser search.
 >
->A great example of this is the Backbone.js documentation, which has everything at your fingertips. ([Designing Great API Docs](https://www.pixelstech.net/article/1331352900-Designing-Great-API-Docs))
+>A great example of this is the Backbone.js documentation, which has everything at your fingertips. ([Designing Great API Docs](https://web.archive.org/web/20150417182748/http://blog.parse.com/learn/engineering/designing-great-api-docs/))
 
 The Backbone.js documentation takes this length to an extreme, publishing everything on one page:
 
-<a href="http://backbonejs.org/" class="noExtIcon"><img src="{{site.api_media}}/backbonejs.png" alt="Backbone JS" /></a>
+<a href="https://backbonejs.org/" class="noExtIcon"><img src="{{site.api_media}}/backbonejs.png" alt="Backbone JS" /></a>
 
 For another example of a long page, see the Reddit API:
-<a href="https://www.reddit.com/dev/api" class="noExtIcon"><img src="{{site.api_media}}/redditpage.png" alt="Backbone JS" /></a>
+<a href="https://www.reddit.com/dev/api" class="noExtIcon"><img src="{{site.api_media}}/redditpage.png" alt="Reddit API" /></a>
 
 Why do API doc sites tend to have such lengthy pages? Here are a few reasons:
 
 * **Provides the big picture**: As Yu indicates, single-page docs allow users to zoom out or in depending on the information they need. A new developer might zoom out to get the big picture, learning the base REST path and how to submit calls. But a more advanced developer already familiar with the API might need only to check the parameters allowed for a specific endpoint. The single-page doc model allows developers to jump to the right page and use Ctrl+F to locate the information.
 * **Many platforms lack search**: A lot of the API doc sites don't have good search engines. Many lack built-in search features altogether. This is partly because Google does such a better job at search, the in-site search feature of any website is often meager by comparison. Also, some of the other document generator and static site generator tools don't have search (neither did Javadoc). Without search, you can find information by creating long pages and using Ctrl+F.
-* **Everything is at your fingertips**: If the information is chunked up into little pieces here and there, requiring users to click around constantly to find anything (as is [often the case with DITA's information model](https://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/)), the experience can be like playing information pinball. As a general strategy, you want to include complete information on a page. If an API resource has several different methods, splitting them out into separate pages can create findability issues. See [Single Page Docs: Stop the Click Insanity](https://www.youtube.com/watch?v=rXcdTYuxwys) by Brandon Philips for more. Sometimes it makes sense to keep all related information in one place, with "everything at your fingertips." This is the approach the authors of the [OpenAPI spec on GitHub](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md) took &mdash; one endless page, with the ability to use Ctrl+F to jump around easily.
-* **Today's navigation controls are sophisticated**: Today there are better navigation controls today for moving around on long pages than there were in the past. For example, [Bootstrap's Scrollspy feature](http://getbootstrap.com/docs/4.0/components/scrollspy/) dynamically highlights your place in the sidebar as you're scrolling down the page. Other solutions allow collapsing or expanding of sections to show content only if users need it.
+* **Everything is at your fingertips**: If the information is chunked up into little pieces here and there, requiring users to click around constantly to find anything (as is [often the case with DITA's information model](https://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/)), the experience can be like playing information pinball. As a general strategy, you want to include complete information on a page. If an API resource has several different methods, splitting them out into separate pages can create findability issues. See [Single Page Docs: Stop the Click Insanity](https://www.youtube.com/watch?v=rXcdTYuxwys) by Brandon Philips for more. Sometimes it makes sense to keep all related information in one place, with "everything at your fingertips." This is the approach the authors of the [OpenAPI specification](https://spec.openapis.org/oas/v3.1.0.html) took &mdash; one endless page, with the ability to use Ctrl+F to jump around easily.
+* **Today's navigation controls are sophisticated**: Today there are better navigation controls for moving around on long pages than there were in the past. For example, [Bootstrap's Scrollspy feature](https://getbootstrap.com/docs/5.3/components/scrollspy/) dynamically highlights your place in the sidebar as you're scrolling down the page. Other solutions allow collapsing or expanding of sections to show content only if users need it.
 
 Usually the long pages on a site are the reference pages. Personally, I'm not a fan of listing every endpoint on the same long page. Long pages also present challenges with linking as well. However, I do tend to create lengthier pages in API doc sites than I typically see in other types of documentation.
 
 ## Pattern 5: API Interactivity {#interactive_api_explorers}
 
-A recurring feature in many API doc publishing sites is interactivity with API calls. [Swagger UI](https://swagger.io/tools/swagger-ui/), [Readme.com](https://readme.com/), [Apiary](https://apiary.io/), and many other platforms allow you to try out calls and see responses directly in the browser.
+A recurring feature in many API doc publishing sites is interactivity with API calls. [Swagger UI](https://swagger.io/tools/swagger-ui/), [ReadMe](https://readme.com/), [Redocly](pubapis_redocly.html), [Stoplight](pubapis_stoplight.html), and many other platforms allow you to try out calls and see responses directly in the browser.
 
 For APIs not on these platforms, wiring up an API Explorer is often done by engineers. Since you already have the API functionality to make calls and receive responses, creating an API Explorer is not usually a difficult task for a UI developer. You're just creating a form to populate the endpoint's parameters and printing the response to the page.
 
-Here's a sample API explorer from Watson's AlchemyLanguage API that uses [Swagger or OpenAPI](pubapis_openapi_intro.html) to provide the interactivity.
+Here's a sample API explorer from IBM Watson's AlchemyLanguage API (since retired) that used [Swagger or OpenAPI](pubapis_openapi_intro.html) to provide the interactivity.
 
 <img src="{{site.api_media}}/watson-try-it-out.png"/>
 
@@ -250,9 +250,17 @@ Are API explorers novel, or instructive? If you're going to be making a lot of c
 
 However, API Explorers tend to work better with simpler APIs. If your API requires you to retrieve data before you can use a certain endpoint, or if the data you submit is a JSON object in the body of the post, or you have some other complicated interdependency with the endpoints, the API Explorer might not be as helpful. Nevertheless, it is a design pattern to provide this kind of interactivity in API documentation.
 
-If your users log in, you can store their API keys and dynamically populate the calls and code samples with API keys. The API key can most likely be a variable that stores the user's API key. This API-key feature is provided with sites like [Readme.com](https://readme.com/).
+If your users log in, you can store their API keys and dynamically populate the calls and code samples with API keys. The API key can most likely be a variable that stores the user's API key. This API-key feature is provided with platforms like [ReadMe](https://readme.com/).
 
 However, if you store customer API keys on your site, this might create authentication and login requirements that make your site more complex to create. If you're creating this experience in a custom way, you'll probably need the help of a front-end designer and web developer.
+
+## Pattern 6: Formats for AI tools {#ai_formats}
+
+A newer pattern is that API doc sites publish their content in formats that AI tools can read easily. Many developers now ask an AI coding assistant about an API rather than browsing the docs directly, and the assistant has an easier time with plain Markdown than with a page full of navigation, scripts, and styling. As a result, more doc sites now offer a Markdown version of each page, an [llms.txt](https://llmstxt.org/) file that lists the main pages with short descriptions, or both.
+
+For example, Stripe serves a Markdown version of its API reference if you add `.md` to the URL ([docs.stripe.com/api.md](https://docs.stripe.com/api.md)), and it publishes an index at [docs.stripe.com/llms.txt](https://docs.stripe.com/llms.txt). Anthropic's developer docs have a similar file at [platform.claude.com/llms.txt](https://platform.claude.com/llms.txt). This site has [one too](https://idratherbewriting.com/llms.txt). Some sites also add a "Copy page as Markdown" button so that developers can paste a page into an AI chat.
+
+It's still too early to say how much these formats help, and practices are changing quickly. However, the cost of providing them is fairly low if your docs are already in Markdown. For a deeper look at this topic, see [Making docs accessible to agents](https://idratherbewriting.com/ai/product-skills-agent-friendly-docs.html) in my series on product skills (currently in draft).
 
 ## Some non-patterns in API doc sites
 

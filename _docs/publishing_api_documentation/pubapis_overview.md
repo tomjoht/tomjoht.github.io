@@ -1,12 +1,12 @@
 ---
-title: "Chapter X: Overview for publishing API docs"
+title: "Overview for publishing API docs"
 permalink: learnapidoc/pubapis_overview.html
 course: "Documenting REST APIs"
 sidebar: docapis
 weight: 9.1
 section: publishingapis
 path1: learnapidoc/publishingapis.html
-last-modified: 2018-12-25
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -26,7 +26,7 @@ The first question about a focus on publishing API documentation might be, *why?
 
 With API documentation, you're no longer in the realm of GUI (graphical user interface) documentation, usually intended for mainstream end users. A lot of the content for developers is complex and requires a background not just in programming, but in a specific programming language or framework.
 
-As such, you may find that as a technical writer, you're in over your head in complexity and as such, you're reliant on engineers to write more of the content. You end up playing of a doc tooling and workflow role.
+As such, you may find that as a technical writer, you're in over your head in complexity and as such, you're reliant on engineers to write more of the content. You end up playing more of a doc tooling and workflow role.
 
 In [How API Documentation Fails](https://ieeexplore.ieee.org/document/7140676/) (published in [*IEEE Software*](https://ieeexplore.ieee.org)), Martin Robillard and Gias Uddin surveyed developers to find out why API docs failed for them. They found that most of the shortcomings were related to content, whether it was incomplete, inaccurate, missing, ambiguous, fragmented, etc. They summarized their findings here:
 
@@ -50,7 +50,7 @@ As an editor/publisher, you can help the SME author by accurately identifying th
 
 If engineers and SMEs will be collaborating on some of the doc content, consider using engineering-centric tools rather than writing-centric tools.  When I first transitioned to API documentation, I had my mind set on using DITA, and I converted a large portion of my content over to it.
 
-However, as I started looking more at API documentation sites, I didn't find many DITA-based API doc sites. It turns out that almost none of the API doc sites listed on Programmable Web even use traditional tech comm authoring tools.
+However, as I started looking more at API documentation sites, I didn't find many DITA-based API doc sites. It turns out that almost none of the API doc sites listed on Programmable Web (a large API directory that has since shut down) even use traditional tech comm authoring tools.
 
 Despite many advances with single sourcing, content re-use, conditional filtering, and other features in help authoring tools and content management systems, almost no API documentation sites use them. Why is that? Why has the development community implicitly rejected tech comm tools and their many years of evolution?
 
@@ -68,7 +68,7 @@ His response, and my subsequent emphasis on static site generators, led me to un
 
 If devs are going to contribute to docs (or write docs entirely themselves), the tools need to fit their own processes and workflows. Their tooling is to treat [doc as code](pubapis_docs_as_code.html), committing it to [version control](pubapis_version_control.html), building outputs from the server, etc. They want to package the documentation in with their other code, checking it into their repos, and automating it as part of their build process. If you're hoping for developers to contribute to the documentation, it's going to be hard to get buy-in if you're using a HAT.
 
-Additionally, almost no HAT runs on a Mac. Many developers and designers prefer Macs because they have a much better development platform (the command line is much friendlier and functional, for example). If you're using a PC, you might struggle to install developer tools or to follow internal tutorials to get set up and test out content.
+Additionally, MadCap Flare, a widely used desktop HAT, still requires Windows. (Mac users run it through virtualization software such as Parallels.) Many developers and designers prefer Macs or Linux because the command line and developer tooling tend to work better there. If you're using Windows, you might struggle to install developer tools or to follow internal tutorials to get set up and test out content. Some newer authoring tools, such as Paligo or Heretto, run in the browser and avoid the operating system problem, but they still sit outside the developer's code workflow.
 
 Even if you could get developers to use a HAT, you'd likely need to buy a license for each contributing developer. In contrast, docs-as-code tools are often open source and can, therefore, scale across the company without budgetary funding and approval.
 
@@ -78,7 +78,7 @@ Even if you could get developers to use a HAT, you'd likely need to buy a licens
 
 Ideally, engineers want to add annotations in their code and then generate the doc from those annotations. They've been doing this with Java and C++ code through [Javadoc](nativelibraryapis_create_javadoc.html) and [Doxygen](nativelibraryapis_doxygen.html) for the past 25+ years (for a comprehensive list of these tools, see [Comparison of document generators in Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_documentation_generators)).
 
-Even for REST APIs, there are tools/libraries that will auto-generate documentation from source code annotations (such as from Java to an OpenAPI spec through [Swagger Codegen](https://swagger.io/swagger-codegen/)), but it's not something that HATs can do. For more on auto-generating from source, see [Auto-generating the OpenAPI file from code annotations](pubapis_openapi_intro.html#autogeneration).
+Even for REST APIs, there are tools/libraries that will auto-generate documentation from source code annotations (such as from Java annotations to an OpenAPI spec through [Swagger Core](https://github.com/swagger-api/swagger-core)), but it's not something that HATs can do. For more on auto-generating from source, see [Auto-generating the OpenAPI file from code annotations](pubapis_openapi_intro.html#autogeneration).
 
 ### 3. API doc follows a specific structure and pattern not modeled in any HAT
 
@@ -90,7 +90,7 @@ If you have a lot of endpoints, you need a system for pushing the content into s
 
 ### 4. Many APIs have interactive API consoles, allowing you to try out the calls
 
-You won't find an [interactive API console](pubapis_design_patterns.html#interactive_api_explorers) in a HAT. By interactive API console, I mean you enter your own API key and values and then run the call directly from the web pages in the documentation. ([Flickr's API explorer](https://www.flickr.com/services/api/explore/?method=flickr.photos.search) provides one such example of this interactivity, as does [Swagger UI](pubapis_swagger.html).) The response you see from this explorers is from your own data in the API.
+You won't find an [interactive API console](pubapis_design_patterns.html#interactive_api_explorers) in a HAT. By interactive API console, I mean you enter your own API key and values and then run the call directly from the web pages in the documentation. ([Flickr's API explorer](https://www.flickr.com/services/api/explore/?method=flickr.photos.search) provides one such example of this interactivity, as does [Swagger UI](pubapis_swagger.html).) The response you see from these explorers is from your own data in the API.
 
 ### 5. With APIs, the doc *is* the product's interface, so it has to be attractive enough to sell the product.
 
@@ -102,7 +102,7 @@ With API documentation, often the documentation *is* the product's interface &md
 
 Most tripane help doesn't make that cut. If the help looks old and frame-based, it doesn't instill much confidence with developers evaluating it.
 
-In Flare's latest release, you *can* customize the display in pretty significant ways, so maybe it will help end the dated tripane output's appearance. Even so, the effort and process of skinning a HAT's output is usually drastically different from customizing the output from a static site generator. Web developers will be much more comfortable with the latter.
+In recent versions of Flare, you *can* customize the display in pretty significant ways, so maybe it will help end the dated tripane output's appearance. Even so, the effort and process of skinning a HAT's output is usually drastically different from customizing the output from a static site generator. Web developers will be much more comfortable with the latter.
 
 ## A new direction: Static site generators
 

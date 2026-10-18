@@ -6,14 +6,14 @@ sidebar: docapis
 weight: 9.96
 path1: learnapidoc/publishingtools.html
 section: publishingtools
-last-modified: 2021-10-13
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-[Oxygen XML](https://www.oxygenxml.com/){: rel="nofollow"} is a robust authoring and publishing tool for technical content that allows you to author in multiple formats (Markdown, HTML, or XML) as well as publish to multiple outputs (HTML-based webhelp, PDF, and more). Although traditionally used for XML authoring and publishing, Oxygen XML has expanded its support with Markdown files, especially with the DITA's recent support for Lightweight Markdown. In this tutorial, you'll learn more about Oxygen XML, different workflows you can use to publish in a docs-as-code model, Git integration with Oxygen XML, supported Markdown formats, how to get started, and more.
+[Oxygen XML](https://www.oxygenxml.com/){: rel="nofollow"} is a robust authoring and publishing tool for technical content that allows you to author in multiple formats (Markdown, HTML, or XML) as well as publish to multiple outputs (HTML-based webhelp, PDF, and more). Although traditionally used for XML authoring and publishing, Oxygen XML has expanded its support with Markdown files, especially through Lightweight DITA (LwDITA), which lets you write DITA topics in Markdown. In this tutorial, you'll learn more about Oxygen XML, different workflows you can use to publish in a docs-as-code model, Git integration with Oxygen XML, supported Markdown formats, how to get started, and more.
 
-*Note: Oxygen XML is one of the sponsors of my site.*
+*Note: Oxygen XML was a sponsor of my site when I wrote this article. The screenshots and documentation links are from Oxygen XML Editor 23.1 (2021), so some details might differ in later versions.*
 
 {% if site.format == "web" %}
 * TOC
@@ -63,7 +63,7 @@ Because Markdown is the most common format for docs-as-code tools, let's look in
 
 ### Markdown formats supported in Oxygen XML
 
-Oxygen XML provides support for CommonMark Markdown (the same Markdown standard used by the OpenAPI spec) as well MDITA files (Markdown DITA) from the [Lightweight DITA (LwDITA) spec](http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd01/LwDITA-v1.0-cnprd01.html). The [MDITA](http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd01/LwDITA-v1.0-cnprd01.html#what-is-mdita) format follows [GitHub-Flavored Markdown](https://www.oxygenxml.com/xml_editor/markdown_editor.html#integration-of-popular-markdown-rules) (for example, fenced code blocks with a language identifier) and also incorporates some re-use features from DITA (primarily `keyrefs` and `conrefs`) &mdash; see the [supported MDITA syntax here](https://github.com/jelovirt/org.lwdita/wiki/Syntax-reference). The `keyref` element allows you to use variables in your content, and `conref` allows for content re-use (also called transcludes, where you can insert the content from one file into another).
+Oxygen XML provides support for CommonMark Markdown (the same Markdown standard used by the OpenAPI spec) as well as MDITA files (Markdown DITA) from the [Lightweight DITA (LwDITA) committee note](https://docs.oasis-open.org/dita/LwDITA/v1.0/cn02/LwDITA-v1.0-cn02.html). The [MDITA](https://docs.oasis-open.org/dita/LwDITA/v1.0/cn02/LwDITA-v1.0-cn02.html) format follows [GitHub-Flavored Markdown](https://www.oxygenxml.com/xml_editor/markdown_editor.html#integration-of-popular-markdown-rules) (for example, fenced code blocks with a language identifier) and also incorporates some re-use features from DITA (primarily `keyrefs` and `conrefs`) &mdash; see the [supported MDITA syntax here](https://github.com/jelovirt/org.lwdita/wiki/MDITA-syntax). The `keyref` element allows you to use variables in your content, and `conref` allows for content re-use (also called transcludes, where you can insert the content from one file into another).
 
 ### Markdown preview in Oxygen XML's editor
 
