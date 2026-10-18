@@ -6,12 +6,15 @@ weight: 7.92
 sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
-last-modified: 2020-01-21
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-In this section, you explored [Getting started tutorials](docapis_doc_getting_started_section.html). To get better empathy for these tutorials as a user, try to complete the following tutorial from SendGrid: [Getting Started with the SendGrid API](https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/).
+In this section, you explored [Getting started tutorials](docapis_doc_getting_started_section.html). To get better empathy for these tutorials as a user, try to complete the following tutorial from SendGrid: [Getting Started with the SendGrid API](https://www.twilio.com/docs/sendgrid/for-developers/sending-email/api-getting-started).
+
+{: .note}
+SendGrid retired its free plan in May 2025, but you can still sign up for a free trial (no credit card required). If you'd rather not create an account, choose a getting started tutorial from another API, such as one from the [samples of getting started topics](docapis_doc_getting_started_section.html#samples-of-getting-started-topics).
 
 There are no supplementary instructions or tips for working through the content, as that would be a crutch to the experience. Ideally, you should be able to complete all the steps in about 5 minutes. After you finish, answer the following questions:
 

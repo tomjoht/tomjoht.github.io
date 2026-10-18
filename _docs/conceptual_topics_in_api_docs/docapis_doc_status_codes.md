@@ -7,19 +7,19 @@ weight: 7.4
 sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
-last-modified: 2020-05-10
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-Status and error codes refer to a code number in the response header that indicates the general classification of the response &mdash; for example, whether the request was successful (200), resulted in a server error (500), had authorization issues (403), and so on. Standard status codes don't usually need much documentation, but custom status and error codes specific to your API do. Error codes in particular help in troubleshooting bad requests.
+Status and error codes refer to a code number in the response header that indicates the general classification of the response &mdash; for example, whether the request was successful (200), resulted in a server error (500), had authentication or authorization issues (401 or 403), and so on. Standard status codes don't usually need much documentation, but custom status and error codes specific to your API do. Error codes in particular help in troubleshooting bad requests.
 
 * TOC
 {:toc}
 
 ## Sample status code in curl header
 
-Status codes don't appear in the response body. They appear in the response header, which you might not see by default.
+The HTTP status code appears in the first line of the response, along with the response headers, which you might not see by default. (Some APIs also repeat the code in the response body. For example, OpenWeatherMap includes a `cod` field in its JSON responses.)
 
 Remember when you submitted the curl call back in [Make a curl call](docapis_make_curl_call.html)? To get the response header, you add `--include` or `-i` to the curl request. If you want *only the response header returned* in the response (and nothing else), capitalize the `-I`, like this:
 
@@ -33,10 +33,9 @@ The response header looks as follows:
 
 ```
 HTTP/1.1 200 OK
-Server: openresty
-Date: Thu, 06 Dec 2018 22:58:41 GMT
+Date: Sun, 18 Oct 2026 04:24:09 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 446
+Content-Length: 500
 Connection: keep-alive
 X-Cache-Key: /data/2.5/weather?units=imperial&zip=95050
 Access-Control-Allow-Origin: *
@@ -44,7 +43,15 @@ Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET, POST
 ```
 
-The first line, `HTTP/1.1 200 OK`, tells us the status of the request (`200`). Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the OpenWeatherMap API developers. `200` is a universally accepted code for a successful HTTP request. (If you change the method, you'll get back a different status code.)
+The first line, `HTTP/1.1 200 OK`, tells us the status of the request (`200`). Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the OpenWeatherMap API developers. `200` is a universally accepted code for a successful HTTP request.
+
+If you change the API key to an invalid value, you'll get back a different status code. OpenWeatherMap returns `401 Unauthorized`, along with this message in the response body:
+
+```json
+{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+```
+
+Note the difference between `401` and `403`. A `401 Unauthorized` code means the request didn't include valid credentials, such as a missing or invalid API key. A `403 Forbidden` code means the server knows who you are, but you don't have permission to perform the request.
 
 {% include random_ad3.html %}
 
@@ -56,7 +63,7 @@ All too often, status codes are uninformative, poorly written, and communicate l
 
 {% include image_ad_right.html %}
 
-You can see a list of common [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) and a [general list of HTTP status codes here](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes). Although it's probably good to include a few standard status codes, comprehensively documenting *all standard* status codes, especially if rarely triggered by your API, is unnecessary.
+You can see a list of common [REST API status codes here](https://www.restapitutorial.com/httpstatuscodes) and a [general list of HTTP status codes here](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes). Although it's probably good to include a few standard status codes, comprehensively documenting *all standard* status codes, especially if rarely triggered by your API, is unnecessary.
 
 ## Where to list the HTTP response and error codes
 
@@ -64,7 +71,7 @@ Most APIs should have a general page listing response and error codes across the
 
 {% include random_ad4.html %}
 
-On the other hand, if some endpoints are prone to triggering certain status and error codes more than others, it makes sense to highlight those status and error codes on same API reference pages. One strategy might be to call attention to any particularly relevant status or error codes for a specific endpoint, and then link to the centralized "Response and Status Codes" page for full information.
+On the other hand, if some endpoints are prone to triggering certain status and error codes more than others, it makes sense to highlight those status and error codes on the same API reference pages. One strategy might be to call attention to any particularly relevant status or error codes for a specific endpoint, and then link to the centralized "Response and Status Codes" page for full information.
 
 ## Where to get status and error codes
 
@@ -101,6 +108,10 @@ You can list your status and error codes in a basic table or definition list, so
    </tbody>
 </table>
 
+## Standard error formats
+
+Besides the status code, most APIs return an error message in the response body. The format of these error messages varies from API to API, but there's a standard you might encounter: *Problem Details for HTTP APIs* ([RFC 9457](https://www.rfc-editor.org/rfc/rfc9457.html), which replaced RFC 7807 in 2023). An API that follows this standard returns errors with the media type `application/problem+json` and fields such as `type`, `title`, `status`, and `detail`. If your API uses this format, document what each field contains and list the `type` values your API returns.
+
 ## Status/error codes can assist in troubleshooting
 
 Status and error codes can be particularly helpful when it comes to troubleshooting. As such, you can think of these error codes as complementary to a section on troubleshooting.
@@ -114,7 +125,7 @@ A section on troubleshooting could list error messages related to the following 
 * The parameters don't fit the data types
 * The API throws an exception
 * There's no data for the resource to return
-* The rate limits have been exceeded
+* The rate limits have been exceeded (often a `429` status code)
 * The parameters are outside the max and min boundaries of what's acceptable
 * A required parameter is absent from the endpoint
 
@@ -124,27 +135,25 @@ Where possible, document the exact text of the error in the documentation so tha
 
 The following are some sample status and error code pages in API documentation.
 
-### Context.io
+### Stripe
 
-<figure><a target="_blank" class="noExtIcon" href="https://clearbit.com/docs?python#errors-error-types"><img class="docimage" src="{{site.api_media}}/context_statuscodes.png" alt="Context.io's status and error codes" /></a><figcaption>Context.io status and error codes</figcaption></figure>
-
-Clearbit not only documents the standard status codes but also describes the unique parameters returned by their API. Most developers will probably be familiar with 200, 400, and 500 codes, so these codes don't need a lot of explanatory detail. But if your API has unique codes, make sure to describe these adequately.
+Stripe's [errors page](https://docs.stripe.com/api/errors) starts with a summary table of HTTP status codes, from `200 OK` to `429 Too Many Requests`, each with a one-line explanation. Then it describes the error types its API returns (such as `card_error` and `invalid_request_error`) and each attribute in the error object. One attribute, `doc_url`, links directly to the documentation for the specific error code. Most developers will probably be familiar with 200, 400, and 500 codes, so these codes don't need a lot of explanatory detail. But if your API has unique codes, make sure to describe these adequately.
 
 {% include ads.html %}
 
 ### Twitter
 
-<figure><a target="_blank" class="noExtIcon" href="https://developer.twitter.com/en/docs/basics/response-codes"><img class="docimage" src="{{site.api_media}}/twitter_statuscodes.png" alt="Twitter's status and error codes" /></a><figcaption>Twitter status and error codes</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20200101143226/https://developer.twitter.com/en/docs/basics/response-codes"><img class="docimage" src="{{site.api_media}}/twitter_statuscodes.png" alt="Twitter's status and error codes" /></a><figcaption>Twitter status and error codes</figcaption></figure>
 
-With Twitter's status code documentation, they not only describe the code and status but also provide helpful troubleshooting information, potentially assisting with error recovery. For example, with the `500` error, the authors don't just say the status refers to a broken service, they explain, "This is usually a temporary error, for example in a high load situation or if an endpoint is temporarily having issues. Check in the [developer forums](https://twittercommunity.com/) in case others are having similar issues, or try again later."
+With Twitter's status code documentation (shown here from an archived version of their older docs), they not only describe the code and status but also provide helpful troubleshooting information, potentially assisting with error recovery. For example, with the `500` error, the authors don't just say the status refers to a broken service, they explain, "This is usually a temporary error, for example in a high load situation or if an endpoint is temporarily having issues. Check in the developer forums in case others are having similar issues, or try again later."
 
 This kind of helpful message is what tech writers should aim for with status codes (at least for those codes that indicate problems).
 
 ### Mailchimp
 
-<figure><a target="_blank" class="noExtIcon" href="http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/"><img class="docimage" src="{{site.api_media}}/mailchimp_statuscodes.png" alt="Mailchimp's status and error codes" /></a><figcaption>Mailchimp status and error codes</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20200326213201/https://mailchimp.com/developer/guides/error-glossary/"><img class="docimage" src="{{site.api_media}}/mailchimp_statuscodes.png" alt="Mailchimp's status and error codes" /></a><figcaption>Mailchimp status and error codes</figcaption></figure>
 
-Mailchimp provides readable and friendly descriptions of the error message. For example, with the `403` errors, instead of just writing "Forbidden," Mailchimp explains reasons why you might receive the Forbidden code. With Mailchimp, there are several types of 403 errors. Your request might be forbidden due to a disabled user account or request made to the wrong data center. For the "WrongDataCenter" error, Mailchimp notes that "It’s often associated with misconfigured libraries" and they link to more information on data centers. This is the type of error code documentation that is helpful to users.
+Mailchimp provides readable and friendly descriptions of the error message (shown here from an archived version of their error glossary; see the [current errors page](https://mailchimp.com/developer/marketing/api-concepts/errors)). For example, with the `403` errors, instead of just writing "Forbidden," Mailchimp explains reasons why you might receive the Forbidden code. With Mailchimp, there are several types of 403 errors. Your request might be forbidden due to a disabled user account or request made to the wrong data center. For the "WrongDataCenter" error, Mailchimp notes that "It’s often associated with misconfigured libraries" and they link to more information on data centers. This is the type of error code documentation that is helpful to users.
 
 ### Flickr
 

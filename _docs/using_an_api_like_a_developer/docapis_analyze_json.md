@@ -9,7 +9,7 @@ weight: 2.8
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2019-01-01
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -28,43 +28,46 @@ The unminified response from the OpenWeatherMap weather endpoint looks like this
 ```json
 {
   "coord": {
-    "lon": -121.96,
-    "lat": 37.35
+    "lon": -121.953,
+    "lat": 37.3492
   },
   "weather": [
     {
-      "id": 801,
-      "main": "Clouds",
-      "description": "few clouds",
-      "icon": "02d"
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 70.14,
-    "pressure": 1012,
-    "humidity": 33,
-    "temp_min": 62.6,
-    "temp_max": 75.2
+    "temp": 68.29,
+    "feels_like": 67.26,
+    "temp_min": 64.11,
+    "temp_max": 71.47,
+    "pressure": 1014,
+    "humidity": 52,
+    "sea_level": 1014,
+    "grnd_level": 1015
   },
-  "visibility": 16093,
+  "visibility": 10000,
   "wind": {
-    "speed": 14.99,
-    "deg": 330
+    "speed": 4.61,
+    "deg": 310
   },
   "clouds": {
-    "all": 20
+    "all": 0
   },
-  "dt": 1522619760,
+  "dt": 1792296751,
   "sys": {
     "type": 1,
-    "id": 479,
-    "message": 0.0058,
+    "id": 5845,
     "country": "US",
-    "sunrise": 1522590707,
-    "sunset": 1522636288
+    "sunrise": 1792246653,
+    "sunset": 1792286902
   },
-  "id": 420006397,
+  "timezone": -25200,
+  "id": 0,
   "name": "Santa Clara",
   "cod": 200
 }
@@ -85,7 +88,7 @@ JSON has two types of basic structures: objects and arrays. An object is a colle
 }
 ```
 
-The key-value pairs are each put into double quotation marks when both are strings. If the value is an integer (a whole number) or Boolean (true or false value), omit the quotation marks around the value. Each key-value pair is separated from the next by a comma.
+Keys are always in double quotation marks. String values are also in double quotation marks, but numbers (such as `52` or `68.29`), Booleans (`true` or `false`), and `null` aren't. Each key-value pair is separated from the next by a comma.
 
 {% include image_ad_right.html %}
 
@@ -99,9 +102,9 @@ An array is a list of items, surrounded by brackets:
 ["first", "second", "third"]
 ```
 
-The list of items can contain strings, numbers, booleans, arrays, or other objects. With integers or booleans, you don't use quotation marks.
+The list of items can contain strings, numbers, booleans, `null`, arrays, or other objects. With numbers, booleans, or `null`, you don't use quotation marks.
 
-Integers:
+Numbers:
 
 ```json
 [1, 2, 3]
@@ -144,7 +147,7 @@ And objects can contain arrays in the value part of the key-value pair:
 
 ```json
 {
-"children": ["Avery","Callie","lucy","Molly"],
+"children": ["Avery","Callie","Lucy","Molly"],
 "hobbies": ["swimming","biking","drawing","horseplaying"]
 }
 ```
@@ -158,7 +161,7 @@ It's important to understand the difference between objects and arrays because i
 
 ## <i class="fa fa-user-circle"></i> Examine the weather response
 
-Look at the response from the `weather` endpoint of the OpenWeatherMap weather API. Where are the objects? Where are the arrays? Which objects are nested? Which values are booleans versus strings?
+Look at the response from the `weather` endpoint of the OpenWeatherMap weather API. Where are the objects? Where are the arrays? Which objects are nested? Which values are numbers versus strings?
 
 {% include random_ad3.html %}
 

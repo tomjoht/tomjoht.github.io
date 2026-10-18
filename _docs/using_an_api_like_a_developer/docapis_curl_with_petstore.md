@@ -7,12 +7,12 @@ weight: 2.7
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2020-09-07
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-Our [sample weather API](docapis_scenario_for_using_weather_api.html) doesn't allow you to use anything but a GET method, so for this exercise, to use other methods with curl, we'll use the [petstore API from Swagger](http://petstore.swagger.io/). However, we won't actually use the Swagger UI (which is something we'll [explore later](pubapis_openapi_intro.html)). For now, we just need an API with which we can use to create, update, and delete content.
+Our [sample weather API](docapis_scenario_for_using_weather_api.html) doesn't allow you to use anything but a GET method, so for this exercise, to use other methods with curl, we'll use the [Petstore API from Swagger](https://petstore.swagger.io/). However, we won't actually use the Swagger UI (which is something we'll [explore later](pubapis_openapi_intro.html)). For now, we just need an API with which we can use to create, update, and delete content.
 
 In this example, using the Petstore API, you'll create a new pet, update the pet, get the pet's ID, delete the pet, and then try to get the deleted pet.
 
@@ -24,9 +24,9 @@ In this example, using the Petstore API, you'll create a new pet, update the pet
 To create a pet, you have to pass a JSON message in the request body. Rather than trying to encode the JSON and pass it in the URL, you'll store the JSON in a file and reference the file.
 
 {: .tip}
-A lot of APIs require you to post requests containing JSON messages in the body. Request bodies are often how you configure a service. The list of JSON key-value pairs that the API accepts is called the "Model" in the Swagger UI display.
+A lot of APIs require you to post requests containing JSON messages in the body. Request bodies are often how you configure a service. The list of JSON key-value pairs that the API accepts is called the "Model" (or "Schema") in the Swagger UI display.
 
-1.  Insert the following into a text file. This information will be passed in the `-d` parameter of the curl request:
+1.  Insert the following into a text file called `mypet.json`. This information will be passed in the `-d` parameter of the curl request:
 
     ```json
     {
@@ -54,8 +54,8 @@ A lot of APIs require you to post requests containing JSON messages in the body.
     {: .note}
     Use a unique ID and name that others aren't likely to also use. Also, don't begin your ID with the number 0.
 
-3.  Save the file in a directory that you can conveniently access from your terminal, such as your user directory (on a Mac, `Users/YOURUSERNAME` &mdash; replace `YOURUSERNAME` with your actual user name on your computer).
-4.  In your terminal, browse to the directory where you saved the **mypet.json** file. (Usually, the default directory is `Users/YOURUSERNAME` &mdash; hence the previous step.)
+3.  Save the file in a directory that you can conveniently access from your terminal, such as your user directory (on a Mac, `/Users/YOURUSERNAME`; on Windows, `C:\Users\YOURUSERNAME` &mdash; replace `YOURUSERNAME` with your actual user name on your computer).
+4.  In your terminal, browse to the directory where you saved the **mypet.json** file. (Usually, the terminal opens in your user directory &mdash; hence the previous step.)
 
     If you've never browsed directories using the command line, here's how you do it:
 
@@ -136,19 +136,25 @@ Find your pet's name by passing the ID into the `/pet/{petID}` endpoint:
 
 Unfortunately, your pet has died. It's time to delete your pet from the pet registry.
 
-1.  Use the DELETE method to remove your pet. Replace `5123123` with your pet ID:
+1.  Use the DELETE method to remove your pet. Replace `51231236` with your pet ID:
 
     ```bash
-    curl -X DELETE --header "Accept: application/json" "https://petstore.swagger.io/v2/pet/5123123"
+    curl -X DELETE --header "Accept: application/json" "https://petstore.swagger.io/v2/pet/51231236"
+    ```
+
+    The response confirms the deletion by returning a `200` code and your pet ID:
+
+    ```json
+    {"code":200,"type":"unknown","message":"51231236"}
     ```
 
 2.  Now check to make sure your pet is removed. Use a GET request to look for your pet with that ID:
 
     ```bash
-    curl -X GET --header "Accept: application/json" "https://petstore.swagger.io/v2/pet/5123123"
+    curl -X GET --header "Accept: application/json" "https://petstore.swagger.io/v2/pet/51231236"
     ```
 
-    You should see this error message:
+    You should see this error message (returned with a `404` status code):
 
     ```json
     {"code":1,"type":"error","message":"Pet not found"}
@@ -162,15 +168,15 @@ Although Postman is probably easier to use, curl lends itself to power-level usa
 
 ## Understanding idempotent methods
 
-One concept important to understand with HTTP methods is "idempotency." Roy Fielding defines idempotency as follows:
+One concept important to understand with HTTP methods is "idempotency." The HTTP specification ([RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods), co-authored by Roy Fielding) defines idempotency as follows:
 
-> A request method is considered "idempotent" if the intended effect on the server of multiple identical requests with that method is the same as the effect for a single such request. Of the request methods defined by this specification, PUT, DELETE, and safe request methods are idempotent" ([RFC 7231, 4.2.2](https://tools.ietf.org/html/rfc7231#section-4.2.2).
+> A request method is considered "idempotent" if the intended effect on the server of multiple identical requests with that method is the same as the effect for a single such request. Of the request methods defined by this specification, PUT, DELETE, and safe request methods are idempotent.
 
 {% include image_ad_right.html %}
 
-In other words, with idempotent methods, you can run them multiple times without multiplying the results. Idempotent methods include GET, PUT, and DELETE, while POST is not (see [8.1.3](https://tools.ietf.org/html/rfc7231#section-8.1.3) for a more detailed list).
+In other words, with idempotent methods, you can run them multiple times without multiplying the results. Idempotent methods include GET, PUT, and DELETE, while POST and PATCH are not (see the [method table in RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html#name-method-registration) for a more detailed list).
 
-Todd Fredrich explains idempotency by [comparing it to a pregnant cow](https://www.restapitutorial.com/introduction/idempotence.html). Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session.
+For example, if you send the same DELETE request for your pet three times, the pet is deleted only once. The second and third requests return a "Pet not found" error, but the end state on the server is the same. In contrast, with many APIs, sending the same POST request three times creates three separate resources. (For more explanation, see [Idempotence](https://www.restapitutorial.com/introduction/idempotence) in the REST API Tutorial.)
 
 {% include random_ad4.html %}
 
@@ -178,43 +184,34 @@ Todd Fredrich explains idempotency by [comparing it to a pregnant cow](https://w
 
 You can import curl commands into Postman by doing the following:
 
-1.  Open a new tab in Postman and click the **Import** button in the upper-left corner.
-2.  Select **Paste Raw Text** and insert your curl command:
+1.  Open a new request tab in Postman.
+2.  Paste your curl command directly into the URL box:
 
     ```bash
-    curl -X GET --header "Accept: application/json" "https://petstore.swagger.io/v2/pet/5123123"
+    curl -X GET --header "Accept: application/json" "https://petstore.swagger.io/v2/pet/51231236"
     ```
 
-    Make sure you don't have any extra spaces at the beginning.
+    Postman automatically converts the curl command into a request, filling in the method, URL, and headers. (You can also click **Import** and paste the curl command into the import field.)
 
-    <img src="{{site.api_media}}/postmanimport.png" class="small" alt="Importing into Postman" />
-
-
-3.  Click **Import**.
-4.  Close the dialog box.
-5.  Click **Send**. (If you deleted your pet, you will see the same "Pet not found" error message as before.)
+3.  Click **Send**. (If you deleted your pet, you will see the same "Pet not found" error message as before.)
 
 ## Export Postman to curl
 
 You can also export Postman to curl by doing the following:
 
 1.  If desired, select one of your OpenWeatherMap API requests in Postman.
-1.  Click the **Code** button (it's right below Save).
-
-    <img class="medium" src="{{site.api_media}}/postmangeneratecodesnippet.png" alt="Generating code snippets" />
-
-2.  Select **curl** from the drop-down menu.
-3.  Copy the code snippet.
+2.  Click **Code** (the <code>&lt;/&gt;</code> icon) in the right sidebar.
+3.  Select **cURL** from the drop-down menu.
+4.  Copy the code snippet.
 
     ```bash
-    curl -X GET \
-      'https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&units=imperial&appid=APIKEY'
+    curl --location 'https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&units=imperial&appid=APIKEY'
     ```
 
     In place of `APIKEY` you should see your actual API key.
 
-4.  Remove the backslashes and line breaks. If you're on Windows, change the single quotes to double quotes.
-5.  Insert the curl command into your terminal and observe the result.
+5.  If the snippet has backslashes and line breaks, remove them. If you're on Windows, change the single quotes to double quotes.
+6.  Insert the curl command into your terminal and observe the result.
 
     ```bash
     curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&units=imperial&appid=APIKEY"

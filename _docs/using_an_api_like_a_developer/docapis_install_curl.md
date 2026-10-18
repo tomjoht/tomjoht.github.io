@@ -82,7 +82,7 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=API
 You should get minified JSON response back like this:
 
 ```
-{"coord":{"lon":-121.96,"lat":37.35},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":66.92,"pressure":1017,"humidity":50,"temp_min":53.6,"temp_max":75.2},"visibility":16093,"wind":{"speed":10.29,"deg":300},"clouds":{"all":75},"dt":1522526400,"sys":{"type":1,"id":479,"message":0.0051,"country":"US","sunrise":1522504404,"sunset":1522549829},"id":420006397,"name":"Santa Clara","cod":200}
+{"coord":{"lon":-121.953,"lat":37.3492},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":68.29,"feels_like":67.26,"temp_min":64.11,"temp_max":71.47,"pressure":1014,"humidity":52,"sea_level":1014,"grnd_level":1015},"visibility":10000,"wind":{"speed":4.61,"deg":310},"clouds":{"all":0},"dt":1792296751,"sys":{"type":1,"id":5845,"country":"US","sunrise":1792246653,"sunset":1792286902},"timezone":-25200,"id":0,"name":"Santa Clara","cod":200}
 ```
 
 {% include ads.html %}

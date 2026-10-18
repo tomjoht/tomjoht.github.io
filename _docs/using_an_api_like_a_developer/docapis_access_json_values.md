@@ -32,40 +32,43 @@ As an example, this is the full response from the [request made previously](doca
 ```json
 {
   "coord": {
-    "lon": -121.95,
-    "lat": 37.35
+    "lon": -121.953,
+    "lat": 37.3492
   },
   "weather": [
     {
-      "id": 802,
-      "main": "Clouds",
-      "description": "scattered clouds",
-      "icon": "03d"
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 68.34,
+    "temp": 68.29,
+    "feels_like": 67.26,
+    "temp_min": 64.11,
+    "temp_max": 71.47,
     "pressure": 1014,
-    "humidity": 73,
-    "temp_min": 63,
-    "temp_max": 72
+    "humidity": 52,
+    "sea_level": 1014,
+    "grnd_level": 1015
   },
-  "visibility": 16093,
+  "visibility": 10000,
   "wind": {
-    "speed": 3.36
+    "speed": 4.61,
+    "deg": 310
   },
   "clouds": {
-    "all": 40
+    "all": 0
   },
-  "dt": 1566664878,
+  "dt": 1792296751,
   "sys": {
     "type": 1,
-    "id": 5122,
-    "message": 0.0106,
+    "id": 5845,
     "country": "US",
-    "sunrise": 1566653501,
-    "sunset": 1566701346
+    "sunrise": 1792246653,
+    "sunset": 1792286902
   },
   "timezone": -25200,
   "id": 0,
@@ -100,7 +103,7 @@ $.ajax(settings).done(function (response) {
 Refresh your Chrome browser and see the information that appears in the console:
 
 ```
-wind speed: 13.87
+wind speed: 4.61
 ```
 
 {% include ads.html %}
@@ -211,7 +214,7 @@ We used the [jQuery `append` method](https://api.jquery.com/append/) to append t
 $("#windSpeed").append(content);
 ```
 
-This code says to find the element with the ID `windSpeed` and add the `content` variable after it.
+This code says to find the element with the ID `windSpeed` and add the `content` variable at the end of that element's existing content.
 
 {% include image_ad_right.html %}
 
@@ -223,10 +226,10 @@ In the previous section, you retrieved a value from a JSON object. Now let's get
 {
   "weather": [
     {
-      "id": 801,
-      "main": "Clouds",
-      "description": "few clouds",
-      "icon": "02d"
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
     }
   ]
 }

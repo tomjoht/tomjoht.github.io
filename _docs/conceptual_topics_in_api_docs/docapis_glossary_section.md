@@ -8,7 +8,7 @@ sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
 no_newsletter: true
-last-modified: 2022-03-20
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -19,7 +19,7 @@ The glossary defines all the terms that might be helpful for users to know &mdas
 {:toc}
 
 {: .tip}
-AI tools can help speed up glossary work. See [Using AI for glossary definitions](docapis_ai_glossary_definitions.html).
+AI tools can help speed up glossary work. See [Using AI for glossary definitions](https://idratherbewriting.com/ai/docapis_ai_glossary_definitions.html).
 
 ## Defining specialized terms
 
@@ -56,7 +56,7 @@ Defining terms helps you recognize the specialized terminology that might be use
 
 ## Localization requirements and glossaries
 
-If you're planning to localize your API documentation, most translators will require a glossary. Especially with API documentation, there are many technical terms that translators need to to be aware of so they can decide whether the terms should be translated.
+If you're planning to localize your API documentation, most translators will require a glossary. Especially with API documentation, there are many technical terms that translators need to be aware of so they can decide whether the terms should be translated.
 
 For example, suppose in your sample Android app, you have terms like `PlaybackState` and "media session" and "callback" and `BroadcastReceiver`. Translators need to be technical enough to know whether these terms should be translated or left as is. Terms set off in `code` tags normally wouldn't be translated, but many other terms referring to technical elements might also best be left untranslated. It can be a tricky judgment call when the technical term isn't set off as code but refers to a technical concept or class (such as "MediaSession").
 
@@ -77,15 +77,15 @@ I explored glossaries in depth in [Reducing the complexity of technical language
 
 One question to consider is how and where to integrate the glossary definition within your technical content. For example, suppose you have the terms "near field" and "far field" in your content, referring to voice interactions with a device. You might use these terms in a number of sections and different pages. Sure, you could define these terms the first instance in your docs when you use them, but what if they appear on half a dozen pages? Users might not start on the initial page where they're defined.
 
-You could incorporate tooltips (such as these [tooltips from Bootstrap](https://getbootstrap.com/docs/4.1/components/tooltips/)) over the term in places where you don't define it in-context. You could also link to the glossary definition rather than continually incorporating tooltips.
+You could incorporate tooltips (such as these [tooltips from Bootstrap](https://getbootstrap.com/docs/5.3/components/tooltips/)) over the term in places where you don't define it in-context. You could also link to the glossary definition rather than continually incorporating tooltips.
 
-One principle to consider with connecting terms to glossary definitions is Fitt's Law, which asserts that "the distance between a user’s task/attention area and the task-related button should be kept as short as possible" ([What is Fitts' Law?](https://www.interaction-design.org/literature/topics/fitts-law)). In other words, the more distance between your glossary definition and the term, the harder it is for users to locate the definition. Users have to leave their context to go hunting for the definition, and then return. This context switching is often skipped by users because it's a drag on their efficiency.
+One principle to consider with connecting terms to glossary definitions is Fitts's law, which asserts that "the distance between a user’s task/attention area and the task-related button should be kept as short as possible" ([What is Fitts' Law?](https://ixdf.org/literature/topics/fitts-law)). In other words, the more distance between your glossary definition and the term, the harder it is for users to locate the definition. Users have to leave their context to go hunting for the definition, and then return. This context switching is often skipped by users because it's a drag on their efficiency.
 
 In the worst case scenario, the term might not have a tooltip or link, and the glossary page link might not be visible at all in the page's context. In this case, it becomes even harder for a user to locate the definition, requiring more time out of context. In the best case scenario, the term is defined within the context and flow of the sentence; or it has a tooltip that, on mouseover, shows the definition. The tradeoff of the latter scenario, however, is that making too many words styled into tooltip links distracts the user. Each link the user sees presents the user with the question of whether to click the link, which provides more cognitive load on the reading experience. If you do use tooltips, style them in a way that distinguishes them from regular hyperlinks.
 
 ## Reusing glossary definitions
 
-To reuse glossary definitions, consider storing glossary terms and definitions in a structured file that acts like a database for glossary terms. For example, on my [glossary page](glossary.html), the data source is a YAML file here: [_data/glossary.yml](https://github.com/tomjoht/learnapidoc/blob/main/_data/glossary.yml). Each definition follows a structure like this:
+To reuse glossary definitions, consider storing glossary terms and definitions in a structured file that acts like a database for glossary terms. For example, on my [glossary page](glossary.html), the data source is a YAML file here: [_data/glossary.yml](https://github.com/tomjoht/tomjoht.github.io/blob/main/_data/glossary.yml). Each definition follows a structure like this:
 
 ```yaml
 api:
@@ -93,15 +93,14 @@ api:
   def: "Application Programming Interface. Enables different systems to interact with each other programmatically. Two types of APIs are REST APIs (web APIs) and native-library APIs."
 ```
 
-By storing the data in a structured way like this, I can get the data out and re-use it in different ways. For example, to show all terms in the glossary, I created some for loops here to get the info and format it in the display you see on the glossary page: [_includes/glossary_full.html](https://github.com/tomjoht/learnapidoc/blob/main/_includes/glossary_full.html). The logic here is specific to Jekyll, but other docs-as-code solutions have similar templating options available. A lot of these templating languages operate in similar ways.
+By storing the data in a structured way like this, I can get the data out and re-use it in different ways. For example, to show all terms in the glossary, I created some for loops here to get the info and format it in the display you see on the glossary page: [_includes/glossary_full.html](https://github.com/tomjoht/tomjoht.github.io/blob/main/_includes/glossary_full.html). The logic here is specific to Jekyll, but other docs-as-code solutions have similar templating options available. A lot of these templating languages operate in similar ways.
 
-You could also get the same definition and insert it into a [Bootstrap tooltip](https://getbootstrap.com/docs/4.0/components/tooltips/). To do this, first initialize the Bootstrap code:
+You could also get the same definition and insert it into a [Bootstrap tooltip](https://getbootstrap.com/docs/5.3/components/tooltips/). This site uses Bootstrap 5, where tooltips are opt-in, so you first need to initialize them:
 
 ```js
 <script>
-$(function () {
-  $('[data-bs-toggle="tooltip"]').tooltip()
-})
+document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  .forEach(function (el) { new bootstrap.Tooltip(el); });
 </script>
 ```
 
@@ -123,20 +122,19 @@ The result:
 
 {% endif %}
 
-Tooltips appear when you mouse over a link and disappear when you move your mouse off the link. Because of this behavior, don't include any links in tooltip text. If you want to link to text, use a [Bootstrap popover](https://getbootstrap.com/docs/4.0/components/popovers/). Just like with tooltips, popovers must also be initialized:
+Tooltips appear when you mouse over a link and disappear when you move your mouse off the link. Because of this behavior, don't include any links in tooltip text. If you want to link to text, use a [Bootstrap popover](https://getbootstrap.com/docs/5.3/components/popovers/). Just like with tooltips, popovers must also be initialized:
 
 ```js
 <script>
-$(document).ready(function(){
-    $('[data-bs-toggle="popover"]').popover();   
-});
+document.querySelectorAll('[data-bs-toggle="popover"]')
+  .forEach(function (el) { new bootstrap.Popover(el); });
 </script>
 ```
 
 You can then populate the popover with info from the glossary YAML file:
 
 ```html
-{% raw %}Learning how to document <a data-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-bs-toggle="popover" data-placement="top" data-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.{% endraw %}
+{% raw %}Learning how to document <a data-bs-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.{% endraw %}
 ```
 
 The result:
@@ -147,13 +145,13 @@ The result:
 
 {% if site.format == "web" %}
 
-<div style="margin: 20px 0px 20px 100px">Learning how to document <a data-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-bs-toggle="popover" data-placement="top" data-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.</div>
+<div style="margin: 20px 0px 20px 100px">Learning how to document <a data-bs-html="true" href="javascript://" title="{{site.data.glossary.api.term}}" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="{{site.data.glossary.api.def}} {{site.data.glossary.api.link}}">APIs</a> is essential in a tech landscape that has shifted to an information economy, with the buying and selling of information more than physical goods.</div>
 
 {% endif %}
 
-Notice that I separated out the link into its own property in [_data/glossary.yml](https://github.com/tomjoht/learnapidoc/blob/main/_data/glossary.yml). I did this to provide flexibility as to whether I wanted the link included. Including the link would be problematic if the link pointed to the same page where the popover appears. Also, since tooltips don't support links, I didn't want to always include the links there. If you're using popovers, note the following:
+Notice that I separated out the link into its own property in [_data/glossary.yml](https://github.com/tomjoht/tomjoht.github.io/blob/main/_data/glossary.yml). I did this to provide flexibility as to whether I wanted the link included. Including the link would be problematic if the link pointed to the same page where the popover appears. Also, since tooltips don't support links, I didn't want to always include the links there. If you're using popovers, note the following:
 
-* The Bootstrap popover code has an attribute required to enable html: `data-html="true"`
+* The Bootstrap popover code has an attribute required to enable HTML: `data-bs-html="true"`. (In Bootstrap 5, popover attributes use the `data-bs-` prefix, such as `data-bs-content` and `data-bs-placement`.)
 * In YAML, it's easier to code links in HTML rather than Markdown. Converting the Markdown link to HTML using the `markdownify` filter will include `<p>` tags around the content (which are problematic in popover formatting).
 * If clicking the popover link makes the page focus jump to the top, use `javascript://` instead of `#` for the link target.
 
@@ -210,7 +208,7 @@ Regardless of the format, I'm usually thrilled to see a glossary. All too often,
 ## Other glossaries
 
 * [Squiz](https://docs.squiz.net/matrix/version/latest/glossary/index.html)
-* [AWS glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+* [AWS glossary](https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html)
 * [RapidAPI](https://rapidapi.com/blog/api-glossary/)
 * [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/platform/get-started/glossary)
 

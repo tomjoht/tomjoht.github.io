@@ -137,7 +137,7 @@ https://api.openweathermap.org/data/2.5/forecast?zip=95050&appid=APIKEY&units=im
 
 (In the above code, replace `APIKEY` with your own API key.)
 
-Observe how the response contains a `list` that provides the forecast details for five days.
+Observe how the response contains a `list` that provides the forecast details for five days. The list contains 40 entries, one for every three hours.
 
 ### (Optional) Make one more OpenWeatherMap API request
 

@@ -108,7 +108,7 @@ Here's an object containing an array in JSON:
 
 ```json
 {
-"children": ["Avery","Callie","lucy","Molly"],
+"children": ["Avery","Callie","Lucy","Molly"],
 "hobbies": ["swimming","biking","drawing","horseplaying"]
 }
 ```
@@ -119,7 +119,7 @@ Here's the same object with an array in YAML:
 children:
   - Avery
   - Callie
-  - lucy
+  - Lucy
   - Molly
 hobbies:
   - swimming

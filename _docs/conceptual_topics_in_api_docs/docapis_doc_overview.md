@@ -7,7 +7,7 @@ weight: 7.1
 sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
-last-modified: 2021-09-17
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -26,7 +26,7 @@ Although a seemingly simple page, the product overview page can overlap into mar
 Too often with developer documentation, the documentation gets quickly mired in technical details without ever explaining clearly what the product is used for. It's easy for writers to lose sight of the overall purpose and business goals of the API by getting lost in the endpoints and other technical details. Unfortunately, many documentation sites never seem to explain the story of their product, thus missing out on a foundational aspect of the documentation. The product overview should let users get a good understanding of the following:
 
 - What does the product do?
-- what are some examples where you'd use it?
+- What are some examples where you'd use it?
 - Who is it for?
 - What problem does the product solve?
 - How do you get started?
@@ -41,7 +41,7 @@ Because the product overview is really one of the few places where you can tell 
 
 ## Presentation on product overviews
 
-I recently gave a presentation on [getting started tutorials](docapis_doc_getting_started_section.html) and product overviews. You can watch the presentation here:
+I gave a presentation on [getting started tutorials](docapis_doc_getting_started_section.html) and product overviews. You can watch the presentation here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Reo17LxaS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -49,9 +49,9 @@ I recently gave a presentation on [getting started tutorials](docapis_doc_gettin
 
 ## Telling your product's story
 
-To tell your product's story, consider identifying a market need that your product solves. This is the basics of storytelling &mdash; there is some conflict that a protagonist (in this case, your product) addresses and solves. In [The Top 20 Reasons Startups Fail](https://www.cbinsights.com/research/startup-failure-reasons-top/), one of the main reasons startups fail is their inability to solve a market problem. The authors explain:
+To tell your product's story, consider identifying a market need that your product solves. This is the basics of storytelling &mdash; there is some conflict that a protagonist (in this case, your product) addresses and solves. In [The Top 20 Reasons Startups Fail](https://web.archive.org/web/20200101002258/https://www.cbinsights.com/research/startup-failure-reasons-top/) (archived 2020 version), CB Insights found that one of the main reasons startups fail is their inability to solve a market problem. The report quotes a post-mortem from the startup Treehouse Logic:
 
-> Startups fail when they are not solving a market problem. We were not solving a large enough problem that we could universally serve with a scalable solution. We had great technology, great data on shopping behavior, great reputation as a thought leader, great expertise, great advisors, etc, but what we didn’t have was technology or business model that solved a pain point in a scalable way. (*CB Insights*)
+> Startups fail when they are not solving a market problem. We were not solving a large enough problem that we could universally serve with a scalable solution. We had great technology, great data on shopping behavior, great reputation as a thought leader, great expertise, great advisors, etc, but what we didn’t have was technology or business model that solved a pain point in a scalable way. (Treehouse Logic, quoted by *CB Insights*)
 
 To encapsulate this overarching story, the product overview focuses on the market problem that the product solves. If the product doesn't solve a market problem, that could be a red flag about the product itself. So the first step in the product overview is to describe the pain point your product solves.
 
@@ -171,7 +171,7 @@ Overall, README files shouldn't contain so many doc details that the information
 
 ## Good Docs project template
 
-If you're looking for more inspiration and guidance about product overviews, see the [API overview template from the Good Docs project](https://github.com/thegooddocsproject/templates/blob/master/api-overview/about-overview.md). They recommend similar sections as those I've been recommending here &mdash; establish who the docs are for, what problems the product solves, what market/industry the product is intended for, and so on. In the body of the overview, the Good Docs team recommends covering the following questions:
+If you're looking for more inspiration and guidance about product overviews, see the [API overview template from the Good Docs project](https://github.com/thegooddocsproject/templates/blob/master/api-overview/about-overview.md). (This GitHub repository is now archived. The project's current templates are on [GitLab](https://gitlab.com/tgdp/templates).) They recommend similar sections as those I've been recommending here &mdash; establish who the docs are for, what problems the product solves, what market/industry the product is intended for, and so on. In the body of the overview, the Good Docs team recommends covering the following questions:
 
 > * What is it supposed to do? (What problem does it solve, and for whom?)
 > * What exact capabilities are available to the user? What services does it offer?
@@ -210,9 +210,9 @@ Here are a few sample product overviews.
 
 ### IBM Watson Assistant
 
-<figure><a target="_blank" class="noExtIcon" href="https://cloud.ibm.com/docs/services/assistant?topic=assistant-index#index"><img class="docimage" src="{{site.api_media}}/ibmcloudoverview.png" alt="IBM Watson Assistant overview" /></a><figcaption>IBM Watson Assistant overview</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://cloud.ibm.com/docs/watson-assistant"><img class="docimage" src="{{site.api_media}}/ibmcloudoverview.png" alt="IBM Watson Assistant overview" /></a><figcaption>IBM Watson Assistant overview</figcaption></figure>
 
-IBM Watson Assistant starts off with a brief summary of the service, followed by a high-level diagram of the system and a summary about how to implement it. Including a diagram of your API gives users a good grounding about what to expect, such as the level of complexity and time it will take to incorporate the API.
+IBM Watson Assistant (since renamed watsonx Assistant) starts off with a brief summary of the service, followed by a high-level diagram of the system and a summary about how to implement it. Including a diagram of your API gives users a good grounding about what to expect, such as the level of complexity and time it will take to incorporate the API.
 
 ### Video Skills Kit for Fire TV
 
@@ -264,7 +264,7 @@ Yet in so many cases, when I start reading through documentation for a product, 
 
 Perhaps the main reason that product overviews fail is because the reader (for example, a tech writer reading a product overview about some API for developers) isn't the intended audience for the product. As such, the overview might fail for that particular reader but actually be fine for the intended audience. This mismatch of actual reader versus intended reader makes it difficult to make judgments about product overviews.
 
-As an example, take a look at some of the product overviews in [Microsoft's Azure docs](https://learn.microsoft.com/en-us/azure/?product=all), which look exemplary to me. You could use any product as an example, but let's start with the first product, the [Anomaly Detector](https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/). The starting topic is [What is the Anomaly Detector API?](https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/overview). (In fact, all docs seem to start out with "What is ... [product]?" This frequent pattern creates a nice sense of predictability to the various doc sets in their portal.) The first two paragraphs start as follows:
+As an example, take a look at some of the product overviews in [Microsoft's Azure docs](https://learn.microsoft.com/en-us/azure/?product=all), which look exemplary to me. You could use any product as an example, but let's start with what was then the first product, the [Anomaly Detector](https://learn.microsoft.com/en-us/previous-versions/azure/ai-services/anomaly-detector/). (Microsoft retired the Anomaly Detector service on October 1, 2026, but its docs remain available in Microsoft's previous-versions archive.) The starting topic is [What is the Anomaly Detector API?](https://learn.microsoft.com/en-us/previous-versions/azure/ai-services/anomaly-detector/overview). (In fact, all docs seem to start out with "What is ... [product]?" This frequent pattern creates a nice sense of predictability to the various doc sets in their portal.) The first two paragraphs start as follows:
 
 > The Anomaly Detector API enables you to monitor and detect abnormalities in your time series data without having to know machine learning. The Anomaly Detector API's algorithms adapt by automatically identifying and applying the best-fitting models to your data, regardless of industry, scenario, or data volume. Using your time series data, the API determines boundaries for anomaly detection, expected values, and which data points are anomalies.
 >
@@ -367,9 +367,9 @@ Another reason for lack of product overviews, even when outsiders like tech writ
 
 As a result, docs are usually problem-oriented, focused on what users want to do and achieve. Conceptual docs are often seen as a sideshow to the task-oriented docs. This idea is so pervasive, it hardly needs explaining. The hallmark of good technical docs, most tech writers believe, is a list of numbered steps that takes users through a complex task.
 
-This more action-oriented, experiential approach to learning has its roots in a movement called "minimalism" that John Carroll, author of the [*Nurnberg Funnel*](https://www.amazon.com/The-Nurnberg-Funnel-Instruction-Communication/dp/0262031639,) identified in the 1980s. Describing John Carroll's minimalism approach, scholars David Farkas and Thomas Williams write:
+This more action-oriented, experiential approach to learning has its roots in a movement called "minimalism" that John Carroll, author of the [*Nurnberg Funnel*](https://www.amazon.com/The-Nurnberg-Funnel-Instruction-Communication/dp/0262031639) identified in the 1980s. Describing John Carroll's minimalism approach, scholars David Farkas and Thomas Williams write:
 
-> The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done; they want to exercise their problem-solving abilities; and they are apt to utterly reject or diverge from highly constraining instruction such as tutorials. Training material, therefore, must not impede the natural impulses of computer users, as systems approach documentation does. It should be as brief as possible, support the accomplishment of real work, help leaners recognize and recover from errors, and, when possible, permit non-sequential reading. Such documentation cannot be generated mechanically from a theory of instruction but requires careful attention to the needs and behavior of the intended users of the software and reiterative testing of the design. (See [John Carroll's *The Nurnberg Funnel* and Minimalist Documentation](https://web.archive.org/web/20210918202852/https://www.hcde.washington.edu/files/people/docs/farkaswilliamsonnurnbergfunnel.pdf). *IEEE Transactions on Professional Communication*, Vol. 33, Nov. 4, Dec 1990.)
+> The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done; they want to exercise their problem-solving abilities; and they are apt to utterly reject or diverge from highly constraining instruction such as tutorials. Training material, therefore, must not impede the natural impulses of computer users, as systems approach documentation does. It should be as brief as possible, support the accomplishment of real work, help learners recognize and recover from errors, and, when possible, permit non-sequential reading. Such documentation cannot be generated mechanically from a theory of instruction but requires careful attention to the needs and behavior of the intended users of the software and reiterative testing of the design. (See [John Carroll's *The Nurnberg Funnel* and Minimalist Documentation](https://web.archive.org/web/20210918202852/https://www.hcde.washington.edu/files/people/docs/farkaswilliamsonnurnbergfunnel.pdf). *IEEE Transactions on Professional Communication*, Vol. 33, Nov. 4, Dec 1990.)
 
 If people are always anxious to do tasks, not read conceptual overviews, then why spend time on these conceptual overviews? What purpose do they solve when users just want a list of steps for the task they're trying to perform? With this mindset, the product overview gets shortchanged.
 
@@ -377,7 +377,7 @@ Don't get me wrong &mdash; I support task-oriented docs and agree that it's gene
 
 But task-oriented docs often swing too far toward tasks, resulting in minimal or anemic overview information. When that happens, you often end up confusing users with various tasks and no higher-level content that helps their decision-making about which tasks to follow and why.
 
-In [research about how developers use APIs](docapiscode_research_on_documenting_code.html), researchers have identified "opportunistic behaviors" (try-first), "systematic behaviors" (read-first), and hybrids of the two. When users are observed, there's much hybrid behavior than solely opportunistic or systematic. Just because you might be an opportunistic user, it doesn’t mean you always skip conceptual explanations &mdash; it's just that you might not start with concepts. A hybrid reader might start with code, trying it out on their own, and circle back to the introductory conceptual information when the code doesn’t work as expected.
+In [research about how developers use APIs](docapiscode_research_on_documenting_code.html), researchers have identified "opportunistic behaviors" (try-first), "systematic behaviors" (read-first), and hybrids of the two. When users are observed, there's more hybrid behavior than solely opportunistic or systematic. Just because you might be an opportunistic user, it doesn’t mean you always skip conceptual explanations &mdash; it's just that you might not start with concepts. A hybrid reader might start with code, trying it out on their own, and circle back to the introductory conceptual information when the code doesn’t work as expected.
 
 Deciding to cater to one type of behavior at the expense of the other might not be practical, since the learning behaviors and approaches seem to be in constant flux.
 

@@ -7,7 +7,7 @@ weight: 7.91
 sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
-last-modified: 2019-03-30
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -19,11 +19,11 @@ API best practices can refer to any general advice your product team wants to co
 
 ## What topics to include in best practices
 
-Although many of the topics in API documentation are standard, there will usually be a laundry list of things to know about working with the API. You can only probably get this information by asking the developers.
+Although many of the topics in API documentation are standard, there will usually be a laundry list of things to know about working with the API. You can probably only get this information by asking the developers.
 
 {% include random_ad3.html %}
 
-The list of topics might include topics such as the following: pagination, time ranges, fault tolerance, cache values, connectivity, timeouts, downtime, SSL, versions, testing and validation, exports, languages, number handling, expanding resources, notifications, CORS, localization, and more.
+The list of topics might include topics such as the following: pagination, time ranges, fault tolerance, retries and backoff, idempotency keys, cache values, connectivity, timeouts, downtime, SSL, versions, testing and validation, exports, languages, number handling, expanding resources, notifications and webhooks, CORS, localization, and more.
 
 <figure><img class="docimage medium border" src="{{site.api_media}}/nonref_bestpractices.svg" alt="Best practices" /><figcaption>Best practices cover a range of topics usually unique to your API</figcaption></figure>
 
@@ -35,21 +35,21 @@ The following are API best practices from several API documentation sites.
 
 ### Mailchimp
 
-<figure><a target="_blank" class="noExtIcon" href="http://developer.mailchimp.com/documentation/mailchimp/guides/mailchimp-api-best-practices/"><img class="docimage" src="{{site.api_media}}/bestpractices_mailchimp.png" alt="Mailchimp API best practices" /></a><figcaption>Mailchimp best practices</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20190819073516/https://developer.mailchimp.com/documentation/mailchimp/guides/mailchimp-api-best-practices/"><img class="docimage" src="{{site.api_media}}/bestpractices_mailchimp.png" alt="Mailchimp API best practices" /></a><figcaption>Mailchimp best practices</figcaption></figure>
 
-Mailchimp's API best practices include tips about fault tolerance, using specific requests, authentication, cache values, connectivity, and registration. With fault tolerance, Mailchimp reminds developers that outages sometimes happen, so they should plan to handle scenarios accordingly if the API doesn't respond. With specific requests, Mailchimp warns users about the time it can take if the request is too general and hence returns too much information.
+Mailchimp's API best practices (in an earlier version of their docs) included tips about fault tolerance, using specific requests, authentication, cache values, connectivity, and registration. With fault tolerance, Mailchimp reminds developers that outages sometimes happen, so they should plan to handle scenarios accordingly if the API doesn't respond. With specific requests, Mailchimp warns users about the time it can take if the request is too general and hence returns too much information.
 
 {% include ads.html %}
 
 ### Coinbase
 
-<figure><a target="_blank" class="noExtIcon" href="https://docs.cdp.coinbase.com/"><img class="docimage" src="{{site.api_media}}/bestpractices_coinbase.png" alt="Coinbase best practices" /></a><figcaption>Mailchimp best practices</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://docs.cdp.coinbase.com/"><img class="docimage" src="{{site.api_media}}/bestpractices_coinbase.png" alt="Coinbase best practices" /></a><figcaption>Coinbase best practices</figcaption></figure>
 
 Coinbase doesn't specifically refer to these topics as best practices; instead, the navigation shows a laundry list of topics. Pagination is one of these topics worth expanding on here. How does pagination relate to APIs? Suppose your API endpoint returns all items in a user account. There could be thousands of items, and if all items were returned in the same response, it might take a long time for the API to gather and return the large amount of data. As a result, just like with searches on Google, the response returns a limited set, such as the first ten items, and then includes a URL that you can use to go to the next set of responses. Pagination refers to advancing to the next page of responses.
 
 {% include image_ad_right.html %}
 
-Earlier, when defining the characteristics of REST, I mentioned [HATEOS](docapis_what_is_a_rest_api.html#stateless_and_cacheable), or "Hypermedia as the Engine of Application State." Links in responses that return more results is one example of HATEOS.
+Earlier, when defining the characteristics of REST, I mentioned [HATEOAS](docapis_what_is_a_rest_api.html#stateless_and_cacheable), or "Hypermedia as the Engine of Application State." Links in responses that return more results are one example of HATEOAS.
 
 {% include random_ad4.html %}
 

@@ -9,7 +9,7 @@ weight: 2.9
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2020-05-10
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -23,12 +23,13 @@ Seeing the response from curl or Postman is cool, but how do you make use of the
 
 For this activity, you'll use JavaScript to display the API response on a web page. Specifically, you'll use some auto-generated jQuery code from Postman to create the AJAX request. You'll get the wind speed from the response and print it to the page.
 
-1.  In an editor such as Sublime Text, create a new HTML file called `weather.html` and insert the following boilerplate code:
+1.  In an editor such as Visual Studio Code, create a new HTML file called `weather.html` and insert the following boilerplate code:
 
     ```html
+    <!DOCTYPE html>
     <html>
-       <meta charset="UTF-8">
        <head>
+          <meta charset="UTF-8">
           <title>Sample page</title>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
           <script>
@@ -42,7 +43,7 @@ For this activity, you'll use JavaScript to display the API response on a web pa
     ```
 
 2.  Assuming you completed the exercises in the [Postman tutorial](docapis_postman.html) to configure a request, go back into Postman.
-3.  In Postman, click the **Code** link (below the Save button) and go to **JavaScript - jQuery**:
+3.  In Postman, click **Code** (the <code>&lt;/&gt;</code> icon) in the right sidebar and select **JavaScript - jQuery**:
 
     <figure><img class="docimage medium" src="{{site.api_media}}/postman_javascript_ajax.png" alt="Copying JavaScript code from Postman" /><figcaption>Copying JavaScript code from Postman</figcaption></figure>
 
@@ -57,9 +58,10 @@ For this activity, you'll use JavaScript to display the API response on a web pa
 6.  Your final code should look as follows:
 
     ```html
+    <!DOCTYPE html>
     <html>
-       <meta charset="UTF-8">
        <head>
+          <meta charset="UTF-8">
           <title>Sample page</title>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
           <script>
@@ -86,7 +88,7 @@ For this activity, you'll use JavaScript to display the API response on a web pa
 
     (In the above code, replace `APIKEY` with your actual API key.)
 
-    What is this code doing? In a nutshell, when `ajax` (a jQuery function) retrieves the response from the API, it assigns the response to `response`. A variable called `content` is created and set it equal to `response.wind.speed` ([dot notation](docapis_diving_into_dot_notation.html) is used to access this value). jQuery's `append` method inserts `content` after an element called `#windSpeed`on the page. (I realize this is an extremely abbreviated explanation, but explaining JavaScript is beyond the scope of this course. In general, you can learn more by reading about the [jQuery.ajax()](https://api.jquery.com/jquery.ajax/) function.)
+    What is this code doing? In a nutshell, when `ajax` (a jQuery function) retrieves the response from the API, it assigns the response to `response`. A variable called `content` is created and set equal to `response.wind.speed` ([dot notation](docapis_diving_into_dot_notation.html) is used to access this value). jQuery's `append` method inserts `content` at the end of the element with the ID `windSpeed` on the page. (I realize this is an extremely abbreviated explanation, but explaining JavaScript is beyond the scope of this course. In general, you can learn more by reading about the [jQuery.ajax()](https://api.jquery.com/jquery.ajax/) function.)
 
 7.  Start **Chrome** and open the JavaScript Console.
 
@@ -140,7 +142,7 @@ var settings = {
 
 {% include image_ad_right.html %}
 
-Each of the allowed key-value pairs is defined in [jQuery's ajax documentation](http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
+Each of the allowed key-value pairs is defined in [jQuery's ajax documentation](https://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
 
 Some important values are the `url`, which is the URI or endpoint you are submitting the request to. Another value is `headers`, which allows you to include custom headers in the request.
 
@@ -174,7 +176,7 @@ The line of code that logged the response to the console was simply this:
 console.log(response);
 ```
 
-Logging responses to the console can be a useful way to test whether an API response is working (it's also helpful for debugging or troubleshooting your code). The console collapses each object inside an expandable section. You can inspect the payload in the console to see if contains the values you expect (without printing values to the page).
+Logging responses to the console can be a useful way to test whether an API response is working (it's also helpful for debugging or troubleshooting your code). The console collapses each object inside an expandable section. You can inspect the payload in the console to see if it contains the values you expect (without printing values to the page).
 
 {% include ads.html %}
 
@@ -192,7 +194,7 @@ Customizing log messages is helpful if you're logging various outputs to the con
 
 ## <i class="fa fa-user-circle"></i> Inspect the payload
 
-Inspect the payload by expanding each of the sections [returned in the JSON console object](https://idratherbewriting.com/assets/files/weather-plain.html). Based on the information here, what's the forecast for today?
+Inspect the payload by expanding each of the sections [returned in the JSON console object](https://idratherbewriting.com/assets/files/weather-plain.html). Based on the information here, what are the current weather conditions?
 
 {: .note}
 I realize the page is blank and unexciting. In the next section, [Access and print a specific JSON value](docapis_access_json_values.html), we'll pull out some values and print them to the page.

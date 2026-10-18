@@ -7,7 +7,7 @@ weight: 7.2
 sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -25,7 +25,7 @@ The Getting Started tutorial is somewhat like the typical Hello World tutorial i
 
 <figure><img class="docimage medium" src="{{site.api_media}}/timetohelloworld.svg" alt="Getting started tutorials are like Hello World tutorials." /><figcaption>Think of getting started tutorials as a kind of Hello World tutorial with the API. How long would it take for a developer to get the simplest possible response using your API?</figcaption></figure>
 
-Both hello-world tutorials and getting-started tutorials share the same goal: to show a user how to use a framework, API, or some other system to get the simplest and easiest result, so they get a end-to-end sense of how it works.
+Both hello-world tutorials and getting-started tutorials share the same goal: to show a user how to use a framework, API, or some other system to get the simplest and easiest result, so they get an end-to-end sense of how it works.
 
 {% include random_ad4.html %}
 
@@ -46,7 +46,7 @@ Put a link to your Getting Started tutorial on your documentation homepage. Make
 
 ## Presentation on getting started tutorials
 
-I recently gave a presentation on [product overviews](docapis_doc_overview.html) and getting started tutorials. You can watch the presentation here:
+I gave a presentation on [product overviews](docapis_doc_overview.html) and getting started tutorials. You can watch the presentation here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Reo17LxaS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -62,7 +62,7 @@ While user learning types can fall all along this spectrum, from "systematic" (r
 
 The more action-oriented, experiential approach to learning has its roots in a movement called "minimalism" that John Carroll identified long ago. Describing John Carroll's minimalism approach, David Farkas and Thomas Williams write:
 
-> The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done; they want to exercise their problem-solving abilities; and they are apt to utterly reject or diverge from highly constraining instruction such as tutorials. Training material, therefore, must not impede the natural impulses of computer users, as systems approach documentation does. It should be as brief as possible, support the accomplishment of real work, help leaners recognize and recover from errors, and, when possible, permit non-sequential reading. Such documentation cannot be generated mechanically from a theory of instruction but requires careful attention to the needs and behavior of the intended users of the software and reiterative testing of the design. (See [John Carroll's *The Nurnberg Funnel* and Minimalist Documentation](https://web.archive.org/web/20210918202852/https://www.hcde.washington.edu/files/people/docs/farkaswilliamsonnurnbergfunnel.pdf). *IEEE Transactions on Professional Communication*, Vol. 33, Nov. 4, Dec 1990.)
+> The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done; they want to exercise their problem-solving abilities; and they are apt to utterly reject or diverge from highly constraining instruction such as tutorials. Training material, therefore, must not impede the natural impulses of computer users, as systems approach documentation does. It should be as brief as possible, support the accomplishment of real work, help learners recognize and recover from errors, and, when possible, permit non-sequential reading. Such documentation cannot be generated mechanically from a theory of instruction but requires careful attention to the needs and behavior of the intended users of the software and reiterative testing of the design. (See [John Carroll's *The Nurnberg Funnel* and Minimalist Documentation](https://web.archive.org/web/20210918202852/https://www.hcde.washington.edu/files/people/docs/farkaswilliamsonnurnbergfunnel.pdf). *IEEE Transactions on Professional Communication*, Vol. 33, No. 4, Dec 1990.)
 
 In other words, minimize the amount of explanatory text that you require readers to wade through before getting to a more hands-on activity. Instead of constructing long walls of text, provide activities that get users interacting with the system in a direct way, learning as they go. Integrate some of your instruction within the tutorial. Make the learning action-oriented.
 
@@ -106,13 +106,13 @@ Expand the collection to view the endpoints, and click **Send**. You'll see the 
 
 Now change the `zip` code parameter to your own zip code and click **Send** again. In the response, look for `temp` and see if it matches the weather outside your home right now.
 
-You can see the many [demos of Run in Postman here](https://learning.postman.com/docs/collections/running-collections/intro-to-collection-runs/). Many of these demos are listed in [Postman's API Network](https://www.getpostman.com/api-network/).
+Many companies publish their collections in [Postman's API Network](https://www.postman.com/explore), where you can fork them into your own workspace.
 
-<figure><a target="_blank" class="noExtIcon" href="https://www.getpostman.com/api-network/"><img class="docimage" src="{{site.api_media}}/postmanapinetwork.png" alt="Postman API network" /></a><figcaption>Postman API network</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://www.postman.com/explore"><img class="docimage" src="{{site.api_media}}/postmanapinetwork.png" alt="Postman API network" /></a><figcaption>Postman API network</figcaption></figure>
 
 For details on how to share your Postman collections like this, see [Creating Run in Postman buttons](https://learning.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) in the Postman documentation. To try out Run in Postman, you can either [import an OpenAPI spec into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) or enter your API information manually.
 
-What's especially good about Postman is that it allows users to customize the API key and parameters and save those values. You can also safely share an API key. Although Postman doesn't provide same direct, in-documentation experience as [Swagger UI](pubapis_swagger_demo.html), in many ways the Postman client is more useful because it lets users configure and save the calls they make. They can easily save many different variations of the same endpoint, with different configurations. Postman is what internal developers often use to save and store API calls as they test and explore the functionality.
+What's especially good about Postman is that it allows users to customize the API key and parameters and save those values. Users can store their API key in a variable rather than pasting it into each request. Although Postman doesn't provide the same direct, in-documentation experience as [Swagger UI](pubapis_swagger_demo.html), in many ways the Postman client is more useful because it lets users configure and save the calls they make. They can easily save many different variations of the same endpoint, with different configurations. Postman is what internal developers often use to save and store API calls as they test and explore the functionality.
 
 {% include random_ad2.html %}
 
@@ -130,9 +130,9 @@ Here are a few sample Getting Started topics in APIs. If you compare the various
 
 ### SendGrid
 
-<figure><a target="_blank" class="noExtIcon" href="https://docs.sendgrid.com/for-developers/sending-email/api-getting-started"><img class="docimage" src="{{site.api_media}}/sendgrid_getting_started_tutorial.png" alt="SendGrid getting started tutorial" /></a><figcaption>SendGrid getting started tutorial</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://www.twilio.com/docs/sendgrid/for-developers/sending-email/api-getting-started"><img class="docimage" src="{{site.api_media}}/sendgrid_getting_started_tutorial.png" alt="SendGrid getting started tutorial" /></a><figcaption>SendGrid getting started tutorial</figcaption></figure>
 
-This getting started tutorial from SendGrid is one of my favorites and one that I've had workshop participants try to complete in about 10 minutes. Interestingly, although it seems rather simple, only few participants could successfully send the email.
+This getting started tutorial from SendGrid is one of my favorites and one that I've had workshop participants try to complete in about 10 minutes. Interestingly, although it seems rather simple, only a few participants could successfully send the email. (Note that SendGrid retired its free plan in May 2025, so you now need to sign up for a free trial to try the tutorial.)
 
 ### Paypal
 
@@ -142,33 +142,33 @@ Paypal's getting started tutorial contains quite a bit of detail, starting with 
 
 ### Twitter
 
-<figure><a target="_blank" class="noExtIcon" href="https://developer.twitter.com/en/docs/basics/getting-started"><img class="docimage" src="{{site.api_media}}/twittergettingstarted.png" alt="Paypal getting started tutorial" /></a><figcaption>Twitter getting started</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20210203235939/https://developer.twitter.com/en/docs/getting-started"><img class="docimage" src="{{site.api_media}}/twittergettingstarted.png" alt="Twitter getting started" /></a><figcaption>Twitter getting started</figcaption></figure>
 
-Twitter's getting started page has several getting started sections for different development goals. The text is concise and easy to follow. The tutorial links frequently to other documentation for more details. In the need for brevity, you might need to follow this same strategy &mdash; being brief and linking out to other pages that have more detail.
+Twitter's getting started page (shown here from an archived copy of their older docs) has several getting started sections for different development goals. The text is concise and easy to follow. The tutorial links frequently to other documentation for more details. In the need for brevity, you might need to follow this same strategy &mdash; being brief and linking out to other pages that have more detail.
 
 ### Parse Server
 
-<figure><a target="_blank" class="noExtIcon" href="http://docs.parseplatform.org/parse-server/guide/#getting-started"><img class="docimage" src="{{site.api_media}}/parseservergettingstarted.png" alt="Parse Server getting started" /></a><figcaption>Parse Server getting started</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://docs.parseplatform.org/parse-server/guide/#getting-started"><img class="docimage" src="{{site.api_media}}/parseservergettingstarted.png" alt="Parse Server getting started" /></a><figcaption>Parse Server getting started</figcaption></figure>
 
 The Parse Server tutorial provides a fair amount of detail and handholding through the various steps. For the more detailed steps on connecting your app and running the server elsewhere, the tutorial links out to more information.
 
 ### Adsense
 
-<figure><a target="_blank" class="noExtIcon" href="https://developers.google.com/adsense/management/getting_started"><img class="docimage" src="{{site.api_media}}/adsensegettingstarted.png" alt="Parse Server getting started" /></a><figcaption>Adsense getting started</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://developers.google.com/adsense/management/getting_started"><img class="docimage" src="{{site.api_media}}/adsensegettingstarted.png" alt="Adsense getting started" /></a><figcaption>Adsense getting started</figcaption></figure>
 
 The Adsense tutorial separates out some foundational prerequisites for getting started on the platform. After you get set up, it then provides a "quick start tutorial." The tutorial walks users through a simple scenario from end to end, helping them get a sense of the product and its capabilities.
 
 ### Xweather
 
-<figure><a target="_blank" class="noExtIcon" href="http://www.xweather.com/docs/weather-api/getting-started/"><img class="docimage" src="{{site.api_media}}/xweathergettingstarted.png" alt="Xweather getting started tutorial" /></a><figcaption>Xweather getting started tutorial</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://www.xweather.com/docs/weather-api/getting-started"><img class="docimage" src="{{site.api_media}}/xweathergettingstarted.png" alt="Xweather getting started tutorial" /></a><figcaption>Xweather getting started tutorial</figcaption></figure>
 
 The Xweather getting started provides information for setting up an application and then making a request in one of several popular languages. While showing code in specific languages is undoubtedly more helpful for programmers coding in those languages, the code samples might be irrelevant to other users (e.g., Java devs might find the Python code irrelevant and vice versa). Focusing in a specific language is often a tradeoff.
 
 ### Watson and IBM Cloud
 
-<figure><a target="_blank" class="noExtIcon" href="https://console.bluemix.net/docs/services/watson/index.html#about"><img class="docimage" src="{{site.api_media}}/watsongettingstarted.png" alt="Watson and IBM Cloud getting started tutorial" /></a><figcaption>Watson and IBM Cloud getting started tutorial</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20190403083445/https://console.bluemix.net/docs/services/watson/index.html"><img class="docimage" src="{{site.api_media}}/watsongettingstarted.png" alt="Watson and IBM Cloud getting started tutorial" /></a><figcaption>Watson and IBM Cloud getting started tutorial</figcaption></figure>
 
-The Watson and IBM Cloud getting started tutorial lists three steps. It's not an end-to-end getting started tutorial, though. It just gets the user started in selecting a service for your project. At the end, you start to code using the Watson Dashboard. Ideally, a getting started tutorial should help a user see some tangible output, but whether that's possible or not depends on your API.
+The Watson and IBM Cloud getting started tutorial (shown here from an archived copy) lists three steps. It's not an end-to-end getting started tutorial, though. It just gets the user started in selecting a service for your project. At the end, you start to code using the Watson Dashboard. Ideally, a getting started tutorial should help a user see some tangible output, but whether that's possible or not depends on your API.
 
 {% include ads.html %}
 
@@ -176,18 +176,16 @@ The Watson and IBM Cloud getting started tutorial lists three steps. It's not an
 
 For other inspiration with getting started tutorials, explore the links below. Most of these samples come from the [Pronovix Dev Portal awards](https://devportalawards.org/) in the [Best Onboarding category](https://devportalawards.org/categories/developer-experience/best-onboarding). Pronovix lists the [nominees here](https://devportalawards.org/nominees?filter=8&filtertext=Best-Onboarding).
 
-* [Onfido: Getting started integrating](https://developers.onfido.com/guide/get-started-integrating)
+* [Onfido: Getting started integrating](https://web.archive.org/web/20230324103632/https://developers.onfido.com/guide/get-started-integrating/) (archived; Onfido is now part of Entrust)
 * [Deutsche Bank: Getting Started Guide](https://developer.db.com/apidocumentation/apigettingstartedguide/introduction)
 * [Yolt Technology Services: Getting started](https://web.archive.org/web/20211025194542/https://developer.yolt.com/docs/getting-started)
 * [PlatformOS: Get Started](https://documentation.platformos.com/get-started)
-* [Getting Started with Hazelcast Cloud](https://docs.hazelcast.com/cloud/getting-started)
+* [Getting Started with Hazelcast Cloud](https://docs.hazelcast.com/cloud/get-started)
 * [Seon: Getting started](https://docs.seon.io/getting-started)
 * [Fedex: Getting started](https://developer.fedex.com/api/en-us/get-started.html)
-* [Vonage Developer: Getting Started](https://developer.nexmo.com/getting-started/overview)
-* [Shopify: Getting started building payments apps](https://shopify.dev/apps/payments/getting-started)
-* [Amadeus: Self-Service APIs](https://developers.amadeus.com/get-started/get-started-with-self-service-apis-335)
+* [Vonage Developer: Getting Started](https://developer.vonage.com/en/getting-started/overview)
+* [Shopify: Building payments apps](https://shopify.dev/docs/apps/build/payments)
 * [Tapix](https://developers.tapix.io/sandbox/findByCardTransaction/All)
-* [Thingworx: Getting Started](https://developer.thingworx.com/en/resources/getting-started)
 * [Codat: Getting Started](https://docs.codat.io/)
 
 ## Summary of best practices for getting started tutorials
@@ -199,7 +197,7 @@ As a recap, include following characteristics in your getting started tutorial:
 *  Take a user from beginning to end through the tutorial, including registration, authorization, making a call with the API, inspecting the result, and more. As much as possible, the tutorial shouldn't just link out to longer docs but rather provide a compressed and condensed path with the product.
 *  Make sure the tutorial actually works and provides the advertised result, with as high of a success rate as possible.
 *  During the tutorial, take the opportunity to teach users about concepts, linking out to other parts of the docs. Include teaching moments and asides, assuming that the user is in a learning mode.
-*  Include a troubleshooting section that covers common issues users might see (e.g., 403 authorization errors).
+*  Include a troubleshooting section that covers common issues users might see (e.g., 401 or 403 authorization errors).
 
 ## <i class="fa fa-user-circle"></i> Activity with getting started tutorials
 
@@ -253,7 +251,7 @@ Being brief at the expense of creating a short tutorial might lead to a confusin
 The ability to reduce and distill information down to short, crisp summaries for a getting started tutorial is a higher-level writing skill. It also requires more effort and subject mastery. For more information on distilling information, see [Principle 4: Reduce and distill vast information down to its essence](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html).
 
 {: .takeaway}
-In places where you choose to be succinct and omit detail, link out to your regular docs for more information. In these cases, consider the approach to be a progressive information disclosure strategy. If a user needs more information, he or she can click the link and get it. But if not, the concise version suffices.
+In places where you choose to be succinct and omit detail, link out to your regular docs for more information. In these cases, consider the approach to be a progressive information disclosure strategy. If users need more information, they can click the link and get it. But if not, the concise version suffices.
 
 ### Cause 5: The tech might be too complicated for tech writers to walk through themselves  {#cause5}
 
@@ -261,14 +259,14 @@ Another reason why getting started tutorials might be absent from docs is becaus
 
 For example, suppose the integration assumes access to a vehicle's hardware abstraction layer, as well as knowledge about the way this layer connects to the vehicle's custom infotainment system in the head unit. In this case, the system environment might be too complex to wrangle into a simple getting started tutorial. It can be hard to walk through all of these same tasks in an end-to-end way.
 
-Or putting it more optimistically, the tasks might be within the tech writers reach at *some* point, but not immediately. The tech writer might need more time to set up environments and walk through all of the tasks &mdash; time that's not available at present.
+Or putting it more optimistically, the tasks might be within the tech writer's reach at *some* point, but not immediately. The tech writer might need more time to set up environments and walk through all of the tasks &mdash; time that's not available at present.
 
 {: .takeaway}
 Consider asking an engineer to write the getting started tutorial. If you can't follow it, this could form the basis of homework or other learning that you chip away at little by little in your path of continual learning.
 
 ### Cause 6: The content isn't tested against real users  {#cause6}
 
-Another reason for poor getting started tutorials is that they are rarely tested against actual users. (This could explain why a lot of documentation is poor, not just getting started tutorials.) During one of my API workshops, I had participants go through this [5 minute Sendgrid tutorial](https://docs.sendgrid.com/for-developers/sending-email/api-getting-started). Out of about 20 workshop participants, only 1 managed to do the tutorial successfully. It seemed simple on the surface, but in practice, users got hung up many details. (Granted, this was a room full of tech writers, not engineers, but still.)
+Another reason for poor getting started tutorials is that they are rarely tested against actual users. (This could explain why a lot of documentation is poor, not just getting started tutorials.) During one of my API workshops, I had participants go through this [5 minute Sendgrid tutorial](https://www.twilio.com/docs/sendgrid/for-developers/sending-email/api-getting-started). Out of about 20 workshop participants, only 1 managed to do the tutorial successfully. It seemed simple on the surface, but in practice, users got hung up many details. (Granted, this was a room full of tech writers, not engineers, but still.)
 
 Testing docs against users isn't usually something tech writers do, though most admit it would be a good idea. User testing usually comes in the form of feedback to product teams, support cases, or through training sessions where users provide feedback in real-time.
 

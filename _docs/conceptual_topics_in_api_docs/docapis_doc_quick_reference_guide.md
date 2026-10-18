@@ -7,7 +7,7 @@ weight: 7.8
 sidebar: docapis
 section: docconceptual
 path1: learnapidoc/docconceptual.html
-last-modified: 2019-03-30
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -51,9 +51,9 @@ For a deep dive into the importance of distilling information for users, see [Re
 
 Distilling large amounts of information into concisely worded titles, summaries, headings, mini-TOCs, and topic sentences can facilitate information consumption and comprehension. Quick reference guides take the principle of distillation to another level by compressing the whole system into a bite-sized information deliverable.
 
-Quick reference guides are like the [poetry of technical writing](https://idratherbewriting.com08/07/06/quick-reference-guides-the-poetry-of-technical-writing/). The goal is not just to be brief or concise. With poetry, the poet attempts to evoke a mood or paint a moment, and in that brief moment, capture the essence of the whole. Writing a quick reference guide involves much the same effort. It's not that you merely cut words to make the documentation shorter, or restrict the output to a few topics, but that you try to compress the documentation as a whole and express its minimalist equivalent.
+Quick reference guides are like the [poetry of technical writing](https://idratherbewriting.com/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/). The goal is not just to be brief or concise. With poetry, the poet attempts to evoke a mood or paint a moment, and in that brief moment, capture the essence of the whole. Writing a quick reference guide involves much the same effort. It's not that you merely cut words to make the documentation shorter, or restrict the output to a few topics, but that you try to compress the documentation as a whole and express its minimalist equivalent.
 
-I'll grant that the task is probably impossible for technical material. Still, the attempt is worthwhile and the philosophy remains the same. Quick reference guides teach each us how to use the system in 5 minutes rather than 5 hours. It's a philosophy of simplification and linguistic efficiency.
+I'll grant that the task is probably impossible for technical material. Still, the attempt is worthwhile and the philosophy remains the same. Quick reference guides teach us how to use the system in 5 minutes rather than 5 hours. It's a philosophy of simplification and linguistic efficiency.
 
 {% include random_ad2.html %}
 
@@ -73,23 +73,23 @@ There's a certain understanding you get from seeing all the endpoints at a glanc
 
 ### Parse
 
-<figure><a target="_blank" class="noExtIcon" href="http://docs.parseplatform.org/rest/guide/#quick-reference"><img class="docimage" src="{{site.api_media}}/parsequickreferenceguide.png" alt="Parse platform quick reference guide" /></a><figcaption>Parse quick reference guide</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://docs.parseplatform.org/rest/guide/#quick-reference"><img class="docimage" src="{{site.api_media}}/parsequickreferenceguide.png" alt="Parse platform quick reference guide" /></a><figcaption>Parse quick reference guide</figcaption></figure>
 
 The quick reference for Parse is similar to Eventful in that it's a long list of endpoints, this time grouped in tables. Notice that this quick reference page is just a section within one long, single page of docs. In their approach, all documentation is on the same page, but as you scroll down, different entries in the sidebar highlight.
 
 Sometimes developers like the one-page approach because it reduces information fragmentation and lets them use Ctrl+F to find all instances of a keyword. I explored the tradeoffs in this one-page approach in [Single-page docs versus "Click Insanity."](https://idratherbewriting.com/2014/01/12/single-page-docs-versus-click-insanity/)
 
-If you use the [OpenAPI reference docs on GitHub](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md), you'll notice the docs are also contained on a single page. Developers might like to use Ctrl+F to quickly see all instances of a topic. However, I'm not a fan of single-page documentation like this because it provides a lot of visual complexity for users to sort out.
+If you use the [OpenAPI specification docs](https://spec.openapis.org/oas/latest.html), you'll notice the docs are also contained on a single page. Developers might like to use Ctrl+F to quickly see all instances of a topic. However, I'm not a fan of single-page documentation like this because it provides a lot of visual complexity for users to sort out.
 
 ### Shopify
 
 <figure><a target="_blank" class="noExtIcon" href="http://cheat.markdunkley.com/"><img class="docimage" src="{{site.api_media}}/shopifyquickreferenceguide.png" alt="Shopify quick reference guide" /></a><figcaption>Shopify quick reference guide</figcaption></figure>
 
-The Shopify quick reference guide isn't for an API, but it does show the filters, variables, and other functions available in Liquid, which is a scripting language for developers. Here Shopify takes advantage of collapse-and-expand functionality to compress the information.
+The Shopify quick reference guide (a community-built cheat sheet) isn't for an API, but it does show the filters, variables, and other functions available in Liquid, which is a scripting language for developers. Here Shopify takes advantage of collapse-and-expand functionality to compress the information.
 
 {% include random_ad4.html %}
 
-This quick reference guide is handy because it lets you browse all the available functionality in Liquid at once, so you can know what to dive into for more information. It's like a map of the Liquid terrain. The map lets you know all the functions that exist.
+This quick reference guide is handy because it lets you browse all the available functionality in Liquid at once (Shopify also has an official [Liquid reference](https://shopify.dev/docs/api/liquid)), so you can know what to dive into for more information. It's like a map of the Liquid terrain. The map lets you know all the functions that exist.
 
 {% include image_ad_right.html %}
 

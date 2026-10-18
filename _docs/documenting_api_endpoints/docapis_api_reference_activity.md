@@ -5,7 +5,7 @@ weight: 3.9
 sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
-last-modified: 2019-03-31
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -28,16 +28,15 @@ In this activity, you'll review API reference documentation and identify the com
 
 1.  Choose three of the following sites. In the three you choose, analyze the API reference sections (where the endpoints are listed):
 
-    *  [Nexmo API reference](https://developer.nexmo.com/api)
-    *  [Twitter API reference](https://developer.twitter.com/en/docs/api-reference-index)
-    *  [Stripe API reference](https://stripe.com/docs/api)
+    *  [Vonage API reference](https://developer.vonage.com/api)
+    *  [X (Twitter) API reference](https://docs.x.com/x-api/introduction)
+    *  [Stripe API reference](https://docs.stripe.com/api)
     *  [Azure API reference](https://learn.microsoft.com/en-us/rest/api/advisor/)
     *  [Flickr API reference](https://www.flickr.com/services/api/)
     *  [YouTube API reference](https://developers.google.com/youtube/v3/docs)
-    *  [Splunk API reference](https://docs.splunk.com/Documentation/Splunk/8.0.0/RESTREF/RESTlist)
-    *  [Paypal API reference](https://developer.paypal.com/docs/api/overview/)
-    *  [Basecamp API reference](https://github.com/basecamp/bc3-api)
-    *  [OpenSecrets API reference](http://www.opensecrets.org/open-data/api-documentation)
+    *  [Splunk API reference](https://help.splunk.com/en/splunk-enterprise/leverage-rest-apis/rest-api-reference/10.6/introduction/endpoints-reference-list)
+    *  [Paypal API reference](https://developer.paypal.com/api/rest/)
+    *  [Basecamp API reference](https://github.com/basecamp/bc-api)
     *  [Dropbox API reference](https://www.dropbox.com/developers/documentation/http/documentation)
     *  [DBS Developers API](https://www.dbs.com/dbsdevelopers/discover/deposit.html)
     *  [Adyen Docs](https://docs.adyen.com/)
@@ -69,7 +68,7 @@ In this activity, you'll review API reference documentation and identify the com
       *  Are the data types (string, boolean, etc.) defined for each parameter? Are required/optional values noted?
 
     **Request example:**
-      *  In what format or language is the request shown (e.g. curl, specific languages, other)?
+      *  In what format or language is the request shown (e.g., curl, specific languages, other)?
       *  How many parameters does the sample request include?
 
     **Response example:**

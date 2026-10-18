@@ -7,7 +7,7 @@ weight: 2.92
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2020-05-10
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -21,10 +21,10 @@ In the previous topic, [Access and print a specific JSON value](docapis_access_j
 
 You use a dot after the object name to access its properties. For example, suppose you have an object called `data`:
 
-```json
-"data": {
-"name": "Tom"
-}
+```js
+var data = {
+  "name": "Tom"
+};
 ```
 
 To access `Tom`, you would use `data.name`.
@@ -33,12 +33,12 @@ Note the different levels of nesting so you can trace back the appropriate objec
 
 ## Use square brackets to access the values in an array
 
-To access a value in an array, you use square brackets followed by the position number. For example, suppose you have the following array:
+To access a value in an array, you use square brackets with the item's position number inside. For example, suppose you have the following object that contains an array:
 
-```json
-"data" : {
+```js
+var data = {
   "items": ["ball", "bat", "glove"]
-}
+};
 ```
 
 To access glove, you would use `data.items[2]`.

@@ -38,13 +38,19 @@
 <tr>
 <td><code>days</code></td>
 <td>Optional</td>
-<td>The number of days to include in the response. Default is 3.</td>
+<td>The number of days to include in the response. Default is 3. Maximum is 7.</td>
 <td>Integer</td>
+</tr>
+<tr>
+<td><code>units</code></td>
+<td>Optional</td>
+<td>The units for the response. Use <code>imperial</code> for feet, knots, and Fahrenheit, or <code>metric</code> for centimeters, kilometers per hour, and Celsius. Default is <code>imperial</code>.</td>
+<td>String</td>
 </tr>
 <tr>
 <td><code>time</code></td>
 <td>Optional</td>
-<td>If you include the time, then only the current hour will be returned in the response.</td>
-<td>Integer. Unix format (ms since 1970) in UTC.</td>
+<td>If you include the time, only the conditions for that hour are returned in the response.</td>
+<td>Integer. Unix time (seconds since January 1, 1970) in UTC.</td>
 </tr>
 </tbody></table>
