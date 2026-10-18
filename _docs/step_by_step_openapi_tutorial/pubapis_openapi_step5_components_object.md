@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 5
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -34,28 +34,28 @@ Describing the details of your parameters and describing the schema of complex r
 * You might want to re-use parts of these definitions in other requests or responses. It's common to have the same parameter or response used in multiple places in an API. Through the `components` object, OpenAPI allows you to re-use these same definitions in multiple places.
 * You might not want to clutter up your `paths` object with too many parameter and response details, since the `paths` object is already somewhat complex with several levels of objects.
 
-Instead of listing the schema for your requests and responses in the `paths` object, for more complex schemas (or for schemas that are re-used in multiple operations or paths), you typically use a [reference object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#referenceObject) (referenced with `$ref`) that points to a specific definition in the [`components` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#componentsObject). (For more details on `$ref`, see [Using $ref](https://swagger.io/docs/specification/using-ref/).)
+Instead of listing the schema for your requests and responses in the `paths` object, for more complex schemas (or for schemas that are re-used in multiple operations or paths), you typically use a [reference object](https://spec.openapis.org/oas/v3.1.1.html#reference-object) (referenced with `$ref`) that points to a specific definition in the [`components` object](https://spec.openapis.org/oas/v3.1.1.html#components-object). (For more details on `$ref`, see [Using $ref](https://swagger.io/docs/specification/v3_0/using-ref/).)
 
 {% include image_ad_right.html %}
 
-Think of the `components` object like a document appendix where the re-usable details are provided. If multiple parts of your spec have the same schema, you point each of these references to the same object in your `components` object, and in so doing you single source the content. The `components` object can even be [stored in a separate file](http://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-8-splitting-specification-file/) if you have a large API and want to organize the information that way.
+Think of the `components` object like a document appendix where the re-usable details are provided. If multiple parts of your spec have the same schema, you point each of these references to the same object in your `components` object, and in so doing you single source the content. The `components` object can even be [stored in a separate file](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-8-splitting-specification-file/) if you have a large API and want to organize the information that way.
 
 ## Objects in components
 
-You can store a lot of different re-usable objects in the `components` object. The [`components` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#componentsObject) can contain these objects:
+You can store a lot of different re-usable objects in the `components` object. The [`components` object](https://spec.openapis.org/oas/v3.1.1.html#components-object) can contain these objects:
 
-* [`schemas`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#schemaObject)
-* [`responses`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#responses-object)
-* [`parameters`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#parameterObject)
-* [`examples`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#examples-object)
-* [`requestBodies`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#requestBodyObject)
-* [`headers`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#headerObject)
-* [`securitySchemes`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#securitySchemeObject)
-* [`links`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#linkObject)
-* [`callbacks`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#callbackObject)
-* [`pathItems`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#components-path-items)
+* [`schemas`](https://spec.openapis.org/oas/v3.1.1.html#schema-object)
+* [`responses`](https://spec.openapis.org/oas/v3.1.1.html#responses-object)
+* [`parameters`](https://spec.openapis.org/oas/v3.1.1.html#parameter-object)
+* [`examples`](https://spec.openapis.org/oas/v3.1.1.html#example-object)
+* [`requestBodies`](https://spec.openapis.org/oas/v3.1.1.html#request-body-object)
+* [`headers`](https://spec.openapis.org/oas/v3.1.1.html#header-object)
+* [`securitySchemes`](https://spec.openapis.org/oas/v3.1.1.html#security-scheme-object)
+* [`links`](https://spec.openapis.org/oas/v3.1.1.html#link-object)
+* [`callbacks`](https://spec.openapis.org/oas/v3.1.1.html#callback-object)
+* [`pathItems`](https://spec.openapis.org/oas/v3.1.1.html#components-path-items)
 
-The properties for each object inside `components` are the same as they are when used in other parts of the OpenAPI spec. You use a reference pointer (`$ref`) to point to more details in the `components` object. `$ref` stands for [`reference` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#referenceObject) and is part of JSON.
+The properties for each object inside `components` are the same as they are when used in other parts of the OpenAPI spec. You use a reference pointer (`$ref`) to point to more details in the `components` object. `$ref` stands for [`reference` object](https://spec.openapis.org/oas/v3.1.1.html#reference-object) and is part of JSON.
 
 {% include ads.html %}
 
@@ -96,14 +96,23 @@ paths:
                     description: Placeholder description
 
         '404':
-          description: Not found response
+          description: City not found
           content:
-            text/plain:
+            application/json:
               schema:
-                title: Weather not found
-                type: string
-                examples:
-                  - "Not found"
+                title: Not found
+                type: object
+                properties:
+                  cod:
+                    type: string
+                    description: HTTP status code, returned as a string
+                    examples:
+                      - "404"
+                  message:
+                    type: string
+                    description: Error message
+                    examples:
+                      - "city not found"
 
 components:
 
@@ -111,13 +120,13 @@ components:
     q:
       name: q
       in: query
-      description: "**City name**. *Example: London*. You can call by city name, or by city name and country code. The API responds with a list of results that match a searching word. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes."
+      description: "**City name**. *Example: London*. You can call by city name, or by city name and country code. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
     id:
       name: id
       in: query
-      description: "**City ID**. *Example: `2172797`*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded [here](http://bulk.openweathermap.org/sample/). You can include multiple cities in this parameter &mdash; just separate them by commas. The limit of locations is 20. *Note: A single ID counts as a one API call. So, if you have 3 city IDs, it's treated as 3 API calls.*"
+      description: "**City ID**. *Example: `2172797`*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded [here](https://bulk.openweathermap.org/sample/). (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
 
@@ -126,19 +135,19 @@ components:
       in: query
       description: "**Latitude**. *Example: 35*. The latitude coordinate of the location of your interest. Must use with `lon`."
       schema:
-        type: string
+        type: number
 
     lon:
       name: lon
       in: query
       description: "**Longitude**. *Example: 139*. Longitude coordinate of the location of your interest. Must use with `lat`."
       schema:
-        type: string
+        type: number
 
     zip:
       name: zip
       in: query
-      description: "**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default."
+      description: "**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
 
@@ -149,7 +158,7 @@ components:
       schema:
         type: string
         enum: [standard, metric, imperial]
-        default: "imperial"
+        default: "standard"
 
     lang:
       name: lang
@@ -163,7 +172,7 @@ components:
     mode:
       name: mode
       in: query
-      description: "**Mode**. *Example: html*. Determines the format of the response. Possible values are `xml` and `html`. If the mode parameter is empty, the format is `json` by default."
+      description: "**Mode**. *Example: html*. Determines the format of the response. Possible values are `json`, `xml`, and `html`. If the mode parameter is empty, the format is `json` by default."
       schema:
         type: string
         enum: [json, xml, html]
@@ -176,7 +185,7 @@ Replace the existing `paths` object in the Swagger Editor with the above code sa
 
 ## Re-using response objects {#reusing_objects}
 
-In [Step 4: The paths object](pubapis_openapi_step4_paths_object.html), when we described the [`responses` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#responsesObject) in the `paths` object, even with just a simple placeholder, we used a [`schema`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#schemaObject) object to describe the model for the request or response. The `schema` refers to the data structure (the fields, values, and hierarchy of the various objects and properties of a JSON or YAML object &mdash; see [What is a schema?](https://spacetelescope.github.io/understanding-json-schema/about.html#what-is-a-schema)).
+In [Step 4: The paths object](pubapis_openapi_step4_paths_object.html), when we described the [`responses` object](https://spec.openapis.org/oas/v3.1.1.html#responses-object) in the `paths` object, even with just a simple placeholder, we used a [`schema`](https://spec.openapis.org/oas/v3.1.1.html#schema-object) object to describe the model for the request or response. The `schema` refers to the data structure (the fields, values, and hierarchy of the various objects and properties of a JSON or YAML object &mdash; see [What is a schema?](https://json-schema.org/understanding-json-schema/about)).
 
 {% include random_ad3.html %}
 
@@ -204,14 +213,23 @@ paths:
                     description: Placeholder description
 
         '404':
-          description: Not found response
+          description: City not found
           content:
-            text/plain:
+            application/json:
               schema:
-                title: Weather not found
-                type: string
-                examples:
-                  - "Not found"
+                title: Not found
+                type: object
+                properties:
+                  cod:
+                    type: string
+                    description: HTTP status code, returned as a string
+                    examples:
+                      - "404"
+                  message:
+                    type: string
+                    description: Error message
+                    examples:
+                      - "city not found"
 ```
 
 Now let's move the `schema` description for the `200` response into the `components` object:
@@ -243,14 +261,23 @@ paths:
               schema:
                 $ref: '#/components/schemas/SuccessfulResponse'
         '404':
-          description: Not found response
+          description: City not found
           content:
-            text/plain:
+            application/json:
               schema:
-                title: Weather not found
-                type: string
-                examples:
-                  - "Not found"
+                title: Not found
+                type: object
+                properties:
+                  cod:
+                    type: string
+                    description: HTTP status code, returned as a string
+                    examples:
+                      - "404"
+                  message:
+                    type: string
+                    description: Error message
+                    examples:
+                      - "city not found"
 ```
 
 Then in `components/schemas`, we'll define the `SuccessfulResponse` schema.
@@ -274,6 +301,7 @@ Before we describe the response in the `components` object, it might be helpful 
   "base": "cmc stations",
   "main": {
     "temp": 293.25,
+    "feels_like": 292.79,
     "pressure": 1019,
     "humidity": 83,
     "temp_min": 289.82,
@@ -283,16 +311,17 @@ Before we describe the response in the `components` object, it might be helpful 
   },
   "wind": {
     "speed": 5.1,
-    "deg": 150
+    "deg": 150,
+    "gust": 7.2
   },
   "clouds": {
     "all": 75
   },
   "rain": {
-    "3h": 3
+    "1h": 3
   },
   "snow": {
-    "3h": 6
+    "1h": 6
   },
   "dt": 1435658272,
   "sys": {
@@ -303,6 +332,7 @@ Before we describe the response in the `components` object, it might be helpful 
     "sunrise": 1435610796,
     "sunset": 1435650870
   },
+  "timezone": 36000,
   "id": 2172797,
   "name": "Cairns",
   "cod": 200
@@ -344,14 +374,23 @@ paths:
               schema:
                 $ref: '#/components/schemas/SuccessfulResponse'
         '404':
-          description: Not found response
+          description: City not found
           content:
-            text/plain:
+            application/json:
               schema:
-                title: Weather not found
-                type: string
-                examples:
-                  - "Not found"
+                title: Not found
+                type: object
+                properties:
+                  cod:
+                    type: string
+                    description: HTTP status code, returned as a string
+                    examples:
+                      - "404"
+                  message:
+                    type: string
+                    description: Error message
+                    examples:
+                      - "city not found"
 
 components:
 
@@ -399,6 +438,11 @@ components:
             - 1485789600
         sys:
           $ref: '#/components/schemas/Sys'
+        timezone:
+          type: integer
+          description: Shift in seconds from UTC
+          examples:
+            - 36000
         id:
           type: integer
           description: City ID
@@ -463,6 +507,11 @@ components:
           description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
           examples:
             - 293.25
+        feels_like:
+          type: number
+          description: 'Temperature. This temperature parameter accounts for the human perception of weather. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+          examples:
+            - 292.79
         pressure:
           type: integer
           description: Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
@@ -510,6 +559,11 @@ components:
           format: int32
           examples:
             - 150
+        gust:
+          type: number
+          description: 'Wind gust. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
+          examples:
+            - 7.2
     Clouds:
       title: Clouds
       type: object
@@ -524,19 +578,18 @@ components:
       title: Rain
       type: object
       properties:
-        '3h':
-          type: integer
-          description: Rain volume for the last 3 hours
-          format: int32
+        '1h':
+          type: number
+          description: Rain precipitation for the last hour, mm/h (where available)
           examples:
             - 3
     Snow:
       title: Snow
       type: object
       properties:
-        '3h':
+        '1h':
           type: number
-          description: Snow volume for the last 3 hours
+          description: Snow precipitation for the last hour, mm/h (where available)
           examples:
             - 6
     Sys:
@@ -586,13 +639,13 @@ Notice how the schema definition includes an `examples` array for each element? 
 
 ## Describing a schema
 
-For most of the sections in `components`, you follow the same object descriptions as detailed in the rest of the spec. However, when describing a `schema` object, you use standard keywords and terms from **JSON Schema**, specifically from the [JSON Schema Specification Draft 2020-12](https://json-schema.org/draft/2020-12/json-schema-core.html).
+For most of the sections in `components`, you follow the same object descriptions as detailed in the rest of the spec. However, when describing a `schema` object, you use standard keywords and terms from **JSON Schema**, specifically from the [JSON Schema Specification Draft 2020-12](https://json-schema.org/draft/2020-12/json-schema-core).
 
 In other words, you aren't merely using terms defined by the OpenAPI spec to describe the models for your JSON. As you describe your JSON models (the data structures for input and output objects), the terminology in the OpenAPI spec defers to the larger JSON Schema specification for modeling JSON. The OpenAPI Specification's `Schema Object` is a superset of JSON Schema.
 
 {% include random_ad4.html %}
 
-The OpenAPI specification doesn't attempt to document how to model JSON schemas. This would be redundant with what's already documented in the [JSON Schema](http://json-schema.org/) site and outside of the scope of the OpenAPI spec. Therefore you might need to consult [JSON Schema](http://json-schema.org) for more details. (One other helpful tutorial is [Advanced Data](http://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-4-advanced-data-modeling/) from API Handyman.)
+The OpenAPI specification doesn't attempt to document how to model JSON schemas. This would be redundant with what's already documented in the [JSON Schema](https://json-schema.org/) site and outside of the scope of the OpenAPI spec. Therefore you might need to consult [JSON Schema](https://json-schema.org) for more details. (One other helpful tutorial is [Advanced Data](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-4-advanced-data-modeling/) from API Handyman.)
 
 To describe your JSON objects, you might use the following keywords from JSON Schema:
 
@@ -624,7 +677,7 @@ To describe your JSON objects, you might use the following keywords from JSON Sc
 * `format`
 * `default`
 
-The primary data `type`s are `string`, `number`, `integer`, `boolean`, `array`, and `object`.
+The primary data `type`s are `string`, `number`, `integer`, `boolean`, `array`, `object`, and `null`. In OpenAPI 3.1, you can list more than one type for a property, such as `type: [string, "null"]` for a value that can be a string or null. (This replaces the `nullable: true` keyword from OpenAPI 3.0.)
 
 The `format` keyword provides more specific detail about the `type`. Common formats include:
 
@@ -632,7 +685,7 @@ The `format` keyword provides more specific detail about the `type`. Common form
 * For `type: number`: `float`, `double`
 * For `type: string`: `date`, `date-time`, `password`, `byte`, `binary`
 
-When you start documenting your own schema, start by looking in the OpenAPI's [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#schemaObject), and then consult the [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step) documentation if something isn't covered.
+When you start documenting your own schema, start by looking in the OpenAPI's [schema object](https://spec.openapis.org/oas/v3.1.1.html#schema-object), and then consult the [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step) documentation if something isn't covered.
 
 Additionally, look at some example schemas. You can view [3.1 examples here](https://github.com/OAI/learn.openapis.org/tree/main/examples/v3.1). I usually find a spec that resembles what I'm trying to represent and mimic the same properties and structure.
 
@@ -675,14 +728,23 @@ paths:
               schema:
                 $ref: '#/components/schemas/SuccessfulResponse'
         '404':
-          description: Not found response
+          description: City not found
           content:
-            text/plain:
+            application/json:
               schema:
-                title: Weather not found
-                type: string
-                examples:
-                  - "Not found"
+                title: Not found
+                type: object
+                properties:
+                  cod:
+                    type: string
+                    description: HTTP status code, returned as a string
+                    examples:
+                      - "404"
+                  message:
+                    type: string
+                    description: Error message
+                    examples:
+                      - "city not found"
 
 components:
 
@@ -690,13 +752,13 @@ components:
     q:
       name: q
       in: query
-      description: "**City name**. *Example: London*. You can call by city name, or by city name and country code. The API responds with a list of results that match a searching word. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes."
+      description: "**City name**. *Example: London*. You can call by city name, or by city name and country code. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
     id:
       name: id
       in: query
-      description: "**City ID**. *Example: `2172797`*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded [here](http://bulk.openweathermap.org/sample/). You can include multiple cities in this parameter &mdash; just separate them by commas. The limit of locations is 20. *Note: A single ID counts as a one API call. So, if you have 3 city IDs, it's treated as 3 API calls.*"
+      description: "**City ID**. *Example: `2172797`*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded [here](https://bulk.openweathermap.org/sample/). (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
 
@@ -705,19 +767,19 @@ components:
       in: query
       description: "**Latitude**. *Example: 35*. The latitude coordinate of the location of your interest. Must use with `lon`."
       schema:
-        type: string
+        type: number
 
     lon:
       name: lon
       in: query
       description: "**Longitude**. *Example: 139*. Longitude coordinate of the location of your interest. Must use with `lat`."
       schema:
-        type: string
+        type: number
 
     zip:
       name: zip
       in: query
-      description: "**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default."
+      description: "**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
 
@@ -728,7 +790,7 @@ components:
       schema:
         type: string
         enum: [standard, metric, imperial]
-        default: "imperial"
+        default: "standard"
 
     lang:
       name: lang
@@ -742,7 +804,7 @@ components:
     mode:
       name: mode
       in: query
-      description: "**Mode**. *Example: html*. Determines the format of the response. Possible values are `xml` and `html`. If the mode parameter is empty, the format is `json` by default."
+      description: "**Mode**. *Example: html*. Determines the format of the response. Possible values are `json`, `xml`, and `html`. If the mode parameter is empty, the format is `json` by default."
       schema:
         type: string
         enum: [json, xml, html]
@@ -788,6 +850,11 @@ components:
             - 1485789600
         sys:
           $ref: '#/components/schemas/Sys'
+        timezone:
+          type: integer
+          description: Shift in seconds from UTC
+          examples:
+            - 36000
         id:
           type: integer
           description: City ID
@@ -852,6 +919,11 @@ components:
           description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
           examples:
             - 293.25
+        feels_like:
+          type: number
+          description: 'Temperature. This temperature parameter accounts for the human perception of weather. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+          examples:
+            - 292.79
         pressure:
           type: integer
           description: Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
@@ -899,6 +971,11 @@ components:
           format: int32
           examples:
             - 150
+        gust:
+          type: number
+          description: 'Wind gust. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
+          examples:
+            - 7.2
     Clouds:
       title: Clouds
       type: object
@@ -913,19 +990,18 @@ components:
       title: Rain
       type: object
       properties:
-        '3h':
-          type: integer
-          description: Rain volume for the last 3 hours
-          format: int32
+        '1h':
+          type: number
+          description: Rain precipitation for the last hour, mm/h (where available)
           examples:
             - 3
     Snow:
       title: Snow
       type: object
       properties:
-        '3h':
+        '1h':
           type: number
-          description: Snow volume for the last 3 hours
+          description: Snow precipitation for the last hour, mm/h (where available)
           examples:
             - 6
     Sys:
@@ -985,22 +1061,22 @@ Also, click the **Model** link to see how the descriptions of each element appea
 
 <figure><img class="docimage medium" src="{{site.api_media}}/models_options_in_responses.png" alt="Descriptions appear in the Model" /><figcaption>Descriptions appear in the Model</figcaption></figure>
 
-## The Models section -- why it exists, how to hide it
+## The Schemas section -- why it exists, how to hide it
 
-You'll also notice another "Models" section below all the other paths:
+You'll also notice another "Schemas" section (called "Models" in older versions of Swagger UI and in Swagger 2.0 specs) below all the other paths:
 
 <a href="https://idratherbewriting.com/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_models_broken_out.png" class="medium" /></a>
 
-By default, Swagger UI displays each object in `components` in a section called "Models" at the end of your Swagger UI display. If you consolidate all schemas into a single object, without using the `$ref` property to point to new objects, you will see just one object in Models. If you split out the objects, then you see each object listed separately, including the object that contains all the references.
+By default, Swagger UI displays each schema in `components` in a section called "Schemas" at the end of your Swagger UI display. If you consolidate all schemas into a single object, without using the `$ref` property to point to new objects, you will see just one object in Models. If you split out the objects, then you see each object listed separately, including the object that contains all the references.
 
-Because I want to re-use objects, I'm going to define each object in `components` separately. As a result, the Models section looks like this:
+Because I want to re-use objects, I'm going to define each object in `components` separately. As a result, the Schemas section looks like this:
 
-Why is there a Models section here? Apparently, it was added by popular request because the online Swagger Editor showed the display, and many users asked for it to be incorporated into Swagger UI.
+Why is there a Schemas section here? Apparently, it was added by popular request because the online Swagger Editor showed the display, and many users asked for it to be incorporated into Swagger UI.
 
-You don't need this Models section in Swagger UI because both the request and response sections of Swagger UI provide a "Model" link that lets the user toggle to this view.
+You don't need this Schemas section in Swagger UI because both the request and response sections of Swagger UI provide a "Schema" link that lets the user toggle to this view.
 
-To hide the Models section, you can add the parameter `defaultModelsExpandDepth: -1` parameter in your Swagger UI project. I provide a [Swagger UI tutorial](pubapis_swagger.html#create_swaggerui) in an upcoming section in this course, with details about the [Swagger UI parameters](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/configuration.md#parameters) where you could configure this parameter.
+To hide the Schemas section, you can add the parameter `defaultModelsExpandDepth: -1` parameter in your Swagger UI project. I provide a [Swagger UI tutorial](pubapis_swagger.html#create_swaggerui) in an upcoming section in this course, with details about the [Swagger UI parameters](https://github.com/swagger-api/swagger-ui/blob/main/docs/usage/configuration.md) where you could configure this parameter.
 
 ## Security definitions
 
-The `components` object also contains a [`securitySchemes` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#securitySchemeObject) that defines the authorization method used with each `path`. Rather than dive into the security configuration details here, I explore security in [Step 6: The security object](pubapis_openapi_step6_security_object.html).
+The `components` object also contains a [`securitySchemes` object](https://spec.openapis.org/oas/v3.1.1.html#security-scheme-object) that defines the authorization method used with each `path`. Rather than dive into the security configuration details here, I explore security in [Step 6: The security object](pubapis_openapi_step6_security_object.html).

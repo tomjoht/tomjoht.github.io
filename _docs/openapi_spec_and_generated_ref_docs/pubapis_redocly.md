@@ -177,12 +177,12 @@ In this step, you'll break up an existing OpenAPI file into smaller files.
         │   │   │   ├── units.yml
         │   │   │   └── zip.yml
         │   │   └── schemas
-        │   │       ├── 200.yml
         │   │       ├── Clouds.yml
         │   │       ├── Coord.yml
         │   │       ├── Main.yml
         │   │       ├── Rain.yml
         │   │       ├── Snow.yml
+        │   │       ├── SuccessfulResponse.yml
         │   │       ├── Sys.yml
         │   │       ├── Weather.yml
         │   │       └── Wind.yml

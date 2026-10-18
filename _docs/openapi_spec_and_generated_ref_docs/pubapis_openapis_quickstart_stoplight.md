@@ -117,7 +117,7 @@ To populate the API overview:
     * _[version, green square]_: 2.5
     * _[page title]_: OpenWeatherMap API
     * _Summary_: Get the current weather
-    * _Description_: Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. \*\*Note\*\*: This sample Swagger file covers the \`current\` endpoint only from the OpenWeatherMap API. &lt;br/&gt;&lt;br/&gt; \*\*Note\*\*: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the \`id\` parameter) will provide the most precise location results.
+    * _Description_: Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. \*\*Note\*\*: This sample Swagger file covers the \`current\` endpoint only from the OpenWeatherMap API. &lt;br/&gt;&lt;br/&gt; \*\*Note\*\*: All parameters are optional, but you must select at least one parameter. OpenWeatherMap recommends calling the API by geographic coordinates (using the \`lat\` and \`lon\` parameters).
 
     **Servers +**
     
@@ -230,7 +230,7 @@ Now enter the path and parameter information:
 
     * _Name_: **zip**
     * _[Data type]_: string
-    * *Description...*: \*\*Zip code\*\*. Search by zip code. \*Example: 95050,us\*. Please note that if the country is not specified, the search uses USA as a default.
+    * *Description...*: \*\*Zip code\*\*. Search by zip code. \*Example: 95050,us\*. Please note that if the country is not specified, the search uses USA as a default. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using \`lat\` and \`lon\` instead.)
 
     \-\-\-\-\-\-\-
 
@@ -239,6 +239,7 @@ Now enter the path and parameter information:
     * _Description…_: \*\*Units\*\*. \*Example: imperial\*. Possible values: \`standard\`, \`metric\`, and \`imperial\`. When you do not use the \`units\` parameter, the format is \`standard\` by default.
     * <img src="{{site.api_media}}/stoplight_other_properties_buttonv3.png" alt="Other properties" /> _Other Properties_:
       * _enum_: standard, metric, imperial
+      * _default_: standard
   
       When you click the Other Properties button, the dialog looks like this: 
 
@@ -248,25 +249,25 @@ Now enter the path and parameter information:
 
     * _Name ..._: **q**
     * _[Data type]_: string
-    * _Description_: \*\*City name\*\*. \*Example: London\*. You can call by city name, or by city name and country code. The API responds with a list of results that match a searching word. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes.
+    * _Description_: \*\*City name\*\*. \*Example: London\*. You can call by city name, or by city name and country code. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using \`lat\` and \`lon\` instead.)
 
     \-\-\-\-\-\-\-
 
     * *Name ...*: **id**
     * *[Data type]*: string
-    * *Description...*: \*\*City ID\*\*. \*Example: \`2172797\`\*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded \[here\]\(https://bulk.openweathermap.org/sample/\). You can include multiple cities in this parameter &mdash; just separate them by commas. The limit of locations is 20. \*Note: A single ID counts as a one API call. So, if you have 3 city IDs, it’s treated as 3 API calls.\*
+    * *Description...*: \*\*City ID\*\*. \*Example: \`2172797\`\*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded \[here\]\(https://bulk.openweathermap.org/sample/\). (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using \`lat\` and \`lon\` instead.)
 
     \-\-\-\-\-\-\-
 
     * *Name ...*: **lon**
-    * *[Data type]*: string
+    * *[Data type]*: number
     * *Description...*: \*\*Longitude\*\*. \*Example: 139\*. Longitude coordinate of the location of your interest. Must use with \`lat\`.
 
     \-\-\-\-\-\-\-
 
     * *Name ...*: **lat**
-    * *[Data type]*: string
-    * *Description...*: \*\*Latitude\*\*. \*Example: 35\*. Latitude coordinate of the location of your interest. Must use with \`lat\`.
+    * *[Data type]*: number
+    * *Description...*: \*\*Latitude\*\*. \*Example: 35\*. Latitude coordinate of the location of your interest. Must use with \`lon\`.
 
     \-\-\-\-\-\-\-
 

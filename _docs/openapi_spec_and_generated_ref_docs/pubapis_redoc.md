@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 4.91
 section: restapispecifications
 path1: learnapidoc/restapispecifications.html
-last-modified: 2021-10-15
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -14,7 +14,7 @@ last-modified: 2021-10-15
 {: .note}
 [Redocly](https://redocly.com/) offers robust tools for authoring and publishing API docs using the command-line and docs-as-code workflows. For a full tutorial, see [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](pubapis_redocly.html). The tutorial that follows here is a simple way to use the [community/free edition of Redoc](https://github.com/Redocly/redoc).
 
-[Redoc](https://github.com/Redocly/redoc) is a popular display framework for the OpenAPI as well and is a favorite by many API gurus. Redoc started out as a API doc site for [Rebilly docs](http://rebilly.github.io/RebillyAPI) but with many customizations evolved into its own unique framework. Redoc provides a three-panel layout made popular by companies such as Stripe.
+[Redoc](https://github.com/Redocly/redoc) is a popular display framework for the OpenAPI as well and is a favorite by many API gurus. Redoc started out as an API doc site for [Rebilly docs](https://api-reference.rebilly.com/) but with many customizations evolved into its own unique framework. Redoc provides a three-panel layout made popular by companies such as Stripe.
 
 {% include ads.html %}
 
@@ -28,7 +28,7 @@ The makers of Redoc spun off into their own company ([Redocly](https://redocly.c
 
 In this activity, you'll render your OpenAPI spec with [Redoc](https://github.com/Redocly/redoc).
 
-1.  Copy the following code into an empty text file (in a text editor such as Sublime Text) and save the file as **redoc.html**. (Note: This code comes from [Redoc's "TL;DR" readme instructions on GitHub](https://github.com/Redocly/redoc#tldr).)
+1.  Copy the following code into an empty text file (in a text editor such as Visual Studio Code) and save the file as **redoc.html**. (Note: This code is based on the HTML instructions in [Redoc's readme on GitHub](https://github.com/Redocly/redoc), updated for Redoc 3.)
 
     ```html
     <!DOCTYPE html>
@@ -52,13 +52,13 @@ In this activity, you'll render your OpenAPI spec with [Redoc](https://github.co
       </head>
       <body>
         <redoc spec-url='https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml'></redoc>
-        <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
+        <script type="module" src="https://cdn.redoc.ly/redoc/v3.x/bundles/redoc.standalone.js"> </script>
       </body>
     </html>
     ```
 
     {: .note}
-    Make sure you save the file with a `.html` extension so that your browser will render it as HTML.
+    Make sure you save the file with a `.html` extension so that your browser will render it as HTML. Also note the `type="module"` attribute on the `script` tag, which Redoc 3 requires. (Earlier versions of this activity used a `redoc@next` script from jsDelivr, which no longer renders anything.)
 
 2.  Change the value for `redoc spec-url` to a valid OpenAPI spec that is available at an online URL.
 

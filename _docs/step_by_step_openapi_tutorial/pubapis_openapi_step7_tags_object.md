@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 7
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -29,7 +29,7 @@ The `tags` object allows you to arrange the `paths` (endpoints) into named group
 
 {% include image_ad_right.html %}
 
-At the root level, the [`tags` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#tagObject) lists all the tags that are used in the [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#operationObject) (which appear within the `paths` object, as explained in [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)). Here's an example of the `tags` object for our OpenWeatherMap API:
+At the root level, the [`tags` object](https://spec.openapis.org/oas/v3.1.1.html#tag-object) lists all the tags that are used in the [operation objects](https://spec.openapis.org/oas/v3.1.1.html#operation-object) (which appear within the `paths` object, as explained in [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)). Here's an example of the `tags` object for our OpenWeatherMap API:
 
 ```yaml
 tags:
@@ -38,6 +38,9 @@ tags:
 ```
 
 We have just one tag, but you could have as many as you want (if you have a lot of endpoints, it would make sense to create multiple tags to group them). You can list both the `name` and a `description` for each tag. The `description` appears as a subtitle for the tag name in the Swagger UI display.
+
+{: .note}
+OpenAPI 3.2 adds a few new tag fields, including `parent` (to nest a tag under another tag) and `summary` (a short display name). This tutorial uses 3.1.1, so it doesn't use these fields.
 
 {% include content/troubleshooting_spec_tip.md %}
 

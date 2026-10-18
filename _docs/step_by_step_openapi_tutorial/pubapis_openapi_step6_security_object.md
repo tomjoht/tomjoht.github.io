@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 6
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2025-07-05
 <img src="{{site.api_media}}/openapistep6.png"/>
 {% endif %}
 
-Swagger UI provides a "Try it out" feature that lets users submit actual requests. To submit requests that are authorized by your API server, the spec must contain security information that will authorize the request. The [`security` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#securityRequirementObject) specifies the security or authorization protocol used when submitting requests.
+Swagger UI provides a "Try it out" feature that lets users submit actual requests. To submit requests that are authorized by your API server, the spec must contain security information that will authorize the request. The [`security` object](https://spec.openapis.org/oas/v3.1.1.html#security-requirement-object) specifies the security or authorization protocol used when submitting requests.
 
 {% if site.format == "web" %}
 * TOC
@@ -35,7 +35,7 @@ REST APIs can use different security approaches to authorize requests. I explore
 * OpenID Connect (`openIdConnect`)
 * Mutual TLS (`mutualTLS`)
 
-In this step of the OpenAPI tutorial, we'll use the API key approach, since this is what the OpenWeatherMap API uses. If your API uses [OAuth 2.0](docapis_more_about_authorization.html#oauth) or another method, you'll need to read the [Security Scheme Object documentation](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#security-scheme-object) for details on how to configure it. However, all the security methods mostly follow the same pattern.
+In this step of the OpenAPI tutorial, we'll use the API key approach, since this is what the OpenWeatherMap API uses. If your API uses [OAuth 2.0](docapis_more_about_authorization.html#oauth) or another method, you'll need to read the [Security Scheme Object documentation](https://spec.openapis.org/oas/v3.1.1.html#security-scheme-object) for details on how to configure it. However, all the security methods mostly follow the same pattern.
 
 {% include ads.html %}
 
@@ -70,7 +70,7 @@ Then the `weather` path would use the `some_other_key` security method, while al
 
 ## Referencing the security scheme in components
 
-In the [`components` object](pubapis_openapi_step5_components_object.html), add a [`securitySchemes` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#securitySchemeObject) that defines details about the security scheme the API uses:
+In the [`components` object](pubapis_openapi_step5_components_object.html), add a [`securitySchemes` object](https://spec.openapis.org/oas/v3.1.1.html#security-scheme-object) that defines details about the security scheme the API uses:
 
 ```yaml
 components:
@@ -92,7 +92,7 @@ Properties you can use for each item in the `securitySchemes` object include the
 * `in`: Specifies where the security key is applied. Options are `query`, `header` or `cookie`. Used only for `apiKey` type security.
 * `scheme`: The name of the HTTP Authentication scheme. Used with `type: http`.
 * `bearerFormat`: A hint to the client to identify how the bearer token is formatted. Used with `type: http`.
-* [`flows`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#oauthFlowsObject) (object): Configuration information for the flow types supported. Used with `type: oauth2`.
+* [`flows`](https://spec.openapis.org/oas/v3.1.1.html#oauth-flows-object) (object): Configuration information for the flow types supported. Used with `type: oauth2`.
 * `openIdConnectUrl`: A URL to discover the OpenID Connect provider's configuration. Used with `type: openIdConnect`.
 
 {% include random_ad2.html %}
@@ -137,19 +137,21 @@ After users enter an API key and click **Authorize**, the authorization method i
 
 ## <i class="fa fa-user-circle"></i> Test out how authorization works
 
-Now that we've added authorization, let's try making an actual API request. In the Swagger Editor (the right pane), click the **Authorize** button, paste the sample API key shown in the description into the **Value** field (or use your own [OpenWeatherMap API key](docapis_get_auth_keys.html#openweathermap_apikey)), and click **Authorize**. Then click **Close** to close the authorization modal.
+Now that we've added authorization, let's try making an actual API request. In the Swagger Editor (the right pane), click the **Authorize** button, paste your [OpenWeatherMap API key](docapis_get_auth_keys.html#openweathermap_apikey) into the **Value** field, and click **Authorize**. Then click **Close** to close the authorization modal.
 
 {% include random_ad4.html %}
 
-In the Current Weather Data section, expand the **GET /weather** endpoint and click **Try it out**. In the **zip** field, enter your zip code and country abbreviation (such as `95050,us`), and then click **Execute**.
+In the Current Weather Data section, expand the **GET /weather** endpoint and click **Try it out**. In the **zip** field, enter your zip code and country abbreviation (such as `95050,us`). In the **units** drop-down list, select **imperial**. Then click **Execute**.
 
 When you execute the request, Swagger UI shows you the [curl request](docapis_make_curl_call.html) submitted. For example, after executing a weather request, the curl is as follows:
 
 ```bash
-curl -X GET "https://api.openweathermap.org/data/2.5/weather?zip=95050%2Cus&units=imperial&lang=en&mode=json&appid=APIKEY" -H "accept: application/json"
+curl -X 'GET' \
+  'https://api.openweathermap.org/data/2.5/weather?zip=95050%2Cus&units=imperial&lang=en&mode=json&appid=APIKEY' \
+  -H 'accept: application/json'
 ```
 
-(Replace APIKEY with your actual API key.)
+(Replace APIKEY with your actual API key. If you're on Windows, put the command on one line without the backslashes, and change the single quotes to double quotes.)
 
 The `&appid=APIKEY"` indicates that the API key is being included in the query string, so the request will be authorized. If you copy the curl submitted, customize the API key, and paste it into the command line, you'll see a successful response:
 
@@ -160,52 +162,46 @@ The server response also appears directly in the Swagger UI display, with a link
 ```json
 {
   "coord": {
-    "lon": -121.96,
-    "lat": 37.35
+    "lon": -121.953,
+    "lat": 37.3492
   },
   "weather": [
     {
-      "id": 500,
-      "main": "Rain",
-      "description": "light rain",
-      "icon": "10d"
-    },
-    {
-      "id": 701,
-      "main": "Mist",
-      "description": "mist",
-      "icon": "50d"
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 55.24,
-    "pressure": 1012,
-    "humidity": 77,
-    "temp_min": 51.08,
-    "temp_max": 59
+    "temp": 68.29,
+    "feels_like": 67.26,
+    "temp_min": 64.11,
+    "temp_max": 71.47,
+    "pressure": 1014,
+    "humidity": 52,
+    "sea_level": 1014,
+    "grnd_level": 1015
   },
-  "visibility": 16093,
+  "visibility": 10000,
   "wind": {
-    "speed": 5.82,
-    "deg": 320
-  },
-  "rain": {
-    "1h": 0.25
+    "speed": 4.61,
+    "deg": 310
   },
   "clouds": {
-    "all": 40
+    "all": 0
   },
-  "dt": 1544039760,
+  "dt": 1792296751,
   "sys": {
     "type": 1,
-    "id": 5122,
-    "message": 0.0052,
+    "id": 5845,
     "country": "US",
-    "sunrise": 1544022470,
-    "sunset": 1544057391
+    "sunrise": 1792246653,
+    "sunset": 1792286902
   },
-  "id": 420006397,
+  "timezone": -25200,
+  "id": 0,
   "name": "Santa Clara",
   "cod": 200
 }

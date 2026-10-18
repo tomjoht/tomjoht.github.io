@@ -6,12 +6,15 @@ sidebar: docapis
 weight: 4.6
 section: restapispecifications
 path1: learnapidoc/restapispecifications.html
-last-modified: 2020-03-30
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
 Previously, I explored using the open-source [Swagger UI project](pubapis_swagger.html) as a way to render your [OpenAPI specification document](pubapis_openapi_tutorial_overview.html). The same company that offers the free, open-source version of Swagger Editor and Swagger UI (Smartbear) also offers a premium version with more robust features. This premium version of Swagger Editor is called [SwaggerHub](https://app.swaggerhub.com/). You can see a comparison of features between the open source and premium versions [here](https://web.archive.org/web/20170422171656/https://swaggerhub.com/swagger-open-source-comparison/).
+
+{: .note}
+SmartBear has since renamed SwaggerHub to *Swagger Studio* (see [About Swagger Studio](https://support.smartbear.com/swagger/studio/docs/en/about.html), which describes it as "Swagger Studio (formerly API Hub for Design or SwaggerHub)"). The features described on this page are largely the same, but the screenshots show the older interface and name.
 
 You can see a demo of the [sample OpenWeatherMap API on SwaggerHub here](https://app.swaggerhub.com/apis-docs/IdRatherBeWriting/open-weather_map_api/).
 
@@ -32,17 +35,17 @@ While the open-source Swagger Editor coupled with Swagger UI works, you'll run i
 
 When you're working on REST API documentation, you need tools specifically designed for REST APIs &mdash; tools that allow you to create, share, collaborate, version, test, and publish the documentation in ways that don't require extensive customization or time.
 
-There's a point at which experimenting with the free Swagger UI tooling hits a wall, and you'll need to find another way to move to the next level. This next level is where [SwaggerHub](https://swaggerhub.com) from [Smartbear](https://smartbear.com/) comes in. SwaggerHub provides a complete solution for designing, managing, and publishing documentation for your API in ways that will simplify your life as an API technical writer.
+There's a point at which experimenting with the free Swagger UI tooling hits a wall, and you'll need to find another way to move to the next level. This next level is where [SwaggerHub](https://swagger.io/product/) from [Smartbear](https://smartbear.com/) comes in. SwaggerHub provides a complete solution for designing, managing, and publishing documentation for your API in ways that will simplify your life as an API technical writer.
 
-More than 15,000 software teams across the globe use SwaggerHub. As the OpenAPI spec becomes more of an industry standard for API documentation, SwaggerHub's swagger-specific tooling can be essential.
+As the OpenAPI spec has become the industry standard for API documentation, SwaggerHub's Swagger-specific tooling can be essential.
 
 ## SwaggerHub Intro and Dashboard
 
-[Smartbear](https://smartbear.com/) is the company that maintains and develops the open source Swagger tooling ([Swagger Editor](https://swagger.io/tools/swagger-editor/), [Swagger UI](https://swagger.io/swagger-ui/), [Swagger Codegen](https://swagger.io/swagger-codegen/), and others.) They also formed the [OpenAPI Initiative](https://www.openapis.org/), which leads the evolution of the [Swagger (OpenAPI) specification](https://github.com/OAI/OpenAPI-Specification/).
+[Smartbear](https://smartbear.com/) is the company that maintains and develops the open source Swagger tooling ([Swagger Editor](https://swagger.io/tools/swagger-editor/), [Swagger UI](https://swagger.io/tools/swagger-ui/), [Swagger Codegen](https://swagger.io/tools/swagger-codegen/), and others.) They also helped found the [OpenAPI Initiative](https://www.openapis.org/), which leads the evolution of the [Swagger (OpenAPI) specification](https://github.com/OAI/OpenAPI-Specification/).
 
 Smartbear developed SwaggerHub as a way to help teams collaborate around the OpenAPI spec. Many of the client and server SDKs can be auto-generated from SwaggerHub, and there are a host of additional features you can leverage as you design, test, and publish your API.
 
-To get started with SwaggerHub, go to [swaggerhub.com](https://swaggerhub.com/) and create an account or sign in with your GitHub credentials. After signing in, you see the SwaggerHub dashboard.
+To get started with SwaggerHub (Swagger Studio), go to [swagger.io/product](https://swagger.io/product/) and create an account. After signing in, you see the SwaggerHub dashboard.
 
 <a href="https://app.swaggerhub.com/home" class="noExtIcon"><img src="{{site.api_media}}/swaggerhubhomepage.png" /></a>
 
@@ -120,7 +123,7 @@ Both outputs would need a healthy dose of custom styling to be usable.
 
 ## Mocking Servers {#mocking_servers}
 
-Another cool feature of SwaggerHub is the ability to [create mock API servers](https://app.swaggerhub.com/help/integrations/api-auto-mocking). Suppose you have an API in which you don't want users to generate real requests. (Maybe it's an ordering system where users might be ordering products through the API, or you don't have test accounts/systems). Even so, you can still simulate responses that let users get a sense of how your API works.
+Another cool feature of SwaggerHub is the ability to [create mock API servers](https://support.smartbear.com/swagger/studio/docs/en/integrations/api-auto-mocking.html). Suppose you have an API in which you don't want users to generate real requests. (Maybe it's an ordering system where users might be ordering products through the API, or you don't have test accounts/systems). Even so, you can still simulate responses that let users get a sense of how your API works.
 
 {% include ads.html %}
 
@@ -134,7 +137,7 @@ Using the mock server approach, SwaggerHub not only provides documentation but a
 
 {% include random_ad3.html %}
 
-To set up a mocking server in SwaggerHub, click the plug icon {% if site.format == "web" %}<img class="inline" src="{{site.api_media}}/swaggerhub_integration_button.png" />{% endif %} and select to add a new integration. Select the **API Auto Mocking** service and complete the configuration details. Make sure you have `examples` for each of the endpoint responses in your spec. See [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) for more details.
+To set up a mocking server in SwaggerHub, click the plug icon {% if site.format == "web" %}<img class="inline" src="{{site.api_media}}/swaggerhub_integration_button.png" />{% endif %} and select to add a new integration. Select the **API Auto Mocking** service and complete the configuration details. Make sure you have `examples` for each of the endpoint responses in your spec. See [API Auto Mocking](https://support.smartbear.com/swagger/studio/docs/en/integrations/api-auto-mocking.html) for more details.
 
 ## Content Re-use (Domains)
 
@@ -142,11 +145,11 @@ Another feature exclusively available in SwaggerHub is the concept of domains. D
 
 When you create definitions for your requests and responses, you may find yourself re-using the same code over and over. Rather than duplicating this code, you can save it as a domain. When you want to re-use the code, you select this domain.
 
-Using the domain minimizes duplicate content and enables you to be more consistent and efficient. You can read more in  [Domains](https://app.swaggerhub.com/help/domains/about-domains).
+Using the domain minimizes duplicate content and enables you to be more consistent and efficient. You can read more in  [Domains](https://support.smartbear.com/swagger/studio/docs/en/domains.html).
 
 ## Organizations and projects
 
-The collaborative aspect of SwaggerHub is the most common reason people move from the open source tools to SwaggerHub. You might have a lot of different engineers working on a variety of APIs in SwaggerHub. To organize the work, you can group APIs into [organizations](https://app.swaggerhub.com/help/organizations/index), and then assign members to the appropriate organization. When that member logs in to SwaggerHub, he or she will see only the organizations to which he or she has access.
+The collaborative aspect of SwaggerHub is the most common reason people move from the open source tools to SwaggerHub. You might have a lot of different engineers working on a variety of APIs in SwaggerHub. To organize the work, you can group APIs into [organizations](https://support.smartbear.com/swagger/studio/docs/en/manage-resource-access/work-with-organizations.html), and then assign members to the appropriate organization. When that member logs in to SwaggerHub, he or she will see only the organizations to which he or she has access.
 
 Additionally, within an organization, you can further group APIs into different projects. This way teams working in the same organization but on different projects can have visibility into other APIs.
 
@@ -164,11 +167,11 @@ Designing a fully-featured, highly functioning OpenAPI spec is at the heart of t
 
 {% include random_ad2.html %}
 
-Great tools aren’t free. SwaggerHub does [cost money](https://swaggerhub.com/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.
+Great tools aren’t free. SwaggerHub does [cost money](https://swagger.io/product/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.
 
 {: .tip}
 To read more about SwaggerHub, check out my blog post [SwaggerHub: A collaborative platform for working on OpenAPI/Swagger specification files, and more](https://idratherbewriting.com/2017/10/05/swaggerhub-collaborative-platform-for-swagger-openapi-projects).
 
 ## Related resources
 
-* [Getting Started With SwaggerHub](https://app.swaggerhub.com/help/tutorials/getting-started?_ga=2.107820612.739591889.1574123176-421060100.1574123176)
+* [Get Started with Swagger Studio](https://support.smartbear.com/swagger/studio/docs/en/get-started.html)

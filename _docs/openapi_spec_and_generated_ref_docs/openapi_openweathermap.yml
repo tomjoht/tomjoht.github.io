@@ -1,7 +1,7 @@
 openapi: "3.1.1"
 info:
   title: "OpenWeatherMap API"
-  description: "Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
+  description: "Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. OpenWeatherMap recommends calling the API by geographic coordinates (using the `lat` and `lon` parameters)."
   version: "2.5"
   termsOfService: "https://openweathermap.org/terms"
   contact:
@@ -34,21 +34,31 @@ paths:
         - $ref: '#/components/parameters/mode'
 
       responses:
-        "200":
+        '200':
           description: Successful response
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/200'
-        "404":
-          description: Not found response
+                $ref: '#/components/schemas/SuccessfulResponse'
+        '404':
+          description: City not found
           content:
-            text/plain:
+            application/json:
               schema:
-                title: Weather not found
-                type: string
-                examples:
-                  - "Not found"
+                title: Not found
+                type: object
+                properties:
+                  cod:
+                    type: string
+                    description: HTTP status code, returned as a string
+                    examples:
+                      - "404"
+                  message:
+                    type: string
+                    description: Error message
+                    examples:
+                      - "city not found"
+
 security:
 - app_id: []
 
@@ -66,13 +76,13 @@ components:
     q:
       name: q
       in: query
-      description: "**City name**. *Example: London*. You can call by city name, or by city name and country code. The API responds with a list of results that match a searching word. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes."
+      description: "**City name**. *Example: London*. You can call by city name, or by city name and country code. For the query value, type the city name and optionally the country code divided by a comma; use ISO 3166 country codes. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
     id:
       name: id
       in: query
-      description: "**City ID**. *Example: `2172797`*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded [here](http://bulk.openweathermap.org/sample/). You can include multiple cities in this parameter &mdash; just separate them by commas. The limit of locations is 20. *Note: A single ID counts as a one API call. So, if you have 3 city IDs, it’s treated as 3 API calls.*"
+      description: "**City ID**. *Example: `2172797`*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded [here](https://bulk.openweathermap.org/sample/). (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
 
@@ -81,19 +91,19 @@ components:
       in: query
       description: "**Latitude**. *Example: 35*. The latitude coordinate of the location of your interest. Must use with `lon`."
       schema:
-        type: string
+        type: number
 
     lon:
       name: lon
       in: query
       description: "**Longitude**. *Example: 139*. Longitude coordinate of the location of your interest. Must use with `lat`."
       schema:
-        type: string
+        type: number
 
     zip:
       name: zip
       in: query
-      description: "**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default."
+      description: "**Zip code**. Search by zip code. *Example: 95050,us*. Please note that if the country is not specified, the search uses USA as a default. (OpenWeatherMap has deprecated its built-in geocoding for city names, city IDs, and zip codes. These parameters still work, but OpenWeatherMap recommends using `lat` and `lon` instead.)"
       schema:
         type: string
 
@@ -104,7 +114,7 @@ components:
       schema:
         type: string
         enum: [standard, metric, imperial]
-        default: "imperial"
+        default: "standard"
 
     lang:
       name: lang
@@ -125,7 +135,7 @@ components:
         default: "json"
 
   schemas:
-    "200":
+    SuccessfulResponse:
       title: Successful response
       type: object
       properties:
@@ -140,14 +150,14 @@ components:
           type: string
           description: Internal parameter
           examples:
-            - "cmc stations"
+            - "stations"
         main:
           $ref: '#/components/schemas/Main'
         visibility:
           type: integer
           description: Visibility, meter
           examples:
-            - 16093
+            - 10000
         wind:
           $ref: '#/components/schemas/Wind'
         clouds:
@@ -161,9 +171,14 @@ components:
           description: Time of data calculation, unix, UTC
           format: int32
           examples:
-            - 1435658272
+            - 1485789600
         sys:
           $ref: '#/components/schemas/Sys'
+        timezone:
+          type: integer
+          description: Shift in seconds from UTC
+          examples:
+            - 36000
         id:
           type: integer
           description: City ID
@@ -188,12 +203,12 @@ components:
           type: number
           description: City geo location, longitude
           examples:
-            - 145.77000000000001
+            - 145.77
         lat:
           type: number
           description: City geo location, latitude
           examples:
-            - -16.920000000000002
+            - -16.92
     Weather:
       title: Weather
       type: object
@@ -228,6 +243,11 @@ components:
           description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
           examples:
             - 293.25
+        feels_like:
+          type: number
+          description: 'Temperature. This temperature parameter accounts for the human perception of weather. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+          examples:
+            - 292.79
         pressure:
           type: integer
           description: Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
@@ -244,7 +264,7 @@ components:
           type: number
           description: 'Minimum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
           examples:
-            - 289.81999999999999
+            - 289.82
         temp_max:
           type: number
           description: 'Maximum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
@@ -254,12 +274,12 @@ components:
           type: number
           description: Atmospheric pressure on the sea level, hPa
           examples:
-            - 984
+            - 1019
         grnd_level:
           type: number
           description: Atmospheric pressure on the ground level, hPa
           examples:
-            - 990
+            - 1019
     Wind:
       title: Wind
       type: object
@@ -268,13 +288,18 @@ components:
           type: number
           description: 'Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
           examples:
-            - 5.0999999999999996
+            - 5.1
         deg:
           type: integer
           description: Wind direction, degrees (meteorological)
           format: int32
           examples:
             - 150
+        gust:
+          type: number
+          description: 'Wind gust. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour.'
+          examples:
+            - 7.2
     Clouds:
       title: Clouds
       type: object
@@ -289,19 +314,18 @@ components:
       title: Rain
       type: object
       properties:
-        3h:
-          type: integer
-          description: Rain volume for the last 3 hours
-          format: int32
+        '1h':
+          type: number
+          description: Rain precipitation for the last hour, mm/h (where available)
           examples:
             - 3
     Snow:
       title: Snow
       type: object
       properties:
-        3h:
+        '1h':
           type: number
-          description: Snow volume for the last 3 hours
+          description: Snow precipitation for the last hour, mm/h (where available)
           examples:
             - 6
     Sys:

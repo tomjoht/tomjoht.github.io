@@ -149,9 +149,9 @@ So a little less than you, but I'm really enjoying this line of work. I've been 
 
 **Tom:** Yeah, great. For the format here, we decided to pick several articles that, in this first episode, both of us have written and use that as a basis for discussion. We've got a couple of articles from Fabrizio's blog. We've got three articles total:
 
-* ["The future is open: Answering the most common tech writing worries"](https://www.google.com/search?q=https://passo.uno/the-future-is-open/), which Fabrizio wrote on September 14.
-* Another article, ["AI must RTFM: Why technical writers are becoming context curators"](https://www.google.com/search?q=https://passo.uno/ai-must-rtfm/), which he wrote on August 8th.
-* And then a third article, which I just posted yesterday, ["Two strategies to succeed when AI seems to be eroding jobs around you."](https://www.google.com/search?q=https://idratherbewriting.com/blog/two-strategies-for-success-with-ai/)
+* ["The future is open: Answering the most common tech writing worries"](https://passo.uno/tech-writing-optimism-reddit/), which Fabrizio wrote on September 14.
+* Another article, ["AI must RTFM: Why technical writers are becoming context curators"](https://passo.uno/from-tech-writers-to-ai-context-curators/), which he wrote on August 8th.
+* And then a third article, which I just posted yesterday, ["Two strategies to succeed when AI seems to be eroding jobs around you."](https://idratherbewriting.com/blog/strategies-to-succeed-in-context-of-ai)
 
 First of all, I have to say, I love your blog. You've got a really nice writing style. You put a lot of thought behind your sentences and your meaning. It's really enjoyable to read. Where do you want to jump in?
 

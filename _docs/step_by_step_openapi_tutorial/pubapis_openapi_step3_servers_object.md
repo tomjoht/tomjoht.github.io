@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 3
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2025-07-05
 <img src="{{site.api_media}}/openapistep3.png"/>
 {% endif %}
 
-In the [`servers` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#serverObject), you specify the base URL used in your API requests. The base URL is the part of the URL that appears before the endpoint path.
+In the [`servers` object](https://spec.openapis.org/oas/v3.1.1.html#server-object), you specify the base URL used in your API requests. The base URL is the part of the URL that appears before the endpoint path.
 
 {% if site.format == "web" %}
 * TOC
@@ -64,9 +64,9 @@ If you have just one URL, you still see a drop-down box but with just one option
 
 {% include image_ad_right.html %}
 
-You can also incorporate variables into the server URL that can be populated at runtime by your server. Additionally, if different paths (endpoints) require different server URLs, you can add the `servers` object as a property in the [`path`](pubapis_openapi_step4_paths_object.html) object's operation object. The locally declared servers URL will override the global servers URL.
+You can also incorporate variables into the server URL (defined in a `variables` object), such as a region or port number. Swagger UI displays these variables as fields that users can fill in or select. Additionally, if different paths (endpoints) require different server URLs, you can add the `servers` object as a property in the [`path`](pubapis_openapi_step4_paths_object.html) object's operation object. The locally declared servers URL will override the global servers URL.
 
-See ["Overriding Servers"](https://swagger.io/docs/specification/api-host-and-base-path/) in "API Server and Base URL" (Swagger's docs) for more details.
+See ["Overriding Servers"](https://swagger.io/docs/specification/v3_0/api-host-and-base-path/) in "API Server and Base Path" (Swagger's docs) for more details.
 
 ## Swagger
 

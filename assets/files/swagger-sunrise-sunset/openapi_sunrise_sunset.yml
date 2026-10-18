@@ -26,7 +26,7 @@ paths:
           schema:
             type: number
             format: float
-          example: "37.3708698"
+          example: 37.3708698
 
         - name: lng
           in: query
@@ -35,7 +35,7 @@ paths:
           schema:
             type: number
             format: float
-          example: "-122.037593"
+          example: -122.037593
 
         - name: date
           in: query

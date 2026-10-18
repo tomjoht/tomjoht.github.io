@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 9
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -23,11 +23,11 @@ While our OpenWeatherMap API example doesn't use them, the OpenAPI 3.1.1 specifi
 
 ## The `webhooks` object
 
-The [`webhooks` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#oas-webhooks) is a significant addition that allows you to describe out-of-band requests that your service might send to other applications. A webhook is essentially a reverse API; instead of your application calling the API, the API calls your application at a pre-configured URL when a specific event occurs.
+The [`webhooks` object](https://spec.openapis.org/oas/v3.1.1.html#oas-webhooks) is a significant addition that allows you to describe out-of-band requests that your service might send to other applications. A webhook is essentially a reverse API; instead of your application calling the API, the API calls your application at a pre-configured URL when a specific event occurs.
 
 For example, a version control system might send a webhook notification to a CI/CD server whenever new code is pushed to a repository.
 
-The `webhooks` object is defined at the root level of your specification. Each key in the `webhooks` object is a unique name for the webhook, and the value is a [Path Item Object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#pathItemObject) that describes the request that will be sent.
+The `webhooks` object is defined at the root level of your specification. Each key in the `webhooks` object is a unique name for the webhook, and the value is a [Path Item Object](https://spec.openapis.org/oas/v3.1.1.html#path-item-object) that describes the request that will be sent.
 
 ### Example `webhooks` object
 
@@ -46,11 +46,13 @@ webhooks:
               properties:
                 userId:
                   type: string
-                  example: 'user-123'
+                  examples:
+                    - 'user-123'
                 timestamp:
                   type: string
                   format: date-time
-                  example: '2025-07-07T19:20:30+01:00'
+                  examples:
+                    - '2025-07-07T19:20:30+01:00'
       responses:
         '200':
           description: OK response from the client acknowledging receipt of the webhook.
@@ -67,21 +69,20 @@ This is different from the `callbacks` object, which describes outgoing requests
 
 ## The `jsonSchemaDialect` field
 
-<!-- I've expanded this section significantly based on your request for clarification. -->
 
-The [`jsonSchemaDialect` field](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#oas-json-schema-dialect) is a top-level string that declares the default **dialect** for all [Schema Objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#schemaObject) within your OpenAPI document.
+The [`jsonSchemaDialect` field](https://spec.openapis.org/oas/v3.1.1.html#oas-json-schema-dialect) is a top-level string that declares the default **dialect** for all [Schema Objects](https://spec.openapis.org/oas/v3.1.1.html#schema-object) within your OpenAPI document.
 
 ### What is a Schema Dialect?
 
 Think of a "dialect" as a specific version or set of rules for interpreting a schema. One of the most important changes in OpenAPI 3.1 is its full compatibility with **JSON Schema**, a separate, powerful specification for defining the structure of JSON data.
 
-The `Schema Object` in OpenAPI is a superset of JSON Schema. This means it supports all the features of JSON Schema (like `type`, `properties`, `pattern`, `allOf`, etc.) plus a few extra keywords specific to OpenAPI (`discriminator`, `xml`, `example`).
+The `Schema Object` in OpenAPI is a superset of JSON Schema. This means it supports all the features of JSON Schema (like `type`, `properties`, `pattern`, `allOf`, etc.) plus a few extra keywords specific to OpenAPI (`discriminator`, `xml`, `externalDocs`, and the deprecated `example`).
 
 ### Why is `jsonSchemaDialect` important?
 
 By default, if you don't specify a dialect, tools will use the standard OpenAPI 3.1 dialect, identified by the URI `https://spec.openapis.org/oas/3.1/dialect/base`. This is usually fine.
 
-However, you might want to use features from a specific version of the JSON Schema standard that aren't part of the default OpenAPI dialect, or you just want to be explicit for maximum compatibility across different tools. The `jsonSchemaDialect` field lets you set a default for the entire document.
+However, you might want to use a different JSON Schema dialect, or you might want to be explicit about which dialect you're using. The `jsonSchemaDialect` field lets you set a default for the entire document. Note that if you switch to the plain JSON Schema 2020-12 dialect (as in the following example), the OpenAPI-specific keywords such as `discriminator` and `xml` are no longer part of the dialect.
 
 ### Example `jsonSchemaDialect` field
 
@@ -119,6 +120,6 @@ components:
         # ...
 ```
 
-In summary, `jsonSchemaDialect` is a global setting for your entire API definition that says, "Hey tools, unless I tell you otherwise, please use these specific JSON Schema rules to understand my data models." It's a best practice for clarity and ensures your schemas are validated consistently.
+In summary, `jsonSchemaDialect` is a global setting for your entire API definition that says, "Hey tools, unless I tell you otherwise, please use these specific JSON Schema rules to understand my data models." Most API descriptions don't need to set it, since the default OpenAPI dialect works for typical schemas.
 
 

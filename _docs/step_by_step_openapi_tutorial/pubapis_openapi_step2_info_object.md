@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 2
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2025-07-05
 <img src="{{site.api_media}}/openapistep2.png"/>
 {% endif %}
 
-The [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#infoObject) contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
+The [info object](https://spec.openapis.org/oas/v3.1.1.html#info-object) contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
 
 {% if site.format == "web" %}
 * TOC
@@ -35,7 +35,7 @@ Here's an example of the `info` object and its properties. (The `openapi` object
 # openapi: 3.1.1
 info:
   title: "OpenWeatherMap API"
-  description: "Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. Calling the API by city ID (using the `id` parameter) will provide the most precise location results."
+  description: "Get the current weather, daily forecast for 16 days, and a three-hour-interval forecast for 5 days for your city. Helpful stats, graphics, and this day in history charts are available for your reference. Interactive maps show precipitation, clouds, pressure, wind around your location stations. Data is available in JSON, XML, or HTML format. **Note**: This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. <br/><br/> **Note**: All parameters are optional, but you must select at least one parameter. OpenWeatherMap recommends calling the API by geographic coordinates (using the `lat` and `lon` parameters)."
   version: "2.5"
   termsOfService: "https://openweathermap.org/terms"
   contact:
@@ -49,19 +49,19 @@ info:
 ```
 
 {: .note}
-The `license` object also supports an `identifier` field for an [SPDX license identifier](https://spdx.org/licenses/). Using `identifier` is preferred over `url` when possible.
+The `license` object also supports an `identifier` field for an [SPDX license identifier](https://spdx.org/licenses/). The `identifier` and `url` fields are mutually exclusive, so use one or the other.
 
 {% include content/troubleshooting_spec_tip.md %}
 
 ## Description properties and Markdown
 
-Note that in any `description` property, you can use [CommonMark Markdown](http://spec.commonmark.org/0.27/), which is much more precise, unambiguous, and robust than the original Markdown.
+Note that in any `description` property, you can use [CommonMark Markdown](https://spec.commonmark.org/0.27/), which is much more precise, unambiguous, and robust than the original Markdown.
 
-For example, CommonMark markdown offers some [backslash escapes](http://spec.commonmark.org/0.27/#backslash-escapes), and it specifies exactly how many spaces you need in lists and other punctuation. You can also break to new lines with `\n` and escape problematic characters like quotation marks or colons with a backslash.
+For example, CommonMark markdown offers some [backslash escapes](https://spec.commonmark.org/0.27/#backslash-escapes), and it specifies exactly how many spaces you need in lists and other punctuation. You can also break to new lines with `\n` and escape problematic characters like quotation marks or colons with a backslash.
 
 {% include ads.html %}
 
-As you write content in `description` properties, note that colons are problematic in YAML because they signify new levels. Either enclose the `description` value in quotation marks or escape colons with a backslash. (If you enclose the values in quotation marks, syntax highlighters in text editors can display better color coding between the properties and values.)
+As you write content in `description` properties, note that colons (when followed by a space) are problematic in YAML because they signify new levels. Either enclose the `description` value in quotation marks or escape colons with a backslash. (If you enclose the values in quotation marks, syntax highlighters in text editors can display better color coding between the properties and values.)
 
 {% include random_ad2.html %}
 

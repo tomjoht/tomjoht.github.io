@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 4.8
 section: restapispecifications
 path1: learnapidoc/restapispecifications.html
-last-modified: 2020-06-13
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -30,7 +30,7 @@ For example, you might have defined your endpoints and parameters in your regula
 
 You can try to squeeze all your documentation into the specification document itself. This only works if you have a relatively small amount of [conceptual information to accompany your API](docconceptual.html). You may be surprised about how much information you can actually include in the spec. Any `description` element (not just the `description` property in the `info` object) allows you to use Markdown and HTML.
 
-For example, here's the `info` object in the OpenAPI spec where a description appears. (If desired, you can type a pipe `>` to break the content onto the next line and then indent two spaces. You can actually add a lot of content in `description` elements.)
+For example, here's the `info` object in the OpenAPI spec where a description appears. (If desired, you can type a greater-than sign `>` (a folded block scalar) or a pipe `|` (a literal block scalar) to break the content onto the next line and then indent two spaces. You can actually add a lot of content in `description` elements.)
 
 ```yaml
 info:
@@ -78,7 +78,7 @@ The result was to compress much of the information into a single button that, wh
 
 Additionally, you can include modals that appear when clicked. Modals are dialog windows that dim the background outside the dialog window. Again, you can include all the JavaScript you want in the `index.html` file of the Swagger UI project.
 
-{:. tip}
+{: .tip}
 If you incorporate Bootstrap, you will likely need to restrict the namespace so that it doesn't affect other elements in the Swagger UI display. (See [How to Isolate Bootstrap CSS to Avoid Conflicts](https://formden.com/blog/isolate-bootstrap) for details on how to do this.)
 
 Overall, if your API docs are relatively small, you can try putting all your information in the spec first. If you have a complex API or just an API that has a lot of extra information not relevant to the spec, look for alternative approaches. But try to fit it into the spec first. This keeps your information in one space.
@@ -142,13 +142,13 @@ Here's how this script works. When users click the element ID `tg-sb-link`, the 
 
 Continuing on with the script, the `toggleClass` function looks for the `container` class and injects an element called `expand`. The embedded styles for this element expand the main container to a larger width. (Again, you'll need to customize `container` to use the main container element for your website.) Hopefully you get the gist of how this [`toggleClass` jQuery function](https://api.jquery.com/toggleClass/) is working. When you click the Nav button again, the same function removes the injected classes. For more details, check out the source code of the [Swagger UI Demo](pubapis_swagger_demo.html) on [GitHub here](https://github.com/tomjoht/tomjoht.github.io/blob/main/_docs/openapi_spec_and_generated_ref_docs/pubapis_swagger_demo.md).
 
-Besides the clunkiness of the "site-within-a-site" look, an additional problem with embedding is that some of the Models aren't constrained within their container, so they expand beyond their limits. Try expanding the Model section in the [demo](pubapis_swagger_demo.html) &mdash; you'll see what I'm talking about.
+Besides the clunkiness of the "site-within-a-site" look, an additional problem with embedding is that some of the schemas (Models) aren't constrained within their container, so they expand beyond their limits. Try expanding the Schemas section in the [demo](pubapis_swagger_demo.html) &mdash; you'll see what I'm talking about.
 
 <figure><a target="_blank" class="noExtIcon" href="pubapis_swagger_demo.html"><img class="docimage large" src="{{site.api_media}}/modelsexpansionproblems.png" alt="Expanding Models -- if you have multiple levels of hierarchy, this section will not expand well when constrained within a fixed space" /></a><figcaption>Expanding Models -- if you have multiple levels of hierarchy, this section will not expand well when constrained within a fixed space</figcaption></figure>
 
 I'm not sure if some ninja styling prowess could simply overcome this uncontained behavior. Probably, but I'm not a CSS ninja, and I haven't fiddled around with this enough to say that it can actually be done. I did end up adding some custom styles to make some adjustments to Swagger UI in various places. If you view the source of [the demo page](pubapis_swagger_demo.html) and check out the second `<style>` block, you can see the styles I added.
 
-With the embedded option, you can still use the official Swagger UI tooling to read the spec, and you can include the Swagger UI output in your main documentation. Swagger UI reads the latest version of the [OpenAPI specification](pubapis_openapi_tutorial_overview.html), which is something many tools don't yet support. Additionally, Swagger UI has the familiar interface that API developers are probably already familiar with. However, if the styling overflows in ugly ways in your Model sections, you might want to avoid the embedded approach.
+With the embedded option, you can still use the official Swagger UI tooling to read the spec, and you can include the Swagger UI output in your main documentation. Swagger UI supports the latest versions of the [OpenAPI specification](pubapis_openapi_tutorial_overview.html), which some other tools are slower to adopt. Additionally, Swagger UI has the familiar interface that API developers are probably already familiar with. However, if the styling overflows in ugly ways in your Model sections, you might want to avoid the embedded approach.
 
 ## Option 3: Parse the OpenAPI specification document {#option3}
 
@@ -224,7 +224,7 @@ layout: null
 ---
 ```
 
-In your `jekyll serve` command, configure the `destination` to build your output into an `htdocs` folder where you have a [simple local HTTP server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) running. With each build, check the display to see whether it's valid or not.
+In your `jekyll serve` command, configure the `destination` to build your output into an `htdocs` folder where you have a [simple local HTTP server](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/set_up_a_local_testing_server) running. With each build, check the display to see whether it's valid or not.
 
 {% include random_ad2.html %}
 
@@ -234,7 +234,7 @@ Again, although I experimented with this approach, I grew frustrated at not bein
 
 ## Option 5: Use a tool that imports Swagger and allows additional docs {#option5}
 
-Another approach is to use a tool like [Readme.com](http://readme.com/) or [Stoplight](https://stoplight.io/) that allows you to both import your OpenAPI spec and also add your own separate documentation pages. Readme provides one of the most attractive outputs and is fully inclusive of almost every documentation feature you could want or need. I explore Readme with more depth in [Hybrid documentation systems](pubapis_hybrid_systems.html#readmeio). Readme.com requires third-party hosting, but some other doc tools allow you to incorporate Swagger as well. I explored Stoplight in depth in a previous topic: [Stoplight — visual modeling tools for creating your OpenAPI spec](pubapis_stoplight.html).
+Another approach is to use a tool like [Readme.com](https://readme.com/), [Stoplight](https://stoplight.io/), or [Redocly](pubapis_redocly.html) that allows you to both import your OpenAPI spec and also add your own separate documentation pages. Readme provides one of the most attractive outputs and is fully inclusive of almost every documentation feature you could want or need. I explore Readme with more depth in [Hybrid documentation systems](pubapis_hybrid_systems.html#readmeio). Readme.com requires third-party hosting, but some other doc tools allow you to incorporate Swagger as well. I explored Stoplight in depth in a previous topic: [Stoplight — visual modeling tools for creating your OpenAPI spec](pubapis_stoplight.html).
 
 Sites like [Apiary](https://apiary.io/) and [Mulesoft](https://www.mulesoft.com/) also let you import your OpenAPI spec while also adding custom documentation pages. These sites offer full-service management for APIs, so if your engineers are already using one of these platforms, it could make sense to store your docs there too.
 

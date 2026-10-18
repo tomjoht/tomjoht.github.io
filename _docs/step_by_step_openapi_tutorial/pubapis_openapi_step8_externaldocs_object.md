@@ -9,7 +9,7 @@ path1: learnapidoc/restapispecifications.html
 map:
   step: 8
   definition: content/openapi_tutorial_map.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ last-modified: 2025-07-05
 <img src="{{site.api_media}}/openapistep8.png"/>
 {% endif %}
 
-The [`externalDocs` object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#externalDocumentationObject) lets you link to external documentation. You can also provide links to external docs in the `paths` object.
+The [`externalDocs` object](https://spec.openapis.org/oas/v3.1.1.html#external-documentation-object) lets you link to external documentation. You can also provide links to external docs in the `paths` object.
 
 {% if site.format == "web" %}
 * TOC
@@ -45,7 +45,7 @@ Note that this documentation should relate to the API as a whole. To link a spec
 
 ## <i class="fa fa-user-circle"></i> View the Appearance in Swagger UI
 
-Add the above code to the root level of your OpenAPI document in Swagger UI.
+Add the above code to the root level of your OpenAPI document in Swagger Editor.
 
 When you do, in the Swagger UI, a link appears after the API description along with other info about the API:
 

@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 4.3
 section: restapispecifications
 path1: learnapidoc/restapispecifications.html
-last-modified: 2020-06-27
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -20,11 +20,11 @@ Among other services, Stoplight provides visual modeling tools to create an Open
 * TOC
 {:toc}
 
-*Note that Stoplight is one of the sponsors of my site.*
+*Note that Stoplight is one of the sponsors of my site.* (SmartBear, the company behind Swagger, [acquired Stoplight in 2023](https://blog.stoplight.io/smartbear-to-acquire-stoplight-to-deliver-industrys-broadest-portfolio-of-api-development-capabilities). Stoplight continues to operate as a separate product.)
 
 ## Limits to line-by-line spec coding
 
-Before jumping into details, let me provide some background about why I think Stoplight is a valuable tool, and why I've both listed it in this course and created an [activity for using Stoplight](pubapis_openapis_quickstart_stoplight.html). At the [2018 TC Camp conference](http://www.tccamp.org/) in Santa Clara, the camp organizers put on a full-day API workshop focused on OpenAPI and Swagger. I was excited to see this topic addressed in a workshop because I think coding the spec is both the most complicated and most important part of API documentation.
+Before jumping into details, let me provide some background about why I think Stoplight is a valuable tool, and why I've both listed it in this course and created an [activity for using Stoplight](pubapis_openapis_quickstart_stoplight.html). At the [2018 TC Camp conference](https://tccamp.org/) in Santa Clara, the camp organizers put on a full-day API workshop focused on OpenAPI and Swagger. I was excited to see this topic addressed in a workshop because I think coding the spec is both the most complicated and most important part of API documentation.
 
 {% include random_ad2.html %}
 
@@ -32,7 +32,7 @@ I didn't attend the workshop myself, but I was chatting with a few who did. One 
 
 In the instructor's defense, I told my friend that describing an API using the OpenAPI spec *does* pretty much involve living in YAML all day, and it *is* tedious, highly prone to error, and technical. One of my favorite API bloggers, API evangelist Kin Lane, explains that "hand crafting even the base API definition for any API is time-consuming." It is an activity "that swells quickly to being hours when you consider the finish work that's required" ([Automated Mapping Of The API Universe ...](http://apievangelist.com/2016/02/05/automated-mapping-of-the-api-universe-with-charles-proxy-dropbox-openapi-spec-and-some-custom-apis/)).
 
-Lane says he was exploring ways to automate the API definition using different tools such as Charles Proxy. During this time, he started exploring [Stoplight.io](http://stoplight.io/), a platform for modeling APIs and more, and he became engrossed in the workflow and design tools. He says,
+Lane says he was exploring ways to automate the API definition using different tools such as Charles Proxy. During this time, he started exploring [Stoplight.io](https://stoplight.io/), a platform for modeling APIs and more, and he became engrossed in the workflow and design tools. He says,
 
 > I stayed up way too late playing with some of the new features in Stoplight.io. If you aren't familiar with what the Stoplight team has been cooking up &mdash; they have been hard at work crafting a pretty slick set of API modeling tools. I feel the platform provides me with a new way to look at the API life cycle &mdash; a perspective that spans multiple dimensions, including design, definition, virtualization, documentation, testing, discovery, orchestration, and client. … I am curious to see what API designers and architects do with Stoplight &mdash; I feel like it has the potential to shift the landscape pretty significantly, something I haven't seen any API service provider do in a while. ([Automagically Defining Your API Infrastructure As You Work Using Stoplight.io](https://apievangelist.com/2016/02/16/automagically-defining-your-api-infrastructure-as-you-work-using-stoplightio))
 
@@ -111,11 +111,11 @@ Note that you can integrate your [reference documentation](docendpoints.html) an
 
 Although I generally like working directly in the code, I've found that Stoplight lets me focus more on the content and less on the details of the spec's format. Ideally, you can probably get developers and other project team members to populate reference content in Stoplight themselves since this is an activity that needs to happen much earlier in the API design process anyway.
 
-If you're documenting an API, [Stoplight](https://stoplight.io) and their [hosted doc solution](https://stoplight.io/documentation/) are worth checking out. But don't think of Stoplight as just a documentation platform or an easy way to generate the OpenAPI description. Consider Stoplight a way to design the single source of truth that will empower all other teams in a more efficient toward a successful API.
+If you're documenting an API, [Stoplight](https://stoplight.io) and their [hosted doc solution](https://stoplight.io/api-documentation) are worth checking out. But don't think of Stoplight as just a documentation platform or an easy way to generate the OpenAPI description. Consider Stoplight a way to design the single source of truth that will empower all other teams to work more efficiently toward a successful API.
 
 ## Stoplight demos {#stoplight_demos}
 
-Here's a short demo of how Stoplight renders the OpenAPIWeatherMap OpenAPI specification. This Stoplight output uses the same API explored earlier in this course. Here's what the weather endpoint looks like in Stoplight:
+Here's a short demo of how Stoplight renders the OpenWeatherMap OpenAPI specification. This Stoplight output uses the same API explored earlier in this course. Here's what the weather endpoint looks like in Stoplight:
 
 <a class="noCrossRef" href="https://web.archive.org/web/20220812004349/https://idratherbewriting.stoplight.io/docs/openweathermap3/reference/openweathermap.v1.yaml/paths/~1weather/get"><img src="{{site.api_media}}/stoplight_tutorial_end_goal.png" alt="Final output from Stoplight tutorial" /></a>
 
@@ -126,7 +126,7 @@ Here are a few noteworthy callouts about the output:
 * In the Responses section, the Schema and Example are placed on separate tabs that make it easy to toggle between. The schema presents the content in expand/collapse sections, allowing you to visually consume the whole structure at a glance.
 * The output feels clean, with ample breathing space and an easy-to-read design. The UI isn't cluttered or busy. There's a good visual hierarchy with the design elements, encouraging focus in the middle pane where the main content lives.
 
-This sample API doesn't include many endpoints, so it might be more instructive to see some other samples of Stoplight listed on their [Case Studies page](https://stoplight.io/case-studies/). For direct links to the documentation mentioned in case studies, explore the following:
+This sample API doesn't include many endpoints, so it might be more instructive to see some other samples of Stoplight listed on their [Case Studies page](https://stoplight.io/case-studies). For direct links to the documentation mentioned in case studies, explore the following:
 
 * [Zoom API docs](https://developers.zoom.us/docs/api/)
 * [Nutanix API docs](https://www.nutanix.dev/api-reference/)
@@ -135,7 +135,7 @@ This sample API doesn't include many endpoints, so it might be more instructive 
 * [BigCommerce API docs](https://developer.bigcommerce.com/api-docs)
 * [Namely API docs](https://web.archive.org/web/20210924032811/https://developers.namely.com/1.0/getting-started/introduction)
 
-You can learn more about hosting your documentation with Stoplight here: [Create Hosted API Documentation Online With Our API Docs Generator Tool](https://stoplight.io/documentation/).
+You can learn more about hosting your documentation with Stoplight here: [Private & Public API Documentation](https://stoplight.io/api-documentation).
 
 ## Stoplight tutorial
 
