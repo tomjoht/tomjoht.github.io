@@ -8,23 +8,38 @@ metadata:
 
 # Update the API doc course PDF
 
-This skill rebuilds the PDF of the API documentation course (`_docs`), checks it, and uploads `docapis.zip` to Wasabi. Readers buy the PDF through Buy Me a Coffee, and the Buy Me a Coffee download links directly to `https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip`. The upload replaces that file, so paying readers get the new version immediately. The steps below are ordered so that nothing gets uploaded until the PDF has been checked.
+This skill rebuilds the PDF of the API documentation course (`_docs`), checks it, and uploads `docapis.zip` to Wasabi. Readers buy the PDF through Buy Me a Coffee, and the Buy Me a Coffee product redirects buyers directly to the zip file's public URL. The upload replaces that file, so paying readers get the new version immediately. The steps below are ordered so that nothing gets uploaded until the PDF has been checked.
 
 Invoking this skill authorizes the upload in Step 6. However, if any check in Steps 1–5 fails, stop and report to the user instead of uploading.
 
 `pdf_instructions.md` in the repo root has background on how the build works. This skill is the procedure to follow. If the two disagree, trust this skill and then update `pdf_instructions.md` to match.
 
-## Key URLs
+## Local settings and key URLs
+
+The bucket name, file key, download URL, and short link are **not** in this skill or anywhere else in the repo. Tom keeps them in `pdf.local.env` at the repo root, which is gitignored, because the repo is public and anyone (or any AI tool) could otherwise find the paid download URL. Never write these values into a tracked file, a commit message, or a blog post.
+
+`pdf.local.env` defines these variables:
+
+| Variable | What it is |
+|---|---|
+| `PDF_BUCKET` | The Wasabi bucket that holds the zip |
+| `PDF_KEY` | The zip's file name in the bucket |
+| `PDF_ENDPOINT` | The Wasabi endpoint URL |
+| `PDF_PUBLIC_URL` | The download URL that the Buy Me a Coffee product redirects to |
+| `PDF_SHORTLINK` | Rebrandly short link to the same file |
+| `SMARTPHONES_KEY` | The zip for Tom's other book (not used by this skill) |
+
+Each Bash call runs in a fresh shell, so `source pdf.local.env` in the same command as anything that uses these variables. If the file is missing (for example, after a fresh clone), stop and ask Tom for the values. `pdf.local.env.example` shows the format.
+
+These URLs are public and fine to use anywhere:
 
 | What | URL |
 |---|---|
-| PDF download (the file Buy Me a Coffee links to) | `https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip` |
-| Short link to the same file (Rebrandly) | `https://idbwrtng.com/apidocbook` |
-| Bucket path for uploads | `s3://learnapidoc-outputs/docapis.zip` |
 | Buy Me a Coffee product page | `https://www.buymeacoffee.com/learnapidoc/e/146076` |
+| Buy Me a Coffee shop page | `https://www.buymeacoffee.com/learnapidoc/extras` |
 | Download page on the site | `https://idratherbewriting.com/learnapidoc/download.html` |
 
-Tom sometimes forgets the download URL, so include the Buy Me a Coffee URL and the short link in the final report.
+Tom sometimes forgets the download URL, so include `$PDF_PUBLIC_URL` and `$PDF_SHORTLINK` (read from `pdf.local.env`) in the final report to him. The report goes only to Tom, so that's fine.
 
 ## Environment notes (read first)
 
@@ -32,9 +47,9 @@ These caused real failures during the October 2026 build. Keep them in mind thro
 
 - **Repo path is fixed.** The PDF configs use absolute paths under `/Users/tomjohnson/projects/idratherbewriting`. Run every command from that directory.
 - **The shell is zsh.** Unquoted variables don't word-split, so `for f in $LIST` and `set -- $x` don't behave like bash. Use literal globs, `while read` loops, or `bash -c '...'`.
-- **Always pass the Wasabi endpoint.** The `wasabi` AWS profile has a region but no endpoint. Every `aws` command needs `--profile wasabi --endpoint-url=https://s3.us-west-1.wasabisys.com`, or it silently targets AWS instead of Wasabi. Activate the venv first (`source .venv/bin/activate`), since that's where the AWS CLI lives.
+- **Always pass the Wasabi endpoint.** The `wasabi` AWS profile has a region but no endpoint. Every `aws` command needs `--profile wasabi --endpoint-url="$PDF_ENDPOINT"` (or the literal Wasabi endpoint), or it silently targets AWS instead of Wasabi. Activate the venv first (`source .venv/bin/activate`), since that's where the AWS CLI lives.
 - **The image bucket is lock-protected.** `s3://idbwmedia.com/images/` has object lock on purpose. Only download from it in this skill. Never upload, overwrite, or delete anything there.
-- **The outputs bucket allows overwrites on purpose.** Tom configured `s3://learnapidoc-outputs` to allow overwrites so that `docapis.zip` keeps the same URL and the Buy Me a Coffee link never needs updating. Always upload to the same key (`docapis.zip`). Never upload under a new name or change the URL. The bucket has no versioning, so the overwrite is permanent, which is why Step 6 makes a dated backup copy first.
+- **The outputs bucket allows overwrites on purpose.** Tom configured the outputs bucket (`$PDF_BUCKET`) to allow overwrites so that the zip keeps the same URL and the Buy Me a Coffee link never needs updating. Always upload to the same key (`$PDF_KEY`). Never upload under a new name or change the URL. The bucket has no versioning, so the overwrite is permanent, which is why Step 6 makes a dated backup copy first.
 - **The build overwrites `_site`.** The PDF build writes a print-formatted site into `_site`. That's harmless (GitHub Pages builds the live site on its own), but if the user is previewing locally, they'll need to rerun `bundle exec jekyll serve` afterward.
 - **Prince takes about 80–90 seconds**, and the whole build script about 2–3 minutes. Give commands a timeout of at least 600000 ms.
 
@@ -49,6 +64,7 @@ ls .venv/bin/aws                     # AWS CLI in the venv
 ls assets/css/pdf/                   # bootstrap.min.css, printstyles.css, syntax.css, theme-blue.css
 ls images/api/ebook_cover.png        # cover image
 ls pdf/readme_docs.txt               # readme bundled into the zip
+ls pdf.local.env                     # local bucket and URL settings (gitignored)
 grep -h "^cover_image" configs/_config_pdf_all.yml
 ```
 
@@ -60,9 +76,9 @@ How to fix each one:
 - **`pdf/readme_docs.txt` is missing.** The `pdf` folder is gitignored, so this file doesn't survive a fresh clone. Recover it from the current zip in Wasabi:
 
   ```bash
-  source .venv/bin/activate
+  source pdf.local.env && source .venv/bin/activate
   mkdir -p pdf "$TMPDIR/oldzip"
-  aws s3 cp s3://learnapidoc-outputs/docapis.zip "$TMPDIR/oldzip/docapis.zip" --profile wasabi --endpoint-url=https://s3.us-west-1.wasabisys.com --only-show-errors
+  aws s3 cp "s3://$PDF_BUCKET/$PDF_KEY" "$TMPDIR/oldzip/docapis.zip" --profile wasabi --endpoint-url="$PDF_ENDPOINT" --only-show-errors
   unzip -o -j "$TMPDIR/oldzip/docapis.zip" pdf/readme_docs.txt -d pdf/
   ```
 
@@ -152,11 +168,11 @@ If something looks wrong, fix it, rerun Step 3, and check again. Look for other 
 First, record the date of the current zip in the bucket and back it up under that date:
 
 ```bash
-source .venv/bin/activate
-aws s3 ls s3://learnapidoc-outputs/ --profile wasabi --endpoint-url=https://s3.us-west-1.wasabisys.com | grep "docapis"
-# Use the date shown for docapis.zip, for example 2026-10-17:
-aws s3 cp s3://learnapidoc-outputs/docapis.zip s3://learnapidoc-outputs/docapis-YYYY-MM-DD.zip \
-    --profile wasabi --endpoint-url=https://s3.us-west-1.wasabisys.com --only-show-errors
+source pdf.local.env && source .venv/bin/activate
+aws s3 ls "s3://$PDF_BUCKET/" --profile wasabi --endpoint-url="$PDF_ENDPOINT" | grep "docapis"
+# Use the date shown for the current zip, for example 2026-10-17:
+aws s3 cp "s3://$PDF_BUCKET/$PDF_KEY" "s3://$PDF_BUCKET/docapis-YYYY-MM-DD.zip" \
+    --profile wasabi --endpoint-url="$PDF_ENDPOINT" --only-show-errors
 ```
 
 This copy happens on the server side, so nothing is downloaded. If a backup with that date already exists, skip the copy, because it's the same file.
@@ -171,7 +187,7 @@ The script prints a progress line for every MiB, so only show the last lines. To
 
 ```bash
 ls -l pdf/docapis.zip
-curl -sI https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip | grep -iE "^HTTP|content-length|last-modified"
+source pdf.local.env && curl -sI "$PDF_PUBLIC_URL" | grep -iE "^HTTP|content-length|last-modified"
 ```
 
 ## Step 7: Update the download page if needed
@@ -189,7 +205,7 @@ Keep the report short. Include the following:
 - Anything you had to fix, and which files changed.
 - Any uncommitted `_docs/` changes that went into the PDF.
 - The name of the backup zip, and confirmation that the public download URL now serves the new `docapis.zip` (with its size).
-- The download links: `https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip` (what Buy Me a Coffee uses) and the short link `https://idbwrtng.com/apidocbook`.
+- The download links: `$PDF_PUBLIC_URL` (what Buy Me a Coffee redirects to) and `$PDF_SHORTLINK`, with the actual values read from `pdf.local.env`.
 
 ## Reference: files involved
 
@@ -197,7 +213,8 @@ Keep the report short. Include the following:
 |---|---|
 | `pdf_build_docapis_all.sh` | Main build script (Jekyll, then Prince, then split, then zip) |
 | `pdf_split_chapters.py` | Splits the comprehensive PDF by bookmarks |
-| `pdf_upload_docapis.sh` | Uploads `pdf/docapis.zip` to `s3://learnapidoc-outputs` |
+| `pdf_upload_docapis.sh` | Uploads `pdf/docapis.zip` to the bucket and key in `pdf.local.env` |
+| `pdf.local.env` (gitignored) | Bucket, key, download URL, and short link |
 | `configs/_config_pdf_all.yml` | Standalone Jekyll config for the print build (not merged with `_config.yml`) |
 | `prince-list-all.txt` | Liquid template that lists the pages in sidebar order (`_data/docapis.yml`) |
 | `_layouts/printpdf.html` | Print layout. Loads the PDF CSS and defines the header and footer script functions |

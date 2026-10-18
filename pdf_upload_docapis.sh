@@ -1,12 +1,19 @@
-# Uploads the zipped API course PDFs to Wasabi. The Buy Me a Coffee download
-# links to https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip,
-# so always overwrite that same key (overwrites are enabled on the bucket).
-# The bucket has no versioning, so back up the old zip first, for example:
-#   aws s3 cp s3://learnapidoc-outputs/docapis.zip s3://learnapidoc-outputs/docapis-YYYY-MM-DD.zip --profile wasabi --endpoint-url=https://s3.us-west-1.wasabisys.com
+# Uploads pdf/docapis.zip to Wasabi, overwriting the same key that the
+# Buy Me a Coffee product redirects to (overwrites are enabled on the bucket).
+# The bucket, key, and URLs live in pdf.local.env, which is gitignored so
+# the paid download URL doesn't appear in the public repo.
+# The bucket has no versioning, so back up the old zip first (see the
+# update-api-doc-pdf skill).
 set -e
+cd "$(dirname "$0")"
+if [ ! -f pdf.local.env ]; then
+  echo "Missing pdf.local.env. Copy pdf.local.env.example and fill in the real values."
+  exit 1
+fi
+source pdf.local.env
 source .venv/bin/activate
 
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis.zip s3://learnapidoc-outputs \
+aws s3 cp pdf/docapis.zip "s3://$PDF_BUCKET/$PDF_KEY" \
     --profile wasabi \
-    --endpoint-url=https://s3.us-west-1.wasabisys.com
+    --endpoint-url="$PDF_ENDPOINT"
 echo 'done uploading'

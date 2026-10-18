@@ -19,7 +19,7 @@ The build expects the project to be at `/Users/tomjohnson/projects/idratherbewri
 
 ## 1. Download the images from Wasabi
 
-Prince needs local copies of the course images. Sync them from Wasabi into `images/api` (this only downloads, so it doesn't touch the lock-protected files in the bucket):
+The print build points Prince at local copies of the course images (Prince can load remote images too, but local copies are faster and work offline). Sync them from Wasabi into `images/api` (this only downloads, so it doesn't touch the lock-protected files in the bucket):
 
 ```
 source .venv/bin/activate
@@ -63,13 +63,17 @@ If the PDF is plain and unstyled and has a lot more pages than expected, Prince 
 
 ## 4. Upload the zip to Wasabi
 
-The Buy Me a Coffee download links directly to `https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip`. The Rebrandly short link `https://idbwrtng.com/apidocbook` points to the same file. The upload overwrites that file on purpose, so the URL never changes and the Buy Me a Coffee link never needs updating. (Overwrites are enabled on the `learnapidoc-outputs` bucket for this reason.) The bucket has no versioning, so if you want to keep the previous version, copy it first:
+The Buy Me a Coffee product redirects buyers to the zip file's public URL. The upload overwrites that file on purpose, so the URL never changes and the Buy Me a Coffee link never needs updating. (Overwrites are enabled on the bucket for this reason.)
+
+The bucket name, file key, download URL, and short link are in `pdf.local.env` at the repo root. That file is gitignored so the paid download URL doesn't appear in the public repo. If you reclone the repo, recreate it from `pdf.local.env.example` (keep a copy of the real values somewhere safe, such as a password manager).
+
+The bucket has no versioning, so if you want to keep the previous version, copy it first:
 
 ```
-source .venv/bin/activate
-aws s3 cp s3://learnapidoc-outputs/docapis.zip s3://learnapidoc-outputs/docapis-YYYY-MM-DD.zip \
+source pdf.local.env && source .venv/bin/activate
+aws s3 cp "s3://$PDF_BUCKET/$PDF_KEY" "s3://$PDF_BUCKET/docapis-YYYY-MM-DD.zip" \
     --profile wasabi \
-    --endpoint-url=https://s3.us-west-1.wasabisys.com
+    --endpoint-url="$PDF_ENDPOINT"
 ```
 
 Then upload the new zip:
