@@ -9,7 +9,7 @@ weight: 2.1
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -45,7 +45,7 @@ Click the **Check wind conditions** button to see wind and temperature details. 
 
 The above example is extremely simple. You could also build an attractive interface like this:
 
-<a class="noCrossRef" href="https://weather.yahoo.com/united-states/california/santa-clara-2488836/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/attractiveinterfaceweather.png" alt="Sample weather interface" /></a>
+<a class="noCrossRef" href="https://weather.yahoo.com/us/ca/santa-clara/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/attractiveinterfaceweather.png" alt="Sample weather interface" /></a>
 
 The concept and general techniques are more or less the same. Behind the scenes, the code makes requests to a weather service API and then displays the returned information in a stylized user interface.
 
@@ -57,14 +57,13 @@ Although there are [many good weather API options for developers](https://superd
 
 Let's explore the basic sections in the [OpenWeatherMap API](https://openweathermap.org/api/):
 
-1.  Go to the [openweathermap.org](https://openweathermap.org).
-2.  Click **API** in the top navigation bar.
-3.  In the **Current weather data** section, click the **API doc** button.
-4.  Click some of the links in the **Examples of API calls** sections.
+1.  Go to the [OpenWeatherMap API page](https://openweathermap.org/api).
+2.  In the **Current Weather Data** section, click the **API doc** button.
+3.  Read through the **API call** and **Examples of API calls** sections. (The sample links in these sections might return an error now, but the URLs still show how requests are constructed.)
 
     Get a sense of the information this Current Weather Data API provides. The API calls provide developers with ways to pull information into their applications. In other words, the APIs will provide the data plumbing for the applications that developers build.
 
-5.  Answer the following questions about the Current Weather Data API endpoint:
+4.  Answer the following questions about the Current Weather Data API endpoint:
 
     * Does the API provide the information we need about temperature, wind speed, wind direction, and current conditions?
     * How many different ways can you specify the location for the weather information?
@@ -74,10 +73,10 @@ Let's explore the basic sections in the [OpenWeatherMap API](https://openweather
 
 ## Explore the Xweather API {#xweather}
 
-Before diving too far down in the OpenWeatherMap API, let's look at another weather API for contrast. In contrast to the OpenWeatherMap API, the [Xweather API](http://www.xweather.com/) is a bit more robust and extensive. Explore the Xweather API by doing the following:
+Before diving too far down in the OpenWeatherMap API, let's look at another weather API for contrast. In contrast to the OpenWeatherMap API, the [Xweather API](https://www.xweather.com/) is a bit more robust and extensive. Explore the Xweather API by doing the following:
 
-1. Go to [www.xweather.com](http://www.xweather.com).
-2. Go to **Developer > Documentation** on the top navigation bar. Then click [**Weather API**](https://www.xweather.com/docs/weather-api).
+1. Go to [www.xweather.com](https://www.xweather.com).
+2. Go to the [Xweather documentation](https://www.xweather.com/docs), and then click [**Weather API**](https://www.xweather.com/docs/weather-api).
 3. In the left sidebar, click **Endpoints**. Select the **All** tab to show all endpoints, and then scroll down a bit and click **[/observations](https://www.xweather.com/docs/weather-api/endpoints/observations)**.
 
 	<a class="noCrossRef" href="https://www.xweather.com/docs/weather-api/endpoints/observations" class="noExtIcon"><img class="medium" src="{{site.api_media}}/xweather_observations.png" alt="Xweather Endpoints" /></a>

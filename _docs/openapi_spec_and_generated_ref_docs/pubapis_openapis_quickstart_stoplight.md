@@ -8,7 +8,7 @@ section: restapispecifications
 path1: learnapidoc/restapispecifications.html
 redirect_from:
 - /learnapidoc/stoplight_studio_tutorial.html
-last-modified: 2024-11-23
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -26,7 +26,7 @@ Before we get started, let's address an initial question about the approach we'r
 
 All approaches have their merits. But if you don't work with the OpenAPI specification enough to remember all the fields and syntax for each property, or if you're learning it for the first time, trying to get the syntax valid in the raw code can be challenging. Coding by hand leads to many errors and forces you to spend a lot of time troubleshooting invalid syntax.
 
-Using an editor helps you avoid these errors and focus instead on the content. The less time you spend fiddling with syntax and more time working on content, the better the outcome of the documentation. For more on the philosophy of not getting lost in the syntactical details of the spec, but instead focusing on content, read this post by Phil Sturgeon, who says Stoplight is "an absolute game changer for API Design, and something I've been waiting for since I found out about it somewhere in 2018" ([Reinventing API Design with Stoplight](https://phil.tech/2019/08/22/reinventing-api-design-stoplight-studio/)).
+Using an editor helps you avoid these errors and focus instead on the content. The less time you spend fiddling with syntax and more time working on content, the better the outcome of the documentation. For more on the philosophy of not getting lost in the syntactical details of the spec, but instead focusing on content, read this post by Phil Sturgeon, who says Stoplight is "an absolute game changer for API Design, and something I've been waiting for since I found out about it somewhere in 2018" ([Reinventing API Design with Stoplight Studio](https://philsturgeon.com/reinventing-api-design-stoplight-studio/)).
 
 As a technical writer who likes working in Markdown and other raw formats, I can see the appeal of working directly in the code. But the OpenAPI syntax is quite complex, and YAML is fussy. I'd rather be worrying more about the content than addressing syntax issues. But even so, Stoplight lets you switch into the code view to work in that mode when you want, and switch back into the visual view when you want. Changes you make in one mode sync to the other. This gives you the best of both worlds.
 
@@ -34,9 +34,9 @@ As a technical writer who likes working in Markdown and other raw formats, I can
 
 Before we begin the tutorial, note the following:
 
-* Stoplight isn't the only GUI editor for creating OpenAPI specifications. You can also use [OpenAPI-GUI](https://mermade.github.io/openapi-gui/), [Apibldr](https://apibldr.com/), [SwaggerHub's visual editor](https://app.swaggerhub.com/help/ui/visual-editor), and others. However, I think Stoplight's editor is one of the most mature and user-friendly.
+* Stoplight isn't the only GUI editor for creating OpenAPI specifications. You can also use [OpenAPI-GUI](https://mermade.github.io/openapi-gui/), [Apibldr](https://apibldr.com/), [SmartBear's Swagger Studio form editor](https://support.smartbear.com/swagger/studio/docs/en/edit-apis/form-editor-for-openapi-definitions.html), and others. However, I think Stoplight's editor is one of the most mature and user-friendly.
   
-* Stoplight's pricing plans offer [several tiers](https://stoplight-site.webflow.io/pricing), with free trial periods. But in general, just because you're using the Stoplight editor here, it doesn't mean you're wed to their documentation output. You can use the Stoplight editor to create a valid specification, export it, and then choose the tool you want to use to render it (for example, Stoplight, Redocly, Spectacle, Swagger UI, or some other display framework).
+* Stoplight's pricing plans offer [several tiers](https://stoplight.io/pricing), with free trial periods. But in general, just because you're using the Stoplight editor here, it doesn't mean you're wed to their documentation output. You can use the Stoplight editor to create a valid specification, export it, and then choose the tool you want to use to render it (for example, Stoplight, Redocly, Swagger UI, or some other display framework).
   
 * Stoplight's platform gives you a nice path toward more comprehensive documentation, including not only API reference content but also [conceptual documentation](docconceptual.html) and [tutorial content](docapiscode.html). In short, you can create Markdown files [similar to Stoplight's documentation](https://docs.stoplight.io/). Their platform lets you create a more seamless documentation experience for your readers across many different types of content, providing you with a complete publishing solution &mdash; not just a way to create reference content. (This tutorial will only cover creating API reference content, though.)
   
@@ -46,7 +46,7 @@ Before we begin the tutorial, note the following:
 
 ## What you'll build
 
-In this tutorial, we'll use sample information from the [OpenWeatherMap API](https://openweathermap.org/api) (more specifically, the [Current weather data endpoint](https://openweathermap.org/current)), which is the same API we've been using in other tutorials, such as the [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html).
+In this tutorial, we'll use sample information from the [OpenWeatherMap API](https://openweathermap.org/api) (more specifically, the [Current weather data endpoint](https://openweathermap.org/api/current)), which is the same API we've been using in other tutorials, such as the [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html).
 
 Here's the [documentation output](https://web.archive.org/web/20240301183425/https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api) that you'll build in this tutorial:
 
@@ -254,7 +254,7 @@ Now enter the path and parameter information:
 
     * *Name ...*: **id**
     * *[Data type]*: string
-    * *Description...*: \*\*City ID\*\*. \*Example: \`2172797\`\*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded \[here\]\(http://bulk.openweathermap.org/sample/\). You can include multiple cities in this parameter &mdash; just separate them by commas. The limit of locations is 20. \*Note: A single ID counts as a one API call. So, if you have 3 city IDs, it’s treated as 3 API calls.\*
+    * *Description...*: \*\*City ID\*\*. \*Example: \`2172797\`\*. You can call by city ID. The API responds with the exact result. The List of city IDs can be downloaded \[here\]\(https://bulk.openweathermap.org/sample/\). You can include multiple cities in this parameter &mdash; just separate them by commas. The limit of locations is 20. \*Note: A single ID counts as a one API call. So, if you have 3 city IDs, it’s treated as 3 API calls.\*
 
     \-\-\-\-\-\-\-
 
@@ -555,7 +555,7 @@ To preview the responses output, click **Preview**. See my [example here](https:
 
 ## Step 6: Preview, test, and publish the output {#preview}
 
-You've finished creating your OpenAPI spec, so let's preview, test, and publish test the documentation:
+You've finished creating your OpenAPI spec, so let's preview, test, and publish the documentation:
 
 1.  Click the **Preview** button in the upper-right corner.
 2.  In the sidebar, select the **/weather** endpoint.
@@ -567,19 +567,19 @@ The screen should look like this:
     <img src="{{site.api_media}}/18-try-it-stoplightv3.png" alt="Stoplight Try It screen" />
 
 6.  At this point, you can either publish or export your API documentation. To publish, click the green **Publish** button in the top left.
-8.  To set the visibility:
+7.  To set the visibility:
     1. Click on **Go to Docs** on the top-left to exit Stoplight. 
     2. From your workspace, look at the sidebar on the left. Click the **Share** button and choose the visibility settings for your documentation (it is set to Public by default). You can also invite other team members from the share dialog. 
 
     <img src="{{site.api_media}}/19-project-share-stoplightv3.png" alt="Sharing your Stoplight output" />
 
-1.  If you don't want to publish docs through Stoplight, you can export your OpenAPI spec file from Stoplight. From the workspace home, click the **Export** button and choose the type of code you want: 
+8.  If you don't want to publish docs through Stoplight, you can export your OpenAPI spec file from Stoplight. From the workspace home, click the **Export** button and choose the type of code you want: 
 
     <img src="{{site.api_media}}/20-export-stoplightv3.png" alt="Exporting Stoplight" />
 
     The Bundled References will resolve any `$ref` code and place them in the components section so there's no duplication. The Original will export any `$ref` code, but not resolve them. The option you choose depends on what's supported in the editor you're bringing it to.
 
-    For publishing options outside of Stoplight, you can use your OpenAPI definition with [Redocly](https://github.com/Redocly/redoc), [Swagger UI](pubapis_swagger.html), [Spectacle](https://github.com/sourcey/spectacle), [Docsy](https://github.com/google/docsy), and other tools. See [Openapi.tools](https://openapi.tools/#documentation) for a list of possibilities. You can find a [Redoc tutorial in this course here](pubapis_redocly.html).
+    For publishing options outside of Stoplight, you can use your OpenAPI definition with [Redocly](https://github.com/Redocly/redoc), [Swagger UI](pubapis_swagger.html), [Docsy](https://github.com/docsy/docsy), and other tools. See [Openapi.tools](https://openapi.tools/#documentation) for a list of possibilities. You can find a [Redoc tutorial in this course here](pubapis_redocly.html).
 
 {: .tip}
 You can view my [OpenWeatherMap API documentation on Stoplight here](https://web.archive.org/web/20240301183425/https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api). If you got stuck in the tutorial somewhere along the way, you can click Export to download my code and paste it into your code. For various demos of Stoplight with different API docs, see [Stoplight demos](pubapis_stoplight.html#stoplight_demos). 

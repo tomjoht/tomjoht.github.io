@@ -6,12 +6,12 @@ sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
 weight: 0.5
-last-modified: 2020-07-25
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-I've given numerous presentations and workshops on API documentation, and I've recorded some of them. The most recent recordings are available below. I divided this all-day workshop into multiple separate videos. Keep in mind that my API content evolves, so some older presentations might no longer match the course content.  
+I've given numerous presentations and workshops on API documentation, and I've recorded some of them. The recordings below date from 2018 to 2020. I divided the all-day Raleigh workshop into multiple separate videos. Keep in mind that my API content evolves, so these older presentations might no longer match the course content.  
 
 * TOC
 {:toc}
@@ -24,15 +24,15 @@ I've given numerous presentations and workshops on API documentation, and I've r
 
 ## One-hour crash course {#crashcourse}
 
-If you want a condensed version of videos 1-5, see this one-hour version that condenses much of the information from the other videos into one. I recorded this presentation at the [STC Summit 2019](https://www.stc.org/summit/) in Denver.
+If you want a condensed version of videos 1-5, see this one-hour version that condenses much of the information from the other videos into one. I recorded this presentation at the STC Summit 2019 in Denver.
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/5pzhtrrtkXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include ads.html %}
 
-## Most recent video (LA workshop)
+## Webinar on developer documentation trends (2020)
 
-I recorded part of a more recent API workshop held in Los Angeles here:
+Here's a webinar I gave to the STC Washington DC chapter on March 12, 2020, about how trends in API documentation differ from other tech comm trends:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/UOc2g-yRFxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -72,29 +72,29 @@ If you prefer audio only, you can listen here:
 
 Video 1 of 5:
 <div class="audioControls">
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid1.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid1.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
 Video 2 of 5:
 <div class="audioControls">
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid2.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid2.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
 Video 3 of 5:
 <div class="audioControls">
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid3.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid3.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
 {% include random_ad2.html %}
 
 Video 4 of 5:
 <div class="audioControls">
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid4.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid4.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
 Video 5 of 5:
 <div class="audioControls">
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid5.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid5.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
 ## More videos

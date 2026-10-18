@@ -6,7 +6,7 @@ weight: 3.2
 sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
-last-modified: 2020-04-06
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -23,9 +23,9 @@ last-modified: 2020-04-06
 
 ## Examples of resource descriptions {#examples}
 
-Here's an example of a resource description from the Mailchimp API's [Campaigns resource](http://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/#):
+Here's an example of a resource description from the Mailchimp API's [Campaigns resource](https://mailchimp.com/developer/marketing/api/campaigns/):
 
-<a class="noExtIcon" href="http://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/"><img src="{{site.api_media}}/mailchimpcampaigns.png"/></a>
+<a class="noExtIcon" href="https://mailchimp.com/developer/marketing/api/campaigns/"><img src="{{site.api_media}}/mailchimpcampaigns.png"/></a>
 
 {% include random_ad2.html %}
 
@@ -45,17 +45,17 @@ Typically, an API will have a number of endpoints grouped under the same resourc
 * POST `/campaigns/{campaign_id}/actions/test`
 * POST `/campaigns/{campaign_id}/actions/unschedule`
 
-Here's a resource description for the Membership resource in the [Box API](https://developer.box.com/reference/resources/group-membership/):
+Here's a resource description for the Membership resource in the [Box API](https://developer.box.com/reference/memberships-resources):
 
-<a class="noCrossRef" href="https://developer.box.com/reference/resources/group-membership/" class="noExtIcon"><img src="{{site.api_media}}/boxresourcesv2.png" style="border: 1px solid #dedede" alt="Example from Box" /></a>
+<a class="noCrossRef" href="https://developer.box.com/reference/memberships-resources" class="noExtIcon"><img src="{{site.api_media}}/boxresourcesv2.png" style="border: 1px solid #dedede" alt="Example from Box" /></a>
 
 For the Membership resource (or "object," as they call it), there are 7 different endpoints or methods you can call. The Box API describes the Membership resource and each of the endpoints that lets you access the resource.
 
 Sometimes the general resource isn't described; instead, it just groups the endpoints. The bulk of the description appears in each endpoint. For example, in the Eventbrite API, here's the Events resource:
 
-<a class="noExtIcon" href="https://www.eventbrite.com/platform/api#/reference/event"><img src="{{site.api_media}}/eventbriteresourceexample2.png"/></a>
+<a class="noExtIcon" href="https://www.eventbrite.com/platform/api"><img src="{{site.api_media}}/eventbriteresourceexample2.png"/></a>
 
-Although the Events resource isn't described here, descriptions are added for each of the Events endpoints. The Events resource contains all of these endpoints:
+Although the Events resource isn't described here, descriptions are added for each of the Events endpoints. At the time of the screenshot, the Events resource contained all of these endpoints (Eventbrite has since removed some of them, such as `/events/search/`):
 
 * `/events/search/`
 * `/events/`
@@ -76,7 +76,7 @@ Although the Events resource isn't described here, descriptions are added for ea
 And so on.
 
 {: .tip}
-When developers create APIs, they have a design question to consider: Use many variants of endpoints (as with Eventbrite's API), or provide lots of parameters to configure the same endpoint. Often there's a balance between the two. The trend seems to be toward providing separate endpoints rather than supplying a host of potentially confusing parameters within the same endpoint. On the other hand, GraphQL APIs (which I don't cover in this course) provide one endpoint with different ways to query the information the endpoint contains. See [GraphQL And REST Differences Explained With Burgers](http://apievangelist.com/2018/06/29/graphql-and-rest-differences-explained-with-burgers/) for a good explanation about GraphQL versus REST.
+When developers create APIs, they have a design question to consider: Use many variants of endpoints (as with Eventbrite's API), or provide lots of parameters to configure the same endpoint. Often there's a balance between the two. The trend seems to be toward providing separate endpoints rather than supplying a host of potentially confusing parameters within the same endpoint. On the other hand, GraphQL APIs (which I don't cover in this course) provide one endpoint with different ways to query the information the endpoint contains. See [GraphQL And REST Differences Explained With Burgers](https://apievangelist.com/2018/06/29/graphql-and-rest-differences-explained-with-burgers/) for a good explanation about GraphQL versus REST.
 
 {% include random_ad4.html %}
 
@@ -92,11 +92,11 @@ The Relationships resource isn't described but rather acts as a container for re
 * GET `/users/user-id/relationshipGet`
 * POST `/users/user-id/relationshipModify`
 
-(Instagram has since shifted to a [Graph API](https://developers.facebook.com/docs/instagram-api/).)
+(Instagram has since retired this API and shifted to the [Instagram Platform](https://developers.facebook.com/docs/instagram-platform), which is built on Facebook's Graph API.)
 
 {% include ads.html %}
 
-For another example of an API with resources and endpoints, check out the [Trello API](https://developers.trello.com/v1.0/reference#introduction).
+For another example of an API with resources and endpoints, check out the [Trello API](https://developer.atlassian.com/cloud/trello/rest/).
 
 {: .tip}
 The description of the resource is likely something you'll re-use in different places &mdash; product overviews, tutorials, code samples, quick references, etc. As a result, put a lot of effort into crafting it. Consider storing the description in a re-usable snippet in your authoring tool so that you can list it without resorting to copy/paste methods in your [quick start guide](docapis_doc_quick_reference.html).

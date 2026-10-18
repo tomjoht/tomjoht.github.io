@@ -9,7 +9,7 @@ weight: 3.5
 sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
-last-modified: 2020-05-13
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -46,15 +46,15 @@ curl is a common format to show requests for several reasons:
 
 In general, use curl to show your sample request. Here's another example of a curl request in the Parse API:
 
-<a href="http://docs.parseplatform.org/rest/guide/#updating-objects" class="noExtIcon"><img src="{{site.api_media}}/parseapirequest2.png"/></a>
+<a href="https://docs.parseplatform.org/rest/guide/#updating-objects" class="noExtIcon"><img src="{{site.api_media}}/parseapirequest2.png"/></a>
 
 You can add backslashes in curl to separate each parameter onto its own line (though, as I pointed out in the [curl tutorial](docapis_make_curl_call.html#windows_notes), Windows has trouble with backslashes).
 
 {% include random_ad4.html %}
 
-Other API doc sites might use the full resource URL, such as this plain example from Twitter:
+Other API doc sites might use the full resource URL, such as this plain example from Twitter's older v1.1 API docs:
 
-<a class="noExtIcon" href="https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-friends-list"><img src="{{site.api_media}}/twitterrequestexample.png" /></a>
+<a class="noExtIcon" href="https://web.archive.org/web/2020/https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-friends-list"><img src="{{site.api_media}}/twitterrequestexample.png" /></a>
 
 The resource URL includes both the base path and the endpoint. One problem with showing the full resource URL is that it doesn't indicate if any header information needs to be passed to authorize the request. (If your API consists of GET requests only and doesn't require authorization, great, but few APIs are set up this way.) curl requests can easily show any header parameters.
 
@@ -96,13 +96,13 @@ Because you can't entirely know which language your end users will be developing
 
 However, some APIs do show simple requests in a variety of languages. Here's an example from Twilio:
 
-<a href="https://www.twilio.com/docs/api/rest/making-calls" class="noExtIcon"><img src="{{site.api_media}}/twiliocodeexamples.png" alt="Twilio code samples" /></a>
+<a href="https://www.twilio.com/docs/voice/tutorials/how-to-make-outbound-phone-calls" class="noExtIcon"><img src="{{site.api_media}}/twiliocodeexamples.png" alt="Twilio code samples" /></a>
 
 You can select which language you want for the sample request: C#, curl, Java, Node.js, PHP, Python, or Ruby.
 
-Here's another example from the Clearbit API:
+Here's another example from the Clearbit API (since retired):
 
-<a href="https://clearbit.com/docs?javascript#enrichment-api-combined-api" class="noExtIcon"><img src="{{site.api_media}}/clearbitrequestexamples.png" alt="Clearbit code samples" /></a>
+<a href="https://web.archive.org/web/2020/https://clearbit.com/docs" class="noExtIcon"><img src="{{site.api_media}}/clearbitrequestexamples.png" alt="Clearbit code samples" /></a>
 
 You can see the request in Shell (curl), Ruby, Node, or Python. Developers can easily copy the needed code into their applications, rather than figuring out how to translate the curl request into a particular programming language.
 
@@ -115,15 +115,15 @@ Many times, product managers know which programming languages the target users d
 
 ## Auto-generating code samples
 
-If you're not using an authoring tool that auto-generates code examples, and you want to provide these code snippets, you can auto-generate code samples from both Postman and Paw, if desired.
+If you're not using an authoring tool that auto-generates code examples, and you want to provide these code snippets, you can auto-generate code samples from both Postman and RapidAPI for Mac (formerly Paw), if desired.
 
-[Paw](https://paw.cloud/) (for Mac) lets you export your request into nearly every conceivable language:
+[RapidAPI for Mac](https://paw.cloud/) lets you export your request into nearly every conceivable language:
 
-<a href="https://luckymarmot.com/paw/extensions/" class="noExtIcon"><img src="{{site.api_media}}/pawcodegenerators.png" alt="Paw code generator" /></a>
+<a href="https://paw.cloud/" class="noExtIcon"><img src="{{site.api_media}}/pawcodegenerators.png" alt="Paw code generator" /></a>
 
 After you have a request configured (a process similar to [Postman](docapis_postman.html)), you can generate a code snippet by going to **File > Export Request**.
 
-The Postman app can also generate code snippets in a similar way. I covered this process in an earlier tutorial on [Inspect the JSON from the response payload](docapis_json_console.html). In Postman, after you configure your request, click the **Code** link (which appears below the Save button in the upper-right area).
+The Postman app can also generate code snippets in a similar way. I covered this process in an earlier tutorial on [Inspect the JSON from the response payload](docapis_json_console.html). In Postman, after you configure your request, click the **Code** icon (<code>&lt;/&gt;</code>) in the right sidebar. (Older versions of Postman showed a **Code** link below the Save button.)
 
 <img src="{{site.api_media}}/postmangeneratecodesnippet.png" class="medium" alt="Generate code snippet" />
 
@@ -146,9 +146,9 @@ An SDK is any kind of tooling that makes it easier to work with your API. It's e
 
 ## API explorers provide interactivity with your own data
 
-Many APIs have an API explorer feature that lets users make actual requests directly from the documentation. For example, here's a typical reference page for Spotify's API docs:
+Many APIs have an API explorer feature that lets users make actual requests directly from the documentation. For example, here's a reference page from an earlier version of Spotify's API docs:
 
-<a href="https://developer.spotify.com/web-api/console/get-album/" class="noExtIcon"><img src="{{site.api_media}}/spotifyapiconsole.png"/></a>
+<a href="https://developer.spotify.com/documentation/web-api/reference/get-an-album" class="noExtIcon"><img src="{{site.api_media}}/spotifyapiconsole.png"/></a>
 
 Flickr's API docs also have a built-in API Explorer:
 
@@ -166,17 +166,17 @@ However, if you don't have the right data in your system, using your own API key
 
 Although interactivity is powerful, API Explorers can be a dangerous addition to your site. What if a novice user who is trying out a DELETE method accidentally removes data? How do you later remove the test data added by POST or PUT methods?
 
-It's one thing to allow GET methods, but if you include other methods, users could inadvertently corrupt their data. In Sendgrid's API, they include a warning message to users before testing out calls with their API Explorer:
+It's one thing to allow GET methods, but if you include other methods, users could inadvertently corrupt their data. In an earlier version of SendGrid's API docs, they included a warning message to users before testing out calls with their API Explorer:
 
-<a href="https://sendgrid.com/docs/API_Reference/Web_API/blocks.html" class="noExtIcon"><img src="{{site.api_media}}/sendgridwarningmessage.png" alt="SendGrid API Explorer warning message" /></a>
+<a href="https://web.archive.org/web/2018/https://sendgrid.com/docs/API_Reference/Web_API/blocks.html" class="noExtIcon"><img src="{{site.api_media}}/sendgridwarningmessage.png" alt="SendGrid API Explorer warning message" /></a>
 
 Foursquare's API docs used to have a built-in API explorer in the previous version of their docs (shown below), but they have since removed it. I'm not sure why &mdash; maybe they ran into some of these issues.
 
-<a href="https://developer.foursquare.com/docs" class="noExtIcon"><img src="{{site.api_media}}/foursquareapiexplorer.png" alt="Foursquare's API Explorer" /></a>
+<a href="https://docs.foursquare.com/developer/" class="noExtIcon"><img src="{{site.api_media}}/foursquareapiexplorer.png" alt="Foursquare's API Explorer" /></a>
 
 As far as integrating custom API Explorer tooling, this is a task that should be relatively easy for developers. All the API Explorer does is map values from a field to an API call and return the response to the same interface. In other words, the API plumbing is all there &mdash; you just need a little JavaScript and front-end skills to make it happen.
 
-However, you don't have to build your own tooling. Existing tools such as [Swagger UI](http://swagger.io/swagger-ui/) (which parses an [OpenAPI specification document](pubapis_openapi_tutorial_overview.html)) and [Readme.com](http://readme.com) (which allows you to enter the details manually or from an OpenAPI specification) can integrate API Explorer functionality directly into your documentation.
+However, you don't have to build your own tooling. Existing tools such as [Swagger UI](https://swagger.io/tools/swagger-ui/) (which parses an [OpenAPI specification document](pubapis_openapi_tutorial_overview.html)) and [Readme.com](https://readme.com) (which allows you to enter the details manually or from an OpenAPI specification) can integrate API Explorer functionality directly into your documentation.
 
 {: .tip}
 For a tutorial on how to create your own API explorer functionality, see the [Swagger UI tutorial](pubapis_swagger.html).

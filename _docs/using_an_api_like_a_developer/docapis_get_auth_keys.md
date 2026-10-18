@@ -7,7 +7,7 @@ weight: 2.2
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -34,14 +34,14 @@ To run the code samples in this course, you will need to use your own API keys, 
 To get an API key for the OpenWeatherMap API:
 
 1.  Go to [openweathermap.org](https://openweathermap.org).
-2.  Click **Sign Up** in the top navigation bar and create an account.
+2.  Click **Get API Key**. On the sign-in page, click **Create an Account** and complete the sign-up form.
 3.  After you sign up, your API key is sent to the email address you provide.
 
-    You can also find your API key on the site's Developer Dashboard. (To find your API key on the site, return to the OpenWeatherMap homepage and click **Sign in**. After signing in, you'll see the developer dashboard. Click the **API Keys** tab (highlighted in the screenshot below).
+    You can also find your API key on the site's developer dashboard. To find it, sign in at [home.openweathermap.org](https://home.openweathermap.org/users/sign_in), and then click the **API keys** tab (highlighted in the screenshot below).
 
     <figure><img class="docimage large" src="{{site.api_media}}/apikeysopenweathermap.png" alt="API Keys tab on OpenWeatherMap Developer Dashboard" /><figcaption>API Keys tab on OpenWeatherMap Developer Dashboard</figcaption></figure>
 
-5.  Copy the key to a place you can easily find it.
+4.  Copy the key to a place you can easily find it.
 
 (Note: It can take an hour or so for a new OpenWeatherMap API key to activate.)
 
@@ -51,8 +51,8 @@ To get an API key for the OpenWeatherMap API:
 
 Now for contrast, let's get the keys for the Xweather API, using a trial developer account. The Xweather API requires both a secret and ID to make requests.
 
-1.  Go to [https://www.xweather.com](http://www.xweather.com) and click **Developer > Free developer trial**.
-2.  Click **Sign Up For Free Trial**. (The free developer version limits the number of requests you can make and expires in 30 days.)
+1.  Go to [https://www.xweather.com](https://www.xweather.com) and click **Sign up for free**.
+2.  Choose the free option. (In the US and Canada, the pay-as-you-go plan includes 15,000 free accesses each month and doesn't require a credit card. Outside the US and Canada, the sign-up options differ.)
 3.  Complete the required fields to sign in. Click the activation email as well.
 4.  After you sign up for an account, sign in and go to your [Dashboard](https://account.xweather.com/account/member).
 5.  Click **Apps.** By default, you probably already have a Demo App. If not, click **Apps**, and then click **New Application**.

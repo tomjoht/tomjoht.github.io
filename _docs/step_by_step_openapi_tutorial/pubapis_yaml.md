@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 5.2
 section: openapitutorial
 path1: learnapidoc/restapispecifications.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -24,7 +24,7 @@ YAML stands for "YAML Ain't Markup Language." This means that the YAML syntax do
 
 YAML is easier to work with because it removes the brackets, curly braces, and commas that get in the way of reading content.
 
-<figure><a href="http://yaml.org/" class="noExtIcon"><img src="{{site.api_media}}/yamlscreenshot.png" alt="YAML" /></a><figcaption>The YAML site itself is written using YAML, which you can immediately see is not intended for coding web pages.</figcaption></figure>
+<figure><a href="https://yaml.org/" class="noExtIcon"><img src="{{site.api_media}}/yamlscreenshot.png" alt="YAML" /></a><figcaption>The YAML site itself is written using YAML, which you can immediately see is not intended for coding web pages.</figcaption></figure>
 
 YAML is an attempt to create a more human-readable data exchange format. It's similar to JSON (which is actually a subset of YAML) but uses spaces, colons, and hyphens to indicate the structure.
 
@@ -34,11 +34,11 @@ Many computers ingest data in a YAML or JSON format. It's a syntax commonly used
 
 ## YAML is a superset of JSON
 
-For the most part, YAML and JSON are different ways of structuring the same data. Dot notation accesses the values the same way. For example, the Swagger UI can read the `openapi.json` or `openapi.yaml` files equivalently. Pretty much any parser that reads JSON will also read YAML. However, some JSON parsers might not read YAML because there are a few features YAML has that JSON lacks (more on that [below](#yaml_specific_features)).
+For the most part, YAML and JSON are different ways of structuring the same data. Dot notation accesses the values the same way. For example, the Swagger UI can read the `openapi.json` or `openapi.yaml` files equivalently. Most parsers that read YAML will also read JSON, because JSON is (for the most part) a subset of YAML. However, JSON parsers can't read YAML, partly because there are a few features YAML has that JSON lacks (more on that [below](#yaml_specific_features)).
 
 ## YAML syntax
 
-With a YAML file, spacing is significant. Each two-space indent represents a new level:
+With a YAML file, spacing is significant. Each indent (usually two spaces) represents a new level:
 
 ```yaml
 level1:
@@ -49,7 +49,7 @@ level1:
 Each new level is an object. In this example, the `level1` object contains the `level2` object, which contains the `level3` object.
 
 {: .note}
-With YAML, you generally don't use tabs (since tab spacing is non-standard). Instead, you space twice.
+YAML doesn't allow tabs for indentation. Instead, you use spaces (usually two).
 
 Each level can contain either a single key-value pair (also referred to as a *mapping* in YAML lingo) or a *sequence* (a list of items preceded by hyphens):
 
@@ -72,7 +72,7 @@ The values for each key can optionally be enclosed in quotation marks. If your v
 Earlier in the course, we looked at various [JSON structures involving objects and arrays](docapis_analyze_json.html). So let's look at the equivalent YAML syntax for each of these same JSON objects.
 
 {: .tip}
-You can use [Unserialize.me](http://www.unserialize.me/) to make the conversion from JSON to YAML or YAML to JSON.
+You can use an online converter such as [JSON to YAML Converter](https://jsonformatter.org/json-to-yaml) to make the conversion from JSON to YAML or YAML to JSON.
 
 Here are some key-value pairs in JSON:
 
@@ -160,7 +160,7 @@ Hopefully, by seeing the syntax side by side, it will begin to make more sense. 
 
 {% include random_ad4.html %}
 
-JavaScript uses the same dot notation techniques to access the values in YAML as it does in JSON. (They're pretty much interchangeable formats.) The benefit to using YAML, however, is that it's more readable than JSON.
+After a YAML file is parsed, JavaScript uses the same dot notation techniques to access the values as it does with JSON. (They're pretty much interchangeable formats.) The benefit to using YAML, however, is that it's more readable than JSON.
 
 {% include image_ad_right.html %}
 
@@ -177,7 +177,7 @@ application_programming_interface: *apidef
 
 If you access the value, the same definition will be used for both. The `*apidef` acts as an anchor or pointer to the definition established at `&apidef`.
 
-You won't use these unique YAML features in the OpenAPI tutorial, but they're worth noting because JSON and YAML aren't entirely equivalent. For details on other differences between JSON and YAML, see [Learn YAML in Minutes](http://learnxinyminutes.com/docs/yaml/). To learn more about YAML, see this [YAML tutorial](http://rhnh.net/2011/01/31/yaml-tutorial).
+You won't use these unique YAML features in the OpenAPI tutorial, but they're worth noting because JSON and YAML aren't entirely equivalent. For details on other differences between JSON and YAML, see [Learn YAML in Y Minutes](https://learnxinyminutes.com/yaml/). To learn more about YAML, see this [YAML tutorial](https://rhnh.net/2011/01/31/yaml-tutorial/).
 
 YAML is also used with [Jekyll](pubapis_jekyll.html). See my [YAML tutorial in the context of Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial) for more details.
 
@@ -185,11 +185,11 @@ YAML is also used with [Jekyll](pubapis_jekyll.html). See my [YAML tutorial in t
 
 Let's clear up some additional details around JSON and YAML in the context of the OpenAPI specification. The specification document in my OpenAPI tutorial uses YAML, but it could also be expressed in JSON. JSON is a subset of YAML, so the two are practically interchangeable formats (for the data structures we're using). Ultimately, though, the OpenAPI spec is a JSON object. The specification notes:
 
->An OpenAPI document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#format))
+>An OpenAPI Document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#format))
 
-In other words, the OpenAPI document you create is a JSON object, but you have the option of expressing the JSON using either JSON or YAML syntax. YAML is more readable and is a more common format (see API Handyman's take on [JSON vs YAML](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/#json-vs-yaml) for more discussion), so I've used YAML exclusively in code samples here. You will see that the OpenAPI specification documentation on GitHub always shows both the JSON and YAML syntax when showing specification formats. (For a more detailed comparison of YAML versus JSON, see "Relation to JSON" in the [YAML spec](http://www.yaml.org/spec/1.2/spec.html).)
+In other words, the OpenAPI document you create is a JSON object, but you have the option of expressing the JSON using either JSON or YAML syntax. YAML is more readable and is a more common format (see API Handyman's take on [JSON vs YAML](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/#json-vs-yaml) for more discussion), so I've used YAML exclusively in code samples here. You will see that the OpenAPI specification documentation on GitHub always shows both the JSON and YAML syntax when showing specification formats. (For a more detailed comparison of YAML versus JSON, see "Relation to JSON" in the [YAML spec](https://yaml.org/spec/1.2.2/).)
 
-YAML refers to data structures with three main terms: "mappings (hashes/dictionaries), sequences (arrays/lists) and scalars (strings/numbers)" (see "Introduction" in [YAML 1.2](http://www.yaml.org/spec/1.2/spec.html)). However, because the OpenAPI spec is a JSON object, it uses JSON terminology &mdash; such as "objects," "arrays," "properties," "fields," and so forth. As such, I'll be showing YAML-formatted content but describing it using JSON terminology.
+YAML refers to data structures with three main terms: "mappings (hashes/dictionaries), sequences (arrays/lists) and scalars (strings/numbers)" (see "Introduction" in [YAML 1.2.2](https://yaml.org/spec/1.2.2/)). However, because the OpenAPI spec is a JSON object, it uses JSON terminology &mdash; such as "objects," "arrays," "properties," "fields," and so forth. As such, I'll be showing YAML-formatted content but describing it using JSON terminology.
 
 ## Review and summary
 

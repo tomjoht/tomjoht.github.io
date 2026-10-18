@@ -7,7 +7,7 @@ path: Introduction to REST APIs
 section: introtoapis
 path1: learnapidoc/docapis_overview.html
 weight: 0.1
-last-modified: 2025-01-07
+last-modified: 2026-10-17
 ---
 
 In this course on writing documentation for APIs, instead of just talking about abstract concepts, I contextualize APIs with a direct, hands-on approach. You'll first learn about API documentation by using a simple weather API to put a weather forecast on your site.
@@ -112,14 +112,14 @@ JavaScript is one of the most useful and easy languages to become familiar with,
 Here are a few tools you'll need to do the activities in this course:
 
 * **Computer.** You need a computer (if attending the live workshop, a laptop and charging cord), as there are many activities to work through.
-* **Text editor**. If you don't already have a favorite text editor, download [Sublime Text](http://www.sublimetext.com/), as it works well on both Mac and Windows and is free. If you have another text editor you prefer (e.g., [Visual Studio Code](https://code.visualstudio.com/), or even [Notepad++](https://notepad-plus-plus.org/)), that will work too. Just make sure you can write code in plain text.
-* **Chrome browser**. [Chrome](https://www.google.com/chrome/) provides a Javascript Console that works well for inspecting JSON, so we'll be using Chrome. Also, in order to read JSON responses more easily in the browser, install the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) Chrome extension.
-* **Postman**. [Postman](https://www.postman.com/) is an app that allows you to make requests and see responses through a visual client. *Make sure you download the app and not the Chrome extension.*
-* **curl**. [curl](https://curl.se/) is essential for making requests to endpoints from the command line. Mac already has curl built-in, but it might not be available by default on Windows. (Some Windows 10 builds already have it in Powershell.) On Windows, open a Command Prompt and type `curl -V`. If it's not installed, go to [https://curl.se/windows/](https://curl.se/windows/) and install a version. Close and re-open your Command Prompt and try typing `curl -V` again.
+* **Text editor**. If you don't already have a favorite text editor, download [Visual Studio Code](https://code.visualstudio.com/), as it's free and works on Mac, Windows, and Linux. If you have another text editor you prefer (e.g., [Sublime Text](https://www.sublimetext.com/) or [Notepad++](https://notepad-plus-plus.org/)), that will work too. Just make sure you can write code in plain text.
+* **Chrome browser**. [Chrome](https://www.google.com/chrome/) provides a Javascript Console that works well for inspecting JSON, so we'll be using Chrome. Also, in order to read JSON responses more easily in the browser, install the [JSON Formatter](https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) Chrome extension.
+* **Postman**. [Postman](https://www.postman.com/) is an app that allows you to make requests and see responses through a visual client. You can [download the desktop app](https://www.postman.com/downloads/) or use the web version, which requires a free account.
+* **curl**. [curl](https://curl.se/) is essential for making requests to endpoints from the command line. Mac and Linux already have curl built in, and so do Windows 10 (version 1803 and later) and Windows 11. On Windows, open a Command Prompt and type `curl -V` to check. (In PowerShell, type `curl.exe -V` instead, because `curl` by itself can point to a different PowerShell command.) If curl isn't installed, go to [https://curl.se/windows/](https://curl.se/windows/) and install a version. Close and re-open your Command Prompt and try typing `curl -V` again.
 * **Git**. [Git](https://git-scm.com/) is a version control tool developers often use to collaborate on code. For Windows, see [https://gitforwindows.org/](https://gitforwindows.org/) to set up Git and the Git BASH terminal emulator. For Mac, see [Downloading Git](https://git-scm.com/download/mac).
 * **GitHub account**. [GitHub](https://github.com) will be used for various activities, sometimes to demonstrate the Git workflow and other times as an authentication service for developer tools. If you don't already have a GitHub account, sign up for one.
 * **OpenAPI Editor**. When working with the OpenAPI specification, we'll use an OpenAPI editor. You can use [Swagger Editor](https://editor.swagger.io/) (free, web-based), [Visual Studio Code with OpenAPI extensions](https://marketplace.visualstudio.com/search?term=openapi&target=VSCode&category=All%20categories&sortBy=Relevance), or [Postman](https://www.postman.com/api-platform/api-design/) (which includes OpenAPI support). These tools provide visual modeling capabilities for working with the OpenAPI specification.
-* **OpenWeatherMap API key**. We'll be using the OpenWeatherMap API for some exercises. It takes a couple of hours for the OpenWeatherMap API key to become active, so it's best if you get the API key ahead of time &mdash; then when you get to the OpenWeatherMap API activities, you'll be all set. To get your (free) OpenWeatherMap API key, go to [https://openweathermap.org/](https://openweathermap.org/). Click Sign Up in the top nav bar and create an account. After you sign up, OpenWeatherMap sends you an API key to your email. you can also find it when you log in and click the API Keys tab from the dashboard. Copy the key into a place you can easily find it.
+* **OpenWeatherMap API key**. We'll be using the OpenWeatherMap API for some exercises. It takes a couple of hours for the OpenWeatherMap API key to become active, so it's best if you get the API key ahead of time &mdash; then when you get to the OpenWeatherMap API activities, you'll be all set. To get your (free) OpenWeatherMap API key, go to [https://openweathermap.org/](https://openweathermap.org/). Click **Get API Key**, and then click **Create an Account** on the sign-in page. After you sign up, OpenWeatherMap sends you an API key to your email. You can also find it when you sign in and click the **API keys** tab on the dashboard. Copy the key into a place you can easily find it.
 
 {: .note}
 **Modern Tools Note**: While this course focuses on fundamental concepts, you may also encounter modern tools like GitHub Copilot, VS Code extensions, and AI-powered documentation tools. These can enhance your workflow but aren't required for the core learning objectives.
@@ -134,7 +134,7 @@ In the past, people have asked for some tests to check whether their laptops are
 
 ## Video recordings
 
-For video recordings of this course, see the [Video recordings of API doc workshops](docapis_course_videos.html). The page lists the most recent video recordings available. The video doesn't go into the same level of detail as the written material, but it would be a good start.
+For video recordings of this course, see the [Video recordings of API doc workshops](docapis_course_videos.html). The page lists video recordings from past workshops (2018 to 2020). The videos don't go into the same level of detail as the written material, but they're a good start.
 
 See my [Upcoming Presentations](https://idratherbewriting.com/presentations/) on my blog for details about future workshops and presentations.
 
@@ -170,7 +170,7 @@ If you're following this course, you most likely want to learn more about APIs. 
 
 If you've looking for additional resources to learn API documentation as well as tech writing best practices, check out the following:
 
-* [Mark Wentowski's Mastering API documentation course](https://www.docsgeek.io/mastering-api-documentation-course), a 6-week bi-weekly course online.
+* [Mark Wentowski's Mastering API documentation course](https://www.docsgeek.io/mastering-api-documentation-course), a live 7-week online course that meets weekly.
 
 * [Cherryleaf's API documentation training course](https://www.cherryleaf.com/training-courses/documenting-apis-training-course/), by Ellis Pratt. (See a [preview here](https://cherryleaf.teachable.com/courses/advanced-technical-communication/lectures/37419185).)
 
@@ -182,7 +182,7 @@ If you've looking for additional resources to learn API documentation as well as
 
 * [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108), by Arnaud Lauret
 
-* [*Docs for Developers: An Engineer's Field Guide to Technical Writing*](https://www.apress.com/gp/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
+* [*Docs for Developers: An Engineer's Field Guide to Technical Writing*](https://link.springer.com/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
 
 * [*Standards and Guidelines for API Documentation: For Technical Writers, Software Developers, Information and Software Architects*](https://www.google.com/books/edition/Standards_and_Guidelines_for_API_Documen/B7LDzQEACAAJ?hl=en), by Anne Tarnoruder
 

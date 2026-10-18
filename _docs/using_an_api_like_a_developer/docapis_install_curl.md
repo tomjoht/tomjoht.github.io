@@ -6,7 +6,7 @@ weight: 2.4
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2019-01-01
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -67,7 +67,7 @@ Protocols: dict file ftp ftps http https imap imaps ipfs ipns ldap ldaps mqtt po
 If curl isn't available &mdash; which would mean a fairly old Windows installation &mdash; download a build from [curl's Windows download page](https://curl.se/windows/).
 
 {: .note}
-Windows PowerShell used to alias `curl` to its own `Invoke-WebRequest` cmdlet, which takes different arguments and will make the examples in this course fail. If a curl command behaves strangely in PowerShell, run it from Command Prompt instead, or type `curl.exe` explicitly to bypass the alias.
+Windows PowerShell 5.1 (the version built into Windows) aliases `curl` to its own `Invoke-WebRequest` cmdlet, which takes different arguments and will make the examples in this course fail. (PowerShell 7 removed this alias.) If a curl command behaves strangely in PowerShell, run it from Command Prompt instead, or type `curl.exe` explicitly to bypass the alias.
 
 ## Make a test API call
 
@@ -96,8 +96,8 @@ In older versions of the Windows Command Prompt, Ctrl+V doesn't paste &mdash; ri
 
 If you're using Windows, note the following formatting requirements when using curl:
 
-* Use double quotes in the Windows command line. (Windows doesn't support single quotes.)
-* Don't use backslashes (`\`) to separate lines. (This is for readability only and doesn't affect the call on Macs.)
-* By adding `-k` in the curl command, you can bypass curl's security certificate, which may or may not be necessary.
+* Use double quotes in the Windows command line. (Command Prompt doesn't treat single quotes as quotation marks.)
+* Don't use backslashes (`\`) to separate lines. (Backslashes are for readability only and don't affect the call on Macs. Command Prompt uses the caret `^` for line continuation instead.)
+* By adding `-k` in the curl command, you can bypass curl's security certificate check. Only do this for testing, because it turns off a security protection.
 
 {% include random_ad2.html %}

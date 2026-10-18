@@ -6,26 +6,26 @@ sidebar: docapis
 weight: 5.1
 section: openapitutorial
 path1: learnapidoc/restapispecifications.html
-last-modified: 2020-09-07
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-In the previous section, I explained how to create the OpenAPI spec [using a visual editor with Stoplight](pubapis_openapis_quickstart_stoplight.html). In this tutorial, I'll explain how to work in a text editor such as [Swagger Editor](http://editor.swagger.io/) to write the OpenAPI code by hand. For a higher-level introduction to the OpenAPI spec, see [Introduction to the OpenAPI specification](pubapis_openapi_intro.html).
+In the previous section, I explained how to create the OpenAPI spec [using a visual editor with Stoplight](pubapis_openapis_quickstart_stoplight.html). In this tutorial, I'll explain how to work in a text editor such as [Swagger Editor](https://editor.swagger.io/) to write the OpenAPI code by hand. For a higher-level introduction to the OpenAPI spec, see [Introduction to the OpenAPI specification](pubapis_openapi_intro.html).
 
-In this tutorial, we'll dive deeply into the OpenAPI specification. We'll use the same [OpenWeatherMap API](https://openweathermap.org/current) that we've been using throughout other parts of this course as the content for our OpenAPI document. Using this API, we'll create a valid OpenAPI specification document and then render it using Swagger UI.
+In this tutorial, we'll dive deeply into the OpenAPI specification. We'll use the same [OpenWeatherMap API](https://openweathermap.org/api/current) that we've been using throughout other parts of this course as the content for our OpenAPI document. Using this API, we'll create a valid OpenAPI specification document and then render it using Swagger UI.
 
 {: .tip }
-To see a presentation that covers the same concepts in this article, see this YouTube video: [Swagger tutorial -- How to add Swagger OpenAPI to your REST API documentation](https://goo.gl/n4Hvtq).
+To see a presentation that covers the same concepts in this article, see this YouTube video: [Swagger tutorial -- How to add Swagger OpenAPI to your REST API documentation](https://www.youtube.com/watch?v=wC5hxY0RItQ).
 
 * TOC
 {:toc}
 
 ## Swagger Editor
 
-When choosing an editor to write OpenAPI code by hand, the most common is the [Swagger Editor](http://editor.swagger.io/) because it dynamically validates your content as you write. It lets you determine whether the specification document you're creating is valid. The Swagger Editor looks like this, with the left pane showing the code and the right pane showing the output:
+When choosing an editor to write OpenAPI code by hand, the most common is the [Swagger Editor](https://editor.swagger.io/) because it dynamically validates your content as you write. It lets you determine whether the specification document you're creating is valid. The Swagger Editor looks like this, with the left pane showing the code and the right pane showing the output:
 
-<figure><a target="_blank" class="noExtIcon" href="http://editor.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swagger_editor_pic.png" alt="The Swagger Editor validates your specification content dynamically and shows you the display on the right" /></a><figcaption>The Swagger Editor validates your specification content dynamically and shows you the display on the right</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://editor.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swagger_editor_pic.png" alt="The Swagger Editor validates your specification content dynamically and shows you the display on the right" /></a><figcaption>The Swagger Editor validates your specification content dynamically and shows you the display on the right</figcaption></figure>
 
 {% include random_ad4.html %}
 
@@ -33,7 +33,7 @@ While you're coding in the Swagger Editor, if you make an error, you can quickly
 
 ## JSON or YAML format
 
-For your specification document's format, you have the choice of working in either JSON or YAML. The code sample is in the previous screenshot shows [YAML](http://yaml.org/). YAML refers to "YAML Ain't Markup Language," meaning YAML doesn't have any markup tags (`< >`), as would be common with other markup languages such as XML.
+For your specification document's format, you have the choice of working in either JSON or YAML. The code sample in the previous screenshot shows [YAML](https://yaml.org/). YAML refers to "YAML Ain't Markup Language," meaning YAML doesn't have any markup tags (`< >`), as would be common with other markup languages such as XML.
 
 {% include image_ad_right.html %}
 
@@ -48,11 +48,11 @@ Learning the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specificatio
 As you learn the OpenAPI specification, use the following resources:
 
 * [Example API Descriptions](https://learn.openapis.org/examples/). These sample specifications might help provide starting points for different scenarios you're working on.
-* [Swagger user guide](https://swagger.io/docs/specification/about/). The Swagger user guide is more friendly, conceptual, and easy to follow. It doesn't have the detail and exactness of the specification documentation on GitHub, but in many ways, it's clearer and contains more examples.
-* [OpenAPI specification documentation](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md). The specification documentation is technical and takes a little getting used to, but you'll no doubt consult it frequently when describing your API. It's a long, single page document to facilitate findability through Ctrl+F.
+* [Swagger user guide](https://swagger.io/docs/specification/v3_0/about/). The Swagger user guide is more friendly, conceptual, and easy to follow. It doesn't have the detail and exactness of the specification documentation on GitHub, but in many ways, it's clearer and contains more examples.
+* [OpenAPI specification documentation](https://spec.openapis.org/oas/latest.html). The specification documentation is technical and takes a little getting used to, but you'll no doubt consult it frequently when describing your API. It's a long, single page document to facilitate findability through Ctrl+F.
 
 {: .note}
-There are other Swagger/OpenAPI tutorials online, but make sure you follow tutorials for the [3.x.x. version of the API](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md) rather than [2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md). Version 3.0 was [released in 2017](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#appendix-a-revision-history). 3.0 is substantially different from 2.0. ([Version 3.1.1](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md) was released in 2024 and makes minor improvements to 3.0. Note that whenever I refer to 3.0, I'm referring to 3.x, meaning any incremental dot release from the 3.0 line.)
+There are other Swagger/OpenAPI tutorials online, but make sure you follow tutorials for the [3.x version of the spec](https://spec.openapis.org/oas/latest.html) rather than [2.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md). Version 3.0 was released in 2017 and is substantially different from 2.0. Version 3.1 (2021) aligned the spec with JSON Schema, and [version 3.2](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.2.0.md) (September 2025) added smaller improvements, such as hierarchical tags and support for streaming responses. This tutorial uses version 3.1.1. Note that whenever I refer to 3.0, I'm referring to 3.x, meaning any incremental dot release from the 3.0 line.
 
 ## How my OpenAPI/Swagger tutorial is different
 
@@ -70,7 +70,7 @@ By showing you how the fields in the spec appear in the Swagger UI output, the s
 
 Before continuing, I want to clarify the difference between "Swagger" and "OpenAPI" terms for those who may be unfamiliar with this landscape. ["Swagger"](https://swagger.io/) was the original name of the OpenAPI specification, but the specification was later changed to ["OpenAPI"](https://github.com/OAI/OpenAPI-Specification/) to reinforce the open, non-proprietary nature of this standard. Now, "Swagger" refers to API tooling that supports the OpenAPI spec, not the spec itself.
 
-People still often refer to both names interchangeably, but "OpenAPI" is how the spec should be referred to. The "OpenAPI specification document" or "OpenAPI document" is the Swagger YAML file that you create to describe your API. For other terms, see the [API Glossary](glossary.html). See also [What Is the Difference Between Swagger and OpenAPI?](https://smartbear.com/blog/what-is-the-difference-between-swagger-and-openapi/).
+People still often refer to both names interchangeably, but "OpenAPI" is how the spec should be referred to. The "OpenAPI specification document" or "OpenAPI document" is the Swagger YAML file that you create to describe your API. For other terms, see the [API Glossary](glossary.html). See also [What Is the Difference Between Swagger and OpenAPI?](https://web.archive.org/web/2021/https://smartbear.com/blog/what-is-the-difference-between-swagger-and-openapi/) (archived copy).
 
 {% include random_ad3.html %}
 
@@ -90,7 +90,7 @@ If you would like to get a big picture of the specification document, take a loo
 
 ## Follow the OpenAPI tutorial
 
-The OpenAPI tutorial has a brief into to YAML followed by a series of 9 steps. Each step corresponds with one of the root-level objects in the OpenAPI document.
+The OpenAPI tutorial has a brief intro to YAML followed by a series of 9 steps. Each step corresponds with one of the root-level objects in the OpenAPI document.
 
 * [Working in YAML](pubapis_yaml.html)
 * [Step 1: The openapi object](pubapis_openapi_step1_openapi_object.html)
@@ -101,12 +101,12 @@ The OpenAPI tutorial has a brief into to YAML followed by a series of 9 steps. E
 * [Step 6: security object](pubapis_openapi_step6_security_object.html)
 * [Step 7: The tags object](pubapis_openapi_step7_tags_object.html)
 * [Step 8: The externalDocs object](pubapis_openapi_step8_externaldocs_object.html)
-* [Step 9: Other elements: webhooks and jsonSchemaDialect](pubapis_openapi_step8_externaldocs_object.html)
+* [Step 9: Other elements: webhooks and jsonSchemaDialect](pubapis_openapi_step9_other_elements.html)
 
 
 You don't have to create the specification document in this order; I've merely chosen this order to provide more of a specific path and series of steps to the process.
 
-In the following sections, we'll proceed through each of these objects one by one and document the [OpenWeatherMap current API](https://openweathermap.org/current). Tackling each root-level object individually (rather than documenting everything at once) helps reduce the complexity of the spec.
+In the following sections, we'll proceed through each of these objects one by one and document the [OpenWeatherMap current API](https://openweathermap.org/api/current). Tackling each root-level object individually (rather than documenting everything at once) helps reduce the complexity of the spec.
 
 {: .note}
 `components` is more of a storage object for schemas defined in other objects, but to avoid introducing too much at once, I'll wait until the [`components` tutorial](pubapis_openapi_step5_components_object.html) to fully explain how to reference a schema in one object (using `$ref`) that points to the full definition in `components`.
@@ -120,8 +120,8 @@ Later, when I talk more about publishing, I'll explain how to configure Swagger 
 
 ## Migrating from OpenAPI 2.0 to 3.0
 
-If you have an existing specification document that validates against version OpenAPI 2.0 and you want to convert it to OpenAPI 3.0 (or vice versa), you can use [APIMATIC's Transformer](https://apimatic.io/transformer) to convert it automatically. (You can also use APIMATIC to transform your specification document into many other outputs, such as [RAML](pubapis_raml.html), [API Blueprint](pubapis_api_blueprint.html), or [Postman](docapis_postman.html).)
+If you have an existing specification document that validates against version OpenAPI 2.0 and you want to convert it to OpenAPI 3.0 (or vice versa), you can use [APIMATIC's Transformer](https://www.apimatic.io/solution/transformer) to convert it automatically. (You can also use APIMATIC to transform your specification document into many other outputs, such as [RAML](pubapis_raml.html), [API Blueprint](pubapis_api_blueprint.html), or [Postman](docapis_postman.html).)
 
-To see the difference between the 2.0 and the 3.0 code, you can copy these code samples to separate files and then use an application like [Diffmerge](https://sourcegear.com/diffmerge/) to highlight the differences. The Readme.com blog has a nice post that provides [A Visual Guide to What's New in Swagger 3.0](https://blog.readme.com/an-example-filled-guide-to-swagger-3-2/).
+To see the difference between the 2.0 and the 3.0 code, you can copy these code samples to separate files and then use an application like [Diffmerge](https://sourcegear.com/diffmerge/) to highlight the differences. The Readme.com blog had a nice post that provides [A Visual Guide to What's New in Swagger 3.0](https://web.archive.org/web/2021/https://blog.readme.com/an-example-filled-guide-to-swagger-3-2/) (archived copy).
 
 Brace yourself &mdash; this is where you'll find out if you're cut out for API technical writing.

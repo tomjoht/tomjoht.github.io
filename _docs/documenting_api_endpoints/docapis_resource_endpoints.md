@@ -7,9 +7,9 @@ sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
 redirect_from:
-- https://idratherbewriting.com/learnapidoc/docapis_doc_methods.html
-- https://idratherbewriting.com/learnapidoc/docapis_doc_resource_urls_and_methods.html
-last-modified: 2019-06-09
+- /learnapidoc/docapis_doc_methods.html
+- /learnapidoc/docapis_doc_resource_urls_and_methods.html
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -27,9 +27,9 @@ last-modified: 2019-06-09
 
 ## Examples of endpoints
 
-Here's an example of the endpoints for the relationships resource in the Instagram API:
+Here's an example of the endpoints for the relationships resource in the legacy Instagram API (since retired):
 
-<a class="noExtIcon" href="https://www.instagram.com/developer/endpoints/relationships/"><img src="{{site.api_media}}/instagramurlexample.png" /></a>
+<a class="noExtIcon" href="https://web.archive.org/web/2017/https://www.instagram.com/developer/endpoints/relationships/"><img src="{{site.api_media}}/instagramurlexample.png" /></a>
 
 The endpoint is usually set off in a stylized way that gives it more visual attention. Much of the documentation is built around the endpoint, so it might make sense to give each endpoint more visual weight in your documentation.
 

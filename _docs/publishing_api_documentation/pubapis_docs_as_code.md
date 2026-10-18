@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 9.3
 section: publishingapis
 path1: learnapidoc/publishingapis.html
-last-modified: 2019-08-21
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -30,7 +30,7 @@ Riona says they helped solve the problem by integrating documentation into the e
 
 The method quickly gained traction, with hundreds of developer projects adopting the new method. Now instead of authoring documentation in a separate system (using writer-centric tools), developers simply add the doc in the same repository as the code. This location ensures that anyone who is using the code can also find the documentation. Engineers can either read the documentation directly in the Markdown source, or they can read it displayed in a browser.
 
-If you plan to have developers write, definitely check out Riona Macnamara's Write the Docs 2015 presentation: [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/embed/EnB8GtPuauw).
+If you plan to have developers write, definitely check out Riona Macnamara's Write the Docs 2015 presentation: [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/watch?v=EnB8GtPuauw).
 
 ## What docs-as-code tools means
 
@@ -38,7 +38,7 @@ Having developers write or contribute to documentation should inform your tool c
 
 *  **Working in plain text files** (rather than binary file formats like Adobe FrameMaker or Microsoft Word).
 *  **Using an open-source static site generator** like [Sphinx](pubapis_static_site_generators.html#sphinx), [Jekyll](pubapis_static_site_generators.html#jekyll), or [Hugo](pubapis_static_site_generators.html#hugo) to build the files locally through the command line (rather than using a commercial program such as FrameMaker or Word).
-*  **Working with files through a text editor** such as Atom or Sublime Text (rather than relying on commercial tools with proprietary, closed systems that function like black boxes).
+*  **Working with files through a text editor** such as Visual Studio Code or Sublime Text (rather than relying on commercial tools with proprietary, closed systems that function like black boxes).
 *  **Storing docs in a version control repository** (usually a Git repo) similar to how programming code is stored (rather than keeping docs in another space like SharePoint or a shared drive); also if appropriate, potentially storing the docs in the same repository as the code itself.
 *  **Collaborating with other writers using version control** such as Git to branch, merge, push, and pull updates (rather than collaborating through large content management systems or SharePoint-like check-in/check-out sites).
 *  **Automating the site build process with continuous delivery** to build the web output from the server when you update a particular branch (rather than manually publishing and transferring files from one place to another).
@@ -68,7 +68,7 @@ Most developers are comfortable with Markdown, enjoy being able to work in their
 
 {% include random_ad4.html %}
 
-Granted, engineers who write documentation often fall prey to the [curse of knowledge](https://idratherbewriting.com07/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/). That is, the more they know about a topic, the more assumptions and background information they have getting in the way of clear communication. Even so, technical writers may not always have the time to write documentation for engineering topics. In many cases, a development group that has an API might not even have a technical writer available. Developers might handle everything, from coding to docs.
+Granted, engineers who write documentation often fall prey to the [curse of knowledge](https://idratherbewriting.com/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/). That is, the more they know about a topic, the more assumptions and background information they have getting in the way of clear communication. Even so, technical writers may not always have the time to write documentation for engineering topics. In many cases, a development group that has an API might not even have a technical writer available. Developers might handle everything, from coding to docs.
 
 {% include ads.html %}
 
@@ -76,7 +76,7 @@ If tech writers are available, API documentation is usually a collaborative effo
 
 ### Continuous delivery
 
-Continuous delivery with docs means rebuilding your output by simply committing and pushing content into a Git repository, which then detects and change and triggers a build and publishing job. Continuous delivery greatly simplifies the act of publishing. You can make edits across dozens of pages and commit your code into your doc repo. When you merge your branch into a gamma or production environment, a server process automatically starts building and deploying the content to your server. You don't have to FTP files to a server or follow some other manual deployment process.
+Continuous delivery with docs means rebuilding your output by simply committing and pushing content into a Git repository, which then detects the change and triggers a build and publishing job. Continuous delivery greatly simplifies the act of publishing. You can make edits across dozens of pages and commit your code into your doc repo. When you merge your branch into a gamma or production environment, a server process automatically starts building and deploying the content to your server. You don't have to FTP files to a server or follow some other manual deployment process.
 
 At first, learning the right Git commands might take some time. But after working this way for a few weeks, these commands become second-nature and almost built into your typing memory. Eliminating the hassle of publishing and deploying docs allows you to focus more on content, and you can push out updates quickly and easily. Publishing and deploying the output is no longer a step you have to devote time towards. Continuous delivery is the killer feature that makes docs-as-code so much more effortless (when it comes to publishing) compared to other solutions.
 
@@ -85,6 +85,10 @@ At first, learning the right Git commands might take some time. But after workin
 When your tech writing team collaborates in the same Git repository on content, you'll find a much greater awareness around what your teammates are doing. Before committing your updates into the repo, you run a `git pull` to get any updates from the remote repository. You see the files your teammates are working on, the changes they've made, and you can also more easily work on each other's content. You can also use the diffs and commits for metrics.
 
 By working out of the same repository, you aren't siloed in separate projects that exist in different spaces. Docs-as-code tools encourage collaboration.
+
+### Working with AI tools
+
+Because docs-as-code content lives in plain text files in a Git repository, AI coding tools such as Claude Code, Cursor, and GitHub Copilot can read and edit the docs the same way they read and edit code. For example, an AI tool can compare a doc page against the source code it describes, or update several pages in one pass and submit the changes as a pull request for review. This kind of workflow is much harder when docs live in a proprietary authoring tool or a content management system.
 
 ### Flexibility and control
 
@@ -117,7 +121,7 @@ At one company where I used Jekyll, we had requirements around both PDF output a
 
 Jekyll provides a templating language called Liquid that allows you to do conditional filtering, content re-use, variables, and more, so you can fill these more robust requirements. I used this advanced logic to single source the output without duplicating the content. Other static site generators (like Hugo or Sphinx) have similar templating and scripting logic that lets you accomplish advanced tasks.
 
-To handle PDF with Jekyll, I integrated a tool called [Prince](http://www.princexml.com/), which converts a list of HTML pages into a PDF document, complete with running headers and footers, page numbering, and other print styling (it even uses CSS for the styling) You could also use [Pandoc](https://pandoc.org/) to fill simpler PDF requirements. PDF is possible, just not usually an out-of-the-box feature (except with [Sphinx](http://www.sphinx-doc.org/en/master/)).
+To handle PDF with Jekyll, I integrated a tool called [Prince](https://www.princexml.com/), which converts a list of HTML pages into a PDF document, complete with running headers and footers, page numbering, and other print styling (it even uses CSS for the styling) You could also use [Pandoc](https://pandoc.org/) to fill simpler PDF requirements. PDF is possible, just not usually an out-of-the-box feature (except with [Sphinx](https://www.sphinx-doc.org/en/master/)).
 
 You can handle these more challenging factors with non-traditional tools, but it might require more expertise and creativity.
 

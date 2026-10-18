@@ -7,7 +7,7 @@ weight: 1.2
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
-last-modified: 2020-03-15
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -63,7 +63,7 @@ SOAP is a standardized protocol that requires XML as the message format for requ
 
 The WSDL file defines the allowed elements and attributes in the message exchanges. The WSDL file is machine readable and used by the servers interacting with each other to facilitate the communication.
 
-SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST APIs](https://www.soapui.org/learn/api/soap-vs-rest-api/).
+SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST APIs](https://smartbear.com/learn/api-design/soap-vs-rest-apis/).
 
 {% include image_ad_right.html %}
 
@@ -138,7 +138,7 @@ Statelessness is about where the state lives, not about getting identical respon
 
 The responses can also be cached to increase the performance. If the browser's cache already contains the information asked for in the request, the browser can just return the information from the cache instead of getting the resource from the server again.
 
-Caching with REST APIs is similar to caching of web pages. The browser uses the last-modified-time value in the HTTP headers to determine if it needs to get the resource again. If the content hasn't been modified since the last time it was retrieved, the cached copy can be used instead. Caching increases the speed of the response.
+Caching with REST APIs is similar to caching of web pages. The browser uses HTTP headers such as `Cache-Control`, `ETag`, and `Last-Modified` to determine if it needs to get the resource again. If the content hasn't been modified since the last time it was retrieved, the cached copy can be used instead. Caching increases the speed of the response.
 
 REST APIs have other characteristics, which you can dive more deeply into on this [REST API Tutorial](https://www.restapitutorial.com/introduction/whatisrest.html). One of these characteristics includes links in the responses to allow users to page through to additional items. This feature is called HATEOAS, or Hypermedia As The Engine of Application State.
 
@@ -152,7 +152,7 @@ Although there is a possible WADL (Web Application Description Language) file th
 
 To understand how to interact with a REST API, you have to *read the documentation* for the API. The need to read the docs makes the technical writer's role extremely important with REST APIs.
 
-Some formal specifications &mdash; for example, [OpenAPI](pubapis_openapi_intro.html) and [RAML](pubapis_raml.html) &mdash; have been developed to describe REST APIs. When you describe your API using the OpenAPI or RAML specification, tools that can read those specifications (such as [Swagger UI](pubapis_swagger.html) or the [RAML API Console](pubapis_raml.html#apiconsole)) will generate an interactive documentation output.
+Some formal specifications &mdash; for example, [OpenAPI](pubapis_openapi_intro.html) and [RAML](pubapis_raml.html) &mdash; have been developed to describe REST APIs. OpenAPI has become the dominant standard, while RAML has seen little development in recent years. When you describe your API using the OpenAPI or RAML specification, tools that can read those specifications (such as [Swagger UI](pubapis_swagger.html) or the [RAML API Console](pubapis_raml.html#apiconsole)) will generate an interactive documentation output.
 
 The OpenAPI specification document can take the place of the WSDL file that was more common with SOAP. Tools like [Swagger UI](pubapis_swagger.html) that read the specification documents usually produce interactive documentation (featuring API Consoles or API Explorers) and allow you to try out REST calls and see responses directly in the browser.
 

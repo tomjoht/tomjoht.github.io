@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 4.9
 section: restapispecifications
 path1: learnapidoc/restapispecifications.html
-last-modified: 2024-11-10
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -101,8 +101,8 @@ This tutorial will give you a sense of how the Redocly CLI tools work and how to
   - [4. Preview the Redoc output](#preview_output)
   - [5. Bundle up the OpenAPI definition into a single file](#bundle)
   - [6. Combine conceptual docs with reference docs](#conceptual_content)
-  - [7. Explore the premium version: Redocly API Reference](#explore_premium)
-  - [8. Publish the reference output](#build))
+  - [7. Explore additional features](#explore_premium)
+  - [8. Publish the reference output](#build)
 
 The sections aren't necessarily sequential, but they proceed through Redocly's tools in a logical way to become familiar with different aspects of the products. Also, the tutorial uses a sample OpenAPI definition related to the OpenWeatherMap API (used elsewhere in the course). Also, the instructions were written using a Mac. There might not be any differences with Windows, but note that Windows wasn't used here.
 
@@ -111,7 +111,7 @@ This tutorial is a brief exposure to Redocly's tools only. For more comprehensiv
 
 ### 1. Install the prerequisites {#prerequisites}
 
-Before you can work with the Redocly CLI tools, you need to install them. [Node.js](https://nodejs.org/en/) is a prerequisite.
+Before you can work with the Redocly CLI tools, you need to install them. [Node.js](https://nodejs.org/en/) is a prerequisite. Redocly CLI version 2 requires Node.js 20.19.0 or later (or 22.12.0 or later).
 
 1. [Install the Redocly CLI](https://redocly.com/docs/cli/installation):
 
@@ -120,7 +120,7 @@ Before you can work with the Redocly CLI tools, you need to install them. [Node.
    ```
 
     If you get a permissions error, change npm's default directory:
-    
+
     ```bash
     mkdir ~/.npm-global
     npm config set prefix '~/.npm-global'
@@ -129,7 +129,7 @@ Before you can work with the Redocly CLI tools, you need to install them. [Node.
     Then add this to your `~/.bash_profile` (or `~/.zshrc` if you're using zsh):
 
     ```bash
-    bashCopyexport PATH=~/.npm-global/bin:$PATH
+    export PATH=~/.npm-global/bin:$PATH
     ```
 
 2. Verify the installation by checking the version:
@@ -149,7 +149,7 @@ In this step, you'll break up an existing OpenAPI file into smaller files.
 
 1.  Download the [openapi_openweathermap.yml](https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) file.
 
-    Right-click the file and choose **Save Link As**. Save it in a folder called `redocly_project` in a convenient location. This OpenAPI definition is a small OpenAPI 3.0 file for one API in the [OpenWeatherMap API](https://openweathermap.org/api). Note that you can use another OpenAPI definition in this tutorial if you prefer. There's nothing special about this file &mdash; it just gives us an OpenAPI definition to work with.
+    Right-click the file and choose **Save Link As**. Save it in a folder called `redocly_project` in a convenient location. This OpenAPI definition is a small OpenAPI 3.1 file for one API in the [OpenWeatherMap API](https://openweathermap.org/api). Note that you can use another OpenAPI definition in this tutorial if you prefer. There's nothing special about this file &mdash; it just gives us an OpenAPI definition to work with.
 
 2.  Open a terminal, browse to your `redocly_project` directory, and run the split command:
 
@@ -168,32 +168,31 @@ In this step, you'll break up an existing OpenAPI file into smaller files.
         ├── openapi
         │   ├── components
         │   │   ├── parameters
-        │   │   │   ├── id.yaml
-        │   │   │   ├── lang.yaml
-        │   │   │   ├── lat.yaml
-        │   │   │   ├── lon.yaml
-        │   │   │   ├── mode.yaml
-        │   │   │   ├── q.yaml
-        │   │   │   ├── units.yaml
-        │   │   │   └── zip.yaml
-        │   │   ├── schemas
-        │   │   │   ├── Clouds.yaml
-        │   │   │   ├── Coord.yaml
-        │   │   │   ├── Main.yaml
-        │   │   │   ├── Rain.yaml
-        │   │   │   ├── Snow.yaml
-        │   │   │   ├── Sys.yaml
-        │   │   │   ├── Weather.yaml
-        │   │   │   └── Wind.yaml
-        │   │   └── securitySchemes
-        │   │       └── app_id.yaml
+        │   │   │   ├── id.yml
+        │   │   │   ├── lang.yml
+        │   │   │   ├── lat.yml
+        │   │   │   ├── lon.yml
+        │   │   │   ├── mode.yml
+        │   │   │   ├── q.yml
+        │   │   │   ├── units.yml
+        │   │   │   └── zip.yml
+        │   │   └── schemas
+        │   │       ├── 200.yml
+        │   │       ├── Clouds.yml
+        │   │       ├── Coord.yml
+        │   │       ├── Main.yml
+        │   │       ├── Rain.yml
+        │   │       ├── Snow.yml
+        │   │       ├── Sys.yml
+        │   │       ├── Weather.yml
+        │   │       └── Wind.yml
         │   ├── openapi.yml
         │   └── paths
-        │       └── weather.yaml
+        │       └── weather.yml
         └── openapi_openweathermap.yml
     ```
 
-    The original OpenAPI definition remains unchanged as `openapi_openweathermap.yml`. Redocly has extracted each of the paths, parameters, components, and other elements into individual files inside the `openapi` folder.
+    The original OpenAPI definition remains unchanged as `openapi_openweathermap.yml`. Redocly has extracted each of the paths, parameters, schemas, and other elements into individual files inside the `openapi` folder.
 
     The new `openapi.yml` file in the `openapi` directory contains references to all the extracted files. For example:
 
@@ -201,23 +200,23 @@ In this step, you'll break up an existing OpenAPI file into smaller files.
     ...
     paths:
       /weather:
-        $ref: paths/weather.yaml
+        $ref: paths/weather.yml
     ...
     ```
 
-    The `weather` path is now stored in `openapi/paths/weather.yaml`. When you open this `weather.yaml` file, you'll see that its parameters are also stored in external files:
+    The `weather` path is now stored in `openapi/paths/weather.yml`. When you open this `weather.yml` file, you'll see that its parameters are also stored in external files:
 
     ```yaml
     ...
     parameters:
-      - $ref: ../components/parameters/q.yaml
-      - $ref: ../components/parameters/id.yaml
-      - $ref: ../components/parameters/lat.yaml
-      - $ref: ../components/parameters/lon.yaml
-      - $ref: ../components/parameters/zip.yaml
-      - $ref: ../components/parameters/units.yaml
-      - $ref: ../components/parameters/lang.yaml
-      - $ref: ../components/parameters/mode.yaml
+      - $ref: ../components/parameters/q.yml
+      - $ref: ../components/parameters/id.yml
+      - $ref: ../components/parameters/lat.yml
+      - $ref: ../components/parameters/lon.yml
+      - $ref: ../components/parameters/zip.yml
+      - $ref: ../components/parameters/units.yml
+      - $ref: ../components/parameters/lang.yml
+      - $ref: ../components/parameters/mode.yml
     ...
     ```
 
@@ -235,7 +234,7 @@ You can customize how files are split using options like `--separator` to contro
 
 Redocly lets you run a linter against your OpenAPI definition to check for best practices. In this step, you'll explore the linting capabilities.
 
-1.  First, create a `.redocly.yaml` configuration file in your root directory with these basic settings:
+1.  First, create a `redocly.yaml` configuration file in your `redocly_project` folder with these basic settings:
 
     ```yaml
     extends:
@@ -246,8 +245,8 @@ Redocly lets you run a linter against your OpenAPI definition to check for best 
         root: openapi/openapi.yml
     ```
 
-    This configuration uses Redocly's recommended ruleset for linting. It also points to your main OpenAPI file using the proper structure.
-      
+    This configuration uses Redocly's recommended ruleset for linting. It also points to your main OpenAPI file using the proper structure. (Note that the file name is `redocly.yaml`. Older versions of Redocly CLI also accepted `.redocly.yaml`, but version 2 doesn't look for that name by default.)
+
     {: .tip}
     See [Configuration file](https://redocly.com/docs/cli/configuration/) for more configuration options.
 
@@ -262,11 +261,10 @@ Redocly lets you run a linter against your OpenAPI definition to check for best 
     The command checks your OpenAPI definition against the rules. A successful validation looks like this:
 
     ```bash
-    validating openapi/openapi.yml...
+    validating openapi/openapi.yml using lint rules for api 'main@v1'...
+    openapi/openapi.yml: validated in 70ms
 
-    openapi/openapi.yml: validated in 11ms
-
-    Woohoo! Your OpenAPI definition is valid. 🎉
+    Woohoo! Your API description is valid. 🎉
     ```
 
 4.  To see how the linter identifies issues, let's introduce an error. Open your `openapi/openapi.yml` file and remove the `license` object:
@@ -274,7 +272,7 @@ Redocly lets you run a linter against your OpenAPI definition to check for best 
     ```yaml
     license:
       name: CC Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
-      url: 'https://openweathermap.org/price'
+      url: https://openweathermap.org/price
     ```
 
 5.  Run the linter again:
@@ -286,13 +284,14 @@ Redocly lets you run a linter against your OpenAPI definition to check for best 
     You now see a warning about the missing license:
 
     ```bash
-    validating /openapi/openapi.yml...
+    validating openapi/openapi.yml using lint rules for api 'main@v1'...
     [1] openapi/openapi.yml:2:1 at #/info
 
     Info object should contain `license` field.
 
-    1 | openapi: 3.0.2
+    1 | openapi: 3.1.1
     2 | info:
+      | ^^^^
     3 |   title: OpenWeatherMap API
     4 |   description: >-
 
@@ -301,7 +300,7 @@ Redocly lets you run a linter against your OpenAPI definition to check for best 
 
 You can customize the linting behavior in several ways:
 
-- Use different rulesets: `minimal`, `recommended`, or `recommended-strict`.
+- Use different rulesets: `minimal`, `recommended`, `recommended-strict`, or `spec` (which checks compliance with the OpenAPI specification).
 - Adjust rule severity levels: `error`, `warn`, or `off`.
 - Add custom rules or override existing ones.
 
@@ -322,42 +321,39 @@ Before continuing, restore the `license` object in your `openapi.yml` file.
 
 ### 4. Preview the Redoc output {#preview_output}
 
-Redocly CLI includes a documentation preview server that automatically rebuilds when it detects changes in your OpenAPI files. Let's see it in action:
+Redocly CLI includes a preview server that automatically rebuilds when it detects changes in your OpenAPI files. Let's see it in action:
 
-1.  Run the preview server:
+1.  In your `redocly_project` folder, run the preview server:
 
     ```bash
-    redocly preview-docs openapi/openapi.yml
+    redocly preview --product=redoc
     ```
 
-    You'll see output similar to this:
+    The first time you run this command, it downloads the Redoc package, which takes a moment. You'll then see output similar to this:
 
     ```
-    Using Redoc community edition.
-    Login with redocly login or use an enterprise license key to preview with the premium docs.
+    Launching preview of Redoc enterprise using NPX.
+      ...
+      ✅ Status: No errors found
+      📄 Total pages: 9
+      👀 Watching for changes...
 
-
-      🔎  Preview server running at http://127.0.0.1:8080
-
-    Bundling...
-
-
-      👀  Watching openapi/openapi.yml and all related resources for changes
-
-    Created a bundle for main@v1 successfully
+      🌐 Preview URL: http://127.0.0.1:4000
     ```
 
-    For more details, see the [preview-docs command](https://redocly.com/docs/cli/commands/preview-docs).
+    For more details, see the [preview command](https://redocly.com/docs/cli/commands/preview).
 
     {: .note}
-    By default, you'll be using the community edition of Redoc. The premium version (Redocly API Reference) includes additional features like the Try-it-out console, enhanced search, and improved performance.
+    Redocly CLI version 1 used a `preview-docs` command for this step. Version 2 removed `preview-docs` and replaced it with `preview`. If port 4000 is already in use, the preview server uses the next available port, such as 4001.
 
-2.  Open [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser to see your API documentation:
+2.  Open [http://127.0.0.1:4000](http://127.0.0.1:4000) in your browser to see your API documentation. The preview server creates a page for each OpenAPI file in the folder. For example, the split definition appears at `http://127.0.0.1:4000/openapi/openapi`.
 
     <img src="{{site.api_media}}/redoclypreviewdocsv2.jpg" style="border: 1px solid #dedede" alt="Redocly preview" />
 
+    (The current preview might look a little different from this screenshot.)
+
 3.  Test the auto-regeneration feature:
-    - Open `openapi/components/parameters/lat.yaml`
+    - Open `openapi/components/parameters/lat.yml`
     - Make a change to the description
     - Save the file
 
@@ -366,7 +362,7 @@ Redocly CLI includes a documentation preview server that automatically rebuilds 
 4.  When you're done with the preview server, press **Ctrl+C** in your terminal to stop the preview server.
 
 {: .tip}
-To use the premium features, you'll need to authenticate with `redocly login` or use an API key. We'll explore the premium version's additional capabilities in [7. Explore the premium version: Redocly API Reference](#explore_premium).
+By default, the preview runs in enterprise plan mode, which shows the commercial Redoc features (such as the Try-it console) in your local preview. We'll look at the differences between the open-source and commercial versions in [7. Explore additional features](#explore_premium).
 
 ### 5. Bundle up the OpenAPI definition into a single file {#bundle}
 
@@ -381,8 +377,8 @@ When you're ready to use your OpenAPI definition with other tools, you might nee
     The `-o dist.json` specifies the output file. After running the command, you'll see:
 
     ```bash
-    bundling openapi/openapi.yml...
-    📦 Created a bundle for openapi/openapi.yml at dist.json in 38ms.
+    bundling openapi/openapi.yml using configuration for api 'main@v1'...
+    📦 Created a bundle for openapi/openapi.yml at dist.json 19ms.
     ```
 
 2.  Open `dist.json` to see the complete OpenAPI definition with all references resolved into a single file.
@@ -397,7 +393,7 @@ A common challenge in API documentation is combining conceptual content (like ge
 1.  In your `openapi.yml` file, update the `info` section, specifically the `description` field, to reference an external Markdown file:
 
     ```yaml
-    openapi: 3.0.2
+    openapi: 3.1.1
     info:
       title: OpenWeatherMap API
       description:
@@ -408,39 +404,34 @@ A common challenge in API documentation is combining conceptual content (like ge
 
     ```markdown
     # Getting Started
-    
+
     Get the current weather, daily forecast for 16 days, and a
     three-hour-interval forecast for 5 days for your city.
 
     ## Authentication
-    
+
     Learn how to authenticate with our API.
 
     # Usage Examples
-    
+
     Interactive maps show precipitation, clouds, pressure, wind around your location.
-    
+
     **Note**: This sample covers the `current` endpoint only.
     ```
 
 3.  Start the preview server:
 
     ```bash
-    redocly preview-docs
+    redocly preview --product=redoc
     ```
 
-4.  Visit [http://127.0.0.1:8080](http://127.0.0.1:8080) and notice the following:
+    You might see a warning that Redoc doesn't support Markdown pages and will ignore `description.md`. The warning refers to standalone Markdown pages. The description content still appears in your docs because the OpenAPI file references it.
+
+4.  Go to [http://127.0.0.1:4000/openapi/openapi](http://127.0.0.1:4000/openapi/openapi) and notice the following:
 
     - The description appears in your docs.
-    - Level 1 headings (`#`) create main sidebar entries.
-    - Level 2 headings (`##`) create nested sidebar entries.
+    - The headings in the description create entries in the sidebar navigation.
     - Content is easier to maintain in a separate Markdown file.
-
-The premium version (Redocly API Reference) provides additional features for conceptual content:
-
-- The `<PullRight>` tag to add content in the right column.
-- The ability to embed API elements like `<SecurityDefinitions />`.
-- More powerful navigation options.
 
 For more complex documentation needs, consider Redocly's additional solutions:
 
@@ -452,7 +443,7 @@ For more complex documentation needs, consider Redocly's additional solutions:
 
 ### 7. Explore additional features {#explore_premium}
 
-Redoc comes in two versions: an [open-source version](https://redocly.com/redoc/) ("Redoc community edition") and a [premium version](https://redocly.com/reference) ("Redocly API Reference Docs"). The open-source version provides core functionality for rendering OpenAPI definitions with a three-panel layout. The premium version includes additional features such as:
+Redoc comes in two versions: an [open-source version](https://redocly.com/docs/redoc) ("Redoc CE," for community edition) and a [commercial version](https://redocly.com/reference) that's part of Redocly's paid plans. The open-source version provides core functionality for rendering OpenAPI definitions with a three-panel layout. The commercial version includes additional features such as:
 
 - Try-it console for testing API requests
 - Mock server functionality
@@ -467,131 +458,39 @@ Redoc comes in two versions: an [open-source version](https://redocly.com/redoc/
 
 For more information, see [Premium vs. open source features](https://redocly.com/blog/premium-vs-open-source).
 
-We've covered the basics in earlier steps. Now let's explore some more advanced features available when you authenticate with Redocly. To access premium features, you'll need to authenticate with `redocly login` or use an API key. 
+As noted in step 4, the `redocly preview` command runs in enterprise plan mode by default, so you can already explore the commercial features in your local preview. To preview only the features available in the Pro plan, add `--plan=pro` to the command.
 
-1.   Sign in to [app.redocly.com/profile](https://app.redocly.com/profile) and create a key (from the Personal Keys section).
-2.  Log in via the CLI.
-
-    ```bash
-    redocly login
-    ```
-
-3.  When prompted, enter your API key.
-
-    The response should indicate "Authorization confirmed." See the [login command](https://redocly.com/docs/cli/commands/login) for more details.
-
-4.  Start the Redocly preview server:
-
-    ```
-    redocly preview-docs
-    ```
-
-    Let's try some of Redoc's advanced features:
-
-5.  Add example code to your `description.md` file using the [PullRight feature](https://redocly.com/docs/api-reference-docs/guides/embedded-markdown#pull-right):
-
-    ```markdown
-    <PullRight>
-    Example API calls:
-
-    ```bash
-    # Get weather by city
-    curl api.openweathermap.org/data/2.5/weather?q=London
-
-    # Get weather by coordinates
-    curl api.openweathermap.org/data/2.5/weather?lat=35&lon=139
-    </PullRight>
-    ```
-
-6.  Enable interactive features in your `.redocly.yaml`:
-
-    ```yaml
-    extends:
-      - recommended
-
-    apis:
-      main@v1:
-        root: openapi/openapi.yml
-
-    theme:
-      openapi:
-        showConsole: true
-        hideTryItPanel: false
-        generateCodeSamples:
-          languages:
-            - lang: curl
-            - lang: Node.js
-            - lang: Python
-    ```
-
-Key features available in premium Redoc include the following:
-
-* Three-panel responsive design
-* Support for OpenAPI 3.1, 3.0, and Swagger 2.0
-* Code samples support through vendor extensions
-* High-level grouping in side menu with `x-tagGroups`
-* Integration with React applications
-* Enhanced customization options through configuration
-
-For additional capabilities like hosted documentation, automated builds, and enhanced features, check out [Redocly's platform solutions](https://redocly.com/docs/).
-
-Yes, I'll update this section to align with current practices. Here's my suggested revision:
+To publish docs with the commercial features, you need a Redocly plan, and you typically deploy through Redocly's [Reunite](https://redocly.com/reunite) platform. The `redocly login` command connects the CLI to Reunite. When you run it, the CLI opens a browser window where you authorize the login. See the [login command](https://redocly.com/docs/cli/commands/login) for more details.
 
 ### 8. Publish the reference output {#build}
 
-So far we've been exploring the API reference output from within the preview server. Now let's publish the reference output for hosting elsewhere:
+So far we've been exploring the API reference output from within the preview server. Now let's publish the reference output for hosting elsewhere, using the open-source version of Redoc.
 
-1.  Bundle the OpenAPI definition:
-
-    ```bash
-    redocly bundle openapi/openapi.yml -o dist.json
-    ```
-
-2.  Create a new directory called `redoc` and create an `index.html` file inside it.
-
-3.  Add this template to your `index.html` file:
-
-    ```html
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>API Reference</title>
-        <!-- needed for adaptive design -->
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700" rel="stylesheet">
-
-        <style>
-          body {
-            margin: 0;
-            padding: 0;
-          }
-        </style>
-      </head>
-      <body>
-        <redoc spec-url='dist.json'></redoc>
-        <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"> </script>
-      </body>
-    </html>
-    ```
-
-4.  Move your `dist.json` file into the `redoc` folder.
-
-5.  To view the output locally, you can use the Redocly CL:
+1.  Run the `build-docs` command:
 
     ```bash
-    redocly preview-docs dist.json
+    redocly build-docs openapi/openapi.yml
     ```
+
+    This command builds your OpenAPI definition into a single, self-contained HTML file called `redoc-static.html`. (To use a different file name, add `--output=yourfilename.html`.) You might also see a notice that an upcoming version of Redocly CLI will switch `build-docs` to Redoc 3. For this tutorial, you can ignore the notice.
+
+2.  Open `redoc-static.html` in your browser to view the output.
+
+3.  To publish the docs, upload `redoc-static.html` to any web server.
+
+Alternatively, you can add Redoc to an existing HTML page. Add the following within the `body` tags, and set `spec-url` to the location of your bundled OpenAPI file (such as `dist.json` from step 5):
+
+```html
+<redoc spec-url="dist.json"></redoc>
+<script type="module" src="https://cdn.redoc.ly/redoc/v3.x/bundles/redoc.standalone.js"> </script>
+```
+
+To view this page locally, serve it through a local web server (for example, run `python3 -m http.server` in the folder) rather than opening the file directly, because browsers block pages opened from your file system from loading the `dist.json` file. For more details, see Redoc's [HTML deployment documentation](https://redocly.com/docs/redoc/v3.x/deployment/html).
 
 {: .tip}
-You can customize your documentation with various [configuration options](https://redocly.com/docs/api-reference-docs/configuration/). Common customizations include:
+You can customize your documentation with various configuration options. Common customizations include theme colors and typography, response example settings, navigation behavior, and search functionality. See the [Redoc CE documentation](https://redocly.com/docs/redoc) for details.
 
-- Theme colors and typography
-- Response example settings
-- Navigation behavior
-- Search functionality
-
-For samples, check out [Redoc in production](https://github.com/Redocly/redoc#showcase) from companies like Docker, Zuora, and others.
+For samples, check out the [Redoc showcase](https://github.com/Redocly/redoc#showcase), which includes companies like Docker, Zuora, and others.
 
 {% include random_ad3.html %}
 
@@ -602,7 +501,7 @@ Redoc provides one of the most attractive and functional outputs for REST API do
 The tool offers several advantages:
 
 - Clean, modern interface
-- Support for OpenAPI 3.1, 3.0, and Swagger 2.0
+- Support for OpenAPI 3.x and Swagger 2.0 (Redoc 3 adds support for OpenAPI 3.2, AsyncAPI, and GraphQL)
 - Extensive customization options
 - Command-line workflow integration
 - Active development and community support

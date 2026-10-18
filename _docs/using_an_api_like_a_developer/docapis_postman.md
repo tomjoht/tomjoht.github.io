@@ -9,7 +9,7 @@ weight: 2.3
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -36,8 +36,8 @@ Some popular GUI clients include the following:
 
 * [Postman](https://www.postman.com/)
 * [Insomnia](https://insomnia.rest/)
-* [Paw](https://luckymarmot.com/paw)
-* [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension)
+* [Bruno](https://www.usebruno.com/)
+* [Hoppscotch](https://hoppscotch.io/)
 
 Of the various GUI clients available, Postman is probably the best option, since it allows you to save both calls and responses, is free, works on both Mac and PC, and is easy to configure.
 
@@ -47,7 +47,7 @@ Postman has evolved significantly and now offers many advanced features beyond b
 
 * **Postman Flows** - Visual API workflow tool for creating complex API workflows
 * **Spec Hub** - Centralized API specification management and governance
-* **Postbot** - AI-powered assistance for API development and testing
+* **Agent Mode** - AI assistance that sends requests, fixes errors, and updates tests based on natural language instructions
 * **VS Code Extension** - Seamless Postman integration within VS Code
 * **Postman CLI** - Command-line interface for automation and CI/CD integration
 * **Workspaces** - Team collaboration features for sharing collections and environments
@@ -65,9 +65,9 @@ A lot of times, abstract concepts don't make sense until you can contextualize t
 
 ## <i class="fa fa-user-circle"></i> Activity: Make requests with Postman {#make_postman_requests}
 
-In this exercise, you'll use Postman to make a request using OpenWeatherMap's [current weather data API endpoint](https://openweathermap.org/current). To make the request:
+In this exercise, you'll use Postman to make a request using OpenWeatherMap's [current weather data API endpoint](https://openweathermap.org/api/current). To make the request:
 
-1.  If you haven't already done so, download and install the Postman app at [https://www.postman.com/downloads/](https://www.postman.com/downloads/). (Make sure you download the app and not the deprecated Chrome extension.)
+1.  If you haven't already done so, download and install the Postman app at [https://www.postman.com/downloads/](https://www.postman.com/downloads/). (You can also use the web version of Postman, but the desktop app works more reliably with the activities in this course.)
 2.  Start the Postman app and sign in when prompted. Close any welcome screens so you can make a request.
 3.  Click the **+** tab to create a new tab. Insert the following endpoint into the box next to **GET**: `https://api.openweathermap.org/data/2.5/weather`
 4.  Click the **Params** tab (below the box where you inserted the endpoint) and then add the following three parameters in the **key** and **value** rows:
@@ -84,9 +84,15 @@ In this exercise, you'll use Postman to make a request using OpenWeatherMap's [c
 
     Note that many APIs pass the API key in the header rather than as a query string parameter in the request URL. (If that were the case, you would click the **Headers** tab and insert the required key-value pairs in the header. But OpenWeatherMap passes the API key as a query string parameter.)
 
-### Modern Authentication Methods
+5.  Click **Send**.
 
-Postman supports various modern authentication methods:
+	  The response appears in the lower pane. For example:
+
+    <img src="{{site.api_media}}/postmanopenweatherapiresponse3.png" class="medium"/>
+
+### Authentication methods in Postman
+
+Besides API keys in query strings, Postman supports other authentication methods on the **Authorization** tab:
 
 * **API Key** - Passed in headers or query parameters (as shown above)
 * **Bearer Token** - Used in Authorization header for OAuth 2.0 and JWT tokens
@@ -97,12 +103,6 @@ Postman supports various modern authentication methods:
 * **NTLM Authentication** - Windows authentication
 
 For sensitive data like API keys, use Postman's **Environment Variables** feature to store them securely and avoid hardcoding them in your requests.
-
-5.  Click **Send**.
-
-	  The response appears in the lower pane. For example:
-
-    <img src="{{site.api_media}}/postmanopenweatherapiresponse3.png" class="medium"/>
 
 ### Save the request
 
@@ -121,7 +121,7 @@ For sensitive data like API keys, use Postman's **Environment Variables** featur
 
 ### (Optional) Make a request for the OpenWeatherMap 5 day forecast
 
-Now instead of getting the current weather, let's use another OpenWeatherMap endpoint to get the forecast. Enter details into Postman for the [5 day forecast request](https://openweathermap.org/forecast5). In Postman, you can click a new tab, or click the arrow next to Save and choose **Save As**. Then choose your collection and request name.
+Now instead of getting the current weather, let's use another OpenWeatherMap endpoint to get the forecast. Enter details into Postman for the [5 day forecast request](https://openweathermap.org/api/forecast5). In Postman, you can click a new tab, or click the arrow next to Save and choose **Save As**. Then choose your collection and request name.
 
 A sample endpoint for the 5 day forecast, which specifies location by zip code, looks like this:
 
@@ -155,7 +155,7 @@ Postman has a lot of other functionality you can use. We'll revisit Postman late
 
 ## Other REST clients
 
-Although Postman is a popular REST client, you can also use others, such as [Insomnia](https://insomnia.rest/), [RapidAPI for Mac](https://paw.cloud/), and [Hoppscotch](https://hoppscotch.io/).
+Although Postman is a popular REST client, you can also use others, such as [Insomnia](https://insomnia.rest/), [Bruno](https://www.usebruno.com/), [Hoppscotch](https://hoppscotch.io/), and [RapidAPI for Mac](https://paw.cloud/) (formerly Paw).
 
 ## <i class="fa fa-user-circle"></i> Enter several requests for the Xweather API into Postman
 
@@ -173,29 +173,29 @@ When you make the following requests, insert your own values for the <code>CLIEN
 Get the weather forecast for your area using the [observations endpoint](https://www.xweather.com/docs/weather-api/endpoints/observations/):
 
 ```
-http://data.api.xweather.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
+https://data.api.xweather.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
-Get the weather from a city on the equator &mdash; Chimborazo, Ecuador using the same [observations endpoint](http://data.api.xweather.com/observations/):
+Get the weather from a city on the equator &mdash; Chimborazo, Ecuador using the same [observations endpoint](https://www.xweather.com/docs/weather-api/endpoints/observations/):
 
 ```bash
-http://data.api.xweather.com/observations/Chimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
+https://data.api.xweather.com/observations/Chimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
 Find out if all the country music in Knoxville, Tennessee is giving people migraines using the [indices endpoint](https://www.xweather.com/docs/weather-api/endpoints/indices/):
 
 ```bash
-http://data.api.xweather.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
+https://data.api.xweather.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
 ```
 
 You're thinking of moving to Arizona, but you want to find a place that's cool. Use the [normals endpoint](https://www.xweather.com/docs/weather-api/endpoints/normals/):
 
 ```bash
-http://data.api.xweather.com/normals/flagstaff,az?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=5&filter=hassnow
+https://data.api.xweather.com/normals/flagstaff,az?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=5&filter=hassnow
 ```
 
 {: .tip}
-With both the OpenWeatherMap and Xweather API, you can also make these requests by simply going to the URL in your address bar (because the API keys are passed in the query string rather than the header). If so, use the [JSON Formatter extension for Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) to automatically format the JSON response in the browser view.
+With both the OpenWeatherMap and Xweather API, you can also make these requests by simply going to the URL in your address bar (because the API keys are passed in the query string rather than the header). If so, use the [JSON Formatter extension for Chrome](https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) to automatically format the JSON response in the browser view.
 
 By looking at these two different weather APIs, you can see some differences in the way the information is called and returned. However, fundamentally both APIs have endpoints that you can configure with parameters. When you make requests with the endpoints, you get responses that contain information, often in JSON format. This is the core of how REST APIs work &mdash; you send a request and get a response.
 
@@ -251,12 +251,12 @@ If this button doesn't work for you, copy this [import link](https://www.postman
 
 {% include random_ad4.html %}
 
-Clicking the Run in Postman buttons should automatically prompt you to import the collections into Postman. If it doesn't work, copy the import link address and, in Postman, click **Import** in the upper-left corner. Then click the **Import From Link** tab, paste in the address and click **Import**.
+Clicking the Run in Postman buttons should automatically prompt you to import the collections into Postman. If it doesn't work, copy the import link address and, in Postman, click **Import**. Then paste the address into the import field.
 
 {: .note}
 **Note**: The Postman interface may vary slightly depending on your version. If you encounter any issues with the import process, refer to the [official Postman documentation](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) for the most current instructions.
 
 {: .tip}
-If you'd like to learn more about Postman, listen to this [interview with the Postman founder](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). We recorded this as part of the [Write the Docs podcast](http://podcast.writethedocs.org/) and focused on the documentation features within Postman. For more information on creating the Run in Postman buttons, see the [Run in Postman button](docapis_doc_getting_started_section.html#runinpostmanbutton) section in the [Getting started tutorial](docapis_doc_getting_started_section.html).
+If you'd like to learn more about Postman, listen to this [interview with the Postman founder](https://idratherbewriting.com/2018/01/22/postman-for-docs-podcast/). We recorded this as part of the [Write the Docs podcast](https://podcast.writethedocs.org/) and focused on the documentation features within Postman. For more information on creating the Run in Postman buttons, see the [Run in Postman button](docapis_doc_getting_started_section.html#runinpostmanbutton) section in the [Getting started tutorial](docapis_doc_getting_started_section.html).
 
 For the most current Postman documentation and tutorials, visit [learning.postman.com](https://learning.postman.com/).

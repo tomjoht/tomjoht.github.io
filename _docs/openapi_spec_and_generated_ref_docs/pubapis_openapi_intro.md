@@ -12,7 +12,7 @@ path1: learnapidoc/restapispecifications.html
 redirect_from:
 - /pubapis_openapi_intro/
 - /learnapidoc/pubapis_openapi_intro.html
-last-modified: 2020-07-27
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -73,7 +73,7 @@ paths:
                 $ref: "#/components/schemas/Error"
 ```
 
-This [YAML code](https://github.com/OAI/learn.openapis.org/blob/main/examples/v3.0/petstore.yaml) comes from the [Swagger Petstore demo](http://petstore.swagger.io/).
+This [YAML code](https://github.com/OAI/learn.openapis.org/blob/main/examples/v3.0/petstore.yaml) comes from the [Swagger Petstore demo](https://petstore.swagger.io/).
 
 Here's what these objects mean:
 
@@ -94,11 +94,11 @@ Before we dive into ways to manually create the OpenAPI specification document, 
 
 <figure><a target="_blank" class="noExtIcon" href="https://idratherbewriting.com/learnapidoc/docapis_trends.html"><img class="docimage medium border" src="{{site.api_media}}/trends-generating-openapi.png" alt="Percentage of auto-generation versus manual creation"></a><figcaption>Percentage of auto-generation versus manual creation</figcaption></figure>
 
-If you want to go the code-generation route, Swagger offers a variety of libraries that you can add to your programming code to generate the specification document. These Swagger libraries then parse the annotations that developers add and generate the OpenAPI specification document. These libraries are considered part of the ["Swagger Codegen"](https://swagger.io/swagger-codegen/) project. The annotation methods vary based on the programming language. For example, here's a [tutorial on annotating code with Swagger for Scalatra](http://www.infoq.com/articles/swagger-scalatra).
+If you want to go the code-generation route, there are libraries (such as [Swagger Core](https://github.com/swagger-api/swagger-core) for Java) that you can add to your programming code to generate the specification document. These libraries parse the annotations that developers add and generate the OpenAPI specification document. (Don't confuse these libraries with [Swagger Codegen](https://swagger.io/open-source/swagger-codegen/), which goes the other direction and generates client SDKs and server stubs from an OpenAPI document.) The annotation methods vary based on the programming language. For example, here's a [tutorial on annotating code with Swagger for Scalatra](https://www.infoq.com/articles/swagger-scalatra/).
 
 {% include random_ad3.html %}
 
-See [There's No Reason to Write OpenAPI By Hand](https://apisyouwonthate.com/blog/theres-no-reason-to-write-openapi-by-hand) by Phil Sturgeon for some more discussion. For example, Phil provides this sample of code annotations in Java:
+See [There's No Reason to Write OpenAPI By Hand](https://apisyouwonthate.com/blog/theres-no-reason-to-write-openapi-by-hand/) by Phil Sturgeon for some more discussion. For example, Phil provides this sample of code annotations in Java:
 
 ```java
 class UserController {
@@ -136,7 +136,7 @@ app.get('/users', (req, res) => {
 });
 ```
 
-You can see that the annotations differ by language, mostly following the allowed annotations and traditional syntax for that language. So if you want to go this route, first find out what Swagger Codegen libraries are available for that language. For more information on Codegen, see [Comparison of Automatic API Code Generation Tools For Swagger](https://apievangelist.com/2015/06/06/comparison-of-automatic-api-code-generation-tools-for-swagger/) by Kin Lane, aka the API Evangelist. For additional tools and libraries, see [Swagger services and tools](http://swagger.io/open-source-integrations/) and [Open Source Integrations](https://swagger.io/open-source-integrations/). Codegen tooling was slow to move off Swagger 2.0 when OpenAPI 3.0 first landed, but that gap has long since closed: [OpenAPI Generator](https://openapi-generator.tech/) and Swagger Codegen v3 both target 3.x, and 3.1 support is now widespread.
+You can see that the annotations differ by language, mostly following the allowed annotations and traditional syntax for that language. So if you want to go this route, first find out what annotation libraries are available for that language. For more information on code generation, see [Comparison of Automatic API Code Generation Tools For Swagger](https://apievangelist.com/2015/06/06/comparison-of-automatic-api-code-generation-tools-for-swagger/) by Kin Lane, aka the API Evangelist. For additional tools and libraries, see [OpenAPI.Tools](https://openapi.tools/). Codegen tooling was slow to move off Swagger 2.0 when OpenAPI 3.0 first landed, but that gap has long since closed: [OpenAPI Generator](https://openapi-generator.tech/) and Swagger Codegen v3 both target 3.x, and 3.1 support is now widespread.
 
 {% include image_ad_right.html %}
 
@@ -144,7 +144,7 @@ Although this code-generation approach "automates" the spec's generation, someon
 
 In short, this process isn't without effort &mdash; the automated part is having the Codegen libraries generate the model definitions and the valid specification document that conforms to the OpenAPI schema. The end result is an OpenAPI specification document that you'll then need to feed into another tool such as [Swagger UI](pubapis_swagger.html), [Redocly](pubapis_redocly.html), or another tool to generate out the documentation.
 
-Still, many developers get excited about this approach because it offers a way to generate documentation from code annotations, which is what developers have been doing for years with other programming languages such as Java (using [Javadoc](http://www.oracle.com/technetwork/articles/java/index-137868.html)) or C++ (using [Doxygen](https://www.doxygen.nl/)). They usually feel that generating documentation from the code results in less documentation drift. Docs are likely to remain up to date if the doc is tightly coupled with the code.
+Still, many developers get excited about this approach because it offers a way to generate documentation from code annotations, which is what developers have been doing for years with other programming languages such as Java (using [Javadoc](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)) or C++ (using [Doxygen](https://www.doxygen.nl/)). They usually feel that generating documentation from the code results in less documentation drift. Docs are likely to remain up to date if the doc is tightly coupled with the code.
 
 It's common that engineers generate the OpenAPI spec, so you wouldn't be out of place to simply ask developers to generate out this file from their code, writing and maintaining their own reference documentation. In my [2020 Developer Documentation Trends survey](docapis_trends.html), I asked respondents who typically generates the OpenAPI spec. Their answers trends towards either engineers or engineers + tech writers in collaboration:
 
@@ -156,7 +156,7 @@ In this course, however, I will not be covering code annotations and ways to aut
 
 ## Spec-first development of the OpenAPI spec {#specfirst}
 
-Now let's talk about the spec-first approach. Many feel that auto-generation, described in the previous section, is *not* the best approach. In [*Undisturbed REST: A Guide to Designing the Perfect API*](https://www.mulesoft.com/lp/ebook/api/restbook), [Michael Stowe](https://twitter.com/mikegstowe) recommends that teams implement the OpenAPI specification by hand and then treat the specification document as a contract that developers use when doing the actual coding. This approach is often referred to as "spec-first development."
+Now let's talk about the spec-first approach. Many feel that auto-generation, described in the previous section, is *not* the best approach. In [*Undisturbed REST: A Guide to Designing the Perfect API*](https://www.amazon.com/gp/product/B0125TOLNU), [Michael Stowe](https://x.com/mikegstowe) recommends that teams implement the OpenAPI specification by hand and then treat the specification document as a contract that developers use when doing the actual coding. This approach is often referred to as "spec-first development."
 
 <figure><a target="_blank" class="noExtIcon" href="https://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&amp;qid=1444665700"><img class="docimage large" src="{{site.api_media}}/spec_driven_development.jpg" alt="Spec-first development"></a><figcaption>Spec-first development is a philosophy about how to develop APIs more efficiently. If you follow a spec-first philosophy, you write the spec first and use it as a contract that developers code to.</figcaption></figure>
 
@@ -170,13 +170,13 @@ If the OpenAPI spec isn't used as the blueprint for the API, what is? Most likel
 
 ## Rendering Your OpenAPI specification with Swagger UI
 
-After you have a valid OpenAPI specification document that describes your API, you can then feed this specification to different tools to parse it and generate the interactive documentation similar to the [Petstore demo](http://petstore.swagger.io/).
+After you have a valid OpenAPI specification document that describes your API, you can then feed this specification to different tools to parse it and generate the interactive documentation similar to the [Petstore demo](https://petstore.swagger.io/).
 
 Probably the most common tool used to parse the OpenAPI specification is [Swagger UI](https://github.com/swagger-api/swagger-ui). (Remember, "Swagger" refers to API tooling, whereas "OpenAPI" refers to the vendor-neutral, tool agnostic specification.) After you download Swagger UI, it's pretty easy to configure it with your own specification file. I provide a [Swagger UI tutorial](pubapis_swagger.html) in an upcoming section.
 
 The Swagger UI code generates a display that looks like this:
 
-<figure><a target="_blank" class="noExtIcon" href="http://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swagger_petstore_pic.png" alt="The Swagger Petstore demo shows how Swagger UI renders the OpenAPI spec"></a><figcaption>The Swagger Petstore demo shows how Swagger UI renders the OpenAPI spec</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swagger_petstore_pic.png" alt="The Swagger Petstore demo shows how Swagger UI renders the OpenAPI spec"></a><figcaption>The Swagger Petstore demo shows how Swagger UI renders the OpenAPI spec</figcaption></figure>
 
 You can also check out the [sample Swagger UI integration with a simple weather API](pubapis_swagger_demo.html) used as a course example.
 
@@ -190,11 +190,11 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
 
     As with most Swagger-based outputs, Swagger UI provides a "Try it out" button. To make it work, you must first authorize Swagger by clicking **Authorize** and entering your API key in the Authorization modal. However, the Petstore authorization modal is just for demo purposes. There isn't any real code authorizing those requests, so you can close the Authorization modal or skip it altogether.
 
-    <figure><a target="_blank" class="noExtIcon" href="http://petstore.swagger.io/"><img class="docimage medium" src="{{site.api_media}}/swaggerui_authorize.png" alt="Authorization modal in Swagger UI"></a><figcaption>Authorization modal in Swagger UI</figcaption></figure>
+    <figure><a target="_blank" class="noExtIcon" href="https://petstore.swagger.io/"><img class="docimage medium" src="{{site.api_media}}/swaggerui_authorize.png" alt="Authorization modal in Swagger UI"></a><figcaption>Authorization modal in Swagger UI</figcaption></figure>
 
 2.  Expand the **<span style="padding: 3px; border-radius: 3px; background-color: #dedede">POST</span> `/pet`** endpoint.
 
-    <figure><a target="_blank" class="noExtIcon" href="http://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_petendpoint.png" alt="POST /pet endpoint and Try it out button in Swagger UI"></a><figcaption>POST /pet endpoint and Try it out button in Swagger UI</figcaption></figure>
+    <figure><a target="_blank" class="noExtIcon" href="https://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_petendpoint.png" alt="POST /pet endpoint and Try it out button in Swagger UI"></a><figcaption>POST /pet endpoint and Try it out button in Swagger UI</figcaption></figure>
 
 3.  Click **Try it out**.
 
@@ -203,7 +203,7 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
 4.  In the example value, change the first `id` value to a unique (and unlikely to be repeated) whole number (such as `24329`). Change the name `doggie` to a pet name you can remember (e.g., `Ponyo`).
 5.  Click **Execute**.
 
-    <figure><a target="_blank" class="noExtIcon" href="http://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_execute.png" alt="Executing a sample Petstore request"></a><figcaption>Executing a sample Petstore request</figcaption></figure>
+    <figure><a target="_blank" class="noExtIcon" href="https://petstore.swagger.io/"><img class="docimage large" src="{{site.api_media}}/swaggerui_execute.png" alt="Executing a sample Petstore request"></a><figcaption>Executing a sample Petstore request</figcaption></figure>
 
     Swagger UI submits the request and shows the [curl](docapis_make_curl_call.html) that was submitted. For example, here's the curl Swagger UI sent:
 
@@ -215,7 +215,7 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
 
     The Responses section in Swagger UI shows the response from the server. By default, the response returns JSON:
 
-    ```xml
+    ```json
     {
       "id": 1000,
       "category": {
@@ -238,11 +238,11 @@ Let's get some hands-on experience with Swagger UI using the Petstore demo. The 
 
 6.  The Petstore is a functioning API, and you have actually created a pet. For fun, expand the **<span style="padding: 3px; border-radius: 3px; background-color: #dedede">GET</span>/pet/{petId}** endpoint, click **Try it out**, enter the pet `id` you used in the previous operation, and then execute the request. You should see your pet's name returned.
 
-There are other tools besides Swagger UI that can parse your OpenAPI specification document. Some of these tools include [Apiary](https://apiary.io/), [Apigee](http://apigee.com/about/), [Lucybot](https://web.archive.org/web/20231208015906/https://lucybot.com/), [Gelato](https://gelato.io/), [Readme.com](http://readme.com/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui), and more.
+There are other tools besides Swagger UI that can parse your OpenAPI specification document. Some of these tools include [Redoc](https://github.com/Redocly/redoc), [Stoplight Elements](https://stoplight.io/open-source/elements), [Scalar](https://scalar.com/), [ReadMe](https://readme.com/), [Postman](docapis_postman.html), and many more. For a longer list, see [OpenAPI.Tools](https://openapi.tools/).
 
-Some web designers have created integrations of OpenAPI with static site generators such as Jekyll (see [Carte](https://github.com/Wiredcraft/carte) and [Readme](https://readme.com)). You can also embed Swagger UI into web pages as well. More tools roll out regularly for parsing and displaying content from an OpenAPI specification document.
+Some static site generators also have plugins that render OpenAPI documents (for example, the [docusaurus-openapi-docs](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) plugin for Docusaurus). You can also embed Swagger UI into web pages as well. More tools roll out regularly for parsing and displaying content from an OpenAPI specification document.
 
-In fact, once you have a valid OpenAPI specification, using a tool called [API Transformer](https://apitransformer.com), you can even transform it into other API specification formats, such as [RAML](http://raml.org/) or [API Blueprint](https://apiblueprint.org/). These additional formats allow you to expand your tool horizons even wider.
+In fact, once you have a valid OpenAPI specification, using a tool called [API Transformer](https://www.apimatic.io/solution/transformer), you can even transform it into other API specification formats, such as [RAML](https://raml.org/) or [API Blueprint](https://apiblueprint.org/). These additional formats allow you to expand your tool horizons even wider.
 
 ## The tech writer's role with the OpenAPI spec
 
@@ -268,7 +268,7 @@ However, up front you should be aware that there are tradeoffs to using the Open
 
 *   **Extensive request bodies problematic**: Finally, I found that endpoints with lengthy request bodies tend to be problematic. One API I had to document included requests with request bodies that were *hundreds of lines long* (the request body was used to configure an API server). With this sort of request body, many of these tools that create docs from the OpenAPI spec  fall short of being usable. You might have an unwieldy list of parameters or some other custom/complex setup and might want more control over your docs.
 
-Despite these shortcomings, OpenAPI is quickly becoming a way for more and more tools (from [Postman Run buttons](docapis_doc_getting_started_section.html#runinpostmanbutton) to nearly every API platform) to quickly ingest the information about your API and make it discoverable and interactive with robust, instructive tooling. Through your OpenAPI specification, you can port your API onto many platforms and systems as well as automatically set up unit testing and prototyping. Your OpenAPI spec is machine-readable and will give much more life and flexibility to your API docs.
+Despite these shortcomings, OpenAPI has become the standard way for tools (from [Postman Run buttons](docapis_doc_getting_started_section.html#runinpostmanbutton) to nearly every API platform) to quickly ingest the information about your API and make it discoverable and interactive with robust, instructive tooling. More recently, AI tools have also started to rely on OpenAPI documents. For example, many tools can generate an MCP server from an OpenAPI document so that AI agents can call the API. Through your OpenAPI specification, you can port your API onto many platforms and systems as well as automatically set up unit testing and prototyping. Your OpenAPI spec is machine-readable and will give much more life and flexibility to your API docs.
 
 Additionally, the generated docs from the OpenAPI provide a nice visual shape for an API. You can easily see all the endpoints and their parameters &dash; it acts like a [quick-reference guide](docapis_doc_quick_reference.html). Based on this framework, you can help users grasp the basics of your API at a glance.
 

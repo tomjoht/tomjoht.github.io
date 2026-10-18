@@ -6,7 +6,7 @@ weight: 3.4
 sidebar: docapis
 section: docendpoints
 path1: learnapidoc/docendpoints.html
-last-modified: 2020-06-27
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -69,7 +69,9 @@ REST APIs have several types of parameters:
 *  **[Path parameters](#path_parameters)**: Parameters within the path of the endpoint, before the query string (`?`). These are usually set off within curly braces.
 *  **[Query string parameters](#query_string_parameters)**: Parameters in the query string of the endpoint, after the `?`.
 
-Another property closely related to parameters, and which used to be [referred to as a parameter in OpenAPI v2.0](https://swagger.io/docs/specification/2-0/describing-request-body/), is the request body, or [`requestBody`](https://swagger.io/docs/specification/describing-request-body/) in OpenAPI code form. The request body is usually only used with CREATE or PUT methods and often includes a JSON object included in the body of the request. More details are provided in [Request bodies](#request_bodies).
+The OpenAPI specification also defines [cookie parameters](https://swagger.io/docs/specification/v3_0/describing-parameters/), which are passed in the `Cookie` header. Cookie parameters are much less common in REST APIs, so I don't cover them here.
+
+Another property closely related to parameters, and which used to be [referred to as a parameter in OpenAPI v2.0](https://swagger.io/docs/specification/v2_0/describing-request-body/), is the request body, or [`requestBody`](https://swagger.io/docs/specification/v3_0/describing-request-body/describing-request-body/) in OpenAPI code form. The request body is usually only used with POST, PUT, or PATCH methods and often includes a JSON object included in the body of the request. More details are provided in [Request bodies](#request_bodies).
 
 {: .tip}
 The terms for each of these parameter types comes from the [OpenAPI specification](pubapis_openapi_tutorial_overview.html), which defines a formal specification that includes descriptions of each parameter type (see the [Path object tutorial](pubapis_openapi_step4_paths_object.html)). Using industry standard terminology helps you develop a vocabulary to describe different elements of an API.
@@ -91,6 +93,7 @@ These data types are the most common with REST APIs:
 
 * **string**: An alphanumeric sequence of letters and/or numbers
 * **integer**: A whole number — can be positive or negative
+* **number**: A numeric value that can include decimals, such as `37.35`
 * **boolean**: True or false value
 * **object**: Key-value pairs in JSON format
 * **array**: A list of values
@@ -207,7 +210,7 @@ For example, the endpoint may be something simple, such as `/surfreport/{beachId
 }
 ```
 
-In OpenAPI v2.0, request bodies were classified as a type of parameter, but in v3.0, they are not considered a parameter but rather a path property. Given that the request body functions like a parameter, I've decided to leave them classified as a parameter for now. However, note that in the OpenAPI spec, request bodies are technically not a parameter.
+In OpenAPI v2.0, request bodies were classified as a type of parameter, but in v3.0 and later, they are not considered a parameter but rather a property of the operation object. Given that the request body functions like a parameter, I've decided to leave them classified as a parameter for now. However, note that in the OpenAPI spec, request bodies are technically not a parameter.
 
 ### Documenting complex request bodies
 
@@ -233,11 +236,11 @@ The same parameter values might be used in other requests as well, so eBay's app
 
 [Swagger UI](pubapis_swagger.html), which we explore later and also [demo](pubapis_swagger_demo.html), provides another approach to documenting the request bodies. Swagger UI shows the request bodies in the format that you see below. Swagger UI lets you toggle between an "Example Value" and a "Model" view for both responses and request bodies.
 
-<a class="noExtIcon" href="http://petstore.swagger.io/#/operations/pet/addPet"><img src="{{site.api_media}}/swaggeruiexamplemodel.png"/></a>
+<a class="noExtIcon" href="https://petstore.swagger.io/#/pet/addPet"><img src="{{site.api_media}}/swaggeruiexamplemodel.png"/></a>
 
-See the [Swagger Petstore](http://petstore.swagger.io/) to explore the demo here. The Example Value shows a sample of the syntax along with examples. When you click the **Model** link, you see a sample request body and any descriptions of each element.
+See the [Swagger Petstore](https://petstore.swagger.io/) to explore the demo here. The Example Value shows a sample of the syntax along with examples. When you click the **Model** link, you see a sample request body and any descriptions of each element. (For OpenAPI 3.x documents, Swagger UI labels this link **Schema** instead of **Model**.)
 
-The Model includes expand/collapse toggles with the values. (The [Petstore demo](http://petstore.swagger.io/) doesn't include many parameter descriptions in the Model, but if you include descriptions, they would appear here in the Model rather than in the Example Value.)
+The Model includes expand/collapse toggles with the values. (The [Petstore demo](https://petstore.swagger.io/) doesn't include many parameter descriptions in the Model, but if you include descriptions, they would appear here in the Model rather than in the Example Value.)
 
 {: .tip}
 We'll get into Swagger in much more detail in [Introduction to the OpenAPI specification](pubapis_openapi_intro.html). For now, focus on these core elements of API reference documentation. You will see these same sections appear in the OpenAPI specification.

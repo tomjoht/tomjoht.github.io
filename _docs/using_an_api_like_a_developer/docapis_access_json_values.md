@@ -9,7 +9,7 @@ weight: 2.91
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2025-07-05
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -205,7 +205,7 @@ Then we added a named element to the body of the page, like this:
 <div id="windSpeed">Wind speed: </div>
  ```
 
-We used the [jQuery `append` method](http://api.jquery.com/append/) to append the `content` variable to the element with the `windSpeed` ID on the page:
+We used the [jQuery `append` method](https://api.jquery.com/append/) to append the `content` variable to the element with the `windSpeed` ID on the page:
 
 ```js
 $("#windSpeed").append(content);
@@ -229,7 +229,6 @@ In the previous section, you retrieved a value from a JSON object. Now let's get
       "icon": "02d"
     }
   ]
-]
 }
 ```
 
@@ -282,6 +281,18 @@ $.ajax(settings).done(function (response) {
 ```
 
 (In the above code, replace `APIKEY` with your actual API key.)
+
+{: .tip}
+This tutorial uses jQuery to keep the code short, but modern JavaScript doesn't need jQuery to make requests. The built-in `fetch()` function does the same thing, as shown in the following example.
+
+```js
+fetch("https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=APIKEY&units=imperial")
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("windSpeed").append(data.wind.speed);
+    document.getElementById("currentWeather").append(data.weather[0].main);
+  });
+```
 
 ## More exercises
 

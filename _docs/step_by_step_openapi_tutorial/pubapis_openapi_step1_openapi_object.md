@@ -23,7 +23,7 @@ If you haven't already read the [OpenAPI tutorial overview](https://www.google.c
 * This OpenAPI tutorial shows the spec in context of a simple weather API [introduced earlier](https://www.google.com/search?q=docapis_scenario_for_using_weather_api.html) in this course.
 * This OpenAPI tutorial shows how the spec information gets populated in two different tools and display frameworks: [Stoplight](https://stoplight.io/) and [Swagger UI](https://github.com/swagger-api/swagger-ui).
 * This OpenAPI tutorial is a subset of the information in both the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification) and the [OpenAPI specification commentary](https://swagger.io/docs/specification/about/). In other words, it's not comprehensive of all the possible information in the spec.
-* This OpenAPI tutorial covers the *3.1.1 version* of the OpenAPI spec, which is the latest version. (Surprisingly, many tools still support only the 2.0 version.)
+* This OpenAPI tutorial covers the *3.1.1 version* of the OpenAPI spec. Version 3.2 was released in September 2025, but the 3.1.1 concepts in this tutorial still apply. (Surprisingly, some tools still support only the 2.0 version.)
 
 <div></div>
 

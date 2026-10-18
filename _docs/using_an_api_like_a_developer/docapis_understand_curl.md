@@ -6,7 +6,7 @@ weight: 2.6
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2020-09-07
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -53,19 +53,20 @@ When you type an address into a website, you see only the body of the response. 
     The header will be included *above* the body in the response:
 
     ```bash
-    ~/projects $ curl http://example.com -I
+    ~/projects $ curl http://example.com -i
     HTTP/1.1 200 OK
-    Content-Encoding: gzip
+    Date: Sun, 18 Oct 2026 02:48:42 GMT
+    Content-Type: text/html; charset=utf-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    Server: cloudflare
+    Last-Modified: Tue, 13 Oct 2026 20:08:28 GMT
+    Allow: GET, HEAD
     Accept-Ranges: bytes
-    Cache-Control: max-age=604800
-    Content-Type: text/html; charset=UTF-8
-    Date: Tue, 04 Dec 2018 04:35:43 GMT
-    Etag: "1541025663+gzip"
-    Expires: Tue, 11 Dec 2018 04:35:43 GMT
-    Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
-    Server: ECS (sjc/4F91)
-    X-Cache: HIT
-    Content-Length: 606
+
+    <!doctype html>
+    <html>
+    ...
     ```
 
 2.  To limit the response to just the header, use `-I`:
@@ -74,7 +75,7 @@ When you type an address into a website, you see only the body of the response. 
     curl http://example.com -I
     ```
 
-    The header contains the metadata about the response. All of this information is transferred to the browser when you make a request to a URL in your browser (for example, when you surf to a web page online), but the browser doesn't show you this information. You can see the header information using the [Chrome Developer Tools console](https://developers.google.com/web/tools/chrome-devtools/console/) by looking on the Network tab.
+    The header contains the metadata about the response. All of this information is transferred to the browser when you make a request to a URL in your browser (for example, when you surf to a web page online), but the browser doesn't show you this information. You can see the header information using [Chrome DevTools](https://developer.chrome.com/docs/devtools/network) by looking on the Network tab.
 
 3.  Now let's specify the method. The GET method (read) is implied by default when no other method is specified, but we'll make it explicit here with the `-X` parameter:
 
@@ -109,6 +110,10 @@ When you type an address into a website, you see only the body of the response. 
              <td markdown="span">Update a resource</td>
           </tr>
           <tr>
+             <td markdown="span">PATCH</td>
+             <td markdown="span">Partially update a resource</td>
+          </tr>
+          <tr>
              <td markdown="span">DELETE</td>
              <td markdown="span">Delete a resource</td>
           </tr>
@@ -132,7 +137,7 @@ curl has shorthand names for the various options that you include with your requ
 
 Here's what the commands mean:
 
-* `-X GET`. The `-X` signifies the method used for the request. Common options are `GET`, `POST`, `DELETE`, `PUT`. (You might also see `--get` used instead. Most curl commands have a couple of different representations. `-X GET` can also be written as `--get`.)
+* `-X GET`. The `-X` signifies the method used for the request. Common options are `GET`, `POST`, `PUT`, `PATCH`, and `DELETE`. (Most curl commands have a couple of different representations. `-X GET` can also be written as `--request GET`. Don't confuse it with `--get` or `-G`, which tells curl to append any `-d` data to the URL as a query string.)
 
 * `-H`. Submits a custom header. Include an additional `-H` for each header key-value pair you're submitting.
 
@@ -175,7 +180,7 @@ curl has a lot of possible commands, but the following are the most common when 
       </tr>
       <tr>
          <td markdown="span">`-d` or `--data`</td>
-         <td markdown="span">Includes data to post to the URL. The data needs to be [url encoded](http://www.w3schools.com/tags/ref_urlencode.asp). Data can also be passed in the request body.</td>
+         <td markdown="span">Includes data to post to the URL. The data needs to be [url encoded](https://www.w3schools.com/tags/ref_urlencode.asp). Data can also be passed in the request body.</td>
          <td markdown="span">`curl -d "data-to-post" http://www.example.com` </td>
       </tr>
       <tr>
@@ -215,7 +220,7 @@ curl -i \
      -H "Accept: application/json" \
      -X POST \
      -d "{status:MIA}" \
-     http://personsreport.com/status/person123 \
+     http://personsreport.com/status/person123
 ```
 
 (Line breaks are problematic on Windows, so I don't recommend formatting curl requests like this.)
@@ -232,7 +237,7 @@ Quiz yourself to see how much you remember. What do the following parameters mea
 * `-d`
 
 {: .tip}
-When you use curl, the Terminal and [iTerm](https://www.iterm2.com/) on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation, but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that *just work* on a Mac. Also, if you're in Silicon Valley, using a PC instead of a Mac might make you look old-fashioned (see [Why do most startups purchase MacBooks for their employees?](https://www.quora.com/Why-do-most-startups-purchase-MacBooks-for-their-employees)). Alternatively, you can run Linux on Windows, and you'll get the same terminal experience (Bash shell). See this example tutorial on how to [install Bash on Windows](https://itsfoss.com/install-bash-on-windows/)."
+When you use curl, the Terminal and [iTerm](https://iterm2.com/) on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation, but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that *just work* on a Mac. Also, if you're in Silicon Valley, using a PC instead of a Mac might make you look old-fashioned (see [Why do most startups purchase MacBooks for their employees?](https://www.quora.com/Why-do-most-startups-purchase-MacBooks-for-their-employees)). Alternatively, you can run Linux on Windows through the Windows Subsystem for Linux (WSL), and you'll get the same terminal experience (Bash shell). See Microsoft's instructions to [install WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 {% include random_ad2.html %}
 
