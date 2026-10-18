@@ -1,49 +1,36 @@
 ---
 title: PDF build instructions
 permalink: pdf_instructions.html
-last-modified: 2023-05-29
+last-modified: 2026-10-17
 published: false
 ---
 
-These instructions explain how to build the PDF outputs.
+These instructions explain how to build the PDF version of the API documentation course and upload it for download. For an agent-driven version of this process, ask Claude to run the `update-api-doc-pdf` skill (`.agent/skills/update-api-doc-pdf/SKILL.md`). The last full build was on October 17, 2026 (969 pages).
 
 ## Prerequisites
 
-* [Prince XML](https://www.princexml.com/)
+* [Prince XML](https://www.princexml.com/) (version 15.4.1 was used for the last build)
+* `pdftk` (`brew install pdftk-java`)
+* Python 3 (for splitting the PDF into chapters)
+* The Python virtual environment at `.venv`, which includes the AWS CLI used for Wasabi
+* An AWS CLI profile named `wasabi` with your Wasabi keys
 
-## Download the images from Wasabi
+The build expects the project to be at `/Users/tomjohnson/projects/idratherbewriting`, because the PDF config files use absolute paths for images and the cover. If you reclone the project, put it at this path.
 
-Switch into `myvenv`, then run:
+## 1. Download the images from Wasabi
+
+Prince needs local copies of the course images. Sync them from Wasabi into `images/api` (this only downloads, so it doesn't touch the lock-protected files in the bucket):
 
 ```
-aws s3 cp s3://idbwmedia.com/images/api/ ~/projects/idratherbewriting/images/api \
-    --recursive \
+source .venv/bin/activate
+aws s3 sync s3://idbwmedia.com/images/api/ images/api \
     --profile wasabi \
     --endpoint-url=https://s3.us-west-1.wasabisys.com
 ```
 
-Prince requires image references to be local, absolute paths and will look into this directory for the images. Note that the paths to many files in the PDF require the content to be at /Users/tomjohnson/projects/idratherbewriting. So if you reformat your computer and reclone the project, put it at this path (renaming tomjoht.github.io to idratherbewriting, and putting idratherbewriting inside of projects.)
+The `images` folder is gitignored, so you'll need to do this on any fresh clone. The cover image (`images/api/ebook_cover.png`) comes down with this sync.
 
-## Exclude content not suitable for PDF
-
-The build adds `_config_pdf_[n].yaml` in the build command to add to the configuration instructions. The PDF config file has format `pdf`, so to exclude anything from the PDF:
-
-```
-{% if site.format == "print" %}
-
-{% endif %}
-```
-
-Exclude any YouTube videos, JavaScript, Swagger demos, or other content that doesn't display well in print.
-
-## Ensure relative links are valid in the output
-
-If the output doesn't have the referenced pages, the cross reference will say 0. To avoid this:
-
-* For links to pages outside the section, use absolute links and include this class: `noCrossRef`.
-* For links to pages inside the section, use relative links.
-
-## Build the PDFs
+## 2. Build the PDFs
 
 Run this script:
 
@@ -51,188 +38,103 @@ Run this script:
 ./pdf_build_docapis_all.sh
 ```
 
-This script builds a comprehensive PDF and then splits it into individual chapter PDFs.
+The script does the following:
 
-### Important: Update page ranges before splitting
+1. Builds the site with `configs/_config_pdf_all.yml`, which sets `format: print` and uses the `printpdf` layout.
+2. Runs Prince on the pages listed in `_site/prince-list-all.txt` to create `pdf/docapis_all_chapters.pdf`. This step takes about a minute and a half.
+3. Runs `pdf_split_chapters.py`, which splits the comprehensive PDF into a frontmatter PDF and one PDF per chapter (chapter 0 through chapter 17).
+4. Zips everything, along with `pdf/readme_docs.txt`, into `pdf/docapis.zip`.
 
-The script uses `pdftk` to split the comprehensive PDF into individual chapters. **You need to run the script twice** to get the correct chapter splits.
+You no longer need to run the script twice or update page ranges by hand. The split script reads the chapter start pages from the PDF bookmarks. Prince creates a top-level bookmark for each page title, and the script looks for titles that start with "Chapter N:" (plus "Course overview" for chapter 0).
 
-1. **First run:** Execute the script to build the comprehensive PDF:
-   ```
-   ./pdf_build_docapis_all.sh
-   ```
-   This will create `pdf/docapis_all_chapters.pdf` and attempt to split it (though the splits may be incorrect).
+Because of this, only the chapter landing pages should have titles that start with "Chapter N:". If another page uses a chapter title by mistake (as the glossary page once did with "Chapter 17: Glossary"), the script stops with an error that says the chapter pages are out of order.
 
-2. **Check the table of contents:** Open `pdf/docapis_all_chapters.pdf` and look at the frontmatter/table of contents to identify the correct page numbers where each chapter starts and ends.
+`pdf/readme_docs.txt` isn't in version control (the `pdf` folder is gitignored). If it's missing, copy it out of the previous `docapis.zip`, or recreate it. It's a short note explaining the difference between the all-chapters PDF and the individual chapter PDFs.
 
-3. **Update the page ranges:** Edit the `pdftk` commands in `pdf_build_docapis_all.sh` with the correct page ranges. For example:
-   ```bash
-   pdftk $LOCATION/docapis_all_chapters.pdf cat 1-8 output $LOCATION/frontmatter.pdf
-   pdftk $LOCATION/docapis_all_chapters.pdf cat 9-33 output $LOCATION/chapter0_course_overview.pdf
-   # ... update all other chapter ranges
-   ```
+## 3. Check the output
 
-4. **Second run:** Execute the script again to create the correctly split chapter PDFs:
-   ```
-   ./pdf_build_docapis_all.sh
-   ```
+Before uploading, open `pdf/docapis_all_chapters.pdf` and spot-check a few pages:
 
-**Note:** The page ranges should capture all content for each chapter. If ranges are incorrect, chapters may be missing content or include content from other chapters.
+* The cover image appears on page 1.
+* Pages have the header ("Last generated: [date]") and footer ("Documenting REST APIs" and the page number).
+* Code samples have gray boxes and syntax highlighting.
 
-### Optional: AI-assisted page range updates
+If the PDF is plain and unstyled and has a lot more pages than expected, Prince couldn't find the stylesheets. Look for `can't open input file` warnings in the Prince output. The stylesheets live in `assets/css/pdf/`.
 
-Instead of manually updating the page ranges, you can use AI to help determine the correct `pdftk` commands. Here's a prompt you can use with an AI assistant:
+## 4. Upload the zip to Wasabi
+
+The Buy Me a Coffee download links directly to `https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip`. The Rebrandly short link `https://idbwrtng.com/apidocbook` points to the same file. The upload overwrites that file on purpose, so the URL never changes and the Buy Me a Coffee link never needs updating. (Overwrites are enabled on the `learnapidoc-outputs` bucket for this reason.) The bucket has no versioning, so if you want to keep the previous version, copy it first:
 
 ```
-I have a comprehensive PDF with multiple chapters and need to split it into individual chapter PDFs using pdftk. 
-
-Here's the table of contents from the PDF frontmatter showing chapter titles and their page numbers:
-[Paste the table of contents here]
-
-Here are the current pdftk commands from my script that need to be updated with the correct page ranges:
-
-pdftk $LOCATION/docapis_all_chapters.pdf cat 1-8 output $LOCATION/frontmatter.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 9-33 output $LOCATION/chapter0_course_overview.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 34-67 output $LOCATION/chapter1_introduction_to_rest_apis.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 68-117 output $LOCATION/chapter2_using_an_api_like_a_developer.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 118-177 output $LOCATION/chapter3_documenting_api_endpoints.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 178-269 output $LOCATION/chapter4_openapi_spec_and_generated_reference_docs.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 270-341 output $LOCATION/chapter5_step_by_step_openapi_code_tutorial.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 342-360 output $LOCATION/chapter6_testing_api_docs.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 361-434 output $LOCATION/chapter7_conceptual_topics_in_api_docs.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 435-505 output $LOCATION/chapter8_code_tutorials.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 506-535 output $LOCATION/chapter9_the_writing_process.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 536-602 output $LOCATION/chapter10_publishing_api_docs.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 603-669 output $LOCATION/chapter11_publishing_tools.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 670-701 output $LOCATION/chapter12_thriving_in_the_api_doc_space.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 702-739 output $LOCATION/chapter13_native_library_apis.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 740-821 output $LOCATION/chapter14_processes_and_methodology.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 822-849 output $LOCATION/chapter15_metrics_and_measurement.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 850-888 output $LOCATION/chapter16_glossary.pdf
-pdftk $LOCATION/docapis_all_chapters.pdf cat 889-950 output $LOCATION/chapter17_additional_resources.pdf
-
-Please update the page ranges in these pdftk commands based on the table of contents. The page ranges should:
-1. Start on the page where each chapter actually begins.
-2. End 1 page before where the NEXT chapter begins (this ensures no overlap and captures all content for the current chapter)
-3. For the last chapter, end at the last page of the PDF
-
-**Example logic:** If Chapter 1 starts on page 34 and Chapter 2 starts on page 68, then Chapter 1 should be `cat 34-67` (ending 1 page before Chapter 2).
-
-Return only the updated pdftk commands with the corrected page ranges.
+source .venv/bin/activate
+aws s3 cp s3://learnapidoc-outputs/docapis.zip s3://learnapidoc-outputs/docapis-YYYY-MM-DD.zip \
+    --profile wasabi \
+    --endpoint-url=https://s3.us-west-1.wasabisys.com
 ```
 
-## Upload the PDFs to Wasabi
-
-Run this script:
+Then upload the new zip:
 
 ```
 ./pdf_upload_docapis.sh
 ```
 
-## Update the Download the PDFs page
+## 5. Update the download page
 
-Update the last generated date on `download.html` page.
+The [Download PDFs](https://idratherbewriting.com/learnapidoc/download.html) page (`_docs/course_overview/download.md`) mentions the approximate page count. Update it if the count changes a lot. The PDF itself shows the generation date in its header.
 
 ## How it works
 
-The build uses an additional configuration file with PDF settings:
+### Configuration
 
-*   In the `defaults` section, all directories are set to be unpublished except for `pdf_frontmatter` and a specific directory.
+`configs/_config_pdf_all.yml` is used by itself (not merged with `_config.yml`). Key settings:
 
-    ```
-    defaults:
-    -
-        scope:
-        path: ""
-        type: pages
-        values:
-        layout: printpdf
-    -
-        scope:
-        path: ""
-        type: docs
-        values:
-        layout: printpdf
-        published: false
+* `format: print`: Lets pages hide web-only content (see below).
+* `baseurl` and `api_media`: Absolute local paths, so Prince can find pages and images on disk.
+* `cover_image`: Absolute path to `images/api/ebook_cover.png`.
+* `defaults`: Sets the `printpdf` layout for all pages and docs.
 
-    -
-        scope:
-        path: _docs/pdf_frontmatter
-        type: docs
-        values:
-        layout: printpdf
-        published: true
-    -
-        scope:
-        path: _docs/introduction_to_rest_apis
-        type: docs
-        values:
-        layout: printpdf
-        published: true
-    ```
+The other `configs/_config_pdf_[n].yml` files were for building individual chapters separately. They aren't used by `pdf_build_docapis_all.sh`, which builds everything at once and then splits it.
 
-*   The layout used for the pages is `printpdf`. This layout uses these stylesheets:
+### Stylesheets
 
-    ```
-    <link rel="stylesheet" href="assets/css/pdf/syntax.css" />
-    <link rel="stylesheet" href="assets/css/pdf/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/pdf/theme-blue.css" />
-    <link rel="stylesheet" href="assets/css/pdf/printstyles.css" />
-    ```
+The `printpdf` layout uses these stylesheets:
 
-*   The `prince-list.txt` file runs the same logic as the sidebar to generate a list of pages included in the PDF. The URLs are absolute paths.
-*   The `prince-list.txt` has this logic: `if folder.section == site.section`. In the PDF configuration, there's a property called `section` that identifies which section is being printed.
+```
+assets/css/pdf/syntax.css
+assets/css/pdf/bootstrap.min.css
+assets/css/pdf/theme-blue.css
+assets/css/pdf/printstyles.css
+```
 
-After Jekyll builds the output, both the images and files are ready for Prince to build the output. The prince command includes these parameters:
+These files used to be gitignored by accident (the `**/pdf` rule in `.gitignore` matched the `assets/css/pdf` folder), so they were never committed and got lost. In October 2026 they were restored from the old [learnapidoc repo](https://github.com/tomjoht/learnapidoc/tree/master/assets/css/pdf), and `.gitignore` now has an exception (`!assets/css/pdf/`) so they're tracked.
 
-*   `--javascript`: Allows for JS scripting to run. The PDF frontmatter pages has some scripts that dynamically print page numbers ahd titles into the header and footer.
+`printstyles.css` controls the page size, headers, and footers. The header and footer text comes from JavaScript functions (`datestamp` and `guideName`) defined in `_layouts/printpdf.html`, which is why Prince runs with `--javascript`.
 
-    ```js
-    <script>
-        Prince.addScriptFunc("datestamp", function() {
-            return "PDF last generated: {{ site.time | date: '%b %d, %Y' }}";
-        });
-    </script>
+### Page list
 
-    <script>
-        Prince.addScriptFunc("guideName", function() {
-            return "{{site.title}}";
-        });
-    </script>
-    ```
+`prince-list-all.txt` is a Liquid template that outputs the absolute path of each page. It starts with the title, copyright, and table of contents pages (from `pages/pdf_frontmatter/`), then loops through the `docapis` sidebar data (`_data/docapis.yml`). Sidebar entries with `type: web` are skipped. If a page is missing from the PDF, check whether it appears in `_site/prince-list-all.txt`.
 
-*   `--input-list=_site/prince-list.txt`: Indicates the list of pages to include in the PDF output. If you run into troubles in the output, look at `prince-list.txt` to see if the right pages are being listed here. This file also includes the `if folder.section == site.section` conditional logic that matches the `section` property in the `_config_pdf_[section].yml` file.
-*   `--no-warn-css-unsupported`: Indicates that warning messages about unsupported CSS should be suppressed. The theme uses Bootstrap CSS that has a bunch of shadow properties in CSS that aren't supported, but which don't make any difference in the output. 
-*   `-o pdf/docapis_four.pdf`: Indicates the name of the output file and where it's stored.
+### Excluding content from the PDF
 
+To hide content that doesn't work in print (YouTube videos, JavaScript demos, Swagger UI embeds, interactive widgets), wrap it in a conditional:
 
+```
+{% raw %}{% if site.format == "web" %}
+...web-only content...
+{% endif %}{% endraw %}
+```
 
-## Output location
+To show content only in the PDF, use `{% raw %}{% if site.format == "print" %}{% endraw %}`. For example, the chapter tiles on the course overview page render as a plain list in the PDF.
 
-The PDFs build in the `pdf` folder. There are 15 outputs, one for each chapter.
+### Links in the PDF
 
-## Upload to Wasabi
+The print stylesheet prints each link's URL in parentheses after the link text. For external links, that gives readers the full URL. For links you don't want expanded, add the `noCrossRef` class.
 
-Upload the PDFs to Wasabi: `pdf_upload.sh`
+### Prince command parameters
 
-## Update the Download PDF page
+* `--javascript`: Runs the scripts in the `printpdf` layout that populate the header and footer.
+* `--input-list=_site/prince-list-all.txt`: The list of pages to include, in order.
+* `--no-warn-css-unsupported`: Suppresses warnings about Bootstrap CSS properties that Prince doesn't support but that don't affect the output.
+* `-o pdf/docapis_all_chapters.pdf`: The output file.
 
-Update the `download.md` page.
-
-2. see pdf/docapis.pdf
-
-- format: print
-- css: assets/css/pdf/printstyles.css
-- css: assets/css/pdf/theme-blue.css
-- layout: printpdf.html
-
-## Web
-
-1. bundle exec jekyll serve
-2. format: web
-3. uses the default.html layout
-layout: default.html
-css: main.css (compiles from sass)
-
-## Upload to the web
-./upload_outputs.sh
+A warning that says `not a TrueType or OpenType font` is expected and doesn't affect the output.

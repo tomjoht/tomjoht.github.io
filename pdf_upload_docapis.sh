@@ -1,24 +1,12 @@
-# Equivalent function
-myvenv() {
-    source .venv/bin/activate
-}
-myvenv
+# Uploads the zipped API course PDFs to Wasabi. The Buy Me a Coffee download
+# links to https://s3.us-west-1.wasabisys.com/learnapidoc-outputs/docapis.zip,
+# so always overwrite that same key (overwrites are enabled on the bucket).
+# The bucket has no versioning, so back up the old zip first, for example:
+#   aws s3 cp s3://learnapidoc-outputs/docapis.zip s3://learnapidoc-outputs/docapis-YYYY-MM-DD.zip --profile wasabi --endpoint-url=https://s3.us-west-1.wasabisys.com
+set -e
+source .venv/bin/activate
 
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter1_docapis9541.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter2_docapis5468.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter3_docapis4043.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter4_docapis9832.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter5_docapis1349.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter6_docapis9932.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter7_docapis1256.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter8_docapis9834.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter9_docapis6721.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter10_docapis9153.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter11_docapis7834.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter12_docapis8254.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter13_docapis4431.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter14_docapis2395.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter15_docapis3757.pdf s3://learnapidoc-outputs --profile wasabi
-# aws s3 cp ~/projects/idratherbewriting/pdf/chapter16_docapis8129.pdf s3://learnapidoc-outputs --profile wasabi
-aws s3 cp ~/projects/idratherbewriting/pdf/docapis.zip s3://learnapidoc-outputs --profile wasabi
+aws s3 cp ~/projects/idratherbewriting/pdf/docapis.zip s3://learnapidoc-outputs \
+    --profile wasabi \
+    --endpoint-url=https://s3.us-west-1.wasabisys.com
 echo 'done uploading'

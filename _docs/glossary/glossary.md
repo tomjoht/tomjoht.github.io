@@ -1,5 +1,5 @@
 ---
-title: "Chapter 17: Glossary"
+title: "Glossary"
 permalink: learnapidoc/glossary.html
 keywords:
 course: "Documenting REST APIs"

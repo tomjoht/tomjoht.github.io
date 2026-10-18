@@ -16,6 +16,8 @@ _tmp/
 node_modules
 **/audio/
 **/pdf
+# Keep the PDF stylesheets in version control (the build depends on them)
+!assets/css/pdf/
 **/images/
 **/video/
 **/*.mp4
