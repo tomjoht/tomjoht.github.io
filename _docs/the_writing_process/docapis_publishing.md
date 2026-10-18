@@ -6,7 +6,7 @@ weight: 8.96
 sidebar: docapis
 section: writing_process
 path1: learnapidoc/writing_process.html
-last-modified: 2021-11-19
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -32,7 +32,7 @@ If you have a humanities background, you're probably used to reading long, diffi
 
 ## 5.2 Cross-reference the new content {#cross_references}
 
-As you read through the larger context on your developer portal, take note of good places to insert cross-references to the new content. If there are similar topics, consider adding cross-references in places where themes overlap. Many times, users search for information and don't always land on the right topic. They might have land close to the needed information, based on the keywords they're searching for, but not on the right page. (This idea aligns with the whole [information scent theory](https://www.nngroup.com/articles/information-scent/) that is part of information foraging.) Include links to help point them to your new content. Conversely, insert cross-references in your new content to other pages.
+As you read through the larger context on your developer portal, take note of good places to insert cross-references to the new content. If there are similar topics, consider adding cross-references in places where themes overlap. Many times, users search for information and don't always land on the right topic. They might land close to the needed information, based on the keywords they're searching for, but not on the right page. (This idea aligns with the whole [information scent theory](https://www.nngroup.com/articles/information-scent/) that is part of information foraging.) Include links to help point them to your new content. Conversely, insert cross-references in your new content to other pages.
 
 Some systems have tags that define how related articles surface. If you have a system of tags (defined through a larger taxonomy), make sure your new content has the right taxonomy tags so that it's visible and discoverable in the larger system.
 
@@ -40,7 +40,7 @@ Some systems have tags that define how related articles surface. If you have a s
 
 ## 5.3 Include a link in your release notes and what's new {#release_notes}
 
-Most developer portals have two sections new content is publicized:
+Most developer portals have two sections where new content is publicized:
 
 * **Release notes.** The release notes highlight new features in the APIs and other products that have been released, often with a link to the accompanying documentation for the feature.
 * **What's new in docs.** The What's new in docs section indicates new articles or updates in the documentation. This list usually covers doc updates only, as these updates can happen independently of feature releases.
@@ -77,7 +77,7 @@ Most doc releases aren't so formal or coordinated, but you should plug into the 
 
 When you actually hit the publish button (or type `git push` and then press Enter), it can be exhilarating. After months of work, you execute the final step that makes it live. There's a rush in publishing. If you're an engineer and have not published before, this rush of adrenaline might be a new experience. I feel it every time I publish a new blog post or article as well. There's a high associated with sending something out into the world, contributing to a body of knowledge in a new way. Take time to appreciate this moment. Go celebrate in some way. Maybe this means getting a fancy caramel latte at a nearby coffee shop or taking a leisurely stroll around the city at lunch.
 
-After you publish, spend the rest of the afternoon doing something you find rewarding. You'll be giddy and feel like the world is full of rainbows and ponies. It's a natural high not only to publish but to fling that albatross from your neck. No more review cycles and edits for that content &mdash; it's done and live. You can move on to other tasks now. You might have been postponing a host of smaller tasks or errands while focusing on this larger writing project. Now you can take care of those little tasks, or focus on frivolous ones. Go chat with someone in the breakroom for a while, or post a few tweets on Twitter. Celebrate the doc release. At most, this high lasts a day or two. Then you return to earth.
+After you publish, spend the rest of the afternoon doing something you find rewarding. You'll be giddy and feel like the world is full of rainbows and ponies. It's a natural high not only to publish but to fling that albatross from your neck. No more review cycles and edits for that content &mdash; it's done and live. You can move on to other tasks now. You might have been postponing a host of smaller tasks or errands while focusing on this larger writing project. Now you can take care of those little tasks, or focus on frivolous ones. Go chat with someone in the breakroom for a while, or post about it on social media. Celebrate the doc release. At most, this high lasts a day or two. Then you return to earth.
 
 ## 5.7 Publicize what you published {#publicize_what_you_published}
 

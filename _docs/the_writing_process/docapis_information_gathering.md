@@ -6,7 +6,7 @@ weight: 8.93
 sidebar: docapis
 section: writing_process
 path1: learnapidoc/writing_process.html
-last-modified: 2021-11-19
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -37,7 +37,7 @@ The following are several tips for interviews that apply across all groups.
 
 ### Prepare lists of questions {#prepare_questions}
 
-With each interview, it's good to give the person a list of questions ahead of time. This not only keeps you on track but also reassures the interviewees that the meeting will have a focus and purpose. Some people despise meetings that consume time they could have otherwise been spent coding. A simple list of questions sends the message that the meeting will be worthwhile. For more on this technique, see [A tip for doc reviews &mdash; bring a list of questions](https://idratherbewriting.com/blog/tip-for-doc-reviews-bring-list-of-questions/).
+With each interview, it's good to give the person a list of questions ahead of time. This not only keeps you on track but also reassures the interviewees that the meeting will have a focus and purpose. Some people despise meetings that consume time they could have otherwise spent coding. A simple list of questions sends the message that the meeting will be worthwhile. For more on this technique, see [A tip for doc reviews &mdash; bring a list of questions](https://idratherbewriting.com/blog/tip-for-doc-reviews-bring-list-of-questions/).
 
 {% include image_ad_right.html %}
 
@@ -65,7 +65,9 @@ Be aware of your cross-product perspective and recognize that it's a unique adva
 
 Now let's get into some strategies for interviews, starting with the engineers. Most likely the engineering team has already designated someone to be your contact point &mdash; the main engineer who coded the feature. (If you don't have a contact point, start with the tech lead or team lead for the API; they might designate someone else down the line.)
 
-Set up time with this engineer and prepare a list of questions (the technique I described earlier). Now, this is extremely important: _Record your interview with the engineer._ Even if you're meeting in person, create a conference session in the room on your computer and record the meeting. The engineer is going to dive into gobbledygook and other technical speak, and you'll want to go back and re-listen to this again, even if it's just to get the terminology and phrasing correct. You won't be able to take enough notes in real-time to keep up (unless you're part-engineer already), and you might be too busy taking notes to catch all the details of the conversation.
+Set up time with this engineer and prepare a list of questions (the technique I described earlier). Now, this is extremely important: _Record your interview with the engineer._ Even if you're meeting in person, start a video meeting on your computer and record it (after asking the engineer's permission). Most meeting tools, such as Zoom, Google Meet, and Microsoft Teams, can also generate a transcript. The engineer is going to dive into gobbledygook and other technical speak, and you'll want to go back and re-listen to this again, even if it's just to get the terminology and phrasing correct. You won't be able to take enough notes in real-time to keep up (unless you're part-engineer already), and you might be too busy taking notes to catch all the details of the conversation.
+
+A transcript also makes the interview searchable, and it gives you source material that AI tools can work with. For example, you can ask an AI tool to organize a transcript into notes grouped by topic. (See [Creating high-fidelity, thematically organized notes from engineering meetings using AI](https://idratherbewriting.com/ai/prompt-engineering-summarizing-meeting-notes.html) for some prompts.) Transcription tools often mangle product names and technical terms, though, so check any terms against the recording or the code.
 
 {% include ads.html %}
 
@@ -82,7 +84,7 @@ Some questions to ask the engineer might be as follows:
 
 Recognize this attitude ("All the developer needs is this Javadoc!") as a red flag to push back on. You can later get more ammunition for a counter argument when you meet with partner engineers, but for now, press on.
 
-One strategy to get the engineer to unravel more detail is to have him or her talk through the code in the sample app, which was presumably used in the demo. The demo provides an instance in which the API was implemented toward some end. The engineer might have all kinds of disclaimers and notes about how the demo doesn't represent a true implementation, or how it's likely not how users will actually implement the API, but at least it's something to go on. You could also loop in the partner engineers to better gauge the knowledge levels and needs that users will have.
+One strategy to get the engineer to unravel more detail is to have them talk through the code in the sample app, which was presumably used in the demo. The demo provides an instance in which the API was implemented toward some end. The engineer might have all kinds of disclaimers and notes about how the demo doesn't represent a true implementation, or how it's likely not how users will actually implement the API, but at least it's something to go on. You could also loop in the partner engineers to better gauge the knowledge levels and needs that users will have.
 
 As you talk with the engineer, you'll find that a lot of times, the engineer who codes the feature doesn't know how the feature should be messaged or pitched, and doesn't have the larger picture about workflows and product implementation. Just as you might be unfamiliar with how to actually work with the API, the engineers who created it might not know how partners/developers will implement the API in their particular business domain and use cases. Your project engineers know software, but they often don't know the domain or industry where the partners will be implementing the API.
 
@@ -96,7 +98,7 @@ Engineers are so specialized, their view of the system often is much narrower th
 
 ## 2.2 Interview the product manager {#interview_pm}
 
-The product manager (PM) might not be as technical as the engineers, but he or she will have a better handle on product messaging, use cases, audience analysis, and concepts related to the product. The product manager also likes to have input on the docs because the docs are part of the product experience.
+The product manager (PM) might not be as technical as the engineers, but they will have a better handle on product messaging, use cases, audience analysis, and concepts related to the product. The product manager also likes to have input on the docs because the docs are part of the product experience.
 
 Some topics will absolutely require the PM's input. If you start listing known limitations and issues with the feature, the PM will want to have input. If you drop hints about future, related features on the roadmap, you'll need to clear this with the PM as well.
 
@@ -111,7 +113,7 @@ The PM is sometimes easier to speak with because PMs aren't as steeped in the te
 
 Whereas the engineers might note some important issues/limitations, the PM might want you to spin these issues in a positive way. Or the PM might try to persuade you that the omission of limitations is an indirect way of addressing them. For example, the PM might say, _We don't need to say that you can't do [X] with the feature; we just don't mention [X] at all. So by not saying it, we don't have to note this limitation about our product._
 
-While this might be reasonable in many situations, if X is a feature most users will want or expect to do, the documentation should mention it. Tech writers are supposed to be _user_ champions, not product champions. For example, in our coffee API scenario, suppose the coffee API works only for coffee produced in the U.S., not coffee imported from Columbia, Guatemala, or elsewhere. It would be a pretty big gap not to mention this limitation explicitly in the documentation.
+While this might be reasonable in many situations, if X is a feature most users will want or expect to do, the documentation should mention it. Tech writers are supposed to be _user_ champions, not product champions. For example, in our coffee API scenario, suppose the coffee API works only for coffee produced in the U.S., not coffee imported from Colombia, Guatemala, or elsewhere. It would be a pretty big gap not to mention this limitation explicitly in the documentation.
 
 {: .tip}
 For more on the topic of transparency, see [Transparency in documentation: dealing with limits about what you can and cannot say](https://idratherbewriting.com/2017/07/13/transparency-in-documentation/).

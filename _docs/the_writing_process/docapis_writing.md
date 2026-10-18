@@ -6,7 +6,7 @@ weight: 8.94
 sidebar: docapis
 section: writing_process
 path1: learnapidoc/writing_process.html
-last-modified: 2021-11-19
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -22,11 +22,11 @@ In this section, I'll dive into practical tips and strategies for writing the co
 
 Now that you've gathered information and interviewed a handful of people related to the feature, you probably have a large pile of content. For example, you might have a single doc where you've been collecting all of this information (copying and pasting nuggets of information from various docs). That doc might be 20+ pages long.
 
-You must now begin organizing the information. I think of this task like sorting laundry. Start by sorting the content into different piles &mdash; put the socks together, the shirts together, the pants together, etc. (See [Writing is like sorting laundry &mdash; practical advice for tackling documentation projects](https://idratherbewriting.com/2015/01/29/writing-is-like-sorting-laundry-practical-advice-for-tackling-documentation-projects/) for a full elaboration of this analogy.) Just group like information together. Each pile will probably   become a separate page in your final content output (but maybe not).
+You must now begin organizing the information. I think of this task like sorting laundry. Start by sorting the content into different piles &mdash; put the socks together, the shirts together, the pants together, etc. (See [Writing is like sorting laundry &mdash; practical advice for tackling documentation projects](https://idratherbewriting.com/2015/01/29/writing-is-like-sorting-laundry-practical-advice-for-tackling-documentation-projects/) for a full elaboration of this analogy.) Just group like information together. Each pile will probably become a separate page in your final content output (but maybe not).
 
 ## 3.2 Create an outline for each group {#outline}
 
-Now that you have different groups of content, create outlines for each group.  I described the general shape of different documentation types in the [Conceptual topics section](docconceptual.html). For more documentation projects, you'll need several sections:
+Now that you have different groups of content, create outlines for each group.  I described the general shape of different documentation types in the [Conceptual topics section](docconceptual.html). For most documentation projects, you'll need several sections:
 
 * [Product overview](docapis_doc_overview.html) &mdash; high-level description of the feature, requirements, prerequisites, geographic availability, components involved, workflow implementation, how to get help, etc.
 * [Concepts](docapis_conceptual_topics_overview.html) &mdash; foundational concepts related to using the feature. These topics might include diagrams or other visuals to assist with understanding.
@@ -36,7 +36,7 @@ Now that you have different groups of content, create outlines for each group.  
 An outline is a list of section headings and bullet points to cover in each section. Creating an outline precedes the actual writing of content. A good outline can reduce the fear of the blank page.
 
 {: .tip}
-For inspiration about the right sections to include in different content types, check out the [Good Docs Project](https://thegooddocsproject.dev/) for templates.
+For inspiration about the right sections to include in different content types, check out the [Good Docs Project](https://www.thegooddocsproject.dev/) for templates.
 
 You can even review the outline with other groups you interviewed before you begin writing, if you want. It depends on how confident you are and how extensive the documentation is. The outline is basically your content plan.
 
@@ -56,7 +56,7 @@ No matter the type of writing, an outline is your friend. In an outline, the ini
 
 Your outline should call out major sections. Note that unlike other forms of writing, documentation uses a lot of section headings. An academic essay might not have any subheadings, but documentation uses section headings every few paragraphs. The idea is that users skim and jump around rather than reading linearly, so this section-dominant style fits the user behavior about how people read documentation.
 
-Section headings  also reduce the need for a more formal order and flow to the content, so in some ways writing documentation is easier than other forms of writing. You can always just tack on information in another section heading.
+Section headings also reduce the need for a more formal order and flow to the content, so in some ways writing documentation is easier than other forms of writing. You can always just tack on information in another section heading.
 
 ## 3.3 Set up meetings with reviewers far in advance {#set_up_meetings}
 
@@ -72,7 +72,7 @@ When I have writing to do, I often find myself looking around for anything else 
 
 After I wake up and have some coffee and breakfast, check email and news, I devote this time to writing. As the day wears on, my energy gets lower and lower, and by evening, I'm usually spent. Most people have an optimal time where their energy is at max productivity. When I was in college and didn't have kids or a full-time job, my writing energy peaked from about 8 to 11 pm. But now, during those same evening hours, I'm usually cruising in escape mode. Figure out when your mental energy is at full capacity, and then plan to write during that time.
 
-The second strategy I use is to set a four-hour timer using a [Focus app](https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12). This is just an app that keeps track of time on task, following the strategy of the [Pomodoro technique](https://web.archive.org/web/20251109181618/https://francescocirillo.com/pages/pomodoro-technique/). I find that four hours of writing is the most that I can squeeze out during a day. I set 4 one-hour sessions, and if I find myself getting off task during the session, I pause the timer. (For more on this technique, see [Writing productivity tip: Focus sessions](https://idratherbewriting.com/blog/writing-productivity-through-focus-sessions/).)
+The second strategy I use is to set a four-hour timer using a [Focus app](https://apps.apple.com/us/app/focus-deep-work-timer/id777233759?mt=12). This is just an app that keeps track of time on task, following the strategy of the [Pomodoro technique](https://web.archive.org/web/20251109181618/https://francescocirillo.com/pages/pomodoro-technique/). I find that four hours of writing is the most that I can squeeze out during a day. I set 4 one-hour sessions, and if I find myself getting off task during the session, I pause the timer. (For more on this technique, see [Writing productivity tip: Focus sessions](https://idratherbewriting.com/blog/writing-productivity-through-focus-sessions/).)
 
 {% include random_ad4.html %}
 
@@ -85,6 +85,8 @@ I also keep my paragraphs relatively short, usually several sentences each and f
 I like to listen to music while I write because it reduces my sense of hyper-correctness and allows me to access the part of my brain that is more focused on creating than on grammar and accuracy.
 
 It's good to get the first draft of content on the page. After that, I can begin shaping it and refining it in a much less demanding way.
+
+AI tools can also help produce a first draft. If you've gathered good source material (design docs, interview transcripts, sample code), an AI tool can turn it into a rough draft that follows your outline. (For an example of this workflow, see [From engineer interviews to written draft, with chain of thought reasoning](https://idratherbewriting.com/ai/prompt-engineering-iterative-chain-of-thought.html).) However, the draft will only be as accurate as the material you give it, and AI tools tend to fill gaps with plausible-sounding details that aren't true. Verify every technical claim, parameter, and code sample before the draft goes to reviewers. Otherwise, your reviewers end up fact-checking the AI instead of reviewing your content.
 
 Even though I've been a professional writer for many years, I don't have a lot of writing stamina. After I get several hours of writing in, I often tap out. Writing is somewhat like exercising &mdash; after a couple of good hours max, I'm done. I can't just sit down for hours on end writing documentation. Very few can, especially given how much preparation is required to get the knowledge to write technical documentation. Instead of spending long hours writing, I try to chip away at larger content projects a little bit each day over a series of weeks. This approach (writing a little each day) usually ends up being more successful.
 
@@ -115,9 +117,9 @@ The nature of writing technical documentation is to simplify and communicate com
 
 ### Visuals {#visuals}
 
-Simple conceptual diagrams are easy to create. You don't need to be a graphic artist to draw boxes and arrows in a simple diagram to illustrate a concept. Download a program like [Sketch](https://www.sketch.com/) and create some basic visuals to illustrate technical concepts. Keep the diagrams simple, focusing on the aspect you're trying to explain.
+Simple conceptual diagrams are easy to create. You don't need to be a graphic artist to draw boxes and arrows in a simple diagram to illustrate a concept. Use a program like [Sketch](https://www.sketch.com/), [draw.io](https://www.drawio.com/), or [Excalidraw](https://excalidraw.com/) to create some basic visuals that illustrate technical concepts. Keep the diagrams simple, focusing on the aspect you're trying to explain.
 
-If you keep the graphics simple, you'll maintain control over the graphic assets and be empowered to create them as needed. In contrast, if you ask a graphic designer to create the graphics, you might find that it's impossible for you to create more graphics matching their same style and brand. I highly recommend reading [The Back of the Napkin](https://idratherbewriting.com09/05/19/drawing-as-a-tool-for-thinking/) by Dan Roam (and my related post [Drawing as a Tool for Thinking: The Back of the Napkin](https://idratherbewriting.com09/05/19/drawing-as-a-tool-for-thinking/). See also [Creating professional looking graphics in the easiest, simplest way possible](https://idratherbewriting.com/2016/05/05/visualcommunication_noun_project/).
+If you keep the graphics simple, you'll maintain control over the graphic assets and be empowered to create them as needed. In contrast, if you ask a graphic designer to create the graphics, you might find that it's impossible for you to create more graphics matching their same style and brand. I highly recommend reading *The Back of the Napkin* by Dan Roam (see my related post, [Drawing as a Tool for Thinking: The Back of the Napkin](https://idratherbewriting.com/2009/05/19/drawing-as-a-tool-for-thinking/)). See also [Creating professional looking graphics in the easiest, simplest way possible](https://idratherbewriting.com/2016/05/05/visualcommunication_noun_project/).
 
 {% include image_ad_right.html %}
 
@@ -126,7 +128,7 @@ Overall, Roam argues that you should get rid of the idea that graphics can only 
 Here are some general techniques to follow when creating visuals:
 
 * To show a difference between two things, consider showing graphics side by side with a slight difference between them.
-* To keep the minimalist focus, try to communicate your ideas by showing as few lines as possible. Check out [Jean-luc Doumont's Trees, maps, and theorems](https://idratherbewriting.com09/06/25/page-layout-and-design-tips-from-jean-luc-doumonts-trees-maps-and-theorems/) for inspiration. Or read about how [Edward Tufte despises chart junk](https://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/).
+* To keep the minimalist focus, try to communicate your ideas by showing as few lines as possible. Check out [Jean-luc Doumont's Trees, maps, and theorems](https://idratherbewriting.com/2009/06/25/page-layout-and-design-tips-from-jean-luc-doumonts-trees-maps-and-theorems/) for inspiration. Or read about how [Edward Tufte despises chart junk](https://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/).
 * Use a change in color to draw attention to something; one subtle color change in an element can bring the reader's focus to what you're trying to highlight. (This is a tip from Doumont's book.)
 
 Overall, creating visuals might be a welcome change from writing. You're still working but not taxing the same part of the brain.
@@ -137,7 +139,7 @@ Code examples are another way that confusing concepts take on more clarity. I ex
 
 For example, suppose you're trying to explain a technique for getting certain data using a combination of APIs. You could list a few bullets explaining the overall process, but users might get a lot more out of viewing a code sample showing the technique. Code presents the idea in ways that natural language (e.g., English) simply can't do, no matter how you describe it. Code brings with it a story in itself with classes, methods, and other logic. Code examples take a lot of pressure off of you to explain concepts. It's a win-win &mdash; easier for you, and better for the reader.
 
-In fact, in nearly every [survey about APIs from SmartBear](https://smartbear.com/state-of-software-quality/api/documentation/), "examples" ranks number one in terms of the type of docs users want. So don't be shy. Ask engineers for code samples demonstrating how to approach various tasks. This might be something QA already has, and you just need to request it. I've found that engineers are usually more than happy to supply code samples here and there. They sometimes underestimate the power of code examples in conceptual documentation, so let them know you want them. As you're writing, include little placeholders here and there for code examples.
+In fact, SmartBear's [State of Software Quality survey on API documentation](https://smartbear.com/state-of-software-quality/api/documentation/) found that examples were the most important aspect of API documentation, picked by 66% of respondents. So don't be shy. Ask engineers for code samples demonstrating how to approach various tasks. This might be something QA already has, and you just need to request it. I've found that engineers are usually more than happy to supply code samples here and there. They sometimes underestimate the power of code examples in conceptual documentation, so let them know you want them. As you're writing, include little placeholders here and there for code examples.
 
 I chose to highlight the top two techniques for clarifying complex information: visuals and code samples. My larger point is to not rely entirely on writing to do the work. Use these other tools to help simplify complexity.
 
@@ -149,15 +151,15 @@ I don't try to write everything at once. In fact, as I explained above, I don't 
 
 If I get exhausted, I take a break. I watch Netflix for a while or walk around a bit. When my energy rebuilds, I start writing again. Getting that first draft is the hard part. If I absolutely can't get going, I just spend 15 minutes typing anything. Eventually, my writing brain usually resolves into focus and the words will take shape. (I might have to delete the first page, but that's okay.) If after 15 minutes I'm still not feeling it, then I bag the effort for the day and try again in the morning.
 
-Once you get that first draft, you can iterate endlessly afterward as you edit and review the content for weeks following. But without some starting point, you won't have anything to shape. [NaNoWriMo](https://nanowrimo.org/) (National Novel Writing Month) is a good model for getting the first draft out. The goal of NaNoWriMo is to generate an initial draft of a novel in one month. It might be crap, but you can then spend the next year editing and fixing it. You at least have a starting point, a draft to read and evaluate.
+Once you get that first draft, you can iterate endlessly afterward as you edit and review the content for weeks following. But without some starting point, you won't have anything to shape. NaNoWriMo (National Novel Writing Month) is a good model for getting the first draft out. The goal of NaNoWriMo was to generate an initial draft of a novel in one month. (The nonprofit that ran NaNoWriMo shut down in 2025, but the idea lives on through community-run events.) It might be crap, but you can then spend the next year editing and fixing it. You at least have a starting point, a draft to read and evaluate.
 
-### Run content through a spell checker {#spellchecker}
+### Run content through a spell checker and linter {#spellchecker}
 
 At some point when the content is more or less finalized, run it through a spell checker. You might prefer to do this later, after the reviews, but using a spellchecker now can help eliminate superficial errors so that reviewers aren't distracted by the typos and misspellings but can instead focus on substance.
 
-My favorite spell checker is [Grammarly](https://app.grammarly.com/), though this service tends to be blocked in most companies due to the way Grammarly stores data on its servers. See [Is Premium Grammarly worth it for identifying style and grammar issues in tech docs?](https://idratherbewriting.com/2018/12/28/evaluating-grammarly-as-a-style-checker/) for more details.
+My favorite spell checker is [Grammarly](https://www.grammarly.com/), though this service tends to be blocked in many companies due to the way Grammarly stores data on its servers. See [Is Premium Grammarly worth it for identifying style and grammar issues in tech docs?](https://idratherbewriting.com/2018/12/28/evaluating-grammarly-as-a-style-checker/) for more details.
 
-Other options could be the spell checker in Microsoft Word, Google Docs, [HyperSTE plugin](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (to check for simplified technical English), or Acrolinx (if your company has it).
+Other options could be the spell checker in Microsoft Word, Google Docs, [HyperSTE plugin](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (to check for simplified technical English), or Acrolinx (if your company has it). If you work in a docs-as-code setup, a prose linter such as [Vale](https://vale.sh/) can check your Markdown against style rules each time you commit. AI tools can also check a draft against your style guide (see [Use cases for AI: Seek advice on grammar and style](https://idratherbewriting.com/ai/docapis_ai_language_advice.html)), though they sometimes flag things that aren't errors, so review their suggestions rather than accepting them all.
 
 You might be amazed by how many errors these services catch, especially in lengthy content. I personally prefer to leverage as many of these services as possible. I almost always use Grammarly to check new blog posts and articles on my site. One writing teacher explained that a small grammar or spelling error calls attention to itself and can be like having your fly down while you're wearing a tuxedo. Imagine finishing writing 2,000 words of content, sending it to your entire department, and getting feedback from a higher-up executive that you misspelled a word. That kind of superficial feedback can be deflating.
 

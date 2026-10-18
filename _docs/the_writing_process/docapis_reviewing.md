@@ -6,7 +6,7 @@ weight: 8.95
 sidebar: docapis
 section: writing_process
 path1: learnapidoc/writing_process.html
-last-modified: 2021-11-19
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -46,7 +46,7 @@ What works best is to carve out time during the actual meeting for reviewers to 
 
 {% include random_ad3.html %}
 
-You might think, oh, we'll just ask everyone to read the doc beforehand and come to the meeting prepared with comments. When you do this, usually one person has read the content and others haven't. This frustrates the person who did read (he or she now just has to sit there waiting for others), and makes others feel irresponsible for not having done the preparation. The others end up skimming the content quickly so they can get started with the review. Then when they share their feedback, they make suggestions about adding content that's already there (because they didn't read it carefully enough).
+You might think, oh, we'll just ask everyone to read the doc beforehand and come to the meeting prepared with comments. When you do this, usually one person has read the content and others haven't. This frustrates the person who did read (they now just have to sit there waiting for others), and makes others feel irresponsible for not having done the preparation. The others end up skimming the content quickly so they can get started with the review. Then when they share their feedback, they make suggestions about adding content that's already there (because they didn't read it carefully enough).
 
 So in general, bake time into the review meeting to allow people to read the content during the meeting. While you'll occasionally encounter reviewers who can do the reviews outside of meetings, these types are rare. Also, I've found that the more executive the reviewer, the more they expect you to present them with content to read on the spot and then take notes as they provide feedback.
 
@@ -72,7 +72,7 @@ Without staggering the reviews, if you have five reviewers all look at the conte
 
 Reviewers do actually have a finite amount of time they're willing to meet with you to review content, especially people in higher-level roles. For example, if you're pulling in a Level 8 or 9 person, don't expect to get more than 30 minutes of their review time total for the entire project. You basically get one shot with them and that's it. Because of this, you want to stagger your reviews so that the higher-ups review content only after the lower-levels have ironed out all of the issues.
 
-To layer this review process, start the review at the product team and expand out from there. After you get the engineers to review the content, review it with the PM, then the partner engineers, then any other stakeholders (e.g, support groups), then business development, and finally any executives if the content requires it. You might not need to include all these groups, but include at least several as appropriate. The review process should look somewhat like this:
+To layer this review process, start the review at the product team and expand out from there. After you get the engineers to review the content, review it with the PM, then the partner engineers, then any other stakeholders (e.g., support groups), then business development, and finally any executives if the content requires it. You might not need to include all these groups, but include at least several as appropriate. The review process should look somewhat like this:
 
 <figure><img class="docimage" src="{{site.api_media}}/review_process.svg" alt="The review process is iterative. After each review, incorporate the edits before the next review." /><figcaption>The review process is iterative. After each review, incorporate the edits before the next review.</figcaption></figure>
 
@@ -151,7 +151,7 @@ It's worth noting that not all feedback is worth incorporating. Sometimes review
 
 Occasionally you will find that different groups have conflicting perspectives about what the documentation should say. For example, Engineering might want to be much more hesitant about supporting a feature that Product Management wants to advertise in a more visible way. Or BD might want you to avoid including too many technical details, instead of focusing more on a decision-maker audience than an engineering integrator audience. In contrast, your partner engineers might want you to include more technical details, even including min and max values that no one knows and which BD doesn't care about.
 
-Realizations about misalignment between groups is expected during the review process. Reviewing documentation serves two hidden purposes: (1) it raises awareness about conflicting perspectives on products, and (2) it forces people to come to an agreement. As a writer, because you're the one defining and describing the product, you're the driving force to create the alignment. Just don't be surprised when your doc suddenly spawns a sense of controversy and heated exchange between groups. Sometimes, that's what it's supposed to do. This disagreement has been hiding in the shadows, and now by putting ideas into writing, you've forced the disagreement into the sun &mdash; people will have to deal with it.
+Realizations about misalignment between groups are expected during the review process. Reviewing documentation serves two hidden purposes: (1) it raises awareness about conflicting perspectives on products, and (2) it forces people to come to an agreement. As a writer, because you're the one defining and describing the product, you're the driving force to create the alignment. Just don't be surprised when your doc suddenly spawns a sense of controversy and heated exchange between groups. Sometimes, that's what it's supposed to do. This disagreement has been hiding in the shadows, and now by putting ideas into writing, you've forced the disagreement into the sun &mdash; people will have to deal with it.
 
 If you're really caught in a pickle, don't try to take sides or promote your own view. Instead, bring the two parties together in a meeting to hash it out. You might have your own thoughts about the right direction, and since you control the docs, you can choose the direction you want to go. But it usually doesn't go well when tech writers face off against PMs or Engineering in battles like these. You might need to function as a broker between the two sides, trying to find a compromise that appeases both parties.
 
@@ -169,7 +169,7 @@ It can be exhilarating if they like the docs, and also exhausting. You might get
 
 ### When does the review cycle end {#when_does_it_end}
 
-The review cycle ends when you release the product, basically. If there's no release timeframe, it ends when your number of edits approach zero with each revision. With each review session, there should be fewer edits to make from subsequent reviewers. At some point, as you're reading and rereading the docs, you'll end up changing only minor cosmetic style and grammar details. When you hit this point (accompanied by doc nausea), recognize that your changes are no longer moving the needle anymore. You've addressed content accuracy, information about user journeys, and other higher-level concerns.
+The review cycle ends when you release the product, basically. If there's no release timeframe, it ends when your number of edits approaches zero with each revision. With each review session, there should be fewer edits to make from subsequent reviewers. At some point, as you're reading and rereading the docs, you'll end up changing only minor cosmetic style and grammar details. When you hit this point (accompanied by doc nausea), recognize that your changes are no longer moving the needle anymore. You've addressed content accuracy, information about user journeys, and other higher-level concerns.
 
 If you ever find yourself changing a period to a semicolon and then back to a period, stop. You've hit the editing wall. No one cares at this point. Also, if your readers are engineers, they probably won't appreciate the fine stylistic details you might be tweaking anyway. To move the content to the next level, you need partner feedback from the actual people using the product.
 
