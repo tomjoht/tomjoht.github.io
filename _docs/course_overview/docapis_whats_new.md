@@ -4,7 +4,7 @@ permalink: learnapidoc/docapis_whats_new.html
 sidebar: docapis
 path1: learnapidoc/docapis_introtoapis.html
 weight: 0.7
-last-modified: 2023-06-24
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -22,7 +22,7 @@ See the [api-doc-site-updates category](https://idratherbewriting.com/category-a
 
 ## Seeing what content has been updated
 
-To see the history of page, click the GitHub button next to the timestamp on the page:
+To see the history of a page, click the GitHub button next to the "Last updated" date at the top of the page:
 
 <img class="small_medium" src="{{site.api_media}}/github_button_whats_new.png" alt="GitHub button" />
 

@@ -8,12 +8,15 @@ section: introtoapis
 path1: learnapidoc/docapis_overview.html
 redirect_from:
 - /learnapidoc/docapis_course_slides.html
-last-modified: 2021-12-27
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-The workshop agenda, slides, and activities correspond to full-day API workshop. The slides and activities mirror similar sections in the course.
+{: .note}
+I no longer run in-person API documentation workshops. The agenda, slides, and activities are kept here for reference, and you can still work through the activities on your own.
+
+The workshop agenda, slides, and activities correspond to a full-day API workshop. The slides and activities mirror similar sections in the course.
 
 Note that for API workshops, it helps to consolidate activities into a single page with brief instructions. The content for the activities below is the same content that appears in other parts of the course &mdash; it's just pulled in here (single-sourced) for convenience. Workshops require a healthy amount of hands-on activities to be engaging. If you have feedback about how to improve the activities, or places where you keep getting stuck, [let me know](https://idratherbewriting.com/contact/).
 
@@ -57,7 +60,7 @@ Doors open at 8:00am. Check your name off at the registration table and get a na
 
 Break time
 
-## 10:30 - 11:30pm: API endpoints
+## 10:30 - 11:30am: API endpoints
 
 [Section: Documenting API endpoints](docendpoints.html)
 
@@ -67,7 +70,7 @@ Break time
 
 [Activity: Evaluate API ref docs to identify core elements](docapis_api_reference_activity.html#eval_api_docs)
 
-## 11:30 - 12:30: OpenAPI and Swagger
+## 11:30am - 12:30pm: OpenAPI and Swagger
 
 [Section: OpenAPI and Swagger](restapispecifications.html)
 
@@ -123,7 +126,7 @@ Break. Snacks provided.
 
 {% include random_ad3.html %}
 
-## 4:00 - 4:30: Participant's challenges surfaced and discussed
+## 4:15 - 4:30pm: Participants' challenges surfaced and discussed
 
 During this time, I'd like to have participants surface specific challenges that they are facing and address them as a whole.
 
@@ -153,7 +156,7 @@ During this time, I'd like to have participants surface specific challenges that
 
 ## 5:00 - 5:30pm: Individual consulting
 
-The general workshop ends and we transition into any individual consulting as desired. If you have specific questions not addressed during the workshop, let's chat specifically about them. For all those interested, I'll write your name on then board and then just meet with you individually for about 5 minutes each until everyone's questions are answered.
+The general workshop ends and we transition into any individual consulting as desired. If you have specific questions not addressed during the workshop, let's chat specifically about them. For all those interested, I'll write your name on the board and then just meet with you individually for about 5 minutes each until everyone's questions are answered.
 
 {% include image_ad_left.html %}
 

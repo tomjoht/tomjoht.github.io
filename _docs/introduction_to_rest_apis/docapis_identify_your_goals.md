@@ -6,7 +6,7 @@ weight: 1.3
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
-last-modified: 2018-12-29
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -23,9 +23,10 @@ Identify your goals here and make sure they align with this course. Think about 
 
 *  Why are you taking this course?
 *  What are your career ambitions related to API documentation?
-*  Are you in a place where developer documentation jobs are plentiful?
+*  Are developer documentation jobs available where you live, or are you open to remote roles?
 *  What would you consider to be a success metric for this course?
 *  Do you have the technical mindset needed to excel in developer documentation fields?
+*  How do you plan to use AI tools in your documentation work, and what do you want to be able to do without them?
 
 For live workshops, we typically share responses in a get-to-know-everyone format. But if you're taking this course online, consider jotting down some thoughts in a journal or blog entry.
 

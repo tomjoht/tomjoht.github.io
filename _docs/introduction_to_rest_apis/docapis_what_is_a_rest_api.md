@@ -12,7 +12,7 @@ last-modified: 2026-10-17
 
 {% include coffeeshopbook.html %}
 
-This course is all about learning by doing, but while *doing* various activities, I'll periodically pause and dive into some more abstract concepts to fill in more detail. This topic is one of those deep-dive moments into concepts. Here we'll explore what a REST API is, comparing it to other types of APIs like SOAP. REST APIs have common characteristics but no definitive protocols like its SOAP predecessor.
+This course is all about learning by doing, but while *doing* various activities, I'll periodically pause and dive into some more abstract concepts to fill in more detail. This topic is one of those deep-dive moments into concepts. Here we'll explore what a REST API is, comparing it to other types of APIs like SOAP. REST APIs have common characteristics but no definitive protocol like their SOAP predecessor.
 
 {% if site.format == "web" %}
 * TOC
@@ -23,7 +23,7 @@ This course is all about learning by doing, but while *doing* various activities
 
 In general, an API (or Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other. In this case, the two systems are computers that interact programmatically through the API.
 
-<figure><a class="noCrossRef" href="http://bit.ly/1DexWM0" class="noExtIcon"><img class="medium" class="small" src="{{site.api_media}}/spinning_gears.jpg" alt="Spinning gears. By Brent 2.0. Flickr." /></a><figcaption>An API is like a cog that allows two different systems to interact. (Image from <a href='https://www.flickr.com/photos/brentinoz/'>Brent 2.0</a>, <a href='http://bit.ly/1DexWM0'>spinning gears</a>, <a href='https://creativecommons.org/licenses/by-nd/2.0/legalcode'>CC BY-ND 2.0</a>.)</figcaption></figure>
+<figure><a class="noCrossRef noExtIcon" href="http://bit.ly/1DexWM0"><img class="medium" src="{{site.api_media}}/spinning_gears.jpg" alt="Spinning gears. By Brent 2.0. Flickr." /></a><figcaption>An API is like a cog that allows two different systems to interact. (Image from <a href='https://www.flickr.com/photos/brentinoz/'>Brent 2.0</a>, <a href='http://bit.ly/1DexWM0'>spinning gears</a>, <a href='https://creativecommons.org/licenses/by-nd/2.0/legalcode'>CC BY-ND 2.0</a>.)</figcaption></figure>
 
 APIs are often pulling and pushing data underneath user interfaces. Consider the example of a flight booking site like [kayak.com](https://kayak.com) or [orbitz.com](https://orbitz.com). When you search for flights, the site reaches out to many other airline services to retrieve information about flights matching your query. kayak.com itself doesn't have all of this information. Instead, it gathers this data through APIs.
 
@@ -49,7 +49,7 @@ The following diagram shows the general model of a REST API:
 
 <figure><img class="docimage large" src="{{site.api_media}}/restapi_restapi.svg" alt="General model of a REST API" /><figcaption>General model of a REST API</figcaption></figure>
 
-As you can see, there's a request and a response between a client to the API server. The client and server can be based in any language, but HTTP is the protocol used to transport the message. This request-and-response pattern is fundamentally how REST APIs work.
+As you can see, there's a request and a response between a client and the API server. The client and server can be based in any language, but HTTP is the protocol used to transport the message. This request-and-response pattern is fundamentally how REST APIs work. Each response also includes an HTTP [status code](docapis_doc_status_codes.html), such as `200` (OK) or `404` (Not Found), that tells the client whether the request succeeded.
 
 Each programming language that makes the request will have a different way of submitting a web request and parsing the response in its language. These language-specific functions for making requests and parsing responses aren't part of the REST API (though they might be provided in an [accompanying SDK](docapis_sdks.html)). The REST API is language agnostic and handles incoming and outgoing information across HTTP, just like the web.
 
@@ -83,13 +83,11 @@ As an architectural style, you aren't limited to XML as the message format. REST
 
 Despite the variety of message format options, most REST APIs use JSON (JavaScript Object Notation) as the default message format. They use JSON because it provides a lightweight, simple, and more flexible message format that increases the speed of communication. The lightweight nature of JSON also allows for mobile processing scenarios and is easy to parse on the web using JavaScript.
 
-In contrast, with XML, XSLT is used more for presenting or rather "transforming" (the "T" in XSLT) the content stored in an XML language. XSLT enables the human readability (rather than processing data stored in an XML format).
-
 ### REST focuses on resources accessed through URLs
 
 Another unique aspect of REST is that REST APIs focus on *resources* (that is, *things*, rather than actions) and ways to access the resources. Resources are typically different types of information. You access the resources through URLs (Uniform Resource Locators), just like going to a URL in your browser retrieves an information resource. The URLs are accompanied by a method that specifies how you want to interact with the resource.
 
-Common methods include GET (read), POST (create), PUT (update), and DELETE (remove). The endpoint usually includes query parameters that specify more details about the representation of the resource you want to see. For example, you might specify (in a query parameter) that you want to limit the display to 5 instances of the resource.
+Common methods include GET (read), POST (create), PUT (update or replace), PATCH (partially update), and DELETE (remove). The endpoint usually includes query parameters that specify more details about the representation of the resource you want to see. For example, you might specify (in a query parameter) that you want to limit the display to 5 instances of the resource.
 
 Here's what a sample endpoint might look like:
 
@@ -100,7 +98,7 @@ http://apiserver.com/homes?limit=5&format=json
 The endpoint shows the whole path to the resource. However, in documentation, you usually separate this URL into more specific parts:
 
 * The **base path** (or base URL or host) refers to the common path for the API. In the example above, the base path is `http://apiserver.com`.
-* The **endpoint** refers to the end path of the endpoint. In the example above, `/homes`.
+* The **endpoint** refers to the path that comes after the base path. In the example above, the endpoint is `/homes`.
 * The `?limit=5&format=json` part of the endpoint contains query string parameters for the endpoint.
 
 In the example above, this endpoint would get the "homes" resource and limit the result to 5 homes. It would return the response in JSON format.
@@ -108,7 +106,7 @@ In the example above, this endpoint would get the "homes" resource and limit the
 You can have multiple endpoints that refer to the same resource. Here's one variation:
 
 ```
-http://apiserver.com/homes/{home id}
+http://apiserver.com/homes/{homeId}
 ```
 
 The above URL might be an endpoint that retrieves a home resource that contains a particular ID. What is transferred back from the server to the client is the "representation" of the resource. The resource may have many different representations (showing all homes, homes that match certain criteria, homes in a specific format, and so on), but here we want to see a home with a particular ID.
@@ -140,7 +138,7 @@ The responses can also be cached to increase the performance. If the browser's c
 
 Caching with REST APIs is similar to caching of web pages. The browser uses HTTP headers such as `Cache-Control`, `ETag`, and `Last-Modified` to determine if it needs to get the resource again. If the content hasn't been modified since the last time it was retrieved, the cached copy can be used instead. Caching increases the speed of the response.
 
-REST APIs have other characteristics, which you can dive more deeply into on this [REST API Tutorial](https://www.restapitutorial.com/introduction/whatisrest.html). One of these characteristics includes links in the responses to allow users to page through to additional items. This feature is called HATEOAS, or Hypermedia As The Engine of Application State.
+REST APIs have other characteristics, which you can dive more deeply into on this [REST API Tutorial](https://www.restapitutorial.com/introduction/whatisrest). One of these characteristics is that responses can include links to related resources and available actions, such as a link to the next page of results. This feature is called HATEOAS, or Hypermedia As The Engine of Application State. In practice, few REST APIs implement HATEOAS fully.
 
 Understanding REST at a higher, more theoretical level isn't my goal here, nor is this knowledge necessary to document a REST API. However, there are many technical books, courses, and websites that explore REST API concepts, constraints, and architecture in more depth that you can consult if you want to. For example, check out [Programming Foundations: APIs and Web Services by David Gassner](https://www.linkedin.com/learning/programming-foundations-apis-and-web-services-27993033) on LinkedIn Learning.
 

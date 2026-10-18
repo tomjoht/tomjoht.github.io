@@ -122,9 +122,9 @@ Here are a few tools you'll need to do the activities in this course:
 * **OpenWeatherMap API key**. We'll be using the OpenWeatherMap API for some exercises. It takes a couple of hours for the OpenWeatherMap API key to become active, so it's best if you get the API key ahead of time &mdash; then when you get to the OpenWeatherMap API activities, you'll be all set. To get your (free) OpenWeatherMap API key, go to [https://openweathermap.org/](https://openweathermap.org/). Click **Get API Key**, and then click **Create an Account** on the sign-in page. After you sign up, OpenWeatherMap sends you an API key to your email. You can also find it when you sign in and click the **API keys** tab on the dashboard. Copy the key into a place you can easily find it.
 
 {: .note}
-**Modern Tools Note**: While this course focuses on fundamental concepts, you may also encounter modern tools like GitHub Copilot, VS Code extensions, and AI-powered documentation tools. These can enhance your workflow but aren't required for the core learning objectives.
+**AI tools**: AI tools such as Claude, ChatGPT, and GitHub Copilot can help with many tasks in this course, such as explaining unfamiliar code or troubleshooting a failed request. However, try the activities on your own first, since the goal is to understand the concepts well enough to judge the AI's output. For more on using AI in technical writing, see the [AI section](https://idratherbewriting.com/ai/index.html) of this site.
 
-## Testing Your Setup
+## Testing your setup
 
 In the past, people have asked for some tests to check whether their laptops are correctly set up.
 
@@ -168,7 +168,7 @@ If you're following this course, you most likely want to learn more about APIs. 
 
 ## Other resources
 
-If you've looking for additional resources to learn API documentation as well as tech writing best practices, check out the following:
+If you're looking for additional resources to learn API documentation as well as tech writing best practices, check out the following:
 
 * [Mark Wentowski's Mastering API documentation course](https://www.docsgeek.io/mastering-api-documentation-course), a live 7-week online course that meets weekly.
 

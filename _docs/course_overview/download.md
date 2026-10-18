@@ -6,11 +6,11 @@ sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_overview.html
 weight: 0.4
-last-modified: 2024-10-10
+last-modified: 2026-10-17
 ---
 
 
-In addition to reading on the web, you can also can read this content in PDF format. The PDF version (total pages are 900+) is current with the web version. 
+In addition to reading on the web, you can also read this content in PDF format. The PDF version is 900+ pages. I regenerate the PDF periodically, so it might not include the most recent updates to the web version. 
 
 <ul class="pdfList">
 <li><a class="coffee" target="_blank" href="https://www.buymeacoffee.com/learnapidoc/e/146076">Documenting APIs: A guide for technical writers and engineers writing API documentation</a>

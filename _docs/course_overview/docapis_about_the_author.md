@@ -6,7 +6,7 @@ weight: 0.3
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_overview.html
-last-modified: 2021-11-15
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -18,7 +18,7 @@ In case you'd like to know a little bit about me, I'm currently based in Seattle
 <img src="{{site.api_media}}/tomjohnsonsmall.jpg" class="small" style="float: right; padding:1em;"/>
 {% endif %}
 
-Most people know me through my blog, [I'd Rather Be Writing](https://idratherbewriting.com), which has been an active online blog for tech comm for the past decade.
+Most people know me through my blog, [I'd Rather Be Writing](https://idratherbewriting.com), which has been an active tech comm blog since 2006.
 
 Like most technical writers, I stumbled into technical writing after working in other fields. I first earned a BA in English and an MFA in Literary Nonfiction, and then started my career as a writing teacher. After a stint in teaching, I transitioned into marketing copywriting and then turned to technical writing (mainly for financial reasons).
 
@@ -46,7 +46,7 @@ You're in the right place. By the time you finish this course, you'll have a sol
 
 {% include random_ad4.html %}
 
-By the way, I keep adding to this course in a [Winchester Mystery House](https://winchestermysteryhouse.com/) way, which means I keep adding rooms and extra hallways and doors, etc. If you were to print it out, the course would be more than 500 pages long. Few people get through the whole of it, and by the time they do, I've usually added a new section. So jump in and read through the topics you find most relevant and interesting. Don't feel compelled to get through it all.
+By the way, I keep adding to this course in a [Winchester Mystery House](https://winchestermysteryhouse.com/) way, which means I keep adding rooms and extra hallways and doors, etc. If you were to print it out, the course would be more than 900 pages long. Few people get through the whole of it, and by the time they do, I've usually added a new section. So jump in and read through the topics you find most relevant and interesting. Don't feel compelled to get through it all.
 
 {% include random_ad2.html %}
 

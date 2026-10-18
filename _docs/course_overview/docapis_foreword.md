@@ -6,7 +6,7 @@ weight: 0.2
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_overview.html
-last-modified: 2018-12-29
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -39,7 +39,7 @@ And another:
 
 > I love this course (I may have already posted that)—it's the best resource I have come across, explained in terms I understand. I've used it as a basis for my style guide and my API documentation....
 
-These comments inspired me to continue adding to the course, building out more tutorials, sections, and refinements. What began as a simple three-session course transformed into a larger endeavor, and I aspired to convert the content into a full-fledged book and multi-week course. I continue to receive emails from technical writers, many of whom are trying to transition into developer documentation.  The other week someone wrote to me:
+These comments inspired me to continue adding to the course, building out more tutorials, sections, and refinements. What began as a simple three-session course transformed into a larger endeavor, and I aspired to convert the content into a full-fledged book and multi-week course. I continue to receive emails from technical writers, many of whom are trying to transition into developer documentation.  One person wrote to me:
 
 > Just an email to thank you for the wonderful API course on your site. I am a long-time tech writer for online help that was recently assigned a task to document a public API. I had no experience in the subject, but had to complete a plan within a single sprint. Luckily I remembered from your blog posts over the years that you had posted material about this.
 >
@@ -58,6 +58,7 @@ One question I faced in preparing the content is whether I should stick with tex
 Additionally, videos force the user to go at the pace of the narrator. If your skill level matches the narrator, that's great. But in my experience, videos often go too slow or too fast. In contrast, text lets you more easily skip ahead when you already know the material, or slow down when you need more time to absorb concepts.
 
 Despite the constant changes in the technology landscape, I want to keep this course current and up to date. As such, I'll continue to add and edit and refine it as needed. I want this content to become a vital learning resource for all technical writers, both now and in the years to come as technologies evolve.
+
 If you have general feedback about this course, feel free to [drop me a line](https://idratherbewriting.com/contact/).
 
 {% include random_ad3.html %}

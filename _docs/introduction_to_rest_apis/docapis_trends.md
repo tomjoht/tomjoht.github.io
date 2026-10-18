@@ -7,12 +7,15 @@ weight: 1.3
 sidebar: docapis
 section: introtoapis
 path1: learnapidoc/docapis_introtoapis.html
-last-modified: 2020-10-28
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
-I recently [conducted a survey](https://idratherbewriting.com/blog/developer-documentation-survey-2020/) about trends for those creating documentation for developers and engineers. You can view the content in several formats: slides, webinar, or article.
+In early 2020, I [conducted a survey](https://idratherbewriting.com/blog/developer-documentation-survey-2020/) about trends for those creating documentation for developers and engineers. You can view the content in several formats: slides, webinar, or article.
+
+{: .note}
+This survey ran in early 2020, so some details have changed since then. For example, GitHub retired the Atom editor in December 2022, and AI tools have since become part of many documentation workflows. For more recent data on API trends, see Postman's [2025 State of the API report](https://www.postman.com/state-of-api/2025/).
 
 {% if site.format == "web" %}
 * TOC
@@ -30,7 +33,7 @@ You can view the [slides here](https://idratherbewriting.com/slides/devdoctrends
 You can also view a recorded webinar where I talk through the results here:
 
 {% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains a YouTube video. Please go to [https://idratherbewriting.com/learnapidoc/docapis_course_videos.html] to view the content.*
+*Note: This content doesn't embed well in print because it contains a YouTube video. Please go to [https://idratherbewriting.com/learnapidoc/docapis_trends.html] to view the content.*
 {% endif %}
 
 {% if site.format == "web" %}
@@ -55,7 +58,7 @@ The same content from the PDF is available in HTML below:
 
 ### Introduction
 
-Despite excellent research on trends in the technical communication space, so far no survey has focused exclusively on trends within developer documentation only. By developer docs, I mean documentation written primarily for developers and engineers. Two recent surveys on the general tech comm space include Saul Carliner's [Tech Comm Census results](https://www.stc.org/intercom/download/2018/) (published in Dec 2018 *STC Intercom*) and [Scott Abel's Benchmarking Survey](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf) (summarized in the same issue).
+Despite excellent research on trends in the technical communication space, so far no survey has focused exclusively on trends within developer documentation only. By developer docs, I mean documentation written primarily for developers and engineers. Two recent surveys on the general tech comm space include Saul Carliner's [Tech Comm Census results](https://web.archive.org/web/2022/https://www.stc.org/intercom/download/2018/) (published in Dec 2018 *STC Intercom*) and [Scott Abel's Benchmarking Survey](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf) (summarized in the same issue).
 
 Reading the results of these surveys, one would assume that most technical writers use Microsoft Word, Adobe FrameMaker, help authoring tools, CCMSs, and DITA. However, these surveys miss out on an important and sweeping tool change, often referred to as "docs-as-code," that is taking place on the web. They also don't explore many other trends within the developer doc space.
 
@@ -75,7 +78,7 @@ Reading these surveys made me wonder &mdash; is it really the case that so many 
 
 To gather data about trends in developer docs, I decided to create my own survey. In the first developer documentation survey of its kind, I created a list of 50 questions, mostly multiple choice. I limited the audience to people writing docs for developers/engineers only. I promoted the survey on my blog, LinkedIn, and Twitter, and left the survey open for about two months, from January to March 2020.
 
-A total of 405 people completed the entire survey. Completing the survey means that after the 50th question, they clicked Submit. However, 855 started the survey, and 337 dropped out somewhere along the way. I allowed partial responses even if users dropped out along the way. So the actual number of respondents varied between 405 and 855, with some questions receiving more answers than others. About 37% of the respondents were in the US, about 15% in India, 5% in Germany, 5% in the UK, and smaller percentages from other countries.
+A total of 406 people completed the entire survey. Completing the survey means that after the 50th question, they clicked Submit. However, 855 people started the survey, for a completion rate of about 47%. QuestionPro classified 337 of the people who didn't finish as dropouts, though its dashboard doesn't explain how it counted the remaining non-finishers. I allowed partial responses, so the number of respondents varied between 406 and 855, with some questions receiving more answers than others. About 37% of the respondents were in the US, about 15% in India, 5% in Germany, 5% in the UK, and smaller percentages from other countries.
 
 <a class="noExtIcon" href="https://www.questionpro.com/t/PGhS9ZgCFE"><img style="border: 1px solid #dedede" src="{{site.api_media}}/trends-participant-statistics.png" alt="Survey summary" /></a>
 
@@ -148,7 +151,7 @@ Writers primarily create web content that fits into a larger developer portal. A
 
 Writers often help shape and build the developer portal. They might help design the site, workflows, strategies for content re-use, stylesheets, etc. For example, a common task might be to brand the static-site-generated documentation to fit seamlessly into a React-based developer portal, as well as to define the Git workflows around content collaboration and publishing.
 
-Localization, video tutorials, and PDF aren't overwhelmingly produced in developer docs but do constitute about 25% of the output. The low amount localization eases up some pressure on the tools. If you don't have to push your content into translation management systems, you aren't as constrained with compatible format types and roundtrip workflows. (It's still possible to localize with static site generators, just not as easy.)
+Localization, video tutorials, and PDF aren't overwhelmingly produced in developer docs but do constitute about 25% of the output. The low amount of localization eases up some pressure on the tools. If you don't have to push your content into translation management systems, you aren't as constrained with compatible format types and roundtrip workflows. (It's still possible to localize with static site generators, just not as easy.)
 
 I asked questions about video in the survey because I had heard negative comments about video formats from some developers. Additionally, a lot of developer docs consist of code, which might be tough to demonstrate in a video (you basically watch someone code in real time, which can be tedious and feel either too slow or fast for the audience). However, the survey found that most writers aren't opposed to creating video content. The main reason for not creating video is due to lack of bandwidth, constantly changing technology, or because no one has asked for video &mdash; not necessarily because of an aversion for video.
 
@@ -172,17 +175,17 @@ Finally, the number of writers generating PDFs surprised me. It's not so easy to
 
 Most writers participate on Scrum teams, sometimes in limited capacity; other times they have their own documentation Scrum teams. Scrum is the standard operating approach for most engineering groups (for better or worse), and technical writers plug into this rhythm for documentation as well.
 
-Writers review docs often using the same tools engineers use to review code (e.g, code review tools that show diffs between commits). They also review docs through in-person meetings or through collaborative annotation tools like Google Docs.
+Writers review docs often using the same tools engineers use to review code (e.g., code review tools that show diffs between commits). They also review docs through in-person meetings or through collaborative annotation tools like Google Docs.
 
 The review process for docs has always been multi-pathed, and what works at one company might not work with another. Engineers often prefer to review content through code tools because it fits into how they're reviewing code, so they're accustomed to this approach. However, I find  these tools exclude non-engineers, which weakens the review process &mdash; see my extended thoughts on this in [Treat code like code and prose like prose](https://idratherbewriting.com/blog/treat-code-like-code-and-prose-like-prose/).
 
 Engineers contribute content either through pull requests to the doc source or by putting the content on a wiki or equivalent (for example, Google Docs, Quip). Other times engineers have direct rights in the repo to work with the content.
 
-Note that the survey did not filter out documentation-writing engineers from dedicated technical writers. Many companies don't have the luxury of technical writers, so engineers often play roles as documentarians. In these cases, it would be natural for engineers to have rights in documentation repos, or to store documentation in the same repos as the code. (See [Integration documentation into engineering code and workflows](https://idratherbewriting.com/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/) for a summary of an engaging presentation about how Google's internal doc team transformed their documentation by moving Markdown files directly inside of code repos.)
+Note that the survey did not filter out documentation-writing engineers from dedicated technical writers. Many companies don't have the luxury of technical writers, so engineers often play roles as documentarians. In these cases, it would be natural for engineers to have rights in documentation repos, or to store documentation in the same repos as the code. (See [Integrating documentation into engineering code and workflows](https://idratherbewriting.com/2015/05/26/integrating-documentation-into-engineering-code-and-workflows/) for a summary of an engaging presentation about how Google's internal doc team transformed their documentation by moving Markdown files directly inside of code repos.)
 
 Outsourcing developer docs with an offshore authoring agency is rare. I did not ask for reasons why outsourcing isn't more common, but there might not be many outsourcing agencies that can handle highly technical developer content. Or perhaps there are IP concerns about documenting the internal workings of APIs, or maybe the doc shops are so small that no one would manage an outsourced resource.
 
-The publishing process for developer docs is streamlined through continuous integration and continuous deployment (CI/CD). This means writers can kick off builds and deployments with a few keystrokes on a command line. For example, if you set up a service on a specific branch, when you push changes to the branch, the service can start a build process on the server and then deploy the build onto a server. (For example, GitHub Pages offers automatic builds of Jekyll projects on any GitHub repository. You could also do this through Travis CI.) You can also run other verification scripts, such as link checkers, in an automated way.
+The publishing process for developer docs is streamlined through continuous integration and continuous deployment (CI/CD). This means writers can kick off builds and deployments with a few keystrokes on a command line. For example, if you set up a service on a specific branch, when you push changes to the branch, the service can start a build process on the server and then deploy the build onto a server. (For example, GitHub Pages offers automatic builds of Jekyll projects on any GitHub repository. You could also do this through GitHub Actions or another CI service.) You can also run other verification scripts, such as link checkers, in an automated way.
 
 Some hosting and deployment solutions like Netlify let you push out multiple builds, allowing you to create different environments for your content (alpha, beta, prod), with different conditions exposing different content in each environment. The automated publishing model is one of the biggest advantages of the docs-as-code approach. It allows you to constantly iterate on your content because the bandwidth for republishing requires such little effort.
 
@@ -226,7 +229,7 @@ REST APIs are language agnostic, but there are usually accompanying software dev
 <div markdown="block" class="surveySummary">
 <div class="surveySummaryTitle">Survey summary:</div>
 
-* **Age range**: 17% ages 36-40, 16% ages 31-35, 14% ages 26-30, 12% ages 41-45, 11% ages 56-50, 11% ages 56-60, 8% ages 51-55, 4% 61-65 ages
+* **Age range**: 17% ages 36-40, 16% ages 31-35, 14% ages 26-30, 12% ages 41-45, 11% ages 46-50, 11% ages 56-60, 8% ages 51-55, 4% ages 61-65
 * **Gender**: 52% male, 46% female
 * **Company**: 200+ different companies listed
 * **College degree**: 31% humanities, 28% engineering, 15% tech comm
@@ -244,7 +247,7 @@ REST APIs are language agnostic, but there are usually accompanying software dev
 
 This final section covers profile and demographics data about the survey respondents. First to note is that the age range for writers in developer docs is fairly evenly distributed. This is reassuring given that ageism is a valid concern for senior workers in the technology industry. (Apparently, there are even [resorts where aging tech workers in Silicon Valley go](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html), some still in their 30s, to cope with anxiety about their increasing age.)
 
-It seems the tech writer's age is much less relevant, perhaps because this role is seen as supportive to engineers rather than a role where risk-taking is essential (as might be required for young tech entrepreneurs trying to disrupt larger companies). For an age comparison with developers, the [2020 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2020#developer-profile-age-and-experience-by-country-average-age) reports that the average age of developers (using Stack Overflow) is about 33.7 years.
+It seems the tech writer's age is much less relevant, perhaps because this role is seen as supportive to engineers rather than a role where risk-taking is essential (as might be required for young tech entrepreneurs trying to disrupt larger companies). For an age comparison with developers, the [2020 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2020/) reports that the average age of developers (using Stack Overflow) is about 33.7 years.
 
 The gender balance among dev doc writers is also reassuring. The Stack Overflow Developer survey found that 91.5% of their respondents were men, 8.0% women. Tech has a bad reputation for its "brogrammer culture." In contrast, my survey found that the ratio for tech writers is 52% male / 46% female, which is much more balanced.
 
@@ -266,19 +269,19 @@ But also note that this space changes quickly. As JavaScript frameworks come and
 
 ### About the author
 
-Tom Johnson is a senior technical writer for Amazon in Sunnyvale, California. He is best known for his blog, [I'd Rather Be Writing](https://idratherbewriting.com), where he posts regularly on technical communication topics. The blog has one of the largest followings of technical communicators online. Additionally, he has created an extensive web API documentation course at [https://idratherbewriting.com/learnapidoc/] that has helped hundreds of technical writers transition into API documentation.
+The following bio is from the original 2020 article. Tom Johnson is a senior technical writer for Amazon in Sunnyvale, California. He is best known for his blog, [I'd Rather Be Writing](https://idratherbewriting.com), where he posts regularly on technical communication topics. The blog has one of the largest followings of technical communicators online. Additionally, he has created an extensive web API documentation course at [https://idratherbewriting.com/learnapidoc/] that has helped hundreds of technical writers transition into API documentation.
 
 ### Sources
 
-* [2020 Developer Survey](https://insights.stackoverflow.com/survey/2020). *Stack Overflow.*
+* [2020 Developer Survey](https://survey.stackoverflow.co/2020/). *Stack Overflow.*
 * Abel, Scott. [Slides: The State of Technical Communication: 2019](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf). *The Content Wrangler.*
-* Abel, Scott. [Survey Reveals Top Tools, Trends, and Technologies in Use in Technical Communication Teams](https://www.stc.org/intercom/2019/01/survey-reveals-top-tools-trends-and-technologies-in-use-in-technical-communication-teams/). *STC Intercom*. Dec 2018.
+* Abel, Scott. [Survey Reveals Top Tools, Trends, and Technologies in Use in Technical Communication Teams](https://web.archive.org/web/2022/https://www.stc.org/intercom/2019/01/survey-reveals-top-tools-trends-and-technologies-in-use-in-technical-communication-teams/). *STC Intercom*. Dec 2018.
 * Abel, Scott. Webinar: The State of Technical Communication: 2019. *The Content Wrangler.* BrightTALK. Dec 13, 2018. (No longer available online.)
 * Bowles, Nellie. [A New Luxury Retreat Caters to Elderly Workers in Tech (Ages 30 and Up)](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html). *New York Times*. Mar 4, 2019.
-* Carliner, Saul and Chen, Yuan. [Job and Career Satisfaction Among Technical Communicators](https://www.stc.org/intercom/2019/01/job-and-career-satisfaction-among-technical-communicators/). *STC Intercom*. Dec 2018.
-* Carliner, Saul and Chen, Yuan. [Professional Development of Technical Communicators](https://www.stc.org/intercom/2019/01/professional-development-of-technical-communicators/).  *STC Intercom*. Dec 2018.
-* Carliner, Saul and Chen, Yuan. [What Technical Communicators Do](https://www.stc.org/intercom/2019/01/what-technical-communicators-do/). Carliner, Saul and Chen, Yuan. *STC Intercom*. Jan 2019. *STC Intercom*. Dec 2018.
-* Carliner, Saul and Chen, Yuan. [Who Technical Communicators Are: A Summary of Demographics, Backgrounds, and Employment](https://www.stc.org/intercom/2019/01/who-technical-communicators-are-a-summary-of-demographics-backgrounds-and-employment/). *STC Intercom*. Dec 2018.
+* Carliner, Saul and Chen, Yuan. [Job and Career Satisfaction Among Technical Communicators](https://web.archive.org/web/2022/https://www.stc.org/intercom/2019/01/job-and-career-satisfaction-among-technical-communicators/). *STC Intercom*. Dec 2018.
+* Carliner, Saul and Chen, Yuan. [Professional Development of Technical Communicators](https://web.archive.org/web/2022/https://www.stc.org/intercom/2019/01/professional-development-of-technical-communicators/).  *STC Intercom*. Dec 2018.
+* Carliner, Saul and Chen, Yuan. [What Technical Communicators Do](https://web.archive.org/web/2022/https://www.stc.org/intercom/2019/01/what-technical-communicators-do/). *STC Intercom*. Dec 2018.
+* Carliner, Saul and Chen, Yuan. [Who Technical Communicators Are: A Summary of Demographics, Backgrounds, and Employment](https://web.archive.org/web/2022/https://www.stc.org/intercom/2019/01/who-technical-communicators-are-a-summary-of-demographics-backgrounds-and-employment/). *STC Intercom*. Dec 2018.
 * Johnson, Tom. [API the Docs recording: How Trends in API Documentation Differ from other Tech Comm Trends](https://idratherbewriting.com/blog/api-the-docs-virtual-series-fifth-edition-api-doc-trends-design/)
 * Johnson, Tom. [2020 Developer documentation survey](https://idratherbewriting.com/blog/developer-documentation-survey-2020).  Idratherbewriting.com. Dec 31, 2019.
 * Johnson, Tom. [Developer Documentation Trends — Survey Results](docapis_trends.html)
