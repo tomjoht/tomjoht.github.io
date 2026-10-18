@@ -20,7 +20,7 @@ agile_testing:
 
 api: 
   term: API (Application Programming Interface)
-  def: "A set of definitions, protocols, and tools for building software applications. APIs allow different systems to interact with each other programmatically. This course focuses mostly on REST APIs, but there are also language-based APIs such as Java, C++, Python, and more. I refer to these as native library APIs."
+  def: "A set of definitions, protocols, and tools for building software applications. APIs allow different systems to interact with each other programmatically. This course focuses mostly on REST APIs, but there are also language-based APIs such as Java, C++, Python, and more. I refer to these as native library APIs or library-based APIs."
 
 api_blueprint: 
   term: API Blueprint
@@ -80,7 +80,7 @@ apimatic:
 
 asciidoc: 
   term: Asciidoc
-  def: "A lightweight text format that provides more semantic features than Markdown. Used in some static site generators, such as Asciidoctor or Nanoc."
+  def: "A lightweight text format that provides more semantic features than Markdown. Processed by Asciidoctor and used by documentation tools such as Antora."
 
 assumption: 
   term: assumption
@@ -116,7 +116,7 @@ backlog_grooming:
 
 base_url:
   term: base URL
-  def: "The main part of the URL, which usually doesn't change. Parameters are then added to this base URL to access different resources or perform specific operations. Similar to endpoint."
+  def: "The main part of the URL, which usually doesn't change. Endpoint paths and parameters are then added to this base URL to access different resources or perform specific operations."
 
 bearer_token: 
   term: Bearer token
@@ -136,7 +136,7 @@ blame:
 
 branch: 
   term: branch
-  def: "A copy of the Git repository that is often used for developing new features. Usually, you work in branches and then merge the branch into the master branch when you're ready to publish."
+  def: "A copy of the Git repository that is often used for developing new features. Usually, you work in branches and then merge the branch into the main branch when you're ready to publish."
 
 bug: 
   term: bug
@@ -335,7 +335,7 @@ header_parameters:
 
 http_method: 
   term: HTTP method
-  def: "The type of action indicated in an API request, such as GET, POST, PUT, DELETE. Determines if you are reading, creating, updating, or deleting a resource. Synonymous with HTT verb and similar to HTTP operation."
+  def: "The type of action indicated in an API request, such as GET, POST, PUT, DELETE. Determines if you are reading, creating, updating, or deleting a resource. Synonymous with HTTP verb and similar to HTTP operation."
 
 http_verb: 
   term: HTTP verb
@@ -346,7 +346,7 @@ http_operation:
   def: "Refers to a combination of an HTTP method and a specific URI or endpoint. For example, a GET request to /users might retrieve a list of users, while a POST request to the same endpoint might create a new user. So, the combination of GET with /users and POST with /users indicates two distinct operations. Thus, an operation provides a more comprehensive view, as it takes into account both the action (HTTP method/verb) and the target (URI or resource)."
 hugo: 
   term: Hugo
-  def: "A static site generator that uses the Go programming language as its base. Along with Jekyll, Hugo is among the top 5 most popular static site generators. Extremely fast site generation time."
+  def: "A static site generator that uses the Go programming language as its base. Hugo is one of the most popular static site generators and is known for extremely fast build times."
 
 i18n:
   term: i18n
@@ -370,7 +370,7 @@ iteration:
 
 java: 
   term: Java
-  def: "General purpose programming language commonly used in enterprise application development. Preferred by some organizations over languages like PHP."
+  def: "General purpose programming language commonly used in enterprise application development and Android apps."
 
 javadoc: 
   term: Javadoc
@@ -395,6 +395,10 @@ localization_internationalization:
 localization_testing:
   term: localization testing
   def: "Ensuring that the translated versions of documentation are accurate, culturally appropriate, and align with the original intent of the content."
+
+llms_txt:
+  term: llms.txt
+  def: "A proposed convention for a Markdown file at the root of a website (/llms.txt) that lists the site's most important pages with short descriptions, so that AI tools can find and read the content more easily. Some doc sites also publish Markdown versions of each page for the same reason. See llmstxt.org."
 
 main_branch:
   term: Main branch
@@ -574,7 +578,7 @@ quick_reference:
 
 raml_console:
   term: RAML Console
-  def: "In Mulesoft, the RAML Console is where you design your RAML spec. Similar to the Swagger Editor for the OpenAPI spec."
+  def: "A MuleSoft tool that displays a RAML spec as interactive documentation, similar to Swagger UI for the OpenAPI spec."
 
 raml:
   term: RAML
@@ -630,7 +634,7 @@ remote:
 
 repo:
   term: Repo
-  def: "A tool for consolidating and managing many smaller repos with one system."
+  def: "A tool built on top of Git (developed by Google for the Android project) for managing many Git repositories as a single project. Not to be confused with a Git repo."
 
 request_body:
   term: request body
@@ -766,7 +770,7 @@ stakeholder_engagement:
 
 static_site_generator:
   term: static site generator
-  def: "Tool that compiles a website from simpler text-based source files like Markdown. Popular static site generators include Jekyll, Hugo, and Sphinx. A common part of docs-as-code workflows."
+  def: "Tool that compiles a website from simpler text-based source files like Markdown. Popular static site generators include Jekyll, Hugo, Sphinx, Docusaurus, and MkDocs. A common part of docs-as-code workflows."
 
 status_code:
   term: status code
@@ -806,7 +810,7 @@ swagger_editor:
 
 swagger_inspector:
   term: Swagger Inspector
-  def: "An online tool for testing APIs. It helps you quickly validate and inspect API requests and responses without the need for any underlying implementation."
+  def: "A former online tool from SmartBear for testing APIs and inspecting requests and responses. SmartBear has since replaced it with Swagger Explore."
 
 swagger_petstore:
   term: Swagger Petstore
@@ -838,7 +842,7 @@ taxonomy:
 
 templating_language:
   term: templating language
-  def: "Languages like Liquid, Handlebars, or Go that allow inserting dynamic content into static templates when sites are built. Help abstract complex site generation logic."
+  def: "Languages like Liquid, Handlebars, Jinja, or Go templates that allow inserting dynamic content into static templates when sites are built. Help abstract complex site generation logic."
 
 terminology:
   term: terminology
@@ -914,4 +918,4 @@ work_in_progress:
 
 yaml:
   term: YAML
-  def: "A human-readable data serialization format commonly used for configuration files and OpenAPI definitions. Uses indentation and whitespace for structure. Less visually noisy than JSON. Recursive acronym for YAML Ain't No Markup Language."
+  def: "A human-readable data serialization format commonly used for configuration files and OpenAPI definitions. Uses indentation and whitespace for structure. Less visually noisy than JSON. Recursive acronym for YAML Ain't Markup Language."

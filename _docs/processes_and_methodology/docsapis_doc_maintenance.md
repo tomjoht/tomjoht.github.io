@@ -6,7 +6,7 @@ weight: 12.8
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-10-30
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -40,7 +40,7 @@ First, identify which docs are a priority. If some products have been sunset or 
 
 ## 2. Identify broken links
 
-Identifying broken links is a time-honored tradition in the doc community, and it's an easy place to start. Fixing broken links is a straightforward, concrete task that doesn't require outreach to other teams. Put on your favorite Netflix show in the background, and slip into a mind-numbing afternoon of fixing links. There are different tools and scripts for identifying broken links. For example, you could use linking-checking tools (like [Dr. Link Checker](https://www.drlinkcheck.com/)), custom scripts, or even Chrome extensions (like [Broken Link Checker](https://chrome.google.com/webstore/detail/broken-link-checker/nibppfobembgfmejpjaaeocbogeonhch?hl=en)) to identify broken links.
+Identifying broken links is a time-honored tradition in the doc community, and it's an easy place to start. Fixing broken links is a straightforward, concrete task that doesn't require outreach to other teams. Put on your favorite Netflix show in the background, and slip into a mind-numbing afternoon of fixing links. There are different tools and scripts for identifying broken links. For example, you could use link-checking services (like [Dr. Link Checker](https://www.drlinkcheck.com/)), command-line tools that can also run in CI workflows (like [lychee](https://github.com/lycheeverse/lychee)), or custom scripts to identify broken links. Also check for links that still return a page but no longer point to the content you intended. Expired domains sometimes get bought and redirected to spam or gambling sites, and a basic link checker won't flag them.
 
 We often look within our own documentation repositories for errors, but what about content outside of the documentation? How about all the marketing pages, blog posts, support threads, and other content that link to your documentation? If your documentation portal has a lot of other pages, consider running link checkers across those pages to identify broken links. Fortunately, you might not have to fix broken links on these pages. You could simply print the report and hand it off to the content owners in these areas.
 
@@ -113,7 +113,7 @@ Unless you work closely with your support team, the support agents might create 
 
 ## 12. Identify docs with the highest bounce rate and shortest visit time
 
-Bounce rate refers to the number of visitors that land on a page and then bounce off your site domain to some other site, without visiting any other pages on your site. If users land on a page and then immediately bounce off, it could indicate that the content has an SEO-optimized title but lacks the answer users are looking for. Look at your top 10 pages with the highest bounce rate to see if the information looks right. Maybe some of these pages need to be re-titled, or maybe the information needs more development. Or maybe the page is actually working well and allowing users to zero-in on exactly what they're looking for.
+Bounce rate refers to the number of visitors that land on a page and then bounce off your site domain to some other site, without visiting any other pages on your site. (Google Analytics 4 defines bounce rate a bit differently, as the percentage of sessions that weren't "engaged," but the idea is similar.) If users land on a page and then immediately bounce off, it could indicate that the content has an SEO-optimized title but lacks the answer users are looking for. Look at your top 10 pages with the highest bounce rate to see if the information looks right. Maybe some of these pages need to be re-titled, or maybe the information needs more development. Or maybe the page is actually working well and allowing users to zero-in on exactly what they're looking for.
 
 ## 13. Review doc commit logs to check commits from people you don't recognize
 
@@ -127,7 +127,11 @@ If you're tracking different engineering repositories for various projects, you 
 
 If you write docs in Markdown, I guarantee that somewhere, on some page, your Markdown is broken. There are many Markdown linters that will look for broken Markdown syntax. You could also look for common error patterns in full-text searches.
 
-One easy formatting issue to check for is Git conflict markers in your content. Few things are as embarrassing having these markers exposed in your content, as this makes you look like a Git novice and also leads to interesting formatting in Markdown files. You can easily catch Git conflict markers from commits by adding a [pre-commit hook](https://pre-commit.com/hooks.html) into your Git files that looks for the markers. See this [sample code from Patrick Vacek](https://github.com/patrickvacek/git-reject-binaries-and-large-files/blob/master/pre-commit) (just drop the code into your `pre-commit` file inside .git > hooks). This can help prevent these conflict markers from polluting your repo going forward.
+One easy formatting issue to check for is Git conflict markers in your content. Few things are as embarrassing as having these markers exposed in your content, as this makes you look like a Git novice and also leads to interesting formatting in Markdown files. You can easily catch Git conflict markers from commits by adding a [pre-commit hook](https://pre-commit.com/hooks.html) into your Git files that looks for the markers. See this [sample pre-commit script](https://github.com/pattivacek/git-reject-binaries-and-large-files/blob/master/pre-commit) (just drop the code into your `pre-commit` file inside .git > hooks). This can help prevent these conflict markers from polluting your repo going forward.
+
+## 16. Use AI tools to help with audits
+
+AI tools can speed up some of these maintenance checks. For example, you can ask an AI tool to compare a page against the current code or API specification, flag references to deprecated features, or list the claims on a page that need verifying. Treat the results as leads to investigate rather than as findings, since AI tools can miss problems or flag things that aren't actually wrong.
 
 ## Conclusion
 

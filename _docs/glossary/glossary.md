@@ -70,6 +70,8 @@ j:
   - json
 k:
   - kanban
+l:
+  - llms_txt
 m:
   - markdown
   - mercurial

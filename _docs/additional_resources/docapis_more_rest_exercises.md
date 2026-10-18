@@ -6,7 +6,7 @@ weight: 16.1
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2025-07-05
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -20,7 +20,7 @@ To get more practice working with various APIs, I provide several examples in th
 
 ## Available activities
 
-There are several activities with different APIs. A challenge is listed for each activities. First, try to solve the challenge on your own. Then follow along in the sections below to see how I approached it.
+There are several activities with different APIs. A challenge is listed for each activity. First, try to solve the challenge on your own. Then follow along in the sections below to see how I approached it.
 
 {% include random_ad2.html %}
 

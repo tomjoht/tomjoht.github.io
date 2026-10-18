@@ -6,7 +6,7 @@ weight: 16.31
 sidebar: docapis
 section: likeadeveloper
 path1: learnapidoc/likeadeveloper.html
-last-modified: 2025-07-05
+last-modified: 2026-10-18
 redirect_from:
 - learnapidoc/docapis_aerisweather_example.html
 ---
@@ -24,26 +24,26 @@ In this activity, you'll use the Xweather API to get the wind speed for a specif
 
 {% include image_ad_right.html %}
 
-In earlier tutorials, you integrated information from the [OpenWeatherMap API](https://openweathermap.org/api). It's probably a good idea to compare this OpenWeatherMap API with another weather API. The [Xweather API](https://www.xweather.com/docs/weather-api) (formerly Aeris Weather API) is an interesting, well-documented and powerful weather APIs I've encountered.
+In earlier tutorials, you integrated information from the [OpenWeatherMap API](https://openweathermap.org/api). It's probably a good idea to compare this OpenWeatherMap API with another weather API. The [Xweather API](https://www.xweather.com/docs/weather-api) (formerly Aeris Weather API) is one of the most interesting, well-documented, and powerful weather APIs I've encountered.
 
 {% include random_ad3.html %}
 
 ## 1. Get the API keys
 
-See the [Getting Started](http://www.xweather.com/docs/weather-api/getting-started/) page for information on how to register and get API keys. (You'll need to register for a trial developer version in order to authenticate to the API.) You will need both the ID and secret to make API calls. See [Get the Xweather API secret and ID](docapis_get_auth_keys.html#xweather_apikey) for more detail.
+See the [Getting Started](https://www.xweather.com/docs/weather-api/getting-started) page for information on how to register and get API keys. (You'll need to register for a trial developer version in order to authenticate to the API.) You will need both the ID and secret to make API calls. See [Get the Xweather API secret and ID](docapis_get_auth_keys.html#xweather_apikey) for more detail.
 
 ## 2. Construct the request
 
-Browse through the [available endpoints](https://www.xweather.com/docs/weather-api/endpoints) in the Weather API and look for one that would give you the wind speed. The [`observations`](https://www.xweather.com/docs/weather-api/endpoints/observations/) endpoint provides information about wind speed, as does [`/forecasts`](http://www.xweather.com/docs/weather-api/endpoints/forecasts/). The response from `observations` looks a little simpler, so let's use that endpoint.
+Browse through the [available endpoints](https://www.xweather.com/docs/weather-api/endpoints) in the Weather API and look for one that would give you the wind speed. The [`observations`](https://www.xweather.com/docs/weather-api/endpoints/observations/) endpoint provides information about wind speed, as does [`/forecasts`](https://www.xweather.com/docs/weather-api/endpoints/forecasts). The response from `observations` looks a little simpler, so let's use that endpoint.
 
-<a href="http://www.xweather.com/docs/weather-api/endpoints/observations/" class="noExtIcon"><img class="medium" src="{{site.api_media}}/xweather_obs_endpoint.png" alt="Xweather observations resource" /></a>
+<a href="https://www.xweather.com/docs/weather-api/endpoints/observations" class="noExtIcon"><img class="medium" src="{{site.api_media}}/xweather_obs_endpoint.png" alt="Xweather observations resource" /></a>
 
 {% include random_ad2.html %}
 
 To get the forecast details for Santa Clara, California, add `santa%20clara,ca` after `/observations`, like this:
 
 ```
-http://data.api.xweather.com/observations/santa%20clara,ca?client_id=CLIENT_ID&client_secret=CLIENT_SECRET
+https://data.api.xweather.com/observations/santa%20clara,ca?client_id=CLIENT_ID&client_secret=CLIENT_SECRET
 ```
 
 {: .note}
@@ -51,7 +51,7 @@ You will need to swap in your own client ID and secret in place of `CLIENT_ID` a
 
 ## 3. Analyze the response
 
-Here's the response from [the request](http://data.api.xweather.com/observations/santa%20clara,ca?client_id=ByruDorHEne2JB64BhP1k&client_secret=Jp4xullRcy6DXTPSTKBGXAvGGTaT04iiUQXPj0ob):
+Here's a sample response from the request:
 
 ```json
 {
@@ -169,7 +169,7 @@ To add a little variety to the code samples, let's add some conditional logic in
       <script>
 
          jQuery.ajax({
-             url: "http://data.api.xweather.com/observations/santa%20clara,ca",
+             url: "https://data.api.xweather.com/observations/santa%20clara,ca",
              type: "GET",
              data: {
                  "client_id": "CLIENTID",

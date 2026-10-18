@@ -6,7 +6,7 @@ weight: 16.91
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2019-06-21
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -17,7 +17,7 @@ The following are other video recordings for API-related presentations.
 {:toc}
 
 {% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_course_videos.html] to view the content.*
+*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/api_doc_presentations.html](https://idratherbewriting.com/learnapidoc/api_doc_presentations.html) to view the content.*
 {% endif %}
 
 {% if site.format == "web" %}

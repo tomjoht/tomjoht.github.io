@@ -6,7 +6,7 @@ weight: 12.92
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-11-27
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -26,7 +26,7 @@ Poor documentation environments can be characterized by the following:
 
 * **Lack of enough resources for the required work.** In a company with poor documentation culture, you might always feel short-handed and unable to ramp up on the needed work. You might move from project to project in a cursory way, never able to adequately learn the technology or become a SME before you have to start on the next project, which might be a completely different technical realm. The lack of resources goes hand in hand with high turnover rates. As soon as someone arrives, another leaves, and you end up doing more work than your role alone, which also motivates more turnover because people are overworked.
 
-* **Check-box mentality is common.** If product and department leaders see documentation as simply a box to check box to select and nothing more, this can also trivialize your experience at that company, especially if that check box has no standards or minimum bar associated with it. This "check-box mentality" can be characteristic of people who show little interest in the actual user experience. As soon as the docs are done, they're crossed off the list and rarely revisited.
+* **Check-box mentality is common.** If product and department leaders see documentation as simply a box to check and nothing more, this can also trivialize your experience at that company, especially if that check box has no standards or minimum bar associated with it. This "check-box mentality" can be characteristic of people who show little interest in the actual user experience. As soon as the docs are done, they're crossed off the list and rarely revisited.
 
 * **Support for tooling is underfunded for the requirements.** You might need robust tools to provide the kind of experience people require (PDF, localization, gated docs, etc.), but the company might not want to fund any tooling resources, insisting that you use open-source tools instead, or not providing enough time to build out tooling you need.
 
@@ -79,7 +79,7 @@ When you do improve docs in significant ways, others will start to ask for tech 
 
 ### 5. Be in the right group organizationally
 
-Okay, this last point is controversial and opinionated, but it can't be left out. Where you are in the organization matters. Are you grouped in Product, Marketing, Engineering, Support, or some other department? I've been in nearly every organizational discipline, and my best experiences are when I'm in Engineering. This is because engineers are heavily involved in the product *development* phase, and this is where you want to be as a technical writer. Marketers are too involved in the release phase, support in the post-release phase, and product in the pre-development phase. But engineers are in the development phase. As a technical writer, you're *developing* content, and you need the sprint cadence of weekly development and workflows. Engineering understands this flow, and documentation groups fit well into it. (Many of these other groups don't even follow Scrum/Kanban workflows.)
+Okay, this point is controversial and opinionated, but it can't be left out. Where you are in the organization matters. Are you grouped in Product, Marketing, Engineering, Support, or some other department? I've been in nearly every organizational discipline, and my best experiences are when I'm in Engineering. This is because engineers are heavily involved in the product *development* phase, and this is where you want to be as a technical writer. Marketers are too involved in the release phase, support in the post-release phase, and product in the pre-development phase. But engineers are in the development phase. As a technical writer, you're *developing* content, and you need the sprint cadence of weekly development and workflows. Engineering understands this flow, and documentation groups fit well into it. (Many of these other groups don't even follow Scrum/Kanban workflows.)
 
 {% include random_ad4.html %}
 

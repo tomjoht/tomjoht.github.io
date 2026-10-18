@@ -6,7 +6,7 @@ weight: 12.93
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2021-08-15
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -55,7 +55,7 @@ If you don't have many recently published docs, you could link to some drafts in
 
 ### Upcoming doc work
 
-List a few high-priority projects you're currently or soon-to-be working on, so that people know where you're headed. Describe your roadmap more or less, focusing at a high level. Sometimes readers want to know if such and such project is on your radar, and this section provides describes that horizon.
+List a few high-priority projects you're currently or soon-to-be working on, so that people know where you're headed. Describe your roadmap more or less, focusing at a high level. Sometimes readers want to know if such and such project is on your radar, and this section describes that horizon.
 
 ### Support deflection efforts
 
@@ -75,7 +75,7 @@ In this section of the report, comment on trends you see for the tickets filed. 
 
 ### Doc metrics
 
-Report on some aspect of your site's traffic and analytics. For example, you could report on your core metrics: pageviews, users, sessions, pageviews per session, time on page, and bounce rate. You could also describe user profile characteristics (if available), such as location, age, gender, operating system, and browser. The location can be particularly useful in deciding about localization.
+Report on some aspect of your site's traffic and analytics. For example, you could report on your core metrics: pageviews, users, sessions, engagement time, and engagement or bounce rate. You could also describe user profile characteristics (if available), such as location, operating system, and browser. The location can be particularly useful in deciding about localization.
 
 You could also list the most popular pages in your documentation and explore reasons why. Especially if the pages have unexpectedly high traffic, it could be good fodder for analysis.
 
@@ -83,9 +83,9 @@ If you have an aptitude for metrics analysis, you could also provide insights ab
 
 **Warning:** Analytics can be a rabbit hole that can consume a lot of time without leading to actionable results. For example, whether the average time on page is 3 minutes or 5 minutes, is that going to dictate your information architecture strategy? Probably not. The most valuable metrics are usually your top 10 pages, which can give you a sense of where to prioritize your content development efforts. Dive into metrics, but come up for air soon after.
 
-Even if analytics aren't always actionable, it's worth periodically reviewing the numbers to try glean as many insights as possible. Every year, I regularly review analytics on my blog. See the section [Posts analyzing site analytics](https://idratherbewriting.com/analytics/).
+Even if analytics aren't always actionable, it's worth periodically reviewing the numbers to try to glean as many insights as possible. Every year, I regularly review analytics on my blog. See the section [Posts analyzing site analytics](https://idratherbewriting.com/analytics/).
 
-The biggest action item to come from these blog analytics assessments has been to see the large traffic going to this API doc site, which prompted me to focus more efforts in this direction. At Amazon, when I looked at analytics, I realized that device specifications regularly trended as the most popular pages, so I put a lot of effort in into [Fire TV device specifications](https://developer.amazon.com/docs/fire-tv/device-specifications.html). In short, your most popular pages can indicate where you should prioritize your time.
+The biggest action item to come from these blog analytics assessments has been to see the large traffic going to this API doc site, which prompted me to focus more efforts in this direction. At Amazon, when I looked at analytics, I realized that device specifications regularly trended as the most popular pages, so I put a lot of effort into [Fire TV device specifications](https://developer.amazon.com/docs/fire-tv/device-specifications.html). In short, your most popular pages can indicate where you should prioritize your time.
 
 ### Strategic initiatives
 
@@ -95,7 +95,7 @@ Discuss a few points of your doc strategy at a high level. Remember, many people
 
 ## Other sections you could include
 
-For other ideas about doc report content, see the suggestions from Saul Carliner in [Eight Tips Healthy Contractor for with Clients Relationships](https://www.stc.org/intercom/2018/04/eight-tips-for-healthy-contractor-relationships-with-clients/). Saul addresses status reports from contractors to clients, so it's a bit different from full-time employees and stakeholders, but not so much. Saul writes:
+For other ideas about doc report content, see the suggestions from Saul Carliner in [Eight Tips for Healthy Contractor Relationships with Clients](https://www.stc.org/intercom/2018/04/eight-tips-for-healthy-contractor-relationships-with-clients/). Saul addresses status reports from contractors to clients, so it's a bit different from full-time employees and stakeholders, but not so much. Saul writes:
 
 > ... provide reports anyway to address the natural concern of clients that you will complete their work on time and within budget. Take the initiative to send reports. The reports should identify:
 >
@@ -123,7 +123,7 @@ Now that you have a sense of what the status update involves, you have some othe
 
 Sending these emails (which might go to hundreds of people depending on the email lists) is usually something that makes writers feel uncomfortable. You might feel like you're tooting your own horn, and most writers, often somewhat introverted, tend to prefer not to call attention to themselves. Many writers like to stay in the shadows.
 
-Staying in the shadows is an approach to avoid if you want to get ahead at work. As a blogger, I often feel uncomfortable sharing posts on Twitter, Linkedin, and in a newsletter. Every couple of weeks, I'm basically saying "Hey, look at what I wrote here! Read my thoughts! See what *I* have to say." This isn't my nature. I'm not overtly charismatic, extroverted, social, or prone to transparency. At a party, I don't naturally introduce myself to strangers or jump into the middle of conversations. But if you fail to promote your team in reports like this at work, your team will suffer from invisibility, reduced status, and marginalization (to a degree, anyway).
+Staying in the shadows is an approach to avoid if you want to get ahead at work. As a blogger, I often feel uncomfortable sharing posts on LinkedIn and in a newsletter. Every couple of weeks, I'm basically saying "Hey, look at what I wrote here! Read my thoughts! See what *I* have to say." This isn't my nature. I'm not overtly charismatic, extroverted, social, or prone to transparency. At a party, I don't naturally introduce myself to strangers or jump into the middle of conversations. But if you fail to promote your team in reports like this at work, your team will suffer from invisibility, reduced status, and marginalization (to a degree, anyway).
 
 I've written previously about this topic, as these themes have characterized the tech writing profession for years. See these posts for elaboration on this topic:
 

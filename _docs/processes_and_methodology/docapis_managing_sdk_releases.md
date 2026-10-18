@@ -6,7 +6,7 @@ weight: 12.5
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-08-17
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -28,7 +28,7 @@ Let's assume that you've written the documentation for the SDK, and now the deve
 
 Since you're controlling the distribution mechanisms on the developer portal, they might send you the SDK zip file to publish along with other documentation assets you're already publishing. Or they might ask you to review or sign off on the SDK, including the release notes, readme, implementation instructions, license, and other details.
 
-Your role with the SDK's release and distribution will differ by company, for sure, as well as how you're distributing it (S3 bucket, JCenter, Maven, GitHub, or other online repository). How do you review these code artifacts to make sure they're publish-ready?
+Your role with the SDK's release and distribution will differ by company, for sure, as well as how you're distributing it (S3 bucket, Maven Central, GitHub, or other online repository). How do you review these code artifacts to make sure they're publish-ready?
 
 {% include random_ad4.html %}
 
@@ -58,7 +58,7 @@ Does the README contain the following:
 * Details about the version: y/n
 * Release notes or link to release notes: y/n
 
-Is your binary available on JCenter or Maven? y/n
+Is your binary available on Maven Central (or another public package repository)? y/n
 </div>
 
 ## Requirements
@@ -85,7 +85,7 @@ The SDK should be tested through a formal QA process. Usually, before you receiv
 
 It's still a good idea to ensure QA signs off, though. Think about how many version updates SDKs often have in which the update addresses some bug or issue with the SDK. By asking for QA signoff, you can better identify QA groups and their processes.
 
-If you want to take an extra step here, you can ask the QA team for a list of their validation tests (which they probably store in a QA test system like Rally), and then review the documentation against the test cases. Does the documentation cover the main features and tasks that QA is testing against? By reviewing the requirements against the documentation, you can assess whether the documentation is complete.
+If you want to take an extra step here, you can ask the QA team for a list of their validation tests (which they probably store in a test management system), and then review the documentation against the test cases. Does the documentation cover the main features and tasks that QA is testing against? By reviewing the requirements against the documentation, you can assess whether the documentation is complete.
 
 ### Javadoc or Doxygen Reference Docs
 
@@ -130,7 +130,7 @@ But to avoid duplicating information in multiple places online (between the Read
 
 The SDK should include the version number for the release. This version number lets users know whether their existing file is outdated, and lets you establish guidelines about compatibility based on different versions. The version number might be indicated both in the Readme file and code.
 
-Version numbering should follow a consistent pattern for the organization (or at least for the project). As a general rule, minor releases are indicated by a dot version (e.g., 2.1); major releases by a whole number (e.g., 3.0). Sometimes teams will have internal releases that increment the version, so the actual released versions might skip a few versions. If so, you can note that the skipped versions were internal releases.
+Version numbering should follow a consistent pattern for the organization (or at least for the project). Many teams follow [semantic versioning](https://semver.org/), which uses three numbers: MAJOR.MINOR.PATCH (e.g., 3.1.2). The major number changes for breaking changes, the minor number for new backward-compatible features, and the patch number for backward-compatible bug fixes. Sometimes teams will have internal releases that increment the version, so the actual released versions might skip a few versions. If so, you can note that the skipped versions were internal releases.
 
 ### Release Notes
 
@@ -148,7 +148,7 @@ The documentation for the SDK should provide a description of contents in the SD
 
 If you're receiving the SDK from an engineering team and not actively working on their documentation, review their documentation to identify where they itemize the contents of the SDK.
 
-## Hosting Java and Android on JCenter, Maven Central
+## Hosting Java and Android libraries on Maven Central
 
 Now that we've covered requirements about the SDK content itself, the next question concerns hosting. Where do you host your SDK files so that developers can download them?
 
@@ -158,19 +158,19 @@ Your organization might already have a file storage and distribution in place (s
 
 For Java, the SDK will usually include a JAR file; for Android, the SDK often includes an AAR file. C++ might include a DLL. These are binaries that developers will download and incorporate into their projects. Rather than manually downloading the files, developers can automatically pull from online repositories to dynamically include the files when they build their projects.
 
-Two common distribution sites for Java-related projects are [JCenter](https://bintray.com/bintray/jcenter) and [Maven Central](https://search.maven.org/). JCenter is an online  repository for Java and Android libraries. JCenter has everything that Maven Central has and more.
+The most common distribution site for Java libraries is [Maven Central](https://central.sonatype.com/). Android libraries are also published to Maven Central, and Google publishes its own Android libraries to [Google's Maven repository](https://maven.google.com/web/index.html). (Older docs often mention JCenter, but JCenter stopped accepting new submissions in 2021 when JFrog shut down its Bintray service.)
 
 Code for other libraries will have different online repositories. For example, with [Jekyll](https://jekyllrb.com), the [jekyll gem](https://rubygems.org/gems/jekyll) is distributed through [RubyGems](https://rubygems.org/), a gem hosting service.
 
-When developers build their projects, they usually have a build tool that retrieves needed resources from online repositories and pulls them directly into the project. Android uses Gradle to manage dependencies. For example, with Android, to declare a dependency on an Android library in JCenter, you list `jcenter()` in your list of project dependencies, and then include the package name and version you want to pull. Now Gradle will handle getting that dependency automatically into your project, without requiring developers to download it. You can read more here: [Dependency management in Gradle](https://docs.gradle.org/current/userguide/dependency_management.html#dependency_management_in_gradle).
+When developers build their projects, they usually have a build tool that retrieves needed resources from online repositories and pulls them directly into the project. Android uses Gradle to manage dependencies. For example, with Android, to declare a dependency on a library in Maven Central, you list `mavenCentral()` (and usually `google()`) in your project's repositories, and then include the package name and version you want to pull. Now Gradle will handle getting that dependency automatically into your project, without requiring developers to download it. You can read more here: [Declaring repositories](https://docs.gradle.org/current/userguide/declaring_repositories.html) in the Gradle docs.
 
-Jekyll projects use [Bundler](https://bundler.io/) (a package and dependency manager) to automatically retrieve the right gem versions as declared by the projects. When you run `bundle install` on a Jekyll project, Bundle ensures that your project has the gems listed in your project's Gemfile.
+Jekyll projects use [Bundler](https://bundler.io/) (a package and dependency manager) to automatically retrieve the right gem versions as declared by the projects. When you run `bundle install` on a Jekyll project, Bundler ensures that your project has the gems listed in your project's Gemfile.
 
 ## GitHub
 
 Many SDKs have a [sample app](docapis_sample_apps.html) that demonstrates integration with the SDK and the provided functionality, even if the sample app is just bare-bones simple and only includes some basic buttons in the UI to initiate events. Many times, sample apps are included with the SDK. If the sample app is more extensive and stands alone, consider distributing the sample app through GitHub as open-source project instead.
 
-Releasing your project on GitHub doesn't require the code to be open source, but the project source must be viewable. (You can't just upload a compiled binary onto GitHub.) You probably can't freely create a new GitHub repo on your own in your organization, but you can instruct engineering teams to do so following any outlined corporate processes. Many times engineering groups have organizations and teams already set up in GitHub and standard processes for pushing out code.
+Releasing your project on GitHub doesn't require the code to be open source. GitHub supports private repositories, and you can attach compiled binaries to a [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) or publish packages through [GitHub Packages](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages). However, a public sample app repo means everyone can see the source code, so make sure Legal has approved it. You probably can't freely create a new GitHub repo on your own in your organization, but you can instruct engineering teams to do so following any outlined corporate processes. Many times engineering groups have organizations and teams already set up in GitHub and standard processes for pushing out code.
 
 {% include random_ad3.html %}
 

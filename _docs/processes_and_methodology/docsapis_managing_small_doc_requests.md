@@ -6,7 +6,7 @@ weight: 12.4
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2021-02-17
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -39,7 +39,7 @@ Small doc requests can be prioritized and weighted similar to other projects (e.
 * 3 points = 1.5 days of work
 * 4 points = 2 days of work
 
-If there are a lot of small tickets that each takes 10 minutes, and you can't logically group them together, you can choose how you weight them. This where a more exact weighting system breaks down &mdash; it probably makes sense for disparate tasks to remain in separate tickets, but since many ticketing systems usually require whole number weightings, how do you represent a 10-minute task? You don't want to use 0 because the task requires *some* work, but if you use 1 point, wouldn't this distort the actual effort? Ten minutes of work is hardly the same as another task that takes half a day.
+If there are a lot of small tickets that each takes 10 minutes, and you can't logically group them together, you can choose how you weight them. This is where a more exact weighting system breaks down &mdash; it probably makes sense for disparate tasks to remain in separate tickets, but since many ticketing systems usually require whole number weightings, how do you represent a 10-minute task? You don't want to use 0 because the task requires *some* work, but if you use 1 point, wouldn't this distort the actual effort? Ten minutes of work is hardly the same as another task that takes half a day.
 
 It depends on the purpose of the weighting. If the purpose of weighting is to evaluate the team's productivity, recognize that there can be a danger in using these rough point estimates to assess the amount of work completed. The way you chunk up tasks and weight them can easily be distorted. For example, suppose a writer breaks down tasks for a project in an extremely granular way, and then weights each task as 1 point. The writer might appear to be finishing a ton of work when in reality the writer just manipulated the tracking system to appear to be doing more work than was actually done. If your velocity and weighting can so easily be distorted, it might not mean a whole lot to others.
 
@@ -103,7 +103,7 @@ Here is where the intake fields can do some work. Email threads have scattered i
 
 In your small intake process, avoid allowing anyone to make a doc request. Instead, the ones making requests should be product managers (or those who own the products related to the docs).
 
-To understand why, consider this scenario. Suppose your DevRel engineers (the ones who work closely with partners on implementations) make a doc request for more information about some feature. They don't have the information themselves, but they they've noticed that the lack of information is a partner friction, so they file a doc request. It sounds like a good idea, right, because you want to drive your doc priorities based on partner-facing groups? However, the problem is that DevRel groups (or others) usually don't have the information needed to make the request actionable.
+To understand why, consider this scenario. Suppose your DevRel engineers (the ones who work closely with partners on implementations) make a doc request for more information about some feature. They don't have the information themselves, but they've noticed that the lack of information is a partner friction, so they file a doc request. It sounds like a good idea, right, because you want to drive your doc priorities based on partner-facing groups? However, the problem is that DevRel groups (or others) usually don't have the information needed to make the request actionable.
 
 If anyone can make a request for information they wish would be included in the docs, this can leave technical writers trying to chase down the information, knocking on the doors of different groups without getting much traction. This puts all the burden on technical writers for information collection and SME identification, and none on the requester. This is the wrong approach.
 
@@ -121,7 +121,7 @@ Suppose a thread goes a dozen rounds and multiple Cc lists. By the time the thre
 
 ## Starting work
 
-Most small doc requests can be made directly within your authoring system rather than starting out in a collaborative platform like Google Docs or Quip. When you're creating content in your authoring system, you might choose to follow a standard branching workflow (or whatever Git workflow you've decided to implement in your group). Usually, create a branch from production and make your changes in the branch.
+Most small doc requests can be made directly within your authoring system rather than starting out in a collaborative platform like Google Docs. When you're creating content in your authoring system, you might choose to follow a standard branching workflow (or whatever Git workflow you've decided to implement in your group). Usually, create a branch from production and make your changes in the branch.
 
 {% include random_ad3.html %}
 

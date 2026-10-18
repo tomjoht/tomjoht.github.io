@@ -34,6 +34,9 @@ findability:
 - title: Developer portal has IA flow
   description: "The information architecture (IA) in the developer portal organizes content within a larger context or story, even if it's just a list of links under various categories."
 
+- title: Readable by AI tools
+  description: "The docs are available in formats that AI tools can read easily, such as Markdown versions of each page or an <a href='https://llmstxt.org/'>llms.txt</a> file, and the content isn't hidden behind JavaScript or bot protection. Many developers now ask AI assistants about an API before (or instead of) reading the docs directly."
+
 accuracy:
 
 - title: Steps are accurate

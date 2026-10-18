@@ -2,19 +2,19 @@
 title: RAML tutorial
 permalink: learnapidoc/pubapis_raml.html
 keywords: RAML
-course: "Publishing REST APIs"
+course: "Documenting REST APIs"
 weight: 16.4
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2018-12-23
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
-RAML stands for REST API Modeling Language and is similar to the [OpenAPI specification](pubapis_openapi_tutorial_overview.html). RAML is backed by [Mulesoft](https://www.mulesoft.com/), a full-service, end-to-end API company.
+RAML stands for REST API Modeling Language and is similar to the [OpenAPI specification](pubapis_openapi_tutorial_overview.html). RAML is backed by [MuleSoft](https://www.mulesoft.com/) (part of Salesforce), a full-service, end-to-end API company.
 
-Note that unless you're publishing your docs with Mulesoft or another platform that specifically requires RAML, I recommend using the [OpenAPI specification](pubapis_openapi_tutorial_overview.html) instead. However, Mulesoft offers enterprise-grade API design, management, and deployment capabilities. If you're using Mulesoft for your API, you probably want to use RAML for your documentation specification.
+Note that unless you're publishing your docs with Mulesoft or another platform that specifically requires RAML, I recommend using the [OpenAPI specification](pubapis_openapi_tutorial_overview.html) instead. MuleSoft offers enterprise-grade API design, management, and deployment capabilities, and its platform supports OpenAPI as well as RAML. As such, RAML is mainly relevant if your team already has APIs described in RAML.
 
 {% if site.format == "web" %}
 * TOC

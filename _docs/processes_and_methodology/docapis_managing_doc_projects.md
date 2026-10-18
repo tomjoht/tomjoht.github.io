@@ -6,14 +6,14 @@ weight: 12.3
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-08-13
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
 When you're managing larger documentation projects, you need to incorporate project management skills to break the large work into smaller chunks. You can pick and choose from Scrum and other agile methodologies (like Kanban) to create a workflow that works for you. The following sections describe a process for working with large documentation projects.
 
-{: . note}
+{: .note}
 I also wrote about some of these processes in [Following Scrum with documentation projects](pubapis_agile_scrum_for_docs.html). This section expands on that initial framework with more process details and commentary.
 
 * TOC
@@ -73,7 +73,7 @@ The next step is to assess the identified work against your department's strateg
 
 Even in cases where each tech writer has a healthy allocation of projects, you will still probably have a lot of latitude/flexibility about which projects you devote most of your energy. It's worth understanding which projects are considered a strategic priority.
 
-Track down your organization's strategic goals from your C-suite execs or other senior leaders as a way to figure out these priorities. If you're so far down the org hierarchy that you've never seen such a document nor are allowed to access it, find out from your manager what the goals are. Your manager should be aware of his or her manager's goals, who should be aware of his or her manager's goals, and so on up the line. If there's a disconnect somewhere, it represents a broken line of communication and potentially an organization that isn't aligned.
+Track down your organization's strategic goals from your C-suite execs or other senior leaders as a way to figure out these priorities. If you're so far down the org hierarchy that you've never seen such a document nor are allowed to access it, find out from your manager what the goals are. Your manager should be aware of their manager's goals, who should be aware of their manager's goals, and so on up the line. If there's a disconnect somewhere, it represents a broken line of communication and potentially an organization that isn't aligned.
 
 Decide which projects should receive your most thorough attention (based on the projects that your senior leaders are prioritizing). This alignment is key for boosting your value to the organization, as I described in [Part V: On being strategic, interpersonal, and sponsored](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-clarke-being-strategic/). After you get a sense of your organization's strategic priorities, assign each project on your doc planning spreadsheet one of the following priorities: low, medium, or high.
 
@@ -305,13 +305,13 @@ Compare this to an engineering team where a PM might ask for a certain feature &
 
 All child tickets don't need to be created from the start, since it's not always possible to know the end from the beginning. And sometimes you only begin to see the work required as you get into the tasks. Part of the philosophy of agile is to plan your work in short sprints (usually two weeks) rather than six-month + intervals. As such, you need only sketch out the tickets for the next month or so. Also, avoid creating too many tickets that you drown in tickets. You can only see so far into the future.
 
-Each tech writer does this chunking for his or her own projects. Exactly how you chunk up the tasks depends on the nature of the project. You might identify a list of expected tasks the user would need to perform and make the doc for each task a separate ticket. Or the chunking could involve identifying common doc types (e.g., Overview, Getting Started tutorial, Configuration, Sample App, Testing) and devoting each ticket to a different doc type. See [Conceptual Topics in Docs](docconceptual.html) for some ideas here beyond the [Reference material](docapis_api_reference_tutorial_overview.html).
+Each tech writer does this chunking for their own projects. Exactly how you chunk up the tasks depends on the nature of the project. You might identify a list of expected tasks the user would need to perform and make the doc for each task a separate ticket. Or the chunking could involve identifying common doc types (e.g., Overview, Getting Started tutorial, Configuration, Sample App, Testing) and devoting each ticket to a different doc type. See [Conceptual Topics in Docs](docconceptual.html) for some ideas here beyond the [Reference material](docapis_api_reference_tutorial_overview.html).
 
 These chunked tickets should originally appear in the backlog of your ticketing system (to be later assigned to a sprint &mdash; described in the next step).
 
 ## 7. Assign tickets to a sprint board {#assign_tickets_to_sprints}
 
-With projects chunked into tickets, the next task is to next decide what tasks to promote from the backlog to a sprint. Sprints are typically two-week work cycles in which the team attempts to complete a defined set of work. (Sometimes sprints are one week, other times three weeks &mdash; try to align with the general approach engineering teams take in your organization, as it will breed better understanding of your processes when you have discussions with engineers.)
+With projects chunked into tickets, the next task is to decide what tasks to promote from the backlog to a sprint. Sprints are typically two-week work cycles in which the team attempts to complete a defined set of work. (Sometimes sprints are one week, other times three weeks &mdash; try to align with the general approach engineering teams take in your organization, as it will breed better understanding of your processes when you have discussions with engineers.)
 
 Each sprint has a capacity. For example, the sprint capacity might be 10 points per writer. For a team of 5 writers, the sprint would allow for 50 points. This number represents the team's *velocity*, or how fast your team can get work done. Theoretically, this velocity can be used to estimate how fast teams can get work done.
 
@@ -336,19 +336,19 @@ During the bi-weekly Sprint Planning meeting, each writer weights their items an
 
 ## 8. Start creating content {#start_creating_content}
 
-As tech writers begin developing content, there are two primary ways to go about it. For new content that involves a significant amount of new material, which will require review, comments, iterations, and other discussions, I recommend starting the content in a collaborative wiki platform (e.g., Google Docs, Quip, Confluence). Use the platform that your team already uses for collaboration, as it will probably a familiar place for interaction. These platforms allow you to easily ask questions, let reviewers provide input, and collaboratively shape the material in a more interactive way.
+As tech writers begin developing content, there are two primary ways to go about it. For new content that involves a significant amount of new material, which will require review, comments, iterations, and other discussions, I recommend starting the content in a collaborative platform (e.g., Google Docs, Microsoft Word online, or Confluence). Use the platform that your team already uses for collaboration, as it will probably be a familiar place for interaction. These platforms allow you to easily ask questions, let reviewers provide input, and collaboratively shape the material in a more interactive way.
 
 There's no point in focusing on your authoring tool's syntax (e.g., Markdown, DITA, XML) or struggling with build issues at this point if you're not even sure if the pages you've written will make it into the published documentation. I wrote about this scenario extensively in [Treat code like code and prose like prose](https://idratherbewriting.com/blog/treat-code-like-code-and-prose-like-prose/). While it might be tempting to drive everything from a docs-as-code tooling perspective here, asking engineers to review content using code review tools, this workflow typically excludes non-engineers from the documentation review process.
 
 Although engineers might like providing comments through GitHub or other code review tools, usually product managers, field engineers, QA, or others will find these tools much less familiar and might forego participating in reviews altogether. This scenario is bad news for docs because you end up with the reviewers being the same people who created the systems you're documenting. You need more of an outside perspective to avoid problems related to the curse of knowledge.
 
-Note that I'm only recommending writing in Google Docs, Quip, or Confluence as you're working on totally new pages with substantial amounts of content that needs to be heavily reviewed. If you're working on small tasks, it might make sense to make the changes directly in your authoring system from the start. Also, at some point, you'll need to migrate the content from the collaborative wiki into your authoring system as well, with some iterations thereafter. A good time to port it into your authoring system is after the content is no longer being actively reviewed and shaped in the wiki.
+Note that I'm only recommending writing in Google Docs, Word, or Confluence as you're working on totally new pages with substantial amounts of content that needs to be heavily reviewed. If you're working on small tasks, it might make sense to make the changes directly in your authoring system from the start. Also, at some point, you'll need to migrate the content from the collaborative wiki into your authoring system as well, with some iterations thereafter. A good time to port it into your authoring system is after the content is no longer being actively reviewed and shaped in the wiki.
 
 As you're creating content, you don't need to start from a blank page. You can use common templates to help get started and shape the material. You can find templates in the following places:
 
 * [Conceptual topics in API docs](docconceptual.html)
 * [API reference tutorial](docapis_api_reference_tutorial_overview.html)  
-* [The Good Docs Project](https://thegooddocsproject.dev/)
+* [The Good Docs Project](https://www.thegooddocsproject.dev/)
 
 Engineers and other product team members almost invariably have some product information on a wiki, but this information often needs to be reworked, sometimes from scratch. Avoid just lightly editing content that someone gives you, without assessing it on a deeper level.
 
@@ -358,7 +358,7 @@ Push for [sample apps](docapis_sample_apps.html) or [sample code](docapis_codesa
 
 ## 9. Follow a review process for your docs {#follow_review_process}
 
-It can be tempting to prematurely consider docs done when an engineer gives you his or her stamp of approval. However, engineering approval is only part of the review. In general, as you develop content, follow these five stages of review:
+It can be tempting to prematurely consider docs done when an engineer gives you their stamp of approval. However, engineering approval is only part of the review. In general, as you develop content, follow these five stages of review:
 
 1. Review with the doc team (e.g., yourself)
 2. Review with the product team (e.g., engineers, PMs)
@@ -382,7 +382,7 @@ When you're ready to review this version with reviewers, merge your feature bran
 
 If you're working in a docs-as-code environment, you should also create code reviews for the changes you're making. The code review can be especially helpful for writers or others who haven't been working with you closely in other spaces on the content.
 
-For example, another writer might want to know what you're committing into the repository, or a software development manager might want to see the docs written for a feature. These people might not have been reviewing the docs in Google Docs, Quip, or Confluence earlier &mdash; maybe they only want to be looped in at the end. Code reviews provide diffs that show file changes at a granular level. They help everyone know specifically what you're changing.
+For example, another writer might want to know what you're committing into the repository, or a software development manager might want to see the docs written for a feature. These people might not have been reviewing the docs in Google Docs or Confluence earlier &mdash; maybe they only want to be looped in at the end. Code reviews provide diffs that show file changes at a granular level. They help everyone know specifically what you're changing.
 
 Even if no one looks at your code reviews, I still recommend creating code reviews for docs for the sole purpose that they build visibility with engineering teams for the work you're doing. Each code review you create usually sends a notification (via some chatbot) to the engineering channel indicating that a new code review has been posted. This code review makes you more part of the team, more visible, and your tech credibility also increases.
 

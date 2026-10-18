@@ -7,12 +7,15 @@ weight: 16.2
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2018-12-29
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
 Use the [Eventbrite API](https://www.eventbrite.com/platform/api) to get the event title and description of an event.
+
+{: .note}
+I wrote this example in 2018. Since then, Eventbrite has redesigned its API documentation, so it no longer uses the Apiary console shown in the screenshots below. The overall workflow (find the endpoint, construct the request, and print values from the response) still applies, and the API calls themselves still work as described.
 
 {% if site.format == "web" %}
 * TOC
@@ -31,7 +34,7 @@ Eventbrite uses the [OAuth method for authorization](docapis_more_about_authoriz
 
 {% include image_ad_right.html %}
 
-If you want to sign up for your own token, first [sign in to Eventbrite](https://www.eventbrite.com), and then create and register your app [here](https://www.eventbrite.com/myaccount/apps/). After you create your app, click **Show Client Secret and OAuth Token** and copy the "Anonymous access OAuth token."
+If you want to sign up for your own token, first [sign in to Eventbrite](https://www.eventbrite.com), and then create and register your app [here](https://www.eventbrite.com/account-settings/apps). After you create your app, Eventbrite shows several credentials: an API key, a client secret, a private token, and a public token. Copy the **public token**, which gives read-only access to public data such as event details. Don't use the private token in code that runs in a web browser. Anyone can view the page source, and the private token gives full access to your Eventbrite account.
 
 ## 2. Determine the resource and endpoint you need
 
@@ -56,7 +59,7 @@ In the Console pane on the right, click the **Try** button to enable the ability
 Before you can call the resource successfully, do the following:
 
 * Click the **URI Parameters** tab and customize the value for the event ID to `49216045517`. This ID corresponds to a workshop I recently gave called Documenting REST APIs, which you can view [here](https://www.eventbrite.com/e/documenting-rest-apis-a-jumpstart-workshop-for-technical-writers-tickets-49216045517#). The event ID appears in the URL.
-* Click the **Headers** tab and add your own OAuth token in place of `PERSONAL_OAUTH_TOKEN`.
+* Click the **Headers** tab and add your own public token in place of `PERSONAL_OAUTH_TOKEN`.
 
 <figure><img src="{{site.api_media}}/eventbritepersonaloauthtoken.png" alt="Customizing the Parameters and Authorization information the Eventbrite Console" class="large" /><figcaption>Customizing the Parameters and Authorization information the Eventbrite Console</figcaption></figure>
 
@@ -74,7 +77,7 @@ In the language drop-down that appears, select the **cURL** option and copy the 
 
 ```curl
 curl --include \
-     --header "Authorization: Bearer IO6EB7MM6TSCIL2TIOHC" \
+     --header "Authorization: Bearer PERSONAL_OAUTH_TOKEN" \
      --header "Content-Type: application/json" \
   'https://www.eventbriteapi.com/v3/events/49216045517/'
 ```
@@ -100,7 +103,7 @@ var settings = {
   "url": "https://www.eventbriteapi.com/v3/events/49216045517/",
   "method": "GET",
   "headers": {
-    "Authorization": "Bearer IO6EB7MM6TSCIL2TIOHC",
+    "Authorization": "Bearer PERSONAL_OAUTH_TOKEN",
     "Content-Type": "application/json"
   }
 }
@@ -134,7 +137,7 @@ To integrate the jQuery AJAX Postman code into your website and print the `title
     "url": "https://www.eventbriteapi.com/v3/events/49216045517/",
     "method": "GET",
     "headers": {
-      "Authorization": "Bearer IO6EB7MM6TSCIL2TIOHC",
+      "Authorization": "Bearer PERSONAL_OAUTH_TOKEN",
       "Content-Type": "application/json"
     }
   }

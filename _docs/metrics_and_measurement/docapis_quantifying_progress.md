@@ -6,7 +6,7 @@ weight: 13.4
 sidebar: docapis
 section: metrics
 path1: learnapidoc/docapis_metrics_and_measurement.html
-last-modified: 2022-01-31
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -30,7 +30,7 @@ In my initial go-around with the quality checklist, I tried to move towards quan
 
 {% include random_ad2.html %}
 
-However, in practice, I found that assigning scores for each section felt arbitrary and subject to personal whims. I don't think others found the scores meaningful either. Instead, just having a checklist of criteria to consider was valuable enough. That's why i stripped out the section on quantification in later revisions to the content &mdash; because I want the advice I give here to be helpful in practice, not just theory.
+However, in practice, I found that assigning scores for each section felt arbitrary and subject to personal whims. I don't think others found the scores meaningful either. Instead, just having a checklist of criteria to consider was valuable enough. That's why I stripped out the section on quantification in later revisions to the content &mdash; because I want the advice I give here to be helpful in practice, not just theory.
 
 I'm not saying that some approach to quantifying documentation wouldn't work, just that my approach did not. Also, recognize that the quality checklist has no official data to support it &mdash; instead, these best practices come from experience in the industry and from best practices that I and others have observed within the realm of developer documentation.
 

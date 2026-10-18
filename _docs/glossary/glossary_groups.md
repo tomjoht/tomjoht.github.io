@@ -80,6 +80,7 @@ api_responses:
 doc_formats_and_tools:
 - api_blueprint
 - asciidoc
+- llms_txt
 - ccms
 - cms
 - continuous_delivery

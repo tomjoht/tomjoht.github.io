@@ -6,7 +6,7 @@ weight: 16.3
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2019-11-17
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -88,17 +88,22 @@ In other words, the information a user needs to achieve a goal isn't explicit in
 The [Photo Source URLs](https://www.flickr.com/services/api/misc.urls.html) page in the documentation explains it:
 
 <blockquote>
-You can construct the source URL to a photo once you know its ID, server ID, farm ID, and secret, as returned by many API methods.
+You can construct the source URL to a photo once you know its ID, server ID, and secret as returned by many API methods.
 The URL takes the following format:
 
 <pre>
-https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
-	or
-https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg
-	or
-https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|png)
+# Typical usage
+https://live.staticflickr.com/{server-id}/{id}_{secret}_{size-suffix}.jpg
+
+# Unique URL format for 500px size
+https://live.staticflickr.com/{server-id}/{id}_{secret}.jpg
+
+# Originals might have a different file format extension
+https://live.staticflickr.com/{server-id}/{id}_{o-secret}_o.{o-format}
 </pre>
 </blockquote>
+
+(Older versions of the Flickr docs used a format that included a farm ID, such as `https://farm{farm-id}.staticflickr.com/...`. You'll still see a `farm` value in the response, but you no longer need it to build the URL.)
 
 Here's what an item in the JSON response looks like:
 
@@ -165,16 +170,15 @@ $.ajax(settings).done(function (data) {
 $("#galleryTitle").append(data.photos.photo[0].title + " Gallery");
     	$.each( data.photos.photo, function( i, gp ) {
 
-var farmId = gp.farm;
 var serverId = gp.server;
 var id = gp.id;
 var secret = gp.secret;
 
-console.log(farmId + ", " + serverId + ", " + id + ", " + secret);
+console.log(serverId + ", " + id + ", " + secret);
 
-//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
+//  https://live.staticflickr.com/{server-id}/{id}_{secret}.jpg
 
-$("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
+$("#flickr").append('<img src="https://live.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
 
 });
 });
@@ -193,21 +197,21 @@ $("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + s
 
 Here's what the code is doing:
 
-* In this code, the [ajax method](http://api.jquery.com/jquery.ajax/) from jQuery gets the JSON payload. The payload is assigned to the `data` argument and then logged to the console.
+* In this code, the [ajax method](https://api.jquery.com/jquery.ajax/) from jQuery gets the JSON payload. The payload is assigned to the `data` argument and then logged to the console.
 * The data object contains an object called `photos`, which contains an array called `photo`. The `title` field is a property in an object in the `photo` array. The `title` is accessed through this dot notation: `data.photos.photo[0].title`.
-* To get each item in the object, jQuery's [each method](http://api.jquery.com/jquery.each/) loops through an object's properties. Note that jQuery `each` method is commonly used for looping through results to get values. For the first argument (`data.photos.photo`), you identify the object that you want to access. For the `function( i, gp )` arguments, you list an index and value. You can use any names you want here. `gp` becomes a variable that refers to the `data.photos.photo` object you're looping through. `i` refers to the starting point through the object. (You don't need to refer to `i` beyond the instance here unless you want to begin or end the loop at a certain point.)
-* To access the properties in the JSON object, we use `gp.farm` instead of `data.photos.photo[0].farm`, because `gp` is an object reference to `data.photos.photo[i]`.
+* To get each item in the object, jQuery's [each method](https://api.jquery.com/jquery.each/) loops through an object's properties. Note that jQuery `each` method is commonly used for looping through results to get values. For the first argument (`data.photos.photo`), you identify the object that you want to access. For the `function( i, gp )` arguments, you list an index and value. You can use any names you want here. `gp` becomes a variable that refers to the `data.photos.photo` object you're looping through. `i` refers to the starting point through the object. (You don't need to refer to `i` beyond the instance here unless you want to begin or end the loop at a certain point.)
+* To access the properties in the JSON object, we use `gp.server` instead of `data.photos.photo[0].server`, because `gp` is an object reference to `data.photos.photo[i]`.
 * After the `each` function iterates through the response, I added some variables to make it easier to work with these components (using `serverId` instead of `gp.server`, etc.). And a `console.log` message checks to ensure we're getting values for each of the elements we need.
 * This comment shows where we need to plug in each of the variables:
 
 ```js
-//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
+//  https://live.staticflickr.com/{server-id}/{id}_{secret}.jpg
 ```
 
 The final line shows how you insert those variables into the HTML:
 
 ```js
-$("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
+$("#flickr").append('<img src="https://live.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
 ```
 
 {: .tip}

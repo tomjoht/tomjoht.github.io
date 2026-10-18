@@ -6,13 +6,13 @@ weight: 16.02
 sidebar: docapis
 section: resources
 path1: learnapidoc/resources.html
-last-modified: 2019-07-01
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
 
 {: .note}
-This article was written by Casey Armstrong on July 1, 2019, and originally titled "If I am learning to write developer documentation, should GraphQL be on my radar?" Casey Armstrong graduated from the Masters and Technical Professional Writing program at Portland State University and now works at a VR company on the East coast. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC) and on Twitter [@CrowdsourcingKC](https://twitter.com/CrowdsourcingKC).
+This article was written by Casey Armstrong on July 1, 2019, and originally titled "If I am learning to write developer documentation, should GraphQL be on my radar?" Casey Armstrong graduated from the Masters and Technical Professional Writing program at Portland State University and now works at a VR company on the East coast. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC). (Some links and product details in this article were updated in October 2026.)
 
 *Summary: GraphQL, a query language developed by Facebook, is an alternative to REST that is rising in popularity. Exactly how does GraphQL differ from REST, and what documentation strategies and conventions should you follow when documenting a GraphQL project? This article explores the GraphQL query language, its use cases, its tools, what developers need from its docs, and whether GraphQL is worth learning. Overall, learning GraphQL is a great way to specialize and stand out as a technical writer, but the technology is not as prevalent as other types of APIs.*
 
@@ -52,7 +52,7 @@ Here are some indicators of growth I found:
 And, take a look at Google Trends:
 
 {% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains JavaScript. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql.html] to view the content.*
+*Note: This content doesn't embed well in print because it contains JavaScript. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html](https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html) to view the content.*
 {% endif %}
 
 {% if site.format == "web" %}
@@ -96,7 +96,7 @@ Two other topics that play a role in defining GraphQL are mutations and graph th
 
 * **Mutations:** Mutations create, update, and delete data stored in the backend. (Note: They follow the same syntax as queries.)
 
-* **Thinking in Graphs/Graph-Theory:** [According to Facebook](https://code.fb.com/core-data/graphql-a-data-query-language/), GraphQL is "hierarchical in nature," and it works well with "graph structured data stores." Furthermore, it is all about the relationships between objects, which is the focus of [graph theory](https://en.wikipedia.org/wiki/Graph_theory).
+* **Thinking in Graphs/Graph-Theory:** [According to Facebook](https://engineering.fb.com/2015/09/14/core-infra/graphql-a-data-query-language/), GraphQL is "hierarchical in nature," and it works well with "graph structured data stores." Furthermore, it is all about the relationships between objects, which is the focus of [graph theory](https://en.wikipedia.org/wiki/Graph_theory).
 
 ## GraphQL’s advantage over REST
 
@@ -107,7 +107,7 @@ The GraphQL foundation claims that their unique approach allows developers to de
 Furthermore, [Howtographql.com](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/) claims that "REST APIs have shown to be too inflexible to keep up with the rapidly changing requirements of the clients that access them (and ...) GraphQL (…) solves many of the shortcomings and inefficiencies that developers experience when interacting with REST APIs." That same tutorial site features a video showing examples of these points:
 
 {% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql.html] to view the content.*
+*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html](https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html) to view the content.*
 {% endif %}
 
 {% if site.format == "web" %}
@@ -137,7 +137,7 @@ It’s not enough to read about GraphQL; it is also worth looking at popular pro
 
 *   [Yelp API docs](https://docs.developer.yelp.com/docs/graphql-intro)
 *   [Paypal: "GraphQL: A success story for PayPal Checkout"](https://medium.com/paypal-engineering/graphql-a-success-story-for-paypal-checkout-3482f724fb53)
-*   [Shopify example](https://help.shopify.com/en/api/getting-started/shopify-and-graphql)
+*   [Shopify GraphQL Admin API](https://shopify.dev/docs/api/admin-graphql)
 *   [Pokemon (Demonstration Only)](https://github.com/lucasbento/graphql-pokemon)
 *   [Dungeons and Dragons Example (Video/Talk)](https://www.youtube.com/watch?v=lyJebJuG_sk)
 *   [A List of Public GraphQL APIs](https://github.com/APIs-guru/graphql-apis)
@@ -146,9 +146,13 @@ It’s not enough to read about GraphQL; it is also worth looking at popular pro
 
 While GraphQL is a topic that is shrouded behind a wall of developers, a few career technical writers have also taken a closer look at it. By far, the clearest explanation I could find comes from Chris Ward.
 
-On the Codeship blog, [Chris writes](https://blog.codeship.com/documenting-graphql/):
+On the Codeship blog, [Chris writes](https://web.archive.org/web/20191207161507/https://blog.codeship.com/documenting-graphql/) (archived):
 
-> As a technical writer, I was intrigued by the claim that GraphQL reduces the time you need to spend on documenting an API and reduces the amount of documentation your application needs." He goes on to explain, "The role of documentation with a REST API is to explain the individual endpoints, what function they perform, and the parameters a developer can pass to them. With a GraphQL API, you describe the data types, fields, and the interaction points between them, and a developer can assemble an appropriate query to get the information they need. With both technologies, you document components but from different perspectives.
+> As a technical writer, I was intrigued by the claim that GraphQL reduces the time you need to spend on documenting an API and reduces the amount of documentation your application needs.
+
+He goes on to explain:
+
+> The role of documentation with a REST API is to explain the individual endpoints, what function they perform, and the parameters a developer can pass to them. With a GraphQL API, you describe the data types, fields, and the interaction points between them, and a developer can assemble an appropriate query to get the information they need. With both technologies, you document components but from different perspectives.
 
 So, we see that this is an interesting point. The different perspectives he is talking about is looking at the endpoints with REST vs looking at the data itself with GraphQL (i.e., exactly what is requested).
 
@@ -165,7 +169,7 @@ This leads to Chris’s conclusion that tech writers are still needed here if on
 James Scott, another technical writer, also sees a role for technical writers in the world of GraphQL. You can see his concise and very helpful talk here:
 
 {% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql.html] to view the content.*
+*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html](https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html) to view the content.*
 {% endif %}
 
 {% if site.format == "web" %}
@@ -186,12 +190,12 @@ Second, I made the rounds with job search websites, only finding a small number 
 
 {% include image_ad_right.html %}
 
-My guess is that maybe the movement is [driven by developers who decide to use it](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf), and they don’t think to get a tech writer involved? Or, GraphQL APIs are not being implemented enough to be spotted in job ads or by recruiters?
+My guess is that maybe the movement is [driven by developers who decide to use it](https://www.freecodecamp.org/news/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf/), and they don’t think to get a tech writer involved? Or, GraphQL APIs are not being implemented enough to be spotted in job ads or by recruiters?
 
 However, tech writers that work with it do exist! Here, for example, is a technical writer, Andrew Johnston, at Shopify talking about their process of documenting a GraphQL API at Shopify:
 
 {% if site.format == "print" %}
-*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql.html] to view the content.*
+*Note: This content doesn't embed well in print because it contains YouTube videos. Please go to [https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html](https://idratherbewriting.com/learnapidoc/docapis_graphql_apis.html) to view the content.*
 {% endif %}
 
 {% if site.format == "web" %}
@@ -200,24 +204,24 @@ However, tech writers that work with it do exist! Here, for example, is a techni
 
 {% endif %}
 
-So, maybe the best way to think about it as a tech writer is that learning GraphQL is a way specialize and stand out, but you might be safe only knowing the basics, for now.
+So, maybe the best way to think about it as a tech writer is that learning GraphQL is a way to specialize and stand out, but you might be safe only knowing the basics, for now.
 
 ## Learning resources
 
 While there are a lot of tutorials, blog-posts, and videos out there for GraphQL, I found these three to be the most helpful for someone new to the concepts involved:
 
 1. This a fun, well-made, interactive course with videos, exercises, quizzes from a GraphQL community of experts: [https://www.howtographql.com/](https://www.howtographql.com/)
-2. You can also learn from Lynda.com, "[GraphQL Essential Training](https://www.lynda.com/GraphQL-tutorials/GraphQL-Essential-Training/614315-2.html)." This course, however, does requires some technical knowledge up-front. (Note: [Lynda.com is often free with a library card](https://www.lynda.com/press/pressrelease?id=4063&fbclid=IwAR3wk8unKpqvOA3rapAFQdKCpVmY-RJBcFXboWOxWVagflECeV_RsZPgq1w), if you can find an access point through your library’s website. Here is an example of this from the [Carson City Library](https://www.carsoncitylibrary.org/research/lynda-com?A=SearchResult&SearchID=9365794&ObjectID=11972268&ObjectType=35) in Nevada.)
+2. You can also learn from LinkedIn Learning (formerly Lynda.com), "[GraphQL Essential Training](https://www.linkedin.com/learning/graphql-essential-training-20298359)." This course, however, does require some technical knowledge up-front. (Note: Many public libraries offer free access to LinkedIn Learning with a library card, so check your library's website.)
 3. [GraphQL’s own documentation](https://graphql.org/learn/) is well put together.
 
 ## Bonus resources
 
-*   Learn to Use [GraphQL with Postman](https://www.codetraveler.io/2019/01/12/how-to-use-postman-with-a-graphql-api/).
-*   Techbeacon put together a [list of articles and resources worth exploring](https://techbeacon.com/app-dev-testing/practical-guide-graphql-future-apis).
+*   Learn to Use [GraphQL with Postman](https://codetraveler.io/2019/01/12/how-to-use-postman-with-a-graphql-api/).
+*   Techbeacon put together a [list of articles and resources worth exploring](https://web.archive.org/web/20201101010805/https://techbeacon.com/app-dev-testing/practical-guide-graphql-future-apis) (archived).
 
 ## Getting social
 
 *   The GraphQL foundation website has a list of different ways to connect with others interested in the technology as a [comprehensive list on their site](https://graphql.org/community/).
 *   Be sure to check [Meetup.com](https://www.meetup.com/) for a GraphQL meetup near you. (I went to one few weeks ago; it was great!)
-*   Follow [Graph QL on Twitter](https://twitter.com/GraphQL).
-*   Talk about it [on Discord](https://discordapp.com/invite/0ZcbPKXt5bZiQhB5).
+*   Follow [GraphQL on X](https://x.com/GraphQL).
+*   Talk about it [on Discord](https://discord.com/invite/0ZcbPKXt5bZiQhB5).

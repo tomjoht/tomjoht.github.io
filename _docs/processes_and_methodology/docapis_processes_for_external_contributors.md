@@ -6,7 +6,7 @@ weight: 12.91
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-11-02
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -22,7 +22,7 @@ Many people embrace docs as code with the hope and expectation that many enginee
 
 ## The complexity factor is Git
 
-When I started at Amazon and we were discussing authoring and publishing tools, we adopted a docs-as-code approach using Jekyll and Markdown for several reasons. Not only was this tooling free  and fit seamlessly within the engineering build systems, in adopting Markdown and a static site generator, we rationalized that we could scale the solution to allow other teams to author and publish content without having to go through us. We envisioned lots of small, autonomous engineering/product teams writing and publishing content within the doc system, without necessarily involving us. We would set up the system, and they would use it.
+When I started at Amazon and we were discussing authoring and publishing tools, we adopted a docs-as-code approach using Jekyll and Markdown for several reasons. Not only was this tooling free and fit seamlessly within the engineering build systems, in adopting Markdown and a static site generator, we rationalized that we could scale the solution to allow other teams to author and publish content without having to go through us. We envisioned lots of small, autonomous engineering/product teams writing and publishing content within the doc system, without necessarily involving us. We would set up the system, and they would use it.
 
 {% include random_ad2.html %}
 
@@ -56,11 +56,11 @@ So far I've talked about external contributors within your company, but what abo
 * Extensive contributions might require rights-usage signoff from your Legal group. Fixing typos and broken links probably wouldn't require signoff, but if someone is contributing new pages of content or substantial sections, this will probably prompt Legal to require the contributor to sign an agreement. You might find yourself constantly doing paperwork for contributions.
 * You might get contributions that don't align with your organization's strategic objectives, and then you'll have to spend time editing and publishing that content. Suppose someone wants to add a new article; you'll now need to vet the content, get it reviewed and approved by the appropriate internal SME, make stylistic edits, and do other shepherding (for which you might not have bandwidth). If the content doesn't line up with anything you're currently working on, this sudden request might be a disrupting detour from your regular work. Additionally, you might not like the approach or style the person wants to contribute; rejecting the contribution might make for an awkward conversation.
 
-I've tried leveraging community contributions in the past and found that the efforts aren't usually worthwhile (at least for the products I was documenting.) Community members rarely have the internal knowledge needed to create documentation. More importantly, they lack the incentive to do so, as this task doesn't usually benefit them. I wrote about this problem when I abandoned wikis a decade ago &mdash; see [My Journey To and From Wikis: Why I Adopted Wikis, Why I Veered Away, and a New Model](https://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/). The hassle required to make docs public and available for pull-request workflows in GitHub rarely pays off with community edits.
+I've tried leveraging community contributions in the past and found that the efforts aren't usually worthwhile (at least for the products I was documenting.) Community members rarely have the internal knowledge needed to create documentation. More importantly, they lack the incentive to do so, as this task doesn't usually benefit them. I wrote about this problem when I abandoned wikis back in 2012 &mdash; see [My Journey To and From Wikis: Why I Adopted Wikis, Why I Veered Away, and a New Model](https://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/). The hassle required to make docs public and available for pull-request workflows in GitHub rarely pays off with community edits.
 
 I wouldn't recommend trying to orchestrate community contributions unless you already have some heavy community contributors who are itching to write and publish content. It also might make sense for some products more than others (such as company products that are integrations into third-party platforms &mdash; e.g., *here's an article how you integrate your product with my product*). You might be better off adding a note in your docs inviting contributors to reach out to you with documentation ideas/requests, and then work with them individually through some tool like Google Docs or Microsoft Word.
 
-If you do allow contributions from external contributors or community members, be explicit about the processes they should follow. GitHub projects often have common templates and guidelines (often in a the readme) about how community members can contribute.
+If you do allow contributions from external contributors or community members, be explicit about the processes they should follow. GitHub projects often have common templates and guidelines (usually in a `CONTRIBUTING.md` file or the README) about how community members can contribute.
 
 ## The content abandonment problem
 
@@ -72,4 +72,4 @@ To avoid this content abandonment scenario, make sure you have a clear policy ar
 
 ## Conclusion
 
-In a docs-as-code model, contributions from external people in your company are expected. You need to define specific workflows that make sense for your organization. In general, you'll have the most success if you stick to standard, simple workflows (I'm mostly referring to Git and pull requests or code reviews) that align with common practices the engineers are already using within your company, or industry patterns. There's no need to reinvent the wheel when it comes to Git workflows. Pick a model such as the GitHub pull request workflow (see this [GitHub tutorial](https://guides.github.com/introduction/flow/) or this [Atlassian tutorial](https://www.atlassian.com/git/tutorials/making-a-pull-request)) and provide code examples to help people easily understand and follow the right commands.
+In a docs-as-code model, contributions from external people in your company are expected. You need to define specific workflows that make sense for your organization. In general, you'll have the most success if you stick to standard, simple workflows (I'm mostly referring to Git and pull requests or code reviews) that align with common practices the engineers are already using within your company, or industry patterns. There's no need to reinvent the wheel when it comes to Git workflows. Pick a model such as the GitHub pull request workflow (see this [GitHub tutorial](https://docs.github.com/en/get-started/using-github/github-flow) or this [Atlassian tutorial](https://www.atlassian.com/git/tutorials/making-a-pull-request)) and provide code examples to help people easily understand and follow the right commands.

@@ -25,16 +25,15 @@ $.ajax(settings).done(function (data) {
 $("#galleryTitle").append(data.photos.photo[0].title + " Gallery");
     	$.each( data.photos.photo, function( i, gp ) {
 
-var farmId = gp.farm;
 var serverId = gp.server;
 var id = gp.id;
 var secret = gp.secret;
 
-console.log(farmId + ", " + serverId + ", " + id + ", " + secret);
+console.log(serverId + ", " + id + ", " + secret);
 
-//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
+//  https://live.staticflickr.com/{server-id}/{id}_{secret}.jpg
 
-$("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
+$("#flickr").append('<img src="https://live.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
 
 });
 });

@@ -6,7 +6,7 @@ weight: 12.90
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-11-18
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -32,11 +32,11 @@ Let's start by talking about the feedback form's design &mdash; after all, witho
 
 You might be tempted to put your feedback form as a floating button on the side of your docs. Here's a sample with the feedback button on the side:
 
-<a class="noCrossRef" href="https://developer.amazon.com/docs/fire-tv/toolkits-for-building-fire-tv-apps.html"><img src="{{site.api_media}}/feedback_button_on_side.png" alt="Feedback on the side" /></a>
+<img src="{{site.api_media}}/feedback_button_on_side.png" alt="Feedback on the side" />
 
 Although this side position is becoming more common, in tests that I've done, most people don't see the feedback button on the side. The feedback form at the bottom was used much more than the feedback button on the side (a ratio of 100:1 or so).
 
-<a class="noCrossRef" href="https://developer.amazon.com/docs/fire-tv/toolkits-for-building-fire-tv-apps.html"><img src="{{site.api_media}}/feedback_button_on_bottom.png" alt="Feedback form at the bottom" /></a>
+<img src="{{site.api_media}}/feedback_button_on_bottom.png" alt="Feedback form at the bottom" />
 
 Again, follow standard web practices for placement of common elements.
 
@@ -48,7 +48,7 @@ In addition to putting your feedback form in a highly visible place, if you can 
 
 {% include image_ad_right.html %}
 
-The problem with reducing friction, however, is that the easier you make it to enter comments, the more spam you get. Without any spam prevention controls, you'll be overrun with spam comments in a short time. Try to find a good balance between controls that prevent spam but which don't challenge users too much. For example, you could implement reCAPTCHA or require some form of login (e.g., login with Google, GitHub, or Twitter), or require users to complete some special task to weed out bots. (Whatever you do, spam will usually find a way to slip through.)
+The problem with reducing friction, however, is that the easier you make it to enter comments, the more spam you get. Without any spam prevention controls, you'll be overrun with spam comments in a short time. Try to find a good balance between controls that prevent spam but which don't challenge users too much. For example, you could implement reCAPTCHA or require some form of login (e.g., login with Google or GitHub), or require users to complete some special task to weed out bots. (Whatever you do, spam will usually find a way to slip through.)
 
 Finally, in order for feedback to be actionable, it needs to be detailed. Consider adding minimum character requirements to the form and encourage users to be as specific and detailed as possible with their feedback. Users rarely want to sink energy into completing a feedback form with no guarantee that the form will go to a human and be read, but a quick one-liner from a user is rarely helpful enough to take any intelligent action on. You might require that the form has at least 100 characters of content to be valid.
 
@@ -56,9 +56,9 @@ You can also choose to show the comments submitted on the article (rather than j
 
 ## Workarounds for obfuscated http referrer values in Chrome
 
-One new challenge to collecting feedback in 2020 is getting around the [http referrer obfuscation](https://developers.google.com/web/updates/2020/07/referrer-policy-new-chrome-default). When you collect feedback, you typically want to know the page that users were on when they clicked the feedback form so that you can make sense of the comments. For example, if the only text users write is "This page needs more examples" or "There's an error in the code sample here," unless you know the specific page, it will be difficult to take any action on the feedback. Especially given how brief the comments usually are, you need more context to make sense of the incoming information.
+One challenge to collecting feedback (since 2020) is getting around the [http referrer obfuscation](https://developer.chrome.com/blog/referrer-policy-new-chrome-default). When you collect feedback, you typically want to know the page that users were on when they clicked the feedback form so that you can make sense of the comments. For example, if the only text users write is "This page needs more examples" or "There's an error in the code sample here," unless you know the specific page, it will be difficult to take any action on the feedback. Especially given how brief the comments usually are, you need more context to make sense of the incoming information.
 
-Unfortunately, more restrictive data privacy rules in Chrome now obfuscate the path from the http referrer, showing only the domain. For example, if you submitted feedback from this page, Chrome would show the referrer only as `https://idratherbewriting.com`, not `https://idratherbewriting.com/learnapidoc/docapis_collecting_feedback_post_release.html`. This new policy went into effect in October 2020, so if you're analyzing your feedback metrics and wondering why http referrer shows only the domain, recognize that it's not due to VPN or incognito modes in browsers but rather due to the new Chrome data privacy policies in place. (Other browsers haven't necessarily followed suit yet here.)
+Unfortunately, more restrictive privacy defaults in Chrome now strip the path from the http referrer when the request goes to a different domain (such as a feedback form hosted by a survey tool), showing only the domain. For example, if you submitted feedback from this page to a third-party form, Chrome would show the referrer only as `https://idratherbewriting.com`, not `https://idratherbewriting.com/learnapidoc/docapis_collecting_feedback_post_release.html`. This default went into effect in Chrome in late 2020, so if you're analyzing your feedback metrics and wondering why http referrer shows only the domain, recognize that it's not due to VPN or incognito modes in browsers but rather due to the browser's default referrer policy. (Other browsers have moved to similar privacy-preserving defaults. A site can also set its own `Referrer-Policy` header, though passing the page in the form itself is more reliable.)
 
 Depending on your feedback tool, you might need to implement a creative workaround. For example, in Qualtrics (which is a survey tool rather than a proper website feedback tool), you can add custom JavaScript to your form. For example, you could use this [script from Stack Overflow that gets the query string from the URL using JavaScript](https://stackoverflow.com/questions/19491336/how-to-get-url-parameter-using-jquery-or-plain-javascript) and include that in the form submission. The logic looks like this:
 

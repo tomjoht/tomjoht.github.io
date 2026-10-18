@@ -6,7 +6,7 @@ weight: 12.1
 sidebar: docapis
 section: devportals
 path1: learnapidoc/docapis_managing_doc_processes.html
-last-modified: 2020-8-25
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -26,7 +26,7 @@ Finding the right content on an internal wiki is a constant challenge, and there
 
 {% include random_ad3.html %}
 
-Because documentation for external developers is a high priority, it shouldn't befall the same fate as content on internal wikis. In the [State of API 2019 report](https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf), Smartbear found that "accurate and detailed documentation" ranked third in priority (just below "ease of use" and "responsiveness/performance") from 15 ranking factors in an API experience. You can't achieve a high level of content quality without playing a more strategic role with the content and expanding beyond the individual contributor model. Individual contributors are usually focused on docs for a current project only and rarely have bandwidth to expand their concerns at a broader, more encompassing level across the developer portal.
+Because documentation for external developers is a high priority, it shouldn't befall the same fate as content on internal wikis. In the [State of API 2019 report](https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf), SmartBear found that "accurate and detailed documentation" ranked third among the characteristics API consumers want in an API, just below ease of use and performance. You can't achieve a high level of content quality without playing a more strategic role with the content and expanding beyond the individual contributor model. Individual contributors are usually focused on docs for a current project only and rarely have bandwidth to expand their concerns at a broader, more encompassing level across the developer portal.
 
 {% include random_ad4.html %}
 
@@ -62,11 +62,12 @@ The following sections expand in more specific ways on the roles, tasks, and nee
 
 * Develop and enhance the doc theme's design and style as well as the available components (e.g., navtabs, accordions, or menus) to use for different scenarios
 
-* Implement style/grammar checkers (e.g., Acrolinx) either with in-tool plugins or perhaps at the platform level
+* Implement style/grammar checkers (e.g., Vale or Acrolinx) either with in-tool plugins or perhaps at the platform level
 
-* Build out and verify scripts (e.g., Travis CI scripts, GitHub Actions) to perform automated checking, such as looking for broken links or style inconsistencies
+* Build out and verify scripts (e.g., GitHub Actions or other CI workflows) to perform automated checking, such as looking for broken links or style inconsistencies
 
-* Integrate and configure the search experience (e.g., Algolia, Swiftype, other), including SEO and discoverability of content in search engine results
+* Integrate and configure the search experience (e.g., Algolia or your static site generator's built-in search), including SEO and discoverability of content in search engine results
+* Make the content readable by AI tools, such as by publishing Markdown versions of pages or an [llms.txt](https://llmstxt.org/) file, and decide whether to offer an AI assistant on the site (see [Formats for AI tools](pubapis_design_patterns.html#ai_formats))
 
 * Define the metadata that feeds into the search experience to provide navigable facets or other structured data for search; also monitor the documentation to ensure contributors are using the right metadata
 
@@ -166,7 +167,7 @@ The following sections expand in more specific ways on the roles, tasks, and nee
 
 * Define user journeys from marketing landing pages and other incoming sources to the docs
 
-* Arrange multiple doc sets into a master index or starting point that makes sense for the organization
+* Arrange multiple doc sets into a main index or starting point that makes sense for the organization
 
 * Integrate a support path from the docs to support channels or contact us pages so that users know how to get help when they need it
 
@@ -178,7 +179,7 @@ The following sections expand in more specific ways on the roles, tasks, and nee
 
 * Build in mechanisms for collecting feedback, including design of a feedback form and questions, the automated triggers when feedback is received, and the workflow for handling feedback
 
-* Develop awareness and review of activity outside the docs on social channels such as Stack Overflow, GitHub, Twitter, etc., and assess whether the docs align with the terms, hot issues, and priorities of the external activities
+* Develop awareness and review of activity outside the docs on social channels such as Stack Overflow, GitHub, Reddit, Discord, etc., and assess whether the docs align with the terms, hot issues, and priorities of the external activities
 
 * Drive developers to sign up to newsletters and other forms of outreach from the docs
 
@@ -188,7 +189,7 @@ The following sections expand in more specific ways on the roles, tasks, and nee
 
 ## Bandwidth for all of these tasks
 
-Reading through these tasks is probably overwhelming, but my purpose is to demonstrate the need for these activities outside of content development. All too often, people assume that technical writers merely "write docs" and don't understand that there's a large body of work involved in managing a developing portal that doesn't include writing content. These tasks try to answer the question, "what else do technical writers do besides write docs?" When you allocate resources for DX content strategists, they can help build a healthy developer portal so that users can easily find and consume accurate, relevant content that addresses their needs.
+Reading through these tasks is probably overwhelming, but my purpose is to demonstrate the need for these activities outside of content development. All too often, people assume that technical writers merely "write docs" and don't understand that there's a large body of work involved in managing a developer portal that doesn't include writing content. These tasks try to answer the question, "what else do technical writers do besides write docs?" When you allocate resources for DX content strategists, they can help build a healthy developer portal so that users can easily find and consume accurate, relevant content that addresses their needs.
 
 {% include ads.html %}
 

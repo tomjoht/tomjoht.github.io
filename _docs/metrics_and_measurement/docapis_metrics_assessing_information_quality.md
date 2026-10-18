@@ -6,7 +6,7 @@ weight: 13.2
 sidebar: docapis
 section: metrics
 path1: learnapidoc/docapis_metrics_and_measurement.html
-last-modified: 2022-02-07
+last-modified: 2026-10-18
 ---
 
 {% include coffeeshopbook.html %}
@@ -45,7 +45,7 @@ Strimling aligns with researchers Richard Wang and Diane Strong (1996) because o
 > * Clearly represented
 > * Accessible to the consumer
 
-You can read the original article by Wang and Strong in the *Journal of Management Information Systems* if you have access to it, or [online here](http://mitiq.mit.edu/Documents/Publications/TDQMpub/14_Beyond_Accuracy.pdf). These researchers made a pivot in how they measured data quality &mdash; rather than considering the accuracy of the information on its own, they looked to see *what aspects were important to users*, and factored that user perspective into the quality assessment. They explain:
+You can read the original article by Wang and Strong in the *Journal of Management Information Systems* if you have access to it, or [online here](https://web.archive.org/web/20191127004756/http://mitiq.mit.edu/Documents/Publications/TDQMpub/14_Beyond_Accuracy.pdf) (archived copy). These researchers made a pivot in how they measured data quality &mdash; rather than considering the accuracy of the information on its own, they looked to see *what aspects were important to users*, and factored that user perspective into the quality assessment. They explain:
 
 > The salient feature of this research study is that quality attributes of data are collected from data consumers instead of being defined theoretically or based on researchers' experience.
 
@@ -74,7 +74,7 @@ Strimling says you can ask users these questions during various interaction poin
 
 These four criteria seem like a solid way to evaluate documentation if you have a way to frequently interact with your users. But even if you could regularly survey your users, these abstract categories don't provide details about *how* you might go about making the information more clear, relevant, accurate, and findable.
 
-In other words, these categories are too high-level and general to be more actionable. For example, what does it mean for something to be clear when you consider different audiences and varying technical backgrounds? Is well-written code clear even if doesn't have comments? The categories fail to specify *tactics and tools* for executing clarity, relevancy, accuracy, and findability. How do you make something more clear and relevant? What specific steps do you take? So even if you were to get feedback from a user who says that the documentation is not clear, is not relevant, and isn't easy to understand, it would be difficult to take any specific actions based on this feedback without the user unpacking the detailed reasons for which he or she felt this way.
+In other words, these categories are too high-level and general to be more actionable. For example, what does it mean for something to be clear when you consider different audiences and varying technical backgrounds? Is well-written code clear even if doesn't have comments? The categories fail to specify *tactics and tools* for executing clarity, relevancy, accuracy, and findability. How do you make something more clear and relevant? What specific steps do you take? So even if you were to get feedback from a user who says that the documentation is not clear, is not relevant, and isn't easy to understand, it would be difficult to take any specific actions based on this feedback without the user unpacking the detailed reasons for which they felt this way.
 
 If you're not a user (but rather a technical writer) trying to assess documentation through these four questions, the questions are also not helpful. They can't be fully answered by a non-user. For example, "Could you find the information you needed in the document?" Only the reader can answer this. "Was the information in the document relevant?" Again, only the reader can answer this, not the writer. "Was the information easy to understand?" Again, only the reader can answer this. So while these questions seem like a good approach, I'm not sure how useful they are.
 
@@ -112,7 +112,7 @@ These bullet points are all good questions that one would expect documentation (
 
 Keep in mind that Pronovix's focus is on developer portals, not standalone API documentation sites (they [explain the difference here](https://pronovix.com/blog/what-difference-between-api-documentation-and-developer-portal)). As such, they place more emphasis on how users interact both inside and outside the documentation, such as getting API keys from an admin portal, checking service status pages, participating in a community, and more. Since most companies have multiple documentation sites, often aggregated in a portal, I think the emphasis on developer portals is actually more relevant than on documentation alone.
 
-Also, unlike scholarly research, Pronovix looks for best practices and successful patterns in the field, without trying to justify their criteria based on research or from studies that objectively verify and rank these characteristics. Some standards they recommend include API explorers for interactivity, mechanisms to scan and locate reference material, site designs that inspires trust, clear use cases for the API, code samples available in multiple languages, frictionless onboarding, community integration, and more.
+Also, unlike scholarly research, Pronovix looks for best practices and successful patterns in the field, without trying to justify their criteria based on research or from studies that objectively verify and rank these characteristics. Some standards they recommend include API explorers for interactivity, mechanisms to scan and locate reference material, site designs that inspire trust, clear use cases for the API, code samples available in multiple languages, frictionless onboarding, community integration, and more.
 
 Another great resource is [Nordic APIs](https://nordicapis.com/). In [5 Examples of Excellent API Documentation (and Why We Think So)](https://nordicapis.com/5-examples-of-excellent-api-documentation/), Thomas Bush evaluates 5 documentation sites based on these criteria:
 
@@ -138,7 +138,7 @@ In my [quality checklist](docapis_quality_checklist.html), I've listed each of t
 
 ## Technical writing handbooks
 
-Another place to find quality checklists and guidance for implementing general characteristics like clarity, relevance, accuracy, etc., is in technical writing handbooks. In [*Developing Quality Technical Information: A Handbook for Writers and Editors*](https://learning.oreilly.com/library/view/developing-quality-technical/9780133119046/app01.html), the authors provide a mountain of detail for best practices. They divide their guidelines into these categories and subcategories:
+Another place to find quality checklists and guidance for implementing general characteristics like clarity, relevance, accuracy, etc., is in technical writing handbooks. In [*Developing Quality Technical Information: A Handbook for Writers and Editors*](https://www.oreilly.com/library/view/developing-quality-technical/9780133119046/app01.html), the authors provide a mountain of detail for best practices. They divide their guidelines into these categories and subcategories:
 
 * Easy to use
   * Task orientation
@@ -157,7 +157,7 @@ Another place to find quality checklists and guidance for implementing general c
 
 In this model, you might score docs from 1 to 5 depending on how well the docs fulfill each characteristic. The textbook has a lot of examples and detail about how to go about each of these characteristics. There's even treatment of code samples. Here's the comprehensive quality checklist provided in the Appendix:
 
-<a class="noCrossRef" href="https://learning.oreilly.com/library/view/developing-quality-technical/9780133119046/app01.html"><img src="{{site.api_media}}/qualityguidelinestextbook2.png" alt="Quality checklist" /></a>
+<a class="noCrossRef" href="https://www.oreilly.com/library/view/developing-quality-technical/9780133119046/app01.html"><img src="{{site.api_media}}/qualityguidelinestextbook2.png" alt="Quality checklist" /></a>
 
 Overall, there are 60 specific characteristics within the various categories. Why not simply adopt this quality checklist? It wouldn't be a bad approach, for sure. And the principles are so widely held that few would object to them. But I wanted something even more concrete, actionable, and focused on API documentation and developer portals.
 
@@ -165,15 +165,15 @@ Overall, there are 60 specific characteristics within the various categories. Wh
 
 ## Standards specifications
 
-Another place to look at information quality would be standards such as the [ASD-STE100](http://www.asd-ste100.org/). The ASD-STE100 standard was developed by the Aerospace and Defense Industries Association (ASD) to encourage Simplified Technical English (STE). STE consists of a dictionary of about 900 allowed words and a set of 65 writing rules intended to encourage more simplified English.
+Another place to look at information quality would be standards such as the [ASD-STE100](https://www.asd-ste100.org/). The ASD-STE100 standard was developed by the Aerospace, Security and Defence Industries Association of Europe (ASD) to encourage Simplified Technical English (STE). The current version (Issue 9) consists of a dictionary of about 900 approved words and a set of 53 writing rules intended to encourage more simplified English.
 
-Another standard is [ISO/IEC 26514:2008 - Systems and software engineering — Requirements for designers and developers of user documentation](https://www.iso.org/standard/43073.html), which is a standard that "specifies the structure, content, and format for user documentation, and also provides informative guidance for user documentation style."
+Another standard is [ISO/IEC/IEEE 26514:2022 - Systems and software engineering — Design and development of information for users](https://www.iso.org/standard/77451.html), which replaced the 2008 version of the standard. It describes how to establish what information users need, how to determine the way that information should be presented, and how to prepare the information and make it available.
 
 {% include image_ad_right.html %}
 
-In the realm of documentation standards, there's also [IEC/IEEE 82079-1 - Preparation Of Information For Use (Instructions For Use) Of Products - Part 1: Principles And General Requirements](https://webstore.ansi.org/Standards/ISO/IECIEEE820792019?gclid=Cj0KCQiA6Or_BRC_ARIsAPzuer-sndUAjuadJ-nhVGSbZeUX-MfS_jFuZj3mSC_-eyEcRiP-LFyTuMMaAmpKEALw_wcB). Referencing an ISO standard might make your embrace of the standard more defensible. Embracing standards defined here would allow you to benefit from principles already debated, vetted, and finalized. If only the ISO publications were more accessible (e.g., without paywalls), these information resources could be much more valuable.
+In the realm of documentation standards, there's also [IEC/IEEE 82079-1 - Preparation Of Information For Use (Instructions For Use) Of Products - Part 1: Principles And General Requirements](https://webstore.ansi.org/Standards/ISO/IECIEEE820792019). Referencing an ISO standard might make your embrace of the standard more defensible. Embracing standards defined here would allow you to benefit from principles already debated, vetted, and finalized. If only the ISO publications were more accessible (e.g., without paywalls), these information resources could be much more valuable.
 
-Another resource developed by SAP and later generalized and adopted by tekom is [Standards and Guidelines for API Documentation](https://www.technical-communication.org/tekom/publications/specialist-books/detail/standards-and-guidelines-for-api-documentation), by Anne Tarnoruder. You can read a summary of the 68-page book in a tcworld article here: [Standardizing API documentation](https://www.tcworld.info/e-magazine/technical-writing/standardizing-api-documentation-949/). Tarnoruder emphasizes clear naming guidelines for APIs, noting:
+Another resource developed by SAP and later generalized and adopted by tekom is [Standards and Guidelines for API Documentation](https://www.technical-communication.org/services-our-offers/publications/specialist-books/detail/standards-and-guidelines-for-api-documentation), by Anne Tarnoruder. You can read a summary of the 68-page book in a tcworld article here: [Standardizing API documentation](https://www.tcworld.info/e-magazine/technical-writing/standardizing-api-documentation-949/). Tarnoruder emphasizes clear naming guidelines for APIs, noting:
 
 > Names are the user interface of APIs. Meaningful, clear, and self-explanatory naming is a key factor in API's usability and adoption.
 
@@ -194,7 +194,7 @@ This is a pattern I described in [How Developers Use API Documentation: An Obser
 
 ## Other sources for quality
 
-Many other sources can inform documentation quality. For example, the [Good Docs project](https://thegooddocsproject.dev/) aims to create templates that incorporate best practices. For example, by using the [Overview template](https://github.com/thegooddocsproject/templates/blob/v0.1/api-overview/about-overview.md), you'll automatically address the various questions and topics needed here. The project has templates for an overviews, quickstarts, reference material, discussions, how-to tasks, logging, tutorials, and more.
+Many other sources can inform documentation quality. For example, the [Good Docs Project](https://www.thegooddocsproject.dev/) aims to create templates that incorporate best practices. By using its [templates](https://gitlab.com/tgdp/templates), you'll automatically address many of the questions and topics needed here. The project has templates for API getting started guides, API reference, concepts, how-to tasks, quickstarts, tutorials, troubleshooting, release notes, and more.
 
 {% include random_ad3.html %}
 
