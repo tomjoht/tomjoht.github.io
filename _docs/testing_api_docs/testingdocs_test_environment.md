@@ -6,7 +6,7 @@ weight: 6.2
 sidebar: docapis
 section: testingdocs
 path1: learnapidoc/testingdocs.html
-last-modified: 2019-08-20
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -43,7 +43,7 @@ Exactly what you have to do depends on your product, the environment, the compan
 
 {% include image_ad_right.html %}
 
-At one company, to gain access to the test system, we had to jump over a series of security hurdles. For example, connections to the web services from internal systems required developers to go through an intermediary server. To connect to the web server test instance, you had to SSL to the intermediary server, and then connect from the intermediary to the web server. (This wasn't something users would need to do, just internal engineers.)
+At one company, to gain access to the test system, we had to jump over a series of security hurdles. For example, connections to the web services from internal systems required developers to go through an intermediary server. To connect to the web server test instance, you had to SSH to the intermediary server, and then connect from the intermediary to the web server. (This wasn't something users would need to do, just internal engineers.)
 
 The first time I attempted this, I asked a developer to help me set this up. I carefully observed the commands and steps he went through on my computer. I later documented it for future knowledge purposes, and other engineers used my doc to set up the same access.
 
@@ -57,9 +57,9 @@ If it's too complicated to set up a local environment, you can ask an engineer t
 
 {% include ads.html %}
 
-Many times, developers aren't too motivated to set up your system, so they may give you a quick explanation about installing this and that tool. But never let a developer say "Oh, you just do a, b, and c." Then you go back to your desk and nothing works, or it's much more complicated than he or she said it would be. It can take persistence to get everything set up and working the first time.
+Many times, developers aren't too motivated to set up your system, so they may give you a quick explanation about installing this and that tool. But never let a developer say "Oh, you just do a, b, and c." Then you go back to your desk and nothing works, or it's much more complicated than they said it would be. It can take persistence to get everything set up and working the first time.
 
-If a developer is knee-deep in sprint tasks and heavily backlogged, he or she may not have time to help you properly get set up. Be patient and ask the developer to indicate a good time to go over the setup.
+If a developer is knee-deep in sprint tasks and heavily backlogged, they may not have time to help you properly get set up. Be patient and ask the developer to indicate a good time to go over the setup.
 
 With local builds, setting up a functional system is much more challenging than using a test server. Still, if you want to write good documentation, setting up a test system is essential. Good developers know and recognize this need, and so they're usually accommodating (to an extent) in helping set up a test environment to get you started.
 
@@ -85,11 +85,11 @@ I learned early on to steer my career towards jobs where I could actually get my
 
 If you're documenting hardware, you need access to the hardware to provide reliable documentation on how to use it. You'll need to understand how to run apps on the device and how to interface with it. Hopefully, the product is one that you can access to play around with in a direct, hands-on way.
 
-Working at Google, the product I was documenting included Google services, such as Google Maps, Play Store, and Assistant, embedded directly in the car's infotainment system. These services are built on the Android operating system. The group I was in maintained a fleet of vehicles, mostly Volvo Polestars and XC-90s, with test installs of Android and these Google services. One day I decided to check a fleet car out and drove it around for a couple of weeks. The experience gave me a much better understanding of the product, one that I didn't entirely possess before when I was just writing about the features. I could experience first-hand in many real situations what the user experience was with the product, and while in some cases I was underwhelmed, in others I was kind of like, wow, this is cool. I logged about 25 bugs while I had the car during this time. 
+Working at Google, the product I was documenting included Google services, such as Google Maps, Play Store, and Assistant, embedded directly in the car's infotainment system. These services are built on the Android operating system. The group I was in maintained a fleet of vehicles, mostly Volvo Polestars and XC90s, with test installs of Android and these Google services. One day I decided to check a fleet car out and drove it around for a couple of weeks. The experience gave me a much better understanding of the product, one that I didn't entirely possess before when I was just writing about the features. I could experience first-hand in many real situations what the user experience was with the product, and while in some cases I was underwhelmed, in others I was kind of like, wow, this is cool. I logged about 25 bugs while I had the car during this time. 
 
 ## If you encounter developer resistance ...
 
-Many times developers don't expect that a technical writer will be doing anything more than just transcribing and relaying the information given to him or her by engineers. With this mindset, a developer might not immediately think that you need or want a sample app to test out the calls or other code. You might need to ask (or even petition) the developers for it.
+Many times developers don't expect that a technical writer will be doing anything more than just transcribing and relaying the information given to them by engineers. With this mindset, a developer might not immediately think that you need or want a sample app to test out the calls or other code. You might need to ask (or even petition) the developers for it.
 
 I've found that most of the time, developers respect technical writers much more if the technical writers can test out the code themselves. Engineers also appreciate any feedback you may have as you run through the system. Technical writers, along with QA, are usually the first users of the developer's code.
 

@@ -182,13 +182,23 @@ If you're looking for additional resources to learn API documentation as well as
 
 * [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108), by Arnaud Lauret
 
-* [*Docs for Developers: An Engineer's Field Guide to Technical Writing*](https://link.springer.com/book/9781484272169), Authors: Bhatti, J., Corleissen, Z.S., Lambourne, J., Nunez, D., Waterhouse, H.
+* [*Docs for Developers: An Engineer's Field Guide to Technical Writing* (2nd edition)](https://www.amazon.com/dp/B0GH5XQF99), by Jared Bhatti, Sarah Corleissen, Jen Lambourne, David Nunez, and Heidi Waterhouse (2026). See also the companion site, [docsfordevelopers.com](https://docsfordevelopers.com/).
+
+* [*Docs as Tests & AI: A Strategy for Self-Healing Technical Documentation*](https://www.amazon.com/dp/B0H181C5DQ), by Manny Silva (2026)
 
 * [*Standards and Guidelines for API Documentation: For Technical Writers, Software Developers, Information and Software Architects*](https://www.google.com/books/edition/Standards_and_Guidelines_for_API_Documen/B7LDzQEACAAJ?hl=en), by Anne Tarnoruder
 
 These resources aren't API-specific but are still relevant:
 
+* [*Documentation at Scale: Best-in-class content for the AI era*](https://www.amazon.com/dp/B0HGPRKYMN), by Andrew Etter (2026)
+
 * [*Modern Technical Writing: An Introduction to Software Documentation*](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter
+
+* [*WTFM: A Practical Guide for Standing Up Docs at a Startup*](https://www.amazon.com/dp/B0HF1P7N9P), by CT Smith (2026). You can also read it online for free at [wtfmbook.com](https://wtfmbook.com/).
+
+* [*Women in Technical Communication: From typewriters to touchscreens*](https://www.amazon.com/dp/B0GR84F94M), edited by Sharon Burton (2026)
+
+* [*Technical Communication and the Discipline of Content*](https://www.amazon.com/dp/1032588470), by Rebekka Andersen and Carlos Evia (2025)
 
 * [*Documentation Guide -- Write the Docs Community*](https://www.writethedocs.org/guide/index.html)
 
@@ -200,4 +210,4 @@ These resources aren't API-specific but are still relevant:
 
 * [Google's technical writing courses for engineers](https://developers.google.com/tech-writing)
 
-For even more books, see [Relevant Books](https://www.writethedocs.org/books/) from the Write the Docs site.
+For more about the newer books in this list, see [Six new books in tech comm: a roundup](https://idratherbewriting.com/blog/new-books-tech-comm-2026). For even more books, see [Relevant Books](https://www.writethedocs.org/books/) from the Write the Docs site.

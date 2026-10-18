@@ -6,7 +6,7 @@ weight: 6.4
 sidebar: docapis
 section: testingdocs
 path1: learnapidoc/testingdocs.html
-last-modified: 2018-12-06
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -24,13 +24,13 @@ You might assume that your audience already knows how to SSH onto a server, crea
 
 For example, my 10-year-old daughter is starting to cook. She feels confident that if the cookbook's instructions are clear, she can follow almost anything (assuming we have the ingredients to make it). However, she says sometimes the instructions tell her to do something that she doesn't know how to do &mdash; such as *sauté* something.
 
-To *sauté* an onion, you cook onions in butter until they turn soft and translucent. To *julienne* a carrot, you cut them in the shape of little fingers. To *grease* a pan, you spray it with Pam or smear it with butter. To add an egg *white* only, you use the shell to separate out the yolk. To *dice* a pepper, you chop it into little tiny pieces.
+To *sauté* an onion, you cook onions in butter until they turn soft and translucent. To *julienne* a carrot, you cut it into thin, matchstick-sized strips. To *grease* a pan, you spray it with Pam or smear it with butter. To add an egg *white* only, you use the shell to separate out the yolk. To *dice* a pepper, you chop it into little tiny pieces.
 
-The terms can all be confusing if you haven't done much cooking. Sometimes you must *knead* bread, or *cut* butter, or *fold in* flour, or add a *pinch* of salt, or add a cup of *packed* brown sugar, or add some *confectioners* sugar, or bring liquid to a *roiling boil*, and so on.
+The terms can all be confusing if you haven't done much cooking. Sometimes you must *knead* bread, or *cut* butter, or *fold in* flour, or add a *pinch* of salt, or add a cup of *packed* brown sugar, or add some *confectioners* sugar, or bring liquid to a *rolling boil*, and so on.
 
 Sure, these terms are cooking 101, but if you're 10-years-old and baking for the first time, this is a world of new terminology. Even measuring a cup of flour is difficult &mdash; does it have to be *exact*, and if so, how do you get it exact? You could use the flat edge of a knife to knock off the top peaks, but someone has to teach you how to do that. When my 10-year-old first started measuring flour, she went to great lengths to get it exactly 1 cup, as if the success of the entire recipe depended on it.
 
-The world of software instruction is full of similarly confusing terminology. For the most part, you have to know your audience's general level so that you can assess whether something will be clear. Does a user know how to *clear their cache*, or update *Flash*, or ensure the *JDK* is installed, or *clone* or *fork* a git repository? Do the users know how to open a *terminal*, *deploy* a web app, import a *package*, *cd* on the command line, submit a *PR*, or *chmod* file permissions?
+The world of software instruction is full of similarly confusing terminology. For the most part, you have to know your audience's general level so that you can assess whether something will be clear. Does a user know how to *clear their cache*, or update their *browser*, or ensure the *JDK* is installed, or *clone* or *fork* a git repository? Do the users know how to open a *terminal*, *deploy* a web app, import a *package*, *cd* on the command line, submit a *PR*, or *chmod* file permissions?
 
 This is why checking over your own instructions by walking through the steps yourself becomes problematic. The first rule of usability is to know the user, and also to recognize that you aren't the user.
 
@@ -104,7 +104,7 @@ But if you don't watch users, the whole testing process is much more nebulous. E
 
 If you watch a user, you can see exactly where they're getting stuck. Usability experts prefer to have users actually share their thoughts in a running monologue. They tell users to let them know what's running through their head every now and then.
 
-In other usability setups, you can turn on a web cam to capture the user's expression while you view the screen in an online meeting screenshare. This can allow you to give the user some privacy while also watching him or her directly.
+In other usability setups, you can turn on a webcam to capture the user's expression while you view the screen in an online meeting screenshare. This can allow you to give the user some privacy while also watching them directly.
 
 ## Agile testing
 
@@ -116,4 +116,4 @@ Additionally, the later that errors are identified in the software development p
 
 ## Conclusion
 
-No matter how extensively or minimally you do it, look for opportunities to test your instructions against an actual audience. You don't need to do a lot of tests (even the usability pros say 4-5 test subjects is usually enough to identify 80% of the problems), but try to do *some user testing*. When you treat [docs like code](pubapis_docs_as_code.html), it naturally follows that just as we should test code, we should also test docs.
+No matter how extensively or minimally you do it, look for opportunities to test your instructions against an actual audience. You don't need to do a lot of tests (Jakob Nielsen found that [testing with five users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) uncovers about 85% of the usability problems in a design), but try to do *some user testing*. When you treat [docs like code](pubapis_docs_as_code.html), it naturally follows that just as we should test code, we should also test docs.

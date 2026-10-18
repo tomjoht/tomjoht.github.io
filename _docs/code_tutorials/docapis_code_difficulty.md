@@ -7,14 +7,14 @@ weight: 8.2
 sidebar: docapis
 section: docapiscode
 path1: learnapidoc/doccode.html
-last-modified: 2021-10-08
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
 
 Software code, often written in Java, C++, or any other language, is challenging to document in part because technical writers often aren't already fluent in the programming language. But even for writers or developers who are fluent in the language, code is hard to document. There isn't a step-by-step process to follow. Code is often arranged in non-linear order, so you can't simply proceed line-by-line through it. There's also the question of how much to document, what to cover, and where to include the documentation. Overall, best practices for documenting code are somewhat fuzzy and undefined, which makes documenting code one of the most challenging and difficult tasks technical writers face.
 
-{: note}
+{: .note}
 In a previous topic, [Documenting code](docapis_codesamples_bestpractices.html), I briefly touched on the need to document code. But given the importance of this topic, I've expanded this section in more depth with its own dedicated topics here.
 
 * TOC
@@ -101,7 +101,7 @@ Around the 4:15 mark, Ruthie says,
 
 Why do engineers so frequently say they want code? Code examples show how to implement an abstract, narrative explanation in an actual way. Code shows how to use reference APIs toward some actionable and tangible end. In that sense, code is an extremely powerful tool to help users understand how to use your API.
 
-In fact, in the [2021 State of API report by SmartBear](https://smartbear.com/state-of-software-quality/api/documentation/), "examples" are the most desired form of documentation, topping all other documentation types by a wide margin.
+In fact, in the [2021 State of API report by SmartBear](https://web.archive.org/web/20211006130616/https://smartbear.com/state-of-software-quality/api/documentation/), "examples" are the most desired form of documentation, topping all other documentation types by a wide margin.
 
 Despite the importance of code samples, they're often neglected or missing from API docs. After all, it's much easier to just cover reference material and let developers figure out how to actually use it constructively. In this section of my API course, I'll provide concrete strategies for successfully incorporating code samples into your documentation.
 

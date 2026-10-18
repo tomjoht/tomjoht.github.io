@@ -7,7 +7,7 @@ weight: 8.4
 sidebar: docapis
 section: docapiscode
 path1: learnapidoc/doccode.html
-last-modified: 2019-11-17
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -47,7 +47,7 @@ If your commentary dwarfs the code, you risk making the code unreadable. If you 
 
 One solution to this location problem for code docs is to create an additional, third column in your layout. You devote the middle column to your conceptual explanation and your right column to the code. This way the code and the narration are juxtaposed in a way that readers can glance at the code while reading your conceptual explanations &mdash; in other words, the third column maintains the needed context between the code and explanations. Here's an example from Twilio showing this juxtaposed approach:
 
-<figure><a href="https://www.twilio.com/docs/authy/tutorials/account-verification-java-servlets?code-language=Java&code-sample=code-verify-an-authy-code-7&code-sdk-version=default#sending-a-token-on-account-creation"><img src="{{site.api_media}}/twiliocodedocexample1.png" alt="Twilio documentation juxtaposed with the code through a third column" class="large" /></a><figcaption>Twilio documentation juxtaposed with the code through a third column</figcaption></figure>
+<figure><a href="https://web.archive.org/web/2020/https://www.twilio.com/docs/authy/tutorials/account-verification-java-servlets"><img src="{{site.api_media}}/twiliocodedocexample1.png" alt="Twilio documentation juxtaposed with the code through a third column" class="large" /></a><figcaption>Twilio documentation juxtaposed with the code through a third column</figcaption></figure>
 
 In this example, the conceptual content and steps appear in the middle column, the code on the right, with a dark background behind the code to create visual contrast.
 
@@ -55,7 +55,7 @@ In this example, the conceptual content and steps appear in the middle column, t
 
 Some of Twilio's screens actually blur out the irrelevant code, allowing you to focus your attention on the lines articulated in the conceptual area, like this:
 
-<figure><a href="https://www.twilio.com/docs/authy/tutorials/account-verification-java-servlets?code-language=Java&code-sample=code-verify-an-authy-code-7&code-sdk-version=default#configuring-authy"><img src="{{site.api_media}}/twiliocodedocblurirrelevant.png" alt="Blurring out irrelevant code" class="large" /></a><figcaption>Blurring out irrelevant code</figcaption></figure>
+<figure><a href="https://web.archive.org/web/2020/https://www.twilio.com/docs/authy/tutorials/account-verification-java-servlets"><img src="{{site.api_media}}/twiliocodedocblurirrelevant.png" alt="Blurring out irrelevant code" class="large" /></a><figcaption>Blurring out irrelevant code</figcaption></figure>
 
 One challenge with this juxtaposed approach is screen space. To pull off a third-column design, you need to occupy the whole screen, without margins. (I'm surprised Twilio doesn't include a switch to collapse the left-side navigation, which would give more space for the code.)
 
@@ -71,9 +71,9 @@ Another challenge with this juxtaposed design is that code is often spread out a
 
 ## Approach 3: The Lego approach
 
-Another approach is to build the code from the ground up level by level, which I'm calling the Lego approach. For an example of the Lego approach, take a look at this example from the eBay Shopping API: [Searching By Seller: Reviewing Information About A Seller](https://developer.ebay.com/DevZone/shopping/docs/HowTo/PHP_Shopping/PHP_FIA_GUP_Interm_NV_XML/PHP_FIA_GUP_Interm_NV_XML.html#step1).
+Another approach is to build the code from the ground up level by level, which I'm calling the Lego approach. For an example of the Lego approach, take a look at this example from the eBay Shopping API (since retired): [Searching By Seller: Reviewing Information About A Seller](https://web.archive.org/web/20201023123608/https://developer.ebay.com/DevZone/shopping/docs/HowTo/PHP_Shopping/PHP_FIA_GUP_Interm_NV_XML/PHP_FIA_GUP_Interm_NV_XML.html).
 
-<figure><a href="https://developer.ebay.com/DevZone/shopping/docs/HowTo/PHP_Shopping/PHP_FIA_GUP_Interm_NV_XML/PHP_FIA_GUP_Interm_NV_XML.html#step1"><img src="{{site.api_media}}/ebayshoppingapiexample.png" alt="Lego approach shown through eBay Shopping API" class="large" /></a><figcaption>Lego approach shown through eBay Shopping API</figcaption></figure>
+<figure><a href="https://web.archive.org/web/20201023123608/https://developer.ebay.com/DevZone/shopping/docs/HowTo/PHP_Shopping/PHP_FIA_GUP_Interm_NV_XML/PHP_FIA_GUP_Interm_NV_XML.html"><img src="{{site.api_media}}/ebayshoppingapiexample.png" alt="Lego approach shown through eBay Shopping API" class="large" /></a><figcaption>Lego approach shown through eBay Shopping API</figcaption></figure>
 
 Their tutorial contains five steps:
 
@@ -87,7 +87,7 @@ With the Lego approach, you might start with a blank file. Then with each step, 
 
 The problem with this Lego approach is that as a technical writer, you likely won't have the build-up logic that the developer followed. Developers will more likely just send you the finished piece of code to document, and then you might end up approaching it as I described in the [intro to this section](docapis_code_difficulty.html), where I divided my explanations of the code section by section.
 
-Tackling code explanations section by section won't necessarily match the Lego build order of the code, since code is non-linear. The code that appears at the top might have been like the icing on the cake for the developer &mdash; e.g., abstracting more complicated lines into variables that he or she uses to reduce the code's working complexity. Finished code often has logic that is abstracted away into variables or other referenced functions so that certain parts of the final code remain cleaner and more concise, but other parts become more opaque. Finished code is often too messy and confusing to document in any teachable way.
+Tackling code explanations section by section won't necessarily match the Lego build order of the code, since code is non-linear. The code that appears at the top might have been like the icing on the cake for the developer &mdash; e.g., abstracting more complicated lines into variables that they use to reduce the code's working complexity. Finished code often has logic that is abstracted away into variables or other referenced functions so that certain parts of the final code remain cleaner and more concise, but other parts become more opaque. Finished code is often too messy and confusing to document in any teachable way.
 
 Despite the challenges with the Lego approach, if you want to teach someone how to understand code, you have to start simple and work your way up. The next technique explains this simple-to-complex approach through the metaphor of the nautilus.
 
@@ -95,7 +95,7 @@ Despite the challenges with the Lego approach, if you want to teach someone how 
 
 The Nautilus approach is similar to the Lego approach, but rather than describing chunks of work that are tackled one by one in an assembly order, you describe the core, simple patterns that users need to know. You start with the simplest code and then let the user's project grow larger and larger as needed, like the growing spiral pattern of the nautilus' shell.
 
-Paul Gustafson, who manages a technical writing staffing company in the Bay area called [Expert Support](http://expertsupport.com/), presents us with the metaphor of the nautilus in the approach described here. Paul says that the nautilus provides a good metaphor for technical communication because the nautilus follows a spiral pattern (Fibonacci sequence) that allows it to start small and gradually grow larger and larger as needed:
+Paul Gustafson, who manages a technical writing staffing company in the Bay area called [Expert Support](https://expertsupport.com/), presents us with the metaphor of the nautilus in the approach described here. Paul says that the nautilus provides a good metaphor for technical communication because the nautilus follows a spiral pattern (Fibonacci sequence) that allows it to start small and gradually grow larger and larger as needed:
 
 <figure><a target="_blank" class="noExtIcon" href="https://commons.wikimedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg"><img class="docimage medium border" src="{{site.api_media}}/nautilus.jpg" alt="Nautilus" /></a><figcaption>Nautilus</figcaption></figure>
 
@@ -111,7 +111,7 @@ Following the nautilus approach, you start with the simple, core patterns and th
 
 I like the Nautilus approach. The problem is that we often want to explain how the finished code works, taking a user through it all from start to end. We might have 500 lines of code that we want to articulate, but the Nautilus approach would have us explain just several small pieces of that code (at least to begin with). Hence there's an A-versus-Z type of problem: We describe A (the simplest core pattern), but the end product is Z. How exactly do you get from A to Z? How do you get from the simple patterns that maybe occupy 20 lines of code to the monstrously complex, finished code that spans 500 lines?
 
-To the technical writer looking at the finalized code, there's no clear sense of how the developer got there. We often can't decouple the nautilus-like logic that the developer started with, which led him or her toward this more complex end. All we see is this complex end. How do you decompile the code to reconstruct the logic that the developer started with? How do you know what these initial nautilus patterns were that started the whole process? If you didn't develop the code, nor are you a developer, it will be nearly impossible to reconstruct the nautilus pattern behind the code in your explanations.
+To the technical writer looking at the finalized code, there's no clear sense of how the developer got there. We often can't decouple the nautilus-like logic that the developer started with, which led them toward this more complex end. All we see is this complex end. How do you decompile the code to reconstruct the logic that the developer started with? How do you know what these initial nautilus patterns were that started the whole process? If you didn't develop the code, nor are you a developer, it will be nearly impossible to reconstruct the nautilus pattern behind the code in your explanations.
 
 {% include ads.html %}
 
@@ -125,7 +125,7 @@ However, if you're not a painter, how would you know how to describe the process
 
 {% include random_ad3.html %}
 
-To illustrate this point more clearly, let me provide a code example. Although I'm not an engineer, I'm handy with Jekyll and theming, and the other day I set about creating a template that would take a content export from a ticketing tool (like JIRA) and render it as a documentation report on a web page.
+To illustrate this point more clearly, let me provide a code example. Although I'm not an engineer, I'm handy with Jekyll and theming, and the other day I set about creating a template that would take a content export from a ticketing tool (like Jira) and render it as a documentation report on a web page.
 
 My finished template looks like this:
 
@@ -204,9 +204,9 @@ This is the core logic of the report. It uses a `for` loop to look through items
 
 But if you didn't develop the code, it would be extremely difficult to pinpoint the core, simple logic that is the basic pattern of the code. Where did the developer start? What is the essential pattern to learn?
 
-To gather this information, you need to interview the developer. And when you interview the developer, you need to understand the language and explanations he or she communicates. Alternatively, you can try to steer the developer towards describing the logic of his or her own code through guidance with the right questions. For example, you might ask, What's the fundamental core logic that the user needs to know here? What's the really important line to focus on in all this code? Can you walk me through that specific part in detail?
+To gather this information, you need to interview the developer. And when you interview the developer, you need to understand the language and explanations they communicate. Alternatively, you can try to steer the developer towards describing the logic of their own code through guidance with the right questions. For example, you might ask, What's the fundamental core logic that the user needs to know here? What's the really important line to focus on in all this code? Can you walk me through that specific part in detail?
 
-Just a caution here &mdash; chances are if you ask developers these questions, they will quickly slip into advanced explanations and jargon and become impatient if you're unable to follow the logic. If basic concepts are totally unfamiliar, it is unrealistic for a beginning to simply soak in the explanation. Plus, it can be hard to explain code. I even forgot many details about how my Jekyll code works about a hour after I wrote it. These explanations require a lot of mental work for developers to perform (their reluctance reinforces why they're often not writing the documentation in the first place).
+Just a caution here &mdash; chances are if you ask developers these questions, they will quickly slip into advanced explanations and jargon and become impatient if you're unable to follow the logic. If basic concepts are totally unfamiliar, it is unrealistic for a beginner to simply soak in the explanation. Plus, it can be hard to explain code. I even forgot many details about how my Jekyll code works about a hour after I wrote it. These explanations require a lot of mental work for developers to perform (their reluctance reinforces why they're often not writing the documentation in the first place).
 
 In these conversations, I highly recommend recording your interviews with developers. This will allow you to go back and listen to the explanations in slow motion, hitting stop and rewind as much as you want. If the engineer mentions an unfamiliar concept, you can use that as a springboard for your own study. This will give you a relevant list of topics to learn (rather than following some generic course that might never get around to addressing the specific code you actually need to know). At the very least, you could simply parrot out what the developer said from the recording &mdash; you'll have all the lingo and phrasings ready to pull from.
 
@@ -222,13 +222,13 @@ The most common example of interactive documentation for APIs is with Swagger UI
 
 Swagger provides an ingenious blending of documentation and try-it-out interactions that help users learn your API (by both reading and doing). But making requests with REST API endpoints tends to be somewhat simple. More extensive code tutorials will be harder to make interactive in the browser. Even so, some "Notebooks" (as they're often called) allow you to run code, specifically [Jupyter Notebooks](https://jupyter.org/). Jupyter explains:
 
-> The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+> The Jupyter Notebook is the original web application for creating and sharing computational documents. It offers a simple, streamlined, document-centric experience.
 
-Google has some collaborative notebook options with TensorFlow documentation, which has operations that you can execute on web pages. In the following screenshot, you can see an option to "Run code now":
+Google has some collaborative notebook options with TensorFlow documentation, which has operations that you can execute on web pages. In the following screenshot (from an earlier version of the site), you can see an option to "Run code now." The current TensorFlow tutorials label this option "Run in Google Colab."
 
 <figure><a target="_blank" class="noExtIcon" href="https://www.tensorflow.org/tutorials"><img class="docimage large" src="{{site.api_media}}/tensorflowruncodenow.png" alt="Interactive code examples from TensorFlow" /></a><figcaption>Interactive code examples from TensorFlow</figcaption></figure>
 
-Clicking "Run code now" takes you to Google's interactive notebooks that actually run the code in the browser:
+Clicking this option takes you to Google's interactive notebooks (Google Colab) that actually run the code in the browser:
 
 <figure><a target="_blank" class="noExtIcon" href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/_index.ipynb"><img class="docimage large border" src="{{site.api_media}}/tensorflowexperimentasyougo.png" alt="Google's interactive notebooks let you run the code in the browser" /></a><figcaption>Google's interactive notebooks let you run the code in the browser</figcaption></figure>
 

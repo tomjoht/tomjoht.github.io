@@ -8,7 +8,7 @@ section: docapiscode
 path1: learnapidoc/doccode.html
 redirect_from:
 - /learnapidoc/docapis_sdks_and_sample_apps.html
-last-modified: 2019-11-17
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -24,7 +24,7 @@ The terms API and SDK are often used together, but they aren't synonyms. SDKs im
 
 {% include random_ad3.html %}
 
-For example, Python, C++, or Node applications make API requests in different ways. Each language has its own way of constructing requests to a web API. You can use Postman or Paw to auto-generate a simple request in a specific language (see [Auto-generating code samples](docapis_doc_sample_requests.html#auto-generating-code-samples)). However, the SDK takes the implementation to another level. SDKs might involve many more files or libraries as part of the implementation.
+For example, Python, C++, or Node applications make API requests in different ways. Each language has its own way of constructing requests to a web API. You can use Postman or RapidAPI for Mac (formerly Paw) to auto-generate a simple request in a specific language (see [Auto-generating code samples](docapis_doc_sample_requests.html#auto-generating-code-samples)). However, the SDK takes the implementation to another level. SDKs might involve many more files or libraries as part of the implementation.
 
 {% include ads.html %}
 
@@ -38,7 +38,7 @@ Sandoval compares examples from both Facebook APIs and SDKs to clarify the diffe
 
 ## What is your role in documenting the SDK and sample app
 
-In the SwaggerHub tutorial, I showed how to [auto-generate client SDKs](pubapis_swaggerhub_smartbear.html#auto-generate-client-sdks) through SwaggerHub's interface. But usually rather than relying on auto-generated SDKs, if your development team offers a client SDK, it will be code that the development team prepares and tests. The development team often provides the SDK in a few target languages based on their user's main language, making it easier for users to implement the API.
+In the SwaggerHub tutorial, I showed how to [auto-generate client SDKs](pubapis_swaggerhub_smartbear.html#auto-generate-client-sdks) through SwaggerHub's interface. Generated SDKs have become much more common in recent years. Some companies now generate their official SDKs from their OpenAPI specification using commercial tools or [OpenAPI Generator](https://openapi-generator.tech/), and then refine the output. For example, the [OpenAI Python library](https://github.com/openai/openai-python) notes that "It is generated from our OpenAPI specification." Other teams hand-write their SDKs. Either way, the development team usually prepares and tests the SDK. The development team often provides the SDK in a few target languages based on their user's main language, making it easier for users to implement the API.
 
 {% include image_ad_right.html %}
 
@@ -72,9 +72,9 @@ If you can put your sample apps and SDKs on GitHub, it's usually a good idea to 
 
 ### Paypal REST SDK
 
-<figure><a target="_blank" class="noExtIcon" href="https://developer.paypal.com/docs/api/quickstart/"><img class="docimage" src="{{site.api_media}}/sdk_paypal.png" alt="Paypal REST SDKs" /></a><figcaption>Paypal REST SDKs</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20201230200603/https://developer.paypal.com/docs/api/quickstart/"><img class="docimage" src="{{site.api_media}}/sdk_paypal.png" alt="Paypal REST SDKs" /></a><figcaption>Paypal REST SDKs</figcaption></figure>
 
-The SDKs in the [Paypal's Additional information](https://developer.paypal.com/docs/api/quickstart/#additional-information) section include Node JS, PHP, Python, Ruby, Java, and .NET SDKs. Each implementation has its own GitHub site, with its own wiki, sample code, source docs, and more. If you browse some of these GitHub pages (such as the [site for PHP](https://paypal.github.io/PayPal-PHP-SDK/)), you can see the whole collection of language-specific files for this SDK. These sites show how SDKs include a variety of file types.
+The SDKs in the [Paypal's Additional information](https://web.archive.org/web/20201230200603/https://developer.paypal.com/docs/api/quickstart/) section (shown here from an archived copy) included Node JS, PHP, Python, Ruby, Java, and .NET SDKs. Each implementation has its own GitHub site, with its own wiki, sample code, source docs, and more. If you browse some of these GitHub pages (such as the [site for PHP](https://paypal.github.io/PayPal-PHP-SDK/)), you can see the whole collection of language-specific files for this SDK. These sites show how SDKs include a variety of file types.
 
 <figure><a target="_blank" class="noExtIcon" href="https://paypal.github.io/PayPal-PHP-SDK/"><img class="docimage" src="{{site.api_media}}/sdk_paypal_github.png" alt="Paypal PHP SDK" /></a><figcaption>Paypal PHP SDK</figcaption></figure>
 
@@ -82,7 +82,7 @@ The SDKs in the [Paypal's Additional information](https://developer.paypal.com/d
 
 <figure><a target="_blank" class="noExtIcon" href="https://devcenter.heroku.com/articles/pubnub"><img class="docimage" src="{{site.api_media}}/sdk_heroku.png" alt="Heroku SDK" /></a><figcaption>Heroku SDK</figcaption></figure>
 
-The Heroku SDK is actually operated by PubNub and includes a Ruby, Java, Node JS, Python, and PHP SDK. If you look at, for example, the [Python SDK documentation](https://devcenter.heroku.com/articles/pubnub#python-sdk-documentation), you see links to Getting Started, Tutorials, and API reference.
+The Heroku SDK was actually operated by PubNub and included a Ruby, Java, Node JS, Python, and PHP SDK. (The Heroku Dev Center article now requires a login.) If you look at, for example, the [Python SDK documentation](https://devcenter.heroku.com/articles/pubnub#python-sdk-documentation), you see links to Getting Started, Tutorials, and API reference.
 
 As I mentioned earlier, it's unlikely that you'll be able to contribute significantly to either writing or reviewing the SDK documentation unless you're somewhat familiar with the language. Development groups usually don't expect technical writers to be conversant in half a dozen languages. More likely, you'll be reliant on engineers who are conversant in these languages and frameworks to author this content. But doing so will require you to interact skillfully with engineers and be somewhat familiar with programming jargon and concepts.
 

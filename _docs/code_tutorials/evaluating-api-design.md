@@ -6,7 +6,7 @@ weight: 8.8
 sidebar: docapis
 section: docapiscode
 path1: learnapidoc/doccode.html
-last-modified: 2019-12-02
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -106,7 +106,7 @@ Another area of high inconsistency is the casing of parameter names. Do all para
 
 Enums (a list of allowed values) are often written in full caps (`RESOURCEID`), so they might differ from the lower camel case convention, which is most commonly used. But generally, parameter names should have similar casing conventions. Identify which conventions are used in your API. Then locate any inconsistencies.
 
-For example, in the [Microsoft API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#710-response-formats), the guide notes that "JSON property names SHOULD be camelCased." Additionally, "Services SHOULD provide JSON as the default encoding."
+For example, in the [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/graph/Guidelines-deprecated.md#710-response-formats) (since deprecated in favor of separate [Azure](https://github.com/microsoft/api-guidelines/blob/vNext/azure/Guidelines.md) and [Microsoft Graph](https://github.com/microsoft/api-guidelines/blob/vNext/graph/GuidelinesGraph.md) guidelines), the guide notes that "JSON property names SHOULD be camelCased." Additionally, "Services SHOULD provide JSON as the default encoding."
 
 {% include image_ad_right.html %}
 
@@ -128,7 +128,7 @@ Look for top APIs from the big tech companies for examples. Stripe, Twilio, Twit
 
 Just as there are style guides for tech docs and marketing material, companies often have API design style guides as well. Consider the scenario of a large company with many different engineering teams each building APIs. To ensure consistency across the APIs they build, these companies usually have an API style guide they adhere to. Arnaud says that best practices for API development usually involve "formally defin[ing] your design with rules in a document called the 'API Design Guidelines' or the 'API Design Style Guide.'"
 
-In fact, Arnaud has collected more than 15 of these style guides in a site called [API Stylebook](http://apistylebook.com/design/guidelines/). In the site, he pulls from each of these style guides to show their guidance for common sections. You can also click links directly into the style guide sites. For example, check out the [Cisco API Design Guide](https://github.com/CiscoDevNet/api-design-guide) and [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md).
+In fact, Arnaud has collected more than 15 of these style guides in a site called [API Stylebook](https://apistylebook.com/design/guidelines/). In the site, he pulls from each of these style guides to show their guidance for common sections. You can also click links directly into the style guide sites. For example, check out the [Cisco API Design Guide](https://github.com/CiscoDevNet/api-design-guide) and [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/graph/Guidelines-deprecated.md).
 
 Just as documentation style guides go in-depth about more minutia than most people care about, API design style guides do the same about every aspect of an API. Before providing feedback about the API you're documenting, find out if your company has an API style guide. If they do, you'll have direct support to back your claims about potential inconsistencies or lack of adherence to standards. If your company doesn't have a design style guide, you could compare the approach in other design style guides.
 
@@ -166,7 +166,7 @@ Ideally, error messages should be descriptive enough to let users know what's wr
 
 If you simply give users errors that say, `500 Internal Server` error, this isn't very helpful. Not only should the documentation seek to clarify the conditions that trigger errors but the error messages themselves should contain the helpful information.
 
-One could say a lot about error messages beyond the general guidance here. Take a look at the section titled [Error condition responses](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#7102-error-condition-responses) in Microsoft's REST API Guidelines to get a sense of the potential level of detail around error messages:
+One could say a lot about error messages beyond the general guidance here. Take a look at the section titled [Error condition responses](https://github.com/microsoft/api-guidelines/blob/vNext/graph/Guidelines-deprecated.md#7102-error-condition-responses) in Microsoft's REST API Guidelines to get a sense of the potential level of detail around error messages:
 
 > For nonsuccess conditions, developers SHOULD be able to write one piece of code that handles errors consistently across different Microsoft REST API Guidelines services. This allows the building of simple and reliable infrastructure to handle exceptions as a separate flow from successful responses. ...
 >

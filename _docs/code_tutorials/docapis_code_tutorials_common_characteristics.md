@@ -7,7 +7,7 @@ weight: 8.1
 sidebar: docapis
 section: docapiscode
 path1: learnapidoc/doccode.html
-last-modified: 2021-12-11
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -39,17 +39,15 @@ Code tutorials often have the following sections or characteristics:
 
 The following are sample tutorials. Pick two tutorials and analyze them to see how many of the above common sections and characteristics you can find.
 
-1.  [Twilio - How to build a chatbot](https://www.twilio.com/docs/autopilot/guides/how-to-build-a-chatbot)
-2.  [GitHub - Building a CI server](https://developer.github.com/v3/guides/building-a-ci-server/)
-3.  [Message Buttons with Node.js](https://api.slack.com/tutorials/intro-to-message-buttons)
-4.  [Dropbox - Quickly integrate file upload in your web app using the Chooser](https://blogs.dropbox.com/developers/2019/05/quickly-integrate-file-upload-in-your-web-app-using-the-chooser/)
-5.  [Maps JavaScript API Overview](https://developers.google.com/maps/documentation/javascript/tutorial)
-6.  [Searching By Seller: Reviewing Information About A Seller](https://developer.ebay.com/DevZone/shopping/docs/HowTo/PHP_Shopping/PHP_FIA_GUP_Interm_NV_XML/PHP_FIA_GUP_Interm_NV_XML.html)
-7.  [Using the Marketing API with the Facebook Pixel](https://developers.facebook.com/docs/marketing-api/audiences-api/pixel)
-8. [Create a Custom Map URL](https://learn.microsoft.com/en-us/bingmaps/articles/create-a-custom-map-url)
-9.  [Training Course: How to Build a Multimodal Alexa Skill](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/resources/training-resources/intro-multimodal)
-10. [Introduction to Populating a Website with API Data](https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data)
-11. [Video Skills Kit for Fire TV](https://web.archive.org/web/20200810163744/https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html#integration_steps)
+1.  [Twilio - Programmable Messaging quickstart](https://www.twilio.com/docs/messaging/quickstart)
+2.  [GitHub - Building a CI server](https://docs.github.com/en/rest/guides/building-a-ci-server)
+3.  [Stripe - Accept a payment](https://docs.stripe.com/payments/accept-a-payment)
+4.  [Dropbox - Quickly integrate file upload in your web app using the Chooser](https://web.archive.org/web/20200312233213/https://blogs.dropbox.com/developers/2019/05/quickly-integrate-file-upload-in-your-web-app-using-the-chooser/) (archived)
+5.  [Google Maps - Add a Google Map with a Marker using JavaScript](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
+6.  [Using the Marketing API with the Meta Pixel](https://developers.facebook.com/docs/meta-pixel/implementation/marketing-api)
+7.  [Create a Custom Map URL](https://learn.microsoft.com/en-us/bingmaps/articles/create-a-custom-map-url)
+8.  [Introduction to Populating a Website with API Data](https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data)
+9.  [Video Skills Kit for Fire TV](https://web.archive.org/web/20200810163744/https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html#integration_steps) (archived)
 
 {% include random_ad3.html %}
 

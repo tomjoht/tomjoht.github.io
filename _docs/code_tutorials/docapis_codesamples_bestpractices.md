@@ -7,7 +7,7 @@ weight: 8.5
 sidebar: docapis
 section: docapiscode
 path1: learnapidoc/doccode.html
-last-modified: 2019-11-17
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -27,7 +27,7 @@ Code samples play an essential role in helping developers use an API. Code is li
 
 In user testing that Twilio did with their documentation, they found that pages that started more quickly with code samples performed better with users.
 
-<figure><a target="_blank" class="noExtIcon" href="https://eventil.com/presentations/pOszD6"><img class="docimage large" src="{{site.api_media}}/twiliouserresearch.png" alt="Code samples with Twilio research" /></a><figcaption>Twilio found that when pages had fewer sentences before code samples, the pages engaged users more.</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20180607023112/https://eventil.com/presentations/pOszD6"><img class="docimage large" src="{{site.api_media}}/twiliouserresearch.png" alt="Code samples with Twilio research" /></a><figcaption>Twilio found that when pages had fewer sentences before code samples, the pages engaged users more.</figcaption></figure>
 
 Specifically, pages with less than 4 sentences before code samples performed twice as well as pages with 11 sentences before code samples. Jarod Reyes explains:
 
@@ -58,7 +58,7 @@ Once you have code samples in your documentation, the next question is how to do
 Here's an example of the difference:
 
 * **what**: "In this code, several arguments are passed to jQuery's `ajax` method. The response is assigned to the data argument of the callback function, which in this case is `success`."
-* **why**: "Use the `ajax` method from jQuery because it allows for asynchronous responses that won't block the loading of your page.
+* **why**: "Use the `ajax` method from jQuery because it allows for asynchronous responses that won't block the loading of your page."
 
 Developers unfamiliar with common code not related to your company (for example, the `.ajax()` method from jQuery) should consult outside sources for tutorials about that code. Don't write your own version of documentation for another programming language or service. Instead, focus on the parts of the code unique to your company. Let the developer rely on other sources for the rest (feel free to link to other sites).
 
@@ -97,7 +97,7 @@ When developers take the code and integrate it into a production environment, th
 
 Many times developers will copy and paste code directly from the documentation into their application. Then they will usually tweak it a little bit for their specific parameters or methods.
 
-If you intend for users to copy and paste the code, make sure it works. When I first used some sample `ajax` code from a code tutorial on an API site, the `dataType` parameter was spelled `datatype`. As a result, the code didn't work (it returned the response as text, not JSON). It took me about 30 minutes of troubleshooting before I consulted the [`ajax` method](http://api.jquery.com/jquery.ajax/) and realized that it should be `dataType` with a capital `T`.
+If you intend for users to copy and paste the code, make sure it works. When I first used some sample `ajax` code from a code tutorial on an API site, the `dataType` parameter was spelled `datatype`. As a result, the code didn't work (it returned the response as text, not JSON). It took me about 30 minutes of troubleshooting before I consulted the [`ajax` method](https://api.jquery.com/jquery.ajax/) and realized that it should be `dataType` with a capital `T`.
 
 Ideally, test out all the code samples yourself (or implement a more robust process for testing code). Testing allows you to spot errors, understand whether all the parameters are complete and valid, and more. In the earlier video from Twilio, the authors say they wanted to treat code samples in documentation like their other engineering code, so they stored their code in a separate container (also pushed to GitHub) to run regular tests on the code. They pulled the code into their documentation where appropriate. For lengthy code samples, consider storing the code on GitHub. This way engineers can more easily test it as part of their test cases for each release. Sometimes when code blocks are buried in documentation, they're overlooked with new releases.
 
@@ -117,9 +117,9 @@ The following are a few samples of code tutorials in API documentation.
 
 ### Weather Underground
 
-<figure><a target="_blank" class="noExtIcon" href="http://www.wunderground.com/weather/api/d/docs?d=resources/code-samples&amp;MR=1"><img class="docimage" src="{{site.api_media}}/codesamples_weatherunderground.png" alt="Weather Underground code samples" /></a><figcaption>Weather Underground code samples</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20190420095756/https://www.wunderground.com/weather/api/d/docs?d=resources/code-samples"><img class="docimage" src="{{site.api_media}}/codesamples_weatherunderground.png" alt="Weather Underground code samples" /></a><figcaption>Weather Underground code samples</figcaption></figure>
 
-In this Weather Underground example, there are various code samples across half a dozen languages, but no explanation about what the code sample returns. In this case, the code is probably simple enough that developers can look at it and understand from the code itself what's going on. Still, some explanation is usually warranted, especially if there are multiple ways to make the call.
+In this Weather Underground example (from an archived copy, since the Weather Underground API has been discontinued), there are various code samples across half a dozen languages, but no explanation about what the code sample returns. In this case, the code is probably simple enough that developers can look at it and understand from the code itself what's going on. Still, some explanation is usually warranted, especially if there are multiple ways to make the call.
 
 Sometimes developers will tell you that code is "self-documenting," meaning it's evident from the code itself what's going on. Without a knowledge of the programming language, it's hard to evaluate this statement. If you encounter this question, consider checking this assertion with some other engineers, especially outside the product team (or with users, if you have access to them).
 
@@ -133,7 +133,7 @@ I like the Eventful tutorial because it shows how documentation that is usually 
 
 ### Twilio
 
-<figure><a target="_blank" class="noExtIcon" href="https://www.twilio.com/docs/quickstart"><img class="docimage" src="{{site.api_media}}/twiliocodesamples.png" alt="Twilio code samples" /></a><figcaption>Twilio code samples</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20200105180407/https://www.twilio.com/docs/quickstart"><img class="docimage" src="{{site.api_media}}/twiliocodesamples.png" alt="Twilio code samples" /></a><figcaption>Twilio code samples</figcaption></figure>
 
 Twilio's tutorials are probably the most impressive and fully detailed tutorials in the examples here. Not only do they walk users through a task from beginning to end, they do so in half a dozen languages. The specific code examples have been extracted out into the right-column, while the narrative of the tutorial occupies in the middle column. All the steps in the tutorial aren't shown at once. When you reach the end of one step, you click a button to show the next step. This progressive disclosure of information might reduce any sense of intimidation users might feel when beginning the tutorial.
 
@@ -141,7 +141,7 @@ Although the middle column is narrow and the right-column larger, actually this 
 
 ### Mailchimp
 
-<figure><a target="_blank" class="noExtIcon" href="http://developer.mailchimp.com/documentation/mailchimp/guides/manage-subscribers-with-the-mailchimp-api/"><img class="docimage" src="{{site.api_media}}/mailchimpcodesamples.png" alt="Mailchimp code samples" /></a><figcaption>Mailchimp code samples</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/20191003022039/https://mailchimp.com/developer/guides/manage-subscribers-with-the-mailchimp-api/"><img class="docimage" src="{{site.api_media}}/mailchimpcodesamples.png" alt="Mailchimp code samples" /></a><figcaption>Mailchimp code samples</figcaption></figure>
 
 As usual, Mailchimp provides solid tutorials for their products. The "Before You Start" section lists any necessary prerequisites before starting the tutorial. Each part of the tutorial is set off with section headings.
 
@@ -149,7 +149,7 @@ The section heading style (rather than numbered steps) is worth considering. Mos
 
 ### IBM Watson
 
-<figure><a target="_blank" class="noExtIcon" href="https://console.bluemix.net/docs/services/conversation/tutorial.html#tutorial"><img class="docimage" src="{{site.api_media}}/ibmwatsoncodesamples.png" alt="IBM Watson code samples" /></a><figcaption>IBM Watson code samples</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://web.archive.org/web/2019/https://console.bluemix.net/docs/services/conversation/tutorial.html"><img class="docimage" src="{{site.api_media}}/ibmwatsoncodesamples.png" alt="IBM Watson code samples" /></a><figcaption>IBM Watson code samples</figcaption></figure>
 
 The IBM Watson tutorial does an excellent job breaking up the tutorial steps into different sections, with easy-to-follow steps in each section. Up front, it lists the learning objectives, duration, and prerequisites. There's nothing particularly challenging about the formatting or the display &mdash; the emphasis focuses on the content.
 
@@ -165,6 +165,7 @@ Earlier in the course, we walked through [each element of reference documentatio
 
 {% highlight javascript %}
 <!DOCTYPE html>
+<html>
 <head>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script>
@@ -172,14 +173,15 @@ Earlier in the course, we walked through [each element of reference documentatio
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://api.openweathermap.org/surfreport/25&days=1",
+  "url": "https://api.openweathermap.org/surfreport/25?appid=APIKEY&days=1",
   "method": "GET"
 }
 
 // use ajax method to allow for asynchronous calls that won't block page loading
 $.ajax(settings).done(function (response) {
   console.log(response);
-  $("#surfheight").append(response.surfreport.conditions);
+  // the day and time keys in the response depend on the request
+  $("#surfheight").append(response.surfreport[0].monday["1pm"].surfheight);
 });
 </script>
 </head>
@@ -192,7 +194,7 @@ $.ajax(settings).done(function (response) {
 
 <p>In this example, the <code>ajax</code> method from jQuery is used because it allows us to load a remote resource asynchronously.</p>
 
-<p>In the request, you submit the authorization through a query string URL. The endpoint limits the days returned to 1 to increase the download speed.</p>
+<p>In the request, you submit the authorization through the <code>appid</code> query string parameter. (Replace <code>APIKEY</code> with your API key.) The <code>days</code> parameter limits the days returned to 1 to increase the download speed.</p>
 
 <p>For demonstration purposes, the response is assigned to the <code>response</code> argument of the <code>done</code> method, and then written out to the <code>surfheight</code> tag on the page.</p>
 

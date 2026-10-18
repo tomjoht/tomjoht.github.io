@@ -7,7 +7,7 @@ weight: 8.6
 sidebar: docapis
 section: docapiscode
 path1: learnapidoc/doccode.html
-last-modified: 2020-08-09
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -53,7 +53,7 @@ With one project I worked on, developers didn't want to provide a sample app bec
 
 But coding Techniques B, C, D, and E were beyond the scope of this sample app and accompanying documentation, and they made everything much more complex. Was it better to not provide any sample app at all rather than provide one that was either overly complex or which was rudimentary/incomplete?
 
-With the video skills project I referenced earlier, the sample app was originally a fork of another Android streaming media template called [Fire App Builder](https://developer.amazon.com/docs/fire-app-builder/overview.html) that had a lot of interchangeable modules. All of these modules added a lot of confusion and bulk to what should otherwise be much simpler code. But the app looked and functioned like a real TV app, with a landing page and video thumbnails. Project teams often want to demonstrate code that yields an attractive output, but they also want to keep everything as simple as possible. Later on, the team replaced the sample app with a [much simpler one](https://web.archive.org/web/20250116133149/https://github.com/amzn/sample-fire-tv-app-video-skill) that didn't have as many polished features as the original Fire App Builder app.
+With the video skills project I referenced earlier, the sample app was originally a fork of another Android streaming media template called [Fire App Builder](https://web.archive.org/web/20210119000456/https://developer.amazon.com/docs/fire-app-builder/overview.html) (since retired) that had a lot of interchangeable modules. All of these modules added a lot of confusion and bulk to what should otherwise be much simpler code. But the app looked and functioned like a real TV app, with a landing page and video thumbnails. Project teams often want to demonstrate code that yields an attractive output, but they also want to keep everything as simple as possible. Later on, the team replaced the sample app with a [much simpler one](https://web.archive.org/web/20250116133149/https://github.com/amzn/sample-fire-tv-app-video-skill) that didn't have as many polished features as the original Fire App Builder app.
 
 Overall, figuring out the right balance in a sample app is a tradeoff. A simpler Fire TV app might not even include a landing page or thumbnail view of videos, but it might be more illustrative from a code perspective. Users wouldn't be distracted by all the other code that isn't essential to implement for the feature you're describing.
 

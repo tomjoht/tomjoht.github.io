@@ -6,7 +6,7 @@ weight: 6.3
 sidebar: docapis
 section: testingdocs
 path1: learnapidoc/testingdocs.html
-last-modified: 2018-12-24
+last-modified: 2026-10-17
 ---
 
 {% include coffeeshopbook.html %}
@@ -22,11 +22,11 @@ After setting up your [test environment](testingdocs_test_environment.html), the
 
 One benefit of testing your instructions is that you can start to answer your own questions. Rather than taking the engineer's word for it, you can run a call, see the response, and learn for yourself. (This assumes the application is behaving correctly, though, which may not be the case.)
 
-A lot of times, when you discover a discrepancy in what's supposed to happen, you can confront an engineer and tell him or her that something isn't working correctly. Or you can make suggestions for improving workflows, terms, responses, error messages, etc. You can't do this if you're just taking notes about what engineers say, or if you're just copying information from wiki specs or engineer-written pages.
+A lot of times, when you discover a discrepancy in what's supposed to happen, you can confront an engineer and tell them that something isn't working correctly. Or you can make suggestions for improving workflows, terms, responses, error messages, etc. You can't do this if you're just taking notes about what engineers say, or if you're just copying information from wiki specs or engineer-written pages.
 
 {% include random_ad4.html %}
 
-When things don't work, you can identify and log bugs in issue tracking systems such as JIRA. Logging bugs is helpful to the team overall and increases your credibility with the engineers. It's also immensely fun to log a bug against an engineer's code because it shows that you've discovered flaws and errors in what the "gods of code" have created.
+When things don't work, you can identify and log bugs in issue tracking systems such as Jira. Logging bugs is helpful to the team overall and increases your credibility with the engineers. It's also immensely fun to log a bug against an engineer's code because it shows that you've discovered flaws and errors in what the "gods of code" have created.
 
 Other times, the bugs are within your documentation. For example, on one project, through testing API calls I realized I had one of my parameters wrong. Instead of `verboseMode`, the parameter was simply `verbose`. This subtle discrepancy is one of those details you don't discover unless you test something, find it doesn't work, and then set about figuring out what's wrong.
 
@@ -46,11 +46,11 @@ While working at one company, it wasn't until I built my own app and submitted i
 
 {% include image_ad_right.html %}
 
-To build my sample app, first I had to figure out how to get content for my app. I decided to take the video recordings of podcasts that we had through the [Write the Docs podcast](http://podcast.writethedocs.org/) and use that media for the app.
+To build my sample app, first I had to figure out how to get content for my app. I decided to take the video recordings of podcasts that we had through the [Write the Docs podcast](https://podcast.writethedocs.org/) and use that media for the app.
 
 Since the app template didn't support YouTube as a web host, I downloaded the MP4s from YouTube and uploaded them directly to my web host. Then I needed to construct the media feed that I would use to integrate with the app template. The app template could read all the media from a feed by targeting it with Jayway Jsonpath or XPath expression syntax.
 
-I used Jekyll to build my feed. (You can view my JSON-based feed at [podcast.writethedocs.org/fab.json](http://podcast.writethedocs.org/fab.json).) The most challenging part in setting up this feed was configuring the `recommendations` object. Each video has some `tags`. The `recommendations` object needed to show other videos that have the same tag. Getting the JSON valid there was challenging, and I relied on some support from the Jekyll forum.
+I used Jekyll to build my feed. (You can view my JSON-based feed at [podcast.writethedocs.org/fab.json](https://podcast.writethedocs.org/fab.json).) The most challenging part in setting up this feed was configuring the `recommendations` object. Each video has some `tags`. The `recommendations` object needed to show other videos that have the same tag. Getting the JSON valid there was challenging, and I relied on some support from the Jekyll forum.
 
 After I had the media and the feed, integrating it into Fire App Builder was easy because, after all, I had written the documentation for that.
 
@@ -80,11 +80,22 @@ This experience reinforced to me how vital it is to get your hands on the code y
 
 It's not always possible to run code through real situations, and there are times when I might limit my role to editing and publishing only, but that's not the scenario I prefer to work in. I love getting my hands on the code, trying to make it work in the scenario it was designed for. Really, how else can you write good documentation?
 
-The team also asserted that the same app could be submitted into the Google Play Appstore. However, this was an untested assumption. When I submitted my app into the Play Store, Google rejected it due to missing banner assets declared in the manifest. It also triggered "dangerous permission" warnings. I relayed the information to engineers, who created JIRA tickets to address the issues. More than just creating better documentation, this testing allowed me to improve the products I was documenting. (It also improved my credibility with the engineers.)
+The team also asserted that the same app could be submitted into the Google Play Appstore. However, this was an untested assumption. When I submitted my app into the Play Store, Google rejected it due to missing banner assets declared in the manifest. It also triggered "dangerous permission" warnings. I relayed the information to engineers, who created Jira tickets to address the issues. More than just creating better documentation, this testing allowed me to improve the products I was documenting. (It also improved my credibility with the engineers.)
 
 This same type of scenario repeats itself frequently with other projects as well. Another engineering team I was supporting also developed an app template (web instead of Android) for publishing apps in the Appstore. This tool was designed for non-technical end users and was supposed to be easy. The project team hadn't even planned any documentation except for a brief FAQ.
 
 I tested the tool from beginning to end by creating and submitting an app with it. By the time I finished, I had more than 30 questions along with several significant issues that I had discovered. I uncovered many previously unknown bugs, called attention to a problematic synchronization issue, brought together teams from across organizations to troubleshoot some issues, and generally raised my value from mere documentation writer to more of a power player on multiple teams.
+
+## Automating some of your doc tests
+
+Testing everything by hand doesn't scale well, especially when the API changes with each release. Some doc tests can be automated, much like the tests engineers run against their code. For example:
+
+* **Run the code samples.** Store code samples in files that a script can execute, and run them as part of your build. If a sample breaks, the build fails before the broken sample reaches users. (Twilio took this approach by storing their code samples in a separate repository and testing them like other code.)
+* **Compare the spec against the live API.** If you have an OpenAPI document, tools like [Schemathesis](https://schemathesis.io/) can send requests based on the spec and report responses that don't match it. Even a simple script that compares the fields in a live response with the fields in your schema can catch drift, such as new response fields that the docs don't mention.
+* **Test the steps in procedures.** [Doc Detective](https://docs.doc-detective.com/) is an open-source tool that runs the steps in your docs (such as making requests or clicking through a UI) and reports any steps that fail.
+* **Check links.** Link checkers such as [lychee](https://github.com/lycheeverse/lychee) find broken links, which accumulate quickly in API docs that link to other companies' docs.
+
+AI tools can also help here. For example, you can ask an AI coding tool to run the curl commands in a topic and compare the responses with what the docs say. However, automated tests don't replace walking through the docs yourself. They catch regressions in things you've already documented, but they won't tell you that a step is confusing or that a concept is missing.
 
 ## Empowered to test additional features
 
