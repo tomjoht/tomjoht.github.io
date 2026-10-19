@@ -8,6 +8,7 @@ categories:
 keywords: PDF, Prince XML, Jekyll, print CSS, Buy Me a Coffee, selling digital products, docs as code, single sourcing, pdftk, Wasabi, static site generators
 rebrandly: https://idbwrtng.com/turn-content-into-pdf
 description: "My API documentation course is free on the web, but I also sell a PDF version of it through Buy Me a Coffee. This post walks through each step of how I turn about 170 web pages into a 975-page PDF with chapter files, including the print configuration, layout, CSS, table of contents, Prince build, chapter splitting, file hosting, and the Buy Me a Coffee setup. This post is mainly a technical how-to in case anyone else wants to do something similar."
+linkedin: https://lnkd.in/p/gYSZTCfU
 ---
 
 My [API documentation course](https://idratherbewriting.com/learnapidoc/) is free to read on the web, but I also sell a PDF version of it through [Buy Me a Coffee](https://www.buymeacoffee.com/). The PDF is currently 975 pages, and it comes as a zip file containing a single comprehensive PDF plus a separate PDF for each chapter. In this post, I'll walk through each step of how I build that PDF and sell it. My setup uses Jekyll, but the general approach should apply to most static site generators. I've written it as an instruction manual for anyone who wants to do something similar with a long web asset, such as a course, a book-length series, or a documentation set.
