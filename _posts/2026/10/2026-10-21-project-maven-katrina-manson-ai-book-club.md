@@ -15,6 +15,7 @@ podcast_file_size: 83.6
 podcast_duration: "00:58:02"
 podcast_length: 83582204
 image: projectmavenbookclubslidethumb.png
+linkedin: https://lnkd.in/p/gUeU_hKn
 ---
 
 Note: These shownotes are AI-generated.
