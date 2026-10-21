@@ -47,4 +47,4 @@ These haven't met yet, so the covers link to the book itself. Meeting details ar
   {% endfor %}
 </ul>
 
-Want to join us for one of these? Everything you need — meeting times, the Google Meet link, and the Slack forum — is on the [AI Book Club page](/ai-book-club/).
+Want to join us for one of these? Everything you need — meeting times, the Riverside link, and the Slack forum — is on the [AI Book Club page](/ai-book-club/).

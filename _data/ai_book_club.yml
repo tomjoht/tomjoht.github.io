@@ -1,20 +1,5 @@
 upcoming:
 
-  - date: "Oct 18, 2026"
-    time: "11am PT"
-    book:
-      title: "Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare"
-      author: "Katrina Manson"
-      url: "https://www.amazon.com/Project-Maven-Marine-Colonel-Warfare/dp/1324123311"
-      audible_url: "https://www.audible.com/pd/Project-Maven-Audiobook/B0GD8L5JWN"
-      image: "projectmaven.png"
-      summary: >
-        "The dramatic story of the secretive decade-long Pentagon campaign to bring AI-powered targeting systems onto the battlefield. In 2017, a small crew gathered in a windowless Pentagon room to put AI at the heart of how America makes war. Led by a Marine Corps colonel haunted by the deaths of US troops and prospect of AI-enhanced rivals, the Project Maven team raced to send AI into combat, igniting controversy and forever changing the US military. Summoning the mayhem of a tech startup, the group wrestled Pentagon bureaucrats and each other, enlisted an initially reluctant Silicon Valley, and convinced US forces to deploy little-tested AI systems in hot wars."
-    notes_url: "https://docs.google.com/document/d/1-eJPaeNBSsdSsmK8j4pvQuBdbyDEP5ffZUjJI2XWQ8M/edit?tab=t.hbzheo7tol23"
-    meet_url: "https://riverside.com/studio/tom-johnsons-studio-XkEKG?t=ptht-nbig"
-    note: "<b>Time change:</b> This session starts at 11am PT instead of the usual 10am PT. <br><br><b>Platform switch:</b> We're trying Riverside instead of Google Meet this month, so use the Riverside link below to join."
-
-
   - date: "Nov 15, 2026"
     time: "10am PT"
     book:
@@ -26,7 +11,7 @@ upcoming:
       summary: >
         "How do we live alongside machines that are sometimes smarter than us? We are entering a new era. AI systems can already outperform humans in some domains while failing spectacularly in others. They can act as tutors, collaborators, researchers, strategists, and creators…yet they can also produce falsehoods, generate convincing nonsense, and fail unpredictably. The challenge is no longer simply adopting new technology. It is learning how to think, work, and live in a world where machines are sometimes smarter than us."
     notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
+    meet_url: "https://riverside.com/studio/tom-johnsons-studio-XkEKG?t=ptht-nbig"
 
   - date: "Dec 20, 2026"
     time: "10am PT"
@@ -39,7 +24,7 @@ upcoming:
       summary: >
         "For the last decade, a handful of AI companies have been racing to build the most powerful technology in history: artificial general intelligence, or AGI―a computer system capable of outdoing humans at almost anything. Some of them hoped AGI would cure diseases and heal the planet. Others feared it could kill everyone on Earth. They decided to build it anyway."
     notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
+    meet_url: "https://riverside.com/studio/tom-johnsons-studio-XkEKG?t=ptht-nbig"
 
   - date: "Jan 17, 2027"
     time: "10am PT"
@@ -52,9 +37,23 @@ upcoming:
       summary: >
         "When the Cassidy-Shaws' autonomous minivan collides with an oncoming car, seventeen-year-old Charlie is in the driver's seat, with his father, Noah, riding shotgun. In the back seat, tweens Alice and Izzy are on their phones, while their mother, Lorelei, a world leader in the field of artificial intelligence, is absorbed in her work. Yet each family member harbors a secret, implicating them all in the tragic accident. ... [A] propulsive family drama that is also a fascinating exploration of the moral responsibility and ethical consequences of AI."
     notes_url: ""
-    meet_url: "https://meet.google.com/nax-bwut-sja"
+    meet_url: "https://riverside.com/studio/tom-johnsons-studio-XkEKG?t=ptht-nbig"
 
 previous:
+
+  - date: "Oct 18, 2026"
+    recording:
+      url: "/blog/project-maven-katrina-manson-ai-book-club"
+      text: "Meeting recording"
+    book:
+      title: "Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare"
+      author: "Katrina Manson"
+      url: "https://www.amazon.com/Project-Maven-Marine-Colonel-Warfare/dp/1324123311"
+      audible_url: "https://www.audible.com/pd/Project-Maven-Audiobook/B0GD8L5JWN"
+      image: "projectmaven.png"
+      summary: >
+        "The dramatic story of the secretive decade-long Pentagon campaign to bring AI-powered targeting systems onto the battlefield. In 2017, a small crew gathered in a windowless Pentagon room to put AI at the heart of how America makes war. Led by a Marine Corps colonel haunted by the deaths of US troops and prospect of AI-enhanced rivals, the Project Maven team raced to send AI into combat, igniting controversy and forever changing the US military. Summoning the mayhem of a tech startup, the group wrestled Pentagon bureaucrats and each other, enlisted an initially reluctant Silicon Valley, and convinced US forces to deploy little-tested AI systems in hot wars."
+    notes_url: "https://docs.google.com/document/d/1-eJPaeNBSsdSsmK8j4pvQuBdbyDEP5ffZUjJI2XWQ8M/edit?tab=t.hbzheo7tol23"
 
   - date: "Sep 20, 2026"
     recording:

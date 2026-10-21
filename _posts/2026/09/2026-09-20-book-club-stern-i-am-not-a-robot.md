@@ -40,7 +40,7 @@ Also, a heads up about the recording: Google Meet garbled this session's audio b
 * [AI Book Club: A Human in the Loop](/ai-book-club/) (the book club home page, with the full reading roadmap and past recordings)
 * [AI Book Club discussion of *The MANIAC* by Benjamin Labatut](/blog/the-maniac-labatut-ai-book-club) (the previous session)
 * [AI Book Club discussion of *If Anyone Builds It, Everyone Dies*](/blog/ai-book-club-if-anyone-builds-it) (the Yudkowsky and Soares session referenced during the discussion of AI breakouts)
-* [*Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare*](https://www.amazon.com/Project-Maven-Marine-Colonel-Warfare/dp/1324123311) (Beth Simone Noveck — the next book, for October 18, 2026)
+* [*Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare*](https://www.amazon.com/Project-Maven-Marine-Colonel-Warfare/dp/1324123311) (Katrina Manson — the next book, for October 18, 2026)
 * [Buying a car in the age of AI](/blog/buying-a-car-in-age-of-ai) (my post on the car-buying process that comes up several times in this discussion)
 * [*A Year of Living Biblically*](https://www.amazon.com/Year-Living-Biblically-Humbly-Possible/dp/0743291476) (A.J. Jacobs — mentioned as an earlier example of the year-long immersion genre)
 * [*Rolling Nowhere: Riding the Rails with America's Hoboes*](https://tedconover.com/book/rolling-nowhere/) (Ted Conover — the immersive ethnography I couldn't recall the name of during the discussion)

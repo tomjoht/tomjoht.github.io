@@ -57,7 +57,7 @@ Where a book is available on Audible, the entry includes an Audible link next to
 
 ## Reading pace {#readingpace}
 
-We read one book a month, as listed in the schedule above. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Google Meet, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
+We read one book a month, as listed in the schedule above. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Riverside, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
 
 Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to explore them in depth rather than just keeping up with the latest model release or news headlines.
 
@@ -71,7 +71,7 @@ This is a preference, not a hard rule, and it doesn't change anything about how 
 
 ## Recording and sharing {#recording}
 
-Each book club is recorded, using Google Meet as the platform. The recordings are uploaded to YouTube and shared on this site. See the *Meeting Recording* links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
+Each book club is recorded, using Riverside as the platform. The recordings are uploaded to YouTube and shared on this site. See the *Meeting Recording* links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
 
 {:.note}
 If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you need me to edit out part of the conversation, though, let me know and I will try to make the edit. In general, avoid saying things you don't want recorded.
@@ -99,9 +99,9 @@ In addition to Slack, there's an email list you can join to receive announcement
 
 <script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
 
-## Google Meet for the meetings {#googlemeet}
+## Riverside for the meetings {#riverside}
 
-For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings will automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTExMTZUMTgwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
+For the monthly meetings, we use [Riverside](https://riverside.com/). The Riverside link appears with each upcoming meeting in the schedule above. If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings will automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTExMTZUMTgwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
 
 <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&amp;tmsrc=tomjoht%40gmail.com&amp;scp=ALL"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
 
@@ -109,7 +109,7 @@ For the monthly meetings, we use [Google Meet](https://meet.google.com/). If you
 
 1. Join the [email list](#emaillist).
 2. Join the [Slack group](#slack).
-3. Join the [Google Group](#googlemeet) or manually add the event to your calendar.
+3. Join the [Google Group](#riverside) or manually add the event to your calendar.
 4. Order the books and start reading.
 
 ## Previous meetings and recordings {#previous}
