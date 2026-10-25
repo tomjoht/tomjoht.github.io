@@ -8,6 +8,7 @@ keywords: agent skills, product skills, docs-first, AI agents, documentation, ch
 rebrandly: https://idbwrtng.com/building-out-agent-skills-course
 description: "I've been adding to my agent skills course, including a reworked section on product skills that now takes a docs-first stance after I started seeing log data. I've also been leaning on AI more heavily to write the course content, which seems fine for instructional material that's constantly in flux. Writing with AI pushes me toward ideas I hadn't considered, so it's become a way to learn while writing, even if I have to course correct along the way."
 linkedin: https://lnkd.in/p/gFBqrmSu
+image: agentskillscoursedocsfirstthumb.png
 ---
 
 It's been a while since I've posted on my blog. Here's what I've been up to:

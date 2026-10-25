@@ -8,6 +8,7 @@ keywords: agent skills, sidecar skills, bug triage, website feedback, AI chat lo
 rebrandly: https://idbwrtng.com/building-machines-skills-for-tech-comm-workflows
 description: "In the past couple of months, my focus as a tech writer has shifted from writing to building machines, which in reality are elaborate skills that do things. One skill triages incoming bugs and website feedback on an hourly schedule, and another analyzes AI chat logs to recommend documentation improvements and hands its bugs off to the triage skill. This post describes both skills and reflects on documentation logistics, comparing them to the many processes that keep a city running."
 linkedin: https://lnkd.in/p/g52vsSRq
+image: buildingmachinesthumb.png
 ---
 
 * TOC

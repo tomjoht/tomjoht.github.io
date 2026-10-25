@@ -8,7 +8,7 @@ categories:
 - ai-book-club
 - podcasts
 keywords: katrina manson, project maven, drew cukor, ai warfare, kill chain, palantir, moral injury, jevons paradox, accountability, bureaucracy, ai propaganda, ai book club
-rebrandly: https://idbwrtng.com/project-maven-katrina-manson-ai-book-club
+rebrandly: https://idbwrtng.com/project-maven-manson-ai-book-club-recording
 description: "This is a recording of our <a href='/ai-book-club'>AI Book Club</a> discussion of <a href='https://www.amazon.com/Project-Maven-Marine-Colonel-Warfare/dp/1324123311'><i>Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare</i></a> by Katrina Manson, held October 18, 2026. Ratings ranged from two stars to five, but most of the group agreed the book made AI warfare feel immediate rather than futuristic. We talk about how much of the kill chain is information work long before anyone fires a weapon, moral injury among remote operators, the habit of clicking allow on every permission prompt, who's to blame when an AI-identified target turns out to be a school, AI-driven propaganda, bureaucracy as a safeguard, and what a book like this can't tell us."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/project-maven-ai-book-club.mp3
 podcast_file_size: 83.6
