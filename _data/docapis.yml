@@ -623,7 +623,7 @@ folders:
   landing: /learnapidoc/resources.html
   section: eighteen
   description: > 
-    Additional resources provides a variety of supplementary material to expand on topics covered in the course. This is also the section where content gets archived that no longer fits into the other chapters. There are several hands-on activities for calling additional APIs to get more practice working with endpoints, parameters, and responses. Tutorials are provided for two (semi-abanoned) API specification formats: RAML and API Blueprint. The chapter also contains answer keys for activities, as well as video recordings of previous workshops.
+    Additional resources provides a variety of supplementary material to expand on topics covered in the course. This is also the section where content gets archived that no longer fits into the other chapters. There are several hands-on activities for calling additional APIs to get more practice working with endpoints, parameters, and responses. Tutorials are provided for two (semi-abandoned) API specification formats: RAML and API Blueprint. The chapter also contains answer keys for activities, as well as video recordings of previous workshops.
   folderitems:
 
   - title: "Overview"

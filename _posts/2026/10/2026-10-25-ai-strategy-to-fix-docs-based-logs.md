@@ -7,12 +7,11 @@ categories:
 keywords: AI chat log analysis, documentation strategy, doc bug tickets, agent skills, fix-doc-bugs, SME review, evals, documentation feedback, Google Maps Platform, tech writer role, Write the Docs Australia
 rebrandly: https://idbwrtng.com/fix-docs-based-on-logs
 description: "My strategy for improving docs has two stages. First, turn the failure points in AI chat sessions into actionable doc tickets. Second, fix those tickets with a skill that applies a tech writer's judgment, and use evals to check whether each fix worked."
+linkedin: https://lnkd.in/p/g9Jk4cJE
 ---
 
 * TOC
 {:toc}
-
-{% include ads.html %}
 
 My role at work has shifted lately in interesting ways. For the past six years, I've focused on automotive APIs, with content entirely behind ACLs for external automotive partners. Now I've shifted more toward the public [Google Maps Platform APIs](https://developers.google.com/maps/documentation) and am playing an AI leadership role. I thought at first the role might be daunting. Instead, it's been invigorating and is one of the most interesting shifts in my career.
 
@@ -70,6 +69,8 @@ The skill layers in various kinds of logic. First, it asks whether the ticket sh
 - Runs a self-reflection loop to suggest improvements to the skill based on any frictions
 
 All these processes run behind the scenes to fix doc bugs. The more writers use the skill, the faster it will improve. I added a telemetry rule that tags every changelist the skill generates with the skill's name, so I can search for that tag and see all the CLs in which the skill was used. This gives me a clear sense of whether I'm the only one using it or if other team members are using it too. For those not using it, I can find out why. It may be that they tried it and it didn't work, or perhaps they're skeptical. Either way, telemetry with skills is important for improving the skills.
+
+{% include ads.html %}
 
 ### The review bottleneck
 
