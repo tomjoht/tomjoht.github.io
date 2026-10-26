@@ -8,6 +8,7 @@ categories:
 keywords: agent-friendly docs, AI agents, markdown mirror, Cloudflare Workers, llms.txt, content negotiation, JavaScript, code tabs, page size, truncation, hallucination, chunking, MCP, Agent-Friendly Documentation Spec
 rebrandly: https://idbwrtng.com/make-documentation-agent-friendly
 description: "This week I'm working on making our doc site agent friendly. Most agents read pages through fetch tools that don't run JavaScript, so content that loads only when someone clicks is invisible to them, while content that's merely hidden with CSS still comes through. Long pages are another problem, because agents truncate them and then fill the gaps with guesses. This post covers which JS patterns can stay, why long pages need splitting, and how I set up a Markdown mirror with a Cloudflare worker."
+linkedin: https://lnkd.in/p/gmiDHbii
 ---
 
 * TOC
@@ -606,3 +607,7 @@ Chunking is a design choice made by whoever builds the index, and splitting at h
 Overall, understanding the view that agents have of content has opened my eyes in a way. I find myself regularly looking at the Markdown version of the page to see just how the content looks. It's pretty plain, serving up content in Markdown syntax (including Markdown table syntax). I go into more detail on these problems, with sources, in [Making docs accessible to agents](/ai/product-skills-agent-friendly-docs.html), a topic in my agent skills course.
 
 When I notice issues, they are among the easiest to fix, but you can't just fix a single instance on your site. Treat each instance as a larger pattern to fix across your entire content.
+
+----
+
+<small>Note: AI helped me find & summarize resources to corroborate a lot of the assertions in this post.</small>
