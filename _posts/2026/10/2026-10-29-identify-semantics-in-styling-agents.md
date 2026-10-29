@@ -20,7 +20,7 @@ Now I want to address another kind of agent-readability problem: styling that ca
 
 Consider a common scenario. A product page has a table that compares three service tiers: Basic, Standard, and Enterprise. You click a tab to choose a tier. The table lists every module across all the tiers, and the modules that aren't included in the selected tier appear in gray italic text. In the screenshot below, the Standard tab is selected, so modules like Archive Vault, Cold Backup, and Anomaly Scanning are grayed out. To a human reader, the gray text means “not included in this tier.”
 
-<figure><img src="{{site.media}}/sample-problematic-table-styling.png" alt="Sample problematic table" /><figcaption>Sample table that presents semantic information through styling. The agent won't see the stylized text and will therefore misinterpret the meaning.</figcaption></figure>
+<figure><img src="{{site.media}}/sample-problematic-table2.png" alt="Sample problematic table" /><figcaption>Sample table that presents semantic information through styling. The agent won't see the stylized text and will therefore misinterpret the meaning.</figcaption></figure>
 
 The tabs themselves aren't the problem. All three tab panels are in the page source, so this is the view-on-click content I described in my previous post. The problem is the gray text. When you fetch a table like this through an AI agent's web fetch tool and look at the Markdown it receives, the styling is gone. Each tab's table lists every module in plain text. Under Standard, Archive Vault sits next to Object Store with nothing to tell them apart. The only leftover clue might be that the included modules are links and the excluded ones aren't, and I wouldn't count on an agent to infer meaning from that.
 
@@ -60,7 +60,7 @@ Tables are another danger point. Pretty much every technical writer, at some poi
 
 Standard Markdown tables (the GitHub Flavored Markdown kind) don't support merged cells, column spans, or multiple header rows. When a toolchain converts your complex table to Markdown, whether it's ingesting your site into an MCP server or an agent is fetching a page, it has to flatten the table, keep it as raw HTML, or drop structure. 
 
-Behavior varies by tool, but merged cells and multi-row headers are often lost or mangled. The tiered table above is an example. When this table is converted to Markdown, are the rows and columns still in tact? Or does the structure get mangled? In this example, perhaps the row with the module categories (Storage, Compute, Analytics, Security) ends up inside the same grid as the tier columns. “Storage” moves under the Basic column, “Compute” under Standard, and “Analytics” under Enterprise. In short, look to see if your complex table structure still remains structurally the same in Markdown.
+Behavior varies by tool, but merged cells and multi-row headers are often lost or mangled. The tiered table above is an example. When this table is converted to Markdown, are the rows and columns still in tact? Or does the structure get mangled? In this example, the row with the module categories (Storage, Compute, Analytics, Security) ends up inside the same grid as the tier columns. “Storage” moves under the Basic column, “Compute” under Standard, and “Analytics” under Enterprise. In short, look to see if your complex table structure still remains structurally the same in Markdown.
 
 The end result is that instead of complex tables and endless pages, we'll need to break information into smaller chunks and simpler tables, and link them together.
 
