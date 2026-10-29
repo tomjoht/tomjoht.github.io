@@ -6,8 +6,7 @@ categories:
 - ai
 keywords: agent readability, AI agents, semantic styling, CSS, icons, Font Awesome, Material Symbols, WCAG, accessibility, visually hidden text, Markdown mirror, web fetch, complex tables, Markdown for Agents, Cloudflare, tokens, documentation design
 rebrandly: https://idbwrtng.com/identify-semantics-in-styling-agents
-description: "Following up on my previous post about content that loads through JavaScript, this post looks at another agent-readability problem, which is styling that carries meaning. When gray text marks a module as excluded from a pricing tier, or a check-mark icon means included, that meaning disappears once an agent fetches the page and converts it to Markdown. I walk through how to redesign that content, how to compare the human view of a page against the agent view, and why complex tables and elaborate HTML layouts matter less when agents read basic Markdown."
-published: false
+description: "Following up on my previous post about content that loads through JavaScript, this post looks at another agent-readability problem: styling that carries meaning. When gray text marks a module as excluded from a product tier, or a check-mark icon means included, that meaning disappears once an agent fetches the page and converts it to Markdown. I walk through how to compare the human view of a page against the agent view, and why complex tables and elaborate HTML layouts matter less when agents read basic Markdown."
 ---
 
 * TOC
@@ -19,13 +18,11 @@ Now I want to address another kind of agent-readability problem: styling that ca
 
 ## Styling that carries meaning
 
-Consider a common scenario. A pricing page has a table that compares three service tiers: Basic, Standard, and Enterprise. You click a tab to choose a tier. The table lists every module across all the tiers, and the modules that aren't included in the selected tier appear in gray italic text. In the screenshot below, the Standard tab is selected, so modules like Archive Vault, Cold Backup, and Anomaly Scanning are grayed out. To a human reader, the gray text means “not included in this tier.”
+Consider a common scenario. A product page has a table that compares three service tiers: Basic, Standard, and Enterprise. You click a tab to choose a tier. The table lists every module across all the tiers, and the modules that aren't included in the selected tier appear in gray italic text. In the screenshot below, the Standard tab is selected, so modules like Archive Vault, Cold Backup, and Anomaly Scanning are grayed out. To a human reader, the gray text means “not included in this tier.”
 
 <figure><img src="{{site.media}}/sample-problematic-table-styling.png" alt="Sample problematic table" /><figcaption>Sample table that presents semantic information through styling. The agent won't see the stylized text and will therefore misinterpret the meaning.</figcaption></figure>
 
 The tabs themselves aren't the problem. All three tab panels are in the page source, so this is the view-on-click content I described in my previous post. The problem is the gray text. When you fetch a table like this through an AI agent's web fetch tool and look at the Markdown it receives, the styling is gone. Each tab's table lists every module in plain text. Under Standard, Archive Vault sits next to Object Store with nothing to tell them apart. The only leftover clue might be that the included modules are links and the excluded ones aren't, and I wouldn't count on an agent to infer meaning from that.
-
-The conversion can also mangle the table structure. In this table, the row with the module categories (Storage, Compute, Analytics, Security) sits inside the same grid as the tier columns. In the conversion of this table to Markdown, that row is likely pushed into the tier columns. If so, then in the Markdown, “Storage” sits under the Basic column, “Compute” under Standard, and “Analytics” under Enterprise.
 
 If a user asks an agent which modules the Standard tier includes, the agent will likely give a confident wrong answer. This isn't really hallucination. The agent answers accurately from what it received, and from what it received, every module looks included.
 
@@ -59,14 +56,18 @@ The tension here is that the semantic notations are often adopted for a specific
 
 ## Complex tables and Markdown
 
-Tables are another danger point. Pretty much every technical writer, at some point, has been given a complex table from a PM, who created it in Sheets or Google Docs, to publish in the docs. The table has merged rows, column spans, multiple header rows in different colors, and about 9 columns. You can translate the complex table into HTML and style it to make it more intelligible. But much of that work won't reach the agent.
+Tables are another danger point. Pretty much every technical writer, at some point, has been given a complex table from a PM, who created it in Sheets or Google Docs, to publish in the docs. The table has merged rows, column spans, multiple header rows in different colors, and about 9 columns. The table in the preceding screenshot is a good example. You can translate the complex table into HTML and style it to make it more intelligible. But much of that work won't reach the agent.
 
 Standard Markdown tables (the GitHub Flavored Markdown kind) don't support merged cells, column spans, or multiple header rows. When a toolchain converts your complex table to Markdown, whether it's ingesting your site into an MCP server or an agent is fetching a page, it has to flatten the table, keep it as raw HTML, or drop structure. 
 
-Behavior varies by tool, but merged cells and multi-row headers are often lost or mangled. The tiered table above is an example. This means that instead of complex tables and endless pages, we'll need to break information into smaller chunks and simpler tables, and link them together.
+Behavior varies by tool, but merged cells and multi-row headers are often lost or mangled. The tiered table above is an example. When this table is converted to Markdown, are the rows and columns still in tact? Or does the structure get mangled? In this example, perhaps the row with the module categories (Storage, Compute, Analytics, Security) ends up inside the same grid as the tier columns. “Storage” moves under the Basic column, “Compute” under Standard, and “Analytics” under Enterprise. In short, look to see if your complex table structure still remains structurally the same in Markdown.
+
+The end result is that instead of complex tables and endless pages, we'll need to break information into smaller chunks and simpler tables, and link them together.
 
 There's a second reason to favor Markdown, and it has to do with cost, not structure. HTML carries a lot of markup that means nothing to a model: divs, scripts, navigation, class names. When Cloudflare launched its [Markdown for Agents](https://thenewstack.io/cloudflares-markdown-for-agents-automatically-make-websites-more-aifriendly) feature, it reported that its announcement post took 16,180 tokens as HTML and 3,150 tokens as Markdown, about an 80% reduction. Cloudflare also says coding agents like Claude Code already ask for Markdown when they request a page. The same content costs far fewer tokens as Markdown, which leaves more room in the agent's context for other information.
 
 So Markdown wins for two reasons. First, it costs fewer tokens than HTML. Second, whatever you build in HTML often gets reduced to Markdown when an agent reads it, so if you design within Markdown's limits, agents see the same structure that humans see. The desktop publishing skills we used to build elaborate tables and layouts matter less than they used to. For agents, basic Markdown is enough.
+
+## Conclusion
 
 What's the takeaway? Look at your documentation site. Focus on the complex widgets, tables, and other stylistic displays. Then look at those same pages the way an agent sees them, through your Markdown mirror or an agent's fetch. That's the structure you're communicating to agents. Work within those bounds as much as possible to deliver clear, accurate information. The headings in that Markdown are the most significant semantic structure you can provide, since many retrieval pipelines split Markdown into chunks by heading.
