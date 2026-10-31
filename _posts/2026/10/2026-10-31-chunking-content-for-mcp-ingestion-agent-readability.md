@@ -5,14 +5,13 @@ date: 2026-10-31
 categories:
 - ai
 keywords: chunking, agent readability, MCP servers, MCP ingestion, RAG, retrieval, Agent Search, Vertex AI Search, Document AI layout parser, layout-aware chunking, chunk size, tokens, ancestor headings, headings, long tables, code samples, image annotation, SVG, long procedures, tabbed content, embeddings, documentation design
-rebrandly: https://idbwrtng.com/chunking-content-for-mcp-ingestion-agent-readability
+rebrandly: https://idbwrtng.com/chunking-content-parsers
 description: "This post continues my series on agent readability by looking at chunking. When docs are ingested into an MCP server or other retrieval system, a chunker splits each page into passages, and the agent often sees only those passages rather than the whole page. I walk through how ingestion works, how one chunker (Google's Agent Search) sizes chunks in tokens, and how headings, section length, long tables, long code samples, images, procedures, and tabs hold up when a page gets chunked."
+linkedin: https://lnkd.in/p/gYM9vfea
 ---
 
 * TOC
 {:toc}
-
-{% include ads.html %}
 
 My last few posts have focused on agent readability ([Making documentation pages agent friendly](/blog/make-documentation-agent-friendly) and [Looking at a site like an agent](/blog/identify-semantics-in-styling-agents)), and this one continues the series with another aspect of agent readability: chunking. Before I jump into this, I have to pause and say how much I like the agent readability topic. It fits well within my interests and wheelhouse. I've always had an interest in websites and optimizing content. 
 
@@ -42,6 +41,8 @@ A typical ingestion pipeline works roughly like this:
 ### Answering a query
 
 When an agent calls the search tool, the server returns the top-matching chunks, along with metadata such as the page title and URL. Some servers also let the agent fetch the full page when a chunk isn't enough. For example, the [Developer Knowledge MCP server](https://developers.google.com/knowledge/reference/mcp) for Google's developer docs returns chunks from its search tool and has a separate tool for retrieving full documents. In other words, the chunk is what the agent sees first, and sometimes the only thing it sees. If a chunk doesn't make sense on its own, the agent might not realize it needs to fetch more.
+
+{% include ads.html %}
 
 ## How one chunker works: Agent Search
 
