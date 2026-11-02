@@ -7,6 +7,7 @@ categories:
 keywords: documentation feedback loop, AI chat logs, agent skills, AGENTS.md, Vercel agent evals, Next.js 16, retrieval-led reasoning, Developer Knowledge API, MCP servers, agent usability testing, OpenAI skill evals, Kapa.ai, Mintlify, Impersonaid, Google Maps Platform
 rebrandly: https://idbwrtng.com/improvement-feedback-loop-docs
 description: "A couple of weeks ago, I wrote about a documentation strategy I'm pursuing: mining chat logs from AI app builders to find doc problems and fix them in a continuous loop. In this post, I'll go deeper into the obstacles I faced when I looked at the logs, and describe a clever workaround &mdash; simulating the same user queries but asking the agent to document a build log &mdash; that turned out to be more useful than the logs themselves."
+linkedin: https://lnkd.in/p/gfYB4-pH
 ---
 
 * TOC
