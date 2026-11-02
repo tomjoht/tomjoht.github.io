@@ -31,13 +31,33 @@ figure.nytril-page img {
   max-width: 500px;
   border: 1px solid #ddd;
 }
+figure.guestBio {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #FBF9F7;
+  margin-left: 15px;
+}
+img.scaled {
+  width: 100%;
+}
 </style>
 
-[Nytril](https://www.nytril.com){:rel="nofollow"} is a document authoring tool built around its own programming language. Shawn McCreight, of Nytril LLC in Gig Harbor, Washington, reached out in October about introducing Nytril to readers here. In his email, he described it this way: "You can think of it as Excel+Word, or Markdown+Python." Text, data, units, query results, calculations, and styles all live in the same source code, and that code runs to produce the documents.
+<figure class="guestBio"><img class="scaled" alt="Shawn McCreight" src="{{site.media}}/shawn-mccreight.jpg" /><figcaption>Shawn McCreight is the founder and CEO of Nytril, which he started in 2018 in Gig Harbor, Washington. He previously founded Guidance Software in 1997, served as its chairman and CTO, and helped take the company public in 2006. OpenText acquired Guidance Software in 2017. Shawn has a bachelor's degree in physics from UC Berkeley.</figcaption></figure>
+
+[Nytril](https://www.nytril.com){:rel="nofollow"} is a document authoring tool built around its own programming language. Shawn McCreight, the founder and CEO of Nytril in Gig Harbor, Washington, reached out in October about introducing Nytril to readers here. In his email, he described it this way: "You can think of it as Excel+Word, or Markdown+Python." Text, data, units, query results, calculations, and styles all live in the same source code, and that code runs to produce the documents.
 
 What does it look like to write documentation as a program? How much coding does a writer need to know? Where does a tool like this fit next to DITA, MadCap Flare, and static site generators? Those were the kinds of questions I sent Shawn, 10 in all.
 
 Shawn answered them in an unusual way. Rather than replying in an email or a Word document, he wrote a Nytril program that stores my questions and his answers as data, and then generates documents from that data. The project produces 11 documents. One is the full Q&A, and the other 10 are standalone documents that each show a single question and answer, as a demonstration of content reuse. He exported the full Q&A to PDF, DOCX, and HTML directly from Nytril and sent the source file along with them, so you can judge the output quality and also read the code that produced it.
+
+<figure><a href="{{site.media}}/nytrileditor.png"><img src="{{site.media}}/nytrileditor.png" alt="The Nytril IDE with Nytril source code on the left and a rendered multiplication table on the right" /></a><figcaption>The Nytril IDE, with source code on the left and the rendered document on the right. In this example from the Nytril site, two nested <code>foreach</code> loops build a multiplication table, and the <code>size</code> variable on line 20 sets its dimensions. (Screenshot from <a href="https://www.nytril.com" rel="nofollow">nytril.com</a>.)</figcaption></figure>
 
 ## The Q&A in its original formats
 
@@ -503,7 +523,6 @@ class Questionaire: DocumentEntry {
   };
 }
 
-
 //========================================================================
 // Document that shows a single Q&A using different styling
 //========================================================================
@@ -538,7 +557,6 @@ class QADocument: DocumentEntry {
     };
   };
 }
-
 
 
 
