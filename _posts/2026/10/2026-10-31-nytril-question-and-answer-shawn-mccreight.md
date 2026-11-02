@@ -33,7 +33,8 @@ figure.nytril-page img {
 }
 figure.guestBio {
   float: right;
-  width: 30%;
+  width: 20%;
+  min-width: 150px;
   text-align: center;
   font-style: italic;
   font-size: smaller;
