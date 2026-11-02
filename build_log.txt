@@ -1,0 +1,121 @@
+=== AGENT BUILD LOG ===
+Task: Embed a Google Map of the Santa Clara loop in https://idratherbewriting.com/blog/biking-the-santa-clara-loop/
+Started: 2026-11-01T15:20:37-08:00
+
+Step 1: Locate the target blog post and check the Agent Marketplace
+- Action: Ran `find _posts -name "*biking-the-santa-clara-loop*" -o -name "*santa-clara-loop*"` via `run_command` to locate the markdown file in the Jekyll repository.
+- Action: Called `search_marketplace` with queries `["google maps", "maps", "geo"]` to check if an official Google Maps skill or MCP plugin exists before consulting external docs or improvising from memory.
+- Result (File search): Found `_posts/2020/11/2020-11-28-biking-the-santa-clara-loop.md`.
+- Result (Marketplace search): Found an official uninstalled plugin: `antigravity-plugins-official/plugin/google_maps_platform` ("Google Maps Platform: Integration skill and tools for Google Maps Platform APIs").
+
+Step 2: Inspect the existing post and route data
+- Action: Read `_posts/2020/11/2020-11-28-biking-the-santa-clara-loop.md` using `read_file`.
+- Observation: Line 19 already contains a legacy Google My Maps iframe (`https://www.google.com/maps/d/embed?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D`).
+- Action: Tested the existing My Maps embed and KML export endpoint (`https://www.google.com/maps/d/kml?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D&forcekml=1`) using `curl` via `run_command`.
+- Result: The KML endpoint returned the full route geometry (`<name>Santa Clara loop - biking trail</name>`, 1,157 lines of XML) with the exact `<LineString>` coordinates (1,047 points) and start/end `<Point>` placemarks at `Monroe @ San Tomas Creek, Santa Clara, CA 95051, USA` (`37.36404, -121.96868`).
+
+Step 3: Pause for Google Maps Platform plugin installation
+- Reason: Rather than relying on model training memory or scraping general Google Maps documentation manually, the Agent Marketplace provides the official `google_maps_platform` plugin.
+- Action: Surfaced `<plugin-card catalog-id="antigravity-plugins-official/plugin/google_maps_platform"></plugin-card>` so the user could install it.
+- Result: User installed the `google_maps_platform` plugin (`/Users/tomjohnson/.gemini/config/plugins/google_maps_platform/skills/SKILL.md`).
+
+Step 4: Load the Google Maps Platform Main Skill & Dynamic Skills Index
+- Action: Read `/Users/tomjohnson/.gemini/config/plugins/google_maps_platform/skills/SKILL.md` using `read_file`.
+- Observation: The main skill enforces a strict Grounding and Routing Workflow:
+  1. Never rely on training memory.
+  2. Fetch the remote Skills Index (`https://www.gstatic.com/googlemapsplatform-agent-skills/index.json?client=antigravity`).
+  3. Match and fetch relevant sub-skills (`SKILL.md` and reference docs) from `www.gstatic.com`.
+  4. Use the Maps Code Assist endpoint (`https://mapscodeassist.googleapis.com/v1:retrieveContexts`) as a fallback for uncovered API details.
+  5. Follow mandatory compliance checkpoints (review `compliance-review` skill, include `gmp_git_agentskills_v1` attribution ID, avoid deprecated APIs like `google.maps.Marker`, `DirectionsService`, `DirectionsRenderer`, and `KmlLayer`, and request a Google Maps API key or Maps Demo Key rather than hardcoding credentials).
+- Action: Fetched `https://www.gstatic.com/googlemapsplatform-agent-skills/index.json?client=antigravity` via `curl`.
+- Result: Retrieved 42 official Google Maps Platform sub-skills.
+
+Step 5: Fetch Matched Sub-Skills and Reference Guides from gstatic.com
+- Action: Matched four sub-skills from `index.json` and fetched their `SKILL.md` files with `?client=antigravity`:
+  1. `maps-javascript-api-javascript/SKILL.md` (interactive 2D/3D maps, polylines, GeoJSON data layers, bicycling layer, routing)
+  2. `maps-embed-api-javascript/SKILL.md` (iframe-based `directions` and `view` modes)
+  3. `gmp-common-api-keys/SKILL.md` (API key management, restrictions, and Maps Demo Key quickstart)
+  4. `compliance-review/SKILL.md` (mandatory Terms of Service and deprecation review methodology)
+- Action: Fetched the specific capability reference files linked inside those sub-skills:
+  - `maps-javascript-api-javascript/references/add-customizable-interactive-map-web-page-mobile-app.md`
+  - `maps-javascript-api-javascript/references/add-marker-map.md`
+  - `maps-javascript-api-javascript/references/add-kml-layer-map.md`
+  - `maps-javascript-api-javascript/references/add-geojson-data-map.md`
+  - `maps-javascript-api-javascript/references/add-shape-line-map.md`
+  - `maps-javascript-api-javascript/references/add-bicycling-layer-map.md`
+  - `maps-javascript-api-javascript/references/specify-the-travel-mode-drive-transit-walk-two-wheeled-for-route.md`
+  - `maps-javascript-api-javascript/references/specify-stop-pass-through-point-for-route-request.md`
+  - `maps-embed-api-javascript/references/embed-standard-google-maps-directions-view-into-iframe-web-page.md`
+
+Step 6: Query the Maps Code Assist Grounding API (`mapscodeassist.googleapis.com`)
+- Reason for Fallback: The sub-skill reference files for routing in `maps-javascript-api-javascript` had direct contradictions and outdated/broken code (detailed in "Documentation & Skill Issues Encountered" below), forcing a fallback query to `https://mapscodeassist.googleapis.com/v1:retrieveContexts`.
+- Action: Sent POST request with `"llmQuery": "Maps JavaScript API Route.computeRoutes bicycling route with createPolylines and createWaypointAdvancedMarkers"` and `"source": "antigravity"`.
+- Result: Retrieved current 2025/2026 reference documentation (`developers.google.com/maps/documentation/javascript/reference/3.65/route`) and official sample code (`samples/routes-markers/index.ts`) showing the actual `Route.computeRoutes()` signature and `result.routes[0].createPolylines()`.
+
+Step 7: Confirm Architecture with User & Prepare Route Assets
+- Action: Asked the user via `ask_question` to choose the embed method and how to handle the API key.
+- Result: User selected `<gmp-map>` with the exact KML route polyline, markers, and `BicyclingLayer`, and requested a central config variable in `_config.yml` for experimenting with their Maps Demo Key.
+- Action: Extracted the 1,047 coordinate points from the My Maps KML export into `/assets/files/santa-clara-loop-path.json` and saved `/assets/files/santa-clara-loop.kml`.
+
+Step 8: Implement `<gmp-map>` in Blog Post & Configure Central API Key Setting
+- Action: Added `google_maps_api_key: "YOUR_GOOGLE_MAPS_API_KEY"` to `_config.yml` so the user can drop their Maps Demo Key in one place and reuse `{{ site.google_maps_api_key }}` across any blog post.
+- Action: Updated `_posts/2020/11/2020-11-28-biking-the-santa-clara-loop.md` to embed `<gmp-map>` with:
+  - Explicit CSS height (`height: 480px`) per Critical Failure CF2.
+  - `map-id="DEMO_MAP_ID"` (and `innerMap.setOptions({ mapId: "DEMO_MAP_ID" })`) per Critical Failure CF9 for `AdvancedMarkerElement`.
+  - `internal-usage-attribution-ids="gmp_git_agentskills_v1"` per Mandatory Compliance Checkpoints.
+  - Declarative `<gmp-advanced-marker>` at the Monroe & San Tomas Aquino Creek trailhead (`37.36404,-121.96868`).
+  - Dynamic library loading (`google.maps.importLibrary("maps")`, `google.maps.importLibrary("core")`, `google.maps.importLibrary("marker")`) rendering `BicyclingLayer` and a `Polyline` from `/assets/files/santa-clara-loop-path.json`, fitted to bounds with `LatLngBounds` (loaded from `"core"` per Critical Failure CF6).
+
+================================================================================
+DOCUMENTATION & SKILL ISSUES ENCOUNTERED (DIAGNOSTIC LOG FOR DOCS AUTHOR)
+================================================================================
+
+Issue 1: Direct Contradiction Between Main Skill Deprecation Rules and Sub-Skill Reference File (`DistanceMatrixService`)
+- Where:
+  - Main skill (`/Users/tomjohnson/.gemini/config/plugins/google_maps_platform/skills/SKILL.md`, lines 216-220): Explicitly states `google.maps.DistanceMatrixService` was disabled in March 2025 and "You MUST NOT write new code against them."
+  - Sub-skill index (`maps-javascript-api-javascript/SKILL.md`, lines 337-342): Lists capability "Allows setting the desired mode of transportation (driving, walking, transit, bicycling) for route calculation" and links to `references/specify-the-travel-mode-drive-transit-walk-two-wheeled-for-route.md`.
+  - Reference file (`specify-the-travel-mode-drive-transit-walk-two-wheeled-for-route.md`): Despite the filename and checklist description claiming to be about setting travel modes for a route request, the file is actually titled "Distance Matrix Travel Mode Configuration (Legacy)" and provides a `new google.maps.DistanceMatrixService()` code sample using `var`.
+- Agent Signal / Impact: I fetched `specify-the-travel-mode-drive-transit-walk-two-wheeled-for-route.md` expecting `Route.computeRoutes({ travelMode: 'BICYCLING' })`, found a banned legacy API (`DistanceMatrixService`) instead, and had to abandon the sub-skill reference and fall back to the `mapscodeassist.googleapis.com/v1:retrieveContexts` REST API.
+
+Issue 2: Hallucinated / Non-Existent `routeService.computeRoutes` Instance Method in Waypoints Reference
+- Where: `maps-javascript-api-javascript/references/specify-stop-pass-through-point-for-route-request.md` (lines 73-74).
+- Problem: The code snippet ends with:
+  `// Assuming you have a RouteService instance:`
+  `// routeService.computeRoutes(routeRequestWithStopovers).then(response => { ... });`
+  In the modern Maps JavaScript API (`routes` library), there is no `RouteService` class or instance. As verified via the Code Assist REST fallback (`developers.google.com/maps/documentation/javascript/reference/3.65/route`), `computeRoutes` is a static method on the `Route` class: `const { Route } = await google.maps.importLibrary('routes'); const result = await Route.computeRoutes(request);`.
+- Agent Signal / Impact: If an agent trusts the sub-skill reference file without verifying against Code Assist, it will either write `new google.maps.routes.RouteService()` (which throws a runtime TypeError) or leave the call commented out because the reference never shows how to instantiate or import it.
+
+Issue 3: Outdated Legacy `initMap` + `new google.maps.Map` Patterns Across Feature Reference Files
+- Where:
+  - `maps-javascript-api-javascript/references/add-bicycling-layer-map.md` (lines 37-51)
+  - `maps-javascript-api-javascript/references/add-geojson-data-map.md` (lines 38-51)
+  - `maps-javascript-api-javascript/references/add-shape-line-map.md` (lines 135-145, 202-211)
+- Problem: While `add-customizable-interactive-map-web-page-mobile-app.md` teaches the modern bootstrap loader (`google.maps.importLibrary`) and `<gmp-map>` web component (or `new Map()` with mandatory `renderingType: 'VECTOR'`), the secondary feature reference files (`add-bicycling-layer-map.md`, `add-geojson-data-map.md`) still use the pre-2023 global callback pattern (`window.initMap = initMap; new google.maps.Map(...)`) without `importLibrary('maps')` or `<gmp-map>`.
+- Agent Signal / Impact: The agent has to mentally translate between two incompatible initialization paradigms: `mapElement.innerMap` from `<gmp-map>` (Phase 1) vs. global `window.initMap` with `new google.maps.Map()` (Phase 2 feature modules). For example, `add-bicycling-layer-map.md` doesn't mention whether `BicyclingLayer` is imported via `google.maps.importLibrary('maps')` or accessed off the global `google.maps` namespace.
+
+Issue 4: Broken Markdown Table Formatting (Truncated Pipe Characters `|`)
+- Where: `maps-embed-api-javascript/references/embed-standard-google-maps-directions-view-into-iframe-web-page.md` (lines 55 and 64).
+- Problem: In the parameters table for `waypoints` and `avoid`, the literal pipe character `|` inside backticks broke the Markdown table parser when the doc was generated, truncating the cell mid-sentence:
+  `Multiple values must be separated by the pipe character (\`` (missing `|`).` and the rest of the text).
+- Agent Signal / Impact: Minor (an LLM can infer the missing `|`), but it's a clear formatting bug in the generated skill markdown where an unescaped `|` inside a Markdown table cell caused column truncation.
+
+Issue 5: HTML Attribute vs. JS Property Casing Mismatch on `<gmp-map>` (`mapId` vs `map-id`)
+- Where:
+  - `maps-javascript-api-javascript/SKILL.md` (line 56) and `add-marker-map.md` (line 104) use `<gmp-map map-id="DEMO_MAP_ID">`.
+  - `add-customizable-interactive-map-web-page-mobile-app.md` (line 59) uses `<gmp-map mapId="DEMO_MAP_ID">` (camelCase in HTML attribute) and then in TypeScript (line 74) accesses `mapElement.innerMap` without setting `mapId`.
+  - Meanwhile, the Code Assist sample `samples/routes-markers/index.ts` sets `innerMap.setOptions({ mapId: 'DEMO_MAP_ID' })` in JS because `<gmp-map>` in its HTML didn't set `map-id`.
+- Agent Signal / Impact: Standard HTML custom elements use kebab-case attributes (`map-id="DEMO_MAP_ID"`) and camelCase JS properties (`mapElement.mapId`). Seeing `mapId="DEMO_MAP_ID"` in `add-customizable-interactive-map-web-page-mobile-app.md` creates ambiguity about which HTML attribute name `<gmp-map>` actually parses (which led me to set both `map-id="DEMO_MAP_ID"` on `<gmp-map>` and `innerMap.setOptions({ mapId: "DEMO_MAP_ID" })` defensively).
+
+Issue 6: Missing `solution_id` in Maps Embed API Sub-Skill Reference File
+- Where:
+  - `maps-embed-api-javascript/SKILL.md` (lines 26-32) states that `&solution_id=gmp_git_agentskills_v1` is a **Mandatory setting** in the Maps Embed API iframe URL.
+  - However, `maps-embed-api-javascript/references/embed-standard-google-maps-directions-view-into-iframe-web-page.md` (lines 27, 35-80, 92-96) omits `solution_id` from the base URL structure, the parameter table, and the example URL.
+- Agent Signal / Impact: An agent reading only the reference file (or weighting the reference file's parameter table over the parent skill overview) will drop `solution_id=gmp_git_agentskills_v1`.
+
+Issue 7: Broken Relative Links in `maps-javascript-api-javascript/SKILL.md`
+- Where: `maps-javascript-api-javascript/SKILL.md` (lines 100, 106, 117, etc.) vs. `maps-embed-api-javascript/SKILL.md` (lines 44, 58).
+- Problem: In `maps-embed-api-javascript/SKILL.md`, the markdown link text includes `references/...` and the URL points to `.../maps-embed-api-javascript/references/<file>.md`. In `maps-javascript-api-javascript/SKILL.md`, the link text omits `references/` (e.g., `[add-kml-layer-map.md](https://www.gstatic.com/.../references/add-kml-layer-map.md)`), and in `add-custom-dataset-features-map.md` (line 274), the `*Dependencies*` array lists `["add-custom-geospatial-dataset-map.md"]` without the `references/` path prefix.
+
+Issue 8: `KmlLayer` Deprecation Leaves a Gap for Client-Side KML Rendering
+- Where: `maps-javascript-api-javascript/references/add-kml-layer-map.md` (lines 3-6, 130-140).
+- Problem: The doc announces that `KmlLayer` is deprecated and tells the agent to strongly suggest migrating to either (1) Data-driven styling for Datasets (which requires uploading the KML in Cloud Console / Maps Datasets API) or (2) "Use third-party libraries to parse KML/GeoRSS data into GeoJSON format, then load the GeoJSON directly into the `google.maps.Data` layer" — but provides zero code or recommended library for client-side KML-to-GeoJSON conversion, while the rest of the 205-line file still teaches the deprecated `KmlLayer`.

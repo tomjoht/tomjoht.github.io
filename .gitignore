@@ -60,5 +60,6 @@ vendor/*
 .venv/*
 .venv
 
-# Local-only settings (such as the paid PDF's download URL)
+# Local-only settings (such as the paid PDF's download URL or local Jekyll config overrides)
 *.local.env
+_config.local.yml

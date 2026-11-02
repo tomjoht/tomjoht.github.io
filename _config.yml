@@ -262,6 +262,9 @@ algolia:
 
 eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV
 
+# Google Maps Platform API Key (override locally in git-ignored _config.local.yml)
+google_maps_api_key: ""
+
 ####### jekyll seo tag configuration #######
 title: "I'd Rather Be Writing Blog and API doc course"
 tagline: "Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication."

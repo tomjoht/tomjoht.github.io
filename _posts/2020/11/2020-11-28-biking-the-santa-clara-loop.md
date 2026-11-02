@@ -12,13 +12,87 @@ description: "A couple of years ago, I was chatting with a local tech writer at 
 * TOC
 {:toc}
 
-## Route sap
+## Route map
 
 The Santa Clara loop is basically just a combination of the San Tomas trail with the Guadalupe River trail. Here's the map:
 
-<iframe src="https://www.google.com/maps/d/embed?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D" width="640" height="480"></iframe>
+{% if site.google_maps_api_key and site.google_maps_api_key != "" %}
+<style>
+  #santa-clara-loop-map {
+    width: 100%;
+    max-width: 640px;
+    height: 480px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+  }
+  .gmp-attribution {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.25rem;
+  }
+</style>
 
-(Here's a [direct link to the map](https://www.google.com/maps/d/edit?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D&usp=sharing) or the KML file so you can import it into Google Earth.)
+<gmp-map
+  id="santa-clara-loop-map"
+  center="37.37669,-121.94567"
+  zoom="12"
+  map-id="DEMO_MAP_ID"
+  internal-usage-attribution-ids="gmp_git_agentskills_v1">
+  <gmp-advanced-marker
+    position="37.36404,-121.96868"
+    title="Start / End: Monroe & San Tomas Aquino Creek Trailhead, Santa Clara, CA">
+  </gmp-advanced-marker>
+</gmp-map>
+<p class="gmp-attribution">Google Maps</p>
+
+<script>
+  (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+    key: "{{ site.google_maps_api_key }}",
+    v: "weekly"
+  });
+
+  async function initSantaClaraLoopMap() {
+    const [{ Polyline, BicyclingLayer }, { LatLngBounds }] = await Promise.all([
+      google.maps.importLibrary("maps"),
+      google.maps.importLibrary("core")
+    ]);
+    await google.maps.importLibrary("marker");
+
+    const mapElement = document.getElementById("santa-clara-loop-map");
+    if (!mapElement) return;
+    const innerMap = mapElement.innerMap;
+    innerMap.setOptions({
+      mapId: "DEMO_MAP_ID",
+      internalUsageAttributionIds: ["gmp_git_agentskills_v1"]
+    });
+
+    const bikeLayer = new BicyclingLayer();
+    bikeLayer.setMap(innerMap);
+
+    const response = await fetch("/assets/files/santa-clara-loop-path.json");
+    const routeCoordinates = await response.json();
+
+    const loopPolyline = new Polyline({
+      path: routeCoordinates,
+      geodesic: true,
+      strokeColor: "#1267FF",
+      strokeOpacity: 0.9,
+      strokeWeight: 5
+    });
+    loopPolyline.setMap(innerMap);
+
+    const bounds = new LatLngBounds();
+    routeCoordinates.forEach((pt) => bounds.extend(pt));
+    innerMap.fitBounds(bounds);
+  }
+
+  initSantaClaraLoopMap();
+</script>
+{% else %}
+<iframe src="https://www.google.com/maps/d/embed?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D" width="640" height="480"></iframe>
+{% endif %}
+
+(Here's a [direct link to the Google My Maps route](https://www.google.com/maps/d/edit?mid=16lrGzUFJMukBvARwRrwCY2JBjvlDOu_D&usp=sharing) or the [KML file](/assets/files/santa-clara-loop.kml) so you can import it into Google Earth.)
 
 ## Route length
 
