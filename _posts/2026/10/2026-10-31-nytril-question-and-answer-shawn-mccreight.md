@@ -148,8 +148,6 @@ Here is an example of a [research white-paper](https://www.nytril.com/d8c22a4e-4
 
 Here is an example of an [IOT Spec Sheet](https://www.nytril.com/ee220d71-23c0-47fc-a7ef-e7f16244a6cf){:rel="nofollow"} created with Nytril. The data for the sheet is stored in nytril code and uses local image files. All the graphics, text and logos are defined in Nytril code.
 
-{% include ads.html %}
-
 ## 6. Document output
 
 <div class="nytril-question"><em>Tom asks:</em> What output formats does Nytril support? Can I publish HTML to my own site instead of nytril.com, and how does that HTML do on accessibility and mobile? If I stop using Nytril, how do I get my content out?</div>
@@ -1080,3 +1078,5 @@ ProductMachine(height, lineColor=Colors.Black, ratio=1.35) = Canvas(height * rat
 The [Community Edition](https://www.nytril.com){:rel="nofollow"} is a free download, and the Pro Edition is $9 per month. For more examples, see the [Nytril template and example repository](https://github.com/Nytril/Lib){:rel="nofollow"} on GitHub and the [Nytril channel](https://www.youtube.com/@Nytril){:rel="nofollow"} on YouTube.
 
 If you try Nytril, I'd like to hear how it goes. Does the code-first approach fit the kind of documentation you write? How long did it take before the syntax felt natural? Did you try generating Nytril code with an AI tool, and how well did it do? Leave a comment with what you find.
+
+{% include ads.html %}
