@@ -24,7 +24,7 @@ That was the idea, anyway. In this post, I'll go deeper into what got in the way
 
 To test this workflow, I first got access to sanitized logs from an AI app builder where developers describe an app they want and an agent writes the code to build it ([AI Studio](https://aistudio.google.com/apps)). I expected the logs to show where the agent read our Google Maps Platform documentation, misunderstood an instruction or code sample, and produced broken code that we could trace back to a doc gap.
 
-However, even if you have access to sanitized logs from people using agents to build apps with your APIs, those logs won't give you a clear picture of what's wrong with your docs. There's no neat log entry that says the agent read this page, misused this parameter, and the build failed as a result. The logs I had were sanitized summaries of each conversation. They didn't record which docs or skills the agent loaded, which tools it called, or which errors it hit.
+However, the logs didn't give me a clear picture of what was wrong with the docs. There's no neat log entry that says the agent read this page, misused this parameter, and the build failed as a result. The logs I had were sanitized summaries of each conversation, and they didn't record which docs or skills the agent loaded, which tools it called, or which errors it hit.
 
 A bigger problem showed up first, though. In most sessions, the agent never consulted our docs at all:
 
@@ -36,35 +36,31 @@ Agents are confident (some would say arrogant). They assume they know how to bui
 
 ## What Vercel found about skills that don't fire
 
-Vercel ran into the same problem and wrote about it in [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals). Vercel makes the Next.js framework (and runs a hosting platform), but the study wasn't about building on Vercel. They tested whether coding agents could correctly use Next.js 16 APIs that aren't in the models' training data.
+Vercel ran into the same problem and wrote about it in [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals). Vercel, which makes the Next.js framework, tested whether coding agents could correctly use Next.js 16 APIs that aren't in the models' training data.
 
 When they gave agents a Next.js docs skill, the agents didn't invoke it in 56% of the eval cases. The pass rate (53%) was no better than having no docs at all.
 
-Adding explicit instructions to use the skill raised the pass rate to 79%, but the wording mattered a lot. When the instruction told the agent it must invoke the skill first, the agent read the docs right away and anchored on the doc patterns, missing details in the project itself. An instruction to first explore the project structure and then invoke the skill worked better. Vercel took that sensitivity to small wording changes as a sign that the approach was fragile.
+Adding explicit instructions to use the skill raised the pass rate to 79%, but the wording mattered a lot. An instruction to invoke the skill first made the agent anchor on the doc patterns and miss details in the project itself, while an instruction to explore the project first and then invoke the skill worked better. Vercel took that sensitivity to small wording changes as a sign that the approach was fragile.
 
 What worked was putting a compressed docs index (about 8 KB) into the project's `AGENTS.md` file, which the agent loads into its context on every turn. The index points to version-matched doc files in the project and includes this line:
 
 > IMPORTANT: Prefer retrieval-led reasoning over pre-training-led reasoning for any Next.js tasks.
 
-With that in place, the pass rate went to 100%. The fix wasn't a better-targeted skill. Vercel moved the pointer to the docs into context the agent always reads, so the agent no longer had to decide whether to look something up.
-
-Vercel can't edit its users' `AGENTS.md` files, but it owns the project scaffolding. According to the Next.js docs, `create-next-app` adds an `AGENTS.md` file to new projects (starting with Next.js 16.2), and a codemod adds the docs index to existing projects. An API provider usually doesn't create the developer's project, so it doesn't have that channel.
+With that in place, the pass rate went to 100%, because the agent no longer had to decide whether to look something up. Vercel can do this because it owns the project scaffolding. Starting with Next.js 16.2, `create-next-app` adds an `AGENTS.md` file to new projects. An API provider usually doesn't create the developer's project, so it doesn't have that channel.
 
 The same idea applies to the system prompt of an AI app builder. If you control that system prompt, you can add something like this:
 
 > Your training data about \[insert product\] APIs is out of date. Before you build a solution that uses maps or location data, load the \[insert product\] skill and use its docs instead of relying on memory.
 
-I tried a version of this. I can't change the builder's system prompt, so I put a two-sentence hint like this at the start of the user prompt instead. Every prompt in my test set (more on that below) started with the hint, and every build that got past setup loaded our skill. 
+I tried a version of this. I can't change the builder's system prompt, so I put a two-sentence hint like this at the start of the user prompt instead. Short prompts that clearly describe a map app loaded our skill with or without the hint, so the cleaner test used a long prompt that didn't mention our product by name. 
 
-That sounds convincing, but those runs had no comparison without the hint, and short prompts that clearly describe a map app loaded the skill with or without it. The cleaner test used a long prompt that didn't mention our product by name. Without the hint, the agent loaded our skill in 0 of 2 runs. With the hint, it loaded the skill in 2 of 2 runs. 
-
-A prompt for an app that didn't need a map didn't load the skill, so the hint didn't make the agent load it everywhere. These are small samples, but they point the same direction as Vercel's results.
+Without the hint, the agent loaded our skill in 0 of 2 runs. With the hint, it loaded the skill in 2 of 2 runs. A prompt for an app that didn't need a map still didn't load the skill, so the hint didn't make the agent load it everywhere. These are small samples, but they point the same direction as Vercel's results.
 
 {% include ads.html %}
 
 ## A system prompt reaches only one platform
 
-Even if a hint like this works, it fixes the problem only on the platform whose system prompt you control. People build apps with Claude Code, ChatGPT, Cursor, Replit, and many other tools, and each one has its own system prompt that you can't change. On those platforms, the agent's choice depends on what the model learned in training, what it finds when it searches the web, and which skills or MCP servers the developer installed. And skills and MCP servers help only the developers who already chose your product.
+Even if a hint like this works, it fixes the problem only on the platform whose system prompt you control. People build apps with Claude Code, ChatGPT, Cursor, Replit, and many other tools, and each one has its own system prompt that you can't change. On those platforms, the agent's choice depends on its training data, what it finds on the web, and which skills or MCP servers the developer installed (which help only developers who already chose your product). 
 
 Still, fixing one platform is better than nothing. Once your skill fires and the agent starts building, you get to the second part of the problem: figuring out what the agent struggles with in your docs.
 
@@ -72,11 +68,9 @@ Still, fixing one platform is better than nothing. Once your skill fires and the
 
 If your logs record what the agent struggled with, great. Mine didn't. What I did have were sanitized, high-level descriptions of the kinds of apps people were trying to build, for example a site for a bakery that shows its store locations on a map.
 
-So I had my `analyze-chat-logs` skill go through a week's worth of these descriptions (a sample, not the full set) and write 10 prompts that roughly simulated the most common scenarios. Then I ran those prompts myself in the same AI app builder tool ([AI Studio](https://aistudio.google.com/apps)). To each prompt, I added a block of instruction asking the agent to keep a build log file. For each step, the log records what the agent did, which source it used, why, and the result or error. The block also asks the agent to note where the docs were hard to use.
+So I had my `analyze-chat-logs` skill go through a week's worth of these descriptions (a sample, not the full set) and write 10 prompts that roughly simulated the most common scenarios. Then I ran those prompts myself in the same AI app builder tool ([AI Studio](https://aistudio.google.com/apps)). To each prompt, I added a block of instruction asking the agent to keep a build log file that records, for each step, what the agent did, which source it used, why, and the result or error. The block also asks the agent to note where the docs were hard to use.
 
 The agent's own log isn't enough, because agents are unreliable narrators. In one build, the log said the agent used a skill that it never downloaded. In others, the agent downloaded doc files and never opened them. Because I ran these sessions myself, I could also check each one against the platform's action history. (In Google AI Studio's Build mode, the person running a session can see its action history.) Every session and action history I describe in this post is one I ran, not a user's.
-
-Even if you don't have detailed logs of user sessions, you can recreate the scenarios yourself and ask the agent to log what it does. The log from a recreated session shows you which problems the agent runs into, and where it got the information that led to each one.
 
 ## What the recreated sessions turned up
 
@@ -93,7 +87,7 @@ The issues fell into a few broad patterns, which I suspect show up with many API
 
 ## Fresh docs help only if the agent fetches them
 
-I expected agents to pull fresh docs on demand. An agent can get information about an API in a few ways: from its training data, by fetching web pages, or by calling a docs tool, such as an MCP server that searches official docs. Google's [Developer Knowledge API](https://developers.google.com/knowledge/api) is one of these docs sources. Agents can call it through an MCP server, and it re-indexes published pages frequently. A lot of people (including me) assumed agents would call tools like that to get current docs.
+I expected agents to pull fresh docs on demand by calling a docs tool, such as an MCP server that searches official docs. Google's [Developer Knowledge API](https://developers.google.com/knowledge/api) is one of these docs sources. Agents can call it through an MCP server, and it re-indexes published pages frequently.
 
 In the builder I tested, the Developer Knowledge MCP server wasn't one of the agent's tools. The agent got docs in three ways:
 
@@ -112,7 +106,7 @@ Having generated skill files sit between the docs and the agent creates two prob
   * The skill's example code has a flaw or shortcut that the agent copied.
   * The model ignored a rule that was right in front of it.
 
-This setup applies to the one builder I tested. In other tools, such as an IDE agent like Claude Code, Cursor, or Gemini CLI, a developer can connect a docs MCP server so the agent queries live docs directly. For Google Maps, for example, a developer can configure the [Maps Code Assist MCP server](https://developers.google.com/maps/ai/code-assist) or the broader [Developer Knowledge MCP server](https://developers.google.com/knowledge/reference/mcp), and the agent can call tools like `retrieve-google-maps-platform-docs` or `search_documents` to pull current pages on demand. Even in those tools, though, developers have to install the MCP server first, and wherever skills sit between the docs and the agent, the skills are the docs the agent reads.
+This setup applies to the one builder I tested. In IDE agents like Claude Code, Cursor, or Gemini CLI, a developer can connect a docs MCP server, such as the [Developer Knowledge MCP server](https://developers.google.com/knowledge/reference/mcp), so the agent queries live docs directly. Even in those tools, though, developers have to install the MCP server first, and wherever skills sit between the docs and the agent, the skills are the docs the agent reads.
 
 That's a strong argument for tech writers to take a bigger role in product skills instead of treating them as someone else's generated artifact. Writers can review what the generator produces (especially the example code, which agents copy line for line), have a say in how often skills are regenerated, and test whether a doc fix makes it all the way to the agent.
 
@@ -126,7 +120,7 @@ So my plan of mining chat logs for a steady stream of doc fixes was perhaps too 
 
 To show what a build log looks like in practice (without sharing anything from internal user sessions), I ran the same experiment on my own blog using Gemini in Antigravity IDE. I asked the Gemini coding agent to embed a Google Map of a 17.5-mile bike ride into an older post of mine, [The most perfect 17-mile biking loop in Santa Clara](/blog/biking-the-santa-clara-loop/), and to keep a `build_log.txt` file describing every step it took to retrieve information, whether from the Google Maps Platform plugin, remote skill files, a docs API, or memory.
 
-Across 8 logged steps, the agent found the post, extracted the route coordinates from an older KML link, prompted me to install the official `google_maps_platform` plugin from the Agent Marketplace, loaded the remote skills index (`index.json`) along with 4 sub-skills and 9 capability reference files from `gstatic.com`, fell back to the Maps Code Assist API (`mapscodeassist.googleapis.com`) when a routing reference file contradicted the main skill, and embedded a `<gmp-map>` web component with the route polyline and bicycling layer.
+Across 8 logged steps, the agent found the post, extracted the route coordinates from an older KML link, prompted me to install the official Google Maps Platform plugin, loaded 4 sub-skills and 9 reference files, fell back to the Maps Code Assist API when a routing reference file contradicted the main skill, and embedded a `<gmp-map>` web component with the route polyline and bicycling layer.
 
 <details markdown="1" style="margin: 1rem 0; padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 4px; background-color: #f9f9f9;">
 <summary style="cursor: pointer; font-weight: 600;">View the full build_log.txt (Steps 1–8)</summary>
@@ -200,19 +194,19 @@ Step 8: Implement `<gmp-map>` in Blog Post & Configure Central API Key Setting
 
 ### How to read a build log for doc and skill bugs
 
-If you're a tech writer looking at a build log like this, how do you know whether there are doc issues to fix? After all, the build succeeded. The map renders on the page. If you only looked at the final output, you would move on.
+If you're a tech writer looking at a build log like this, how do you know whether there are doc issues to fix? After all, the build succeeded and the map renders on the page. If you only looked at the final output, you would move on.
 
 However, when I asked the agent what it ran into while reading those files, five signals in the log pointed to 8 specific issues in the skills and reference files:
 
-1. **Fallback escalation (Step 5 to Step 6).** The Google Maps Platform skill is designed so that fetching the sub-skill reference files from `gstatic.com` (Step 5) is the primary path, and calling the Code Assist REST endpoint (`mapscodeassist.googleapis.com/v1:retrieveContexts` in Step 6) is only a fallback for uncovered topics. Whenever the log shows the agent fetching reference files for a capability in Step 5 and then calling the fallback API for the *same* capability in Step 6, the reference files failed or contradicted the rules.
-2. **Fetched-but-discarded files ("dead-end reads").** In Step 5, the agent downloaded 9 reference files, but in Step 8 it used only 4 of them. A high fetch-to-discard ratio means the index descriptions in `SKILL.md` promised one thing while the target reference file delivered something deprecated or unrelated.
-3. **Policy collisions between the main skill and child reference files.** The main governance skill (`google-maps-platform/SKILL.md`) has a strict list of disabled legacy APIs that the agent must never use. When a child reference file teaches one of those banned APIs, the agent has to abandon the file and search elsewhere.
-4. **Cross-doc paradigm translation.** When Phase 1 initialization files use modern Web Components (`<gmp-map>` and `google.maps.importLibrary`) while Phase 2 feature files still use global callbacks (`window.initMap = initMap; new google.maps.Map(...)`), the agent has to invent glue code to bridge the two eras.
-5. **Local script workarounds (Step 7).** In Step 7, the agent dropped into Python to parse the KML file into a JSON coordinate array (`santa-clara-loop-path.json`). Whenever an agent writes a custom Python or bash script to transform data before handing it to your SDK, it usually marks a deprecation gap or friction point in the docs.
+1. **Fallback escalation (Step 5 to Step 6).** The reference files from `gstatic.com` are the primary path, and the Code Assist endpoint is only a fallback for uncovered topics. When the agent fetches reference files for a capability and then calls the fallback API for the *same* capability, the reference files failed or contradicted the rules.
+2. **Dead-end reads.** In Step 5, the agent downloaded 9 reference files, but in Step 8 it used only 4 of them. A high fetch-to-discard ratio suggests the index descriptions in `SKILL.md` promised one thing while the reference file delivered something deprecated or unrelated.
+3. **Policy collisions between the main skill and child reference files.** The main skill lists legacy APIs that the agent must never use. When a child reference file teaches one of those banned APIs, the agent has to abandon the file and search elsewhere.
+4. **Mixed patterns across files.** When the initialization files use modern web components (`<gmp-map>` and `google.maps.importLibrary`) while the feature files still use global callbacks (`window.initMap = initMap`), the agent has to invent glue code to bridge the two.
+5. **Local script workarounds (Step 7).** The agent dropped into Python to parse the KML file into a JSON coordinate array. When an agent writes its own script to transform data before handing it to your SDK, it usually marks a deprecation gap or friction point in the docs.
 
 ### The 8 documentation and skill issues the log uncovered
 
-When the agent logged the specific friction points behind those signals, 8 concrete issues came out of that single task, ranging from a sub-skill link that routed to a disabled `DistanceMatrixService` doc and a hallucinated `routeService.computeRoutes()` instance method to truncated Markdown tables and conflicting `<gmp-map>` attribute names.
+When the agent logged the friction points behind those signals, 8 concrete issues came out of that single task, ranging from a sub-skill link that routed to a disabled `DistanceMatrixService` doc to a hallucinated `routeService.computeRoutes()` method and conflicting `<gmp-map>` attribute names.
 
 <details markdown="1" style="margin: 1rem 0; padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 4px; background-color: #f9f9f9;">
 <summary style="cursor: pointer; font-weight: 600;">View all 8 documentation and skill issues uncovered in the log</summary>
@@ -233,9 +227,7 @@ When the agent logged the specific friction points behind those signals, 8 concr
 
 </details>
 
-You can see that the type of bugs surfaced by agents is a whole new level of specific and technical. My next step would be to log these bugs in our issue tracker, adding as much context as possible. 
-
-From there, I'd pass the bugs over to my `fix-doc-bugs` skill, which applies a detailed algorithm to fix the issues. The question for the technical writer, then, is to assess how many of these issues are actual bugs, how many of them relate to fixable improvement opportunities in the docs, and how many should be passed on to other teams. As Dave Rensin argues in [Elephants, Goldfish and the New Golden Age of Software Engineering](https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874), as agents take over more of the mechanical execution, judgment becomes our primary role.
+You can see that the bugs agents surface are a whole new level of specific and technical. My next step would be to log these bugs in our issue tracker with as much context as possible, and then pass them to my `fix-doc-bugs` skill, which applies a detailed algorithm to fix the issues. The question for the technical writer is how many of these issues are real bugs, how many are fixable improvement opportunities in the docs, and how many should go to other teams. As Dave Rensin argues in [Elephants, Goldfish and the New Golden Age of Software Engineering](https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874), as agents take over more of the mechanical execution, judgment becomes our primary role.
 
 ## Capturing share of model
 
@@ -243,17 +235,17 @@ The experiment led me to think about another scenario. What should tech writers 
 
 If we follow typical SEO guidelines, the strategy might be to write more articles that target those keywords, so the task becomes more strongly associated with your product. For example, if I wanted my site to rank higher when people search for [API documentation courses](/learnapidoc), I'd write many posts that target the keywords those people search for.
 
-Few people understand how to steer an agent's choices, so most people aren't sure which actions will influence them. Will marketing groups start asking tech comm groups to take on share-of-model work in the docs? That might mean stuffing keywords into tutorials to capture agent searches for those topics. 
+Few people understand how to steer an agent's choices. Will marketing groups start asking tech comm groups to take on share-of-model work in the docs, such as stuffing keywords into tutorials to capture agent searches?
 
 In my years as a tech writer, I've rarely partnered with marketing on SEO for docs. I suspect part of the reason is that docs usually serve people who have already chosen the product, while marketing works on getting the product chosen in the first place. Share of model blurs that line. This may be a new door that opens for tech writers (though I'm not sure it will be a welcome one).
 
-Some of the agent's choice might not be a docs problem at all. Some mapping libraries work without an API key or a billing account. Google Maps requires both. No doc change removes that friction. It could also be that some other products are a better fit for the user's scenario.
+Some of the agent's choice might not be a docs problem at all. Some mapping libraries work without an API key or a billing account, while Google Maps requires both, and no doc change removes that friction. Other products might also be a better fit for the user's scenario.
 
 ## Agents as users we can observe
 
-Most tech writers care more about producing a clear, accurate body of documentation that describes how to use the company's products and supports the tasks and goals users want to accomplish. When we come back to these "first principles" of tech comm, agents give us a tremendous advantage. For the first time, we have a user we can follow and observe in new ways.
+Most tech writers care more about producing clear, accurate docs that support the tasks users want to accomplish. When we come back to these "first principles" of tech comm, agents give us a tremendous advantage. For the first time, we have a user we can follow and observe in new ways.
 
-Imagine if, 10 years ago, you could ask 10 users to do common tasks with your docs and observe their actions in detail: their thoughts, friction, and errors as they struggled to build something with your APIs, and what they finally built. That kind of detailed record of user actions would be a goldmine, and it almost never happened. In my 20+ years as a tech writer, I've watched users work with my documentation only a couple of times. I wrote about those experiences in [Best tech writing tip ever: Watch a user try to follow your instructions](/2007/08/01/best-tech-writing-tip-ever-watch-a-user-try-to-follow-your-instructions/) (2007) and [A few notes from usability testing: Video tutorials get watched, text gets skipped](/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/) (2011).
+Imagine if, 10 years ago, you could ask 10 users to do common tasks with your docs and observe their thoughts, friction, and errors as they struggled to build something with your APIs. That kind of record would have been a goldmine, and it almost never happened. In my 20+ years as a tech writer, I've watched users work with my documentation only a couple of times. I wrote about those experiences in [Best tech writing tip ever: Watch a user try to follow your instructions](/2007/08/01/best-tech-writing-tip-ever-watch-a-user-try-to-follow-your-instructions/) (2007) and [A few notes from usability testing: Video tutorials get watched, text gets skipped](/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/) (2011).
 
 With agents, we can give them tasks and have them log what they're doing. Even if you can't access an action history and must rely on the agent's unreliable narration, it's better than nothing. And unlike a usability lab, you can do this at scale and on a schedule.
 
@@ -261,12 +253,12 @@ For example, say a month of logs shows that many people are building store locat
 
 If agents keep losing a fix cycle on the same setup step, or keep requesting data the app doesn't need, that's a pattern worth a bug. After the fix ships, the same prompt becomes your regression test. If the friction disappears from the build logs, the fix reached the agent. If it doesn't, the fix is stuck somewhere between your docs and the agent, perhaps in a skill that hasn't been regenerated yet. Multiply that by the 20 or 30 most common scenarios, and you have a usability lab that runs continuously.
 
-This is close to the approach OpenAI describes in [Testing Agent Skills Systematically with Evals](https://developers.openai.com/blog/eval-skills). You run a prompt, capture the agent's trace and the files it produced, apply a small set of checks, and compare scores over time. Their test mix includes prompts that don't name the skill, to see whether the agent picks it on its own, and negative controls that shouldn't trigger it. The difference is where the prompts come from. Engineers usually write their own test prompts. Tech writers can base them on what people are trying to build.
+This is close to the approach OpenAI describes in [Testing Agent Skills Systematically with Evals](https://developers.openai.com/blog/eval-skills). You run a prompt, capture the agent's trace and the files it produced, apply a small set of checks, and compare scores over time. The difference is where the prompts come from. Engineers usually write their own test prompts, while tech writers can base them on what people are trying to build.
 
 ## Is anyone else doing this?
 
 I've found people and tools working on parts of this. Docs chatbot platforms like [Kapa.ai](https://www.kapa.ai/) group the questions their bot couldn't answer into coverage gaps. [Mintlify](https://www.mintlify.com/) shows which AI agents read your docs and which pages they read. Fabrizio Ferri-Benedetti built [Impersonaid](https://github.com/theletterf/impersonaid), a tool that tests docs against LLM-simulated user personas. Vercel ran evals on how agents use its docs.
 
-Most of this work looks at how people use docs: what questions they ask, and whether they find answers. With agents, I think we've moved past that. People now ask agents to build solutions with your products, and those agents don't come to your help site to ask questions. They build from memory, from skills, or from whatever they fetch along the way. So instead of studying the questions, you need to capture what people are trying to build, recreate those sessions with agents, and ask the agents for build logs that show where they struggled. I haven't found anyone else doing this yet.
+Most of this work looks at how people use docs: what questions they ask, and whether they find answers. With agents, I think we've moved past that. People now ask agents to build solutions with your products, and those agents don't come to your help site to ask questions. So instead of studying the questions, you need to capture what people are trying to build, recreate those sessions with agents, and ask the agents for build logs that show where they struggled. I haven't found anyone else doing this yet.
 
 If you're doing something like this, or have access to agent logs for your product and have tried to mine them, I'd love to hear how it's going.
