@@ -49,19 +49,20 @@ To get an API key for the OpenWeatherMap API:
 
 {% include random_ad4.html %}
 
-Now for contrast, let's get the keys for the Xweather API, using a trial developer account. The Xweather API requires both a secret and ID to make requests.
+Now for contrast, let's get the keys for the Xweather API, using a trial developer account. The Xweather API requires both a client ID and client secret to make requests.
 
-1.  Go to [https://www.xweather.com](https://www.xweather.com) and click **Sign up for free**.
-2.  Choose the free option. (In the US and Canada, the pay-as-you-go plan includes 15,000 free accesses each month and doesn't require a credit card. Outside the US and Canada, the sign-up options differ.)
-3.  Complete the required fields to sign in. Click the activation email as well.
-4.  After you sign up for an account, sign in and go to your [Dashboard](https://account.xweather.com/account/member).
-5.  Click **Apps.** By default, you probably already have a Demo App. If not, click **Apps**, and then click **New Application**.
-6.  In the Add a New Application dialog box, enter the following:
-    * **Application Name**: My biking app (or something)
-    * **Application Namespace**: *
-7.  Click **Create App**.  
+1. Go to [https://www.xweather.com](https://www.xweather.com) and click **Free weather API key**. On the next page, click **Sign up for free**. (In the US and Canada, the pay-as-you-go plan includes 15,000 free accesses each month and doesn't require a credit card. Outside the US and Canada, the sign-up options differ.)
+2.  Complete the required registration fields, then follow the instructions in the activation email to verify your account.
+3.  After you sign up for an account, sign in and go to your [Dashboard](https://data.portal.xweather.com/account).
+4.  Locate the **Your API key** section on the dashboard. An initial API key is automatically generated when you create your account.
+5.  Copy your API key. You can also click **API Keys** in the left navigation menu to view and manage your keys.
+6.  The API key combines your client ID and client secret into a single value, separated by an underscore (`_`):
+    * **Client ID**: The portion before the underscore.
+    * **Client secret**: The portion after the underscore.
 
-After registering your app, you should see an ID and secret for the app. Copy this information into a place you can easily access since you'll need it to make requests.
+When making API requests that require separate `client_id` and `client_secret` parameters, use the corresponding portions of your API key. For example, if your API key is `exampleID_exampleSecret`, use `exampleID` as the client ID and `exampleSecret` as the client secret.
+
+Keep your API key and client secret in a secure location. Do not share them publicly or include them in source code.
 
 {: .tip}
 Keep in mind how users authorize calls with an API &mdash; this is something you usually cover in API documentation. Later in the course, we will dive into [authorization methods](docapis_more_about_authorization.html) in more detail.
