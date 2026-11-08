@@ -14,6 +14,7 @@ podcast_file_size: 73.9
 podcast_duration: "00:51:21"
 podcast_length: 73948006
 image: etterpodcastsnapshotthumbnail.jpg
+linkedin: https://lnkd.in/p/gbKUAxJk
 ---
 
 * TOC
