@@ -20,7 +20,7 @@ linkedin: https://lnkd.in/p/gbKUAxJk
 * TOC
 {:toc}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PrIpq3tRQTg" title="Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PrIpq3tRQTg" title="Documentation at Scale with Andrew Etter: Ten years after Modern Technical Writing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Audio-only version
 
@@ -104,7 +104,7 @@ The area most likely to change next is design. Stripe's docs have long been held
 
 AI makes front-end work far easier for writers who used to avoid JavaScript. A designer might hand over a few still images instead of a full CSS file and a set of flows, and the writer can ship a redesigned component in under an hour. A docs site that looks professional earns more confidence from readers and from the stakeholders who rarely read the docs at all, and that kind of polish is now within reach of a small team.
 
-<figure><a href="https://youtu.be/PrIpq3tRQTg"><img src="{{site.media}}/etterpodcastsnapshot.png" alt="Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale" /></a><figcaption>Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale</figcaption></figure>
+<figure><a href="https://youtu.be/PrIpq3tRQTg"><img src="{{site.media}}/etterpodcastsnapshot.png" alt="Documentation at Scale with Andrew Etter: Ten years after Modern Technical Writing" /></a><figcaption>Documentation at Scale with Andrew Etter: Ten years after Modern Technical Writing</figcaption></figure>
 
 ## Transcript
 

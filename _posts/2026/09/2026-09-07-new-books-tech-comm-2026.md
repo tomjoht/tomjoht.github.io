@@ -55,9 +55,9 @@ Fabrizio Ferri-Benedetti and I also talked with CT about the book on my podcast.
 
 **Who it's for:** Aspiring technical writers, working technical writers in any industry, and managers who have technical writers in their reporting chain.
 
-I talked with Andrew about the book on my podcast. For the shownotes, links, and a transcript, see [Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale](/blog/docs-at-scale-with-andrew-etter).
+I talked with Andrew about the book on my podcast. For the shownotes, links, and a transcript, see [Documentation at Scale with Andrew Etter: Ten years after Modern Technical Writing](/blog/docs-at-scale-with-andrew-etter).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PrIpq3tRQTg" title="Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PrIpq3tRQTg" title="Documentation at Scale with Andrew Etter: Ten years after Modern Technical Writing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Docs for Developers: An Engineer's Field Guide to Technical Writing (2nd edition)
 
