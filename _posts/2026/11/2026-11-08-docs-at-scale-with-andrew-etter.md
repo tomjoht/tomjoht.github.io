@@ -1,5 +1,5 @@
 ---
-title: "Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale"
+title: "Documentation at Scale with Andrew Etter: Docs-as-code ten years after Modern Technical Writing"
 permalink: /blog/docs-at-scale-with-andrew-etter
 date: 2026-11-08
 categories:

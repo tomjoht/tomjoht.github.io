@@ -8,6 +8,7 @@ rebrandly: https://idbwrtng.com/nytril-question-and-answer
 keywords: Nytril, documents as code, docs-as-code, data-driven documentation, single sourcing, content reuse, spec sheets, product catalogs, localization, translation, units of measure, PDF DOCX HTML publishing, DITA, MadCap Flare, static site generators, AI-generated code, Shawn McCreight
 description: "Nytril is a document authoring tool built on its own programming language, where text, data, calculations, and formatting all live in source code that runs to produce documents. In this sponsored Q&A, Shawn McCreight answers 10 questions about who Nytril is for, how it compares to DITA and Flare, how writers get started, where data comes from, output formats, localization, docs-as-code workflows, AI, and pricing. Shawn wrote his answers as a Nytril program, so this post also includes the PDF, DOCX, HTML, and source code that program produced."
 toc: false
+linkedin: https://lnkd.in/p/gHbk4ruz
 ---
 
 * TOC
