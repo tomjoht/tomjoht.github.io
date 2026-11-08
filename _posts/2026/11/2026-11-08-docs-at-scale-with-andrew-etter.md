@@ -1,5 +1,5 @@
 ---
-title: "Documentation at Scale with Andrew Etter: Docs-as-code ten years after Modern Technical Writing"
+title: "Documentation at Scale with Andrew Etter: Ten years after Modern Technical Writing"
 permalink: /blog/docs-at-scale-with-andrew-etter
 date: 2026-11-08
 categories:
