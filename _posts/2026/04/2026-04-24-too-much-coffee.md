@@ -1,5 +1,5 @@
 ---
-title: "Too much coffee?"
+title: "Too much coffee? [updated post]"
 permalink: /blog/too-much-coffee
 date: 2026-04-24
 categories:
@@ -8,6 +8,8 @@ keywords: coffee, caffeine, addiction, moderation, alcoholism, family history, a
 rebrandly: https://idbwrtng.com/too-much-coffee
 linkedin: https://www.linkedin.com/posts/tomjoht_new-post-too-much-coffee-some-personal-share-7462132144618766336-ricU
 ---
+
+***Nov 8, 2026 update:** See the [Update](#update) section at the end of this post for how and why I went back to drinking coffee.*
 
 I don't entirely understand my relationship with coffee, but I think I have some character flaws that could be advantageous in some situations and disadvantageous in others. In some areas of my life, I'm an all-or-nothing person. This seems to be true with coffee. When I'm drinking coffee, I can't seem to stop myself from drinking 3-4 cups a day. Before long, I can sense my body basically becoming desiccated (from the way coffee acts as a diuretic). I'm not sure why, but I drink coffee more out of boredom than need. And sometimes I drink it to avoid the caffeine headaches that come if you don't get enough. 
 
@@ -38,3 +40,21 @@ I also noticed that I began drinking a lot more water and other liquid. Much mor
 I started embracing another non-coffee drinking habit that's had surprisingly good results. When I'm really tired, I take a nap. For some reason, I love laying down on the hard floor for a nap, with just two pillows -- one for the head, and one for the side (I'm a side sleeper). Thank God for the nap rooms at my workplace! They're a godsend when I need to sneak away for 30 minutes to take a nap. The naprooms have elaborate reclining chairs like a luxury dentist, but I still prefer the floor. 
 
 What's amazing is that feeling of waking up after a 20-minute nap. It's like rebooting my brain. I drift into unconsciousness usually no more than 10-20 minutes, but when I wake up, my brain is working strong again. The short nap is a much more powerful reset than a strong cup of coffee.
+
+<hr/>
+
+# Update (Nov 8, 2026) {#update}
+
+About six months after writing this post, I went back to drinking coffee. I had a few reasons for doing so. First, I missed being part of coffee culture. Coffee runs through so much of daily life, from meeting a friend at a cafe, to drinking a hot cup in the morning with my wife, to sitting in front of the computer with a cup while I write. That last one is probably what I missed the most. A small pick-me-up while I write gives me a helpful boost of energy.
+
+When I gave up coffee, I replaced it with a banana protein shake in the morning. I think that replacement is what let me stay off coffee for so long. However, calorie-wise, coffee is probably a better choice than drinking 500 calories in a protein shake.
+
+Also, just for the record, giving up coffee didn't fix my sleep issues. (At every annual physical I've ever had, my doctor asks about my sleep, and I'm like, I randomly wake up at 4am. The doctor is always quick to ask about coffee and blame my poor sleep on it.) Even without coffee, my sleep was about the same &mdash; never great. Those days where I could sleep in past 8am are long gone, most likely due to a different circadian rhythm that kicks in at 50 years of age.
+
+As for feeling internally dried out (because caffeinated coffee is a diuretic), my plan is to switch to decaf whenever I notice I'm drinking too much. (Peet's Decaf Major Dickason's is surprisingly good, as is the regular version.) I'm also adding Liquid I.V. to my water more often, since I learned that replacing electrolytes helps the body hold on to more of the water you drink.
+
+As for naps, I still take them when I'm tired. Sometimes coffee just doesn't fix that kind of tiredness, and I'm fortunate that my workplace has nap rooms. I love being able to take a 20-30 minute nap when my brain is worn out and I need a reboot. Napping is a skill I've developed. I simply lie down on the hard floor with two pillows. In fact, I keep a bag with two pillows under my desk for whenever I need a nap (usually only 1-2 afternoons a week, for less than 30 minutes).
+
+I'm not drinking a ton of coffee at this point &mdash; usually 2-3 cups a day, and if any beyond that, decaf. Anyway, I think I blew this a bit out of proportion. Drinking coffee is enjoyable, and I don't think my personality is so addiction-prone that it's a problem. It's interesting how easy it is to blame one part of our lives for a problem, only to find that cutting it out doesn't fix what we thought it would.
+
+I'm still a fan of drip coffee, and this alone spares me from many of the sugary, expensive espresso drinks. If you have a favorite coffee brand that you want to recommend, let me know.

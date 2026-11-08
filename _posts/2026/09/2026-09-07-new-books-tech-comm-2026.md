@@ -39,6 +39,10 @@ I think it's marvelous that we're seeing so many tech writers writing books late
 
 You can read the book online for free at [wtfmbook.com](https://wtfmbook.com/). Smith also discussed the book on the *Behind the Docs* podcast with Ren Taylor: [Write the F****** Manual with CT Smith](https://podcasts.apple.com/dk/podcast/write-the-f-manual-with-ct-smith/id1837158102?i=1000787160697).
 
+Fabrizio Ferri-Benedetti and I also talked with CT about the book on my podcast. For the shownotes, links, and a transcript, see [Why docs still need an owner — podcast with CT Smith about WTFM](/blog/wtfm-book-ct-smith-podcast).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j5U14ZT5CpM" title="Why docs still need an owner — podcast with CT Smith about WTFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Documentation at Scale: Best-in-class content for the AI era
 
 <figure><a href="https://www.amazon.com/dp/B0HGPRKYMN"><img style="max-width: 350px" src="{{site.media}}/docs-at-scale-etter.png" alt="Documentation at Scale: Best-in-class content for the AI era, by Andrew Etter" ></a><figcaption>Documentation at Scale: Best-in-class content for the AI era, by Andrew Etter</figcaption></figure>
@@ -50,6 +54,10 @@ You can read the book online for free at [wtfmbook.com](https://wtfmbook.com/). 
 > Documentation at Scale is for aspiring technical writers, technical writers working in any industry, and managers with a technical writer in their reporting chain.
 
 **Who it's for:** Aspiring technical writers, working technical writers in any industry, and managers who have technical writers in their reporting chain.
+
+I talked with Andrew about the book on my podcast. For the shownotes, links, and a transcript, see [Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale](/blog/docs-at-scale-with-andrew-etter).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PrIpq3tRQTg" title="Owning docs you didn't write — podcast with Andrew Etter about Documentation at Scale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Docs for Developers: An Engineer's Field Guide to Technical Writing (2nd edition)
 

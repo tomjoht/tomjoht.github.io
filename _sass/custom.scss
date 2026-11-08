@@ -373,6 +373,25 @@ figure {
   margin: 10px 0px;
 }
 
+// Small figure (like a book cover) floated beside a list or paragraph.
+// On narrow screens it stops floating and sits below the content instead.
+figure.float-right {
+  float: right;
+  width: 180px;
+  margin: 0 0 10px 20px;
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  figure.float-right {
+    float: none;
+    margin: 10px 0;
+  }
+}
+
 ol li ul li {
   list-style: disc;
 }

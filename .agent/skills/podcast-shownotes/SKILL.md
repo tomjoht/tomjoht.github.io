@@ -90,7 +90,7 @@ The spoken text goes here as a continuous paragraph. Multiple sentences in one t
 - **Speaker name** in bold, followed by timestamp in parentheses, followed by `<br>` on the same line.
 - The spoken text starts on the next line (no blank line between the speaker label and their text).
 - Separate different speakers' turns with a blank line.
-- Keep each speaker's turn as a single paragraph — do not break one turn into multiple paragraphs.
+- Break long turns into multiple paragraphs so the transcript doesn't read as walls of text. Leave turns under about 130 words as one paragraph. For longer turns, aim for paragraphs of roughly 60–130 words, splitting only at sentence ends and preferring points where the speaker shifts topic (sentences starting with *So*, *But*, *And so*, *On the video side*, and similar). Don't split a thought mid-stream, such as separating a sentence from the one it refers back to ("So if you don't want to buy it" belongs with the sentence about Kindle Unlimited). The speaker label appears only once, before the first paragraph of the turn. Don't change any wording when splitting.
 - Use first names only as speaker labels (e.g., `**Tom**`, `**Nupoor**`, `**Jeremy**`).
 
 ## Step 2: Fill in the frontmatter
@@ -186,6 +186,7 @@ For each URL the user provides:
 2. Format as: `* [Actual Page Title](URL) (Author/Source — brief context if helpful)`
 3. Order: guest-authored content first, then host content, then third-party references.
 4. LinkedIn profiles are not included by default, but add them if the user asks.
+5. Escape any pipe character in link text as `\|` (for example, `[Markdoc \| A powerful...](https://markdoc.dev)`). Page titles often use `|` as a separator, and kramdown treats an unescaped pipe as a table row, even inside a list item, which breaks the list layout.
 
 ## Step 5: Write the Topics section
 
@@ -222,6 +223,7 @@ Imagine a journalist listened to the podcast and then wrote a feature article in
 - Give it a compelling subtitle formatted as **bold text** (not an H3 heading). Check it for unintended sting given the audience (see the title guidance in Step 2).
 - Precede it with: `*If the podcast were an article, this is what it would read like.*`
 - No speaker attributions. No "In the podcast, they discussed..." framing.
+- Keep paragraphs short enough to scan, roughly 40–90 words and 2–5 sentences each. The paragraph counts in the Structure list above describe units of argument, not literal paragraphs, so one unit can span two or three paragraphs. Break where the argument turns (for example, before *However*, before a new example, or before a cluster of questions is answered). Don't create one-sentence paragraphs, which the CLAUDE.md style rules prohibit.
 - Use concrete details and specific examples from the conversation to keep it grounded.
 
 ### Prose rhythm: minimize em dashes in the essay
