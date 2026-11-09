@@ -12,11 +12,9 @@ description: "Of all my articles on agent readability, none has attracted as muc
 * TOC
 {:toc}
 
-{% include ads.html %}
-
 Consider this sample page: [Find Place (Legacy)](https://developers.google.com/maps/documentation/places/web-service/legacy/search-find-place). 
 
-<figure><a href="https://developers.google.com/maps/documentation/places/web-service/legacy/search-find-place"><img style="max-width: 650px" src="{{site.media}}/page-level-notes-chunking.png" alt="Top-level page notes propagating to lower chunks" /></a><figcaption>Challenges in propagating top-level page notes to lower chunks</figcaption></figure>
+<figure><a href="https://developers.google.com/maps/documentation/places/web-service/legacy/search-find-place"><img style="border: 1px solid #dedede; max-width: 650px" src="{{site.media}}/page-level-notes-chunking.png" alt="Top-level page notes propagating to lower chunks" /></a><figcaption>Challenges in propagating top-level page notes to lower chunks</figcaption></figure>
 
 This page alone has four important notes at the top, covering region availability, legacy status, server-side libraries, and field limitations. When the parser splits this page into chunks for MCP server ingestion, it splits by h2 and h3 headings into chunks of roughly 300 to 400 words. The first chunk gets those important notices, which is great. However, the later chunks are disconnected from the page-level notes.
 
@@ -32,6 +30,8 @@ Another solution could be to put this information into a product skill. In my ex
 
 In other words, relying on the skill is fragile. In most application-building scenarios, users might incorporate 10+ APIs. Do we assume that a separate product skill loads for each API, and that agents diligently read each product skill before writing code? Hah!
 
+{% include ads.html %}
+
 ## The broader strategy: Propagating page-level context into chunk metadata
 
 Regardless of which chunking parser or retrieval pipeline you use, the larger strategy is to make sure top-level page context travels in the metadata attached to every chunk. If a chunk can be retrieved on its own, its metadata needs to carry the page-level caveats required to interpret that chunk safely.
@@ -40,7 +40,7 @@ When I asked about this problem in the Write the Docs Slack, this was the most c
 
 However, many of us don't control the chunker. Your docs might be ingested by several AI tools, each built by a different team with its own chunking strategy. And agents that fetch your public pages directly usually don't chunk them at all, so they face a related but different problem. (For research on how agents actually access web pages, see Dachary Carey's [Agent Web Fetch Spelunking](https://dacharycarey.com/2026/02/19/agent-web-fetch-spelunking/).)
 
-### Check what metadata actually reaches the agent
+## Check what metadata actually reaches the agent
 
 Even when your pipeline attaches page metadata to chunks, it's worth checking what actually reaches the agent, because each retrieval surface might pass along different fields. Google's [Developer Knowledge API](https://developers.google.com/knowledge/api) is a good example. Its [`searchDocumentChunks`](https://developers.google.com/knowledge/reference/rest/v1/documents/searchDocumentChunks) REST endpoint returns each chunk with a [`document` object](https://developers.google.com/knowledge/reference/rest/v1/DocumentChunk) containing the page's basic metadata, including its `description`. 
 

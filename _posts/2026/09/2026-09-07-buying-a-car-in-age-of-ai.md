@@ -4,7 +4,7 @@ permalink: /blog/buying-a-car-in-age-of-ai
 date: 2026-09-07
 categories:
 - ai
-keywords: car buying, AI, decision making, paradoxes of choice, Claude, chatbot, consumer reports, carmax, carvana, buying a car, strategies 
+keywords: car buying, AI, decision making, paradoxes of choice, Claude, chatbot, consumer reports, carmax, carvana, buying a car, strategies, honda civic sticky steering, subaru forester hybrid, toyota camry hybrid
 rebrandly: https://idbwrtng.com/buying-a-car-in-age-of-ai
 description: "One thing I'm not great at is buying cars. I'm incredibly indecisive, in part because historically I have regretted some of the cars I've purchased. Hence, I'm afraid of buying the wrong car, and so I vacillate endlessly to an almost neurotic degree. Also, buying cars is tough because you have a limited number of test drives — test drives require visits to dealerships and lots, and you don't have unlimited time and patience at these places."
 image: consumercrthumb.jpg
@@ -12,6 +12,8 @@ linkedin: https://lnkd.in/p/gUZC2jJm
 ---
 
 Recently I bought a car, and in the process tried to use AI as much as possible to help out. This post shares my learnings and attempts. Note: I'm not an expert car buyer by any means, and this post veers into areas I'm much less knowledgeable about. Take any advice with a grain of salt.
+
+**Update (Nov 8, 2026):** I ended up returning the Honda Civic I describe at the end of this post, then bought a Subaru Forester Hybrid for myself and a Toyota Camry Hybrid from Carvana for my daughter. See [Update: Returning the Civic](#update-returning-the-civic) at the end for what happened.
 
 When it comes to using AI for car-buying, I'm not an outlier. [Cox Automotive](https://www.coxautoinc.com/insights/cox-automotive-car-buyer-journey-study-finds-efficiency-digital-tools-and-ai-drive-record-satisfaction/) found that about a quarter of new-vehicle buyers now use AI tools somewhere in the shopping process. In fact, their research found the following:
 
@@ -115,7 +117,7 @@ I mentioned Carmax earlier. Carvana is similar in that you can order a car, but 
 
 Two details are worth noting. Carvana caps you at 400 miles during the return window and charges a dollar per mile beyond that; Carmax's 10 days has no mileage limit at all. And Carmax's window used to be 30 days — the company cut it to 10 in May 2024.
 
-Also, you can't endlessly buy and return cars at these places. Carvana is explicit about it — you get two exchanges, three vehicles total, and the third one doesn't come with the money-back guarantee at all. Carmax doesn't publish a number, but each cycle is a full return followed by a separate new purchase, and stores can decline you. In previous years, I've bought and returned a car to Carmax, and it was easy to do. I haven't purchased from Carvana before.
+Also, you can't endlessly buy and return cars at these places. Carvana is explicit about it — you get two exchanges, three vehicles total, and the third one doesn't come with the money-back guarantee at all. Carmax doesn't publish a number, but each cycle is a full return followed by a separate new purchase, and stores can decline you. In previous years, I've bought and returned a car to Carmax, and it was easy to do. I hadn't purchased from Carvana before this round, but I ended up buying my daughter's car there (see the update at the end).
 
 ## Celebrate the car for what it is
 
@@ -165,11 +167,61 @@ A downside of being a maximizer (which is the default behavior due to AI's delug
 
 In other words, the paradox is that we might be happier making worse choices with more limited information. More information produces objectively better decisions that subjectively feel worse. We might have been happier with the slightly worse car — chosen quickly, on limited information, and never questioned again.
 
+## Update: Returning the Civic
+
+About a week after buying the 2019 Civic, I noticed that the steering felt sticky. It turns out that sticky steering is a known problem with Civics. In 2024, Honda [recalled about 1.7 million vehicles](https://www.cbsnews.com/news/honda-recall-us-steering-gearbox-acura/), including 2022-2025 Civics, because the steering gearbox may have been built incorrectly, which can cause excess friction and make the car harder to steer. 
+
+However, the 2019 model year wasn't part of that recall, so any fix would have come out of my pocket. Replacing the steering gearbox would have cost at least $3,500, and more likely around $4,000. That's a big repair on a car I'd just bought. More importantly, I'd figured the Civic might end up with my younger daughter, and I didn't want to think about the steering and her safety every time she drove it.
+
+I reached out to the dealer, and they agreed to unwind the sale. The dealer was open and generous about it, which I appreciated. If they had pushed back, I would have had some leverage. According to the [Washington State Attorney General](https://www.atg.wa.gov/buying-precautions-used-car-considerations), "It is a violation of dealer licensing regulations for a dealer to sell a car that cannot be safely operated." That rule is part of how dealers are licensed, so as far as I can tell, it still applies even if you buy the car "as is" and sign away your warranty rights. Fortunately, I didn't have to go there. I was very lucky, though, since most people who regret a car a week later don't get a do-over.
+
+Unfortunately, I still lost money on the Civic. In that first week, I'd put about $2,000 into it. I bought new tires, added a hitch receiver, and had the transmission and radiator flushed. None of that came back to me when I returned the car. However, it was a learning experience, and it taught me to negotiate a much better deal the next time.
+
+The steering wasn't the only problem. Around the same time, I realized that I didn't like the Civic much. It was loud on the freeway, and it bounced around on rough roads more than I wanted. In other words, it just didn't feel great to drive, and I'd already been wondering whether it sat too low for me. I had bought the wrong car. 
+
+I suspect a lot of people have this realization a week or two after buying a car, which is the scenario the test drives section describes, where a car can charm you in ten minutes on the lot.
+
+### Down the rabbit hole again
+
+After returning the Civic, I went back to researching cars, and this time I fell so far down the rabbit hole that it became exhausting. Looking at cars, reading research, and going on test drives consumed a huge amount of my time. I test drove probably a dozen cars. The guy at Carmax got sick of seeing me, and apparently I had test driven more cars there than anybody. 
+
+At times I questioned whether something was wrong with my psychologically, because I kept vacillating and changing my mind under the endless flow of additional information that I was uncovering. AI was likely partly to blame here because it acted as a power tool for information research. I also had probably 20+ conversations with Claude while driving about cars, to the point that I started to wonder if Claude was also getting sick of hearing me deliberate about which car to buy.
+
+### The Subaru Forester Hybrid
+
+Eventually I bought a brand-new 2026 Subaru Forester Hybrid from a local dealership. It has great visibility, and I love the hybrid engine. When I was comparing the Forester against the 2018 Lexus ES 350 I'd liked so much in the sit test, I realized that I wanted a new car. An older car isn't going to have the latest tech, and I'm so glad I went new. It's so nice driving a new car.
+
+I also played the pricing well this time. I got one dealership to commit to their lowest quote, and then I shopped that quote around to other dealers and got an even better one. This strategy doesn't always work. If a model is popular and dealers won't come down on price, there isn't much to shop around. However, it was near the end of the year, and dealers were trying to clear out their 2026 Foresters to make way for the new models coming in. I don't know why they were so eager to get rid of them, because the Forester is a freaking awesome car. I also negotiated for the dealer to install a hitch for free, which was worth about $1,000. When I tell people that, they're amazed.
+
+Once I bought it, I felt good about the decision, and I still do. Even though it's an SUV, and I didn't think I wanted an SUV, I love the space and the headroom. I also love the smoothness, the reliability, and the way it drives overall. It's perfect, and I highly recommend it.
+
+The Forester is also one of the top-rated cars on Consumer Reports. I think it's worth simply trusting ratings like that, because they tend to point you to solid cars. As I mentioned in the Consumer Reports section, a subscription is worth paying for while you're shopping for a car.
+
+### A Camry Hybrid from Carvana
+
+I ended up getting a different car for my daughter, a Toyota Camry Hybrid, which is also a top Consumer Reports car. I bought it from Carvana, and it was only one year old, so I got a great deal. We deliberately avoided fleet cars, since those tend to have high miles. This one was a single-owner car with about 8,000 miles, and it drives like it's new.
+
+I was impressed with Carvana. Everything about the process was smooth. On the day I went to pick up the car, they had an unusual delay, so they delivered it to my house the next day for free. The car has worked extremely well so far, and my daughter absolutely loves it. She especially loves how zippy and responsive it is.
+
+Overall, Carvana is a pretty amazing system. Their logistics run smoothly, and the whole thing feels like a well-oiled operation. You also get a selection from across the entire country. The catch is that you need to know exactly which car you want before you order, since you can't test drive it first. That's part of why I was test driving so many cars at Carmax and dealerships, because I was trying to narrow down the car I wanted. Once you've done that, you pick the color, mileage, and other details, and the car just arrives. I really can't recommend Carvana enough.
+
+If you're deciding between powertrains, definitely get the hybrid. The hybrids feel great, and you don't have to worry about charging them. They get great gas mileage, and with the instant torque from the electric motor, they feel almost like an electric car. The Forester Hybrid [uses a version of Toyota's hybrid system](https://www.slashgear.com/1823469/2025-subaru-forester-hybrid-first-drive-specs-mpg-pricing-performance/) paired with Subaru's own boxer engine and all-wheel drive, so the two cars share more than you might expect.
+
+### Two weeks later
+
+This outcome complicates the paradox I described in the conclusion. The first time around, I bought the Civic in a state of exhaustion, partly just to be done with the decision, and I regretted it within a week. The second time, I researched and test drove to the point of exhaustion again, but I ended up with two cars we love. Did maximizing pay off after all? Or did the Civic simply teach me what I didn't want, so the second search had clearer criteria? I'm not sure, but the story doesn't fit neatly with the idea that more information always leaves you feeling worse.
+
+The Civic also changed how I think about price. Yes, I lost money on that first car, but it's better to lose some money and end up with the right car. When you're negotiating and wondering whether to pay an extra few thousand dollars, or even $5,000, for the car you actually want, my advice is to pay it. If you get the right car, the extra cost eventually becomes a distant memory. In contrast, if you buy the wrong car, or buy a car just because it's cheaper, you're stuck with that decision for years and are reminded of it daily. In other words, spend a little more to get the right car.
+
+One thing I've noticed is that you really know whether you bought the right car after about two weeks of driving it. With the Civic, I knew within a week that something was off. With the Forester and the Camry, two weeks in, I felt like we'd made solid choices. Anyway, that chapter of my life is over now, and I can move on. We're happy with our cars.
+
 ## Works Cited
 
 Barry, Keith. "Can You Use AI to Help You Buy a Car?" *Consumer Reports*, 29 May 2026, [www.consumerreports.org/cars/buying-a-car/can-you-use-ai-to-help-you-buy-a-car-a5997374584/](http://www.consumerreports.org/cars/buying-a-car/can-you-use-ai-to-help-you-buy-a-car-a5997374584/).
 
 "Best Cars and SUVs for Tall People, Based on Testing by Tall Drivers." *Consumer Reports*, [www.consumerreports.org/cars/buying-a-car/best-cars-and-suvs-for-tall-people-a7931047074](http://www.consumerreports.org/cars/buying-a-car/best-cars-and-suvs-for-tall-people-a7931047074).
+
+"Buying Precautions: Used Car Considerations." *Washington State Office of the Attorney General*, [www.atg.wa.gov/buying-precautions-used-car-considerations](https://www.atg.wa.gov/buying-precautions-used-car-considerations).
 
 "CarMax Trimming Money-Back Guarantee to 10 Days." *Kelley Blue Book*, 2024, [www.kbb.com/car-news/carmax-trimming-money-back-guarantee-to-10-days/](http://www.kbb.com/car-news/carmax-trimming-money-back-guarantee-to-10-days/).
 
@@ -178,6 +230,8 @@ Cheng, Myra, et al. "Sycophantic AI Decreases Prosocial Intentions and Promotes 
 "Cox Automotive Car Buyer Journey Study Finds Efficiency, Digital Tools and AI Drive Record Satisfaction." *Cox Automotive*, [www.coxautoinc.com/insights/cox-automotive-car-buyer-journey-study-finds-efficiency-digital-tools-and-ai-drive-record-satisfaction/](http://www.coxautoinc.com/insights/cox-automotive-car-buyer-journey-study-finds-efficiency-digital-tools-and-ai-drive-record-satisfaction/).
 
 "The 48-Hour Test Drive Is the New Car-Buying Hack." *CBS 17*, 1 July 2026, [www.cbs17.com/uncategorized/the-48-hour-test-drive-is-the-new-car-buying-hack/](http://www.cbs17.com/uncategorized/the-48-hour-test-drive-is-the-new-car-buying-hack/).
+
+"Honda Recalls 1.7 Million U.S. Vehicles over Steering Risk." *CBS News*, Oct. 2024, [www.cbsnews.com/news/honda-recall-us-steering-gearbox-acura/](https://www.cbsnews.com/news/honda-recall-us-steering-gearbox-acura/).
 
 "How to Negotiate a Used Car Price: The Complete Strategy." *Bumper*, [www.bumper.com/car-advice/buying/how-to-negotiate-used-car-price](http://www.bumper.com/car-advice/buying/how-to-negotiate-used-car-price).
 
@@ -192,6 +246,8 @@ Reynolds, Jerry. "Why It's Important to Take an Extended Test Drive." *CarPro*, 
 Schwartz, Barry. *The Paradox of Choice: Why More Is Less*. Ecco, 2004.
 
 "7-Day Money Back Guarantee." *Carvana*, [www.carvana.com/help/purchasing-a-car/return-vehicle-during-7-day-money-back-guarantee-refund/](http://www.carvana.com/help/purchasing-a-car/return-vehicle-during-7-day-money-back-guarantee-refund/).
+
+"2025 Subaru Forester Hybrid First Drive: Better Economy, Bigger Price." *SlashGear*, [www.slashgear.com/1823469/2025-subaru-forester-hybrid-first-drive-specs-mpg-pricing-performance](https://www.slashgear.com/1823469/2025-subaru-forester-hybrid-first-drive-specs-mpg-pricing-performance/).
 
 "2026 U.S. Automotive Performance, Execution and Layout (APEAL) Study." *J.D. Power*, 23 July 2026, [www.jdpower.com/business/press-releases/2026-u-s-automotive-performance-execution-and-layout-apeal-study/](http://www.jdpower.com/business/press-releases/2026-u-s-automotive-performance-execution-and-layout-apeal-study/).
 

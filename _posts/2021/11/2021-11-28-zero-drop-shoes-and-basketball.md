@@ -8,6 +8,12 @@ rebrandly: https://idbwrtng.com/zerodropbasketball
 description: "This post is mostly about shoes (and the way the shoe industry has gone awry), but it's not entirely unrelated to technical writing (which is the usual focus of this blog). Technical writing is a sedentary career that involves sitting all day. In this sedentary mode, it's easy to develop bad posture and other physical problems. At any rate, almost all of us have physical ailments of some kind, especially related to our feet, knees, and back. In this post, I argue that shoes with elevated/wedged heels might be partly to blame. Elevated/wedged heel shoes shorten and atrophy our calf muscles and imbalance our posture, leading to back pain, strained calves, and other issues. I share my story of why I got into wearing barefoot shoes and how I've reconciled natural movement with basketball playing."
 ---
 
+**Nov 8, 2026 update**: I just wanted to update this post. I went through a zero-drop shoe phase some years ago and was initially optimistic, but ultimately it didn't help prevent recurring calf strains. And in some ways, zero-drop shoes contributed other problems to my feet. I don't recommend zero-drop shoes anymore. 
+
+What fixes calf strains? A combination of physical therapy, rest, and general body strengthening and conditioning. If you landed on this post because you're trying to fix calf strains and are thinking of zero-drop shoes, don't pursue the shoe solution here. Use shoes that any podiatrist would recommend instead -- that is, shoes with a sole that is stiff (can't bend it in half), has good lateral support, etc.
+
+If you insist on zero-drop shoes, don't do what I did. Don't throw away all your regular shoes and replace them with zero-drop shoes in a kind of all-encompassing lifestyle switch. Get one pair, and ease into them. Maybe wear them in the gym on leg day when you're lifting, for example. But really, the zero-drop craze isn't founded on real evidence, and I don't recommend them.
+
 * TOC
 {:toc}
 
