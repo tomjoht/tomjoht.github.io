@@ -95,3 +95,7 @@ I like this approach because it would make writers more familiar with testing th
 ## Conclusion 
 
 I welcome feedback on my strategy here. Am I missing something key? Do you agree or disagree with any approach? If you have recommendations for improvement in any area, please let me know. I'll also be speaking at [Write the Docs Australia](https://www.writethedocs.org/conf/australia/2026/speakers/) in December about some of my favorite skills and how they've changed everything for me as a technical writer.
+
+## Related posts
+
+* [Achieving a feedback improvement loop with documentation by simulating user queries](/blog/improvement-feedback-loop-docs)

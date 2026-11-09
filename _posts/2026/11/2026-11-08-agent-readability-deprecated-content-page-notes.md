@@ -7,6 +7,7 @@ categories:
 keywords: agent readability, chunking, RAG, MCP servers, page-level notes, deprecated APIs, legacy APIs, chunk metadata, page descriptions, Developer Knowledge API, product skills
 rebrandly: https://idbwrtng.com/agent-readability-deprecated-content-page-notes
 description: "Of all my articles on agent readability, none has attracted as much attention as <a href='/blog/chunking-content-for-mcp-ingestion-agent-readability'>Chunking your content for agent readability</a>, probably because chunking raises so many hard problems for tech comm. One problem I haven't explored yet is how to carry top-level page notes, such as deprecation status, availability, release stage, and version numbers, into the later chunks of a page. Chunks that are disconnected from those notes can still be retrieved, recommended, and used by agents as if the notes didn't exist."
+linkedin: https://lnkd.in/p/grkqZyKR
 ---
 
 * TOC
@@ -68,3 +69,10 @@ When we put on agent goggles, that page status disappears, because the agent con
 To take this one step further, we should run before-and-after tests to see how the updates play out. We might come up with 20 questions that involve legacy APIs and ask the agent to answer them before pushing the updates to the RAG storage.
 
 After publishing the updates (and allowing time for ingestion), run the test again. Did the added metadata and heading labels have an impact? If your docs are exposed through more than one retrieval surface, such as an API and an MCP server, run the test through each one, since they might return different metadata. This is the sort of thinking and testing that we now do as technical writers.
+
+## Posts on agent readability
+
+* [Agent readability: Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly)
+* [Looking at a site like an agent — identifying semantics in styling](/blog/identify-semantics-in-styling-agents)
+* [Chunking your content for agent readability](/blog/chunking-content-for-mcp-ingestion-agent-readability)
+* [Achieving a feedback improvement loop with documentation by simulating user queries](/blog/improvement-feedback-loop-docs)

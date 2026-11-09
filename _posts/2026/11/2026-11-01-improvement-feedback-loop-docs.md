@@ -321,3 +321,14 @@ For now, my next steps are smaller than the original plan:
 * Focus on the few patterns that showed up in most runs, instead of chasing every one-off bug.
 * Keep the same prompts as a fixed set and rerun them after fixes land, comparing how often each problem appears.
 * Automate the checks. Many of these patterns can be detected by searching the exported code, so the scoring doesn't need a person reading every log.
+
+## Posts on agent readability
+
+* [Agent readability: Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly)
+* [Looking at a site like an agent — identifying semantics in styling](/blog/identify-semantics-in-styling-agents)
+* [Chunking your content for agent readability](/blog/chunking-content-for-mcp-ingestion-agent-readability)
+* [Agent readability: Carrying over top-level page notes into independent chunks](/blog/agent-readability-deprecated-content-page-notes)
+
+## Related posts
+
+* [My AI strategy to fix docs based on chat logs](/blog/ai-strategy-to-fix-docs-based-logs)

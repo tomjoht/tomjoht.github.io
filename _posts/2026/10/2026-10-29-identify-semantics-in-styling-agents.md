@@ -71,3 +71,10 @@ So Markdown wins for two reasons. First, it costs fewer tokens than HTML. Second
 ## Conclusion
 
 What's the takeaway? Look at your documentation site. Focus on the complex widgets, tables, and other stylistic displays. Then look at those same pages the way an agent sees them, through your Markdown mirror or an agent's fetch. That's the structure you're communicating to agents. Work within those bounds as much as possible to deliver clear, accurate information. The headings in that Markdown are the most significant semantic structure you can provide, since many retrieval pipelines split Markdown into chunks by heading.
+
+## Posts on agent readability
+
+* [Agent readability: Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly)
+* [Chunking your content for agent readability](/blog/chunking-content-for-mcp-ingestion-agent-readability)
+* [Achieving a feedback improvement loop with documentation by simulating user queries](/blog/improvement-feedback-loop-docs)
+* [Agent readability: Carrying over top-level page notes into independent chunks](/blog/agent-readability-deprecated-content-page-notes)

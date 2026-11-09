@@ -13,7 +13,7 @@ linkedin: https://lnkd.in/p/gYM9vfea
 * TOC
 {:toc}
 
-My last few posts have focused on agent readability ([Making documentation pages agent friendly](/blog/make-documentation-agent-friendly) and [Looking at a site like an agent](/blog/identify-semantics-in-styling-agents)), and this one continues the series with another aspect of agent readability: chunking. Before I jump into this, I have to pause and say how much I like the agent readability topic. It fits well within my interests and wheelhouse. I've always had an interest in websites and optimizing content. 
+My last few posts have focused on agent readability ([Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly) and [Looking at a site like an agent](/blog/identify-semantics-in-styling-agents)), and this one continues the series with another aspect of agent readability: chunking. Before I jump into this, I have to pause and say how much I like the agent readability topic. It fits well within my interests and wheelhouse. I've always had an interest in websites and optimizing content. 
 
 Throughout my career, whether it's been doing WordPress consulting, building my own site on Jekyll, or even back to my composition teaching days when I built an interactive website with Dreamweaver to teach writing, I've always loved the power and freedom that comes with being able to design and build your own site. 
 
@@ -21,7 +21,7 @@ Now I'm taking this enthusiasm to my documentation site at work and loving it. A
 
 ## Two ways agents read your docs
 
-There are at least two ways agents read your documentation site. The first is at run time, such as during a coding session. The agent searches the web or your site, picks a page, and fetches it with a web fetch tool. The fetch tool converts the HTML to Markdown (or retrieves your Markdown mirror, if the agent knows to ask for it), and the agent reads the whole page, at least up to its truncation limit. I covered this path in [Making documentation pages agent friendly](/blog/make-documentation-agent-friendly).
+There are at least two ways agents read your documentation site. The first is at run time, such as during a coding session. The agent searches the web or your site, picks a page, and fetches it with a web fetch tool. The fetch tool converts the HTML to Markdown (or retrieves your Markdown mirror, if the agent knows to ask for it), and the agent reads the whole page, at least up to its truncation limit. I covered this path in [Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly).
 
 The second way is through an MCP server (or another retrieval system) that searches an index of your docs. In this case, the agent usually doesn't read your page as a whole page. Instead, it reads chunks, which are passages that a chunker split out of your page when the index was built. The rest of this post focuses on this second path, because chunking changes how you might think about headings, section length, and elements like tables and code samples.
 
@@ -159,7 +159,7 @@ To reduce this risk, break long procedures into shorter ones, each under a speci
 
 ## Tabbed content
 
-Tabbed content can cause similar problems. As I noted in [Making documentation pages agent friendly](/blog/make-documentation-agent-friendly), tabs serialize into one long sequence when a page is converted to Markdown. A section with tabs for five platforms can be five times longer than it looks on screen, which can push it well past the chunk size. Tab labels might also get lost in conversion, so a chunk might contain Android instructions without saying that they're for Android.
+Tabbed content can cause similar problems. As I noted in [Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly), tabs serialize into one long sequence when a page is converted to Markdown. A section with tabs for five platforms can be five times longer than it looks on screen, which can push it well past the chunk size. Tab labels might also get lost in conversion, so a chunk might contain Android instructions without saying that they're for Android.
 
 For tabs that hold short code snippets, this probably isn't a big issue. For tabs that hold entire tutorials, consider giving each platform its own page or its own section with a heading that names the platform.
 
@@ -174,3 +174,10 @@ As I mentioned earlier, it's important to understand exactly how your chunker wo
 A simulation only approximates what the real chunker does, though. If you can, look at the actual chunks too. Agent Search, for example, has an API method that lists all the chunks it created for a document, so if you have access to the data store, you can see exactly how each page was split. Checking a long table, a long code sample, and a page with images is a quick way to see how your pipeline handles them.
 
 Fortunately, optimizing chunking is a fairly easy task for an AI tool. I was able to scan hundreds of pages and make sweeping updates with very little need for extensive review and approval. Changes to the substance of your content, such as how a product works, usually need review from subject matter experts (SMEs). Changes to the technical structure, such as adding headings or replacing pseudo headings with real heading tags, don't change what the content says. As a result, these updates can usually skip SME review, which makes them much faster to roll out.
+
+## Posts on agent readability
+
+* [Agent readability: Why agents can't see content that JavaScript loads on click](/blog/make-documentation-agent-friendly)
+* [Looking at a site like an agent — identifying semantics in styling](/blog/identify-semantics-in-styling-agents)
+* [Achieving a feedback improvement loop with documentation by simulating user queries](/blog/improvement-feedback-loop-docs)
+* [Agent readability: Carrying over top-level page notes into independent chunks](/blog/agent-readability-deprecated-content-page-notes)

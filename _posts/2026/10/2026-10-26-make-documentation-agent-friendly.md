@@ -1,5 +1,5 @@
 ---
-title: "Making documentation pages agent friendly"
+title: "Agent readability: Why agents can't see content that JavaScript loads on click"
 permalink: /blog/make-documentation-agent-friendly
 date: 2026-10-26
 categories:
@@ -607,6 +607,13 @@ Chunking is a design choice made by whoever builds the index, and splitting at h
 Overall, understanding the view that agents have of content has opened my eyes in a way. I find myself regularly looking at the Markdown version of the page to see just how the content looks. It's pretty plain, serving up content in Markdown syntax (including Markdown table syntax). I go into more detail on these problems, with sources, in [Making docs accessible to agents](/ai/product-skills-agent-friendly-docs.html), a topic in my agent skills course.
 
 When I notice issues, they are among the easiest to fix, but you can't just fix a single instance on your site. Treat each instance as a larger pattern to fix across your entire content.
+
+## Posts on agent readability
+
+* [Looking at a site like an agent — identifying semantics in styling](/blog/identify-semantics-in-styling-agents)
+* [Chunking your content for agent readability](/blog/chunking-content-for-mcp-ingestion-agent-readability)
+* [Achieving a feedback improvement loop with documentation by simulating user queries](/blog/improvement-feedback-loop-docs)
+* [Agent readability: Carrying over top-level page notes into independent chunks](/blog/agent-readability-deprecated-content-page-notes)
 
 ----
 
