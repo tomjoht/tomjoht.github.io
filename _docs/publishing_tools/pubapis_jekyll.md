@@ -6,7 +6,7 @@ sidebar: docapis
 weight: 9.95
 path1: learnapidoc/publishingtools.html
 section: publishingtools
-last-modified: 2026-10-17
+last-modified: 2026-11-08
 ---
 
 {% include coffeeshopbook.html %}
@@ -22,9 +22,9 @@ Jekyll is a Ruby-based [static site generator](pubapis_static_site_generators.ht
 
 {% include random_ad2.html %}
 
-Here's a [documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) that I developed for Jekyll:
+Here's a [documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) that I developed for Jekyll. In November 2026, I released [version 8.0](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_release_notes_80.html), which redesigns the theme on Bootstrap 5 so that it looks more like idratherbewriting.com.
 
-<a href="https://idratherbewriting.com/documentation-theme-jekyll/" class="noExtIcon"><img src="{{site.api_media}}/jekylldocumentationtheme.png" size="large" alt="My Jekyll Documentation theme" /></a>
+<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/" class="noExtIcon"><img class="docimage large" src="{{site.media}}/jekyll-doc-theme-version8.png" alt="Documentation theme for Jekyll, version 8.0" /></a><figcaption>Documentation theme for Jekyll, version 8.0</figcaption></figure>
 
 There isn't any kind of special API reference endpoint formatting here, but the platform is so flexible, you can do anything with it as long as you know HTML, CSS, and JavaScript (the fundamental language of the web). With a static site generator, you have a tool for building a full-fledged website using pretty much any style or JavaScript framework you want. With the Jekyll website, you can include complex navigation, content re-use, variables, and more.
 
