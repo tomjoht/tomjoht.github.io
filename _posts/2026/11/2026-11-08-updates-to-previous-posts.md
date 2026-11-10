@@ -5,7 +5,7 @@ date: 2026-11-08
 categories:
 - writing
 keywords: post updates, coffee, car buying, Honda Civic sticky steering, Subaru Forester Hybrid, Carvana, zero-drop shoes, barefoot shoes, calf strains, Jekyll, Documentation theme for Jekyll, Bootstrap 5, GitHub Pages
-description: "I don't often update previous posts, but I recently updated four things I really wanted to revisit. I went back to drinking coffee, returned the Honda Civic from my car-buying post, stopped recommending zero-drop shoes for calf strains, and released a new version of my documentation theme for Jekyll, which now looks more like idratherbewriting.com."
+description: "I don't often update previous posts, but I recently updated four things I really wanted to revisit. I went back to drinking coffee, returned the Honda Civic mentioned in my car-buying post, stopped recommending zero-drop shoes for calf strains, and released a new version of my documentation theme for Jekyll, which now looks more like idratherbewriting.com."
 ---
 
 Here are the 4 posts I updated and why:
