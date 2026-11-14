@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.1.2)
+    activesupport (8.1.4.1)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.3.1)
@@ -23,14 +23,14 @@ GEM
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     base64 (0.3.0)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
     colorator (1.1.0)
     commonmarker (0.23.12)
-    concurrent-ruby (1.3.6)
+    concurrent-ruby (1.3.8)
     connection_pool (3.0.2)
     csv (3.3.5)
     dnsruby (1.73.1)
@@ -62,14 +62,14 @@ GEM
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    github-pages (232)
+    github-pages (233)
       github-pages-health-check (= 1.18.2)
       jekyll (= 3.10.0)
       jekyll-avatar (= 0.8.0)
       jekyll-coffeescript (= 1.2.2)
       jekyll-commonmark-ghpages (= 0.5.1)
       jekyll-default-layout (= 0.1.5)
-      jekyll-feed (= 0.17.0)
+      jekyll-feed (= 0.18.0)
       jekyll-gist (= 1.5.0)
       jekyll-github-metadata (= 2.16.1)
       jekyll-include-cache (= 0.2.1)
@@ -77,11 +77,11 @@ GEM
       jekyll-optional-front-matter (= 0.3.2)
       jekyll-paginate (= 1.1.0)
       jekyll-readme-index (= 0.3.0)
-      jekyll-redirect-from (= 0.16.0)
+      jekyll-redirect-from (= 0.17.0)
       jekyll-relative-links (= 0.6.1)
-      jekyll-remote-theme (= 0.4.3)
+      jekyll-remote-theme (= 0.6.2)
       jekyll-sass-converter (= 1.5.2)
-      jekyll-seo-tag (= 2.8.0)
+      jekyll-seo-tag (= 2.9.1)
       jekyll-sitemap (= 1.4.0)
       jekyll-swiss (= 1.0.0)
       jekyll-theme-architect (= 0.2.0)
@@ -120,7 +120,7 @@ GEM
     http_parser.rb (0.8.1)
     httpclient (2.9.0)
       mutex_m
-    i18n (1.14.8)
+    i18n (1.15.2)
       concurrent-ruby (~> 1.0)
     jekyll (3.10.0)
       addressable (~> 2.4)
@@ -160,7 +160,7 @@ GEM
       rouge (>= 2.0, < 5.0)
     jekyll-default-layout (0.1.5)
       jekyll (>= 3.0, < 5.0)
-    jekyll-feed (0.17.0)
+    jekyll-feed (0.18.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
@@ -177,18 +177,19 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
-    jekyll-redirect-from (0.16.0)
+    jekyll-redirect-from (0.17.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-remote-theme (0.4.3)
+    jekyll-remote-theme (0.6.2)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
-      jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
-      rubyzip (>= 1.3.0, < 3.0)
+      jekyll-sass-converter (>= 1.0, < 4.0, != 2.0.0)
+      openssl (>= 3.1.2)
+      rubyzip (>= 1.3.0, < 4.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.8.0)
+    jekyll-seo-tag (2.9.1)
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
@@ -241,7 +242,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.18.1)
+    json (2.21.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -257,8 +258,9 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (6.0.1)
-      prism (~> 1.5)
+    minitest (6.1.0)
+      drb (~> 2.0)
+      prism (>= 1.5, < 3)
     mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
@@ -281,10 +283,18 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    openssl (4.0.2)
     ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    prism (1.9.0)
+    prism (2.1.0-aarch64-linux-gnu)
+    prism (2.1.0-aarch64-linux-musl)
+    prism (2.1.0-arm-linux-gnu)
+    prism (2.1.0-arm-linux-musl)
+    prism (2.1.0-arm64-darwin)
+    prism (2.1.0-x86_64-darwin)
+    prism (2.1.0-x86_64-linux-gnu)
+    prism (2.1.0-x86_64-linux-musl)
     progressbar (1.13.0)
     public_suffix (5.1.1)
     racc (1.8.1)
@@ -293,7 +303,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (3.30.0)
-    rubyzip (2.4.1)
+    rubyzip (3.4.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -312,7 +322,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
-    uri (1.1.1)
+    uri (1.1.2)
     verbal_expressions (0.1.5)
     webrick (1.9.2)
 
@@ -336,17 +346,17 @@ DEPENDENCIES
   webrick
 
 CHECKSUMS
-  activesupport (8.1.2) sha256=88842578ccd0d40f658289b0e8c842acfe9af751afee2e0744a7873f50b6fdae
+  activesupport (8.1.4.1) sha256=16ac4f341ca65c85a1fcdb8ac73f68891aae9e3c4a6f9c3a27daed8b00017ed7
   addressable (2.8.8) sha256=7c13b8f9536cf6364c03b9d417c19986019e28f7c00ac8132da4eb0fe393b057
   algolia_html_extractor (2.6.4) sha256=b284a396ea95852e1fcf68b248db178c2d1e2e4d426b49b728596961266f9121
   algoliasearch (1.27.5) sha256=26c1cddf3c2ec4bd60c148389e42702c98fdac862881dc6b07a4c0b89ffec853
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
-  bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
+  bigdecimal (4.1.3) sha256=61ebe1e5e559bdc3cc6f2c0ee7f427321fc838f59611c294356eb04d6e21cf66
   coffee-script (2.4.1) sha256=82fe281e11b93c8117b98c5ea8063e71741870f1c4fbb27177d7d6333dd38765
   coffee-script-source (1.12.2) sha256=e12b16fd8927fbbf8b87cb2e9a85a6cf457c6881cc7ff8b1af15b31f70da07a4
   colorator (1.1.0) sha256=e2f85daf57af47d740db2a32191d1bdfb0f6503a0dfbc8327d0c9154d5ddfc38
   commonmarker (0.23.12) sha256=da2d2f89c7c7b51c42c6e69ace3ab5df39497683f86e83aca7087c671d523ccd
-  concurrent-ruby (1.3.6) sha256=6b56837e1e7e5292f9864f34b69c5a2cbc75c0cf5338f1ce9903d10fa762d5ab
+  concurrent-ruby (1.3.8) sha256=b2f1be836e968ccc78ccfce277ea79c72a88633f22306782c16ff23fb415d1e1
   connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
   csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
   dnsruby (1.73.1) sha256=6cf327f5fe2768deadb5e3f3e899ff1ae110aefcef43fef32e1e55e71289e992
@@ -368,12 +378,12 @@ CHECKSUMS
   filesize (0.2.0) sha256=0f5db8629d628b60857dd8e7b8d52f427e6b7b9dc49265bfda71c0d383cbe79e
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   gemoji (4.1.0) sha256=734434020cbe964ea9d19086798797a47d23a170892de0ce55b74aa65d2ddc1a
-  github-pages (232) sha256=2b40493d7327627e4ce45c47f4a9d4394e5eaa151f9d29bb924ff424c3132287
+  github-pages (233) sha256=9634a77e0f8311fd33f06921f44794b8511ecd5da5b72dcc39ab048d1a4f9201
   github-pages-health-check (1.18.2) sha256=df893d4f5a4161477e8525b993dbe1c1eb63fbb86fb07b6e80996fd37a18843d
   html-pipeline (2.14.3) sha256=8a1d4d7128b2141913387cac0f8ba898bb6812557001acc0c2b46910f59413a0
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
   httpclient (2.9.0) sha256=4b645958e494b2f86c2f8a2f304c959baa273a310e77a2931ddb986d83e498c8
-  i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
+  i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
   jekyll (3.10.0) sha256=c4213b761dc7dfe7d499eb742d0476a02d8503e440c2610e19774ee7f0db8d90
   jekyll-algolia (1.7.1) sha256=0f1501d2ec1d6550261c34f4ff4d46c72b1352823c4c5b8c67632bc92719fb49
   jekyll-avatar (0.8.0) sha256=ea736277c2de54a21300122096700517972a722d5c68ca83f8723b4999abfd4b
@@ -381,7 +391,7 @@ CHECKSUMS
   jekyll-commonmark (1.4.0) sha256=1731e658fe09ce040271e6878f83ad45bbf8d17b10ad03bf343546cca30f4844
   jekyll-commonmark-ghpages (0.5.1) sha256=d56722f23393e45625e6e1bac6d3c64bb5f5cdf6ca547338160536d61c27a4a4
   jekyll-default-layout (0.1.5) sha256=c626be4e4a5deafca123539da2cd22ff873be350cafd4da134039efdf24320af
-  jekyll-feed (0.17.0) sha256=689aab16c877949bb9e7a5c436de6278318a51ecb974792232fd94d8b3acfcc3
+  jekyll-feed (0.18.0) sha256=8e6829f455b8764a8fa1bbb198d0ebb3525128dacc6ffe9d15f4df7388bc3647
   jekyll-gist (1.5.0) sha256=495b6483552a3e2975a2752964ea7acddd545bc6e13ce2be15a50cec8d4c9f0f
   jekyll-github-metadata (2.16.1) sha256=4cf29988bdaf24774a7bc07fae71e54424ddfaa2895f742d8fa3036d0db65b4c
   jekyll-include-cache (0.2.1) sha256=c7d4b9e551732a27442cb2ce853ba36a2f69c66603694b8c1184c99ab1a1a205
@@ -389,11 +399,11 @@ CHECKSUMS
   jekyll-optional-front-matter (0.3.2) sha256=ecdc061d711472469fcf04da617653b553e914c038a17df3b6a5f6f92aeb761b
   jekyll-paginate (1.1.0) sha256=880aadf4b02529a93541d508c5cbb744f014cbfc071d0263a31f25ec9066eb64
   jekyll-readme-index (0.3.0) sha256=d74cc4de46b2d350229be7409495149e656a31fb5a5fe3fe6135dbf7435e1e32
-  jekyll-redirect-from (0.16.0) sha256=6635cae569ef9b0f90ffb71ec014ba977177fafb44d32a2b0526288d4d9be6db
+  jekyll-redirect-from (0.17.0) sha256=703dab0428b20bb5d550ab83d3c28b65bb5ecc0f734c5e61ee680de391b3e897
   jekyll-relative-links (0.6.1) sha256=d11301f57b39e94b6c04fff2a3b145fe2f6a27be631a403e2542fa2e1548dd6d
-  jekyll-remote-theme (0.4.3) sha256=d3fde726484fb3df04de9e347baf75aaa3d5bfea771a330412e0c52608e54b40
+  jekyll-remote-theme (0.6.2) sha256=f3c423c38652aaf87ecf5ee08b20812c265e8395d9d6ef91cef7f49033263afa
   jekyll-sass-converter (1.5.2) sha256=53773669e414dc3bb070113befacb808576025a28cfa4a4accc682e90a9c1101
-  jekyll-seo-tag (2.8.0) sha256=3f2ed1916d56f14ebfa38e24acde9b7c946df70cb183af2cb5f0598f21ae6818
+  jekyll-seo-tag (2.9.1) sha256=ed5c757a091048b6ef9109f856f84a29beaeb70f531ba5775a5e92129a28093e
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218
   jekyll-swiss (1.0.0) sha256=c299a855dca881fe868f21545c5489be50ddfbc0d54a80e8dbeb5a2ddc4888a3
   jekyll-theme-architect (0.2.0) sha256=7275d3dcaa6b34fcf92f2fe5cee92d49d66706d3b523003b1e67e9c668ff0440
@@ -412,7 +422,7 @@ CHECKSUMS
   jekyll-titles-from-headings (0.5.3) sha256=77366754e361ea7b5d87881f5b1380835f5ce910c240a4d9ac2d7afe86d28481
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   jemoji (0.13.0) sha256=5d4c3e8e2cbbb2b73997c31294f6f70c94e4d4fade039373e86835bcf5529e7c
-  json (2.18.1) sha256=fe112755501b8d0466b5ada6cf50c8c3f41e897fa128ac5d263ec09eedc9f986
+  json (2.21.2) sha256=1f1d3b7cf2b3ba1a69beca0bb6db13d5438b80bff3cd54cdaaa620b9b07c1c6a
   kramdown (2.4.0) sha256=b62e5bcbd6ea20c7a6730ebbb2a107237856e14f29cebf5b10c876cc1a2481c5
   kramdown-parser-gfm (1.1.0) sha256=fb39745516427d2988543bf01fc4cf0ab1149476382393e0e9c48592f6581729
   liquid (4.0.4) sha256=4fcfebb1a045e47918388dbb7a0925e7c3893e58d2bd6c3b3c73ec17a2d8fdb3
@@ -420,7 +430,7 @@ CHECKSUMS
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   mercenary (0.3.6) sha256=2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82
   minima (2.5.1) sha256=520e52bc631fb16cbb8100660f6caa44f97859e2fa7e397d508deb18739567be
-  minitest (6.0.1) sha256=7854c74f48e2e975969062833adc4013f249a4b212f5e7b9d5c040bf838d54bb
+  minitest (6.1.0) sha256=ff373595aa8888631e8a5463986a76b3845346ae6d7fa46e139c1633d418076e
   mutex_m (0.3.0) sha256=cfcb04ac16b69c4813777022fdceda24e9f798e48092a2b817eb4c0a782b0751
   net-http (0.9.1) sha256=25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996
   nokogiri (1.19.0-aarch64-linux-gnu) sha256=11a97ecc3c0e7e5edcf395720b10860ef493b768f6aa80c539573530bc933767
@@ -432,9 +442,17 @@ CHECKSUMS
   nokogiri (1.19.0-x86_64-linux-gnu) sha256=f482b95c713d60031d48c44ce14562f8d2ce31e3a9e8dd0ccb131e9e5a68b58c
   nokogiri (1.19.0-x86_64-linux-musl) sha256=1c4ca6b381622420073ce6043443af1d321e8ed93cc18b08e2666e5bd02ffae4
   octokit (4.25.1) sha256=c02092ee82dcdfe84db0e0ea630a70d32becc54245a4f0bacfd21c010df09b96
+  openssl (4.0.2) sha256=1037ad2868ae58df9ad917891c0c0f9815a1172f6846d4bcdd508e4c2ee747c2
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   pathutil (0.16.2) sha256=e43b74365631cab4f6d5e4228f812927efc9cb2c71e62976edcb252ee948d589
-  prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
+  prism (2.1.0-aarch64-linux-gnu) sha256=808dddc72def68e1a0463689414c97e0ba211938eddbab05387a4844aa2b3ec2
+  prism (2.1.0-aarch64-linux-musl) sha256=dd1a0732620c1e575dabb07a297a62911fabd72f8e20ce850b522a866f877930
+  prism (2.1.0-arm-linux-gnu) sha256=96b2426b9dbab05448c4add735619929042be3cd7e871ff186468121b62bcfa8
+  prism (2.1.0-arm-linux-musl) sha256=00ef918e42a3dc98f11a461bf473586a3424b0f78bee8a4e43b5a65a5f5e2cd0
+  prism (2.1.0-arm64-darwin) sha256=2d0c2e3e011cfd89c041940907d3ff3def379d7b0f2ba158d1d42238e8ad8afc
+  prism (2.1.0-x86_64-darwin) sha256=6c645d8e6afc742956c7518220ce5106367727c4d9980ac9ab386d55004ddab4
+  prism (2.1.0-x86_64-linux-gnu) sha256=b2b647afce09551e650b8bb3e2fc91d7d73d392a09534ca307ec0d619c33bfd4
+  prism (2.1.0-x86_64-linux-musl) sha256=249f45981726923e259b927902246219fa25ad10a76f43849c9aee1a3d3ec5b8
   progressbar (1.13.0) sha256=18c921d1c527dbe7eba3c5a07a1e3bcdd5e42fc18276f5711187a7489448be78
   public_suffix (5.1.1) sha256=250ec74630d735194c797491c85e3c6a141d7b5d9bd0b66a3fa6268cf67066ed
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
@@ -442,7 +460,7 @@ CHECKSUMS
   rb-inotify (0.11.1) sha256=a0a700441239b0ff18eb65e3866236cd78613d6b9f78fea1f9ac47a85e47be6e
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rouge (3.30.0) sha256=a3d353222aa72e49e2c86726c0bcfd719f82592f57d494474655f48e669eceb6
-  rubyzip (2.4.1) sha256=8577c88edc1fde8935eb91064c5cb1aef9ad5494b940cf19c775ee833e075615
+  rubyzip (3.4.0) sha256=6de39bc9eba302b635a476d16c9e16b0872ad24517c2f98f2b3a7ea23caff57b
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
   sass (3.7.4) sha256=808b0d39053aa69068df939e24671fe84fd5a9d3314486e1a1457d0934a4255d
   sass-listen (4.0.0) sha256=ae9dcb76dd3e234329e5ba6e213f48e532c5a3e7b0b4d8a87f13aaca0cc18377
@@ -453,7 +471,7 @@ CHECKSUMS
   typhoeus (1.5.0) sha256=120b67ed1ef515e6c0e938176db880f15b0916f038e78ce2a66290f3f1de3e3b
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
   unicode-display_width (1.8.0) sha256=0292132d364d59fcdd83f144910c48b3c8332b28a14c5c04bb093dd165600488
-  uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
+  uri (1.1.2) sha256=89292e98eabbef6248b0a0ed5e7e398e152f83f17560023a6d94a7f492b169fb
   verbal_expressions (0.1.5) sha256=f67774ce6e23a192bd304cadaeba2b01b78bc77e3bde07b4dcd1f53418794f1b
   webrick (1.9.2) sha256=beb4a15fc474defed24a3bda4ffd88a490d517c9e4e6118c3edce59e45864131
 
