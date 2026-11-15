@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/looking-at-book-club-one-year-in
 linkedin: https://www.linkedin.com/posts/tomjoht_looking-back-at-the-ai-book-club-one-year-share-7462132691128180736-S4_3
 ---
 
+{:.note}
+**Update (November 2026):** Seven months after this post went up, the [AI Book Club wrapped up](/ai-book-club/#concluded) after its nineteenth book, [*Co-Existence* by Ethan Mollick](/blog/ai-book-club-co-existence-mollick). Looking back, the signs described below, such as feeling duty over excitement and seeing new AI books repeat the same themes, were early signals that the club was starting to lose momentum and nearing its natural end. All 19 recordings, discussion docs, and reviews remain online in the [AI Book Club archive](/ai-book-club/).
+
 This month marks the one-year anniversary of the [AI Book Club](/ai-book-club/). We've now read 12 books in the club — see the [list of books](/ai-book-club/#previous). For each session you can view recordings, notes, transcripts, discussion questions, etc.
 
 By some measures, the book club might not be considered much of a success. For each session, I record the discussion using Google Meet. Then I publish the recording on YouTube, along with a transcript and other notes. For the 12 videos, *combined* there are only about 2,000+ views. And the number of attendees has fluctuated but averages probably 4-5 per session. (In comparison, a popular podcast might get this many views from the single episode alone.)

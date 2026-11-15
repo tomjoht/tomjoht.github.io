@@ -15,6 +15,7 @@ podcast_file_size: 80.9
 podcast_duration: "00:56:12"
 podcast_length: 80934034
 image: ai-book-club-coexistence-title-thumb.png
+linkedin: https://lnkd.in/p/g6btXTcy
 ---
 
 Note: These shownotes are AI-generated.
