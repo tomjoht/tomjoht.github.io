@@ -1,7 +1,11 @@
-upcoming:
+upcoming: []
+
+previous:
 
   - date: "Nov 15, 2026"
-    time: "10am PT"
+    recording:
+      url: "/blog/ai-book-club-co-existence-mollick"
+      text: "Meeting recording"
     book:
       title: "Co-Existence: The Next Phase of AI"
       author: "Ethan Mollick"
@@ -11,9 +15,6 @@ upcoming:
       summary: >
         "How do we live alongside machines that are sometimes smarter than us? We are entering a new era. AI systems can already outperform humans in some domains while failing spectacularly in others. They can act as tutors, collaborators, researchers, strategists, and creators…yet they can also produce falsehoods, generate convincing nonsense, and fail unpredictably. The challenge is no longer simply adopting new technology. It is learning how to think, work, and live in a world where machines are sometimes smarter than us."
     notes_url: "https://docs.google.com/document/d/1i3c6FVADX0FwNoVAeT16vwY-0NnBszlfrS5pRoWg2Z8/edit?tab=t.0#heading=h.s6smen5t0so5"
-    meet_url: "https://riverside.com/studio/tom-johnsons-studio-XkEKG?t=ptht-nbig"
-
-previous:
 
   - date: "Oct 18, 2026"
     recording:

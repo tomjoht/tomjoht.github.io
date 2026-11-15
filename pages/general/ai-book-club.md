@@ -4,117 +4,29 @@ permalink: /ai-book-club/
 sidebar: sidebar_ai_book_club
 linkedin: https://www.linkedin.com/posts/tomjoht_ai-book-club-a-human-in-the-loop-activity-7305637955602157569-3Oh3
 type: page
-last-modified: 2026-04-27
+last-modified: 2026-11-15
 ---
 
-This book club focuses on reading and discussing popular books about AI and technology, with an emphasis on how humans, specifically tech writers, might steer and guide AI systems toward the outcomes they want. 
+{:.note}
+The AI Book Club concluded in November 2026 after reading 19 books over nearly two years. All [meeting recordings, discussion notes, transcripts, and book reviews](#previous) remain archived below, along with a [visual gallery of all 19 books](/ai-book-club-books/) and notes on [how the club was set up and run](#how-it-worked).
 
-We don't limit ourselves to AI-only books — that would get tiring. We also read general interest books on technology, since most tech topics connect to AI in some way. We tend to alternate between AI-focused titles and broader technology reads. The selection covers popular, accessible books rather than engineering-heavy texts or books specifically focused on technical communication. 
+From April 2025 through November 2026, this book club met monthly to read and discuss popular books about AI and technology, with an emphasis on how humans, particularly technical writers, might steer and guide AI systems toward the outcomes they want.
 
-Regardless of their popular focus, these books are a good catalyst for thinking about AI, and there are many themes and takeaways that will likely apply to whatever you're interested in. The human-in-the-loop theme encourages us to look for ways to stay relevant at a time when AI becomes increasingly intelligent and self-directed.
+Most of the reading list focused directly on AI. At one point, when reading back-to-back AI books started to feel repetitive, the group planned to alternate with broader technology reads, though in practice that amounted to only a couple of detours (*Careless People* and *Breakneck*) before the picks drifted back to AI. Overall, selection favored accessible trade books over engineering textbooks or manuals specifically about technical communication. Even as AI news shifted week by week, those books served as a good catalyst for thinking through longer-term changes in how people write, learn, and stay relevant alongside increasingly capable systems.
 
 * TOC
 {:toc}
 
-## Upcoming reading schedule {#schedule}
+<a id="schedule"></a>
+## Why the book club wrapped up {#concluded}
 
-The following table lists the upcoming reading schedule. The descriptions are extracts from the book summaries on Amazon. More details for the notes and discussion links will be added as the meeting date approaches. 
+After reading and discussing 19 books between April 2025 and November 2026, the club reached a natural saturation point. Any book club focused on a single theme eventually exhausts its genre. Two years is probably the upper limit for a themed book club before new releases start repeating the same histories, anecdotes, and arguments.
 
-To see previous recordings and notes, see [Previous meetings and recordings](#previous) below.
+Letting the club wrap up at the end of 2026 opens space for new adventures and smaller collaborative experiments in 2027, particularly around designing documentation for AI agents. For more reflections on ending this run, see the final ten minutes of our [*Co-Existence* recording](/blog/ai-book-club-co-existence-mollick) and [Looking back at the AI Book Club one year in](/blog/looking-at-book-club-one-year-in).
 
-{:.note}
-The reading schedule beyond the next month is tentative and subject to change.
+## Books discussed, recordings, and notes {#previous}
 
-Where a book is available on Audible, the entry includes an Audible link next to the author's name. See [Why the Audible links?](#audible) for why.
- 
-<table>
-   <thead>
-      <tr>
-         <th style="width: 20%">Meeting date</th>
-         <th style="width: 50%">Book and description</th>
-         <th style="width: 30%">Notes</th>
-      </tr>
-   </thead>
-   <tbody>
-      {% for meeting in site.data.ai_book_club.upcoming %}
-      <tr style="vertical-align: top">
-         <td>
-            <p class="book-summary-top"><b>{{ meeting.date }}<br/>{{ meeting.time }}</b></p>
-             <figure><a href="{{ meeting.book.url }}"><img src="{{site.media}}/{{ meeting.book.image }}" alt="{{ meeting.book.title }}" /></a></figure>
-         </td>
-         <td>
-            <p class="book-summary-top"><a href="{{ meeting.book.url }}"><i>{{ meeting.book.title }}</i></a></p>
-             <p class="book-author">by {{ meeting.book.author }}{% if meeting.book.audible_url %} &middot; <a href="{{ meeting.book.audible_url }}"><i class="fa fa-headphones" aria-hidden="true"></i> Audible</a>{% endif %}</p>
-             <p class="book-summary">{{ meeting.book.summary }}</p>
-         </td>
-         <td>{% if meeting.note %}<p class="note">{{ meeting.note }}</p>{% endif %}
-             <p class="notes-links">{% if meeting.notes_url != "" %}<a href="{{ meeting.notes_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Notes and discussion</a><br/><br/>{% endif %}
-             <a href="{{ meeting.meet_url }}"><i class="fa fa-video-camera" aria-hidden="true"></i> {% if meeting.meet_url contains "riverside" %}Riverside link{% else %}Google Meet link{% endif %}</a></p></td>
-      </tr> 
-      {% endfor %}
-   </tbody>
-</table>
-
-## Reading pace {#readingpace}
-
-We read one book a month, as listed in the schedule above. This pace ensures that engaging in the club encourages you to step away from daily minutiae and spend time with the printed page. The meetings take place online through Riverside, with recordings posted afterwards. There's also a Slack workspace for online chat, and an email group for announcements.
-
-Although AI news seems to change daily, giving the impression that books are too slow to keep up, the core issues and themes have much more longevity. Books elevate our thinking and engagement with these topics, allowing us to explore them in depth rather than just keeping up with the latest model release or news headlines.
-
-There's no cost to join the book club (except buying the books), and you can attend as few or many meetings as you like. You can read (or listen to) part or all of the books, and participate as much or little as you like. The meetings take place online on the third Sunday of each month at 10am Pacific Time.
-
-## Why the Audible links? {#audible}
-
-Going forward, I'm going to prefer books that are available on Audible. This is simply how I consume most books &mdash; while riding my bike, driving my car, working in the yard, and doing other things that leave my hands busy but my ears free. A book that only exists in print is a book I'm much less likely to finish.
-
-This is a preference, not a hard rule, and it doesn't change anything about how you read (or listen to) the books yourself. But if a title I'm considering has no audiobook, it will probably lose out to one that does. Books with an audiobook include an Audible link next to the author's name, both in the schedule above and in the list of previous meetings below. As it turns out, every book the club has read so far is available on Audible, so the links are there for the whole back catalog too.
-
-## Recording and sharing {#recording}
-
-Each book club is recorded, using Riverside as the platform. The recordings are uploaded to YouTube and shared on this site. See the *Meeting Recording* links in the table below or view this [ai-book-club category](/category-ai-book-club/) on the site.
-
-{:.note}
-If you don't want to be recorded or have the recording shared on YouTube, this isn't the book club for you. By joining the book club, you consent to the recording. If you need me to edit out part of the conversation, though, let me know and I will try to make the edit. In general, avoid saying things you don't want recorded.
-
-## Monthly meeting days and times {#meetings}
-
-The meetings are usually the *third Sunday of the month at 10am Pacific Time*. I realize that meeting on a Sunday might not work for many people &mdash; that's okay. This is a book club, not a work webinar. The primary discussion focuses on the substance of these books. Falling on a Sunday, only those who truly want to engage in the reading and discuss these topics will likely join, and that's all right. If you can't join the meetings, you can watch or listen to the recordings.
-
-## Slack forum for online discussion {#slack}
-
-A Slack workspace is set up for online discussion. Go to one of these links:
-
-* **Need to join the workspace?** Go to [aibookclubtechcomm](https://join.slack.com/t/aibookclubtechcomm/shared_invite/zt-3hdnn35w0-nZd1HFUtIF38BgVfXBKGpQ)
-* **Already a workspace member?** Go to [https://aibookclubtechcomm.slack.com](https://aibookclubtechcomm.slack.com/)
-
-The Slack workspace is used to chat, share info or other thoughts, etc. Feel free to introduce yourself in the Slack and ask questions. However, the main interaction will be with the monthly meetings.
-
-Note that the Slack workspace resets every 30 days. Unfortunately, the costs to maintain messages beyond the 30-day window are astronomical. So if you don't see many Slack discussions, it doesn't mean the group is inactive. It just means the messages have reset.
-
-## Email list for notifications {#emaillist}
-
-In addition to Slack, there's an email list you can join to receive announcements, information, and other details. I post the same info on Slack, but email can be easier for many people to receive info.
-
-<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://0gj01.mjt.lu/wgt/0gj01/xqnx/form?c=b362b3d3" width="100%" style="height: 0;"></iframe>
-
-<script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
-
-## Riverside for the meetings {#riverside}
-
-For the monthly meetings, we use [Riverside](https://riverside.com/). The Riverside link appears with each upcoming meeting in the schedule above. If you use Google Calendar, you can [join this Google Group](https://groups.google.com/g/aibookclub-humanintheloop) and the meetings will automatically appear on your calendar. Otherwise, you can copy the event to your Google Calendar through [this link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTExMTZUMTgwMDAwWiB0b21qb2h0QG0&tmsrc=tomjoht%40gmail.com&scp=ALL) or by clicking this button:
-
-<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2kwZmxubjB2aXVsNHZidmNrb25kOXZsbG5fMjAyNTA0MjBUMjEwMDAwWiB0b21qb2h0QG0&amp;tmsrc=tomjoht%40gmail.com&amp;scp=ALL"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
-
-## How do I join the book club and get started? {#join}
-
-1. Join the [email list](#emaillist).
-2. Join the [Slack group](#slack).
-3. Join the [Google Group](#riverside) or manually add the event to your calendar.
-4. Order the books and start reading.
-
-## Previous meetings and recordings {#previous}
-
-Previous meetings are listed below with recordings, notes, and other resources, from most recent to oldest.
+The table below lists all 19 sessions from most recent to oldest, with links to the meeting recordings, prep notes, discussion questions, and book reviews. You can also browse the [cover gallery of all 19 books](/ai-book-club-books/) or view every related post in the [ai-book-club category](/category-ai-book-club/). Every book in the catalog has an audiobook edition, with an Audible link next to the author's name (see [Why Audible links were included](#audible)).
 
 <table>
    <thead>
@@ -153,30 +65,53 @@ Previous meetings are listed below with recordings, notes, and other resources, 
    </tbody>
 </table>
 
+## How the book club was set up and run {#how-it-worked}
 
+If you're curious how an online book club like this comes together, or want a blueprint for starting one of your own, the sections below preserve how the group was organized and run from 2025 to 2026. Keeping the operational setup lightweight made it sustainable to run monthly sessions for nearly two years alongside full-time work.
 
-## FAQ {#faq}
+<a id="readingpace"></a>
+### Reading pace and monthly schedule {#meetings}
 
-**Who's the audience for this book club?**
-: Mostly people working in tech comm who want to deepen and broaden their knowledge of AI, but who aren't looking to dive into the technical details of AI as an engineer might. These books fall more within a general interest category for technology and AI.
+The club read one book a month and met online on the third Sunday of each month at 10am Pacific Time. There was no cost to participate beyond getting the books, and members could drop in for as few or as many sessions as they liked, whether they finished the whole book or only part of it.
 
-**How did you come up with the book list?**
-: I look for books that are both popular and highly rated, so preferably books that have hundreds of reviews and average at least 4 stars. I also prefer books available on Audible &mdash; see [Why the Audible links?](#audible).
+Meeting on a Sunday morning didn't fit everyone's schedule, and that turned out to be fine because this was a book club rather than a workplace webinar. Holding sessions on Sundays filtered naturally for people who wanted to do the reading and talk about the substance of the books, while anyone who couldn't make the live call could listen to the podcast episode or watch the recording afterward.
 
-**What are the meetings like?**
-: The meetings are interactive and discussion-based, as you might expect from any book club. To prepare for the book club meetings, I provide a notes document that summarizes the book's themes and also presents some questions for discussion. 
+Live attendance averaged roughly four to eight people per session, which proved to be the right size. Much like a dinner table conversation, four to eight participants gives everyone room to speak and build on each other's points, whereas groups past ten or twelve tend to turn most attendees into bystanders watching a panel.
 
-**Can I recommend a book?**
-: Sure, post your book recommendations either to the [Slack group](#slack) or to me directly via the [contact form here](/contact).
+### Prep docs, recordings, and shownotes {#recording}
 
-**I'm not a technical writer -- can I still join?**
-: Sure, you don't need to be a technical writer. I only added this facet to try to ground what is a broad domain (AI) with a more immediate and practical perspective.
+Before each monthly call, a shared Google Doc summarized the book's main arguments and listed a handful of discussion questions to get the conversation moving. Sessions started out on Google Meet and later moved to Riverside for cleaner multi-track audio and video recording.
 
-**Isn't this field changing too fast for books?**
-: Perhaps. However, many of these authors are wrestling with topics that go beyond the daily news headlines and which speak to long-term transitions in the way we think and work. Additionally, reading gives you space from the chaos and frenetic pace of the Internet news cycles.
+After each meeting, the video went up on YouTube and the audio went out through the site's podcast feed, paired with a blog post containing topic takeaways, a standalone narrative essay drawn from the conversation, and a cleaned-up transcript. Because public sharing was central to the format, recording consent was stated upfront for anyone joining a live call, with an open offer to edit out any segment a participant asked to remove afterward.
 
-**I'm not sure if I have time to read books.**
-: There's a mental health benefit to reading long-form content instead of scrolling through bite-sized information nuggets. Reading books provides deeper engagement and a more satisfying experience for the brain. It takes time to read a 300-page book. That reading patience will offset a world where we're saturated with short-form content that reduces and fragments our attention spans.
+### Why Audible links were included {#audible}
+
+Every entry in the reading list included an Audible link alongside the Amazon print link because audiobooks were how I got through most of the reading while riding my bike, commuting in the car, or working in the yard with my hands busy and my ears free. A title that existed only in print was much harder to finish on a monthly schedule. That preference didn't affect how other members read the books, of course, though it meant print-only releases usually lost out during book selection, and all 19 books we read ended up having audiobook editions.
+
+### Notifications, chat, and calendar setup {#channels}
+
+To coordinate between monthly calls without creating heavy administrative overhead, the club relied on three simple channels that have since been retired:
+
+* **Slack workspace:** A dedicated free-tier Slack workspace gave members a place to introduce themselves, suggest upcoming books, and share articles between sessions, though most of the real discussion stayed in the live monthly calls. Because Slack's free tier clears messages after 30 days and paid retention costs far too much for an informal hobby group, the workspace operated as an ephemeral rolling chat rather than a permanent archive.
+* **Email announcement list:** An embedded Mailjet signup form on this page sent monthly reminders, reading picks, and discussion doc links to people who preferred email over checking another Slack workspace.
+* **Google Group calendar sync:** Joining a companion Google Group automatically placed the recurring monthly meeting and video room link onto members' Google Calendars, supplemented by a one-click calendar template button for anyone adding individual dates manually.
+
+## Archive FAQ {#faq}
+
+**Who was the audience for this book club?**
+: The club drew mostly technical writers and people in adjacent tech roles who wanted to broaden their understanding of AI without diving into machine learning math or model engineering. Most of the participants worked in technical communication, though anyone interested in the books was welcome to join.
+
+**How were the books chosen?**
+: Selection favored popular, well-reviewed trade books, generally titles with hundreds of ratings averaging around four stars or higher, along with an audiobook edition on Audible. Within the AI theme, the list spanned lab histories, alignment debates, practical guides, and literary nonfiction, plus a couple of broader tech detours when straight AI books started feeling repetitive.
+
+**What were the meetings like?**
+: Sessions were informal, interactive, and discussion-driven rather than presentation-based. Most meetings kicked off by having everyone rate the book out of five stars to see where opinions split, then moved through whichever themes from the prep doc sparked the most debate.
+
+**Wasn't AI changing too fast for books?**
+: In some ways, yes, and practical how-to books dated fastest of all, sometimes within six months of publication. However, the strongest books on the list wrestled with human, organizational, and historical questions that outlast individual model releases, while offering a slower, more reflective counterweight to daily AI news feeds.
+
+**Why read 300-page books instead of shorter articles?**
+: Long-form reading slows the brain down in a way that scrolling through short posts and summaries never does. Committing to a book a month acted as a forcing function to step away from fragmented online feeds and spend sustained time following an author's full argument, which turned out to be one of the best reasons to run the club in the first place.
 
 <style>
 

@@ -92,16 +92,14 @@ topnav_dropdowns:
 
     - title: AI Book Club
       folderitems:
-        - title: AI Book Club
-          url: /ai-book-club
-        - title: Upcoming books
-          url: /ai-book-club#schedule
-        - title: Previous books
-          url: /ai-book-club#previous
-        - title: Slack forum
-          url: /ai-book-club/#slack
-        - title: Email list
-          url: /ai-book-club/#emaillist
+        - title: About the book club
+          url: /ai-book-club/
+        - title: Books and recordings
+          url: /ai-book-club/#previous
+        - title: Book cover gallery
+          url: /ai-book-club-books/
+        - title: All book club posts
+          url: /category-ai-book-club/
 
     - title: About
       folderitems:
