@@ -26,7 +26,7 @@ To see previous recordings and notes, see [Previous meetings and recordings](#pr
 The reading schedule beyond the next month is tentative and subject to change.
 
 Where a book is available on Audible, the entry includes an Audible link next to the author's name. See [Why the Audible links?](#audible) for why.
-
+ 
 <table>
    <thead>
       <tr>
