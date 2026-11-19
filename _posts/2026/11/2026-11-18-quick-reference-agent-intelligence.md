@@ -14,11 +14,13 @@ published: false
 * TOC
 {:toc}
 
-{% include ads.html %}
+I recently added a new document format to our API docs, though it was a bit by mistake. The format is a quick reference page, and it lists a stripped down version of everything important about an API.
 
-I recently added a new document format to our API docs, though it was a bit by mistake. The format is a quick reference page, and it lists a stripped down version of everything important about an API. Here's an example. This is the [Places (New) quick reference](https://developers.google.com/maps/documentation/places/web-service/quick-reference). Here's one for [Routes](https://developers.google.com/maps/documentation/routes/quick-reference) and [Maps JavaScript](https://developers.google.com/maps/documentation/javascript/quick-reference). There's a similar quick reference page for every product (50+) on the site, usually at `/quick-reference`.
+Here's an example. This is the [Places (New) quick reference](https://developers.google.com/maps/documentation/places/web-service/quick-reference). Here's one for [Routes](https://developers.google.com/maps/documentation/routes/quick-reference) and [Maps JavaScript](https://developers.google.com/maps/documentation/javascript/quick-reference). There's a similar quick reference page for every product (nearly 60 of these) on the site, usually at `/quick-reference`.
 
-If you've been following my blog for a long time, you may remember my previous celebration of [quick reference guides](/quickreferenceguides) &mdash; not just a gallery, but many posts extolling the form like this one: [Quick Reference Guides: The Poetry of Technical Writing](/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/). A quick reference guide is the only deliverable I've made that caused a PM to literally cry a tear of joy. However, in 2022 I listed quick reference guides among the [trends I had abandoned](/trends/trends-to-follow-or-forget-quick-reference-guides.html), because getting started tutorials fit developer docs better.
+If you've been following my blog for a long time, you may remember my previous celebration of [quick reference guides](/quickreferenceguides) &mdash; not just a gallery, but many posts extolling the form like this one: [Quick Reference Guides: The Poetry of Technical Writing](/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/).
+
+A quick reference guide is the only deliverable I've made that caused a PM to literally cry a tear of joy. However, in 2022 I listed quick reference guides among the [trends I had abandoned](/trends/trends-to-follow-or-forget-quick-reference-guides.html), because getting started tutorials fit developer docs better.
 
 Now quick references might come back in a new light. I'll first describe what's on the page, and then I'll try to unpack (without too much detail) how this form found its resurrection in our Google Maps docs.
 
@@ -34,6 +36,18 @@ The quick reference is a short page that consists almost entirely of bulleted li
 - **What you can do:** The list of capabilities, where each task links to the page or section that explains it.
 
 Most of this information already exists somewhere in the docs. The quick reference gathers it onto one page and links out for the details. In other words, the page works more like a routing page than a tutorial.
+
+## Why the format might suit agents
+
+The quick reference format just might be a format highly suitable for agents. When an agent starts a task, it has to answer a few questions before it writes any code. Which product fits the task? Is there a newer version of the API than the one in its training data? What mistakes do developers commonly make with this API? Where's the guide that has the details? 
+
+Regular docs answer these questions, but the answers are spread across overviews, migration guides, troubleshooting pages, and release notes. The quick reference puts the answers on one page, in sections that are each short enough to fit in a chunk.
+
+A few details about the format probably matter more for retrieval than they appear to. For example, every heading repeats the product name, as in "Places API (New): common mistakes." The repetition looks redundant to a human reader. However, as I described in [Chunking your content for agent readability](/blog/chunking-content-for-mcp-ingestion-agent-readability), a chunk can arrive without the headings above it, so the section heading might be the only text that identifies which product the chunk describes.
+
+The "don't use when" list is also something that regular docs rarely include. Product docs generally describe what a product does, and they don't often tell you to go use a different product. For an agent that is choosing between the web service, the Android SDK, the iOS SDK, and the JavaScript API, the "don't use when" list could be the most useful part of the page. Being explicit about negative boundaries might be one of those conventions we embrace when writing for agents.
+
+Additionally, the common mistakes include the literal error names, such as `LegacyApiNotActivatedMapError`, so an agent that searches on an error message has something to match.
 
 ## How the format came about
 
@@ -51,7 +65,7 @@ A script takes all the individual product files and reassembles them back into t
 
 I also built a visual YAML editor that allows authors and PMs to more easily work with the YAML content. And I made a skill that helps writers work with the schema, validate the content, and do other tasks. There are some other pieces to the implementation (presubmits, validations, etc), but that's the gist of it. 
 
-## Other purpose: product skills in docs
+## Putting product skill content into the docs
 
 One of my goals wasn't just to simplify editing of the capabilities information, but also to surface the information that existed in product skills more broadly on our site. I've long felt that product skills should be derivative of documentation, not parallel to it.
 
@@ -59,41 +73,41 @@ In my observations of agents, agents seemed content to download the product skil
 
 If product skills become the primary information source for agents, then product skills start to take on a life of their own, as they become the place where we add more and more information based on observed agent frictions. Before long, the skills information becomes a parallel, separate source from the docs.
 
+{% include ads.html %}
+
 ## How agents navigate
 
 The fact that agents can find the quick reference is interesting. As this is an experiment, the pages aren't yet linked in the sidebar or other files. Although they aren't human discoverable (apart from search), they are discoverable to agents. 
 
 Agents discover the quick references through two means. First, the product skills explain to agents how to access, through MCP, our RAG server. The agents make calls to RAG using the [Developer Knowledge API](https://developers.google.com/knowledge/api). The API's endpoints return content either in chunks (for the `SearchDocumentChunks` endpoint) or as an answer (for the `AnswerQuery` endpoint).
 
-The second way agents find the quick references is through the web, using two separate tools. I had assumed these were one tool, but they aren't. The first tool is web search. The agent writes a query, sends it to a search engine, and gets back a list of titles, URLs, and snippets. The agent can also scope the search to one domain, either with a `site:` operator in the query or with a domain filter that the search tool provides. The second tool is web fetch, which is closer to a `curl` download. The agent gives it one exact URL, and the tool downloads the page and converts the HTML to Markdown. Web fetch doesn't search for anything. It only retrieves a URL that the agent already has.
+The second way agents find the quick references is through the web, using two separate tools. I had assumed these were one tool, but they aren't. The first tool is web search. The agent writes a query, sends it to a search engine, and gets back a list of titles, URLs, and snippets. The agent can also scope the search to one domain, either with a `site:` operator in the query or with a domain filter that the search tool provides.
 
-As such, the agent needs to get each URL from somewhere. It might come from a search result, a link on a page the agent already fetched, a URL that the user pasted into the prompt, or a guess based on a pattern or training data. The agent can't use a site's own search box. For an unlinked page like the quick reference, this means a search engine has to index the page first, or the agent has to guess the URL. It also means that links help more than I expected. When an agent fetches a page, it reads the links on that page and often fetches the next URL from among them. Adding links to the quick reference from overviews and guides would put the page in front of agents that are already reading the docs, and I'm working on adding those links now.
+The second tool is web fetch, which is closer to a `curl` download. The agent gives it one exact URL, and the tool downloads the page and converts the HTML to Markdown. Web fetch doesn't search for anything. It only retrieves a URL that the agent already has.
 
-When I asked Claude how it looks up information on other sites, it showed me one of its own search queries: `Mintlify skill.md docs site auto-generated agents /.well-known/skills`. That query is a keyword string, not a question, and it looks a lot like the agent-formulated queries I describe in the next section for `searchDocumentChunks`. If agents write the same kind of query for a search engine as they do for our RAG, then the agent queries we see going to the RAG might also approximate the queries that agents send to web search. I haven't tested this, and a search engine ranks results differently than our RAG does. Still, it suggests that a test set built from agent-formulated queries could serve both retrieval paths.
+As such, the agent needs to get each URL from somewhere. It might come from a search result, a link on a page the agent already fetched, a URL that the user pasted into the prompt, or a guess based on a pattern or training data. The agent can't use a site's own search box. For an unlinked page like the quick reference, this means a search engine has to index the page first, or the agent has to guess the URL.
 
-In short, agents don't come through the front door of our sites; they don't expand hierarchies in the sidebar to make their way to our content. For fun, hide your sidebar and start navigating your site. That might give a better sense of how agents navigate. 
+It also means that links help more than I expected. When an agent fetches a page, it reads the links on that page and often fetches the next URL from among them. Adding links to the quick reference from overviews and guides would put the page in front of agents that are already reading the docs, and I'm working on adding those links.
+
+In short, agents don't come through the front door of our sites; they don't expand hierarchies in the sidebar to make their way to our content. To better simulate agent behavior, hide your sidebar and start navigating your site. That might give a better sense of how agents navigate. 
 
 ## Testing the pages against retrieval
 
-Before and after launching the quick reference pages, I tried to capture some eval data to measure the impact. I did tests using both Developer Knowledge API endpoints. My first instinct was to use prompts the way a user would type them. However, the user's prompt isn't what reaches `searchDocumentChunks`. The agent reads the user's prompt, decides what it needs to know, and then formulates its own search query, which tends to be shorter and more keyword-like than the original prompt. 
+Before and after launching the quick reference pages, I tried to capture some eval data to measure the impact. I did tests using both Developer Knowledge API endpoints.
+
+My first instinct was to use prompts the way a user would type them. However, the user's prompt isn't what reaches `searchDocumentChunks`. The agent reads the user's prompt, decides what it needs to know, and then formulates its own search query, which tends to be shorter and more keyword-like than the original prompt. 
 
 As such, the test queries for `searchDocumentChunks` needed to emulate the query an agent formulates, not the prompt a user writes. For `answerQuery`, I used a more natural question, because that endpoint is designed to take such a question.
+
+When I asked Claude how it looks up information on other sites, it showed me one of its own search queries: `Mintlify skill.md docs site auto-generated agents /.well-known/skills`. That query is a keyword string, not a question, and it looks a lot like the agent-formulated queries for `searchDocumentChunks`.
+
+If agents write the same kind of query for a search engine as they do for our RAG, then the agent queries we see going to the RAG might also approximate the queries that agents send to web search. I haven't tested this, and a search engine ranks results differently than our RAG does. Still, it suggests that a test set built from agent-formulated queries could serve both retrieval paths.
 
 I also tested for coverage. In other words, I wanted at least one scenario for every product that has a quick reference, including the smaller products that a sample of common scenarios would probably skip.
 
 The detailed results of the test would overwhelm this post. But the results were positive. There's a significant lift with the quick reference pages, which gives me confidence in this format.
 
 I should acknowledge a tension here, though. Earlier I said that agents rarely made MCP calls to our RAG, so a lift in RAG results only helps the agents that make those calls. However, part of the reason agents don't call the RAG is that they already have the product skills, which give them much of what they need. What happens when an agent doesn't have the product skills? Would it search the RAG or the web more often, and could the quick reference take the skill's place?
-
-## Why the format might suit agents
-
-The quick reference format just might be a format highly suitable for agents. When an agent starts a task, it has to answer a few questions before it writes any code. Which product fits the task? Is there a newer version of the API than the one in its training data? What mistakes do developers commonly make with this API? Where's the guide that has the details? 
-
-Regular docs answer these questions, but the answers are spread across overviews, migration guides, troubleshooting pages, and release notes. The quick reference puts the answers on one page, in sections that are each short enough to fit in a chunk.
-
-A few details about the format probably matter more for retrieval than they appear to. For example, every heading repeats the product name, as in "Places API (New): common mistakes." The repetition looks redundant to a human reader. However, as I described in [Chunking your content for agent readability](/blog/chunking-content-for-mcp-ingestion-agent-readability), a chunk can arrive without the headings above it, so the section heading might be the only text that identifies which product the chunk describes.
-
-The "don't use when" list is also something that regular docs rarely include. Product docs generally describe what a product does, and they don't often tell you to go use a different product. For an agent that is choosing between the web service, the Android SDK, the iOS SDK, and the JavaScript API, the "don't use when" list could be the most useful part of the page. Additionally, the common mistakes include the literal error names, such as `LegacyApiNotActivatedMapError`, so an agent that searches on an error message has something to match.
 
 ## Could a quick reference work as a product skill?
 

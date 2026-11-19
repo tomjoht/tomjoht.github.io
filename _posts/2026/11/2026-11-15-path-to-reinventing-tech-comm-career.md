@@ -8,6 +8,7 @@ keywords: tech comm career, role reinvention, agent skills, agent readability, s
 rebrandly: https://idbwrtng.com/path-to-reinventing-tech-comm-career
 description: "As agent skills, tools, and frontier models have matured this year, I've been able to compress five days of routine documentation work into one. However, simply doing the traditional tech writer job faster leads to an isolated dead end of covering more and more teams alone. Instead, I argue for a three-phase path to reinventing the tech writer role: use agent skills to compress routine workloads, spend the freed-up time optimizing docs for agent readability, and use agent friction logs to help shape the product itself and win share of model."
 image: reinventing-tech-comm-alien-agent-docs-thumb.jpg
+linkedin: https://lnkd.in/p/gJSMsD83
 ---
 
 * TOC
