@@ -8,6 +8,7 @@ categories:
 keywords: quick reference, quick reference guides, agent readability, product skills, agent skills, capabilities, RAG, retrieval, chunking, MCP, YAML, single sourcing, API documentation, web search
 rebrandly: https://idbwrtng.com/quick-reference-agent-intelligence
 description: "I recently added quick reference pages to our API docs. Each page gives a stripped-down summary of an API: key product details, when to use it and when not to, setup details, common mistakes, and a list of capabilities that link to the guides. The pages are generated from the same product files that feed our product skills. In this post, I explain how the format came about, what's on the page, how agents find content, and why I think the format's main value for agents comes through RAG retrieval over MCP."
+linkedin: https://lnkd.in/p/g4vn5qq7
 ---
 
 * TOC
