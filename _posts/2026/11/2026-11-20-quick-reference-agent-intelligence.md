@@ -70,9 +70,11 @@ I'm not sure if editing YAML according to a schema will be something that less t
 
 ## One source for docs and skills
 
-This setup also serves a larger goal. I've long felt that product skills should be derivative of documentation, not parallel to it. Agents seem to like skills: they're compact and structured in a way agents can use. But as teams iterate on skill content to fix agent frictions, the skills can drift into a separate source while the docs fall behind. 
+The YAML file containing product information also serves a larger goal. I've long felt that product skills should be derivative of documentation, not parallel to it. Agents seem to like skills: they're compact and structured in a way agents can use. But as teams iterate on skill content to fix agent frictions, the skills can drift into a separate source while the docs fall behind. 
 
 One direction I find promising is to let skills handle the higher-level guidance, like which product fits a task and how to structure the app, and let RAG retrieval supply the product details from the docs. That way, there's one place to change a product fact, and every path that delivers it to an agent picks up the change.
+
+I'll return more to this topic &mdash; Can these quick reference pages provide the same information as a product skill? &mdash; in another post.
 
 {% include ads.html %}
 
@@ -106,9 +108,9 @@ As such, the test queries for `searchDocumentChunks` needed to emulate the query
 
 I also tested for coverage. In other words, I wanted at least one scenario for every product that has a quick reference, including the smaller products that a sample of common scenarios would probably skip.
 
-The detailed results of the test would overwhelm this post, but they were positive. There was a clear lift with the quick reference pages, which gives me confidence in this format for retrieval.
+The detailed results of the test would overwhelm this post, but they were positive. There was a clear lift (17 %) with the quick reference pages, which gives me confidence in this format for retrieval.
 
-I've come to realize that before-and-after tests like this are going to be key for establishing the value of docs. If I make major updates to docs, most people won't understand the value of the updates without some kind of measurement. If I can say that an update created such and such lift on these evals, the impact is much easier to see, and so is the value of the technical writer's role.
+I've come to realize that before-and-after tests like this are going to be key for establishing the value of docs. If I make major updates to docs, most people won't understand the value of the updates without a measurement. If I can say that an update created such and such lift on these evals, the impact is much easier to see, and so is the value of the technical writer's role.
 
 ## Conclusion
 
@@ -116,4 +118,4 @@ I think it's fitting that the quick reference has made a comeback. This format h
 
 The current format is also just a start. Each section should make sense to an agent that retrieves it on its own, and I'm adding to the pages with that reader in mind. For example, I'm adding API key information to the setup section, because every task starts there.
 
-The bigger lesson for me is that writing for agents isn't only about the page. It's also about the path the content takes to reach the agent. A page that never reaches an agent can't help it, no matter how well it's formatted. If you've found good ways to get your docs content into the paths agents use, I'd like to hear about them.
+The bigger lesson for me is that writing for agents isn't only about the page. It's also about the path the content takes to reach the agent. A page that never reaches an agent can't help it, no matter how well it's formatted.
