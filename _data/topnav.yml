@@ -89,17 +89,8 @@ topnav_dropdowns:
           url: /ai/use-cases.html
         - title: AI category posts
           url: /category-ai/
-
-    - title: AI Book Club
-      folderitems:
-        - title: About the book club
-          url: /ai-book-club/
-        - title: Books and recordings
-          url: /ai-book-club/#previous
-        - title: Book cover gallery
-          url: /ai-book-club-books/
-        - title: All book club posts
-          url: /category-ai-book-club/
+        - title: AI Book Club
+          url: /ai-book-club
 
     - title: About
       folderitems:
