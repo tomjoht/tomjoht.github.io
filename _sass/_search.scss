@@ -4,6 +4,52 @@
 #search-searchbar {
   height: 46px;
   margin: 20px 10px 20px 0px;
+}
+/* Placeholder search box shown until InstantSearch loads. These rules copy the combined
+   instantsearch.min.css + instantsearch-theme-algolia.min.css (2.6.0) styles for
+   .ais-search-box, so the swap to the real widget isn't visible. */
+.search-placeholder {
+  display: inline-block;
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  height: 46px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.search-placeholder-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  background: #fff;
+  display: inline-block;
+  border: 1px solid #d4d8e3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(85, 95, 110, .2);
+  transition: box-shadow .4s ease, background .4s ease;
+  padding: 10px 10px 10px 35px;
+  vertical-align: middle;
+  white-space: normal;
+  height: 100%;
+  width: 100%;
+}
+.search-placeholder-input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.search-placeholder-magnifier {
+  position: absolute;
+  left: 12px;
+  top: calc(50% - 18px / 2);
+  fill: #bfc7d8;
+  pointer-events: none;
+  user-select: none;
+}
+.search-placeholder-magnifier svg {
+  display: block;
+  height: 18px;
+  width: 18px;
 }/* Search header */
 .search-header {
   display: flex;

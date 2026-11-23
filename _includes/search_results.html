@@ -1,6 +1,7 @@
 <script>
-  // Algolia search
-  $(function () {
+  // Algolia search. Not run on page load: the lazy loader next to #search-searchbar in
+  // _layouts/default.html calls this after instantsearch.js loads on first use of the search box.
+  window.initSiteSearch = function () {
     var $searchHitsWrapper = $('#search-hits-wrapper');
     var $content = $('#content');
 
@@ -12,10 +13,9 @@
       searchParameters: {
         hitsPerPage: 15
       },
-      // Hide all results when no search is made. Only display results when something is typed
+      // Hide all results when no search is made. Only display results when something is typed.
+      // An empty query returns without calling helper.search(), so no request goes to Algolia.
       searchFunction: function(helper) {
-        helper.search();
-
         if (helper.getQuery().query === '') {
           $searchHitsWrapper.hide();
           $content.show();
@@ -24,6 +24,7 @@
 
         $searchHitsWrapper.show();
         $content.hide();
+        helper.search();
       }
     });
     search.addWidget(
@@ -77,7 +78,7 @@
         })
     );
     search.start();
-  });
+  };
 </script>
 <div id="search-hits-wrapper">
   <div class="search-header">

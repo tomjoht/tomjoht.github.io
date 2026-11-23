@@ -1,0 +1,46 @@
+name: Purge Cloudflare cache
+
+# Cloudflare caches HTML pages at the edge for 2 hours (Cache Rule
+# "Cache HTML at edge"). Without a purge, a new post or an edit (like adding
+# the LinkedIn comments link) could stay hidden for up to 2 hours.
+#
+# This runs after GitHub Pages finishes each deploy and purges the whole
+# zone cache, so every push is live about a minute after the build.
+#
+# Required repo secrets (Settings > Secrets and variables > Actions):
+#   CLOUDFLARE_API_TOKEN  - token with Zone > Cache Purge > Purge, scoped to idratherbewriting.com
+#   CLOUDFLARE_ZONE_ID    - Zone ID from the idratherbewriting.com overview page in Cloudflare
+
+on:
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types: [completed]
+  # Manual run from the Actions tab, for when you want a purge without a deploy.
+  workflow_dispatch:
+
+concurrency:
+  group: purge-cloudflare-cache
+  cancel-in-progress: true
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      # GitHub's own CDN can take a few seconds to serve the new build. If
+      # Cloudflare refetched before then, it would cache the old page again.
+      - name: Wait for GitHub Pages CDN
+        run: sleep 45
+
+      - name: Purge everything
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: |
+          response=$(curl -sS -X POST \
+            "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}')
+          echo "$response"
+          echo "$response" | grep -q '"success":true' || exit 1

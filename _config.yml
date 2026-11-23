@@ -1,7 +1,5 @@
 # BLOG SETTINGS
-title: "I'd Rather Be Writing - Tom Johnson"
 name: "I'd Rather Be Writing Blog"
-description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
 host: 127.0.0.1
 port: 4000
 feedback_email: tomjoht@gmail.com
@@ -266,9 +264,9 @@ eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV
 google_maps_api_key: ""
 
 ####### jekyll seo tag configuration #######
-title: "I'd Rather Be Writing Blog and API doc course"
+title: "I'd Rather Be Writing - Tom Johnson"
 tagline: "Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication."
-description: "Stay updated with best practices for technical writers. Includes an API documentation course for technical writers and engineers learning how to document APIs. The course includes sections on what an API is, API reference documentation, OpenAPI specification and Swagger, docs-as-code publishing and workflows, conceptual topics, tutorials, API documentation jobs, and more."
+description: "Tom Johnson's blog on technical writing and AI: agent skills, docs for AI agents, docs-as-code, tech comm careers, and an API documentation course."
 url: https://idratherbewriting.com
 author:
   twitter: tomjohnson
