@@ -7,6 +7,7 @@ categories:
 keywords: agent-directed notes, agent-friendly docs, llms.txt, markdown mirrors, coding agents, prompt injection, documentation strategy
 rebrandly: https://idbwrtng.com/agent-directed-notes-in-doc-pages
 description: "Some doc sites now include notes aimed directly at coding agents, like Stripe's CLI and API directives. Based on recent research and agent testing, most of these notes are unnecessary, risk triggering prompt-injection filters, or get lost in fetch summaries. The exceptions worth keeping are Markdown mirrors provided through content negotiation and a short pointer to llms.txt."
+linkedin: https://lnkd.in/p/geMXBuC3
 ---
 
 * TOC
