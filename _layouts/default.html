@@ -96,7 +96,23 @@
 
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/assets/css/main.css" />
-  {% seo %}
+  {%- comment -%}
+  jekyll-seo-tag resolves a relative `image` against site.url, but post thumbnails
+  live on Wasabi (site.media). Rewrite the og:image, twitter:image, and JSON-LD
+  image URLs to the media prefix. Full URLs (http...) and root-relative paths (/...)
+  are left as-is. Done in Liquid because GitHub Pages doesn't run custom plugins.
+  {%- endcomment -%}
+  {%- capture seo_tags -%}{% seo %}{%- endcapture -%}
+  {%- assign seo_image = page.image | append: "" -%}
+  {%- assign seo_image_start = seo_image | slice: 0, 1 -%}
+  {%- if seo_image != "" and seo_image != "true" and seo_image_start != "/" -%}
+    {%- unless seo_image contains "://" -%}
+      {%- assign seo_image_root_url = seo_image | absolute_url | uri_escape -%}
+      {%- assign seo_image_media_url = site.media | append: "/" | append: seo_image | uri_escape -%}
+      {%- assign seo_tags = seo_tags | replace: seo_image_root_url, seo_image_media_url -%}
+    {%- endunless -%}
+  {%- endif %}
+  {{ seo_tags }}
 </head>
 
 <body class="{{page.layout}}">
