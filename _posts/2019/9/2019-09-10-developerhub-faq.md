@@ -5,7 +5,8 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/developerhubfaq
-description: "DeveloperHub is a new publishing platform for API documentation that lets you combine your API reference information with tutorials and other documentation, complete with search, branding, navigation, and other features in a developer portal. In this post, I asked Zaid Daba'een, CEO & Founder of DeveloperHub, to share a bit of info about DeveloperHub."
+last-modified: 2026-11-24
+description: "DeveloperHub is a hosted documentation platform for product docs and API references, where writers use a visual editor, developers use Git, and AI agents connect through MCP. In this Q&A, updated in November 2026, Zaid Daba'een, CEO & Founder of DeveloperHub, explains how the platform works today."
 ---
 
 * TOC
@@ -13,90 +14,85 @@ description: "DeveloperHub is a new publishing platform for API documentation th
 
 *Note that DeveloperHub is a site sponsor.*
 
+*Updated November 2026. I first published this Q&A with Zaid Daba'een, founder of DeveloperHub, in 2019. Documentation has changed a lot since then, from Git-based workflows to AI agents that read and write docs, so Zaid answered a fresh set of questions.*
+
 ### What is DeveloperHub?
 
-[DeveloperHub](https://developerhub.io/?utm_source=idratherbewriting&utm_medium=hibanner&utm_campaign=c1){:rel="nofollow"} provides hosted documentation portals as a service for product and API documentation. We eliminate all engineering resources that are required for you to build a documentation portal and provide you with the complete toolkit to create and publish top-notch documentation portals.
+[DeveloperHub](https://developerhub.io/?utm_source=idratherbewriting&utm_medium=hibanner&utm_campaign=c1){:rel="nofollow"} is a hosted documentation platform for product docs and API references. Writers use a visual editor, developers use Git, and docs are AI-ready from day one: llms.txt, markdown and MCP. We host everything, so a team gets a fast docs site on its own domain, with guides, API references, changelogs and landing pages in one place, without building or running a site of its own.
 
-Here's a sample page from the DeveloperHub's Getting Started documentation:
+### Who is it for?
 
-<a href="https://docs.developerhub.io/v1.0/support-center/getting-started" rel="nofollow"><img src="{{site.media}}/developerhubscreenshot1.png" style="border: 1px solid #dedede;" alt="DeveloperHub Published Documentation" /></a>
+Teams where more than one kind of person writes the docs: technical writers, developers, product managers, support and, more and more, AI agents. Many of our customers are established companies that want roles, reviews and control over what goes live, such as OPSWAT, Yoti, Rackspace and Flux.
 
-Here is the same page in the Editor view:
+### Why did you build it?
 
-<img src="{{site.media}}/developerhubscreenshot2.png" style="border: 1px solid #dedede;" alt="DeveloperHub Editor" />
+I'd spent years building products, APIs and SDKs, and every time we reached the documentation phase, the options were slow. Either an engineer had to build and maintain a static site, or the team picked a tool that writers liked and developers avoided. I wanted one place where a writer and a developer could work on the same docs without either of them waiting on the other.
 
-### Who is your target audience?
+That's still the idea. We've been at it since 2018, and we're profitable and bootstrapped, so we build for our customers rather than for investors.
 
-Our target audience is tech companies, mainly SaaS, but also general software and hardware companies. We target small and medium businesses with product teams as big as 20 or more.
+### How is DeveloperHub different from other docs platforms today?
 
-### Why did you create DeveloperHub?
+Most docs platforms start from one kind of author. Some start from Git and add an editor on top; others start from an editor and sync to Git. We built DeveloperHub so that everyone edits the same pages, however they work:
 
-I've been developing products, APIs, and SDKs for 7 years, and every time I get to the documentation phase, I realize how all the solutions out there are very time-consuming. The developer experience has changed dramatically since I started working professionally, from PDFs to markdown readmes in GitHub projects, to static websites, to what are now called developer hubs, or developer portals.
+- **Writers** in a visual editor that needs no code.
+- **Developers** in Git, through two-way GitHub sync, with a check on every pull request.
+- **AI agents** through MCP, with the page content they write saved as a draft until someone publishes it.
 
-The problem is, creating developer portals is very hard. It's a complete product and companies have to assign a big team of product managers, developers, designers, DevOps, etc., to get that developer portal up and ready. Writers have to learn new skills or burden the developers with requests to copy Google Docs into the documentation code.
+Roles and reviews come on every plan, not only with an enterprise contract, and pricing is per docs site with editors included, not per seat.
+
+### How do writers and developers work on the same docs?
+
+Writers use the visual editor, and developers work in Git, on the same pages. Two-way Git sync keeps every page as a file in your repo, along with the navigation, changelogs, synced blocks and how the site looks. Every pull request gets a check that catches broken links, invalid navigation or a broken API spec before it merges, and what writers publish in the editor is committed to the repo too. Nobody works on a copy, and nobody waits for someone else to make an edit.
 
 {% include ads.html %}
 
-Going through this journey, I realized how out-dated most technical writing software is. It's shocking to see how developer tools are so convenient and powerful, but still, tech writing software is many years behind.
+### Can AI agents write our docs?
 
-It was clear to me then that the problem does not exist only for developer portals. It's all over the documentation world. So we set out to build the top-notch experience for writers and readers of product and API documentation.
+Yes. Our Editor MCP server, on every plan, lets Claude, Cursor, Codex or any other MCP client find, write and publish pages. It acts as the person who connected it, so it only reaches what they can already edit, and the page content it writes is saved as a draft until someone publishes it.
 
-### How does DeveloperHub differ from Readme?
+For automated workflows, such as a release pipeline that updates the release notes, an MCP key gives a script access without a person signing in, limited to just the tools it needs.
 
-[Readme](https://readme.com){:rel="nofollow"} has a great offering for enterprise with its developer metrics. It has paved the way for dynamic documentation adoption. Regardless, we've had many customers moving off from Readme to DeveloperHub due to a few reasons:
+And for agents that work from your repo, our open-source agent skills teach them DeveloperHub's page format, how to organise a docs repo, and how to migrate docs from another tool.
 
-* [**Customisability**](https://docs.developerhub.io/support-center/customising-visuals){:rel="nofollow"}: DeveloperHub is highly customizable to the last CSS option, just as if you're editing it in the browsers' DevTools. It's your documentation portal &mdash; please show off your branding!
-* **Editor**: Our editor is one of the best out there. Markdown is constrained to developers, and extensibility is very limited. Our customers report 30% faster content development using our editor due to the modern instant formatting and the different formatting options there are (Markdown, toolbar, and keyboard shortcuts).
-* [**Data portability**](https://docs.developerhub.io/support-center/exporting-documentation){:rel="nofollow"}: We not only allow you to export your content but also celebrate it and provide you with powerful tools to export it. Our exports can be imported back perfectly, without data loss. That means that you can have an offline version which you can mass-edit, restructure, and then upload back to give your documentation portal a complete makeover, or just simple replacements.
-* **Documentation variety**: We're a platform for product managers, technical writers, and developers. We host portals for product, APIs, SDKs, user guides, and even hardware documentation and datasheets.
-* **Support**: Ask any DeveloperHub customer what they think of our support, and their answer would be: "Unbelievable, fast and personal." I keep personal connections with all of my customers, ensuring their happiness at every different level of team size.
+### How do AI tools read docs built with DeveloperHub?
 
-### Can you import an OpenAPI specification file?
+Every page has a Markdown version, and every site publishes an llms.txt index, so AI tools get clean text instead of a rendered web page. Readers can also connect their own AI tools, such as Claude Code or Cursor, to your docs through our reader MCP server, and search them from inside their editor. Readers who'd rather ask than search get answers from the AI Assistant on your site, with links to the pages it used.
 
-We have support for [OpenAPI 2.0/Swagger specification files](/learnapidoc/pubapis_swagger.html), and OpenAPI 3.0 support is upcoming in early 2020. The [references created by DeveloperHub](https://docs.developerhub.io/support-center/api-references){:rel="nofollow"} are beautiful and the information is laid out clearly in a three-column layout. The third column, for code examples, contains [auto-generated requests](https://docs.developerhub.io/support-center/code-generation){:rel="nofollow"} using different libraries, and auto-generated responses if they were not specified in the spec file.
+### What have you learned from watching AI agents read docs?
 
-Here's an example of an API reference topic:
+We looked at three months of traffic to the docs sites we host, and published it as the [AI Docs Report 2026](https://developerhub.io/reports/ai-docs-report-2026){:rel="nofollow"}. A few findings stood out:
 
-<a href="https://docs.developerhub.io/api/ref#getlists-all-project-versions" rel="nofollow"><img src="{{site.media}}/developerhubscreenshot3.png" style="border: 1px solid #dedede;" alt="DeveloperHub API Reference" /></a>
+- **AI is a big share of docs readers already.** 39% of readers were AI: 30% crawlers and 9% assistants fetching pages for someone.
+- **Coding agents dominate.** Claude went from 7% to 38% of AI assistant traffic to docs in three months, and about 9 in 10 of those fetches came from Claude Code.
+- **Agents guess URLs.** 12% of Claude's fetches were for pages that don't exist, against 0.4% for ChatGPT. Keeping redirects for renamed pages matters more than it used to.
+- **Markdown is half the size.** A docs page in Markdown is about 15 KB, against 29 KB rendered, which means fewer tokens for the same answer.
+- **llms.txt is for developers' tools, not crawlers.** Only about 1 in 5,000 AI crawler fetches asked for it, and about 95% of llms.txt requests came from developers' own tools.
 
-API reference topics should never be separated from user guide topics; thus our lightning-fast search looks through user guides and references in one go.
+For writers, the lesson is that agents land in the middle of your docs, often by guessing. Pages that make sense on their own, with stable URLs, serve both readers.
 
-### How does DeveloperHub solve the fragmentation issue between conceptual docs (not defined in an OpenAPI spec file) and reference docs (defined in an OpenAPI spec file)?
+### How do you handle API references?
 
-We believe OpenAPI specs should be [auto-generated from code](https://docs.developerhub.io/support-center/view-references#generators){:rel="nofollow"} (there are tons of libraries which do that) and should be delivered to your documentation portal through CI/CD pipelines. That's why we provide a [secure API](https://docs.developerhub.io/api/ref){:rel="nofollow"} through which your deployment process can update the API Reference, so your API Reference is never outdated with your code. Using versioning, you can keep multiple API References for each API version.
+We support OpenAPI 3.2, 3.1 and 3.0, and [OpenAPI 2.0 (Swagger)](/learnapidoc/pubapis_swagger.html), webhooks included. Every endpoint gets an interactive reference with a playground for trying requests, and code examples in more than 10 languages. You can keep the spec in your repo and let GitHub sync bring it in, push it from your CI pipeline through our API, or edit it in our visual spec editor.
 
-### How do you handle some of the more challenging tasks in tech comm -- PDFs (of the entire doc set), localization, and search?
+Guides and API references live in the same site and the same versions, link to each other and are searched together, so readers don't have to know which half an answer lives in.
 
-We would like to be changers of the world of documentation, we want to move it forward. It was shocking and wonderful to see that many hardware manufacturers do not want to publish a PDF anymore for datasheets. They want datasheets to be readily available, on a website, completely searchable and editable at any time. Once you have an editable website, you no longer need to update PDFs all around different hardware websites when document revisions happen. While our pages are print-ready and optimized, we'll still encourage sending a URL rather than a PDF.
+### Can we control who sees and publishes what?
 
-Many customers localize their product documentation by setting up localized documentation sections. At DeveloperHub, [every project](https://docs.developerhub.io/support-center/project-structure){:rel="nofollow"} can have many versions (v1.0, v1.1, etc.), and each version has many documentation/reference (Android SDK, iOS SDK, etc.) sections. Thus, our customers set up documentation under a version and name it according to the locale &mdash; en, fr, zh and so on. Moreover, using custom Javascript, you could set up any of the online on-the-fly translation services.
+Yes, on every plan. There are four roles (reviewer, writer, publisher and admin), reviews before anything is published, and an activity log of who changed what.
 
-Our [search](https://docs.developerhub.io/support-center/using-search){:rel="nofollow"} is lightning fast at (~15ms average speed) &mdash; nothing less than what you'd expect from the top websites out there. Typos are forgiven. Every search result leads you to the heading where you'll find the answer. Most importantly, it looks through your user guides and your API references, so you get the complete picture.
+From Plus, docs can be private, behind a password, email invites and magic links, your own login through JWT, or single sign-on. Audiences let you show or hide a page, or a block within it, depending on who the reader is, such as their plan or role. Single sign-on for your editors comes with Enterprise.
 
-### Do you have any on-premise offerings?
+### How hard is it to move our docs over?
 
-We do not have any on-premise offerings.
+From Mintlify, ReadMe or Zendesk, it's one click when you sign up. From anywhere else, such as Docusaurus, MkDocs, Sphinx, GitBook, Confluence or Notion, our free, open-source migrate-docs skill lets your own AI coding agent do the move, and it writes a redirect for every URL that changed. On paid plans our team helps with the migration too.
 
-### Can you password protect docs?
+### How much does it cost?
 
-DeveloperHub documentation can be [private](https://docs.developerhub.io/support-center/password-protection){:rel="nofollow"} or public. Public documentation is available for everyone on the web. Private documentation can be accessed in two ways:
-* **Using a password**. You will be prompted to enter a password on attempting to access the documentation.
-* **Using a secure link**. Similar to how Google Docs allows you to share links, DeveloperHub allows you to provide your readers with a secure link that bypasses the login and allows them to view content.
+Pricing is per docs site, with editors included, rather than per seat.
 
-### Can you re-use the same content on different pages?
+- **Free:** $0 for one editor, with no time limit.
+- **Plus:** $99 a month billed annually ($129 monthly), with 5 editors, your own domain and private docs.
+- **Pro:** $199 a month billed annually ($229 monthly), with 20 editors, the AI Assistant for readers, search analytics, and full branding customisation with your own CSS and JavaScript.
+- **Enterprise:** from $499 a month, with single sign-on for editors, white-labelling and an SLA.
 
-We are at the moment implementing two types of single-sourcing features:
-* **Variables**: Define your variables and use them as desired in your documentation. Once you change a variable value, it'll be changed for every instance. No more "replace all."
-* **Content snippets**: Similar to variables, content snippets include rich text and rich media which can be reused in your documentation.
-
-Expect these two features very soon in Q4.  
-
-### How much control do you have with styling and branding?
-
-[Complete control](https://docs.developerhub.io/support-center/customising-visuals){:rel="nofollow"}. We provide simple controls to change colors, logos, navigation, and font which helps everyone get general branding in seconds. For more control, you can change every last detail using our Custom CSS feature. Add animation, borders, icons, your own custom font &mdash; anything really. Furthermore, you can add a website footer to unify the experience with your main website.
-
-### How much does DeveloperHub cost?
-
-Today, DeveloperHub has [three tiers](https://developerhub.io/pricing){:rel="nofollow"} between $39 and $99 per month, depending on the team size and customizability options needed. Also consider that because DeveloperHub eliminates the need for engineering resources to publish and host your documentation, you could be saving at least 10x the time and money.
-
-To learn more, go to [DeveloperHub](https://developerhub.io/?utm_source=idratherbewriting&utm_medium=hibanner&utm_campaign=c1){:rel="nofollow"} and start exploring the platform with a sample project. You can get started in under a minute.
+Every paid plan starts with a 14-day trial that needs no card. To learn more, see [developerhub.io](https://developerhub.io/?utm_source=idratherbewriting&utm_medium=hibanner&utm_campaign=c1){:rel="nofollow"}.
