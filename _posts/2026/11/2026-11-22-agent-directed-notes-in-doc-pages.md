@@ -12,8 +12,6 @@ description: "Some doc sites now include notes aimed directly at coding agents, 
 * TOC
 {:toc}
 
-{% include ads.html %}
-
 Recently on some doc sites, I've started to see little notes and customizations for coding agents. For example, on Stripe's [quickstart](https://docs.stripe.com/payments/quickstart.md), [get started](https://docs.stripe.com/get-started.md), and [use cases](https://docs.stripe.com/get-started/use-cases.md) Markdown pages, we see this:
 
 > Coding agents: [install the Stripe CLI](https://docs.stripe.com/cli/install) using the installation script for your operating system. Open a new terminal and run `stripe sandbox create --help` to provision an anonymous Stripe sandbox with working API keys. It doesn’t require account registration.
@@ -35,6 +33,8 @@ In [Designing an Agent Reading Test](https://dacharycarey.com/2026/04/06/designi
 Prompt injection on the web isn't just a theoretical concern. In [Indirect Prompt Injection in the Wild](https://arxiv.org/abs/2604.27202), Khodayari et al. analyzed 1.2 billion URLs across 24.8 million hosts and found 15,300 validated instances of indirect prompt injection across 11,700 pages, spanning disruptive prompts, reputation manipulation, and content-protection directives. About 70% of those instructions were hidden in non-rendered HTML such as headers, comments, or metadata. 
 
 If you could simply hide some text on a page that tells an agent what to do, and the agent obeyed it, AI tools wouldn't last long, because they would become vectors for malware. As such, agents are on high alert for safety risks like this, and in the researchers' experiments, compliance with hidden instructions stayed low (topping out at 8% for smaller models on plain text). Doc sites that resemble prompt injection will most likely find their instructions ignored or blocked.
+
+{% include ads.html %}
 
 Besides the risks I noted, there's also reason to push back on agent-directed notes based on how agents work. There's a common assumption that when you ask an agent to code something, it goes out and reads the web for you, then comes back with instructions on how to build the app. In reality, coding agents often rely on their training data first, since searching and fetching web pages adds latency and bloats token consumption.
 
