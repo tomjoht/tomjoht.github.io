@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google" value="notranslate">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="I'd Rather Be Writing" href="https://idratherbewriting.com/feed.xml">
   {% assign last_url_char = page.url | slice: -1 %}
   {% if last_url_char == '/' %}{% assign markdown_path = page.url | append: 'index' %}{% else %}{% assign markdown_path = page.url | replace: '.html', '' %}{% endif %}
   <link rel="alternate" type="text/markdown" href="{{ site.url }}{{ markdown_path }}.md" title="Markdown mirror">
@@ -683,7 +685,7 @@
             <!-- post metadata: byline, post date, github button -->
             <p class="page-meta" data-markdown-ignore>
               {% unless page.byline == false %}
-              <i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }}
+              <i> by {% if page.author == site.author %}<a href="/aboutme/">{{ page.author }}</a>{% else %}{{ page.author }}{% endif %} on {{ page.date | date: "%b %-d, %Y" }}
                 {% endunless %}
                 <a class="noCrossRef" style="color: black"
                   href="{{page.path | prepend: 'https://github.com/tomjoht/tomjoht.github.io/blob/main/'}}"><i

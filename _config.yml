@@ -90,7 +90,7 @@ defaults:
       topnav: topnav
       comments: true
       search: true
-      author: <a href='/aboutme/'>Tom Johnson</a>
+      author: Tom Johnson
 
   -
     scope:
@@ -268,8 +268,9 @@ title: "I'd Rather Be Writing - Tom Johnson"
 tagline: "Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication."
 description: "Tom Johnson's blog on technical writing and AI: agent skills, docs for AI agents, docs-as-code, tech comm careers, and an API documentation course."
 url: https://idratherbewriting.com
-author:
-  twitter: tomjohnson
+# Plain name only. jekyll-seo-tag looks this up in _data/authors.yml for the Twitter
+# handle and profile URL. The byline in _layouts/default.html adds the /aboutme/ link.
+author: Tom Johnson
 twitter:
   username: tomjohnson
   card: summary

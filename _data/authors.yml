@@ -1,0 +1,7 @@
+# Author details for jekyll-seo-tag. The key must match the `author` string in
+# _config.yml (site.author and the posts default). seo-tag uses `twitter` for the
+# twitter:creator tag and `url` for the author URL in JSON-LD.
+Tom Johnson:
+  name: Tom Johnson
+  twitter: tomjohnson
+  url: https://idratherbewriting.com/aboutme/

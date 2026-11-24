@@ -33,6 +33,8 @@ node_modules
 **/*.ai
 **/*.psd
 **/*.ico
+# Root site icons are served from the repo (devices request them at fixed paths), not from Wasabi
+!/apple-touch-icon*.png
 **/*.rtf
 **/*.docx
 **/*.docm
