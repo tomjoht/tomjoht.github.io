@@ -44,6 +44,8 @@ Roles and reviews come on every plan, not only with an enterprise contract, and 
 
 Writers use the visual editor, and developers work in Git, on the same pages. Two-way Git sync keeps every page as a file in your repo, along with the navigation, changelogs, synced blocks and how the site looks. Every pull request gets a check that catches broken links, invalid navigation or a broken API spec before it merges, and what writers publish in the editor is committed to the repo too. Nobody works on a copy, and nobody waits for someone else to make an edit.
 
+<figure><a href="{{site.media}}/developerhub-visual-editor.png"><img style="border: 1px solid #dedede;" src="{{site.media}}/developerhub-visual-editor.png" alt="DeveloperHub visual editor with the formatting toolbar on a selected line and a reviewer's comment beside the text" /></a><figcaption>The visual editor, with the formatting toolbar on a selected line and a reviewer's comment beside the text</figcaption></figure>
+
 {% include ads.html %}
 
 ### Can AI agents write our docs?
@@ -53,6 +55,8 @@ Yes. Our Editor MCP server, on every plan, lets Claude, Cursor, Codex or any oth
 For automated workflows, such as a release pipeline that updates the release notes, an MCP key gives a script access without a person signing in, limited to just the tools it needs.
 
 And for agents that work from your repo, our open-source agent skills teach them DeveloperHub's page format, how to organise a docs repo, and how to migrate docs from another tool.
+
+<figure><a href="{{site.media}}/developerhub-ai-editor.png"><img style="border: 1px solid #dedede;" src="{{site.media}}/developerhub-ai-editor.png" alt="DeveloperHub AI Editor showing suggested changes as a diff with Accept and Reject buttons" /></a><figcaption>The AI Editor's suggested changes, shown as a diff you accept or reject before anything is saved</figcaption></figure>
 
 ### How do AI tools read docs built with DeveloperHub?
 
@@ -75,6 +79,8 @@ For writers, the lesson is that agents land in the middle of your docs, often by
 We support OpenAPI 3.2, 3.1 and 3.0, and [OpenAPI 2.0 (Swagger)](/learnapidoc/pubapis_swagger.html), webhooks included. Every endpoint gets an interactive reference with a playground for trying requests, and code examples in more than 10 languages. You can keep the spec in your repo and let GitHub sync bring it in, push it from your CI pipeline through our API, or edit it in our visual spec editor.
 
 Guides and API references live in the same site and the same versions, link to each other and are searched together, so readers don't have to know which half an answer lives in.
+
+<figure><a href="{{site.media}}/developerhub-api-reference.png"><img style="border: 1px solid #dedede;" src="{{site.media}}/developerhub-api-reference.png" alt="An endpoint in DeveloperHub's API reference with nested response fields and an example response" /></a><figcaption>An endpoint from DeveloperHub's own API reference, with nested response fields and an example response</figcaption></figure>
 
 ### Can we control who sees and publishes what?
 
