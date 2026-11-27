@@ -176,10 +176,10 @@ Get the weather forecast for your area using the [observations endpoint](https:/
 https://data.api.xweather.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
-Get the weather from a city on the equator &mdash; Chimborazo, Ecuador using the same [observations endpoint](https://www.xweather.com/docs/weather-api/endpoints/observations/):
+Get the weather from a city near the equator &mdash; Quito, Ecuador &mdash; using the same [observations endpoint](https://www.xweather.com/docs/weather-api/endpoints/observations/):
 
 ```bash
-https://data.api.xweather.com/observations/Chimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
+https://data.api.xweather.com/observations/Quito,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
 Find out if all the country music in Knoxville, Tennessee is giving people migraines using the [indices endpoint](https://www.xweather.com/docs/weather-api/endpoints/indices/):
